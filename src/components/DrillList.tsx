@@ -81,10 +81,19 @@ export const DrillList: React.FC<DrillListProps> = ({
     })
     .sort((a, b) => b.dayNumber - a.dayNumber);
 
-  // Subject quick stats
-  const subjectAttempts = userAttempts.filter(a => a.subject === subject);
-  const totalSubjectScore = subjectAttempts.reduce((acc, a) => acc + a.score, 0);
-  const totalSubjectPossible = subjectAttempts.reduce((acc, a) => acc + a.totalQuestions, 0);
+  // Subject quick stats (deduplicated by unique drill, using student's best score)
+  const subjectAttemptsRaw = userAttempts.filter(a => a.subject === subject);
+  const uniqueSubjectAttemptsMap = new Map<string, UserAttempt>();
+  subjectAttemptsRaw.forEach(att => {
+    const existing = uniqueSubjectAttemptsMap.get(att.drillId);
+    if (!existing || att.score > existing.score || (att.score === existing.score && att.completedAt > existing.completedAt)) {
+      uniqueSubjectAttemptsMap.set(att.drillId, att);
+    }
+  });
+  const subjectUniqueAttempts = Array.from(uniqueSubjectAttemptsMap.values());
+  const solvedCount = subjectUniqueAttempts.length;
+  const totalSubjectScore = subjectUniqueAttempts.reduce((acc, a) => acc + a.score, 0);
+  const totalSubjectPossible = subjectUniqueAttempts.reduce((acc, a) => acc + a.totalQuestions, 0);
   const subjectAccuracy = totalSubjectPossible > 0 ? Math.round((totalSubjectScore / totalSubjectPossible) * 100) : 0;
 
   const Icon = subjectMeta.icon;
@@ -118,7 +127,7 @@ export const DrillList: React.FC<DrillListProps> = ({
             <div className="rounded-xl border border-slate-800 bg-slate-950/80 px-4 py-2 text-center">
               <span className="text-[10px] uppercase font-bold tracking-wider text-slate-500">Solved</span>
               <p className="text-lg font-extrabold text-white">
-                {subjectAttempts.length} <span className="text-xs font-normal text-slate-500">/ {filteredDrills.length}</span>
+                {solvedCount} <span className="text-xs font-normal text-slate-500">/ {filteredDrills.length}</span>
               </p>
             </div>
             <div className="rounded-xl border border-slate-800 bg-slate-950/80 px-4 py-2 text-center">

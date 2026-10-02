@@ -196,10 +196,24 @@ export async function deleteDrillFromCloud(drillId: string): Promise<void> {
  */
 export async function saveAttemptToCloud(attempt: UserAttempt): Promise<void> {
   try {
+    recordWrite(1);
     const ref = doc(db, ATTEMPTS_COL, attempt.id);
     await setDoc(ref, attempt, { merge: true });
   } catch (err) {
     console.error('Error saving attempt to Firestore:', err);
+  }
+}
+
+/**
+ * Delete a student attempt from Firestore (used for deduplication).
+ */
+export async function deleteAttemptFromCloud(attemptId: string): Promise<void> {
+  try {
+    recordWrite(1);
+    const ref = doc(db, ATTEMPTS_COL, attemptId);
+    await deleteDoc(ref);
+  } catch (err) {
+    console.error('Error deleting attempt from Firestore:', err);
   }
 }
 

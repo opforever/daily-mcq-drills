@@ -114,8 +114,9 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
       }
     });
 
+    const userKey = currentUser ? currentUser.username.trim().toLowerCase().replace(/[^a-z0-9_]/g, '_') : 'guest';
     const attempt: UserAttempt = {
-      id: `attempt-${Date.now()}`,
+      id: `attempt_${userKey}_${drill.id}`,
       drillId: drill.id,
       username: currentUser ? currentUser.username : 'Guest Student',
       subject: drill.subject,

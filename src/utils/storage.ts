@@ -4,6 +4,7 @@ import {
   saveDrillToCloud,
   deleteDrillFromCloud,
   saveAttemptToCloud,
+  deleteAttemptFromCloud,
   saveUserToCloud,
   resetCloudPortalData
 } from './firebase';
@@ -107,7 +108,38 @@ export function syncFromCloudDrills(drills: Drill[]): void {
 
 export function syncFromCloudAttempts(attempts: UserAttempt[]): void {
   try {
-    localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
+    const bestAttemptsMap = new Map<string, UserAttempt>();
+    const oldIdsToDelete: string[] = [];
+
+    attempts.forEach(a => {
+      const uKey = (a.username || '').trim().toLowerCase();
+      const groupKey = `${uKey}_${a.drillId}`;
+      const existing = bestAttemptsMap.get(groupKey);
+
+      if (!existing) {
+        bestAttemptsMap.set(groupKey, a);
+      } else {
+        // We have duplicate attempts for the same drill!
+        if (a.score > existing.score || (a.score === existing.score && a.completedAt > existing.completedAt)) {
+          if (existing.id && existing.id !== `attempt_${uKey}_${a.drillId}`) {
+            oldIdsToDelete.push(existing.id);
+          }
+          bestAttemptsMap.set(groupKey, a);
+        } else {
+          if (a.id && a.id !== `attempt_${uKey}_${a.drillId}`) {
+            oldIdsToDelete.push(a.id);
+          }
+        }
+      }
+    });
+
+    // Delete phantom old attempts from Firestore
+    oldIdsToDelete.forEach(id => {
+      deleteAttemptFromCloud(id).catch(() => {});
+    });
+
+    const cleanAttempts = Array.from(bestAttemptsMap.values());
+    localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(cleanAttempts));
   } catch {}
 }
 
@@ -245,7 +277,20 @@ export function getStoredAttempts(): UserAttempt[] {
       localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(DEFAULT_ATTEMPTS));
       return DEFAULT_ATTEMPTS;
     }
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return DEFAULT_ATTEMPTS;
+
+    // Deduplicate by username + drillId, keeping highest/latest score
+    const bestMap = new Map<string, UserAttempt>();
+    parsed.forEach(a => {
+      const uKey = (a.username || '').trim().toLowerCase();
+      const groupKey = `${uKey}_${a.drillId}`;
+      const existing = bestMap.get(groupKey);
+      if (!existing || a.score > existing.score || (a.score === existing.score && a.completedAt > existing.completedAt)) {
+        bestMap.set(groupKey, a);
+      }
+    });
+    return Array.from(bestMap.values());
   } catch {
     return DEFAULT_ATTEMPTS;
   }
@@ -253,10 +298,10 @@ export function getStoredAttempts(): UserAttempt[] {
 
 export function saveAttempt(attempt: UserAttempt): void {
   const attempts = getStoredAttempts();
-  // If user already took this drill, update if higher or replace
-  const existingIdx = attempts.findIndex(a => a.drillId === attempt.drillId && a.username === attempt.username);
+  // If user already took this drill, update with latest or higher
+  const uKey = attempt.username.trim().toLowerCase();
+  const existingIdx = attempts.findIndex(a => a.drillId === attempt.drillId && a.username.trim().toLowerCase() === uKey);
   if (existingIdx >= 0) {
-    // Keep the latest or highest
     attempts[existingIdx] = attempt;
   } else {
     attempts.unshift(attempt);
@@ -268,7 +313,8 @@ export function saveAttempt(attempt: UserAttempt): void {
 }
 
 export function getAttemptsForUser(username: string): UserAttempt[] {
-  return getStoredAttempts().filter(a => a.username.toLowerCase() === username.toLowerCase());
+  const cleanU = username.trim().toLowerCase();
+  return getStoredAttempts().filter(a => (a.username || '').trim().toLowerCase() === cleanU);
 }
 
 export function computeLeaderboard(): LeaderboardUser[] {
@@ -277,8 +323,19 @@ export function computeLeaderboard(): LeaderboardUser[] {
 
   return users
     .map(user => {
-      const userAttempts = attempts.filter(a => a.username.toLowerCase() === user.username.toLowerCase());
+      const uKey = (user.username || '').trim().toLowerCase();
+      const userAttemptsRaw = attempts.filter(a => (a.username || '').trim().toLowerCase() === uKey);
       
+      // Deduplicate by drillId to get student's best score per unique drill
+      const userBestAttemptsMap = new Map<string, UserAttempt>();
+      userAttemptsRaw.forEach(att => {
+        const existing = userBestAttemptsMap.get(att.drillId);
+        if (!existing || att.score > existing.score || (att.score === existing.score && att.completedAt > existing.completedAt)) {
+          userBestAttemptsMap.set(att.drillId, att);
+        }
+      });
+      const uniqueDrillAttempts = Array.from(userBestAttemptsMap.values());
+
       let totalScore = 0;
       let totalPossibleMarks = 0;
       const subjectBreakdown = {
@@ -287,7 +344,7 @@ export function computeLeaderboard(): LeaderboardUser[] {
         biology: { completed: 0, score: 0, total: 0 }
       };
 
-      userAttempts.forEach(att => {
+      uniqueDrillAttempts.forEach(att => {
         totalScore += att.score;
         totalPossibleMarks += att.totalQuestions;
         if (att.subject && subjectBreakdown[att.subject]) {
@@ -298,18 +355,18 @@ export function computeLeaderboard(): LeaderboardUser[] {
       });
 
       const accuracyPercentage = totalPossibleMarks > 0 ? Math.round((totalScore / totalPossibleMarks) * 100) : 0;
-      const currentStreak = Math.min(userAttempts.length, 7); // simulated streak
+      const currentStreak = Math.min(uniqueDrillAttempts.length, 7);
 
       return {
         username: user.username,
         fullName: user.fullName || user.username,
         role: user.role,
-        drillsCompleted: userAttempts.length,
+        drillsCompleted: uniqueDrillAttempts.length,
         totalScore,
         totalPossibleMarks,
         accuracyPercentage,
         currentStreak,
-        lastActive: userAttempts.length > 0 ? Math.max(...userAttempts.map(a => a.completedAt)) : user.createdAt,
+        lastActive: uniqueDrillAttempts.length > 0 ? Math.max(...uniqueDrillAttempts.map(a => a.completedAt)) : user.createdAt,
         subjectBreakdown
       };
     })
