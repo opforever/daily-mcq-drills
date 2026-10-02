@@ -8,8 +8,16 @@ import {
   setCurrentUser, 
   getAttemptsForUser, 
   saveAttempt,
-  resetAllDataExceptAdmin
+  resetAllDataExceptAdmin,
+  syncFromCloudDrills,
+  syncFromCloudAttempts,
+  syncFromCloudUsers
 } from './utils/storage';
+import { 
+  subscribeToCloudDrills, 
+  subscribeToCloudAttempts, 
+  subscribeToCloudUsers 
+} from './utils/firebase';
 import { Navbar } from './components/Navbar';
 import { DrillList } from './components/DrillList';
 import { DrillViewer } from './components/DrillViewer';
@@ -26,6 +34,7 @@ export default function App() {
   const [currentUser, setCurrentUserState] = useState<User | null>(null);
   const [userAttempts, setUserAttempts] = useState<UserAttempt[]>([]);
   const [isInitializing, setIsInitializing] = useState(true);
+  const [isCloudConnected, setIsCloudConnected] = useState(false);
   
   // Drill taking state
   const [activeDrill, setActiveDrill] = useState<Drill | null>(null);
@@ -45,7 +54,7 @@ export default function App() {
     setTimeout(() => setToastMessage(null), 3500);
   };
 
-  // Load drills and restore persistent session on mount
+  // Load drills and restore persistent session on mount + attach live Firebase sync
   useEffect(() => {
     const loadedDrills = getStoredDrills();
     setDrills(loadedDrills);
@@ -56,6 +65,34 @@ export default function App() {
       setUserAttempts(getAttemptsForUser(savedUser.username));
     }
     setIsInitializing(false);
+
+    // 1. Live Firestore Drills listener across all phones & devices
+    const unsubDrills = subscribeToCloudDrills((cloudDrills) => {
+      setIsCloudConnected(true);
+      setDrills(cloudDrills);
+      syncFromCloudDrills(cloudDrills);
+    });
+
+    // 2. Live Firestore Attempts & Leaderboard listener
+    const unsubAttempts = subscribeToCloudAttempts((cloudAttempts) => {
+      setIsCloudConnected(true);
+      syncFromCloudAttempts(cloudAttempts);
+      const user = getCurrentUser();
+      if (user) {
+        setUserAttempts(getAttemptsForUser(user.username));
+      }
+    });
+
+    // 3. Live Firestore Registered Users listener
+    const unsubUsers = subscribeToCloudUsers((cloudUsers) => {
+      syncFromCloudUsers(cloudUsers);
+    });
+
+    return () => {
+      unsubDrills();
+      unsubAttempts();
+      unsubUsers();
+    };
   }, []);
 
   const handleUserLogin = (user: User) => {
@@ -163,6 +200,7 @@ export default function App() {
         onOpenAiStudioPrompts={() => setIsAiStudioPromptsOpen(true)}
         onOpenAddDrill={handleOpenAddDrill}
         onOpenResetModal={() => setIsResetModalOpen(true)}
+        isCloudConnected={isCloudConnected}
       />
 
       {/* Main Content Area */}

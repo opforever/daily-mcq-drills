@@ -24,6 +24,7 @@ interface NavbarProps {
   onOpenAiStudioPrompts: () => void;
   onOpenAddDrill: () => void;
   onOpenResetModal?: () => void;
+  isCloudConnected?: boolean;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -35,7 +36,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenLeaderboard,
   onOpenAiStudioPrompts,
   onOpenAddDrill,
-  onOpenResetModal
+  onOpenResetModal,
+  isCloudConnected
 }) => {
   const isAdmin = currentUser?.role === 'admin';
 
@@ -56,6 +58,15 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="hidden rounded-full border border-blue-500/30 bg-blue-950/60 px-2 py-0.5 text-[10px] font-semibold tracking-wide text-blue-300 sm:inline-block">
                 1st Year Drills
               </span>
+              {isCloudConnected && (
+                <span className="hidden items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-950/60 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 md:inline-flex" title="Connected to Google Firebase Firestore live cloud database">
+                  <span className="relative flex h-1.5 w-1.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
+                  </span>
+                  Cloud Live
+                </span>
+              )}
             </div>
             <p className="text-[11px] text-slate-400">Daily 20–25 MCQ Practice & Mastery</p>
           </div>

@@ -1,5 +1,12 @@
 import { Drill, LeaderboardUser, User, UserAttempt } from '../types';
 import { INITIAL_DRILLS } from '../data/initialDrills';
+import {
+  saveDrillToCloud,
+  deleteDrillFromCloud,
+  saveAttemptToCloud,
+  saveUserToCloud,
+  resetCloudPortalData
+} from './firebase';
 
 const DRILLS_KEY = 'kips_drills_clean_v3';
 const USERS_KEY = 'kips_users_clean_v3';
@@ -34,6 +41,28 @@ export function getStoredDrills(): Drill[] {
   }
 }
 
+export function syncFromCloudDrills(drills: Drill[]): void {
+  try {
+    localStorage.setItem(DRILLS_KEY, JSON.stringify(drills));
+  } catch {}
+}
+
+export function syncFromCloudAttempts(attempts: UserAttempt[]): void {
+  try {
+    localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
+  } catch {}
+}
+
+export function syncFromCloudUsers(users: (User & { passwordHash: string })[]): void {
+  try {
+    // Merge with admin
+    const admin = DEFAULT_USERS[0];
+    const hasAdmin = users.some(u => u.username === 'admin');
+    const combined = hasAdmin ? users : [admin, ...users];
+    localStorage.setItem(USERS_KEY, JSON.stringify(combined));
+  } catch {}
+}
+
 export function saveDrill(drill: Drill): void {
   const drills = getStoredDrills();
   const existingIdx = drills.findIndex(d => d.id === drill.id);
@@ -43,6 +72,8 @@ export function saveDrill(drill: Drill): void {
     drills.unshift(drill); // latest first
   }
   localStorage.setItem(DRILLS_KEY, JSON.stringify(drills));
+  // Live Cloud Sync
+  saveDrillToCloud(drill).catch(err => console.warn('Cloud drill save skipped:', err));
 }
 
 export function deleteDrill(drillId: string): void {
@@ -53,6 +84,9 @@ export function deleteDrill(drillId: string): void {
   // Also clean any attempts associated with this drill
   const attempts = getStoredAttempts().filter(a => a.drillId !== drillId);
   localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
+
+  // Live Cloud Delete
+  deleteDrillFromCloud(drillId).catch(err => console.warn('Cloud drill delete skipped:', err));
 }
 
 export function getStoredUsers(): (User & { passwordHash: string })[] {
@@ -93,6 +127,9 @@ export function registerUser(username: string, password: string, fullName: strin
 
   users.push(newUser);
   localStorage.setItem(USERS_KEY, JSON.stringify(users));
+
+  // Live Cloud Sync for student account
+  saveUserToCloud(newUser).catch(err => console.warn('Cloud user save skipped:', err));
 
   const safeUser: User = {
     username: newUser.username,
@@ -167,6 +204,9 @@ export function saveAttempt(attempt: UserAttempt): void {
     attempts.unshift(attempt);
   }
   localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
+
+  // Live Cloud Sync for student attempt
+  saveAttemptToCloud(attempt).catch(err => console.warn('Cloud attempt save skipped:', err));
 }
 
 export function getAttemptsForUser(username: string): UserAttempt[] {
@@ -239,4 +279,7 @@ export function resetAllDataExceptAdmin(): void {
   } else {
     localStorage.setItem(USERS_KEY, JSON.stringify(DEFAULT_USERS));
   }
+
+  // Cloud reset
+  resetCloudPortalData().catch(err => console.warn('Cloud reset skipped:', err));
 }
