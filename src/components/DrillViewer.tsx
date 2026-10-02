@@ -9,11 +9,12 @@ import {
   Clock, 
   HelpCircle, 
   Check, 
-  Flag,
-  RotateCcw,
-  Sparkles,
-  Timer,
-  Trash2
+  Flag, 
+  RotateCcw, 
+  Sparkles, 
+  Timer, 
+  Trash2,
+  Edit3
 } from 'lucide-react';
 
 interface DrillViewerProps {
@@ -22,6 +23,7 @@ interface DrillViewerProps {
   onBack: () => void;
   onFinishDrill: (attempt: UserAttempt) => void;
   onDeleteDrill?: (drillId: string) => void;
+  onEditDrill?: (drill: Drill) => void;
 }
 
 export const DrillViewer: React.FC<DrillViewerProps> = ({
@@ -29,7 +31,8 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   currentUser,
   onBack,
   onFinishDrill,
-  onDeleteDrill
+  onDeleteDrill,
+  onEditDrill
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, OptionKey>>({});
@@ -165,6 +168,18 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
               {isCountdownEnabled ? formatTimer(remainingSeconds) : formatTimer(elapsedSeconds)}
             </span>
           </div>
+
+          {/* Admin Edit Drill Option */}
+          {currentUser?.role === 'admin' && onEditDrill && (
+            <button
+              onClick={() => onEditDrill(drill)}
+              title="Edit questions, options, or explanations of this drill"
+              className="flex items-center gap-1 rounded-xl border border-cyan-500/40 bg-cyan-950/40 px-2.5 py-1.5 text-xs font-semibold text-cyan-300 hover:bg-cyan-900/60 hover:text-white transition"
+            >
+              <Edit3 className="h-3.5 w-3.5 text-cyan-400" />
+              <span className="hidden sm:inline">Edit Drill</span>
+            </button>
+          )}
 
           {/* Admin Delete Drill Option */}
           {currentUser?.role === 'admin' && onDeleteDrill && (

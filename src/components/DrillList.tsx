@@ -13,7 +13,8 @@ import {
   Award,
   Sparkles,
   TrendingUp,
-  Clock
+  Clock,
+  Edit3
 } from 'lucide-react';
 
 interface DrillListProps {
@@ -23,6 +24,7 @@ interface DrillListProps {
   currentUser: User | null;
   onSelectDrill: (drill: Drill) => void;
   onDeleteDrill?: (drillId: string) => void;
+  onEditDrill?: (drill: Drill) => void;
   onOpenAddDrill: () => void;
 }
 
@@ -33,6 +35,7 @@ export const DrillList: React.FC<DrillListProps> = ({
   currentUser,
   onSelectDrill,
   onDeleteDrill,
+  onEditDrill,
   onOpenAddDrill
 }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -262,19 +265,33 @@ export const DrillList: React.FC<DrillListProps> = ({
                     </div>
                   )}
 
-                  {/* Admin Delete Action */}
-                  {currentUser?.role === 'admin' && onDeleteDrill && (
-                    <div className="mt-3 flex justify-end">
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setDrillToDelete(drill);
-                        }}
-                        className="flex items-center gap-1 text-[11px] text-rose-500/80 hover:text-rose-400 transition"
-                      >
-                        <Trash2 className="h-3 w-3" />
-                        <span>Delete Drill</span>
-                      </button>
+                  {/* Admin Actions: Edit & Delete */}
+                  {currentUser?.role === 'admin' && (
+                    <div className="mt-3 flex items-center justify-end gap-3 border-t border-slate-800/60 pt-2.5">
+                      {onEditDrill && (
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onEditDrill(drill);
+                          }}
+                          className="flex items-center gap-1 text-[11px] font-medium text-cyan-400 hover:text-cyan-300 transition"
+                        >
+                          <Edit3 className="h-3 w-3" />
+                          <span>Edit Drill</span>
+                        </button>
+                      )}
+                      {onDeleteDrill && (
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setDrillToDelete(drill);
+                          }}
+                          className="flex items-center gap-1 text-[11px] font-medium text-rose-500/80 hover:text-rose-400 transition"
+                        >
+                          <Trash2 className="h-3 w-3" />
+                          <span>Delete</span>
+                        </button>
+                      )}
                     </div>
                   )}
                 </div>

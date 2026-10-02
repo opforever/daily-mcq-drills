@@ -44,6 +44,7 @@ export default function App() {
   const [isLeaderboardOpen, setIsLeaderboardOpen] = useState(false);
   const [isAiStudioPromptsOpen, setIsAiStudioPromptsOpen] = useState(false);
   const [isAdminDrillPosterOpen, setIsAdminDrillPosterOpen] = useState(false);
+  const [drillToEdit, setDrillToEdit] = useState<Drill | null>(null);
   const [isResetModalOpen, setIsResetModalOpen] = useState(false);
 
   // Toast alert
@@ -112,6 +113,12 @@ export default function App() {
   };
 
   const handleOpenAddDrill = () => {
+    setDrillToEdit(null);
+    setIsAdminDrillPosterOpen(true);
+  };
+
+  const handleEditDrill = (drill: Drill) => {
+    setDrillToEdit(drill);
     setIsAdminDrillPosterOpen(true);
   };
 
@@ -120,15 +127,23 @@ export default function App() {
     const updated = getStoredDrills();
     setDrills(updated);
     setCurrentSubject(newDrill.subject);
+    if (activeDrill && activeDrill.id === newDrill.id) {
+      setActiveDrill(newDrill);
+    }
+    const wasEditing = Boolean(drillToEdit);
     setIsAdminDrillPosterOpen(false);
-    showToast(`✓ Published Day ${newDrill.dayNumber} ${newDrill.title} successfully!`);
+    setDrillToEdit(null);
+    showToast(wasEditing ? `✓ Updated Day ${newDrill.dayNumber} ${newDrill.title} in Cloud!` : `✓ Published Day ${newDrill.dayNumber} ${newDrill.title} to Cloud!`);
   };
 
   const handleDeleteDrill = (drillId: string) => {
     deleteDrill(drillId);
     const updated = getStoredDrills();
     setDrills(updated);
-    showToast('✓ Drill deleted successfully.');
+    if (activeDrill && activeDrill.id === drillId) {
+      setActiveDrill(null);
+    }
+    showToast('✓ Drill deleted successfully from Cloud.');
   };
 
   const handleResetAllData = () => {
@@ -212,6 +227,7 @@ export default function App() {
             onBack={() => setActiveDrill(null)}
             onFinishDrill={handleFinishDrill}
             onDeleteDrill={handleDeleteDrill}
+            onEditDrill={handleEditDrill}
           />
         ) : (
           <DrillList
@@ -221,6 +237,7 @@ export default function App() {
             currentUser={currentUser}
             onSelectDrill={(drill) => setActiveDrill(drill)}
             onDeleteDrill={handleDeleteDrill}
+            onEditDrill={handleEditDrill}
             onOpenAddDrill={handleOpenAddDrill}
           />
         )}
@@ -241,9 +258,14 @@ export default function App() {
           initialSubject={currentSubject}
           existingDrills={drills}
           onSaveDrill={handleSaveNewDrill}
-          onClose={() => setIsAdminDrillPosterOpen(false)}
+          drillToEdit={drillToEdit}
+          onClose={() => {
+            setIsAdminDrillPosterOpen(false);
+            setDrillToEdit(null);
+          }}
           onOpenAiStudioPrompts={() => {
             setIsAdminDrillPosterOpen(false);
+            setDrillToEdit(null);
             setIsAiStudioPromptsOpen(true);
           }}
         />

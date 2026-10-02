@@ -23,6 +23,7 @@ interface AdminDrillPosterProps {
   onSaveDrill: (drill: Drill) => void;
   onClose: () => void;
   onOpenAiStudioPrompts: () => void;
+  drillToEdit?: Drill | null;
 }
 
 export const AdminDrillPoster: React.FC<AdminDrillPosterProps> = ({
@@ -30,23 +31,40 @@ export const AdminDrillPoster: React.FC<AdminDrillPosterProps> = ({
   existingDrills,
   onSaveDrill,
   onClose,
-  onOpenAiStudioPrompts
+  onOpenAiStudioPrompts,
+  drillToEdit
 }) => {
-  const [subject, setSubject] = useState<Subject>(initialSubject);
+  const isEditing = Boolean(drillToEdit);
+  const [subject, setSubject] = useState<Subject>(drillToEdit ? drillToEdit.subject : initialSubject);
   
   // Calculate next day and drill number
   const subjectDrills = existingDrills.filter(d => d.subject === subject);
   const highestDay = subjectDrills.reduce((max, d) => Math.max(max, d.dayNumber), 0);
   const nextDay = highestDay > 0 ? highestDay + 1 : 1;
 
-  const [dayNumber, setDayNumber] = useState<number>(nextDay);
-  const [drillNumber, setDrillNumber] = useState<number>(nextDay);
-  const [title, setTitle] = useState<string>('');
-  const [chapter, setChapter] = useState<string>('');
-  const [rawInput, setRawInput] = useState<string>('');
+  const [dayNumber, setDayNumber] = useState<number>(drillToEdit ? drillToEdit.dayNumber : nextDay);
+  const [drillNumber, setDrillNumber] = useState<number>(drillToEdit ? drillToEdit.drillNumber : nextDay);
+  const [title, setTitle] = useState<string>(drillToEdit ? drillToEdit.title : '');
+  const [chapter, setChapter] = useState<string>(drillToEdit ? drillToEdit.chapter : '');
+  const [rawInput, setRawInput] = useState<string>(
+    drillToEdit
+      ? JSON.stringify(
+          {
+            dayNumber: drillToEdit.dayNumber,
+            drillNumber: drillToEdit.drillNumber,
+            title: drillToEdit.title,
+            chapter: drillToEdit.chapter,
+            subject: drillToEdit.subject,
+            questions: drillToEdit.questions
+          },
+          null,
+          2
+        )
+      : ''
+  );
   const [previewTab, setPreviewTab] = useState<'editor' | 'preview'>('editor');
   const [validationError, setValidationError] = useState<string | null>(null);
-  const [parsedQuestions, setParsedQuestions] = useState<MCQ[]>([]);
+  const [parsedQuestions, setParsedQuestions] = useState<MCQ[]>(drillToEdit ? drillToEdit.questions : []);
 
   // Trigger parsing whenever input changes
   const handleInputChange = (text: string) => {
@@ -189,20 +207,20 @@ export const AdminDrillPoster: React.FC<AdminDrillPosterProps> = ({
       return;
     }
 
-    const newDrill: Drill = {
-      id: `drill-${subject}-day${dayNumber}-${Date.now()}`,
+    const updatedDrill: Drill = {
+      id: drillToEdit ? drillToEdit.id : `drill-${subject}-day${dayNumber}-${Date.now()}`,
       subject,
-      dayNumber: Number(dayNumber) || nextDay,
-      drillNumber: Number(drillNumber) || nextDay,
+      dayNumber: Number(dayNumber) || (drillToEdit ? drillToEdit.dayNumber : nextDay),
+      drillNumber: Number(drillNumber) || (drillToEdit ? drillToEdit.drillNumber : nextDay),
       title: title.trim(),
       chapter: chapter.trim() || 'General Topics',
-      date: new Date().toISOString().split('T')[0],
+      date: drillToEdit ? drillToEdit.date : new Date().toISOString().split('T')[0],
       totalMarks: parsedQuestions.length,
       questions: parsedQuestions,
-      createdAt: Date.now()
+      createdAt: drillToEdit ? drillToEdit.createdAt : Date.now()
     };
 
-    onSaveDrill(newDrill);
+    onSaveDrill(updatedDrill);
   };
 
   return (
@@ -216,10 +234,12 @@ export const AdminDrillPoster: React.FC<AdminDrillPosterProps> = ({
             </div>
             <div>
               <h2 className="text-lg font-bold text-white sm:text-xl">
-                Post New Daily MCQ Drill
+                {isEditing ? `Edit Drill: Day ${drillToEdit?.dayNumber} • ${drillToEdit?.title}` : 'Post New Daily MCQ Drill'}
               </h2>
               <p className="text-xs text-slate-400">
-                Paste JSON or formatted questions directly from Google AI Studio
+                {isEditing
+                  ? 'Update questions, correct options, or explanations — automatically syncs to Firebase Cloud'
+                  : 'Paste JSON or formatted questions directly from Google AI Studio'}
               </p>
             </div>
           </div>
@@ -490,7 +510,7 @@ Explanation: ...`}
               }`}
             >
               <Save className="h-4 w-4" />
-              <span>Publish Drill to Students</span>
+              <span>{isEditing ? 'Update & Sync to Cloud' : 'Publish Drill to Students'}</span>
             </button>
           </div>
         </div>
