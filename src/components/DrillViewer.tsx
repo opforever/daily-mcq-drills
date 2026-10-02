@@ -14,7 +14,10 @@ import {
   Sparkles, 
   Timer, 
   Trash2,
-  Edit3
+  Edit3,
+  ChevronDown,
+  ChevronUp,
+  BookOpen
 } from 'lucide-react';
 
 interface DrillViewerProps {
@@ -38,6 +41,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, OptionKey>>({});
   const [showExplanation, setShowExplanation] = useState<Record<string, boolean>>({});
   const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [expandedExplanations, setExpandedExplanations] = useState<Record<string, boolean>>({});
   
   // Timer settings: countdown toggleable (defaults to elapsed stopwatch, toggle to 25-min countdown)
   const [isCountdownEnabled, setIsCountdownEnabled] = useState(false);
@@ -73,6 +77,15 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
       ...prev,
       [currentQ.id]: key
     }));
+
+    // Auto-expand textbook notes only on mistakes, otherwise keep clean
+    const isCorrect = key === currentQ.correctAnswer;
+    if (!isCorrect) {
+      setExpandedExplanations(prev => ({
+        ...prev,
+        [currentQ.id]: true
+      }));
+    }
 
     // Instantly reveal explanation
     setShowExplanation(prev => ({
@@ -360,36 +373,85 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
           })}
         </div>
 
-        {/* Instant Explanation Box (Revealed as soon as student answers) */}
+        {/* Instant Feedback Banner & Collapsible Explanation */}
         {hasAnsweredCurrent && (
           <div
-            className={`mt-6 rounded-xl border p-4 transition-all duration-300 ${
+            className={`mt-6 rounded-2xl border transition-all duration-300 overflow-hidden shadow-lg ${
               isCurrentCorrect
-                ? 'border-emerald-500/30 bg-emerald-950/20 text-emerald-200'
-                : 'border-rose-500/30 bg-rose-950/20 text-slate-200'
+                ? 'border-emerald-500/40 bg-emerald-950/25'
+                : 'border-rose-500/40 bg-rose-950/25'
             }`}
           >
-            <div className="flex items-center gap-2">
-              {isCurrentCorrect ? (
-                <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-emerald-400">
-                  <CheckCircle2 className="h-4 w-4" /> That's Correct!
-                </span>
-              ) : (
-                <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-rose-400">
-                  <XCircle className="h-4 w-4" /> Incorrect Selection
-                </span>
-              )}
+            {/* Top Action Bar of the Feedback Banner */}
+            <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 sm:px-5 border-b border-slate-800/80 bg-slate-950/60">
+              <div className="flex items-center gap-2 flex-wrap">
+                {isCurrentCorrect ? (
+                  <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-emerald-400">
+                    <CheckCircle2 className="h-4 w-4 shrink-0" /> That's Correct!
+                  </span>
+                ) : (
+                  <span className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-rose-400">
+                    <XCircle className="h-4 w-4 shrink-0" /> Incorrect (Correct: Option {currentQ.correctAnswer})
+                  </span>
+                )}
+
+                {/* Read / Hide Explanation Button */}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setExpandedExplanations(prev => ({
+                      ...prev,
+                      [currentQ.id]: !prev[currentQ.id]
+                    }));
+                  }}
+                  className="flex items-center gap-1.5 rounded-lg border border-slate-700 bg-slate-800/90 px-2.5 py-1 text-xs font-semibold text-cyan-300 hover:bg-slate-700 hover:text-white transition cursor-pointer"
+                >
+                  <BookOpen className="h-3.5 w-3.5 text-cyan-400" />
+                  <span>{expandedExplanations[currentQ.id] ? 'Hide Textbook Notes' : 'Read Textbook Notes'}</span>
+                  {expandedExplanations[currentQ.id] ? (
+                    <ChevronUp className="h-3.5 w-3.5" />
+                  ) : (
+                    <ChevronDown className="h-3.5 w-3.5" />
+                  )}
+                </button>
+              </div>
+
+              {/* Instant Next Question Button placed right here — Zero Scrolling! */}
+              <div className="flex items-center gap-2">
+                {currentIndex < totalQuestions - 1 ? (
+                  <button
+                    type="button"
+                    onClick={handleNext}
+                    className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-1.5 text-xs font-bold text-white shadow-md hover:from-blue-500 hover:to-cyan-500 transition cursor-pointer animate-pulse"
+                  >
+                    <span>Next Question</span>
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </button>
+                ) : (
+                  <button
+                    type="button"
+                    onClick={handleSubmit}
+                    className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-4 py-1.5 text-xs font-bold text-white shadow-md hover:from-emerald-500 hover:to-teal-500 transition cursor-pointer"
+                  >
+                    <span>Finish Test</span>
+                    <Check className="h-3.5 w-3.5" />
+                  </button>
+                )}
+              </div>
             </div>
 
-            <div className="mt-2 text-xs leading-relaxed text-slate-300">
-              <span className="font-semibold text-cyan-400">FBISE Textbook Analysis: </span>
-              <LatexRenderer content={currentQ.explanation} inline />
-            </div>
+            {/* Expandable Explanation Body */}
+            {expandedExplanations[currentQ.id] && (
+              <div className="p-4 sm:p-5 text-xs sm:text-sm leading-relaxed text-slate-200 bg-slate-900/80 animate-fadeIn">
+                <span className="font-bold text-cyan-400">FBISE Textbook Analysis: </span>
+                <LatexRenderer content={currentQ.explanation} inline />
+              </div>
+            )}
           </div>
         )}
 
-        {/* Bottom Navigation Buttons */}
-        <div className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-slate-800/80 pt-5">
+        {/* Bottom Navigation Buttons (Sticky so it's always immediately reachable) */}
+        <div className="sticky bottom-3 z-30 mt-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-slate-900/95 p-3.5 sm:p-4 backdrop-blur-md shadow-2xl">
           <button
             onClick={handlePrev}
             disabled={currentIndex === 0}
