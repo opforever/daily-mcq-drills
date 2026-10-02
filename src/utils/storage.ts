@@ -1,0 +1,242 @@
+import { Drill, LeaderboardUser, User, UserAttempt } from '../types';
+import { INITIAL_DRILLS } from '../data/initialDrills';
+
+const DRILLS_KEY = 'kips_drills_clean_v3';
+const USERS_KEY = 'kips_users_clean_v3';
+const CURRENT_USER_KEY = 'kips_current_user_clean_v3';
+const ATTEMPTS_KEY = 'kips_attempts_clean_v3';
+
+// Default Admin account for the drill creator
+const DEFAULT_USERS: (User & { passwordHash: string })[] = [
+  {
+    username: 'admin',
+    role: 'admin',
+    fullName: 'FBISE Drill Master (Admin)',
+    college: 'KIPS College',
+    createdAt: Date.now(),
+    passwordHash: 'kips123'
+  }
+];
+
+const DEFAULT_ATTEMPTS: UserAttempt[] = [];
+
+export function getStoredDrills(): Drill[] {
+  try {
+    const raw = localStorage.getItem(DRILLS_KEY);
+    if (!raw) {
+      localStorage.setItem(DRILLS_KEY, JSON.stringify([]));
+      return [];
+    }
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+export function saveDrill(drill: Drill): void {
+  const drills = getStoredDrills();
+  const existingIdx = drills.findIndex(d => d.id === drill.id);
+  if (existingIdx >= 0) {
+    drills[existingIdx] = drill;
+  } else {
+    drills.unshift(drill); // latest first
+  }
+  localStorage.setItem(DRILLS_KEY, JSON.stringify(drills));
+}
+
+export function deleteDrill(drillId: string): void {
+  const currentDrills = getStoredDrills();
+  const updatedDrills = currentDrills.filter(d => d.id !== drillId);
+  localStorage.setItem(DRILLS_KEY, JSON.stringify(updatedDrills));
+  
+  // Also clean any attempts associated with this drill
+  const attempts = getStoredAttempts().filter(a => a.drillId !== drillId);
+  localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
+}
+
+export function getStoredUsers(): (User & { passwordHash: string })[] {
+  try {
+    const raw = localStorage.getItem(USERS_KEY);
+    if (!raw) {
+      localStorage.setItem(USERS_KEY, JSON.stringify(DEFAULT_USERS));
+      return DEFAULT_USERS;
+    }
+    return JSON.parse(raw);
+  } catch {
+    return DEFAULT_USERS;
+  }
+}
+
+export function registerUser(username: string, password: string, fullName: string = '', role: 'admin' | 'student' = 'student'): { success: boolean; message?: string; user?: User } {
+  const cleanUsername = username.trim().toLowerCase();
+  if (!cleanUsername || cleanUsername.length < 3) {
+    return { success: false, message: 'Username must be at least 3 characters long.' };
+  }
+  if (!password || password.length < 4) {
+    return { success: false, message: 'Password must be at least 4 characters long.' };
+  }
+
+  const users = getStoredUsers();
+  if (users.some(u => u.username.toLowerCase() === cleanUsername)) {
+    return { success: false, message: 'Username already taken. Please choose another or login.' };
+  }
+
+  const newUser = {
+    username: cleanUsername,
+    role,
+    fullName: fullName.trim() || cleanUsername,
+    college: 'KIPS College FBISE',
+    createdAt: Date.now(),
+    passwordHash: password
+  };
+
+  users.push(newUser);
+  localStorage.setItem(USERS_KEY, JSON.stringify(users));
+
+  const safeUser: User = {
+    username: newUser.username,
+    role: newUser.role,
+    fullName: newUser.fullName,
+    college: newUser.college,
+    createdAt: newUser.createdAt
+  };
+  setCurrentUser(safeUser);
+  return { success: true, user: safeUser };
+}
+
+export function authenticateUser(username: string, password: string): { success: boolean; message?: string; user?: User } {
+  const cleanUsername = username.trim().toLowerCase();
+  const users = getStoredUsers();
+  const found = users.find(u => u.username.toLowerCase() === cleanUsername && u.passwordHash === password);
+
+  if (!found) {
+    return { success: false, message: 'Invalid username or password.' };
+  }
+
+  const safeUser: User = {
+    username: found.username,
+    role: found.role,
+    fullName: found.fullName,
+    college: found.college,
+    createdAt: found.createdAt
+  };
+  setCurrentUser(safeUser);
+  return { success: true, user: safeUser };
+}
+
+export function getCurrentUser(): User | null {
+  try {
+    const raw = localStorage.getItem(CURRENT_USER_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+export function setCurrentUser(user: User | null): void {
+  if (user) {
+    localStorage.setItem(CURRENT_USER_KEY, JSON.stringify(user));
+  } else {
+    localStorage.removeItem(CURRENT_USER_KEY);
+  }
+}
+
+export function getStoredAttempts(): UserAttempt[] {
+  try {
+    const raw = localStorage.getItem(ATTEMPTS_KEY);
+    if (!raw) {
+      localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(DEFAULT_ATTEMPTS));
+      return DEFAULT_ATTEMPTS;
+    }
+    return JSON.parse(raw);
+  } catch {
+    return DEFAULT_ATTEMPTS;
+  }
+}
+
+export function saveAttempt(attempt: UserAttempt): void {
+  const attempts = getStoredAttempts();
+  // If user already took this drill, update if higher or replace
+  const existingIdx = attempts.findIndex(a => a.drillId === attempt.drillId && a.username === attempt.username);
+  if (existingIdx >= 0) {
+    // Keep the latest or highest
+    attempts[existingIdx] = attempt;
+  } else {
+    attempts.unshift(attempt);
+  }
+  localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
+}
+
+export function getAttemptsForUser(username: string): UserAttempt[] {
+  return getStoredAttempts().filter(a => a.username.toLowerCase() === username.toLowerCase());
+}
+
+export function computeLeaderboard(): LeaderboardUser[] {
+  const users = getStoredUsers();
+  const attempts = getStoredAttempts();
+
+  return users
+    .map(user => {
+      const userAttempts = attempts.filter(a => a.username.toLowerCase() === user.username.toLowerCase());
+      
+      let totalScore = 0;
+      let totalPossibleMarks = 0;
+      const subjectBreakdown = {
+        physics: { completed: 0, score: 0, total: 0 },
+        chemistry: { completed: 0, score: 0, total: 0 },
+        biology: { completed: 0, score: 0, total: 0 }
+      };
+
+      userAttempts.forEach(att => {
+        totalScore += att.score;
+        totalPossibleMarks += att.totalQuestions;
+        if (att.subject && subjectBreakdown[att.subject]) {
+          subjectBreakdown[att.subject].completed += 1;
+          subjectBreakdown[att.subject].score += att.score;
+          subjectBreakdown[att.subject].total += att.totalQuestions;
+        }
+      });
+
+      const accuracyPercentage = totalPossibleMarks > 0 ? Math.round((totalScore / totalPossibleMarks) * 100) : 0;
+      const currentStreak = Math.min(userAttempts.length, 7); // simulated streak
+
+      return {
+        username: user.username,
+        fullName: user.fullName || user.username,
+        role: user.role,
+        drillsCompleted: userAttempts.length,
+        totalScore,
+        totalPossibleMarks,
+        accuracyPercentage,
+        currentStreak,
+        lastActive: userAttempts.length > 0 ? Math.max(...userAttempts.map(a => a.completedAt)) : user.createdAt,
+        subjectBreakdown
+      };
+    })
+    .sort((a, b) => b.totalScore - a.totalScore || b.accuracyPercentage - a.accuracyPercentage);
+}
+
+/**
+ * Resets all drills, student accounts, test attempts, and leaderboard data.
+ * Keeps ONLY the admin account intact so admin login never breaks.
+ */
+export function resetAllDataExceptAdmin(): void {
+  // Clear all drills
+  localStorage.setItem(DRILLS_KEY, JSON.stringify([]));
+  // Clear all student attempts
+  localStorage.setItem(ATTEMPTS_KEY, JSON.stringify([]));
+  // Clean up legacy keys
+  ['kips_drills_v1', 'kips_drills_clean_v2', 'kips_attempts_v1'].forEach(k => {
+    try { localStorage.removeItem(k); } catch {}
+  });
+  // Filter users to keep only admin
+  const users = getStoredUsers();
+  const adminUsers = users.filter(u => u.role === 'admin');
+  if (adminUsers.length > 0) {
+    localStorage.setItem(USERS_KEY, JSON.stringify(adminUsers));
+  } else {
+    localStorage.setItem(USERS_KEY, JSON.stringify(DEFAULT_USERS));
+  }
+}
