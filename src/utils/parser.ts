@@ -191,9 +191,32 @@ function extractQuestionsWithRegex(rawText: string, defaultSubject: Subject): Pa
       D: optD ? cleanStringLiteral(optD[1]) : ''
     };
 
-    // Extract correct answer
-    const ansMatch = block.match(/"correctAnswer"\s*:\s*"([A-D])"/i) || block.match(/"answer"\s*:\s*"([A-D])"/i);
-    const correctAnswer: OptionKey = ansMatch ? (ansMatch[1].toUpperCase() as OptionKey) : 'A';
+    // Extract correct answer with universal key and pattern support
+    const ansMatch = 
+      block.match(/"(?:correct_answer|correctAnswer|answer|correct_option|correctOption|correct|key|ans|right_answer)"\s*:\s*"([^"]+)"/i) ||
+      block.match(/"(?:correct_answer|correctAnswer|answer|correct_option|correctOption|correct|key|ans|right_answer)"\s*:\s*([0-3])/i);
+
+    let correctAnswer: OptionKey = 'A';
+    if (ansMatch) {
+      const val = ansMatch[1].trim();
+      if (/^[0-3]$/.test(val)) {
+        correctAnswer = ['A', 'B', 'C', 'D'][parseInt(val)] as OptionKey;
+      } else {
+        const letterMatch = val.match(/\b([A-D])\b/i) || val.match(/^[(\[]?([A-D])[)\]\.\:]/i);
+        if (letterMatch) {
+          correctAnswer = letterMatch[1].toUpperCase() as OptionKey;
+        } else {
+          // Check matching option text
+          const cleanVal = val.toLowerCase().trim();
+          for (const k of ['A', 'B', 'C', 'D'] as const) {
+            if (options[k] && options[k].toLowerCase().includes(cleanVal)) {
+              correctAnswer = k;
+              break;
+            }
+          }
+        }
+      }
+    }
 
     // Extract explanation
     const expMatch = block.match(/"explanation"\s*:\s*"([\s\S]*?)(?<!\\)"/);
@@ -253,11 +276,28 @@ function parseJsonObject(parsed: any, defaultSubject: Subject): ParsedDrillResul
   if (Array.isArray(parsed)) {
     questionsArray = parsed;
   } else if (typeof parsed === 'object' && parsed !== null) {
-    if (Array.isArray(parsed.questions)) {
+    if (Array.isArray(parsed.drill)) {
+      questionsArray = parsed.drill;
+    } else if (Array.isArray(parsed.drills)) {
+      questionsArray = parsed.drills;
+    } else if (Array.isArray(parsed.questions)) {
       questionsArray = parsed.questions;
     } else if (Array.isArray(parsed.mcqs)) {
       questionsArray = parsed.mcqs;
+    } else if (Array.isArray(parsed.data)) {
+      questionsArray = parsed.data;
+    } else if (Array.isArray(parsed.items)) {
+      questionsArray = parsed.items;
+    } else {
+      // Find the first array property in the object
+      for (const key of Object.keys(parsed)) {
+        if (Array.isArray(parsed[key]) && parsed[key].length > 0 && typeof parsed[key][0] === 'object') {
+          questionsArray = parsed[key];
+          break;
+        }
+      }
     }
+
     dayNumber = parsed.dayNumber || parsed.day || parsed.drillNumber;
     drillNumber = parsed.drillNumber || parsed.dayNumber;
     title = parsed.title || parsed.topic;
@@ -301,13 +341,49 @@ function parseJsonObject(parsed: any, defaultSubject: Subject): ParsedDrillResul
       }
     }
 
-    let rawAns = String(q.correctAnswer || q.answer || q.key || q.correct || 'A').toUpperCase().trim();
+    // Universal key extraction for correct answer (snake_case, camelCase, lowercase, etc.)
+    const rawCandidate = 
+      q.correct_answer !== undefined ? q.correct_answer :
+      q.correctAnswer !== undefined ? q.correctAnswer :
+      q.answer !== undefined ? q.answer :
+      q.correct !== undefined ? q.correct :
+      q.key !== undefined ? q.key :
+      q.correct_option !== undefined ? q.correct_option :
+      q.correctOption !== undefined ? q.correctOption :
+      q.right_answer !== undefined ? q.right_answer :
+      q.rightAnswer !== undefined ? q.rightAnswer :
+      q.ans !== undefined ? q.ans :
+      null;
+
     let correctAnswer: OptionKey = 'A';
-    if (['A', 'B', 'C', 'D'].includes(rawAns)) {
-      correctAnswer = rawAns as OptionKey;
-    } else {
-      const match = rawAns.match(/\b([A-D])\b/);
-      if (match) correctAnswer = match[1] as OptionKey;
+    if (rawCandidate !== null && rawCandidate !== undefined) {
+      if (typeof rawCandidate === 'number') {
+        if (rawCandidate >= 0 && rawCandidate <= 3) {
+          correctAnswer = ['A', 'B', 'C', 'D'][rawCandidate] as OptionKey;
+        } else if (rawCandidate >= 1 && rawCandidate <= 4) {
+          correctAnswer = ['A', 'B', 'C', 'D'][rawCandidate - 1] as OptionKey;
+        }
+      } else {
+        const rawStr = String(rawCandidate).trim();
+        const upper = rawStr.toUpperCase();
+        if (['A', 'B', 'C', 'D'].includes(upper)) {
+          correctAnswer = upper as OptionKey;
+        } else {
+          const match = upper.match(/\b([A-D])\b/) || upper.match(/^[(\[]?([A-D])[)\]\.\:]/);
+          if (match) {
+            correctAnswer = match[1] as OptionKey;
+          } else {
+            // Check if matches text of options A, B, C, or D
+            const cleanStr = rawStr.toLowerCase().trim();
+            for (const k of ['A', 'B', 'C', 'D'] as const) {
+              if (options[k] && options[k].toLowerCase().trim() === cleanStr) {
+                correctAnswer = k;
+                break;
+              }
+            }
+          }
+        }
+      }
     }
 
     const explanation = q.explanation || q.reason || q.solution || 'Refer to FBISE textbook.';

@@ -456,17 +456,31 @@ Explanation: ...`}
 
                       <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-1.5">
                         {(['A', 'B', 'C', 'D'] as const).map(k => (
-                          <div
+                          <button
+                            type="button"
                             key={k}
-                            className={`rounded px-2.5 py-1 ${
+                            onClick={() => {
+                              const updated = [...parsedQuestions];
+                              updated[idx] = { ...updated[idx], correctAnswer: k };
+                              setParsedQuestions(updated);
+                            }}
+                            title={`Click to set Option ${k} as the correct answer`}
+                            className={`rounded px-2.5 py-1 text-left transition cursor-pointer flex items-center justify-between ${
                               k === q.correctAnswer
-                                ? 'bg-emerald-950/60 border border-emerald-500/40 text-emerald-300 font-bold'
-                                : 'bg-slate-950/60 border border-slate-800 text-slate-400'
+                                ? 'bg-emerald-950/80 border border-emerald-500/60 text-emerald-300 font-bold ring-1 ring-emerald-500/30'
+                                : 'bg-slate-950/60 border border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200'
                             }`}
                           >
-                            <span className="mr-1.5">{k})</span>
-                            <LatexRenderer content={q.options[k]} inline />
-                          </div>
+                            <div className="flex-1">
+                              <span className="mr-1.5 font-bold">{k})</span>
+                              <LatexRenderer content={q.options[k]} inline />
+                            </div>
+                            {k === q.correctAnswer && (
+                              <span className="ml-1 shrink-0 rounded bg-emerald-500/20 px-1.5 py-0.5 text-[9px] font-bold text-emerald-400">
+                                Correct ✓
+                              </span>
+                            )}
+                          </button>
                         ))}
                       </div>
 

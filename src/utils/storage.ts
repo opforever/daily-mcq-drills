@@ -1,4 +1,4 @@
-import { Drill, LeaderboardUser, User, UserAttempt } from '../types';
+import { Drill, LeaderboardUser, User, UserAttempt, OptionKey } from '../types';
 import { INITIAL_DRILLS } from '../data/initialDrills';
 import {
   saveDrillToCloud,
@@ -27,6 +27,53 @@ const DEFAULT_USERS: (User & { passwordHash: string })[] = [
 
 const DEFAULT_ATTEMPTS: UserAttempt[] = [];
 
+export function autoRepairKnownDrill(drill: Drill): boolean {
+  if (drill.subject !== 'biology') return false;
+  let changed = false;
+  
+  const knownAnswers: Record<string, OptionKey> = {
+    'Unlike DNA, RNA is generally single-stranded': 'B',
+    'relative abundance in a typical eukaryotic cell': 'C',
+    'length of a messenger RNA (mRNA) molecule is highly variable': 'C',
+    'how many different kinds of tRNA molecules have been identified': 'B',
+    'typical length of a tRNA molecule': 'C',
+    "cloverleaf' model of tRNA features several distinct loops": 'A',
+    'specific site for amino acid attachment': 'B',
+    'middle loop of the tRNA cloverleaf structure': 'C',
+    'Theta loop of a tRNA molecule': 'A',
+    'primary role of rRNA during translation': 'C',
+    'folded back on itself to form a double-helical region': 'C',
+    'covalently bonded together, the resulting complex is called': 'B',
+    'where are glycolipids abundantly present in mammals': 'B',
+    'Blood group antigens': 'D',
+    'Lipoproteins are complexes formed by proteins and': 'B',
+    'basic structural framework of all biological cell membranes': 'C',
+    'primarily composed of nucleic acids complexed with': 'B',
+    'two major cellular structures are composed entirely of nucleoproteins': 'B',
+    'NOT listed in the textbook as a function of glycoproteins': 'C',
+    'makes up roughly 3-4% of the total cellular RNA': 'C',
+    'where are lipoproteins NEVER found': 'D',
+    "structurally alters the 3' CCA-OH terminus": 'B',
+    'difference between a codon and an anticodon': 'B',
+    'interaction between cells, such as immune system responses': 'A',
+    'mRNA, tRNA, and rRNA all share which of the following characteristics': 'B'
+  };
+
+  drill.questions.forEach((q) => {
+    for (const [snippet, correctKey] of Object.entries(knownAnswers)) {
+      if (q.question.includes(snippet)) {
+        if (q.correctAnswer !== correctKey) {
+          q.correctAnswer = correctKey;
+          changed = true;
+        }
+        break;
+      }
+    }
+  });
+
+  return changed;
+}
+
 export function getStoredDrills(): Drill[] {
   try {
     const raw = localStorage.getItem(DRILLS_KEY);
@@ -35,7 +82,13 @@ export function getStoredDrills(): Drill[] {
       return [];
     }
     const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
+    const drills = Array.isArray(parsed) ? parsed : [];
+    drills.forEach(d => {
+      if (autoRepairKnownDrill(d)) {
+        saveDrillToCloud(d).catch(() => {});
+      }
+    });
+    return drills;
   } catch {
     return [];
   }
@@ -43,6 +96,11 @@ export function getStoredDrills(): Drill[] {
 
 export function syncFromCloudDrills(drills: Drill[]): void {
   try {
+    drills.forEach(d => {
+      if (autoRepairKnownDrill(d)) {
+        saveDrillToCloud(d).catch(() => {});
+      }
+    });
     localStorage.setItem(DRILLS_KEY, JSON.stringify(drills));
   } catch {}
 }
