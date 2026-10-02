@@ -10,9 +10,10 @@ import {
   getDocs,
   writeBatch,
   query,
-  orderBy
+  orderBy,
+  limit
 } from 'firebase/firestore';
-import { Drill, UserAttempt, User } from '../types';
+import { Drill, UserAttempt, User, ChatMessage } from '../types';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyB8AxSSt1BjMkRxpXfL_10jybxdve582mc",
@@ -41,6 +42,40 @@ export const db = firestoreDb;
 const DRILLS_COL = 'kips_drills';
 const ATTEMPTS_COL = 'kips_attempts';
 const USERS_COL = 'kips_users';
+const CHAT_COL = 'kips_group_chat';
+
+// Real-Time Request Tracking for Admin
+let sessionReads = 0;
+let sessionWrites = 0;
+type MetricListener = (m: { reads: number; writes: number }) => void;
+const metricListeners: MetricListener[] = [];
+
+function notifyMetrics() {
+  metricListeners.forEach(fn => fn({ reads: sessionReads, writes: sessionWrites }));
+}
+
+export function recordRead(count = 1) {
+  sessionReads += count;
+  notifyMetrics();
+}
+
+export function recordWrite(count = 1) {
+  sessionWrites += count;
+  notifyMetrics();
+}
+
+export function getSessionMetrics() {
+  return { reads: sessionReads, writes: sessionWrites };
+}
+
+export function onSessionMetricsChange(callback: MetricListener): () => void {
+  metricListeners.push(callback);
+  callback({ reads: sessionReads, writes: sessionWrites });
+  return () => {
+    const idx = metricListeners.indexOf(callback);
+    if (idx >= 0) metricListeners.splice(idx, 1);
+  };
+}
 
 /**
  * Real-time listener for drills. Automatically notifies when any admin posts/deletes a drill.
@@ -208,3 +243,66 @@ export async function resetCloudPortalData(): Promise<void> {
     console.error('Error resetting cloud portal data:', err);
   }
 }
+
+/**
+ * Real-time listener for the group discussion chat.
+ * Restricts to the latest 40 messages to conserve Firebase read quotas!
+ */
+export function subscribeToCloudChatMessages(
+  onSuccess: (messages: ChatMessage[]) => void,
+  limitCount = 40
+): () => void {
+  try {
+    const q = query(
+      collection(db, CHAT_COL),
+      orderBy('timestamp', 'desc'),
+      limit(limitCount)
+    );
+    return onSnapshot(
+      q,
+      (snapshot) => {
+        recordRead(snapshot.docChanges().length > 0 ? snapshot.docChanges().length : snapshot.size);
+        const msgs: ChatMessage[] = [];
+        snapshot.forEach((docSnap) => {
+          msgs.push(docSnap.data() as ChatMessage);
+        });
+        // Sort ascending (chronological) for the chat display
+        msgs.sort((a, b) => a.timestamp - b.timestamp);
+        onSuccess(msgs);
+      },
+      (error) => {
+        console.warn('Firestore chat listener warning:', error);
+      }
+    );
+  } catch (err) {
+    console.warn('Failed to attach chat listener:', err);
+    return () => {};
+  }
+}
+
+/**
+ * Send a discussion message to Cloud Firestore.
+ */
+export async function sendChatMessageToCloud(msg: ChatMessage): Promise<void> {
+  try {
+    recordWrite(1);
+    const ref = doc(db, CHAT_COL, msg.id);
+    await setDoc(ref, msg);
+  } catch (err) {
+    console.error('Error sending chat message:', err);
+  }
+}
+
+/**
+ * Delete a message (Admin moderation or sender).
+ */
+export async function deleteChatMessageFromCloud(msgId: string): Promise<void> {
+  try {
+    recordWrite(1);
+    const ref = doc(db, CHAT_COL, msgId);
+    await deleteDoc(ref);
+  } catch (err) {
+    console.error('Error deleting chat message:', err);
+  }
+}
+

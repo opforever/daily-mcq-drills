@@ -65,3 +65,24 @@ export interface LeaderboardUser {
     biology: { completed: number; score: number; total: number };
   };
 }
+
+export interface ChatMessage {
+  id: string;
+  senderUsername: string;
+  senderFullName: string;
+  senderRole: 'admin' | 'student';
+  text: string;
+  timestamp: number;
+  subjectTag?: Subject | 'general';
+  drillReference?: string;
+}
+
+export interface FirebaseUsageEstimates {
+  estimatedSessionReads: number;
+  estimatedSessionWrites: number;
+  totalDrillsCount: number;
+  totalAttemptsCount: number;
+  totalMessagesCount: number;
+  totalUsersCount: number;
+  estimatedStoredKb: number;
+}

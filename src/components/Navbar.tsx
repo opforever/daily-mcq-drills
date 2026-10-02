@@ -9,9 +9,11 @@ import {
   PlusCircle, 
   User as UserIcon, 
   LogOut, 
-  ShieldCheck,
-  BookOpen,
-  RotateCcw
+  ShieldCheck, 
+  BookOpen, 
+  RotateCcw,
+  MessageSquare,
+  Activity
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -25,6 +27,8 @@ interface NavbarProps {
   onOpenAddDrill: () => void;
   onOpenResetModal?: () => void;
   isCloudConnected?: boolean;
+  onOpenChat: () => void;
+  onOpenFirebaseHealth?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -37,7 +41,9 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenAiStudioPrompts,
   onOpenAddDrill,
   onOpenResetModal,
-  isCloudConnected
+  isCloudConnected,
+  onOpenChat,
+  onOpenFirebaseHealth
 }) => {
   const isAdmin = currentUser?.role === 'admin';
 
@@ -59,13 +65,20 @@ export const Navbar: React.FC<NavbarProps> = ({
                 1st Year Drills
               </span>
               {isCloudConnected && (
-                <span className="hidden items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-950/60 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 md:inline-flex" title="Connected to Google Firebase Firestore live cloud database">
+                <button
+                  type="button"
+                  onClick={isAdmin && onOpenFirebaseHealth ? onOpenFirebaseHealth : undefined}
+                  className={`hidden items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-950/60 px-2 py-0.5 text-[10px] font-semibold text-emerald-300 md:inline-flex transition ${
+                    isAdmin ? 'hover:bg-emerald-900/60 cursor-pointer' : ''
+                  }`}
+                  title={isAdmin ? 'Click to view Firebase live request metrics & Google Cloud quotas' : 'Connected to Google Firebase Firestore live cloud database'}
+                >
                   <span className="relative flex h-1.5 w-1.5">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-500"></span>
                   </span>
-                  Cloud Live
-                </span>
+                  Cloud Live {isAdmin && '• Quotas ↗'}
+                </button>
               )}
             </div>
             <p className="text-[11px] text-slate-400">Daily 20–25 MCQ Practice & Mastery</p>
@@ -73,7 +86,29 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
 
         {/* Action Items */}
-        <div className="flex items-center gap-2 sm:gap-3">
+        <div className="flex items-center gap-2 sm:gap-2.5">
+          {/* Student & Admin Discussion Chat */}
+          <button
+            onClick={onOpenChat}
+            className="flex items-center gap-1.5 rounded-lg border border-indigo-500/40 bg-indigo-950/40 px-2.5 py-1.5 text-xs font-semibold text-indigo-300 transition-all hover:border-indigo-400 hover:bg-indigo-900/60 hover:text-white"
+            title="Open group discussion and student doubts chat"
+          >
+            <MessageSquare className="h-3.5 w-3.5 text-indigo-400" />
+            <span className="hidden sm:inline">Discussions</span>
+          </button>
+
+          {/* Admin Exclusive: Firebase Requests & Quota Monitor */}
+          {isAdmin && onOpenFirebaseHealth && (
+            <button
+              onClick={onOpenFirebaseHealth}
+              className="flex items-center gap-1.5 rounded-lg border border-cyan-500/30 bg-cyan-950/30 px-2.5 py-1.5 text-xs font-medium text-cyan-300 transition-all hover:border-cyan-400 hover:bg-cyan-900/50 hover:text-white"
+              title="Review real-time Firebase requests used & Google limits"
+            >
+              <Activity className="h-3.5 w-3.5 text-cyan-400" />
+              <span className="hidden md:inline">Cloud</span> Quota
+            </button>
+          )}
+
           {/* Admin Exclusive: AI Studio Prompts */}
           {isAdmin && (
             <button
@@ -82,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               title="Get copy-paste System Instructions for Google AI Studio"
             >
               <Sparkles className="h-3.5 w-3.5 text-purple-400" />
-              <span className="hidden md:inline">AI Studio</span> Prompts
+              <span className="hidden lg:inline">AI Studio</span> Prompts
             </button>
           )}
 
@@ -105,7 +140,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="flex items-center gap-1.5 rounded-lg border border-rose-500/30 bg-rose-950/30 px-2.5 py-1.5 text-xs font-medium text-rose-300 transition-all hover:border-rose-400 hover:bg-rose-900/50 hover:text-white"
             >
               <RotateCcw className="h-3.5 w-3.5 text-rose-400" />
-              <span className="hidden lg:inline">Reset Data</span>
+              <span className="hidden xl:inline">Reset</span>
             </button>
           )}
 

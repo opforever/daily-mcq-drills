@@ -11,7 +11,9 @@ import {
   resetAllDataExceptAdmin,
   syncFromCloudDrills,
   syncFromCloudAttempts,
-  syncFromCloudUsers
+  syncFromCloudUsers,
+  getStoredAttempts,
+  getStoredUsers
 } from './utils/storage';
 import { 
   subscribeToCloudDrills, 
@@ -27,6 +29,8 @@ import { LeaderboardModal } from './components/LeaderboardModal';
 import { AiStudioPromptsModal } from './components/AiStudioPromptsModal';
 import { AuthGate } from './components/AuthGate';
 import { ResetConfirmModal } from './components/ResetConfirmModal';
+import { GroupChatModal } from './components/GroupChatModal';
+import { FirebaseHealthModal } from './components/FirebaseHealthModal';
 
 export default function App() {
   const [currentSubject, setCurrentSubject] = useState<Subject>('physics');
@@ -46,6 +50,8 @@ export default function App() {
   const [isAdminDrillPosterOpen, setIsAdminDrillPosterOpen] = useState(false);
   const [drillToEdit, setDrillToEdit] = useState<Drill | null>(null);
   const [isResetModalOpen, setIsResetModalOpen] = useState(false);
+  const [isChatOpen, setIsChatOpen] = useState(false);
+  const [isFirebaseHealthOpen, setIsFirebaseHealthOpen] = useState(false);
 
   // Toast alert
   const [toastMessage, setToastMessage] = useState<string | null>(null);
@@ -216,6 +222,8 @@ export default function App() {
         onOpenAddDrill={handleOpenAddDrill}
         onOpenResetModal={() => setIsResetModalOpen(true)}
         isCloudConnected={isCloudConnected}
+        onOpenChat={() => setIsChatOpen(true)}
+        onOpenFirebaseHealth={() => setIsFirebaseHealthOpen(true)}
       />
 
       {/* Main Content Area */}
@@ -286,6 +294,26 @@ export default function App() {
         <ResetConfirmModal
           onConfirm={handleResetAllData}
           onClose={() => setIsResetModalOpen(false)}
+        />
+      )}
+
+      {/* Persistent Group Discussion / Doubts Chat */}
+      {isChatOpen && currentUser && (
+        <GroupChatModal
+          currentUser={currentUser}
+          onClose={() => setIsChatOpen(false)}
+          initialSubject={currentSubject}
+        />
+      )}
+
+      {/* Admin Firebase Health & Cloud Quotas Monitor */}
+      {isFirebaseHealthOpen && (
+        <FirebaseHealthModal
+          onClose={() => setIsFirebaseHealthOpen(false)}
+          drills={drills}
+          attemptsCount={getStoredAttempts().length}
+          usersCount={getStoredUsers().length}
+          messagesCount={25}
         />
       )}
     </div>
