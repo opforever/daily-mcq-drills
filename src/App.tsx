@@ -31,6 +31,7 @@ import { ScorecardModal } from './components/ScorecardModal';
 import { AdminDrillPoster } from './components/AdminDrillPoster';
 import { LeaderboardModal } from './components/LeaderboardModal';
 import { AnnouncementModal } from './components/AnnouncementModal';
+import { ChangePasswordModal } from './components/ChangePasswordModal';
 import { AuthGate } from './components/AuthGate';
 import { ResetConfirmModal } from './components/ResetConfirmModal';
 import { GroupChatModal } from './components/GroupChatModal';
@@ -52,6 +53,7 @@ export default function App() {
   // Modals
   const [isLeaderboardOpen, setIsLeaderboardOpen] = useState(false);
   const [isAnnouncementOpen, setIsAnnouncementOpen] = useState(false);
+  const [isChangePasswordOpen, setIsChangePasswordOpen] = useState(false);
   const [isAdminDrillPosterOpen, setIsAdminDrillPosterOpen] = useState(false);
   const [drillToEdit, setDrillToEdit] = useState<Drill | null>(null);
   const [isResetModalOpen, setIsResetModalOpen] = useState(false);
@@ -262,6 +264,7 @@ export default function App() {
         onOpenFirebaseHealth={() => setIsFirebaseHealthOpen(true)}
         onOpenAnnouncement={() => setIsAnnouncementOpen(true)}
         hasActiveAnnouncement={Boolean(announcement && announcement.isActive)}
+        onOpenChangePassword={() => setIsChangePasswordOpen(true)}
       />
 
       {/* Main Content Area */}
@@ -327,6 +330,14 @@ export default function App() {
           onClose={() => setIsAnnouncementOpen(false)}
           onSaveAnnouncement={handleSaveAnnouncement}
           onClearAnnouncement={handleClearAnnouncement}
+        />
+      )}
+
+      {isChangePasswordOpen && currentUser && (
+        <ChangePasswordModal
+          currentUser={currentUser}
+          onClose={() => setIsChangePasswordOpen(false)}
+          onSuccessToast={showToast}
         />
       )}
 

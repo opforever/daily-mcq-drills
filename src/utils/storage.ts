@@ -266,8 +266,15 @@ export async function authenticateUser(
 
   // 1. Admin account check
   if (cleanUsername === 'admin') {
-    const isAdminPassword = await verifyPassword(password, 'kips123');
-    if (isAdminPassword) {
+    const adminCloudCreds = await getCloudUserCredentials('admin');
+    let isAdminValid = false;
+    if (adminCloudCreds && adminCloudCreds.passwordHash) {
+      isAdminValid = await verifyPassword(password, adminCloudCreds.passwordHash);
+    } else {
+      isAdminValid = await verifyPassword(password, 'kips123');
+    }
+
+    if (isAdminValid) {
       const adminUser: User = {
         username: 'admin',
         role: 'admin',
@@ -482,3 +489,98 @@ export async function deleteSpecificUserAndData(username: string): Promise<{ suc
 
   return { success: true, message: `Successfully deleted student @${username} and all their records.` };
 }
+
+/**
+ * Changes a user's password securely after verifying their current password.
+ * Hashes the new password with salted SHA-256 before updating Firestore.
+ */
+export async function changeUserPassword(
+  username: string,
+  currentPassword: string,
+  newPassword: string
+): Promise<{ success: boolean; message: string }> {
+  const cleanU = username.trim().toLowerCase();
+  if (!cleanU) return { success: false, message: 'Username is required.' };
+  if (!currentPassword) return { success: false, message: 'Please provide your current password.' };
+  if (!newPassword || newPassword.length < 4) {
+    return { success: false, message: 'New password must be at least 4 characters long.' };
+  }
+  if (currentPassword === newPassword) {
+    return { success: false, message: 'New password must be different from current password.' };
+  }
+
+  // 1. Admin case
+  if (cleanU === 'admin') {
+    const adminCloudCreds = await getCloudUserCredentials('admin');
+    let isCurrentValid = false;
+    if (adminCloudCreds && adminCloudCreds.passwordHash) {
+      isCurrentValid = await verifyPassword(currentPassword, adminCloudCreds.passwordHash);
+    } else {
+      isCurrentValid = await verifyPassword(currentPassword, 'kips123');
+    }
+
+    if (!isCurrentValid) {
+      return { success: false, message: 'Current admin password is incorrect.' };
+    }
+
+    const newHash = await hashPassword(newPassword);
+    await saveUserToCloud({
+      username: 'admin',
+      role: 'admin',
+      fullName: 'FBISE Drill Master (Admin)',
+      college: 'KIPS College',
+      createdAt: Date.now(),
+      passwordHash: newHash
+    });
+    return { success: true, message: 'Admin password successfully updated!' };
+  }
+
+  // 2. Student case
+  const creds = await getCloudUserCredentials(cleanU);
+  if (!creds) {
+    return { success: false, message: 'User account not found in database.' };
+  }
+
+  const isCurrentValid = await verifyPassword(currentPassword, creds.passwordHash);
+  if (!isCurrentValid) {
+    return { success: false, message: 'Current password is incorrect.' };
+  }
+
+  const newHash = await hashPassword(newPassword);
+  await saveUserToCloud({
+    ...creds,
+    passwordHash: newHash
+  });
+
+  return { success: true, message: 'Password successfully updated! Your new password is now active.' };
+}
+
+/**
+ * Allows an admin to reset a student's password if the student forgets it.
+ */
+export async function adminResetStudentPassword(
+  targetStudentUsername: string,
+  newPassword: string
+): Promise<{ success: boolean; message: string }> {
+  const cleanU = targetStudentUsername.trim().toLowerCase();
+  if (cleanU === 'admin') {
+    return { success: false, message: 'Cannot reset master admin from student list.' };
+  }
+  if (!newPassword || newPassword.length < 4) {
+    return { success: false, message: 'New password must be at least 4 characters long.' };
+  }
+
+  const creds = await getCloudUserCredentials(cleanU);
+  if (!creds) {
+    return { success: false, message: 'Student account not found in database.' };
+  }
+
+  const newHash = await hashPassword(newPassword);
+  await saveUserToCloud({
+    ...creds,
+    passwordHash: newHash
+  });
+
+  return { success: true, message: `Password for @${targetStudentUsername} has been reset to: "${newPassword}"` };
+}
+

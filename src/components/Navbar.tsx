@@ -13,7 +13,8 @@ import {
   RotateCcw,
   MessageSquare,
   Activity,
-  Megaphone
+  Megaphone,
+  KeyRound
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -30,6 +31,7 @@ interface NavbarProps {
   onOpenFirebaseHealth?: () => void;
   onOpenAnnouncement: () => void;
   hasActiveAnnouncement?: boolean;
+  onOpenChangePassword?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -45,7 +47,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenChat,
   onOpenFirebaseHealth,
   onOpenAnnouncement,
-  hasActiveAnnouncement = false
+  hasActiveAnnouncement = false,
+  onOpenChangePassword
 }) => {
   const isAdmin = currentUser?.role === 'admin';
 
@@ -177,10 +180,19 @@ export const Navbar: React.FC<NavbarProps> = ({
                   </span>
                 )}
               </div>
+              {onOpenChangePassword && (
+                <button
+                  onClick={onOpenChangePassword}
+                  title="Change Account Password"
+                  className="rounded p-1 text-slate-400 transition hover:bg-slate-800 hover:text-cyan-300 cursor-pointer"
+                >
+                  <KeyRound className="h-3.5 w-3.5" />
+                </button>
+              )}
               <button
                 onClick={onLogout}
                 title="Log out"
-                className="rounded p-1 text-slate-400 transition hover:bg-slate-800 hover:text-rose-400"
+                className="rounded p-1 text-slate-400 transition hover:bg-slate-800 hover:text-rose-400 cursor-pointer"
               >
                 <LogOut className="h-3.5 w-3.5" />
               </button>
