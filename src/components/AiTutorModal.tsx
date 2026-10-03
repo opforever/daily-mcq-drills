@@ -50,10 +50,6 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  const getSessionKey = (subj: Subject) => {
-    return `kips_ai_temp_chat_${currentUser.username.toLowerCase()}_${subj}`;
-  };
-
   const getInitialWelcomeMessage = (subj: Subject): AiChatMessage => {
     const firstName = currentUser.fullName?.split(' ')[0] || currentUser.username;
     const subjectName = subj.charAt(0).toUpperCase() + subj.slice(1);
@@ -79,41 +75,25 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
     };
   };
 
-  // State to hold messages per subject
+  // State to hold messages per subject (Pure in-memory, resets on page refresh)
   const [subjectMessages, setSubjectMessages] = useState<Record<Subject, AiChatMessage[]>>(() => {
-    const loaded: Record<Subject, AiChatMessage[]> = {
-      physics: [],
-      chemistry: [],
-      biology: []
+    // Clear any legacy sessionStorage keys from earlier versions
+    try {
+      ['physics', 'chemistry', 'biology'].forEach(s => {
+        sessionStorage.removeItem(`kips_ai_temp_chat_${currentUser.username.toLowerCase()}_${s}`);
+        sessionStorage.removeItem(`kips_ai_temp_chat_${currentUser.username.toLowerCase()}`);
+      });
+    } catch {}
+
+    return {
+      physics: [getInitialWelcomeMessage('physics')],
+      chemistry: [getInitialWelcomeMessage('chemistry')],
+      biology: [getInitialWelcomeMessage('biology')]
     };
-
-    const subjects: Subject[] = ['physics', 'chemistry', 'biology'];
-    subjects.forEach((s) => {
-      try {
-        const stored = sessionStorage.getItem(getSessionKey(s));
-        if (stored) {
-          loaded[s] = JSON.parse(stored);
-        } else {
-          loaded[s] = [getInitialWelcomeMessage(s)];
-        }
-      } catch {
-        loaded[s] = [getInitialWelcomeMessage(s)];
-      }
-    });
-
-    return loaded;
   });
 
   // Current messages for active selected subject
   const currentMessages = subjectMessages[selectedSubject] || [];
-
-  // Sync to sessionStorage on changes
-  useEffect(() => {
-    try {
-      const key = getSessionKey(selectedSubject);
-      sessionStorage.setItem(key, JSON.stringify(subjectMessages[selectedSubject]));
-    } catch {}
-  }, [subjectMessages, selectedSubject]);
 
   // Auto-scroll to bottom smoothly when new message arrives or loading state changes
   useEffect(() => {
@@ -203,7 +183,6 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
         ...prev,
         [selectedSubject]: resetList
       }));
-      sessionStorage.removeItem(getSessionKey(selectedSubject));
     }
   };
 
