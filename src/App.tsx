@@ -319,6 +319,7 @@ export default function App() {
             onFinishDrill={handleFinishDrill}
             onDeleteDrill={handleDeleteDrill}
             onEditDrill={handleEditDrill}
+            onOpenAiTutor={() => setIsAiTutorOpen(true)}
           />
         ) : (
           <DrillList

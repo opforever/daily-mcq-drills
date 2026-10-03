@@ -29,7 +29,10 @@ import {
   ChevronUp,
   BookOpen,
   Cloud,
-  Loader2
+  Loader2,
+  Lightbulb,
+  Bot,
+  RotateCw
 } from 'lucide-react';
 
 interface DrillViewerProps {
@@ -39,6 +42,7 @@ interface DrillViewerProps {
   onFinishDrill: (attempt: UserAttempt) => void;
   onDeleteDrill?: (drillId: string) => void;
   onEditDrill?: (drill: Drill) => void;
+  onOpenAiTutor?: () => void;
 }
 
 export const DrillViewer: React.FC<DrillViewerProps> = ({
@@ -47,7 +51,8 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   onBack,
   onFinishDrill,
   onDeleteDrill,
-  onEditDrill
+  onEditDrill,
+  onOpenAiTutor
 }) => {
   const username = currentUser?.username || 'guest';
   const savedSession = getInProgressSession(username, drill.id);
@@ -65,6 +70,73 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   const [isCountdownEnabled, setIsCountdownEnabled] = useState(false);
   const [remainingSeconds, setRemainingSeconds] = useState(drill.questions.length * 60); // 1 min per MCQ
   const [elapsedSeconds, setElapsedSeconds] = useState<number>(() => savedSession?.elapsedSeconds ?? 0);
+
+  // Socratic AI Concept Hint state (per question)
+  const [conceptHints, setConceptHints] = useState<Record<string, string>>({});
+  const [isLoadingHint, setIsLoadingHint] = useState<Record<string, boolean>>({});
+  const [hintError, setHintError] = useState<Record<string, string>>({});
+  const [expandedHints, setExpandedHints] = useState<Record<string, boolean>>({});
+
+  const handleRequestConceptHint = async (qId: string, forceRefresh = false) => {
+    // If already loaded and not force refreshing, just toggle expansion
+    if (conceptHints[qId] && !forceRefresh) {
+      setExpandedHints(prev => ({ ...prev, [qId]: !prev[qId] }));
+      return;
+    }
+
+    const questionObj = drill.questions.find(q => q.id === qId);
+    if (!questionObj) return;
+
+    setExpandedHints(prev => ({ ...prev, [qId]: true }));
+    setIsLoadingHint(prev => ({ ...prev, [qId]: true }));
+    setHintError(prev => ({ ...prev, [qId]: '' }));
+
+    try {
+      const response = await fetch('/api/ai/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          messages: [
+            {
+              role: 'user',
+              content: `I am attempting this FBISE 1st Year MCQ in ${drill.subject.toUpperCase()}:\n\n"${questionObj.question}"\n\nOptions:\nA) ${questionObj.options.A}\nB) ${questionObj.options.B}\nC) ${questionObj.options.C}\nD) ${questionObj.options.D}\n\nI am feeling stuck. Please explain the underlying core concept, textbook formula, or scientific principle so I can solve it on my own. DO NOT tell me which option is correct (do not state A, B, C, or D) and do not state the final answer!`
+            }
+          ],
+          userContext: {
+            username: currentUser?.username,
+            fullName: currentUser?.fullName,
+            role: currentUser?.role,
+            college: currentUser?.college,
+            activeSubject: drill.subject,
+            isHintRequest: true,
+            activeDrill: {
+              id: drill.id,
+              title: drill.title,
+              chapter: drill.chapter,
+              dayNumber: drill.dayNumber,
+              subject: drill.subject
+            }
+          }
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('AI hint service temporarily unavailable. Please try again.');
+      }
+
+      const data = await response.json();
+      const hintText = data.reply || data.content || data.message;
+      if (!hintText) {
+        throw new Error('No hint received.');
+      }
+
+      setConceptHints(prev => ({ ...prev, [qId]: hintText }));
+    } catch (err: any) {
+      setHintError(prev => ({ ...prev, [qId]: err.message || 'Failed to fetch AI concept hint.' }));
+    } finally {
+      setIsLoadingHint(prev => ({ ...prev, [qId]: false }));
+    }
+  };
 
   // 1. Initial Cloud Sync Check: Checks Firebase Firestore for progress saved on other devices
   useEffect(() => {
@@ -494,6 +566,102 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
           <div className="flex-1 text-base font-semibold leading-relaxed text-slate-100 sm:text-lg">
             <LatexRenderer content={currentQ.question} />
           </div>
+        </div>
+
+        {/* Socratic AI Concept Hint Section (Spoiler-Free) */}
+        <div className="mt-4 pt-3.5 border-t border-slate-800/80">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <button
+              type="button"
+              onClick={() => handleRequestConceptHint(currentQ.id)}
+              disabled={isLoadingHint[currentQ.id]}
+              className="flex items-center gap-2 rounded-xl border border-amber-500/40 bg-gradient-to-r from-amber-950/40 via-slate-900 to-cyan-950/40 px-3.5 py-1.5 text-xs font-semibold text-amber-300 hover:border-amber-400 hover:text-white transition shadow-sm cursor-pointer group"
+              title="Explains the governing textbook concept or formula without revealing the answer"
+            >
+              <Lightbulb className="h-4 w-4 text-amber-400 shrink-0 group-hover:scale-110 transition" />
+              <span>
+                {expandedHints[currentQ.id]
+                  ? 'Hide AI Concept Hint'
+                  : conceptHints[currentQ.id]
+                  ? 'View AI Concept Hint'
+                  : 'Stuck? Ask AI (Concept Hint)'}
+              </span>
+              {isLoadingHint[currentQ.id] && (
+                <Loader2 className="h-3.5 w-3.5 animate-spin text-cyan-400 ml-1" />
+              )}
+            </button>
+
+            <span className="text-[11px] text-slate-400 flex items-center gap-1.5">
+              <Sparkles className="h-3 w-3 text-cyan-400" />
+              <span>Explains concept • Won't reveal the answer</span>
+            </span>
+          </div>
+
+          {/* Expanded AI Concept Hint Box */}
+          {expandedHints[currentQ.id] && (
+            <div className="mt-3 rounded-2xl border border-amber-500/40 bg-gradient-to-br from-amber-950/30 via-slate-900/90 to-slate-950 p-4 shadow-xl backdrop-blur-md animate-fade-in">
+              <div className="flex items-center justify-between gap-2 pb-2.5 mb-2.5 border-b border-amber-500/20">
+                <div className="flex items-center gap-2">
+                  <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-amber-500/20 text-amber-300">
+                    <Lightbulb className="h-3.5 w-3.5" />
+                  </div>
+                  <div>
+                    <h5 className="text-xs font-bold text-amber-200">
+                      AI Socratic Concept Hint ({drill.subject.toUpperCase()})
+                    </h5>
+                    <p className="text-[10px] text-slate-400">
+                      Governing principle & formula guidance • Answers are never spoiled
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  {onOpenAiTutor && (
+                    <button
+                      type="button"
+                      onClick={() => onOpenAiTutor()}
+                      className="hidden sm:flex items-center gap-1 text-[11px] font-medium text-cyan-400 hover:text-cyan-200 transition cursor-pointer"
+                      title="Open full AI Tutor chat modal"
+                    >
+                      <Bot className="h-3.5 w-3.5" />
+                      <span>Full Tutor</span>
+                    </button>
+                  )}
+                  <button
+                    type="button"
+                    onClick={() => handleRequestConceptHint(currentQ.id, true)}
+                    disabled={isLoadingHint[currentQ.id]}
+                    className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
+                    title="Regenerate hint"
+                  >
+                    <RotateCw className={`h-3 w-3 ${isLoadingHint[currentQ.id] ? 'animate-spin' : ''}`} />
+                  </button>
+                </div>
+              </div>
+
+              {isLoadingHint[currentQ.id] ? (
+                <div className="flex items-center gap-3 py-4 text-xs text-slate-300 justify-center">
+                  <Loader2 className="h-4 w-4 animate-spin text-cyan-400 shrink-0" />
+                  <span>KIPS AI Tutor (Qwen 27B) is formulating your concept hint...</span>
+                </div>
+              ) : hintError[currentQ.id] ? (
+                <div className="text-xs text-rose-300 py-2 flex items-center justify-between">
+                  <span>{hintError[currentQ.id]}</span>
+                  <button
+                    type="button"
+                    onClick={() => handleRequestConceptHint(currentQ.id, true)}
+                    className="underline text-cyan-400 ml-2 cursor-pointer"
+                  >
+                    Try Again
+                  </button>
+                </div>
+              ) : (
+                <div className="text-xs sm:text-sm text-slate-200 leading-relaxed">
+                  <LatexRenderer content={conceptHints[currentQ.id] || ''} />
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Options Grid */}
