@@ -43,25 +43,36 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
   const [isRefreshing, setIsRefreshing] = useState(false);
 
   const refreshData = () => {
-    setLeaderboard(computeLeaderboard());
-    const storedUsers = getStoredUsers().filter(u => u.role !== 'admin' && u.username.toLowerCase() !== 'admin');
+    const users = getStoredUsers();
+    const attempts = getStoredAttempts();
+    setLeaderboard(computeLeaderboard(users, attempts));
+    const storedUsers = users.filter(u => u.role !== 'admin' && u.username.toLowerCase() !== 'admin');
     setAllStudents(storedUsers);
   };
 
   useEffect(() => {
-    refreshData();
+    let currentUsers = getStoredUsers();
+    let currentAttempts = getStoredAttempts();
 
-    // Attach real-time cloud listeners so new devices immediately populate leaderboard as snapshots arrive
+    const updateAll = () => {
+      setLeaderboard(computeLeaderboard(currentUsers, currentAttempts));
+      const filtered = currentUsers.filter(u => u.role !== 'admin' && u.username.toLowerCase() !== 'admin');
+      setAllStudents(filtered);
+    };
+
+    updateAll();
+
+    // Attach real-time cloud listeners so new devices immediately populate leaderboard with all students
     const unsubAttempts = subscribeToCloudAttempts((cloudAttempts) => {
+      currentAttempts = cloudAttempts;
       syncFromCloudAttempts(cloudAttempts);
-      setLeaderboard(computeLeaderboard(undefined, cloudAttempts));
+      updateAll();
     });
 
     const unsubUsers = subscribeToCloudUsers((cloudUsers) => {
+      currentUsers = cloudUsers;
       syncFromCloudUsers(cloudUsers);
-      const filtered = cloudUsers.filter(u => u.role !== 'admin' && u.username.toLowerCase() !== 'admin');
-      setAllStudents(filtered);
-      setLeaderboard(computeLeaderboard(cloudUsers, undefined));
+      updateAll();
     });
 
     return () => {
