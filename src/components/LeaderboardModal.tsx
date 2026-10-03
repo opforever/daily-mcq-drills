@@ -98,12 +98,19 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
 
   const handleConfirmDelete = async () => {
     if (!userToDelete || !onDeleteUser) return;
+    const target = userToDelete.trim().toLowerCase();
     setIsDeleting(true);
     try {
-      await onDeleteUser(userToDelete);
-      setFeedbackMsg(`✓ Successfully deleted student @${userToDelete} and wiped all their quiz records.`);
+      await onDeleteUser(target);
+      setFeedbackMsg(`✓ Successfully deleted student @${target} and wiped all their quiz records.`);
       setUserToDelete(null);
-      refreshData();
+
+      // Immediately remove deleted user from local view so all other students remain visible smoothly
+      const updatedUsers = getStoredUsers().filter(u => u.username.toLowerCase() !== target);
+      const updatedAttempts = getStoredAttempts().filter(a => (a.username || '').toLowerCase() !== target);
+      setLeaderboard(computeLeaderboard(updatedUsers, updatedAttempts));
+      const filtered = updatedUsers.filter(u => u.role !== 'admin' && u.username.toLowerCase() !== 'admin');
+      setAllStudents(filtered);
     } catch {
       setFeedbackMsg('Failed to delete student. Please try again.');
     } finally {

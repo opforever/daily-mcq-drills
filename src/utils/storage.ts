@@ -146,12 +146,65 @@ export function syncFromCloudAttempts(attempts: UserAttempt[]): void {
   } catch {}
 }
 
-export function syncFromCloudUsers(users: User[]): void {
+const DELETED_USERS_KEY = 'kips_deleted_users_blacklist_v3';
+
+function getDeletedUsersBlacklist(): Set<string> {
   try {
-    // Merge with admin profile
+    const raw = localStorage.getItem(DELETED_USERS_KEY);
+    if (!raw) return new Set<string>();
+    const parsed = JSON.parse(raw);
+    return new Set<string>(Array.isArray(parsed) ? parsed.map((u: string) => u.toLowerCase()) : []);
+  } catch {
+    return new Set<string>();
+  }
+}
+
+function addToDeletedUsersBlacklist(username: string): void {
+  try {
+    const set = getDeletedUsersBlacklist();
+    set.add(username.trim().toLowerCase());
+    localStorage.setItem(DELETED_USERS_KEY, JSON.stringify(Array.from(set)));
+  } catch {}
+}
+
+export function syncFromCloudUsers(cloudUsers: User[]): void {
+  try {
+    const blacklist = getDeletedUsersBlacklist();
+    const localUsers = getStoredUsers();
+    const userMap = new Map<string, User>();
+
+    // 1. Add authoritative cloud users (unless blacklisted)
+    cloudUsers.forEach(u => {
+      const key = (u.username || '').trim().toLowerCase();
+      if (key && !blacklist.has(key)) {
+        userMap.set(key, {
+          username: u.username,
+          fullName: u.fullName || u.username,
+          role: u.role || 'student',
+          college: u.college || 'KIPS College FBISE',
+          createdAt: u.createdAt || Date.now()
+        });
+      }
+    });
+
+    // 2. Auto-migrate / backfill any local users that exist locally but not yet in Cloud Firestore
+    localUsers.forEach(u => {
+      const key = (u.username || '').trim().toLowerCase();
+      if (key && key !== 'admin' && !blacklist.has(key) && !userMap.has(key)) {
+        userMap.set(key, u);
+        // Persist to Cloud Firestore so all new devices/sessions see this account
+        saveUserToCloud({
+          ...u,
+          passwordHash: ''
+        }).catch(err => console.warn('User cloud backfill skipped:', err));
+      }
+    });
+
+    // 3. Ensure master Admin profile is present
     const admin = DEFAULT_USERS[0];
-    const hasAdmin = users.some(u => u.username.toLowerCase() === 'admin');
-    const combined = hasAdmin ? users : [admin, ...users];
+    userMap.set('admin', admin);
+
+    const combined = Array.from(userMap.values());
     localStorage.setItem(USERS_KEY, JSON.stringify(combined));
   } catch {}
 }
@@ -508,15 +561,18 @@ export async function deleteSpecificUserAndData(username: string): Promise<{ suc
     return { success: false, message: 'The master admin account cannot be deleted.' };
   }
 
-  // 1. Remove user from local users
+  // 1. Blacklist username to prevent accidental resurrection from stale cache
+  addToDeletedUsersBlacklist(cleanU);
+
+  // 2. Remove user from local users
   const users = getStoredUsers().filter(u => u.username.toLowerCase() !== cleanU);
   localStorage.setItem(USERS_KEY, JSON.stringify(users));
 
-  // 2. Remove all attempts by this user
+  // 3. Remove all attempts by this user
   const attempts = getStoredAttempts().filter(a => (a.username || '').toLowerCase() !== cleanU);
   localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
 
-  // 3. Delete from Cloud Firestore
+  // 4. Delete from Cloud Firestore
   await deleteSpecificUserAndDataFromCloud(cleanU);
 
   return { success: true, message: `Successfully deleted student @${username} and all their records.` };
