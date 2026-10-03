@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { LeaderboardUser, User } from '../types';
-import { computeLeaderboard, getStoredUsers, adminResetStudentPassword } from '../utils/storage';
+import { computeLeaderboard, getStoredUsers, adminResetStudentPassword, syncFromCloudAttempts, syncFromCloudUsers } from '../utils/storage';
+import { subscribeToCloudAttempts, subscribeToCloudUsers } from '../utils/firebase';
 import { 
   Trophy, 
   Medal, 
@@ -11,7 +12,10 @@ import {
   ShieldCheck, 
   Users,
   Search,
-  KeyRound
+  KeyRound,
+  RotateCw,
+  Cloud,
+  CheckCircle2
 } from 'lucide-react';
 
 interface LeaderboardModalProps {
@@ -36,6 +40,7 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
   const [isDeleting, setIsDeleting] = useState(false);
   const [isResetting, setIsResetting] = useState(false);
   const [feedbackMsg, setFeedbackMsg] = useState<string | null>(null);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
   const refreshData = () => {
     setLeaderboard(computeLeaderboard());
@@ -45,7 +50,33 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
 
   useEffect(() => {
     refreshData();
+
+    // Attach real-time cloud listeners so new devices immediately populate leaderboard as snapshots arrive
+    const unsubAttempts = subscribeToCloudAttempts((cloudAttempts) => {
+      syncFromCloudAttempts(cloudAttempts);
+      setLeaderboard(computeLeaderboard(undefined, cloudAttempts));
+    });
+
+    const unsubUsers = subscribeToCloudUsers((cloudUsers) => {
+      syncFromCloudUsers(cloudUsers);
+      const filtered = cloudUsers.filter(u => u.role !== 'admin' && u.username.toLowerCase() !== 'admin');
+      setAllStudents(filtered);
+      setLeaderboard(computeLeaderboard(cloudUsers, undefined));
+    });
+
+    return () => {
+      unsubAttempts();
+      unsubUsers();
+    };
   }, []);
+
+  const handleManualRefresh = () => {
+    setIsRefreshing(true);
+    refreshData();
+    setTimeout(() => {
+      setIsRefreshing(false);
+    }, 600);
+  };
 
   const handleConfirmDelete = async () => {
     if (!userToDelete || !onDeleteUser) return;
@@ -104,20 +135,37 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
         </button>
 
         {/* Header */}
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 pb-4 pr-8">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 pb-4 pr-10">
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-tr from-amber-500 to-yellow-400 text-slate-950 shadow-lg shadow-amber-500/20">
               <Trophy className="h-6 w-6" />
             </div>
             <div>
-              <h2 className="text-lg sm:text-xl font-extrabold text-white">
-                KIPS College FBISE Leaderboard
-              </h2>
+              <div className="flex items-center gap-2">
+                <h2 className="text-lg sm:text-xl font-extrabold text-white">
+                  KIPS College FBISE Leaderboard
+                </h2>
+                <span className="inline-flex items-center gap-1 rounded-full border border-emerald-500/30 bg-emerald-950/60 px-2 py-0.5 text-[10px] font-semibold text-emerald-300">
+                  <Cloud className="h-3 w-3 text-emerald-400" />
+                  Live Sync
+                </span>
+              </div>
               <p className="text-xs text-slate-400">
                 Rankings based on total score, MCQs completed, and overall accuracy
               </p>
             </div>
           </div>
+
+          <button
+            type="button"
+            onClick={handleManualRefresh}
+            disabled={isRefreshing}
+            className="flex items-center gap-1.5 rounded-xl border border-slate-700 bg-slate-800/80 px-3 py-1.5 text-xs font-semibold text-slate-300 hover:bg-slate-700 hover:text-white transition cursor-pointer"
+            title="Force refresh data from Cloud Firestore"
+          >
+            <RotateCw className={`h-3.5 w-3.5 ${isRefreshing ? 'animate-spin text-cyan-400' : 'text-slate-400'}`} />
+            <span>{isRefreshing ? 'Syncing...' : 'Refresh'}</span>
+          </button>
         </div>
 
         {/* Feedback Message */}

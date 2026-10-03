@@ -384,11 +384,42 @@ export function getAttemptsForUser(username: string): UserAttempt[] {
   return getStoredAttempts().filter(a => (a.username || '').trim().toLowerCase() === cleanU);
 }
 
-export function computeLeaderboard(): LeaderboardUser[] {
-  const users = getStoredUsers();
-  const attempts = getStoredAttempts();
+export function computeLeaderboard(customUsers?: User[], customAttempts?: UserAttempt[]): LeaderboardUser[] {
+  const users = customUsers || getStoredUsers();
+  const attempts = customAttempts || getStoredAttempts();
 
-  return users
+  // Create a combined map of all users from BOTH registered users array AND all usernames in attempts
+  const userMap = new Map<string, { username: string; fullName: string; role: 'admin' | 'student'; createdAt: number }>();
+
+  users.forEach(u => {
+    const key = (u.username || '').trim().toLowerCase();
+    if (key && key !== 'admin') {
+      userMap.set(key, {
+        username: u.username,
+        fullName: u.fullName || u.username,
+        role: u.role || 'student',
+        createdAt: u.createdAt || Date.now()
+      });
+    }
+  });
+
+  // CRITICAL FIX FOR MULTI-DEVICE / NEW SESSIONS:
+  // Also include any student who submitted an attempt in Firestore even if the users collection is still syncing
+  attempts.forEach(a => {
+    const key = (a.username || '').trim().toLowerCase();
+    if (key && key !== 'admin' && key !== 'guest' && !userMap.has(key)) {
+      userMap.set(key, {
+        username: a.username,
+        fullName: a.username,
+        role: 'student',
+        createdAt: a.completedAt || Date.now()
+      });
+    }
+  });
+
+  const combinedUsers = Array.from(userMap.values());
+
+  return combinedUsers
     .map(user => {
       const uKey = (user.username || '').trim().toLowerCase();
       const userAttemptsRaw = attempts.filter(a => (a.username || '').trim().toLowerCase() === uKey);
@@ -437,6 +468,7 @@ export function computeLeaderboard(): LeaderboardUser[] {
         subjectBreakdown
       };
     })
+    .filter(u => u.drillsCompleted > 0 || u.username !== 'admin')
     .sort((a, b) => b.totalScore - a.totalScore || b.accuracyPercentage - a.accuracyPercentage);
 }
 
