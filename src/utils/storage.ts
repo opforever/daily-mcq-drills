@@ -584,3 +584,92 @@ export async function adminResetStudentPassword(
   return { success: true, message: `Password for @${targetStudentUsername} has been reset to: "${newPassword}"` };
 }
 
+export interface InProgressDrillSession {
+  drillId: string;
+  currentIndex: number;
+  selectedAnswers: Record<string, OptionKey>;
+  showExplanation: Record<string, boolean>;
+  expandedExplanations: Record<string, boolean>;
+  elapsedSeconds: number;
+  lastUpdated: number;
+}
+
+/**
+ * Saves in-progress MCQ answers and timer so student work is never lost if refreshed.
+ */
+export function saveInProgressSession(username: string, session: InProgressDrillSession): void {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    const key = `kips_progress_${cleanU}_${session.drillId}`;
+    localStorage.setItem(key, JSON.stringify(session));
+    localStorage.setItem(`kips_active_drill_${cleanU}`, session.drillId);
+  } catch (err) {
+    console.warn('Failed to save in-progress drill session:', err);
+  }
+}
+
+/**
+ * Retrieves in-progress session for a specific user and drill.
+ */
+export function getInProgressSession(username: string, drillId: string): InProgressDrillSession | null {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    const key = `kips_progress_${cleanU}_${drillId}`;
+    const raw = localStorage.getItem(key);
+    if (!raw) return null;
+    return JSON.parse(raw) as InProgressDrillSession;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Clears in-progress session once a drill is finished or abandoned.
+ */
+export function clearInProgressSession(username: string, drillId: string): void {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    const key = `kips_progress_${cleanU}_${drillId}`;
+    localStorage.removeItem(key);
+    const active = localStorage.getItem(`kips_active_drill_${cleanU}`);
+    if (active === drillId) {
+      localStorage.removeItem(`kips_active_drill_${cleanU}`);
+    }
+  } catch {}
+}
+
+/**
+ * Returns currently active drill ID if page was reloaded.
+ */
+export function getActiveDrillId(username: string): string | null {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    return localStorage.getItem(`kips_active_drill_${cleanU}`);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Retrieves the last announcement ID viewed by a specific user.
+ */
+export function getSeenAnnouncementId(username: string): string | null {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    return localStorage.getItem(`kips_seen_ann_${cleanU}`);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Marks an announcement as viewed/seen by a user so the notification badge clears.
+ */
+export function setSeenAnnouncementId(username: string, announcementId: string): void {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    localStorage.setItem(`kips_seen_ann_${cleanU}`, announcementId);
+  } catch {}
+}
+
+

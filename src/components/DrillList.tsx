@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Drill, Subject, User, UserAttempt } from '../types';
+import { getInProgressSession } from '../utils/storage';
 import { 
   Atom, 
   FlaskConical, 
@@ -259,20 +260,47 @@ export const DrillList: React.FC<DrillListProps> = ({
                         Retake / Review
                       </button>
                     </div>
-                  ) : (
-                    <div className="flex items-center justify-between gap-2">
-                      <span className="text-xs font-medium text-slate-500">
-                        Unattempted
-                      </span>
-                      <button
-                        onClick={() => onSelectDrill(drill)}
-                        className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 text-xs font-bold text-white shadow-md transition hover:from-blue-500 hover:to-cyan-500"
-                      >
-                        <Play className="h-3.5 w-3.5 fill-current" />
-                        <span>Start Drill</span>
-                      </button>
-                    </div>
-                  )}
+                  ) : (() => {
+                    const inProg = currentUser ? getInProgressSession(currentUser.username, drill.id) : null;
+                    const hasInProgress = Boolean(inProg && Object.keys(inProg.selectedAnswers || {}).length > 0);
+                    
+                    if (hasInProgress && inProg) {
+                      const answered = Object.keys(inProg.selectedAnswers).length;
+                      return (
+                        <div className="flex items-center justify-between gap-2">
+                          <span className="flex items-center gap-1.5 text-xs font-semibold text-cyan-400">
+                            <span className="relative flex h-2 w-2">
+                              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                              <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
+                            </span>
+                            In Progress ({answered}/{drill.questions.length})
+                          </span>
+                          <button
+                            onClick={() => onSelectDrill(drill)}
+                            className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-3.5 py-2 text-xs font-bold text-white shadow-md transition hover:from-emerald-500 hover:to-teal-500 cursor-pointer"
+                          >
+                            <Play className="h-3.5 w-3.5 fill-current" />
+                            <span>Resume MCQ #{inProg.currentIndex + 1}</span>
+                          </button>
+                        </div>
+                      );
+                    }
+
+                    return (
+                      <div className="flex items-center justify-between gap-2">
+                        <span className="text-xs font-medium text-slate-500">
+                          Unattempted
+                        </span>
+                        <button
+                          onClick={() => onSelectDrill(drill)}
+                          className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-4 py-2 text-xs font-bold text-white shadow-md transition hover:from-blue-500 hover:to-cyan-500"
+                        >
+                          <Play className="h-3.5 w-3.5 fill-current" />
+                          <span>Start Drill</span>
+                        </button>
+                      </div>
+                    );
+                  })()}
 
                   {/* Admin Actions: Edit & Delete */}
                   {currentUser?.role === 'admin' && (

@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Drill, OptionKey, UserAttempt, User } from '../types';
 import { LatexRenderer } from '../utils/latexRenderer';
 import { 
+  saveInProgressSession, 
+  getInProgressSession, 
+  clearInProgressSession 
+} from '../utils/storage';
+import { 
   ArrowLeft, 
   ArrowRight, 
   CheckCircle2, 
@@ -37,16 +42,47 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   onDeleteDrill,
   onEditDrill
 }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [selectedAnswers, setSelectedAnswers] = useState<Record<string, OptionKey>>({});
-  const [showExplanation, setShowExplanation] = useState<Record<string, boolean>>({});
+  const username = currentUser?.username || 'guest';
+  const savedSession = getInProgressSession(username, drill.id);
+
+  const [currentIndex, setCurrentIndex] = useState<number>(() => savedSession?.currentIndex ?? 0);
+  const [selectedAnswers, setSelectedAnswers] = useState<Record<string, OptionKey>>(() => savedSession?.selectedAnswers ?? {});
+  const [showExplanation, setShowExplanation] = useState<Record<string, boolean>>(() => savedSession?.showExplanation ?? {});
   const [showDeleteModal, setShowDeleteModal] = useState(false);
-  const [expandedExplanations, setExpandedExplanations] = useState<Record<string, boolean>>({});
-  
+  const [expandedExplanations, setExpandedExplanations] = useState<Record<string, boolean>>(() => savedSession?.expandedExplanations ?? {});
+  const [isResumed, setIsResumed] = useState<boolean>(() => Boolean(savedSession && Object.keys(savedSession.selectedAnswers || {}).length > 0));
+
   // Timer settings: countdown toggleable (defaults to elapsed stopwatch, toggle to 25-min countdown)
   const [isCountdownEnabled, setIsCountdownEnabled] = useState(false);
   const [remainingSeconds, setRemainingSeconds] = useState(drill.questions.length * 60); // 1 min per MCQ
-  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [elapsedSeconds, setElapsedSeconds] = useState<number>(() => savedSession?.elapsedSeconds ?? 0);
+
+  // Auto-Save in-progress state to localStorage so refresh never loses work
+  useEffect(() => {
+    if (Object.keys(selectedAnswers).length > 0) {
+      saveInProgressSession(username, {
+        drillId: drill.id,
+        currentIndex,
+        selectedAnswers,
+        showExplanation,
+        expandedExplanations,
+        elapsedSeconds,
+        lastUpdated: Date.now()
+      });
+    }
+  }, [currentIndex, selectedAnswers, showExplanation, expandedExplanations, elapsedSeconds, drill.id, username]);
+
+  // Browser reload / accidental close warning if drill has active answers
+  useEffect(() => {
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      if (Object.keys(selectedAnswers).length > 0) {
+        e.preventDefault();
+        e.returnValue = '';
+      }
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [selectedAnswers]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -114,6 +150,9 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
       }
     });
 
+    // Clear in-progress session once test is finalized
+    clearInProgressSession(username, drill.id);
+
     const userKey = currentUser ? currentUser.username.trim().toLowerCase().replace(/[^a-z0-9_]/g, '_') : 'guest';
     const attempt: UserAttempt = {
       id: `attempt_${userKey}_${drill.id}`,
@@ -128,6 +167,18 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
     };
 
     onFinishDrill(attempt);
+  };
+
+  const handleResetProgress = () => {
+    if (confirm('Restart this drill from Question #1? Your in-progress answers will be cleared.')) {
+      clearInProgressSession(username, drill.id);
+      setSelectedAnswers({});
+      setShowExplanation({});
+      setExpandedExplanations({});
+      setCurrentIndex(0);
+      setElapsedSeconds(0);
+      setIsResumed(false);
+    }
   };
 
   const formatTimer = (sec: number) => {
@@ -208,6 +259,26 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
           )}
         </div>
       </div>
+
+      {/* Auto-Save & Resumed Progress Status Banner */}
+      {isResumed && answeredCount > 0 && (
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-2 rounded-xl border border-emerald-500/30 bg-emerald-950/40 px-3.5 py-2 text-xs text-emerald-300">
+          <div className="flex items-center gap-2">
+            <CheckCircle2 className="h-4 w-4 shrink-0 text-emerald-400" />
+            <span>
+              <strong>Auto-Save Active:</strong> Resumed from Question #{currentIndex + 1} with {answeredCount} saved answers.
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={handleResetProgress}
+            className="flex items-center gap-1 text-[11px] font-semibold text-slate-400 hover:text-rose-300 transition underline decoration-dotted cursor-pointer"
+          >
+            <RotateCcw className="h-3 w-3" />
+            <span>Start Fresh</span>
+          </button>
+        </div>
+      )}
 
       {/* Admin Delete Confirmation Modal */}
       {showDeleteModal && (

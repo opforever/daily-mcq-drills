@@ -14,7 +14,10 @@ import {
   syncFromCloudUsers,
   getStoredAttempts,
   getStoredUsers,
-  deleteSpecificUserAndData
+  deleteSpecificUserAndData,
+  getSeenAnnouncementId,
+  setSeenAnnouncementId,
+  getActiveDrillId
 } from './utils/storage';
 import { 
   subscribeToCloudDrills, 
@@ -45,6 +48,10 @@ export default function App() {
   const [isInitializing, setIsInitializing] = useState(true);
   const [isCloudConnected, setIsCloudConnected] = useState(false);
   const [announcement, setAnnouncement] = useState<Announcement | null>(null);
+  const [lastSeenAnnId, setLastSeenAnnId] = useState<string | null>(() => {
+    const u = getCurrentUser();
+    return u ? getSeenAnnouncementId(u.username) : null;
+  });
   
   // Drill taking state
   const [activeDrill, setActiveDrill] = useState<Drill | null>(null);
@@ -77,6 +84,17 @@ export default function App() {
     if (savedUser) {
       setCurrentUserState(savedUser);
       setUserAttempts(getAttemptsForUser(savedUser.username));
+      setLastSeenAnnId(getSeenAnnouncementId(savedUser.username));
+
+      // Auto-restore in-progress drill if page was refreshed
+      const activeDrillId = getActiveDrillId(savedUser.username);
+      if (activeDrillId) {
+        const match = loadedDrills.find(d => d.id === activeDrillId);
+        if (match) {
+          setActiveDrill(match);
+          setCurrentSubject(match.subject);
+        }
+      }
     }
     setIsInitializing(false);
 
@@ -118,8 +136,27 @@ export default function App() {
   const handleUserLogin = (user: User) => {
     setCurrentUserState(user);
     setUserAttempts(getAttemptsForUser(user.username));
+    setLastSeenAnnId(getSeenAnnouncementId(user.username));
+
+    const activeDrillId = getActiveDrillId(user.username);
+    if (activeDrillId) {
+      const match = drills.find(d => d.id === activeDrillId);
+      if (match) {
+        setActiveDrill(match);
+        setCurrentSubject(match.subject);
+      }
+    }
+
     if (user.role === 'admin' && drills.length === 0) {
       setIsAdminDrillPosterOpen(true);
+    }
+  };
+
+  const handleOpenAnnouncement = () => {
+    setIsAnnouncementOpen(true);
+    if (announcement && currentUser) {
+      setSeenAnnouncementId(currentUser.username, announcement.id);
+      setLastSeenAnnId(announcement.id);
     }
   };
 
@@ -262,8 +299,8 @@ export default function App() {
         isCloudConnected={isCloudConnected}
         onOpenChat={() => setIsChatOpen(true)}
         onOpenFirebaseHealth={() => setIsFirebaseHealthOpen(true)}
-        onOpenAnnouncement={() => setIsAnnouncementOpen(true)}
-        hasActiveAnnouncement={Boolean(announcement && announcement.isActive)}
+        onOpenAnnouncement={handleOpenAnnouncement}
+        hasActiveAnnouncement={Boolean(announcement && announcement.isActive && announcement.id !== lastSeenAnnId)}
         onOpenChangePassword={() => setIsChangePasswordOpen(true)}
       />
 
