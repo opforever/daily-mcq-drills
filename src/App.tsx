@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Subject, Drill, User, UserAttempt } from './types';
+import { Subject, Drill, User, UserAttempt, Announcement } from './types';
 import { 
   getStoredDrills, 
   saveDrill, 
@@ -13,12 +13,16 @@ import {
   syncFromCloudAttempts,
   syncFromCloudUsers,
   getStoredAttempts,
-  getStoredUsers
+  getStoredUsers,
+  deleteSpecificUserAndData
 } from './utils/storage';
 import { 
   subscribeToCloudDrills, 
   subscribeToCloudAttempts, 
-  subscribeToCloudUsers 
+  subscribeToCloudUsers,
+  subscribeToAnnouncement,
+  saveAnnouncementToCloud,
+  clearAnnouncementInCloud
 } from './utils/firebase';
 import { Navbar } from './components/Navbar';
 import { DrillList } from './components/DrillList';
@@ -26,7 +30,7 @@ import { DrillViewer } from './components/DrillViewer';
 import { ScorecardModal } from './components/ScorecardModal';
 import { AdminDrillPoster } from './components/AdminDrillPoster';
 import { LeaderboardModal } from './components/LeaderboardModal';
-import { AiStudioPromptsModal } from './components/AiStudioPromptsModal';
+import { AnnouncementModal } from './components/AnnouncementModal';
 import { AuthGate } from './components/AuthGate';
 import { ResetConfirmModal } from './components/ResetConfirmModal';
 import { GroupChatModal } from './components/GroupChatModal';
@@ -39,6 +43,7 @@ export default function App() {
   const [userAttempts, setUserAttempts] = useState<UserAttempt[]>([]);
   const [isInitializing, setIsInitializing] = useState(true);
   const [isCloudConnected, setIsCloudConnected] = useState(false);
+  const [announcement, setAnnouncement] = useState<Announcement | null>(null);
   
   // Drill taking state
   const [activeDrill, setActiveDrill] = useState<Drill | null>(null);
@@ -46,7 +51,7 @@ export default function App() {
 
   // Modals
   const [isLeaderboardOpen, setIsLeaderboardOpen] = useState(false);
-  const [isAiStudioPromptsOpen, setIsAiStudioPromptsOpen] = useState(false);
+  const [isAnnouncementOpen, setIsAnnouncementOpen] = useState(false);
   const [isAdminDrillPosterOpen, setIsAdminDrillPosterOpen] = useState(false);
   const [drillToEdit, setDrillToEdit] = useState<Drill | null>(null);
   const [isResetModalOpen, setIsResetModalOpen] = useState(false);
@@ -95,10 +100,16 @@ export default function App() {
       syncFromCloudUsers(cloudUsers);
     });
 
+    // 4. Live Official Announcements listener
+    const unsubAnnouncement = subscribeToAnnouncement((ann) => {
+      setAnnouncement(ann);
+    });
+
     return () => {
       unsubDrills();
       unsubAttempts();
       unsubUsers();
+      unsubAnnouncement();
     };
   }, []);
 
@@ -162,6 +173,32 @@ export default function App() {
     showToast('✓ Portal reset complete. All drills and student scores cleared.');
   };
 
+  const handleSaveAnnouncement = async (newAnn: Announcement) => {
+    await saveAnnouncementToCloud(newAnn);
+    setAnnouncement(newAnn);
+    showToast('📢 Official announcement broadcasted to all students!');
+  };
+
+  const handleClearAnnouncement = async () => {
+    await clearAnnouncementInCloud();
+    setAnnouncement(null);
+    showToast('✓ Announcement cleared.');
+  };
+
+  const handleDeleteUser = async (username: string) => {
+    const res = await deleteSpecificUserAndData(username);
+    if (res.success) {
+      showToast(res.message);
+      if (currentUser && currentUser.username.toLowerCase() === username.toLowerCase()) {
+        handleLogout();
+      } else if (currentUser) {
+        setUserAttempts(getAttemptsForUser(currentUser.username));
+      }
+    } else {
+      showToast(res.message || 'Failed to delete user.');
+    }
+  };
+
   const handleFinishDrill = (attempt: UserAttempt) => {
     saveAttempt(attempt);
     if (currentUser) {
@@ -218,12 +255,13 @@ export default function App() {
         onOpenAuth={() => {}}
         onLogout={handleLogout}
         onOpenLeaderboard={() => setIsLeaderboardOpen(true)}
-        onOpenAiStudioPrompts={() => setIsAiStudioPromptsOpen(true)}
         onOpenAddDrill={handleOpenAddDrill}
         onOpenResetModal={() => setIsResetModalOpen(true)}
         isCloudConnected={isCloudConnected}
         onOpenChat={() => setIsChatOpen(true)}
         onOpenFirebaseHealth={() => setIsFirebaseHealthOpen(true)}
+        onOpenAnnouncement={() => setIsAnnouncementOpen(true)}
+        hasActiveAnnouncement={Boolean(announcement && announcement.isActive)}
       />
 
       {/* Main Content Area */}
@@ -271,22 +309,24 @@ export default function App() {
             setIsAdminDrillPosterOpen(false);
             setDrillToEdit(null);
           }}
-          onOpenAiStudioPrompts={() => {
-            setIsAdminDrillPosterOpen(false);
-            setDrillToEdit(null);
-            setIsAiStudioPromptsOpen(true);
-          }}
         />
       )}
 
       {isLeaderboardOpen && (
-        <LeaderboardModal onClose={() => setIsLeaderboardOpen(false)} />
+        <LeaderboardModal 
+          currentUser={currentUser}
+          onDeleteUser={handleDeleteUser}
+          onClose={() => setIsLeaderboardOpen(false)} 
+        />
       )}
 
-      {isAiStudioPromptsOpen && (
-        <AiStudioPromptsModal
-          initialSubject={currentSubject}
-          onClose={() => setIsAiStudioPromptsOpen(false)}
+      {isAnnouncementOpen && (
+        <AnnouncementModal
+          announcement={announcement}
+          currentUser={currentUser}
+          onClose={() => setIsAnnouncementOpen(false)}
+          onSaveAnnouncement={handleSaveAnnouncement}
+          onClearAnnouncement={handleClearAnnouncement}
         />
       )}
 

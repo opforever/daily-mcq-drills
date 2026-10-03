@@ -15,29 +15,37 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess, onClose, defaul
   const [password, setPassword] = useState('');
   const [fullName, setFullName] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
+    setIsSubmitting(true);
 
-    if (mode === 'signup') {
-      const res = registerUser(username, password, fullName, 'student');
-      if (res.success && res.user) {
-        onSuccess(res.user);
-      } else {
-        setError(res.message || 'Registration failed');
-      }
-    } else {
-      const res = authenticateUser(username, password);
-      if (res.success && res.user) {
-        if (mode === 'admin' && res.user.role !== 'admin') {
-          setError('This account does not have Admin privileges.');
-          return;
+    try {
+      if (mode === 'signup') {
+        const res = await registerUser(username, password, fullName, 'student');
+        if (res.success && res.user) {
+          onSuccess(res.user);
+        } else {
+          setError(res.message || 'Registration failed');
         }
-        onSuccess(res.user);
       } else {
-        setError(res.message || 'Invalid username or password');
+        const res = await authenticateUser(username, password);
+        if (res.success && res.user) {
+          if (mode === 'admin' && res.user.role !== 'admin') {
+            setError('This account does not have Admin privileges.');
+            return;
+          }
+          onSuccess(res.user);
+        } else {
+          setError(res.message || 'Invalid username or password');
+        }
       }
+    } catch {
+      setError('An unexpected error occurred. Please try again.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -167,9 +175,18 @@ export const AuthModal: React.FC<AuthModalProps> = ({ onSuccess, onClose, defaul
 
           <button
             type="submit"
-            className="mt-2 w-full rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 py-2.5 text-xs font-bold text-white shadow-lg transition hover:from-blue-500 hover:to-cyan-500"
+            disabled={isSubmitting}
+            className={`mt-2 w-full rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 py-2.5 text-xs font-bold text-white shadow-lg transition hover:from-blue-500 hover:to-cyan-500 ${
+              isSubmitting ? 'opacity-60 cursor-not-allowed' : ''
+            }`}
           >
-            {mode === 'signup' ? 'Create Account & Start' : mode === 'admin' ? 'Verify Admin Login' : 'Login'}
+            {isSubmitting
+              ? 'Verifying...'
+              : mode === 'signup'
+              ? 'Create Account & Start'
+              : mode === 'admin'
+              ? 'Verify Admin Login'
+              : 'Login'}
           </button>
         </form>
 

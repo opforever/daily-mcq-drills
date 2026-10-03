@@ -86,3 +86,13 @@ export interface FirebaseUsageEstimates {
   totalUsersCount: number;
   estimatedStoredKb: number;
 }
+
+export interface Announcement {
+  id: string;
+  title: string;
+  message: string;
+  author: string;
+  timestamp: number;
+  priority?: 'normal' | 'important' | 'alert';
+  isActive: boolean;
+}

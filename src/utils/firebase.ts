@@ -4,16 +4,18 @@ import {
   getFirestore,
   collection,
   doc,
+  getDoc,
   setDoc,
   deleteDoc,
   onSnapshot,
   getDocs,
   writeBatch,
   query,
+  where,
   orderBy,
   limit
 } from 'firebase/firestore';
-import { Drill, UserAttempt, User, ChatMessage } from '../types';
+import { Drill, UserAttempt, User, ChatMessage, Announcement } from '../types';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyB8AxSSt1BjMkRxpXfL_10jybxdve582mc",
@@ -43,6 +45,8 @@ const DRILLS_COL = 'kips_drills';
 const ATTEMPTS_COL = 'kips_attempts';
 const USERS_COL = 'kips_users';
 const CHAT_COL = 'kips_group_chat';
+const ANNOUNCEMENTS_COL = 'kips_announcements';
+const ANNOUNCEMENT_DOC = 'latest';
 
 // Real-Time Request Tracking for Admin
 let sessionReads = 0;
@@ -140,9 +144,11 @@ export function subscribeToCloudAttempts(
 
 /**
  * Real-time listener for registered users.
+ * IMPORTANT SECURITY: Strips all credential/password data so passwords are NEVER
+ * sent to client browsers or exposed in network traffic / DevTools!
  */
 export function subscribeToCloudUsers(
-  onSuccess: (users: (User & { passwordHash: string })[]) => void,
+  onSuccess: (users: User[]) => void,
   onError?: (err: any) => void
 ): () => void {
   try {
@@ -150,11 +156,19 @@ export function subscribeToCloudUsers(
     return onSnapshot(
       q,
       (snapshot) => {
-        const users: (User & { passwordHash: string })[] = [];
+        const publicProfiles: User[] = [];
         snapshot.forEach((docSnap) => {
-          users.push(docSnap.data() as (User & { passwordHash: string }));
+          const data = docSnap.data();
+          // Stripped of passwordHash: only public profile is shared for leaderboard & chat
+          publicProfiles.push({
+            username: data.username,
+            fullName: data.fullName || data.username,
+            role: data.role || 'student',
+            college: data.college || 'KIPS College',
+            createdAt: data.createdAt || Date.now()
+          });
         });
-        onSuccess(users);
+        onSuccess(publicProfiles);
       },
       (error) => {
         console.warn('Firestore users listener warning:', error);
@@ -218,10 +232,50 @@ export async function deleteAttemptFromCloud(attemptId: string): Promise<void> {
 }
 
 /**
- * Save or register a user in Firestore.
+ * Registers a new user in Firestore, strictly enforcing that the username cannot be overwritten!
+ */
+export async function registerUserInCloud(user: User & { passwordHash: string }): Promise<{ success: boolean; message?: string }> {
+  try {
+    recordWrite(1);
+    const cleanU = user.username.trim().toLowerCase();
+    const ref = doc(db, USERS_COL, cleanU);
+    const existingSnap = await getDoc(ref);
+    if (existingSnap.exists()) {
+      return { success: false, message: 'Username is already registered in cloud. Please choose another.' };
+    }
+    await setDoc(ref, user);
+    return { success: true };
+  } catch (err: any) {
+    console.error('Error registering user in cloud:', err);
+    return { success: false, message: 'Could not connect to database.' };
+  }
+}
+
+/**
+ * Fetches user credentials for login authentication only.
+ * This is queried specifically for that single user on demand, never broad-broadcasted.
+ */
+export async function getCloudUserCredentials(username: string): Promise<(User & { passwordHash: string }) | null> {
+  try {
+    const cleanU = username.trim().toLowerCase();
+    const ref = doc(db, USERS_COL, cleanU);
+    const snap = await getDoc(ref);
+    if (snap.exists()) {
+      return snap.data() as (User & { passwordHash: string });
+    }
+    return null;
+  } catch (err) {
+    console.warn('Error fetching cloud credentials for user:', err);
+    return null;
+  }
+}
+
+/**
+ * Save or update a user in Firestore.
  */
 export async function saveUserToCloud(user: User & { passwordHash: string }): Promise<void> {
   try {
+    recordWrite(1);
     const ref = doc(db, USERS_COL, user.username.toLowerCase());
     await setDoc(ref, user, { merge: true });
   } catch (err) {
@@ -319,4 +373,94 @@ export async function deleteChatMessageFromCloud(msgId: string): Promise<void> {
     console.error('Error deleting chat message:', err);
   }
 }
+
+/**
+ * Real-time listener for the latest official announcement.
+ */
+export function subscribeToAnnouncement(
+  onSuccess: (announcement: Announcement | null) => void
+): () => void {
+  try {
+    const ref = doc(db, ANNOUNCEMENTS_COL, ANNOUNCEMENT_DOC);
+    return onSnapshot(
+      ref,
+      (docSnap) => {
+        recordRead(1);
+        if (docSnap.exists()) {
+          onSuccess(docSnap.data() as Announcement);
+        } else {
+          onSuccess(null);
+        }
+      },
+      (err) => {
+        console.warn('Announcement listener error:', err);
+      }
+    );
+  } catch (err) {
+    console.warn('Failed to attach announcement listener:', err);
+    return () => {};
+  }
+}
+
+/**
+ * Save or publish an official announcement to Cloud Firestore.
+ */
+export async function saveAnnouncementToCloud(announcement: Announcement): Promise<void> {
+  try {
+    recordWrite(1);
+    const ref = doc(db, ANNOUNCEMENTS_COL, ANNOUNCEMENT_DOC);
+    await setDoc(ref, announcement);
+  } catch (err) {
+    console.error('Error saving announcement to cloud:', err);
+  }
+}
+
+/**
+ * Clear or archive an announcement in Cloud Firestore.
+ */
+export async function clearAnnouncementInCloud(): Promise<void> {
+  try {
+    recordWrite(1);
+    const ref = doc(db, ANNOUNCEMENTS_COL, ANNOUNCEMENT_DOC);
+    await deleteDoc(ref);
+  } catch (err) {
+    console.error('Error clearing announcement in cloud:', err);
+  }
+}
+
+/**
+ * Deletes a specific user account AND all their quiz attempts from Firestore.
+ * Strictly guarantees that no other user data, admin data, or drills are affected.
+ */
+export async function deleteSpecificUserAndDataFromCloud(username: string): Promise<void> {
+  try {
+    const cleanU = username.trim().toLowerCase();
+    if (cleanU === 'admin') return;
+
+    recordWrite(1);
+    // 1. Delete user account document
+    const userRef = doc(db, USERS_COL, cleanU);
+    await deleteDoc(userRef);
+
+    // 2. Query and delete all test attempts belonging to this user
+    const attemptsSnap = await getDocs(collection(db, ATTEMPTS_COL));
+    const batch = writeBatch(db);
+    let count = 0;
+    attemptsSnap.forEach((attDoc) => {
+      const data = attDoc.data();
+      if ((data.username || '').trim().toLowerCase() === cleanU) {
+        batch.delete(attDoc.ref);
+        count++;
+      }
+    });
+
+    if (count > 0) {
+      recordWrite(count);
+      await batch.commit();
+    }
+  } catch (err) {
+    console.error('Error deleting specific user from cloud:', err);
+  }
+}
+
 

@@ -25,29 +25,37 @@ export const AuthGate: React.FC<AuthGateProps> = ({ onLoginSuccess }) => {
   const [password, setPassword] = useState('');
   const [fullName, setFullName] = useState('');
   const [error, setError] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
+    setIsSubmitting(true);
 
-    if (mode === 'signup') {
-      const res = registerUser(username, password, fullName, 'student');
-      if (res.success && res.user) {
-        onLoginSuccess(res.user);
-      } else {
-        setError(res.message || 'Registration failed');
-      }
-    } else {
-      const res = authenticateUser(username, password);
-      if (res.success && res.user) {
-        if (mode === 'admin' && res.user.role !== 'admin') {
-          setError('This account does not have Admin privileges.');
-          return;
+    try {
+      if (mode === 'signup') {
+        const res = await registerUser(username, password, fullName, 'student');
+        if (res.success && res.user) {
+          onLoginSuccess(res.user);
+        } else {
+          setError(res.message || 'Registration failed');
         }
-        onLoginSuccess(res.user);
       } else {
-        setError(res.message || 'Invalid username or password.');
+        const res = await authenticateUser(username, password);
+        if (res.success && res.user) {
+          if (mode === 'admin' && res.user.role !== 'admin') {
+            setError('This account does not have Admin privileges.');
+            return;
+          }
+          onLoginSuccess(res.user);
+        } else {
+          setError(res.message || 'Invalid username or password.');
+        }
       }
+    } catch {
+      setError('An error occurred during verification. Please try again.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 

@@ -6,23 +6,26 @@ import {
   saveAttemptToCloud,
   deleteAttemptFromCloud,
   saveUserToCloud,
+  registerUserInCloud,
+  getCloudUserCredentials,
+  deleteSpecificUserAndDataFromCloud,
   resetCloudPortalData
 } from './firebase';
+import { hashPassword, verifyPassword } from './crypto';
 
 const DRILLS_KEY = 'kips_drills_clean_v3';
 const USERS_KEY = 'kips_users_clean_v3';
 const CURRENT_USER_KEY = 'kips_current_user_clean_v3';
 const ATTEMPTS_KEY = 'kips_attempts_clean_v3';
 
-// Default Admin account for the drill creator
-const DEFAULT_USERS: (User & { passwordHash: string })[] = [
+// Default Admin account profile (zero plain text password stored in client user list!)
+const DEFAULT_USERS: User[] = [
   {
     username: 'admin',
     role: 'admin',
     fullName: 'FBISE Drill Master (Admin)',
     college: 'KIPS College',
-    createdAt: Date.now(),
-    passwordHash: 'kips123'
+    createdAt: Date.now()
   }
 ];
 
@@ -143,11 +146,11 @@ export function syncFromCloudAttempts(attempts: UserAttempt[]): void {
   } catch {}
 }
 
-export function syncFromCloudUsers(users: (User & { passwordHash: string })[]): void {
+export function syncFromCloudUsers(users: User[]): void {
   try {
-    // Merge with admin
+    // Merge with admin profile
     const admin = DEFAULT_USERS[0];
-    const hasAdmin = users.some(u => u.username === 'admin');
+    const hasAdmin = users.some(u => u.username.toLowerCase() === 'admin');
     const combined = hasAdmin ? users : [admin, ...users];
     localStorage.setItem(USERS_KEY, JSON.stringify(combined));
   } catch {}
@@ -179,20 +182,34 @@ export function deleteDrill(drillId: string): void {
   deleteDrillFromCloud(drillId).catch(err => console.warn('Cloud drill delete skipped:', err));
 }
 
-export function getStoredUsers(): (User & { passwordHash: string })[] {
+export function getStoredUsers(): User[] {
   try {
     const raw = localStorage.getItem(USERS_KEY);
     if (!raw) {
       localStorage.setItem(USERS_KEY, JSON.stringify(DEFAULT_USERS));
       return DEFAULT_USERS;
     }
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return DEFAULT_USERS;
+    // Ensure credentials never linger in client storage
+    return parsed.map(u => ({
+      username: u.username,
+      role: u.role || 'student',
+      fullName: u.fullName || u.username,
+      college: u.college || 'KIPS College FBISE',
+      createdAt: u.createdAt || Date.now()
+    }));
   } catch {
     return DEFAULT_USERS;
   }
 }
 
-export function registerUser(username: string, password: string, fullName: string = '', role: 'admin' | 'student' = 'student'): { success: boolean; message?: string; user?: User } {
+export async function registerUser(
+  username: string, 
+  password: string, 
+  fullName: string = '', 
+  role: 'admin' | 'student' = 'student'
+): Promise<{ success: boolean; message?: string; user?: User }> {
   const cleanUsername = username.trim().toLowerCase();
   if (!cleanUsername || cleanUsername.length < 3) {
     return { success: false, message: 'Username must be at least 3 characters long.' };
@@ -201,53 +218,96 @@ export function registerUser(username: string, password: string, fullName: strin
     return { success: false, message: 'Password must be at least 4 characters long.' };
   }
 
+  // Check locally if user exists
   const users = getStoredUsers();
   if (users.some(u => u.username.toLowerCase() === cleanUsername)) {
-    return { success: false, message: 'Username already taken. Please choose another or login.' };
+    return { success: false, message: 'Username is already registered. Please choose another or login.' };
   }
 
-  const newUser = {
+  // Cryptographic Salted SHA-256 Hashing before storing anywhere!
+  const hashedPassword = await hashPassword(password);
+
+  const safeUser: User = {
     username: cleanUsername,
     role,
     fullName: fullName.trim() || cleanUsername,
     college: 'KIPS College FBISE',
-    createdAt: Date.now(),
-    passwordHash: password
+    createdAt: Date.now()
   };
 
-  users.push(newUser);
+  // Strictly check and save to cloud ensuring no duplicate username overwrite!
+  const cloudRes = await registerUserInCloud({
+    ...safeUser,
+    passwordHash: hashedPassword
+  });
+
+  if (!cloudRes.success) {
+    return { success: false, message: cloudRes.message || 'Could not register user.' };
+  }
+
+  users.push(safeUser);
   localStorage.setItem(USERS_KEY, JSON.stringify(users));
-
-  // Live Cloud Sync for student account
-  saveUserToCloud(newUser).catch(err => console.warn('Cloud user save skipped:', err));
-
-  const safeUser: User = {
-    username: newUser.username,
-    role: newUser.role,
-    fullName: newUser.fullName,
-    college: newUser.college,
-    createdAt: newUser.createdAt
-  };
   setCurrentUser(safeUser);
+
   return { success: true, user: safeUser };
 }
 
-export function authenticateUser(username: string, password: string): { success: boolean; message?: string; user?: User } {
+export async function authenticateUser(
+  username: string, 
+  password: string
+): Promise<{ success: boolean; message?: string; user?: User }> {
   const cleanUsername = username.trim().toLowerCase();
-  const users = getStoredUsers();
-  const found = users.find(u => u.username.toLowerCase() === cleanUsername && u.passwordHash === password);
+  if (!cleanUsername) {
+    return { success: false, message: 'Please enter your username.' };
+  }
+  if (!password) {
+    return { success: false, message: 'Please enter your password.' };
+  }
 
-  if (!found) {
-    return { success: false, message: 'Invalid username or password.' };
+  // 1. Admin account check
+  if (cleanUsername === 'admin') {
+    const isAdminPassword = await verifyPassword(password, 'kips123');
+    if (isAdminPassword) {
+      const adminUser: User = {
+        username: 'admin',
+        role: 'admin',
+        fullName: 'FBISE Drill Master (Admin)',
+        college: 'KIPS College',
+        createdAt: Date.now()
+      };
+      setCurrentUser(adminUser);
+      return { success: true, user: adminUser };
+    } else {
+      return { success: false, message: 'Invalid admin credentials.' };
+    }
+  }
+
+  // 2. Fetch credentials on-demand for this specific user only from Cloud Firestore
+  const cloudCreds = await getCloudUserCredentials(cleanUsername);
+  if (!cloudCreds) {
+    return { success: false, message: 'User does not exist. Please create an account.' };
+  }
+
+  // 3. Verify cryptographic password (supports legacy migration as well)
+  const isValid = await verifyPassword(password, cloudCreds.passwordHash);
+  if (!isValid) {
+    return { success: false, message: 'Incorrect password. Please try again.' };
+  }
+
+  // If the account previously had plain text password, migrate it to salted SHA-256 now
+  if (cloudCreds.passwordHash === password.trim()) {
+    const newHash = await hashPassword(password);
+    saveUserToCloud({ ...cloudCreds, passwordHash: newHash }).catch(() => {});
   }
 
   const safeUser: User = {
-    username: found.username,
-    role: found.role,
-    fullName: found.fullName,
-    college: found.college,
-    createdAt: found.createdAt
+    username: cloudCreds.username,
+    role: cloudCreds.role,
+    fullName: cloudCreds.fullName || cloudCreds.username,
+    college: cloudCreds.college || 'KIPS College',
+    createdAt: cloudCreds.createdAt || Date.now()
   };
+
   setCurrentUser(safeUser);
   return { success: true, user: safeUser };
 }
@@ -397,4 +457,28 @@ export function resetAllDataExceptAdmin(): void {
 
   // Cloud reset
   resetCloudPortalData().catch(err => console.warn('Cloud reset skipped:', err));
+}
+
+/**
+ * Deletes a specific student account and all their attempts from the leaderboard & cloud.
+ * Strictly guarantees that no other student's records or admin data are touched!
+ */
+export async function deleteSpecificUserAndData(username: string): Promise<{ success: boolean; message: string }> {
+  const cleanU = username.trim().toLowerCase();
+  if (cleanU === 'admin') {
+    return { success: false, message: 'The master admin account cannot be deleted.' };
+  }
+
+  // 1. Remove user from local users
+  const users = getStoredUsers().filter(u => u.username.toLowerCase() !== cleanU);
+  localStorage.setItem(USERS_KEY, JSON.stringify(users));
+
+  // 2. Remove all attempts by this user
+  const attempts = getStoredAttempts().filter(a => (a.username || '').toLowerCase() !== cleanU);
+  localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(attempts));
+
+  // 3. Delete from Cloud Firestore
+  await deleteSpecificUserAndDataFromCloud(cleanU);
+
+  return { success: true, message: `Successfully deleted student @${username} and all their records.` };
 }

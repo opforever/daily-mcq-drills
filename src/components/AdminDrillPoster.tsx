@@ -22,7 +22,6 @@ interface AdminDrillPosterProps {
   existingDrills: Drill[];
   onSaveDrill: (drill: Drill) => void;
   onClose: () => void;
-  onOpenAiStudioPrompts: () => void;
   drillToEdit?: Drill | null;
 }
 
@@ -31,7 +30,6 @@ export const AdminDrillPoster: React.FC<AdminDrillPosterProps> = ({
   existingDrills,
   onSaveDrill,
   onClose,
-  onOpenAiStudioPrompts,
   drillToEdit
 }) => {
   const isEditing = Boolean(drillToEdit);
@@ -375,15 +373,6 @@ export const AdminDrillPoster: React.FC<AdminDrillPosterProps> = ({
               className="rounded-lg border border-slate-700 bg-slate-800/80 px-2.5 py-1 text-xs text-slate-300 hover:bg-slate-700 hover:text-white"
             >
               Load Template
-            </button>
-
-            <button
-              type="button"
-              onClick={onOpenAiStudioPrompts}
-              className="flex items-center gap-1 rounded-lg border border-purple-500/30 bg-purple-950/40 px-2.5 py-1 text-xs font-semibold text-purple-300 hover:bg-purple-900/60"
-            >
-              <Sparkles className="h-3.5 w-3.5" />
-              <span>Get AI System Instructions</span>
             </button>
           </div>
         </div>
