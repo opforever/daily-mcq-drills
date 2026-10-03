@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Drill, OptionKey, UserAttempt, User } from '../types';
 import { LatexRenderer } from '../utils/latexRenderer';
 import { 
@@ -6,6 +6,11 @@ import {
   getInProgressSession, 
   clearInProgressSession 
 } from '../utils/storage';
+import {
+  saveCloudInProgressSession,
+  getCloudInProgressSession,
+  clearCloudInProgressSession
+} from '../utils/firebase';
 import { 
   ArrowLeft, 
   ArrowRight, 
@@ -22,7 +27,9 @@ import {
   Edit3,
   ChevronDown,
   ChevronUp,
-  BookOpen
+  BookOpen,
+  Cloud,
+  Loader2
 } from 'lucide-react';
 
 interface DrillViewerProps {
@@ -51,16 +58,62 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [expandedExplanations, setExpandedExplanations] = useState<Record<string, boolean>>(() => savedSession?.expandedExplanations ?? {});
   const [isResumed, setIsResumed] = useState<boolean>(() => Boolean(savedSession && Object.keys(savedSession.selectedAnswers || {}).length > 0));
+  const [cloudSyncStatus, setCloudSyncStatus] = useState<'idle' | 'checking' | 'saving' | 'synced'>('idle');
+  const [cloudNotice, setCloudNotice] = useState<string | null>(null);
 
   // Timer settings: countdown toggleable (defaults to elapsed stopwatch, toggle to 25-min countdown)
   const [isCountdownEnabled, setIsCountdownEnabled] = useState(false);
   const [remainingSeconds, setRemainingSeconds] = useState(drill.questions.length * 60); // 1 min per MCQ
   const [elapsedSeconds, setElapsedSeconds] = useState<number>(() => savedSession?.elapsedSeconds ?? 0);
 
-  // Auto-Save in-progress state to localStorage so refresh never loses work
+  // 1. Initial Cloud Sync Check: Checks Firebase Firestore for progress saved on other devices
+  useEffect(() => {
+    let isMounted = true;
+    const syncFromCloud = async () => {
+      if (!username || username === 'guest') return;
+      try {
+        setCloudSyncStatus('checking');
+        const cloudSession = await getCloudInProgressSession(username, drill.id);
+        if (!isMounted || !cloudSession) {
+          setCloudSyncStatus('idle');
+          return;
+        }
+
+        const localSession = getInProgressSession(username, drill.id);
+        const cloudAnswerCount = Object.keys(cloudSession.selectedAnswers || {}).length;
+        const localAnswerCount = Object.keys(localSession?.selectedAnswers || {}).length;
+
+        // If cloud has newer progress or more answered questions than local device
+        const isCloudNewer = !localSession || (cloudSession.lastUpdated > (localSession.lastUpdated || 0));
+
+        if (cloudAnswerCount > 0 && (isCloudNewer || cloudAnswerCount > localAnswerCount)) {
+          setCurrentIndex(cloudSession.currentIndex);
+          setSelectedAnswers(cloudSession.selectedAnswers || {});
+          setShowExplanation(cloudSession.showExplanation || {});
+          setExpandedExplanations(cloudSession.expandedExplanations || {});
+          setElapsedSeconds(cloudSession.elapsedSeconds || 0);
+          setIsResumed(true);
+          setCloudNotice(`☁️ Progress restored from your other device (Question #${cloudSession.currentIndex + 1} • ${cloudAnswerCount} answered)`);
+          saveInProgressSession(username, cloudSession);
+
+          setTimeout(() => {
+            if (isMounted) setCloudNotice(null);
+          }, 4500);
+        }
+        setCloudSyncStatus('synced');
+      } catch {
+        if (isMounted) setCloudSyncStatus('idle');
+      }
+    };
+
+    syncFromCloud();
+    return () => { isMounted = false; };
+  }, [drill.id, username]);
+
+  // 2. Dual-Layer Auto-Save: Instant localStorage + Debounced Cloud Firestore sync
   useEffect(() => {
     if (Object.keys(selectedAnswers).length > 0) {
-      saveInProgressSession(username, {
+      const sessionData = {
         drillId: drill.id,
         currentIndex,
         selectedAnswers,
@@ -68,7 +121,21 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
         expandedExplanations,
         elapsedSeconds,
         lastUpdated: Date.now()
-      });
+      };
+
+      // Immediate local save
+      saveInProgressSession(username, sessionData);
+
+      // Debounced Cloud Firestore write
+      setCloudSyncStatus('saving');
+      const debounceTimer = setTimeout(async () => {
+        if (username && username !== 'guest') {
+          await saveCloudInProgressSession(username, sessionData);
+          setCloudSyncStatus('synced');
+        }
+      }, 600);
+
+      return () => clearTimeout(debounceTimer);
     }
   }, [currentIndex, selectedAnswers, showExplanation, expandedExplanations, elapsedSeconds, drill.id, username]);
 
@@ -152,6 +219,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
 
     // Clear in-progress session once test is finalized
     clearInProgressSession(username, drill.id);
+    clearCloudInProgressSession(username, drill.id);
 
     const userKey = currentUser ? currentUser.username.trim().toLowerCase().replace(/[^a-z0-9_]/g, '_') : 'guest';
     const attempt: UserAttempt = {
@@ -172,6 +240,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   const handleResetProgress = () => {
     if (confirm('Restart this drill from Question #1? Your in-progress answers will be cleared.')) {
       clearInProgressSession(username, drill.id);
+      clearCloudInProgressSession(username, drill.id);
       setSelectedAnswers({});
       setShowExplanation({});
       setExpandedExplanations({});
@@ -217,6 +286,31 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
 
         {/* Right side controls: Timer & Admin Delete */}
         <div className="flex items-center gap-2">
+          {/* Cloud Sync Status Indicator */}
+          <div 
+            className="hidden sm:flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-950/70 px-2.5 py-1.5 text-[11px]"
+            title="In-progress answers are automatically synced to Cloud Firestore so you can resume on any device"
+          >
+            {cloudSyncStatus === 'checking' && (
+              <>
+                <Loader2 className="h-3 w-3 animate-spin text-cyan-400" />
+                <span className="text-slate-400">Syncing...</span>
+              </>
+            )}
+            {cloudSyncStatus === 'saving' && (
+              <>
+                <Loader2 className="h-3 w-3 animate-spin text-amber-400" />
+                <span className="text-amber-300">Cloud saving...</span>
+              </>
+            )}
+            {(cloudSyncStatus === 'synced' || cloudSyncStatus === 'idle') && (
+              <>
+                <Cloud className="h-3.5 w-3.5 text-cyan-400" />
+                <span className="text-slate-300 font-medium">Cloud Synced</span>
+              </>
+            )}
+          </div>
+
           {/* Timer Control (Toggleable countdown) */}
           <div className="flex items-center gap-2 rounded-xl border border-slate-800 bg-slate-950/70 px-3 py-1.5">
             <button
@@ -259,6 +353,26 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
           )}
         </div>
       </div>
+
+      {/* Cloud Cross-Device Resume Toast Notice */}
+      {cloudNotice && (
+        <div className="mb-3 flex items-center justify-between gap-2 rounded-xl border border-cyan-500/40 bg-gradient-to-r from-cyan-950/90 via-slate-900 to-blue-950/90 px-3.5 py-2.5 text-xs text-cyan-200 shadow-xl backdrop-blur-md animate-fade-in">
+          <div className="flex items-center gap-2.5">
+            <div className="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg bg-cyan-500/20 text-cyan-300">
+              <Cloud className="h-3.5 w-3.5" />
+            </div>
+            <span className="font-medium">{cloudNotice}</span>
+          </div>
+          <button 
+            type="button" 
+            onClick={() => setCloudNotice(null)} 
+            className="rounded p-1 text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer text-xs"
+            title="Dismiss"
+          >
+            ✕
+          </button>
+        </div>
+      )}
 
       {/* Auto-Save & Resumed Progress Status Banner */}
       {isResumed && answeredCount > 0 && (

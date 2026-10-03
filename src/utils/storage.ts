@@ -1,4 +1,4 @@
-import { Drill, LeaderboardUser, User, UserAttempt, OptionKey } from '../types';
+import { Drill, LeaderboardUser, User, UserAttempt, OptionKey, InProgressDrillSession } from '../types';
 import { INITIAL_DRILLS } from '../data/initialDrills';
 import {
   saveDrillToCloud,
@@ -584,15 +584,7 @@ export async function adminResetStudentPassword(
   return { success: true, message: `Password for @${targetStudentUsername} has been reset to: "${newPassword}"` };
 }
 
-export interface InProgressDrillSession {
-  drillId: string;
-  currentIndex: number;
-  selectedAnswers: Record<string, OptionKey>;
-  showExplanation: Record<string, boolean>;
-  expandedExplanations: Record<string, boolean>;
-  elapsedSeconds: number;
-  lastUpdated: number;
-}
+export type { InProgressDrillSession };
 
 /**
  * Saves in-progress MCQ answers and timer so student work is never lost.

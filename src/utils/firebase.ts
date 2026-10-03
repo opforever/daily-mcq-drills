@@ -15,7 +15,7 @@ import {
   orderBy,
   limit
 } from 'firebase/firestore';
-import { Drill, UserAttempt, User, ChatMessage, Announcement } from '../types';
+import { Drill, UserAttempt, User, ChatMessage, Announcement, InProgressDrillSession } from '../types';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyB8AxSSt1BjMkRxpXfL_10jybxdve582mc",
@@ -47,6 +47,7 @@ const USERS_COL = 'kips_users';
 const CHAT_COL = 'kips_group_chat';
 const ANNOUNCEMENTS_COL = 'kips_announcements';
 const ANNOUNCEMENT_DOC = 'latest';
+const ACTIVE_SESSIONS_COL = 'kips_active_sessions';
 
 // Real-Time Request Tracking for Admin
 let sessionReads = 0;
@@ -462,5 +463,73 @@ export async function deleteSpecificUserAndDataFromCloud(username: string): Prom
     console.error('Error deleting specific user from cloud:', err);
   }
 }
+
+/**
+ * Saves in-progress MCQ drill state to Firebase Firestore so students
+ * can seamlessly resume their drill from any device (phone, tablet, computer).
+ */
+export async function saveCloudInProgressSession(
+  username: string,
+  session: InProgressDrillSession
+): Promise<void> {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase().replace(/[^a-z0-9_]/g, '_');
+    const docId = `session_${cleanU}_${session.drillId}`;
+    const docRef = doc(db, ACTIVE_SESSIONS_COL, docId);
+
+    recordWrite(1);
+    await setDoc(docRef, {
+      ...session,
+      username: cleanU,
+      lastUpdated: Date.now()
+    }, { merge: true });
+  } catch (err) {
+    console.warn('Could not sync in-progress session to cloud (offline fallback active):', err);
+  }
+}
+
+/**
+ * Retrieves in-progress MCQ drill state from Firebase Firestore for multi-device resume.
+ */
+export async function getCloudInProgressSession(
+  username: string,
+  drillId: string
+): Promise<InProgressDrillSession | null> {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase().replace(/[^a-z0-9_]/g, '_');
+    const docId = `session_${cleanU}_${drillId}`;
+    const docRef = doc(db, ACTIVE_SESSIONS_COL, docId);
+
+    recordRead(1);
+    const snap = await getDoc(docRef);
+    if (snap.exists()) {
+      return snap.data() as InProgressDrillSession;
+    }
+    return null;
+  } catch (err) {
+    console.warn('Could not read cloud in-progress session (using local storage):', err);
+    return null;
+  }
+}
+
+/**
+ * Removes in-progress MCQ drill state from Firebase Firestore once completed or restarted.
+ */
+export async function clearCloudInProgressSession(
+  username: string,
+  drillId: string
+): Promise<void> {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase().replace(/[^a-z0-9_]/g, '_');
+    const docId = `session_${cleanU}_${drillId}`;
+    const docRef = doc(db, ACTIVE_SESSIONS_COL, docId);
+
+    recordWrite(1);
+    await deleteDoc(docRef);
+  } catch (err) {
+    console.warn('Could not remove cloud in-progress session:', err);
+  }
+}
+
 
 

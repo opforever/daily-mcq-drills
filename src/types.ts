@@ -96,3 +96,13 @@ export interface Announcement {
   priority?: 'normal' | 'important' | 'alert';
   isActive: boolean;
 }
+
+export interface InProgressDrillSession {
+  drillId: string;
+  currentIndex: number;
+  selectedAnswers: Record<string, OptionKey>;
+  showExplanation: Record<string, boolean>;
+  expandedExplanations: Record<string, boolean>;
+  elapsedSeconds: number;
+  lastUpdated: number;
+}
