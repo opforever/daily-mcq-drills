@@ -16,8 +16,7 @@ import {
   getStoredUsers,
   deleteSpecificUserAndData,
   getSeenAnnouncementId,
-  setSeenAnnouncementId,
-  getActiveDrillId
+  setSeenAnnouncementId
 } from './utils/storage';
 import { 
   subscribeToCloudDrills, 
@@ -39,6 +38,8 @@ import { AuthGate } from './components/AuthGate';
 import { ResetConfirmModal } from './components/ResetConfirmModal';
 import { GroupChatModal } from './components/GroupChatModal';
 import { FirebaseHealthModal } from './components/FirebaseHealthModal';
+import { AiTutorModal } from './components/AiTutorModal';
+import { Sparkles } from 'lucide-react';
 
 export default function App() {
   const [currentSubject, setCurrentSubject] = useState<Subject>('physics');
@@ -61,6 +62,7 @@ export default function App() {
   const [isLeaderboardOpen, setIsLeaderboardOpen] = useState(false);
   const [isAnnouncementOpen, setIsAnnouncementOpen] = useState(false);
   const [isChangePasswordOpen, setIsChangePasswordOpen] = useState(false);
+  const [isAiTutorOpen, setIsAiTutorOpen] = useState(false);
   const [isAdminDrillPosterOpen, setIsAdminDrillPosterOpen] = useState(false);
   const [drillToEdit, setDrillToEdit] = useState<Drill | null>(null);
   const [isResetModalOpen, setIsResetModalOpen] = useState(false);
@@ -85,16 +87,6 @@ export default function App() {
       setCurrentUserState(savedUser);
       setUserAttempts(getAttemptsForUser(savedUser.username));
       setLastSeenAnnId(getSeenAnnouncementId(savedUser.username));
-
-      // Auto-restore in-progress drill if page was refreshed
-      const activeDrillId = getActiveDrillId(savedUser.username);
-      if (activeDrillId) {
-        const match = loadedDrills.find(d => d.id === activeDrillId);
-        if (match) {
-          setActiveDrill(match);
-          setCurrentSubject(match.subject);
-        }
-      }
     }
     setIsInitializing(false);
 
@@ -137,15 +129,6 @@ export default function App() {
     setCurrentUserState(user);
     setUserAttempts(getAttemptsForUser(user.username));
     setLastSeenAnnId(getSeenAnnouncementId(user.username));
-
-    const activeDrillId = getActiveDrillId(user.username);
-    if (activeDrillId) {
-      const match = drills.find(d => d.id === activeDrillId);
-      if (match) {
-        setActiveDrill(match);
-        setCurrentSubject(match.subject);
-      }
-    }
 
     if (user.role === 'admin' && drills.length === 0) {
       setIsAdminDrillPosterOpen(true);
@@ -302,7 +285,29 @@ export default function App() {
         onOpenAnnouncement={handleOpenAnnouncement}
         hasActiveAnnouncement={Boolean(announcement && announcement.isActive && announcement.id !== lastSeenAnnId)}
         onOpenChangePassword={() => setIsChangePasswordOpen(true)}
+        onOpenAiTutor={() => setIsAiTutorOpen(true)}
       />
+
+      {/* Floating AI Tutor Quick Trigger Button (Mobile & Desktop) */}
+      {!isAiTutorOpen && currentUser && (
+        <button
+          onClick={() => setIsAiTutorOpen(true)}
+          title="Ask KIPS FBISE AI Tutor (Qwen 27B)"
+          className="fixed bottom-4 right-4 z-40 flex items-center gap-2 rounded-full border border-cyan-400/40 bg-gradient-to-r from-slate-900 via-cyan-950 to-blue-950 p-2 sm:px-4 sm:py-2.5 text-white shadow-xl shadow-cyan-500/20 backdrop-blur-md transition-all hover:scale-105 hover:border-cyan-300 hover:shadow-cyan-500/30 cursor-pointer group"
+        >
+          <div className="flex h-8 w-8 sm:h-7 sm:w-7 items-center justify-center rounded-full bg-gradient-to-tr from-cyan-500 to-blue-600 text-white shadow-md">
+            <Sparkles className="h-4 w-4 sm:h-3.5 sm:w-3.5 text-cyan-100 animate-pulse" />
+          </div>
+          <div className="text-left hidden xs:block">
+            <div className="text-[11px] sm:text-xs font-bold leading-tight group-hover:text-cyan-300 transition">
+              AI Tutor
+            </div>
+            <div className="text-[9px] text-cyan-400 font-medium leading-none">
+              Qwen 27B • {currentSubject.toUpperCase()}
+            </div>
+          </div>
+        </button>
+      )}
 
       {/* Main Content Area */}
       <main className="pb-16">
@@ -375,6 +380,16 @@ export default function App() {
           currentUser={currentUser}
           onClose={() => setIsChangePasswordOpen(false)}
           onSuccessToast={showToast}
+        />
+      )}
+
+      {/* Temporary Private KIPS FBISE AI Tutor (Qwen 27B) */}
+      {isAiTutorOpen && currentUser && (
+        <AiTutorModal
+          currentUser={currentUser}
+          activeSubject={currentSubject}
+          activeDrill={activeDrill}
+          onClose={() => setIsAiTutorOpen(false)}
         />
       )}
 

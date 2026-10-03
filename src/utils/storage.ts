@@ -595,14 +595,13 @@ export interface InProgressDrillSession {
 }
 
 /**
- * Saves in-progress MCQ answers and timer so student work is never lost if refreshed.
+ * Saves in-progress MCQ answers and timer so student work is never lost.
  */
 export function saveInProgressSession(username: string, session: InProgressDrillSession): void {
   try {
     const cleanU = (username || 'guest').trim().toLowerCase();
     const key = `kips_progress_${cleanU}_${session.drillId}`;
     localStorage.setItem(key, JSON.stringify(session));
-    localStorage.setItem(`kips_active_drill_${cleanU}`, session.drillId);
   } catch (err) {
     console.warn('Failed to save in-progress drill session:', err);
   }
@@ -631,23 +630,7 @@ export function clearInProgressSession(username: string, drillId: string): void 
     const cleanU = (username || 'guest').trim().toLowerCase();
     const key = `kips_progress_${cleanU}_${drillId}`;
     localStorage.removeItem(key);
-    const active = localStorage.getItem(`kips_active_drill_${cleanU}`);
-    if (active === drillId) {
-      localStorage.removeItem(`kips_active_drill_${cleanU}`);
-    }
   } catch {}
-}
-
-/**
- * Returns currently active drill ID if page was reloaded.
- */
-export function getActiveDrillId(username: string): string | null {
-  try {
-    const cleanU = (username || 'guest').trim().toLowerCase();
-    return localStorage.getItem(`kips_active_drill_${cleanU}`);
-  } catch {
-    return null;
-  }
 }
 
 /**

@@ -14,7 +14,8 @@ import {
   MessageSquare,
   Activity,
   Megaphone,
-  KeyRound
+  KeyRound,
+  Sparkles
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -32,6 +33,7 @@ interface NavbarProps {
   onOpenAnnouncement: () => void;
   hasActiveAnnouncement?: boolean;
   onOpenChangePassword?: () => void;
+  onOpenAiTutor?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -48,7 +50,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenFirebaseHealth,
   onOpenAnnouncement,
   hasActiveAnnouncement = false,
-  onOpenChangePassword
+  onOpenChangePassword,
+  onOpenAiTutor
 }) => {
   const isAdmin = currentUser?.role === 'admin';
 
@@ -106,6 +109,18 @@ export const Navbar: React.FC<NavbarProps> = ({
               </span>
             )}
           </button>
+
+          {/* AI Tutor Assistant Button */}
+          {onOpenAiTutor && (
+            <button
+              onClick={onOpenAiTutor}
+              className="flex h-8 sm:h-8.5 items-center gap-1.5 rounded-lg border border-cyan-500/40 bg-gradient-to-r from-cyan-950/60 to-blue-950/60 px-2 sm:px-2.5 text-xs font-semibold text-cyan-300 transition-all hover:border-cyan-400 hover:bg-cyan-900/50 hover:text-white cursor-pointer shadow-sm shadow-cyan-500/10"
+              title="Open KIPS FBISE AI Tutor (Qwen 27B)"
+            >
+              <Sparkles className="h-3.5 w-3.5 text-cyan-400 animate-pulse" />
+              <span className="hidden sm:inline">AI Tutor</span>
+            </button>
+          )}
 
           {/* Student & Admin Discussion Chat */}
           <button
