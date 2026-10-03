@@ -302,6 +302,11 @@ function parseInlineSpans(text: string, tokens: Map<string, MathToken>): React.R
       return renderMathToken(tokens.get(part)!, `math_${index}`);
     }
 
+    // Safety fallback: Never show raw placeholder token to student
+    if (/^%%%MATH_(?:BLOCK|INLINE)_\d+%%%$/.test(part)) {
+      return null;
+    }
+
     // Bold: **...**
     if (part.startsWith('**') && part.endsWith('**') && part.length >= 4) {
       const inner = part.slice(2, -2);
@@ -488,17 +493,17 @@ function renderContentLines(
 
     // 4. Callout Section Detection (Only top-level, prevent infinite recursion)
     if (!insideCallout) {
+      // Must explicitly be a Mnemonic, Exam Insight, Trap, or Caution block (with unicode flags so greetings like 👋 or 📚 are never matched)
       const isCalloutHeader = 
-        /^(#{1,6}\s*)?[🚨💡⚠️📌]\s*(.*)$/.test(trimmed) ||
-        /^(#{1,6}\s*)?\*\*[🚨💡⚠️📌]/.test(trimmed) ||
-        /^(#{1,6}\s*)?(Mnemonic|FBISE Exam Insight|Exam Insight|Comparison:|Crucial Tip|Common Trap)/i.test(trimmed);
+        /^(#{1,6}\s*)?(?:🚨|💡|⚠️|📌)\s*\*{0,2}(Mnemonic|FBISE Exam Insight|Exam Insight|Caution|Important Tip|Crucial Tip|Common Trap|Tip|Warning|Summary)/iu.test(trimmed) ||
+        /^(#{1,6}\s*)?\*{1,2}(Mnemonic|FBISE Exam Insight|Exam Insight|Crucial Tip|Common Trap|Caution|Warning)/i.test(trimmed);
 
       if (isCalloutHeader) {
-        const isAlert = /🚨|⚠️|Exam Insight|Trap|Caution/i.test(trimmed);
+        const isAlert = /(?:🚨|⚠️|Exam Insight|Trap|Caution|Warning)/iu.test(trimmed);
         
         let title = trimmed
           .replace(/^(#{1,6}\s*)/, '')
-          .replace(/[🚨💡⚠️📌❖◆]/g, '')
+          .replace(/(?:🚨|💡|⚠️|📌|❖|◆)/gu, '')
           .replace(/\*\*/g, '')
           .replace(/:+$/, '')
           .trim();
@@ -515,7 +520,7 @@ function renderContentLines(
           if (
             nextTrimmed.startsWith('#') || 
             nextTrimmed === '---' || 
-            /^[🚨💡⚠️📌]/.test(nextTrimmed)
+            /^(?:🚨|💡|⚠️|📌)\s*\*{0,2}(Mnemonic|FBISE|Exam|Caution|Trap)/iu.test(nextTrimmed)
           ) {
             break;
           }
@@ -541,7 +546,7 @@ function renderContentLines(
                 <Lightbulb className="h-4 w-4 text-amber-400 shrink-0" />
               )}
               <span className={isAlert ? 'text-rose-300' : 'text-amber-300'}>
-                {title}
+                {parseInlineSpans(title, tokens)}
               </span>
             </div>
 
