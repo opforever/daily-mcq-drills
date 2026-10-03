@@ -647,4 +647,28 @@ export function setSeenAnnouncementId(username: string, announcementId: string):
   } catch {}
 }
 
+/**
+ * Retrieves the timestamp of the last discussion message read by a user.
+ */
+export function getLastReadDiscussionTimestamp(username: string): number {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    const val = localStorage.getItem(`kips_last_read_chat_${cleanU}`);
+    return val ? parseInt(val, 10) : 0;
+  } catch {
+    return 0;
+  }
+}
+
+/**
+ * Updates the timestamp of the last read discussion message for a user.
+ */
+export function setLastReadDiscussionTimestamp(username: string, timestamp: number): void {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    localStorage.setItem(`kips_last_read_chat_${cleanU}`, timestamp.toString());
+  } catch {}
+}
+
+
 

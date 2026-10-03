@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Subject, Drill, User, UserAttempt, Announcement } from './types';
+import { Subject, Drill, User, UserAttempt, Announcement, ChatMessage } from './types';
 import { 
   getStoredDrills, 
   saveDrill, 
@@ -16,7 +16,9 @@ import {
   getStoredUsers,
   deleteSpecificUserAndData,
   getSeenAnnouncementId,
-  setSeenAnnouncementId
+  setSeenAnnouncementId,
+  getLastReadDiscussionTimestamp,
+  setLastReadDiscussionTimestamp
 } from './utils/storage';
 import { 
   subscribeToCloudDrills, 
@@ -24,7 +26,8 @@ import {
   subscribeToCloudUsers,
   subscribeToAnnouncement,
   saveAnnouncementToCloud,
-  clearAnnouncementInCloud
+  clearAnnouncementInCloud,
+  subscribeToCloudChatMessages
 } from './utils/firebase';
 import { Navbar } from './components/Navbar';
 import { DrillList } from './components/DrillList';
@@ -101,6 +104,34 @@ export default function App() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [isFirebaseHealthOpen, setIsFirebaseHealthOpen] = useState(false);
 
+  // Discussions Unread Messages Tracking (Pulsing Red Dot)
+  const [latestChatMessages, setLatestChatMessages] = useState<ChatMessage[]>([]);
+  const [lastReadChatTimestamp, setLastReadChatTimestamp] = useState<number>(() => {
+    const u = getCurrentUser();
+    return u ? getLastReadDiscussionTimestamp(u.username) : 0;
+  });
+
+  // Has unread messages if any message from other users has timestamp > user's last read timestamp
+  const hasUnreadDiscussion = Boolean(
+    currentUser &&
+    !isChatOpen &&
+    latestChatMessages.some(m => 
+      m.senderUsername.toLowerCase() !== currentUser.username.toLowerCase() &&
+      m.timestamp > lastReadChatTimestamp
+    )
+  );
+
+  const handleOpenChat = () => {
+    setIsChatOpen(true);
+    if (currentUser) {
+      const newestTimestamp = latestChatMessages.length > 0
+        ? Math.max(...latestChatMessages.map(m => m.timestamp), Date.now())
+        : Date.now();
+      setLastReadChatTimestamp(newestTimestamp);
+      setLastReadDiscussionTimestamp(currentUser.username, newestTimestamp);
+    }
+  };
+
   // Toast alert
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
@@ -174,18 +205,34 @@ export default function App() {
       setAnnouncement(ann);
     });
 
+    // 5. Live Discussion Chat listener for unread red dot notification
+    const unsubChat = subscribeToCloudChatMessages((msgs) => {
+      setLatestChatMessages(msgs);
+    }, 35);
+
     return () => {
       unsubDrills();
       unsubAttempts();
       unsubUsers();
       unsubAnnouncement();
+      unsubChat();
     };
   }, []);
+
+  // Automatically mark messages as read if user has the discussions modal actively open
+  useEffect(() => {
+    if (isChatOpen && currentUser && latestChatMessages.length > 0) {
+      const newestTimestamp = Math.max(...latestChatMessages.map(m => m.timestamp), Date.now());
+      setLastReadChatTimestamp(newestTimestamp);
+      setLastReadDiscussionTimestamp(currentUser.username, newestTimestamp);
+    }
+  }, [isChatOpen, latestChatMessages, currentUser]);
 
   const handleUserLogin = (user: User) => {
     setCurrentUserState(user);
     setUserAttempts(getAttemptsForUser(user.username));
     setLastSeenAnnId(getSeenAnnouncementId(user.username));
+    setLastReadChatTimestamp(getLastReadDiscussionTimestamp(user.username));
 
     if (user.role === 'admin' && drills.length === 0) {
       setIsAdminDrillPosterOpen(true);
@@ -337,7 +384,8 @@ export default function App() {
         onOpenAddDrill={handleOpenAddDrill}
         onOpenResetModal={() => setIsResetModalOpen(true)}
         isCloudConnected={isCloudConnected}
-        onOpenChat={() => setIsChatOpen(true)}
+        onOpenChat={handleOpenChat}
+        hasUnreadDiscussion={hasUnreadDiscussion}
         onOpenFirebaseHealth={() => setIsFirebaseHealthOpen(true)}
         onOpenAnnouncement={handleOpenAnnouncement}
         hasActiveAnnouncement={Boolean(announcement && announcement.isActive && announcement.id !== lastSeenAnnId)}

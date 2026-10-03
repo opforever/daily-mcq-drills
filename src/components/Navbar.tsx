@@ -32,6 +32,7 @@ interface NavbarProps {
   onOpenFirebaseHealth?: () => void;
   onOpenAnnouncement: () => void;
   hasActiveAnnouncement?: boolean;
+  hasUnreadDiscussion?: boolean;
   onOpenChangePassword?: () => void;
   onOpenAiTutor?: () => void;
 }
@@ -50,6 +51,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenFirebaseHealth,
   onOpenAnnouncement,
   hasActiveAnnouncement = false,
+  hasUnreadDiscussion = false,
   onOpenChangePassword,
   onOpenAiTutor
 }) => {
@@ -125,11 +127,17 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Student & Admin Discussion Chat */}
           <button
             onClick={onOpenChat}
-            className="flex h-8 sm:h-8.5 items-center gap-1.5 rounded-lg border border-indigo-500/40 bg-indigo-950/40 px-2 sm:px-2.5 text-xs font-semibold text-indigo-300 transition-all hover:border-indigo-400 hover:bg-indigo-900/60 hover:text-white"
-            title="Open group discussion and student doubts chat"
+            className="relative flex h-8 sm:h-8.5 items-center gap-1.5 rounded-lg border border-indigo-500/40 bg-indigo-950/40 px-2 sm:px-2.5 text-xs font-semibold text-indigo-300 transition-all hover:border-indigo-400 hover:bg-indigo-900/60 hover:text-white cursor-pointer"
+            title={hasUnreadDiscussion ? "New unread messages in Discussions!" : "Open group discussion and student doubts chat"}
           >
             <MessageSquare className="h-3.5 w-3.5 text-indigo-400" />
             <span className="hidden md:inline">Discussions</span>
+            {hasUnreadDiscussion && (
+              <span className="absolute -top-1 -right-1 flex h-2.5 w-2.5" title="Unread messages">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-500 opacity-80"></span>
+                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-600 ring-2 ring-slate-950"></span>
+              </span>
+            )}
           </button>
 
           {/* Leaderboard */}
