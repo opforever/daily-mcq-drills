@@ -9,33 +9,59 @@ interface LatexRendererProps {
 }
 
 /**
- * Pre-processes text to fix common model output formatting anomalies:
- * - Fixes un-spaced markdown headers (e.g., "--- ### 2. Theoretical Solution")
- * - Sanitizes LaTeX unit typos like `textm/s` or `\textm/s` into `\text{ m/s}`
- * - Splits run-on numbered items into distinct lines
+ * Robust sanitizer for FBISE Math, Science, and Markdown outputs:
+ * - Fixes escaped tab characters (`\times` -> `\times`)
+ * - Fixes dangling and unmatched asterisks (`** Conversion:` -> `**Conversion:**`)
+ * - Formats common physics variables (mbullet -> m_{\text{bullet}})
+ * - Converts raw \times into proper multiplication symbol
+ * - Un-clumps run-on headers and steps
  */
 function preprocessMarkdown(text: string): string {
   if (!text) return '';
 
   let cleaned = text;
 
-  // Fix LaTeX unit typos
+  // 1. Fix tab characters created by JSON \t in \times, \theta, \tan, \tau
+  cleaned = cleaned.replace(/\t(imes|heta|an|au)/g, '\\t$1');
+
+  // 2. Fix unescaped backslashes in math like $\times$ or $	imes$
+  cleaned = cleaned.replace(/\$\s*\\?times\s*\$/g, ' × ');
+  cleaned = cleaned.replace(/\\times\b/g, '\\times ');
+
+  // 3. Fix LaTeX unit typos
   cleaned = cleaned.replace(/\\textm\/s/g, '\\text{ m/s}');
   cleaned = cleaned.replace(/textm\/s/g, '\\text{ m/s}');
   cleaned = cleaned.replace(/\\textkg/g, '\\text{ kg}');
   cleaned = cleaned.replace(/\\textm/g, '\\text{ m}');
+  cleaned = cleaned.replace(/\\textft\/s/g, '\\text{ ft/s}');
 
-  // Separate horizontal rules stuck to headings (e.g., "--- ### 2.")
+  // 4. Clean up physics multi-letter variable subscripts inside math
+  cleaned = cleaned.replace(/\bmbullet\b/g, 'm_{\\text{bullet}}');
+  cleaned = cleaned.replace(/\bmgun\b/g, 'm_{\\text{gun}}');
+  cleaned = cleaned.replace(/\bvbullet\b/g, 'v_{\\text{bullet}}');
+  cleaned = cleaned.replace(/\bvgun\b/g, 'v_{\\text{gun}}');
+  cleaned = cleaned.replace(/\bPinitial\b/g, 'P_{\\text{initial}}');
+  cleaned = cleaned.replace(/\bPfinal\b/g, 'P_{\\text{final}}');
+
+  // 5. Fix dangling asterisks and broken formatting patterns
+  // Pattern: "mbullet): ** A standard..." -> "mbullet):** A standard..."
+  cleaned = cleaned.replace(/\):\s*\*\*\s+/g, '):** ');
+  // Pattern: "** Conversion:" -> "**Conversion:**"
+  cleaned = cleaned.replace(/\*\*\s*(Conversion|Note|Trap|Insight|Given|Formula):/gi, '**$1:**');
+  // Pattern: "40 kg **." or "40 kg **" -> "40 kg."
+  cleaned = cleaned.replace(/\s+\*\*\s*([.,;!?])/g, '$1');
+  cleaned = cleaned.replace(/\s+\*\*\s*$/gm, '');
+  // Pattern: "M*over" -> "**M**over"
+  cleaned = cleaned.replace(/M\*over/g, '**M**over');
+
+  // 6. Separate horizontal rules stuck to headings (e.g., "--- ### 2.")
   cleaned = cleaned.replace(/---\s*(#{1,6})/g, '\n---\n\n$1');
 
-  // Separate inline headers embedded in text (e.g. "velocity $v_b$. --- ### 2.")
+  // 7. Separate inline headers embedded in text (e.g. "velocity $v_b$. --- ### 2.")
   cleaned = cleaned.replace(/([^\n])\s*(#{1,6}\s+)/g, '$1\n\n$2');
 
-  // Break up run-on numbered list items like: "1. Direction Matters: ... 2. Unit Consistency: ... 3. Energy"
+  // 8. Break up run-on numbered list items like: "1. Direction Matters: ... 2. Unit Consistency: ... 3. Energy"
   cleaned = cleaned.replace(/([.!?])\s+(\d+\.\s+[A-Z])/g, '$1\n\n$2');
-
-  // Break up double asterisks stuck together like "* *Trap:*" -> "* **Trap:**"
-  cleaned = cleaned.replace(/\*\s+\*([^*]+)\*/g, '* **$1**');
 
   return cleaned;
 }
@@ -44,43 +70,49 @@ function preprocessMarkdown(text: string): string {
  * Render inline LaTeX math formula ($...$) safely with KaTeX
  */
 function renderInlineKaTeX(mathFormula: string, key: string | number) {
+  const trimmed = mathFormula.trim();
+  if (!trimmed) return null;
+
   try {
-    const html = katex.renderToString(mathFormula.trim(), {
+    const html = katex.renderToString(trimmed, {
       displayMode: false,
       throwOnError: false,
     });
     return (
       <span
         key={key}
-        className="inline-block px-1 font-serif text-cyan-300 align-baseline"
+        className="inline-block px-0.5 font-serif text-cyan-300 align-baseline"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     );
   } catch {
-    return <span key={key} className="font-mono text-cyan-200">${mathFormula}$</span>;
+    return <span key={key} className="font-mono text-cyan-200">${trimmed}$</span>;
   }
 }
 
 /**
- * Render display LaTeX math formula ($$...$$) safely with KaTeX
+ * Render display LaTeX math formula ($$...$$) cleanly with KaTeX
  */
 function renderDisplayKaTeX(mathFormula: string, key: string | number) {
+  const trimmed = mathFormula.trim();
+  if (!trimmed) return null;
+
   try {
-    const html = katex.renderToString(mathFormula.trim(), {
+    const html = katex.renderToString(trimmed, {
       displayMode: true,
       throwOnError: false,
     });
     return (
       <div
         key={key}
-        className="my-3 overflow-x-auto rounded-xl border border-cyan-500/20 bg-cyan-950/20 px-3 py-2 text-center font-serif text-cyan-300 shadow-inner"
+        className="my-2.5 overflow-x-auto py-1 text-center font-serif text-cyan-300 text-sm sm:text-base leading-normal"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     );
   } catch {
     return (
-      <div key={key} className="my-2 block overflow-x-auto font-mono text-cyan-200">
-        $${mathFormula}$$
+      <div key={key} className="my-2 block overflow-x-auto font-mono text-cyan-200 text-center">
+        $${trimmed}$$
       </div>
     );
   }
@@ -90,8 +122,10 @@ function renderDisplayKaTeX(mathFormula: string, key: string | number) {
  * Parses inline spans: LaTeX ($...$), Bold (**...**), Italics (*...*), and Code (`...`)
  */
 function renderInlineElements(rawText: string): React.ReactNode[] {
-  // Regex splitting by:
-  // 1. Inline Math: $...$
+  if (!rawText) return [];
+
+  // Match:
+  // 1. Math: $...$
   // 2. Bold: **...**
   // 3. Inline Code: `...`
   // 4. Italic: *...*
@@ -107,7 +141,7 @@ function renderInlineElements(rawText: string): React.ReactNode[] {
     }
 
     // 2. Bold: **...**
-    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) {
+    if (part.startsWith('**') && part.endsWith('**') && part.length >= 4) {
       const inner = part.slice(2, -2);
       return (
         <strong key={index} className="font-bold text-slate-100">
@@ -172,7 +206,7 @@ export const LatexRenderer: React.FC<LatexRendererProps> = ({
       return;
     }
 
-    // Regular text blocks: split by lines/paragraphs
+    // Regular text blocks: split by lines
     const lines = section.split('\n');
     let i = 0;
 
@@ -201,33 +235,26 @@ export const LatexRenderer: React.FC<LatexRendererProps> = ({
           const level = hashMatch[1].length;
           const text = hashMatch[2];
 
-          // Check if this is a Special FBISE Callout heading (e.g. 🚨 FBISE Exam Insight or 💡 Mnemonic)
-          if (text.includes('🚨') || text.toLowerCase().includes('trap') || text.toLowerCase().includes('insight')) {
-            renderedBlocks.push(
-              <div 
-                key={`callout_alert_${sIndex}_${i}`}
-                className="my-3 rounded-xl border border-rose-500/30 bg-gradient-to-br from-rose-950/40 via-slate-900 to-slate-900 p-3 shadow-md"
-              >
-                <div className="flex items-center gap-2 font-bold text-rose-300 text-xs sm:text-sm">
-                  <AlertCircle className="h-4 w-4 text-rose-400 shrink-0" />
-                  <span>{renderInlineElements(text)}</span>
-                </div>
-              </div>
-            );
-            i++;
-            continue;
-          }
+          // Check if this is a Special FBISE Callout heading
+          const isAlertHeader = text.includes('🚨') || text.toLowerCase().includes('trap') || text.toLowerCase().includes('insight');
+          const isTipHeader = text.includes('💡') || text.toLowerCase().includes('mnemonic') || text.toLowerCase().includes('tip');
 
-          if (text.includes('💡') || text.toLowerCase().includes('mnemonic') || text.toLowerCase().includes('tip')) {
+          if (isAlertHeader || isTipHeader) {
             renderedBlocks.push(
               <div 
-                key={`callout_tip_${sIndex}_${i}`}
-                className="my-3 rounded-xl border border-amber-500/30 bg-gradient-to-br from-amber-950/40 via-slate-900 to-slate-900 p-3 shadow-md"
+                key={`callout_head_${sIndex}_${i}`}
+                className={`my-2.5 rounded-lg border px-3 py-1.5 flex items-center gap-2 ${
+                  isAlertHeader
+                    ? 'border-rose-500/40 bg-rose-950/40 text-rose-300 font-bold text-xs sm:text-sm'
+                    : 'border-amber-500/40 bg-amber-950/40 text-amber-300 font-bold text-xs sm:text-sm'
+                }`}
               >
-                <div className="flex items-center gap-2 font-bold text-amber-300 text-xs sm:text-sm">
+                {isAlertHeader ? (
+                  <AlertCircle className="h-4 w-4 text-rose-400 shrink-0" />
+                ) : (
                   <Lightbulb className="h-4 w-4 text-amber-400 shrink-0" />
-                  <span>{renderInlineElements(text)}</span>
-                </div>
+                )}
+                <span>{renderInlineElements(text.replace(/^[🚨💡⚠️📌\s*]+/, ''))}</span>
               </div>
             );
             i++;
@@ -266,27 +293,25 @@ export const LatexRenderer: React.FC<LatexRendererProps> = ({
         }
       }
 
-      // Check for standalone callout paragraphs (e.g., "🚨 FBISE Exam Insight: ...")
+      // Check for standalone callout badges (e.g., "🚨 FBISE Exam Insight: ..." or "💡 Mnemonic: ...")
       if (trimmed.startsWith('🚨') || trimmed.startsWith('💡') || trimmed.startsWith('⚠️')) {
         const isAlert = trimmed.startsWith('🚨') || trimmed.startsWith('⚠️');
         renderedBlocks.push(
           <div 
-            key={`callout_p_${sIndex}_${i}`}
-            className={`my-3 rounded-xl border p-3 shadow-md ${
+            key={`callout_badge_${sIndex}_${i}`}
+            className={`my-2.5 rounded-lg border px-3 py-1.5 flex items-start gap-2 ${
               isAlert 
-                ? 'border-rose-500/30 bg-gradient-to-br from-rose-950/30 via-slate-900 to-slate-950 text-slate-200' 
-                : 'border-amber-500/30 bg-gradient-to-br from-amber-950/30 via-slate-900 to-slate-950 text-slate-200'
+                ? 'border-rose-500/40 bg-rose-950/40 text-rose-200 text-xs sm:text-sm' 
+                : 'border-amber-500/40 bg-amber-950/40 text-amber-200 text-xs sm:text-sm'
             }`}
           >
-            <div className="flex items-start gap-2 text-xs sm:text-sm leading-relaxed">
-              {isAlert ? (
-                <AlertCircle className="h-4 w-4 text-rose-400 shrink-0 mt-0.5" />
-              ) : (
-                <Lightbulb className="h-4 w-4 text-amber-400 shrink-0 mt-0.5" />
-              )}
-              <div className="space-y-1">
-                {renderInlineElements(trimmed)}
-              </div>
+            {isAlert ? (
+              <AlertCircle className="h-4 w-4 text-rose-400 shrink-0 mt-0.5" />
+            ) : (
+              <Lightbulb className="h-4 w-4 text-amber-400 shrink-0 mt-0.5" />
+            )}
+            <div className="flex-1 leading-relaxed">
+              {renderInlineElements(trimmed.replace(/^[🚨💡⚠️\s*]+/, ''))}
             </div>
           </div>
         );
@@ -294,18 +319,18 @@ export const LatexRenderer: React.FC<LatexRendererProps> = ({
         continue;
       }
 
-      // List Items (e.g. "* item", "- item", "1. item")
-      const listMatch = trimmed.match(/^(\*|-|\d+\.)\s+(.*)$/);
+      // Numbered step or bullet items (e.g. "1.", "2.", "•", "*", "-")
+      const listMatch = trimmed.match(/^(\*|-|•|\d+[\.\)])\s+(.*)$/);
       if (listMatch) {
-        const bullet = listMatch[1];
+        const marker = listMatch[1];
         const text = listMatch[2];
-        const isNumbered = /^\d+\./.test(bullet);
+        const isNumbered = /^\d+/.test(marker);
 
         renderedBlocks.push(
           <div key={`li_${sIndex}_${i}`} className="my-1 flex items-start gap-2 pl-1 sm:pl-2 text-xs sm:text-sm text-slate-200">
             {isNumbered ? (
               <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-cyan-950 border border-cyan-500/40 text-[10px] font-bold text-cyan-300 mt-0.5">
-                {bullet.replace('.', '')}
+                {marker.replace(/[\.\)]/, '')}
               </span>
             ) : (
               <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-400 mt-2" />
@@ -321,7 +346,7 @@ export const LatexRenderer: React.FC<LatexRendererProps> = ({
 
       // Standard Paragraph
       renderedBlocks.push(
-        <p key={`p_${sIndex}_${i}`} className="my-1.5 text-xs sm:text-sm text-slate-200 leading-relaxed">
+        <p key={`p_${sIndex}_${i}`} className="my-1 text-xs sm:text-sm text-slate-200 leading-relaxed">
           {renderInlineElements(trimmed)}
         </p>
       );
@@ -330,7 +355,7 @@ export const LatexRenderer: React.FC<LatexRendererProps> = ({
   });
 
   return (
-    <div className={`space-y-1 ${className}`}>
+    <div className={`space-y-0.5 ${className}`}>
       {renderedBlocks}
     </div>
   );
