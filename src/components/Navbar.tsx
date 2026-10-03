@@ -117,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={onOpenAiTutor}
               className="flex h-8 sm:h-8.5 items-center gap-1.5 rounded-lg border border-cyan-500/40 bg-gradient-to-r from-cyan-950/60 to-blue-950/60 px-2 sm:px-2.5 text-xs font-semibold text-cyan-300 transition-all hover:border-cyan-400 hover:bg-cyan-900/50 hover:text-white cursor-pointer shadow-sm shadow-cyan-500/10"
-              title="Open KIPS FBISE AI Tutor (Qwen 27B)"
+              title="Open KIPS FBISE AI Tutor (GPT 120B)"
             >
               <Sparkles className="h-3.5 w-3.5 text-cyan-400 animate-pulse" />
               <span className="hidden sm:inline">AI Tutor</span>

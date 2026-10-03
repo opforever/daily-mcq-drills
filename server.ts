@@ -72,7 +72,13 @@ Pedagogical & Rigorous Formatting Directives:
 3. Markdown Structure & Comparison Tables:
    - Use clean Markdown tables when contrasting items.
    - Break multi-step numericals into clean sections (Given, Formula, Calculation, Final Answer).
-   - Callout blocks: 💡 **Mnemonic:** ..., 🚨 **FBISE Exam Insight:** ...`;
+   - Callout blocks: 💡 **Mnemonic:** ..., 🚨 **FBISE Exam Insight:** ...
+
+4. Output Coherence & Loop Prevention (CRITICAL):
+   - Never output internal self-corrections, debates with yourself, or conversational loops (e.g. "Wait, let me retry", "I am stuck in a loop"). If clarifying a list, present the definitive, finalized list directly.
+   - Standard 20 Amino Acids in Biology (Biomolecules Chapter):
+     * 9 Essential (PVT TIM HaLL): Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine (plus Arginine as semi-essential in children).
+     * 10 Non-Essential: Alanine, Asparagine, Aspartate, Cysteine, Glutamate, Glutamine, Glycine, Proline, Serine, Tyrosine.`;
     }
 
     const fullMessages = [
@@ -90,30 +96,42 @@ Pedagogical & Rigorous Formatting Directives:
     }
 
     // Candidate models to try in sequence with automatic fallback on rate-limits (429)
-    const candidateModels = isHint
-      ? ['qwen/qwen3.8-27b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant']
-      : ['qwen/qwen3.8-27b', 'llama-3.3-70b-versatile'];
+    const candidateModels = ['openai/gpt-oss-120b', 'qwen/qwen3.8-27b', 'openai/gpt-oss-20b'];
 
     let lastError: string = '';
     for (const model of candidateModels) {
       try {
+        const isReasoningModel = model.includes('120b') || model.includes('r1') || model.includes('o1');
+        const tokenLimit = isReasoningModel 
+          ? (isHint ? 2200 : 3500)
+          : (isHint ? (depth === 'short' ? 300 : depth === 'full' ? 900 : 500) : 2000);
+
+        const requestBody: any = {
+          model,
+          messages: fullMessages,
+          temperature: 0.6,
+          presence_penalty: 0.25,
+          frequency_penalty: 0.25,
+          max_tokens: tokenLimit
+        };
+
+        if (isReasoningModel) {
+          requestBody.reasoning_effort = 'low';
+        }
+
         const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
           method: 'POST',
           headers: {
             'Authorization': `Bearer ${groqApiKey}`,
             'Content-Type': 'application/json'
           },
-          body: JSON.stringify({
-            model,
-            messages: fullMessages,
-            temperature: 0.5,
-            max_tokens: isHint ? (depth === 'short' ? 250 : depth === 'full' ? 800 : 450) : 1800
-          })
+          body: JSON.stringify(requestBody)
         });
 
         if (groqResponse.ok) {
           const data = await groqResponse.json();
-          const reply = data.choices?.[0]?.message?.content || 'No response received from AI model.';
+          const choice = data.choices?.[0]?.message;
+          const reply = choice?.content || (choice?.reasoning ? `**Reasoning & Explanation:**\n\n${choice.reasoning}` : '') || 'No response received from AI model.';
           return res.status(200).json({
             content: reply,
             model
@@ -150,7 +168,7 @@ app.get('/api/ai/status', (_req, res) => {
   const hasGroq = Boolean(process.env.GROQ_API_KEY || process.env.GROQ_KEY);
   res.json({
     configured: hasGroq,
-    model: 'qwen/qwen3.8-27b',
+    model: 'openai/gpt-oss-120b',
     provider: 'Groq Cloud'
   });
 });

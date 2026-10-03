@@ -66,7 +66,7 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
     return {
       id: `welcome_${subj}_1`,
       role: 'assistant',
-      content: `👋 **Assalam-o-Alaikum, ${firstName}!**\n\nI am your dedicated **${subjectName} AI Tutor** (powered by Qwen 27B) for FBISE 1st Year.\n\n📚 **Topic Focus:** ${subjectDetail}\n\n${
+      content: `👋 **Assalam-o-Alaikum, ${firstName}!**\n\nI am your dedicated **${subjectName} AI Tutor** (powered by GPT 120B) for FBISE 1st Year.\n\n📚 **Topic Focus:** ${subjectDetail}\n\n${
         activeDrill && activeDrill.subject === subj
           ? `I see you are currently practicing **${activeDrill.title}** (${activeDrill.chapter}). Ask me for formula derivations or conceptual reasoning anytime!`
           : `Ask me any conceptual doubt, textbook numerical, or MCQ pitfall to get started.`
@@ -237,7 +237,7 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
                 <h3 className="text-xs sm:text-sm font-bold text-white flex items-center gap-1.5">
                   <span>KIPS AI Tutor</span>
                   <span className="rounded bg-cyan-950/90 px-1.5 py-0.5 text-[9px] sm:text-[10px] font-bold text-cyan-300 border border-cyan-500/30">
-                    Qwen 27B
+                    GPT 120B
                   </span>
                 </h3>
               </div>
@@ -396,7 +396,7 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
               </div>
               <div className="rounded-2xl border border-slate-800 bg-slate-950/90 px-4 py-3 text-xs text-slate-400 flex items-center gap-2">
                 <RefreshCw className="h-3.5 w-3.5 animate-spin text-cyan-400" />
-                <span>KIPS AI Tutor ({selectedSubject}) is reasoning with Qwen 27B...</span>
+                <span>KIPS AI Tutor ({selectedSubject}) is reasoning with GPT 120B...</span>
               </div>
             </div>
           )}

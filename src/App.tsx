@@ -452,7 +452,7 @@ export default function App() {
       {!isAiTutorOpen && currentUser && (
         <button
           onClick={() => setIsAiTutorOpen(true)}
-          title="Ask KIPS FBISE AI Tutor (Qwen 27B)"
+          title="Ask KIPS FBISE AI Tutor (GPT 120B)"
           className="fixed bottom-4 right-4 z-40 flex items-center gap-2 rounded-full border border-cyan-400/40 bg-gradient-to-r from-slate-900 via-cyan-950 to-blue-950 p-2 sm:px-4 sm:py-2.5 text-white shadow-xl shadow-cyan-500/20 backdrop-blur-md transition-all hover:scale-105 hover:border-cyan-300 hover:shadow-cyan-500/30 cursor-pointer group"
         >
           <div className="flex h-8 w-8 sm:h-7 sm:w-7 items-center justify-center rounded-full bg-gradient-to-tr from-cyan-500 to-blue-600 text-white shadow-md">
@@ -463,7 +463,7 @@ export default function App() {
               AI Tutor
             </div>
             <div className="text-[9px] text-cyan-400 font-medium leading-none">
-              Qwen 27B • {currentSubject.toUpperCase()}
+              GPT 120B • {currentSubject.toUpperCase()}
             </div>
           </div>
         </button>
