@@ -438,25 +438,38 @@ export async function deleteSpecificUserAndDataFromCloud(username: string): Prom
     const cleanU = username.trim().toLowerCase();
     if (cleanU === 'admin') return;
 
-    recordWrite(1);
-    // 1. Delete user account document
-    const userRef = doc(db, USERS_COL, cleanU);
-    await deleteDoc(userRef);
-
-    // 2. Query and delete all test attempts belonging to this user
-    const attemptsSnap = await getDocs(collection(db, ATTEMPTS_COL));
     const batch = writeBatch(db);
-    let count = 0;
-    attemptsSnap.forEach((attDoc) => {
-      const data = attDoc.data();
-      if ((data.username || '').trim().toLowerCase() === cleanU) {
-        batch.delete(attDoc.ref);
-        count++;
+    let writeCount = 0;
+
+    // 1. Direct doc deletion
+    const directUserRef = doc(db, USERS_COL, cleanU);
+    batch.delete(directUserRef);
+    writeCount++;
+
+    // 2. Scan users collection for any case variations
+    const usersSnap = await getDocs(collection(db, USERS_COL));
+    usersSnap.forEach((uDoc) => {
+      const data = uDoc.data();
+      const uName = (data.username || uDoc.id || '').trim().toLowerCase();
+      if (uName === cleanU) {
+        batch.delete(uDoc.ref);
+        writeCount++;
       }
     });
 
-    if (count > 0) {
-      recordWrite(count);
+    // 3. Scan and delete all test attempts belonging to this user
+    const attemptsSnap = await getDocs(collection(db, ATTEMPTS_COL));
+    attemptsSnap.forEach((attDoc) => {
+      const data = attDoc.data();
+      const attUser = (data.username || '').trim().toLowerCase();
+      if (attUser === cleanU) {
+        batch.delete(attDoc.ref);
+        writeCount++;
+      }
+    });
+
+    if (writeCount > 0) {
+      recordWrite(writeCount);
       await batch.commit();
     }
   } catch (err) {

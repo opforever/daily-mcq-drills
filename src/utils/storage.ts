@@ -111,11 +111,18 @@ export function syncFromCloudDrills(drills: Drill[]): void {
 
 export function syncFromCloudAttempts(attempts: UserAttempt[]): void {
   try {
+    const blacklist = getDeletedUsersBlacklist();
     const bestAttemptsMap = new Map<string, UserAttempt>();
     const oldIdsToDelete: string[] = [];
 
     attempts.forEach(a => {
       const uKey = (a.username || '').trim().toLowerCase();
+      // If user was deleted by admin, delete their attempts immediately
+      if (blacklist.has(uKey)) {
+        if (a.id) oldIdsToDelete.push(a.id);
+        return;
+      }
+
       const groupKey = `${uKey}_${a.drillId}`;
       const existing = bestAttemptsMap.get(groupKey);
 
@@ -237,6 +244,7 @@ export function deleteDrill(drillId: string): void {
 
 export function getStoredUsers(): User[] {
   try {
+    const blacklist = getDeletedUsersBlacklist();
     const raw = localStorage.getItem(USERS_KEY);
     if (!raw) {
       localStorage.setItem(USERS_KEY, JSON.stringify(DEFAULT_USERS));
@@ -244,14 +252,15 @@ export function getStoredUsers(): User[] {
     }
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return DEFAULT_USERS;
-    // Ensure credentials never linger in client storage
-    return parsed.map(u => ({
-      username: u.username,
-      role: u.role || 'student',
-      fullName: u.fullName || u.username,
-      college: u.college || 'KIPS College FBISE',
-      createdAt: u.createdAt || Date.now()
-    }));
+    return parsed
+      .filter(u => !blacklist.has((u.username || '').trim().toLowerCase()))
+      .map(u => ({
+        username: u.username,
+        role: u.role || 'student',
+        fullName: u.fullName || u.username,
+        college: u.college || 'KIPS College FBISE',
+        createdAt: u.createdAt || Date.now()
+      }));
   } catch {
     return DEFAULT_USERS;
   }
@@ -392,6 +401,7 @@ export function setCurrentUser(user: User | null): void {
 
 export function getStoredAttempts(): UserAttempt[] {
   try {
+    const blacklist = getDeletedUsersBlacklist();
     const raw = localStorage.getItem(ATTEMPTS_KEY);
     if (!raw) {
       localStorage.setItem(ATTEMPTS_KEY, JSON.stringify(DEFAULT_ATTEMPTS));
@@ -400,10 +410,11 @@ export function getStoredAttempts(): UserAttempt[] {
     const parsed = JSON.parse(raw);
     if (!Array.isArray(parsed)) return DEFAULT_ATTEMPTS;
 
-    // Deduplicate by username + drillId, keeping highest/latest score
+    // Deduplicate by username + drillId, keeping highest/latest score (excluding blacklisted deleted users)
     const bestMap = new Map<string, UserAttempt>();
     parsed.forEach(a => {
       const uKey = (a.username || '').trim().toLowerCase();
+      if (blacklist.has(uKey)) return;
       const groupKey = `${uKey}_${a.drillId}`;
       const existing = bestMap.get(groupKey);
       if (!existing || a.score > existing.score || (a.score === existing.score && a.completedAt > existing.completedAt)) {
@@ -438,15 +449,16 @@ export function getAttemptsForUser(username: string): UserAttempt[] {
 }
 
 export function computeLeaderboard(customUsers?: User[], customAttempts?: UserAttempt[]): LeaderboardUser[] {
-  const users = customUsers || getStoredUsers();
-  const attempts = customAttempts || getStoredAttempts();
+  const blacklist = getDeletedUsersBlacklist();
+  const users = (customUsers || getStoredUsers()).filter(u => !blacklist.has((u.username || '').trim().toLowerCase()));
+  const attempts = (customAttempts || getStoredAttempts()).filter(a => !blacklist.has((a.username || '').trim().toLowerCase()));
 
   // Create a combined map of all users from BOTH registered users array AND all usernames in attempts
   const userMap = new Map<string, { username: string; fullName: string; role: 'admin' | 'student'; createdAt: number }>();
 
   users.forEach(u => {
     const key = (u.username || '').trim().toLowerCase();
-    if (key && key !== 'admin') {
+    if (key && key !== 'admin' && !blacklist.has(key)) {
       userMap.set(key, {
         username: u.username,
         fullName: u.fullName || u.username,
@@ -460,7 +472,7 @@ export function computeLeaderboard(customUsers?: User[], customAttempts?: UserAt
   // Also include any student who submitted an attempt in Firestore even if the users collection is still syncing
   attempts.forEach(a => {
     const key = (a.username || '').trim().toLowerCase();
-    if (key && key !== 'admin' && key !== 'guest' && !userMap.has(key)) {
+    if (key && key !== 'admin' && key !== 'guest' && !blacklist.has(key) && !userMap.has(key)) {
       userMap.set(key, {
         username: a.username,
         fullName: a.username,

@@ -71,14 +71,16 @@ export const LeaderboardModal: React.FC<LeaderboardModalProps> = ({
 
     // Attach real-time cloud listeners so new devices immediately populate leaderboard with all students
     const unsubAttempts = subscribeToCloudAttempts((cloudAttempts) => {
-      currentAttempts = cloudAttempts;
       syncFromCloudAttempts(cloudAttempts);
+      currentAttempts = getStoredAttempts();
+      currentUsers = getStoredUsers();
       updateAll();
     });
 
     const unsubUsers = subscribeToCloudUsers((cloudUsers) => {
-      currentUsers = cloudUsers;
       syncFromCloudUsers(cloudUsers);
+      currentUsers = getStoredUsers();
+      currentAttempts = getStoredAttempts();
       updateAll();
     });
 
