@@ -61,6 +61,8 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   const [selectedAnswers, setSelectedAnswers] = useState<Record<string, OptionKey>>(() => savedSession?.selectedAnswers ?? {});
   const [showExplanation, setShowExplanation] = useState<Record<string, boolean>>(() => savedSession?.showExplanation ?? {});
   const [showDeleteModal, setShowDeleteModal] = useState(false);
+  const [showSubmitModal, setShowSubmitModal] = useState(false);
+  const [showRestartModal, setShowRestartModal] = useState(false);
   const [expandedExplanations, setExpandedExplanations] = useState<Record<string, boolean>>(() => savedSession?.expandedExplanations ?? {});
   const [isResumed, setIsResumed] = useState<boolean>(() => Boolean(savedSession && Object.keys(savedSession.selectedAnswers || {}).length > 0));
   const [cloudSyncStatus, setCloudSyncStatus] = useState<'idle' | 'checking' | 'saving' | 'synced'>('idle');
@@ -241,7 +243,14 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
     return () => { isMounted = false; };
   }, [drill.id, username]);
 
+  // Keep track of latest elapsedSeconds in a ref so auto-save doesn't re-trigger on every 1-second tick
+  const elapsedSecondsRef = useRef(elapsedSeconds);
+  useEffect(() => {
+    elapsedSecondsRef.current = elapsedSeconds;
+  }, [elapsedSeconds]);
+
   // 2. Dual-Layer Auto-Save: Instant localStorage + Debounced Cloud Firestore sync
+  // TRIGGERS ONLY WHEN: student selects an option or changes question index (NOT every second!)
   useEffect(() => {
     if (Object.keys(selectedAnswers).length > 0) {
       const sessionData = {
@@ -250,25 +259,27 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
         selectedAnswers,
         showExplanation,
         expandedExplanations,
-        elapsedSeconds,
+        elapsedSeconds: elapsedSecondsRef.current,
         lastUpdated: Date.now()
       };
 
       // Immediate local save
       saveInProgressSession(username, sessionData);
 
-      // Debounced Cloud Firestore write
+      // Debounced Cloud Firestore write (only on actual answer selection or question transition)
       setCloudSyncStatus('saving');
       const debounceTimer = setTimeout(async () => {
         if (username && username !== 'guest') {
           await saveCloudInProgressSession(username, sessionData);
           setCloudSyncStatus('synced');
+        } else {
+          setCloudSyncStatus('synced');
         }
-      }, 600);
+      }, 800);
 
       return () => clearTimeout(debounceTimer);
     }
-  }, [currentIndex, selectedAnswers, showExplanation, expandedExplanations, elapsedSeconds, drill.id, username]);
+  }, [currentIndex, selectedAnswers, drill.id, username]);
 
   // Browser reload / accidental close warning if drill has active answers
   useEffect(() => {
@@ -341,6 +352,11 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   };
 
   const handleSubmit = () => {
+    setShowSubmitModal(true);
+  };
+
+  const handleConfirmSubmit = () => {
+    setShowSubmitModal(false);
     let score = 0;
     drill.questions.forEach(q => {
       if (selectedAnswers[q.id] === q.correctAnswer) {
@@ -369,16 +385,19 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   };
 
   const handleResetProgress = () => {
-    if (confirm('Restart this drill from Question #1? Your in-progress answers will be cleared.')) {
-      clearInProgressSession(username, drill.id);
-      clearCloudInProgressSession(username, drill.id);
-      setSelectedAnswers({});
-      setShowExplanation({});
-      setExpandedExplanations({});
-      setCurrentIndex(0);
-      setElapsedSeconds(0);
-      setIsResumed(false);
-    }
+    setShowRestartModal(true);
+  };
+
+  const handleConfirmRestart = () => {
+    setShowRestartModal(false);
+    clearInProgressSession(username, drill.id);
+    clearCloudInProgressSession(username, drill.id);
+    setSelectedAnswers({});
+    setShowExplanation({});
+    setExpandedExplanations({});
+    setCurrentIndex(0);
+    setElapsedSeconds(0);
+    setIsResumed(false);
   };
 
   const formatTimer = (sec: number) => {
@@ -522,6 +541,108 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
             <RotateCcw className="h-3 w-3" />
             <span>Start Fresh</span>
           </button>
+        </div>
+      )}
+
+      {/* Submit Confirmation Modal */}
+      {showSubmitModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm animate-fadeIn">
+          <div className="w-full max-w-md rounded-2xl border border-slate-700/80 bg-slate-900 p-5 sm:p-6 shadow-2xl animate-scaleIn">
+            <div className="flex items-start gap-3.5">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-600 text-white shadow-lg shadow-emerald-500/20 ring-1 ring-emerald-400/40">
+                <CheckCircle2 className="h-6 w-6" />
+              </div>
+              <div className="flex-1 min-w-0">
+                <h4 className="text-base font-bold text-white">Submit Drill & Finalize?</h4>
+                <p className="text-xs text-slate-400 truncate mt-0.5">{drill.title}</p>
+              </div>
+            </div>
+
+            {/* Drill Statistics Summary */}
+            <div className="mt-4 grid grid-cols-3 gap-2 text-center">
+              <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-2.5">
+                <span className="block text-lg font-bold text-emerald-400">{answeredCount}</span>
+                <span className="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Answered</span>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-2.5">
+                <span className={`block text-lg font-bold ${totalQuestions - answeredCount > 0 ? 'text-amber-400' : 'text-slate-400'}`}>
+                  {totalQuestions - answeredCount}
+                </span>
+                <span className="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Unanswered</span>
+              </div>
+              <div className="rounded-xl border border-slate-800 bg-slate-950/70 p-2.5">
+                <span className="block text-lg font-bold text-cyan-400">
+                  {formatTimer(isCountdownEnabled ? (drill.questions.length * 60 - remainingSeconds) : elapsedSeconds)}
+                </span>
+                <span className="text-[10px] font-medium text-slate-400 uppercase tracking-wider">Time</span>
+              </div>
+            </div>
+
+            {/* Warning if unanswered */}
+            {totalQuestions - answeredCount > 0 ? (
+              <div className="mt-3.5 rounded-xl border border-amber-500/30 bg-amber-950/40 p-3 text-xs text-amber-200 leading-relaxed">
+                ⚠️ <strong>Note:</strong> You have <strong>{totalQuestions - answeredCount} unanswered</strong> question(s). Any unanswered questions will be marked as incorrect.
+              </div>
+            ) : (
+              <div className="mt-3.5 rounded-xl border border-emerald-500/30 bg-emerald-950/40 p-3 text-xs text-emerald-300 leading-relaxed">
+                🎉 Great job! You have answered all <strong>{totalQuestions} questions</strong>. Ready to view your detailed scorecard and rankings?
+              </div>
+            )}
+
+            <div className="mt-5 flex items-center justify-end gap-2.5 border-t border-slate-800 pt-3.5">
+              <button
+                type="button"
+                onClick={() => setShowSubmitModal(false)}
+                className="rounded-xl border border-slate-700 bg-slate-800 px-4 py-2 text-xs font-semibold text-slate-300 hover:bg-slate-700 hover:text-white transition cursor-pointer"
+              >
+                Review & Back
+              </button>
+              <button
+                type="button"
+                onClick={handleConfirmSubmit}
+                className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-4 py-2 text-xs font-bold text-white shadow-lg shadow-emerald-500/20 hover:from-emerald-500 hover:to-teal-500 transition cursor-pointer"
+              >
+                <Check className="h-4 w-4" />
+                <span>Confirm & Submit</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Restart Confirmation Modal */}
+      {showRestartModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm animate-fadeIn">
+          <div className="w-full max-w-sm rounded-2xl border border-slate-800 bg-slate-900 p-5 shadow-2xl">
+            <div className="flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-500/20 text-amber-400">
+                <RotateCcw className="h-5 w-5" />
+              </div>
+              <div>
+                <h4 className="text-sm font-bold text-white">Restart Drill?</h4>
+                <p className="text-xs text-slate-400">{drill.title}</p>
+              </div>
+            </div>
+
+            <p className="mt-3 text-xs text-slate-300">
+              Are you sure you want to clear your saved progress and start fresh from Question #1?
+            </p>
+
+            <div className="mt-5 flex items-center justify-end gap-2 border-t border-slate-800 pt-3">
+              <button
+                onClick={() => setShowRestartModal(false)}
+                className="rounded-xl border border-slate-700 bg-slate-800 px-3.5 py-1.5 text-xs font-semibold text-slate-300 hover:bg-slate-700 cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={handleConfirmRestart}
+                className="rounded-xl bg-amber-600 px-4 py-1.5 text-xs font-bold text-white shadow hover:bg-amber-500 cursor-pointer"
+              >
+                Yes, Start Fresh
+              </button>
+            </div>
+          </div>
         </div>
       )}
 
