@@ -71,16 +71,26 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   const [remainingSeconds, setRemainingSeconds] = useState(drill.questions.length * 60); // 1 min per MCQ
   const [elapsedSeconds, setElapsedSeconds] = useState<number>(() => savedSession?.elapsedSeconds ?? 0);
 
-  // Socratic AI Concept Hint state (per question)
-  const [conceptHints, setConceptHints] = useState<Record<string, string>>({});
+  type HintDepth = 'short' | 'brief' | 'full';
+
+  // Socratic AI Concept Hint state (per question + depth)
+  const [selectedDepth, setSelectedDepth] = useState<Record<string, HintDepth>>({});
+  const [conceptHints, setConceptHints] = useState<Record<string, string>>({}); // key: `${qId}_${depth}`
   const [isLoadingHint, setIsLoadingHint] = useState<Record<string, boolean>>({});
   const [hintError, setHintError] = useState<Record<string, string>>({});
   const [expandedHints, setExpandedHints] = useState<Record<string, boolean>>({});
 
-  const handleRequestConceptHint = async (qId: string, forceRefresh = false) => {
-    // If already loaded and not force refreshing, just toggle expansion
-    if (conceptHints[qId] && !forceRefresh) {
-      setExpandedHints(prev => ({ ...prev, [qId]: !prev[qId] }));
+  const handleRequestConceptHint = async (qId: string, depthToFetch?: HintDepth, forceRefresh = false) => {
+    const depth = depthToFetch || selectedDepth[qId] || 'brief';
+    if (depthToFetch && depthToFetch !== selectedDepth[qId]) {
+      setSelectedDepth(prev => ({ ...prev, [qId]: depthToFetch }));
+    }
+
+    const cacheKey = `${qId}_${depth}`;
+
+    // If already loaded and not force refreshing, just ensure expanded
+    if (conceptHints[cacheKey] && !forceRefresh) {
+      setExpandedHints(prev => ({ ...prev, [qId]: true }));
       return;
     }
 
@@ -91,6 +101,15 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
     setIsLoadingHint(prev => ({ ...prev, [qId]: true }));
     setHintError(prev => ({ ...prev, [qId]: '' }));
 
+    let promptDetail = '';
+    if (depth === 'short') {
+      promptDetail = 'Provide a SHORT 1 to 2 sentence hint with just the key formula or core keyword/concept. Do NOT write long paragraphs.';
+    } else if (depth === 'full') {
+      promptDetail = 'Provide a FULL DETAIL breakdown: 1) Core Scientific Principle & Law, 2) Formula and variables in LaTeX, 3) Step-by-step reasoning thought path, 4) Common student pitfall.';
+    } else {
+      promptDetail = 'Provide a BRIEF 1-paragraph standard concept hint with the textbook concept, formula, and a guiding thought step.';
+    }
+
     try {
       const response = await fetch('/api/ai/chat', {
         method: 'POST',
@@ -99,7 +118,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
           messages: [
             {
               role: 'user',
-              content: `I am attempting this FBISE 1st Year MCQ in ${drill.subject.toUpperCase()}:\n\n"${questionObj.question}"\n\nOptions:\nA) ${questionObj.options.A}\nB) ${questionObj.options.B}\nC) ${questionObj.options.C}\nD) ${questionObj.options.D}\n\nI am feeling stuck. Please explain the underlying core concept, textbook formula, or scientific principle so I can solve it on my own. DO NOT tell me which option is correct (do not state A, B, C, or D) and do not state the final answer!`
+              content: `I am attempting this FBISE 1st Year MCQ in ${drill.subject.toUpperCase()}:\n\n"${questionObj.question}"\n\nOptions:\nA) ${questionObj.options.A}\nB) ${questionObj.options.B}\nC) ${questionObj.options.C}\nD) ${questionObj.options.D}\n\nI am feeling stuck. ${promptDetail}\n\nSTRICT RULES: DO NOT tell me which option is correct (do not state A, B, C, or D) and do not state the final numerical answer!`
             }
           ],
           userContext: {
@@ -109,6 +128,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
             college: currentUser?.college,
             activeSubject: drill.subject,
             isHintRequest: true,
+            hintDepth: depth,
             activeDrill: {
               id: drill.id,
               title: drill.title,
@@ -130,11 +150,34 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
         throw new Error('No hint received.');
       }
 
-      setConceptHints(prev => ({ ...prev, [qId]: hintText }));
+      setConceptHints(prev => ({ ...prev, [cacheKey]: hintText }));
     } catch (err: any) {
       setHintError(prev => ({ ...prev, [qId]: err.message || 'Failed to fetch AI concept hint.' }));
     } finally {
       setIsLoadingHint(prev => ({ ...prev, [qId]: false }));
+    }
+  };
+
+  const handleToggleHint = (qId: string) => {
+    const isCurrentlyExpanded = !!expandedHints[qId];
+    if (isCurrentlyExpanded) {
+      setExpandedHints(prev => ({ ...prev, [qId]: false }));
+    } else {
+      const activeD = selectedDepth[qId] || 'brief';
+      setExpandedHints(prev => ({ ...prev, [qId]: true }));
+      const cacheKey = `${qId}_${activeD}`;
+      if (!conceptHints[cacheKey]) {
+        handleRequestConceptHint(qId, activeD);
+      }
+    }
+  };
+
+  const handleSelectDepth = (qId: string, depth: HintDepth) => {
+    setSelectedDepth(prev => ({ ...prev, [qId]: depth }));
+    setExpandedHints(prev => ({ ...prev, [qId]: true }));
+    const cacheKey = `${qId}_${depth}`;
+    if (!conceptHints[cacheKey]) {
+      handleRequestConceptHint(qId, depth);
     }
   };
 
@@ -570,52 +613,106 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
 
         {/* Socratic AI Concept Hint Section (Spoiler-Free) */}
         <div className="mt-4 pt-3.5 border-t border-slate-800/80">
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <button
-              type="button"
-              onClick={() => handleRequestConceptHint(currentQ.id)}
-              disabled={isLoadingHint[currentQ.id]}
-              className="flex items-center gap-2 rounded-xl border border-amber-500/40 bg-gradient-to-r from-amber-950/40 via-slate-900 to-cyan-950/40 px-3.5 py-1.5 text-xs font-semibold text-amber-300 hover:border-amber-400 hover:text-white transition shadow-sm cursor-pointer group"
-              title="Explains the governing textbook concept or formula without revealing the answer"
-            >
-              <Lightbulb className="h-4 w-4 text-amber-400 shrink-0 group-hover:scale-110 transition" />
-              <span>
-                {expandedHints[currentQ.id]
-                  ? 'Hide AI Concept Hint'
-                  : conceptHints[currentQ.id]
-                  ? 'View AI Concept Hint'
-                  : 'Stuck? Ask AI (Concept Hint)'}
-              </span>
-              {isLoadingHint[currentQ.id] && (
-                <Loader2 className="h-3.5 w-3.5 animate-spin text-cyan-400 ml-1" />
-              )}
-            </button>
+          <div className="flex flex-wrap items-center justify-between gap-2.5">
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() => handleToggleHint(currentQ.id)}
+                className="flex items-center gap-2 rounded-xl border border-amber-500/40 bg-gradient-to-r from-amber-950/40 via-slate-900 to-cyan-950/40 px-3.5 py-1.5 text-xs font-semibold text-amber-300 hover:border-amber-400 hover:text-white transition shadow-sm cursor-pointer group"
+                title="Ask AI for concept guidance without spoiling the answer"
+              >
+                <Lightbulb className="h-4 w-4 text-amber-400 shrink-0 group-hover:scale-110 transition" />
+                <span>
+                  {expandedHints[currentQ.id] ? 'Hide Concept Hint' : 'Stuck? Ask AI (Concept Hint)'}
+                </span>
+                {isLoadingHint[currentQ.id] && (
+                  <Loader2 className="h-3.5 w-3.5 animate-spin text-cyan-400 ml-1" />
+                )}
+              </button>
+
+              {/* 3 Depth Options Selector: Short / Brief / Full Detail */}
+              <div className="flex items-center rounded-xl border border-slate-800 bg-slate-950/80 p-0.5 shadow-inner">
+                {(['short', 'brief', 'full'] as HintDepth[]).map(d => {
+                  const currentActiveDepth = selectedDepth[currentQ.id] || 'brief';
+                  const isDepthActive = currentActiveDepth === d;
+                  const label = d === 'short' ? '⚡ Short' : d === 'brief' ? '📄 Brief' : '📚 Full Detail';
+                  const title = d === 'short' 
+                    ? 'Short: 1-2 sentence core formula nudge' 
+                    : d === 'brief' 
+                    ? 'Brief: Standard 1-paragraph concept breakdown' 
+                    : 'Full Detail: In-depth principle, variables & traps';
+
+                  return (
+                    <button
+                      key={d}
+                      type="button"
+                      onClick={() => handleSelectDepth(currentQ.id, d)}
+                      className={`rounded-lg px-2.5 py-1 text-[11px] font-semibold transition cursor-pointer ${
+                        isDepthActive
+                          ? 'bg-amber-500/25 text-amber-300 border border-amber-500/40 shadow-sm'
+                          : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
+                      }`}
+                      title={title}
+                    >
+                      {label}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
 
             <span className="text-[11px] text-slate-400 flex items-center gap-1.5">
               <Sparkles className="h-3 w-3 text-cyan-400" />
-              <span>Explains concept • Won't reveal the answer</span>
+              <span>Choose depth • Never spoils answer</span>
             </span>
           </div>
 
           {/* Expanded AI Concept Hint Box */}
           {expandedHints[currentQ.id] && (
             <div className="mt-3 rounded-2xl border border-amber-500/40 bg-gradient-to-br from-amber-950/30 via-slate-900/90 to-slate-950 p-4 shadow-xl backdrop-blur-md animate-fade-in">
-              <div className="flex items-center justify-between gap-2 pb-2.5 mb-2.5 border-b border-amber-500/20">
+              <div className="flex flex-wrap items-center justify-between gap-2 pb-2.5 mb-2.5 border-b border-amber-500/20">
                 <div className="flex items-center gap-2">
                   <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-amber-500/20 text-amber-300">
                     <Lightbulb className="h-3.5 w-3.5" />
                   </div>
                   <div>
-                    <h5 className="text-xs font-bold text-amber-200">
-                      AI Socratic Concept Hint ({drill.subject.toUpperCase()})
-                    </h5>
+                    <div className="flex items-center gap-2">
+                      <h5 className="text-xs font-bold text-amber-200">
+                        AI Concept Hint ({drill.subject.toUpperCase()})
+                      </h5>
+                      <span className="text-[10px] font-bold uppercase tracking-wider text-amber-300 bg-amber-950/60 px-2 py-0.5 rounded border border-amber-500/30">
+                        {selectedDepth[currentQ.id] === 'short' ? '⚡ Short Nudge' : selectedDepth[currentQ.id] === 'full' ? '📚 Full Detail' : '📄 Brief Concept'}
+                      </span>
+                    </div>
                     <p className="text-[10px] text-slate-400">
-                      Governing principle & formula guidance • Answers are never spoiled
+                      Governing principle guidance • Option letters and answers are never spoiled
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-center gap-2">
+                  {/* In-box Depth Quick Switcher */}
+                  <div className="flex items-center rounded-lg border border-slate-800 bg-slate-900/90 p-0.5">
+                    {(['short', 'brief', 'full'] as HintDepth[]).map(d => {
+                      const currentActiveDepth = selectedDepth[currentQ.id] || 'brief';
+                      const isDepthActive = currentActiveDepth === d;
+                      return (
+                        <button
+                          key={d}
+                          type="button"
+                          onClick={() => handleSelectDepth(currentQ.id, d)}
+                          className={`rounded px-2 py-0.5 text-[10px] font-semibold transition cursor-pointer ${
+                            isDepthActive
+                              ? 'bg-amber-500/30 text-amber-200 border border-amber-500/40'
+                              : 'text-slate-400 hover:text-slate-200'
+                          }`}
+                        >
+                          {d === 'short' ? 'Short' : d === 'brief' ? 'Brief' : 'Full Detail'}
+                        </button>
+                      );
+                    })}
+                  </div>
+
                   {onOpenAiTutor && (
                     <button
                       type="button"
@@ -629,10 +726,10 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
                   )}
                   <button
                     type="button"
-                    onClick={() => handleRequestConceptHint(currentQ.id, true)}
+                    onClick={() => handleRequestConceptHint(currentQ.id, selectedDepth[currentQ.id] || 'brief', true)}
                     disabled={isLoadingHint[currentQ.id]}
                     className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition cursor-pointer"
-                    title="Regenerate hint"
+                    title="Regenerate this depth hint"
                   >
                     <RotateCw className={`h-3 w-3 ${isLoadingHint[currentQ.id] ? 'animate-spin' : ''}`} />
                   </button>
@@ -642,14 +739,14 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
               {isLoadingHint[currentQ.id] ? (
                 <div className="flex items-center gap-3 py-4 text-xs text-slate-300 justify-center">
                   <Loader2 className="h-4 w-4 animate-spin text-cyan-400 shrink-0" />
-                  <span>KIPS AI Tutor (Qwen 27B) is formulating your concept hint...</span>
+                  <span>KIPS AI Tutor is formulating your {selectedDepth[currentQ.id] || 'brief'} concept hint...</span>
                 </div>
               ) : hintError[currentQ.id] ? (
                 <div className="text-xs text-rose-300 py-2 flex items-center justify-between">
                   <span>{hintError[currentQ.id]}</span>
                   <button
                     type="button"
-                    onClick={() => handleRequestConceptHint(currentQ.id, true)}
+                    onClick={() => handleRequestConceptHint(currentQ.id, selectedDepth[currentQ.id] || 'brief', true)}
                     className="underline text-cyan-400 ml-2 cursor-pointer"
                   >
                     Try Again
@@ -657,7 +754,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
                 </div>
               ) : (
                 <div className="text-xs sm:text-sm text-slate-200 leading-relaxed">
-                  <LatexRenderer content={conceptHints[currentQ.id] || ''} />
+                  <LatexRenderer content={conceptHints[`${currentQ.id}_${selectedDepth[currentQ.id] || 'brief'}`] || ''} />
                 </div>
               )}
             </div>

@@ -32,7 +32,20 @@ ${userContext?.isHintRequest ? `
 - The student is actively solving an MCQ during a timed test and requested a CONCEPT HINT because they are stuck.
 - ABSOLUTE PROHIBITION: NEVER reveal or state the correct option letter (NEVER say Option A, B, C, or D).
 - ABSOLUTE PROHIBITION: NEVER state the final numerical value or explicitly eliminate choices.
-- YOUR GOAL: Explain the underlying textbook concept, physical/chemical/biological principle, governing formula, or proportional relationship clearly so the student can deduce the correct answer themselves!` : ''}
+- YOUR GOAL: Explain the underlying textbook concept, physical/chemical/biological principle, governing formula, or proportional relationship clearly so the student can deduce the correct answer themselves!
+
+REQUESTED HINT DEPTH: ${userContext?.hintDepth === 'short' ? 'SHORT (Quick Nudge)' : userContext?.hintDepth === 'full' ? 'FULL DETAIL (In-Depth Guide)' : 'BRIEF (Standard Concept)'}
+${userContext?.hintDepth === 'short' ? `
+- STRICT FORMAT FOR "SHORT": Keep it to MAXIMUM 1 to 2 punchy sentences! Just give the core formula or key keyword/governing law (e.g. "$F_{\\text{net}} = ma$", or "Recall that volume is inversely proportional to pressure ($P_1 V_1 = P_2 V_2$)") and a fast nudge question. Do NOT write multiple paragraphs.` : ''}
+${userContext?.hintDepth === 'brief' ? `
+- STRICT FORMAT FOR "BRIEF": Exactly 1 concise, structured paragraph (3-4 sentences). State the core textbook concept, the relevant formula in LaTeX, and a single guiding thought step to help them deduce the answer.` : ''}
+${userContext?.hintDepth === 'full' ? `
+- STRICT FORMAT FOR "FULL DETAIL": Provide a comprehensive, multi-step conceptual breakdown.
+  Include:
+  1. 📘 **Core Concept & Law:** FBISE textbook definition and physical mechanism.
+  2. 📐 **Governing Formula & Units:** Explain each variable in LaTeX (e.g. what each term means).
+  3. 🔍 **Step-by-Step Reasoning Guide:** How to think about the problem conceptually (without giving away the option).
+  4. ⚠️ **Common Trap / Pitfall:** What mistakes students usually make on this type of question.` : ''}` : ''}
 
 Pedagogical & Rigorous Formatting Directives:
 1. Tone & Persona:
