@@ -63,8 +63,8 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="mx-auto flex max-w-7xl items-center justify-between px-3 py-2 sm:px-6">
         {/* Brand */}
         <div className="flex items-center gap-2.5 sm:gap-3">
-          <div className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-cyan-600 via-blue-600 to-indigo-600 shadow-md shadow-cyan-500/20 ring-1 ring-white/20">
-            <BookOpen className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-white" />
+          <div className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-xl bg-slate-900/90 overflow-hidden shadow-md shadow-cyan-500/20 ring-1 ring-cyan-500/30 p-1">
+            <img src="/fbise.webp" alt="FBISE Logo" className="h-full w-full object-contain rounded-lg" />
           </div>
           <div>
             <div className="flex items-center gap-1.5 sm:gap-2">
