@@ -28,9 +28,11 @@ app.post('/api/ai/chat', async (req, res) => {
       : 'General Science';
 
     const isHint = Boolean(userContext?.isHintRequest);
-    const depth = userContext?.hintDepth || 'brief';
+    const depth = (userContext?.responseDepth || userContext?.hintDepth || (isHint ? 'brief' : 'mid')) as 'short' | 'mid' | 'brief' | 'full';
+    const includeMnemonic = userContext?.includeMnemonic !== false;
+    const includeExamTraps = userContext?.includeExamTraps !== false;
 
-    // Construct system prompt: Lean & fast for hints to save TPM, rich for full tutor chat
+    // Construct system prompt: Lean & fast for hints/short queries to save TPM, rich for full tutor chat
     let systemPrompt = '';
     if (isHint) {
       systemPrompt = `You are an expert FBISE 1st Year Pakistan HSSC-1 Academic Mentor in ${subjectName}.
@@ -56,6 +58,9 @@ Student Profile & Current Context:
 - Board: FBISE (Federal Board of Intermediate & Secondary Education, Islamabad)
 - Academic Year: 2026 Session (HSSC Part 1)
 - Current Subject Focus: ${subjectName}
+- Selected Explanation Depth: ${depth === 'short' ? '⚡ Quick Summary (Short & Fast)' : depth === 'full' ? '📖 Deep Mastery (Comprehensive Breakdown)' : '🎯 Standard Concept (Balanced)'}
+- Include Mnemonic Memory Trick: ${includeMnemonic ? 'YES' : 'NO (Disabled by student)'}
+- Include FBISE Exam Insight / Trap Callout: ${includeExamTraps ? 'YES' : 'NO (Disabled by student)'}
 ${userContext?.activeDrill ? `- Active Drill in Progress: Day ${userContext.activeDrill.dayNumber} - "${userContext.activeDrill.title}" (Chapter: ${userContext.activeDrill.chapter})` : ''}
 
 Pedagogical & Rigorous Formatting Directives:
@@ -63,18 +68,25 @@ Pedagogical & Rigorous Formatting Directives:
    - Speak directly to the student with warmth, encouragement, and academic authority. Address them naturally.
    - Guide them strictly according to the FBISE Federal Board Pakistan 1st Year (HSSC-1) syllabus.
 
-2. MANDATORY Scientific Subscript & Formula Rules (Physics, Chemistry, Biology):
+2. Explanation Scope by Depth:
+${depth === 'short'
+  ? '   - ⚡ QUICK SUMMARY MODE: Keep answer ultra-concise (1-2 punchy paragraphs or bullet points). State the direct definition, governing formula in LaTeX, and core answer immediately with zero fluff.'
+  : depth === 'full'
+  ? '   - 📖 DEEP MASTERY MODE: Provide an extensive, thorough FBISE textbook breakdown. Include (1) Conceptual Foundation, (2) Step-by-step mathematical derivation or biochemical pathway in LaTeX, (3) Comparison markdown table if relevant.'
+  : '   - 🎯 STANDARD CONCEPT MODE: Balanced and clear. Include concise definition, standard formula in LaTeX, 1 brief example or table, and 1 key takeaway.'}
+
+3. MANDATORY Scientific Subscript & Formula Rules (Physics, Chemistry, Biology):
    - ALL equations, molecular formulas, and variables MUST be wrapped in standard LaTeX ($...$ for inline, $$...$$ for display blocks).
    - CHEMISTRY & BIOLOGY MOLECULAR FORMULAS: Format element counts as subscripts: $\\text{C}_6\\text{H}_{12}\\text{O}_6$, $\\text{H}_2\\text{SO}_4$, $\\text{CO}_2$, $\\text{H}_2\\text{O}$.
    - PHYSICS & STATE VARIABLES: Subscripts for states ($v_1, v_2$) and labels ($v_{\\text{bullet}}, m_{\\text{bullet}}$).
    - UNITS: $\\text{ m/s}, \\text{ kg}, \\text{ J}, \\text{ N}$.
+   - CLEAN EQUATION SYNTAX (NO STRAY PIPES): Write standard equations cleanly ($F_{BA} = -F_{AB}$ or $\\sum \\mathbf{F} = 0 \\implies a = 0$). NEVER use pipe symbols (|), \\models, or \\mid as spacers in math.
 
-3. Markdown Structure & Comparison Tables:
-   - Use clean Markdown tables when contrasting items.
-   - Break multi-step numericals into clean sections (Given, Formula, Calculation, Final Answer).
-   - Callout blocks: 💡 **Mnemonic:** ..., 🚨 **FBISE Exam Insight:** ...
+4. Callout Sections & Add-ons (Strictly adhere to student toggle preferences):
+   - ${includeMnemonic ? '💡 MNEMONIC: Include a catchy, clear mnemonic memory aid (💡 **Mnemonic:** ...).' : '🚫 NO MNEMONICS: Do NOT include any mnemonic or acronym tricks in this response.'}
+   - ${includeExamTraps ? '🚨 FBISE EXAM INSIGHT: Include an exam pitfall callout (🚨 **FBISE Exam Insight:** ...) highlighting past-paper student traps.' : '🚫 NO EXAM TRAPS: Do NOT include any 🚨 FBISE Exam Insight or Caution callout blocks in this response.'}
 
-4. Output Coherence & Loop Prevention (CRITICAL):
+5. Output Coherence & Loop Prevention (CRITICAL):
    - Never output internal self-corrections, debates with yourself, or conversational loops (e.g. "Wait, let me retry", "I am stuck in a loop"). If clarifying a list, present the definitive, finalized list directly.
    - Standard 20 Amino Acids in Biology (Biomolecules Chapter):
      * 9 Essential (PVT TIM HaLL): Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Leucine, Lysine (plus Arginine as semi-essential in children).
@@ -102,21 +114,26 @@ Pedagogical & Rigorous Formatting Directives:
     for (const model of candidateModels) {
       try {
         const isReasoningModel = model.includes('120b') || model.includes('r1') || model.includes('o1');
-        const tokenLimit = isReasoningModel 
-          ? (isHint ? 2200 : 3500)
-          : (isHint ? (depth === 'short' ? 300 : depth === 'full' ? 900 : 500) : 2000);
+        
+        // Allocate token limit dynamically based on requested depth to preserve Groq quotas
+        let tokenLimit = 1500;
+        if (isReasoningModel) {
+          tokenLimit = depth === 'short' ? 900 : depth === 'full' ? 3200 : 1800;
+        } else {
+          tokenLimit = depth === 'short' ? 350 : depth === 'full' ? 1800 : 850;
+        }
 
         const requestBody: any = {
           model,
           messages: fullMessages,
-          temperature: 0.6,
+          temperature: depth === 'short' ? 0.4 : 0.6,
           presence_penalty: 0.25,
           frequency_penalty: 0.25,
           max_tokens: tokenLimit
         };
 
         if (isReasoningModel) {
-          requestBody.reasoning_effort = 'low';
+          requestBody.reasoning_effort = depth === 'short' ? 'low' : depth === 'full' ? 'medium' : 'low';
         }
 
         const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {

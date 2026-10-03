@@ -128,7 +128,7 @@ function normalizeMathFormula(rawFormula: string): string {
   ];
 
   for (const sub of commonPhysicsSubscripts) {
-    const pattern = new RegExp(`\\b([m|v|P|F|E|a|k|W|T])(?:_\\{?|_?|\\{)?(${sub})\\}?\\b`, 'g');
+    const pattern = new RegExp(`\\b([mvPFEakWT])(?:_\\{?|_?|\\{)?(${sub})\\}?\\b`, 'g');
     f = f.replace(pattern, `$1_{\\text{${sub}}}`);
   }
 
@@ -136,11 +136,31 @@ function normalizeMathFormula(rawFormula: string): string {
   f = f.replace(/\b([a-zA-Z])_([a-zA-Z]{2,})\b/g, '$1_{\\text{$2}}');
 
   // 7. Numbered physics variables: v1 -> v_1, m2 -> m_2, t1 -> t_1, r2 -> r_2, F1 -> F_1
-  f = f.replace(/\b([v|m|p|r|t|F|a|k|q|I|s])(\d+)\b/g, '$1_{$2}');
+  f = f.replace(/\b([vmprtFakqIs])(\d+)\b/g, '$1_{$2}');
 
   // 8. Equilibrium constants: Kc -> K_c, Kp -> K_p, Ksp -> K_{\text{sp}}, etc.
   f = f.replace(/\bK(c|p|w|a|b)\b/g, 'K_$1');
   f = f.replace(/\bKsp\b/gi, 'K_{\\text{sp}}');
+
+  // 8b. Clean all vertical bar glitches and hallucinated symbols attached to arrows or equals signs:
+  // - Mapsto (\mapsto, \longmapsto) produces a vertical bar attached to the arrow: replace with \implies
+  f = f.replace(/\\(long)?mapsto\b/g, ' \\implies ');
+  // - Entailment symbols (\models, \vDash, \vdash, \Vdash, \mid, \vert) produce a vertical bar: replace with clean space or =
+  f = f.replace(/\\(models|vDash|vdash|Vdash)\b/g, ' = ');
+  f = f.replace(/\\(mid|vert)\b/g, ' ');
+
+  // - Strip all accidental pipes adjacent to operators (=, -, +, *, /, arrows)
+  f = f.replace(/(=|\+|-|\*|\/|\\rightarrow|\\longrightarrow|\\implies|\\Longrightarrow|\\iff|\\Longleftrightarrow|\\times|\\pm|<|>|\\leq|\\geq)\s*\|+\s*/g, '$1 ');
+  f = f.replace(/\s*\|+\s*(=|\+|-|\*|\/|\\rightarrow|\\longrightarrow|\\implies|\\Longrightarrow|\\iff|\\Longleftrightarrow|\\times|\\pm|<|>|\\leq|\\geq)/g, ' $1');
+
+  // - Fix standalone |=, =|, |-, =|-, |=>, |->, |==
+  f = f.replace(/=\s*\|+\s*-/g, '= -');
+  f = f.replace(/=\s*\|+/g, '= ');
+  f = f.replace(/\|+[\s=]*-/g, '- ');
+  f = f.replace(/\|\s*(=>|->|==|=)/g, ' \\implies ');
+
+  // - Clean any isolated dangling pipe not paired as absolute value |x|
+  f = f.replace(/(?<=\s)\|(?=\s)/g, ' ');
 
   // 9. Chemical & Biological formulas: C6H12O6 -> C_{6}H_{12}O_{6}, 6O2 -> 6O_{2}, 6CO2 -> 6CO_{2}, 6H2O -> 6H_{2}O
   // Only convert when element followed by number is NOT already preceded by an underscore
@@ -168,15 +188,44 @@ function normalizeMathFormula(rawFormula: string): string {
 }
 
 /**
- * Tokenizes all LaTeX math expressions ($$...$$ and $...$) into safe placeholders
+ * Normalizes all AI model math conventions (GPT-4o, GPT-OSS 120b, DeepSeek, Qwen, Claude, Gemini)
+ * into a single unified token pipeline.
+ */
+function normalizeAiDelimiters(text: string): string {
+  let s = text;
+
+  // 1. Convert markdown code blocks with latex/math tags into block math: ```latex ... ``` -> $$...$$
+  s = s.replace(/```(?:latex|math|tex)\s*([\s\S]*?)\s*```/gi, '\n\n$$$$$1$$$$\n\n');
+
+  // 2. Convert standard LaTeX environments (\begin{equation}...\end{equation}, align, gather) into $$...$$
+  s = s.replace(/\\begin\{(?:equation\*?|align\*?|gather\*?|multline\*?)\}([\s\S]*?)\\end\{(?:equation\*?|align\*?|gather\*?|multline\*?)\}/gi, '\n\n$$$$$1$$$$\n\n');
+
+  // 3. Convert LaTeX display math \[ ... \] (including escaped \\\[ ... \\\] and multiline blocks) into $$...$$
+  s = s.replace(/(?:\\{1,2}\[)([\s\S]*?)(?:\\{1,2}\])/g, '\n\n$$$$$1$$$$\n\n');
+
+  // 4. Convert LaTeX inline math \( ... \) (including escaped \\\( ... \\\)) into $...$
+  s = s.replace(/(?:\\{1,2}\()([\s\S]*?)(?:\\{1,2}\))/g, '$$$1$$');
+
+  // 5. Clean isolated standalone [ or ] that an LLM might have left after partial bracket replacement
+  s = s.replace(/^\s*\\{1,2}\[\s*$/gm, '');
+  s = s.replace(/^\s*\\{1,2}\]\s*$/gm, '');
+
+  return s;
+}
+
+/**
+ * Tokenizes all LaTeX math expressions ($$...$$, $...$, \[...\], \(...\)) into safe placeholders
  * BEFORE any Markdown, Table, or italic parsing occurs.
  */
 function extractMathTokens(text: string): { processedText: string; tokens: Map<string, MathToken> } {
   const tokens = new Map<string, MathToken>();
   let tokenCounter = 0;
 
+  // Step 0: Pre-normalize all AI math delimiters from any LLM provider
+  let raw = normalizeAiDelimiters(text);
+
   // Step 1: Extract block math $$...$$
-  let processedText = text.replace(/\$\$([\s\S]*?)\$\$/g, (_, formula) => {
+  let processedText = raw.replace(/\$\$([\s\S]*?)\$\$/g, (_, formula) => {
     const tokenId = `%%%MATH_BLOCK_${tokenCounter++}%%%`;
     tokens.set(tokenId, {
       id: tokenId,
@@ -361,13 +410,24 @@ function parseTableRow(line: string): string[] {
 }
 
 /**
- * Checks if a line is a markdown table separator (e.g. |:---|:---|:---| or |---|---|)
+ * Checks if a line is a markdown table separator (e.g. |:---|:---|:---| or |---|---| or :---|---:)
  */
 function isTableSeparator(line: string): boolean {
   const trimmed = line.trim();
   if (!trimmed.includes('-')) return false;
+  if (!trimmed.includes('|')) return false;
   const cells = parseTableRow(trimmed);
-  return cells.length > 0 && cells.every(c => /^:?-+:?$/.test(c));
+  return cells.length > 0 && cells.every(c => /^:?-+:?$/.test(c.trim()));
+}
+
+/**
+ * Checks if a line resembles a markdown table row (has at least 1 pipe and not just a single lonely pipe)
+ */
+function isPotentialTableRow(line: string): boolean {
+  const trimmed = line.trim();
+  if (trimmed === '|' || trimmed === '||') return false;
+  const pipeCount = (trimmed.match(/\|/g) || []).length;
+  return pipeCount >= 1 && (trimmed.startsWith('|') || trimmed.endsWith('|') || pipeCount >= 2);
 }
 
 /**
@@ -379,16 +439,38 @@ function renderMarkdownTable(
   keyPrefix: string,
   tokens: Map<string, MathToken>
 ): React.ReactNode {
-  const headers = parseTableRow(headerLine);
-  const rows = bodyLines.map(parseTableRow);
+  let headers = parseTableRow(headerLine);
+  let rows = bodyLines.map(parseTableRow);
+
+  // Compute maximum columns across all rows to prevent layout breakage
+  const maxCols = Math.max(headers.length, ...rows.map(r => r.length), 1);
+
+  // Auto-pad headers if body has more columns (e.g. numbered index column without header)
+  if (headers.length < maxCols) {
+    if (rows.length > 0 && rows.every(r => /^\d+$/.test(r[0]?.trim() || ''))) {
+      headers = ['#', ...headers];
+    }
+    while (headers.length < maxCols) {
+      headers.push(`Column ${headers.length + 1}`);
+    }
+  }
+
+  // Auto-pad rows if any row has fewer cells
+  rows = rows.map(r => {
+    const padded = [...r];
+    while (padded.length < headers.length) {
+      padded.push('');
+    }
+    return padded;
+  });
 
   return (
-    <div key={keyPrefix} className="my-3 overflow-x-auto rounded-xl border border-slate-700/80 bg-slate-900/90 shadow-md no-scrollbar">
-      <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[360px]">
+    <div key={keyPrefix} className="my-3 overflow-x-auto rounded-xl border border-slate-700/80 bg-slate-900/95 shadow-lg no-scrollbar">
+      <table className="w-full text-left text-xs sm:text-sm border-collapse min-w-[340px]">
         <thead>
           <tr className="bg-slate-800/90 text-cyan-300 font-semibold border-b border-slate-700/80">
             {headers.map((h, hIdx) => (
-              <th key={hIdx} className="px-3.5 py-2.5 font-bold tracking-wide text-cyan-200">
+              <th key={hIdx} className="px-3.5 py-2.5 font-bold tracking-wide text-cyan-200 uppercase text-[11px] sm:text-xs">
                 {parseInlineSpans(h, tokens)}
               </th>
             ))}
@@ -419,19 +501,23 @@ function renderMarkdownTable(
 function cleanMarkdownText(text: string): string {
   let cleaned = text;
 
-  // 1. Separate horizontal rules stuck to headings (e.g. "--- ### 2.")
+  // 1. Remove lonely pipes or hashes on their own lines (e.g. "text\n|\n" or "#\n\nHeading")
+  cleaned = cleaned.replace(/^\s*\|\s*$/gm, '');
+  cleaned = cleaned.replace(/^\s*#{1,6}\s*$/gm, '');
+
+  // 2. Separate horizontal rules stuck to headings (e.g. "--- ### 2.")
   cleaned = cleaned.replace(/---\s*(#{1,6})/g, '\n---\n\n$1');
 
-  // 2. Separate inline headings clumped into text (e.g. "bullet. --- ### 2.")
+  // 3. Separate inline headings clumped into text (e.g. "bullet. --- ### 2.")
   cleaned = cleaned.replace(/([^\n])\s*(#{1,6}\s+)/g, '$1\n\n$2');
 
-  // 3. Clean trailing or broken asterisks like "40 kg **." or "platform mass of 40 kg **"
+  // 4. Clean trailing or broken asterisks like "40 kg **." or "platform mass of 40 kg **"
   cleaned = cleaned.replace(/\s+\*\*\s*([.,;!?]|$)/gm, '$1');
 
-  // 4. Clean broken word bolding like "M*over" -> "**M**over"
+  // 5. Clean broken word bolding like "M*over" -> "**M**over"
   cleaned = cleaned.replace(/M\*over/g, '**M**over');
 
-  // 5. Break up run-on numbered items like: "1. Direction Matters: ... 2. Unit Consistency:"
+  // 6. Break up run-on numbered items like: "1. Direction Matters: ... 2. Unit Consistency:"
   cleaned = cleaned.replace(/([.!?])\s+(\d+\.\s+[A-Z])/g, '$1\n\n$2');
 
   return cleaned;
@@ -475,14 +561,14 @@ function renderContentLines(
     }
 
     // 3. Markdown Table Detection
-    // A table begins when line has '|', next line exists and is a valid table separator (e.g. |:---|:---|)
-    if (trimmed.startsWith('|') && trimmed.endsWith('|') && i + 1 < lines.length) {
+    // A table begins when line has '|' (or is a potential row) and the next line is a valid table separator
+    if (isPotentialTableRow(trimmed) && i + 1 < lines.length) {
       const nextLine = lines[i + 1].trim();
       if (isTableSeparator(nextLine)) {
         const headerLine = trimmed;
         const tableBodyLines: string[] = [];
         i += 2; // skip header and separator
-        while (i < lines.length && lines[i].trim().startsWith('|') && lines[i].trim().endsWith('|')) {
+        while (i < lines.length && isPotentialTableRow(lines[i])) {
           tableBodyLines.push(lines[i].trim());
           i++;
         }

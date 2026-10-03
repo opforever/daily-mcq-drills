@@ -18,7 +18,10 @@ import {
   FlaskConical,
   Dna,
   Key,
-  Info
+  Info,
+  Zap,
+  Target,
+  GraduationCap
 } from 'lucide-react';
 
 export interface AiChatMessage {
@@ -28,12 +31,41 @@ export interface AiChatMessage {
   timestamp: number;
 }
 
+export type ExplanationDepth = 'short' | 'mid' | 'full';
+
 interface AiTutorModalProps {
   currentUser: User;
   activeSubject: Subject;
   activeDrill?: Drill | null;
   onClose: () => void;
 }
+
+const depthOptions: { id: ExplanationDepth; label: string; shortLabel: string; desc: string; icon: any; activeClass: string }[] = [
+  { 
+    id: 'short', 
+    label: 'Quick Fact', 
+    shortLabel: 'Short',
+    desc: 'Core formula & definition (~200 tokens)', 
+    icon: Zap, 
+    activeClass: 'bg-amber-500/20 text-amber-300 border-amber-500/50 shadow-sm shadow-amber-500/10'
+  },
+  { 
+    id: 'mid', 
+    label: 'Standard Concept', 
+    shortLabel: 'Mid',
+    desc: 'Balanced step-by-step logic (~600 tokens)', 
+    icon: Target, 
+    activeClass: 'bg-cyan-500/20 text-cyan-300 border-cyan-500/50 shadow-sm shadow-cyan-500/10'
+  },
+  { 
+    id: 'full', 
+    label: 'Full Mastery', 
+    shortLabel: 'Full Concept',
+    desc: 'Full derivations, tables & mnemonics (~1500 tokens)', 
+    icon: GraduationCap, 
+    activeClass: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/50 shadow-sm shadow-emerald-500/10'
+  }
+];
 
 export const AiTutorModal: React.FC<AiTutorModalProps> = ({
   currentUser,
@@ -43,6 +75,9 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
 }) => {
   // Current active subject in the AI Tutor (can switch between Physics, Chemistry, Biology)
   const [selectedSubject, setSelectedSubject] = useState<Subject>(initialSubject);
+  const [depth, setDepth] = useState<ExplanationDepth>('mid');
+  const [includeMnemonic, setIncludeMnemonic] = useState<boolean>(true);
+  const [includeExamTraps, setIncludeExamTraps] = useState<boolean>(true);
   const [showKeyHelp, setShowKeyHelp] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
   const [inputMessage, setInputMessage] = useState('');
@@ -133,6 +168,9 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
             role: currentUser.role,
             college: currentUser.college,
             activeSubject: selectedSubject,
+            responseDepth: depth,
+            includeMnemonic,
+            includeExamTraps,
             activeDrill: activeDrill && activeDrill.subject === selectedSubject ? {
               dayNumber: activeDrill.dayNumber,
               title: activeDrill.title,
@@ -175,15 +213,16 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
     }
   };
 
+  const [clearedToast, setClearedToast] = useState(false);
+
   const handleClearCurrentChat = () => {
-    const subjectName = selectedSubject.charAt(0).toUpperCase() + selectedSubject.slice(1);
-    if (confirm(`Clear temporary chat session for ${subjectName}?`)) {
-      const resetList = [getInitialWelcomeMessage(selectedSubject)];
-      setSubjectMessages(prev => ({
-        ...prev,
-        [selectedSubject]: resetList
-      }));
-    }
+    const resetList = [getInitialWelcomeMessage(selectedSubject)];
+    setSubjectMessages(prev => ({
+      ...prev,
+      [selectedSubject]: resetList
+    }));
+    setClearedToast(true);
+    setTimeout(() => setClearedToast(false), 2000);
   };
 
   // Subject quick prompt suggestions
@@ -262,14 +301,19 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
             <button
               onClick={handleClearCurrentChat}
               title={`Clear ${selectedSubject} temporary chat`}
-              className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-rose-400 transition"
+              className="relative rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-rose-400 transition cursor-pointer"
             >
               <Trash2 className="h-4 w-4" />
+              {clearedToast && (
+                <span className="absolute -bottom-7 right-0 whitespace-nowrap rounded bg-rose-950 border border-rose-500/40 px-1.5 py-0.5 text-[10px] font-bold text-rose-300 shadow-lg animate-fadeIn z-50">
+                  Cleared!
+                </span>
+              )}
             </button>
             <button
               onClick={() => setIsExpanded(!isExpanded)}
               title={isExpanded ? 'Collapse' : 'Expand'}
-              className="hidden sm:block rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white transition"
+              className="hidden sm:block rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white transition cursor-pointer"
             >
               {isExpanded ? <Minimize2 className="h-4 w-4" /> : <Maximize2 className="h-4 w-4" />}
             </button>
@@ -308,10 +352,11 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
           </div>
         )}
 
-        {/* Dedicated Subject Selector Tabs: Completely Isolates Chats */}
-        <div className="shrink-0 flex items-center justify-between border-b border-slate-800 bg-slate-950/60 px-3 py-1.5">
+        {/* Dedicated Subject Selector & Explanation Depth Control */}
+        <div className="shrink-0 flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 bg-slate-950/80 px-3 py-1.5">
+          {/* Subject Switcher */}
           <div className="flex items-center gap-1.5">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mr-1">Subject:</span>
+            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mr-0.5">Subject:</span>
             {subjectsConfig.map(sub => {
               const IconComp = sub.icon;
               const isSelected = selectedSubject === sub.id;
@@ -336,6 +381,65 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
                 </button>
               );
             })}
+          </div>
+
+          {/* Controls: Depth Selector + Mnemonic & Exam Trap Toggles */}
+          <div className="flex flex-wrap items-center gap-1.5">
+            {/* Depth / Detail Mode Selector (Short, Mid, Full Concept) */}
+            <div className="flex items-center gap-1 bg-slate-900/90 border border-slate-800 rounded-lg p-0.5 shadow-inner">
+              <span className="text-[9px] font-bold uppercase tracking-wider text-slate-500 px-1 hidden sm:inline">Depth:</span>
+              {depthOptions.map(opt => {
+                const Icon = opt.icon;
+                const isCurrent = depth === opt.id;
+                return (
+                  <button
+                    key={opt.id}
+                    onClick={() => setDepth(opt.id)}
+                    title={opt.desc}
+                    className={`flex items-center gap-1 px-2 py-0.5 rounded-md text-[11px] font-medium transition cursor-pointer ${
+                      isCurrent
+                        ? opt.activeClass
+                        : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                    }`}
+                  >
+                    <Icon className="h-3 w-3 shrink-0" />
+                    <span className="hidden md:inline">{opt.label}</span>
+                    <span className="md:hidden">{opt.shortLabel}</span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Optional Feature Toggles: Mnemonics & Exam Traps */}
+            <div className="flex items-center gap-1">
+              <button
+                type="button"
+                onClick={() => setIncludeMnemonic(prev => !prev)}
+                title={includeMnemonic ? "Mnemonic memory aids enabled" : "Mnemonic memory aids disabled"}
+                className={`flex items-center gap-1 rounded-lg border px-2 py-0.5 text-[11px] font-medium transition cursor-pointer ${
+                  includeMnemonic
+                    ? 'border-amber-500/40 bg-amber-950/40 text-amber-300 shadow-sm shadow-amber-500/10'
+                    : 'border-slate-800 bg-slate-900/60 text-slate-500 line-through decoration-slate-600'
+                }`}
+              >
+                <Lightbulb className={`h-3 w-3 ${includeMnemonic ? 'text-amber-400' : 'text-slate-500'}`} />
+                <span>Mnemonic</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => setIncludeExamTraps(prev => !prev)}
+                title={includeExamTraps ? "FBISE Exam Trap callouts enabled" : "FBISE Exam Trap callouts disabled"}
+                className={`flex items-center gap-1 rounded-lg border px-2 py-0.5 text-[11px] font-medium transition cursor-pointer ${
+                  includeExamTraps
+                    ? 'border-rose-500/40 bg-rose-950/40 text-rose-300 shadow-sm shadow-rose-500/10'
+                    : 'border-slate-800 bg-slate-900/60 text-slate-500 line-through decoration-slate-600'
+                }`}
+              >
+                <span className="text-[10px]">🚨</span>
+                <span>Exam Traps</span>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -459,8 +563,8 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
             </button>
           </div>
           <div className="mt-1.5 flex items-center justify-between text-[9px] sm:text-[10px] text-slate-500 px-1">
-            <span>Separate {selectedSubject} session • Clears on refresh</span>
-            <span>KaTeX Math & Formulas supported</span>
+            <span>Separate {selectedSubject} session • Mode: <strong className="text-cyan-400 font-semibold">{depthOptions.find(d => d.id === depth)?.label}</strong></span>
+            <span>KaTeX Math & Tables supported</span>
           </div>
         </form>
       </div>
