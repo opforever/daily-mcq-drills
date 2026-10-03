@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { LeaderboardUser, User } from '../types';
-import { computeLeaderboard, getStoredUsers, adminResetStudentPassword, syncFromCloudAttempts, syncFromCloudUsers } from '../utils/storage';
+import { 
+  computeLeaderboard, 
+  getStoredUsers, 
+  getStoredAttempts, 
+  adminResetStudentPassword, 
+  syncFromCloudAttempts, 
+  syncFromCloudUsers 
+} from '../utils/storage';
 import { subscribeToCloudAttempts, subscribeToCloudUsers } from '../utils/firebase';
 import { 
   Trophy, 
