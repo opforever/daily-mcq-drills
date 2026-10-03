@@ -531,5 +531,96 @@ export async function clearCloudInProgressSession(
   }
 }
 
+/**
+ * Real-time listener for a user's active in-progress MCQ drill sessions.
+ * Guarantees that "Resume MCQ #20" cards update instantaneously across all devices and browsers.
+ */
+export function subscribeToCloudUserSessions(
+  username: string,
+  onUpdate: (sessions: Record<string, InProgressDrillSession>) => void
+): () => void {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase().replace(/[^a-z0-9_]/g, '_');
+    if (!cleanU || cleanU === 'guest') return () => {};
+    const q = query(
+      collection(db, ACTIVE_SESSIONS_COL),
+      where('username', '==', cleanU)
+    );
+    return onSnapshot(
+      q,
+      (snapshot) => {
+        recordRead(snapshot.size > 0 ? snapshot.size : 1);
+        const sessionMap: Record<string, InProgressDrillSession> = {};
+        snapshot.forEach((docSnap) => {
+          const data = docSnap.data() as InProgressDrillSession;
+          if (data && data.drillId && data.selectedAnswers && Object.keys(data.selectedAnswers).length > 0) {
+            sessionMap[data.drillId] = data;
+          }
+        });
+        onUpdate(sessionMap);
+      },
+      (err) => {
+        console.warn('Firestore active sessions listener warning:', err);
+      }
+    );
+  } catch (err) {
+    console.warn('Failed to attach active sessions listener:', err);
+    return () => {};
+  }
+}
+
+/**
+ * Saves cross-device read statuses (Seen Announcement ID & Last Read Discussion Timestamp)
+ * directly to the user's Firestore document so red/cyan notification dots stay synchronized across devices.
+ */
+export async function saveCloudUserReadStatus(
+  username: string,
+  updates: { lastSeenAnnouncementId?: string; lastReadDiscussionTimestamp?: number }
+): Promise<void> {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    if (!cleanU || cleanU === 'guest') return;
+    recordWrite(1);
+    const ref = doc(db, USERS_COL, cleanU);
+    await setDoc(ref, updates, { merge: true });
+  } catch (err) {
+    console.warn('Error syncing read status to cloud:', err);
+  }
+}
+
+/**
+ * Listens to the user's Firestore document to synchronize read notifications
+ * (announcements & discussions) in real time when read on another phone or computer.
+ */
+export function subscribeToCloudUserReadStatus(
+  username: string,
+  onUpdate: (data: { lastSeenAnnouncementId?: string; lastReadDiscussionTimestamp?: number }) => void
+): () => void {
+  try {
+    const cleanU = (username || 'guest').trim().toLowerCase();
+    if (!cleanU || cleanU === 'guest') return () => {};
+    const ref = doc(db, USERS_COL, cleanU);
+    return onSnapshot(
+      ref,
+      (snap) => {
+        if (snap.exists()) {
+          recordRead(1);
+          const data = snap.data();
+          onUpdate({
+            lastSeenAnnouncementId: data.lastSeenAnnouncementId,
+            lastReadDiscussionTimestamp: data.lastReadDiscussionTimestamp
+          });
+        }
+      },
+      (err) => {
+        console.warn('Firestore user read status listener warning:', err);
+      }
+    );
+  } catch {
+    return () => {};
+  }
+}
+
+
 
 

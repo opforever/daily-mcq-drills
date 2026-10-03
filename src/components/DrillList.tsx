@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Drill, Subject, User, UserAttempt } from '../types';
+import { Drill, Subject, User, UserAttempt, InProgressDrillSession } from '../types';
 import { getInProgressSession } from '../utils/storage';
 import { 
   Atom, 
@@ -23,6 +23,7 @@ interface DrillListProps {
   drills: Drill[];
   userAttempts: UserAttempt[];
   currentUser: User | null;
+  activeSessions?: Record<string, InProgressDrillSession>;
   onSelectDrill: (drill: Drill) => void;
   onDeleteDrill?: (drillId: string) => void;
   onEditDrill?: (drill: Drill) => void;
@@ -34,6 +35,7 @@ export const DrillList: React.FC<DrillListProps> = ({
   drills,
   userAttempts,
   currentUser,
+  activeSessions,
   onSelectDrill,
   onDeleteDrill,
   onEditDrill,
@@ -261,7 +263,7 @@ export const DrillList: React.FC<DrillListProps> = ({
                       </button>
                     </div>
                   ) : (() => {
-                    const inProg = currentUser ? getInProgressSession(currentUser.username, drill.id) : null;
+                    const inProg = (currentUser && activeSessions?.[drill.id]) || (currentUser ? getInProgressSession(currentUser.username, drill.id) : null);
                     const hasInProgress = Boolean(inProg && Object.keys(inProg.selectedAnswers || {}).length > 0);
                     
                     if (hasInProgress && inProg) {

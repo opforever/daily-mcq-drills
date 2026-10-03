@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Subject, Drill, User, UserAttempt, Announcement, ChatMessage } from './types';
+import { Subject, Drill, User, UserAttempt, Announcement, ChatMessage, InProgressDrillSession } from './types';
 import { 
   getStoredDrills, 
   saveDrill, 
@@ -18,7 +18,9 @@ import {
   getSeenAnnouncementId,
   setSeenAnnouncementId,
   getLastReadDiscussionTimestamp,
-  setLastReadDiscussionTimestamp
+  setLastReadDiscussionTimestamp,
+  saveInProgressSession,
+  clearInProgressSession
 } from './utils/storage';
 import { 
   subscribeToCloudDrills, 
@@ -27,7 +29,11 @@ import {
   subscribeToAnnouncement,
   saveAnnouncementToCloud,
   clearAnnouncementInCloud,
-  subscribeToCloudChatMessages
+  subscribeToCloudChatMessages,
+  subscribeToCloudUserSessions,
+  saveCloudUserReadStatus,
+  subscribeToCloudUserReadStatus,
+  clearCloudInProgressSession
 } from './utils/firebase';
 import { Navbar } from './components/Navbar';
 import { DrillList } from './components/DrillList';
@@ -111,6 +117,9 @@ export default function App() {
     return u ? getLastReadDiscussionTimestamp(u.username) : 0;
   });
 
+  // Multi-Device Cloud Active Sessions (In-Progress MCQ Resume)
+  const [activeSessions, setActiveSessions] = useState<Record<string, InProgressDrillSession>>({});
+
   // Has unread messages if any message from other users has timestamp > user's last read timestamp
   const hasUnreadDiscussion = Boolean(
     currentUser &&
@@ -129,6 +138,7 @@ export default function App() {
         : Date.now();
       setLastReadChatTimestamp(newestTimestamp);
       setLastReadDiscussionTimestamp(currentUser.username, newestTimestamp);
+      saveCloudUserReadStatus(currentUser.username, { lastReadDiscussionTimestamp: newestTimestamp });
     }
   };
 
@@ -225,8 +235,45 @@ export default function App() {
       const newestTimestamp = Math.max(...latestChatMessages.map(m => m.timestamp), Date.now());
       setLastReadChatTimestamp(newestTimestamp);
       setLastReadDiscussionTimestamp(currentUser.username, newestTimestamp);
+      saveCloudUserReadStatus(currentUser.username, { lastReadDiscussionTimestamp: newestTimestamp });
     }
   }, [isChatOpen, latestChatMessages, currentUser]);
+
+  // Live cross-device sync for active sessions and read statuses (Announcements & Discussions)
+  useEffect(() => {
+    if (!currentUser) {
+      setActiveSessions({});
+      return;
+    }
+
+    // 1. Live Firestore Active In-Progress Sessions (Resume MCQ #20) across all devices
+    const unsubSessions = subscribeToCloudUserSessions(currentUser.username, (cloudSessions) => {
+      setActiveSessions(cloudSessions);
+      // Synchronize into local storage cache so DrillViewer and offline work seamlessly
+      drills.forEach(d => {
+        if (cloudSessions[d.id]) {
+          saveInProgressSession(currentUser.username, cloudSessions[d.id]);
+        }
+      });
+    });
+
+    // 2. Live Firestore User Read Status (Announcements seen & Discussions read across devices)
+    const unsubReadStatus = subscribeToCloudUserReadStatus(currentUser.username, (readData) => {
+      if (readData.lastSeenAnnouncementId) {
+        setLastSeenAnnId(readData.lastSeenAnnouncementId);
+        setSeenAnnouncementId(currentUser.username, readData.lastSeenAnnouncementId);
+      }
+      if (readData.lastReadDiscussionTimestamp) {
+        setLastReadChatTimestamp(prev => Math.max(prev, readData.lastReadDiscussionTimestamp!));
+        setLastReadDiscussionTimestamp(currentUser.username, readData.lastReadDiscussionTimestamp);
+      }
+    });
+
+    return () => {
+      unsubSessions();
+      unsubReadStatus();
+    };
+  }, [currentUser?.username, drills]);
 
   const handleUserLogin = (user: User) => {
     setCurrentUserState(user);
@@ -244,6 +291,7 @@ export default function App() {
     if (announcement && currentUser) {
       setSeenAnnouncementId(currentUser.username, announcement.id);
       setLastSeenAnnId(announcement.id);
+      saveCloudUserReadStatus(currentUser.username, { lastSeenAnnouncementId: announcement.id });
     }
   };
 
@@ -329,6 +377,13 @@ export default function App() {
     saveAttempt(attempt);
     if (currentUser) {
       setUserAttempts(getAttemptsForUser(currentUser.username));
+      clearInProgressSession(currentUser.username, attempt.drillId);
+      clearCloudInProgressSession(currentUser.username, attempt.drillId);
+      setActiveSessions(prev => {
+        const next = { ...prev };
+        delete next[attempt.drillId];
+        return next;
+      });
     }
     if (activeDrill) {
       setScorecardData({ drill: activeDrill, attempt });
@@ -432,6 +487,7 @@ export default function App() {
             drills={drills}
             userAttempts={userAttempts}
             currentUser={currentUser}
+            activeSessions={activeSessions}
             onSelectDrill={(drill) => setActiveDrill(drill)}
             onDeleteDrill={handleDeleteDrill}
             onEditDrill={handleEditDrill}
