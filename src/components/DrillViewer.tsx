@@ -79,6 +79,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
   const [isLoadingHint, setIsLoadingHint] = useState<Record<string, boolean>>({});
   const [hintError, setHintError] = useState<Record<string, string>>({});
   const [expandedHints, setExpandedHints] = useState<Record<string, boolean>>({});
+  const hintAbortControllerRef = useRef<AbortController | null>(null);
 
   const handleRequestConceptHint = async (qId: string, depthToFetch?: HintDepth, forceRefresh = false) => {
     const depth = depthToFetch || selectedDepth[qId] || 'brief';
@@ -97,6 +98,13 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
     const questionObj = drill.questions.find(q => q.id === qId);
     if (!questionObj) return;
 
+    // Abort any pending in-flight hint request to avoid concurrency race conditions
+    if (hintAbortControllerRef.current) {
+      hintAbortControllerRef.current.abort();
+    }
+    const controller = new AbortController();
+    hintAbortControllerRef.current = controller;
+
     setExpandedHints(prev => ({ ...prev, [qId]: true }));
     setIsLoadingHint(prev => ({ ...prev, [qId]: true }));
     setHintError(prev => ({ ...prev, [qId]: '' }));
@@ -114,6 +122,7 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
       const response = await fetch('/api/ai/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        signal: controller.signal,
         body: JSON.stringify({
           messages: [
             {
@@ -141,7 +150,8 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
       });
 
       if (!response.ok) {
-        throw new Error('AI hint service temporarily unavailable. Please try again.');
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.error || 'AI hint service temporarily busy. Please tap Try Again.');
       }
 
       const data = await response.json();
@@ -152,9 +162,15 @@ export const DrillViewer: React.FC<DrillViewerProps> = ({
 
       setConceptHints(prev => ({ ...prev, [cacheKey]: hintText }));
     } catch (err: any) {
+      if (err.name === 'AbortError') {
+        // User switched depth, silently ignore abort
+        return;
+      }
       setHintError(prev => ({ ...prev, [qId]: err.message || 'Failed to fetch AI concept hint.' }));
     } finally {
-      setIsLoadingHint(prev => ({ ...prev, [qId]: false }));
+      if (hintAbortControllerRef.current === controller) {
+        setIsLoadingHint(prev => ({ ...prev, [qId]: false }));
+      }
     }
   };
 

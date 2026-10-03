@@ -16,7 +16,26 @@ export default async function handler(req: any, res: any) {
       ? userContext.activeSubject.charAt(0).toUpperCase() + userContext.activeSubject.slice(1)
       : 'General Science';
 
-    const systemPrompt = `You are "KIPS AI Tutor" (KIPS FBISE 1st Year Senior Academic Mentor), an expert, kind, and brilliant teacher specialized in the Federal Board (FBISE) Pakistan Class 11 (HSSC-I / 1st Year Pre-Medical & Pre-Engineering) curriculum.
+    const isHint = Boolean(userContext?.isHintRequest);
+    const depth = userContext?.hintDepth || 'brief';
+
+    // Construct system prompt: Lean & fast for hints to save TPM, rich for full tutor chat
+    let systemPrompt = '';
+    if (isHint) {
+      systemPrompt = `You are an expert FBISE 1st Year Pakistan HSSC-1 Academic Mentor in ${subjectName}.
+The student is actively solving an MCQ during a timed test and asked for a CONCEPT HINT (${depth.toUpperCase()}).
+
+STRICT NON-SPOILER RULES (MANDATORY):
+1. NEVER reveal or hint at the option letter (A, B, C, or D).
+2. NEVER state the final calculated numerical value or directly eliminate choices.
+3. Clearly explain the underlying textbook concept, physical/chemical/biological mechanism, or governing formula in LaTeX ($...$).
+${depth === 'short' 
+  ? 'FORMAT: Exactly 1 to 2 punchy sentences! State just the core formula (e.g. $F = ma$) or key law, with a fast guiding question.' 
+  : depth === 'full' 
+  ? 'FORMAT: Comprehensive breakdown (1. Core Law & Mechanism, 2. Governing Formula with variable definitions, 3. Step-by-step reasoning thought path, 4. Common student trap).' 
+  : 'FORMAT: Exactly 1 concise, structured paragraph (3-4 sentences) with concept, formula, and guiding step.'}`;
+    } else {
+      systemPrompt = `You are "KIPS AI Tutor" (KIPS FBISE 1st Year Senior Academic Mentor), an expert, kind, and brilliant teacher specialized in the Federal Board (FBISE) Pakistan Class 11 (HSSC-I / 1st Year Pre-Medical & Pre-Engineering) curriculum.
 
 Student Profile & Current Context:
 - Student Name: ${userContext?.fullName || userContext?.username || 'Student'}
@@ -27,69 +46,23 @@ Student Profile & Current Context:
 - Academic Year: 2026 Session (HSSC Part 1)
 - Current Subject Focus: ${subjectName}
 ${userContext?.activeDrill ? `- Active Drill in Progress: Day ${userContext.activeDrill.dayNumber} - "${userContext.activeDrill.title}" (Chapter: ${userContext.activeDrill.chapter})` : ''}
-${userContext?.isHintRequest ? `
-*** CRITICAL NON-SPOILER CONCEPT HINT INSTRUCTION ***
-- The student is actively solving an MCQ during a timed test and requested a CONCEPT HINT because they are stuck.
-- ABSOLUTE PROHIBITION: NEVER reveal or state the correct option letter (NEVER say Option A, B, C, or D).
-- ABSOLUTE PROHIBITION: NEVER state the final numerical value or explicitly eliminate choices.
-- YOUR GOAL: Explain the underlying textbook concept, physical/chemical/biological principle, governing formula, or proportional relationship clearly so the student can deduce the correct answer themselves!
-
-REQUESTED HINT DEPTH: ${userContext?.hintDepth === 'short' ? 'SHORT (Quick Nudge)' : userContext?.hintDepth === 'full' ? 'FULL DETAIL (In-Depth Guide)' : 'BRIEF (Standard Concept)'}
-${userContext?.hintDepth === 'short' ? `
-- STRICT FORMAT FOR "SHORT": Keep it to MAXIMUM 1 to 2 punchy sentences! Just give the core formula or key keyword/governing law (e.g. "$F_{\\text{net}} = ma$", or "Recall that volume is inversely proportional to pressure ($P_1 V_1 = P_2 V_2$)") and a fast nudge question. Do NOT write multiple paragraphs.` : ''}
-${userContext?.hintDepth === 'brief' ? `
-- STRICT FORMAT FOR "BRIEF": Exactly 1 concise, structured paragraph (3-4 sentences). State the core textbook concept, the relevant formula in LaTeX, and a single guiding thought step to help them deduce the answer.` : ''}
-${userContext?.hintDepth === 'full' ? `
-- STRICT FORMAT FOR "FULL DETAIL": Provide a comprehensive, multi-step conceptual breakdown.
-  Include:
-  1. 📘 **Core Concept & Law:** FBISE textbook definition and physical mechanism.
-  2. 📐 **Governing Formula & Units:** Explain each variable in LaTeX (e.g. what each term means).
-  3. 🔍 **Step-by-Step Reasoning Guide:** How to think about the problem conceptually (without giving away the option).
-  4. ⚠️ **Common Trap / Pitfall:** What mistakes students usually make on this type of question.` : ''}` : ''}
 
 Pedagogical & Rigorous Formatting Directives:
 1. Tone & Persona:
-   - Speak directly to the student with warmth, encouragement, and academic authority. Address them naturally (e.g. "Hello ${userContext?.fullName?.split(' ')[0] || userContext?.username || 'there'}!").
+   - Speak directly to the student with warmth, encouragement, and academic authority. Address them naturally.
    - Guide them strictly according to the FBISE Federal Board Pakistan 1st Year (HSSC-1) syllabus.
 
 2. MANDATORY Scientific Subscript & Formula Rules (Physics, Chemistry, Biology):
    - ALL equations, molecular formulas, and variables MUST be wrapped in standard LaTeX ($...$ for inline, $$...$$ for display blocks).
-   - CHEMISTRY & BIOLOGY MOLECULAR FORMULAS (Numbers MUST be in subscripts):
-     * Always format element counts as subscripts below the letters:
-       DO: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O} + \\text{Energy (ATP)}$
-       DO: $\\text{H}_2\\text{SO}_4$, $\\text{CaCO}_3$, $\\text{NH}_3$, $\\text{CH}_4$, $\\text{O}_2$, $\\text{N}_2$, $\\text{H}_2\\text{O}$, $\\text{CO}_2$, $\\text{FADH}_2$, $\\text{NADH}$
-       NEVER WRITE: $C6H12O6$, $6O2$, $6CO2$, $6H2O$, or $H2SO4$ with numbers on the same baseline!
-   - PHYSICS & STATE VARIABLES (Labels & Numbers MUST be in subscripts):
-     * Numbered states: $v_1, v_2, m_1, m_2, r_1, r_2, t_1, t_2, F_1, F_2, a_1, a_2$ (NEVER $v1, v2, m1, m2$).
-     * Descriptive object labels: $v_{\\text{bullet}}, m_{\\text{bullet}}, v_{\\text{gun}}, m_{\\text{gun}}, v_{\\text{recoil}}, P_{\\text{initial}}, P_{\\text{final}}$ (NEVER $vbullet, mbullet$).
-     * Equilibrium constants: $K_c, K_p, K_{\\text{sp}}, K_w, K_a, K_b, \\Delta H, \\Delta S$.
-   - SCIENTIFIC UNITS IN LATEX:
-     * Format units using \\text{ ...}: $800\\text{ m/s}$, $0.042\\text{ kg}$, $250\\text{ J}$, $9.8\\text{ m/s}^2$, $1.5\\text{ kg}$.
-   - MULTIPLICATION:
-     * Write \\times with operands: $0.042 \\times 800$, or \\cdot.
+   - CHEMISTRY & BIOLOGY MOLECULAR FORMULAS: Format element counts as subscripts: $\\text{C}_6\\text{H}_{12}\\text{O}_6$, $\\text{H}_2\\text{SO}_4$, $\\text{CO}_2$, $\\text{H}_2\\text{O}$.
+   - PHYSICS & STATE VARIABLES: Subscripts for states ($v_1, v_2$) and labels ($v_{\\text{bullet}}, m_{\\text{bullet}}$).
+   - UNITS: $\\text{ m/s}, \\text{ kg}, \\text{ J}, \\text{ N}$.
 
 3. Markdown Structure & Comparison Tables:
-   - TABLES:
-     When contrasting or comparing items (e.g. Athlete vs Non-Athlete cells, Mitosis vs Meiosis, Elastic vs Inelastic collisions, SN1 vs SN2), ALWAYS use clean Markdown tables:
-     | Feature | Category A | Category B |
-     |:---|:---|:---|
-     | Trait 1 | Detail A | Detail B |
-   - NEVER wrap full sentences containing math formulas in italics. (DO NOT write "*Note: The velocity $v$ is negative*". Instead write "Note: The velocity $v_{\\text{recoil}}$ is negative").
-   - Always balance and close asterisks: every **bold text** MUST have a closing **.
-   - Break multi-step numericals into clean sections:
-     ### Step 1: Identify Given Variables
-     ### Step 2: Apply Governing Law & Formula
-     ### Step 3: Substitute Values & Solve
-     ### Final Answer & Physical Meaning
-   - CALLOUT BLOCKS:
-     For mnemonics, write:
-     💡 **Mnemonic:** <mnemonic text on the same or immediate next line>
-     For FBISE exam traps or tips, write:
-     🚨 **FBISE Exam Insight:** <trap or tip text on the same or immediate next line>
-   - Use numbered lists (1., 2.) or bullet points (* ) with each item on its own distinct line.
-
-4. Conceptual Teaching:
-   - Explain FBISE textbook reasoning, sign conventions (e.g. why recoil velocity carries a minus sign), and unit conversions clearly.`;
+   - Use clean Markdown tables when contrasting items.
+   - Break multi-step numericals into clean sections (Given, Formula, Calculation, Final Answer).
+   - Callout blocks: 💡 **Mnemonic:** ..., 🚨 **FBISE Exam Insight:** ...`;
+    }
 
     const fullMessages = [
       { role: 'system', content: systemPrompt },
@@ -101,39 +74,54 @@ Pedagogical & Rigorous Formatting Directives:
 
     if (!groqApiKey) {
       return res.status(200).json({
-        content: `⚠️ **Groq API Key Not Set on Vercel:** The \`GROQ_API_KEY\` environment variable has not been configured in your Vercel Project Settings yet.\n\n**To fix this on Vercel:**\n1. Go to your project on [vercel.com](https://vercel.com) > **Settings** > **Environment Variables**.\n2. Add Key: \`GROQ_API_KEY\` and Value: \`gsk_...\`.\n3. Redeploy the latest commit.\n\n*Student: ${userContext?.fullName || userContext?.username} (${subjectName} • FBISE 1st Year)*`
+        content: `⚠️ **Groq API Key Not Set on Vercel:** Please configure \`GROQ_API_KEY\` in your environment.`
       });
     }
 
-    // Call Groq API with specified model qwen/qwen3.8-27b
-    const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${groqApiKey}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        model: 'qwen/qwen3.8-27b',
-        messages: fullMessages,
-        temperature: 0.6,
-        max_tokens: 1800
-      })
-    });
+    // Candidate models to try in sequence with automatic fallback on rate-limits (429)
+    const candidateModels = isHint
+      ? ['qwen/qwen3.8-27b', 'llama-3.3-70b-versatile', 'llama-3.1-8b-instant']
+      : ['qwen/qwen3.8-27b', 'llama-3.3-70b-versatile'];
 
-    if (!groqResponse.ok) {
-      const errorText = await groqResponse.text();
-      console.error('Groq API Error on Vercel:', groqResponse.status, errorText);
-      return res.status(groqResponse.status).json({
-        error: `Groq AI Error (${groqResponse.status}): ${errorText}`
-      });
+    let lastError: string = '';
+    for (const model of candidateModels) {
+      try {
+        const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${groqApiKey}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            model,
+            messages: fullMessages,
+            temperature: 0.5,
+            max_tokens: isHint ? (depth === 'short' ? 250 : depth === 'full' ? 800 : 450) : 1800
+          })
+        });
+
+        if (groqResponse.ok) {
+          const data = await groqResponse.json();
+          const reply = data.choices?.[0]?.message?.content || 'No response received from AI model.';
+          return res.status(200).json({
+            content: reply,
+            model
+          });
+        }
+
+        const errorText = await groqResponse.text();
+        console.warn(`Groq model ${model} failed (${groqResponse.status}):`, errorText);
+        lastError = `Groq (${groqResponse.status}): ${errorText}`;
+
+        await new Promise(r => setTimeout(r, 300));
+      } catch (err: any) {
+        console.warn(`Fetch error for ${model}:`, err.message);
+        lastError = err.message;
+      }
     }
 
-    const data = await groqResponse.json();
-    const reply = data.choices?.[0]?.message?.content || 'No response received from AI model.';
-
-    return res.status(200).json({
-      content: reply,
-      model: 'qwen/qwen3.8-27b'
+    return res.status(503).json({
+      error: `AI hint service busy. ${lastError}`
     });
   } catch (err: any) {
     console.error('Vercel Serverless AI Chat Error:', err);

@@ -42,7 +42,24 @@ import { AiTutorModal } from './components/AiTutorModal';
 import { Sparkles } from 'lucide-react';
 
 export default function App() {
-  const [currentSubject, setCurrentSubject] = useState<Subject>('physics');
+  // 1. Persistent Subject Tab (Remembers Chemistry, Physics, Biology on page reload)
+  const [currentSubject, setCurrentSubjectState] = useState<Subject>(() => {
+    try {
+      const saved = localStorage.getItem('kips_current_subject_v3');
+      if (saved === 'physics' || saved === 'chemistry' || saved === 'biology') {
+        return saved;
+      }
+    } catch {}
+    return 'physics';
+  });
+
+  const setCurrentSubject = (subj: Subject) => {
+    setCurrentSubjectState(subj);
+    try {
+      localStorage.setItem('kips_current_subject_v3', subj);
+    } catch {}
+  };
+
   const [drills, setDrills] = useState<Drill[]>([]);
   const [currentUser, setCurrentUserState] = useState<User | null>(null);
   const [userAttempts, setUserAttempts] = useState<UserAttempt[]>([]);
@@ -54,8 +71,23 @@ export default function App() {
     return u ? getSeenAnnouncementId(u.username) : null;
   });
   
-  // Drill taking state
-  const [activeDrill, setActiveDrill] = useState<Drill | null>(null);
+  // 2. Persistent Active Drill State (Restores active drill on reload, cleanly clears on exit)
+  const [activeDrill, setActiveDrillState] = useState<Drill | null>(null);
+
+  const setActiveDrill = (drill: Drill | null) => {
+    setActiveDrillState(drill);
+    try {
+      if (drill) {
+        localStorage.setItem('kips_active_drill_id_v3', drill.id);
+        if (drill.subject) {
+          setCurrentSubject(drill.subject);
+        }
+      } else {
+        localStorage.removeItem('kips_active_drill_id_v3');
+      }
+    } catch {}
+  };
+
   const [scorecardData, setScorecardData] = useState<{ drill: Drill; attempt: UserAttempt } | null>(null);
 
   // Modals
@@ -82,6 +114,20 @@ export default function App() {
     const loadedDrills = getStoredDrills();
     setDrills(loadedDrills);
 
+    // Check if user was in a specific drill before browser refresh
+    try {
+      const savedDrillId = localStorage.getItem('kips_active_drill_id_v3');
+      if (savedDrillId) {
+        const found = loadedDrills.find(d => d.id === savedDrillId);
+        if (found) {
+          setActiveDrillState(found);
+          if (found.subject) {
+            setCurrentSubject(found.subject);
+          }
+        }
+      }
+    } catch {}
+
     const savedUser = getCurrentUser();
     if (savedUser) {
       setCurrentUserState(savedUser);
@@ -95,6 +141,17 @@ export default function App() {
       setIsCloudConnected(true);
       setDrills(cloudDrills);
       syncFromCloudDrills(cloudDrills);
+
+      // Keep active drill up-to-date with live cloud edits
+      try {
+        const savedDrillId = localStorage.getItem('kips_active_drill_id_v3');
+        if (savedDrillId) {
+          const found = cloudDrills.find(d => d.id === savedDrillId);
+          if (found) {
+            setActiveDrillState(found);
+          }
+        }
+      } catch {}
     });
 
     // 2. Live Firestore Attempts & Leaderboard listener
