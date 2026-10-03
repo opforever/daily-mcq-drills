@@ -1,28 +1,17 @@
-import 'dotenv/config';
-import express from 'express';
-import path from 'path';
-import { fileURLToPath } from 'url';
+export default async function handler(req: any, res: any) {
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method Not Allowed' });
+  }
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const app = express();
-const PORT = Number(process.env.PORT) || 3000;
-
-app.use(express.json());
-
-// Secure Server-Side Groq AI Assistant Proxy Route
-app.post('/api/ai/chat', async (req, res) => {
   try {
-    const { messages, userContext } = req.body;
-    
+    const { messages, userContext } = req.body || {};
+
     if (!messages || !Array.isArray(messages)) {
       return res.status(400).json({ error: 'Messages array is required.' });
     }
 
     const groqApiKey = process.env.GROQ_API_KEY || process.env.GROQ_KEY;
-    
-    // Construct rich system prompt with FBISE curriculum, KIPS context, and student info
+
     const subjectName = userContext?.activeSubject 
       ? userContext.activeSubject.charAt(0).toUpperCase() + userContext.activeSubject.slice(1)
       : 'General Science';
@@ -59,7 +48,7 @@ Pedagogical Directives:
 
     if (!groqApiKey) {
       return res.status(200).json({
-        content: `⚠️ **Groq API Key Not Set:** The \`GROQ_API_KEY\` secret is not yet configured in your environment.\n\nTo enable lightning-fast AI tutoring via **\`qwen/qwen3.8-27b\`**, please add \`GROQ_API_KEY\` in your environment variables / secrets.\n\n*Student: ${userContext?.fullName || userContext?.username} (${subjectName} • FBISE 1st Year)*`
+        content: `⚠️ **Groq API Key Not Set on Vercel:** The \`GROQ_API_KEY\` environment variable has not been configured in your Vercel Project Settings yet.\n\n**To fix this on Vercel:**\n1. Go to your project on [vercel.com](https://vercel.com) > **Settings** > **Environment Variables**.\n2. Add Key: \`GROQ_API_KEY\` and Value: \`gsk_...\`.\n3. Redeploy the latest commit.\n\n*Student: ${userContext?.fullName || userContext?.username} (${subjectName} • FBISE 1st Year)*`
       });
     }
 
@@ -80,7 +69,7 @@ Pedagogical Directives:
 
     if (!groqResponse.ok) {
       const errorText = await groqResponse.text();
-      console.error('Groq API Error:', groqResponse.status, errorText);
+      console.error('Groq API Error on Vercel:', groqResponse.status, errorText);
       return res.status(groqResponse.status).json({
         error: `Groq AI Error (${groqResponse.status}): ${errorText}`
       });
@@ -94,41 +83,9 @@ Pedagogical Directives:
       model: 'qwen/qwen3.8-27b'
     });
   } catch (err: any) {
-    console.error('Server AI Chat Error:', err);
+    console.error('Vercel Serverless AI Chat Error:', err);
     return res.status(500).json({
       error: err.message || 'Internal server error processing AI response.'
     });
   }
-});
-
-// Check AI status endpoint
-app.get('/api/ai/status', (_req, res) => {
-  const hasGroq = Boolean(process.env.GROQ_API_KEY || process.env.GROQ_KEY);
-  res.json({
-    configured: hasGroq,
-    model: 'qwen/qwen3.8-27b',
-    provider: 'Groq Cloud'
-  });
-});
-
-async function startServer() {
-  if (process.env.NODE_ENV !== 'production') {
-    const { createServer: createViteServer } = await import('vite');
-    const vite = await createViteServer({
-      server: { middlewareMode: true },
-      appType: 'spa'
-    });
-    app.use(vite.middlewares);
-  } else {
-    app.use(express.static(path.resolve(__dirname, 'dist')));
-    app.get('*', (_req, res) => {
-      res.sendFile(path.resolve(__dirname, 'dist', 'index.html'));
-    });
-  }
-
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`KIPS FBISE Server listening on port ${PORT}`);
-  });
 }
-
-startServer();

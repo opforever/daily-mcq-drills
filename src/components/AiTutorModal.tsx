@@ -16,7 +16,9 @@ import {
   Minimize2,
   Atom,
   FlaskConical,
-  Dna
+  Dna,
+  Key,
+  Info
 } from 'lucide-react';
 
 export interface AiChatMessage {
@@ -35,52 +37,88 @@ interface AiTutorModalProps {
 
 export const AiTutorModal: React.FC<AiTutorModalProps> = ({
   currentUser,
-  activeSubject,
+  activeSubject: initialSubject,
   activeDrill,
   onClose
 }) => {
-  const sessionKey = `kips_ai_temp_chat_${currentUser.username.toLowerCase()}`;
-  
-  // Load session messages from sessionStorage (temporary, resets on browser refresh/close)
-  const [messages, setMessages] = useState<AiChatMessage[]>(() => {
-    try {
-      const stored = sessionStorage.getItem(sessionKey);
-      if (stored) return JSON.parse(stored);
-    } catch {}
-    
-    // Initial welcome message tailored to current student
-    const firstName = currentUser.fullName?.split(' ')[0] || currentUser.username;
-    const subjectTitle = activeSubject.charAt(0).toUpperCase() + activeSubject.slice(1);
-    
-    return [
-      {
-        id: 'welcome_1',
-        role: 'assistant',
-        content: `👋 **Assalam-o-Alaikum, ${firstName}!**\n\nI am your **KIPS FBISE 1st Year AI Tutor** (powered by Qwen 27B). I specialize in **${subjectTitle}**, Federal Board syllabus, textbook derivations, numericals, and MCQ tips.\n\n${
-          activeDrill 
-            ? `I see you are currently practicing **${activeDrill.title}** (${activeDrill.chapter}). Feel free to ask me to explain any concept or tricky formula!` 
-            : `Ask me anything from **Class 11 ${subjectTitle}** or click a quick prompt below to begin.`
-        }`,
-        timestamp: Date.now()
-      }
-    ];
-  });
-
+  // Current active subject in the AI Tutor (can switch between Physics, Chemistry, Biology)
+  const [selectedSubject, setSelectedSubject] = useState<Subject>(initialSubject);
+  const [showKeyHelp, setShowKeyHelp] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
   const [inputMessage, setInputMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [isExpanded, setIsExpanded] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  // Sync to sessionStorage
+  const getSessionKey = (subj: Subject) => {
+    return `kips_ai_temp_chat_${currentUser.username.toLowerCase()}_${subj}`;
+  };
+
+  const getInitialWelcomeMessage = (subj: Subject): AiChatMessage => {
+    const firstName = currentUser.fullName?.split(' ')[0] || currentUser.username;
+    const subjectName = subj.charAt(0).toUpperCase() + subj.slice(1);
+    
+    let subjectDetail = '';
+    if (subj === 'physics') {
+      subjectDetail = 'Vectors, Circular Motion, Work-Energy Theorem, Fluid Dynamics & Oscillations.';
+    } else if (subj === 'chemistry') {
+      subjectDetail = 'Chemical Equilibrium ($K_c$, $K_p$), Gas Laws ($PV=nRT$), Atomic Structure, Thermochemistry & Reaction Kinetics.';
+    } else {
+      subjectDetail = 'Cell Structure, Biological Molecules, Enzymes, Bioenergetics (Glycolysis, Krebs) & Kingdom Animalia.';
+    }
+
+    return {
+      id: `welcome_${subj}_1`,
+      role: 'assistant',
+      content: `👋 **Assalam-o-Alaikum, ${firstName}!**\n\nI am your dedicated **${subjectName} AI Tutor** (powered by Qwen 27B) for FBISE 1st Year.\n\n📚 **Topic Focus:** ${subjectDetail}\n\n${
+        activeDrill && activeDrill.subject === subj
+          ? `I see you are currently practicing **${activeDrill.title}** (${activeDrill.chapter}). Ask me for formula derivations or conceptual reasoning anytime!`
+          : `Ask me any conceptual doubt, textbook numerical, or MCQ pitfall to get started.`
+      }`,
+      timestamp: Date.now()
+    };
+  };
+
+  // State to hold messages per subject
+  const [subjectMessages, setSubjectMessages] = useState<Record<Subject, AiChatMessage[]>>(() => {
+    const loaded: Record<Subject, AiChatMessage[]> = {
+      physics: [],
+      chemistry: [],
+      biology: []
+    };
+
+    const subjects: Subject[] = ['physics', 'chemistry', 'biology'];
+    subjects.forEach((s) => {
+      try {
+        const stored = sessionStorage.getItem(getSessionKey(s));
+        if (stored) {
+          loaded[s] = JSON.parse(stored);
+        } else {
+          loaded[s] = [getInitialWelcomeMessage(s)];
+        }
+      } catch {
+        loaded[s] = [getInitialWelcomeMessage(s)];
+      }
+    });
+
+    return loaded;
+  });
+
+  // Current messages for active selected subject
+  const currentMessages = subjectMessages[selectedSubject] || [];
+
+  // Sync to sessionStorage on changes
   useEffect(() => {
     try {
-      sessionStorage.setItem(sessionKey, JSON.stringify(messages));
+      const key = getSessionKey(selectedSubject);
+      sessionStorage.setItem(key, JSON.stringify(subjectMessages[selectedSubject]));
     } catch {}
-  }, [messages, sessionKey]);
+  }, [subjectMessages, selectedSubject]);
 
+  // Auto-scroll to bottom smoothly when new message arrives or loading state changes
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, isLoading]);
+  }, [currentMessages.length, isLoading]);
 
   const handleSendMessage = async (customPrompt?: string) => {
     const textToSend = customPrompt || inputMessage;
@@ -93,8 +131,13 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
       timestamp: Date.now()
     };
 
-    const newMessages = [...messages, userMsg];
-    setMessages(newMessages);
+    const updatedCurrentList = [...currentMessages, userMsg];
+    
+    setSubjectMessages(prev => ({
+      ...prev,
+      [selectedSubject]: updatedCurrentList
+    }));
+
     if (!customPrompt) setInputMessage('');
     setIsLoading(true);
 
@@ -103,14 +146,14 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          messages: newMessages.filter(m => m.id !== 'welcome_1'),
+          messages: updatedCurrentList.filter(m => !m.id.startsWith('welcome_')),
           userContext: {
             username: currentUser.username,
             fullName: currentUser.fullName,
             role: currentUser.role,
             college: currentUser.college,
-            activeSubject,
-            activeDrill: activeDrill ? {
+            activeSubject: selectedSubject,
+            activeDrill: activeDrill && activeDrill.subject === selectedSubject ? {
               dayNumber: activeDrill.dayNumber,
               title: activeDrill.title,
               chapter: activeDrill.chapter
@@ -131,35 +174,36 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
         timestamp: Date.now()
       };
 
-      setMessages(prev => [...prev, assistantMsg]);
+      setSubjectMessages(prev => ({
+        ...prev,
+        [selectedSubject]: [...prev[selectedSubject], assistantMsg]
+      }));
     } catch (err: any) {
       console.error('Chat error:', err);
       const errorMsg: AiChatMessage = {
         id: `msg_err_${Date.now()}`,
         role: 'assistant',
-        content: `⚠️ **Connection Error:** Could not contact the AI Tutor service. Please ensure your internet connection is active and \`GROQ_API_KEY\` is configured in server environment.`,
+        content: `⚠️ **Connection Error:** Could not contact the AI Tutor service. Please ensure your internet connection is active and \`GROQ_API_KEY\` is configured.`,
         timestamp: Date.now()
       };
-      setMessages(prev => [...prev, errorMsg]);
+      setSubjectMessages(prev => ({
+        ...prev,
+        [selectedSubject]: [...prev[selectedSubject], errorMsg]
+      }));
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleClearChat = () => {
-    if (confirm('Clear current temporary chat conversation?')) {
-      const firstName = currentUser.fullName?.split(' ')[0] || currentUser.username;
-      const subjectTitle = activeSubject.charAt(0).toUpperCase() + activeSubject.slice(1);
-      const resetMessages: AiChatMessage[] = [
-        {
-          id: `welcome_${Date.now()}`,
-          role: 'assistant',
-          content: `Chat session reset. What topic in **FBISE 1st Year ${subjectTitle}** shall we master next, **${firstName}**?`,
-          timestamp: Date.now()
-        }
-      ];
-      setMessages(resetMessages);
-      sessionStorage.removeItem(sessionKey);
+  const handleClearCurrentChat = () => {
+    const subjectName = selectedSubject.charAt(0).toUpperCase() + selectedSubject.slice(1);
+    if (confirm(`Clear temporary chat session for ${subjectName}?`)) {
+      const resetList = [getInitialWelcomeMessage(selectedSubject)];
+      setSubjectMessages(prev => ({
+        ...prev,
+        [selectedSubject]: resetList
+      }));
+      sessionStorage.removeItem(getSessionKey(selectedSubject));
     }
   };
 
@@ -168,73 +212,77 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
     physics: [
       'Explain centripetal vs tangential acceleration',
       'Derive Work-Energy Theorem for FBISE',
-      'Mnemonic for right-hand vector cross product',
-      'How to solve numericals on projectile motion?'
+      'Mnemonic for right-hand cross product',
+      'How to solve projectile numericals easily?'
     ],
     chemistry: [
       'Explain Le Chatelier’s Principle with examples',
-      'Differences between Real and Ideal gases ($PV=nRT$)',
+      'Difference between Real vs Ideal gases ($PV=nRT$)',
       'How to balance redox reactions by ion-electron method?',
-      'Explain Bohr’s Atomic Model radius derivation'
+      'Bohr’s Atomic Model radius derivation steps'
     ],
     biology: [
-      'Explain Fluid Mosaic Model with key diagrams points',
-      'Steps of Glycolysis and ATP net yield',
-      'Differences between Lytic vs Lysogenic cycle',
-      'Explain competitive vs non-competitive enzyme inhibition'
+      'Explain Fluid Mosaic Model with key points',
+      'Steps of Glycolysis and ATP net calculation',
+      'Difference between Lytic vs Lysogenic cycle',
+      'Competitive vs Non-competitive enzyme inhibition'
     ]
   };
 
-  const suggestions = subjectSuggestions[activeSubject] || subjectSuggestions.physics;
+  const suggestions = subjectSuggestions[selectedSubject] || subjectSuggestions.physics;
 
-  const subjectIcon = activeSubject === 'physics' 
-    ? Atom 
-    : activeSubject === 'chemistry' 
-    ? FlaskConical 
-    : Dna;
-
-  const SubjectIconComp = subjectIcon;
+  const subjectsConfig = [
+    { id: 'physics' as Subject, name: 'Physics', icon: Atom, color: 'text-cyan-400', activeBg: 'bg-cyan-950/80 border-cyan-500/50 text-cyan-300' },
+    { id: 'chemistry' as Subject, name: 'Chemistry', icon: FlaskConical, color: 'text-emerald-400', activeBg: 'bg-emerald-950/80 border-emerald-500/50 text-emerald-300' },
+    { id: 'biology' as Subject, name: 'Biology', icon: Dna, color: 'text-rose-400', activeBg: 'bg-rose-950/80 border-rose-500/50 text-rose-300' },
+  ];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-end sm:justify-center bg-black/75 p-0 sm:p-4 backdrop-blur-sm animate-fadeIn">
-      {/* Main Chat Container */}
+    <div className="fixed inset-0 z-50 flex flex-col justify-end sm:justify-center items-center bg-black/80 sm:p-4 backdrop-blur-sm animate-fadeIn overflow-hidden">
+      {/* Main Responsive Chat Modal Container */}
       <div 
-        className={`flex flex-col rounded-t-3xl sm:rounded-2xl border border-cyan-500/30 bg-slate-900 shadow-2xl transition-all duration-200 overflow-hidden w-full ${
+        className={`flex flex-col w-full bg-slate-900 border-t sm:border border-cyan-500/30 rounded-t-2xl sm:rounded-2xl shadow-2xl transition-all duration-200 overflow-hidden ${
           isExpanded 
-            ? 'h-[95vh] sm:h-[90vh] sm:max-w-4xl' 
-            : 'h-[85vh] sm:h-[650px] sm:max-w-2xl'
+            ? 'h-[100dvh] sm:h-[90vh] sm:max-w-4xl' 
+            : 'h-[100dvh] sm:h-[650px] max-h-[100dvh] sm:max-h-[85vh] sm:max-w-2xl'
         }`}
       >
-        {/* Header */}
-        <div className="flex items-center justify-between border-b border-slate-800 bg-slate-950/80 px-4 py-3 sm:px-5">
+        {/* Top Header */}
+        <div className="shrink-0 flex items-center justify-between border-b border-slate-800 bg-slate-950/90 px-3.5 py-2.5 sm:px-5 sm:py-3">
           <div className="flex items-center gap-2.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-cyan-600 to-blue-600 shadow-md shadow-cyan-500/20 text-white ring-1 ring-cyan-400/30">
-              <Sparkles className="h-4.5 w-4.5 text-cyan-200 animate-pulse" />
+            <div className="flex h-8 w-8 sm:h-9 sm:w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-cyan-600 to-blue-600 shadow-md shadow-cyan-500/20 text-white ring-1 ring-cyan-400/30">
+              <Sparkles className="h-4 w-4 sm:h-4.5 sm:w-4.5 text-cyan-200 animate-pulse" />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5">
+                <h3 className="text-xs sm:text-sm font-bold text-white flex items-center gap-1.5">
                   <span>KIPS AI Tutor</span>
-                  <span className="rounded bg-cyan-950/80 px-1.5 py-0.5 text-[10px] font-bold text-cyan-300 border border-cyan-500/30">
+                  <span className="rounded bg-cyan-950/90 px-1.5 py-0.5 text-[9px] sm:text-[10px] font-bold text-cyan-300 border border-cyan-500/30">
                     Qwen 27B
                   </span>
                 </h3>
               </div>
-              <div className="flex items-center gap-1.5 text-[11px] text-slate-400">
-                <SubjectIconComp className="h-3 w-3 text-cyan-400" />
-                <span className="capitalize">{activeSubject}</span>
-                <span>•</span>
+              <div className="flex items-center gap-1.5 text-[10px] sm:text-[11px] text-slate-400">
                 <span>FBISE 1st Year</span>
                 <span>•</span>
-                <span className="text-emerald-400">Temporary Session</span>
+                <span className="text-emerald-400">Separate Subject Sessions</span>
               </div>
             </div>
           </div>
 
           <div className="flex items-center gap-1">
+            {/* Key Help Button */}
             <button
-              onClick={handleClearChat}
-              title="Clear temporary chat session"
+              onClick={() => setShowKeyHelp(!showKeyHelp)}
+              title="Groq API Key Setup Info"
+              className="flex items-center gap-1 rounded-lg border border-amber-500/30 bg-amber-950/40 px-2 py-1 text-[11px] font-semibold text-amber-300 hover:border-amber-400 hover:bg-amber-900/60 transition"
+            >
+              <Key className="h-3 w-3" />
+              <span className="hidden xs:inline">API Key</span>
+            </button>
+            <button
+              onClick={handleClearCurrentChat}
+              title={`Clear ${selectedSubject} temporary chat`}
               className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-rose-400 transition"
             >
               <Trash2 className="h-4 w-4" />
@@ -249,26 +297,85 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
             <button
               onClick={onClose}
               title="Close chat"
-              className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white transition"
+              className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white transition cursor-pointer"
             >
               <X className="h-5 w-5" />
             </button>
           </div>
         </div>
 
-        {/* Active Context Bar */}
-        {activeDrill && (
-          <div className="flex items-center gap-2 border-b border-cyan-900/30 bg-cyan-950/30 px-4 py-1.5 text-xs text-cyan-300">
+        {/* API Key Instructions Drawer / Alert if toggled */}
+        {showKeyHelp && (
+          <div className="shrink-0 border-b border-amber-500/30 bg-amber-950/90 p-3 text-xs text-amber-100 animate-fadeIn">
+            <div className="flex items-start justify-between gap-2">
+              <div className="flex items-start gap-2">
+                <Info className="h-4 w-4 text-amber-300 mt-0.5 shrink-0" />
+                <div className="space-y-1">
+                  <div className="font-bold text-amber-200">How to configure your Groq API Key:</div>
+                  <ol className="list-decimal list-inside space-y-0.5 text-[11px] text-amber-200/90 leading-normal">
+                    <li>Get your free key from <a href="https://console.groq.com/keys" target="_blank" rel="noreferrer" className="underline font-bold text-white">console.groq.com</a>.</li>
+                    <li>In AI Studio: Open the <strong>Secrets panel</strong> & add <code className="bg-black/40 px-1 py-0.5 rounded text-amber-300 font-mono">GROQ_API_KEY</code> with your <code className="bg-black/40 px-1 py-0.5 rounded text-amber-300 font-mono">gsk_...</code> key.</li>
+                    <li>If running locally: Add <code className="bg-black/40 px-1 py-0.5 rounded text-amber-300 font-mono">GROQ_API_KEY="gsk_..."</code> in your <code className="bg-black/40 px-1 py-0.5 rounded text-amber-300 font-mono">.env</code> file.</li>
+                  </ol>
+                </div>
+              </div>
+              <button 
+                onClick={() => setShowKeyHelp(false)}
+                className="text-amber-400 hover:text-white p-1"
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* Dedicated Subject Selector Tabs: Completely Isolates Chats */}
+        <div className="shrink-0 flex items-center justify-between border-b border-slate-800 bg-slate-950/60 px-3 py-1.5">
+          <div className="flex items-center gap-1.5">
+            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 mr-1">Subject:</span>
+            {subjectsConfig.map(sub => {
+              const IconComp = sub.icon;
+              const isSelected = selectedSubject === sub.id;
+              const msgCount = subjectMessages[sub.id]?.filter(m => !m.id.startsWith('welcome_')).length || 0;
+              return (
+                <button
+                  key={sub.id}
+                  onClick={() => setSelectedSubject(sub.id)}
+                  className={`flex items-center gap-1.5 rounded-lg border px-2.5 py-1 text-xs font-semibold transition cursor-pointer ${
+                    isSelected 
+                      ? sub.activeBg 
+                      : 'border-slate-800 bg-slate-900/60 text-slate-400 hover:bg-slate-800 hover:text-slate-200'
+                  }`}
+                >
+                  <IconComp className={`h-3.5 w-3.5 ${sub.color}`} />
+                  <span>{sub.name}</span>
+                  {msgCount > 0 && (
+                    <span className="rounded-full bg-slate-800 px-1.5 py-0.2 text-[9px] text-slate-300">
+                      {msgCount}
+                    </span>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Active Context Banner */}
+        {activeDrill && activeDrill.subject === selectedSubject && (
+          <div className="shrink-0 flex items-center gap-2 border-b border-cyan-900/30 bg-cyan-950/30 px-3.5 py-1.5 text-xs text-cyan-300">
             <BookOpen className="h-3.5 w-3.5 shrink-0 text-cyan-400" />
-            <span className="truncate">
-              <strong>Active Context:</strong> Day {activeDrill.dayNumber} — {activeDrill.title} ({activeDrill.chapter})
+            <span className="truncate text-[11px]">
+              <strong>Active Quiz:</strong> Day {activeDrill.dayNumber} — {activeDrill.title} ({activeDrill.chapter})
             </span>
           </div>
         )}
 
-        {/* Message Thread */}
-        <div className="flex-1 overflow-y-auto p-3 sm:p-4 space-y-3.5 text-xs sm:text-sm">
-          {messages.map((msg) => {
+        {/* Message Thread Container - Uses flex-1 min-h-0 with overscroll-contain so mobile keyboard doesn't push initial message out */}
+        <div 
+          ref={scrollContainerRef}
+          className="flex-1 min-h-0 overflow-y-auto overscroll-contain p-3 sm:p-4 space-y-3.5 text-xs sm:text-sm"
+        >
+          {currentMessages.map((msg) => {
             const isUser = msg.role === 'user';
             return (
               <div 
@@ -281,10 +388,10 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
                   </div>
                 )}
                 <div 
-                  className={`relative max-w-[85%] sm:max-w-[78%] rounded-2xl px-3.5 py-2.5 shadow-sm leading-relaxed ${
+                  className={`relative max-w-[88%] sm:max-w-[80%] rounded-2xl px-3.5 py-2.5 shadow-sm leading-relaxed ${
                     isUser 
                       ? 'bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-br-none' 
-                      : 'border border-slate-800 bg-slate-950/80 text-slate-200 rounded-tl-none'
+                      : 'border border-slate-800 bg-slate-950/90 text-slate-200 rounded-tl-none'
                   }`}
                 >
                   <div className="prose prose-invert max-w-none text-xs sm:text-sm space-y-1">
@@ -308,9 +415,9 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
               <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-cyan-700 text-white shadow ring-1 ring-white/10">
                 <Bot className="h-4 w-4" />
               </div>
-              <div className="rounded-2xl border border-slate-800 bg-slate-950/80 px-4 py-3 text-xs text-slate-400 flex items-center gap-2">
+              <div className="rounded-2xl border border-slate-800 bg-slate-950/90 px-4 py-3 text-xs text-slate-400 flex items-center gap-2">
                 <RefreshCw className="h-3.5 w-3.5 animate-spin text-cyan-400" />
-                <span>KIPS AI Tutor is reasoning with Qwen 27B...</span>
+                <span>KIPS AI Tutor ({selectedSubject}) is reasoning with Qwen 27B...</span>
               </div>
             </div>
           )}
@@ -318,7 +425,7 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
         </div>
 
         {/* Quick Topic Suggestions */}
-        <div className="border-t border-slate-800/80 bg-slate-950/60 px-3 py-2">
+        <div className="shrink-0 border-t border-slate-800/80 bg-slate-950/60 px-3 py-1.5">
           <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
             <span className="text-[10px] uppercase font-bold tracking-wider text-slate-500 flex items-center gap-1 shrink-0 mr-1">
               <Lightbulb className="h-3 w-3 text-amber-400" />
@@ -337,27 +444,33 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
           </div>
         </div>
 
-        {/* Input Area */}
+        {/* Input Form Area */}
         <form 
           onSubmit={(e) => {
             e.preventDefault();
             handleSendMessage();
           }} 
-          className="border-t border-slate-800 bg-slate-950 p-3 sm:p-4"
+          className="shrink-0 border-t border-slate-800 bg-slate-950 p-2.5 sm:p-3.5"
         >
           <div className="flex items-center gap-2">
             <input
               type="text"
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
-              placeholder={`Ask a question in ${activeSubject} (e.g. "Derive Bernoulli's equation")...`}
+              onFocus={() => {
+                // Smooth scroll down slightly without jumping initial top content
+                setTimeout(() => {
+                  messagesEndRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 250);
+              }}
+              placeholder={`Ask a question in ${selectedSubject}...`}
               disabled={isLoading}
-              className="flex-1 rounded-xl border border-slate-800 bg-slate-900 px-3.5 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 focus:border-cyan-500 focus:outline-none transition disabled:opacity-50"
+              className="flex-1 rounded-xl border border-slate-800 bg-slate-900 px-3.5 py-2 sm:py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 focus:border-cyan-500 focus:outline-none transition disabled:opacity-50"
             />
             <button
               type="submit"
               disabled={!inputMessage.trim() || isLoading}
-              className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 text-white shadow-lg shadow-cyan-500/20 transition ${
+              className={`flex h-9 w-9 sm:h-10 sm:w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 text-white shadow-lg shadow-cyan-500/20 transition ${
                 !inputMessage.trim() || isLoading 
                   ? 'opacity-40 cursor-not-allowed' 
                   : 'hover:from-blue-500 hover:to-cyan-500 cursor-pointer'
@@ -366,9 +479,9 @@ export const AiTutorModal: React.FC<AiTutorModalProps> = ({
               <Send className="h-4 w-4" />
             </button>
           </div>
-          <div className="mt-2 flex items-center justify-between text-[10px] text-slate-500 px-1">
-            <span>Session is temporary & private to @{currentUser.username}. Clears on refresh.</span>
-            <span>LaTeX Math & Diagrams supported</span>
+          <div className="mt-1.5 flex items-center justify-between text-[9px] sm:text-[10px] text-slate-500 px-1">
+            <span>Separate {selectedSubject} session • Clears on refresh</span>
+            <span>KaTeX Math & Formulas supported</span>
           </div>
         </form>
       </div>
