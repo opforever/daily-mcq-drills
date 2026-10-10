@@ -1,0 +1,3421 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,correctKey,correctKeyVerified,examBoard,explanation,keyPoints,lastAttempt,locked,marks,modelAnswer,options,partType,questionKind,questionNumber,session,stem,topicId,year,exerciseId,exerciseTitle,origin,sourceRef
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m176s82dss2dtyw0zt1k6eahyx85p49f","D","true","Federal Board","The centroid of a triangle with vertices $A(x_1, y_1)$, $B(x_2, y_2)$, and $C(x_3, y_3)$ is given by $G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$. For the given triangle with $A(5,-5)$, $B(-2,0)$, and $C(0,2)$, the centroid is $G = \left(\frac{5 + (-2) + 0}{3}, \frac{-5 + 0 + 2}{3}\right) = \left(1, -1\right)$.","[""Correctly identified the centroid formula as the average of the three vertices' coordinates"",""Accurately substituted the x-coordinates: $(5 + (-2) + 0)/3 = 3/3 = 1$"",""Accurately substituted the y-coordinates: $(-5 + 0 + 2)/3 = -3/3 = -1$"",""Final answer expressed as ordered pair $(1, -1)$""]",,"false","1","The centroid of a triangle with vertices $A(x_1, y_1)$, $B(x_2, y_2)$, and $C(x_3, y_3)$ is given by $G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$. For the given triangle with $A(5,-5)$, $B(-2,0)$, and $C(0,2)$, the centroid is $G = \left(\frac{5 + (-2) + 0}{3}, \frac{-5 + 0 + 2}{3}\right) = \left(1, -1\right)$.","[{""key"":""A"",""text"":""$(1,1)$""},{""key"":""B"",""text"":""$(-1,-1)$""},{""key"":""C"",""text"":""$(-1,1)$""},{""key"":""D"",""text"":""$(1,-1)$""}]","MCQ","mcq","10","annual","If $A(5,-5), B(-2,0)$ and $C(0,2)$ are vertices of a triangle then its centroid is:","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2025",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17b58j5x6qb242n6wq2gq0qen85pn3k",,"true","Federal Board",,"[""Find intersection point by solving the two given equations simultaneously to get $(2,1)$"",""Extract slope from the parallel line $x-3y=2$ by converting to slope-intercept form: $m=\\frac{1}{3}$"",""Apply point-slope form using point $(2,1)$ and slope $m=\\frac{1}{3}$"",""Simplify to slope-intercept form: $y=\\frac{1}{3}x+\\frac{1}{3}$""]",,"false","4","To find the equation of the required line, we first find the point of intersection of the given lines. Solving $x+y=3$ and $x-y=1$ simultaneously: adding gives $2x=4$, so $x=2$; substituting gives $y=1$. The point of intersection is $(2,1)$. Since the required line is parallel to $x-3y=2$, it has the same slope. Rewriting $x-3y=2$ in slope-intercept form: $y=\frac{1}{3}x-\frac{2}{3}$, so the slope is $m=\frac{1}{3}$. Using point-slope form with point $(2,1)$ and slope $\frac{1}{3}$: $y-1=\frac{1}{3}(x-2)$, which simplifies to $y=\frac{1}{3}x+\frac{1}{3}$.",,"B","short","8","annual","Find the equation of line passing through the point of intersection of lines $x+y=3$ and $x-y=1$ and parallel to line $x-3y=2$ and write it in slope intercept form.","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2025",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17bf4kj1835g3ssb5s18vd4hd85pzvw",,"true","Federal Board","The line passes through points $(2, 0)$ and $(0, -4)$. Using the intercept form of a line: $\frac{x}{a} + \frac{y}{b} = 1$, where $a = 2$ (x-intercept) and $b = -4$ (y-intercept). Therefore, the equation is $\frac{x}{2} + \frac{y}{-4} = 1$, which simplifies to $2x - y - 4 = 0$ or $y = 2x - 4$.","[""Correctly identifies x-intercept as 2 and y-intercept as -4"",""Applies intercept form of line equation: $\\frac{x}{a} + \\frac{y}{b} = 1$"",""Simplifies to standard form $2x - y - 4 = 0$ or slope-intercept form $y = 2x - 4$""]",,"false","1","The line passes through points $(2, 0)$ and $(0, -4)$. Using the intercept form of a line: $\frac{x}{a} + \frac{y}{b} = 1$, where $a = 2$ (x-intercept) and $b = -4$ (y-intercept). Therefore, the equation is $\frac{x}{2} + \frac{y}{-4} = 1$, which simplifies to $2x - y - 4 = 0$ or $y = 2x - 4$.","[{""key"":""A"",""text"":""$2x - y - 4 = 0$""},{""key"":""B"",""text"":""$2x - y + 4 = 0$""},{""key"":""C"",""text"":""$x + 2y - 4 = 0$""},{""key"":""D"",""text"":""$x - 2y + 4 = 0$""}]","MCQ","unclassified","11","annual","A line cuts the $x$-axis at $(2,0)$ and $y$-axis at $(0,-4)$, then equation of the line is:","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m172kh8j7ev8nemw45dfcmm7eh85pa09",,"true","Federal Board",,"[""Correctly identifies the ratio as 2:3 using the section formula"",""Accurately substitutes coordinates of points $A(-3,5)$ and $B(5,3)$ into the formula"",""Performs correct arithmetic to obtain $x$-coordinate: $\\frac{1}{5}$"",""Performs correct arithmetic to obtain $y$-coordinate: $\\frac{21}{5}$"",""States final answer in simplified form""]",,"false","4","To find the point two-fifths of the way from $A(-3,5)$ to $B(5,3)$, we use the section formula. The point $P$ that divides the line segment $AB$ in the ratio $2:3$ (since $\frac{2}{5}$ means 2 parts out of 5 total) is given by:
+
+$$P = \left(\frac{2 \cdot x_B + 3 \cdot x_A}{2+3}, \frac{2 \cdot y_B + 3 \cdot y_A}{2+3}\right)$$
+
+Substituting $A(-3,5)$ and $B(5,3)$:
+
+$$P = \left(\frac{2(5) + 3(-3)}{5}, \frac{2(3) + 3(5)}{5}\right) = \left(\frac{10-9}{5}, \frac{6+15}{5}\right) = \left(\frac{1}{5}, \frac{21}{5}\right)$$
+
+Therefore, the point two-fifths of the way from $A$ to $B$ is $\left(\frac{1}{5}, \frac{21}{5}\right)$ or $(0.2, 4.2)$.",,"B","short","9","annual","Find the point two-fifth of the way along the line segment $A(-3,5)$ to $B(5,3)$.","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17dz1haqbdxecnzeg9h3745xn85pawf",,,"Federal Board",,"[""Forms determinant of vectors as rows for coplanarity condition"",""Correctly expands determinant using cofactor method"",""Simplifies to quadratic equation in $\\alpha$"",""Factors or uses quadratic formula to find both values"",""Identifies $\\alpha = 2$ and $\\alpha = -1$ as solutions""]",,"false","4","Three vectors are coplanar if their scalar triple product equals zero. We form a matrix with the given vectors as rows and calculate its determinant:
+
+$$\begin{vmatrix} 1 & -\alpha & -1 \\ 1 & 1 & 2 \\ \alpha & -1 & 1 \end{vmatrix} = 0$$
+
+Expanding along the first row:
+$$1(1 + 2) + \alpha(1 - 2\alpha) - 1(-1 - \alpha) = 0$$
+$$3 + \alpha - 2\alpha^2 + 1 + \alpha = 0$$
+$$-2\alpha^2 + 2\alpha + 4 = 0$$
+$$\alpha^2 - \alpha - 2 = 0$$
+$$(\alpha - 2)(\alpha + 1) = 0$$
+
+Therefore, $\alpha = 2$ or $\alpha = -1$.",,"B","short","16","annual","Find constant $\alpha$ so that vectors are coplanar: $\mathbf{i} - \alpha \mathbf{j} - \mathbf{k}$, $\mathbf{i} + \mathbf{j} + 2\mathbf{k}$ and $\alpha \mathbf{i} - \mathbf{j} + \mathbf{k}$.","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m179zs86x0wkpppy12hqpf27s185pa4y",,"true","Federal Board",,"[""Correctly finds midpoint M of segment AB using midpoint formula"",""Calculates slope of AB and determines perpendicular slope using negative reciprocal"",""Applies point-slope form using midpoint and perpendicular slope"",""Simplifies to standard form equation $6x - 4y - 19 = 0$"",""Verifies perpendicular bisector passes through midpoint and is perpendicular to AB""]",,"false","4","To find the perpendicular bisector of line segment AB, we first find the midpoint M of AB, then determine the slope of the perpendicular bisector.
+
+**Step 1: Find the midpoint M**
+Using the midpoint formula: $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$
+$$M = \left(\frac{5 + 8}{2}, \frac{6 + 4}{2}\right) = \left(\frac{13}{2}, 5\right)$$
+
+**Step 2: Find the slope of AB**
+Slope of AB: $m_{AB} = \frac{4 - 6}{8 - 5} = \frac{-2}{3}$
+
+**Step 3: Find the slope of the perpendicular bisector**
+The perpendicular bisector has slope: $m_\perp = -\frac{1}{m_{AB}} = -\frac{1}{-2/3} = \frac{3}{2}$
+
+**Step 4: Write the equation**
+Using point-slope form with point $M\left(\frac{13}{2}, 5\right)$ and slope $\frac{3}{2}$:
+$$y - 5 = \frac{3}{2}\left(x - \frac{13}{2}\right)$$
+$$2y - 10 = 3x - \frac{39}{2}$$
+$$4y - 20 = 6x - 39$$
+$$6x - 4y - 19 = 0$$
+
+Therefore, the equation of the perpendicular bisector is $\boxed{6x - 4y - 19 = 0}$ or equivalently $3x - 2y - \frac{19}{2} = 0$.",,"B","short","9","annual","Find an equation of the perpendicular bisector of a line joining the points $A(5, 6)$ and $B(8, 4)$.","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17bg60dwrg5m9w94at7vab6xx85qnr6",,"true","Federal Board",,"[""Altitude from vertex is perpendicular to opposite side, expressed as dot product condition"",""Point of intersection of two altitudes found by solving two perpendicularity conditions simultaneously"",""Third altitude equation verified to be satisfied by same intersection point, proving concurrency"",""Orthocenter is the point of concurrency of all three altitudes""]",,"false","4","Let triangle ABC have position vectors $\vec{a}$, $\vec{b}$, $\vec{c}$ for vertices A, B, C respectively. The altitude from A is perpendicular to BC, so any point on this altitude satisfies $(\vec{r} - \vec{a}) \cdot (\vec{c} - \vec{b}) = 0$. Similarly, the altitude from B satisfies $(\vec{r} - \vec{b}) \cdot (\vec{a} - \vec{c}) = 0$, and from C satisfies $(\vec{r} - \vec{c}) \cdot (\vec{b} - \vec{a}) = 0$. Let $\vec{r}$ be the intersection point of the first two altitudes. From the first equation: $\vec{r} \cdot (\vec{c} - \vec{b}) = \vec{a} \cdot (\vec{c} - \vec{b})$. From the second: $\vec{r} \cdot (\vec{a} - \vec{c}) = \vec{b} \cdot (\vec{a} - \vec{c})$. Adding these equations and simplifying: $\vec{r} \cdot [(\vec{c} - \vec{b}) + (\vec{a} - \vec{c})] = \vec{a} \cdot (\vec{c} - \vec{b}) + \vec{b} \cdot (\vec{a} - \vec{c})$, which gives $\vec{r} \cdot (\vec{a} - \vec{b}) = \vec{a} \cdot (\vec{c} - \vec{b}) + \vec{b} \cdot (\vec{a} - \vec{c})$. This simplifies to $(\vec{r} - \vec{c}) \cdot (\vec{b} - \vec{a}) = 0$, proving the third altitude also passes through $\vec{r}$. Therefore, all three altitudes are concurrent at the orthocenter.",,"B","short","19","annual","Prove that altitudes of a triangle are concurrent (by vector method).","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2024",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m1754tktgjw78jxkw379wvbh5h85qmxk",,"false","Federal Board",,"[""Recognizes that three vectors form a triangle if they are coplanar"",""Sets up scalar triple product condition: $\\bar{u} \\cdot (\\bar{v} \\times \\bar{w}) = 0$"",""Correctly computes cross product $\\bar{v} \\times \\bar{w}$ with components involving $\\lambda$"",""Evaluates dot product and solves the resulting linear equation for $\\lambda$"",""Obtains final answer $\\lambda = 5$""]",,"false","4","For three vectors to represent the sides of a triangle, they must be coplanar. This means the scalar triple product must equal zero: $\bar{u} \cdot (\bar{v} \times \bar{w}) = 0$. Computing the cross product $\bar{v} \times \bar{w}$ and then the dot product with $\bar{u}$, we set up the determinant equation and solve for $\lambda$. The condition yields $\lambda = 5$.",,"B","short","22","annual","If $\bar{u}=2\hat{i}+3\hat{j}+4\hat{k}$, $\bar{v}=\hat{i}+4\hat{j}+3\hat{k}$ and $\bar{w}=\hat{i}+7\hat{j}+\lambda\hat{k}$ represent the sides of a triangle, find the value of $\lambda$.","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2024",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17b2cavjm6q9j06gfy2dzn7hd85q3wm",,"true","Federal Board",,"[""Correctly identifies all outcomes with sum > 9 (6 outcomes)"",""Correctly identifies all outcomes with sum divisible by 5 (7 outcomes)"",""Correctly identifies common outcomes to avoid double counting (3 outcomes)"",""Applies addition principle for mutually non-exclusive events: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$"",""Calculates final probability as $\\frac{10}{36} = \\frac{5}{18}$""]",,"false","4","When two fair dice are thrown, the total number of outcomes is 36. We need to find the probability of getting a sum greater than 9 OR a sum divisible by 5.
+
+**Outcomes with sum > 9:** (4,6), (5,5), (5,6), (6,4), (6,5), (6,6) = 6 outcomes
+
+**Outcomes with sum divisible by 5:** (1,4), (2,3), (3,2), (4,1), (4,6), (5,5), (6,4) = 7 outcomes
+
+**Common outcomes (sum > 9 AND divisible by 5):** (4,6), (5,5), (6,4) = 3 outcomes
+
+Using the formula: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+**Number of favorable outcomes** = 6 + 7 - 3 = 10
+
+**Probability** = $\frac{10}{36} = \frac{5}{18}$",,"B","short","18","annual","A pair of fair dice is thrown. The number of dots on the top are added. What is the probability of getting a sum greater than 9 or a sum divisible by 5?","ms7bwq2hjabhsd3jf23j91hcn585qwyn","2024",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m175yxhxn9ytg0219sfcya4mfx8c7pbh",,,,,,,"false",,"# **Background and Explanation**
+
+Concurrent lines are defined as three or more straight lines that intersect at a single common point. The specific point where these multiple lines meet is called the **point of concurrency**. To identify concurrent lines, we look for locations in a figure where multiple lines pass through the same exact point.
+
+---
+
+# **Solution**
+
+## Figure (i)
+
+In this figure, we identify two distinct points where multiple lines intersect:
+
+**At point $A$:** Three lines pass through this point. Therefore, lines $p$, $q$, and $m$ are concurrent.
+- **Point of concurrency:** $A$
+- **Concurrent lines:** $p$, $q$, and $m$
+
+**At point $B$:** Three lines pass through this point. Therefore, lines $\ell$, $p$, and $n$ are concurrent.
+- **Point of concurrency:** $B$
+- **Concurrent lines:** $\ell$, $p$, and $n$
+
+Note that line $p$ passes through both points $A$ and $B$, making it part of two different sets of concurrent lines at different locations.
+
+## Figure (ii)
+
+In this figure, we identify two distinct points where more than two lines intersect:
+
+**At point $A$:** Four lines pass through this point. Therefore, lines $a$, $b$, $c$, and $r$ are concurrent.
+- **Point of concurrency:** $A$
+- **Concurrent lines:** $a$, $b$, $c$, and $r$
+
+**At point $D$:** Three lines pass through this point. Therefore, lines $p$, $q$, and $r$ are concurrent.
+- **Point of concurrency:** $D$
+- **Concurrent lines:** $p$, $q$, and $r$
+
+Note that line $r$ passes through both points $A$ and $D$, participating in both sets of concurrent lines.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Definition of concurrent lines:** Three or more lines are concurrent if they all pass through a single common point
+- **Point of concurrency:** The specific intersection point shared by concurrent lines
+- **Visual inspection method:** Counting the number of lines passing through each intersection point in the geometric figure
+
+---
+
+# **Summary of Steps**
+
+1. Examine the figure to locate all points where lines intersect.
+2. At each intersection point, count how many lines pass through that specific point.
+3. Identify any point where **three or more lines** meet as a point of concurrency.
+4. List the names of all lines passing through that point to define the set of concurrent lines.
+5. Repeat for all such points in the figure (there may be multiple points of concurrency in one diagram).",,,"unclassified","1",,"Which sets of lines are concurrent in the given figures? Also identify and state the point of concurrency for each set.
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":1,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m172kh2qgm094yp26sd5cmnm9h8c7m5m",,,,,,,"false",,"# **Background and Explanation**
+
+Three points are **collinear** if they lie on the same straight line. When three points form a triangle with **zero area**, they must be collinear — they cannot enclose any region.
+
+The area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$ is given by the determinant formula:
+
+$$\text{Area} = \frac{1}{2}\left|\begin{array}{ccc}x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1\end{array}\right|$$
+
+**Collinearity condition:** Three points are collinear if and only if this area equals zero.
+
+---
+
+# **Solution**
+
+To prove that $A(6,0)$, $B(-3,6)$, and $C(3,2)$ are collinear, we calculate the area of $\triangle ABC$.
+
+**Step 1: Set up the determinant**
+
+Substitute the coordinates into the area formula:
+
+$$\text{Area} = \frac{1}{2}\left|\begin{array}{rrr}6 & 0 & 1 \\ -3 & 6 & 1 \\ 3 & 2 & 1\end{array}\right|$$
+
+**Step 2: Expand along the first row**
+
+$$= \frac{1}{2}\left(6\left|\begin{array}{cc}6 & 1 \\ 2 & 1\end{array}\right| - 0\left|\begin{array}{rr}-3 & 1 \\ 3 & 1\end{array}\right| + 1\left|\begin{array}{rr}-3 & 6 \\ 3 & 2\end{array}\right|\right)$$
+
+**Step 3: Evaluate the $2 \times 2$ determinants**
+
+$$\left|\begin{array}{cc}6 & 1 \\ 2 & 1\end{array}\right| = (6)(1) - (1)(2) = 6 - 2 = 4$$
+
+$$\left|\begin{array}{rr}-3 & 6 \\ 3 & 2\end{array}\right| = (-3)(2) - (6)(3) = -6 - 18 = -24$$
+
+**Step 4: Substitute and simplify**
+
+$$\text{Area} = \frac{1}{2}\bigl(6(4) - 0 + 1(-24)\bigr)$$
+
+$$= \frac{1}{2}(24 - 24)$$
+
+$$= \frac{1}{2}(0) = 0 \text{ sq. units}$$
+
+**Conclusion:** Since Area $= 0$, the points $A$, $B$, and $C$ do not form a triangle. They lie on the same straight line and are therefore **collinear**. $\blacksquare$
+
+---
+
+# **Key Formulas Used**
+
+| Formula | Purpose |
+|---|---|
+| $\text{Area} = \dfrac{1}{2}\left|\begin{array}{ccc}x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1\end{array}\right|$ | Area of triangle from vertices |
+| Area $= 0$ | Condition for collinearity of three points |
+
+---
+
+# **Summary of Steps**
+
+1. Write the $3 \times 3$ determinant with the three points' coordinates and a column of 1s
+2. Expand along the first row using cofactor expansion
+3. Evaluate each $2 \times 2$ minor
+4. Substitute: $\frac{1}{2}(24 - 24) = 0$
+5. Conclude collinearity since Area $= 0$",,,"unclassified","10",,"By finding the area of the triangle, show that the points $A(6,0)$, $B(-3,6)$ and $C(3,2)$ are collinear.
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m1755xa2wq3hp16r25f3c7pnhh8c6mdj",,,,,,,"false",,"# **Background and Explanation**
+
+Three points are collinear if they lie on the same straight line, which geometrically means the area of the triangle formed by these points is zero. We use the determinant formula for the area of a triangle given its vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$.
+
+---
+
+# **Solution**
+
+## Setting Up the Condition for Collinearity
+
+For three points to be collinear, the area of the triangle formed by them must equal zero. The area of triangle $PQR$ with vertices $P(3,2)$, $Q(-1, x)$, and $R(7,3)$ is given by:
+
+$$\text{Area} = \frac{1}{2} \left| \begin{array}{rrr} 3 & 2 & 1 \\ -1 & x & 1 \\ 7 & 3 & 1 \end{array} \right|$$
+
+Since the points are collinear:
+
+$$\frac{1}{2} \left| \begin{array}{rrr} 3 & 2 & 1 \\ -1 & x & 1 \\ 7 & 3 & 1 \end{array} \right| = 0$$
+
+Multiplying both sides by 2:
+
+$$\left| \begin{array}{rrr} 3 & 2 & 1 \\ -1 & x & 1 \\ 7 & 3 & 1 \end{array} \right| = 0$$
+
+## Expanding the Determinant
+
+We expand the $3 \times 3$ determinant along the first row using cofactor expansion:
+
+$$3 \left| \begin{array}{cc} x & 1 \\ 3 & 1 \end{array} \right| - 2 \left| \begin{array}{rr} -1 & 1 \\ 7 & 1 \end{array} \right| + 1 \left| \begin{array}{rr} -1 & x \\ 7 & 3 \end{array} \right| = 0$$
+
+Now we calculate each $2 \times 2$ determinant:
+- First minor: $\left| \begin{array}{cc} x & 1 \\ 3 & 1 \end{array} \right| = x(1) - 1(3) = x - 3$
+- Second minor: $\left| \begin{array}{rr} -1 & 1 \\ 7 & 1 \end{array} \right| = (-1)(1) - 1(7) = -1 - 7 = -8$
+- Third minor: $\left| \begin{array}{rr} -1 & x \\ 7 & 3 \end{array} \right| = (-1)(3) - x(7) = -3 - 7x$
+
+Substituting these back:
+
+$$3(x - 3) - 2(-8) + 1(-3 - 7x) = 0$$
+
+## Simplifying and Solving for $x$
+
+Expanding the terms:
+
+$$3x - 9 + 16 - 3 - 7x = 0$$
+
+Combining like terms:
+- For $x$: $3x - 7x = -4x$
+- For constants: $-9 + 16 - 3 = 4$
+
+This gives us:
+
+$$-4x + 4 = 0$$
+
+Solving for $x$:
+
+$$-4x = -4$$
+
+$$x = 1$$
+
+Therefore, the value of $x$ is **1**.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Collinearity Condition**: Three points are collinear if the area of the triangle formed by them equals zero
+- **Area of Triangle (Determinant Form)**: $\frac{1}{2} \left| \begin{array}{ccc} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{array} \right|$
+- **Determinant Expansion**: Expansion of $3 \times 3$ determinant along first row: $a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13}$ where $M_{ij}$ are the minors
+- **$2 \times 2$ Determinant**: $\left| \begin{array}{cc} a & b \\ c & d \end{array} \right| = ad - bc$
+
+---
+
+# **Summary of Steps**
+
+1. **Set up the area formula**: Write the determinant expression for the area of triangle $PQR$ using coordinates $P(3,2)$, $Q(-1,x)$, $R(7,3)$
+2. **Apply collinearity condition**: Set the area equal to zero (removing the $\frac{1}{2}$ factor by multiplying by 2)
+3. **Expand the determinant**: Use cofactor expansion along the first row to reduce to $2 \times 2$ determinants
+4. **Calculate minors**: Evaluate each $2 \times 2$ determinant using the rule $ad - bc$
+5. **Simplify the equation**: Combine like terms to get a linear equation in $x$
+6. **Solve**: Isolate $x$ to find $x = 1$",,,"unclassified","11",,"Using the formula of area, find $x$ if the points $P(3,2)$, $Q(-1, x)$ and $R(7,3)$ are collinear.
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17fa4jex91hgvycat2mhzm58d8c7fys",,,,,,,"false",,"# **Background and Explanation**
+
+The area of a triangle given its three vertices can be found using the determinant formula (shoelace formula). This method uses a 3×3 determinant where the columns contain the x-coordinates, y-coordinates, and ones respectively.
+
+---
+
+# **Solution**
+
+We use the determinant formula for the area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$:
+
+$$\text{Area} = \frac{1}{2}\left|\begin{array}{ccc} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{array}\right|$$
+
+Given that the area is 10 square units, we set up the equation:
+
+$$
+\frac{1}{2}\left|\begin{array}{rrr}
+3 & -4 & 1 \\
+4 & h & 1 \\
+2 & 6 & 1
+\end{array}\right| = 10
+$$
+
+**Step 1: Expand the determinant**
+
+We expand along the first row, computing the three 2×2 minors:
+
+$$
+\frac{1}{2}\left[3\left|\begin{array}{ll}
+h & 1 \\
+6 & 1
+\end{array}\right|+4\left|\begin{array}{ll}
+4 & 1 \\
+2 & 1
+\end{array}\right|+1\left|\begin{array}{ll}
+4 & h \\
+2 & 6
+\end{array}\right|\right] = 10
+$$
+
+**Step 2: Evaluate each 2×2 determinant**
+
+- First minor: $\left|\begin{array}{ll} h & 1 \\ 6 & 1 \end{array}\right| = h \cdot 1 - 1 \cdot 6 = h - 6$
+
+- Second minor: $\left|\begin{array}{ll} 4 & 1 \\ 2 & 1 \end{array}\right| = 4 \cdot 1 - 1 \cdot 2 = 4 - 2 = 2$
+
+- Third minor: $\left|\begin{array}{ll} 4 & h \\ 2 & 6 \end{array}\right| = 4 \cdot 6 - h \cdot 2 = 24 - 2h$
+
+Substituting these back:
+
+$$
+\frac{1}{2}[3(h-6)+4(4-2)+1(24-2h)] = 10
+$$
+
+**Step 3: Simplify the expression**
+
+$$
+\frac{1}{2}[3h-18+8+24-2h] = 10
+$$
+
+Combining like terms inside the brackets:
+- $3h - 2h = h$
+- $-18 + 8 + 24 = 14$
+
+So we have:
+
+$$
+\frac{1}{2}(h+14) = 10
+$$
+
+**Step 4: Solve for $h$**
+
+Multiply both sides by 2:
+
+$$h + 14 = 20$$
+
+Therefore:
+
+$$\boxed{h = 6}$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Determinant formula for triangle area**: $\text{Area} = \frac{1}{2}\left|\begin{array}{ccc} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{array}\right|$
+- **Expansion of 3×3 determinant**: Along the first row using cofactors
+- **2×2 determinant**: $\left|\begin{array}{cc} a & b \\ c & d \end{array}\right| = ad - bc$
+
+---
+
+# **Summary of Steps**
+
+1. Set up the area formula using the determinant with the three given vertices
+2. Expand the 3×3 determinant along the first row into three 2×2 determinants
+3. Evaluate each 2×2 determinant and substitute back
+4. Simplify the algebraic expression inside the brackets
+5. Multiply both sides by 2 and solve the resulting linear equation for $h$",,,"unclassified","12",,"The vertices of a triangle are $(3, -4)$, $(4, h)$, and $(2, 6)$. Find $h$ if the area of the triangle is 10 square units.
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m177h8891b6jvnxbc1gv20kzph8c6m53",,,,,,,"false",,"# **Background and Explanation**
+
+The area of a triangle given the coordinates of its three vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ can be calculated using the determinant method. This involves constructing a $3 \times 3$ matrix with the coordinates and a column of 1s, then evaluating half the absolute value of the determinant.
+
+---
+
+# **Solution**
+
+## Part (i)
+
+**Given:** Triangle $ABC$ with vertices $A(-3, -1)$, $B(2, 3)$, and $C(2, -1)$.
+
+The area is calculated using the formula:
+
+$$\text{Area} = \frac{1}{2}\left|\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix}\right|$$
+
+Substituting the coordinates:
+
+$$\text{Area} = \frac{1}{2}\left|\begin{vmatrix} -3 & -1 & 1 \\ 2 & 3 & 1 \\ 2 & -1 & 1 \end{vmatrix}\right|$$
+
+Expanding along the first row using cofactor expansion:
+
+$$= \frac{1}{2}\left[-3\begin{vmatrix} 3 & 1 \\ -1 & 1 \end{vmatrix} + 1\begin{vmatrix} 2 & 1 \\ 2 & 1 \end{vmatrix} + 1\begin{vmatrix} 2 & 3 \\ 2 & -1 \end{vmatrix}\right]$$
+
+Calculating each $2 \times 2$ determinant:
+- First minor: $(3)(1) - (1)(-1) = 3 + 1 = 4$
+- Second minor: $(2)(1) - (1)(2) = 2 - 2 = 0$
+- Third minor: $(2)(-1) - (3)(2) = -2 - 6 = -8$
+
+Substituting back:
+
+$$= \frac{1}{2}[-3(4) + 1(0) + 1(-8)]$$
+
+$$= \frac{1}{2}[-12 + 0 - 8]$$
+
+$$= \frac{1}{2}(-20) = -10$$
+
+Since area is always positive, we take the absolute value:
+
+$$\text{Area} = |-10| = \mathbf{10 \text{ sq. units}}$$
+
+## Part (ii)
+
+**Given:** Triangle $ABC$ with vertices $A(1, 3)$, $B(-2, -3)$, and $C(4, -3)$.
+
+Using the determinant formula:
+
+$$\text{Area} = \frac{1}{2}\left|\begin{vmatrix} 1 & 3 & 1 \\ -2 & -3 & 1 \\ 4 & -3 & 1 \end{vmatrix}\right|$$
+
+Expanding along the first row:
+
+$$= \frac{1}{2}\left[1\begin{vmatrix} -3 & 1 \\ -3 & 1 \end{vmatrix} - 3\begin{vmatrix} -2 & 1 \\ 4 & 1 \end{vmatrix} + 1\begin{vmatrix} -2 & -3 \\ 4 & -3 \end{vmatrix}\right]$$
+
+Calculating each $2 \times 2$ determinant:
+- First minor: $(-3)(1) - (1)(-3) = -3 + 3 = 0$
+- Second minor: $(-2)(1) - (1)(4) = -2 - 4 = -6$
+- Third minor: $(-2)(-3) - (-3)(4) = 6 + 12 = 18$
+
+Substituting back:
+
+$$= \frac{1}{2}[1(0) - 3(-6) + 1(18)]$$
+
+$$= \frac{1}{2}[0 + 18 + 18]$$
+
+$$= \frac{1}{2}(36)$$
+
+$$= \mathbf{18 \text{ sq. units}}$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Area of Triangle (Determinant Method):** For vertices $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$:
+  $$\text{Area} = \frac{1}{2}\left|\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix}\right|$$
+- **Cofactor Expansion:** Expansion of $3 \times 3$ determinant along first row: $a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}$ where $C_{ij} = (-1)^{i+j}M_{ij}$
+- **Absolute Value Property:** Area is always positive, so take $|\text{determinant value}|$ if negative
+
+---
+
+# **Summary of Steps**
+
+1. **Identify coordinates** of the three vertices of the triangle
+2. **Construct the $3 \times 3$ matrix** with $x$ coordinates in column 1, $y$ coordinates in column 2, and 1s in column 3
+3. **Expand the determinant** along the first row (or any row/column) using cofactor expansion
+4. **Calculate the $2 \times 2$ minors** for each element in the chosen row
+5. **Sum the terms** with appropriate signs ($+ - +$ pattern for first row)
+6. **Multiply by $\frac{1}{2}$** and take the **absolute value** to get the final area in square units",,,"unclassified","13",,"Find the area of the following figures using the coordinate geometry method:
+
+**(i)** Triangle with vertices $A(-3, -1)$, $B(2, 3)$, and $C(2, -1)$
+
+**(ii)** Triangle with vertices $A(1, 3)$, $B(-2, -3)$, and $C(4, -3)$
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17cyrk9zt3b3t7gn0envw0d758c602e",,,,,,,"false",,"# **Background and Explanation**
+
+To find the area of a triangle formed by three intersecting lines, first determine the vertices by solving the equations pairwise to find their points of intersection. Once the three vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ are known, apply the determinant formula for the area of a triangle.
+
+---
+
+# **Solution**
+
+## Part (i)
+
+The given lines are:
+$$
+\begin{aligned}
+4x-5y+7 &= 0 \quad \text{(i)} \\
+x-2 &= 0 \quad \text{(ii)} \\
+y+1 &= 0 \quad \text{(iii)}
+\end{aligned}
+$$
+
+**Finding Vertex $A$ (intersection of lines (i) and (ii)):**
+
+From equation (ii), we immediately get:
+$$x = 2$$
+
+Substituting $x = 2$ into equation (i):
+$$
+\begin{aligned}
+4(2) - 5y + 7 &= 0 \\
+8 - 5y + 7 &= 0 \\
+15 - 5y &= 0 \\
+5y &= 15 \\
+y &= 3
+\end{aligned}
+$$
+
+Thus, vertex $A$ is $(2, 3)$.
+
+**Finding Vertex $B$ (intersection of lines (i) and (iii)):**
+
+From equation (iii), we get:
+$$y = -1$$
+
+Substituting $y = -1$ into equation (i):
+$$
+\begin{aligned}
+4x - 5(-1) + 7 &= 0 \\
+4x + 5 + 7 &= 0 \\
+4x + 12 &= 0 \\
+4x &= -12 \\
+x &= -3
+\end{aligned}
+$$
+
+Thus, vertex $B$ is $(-3, -1)$.
+
+**Finding Vertex $C$ (intersection of lines (ii) and (iii)):**
+
+From equation (ii): $x = 2$
+From equation (iii): $y = -1$
+
+Thus, vertex $C$ is $(2, -1)$.
+
+**Calculating the Area:**
+
+Using the determinant formula for the area of triangle $ABC$:
+
+$$
+\text{Area} = \frac{1}{2}\left|\begin{array}{rrr}
+2 & 3 & 1 \\
+-3 & -1 & 1 \\
+2 & -1 & 1
+\end{array}\right|
+$$
+
+Expanding along the first row:
+$$
+\begin{aligned}
+&= \frac{1}{2}\left[2\left|\begin{array}{ll}
+-1 & 1 \\
+-1 & 1
+\end{array}\right| - 3\left|\begin{array}{rr}
+-3 & 1 \\
+2 & 1
+\end{array}\right| + 1\left|\begin{array}{rr}
+-3 & -1 \\
+2 & -1
+\end{array}\right|\right] \\
+&= \frac{1}{2}[2(-1 \cdot 1 - 1 \cdot (-1)) - 3(-3 \cdot 1 - 1 \cdot 2) + 1((-3) \cdot (-1) - (-1) \cdot 2)] \\
+&= \frac{1}{2}[2(-1 + 1) - 3(-3 - 2) + 1(3 + 2)] \\
+&= \frac{1}{2}[2(0) - 3(-5) + 1(5)] \\
+&= \frac{1}{2}[0 + 15 + 5] \\
+&= \frac{1}{2}[20] \\
+&= 10 \text{ sq. units}
+\end{aligned}
+$$
+
+## Part (ii)
+
+The given equations of lines are:
+$$
+\begin{aligned}
+x - 2y - 6 &= 0 \quad \text{(i)} \\
+3x - y + 3 &= 0 \quad \text{(ii)} \\
+2x + y - 4 &= 0 \quad \text{(iii)}
+\end{aligned}
+$$
+
+**Finding Vertex $A$ (intersection of lines (i) and (ii)):**
+
+To eliminate $x$, multiply equation (i) by 3 and subtract equation (ii) from it:
+
+$$
+\begin{array}{r}
+3x - 6y - 18 = 0 \\
+-(3x - y + 3 = 0) \\
+\hline
+-5y - 21 = 0
+\end{array}
+$$
+
+Solving for $y$:
+$$
+\begin{aligned}
+-5y &= 21 \\
+y &= -\frac{21}{5}
+\end{aligned}
+$$
+
+Substituting $y = -\frac{21}{5}$ into equation (i):
+$$
+\begin{aligned}
+x - 2\left(-\frac{21}{5}\right) - 6 &= 0 \\
+x + \frac{42}{5} - 6 &= 0 \\
+x + \frac{42}{5} - \frac{30}{5} &= 0 \\
+x + \frac{12}{5} &= 0 \\
+x &= -\frac{12}{5}
+\end{aligned}
+$$
+
+Thus, vertex $A$ is $\left(-\frac{12}{5}, -\frac{21}{5}\right)$.
+
+**Finding Vertex $B$ (intersection of lines (i) and (iii)):**
+
+Multiply equation (i) by 2 and subtract equation (iii) from it:
+
+$$
+\begin{array}{r}
+2x - 4y - 12 = 0 \\
+-(2x + y - 4 = 0) \\
+\hline
+-5y - 8 = 0
+\end{array}
+$$
+
+Solving for $y$:
+$$
+\begin{aligned}
+-5y &= 8 \\
+y &= -\frac{8}{5}
+\end{aligned}
+$$
+
+Substituting $y = -\frac{8}{5}$ into equation (i):
+$$
+\begin{aligned}
+x - 2\left(-\frac{8}{5}\right) - 6 &= 0 \\
+x + \frac{16}{5} - 6 &= 0 \\
+x + \frac{16}{5} - \frac{30}{5} &= 0 \\
+x - \frac{14}{5} &= 0 \\
+x &= \frac{14}{5}
+\end{aligned}
+$$
+
+Thus, vertex $B$ is $\left(\frac{14}{5}, -\frac{8}{5}\right)$.
+
+**Finding Vertex $C$ (intersection of lines (ii) and (iii)):**
+
+Add equations (ii) and (iii) to eliminate $y$:
+
+$$
+\begin{array}{r}
+3x - y + 3 = 0 \\
++(2x + y - 4 = 0) \\
+\hline
+5x - 1 = 0
+\end{array}
+$$
+
+Solving for $x$:
+$$
+\begin{aligned}
+5x &= 1 \\
+x &= \frac{1}{5}
+\end{aligned}
+$$
+
+Substituting $x = \frac{1}{5}$ into equation (iii):
+$$
+\begin{aligned}
+2\left(\frac{1}{5}\right) + y - 4 &= 0 \\
+\frac{2}{5} + y - 4 &= 0 \\
+y &= 4 - \frac{2}{5} \\
+y &= \frac{20}{5} - \frac{2}{5} \\
+y &= \frac{18}{5}
+\end{aligned}
+$$
+
+Thus, vertex $C$ is $\left(\frac{1}{5}, \frac{18}{5}\right)$.
+
+**Calculating the Area:**
+
+Using the determinant formula with the three vertices:
+
+$$
+\text{Area} = \frac{1}{2}\left|\begin{array}{ccc}
+-\frac{12}{5} & -\frac{21}{5} & 1 \\
+\frac{14}{5} & -\frac{8}{5} & 1 \\
+\frac{1}{5} & \frac{18}{5} & 1
+\end{array}\right|
+$$
+
+Expanding along the first row:
+$$
+\begin{aligned}
+&= \frac{1}{2}\left[-\frac{12}{5}\left|\begin{array}{cc}
+-\frac{8}{5} & 1 \\
+\frac{18}{5} & 1
+\end{array}\right| + \frac{21}{5}\left|\begin{array}{cc}
+\frac{14}{5} & 1 \\
+\frac{1}{5} & 1
+\end{array}\right| + 1\left|\begin{array}{cc}
+\frac{14}{5} & -\frac{8}{5} \\
+\frac{1}{5} & \frac{18}{5}
+\end{array}\right|\right] \\
+&= \frac{1}{2}\left[-\frac{12}{5}\left(-\frac{8}{5} - \frac{18}{5}\right) + \frac{21}{5}\left(\frac{14}{5} - \frac{1}{5}\right) + 1\left(\frac{14}{5} \cdot \frac{18}{5} - \left(-\frac{8}{5}\right) \cdot \frac{1}{5}\right)\right] \\
+&= \frac{1}{2}\left[-\frac{12}{5}\left(-\frac{26}{5}\right) + \frac{21}{5}\left(\frac{13}{5}\right) + \left(\frac{252}{25} + \frac{8}{25}\right)\right] \\
+&= \frac{1}{2}\left[\frac{312}{25} + \frac{273}{25} + \frac{260}{25}\right] \\
+&= \frac{1}{2}\left[\frac{845}{25}\right] \\
+&= \frac{1}{2}\left[\frac{169}{5}\right] \\
+&= \frac{169}{10} \\
+&= 16.9 \text{ square units}
+\end{aligned}
+$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Intersection of two lines:** Solve the system of two linear equations simultaneously using substitution or elimination methods to find the point $(x, y)$ where they meet.
+- **Area of triangle using determinant:** For vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$:
+  $$\text{Area} = \frac{1}{2}\left|\begin{array}{ccc}x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1\end{array}\right| = \frac{1}{2}|x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|$$
+
+---
+
+# **Summary of Steps**
+
+1. **Identify the three lines** forming the triangle and label them as equations (i), (ii), and (iii).
+2. **Find the first vertex** by solving the system of equations (i) and (ii) simultaneously.
+3. **Find the second vertex** by solving the system of equations (i) and (iii) simultaneously.
+4. **Find the third vertex** by solving the system of equations (ii) and (iii) simultaneously.
+5. **Apply the determinant formula** for the area of a triangle using the three coordinate pairs found.
+6. **Expand the determinant** along any row or column (typically the first row) and evaluate the $2 \times 2$ minors.
+7. **Calculate the final value**, ensuring to take the absolute value and multiply by $\frac{1}{2}$ to get the area in square units.",,,"unclassified","14",,"**(i)** Find the area of the triangle bounded by the lines $4x-5y+7=0$, $x-2=0$ and $y+1=0$.
+
+**(ii)** Find the area of the triangle bounded by the lines $x-2y-6=0$, $3x-y+3=0$ and $2x+y-4=0$.
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":7,""chapterNumber"":6,""page"":172,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m173pzq77p6n8r46xzqq2f59n18c70dv",,,,,,,"false",,"# **Background and Explanation**
+
+Three straight lines are concurrent if they all intersect at a single common point. For three lines given in the general form $ax+by+c=0$, the algebraic condition for concurrency is that the determinant of the $3\times3$ coefficient matrix equals zero.
+
+---
+
+# **Solution**
+
+## Part (i)
+
+The given lines are:
+$$3x-4y-13=0, \quad 8x-11y-33=0, \quad 2x-3y-7=0$$
+
+Consider the determinant of the coefficients:
+$$\left|\begin{array}{rrr}3 & -4 & -13 \\ 8 & -11 & -33 \\ 2 & -3 & -7\end{array}\right|$$
+
+Expanding along the first row:
+$$\begin{aligned} &=3\left|\begin{array}{rr}-11 & -33 \\ -3 & -7\end{array}\right|+4\left|\begin{array}{rr}8 & -33 \\ 2 & -7\end{array}\right|-13\left|\begin{array}{rr}8 & -11 \\ 2 & -3\end{array}\right| \\ &=3(77-99)+4(-56+66)-13(-24+22) \\ &=3(-22)+4(10)-13(-2) \\ &=-66+40+26 \\ &=0 \end{aligned}$$
+
+Thus, the given lines are concurrent.
+
+## Part (ii)
+
+The given lines are:
+$$x+2y-4=0, \quad x-y-1=0, \quad 4x+5y-13=0$$
+
+Consider the determinant:
+$$\begin{aligned} &\left|\begin{array}{rrr}1 & 2 & -4 \\ 1 & -1 & -1 \\ 4 & 5 & -13\end{array}\right| \\ &=1\left|\begin{array}{rr}-1 & -1 \\ 5 & -13\end{array}\right|-2\left|\begin{array}{rr}1 & -1 \\ 4 & -13\end{array}\right|-4\left|\begin{array}{rr}1 & -1 \\ 4 & 5\end{array}\right| \\ &=1(13+5)-2(-13+4)-4(5+4) \\ &=18+18-36 \\ &=0 \end{aligned}$$
+
+Since the value of the determinant is zero, the given lines are concurrent.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Condition for concurrency**: Three lines $a_1x+b_1y+c_1=0$, $a_2x+b_2y+c_2=0$, and $a_3x+b_3y+c_3=0$ are concurrent if and only if:
+$$\left|\begin{array}{ccc}a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3\end{array}\right| = 0$$
+
+- **Determinant expansion**: Expansion of a $3\times3$ determinant using cofactors along any row or column, where each element is multiplied by its corresponding minor with appropriate sign $(-1)^{i+j}$
+
+---
+
+# **Summary of Steps**
+
+1. Identify the coefficients $(a, b, c)$ from each line equation $ax+by+c=0$
+2. Construct the $3\times3$ determinant with rows formed by the coefficients of each line
+3. Expand the determinant along the first row (or any convenient row/column) using the cofactor method
+4. Calculate the $2\times2$ minors by finding the difference of cross-products
+5. Simplify the expression: if the final value equals zero, the lines are concurrent; otherwise, they are not concurrent",,,"unclassified","2",,"Q2. Check whether the lines are concurrent or not:
+
+**(i)**
+$$3x-4y-13=0$$
+$$8x-11y-33=0$$
+$$2x-3y-7=0$$
+
+**(ii)**
+$$x+2y-4=0$$
+$$x-y-1=0$$
+$$4x+5y-13=0$$
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m176z0j7jqgzr9frz4b9kw8wtd8c6m7j",,,,,,,"false",,"# **Background and Explanation**
+
+Three lines are said to be **concurrent** if they all pass through a single common point (i.e., they intersect at one point). Rather than finding the intersection point of two lines and substituting into the third, we can use the determinant condition for concurrency, which provides a direct algebraic test.
+
+---
+
+# **Solution**
+
+For three lines given in the general form $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$, and $a_3x + b_3y + c_3 = 0$, the condition for concurrency is:
+
+$$\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$$
+
+**Step 1:** Identify the coefficients from each line:
+- Line 1 ($2x - y + 3 = 0$): $a_1 = 2, b_1 = -1, c_1 = 3$
+- Line 2 ($x - y = 0$): $a_2 = 1, b_2 = -1, c_2 = 0$
+- Line 3 ($3x + ay + 1 = 0$): $a_3 = 3, b_3 = a, c_3 = 1$
+
+**Step 2:** Set up the determinant equation:
+
+$$\begin{vmatrix} 2 & -1 & 3 \\ 1 & -1 & 0 \\ 3 & a & 1 \end{vmatrix} = 0$$
+
+**Step 3:** Expand the determinant along the first row. Recall that expanding a $3 \times 3$ determinant involves multiplying each element by its corresponding minor (the $2 \times 2$ determinant formed by deleting the row and column of that element) with alternating signs:
+
+$$2\begin{vmatrix} -1 & 0 \\ a & 1 \end{vmatrix} - (-1)\begin{vmatrix} 1 & 0 \\ 3 & 1 \end{vmatrix} + 3\begin{vmatrix} 1 & -1 \\ 3 & a \end{vmatrix} = 0$$
+
+*Note: The signs follow the pattern $+, -, +$ for the first row, so the middle term becomes $-(-1) = +1$.*
+
+**Step 4:** Calculate each $2 \times 2$ determinant:
+- First minor: $(-1)(1) - (0)(a) = -1 - 0 = -1$
+- Second minor: $(1)(1) - (0)(3) = 1 - 0 = 1$
+- Third minor: $(1)(a) - (-1)(3) = a + 3$
+
+**Step 5:** Substitute these values back into the expansion:
+
+$$2(-1) + 1(1) + 3(a + 3) = 0$$
+
+**Step 6:** Simplify and solve for $a$:
+
+$$-2 + 1 + 3a + 9 = 0$$
+
+$$3a + 8 = 0$$
+
+$$3a = -8$$
+
+$$a = -\frac{8}{3}$$
+
+Therefore, the value of $a$ is $-\frac{8}{3}$.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Condition for concurrency of three lines:** Three lines $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$, and $a_3x + b_3y + c_3 = 0$ are concurrent if and only if:
+  $$\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$$
+- **Determinant expansion along first row:** For a $3 \times 3$ matrix, $\det(A) = a_{11}M_{11} - a_{12}M_{12} + a_{13}M_{13}$, where $M_{ij}$ is the minor of element $a_{ij}$
+- **Determinant of $2 \times 2$ matrix:** $\begin{vmatrix} p & q \\ r & s \end{vmatrix} = ps - qr$
+
+---
+
+# **Summary of Steps**
+
+1. **Identify coefficients** from the three given lines: $(2, -1, 3)$, $(1, -1, 0)$, and $(3, a, 1)$
+2. **Set up the determinant** condition for concurrency equal to zero
+3. **Expand the determinant** along the first row, calculating each $2 \times 2$ minor
+4. **Form the equation:** $2(-1) + 1(1) + 3(a+3) = 0$
+5. **Simplify:** $-2 + 1 + 3a + 9 = 0$, which gives $3a + 8 = 0$
+6. **Solve for $a$:** $a = -\frac{8}{3}$",,,"numerical","3",,"Determine the value of $a$ if the lines
+
+$$2x - y + 3 = 0, \quad x - y = 0 \text{ and } 3x + ay + 1 = 0$$
+
+are concurrent.
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m170qb63yv8rqm87ghph2c20yd8c62hn",,,,,,,"false",,"# **Background and Explanation**
+
+Three lines are **concurrent** if they all intersect at a single common point. For lines $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$, and $a_3x + b_3y + c_3 = 0$, concurrency can be verified by showing that the determinant of their coefficients equals zero. To prove a line bisects the angle between two other lines, we show that it makes equal angles with both lines.
+
+---
+
+# **Solution**
+
+## Part (a): Proving Concurrency
+
+First, we identify the equations of the three lines:
+1. Line 1: $x + y + 1 = 0$
+2. Line 2: $x - y + 1 = 0$
+3. Line 3 (x-axis): $y = 0$, which can be written as $0x + 1y + 0 = 0$
+
+To prove these three lines are concurrent, we evaluate the determinant of their coefficients:
+
+$$
+\Delta = \begin{vmatrix}
+1 & 1 & 1 \\
+1 & -1 & 1 \\
+0 & 1 & 0
+\end{vmatrix}
+$$
+
+Expanding along the first row:
+
+$$
+\begin{aligned}
+\Delta &= 1 \begin{vmatrix} -1 & 1 \\ 1 & 0 \end{vmatrix} - 1 \begin{vmatrix} 1 & 1 \\ 0 & 0 \end{vmatrix} + 1 \begin{vmatrix} 1 & -1 \\ 0 & 1 \end{vmatrix} \\
+&= 1((-1)(0) - (1)(1)) - 1((1)(0) - (1)(0)) + 1((1)(1) - (-1)(0)) \\
+&= 1(0 - 1) - 1(0 - 0) + 1(1 - 0) \\
+&= -1 - 0 + 1 \\
+&= 0
+\end{aligned}
+$$
+
+Since $\Delta = 0$, the three lines are concurrent (they all meet at a single point).
+
+## Part (b): Proving the $x$-axis Bisects the Angle
+
+To show that the $x$-axis bisects the angle between the two lines, we calculate the angle that the $x$-axis makes with each line. If these angles are equal, the $x$-axis is the angle bisector.
+
+**Finding the angle between the $x$-axis and line $x - y + 1 = 0$:**
+
+Let $\alpha$ be the angle from the $x$-axis to the line $x - y + 1 = 0$.
+
+- Slope of $x$-axis: $m = 0$
+- Slope of line $x - y + 1 = 0$: Rewriting as $y = x + 1$, we get $m_1 = 1$
+
+Using the formula for the tangent of the angle between two lines:
+
+$$
+\begin{align*}
+\tan \alpha &= \frac{m_1 - m}{1 + m_1 m} \\
+&= \frac{1 - 0}{1 + (1)(0)} \\
+&= \frac{1}{1} \\
+&= 1
+\end{align*}
+$$
+
+**Finding the angle between line $x + y + 1 = 0$ and the $x$-axis:**
+
+Let $\beta$ be the angle from the line $x + y + 1 = 0$ to the $x$-axis.
+
+- Slope of $x$-axis: $m = 0$
+- Slope of line $x + y + 1 = 0$: Rewriting as $y = -x - 1$, we get $m_2 = -1$
+
+Using the angle formula:
+
+$$
+\begin{align*}
+\tan \beta &= \frac{m - m_2}{1 + m m_2} \\
+&= \frac{0 - (-1)}{1 + (0)(-1)} \\
+&= \frac{1}{1} \\
+&= 1
+\end{align*}
+$$
+
+**Conclusion:**
+
+From equations (1) and (2):
+$$\tan \alpha = \tan \beta = 1$$
+
+Therefore:
+$$\alpha = \beta$$
+
+Since the $x$-axis makes equal angles with both lines $x+y+1=0$ and $x-y+1=0$, it bisects the angle between them.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Concurrency Condition**: Three lines $a_1x+b_1y+c_1=0$, $a_2x+b_2y+c_2=0$, $a_3x+b_3y+c_3=0$ are concurrent if:
+  $$\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$$
+
+- **Angle Between Two Lines**: If $\theta$ is the angle between lines with slopes $m_1$ and $m_2$:
+  $$\tan \theta = \left| \frac{m_1 - m_2}{1 + m_1 m_2} \right|$$
+
+- **Slope from Standard Form**: For line $ax + by + c = 0$, the slope is $m = -\frac{a}{b}$
+
+---
+
+# **Summary of Steps**
+
+1. **Identify the three lines**: Write the $x$-axis as $y = 0$ (or $0x + 1y + 0 = 0$) along with the given lines $x+y+1=0$ and $x-y+1=0$.
+2. **Set up the determinant**: Create a $3 \times 3$ matrix using the coefficients of $x$, $y$, and the constant term from each line.
+3. **Evaluate the determinant**: Expand and simplify to show it equals zero, proving concurrency.
+4. **Calculate slopes**: Find slopes of both given lines ($m_1 = 1$ for $x-y+1=0$ and $m_2 = -1$ for $x+y+1=0$).
+5. **Find angles with x-axis**: Use $\tan \theta = \frac{m_1 - m_2}{1 + m_1 m_2}$ to calculate the angle from the $x$-axis to the first line ($\alpha$) and from the second line to the $x$-axis ($\beta$).
+6. **Compare angles**: Show that $\tan \alpha = \tan \beta = 1$, therefore $\alpha = \beta$, proving the $x$-axis is the angle bisector.",,,"unclassified","4",,"Show that the lines $x+y+1=0$, $x-y+1=0$ and the $x$-axis are concurrent. Also prove that the $x$-axis bisects the angle between the lines $x+y+1=0$ and $x-y+1=0$.
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17b76sj4azmzr94deww7rf51h8c6vr9",,,,,,,"false",,"# **Background and Explanation**
+
+An altitude of a triangle is a perpendicular line segment from a vertex to the line containing the opposite side. The three altitudes of any triangle intersect at a single point called the **orthocenter**. To find the equations of altitudes, we first calculate the slopes of the sides, then use the negative reciprocal to get the slopes of the perpendicular altitudes, and finally apply the point-slope formula.
+
+---
+
+# **Solution**
+
+Consider the triangle $ABC$ with vertices $A(4,-2)$, $B(5,5)$ and $C(-1,3)$.
+
+Draw the altitudes $\overline{AE}$, $\overline{BF}$ and $\overline{CD}$ of the triangle. Let $m_{1}, m_{2}, m_{3}$ be the slopes of the sides $\overline{AB}$, $\overline{BC}$ and $\overline{CA}$ of the triangle. Therefore,
+
+$$
+\begin{aligned}
+& m_{1}=\frac{5-(-2)}{5-4}=\frac{7}{1}=7 \\
+& m_{2}=\frac{5-3}{5-(-1)}=\frac{2}{6}=\frac{1}{3} \\
+& m_{3}=\frac{3-(-2)}{-1-4}=\frac{3+2}{-5}=-1
+\end{aligned}
+$$
+
+## Equation of Altitude $\overline{CD}$ (from $C$ to side $AB$)
+
+Since $\overline{CD}$ is perpendicular to $\overline{AB}$:
+
+$$
+\text{Slope of } \overline{CD}=\frac{-1}{\text{Slope of } \overline{AB}}=\frac{-1}{7}
+$$
+
+Thus, the equation of altitude $\overline{CD}$ passing through $C(-1,3)$ with slope $\frac{-1}{7}$ is:
+
+$$
+\begin{aligned}
+y-3 & =\frac{-1}{7}(x-(-1)) \quad \text{(Slope-point formula)} \\
+7(y-3) & =-1(x+1) \\
+7y-21 & =-x-1 \\
+x+7y-20 & =0
+\end{aligned}
+$$
+
+## Equation of Altitude $\overline{AE}$ (from $A$ to side $BC$)
+
+Since $\overline{AE}$ is perpendicular to $\overline{BC}$:
+
+$$
+\text{Slope of } \overline{AE}=\frac{-1}{\text{Slope of } \overline{BC}}=\frac{-1}{1/3}=-3
+$$
+
+Thus, the equation of altitude $\overline{AE}$ passing through $A(4,-2)$ with slope $-3$ is:
+
+$$
+\begin{aligned}
+y-(-2) & =-3(x-4) \\
+y+2 & =-3x+12 \\
+3x+y-10 & =0
+\end{aligned}
+$$
+
+## Equation of Altitude $\overline{BF}$ (from $B$ to side $CA$)
+
+Since $\overline{BF}$ is perpendicular to $\overline{CA}$:
+
+$$
+\text{Slope of } \overline{BF}=\frac{-1}{\text{Slope of } \overline{CA}}=\frac{-1}{-1}=1
+$$
+
+Thus, the equation of altitude $\overline{BF}$ passing through $B(5,5)$ with slope $1$ is:
+
+$$
+\begin{aligned}
+y-5 & =1(x-5) \\
+y-5 & =x-5 \\
+x-y & =0
+\end{aligned}
+$$
+
+## Finding the Point of Concurrency
+
+To find the point of concurrency of these three altitudes, solve any two of the equations (i), (ii) and (iii) simultaneously. Let us solve equations (ii) and (iii):
+
+From equation (iii):
+$$x=y$$
+
+Substitute into equation (ii):
+$$
+\begin{aligned}
+3y+y-10 & =0 \\
+4y & =10 \\
+y & =\frac{5}{2}
+\end{aligned}
+$$
+
+Substitute $y=\frac{5}{2}$ into equation (iii):
+$$
+\begin{aligned}
+x-\frac{5}{2} & =0 \\
+x & =\frac{5}{2}
+\end{aligned}
+$$
+
+Thus, $\left(\frac{5}{2}, \frac{5}{2}\right)$ is the point of concurrency of these altitudes.
+
+The point of concurrency of the altitudes of a triangle is called the **orthocentre** of the triangle.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Slope formula:** $m = \frac{y_2 - y_1}{x_2 - x_1}$
+- **Perpendicular slope condition:** $m_{\perp} = -\frac{1}{m}$ (or $m_1 \cdot m_2 = -1$)
+- **Point-slope form:** $y - y_1 = m(x - x_1)$
+- **Solving simultaneous linear equations:** Substitution or elimination method to find intersection points
+
+---
+
+# **Summary of Steps**
+
+1. **Calculate slopes of all three sides** $AB$, $BC$, and $CA$ using the slope formula.
+2. **Determine slopes of the altitudes** by taking the negative reciprocal of the corresponding side's slope.
+3. **Write equations for each altitude** using the point-slope form with the vertex coordinates and the perpendicular slope:
+   - Altitude from $C$: $x+7y-20=0$
+   - Altitude from $A$: $3x+y-10=0$
+   - Altitude from $B$: $x-y=0$
+4. **Solve any two altitude equations simultaneously** to find their intersection point $\left(\frac{5}{2}, \frac{5}{2}\right)$.
+5. **Identify the point** as the **orthocenter** (the point of concurrency of altitudes).",,,"unclassified","5",,"Find the equations of the altitudes and the point of concurrency of the triangle $ABC$ when $A(4,-2)$, $B(5,5)$ and $C(-1,3)$. What is the name of the point of concurrency?
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m175jk1zj4phnaynddmg4v968d8c7tee",,,,,,,"false",,"# **Background and Explanation**
+
+A right bisector (or perpendicular bisector) of a side of a triangle is a line perpendicular to that side passing through its midpoint. The three right bisectors of a triangle always meet at a single point. This problem requires finding midpoints, slopes of sides, perpendicular slopes, and equations of lines.
+
+---
+
+# **Solution**
+
+## Finding the Midpoints
+
+Let $M_1$, $M_2$ and $M_3$ be the midpoints of sides $\overline{XY}$, $\overline{YZ}$ and $\overline{ZX}$ respectively.
+
+Using the midpoint formula $\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$:
+
+$$M_1 = \left(\frac{0+7}{2}, \frac{0+0}{2}\right) = \left(\frac{7}{2}, 0\right)$$
+
+$$M_2 = \left(\frac{7+7}{2}, \frac{4+0}{2}\right) = (7, 2)$$
+
+$$M_3 = \left(\frac{7+0}{2}, \frac{4+0}{2}\right) = \left(\frac{7}{2}, 2\right)$$
+
+## Finding Slopes of Sides
+
+$$\text{Slope of side } \overline{XY} = \frac{0-0}{7-0} = \frac{0}{7} = 0$$
+
+$$\text{Slope of side } \overline{YZ} = \frac{4-0}{7-7} = \frac{4}{0} = \infty$$
+
+$$\text{Slope of side } \overline{ZX} = \frac{4-0}{7-0} = \frac{4}{7}$$
+
+## Right Bisector of Side $\overline{XY}$ (Line $\overline{M_1A}$)
+
+The right bisector $\overline{M_1A}$ is perpendicular to side $\overline{XY}$. For perpendicular lines, the slope is the negative reciprocal:
+
+$$\text{Slope of } \overline{M_1A} = \frac{-1}{\text{Slope of side } \overline{XY}} = \frac{-1}{0} = \infty$$
+
+Since the slope is infinite (vertical line), the right bisector is a vertical line passing through $M_1\left(\frac{7}{2}, 0\right)$. Using point-slope form:
+
+$$y - 0 = \infty\left(x - \frac{7}{2}\right)$$
+
+$$\Rightarrow \frac{y}{\left(x-\frac{7}{2}\right)} = \infty$$
+
+This is possible only when the denominator equals zero:
+
+$$x - \frac{7}{2} = 0$$
+
+$$\Rightarrow 2x - 7 = 0$$
+
+## Right Bisector of Side $\overline{YZ}$ (Line $\overline{M_2B}$)
+
+The right bisector $\overline{M_2B}$ is perpendicular to side $\overline{YZ}$:
+
+$$\text{Slope of } \overline{M_2B} = \frac{-1}{\text{Slope of side } \overline{YZ}} = \frac{-1}{\infty} = 0$$
+
+Since the slope is 0 (horizontal line), using point-slope form through $M_2(7, 2)$:
+
+$$y - 2 = 0(x - 7)$$
+
+$$\Rightarrow y - 2 = 0$$
+
+## Right Bisector of Side $\overline{ZX}$ (Line $\overline{M_3C}$)
+
+The right bisector $\overline{M_3C}$ is perpendicular to side $\overline{ZX}$:
+
+$$\text{Slope of } \overline{M_3C} = \frac{-1}{\text{Slope of side } \overline{ZX}} = \frac{-1}{4/7} = \frac{-7}{4}$$
+
+Using point-slope form through $M_3\left(\frac{7}{2}, 2\right)$ with slope $\frac{-7}{4}$:
+
+$$y - 2 = \frac{-7}{4}\left(x - \frac{7}{2}\right)$$
+
+$$y - 2 = \frac{-7}{4}x + \frac{49}{8}$$
+
+Multiply both sides by 8:
+
+$$8y - 16 = -14x + 49$$
+
+$$\Rightarrow 14x + 8y - 65 = 0$$
+
+## Finding the Point of Concurrency
+
+To find where all three right bisectors meet, solve any two equations simultaneously. Using equations (i) and (ii):
+
+From (i):
+$$2x = 7 \Rightarrow x = \frac{7}{2}$$
+
+From (ii):
+$$y = 2$$
+
+Thus, $\left(\frac{7}{2}, 2\right)$ is the point of concurrency of these right bisectors.
+
+## Name of the Point of Concurrency
+
+The point of concurrency of the right bisectors of a triangle is called the **circumcentre**. This point is equidistant from all three vertices of the triangle and is the center of the circumscribed circle (circumcircle).
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Midpoint formula:** $\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$
+- **Slope formula:** $m = \frac{y_2-y_1}{x_2-x_1}$
+- **Perpendicular slope:** $m_{\perp} = \frac{-1}{m}$ (negative reciprocal)
+- **Point-slope form:** $y - y_1 = m(x - x_1)$
+- **Vertical line:** $x = a$ (when slope is undefined)
+- **Horizontal line:** $y = b$ (when slope is zero)
+
+---
+
+# **Summary of Steps**
+
+1. **Find midpoints** of all three sides using the midpoint formula
+2. **Calculate slopes** of all three sides of the triangle
+3. **Find perpendicular slopes** for each right bisector using negative reciprocals
+4. **Write equations** of right bisectors using point-slope form through each midpoint
+5. **Solve any two equations** simultaneously to find the point of concurrency
+6. **Identify** the point of concurrency as the **circumcentre**",,,"unclassified","6",,"Find the equations of the right bisectors and the point of concurrency of the triangle $XYZ$ when $X(0, 0)$, $Y(7, 0)$ and $Z(7, 4)$. What is the name of the point of concurrency?
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m172sa4md84rde00nkjbmes9e58c6eaq",,,,,,,"false",,"# **Background and Explanation**
+
+A median of a triangle is a line segment joining a vertex to the midpoint of the opposite side. The three medians intersect at a single point called the point of concurrency. To solve this problem, you need the **midpoint formula** and the **two-point form** of a line equation.
+
+---
+
+# **Solution**
+
+Consider the triangle $DEF$ with vertices $D(-6,-4)$, $E(6,-4)$, and $F(-2,4)$:
+
+## Step 1: Find the Midpoints of the Sides
+
+Let $M_1$, $M_2$, and $M_3$ be the midpoints of sides $\overline{DE}$, $\overline{EF}$, and $\overline{FD}$ respectively. Using the midpoint formula $\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$:
+
+$$
+\begin{aligned}
+M_1 &= \left(\frac{-6+6}{2}, \frac{-4+(-4)}{2}\right) = (0,-4) \\[6pt]
+M_2 &= \left(\frac{6+(-2)}{2}, \frac{-4+4}{2}\right) = (2,0) \\[6pt]
+M_3 &= \left(\frac{-6+(-2)}{2}, \frac{-4+4}{2}\right) = (-4,0)
+\end{aligned}
+$$
+
+## Step 2: Equation of Median $\overline{DM_2}$
+
+The median from $D(-6,-4)$ to $M_2(2,0)$. Using the two-point form $\frac{x-x_1}{x_2-x_1} = \frac{y-y_1}{y_2-y_1}$:
+
+$$
+\begin{aligned}
+\frac{x-(-6)}{2-(-6)} &= \frac{y-(-4)}{0-(-4)} \\[6pt]
+\frac{x+6}{8} &= \frac{y+4}{4} \\[6pt]
+\frac{x+6}{2} &= \frac{y+4}{1} \quad \text{(dividing both sides by 4)} \\[6pt]
+x+6 &= 2y+8 \\[6pt]
+x-2y-2 &= 0
+\end{aligned}
+$$
+
+## Step 3: Equation of Median $\overline{EM_3}$
+
+The median from $E(6,-4)$ to $M_3(-4,0)$:
+
+$$
+\begin{aligned}
+\frac{x-6}{-4-6} &= \frac{y-(-4)}{0-(-4)} \\[6pt]
+\frac{x-6}{-10} &= \frac{y+4}{4} \\[6pt]
+\frac{x-6}{-5} &= \frac{y+4}{2} \quad \text{(dividing both sides by 2)} \\[6pt]
+2(x-6) &= -5(y+4) \\[6pt]
+2x-12 &= -5y-20 \\[6pt]
+2x+5y+8 &= 0
+\end{aligned}
+$$
+
+## Step 4: Equation of Median $\overline{FM_1}$
+
+The median from $F(-2,4)$ to $M_1(0,-4)$:
+
+$$
+\begin{aligned}
+\frac{x-(-2)}{0-(-2)} &= \frac{y-4}{-4-4} \\[6pt]
+\frac{x+2}{2} &= \frac{y-4}{-8} \\[6pt]
+\frac{x+2}{1} &= \frac{y-4}{-4} \quad \text{(dividing both sides by 2)} \\[6pt]
+-4(x+2) &= y-4 \\[6pt]
+-4x-8 &= y-4 \\[6pt]
+4x+y+4 &= 0
+\end{aligned}
+$$
+
+## Step 5: Finding the Point of Concurrency
+
+To find where the medians intersect, solve any two of the equations (i), (ii), and (iii). Let's solve equations (i) and (ii):
+
+Multiply equation (i) by 2:
+$$2x - 4y - 4 = 0$$
+
+Subtract equation (ii) from this result:
+$$
+\begin{aligned}
+(2x - 4y - 4) - (2x + 5y + 8) &= 0 \\[6pt]
+-9y - 12 &= 0 \\[6pt]
+9y &= -12 \\[6pt]
+y &= -\frac{4}{3}
+\end{aligned}
+$$
+
+Substitute $y = -\frac{4}{3}$ into equation (i):
+$$
+\begin{aligned}
+x - 2\left(-\frac{4}{3}\right) - 2 &= 0 \\[6pt]
+x + \frac{8}{3} - 2 &= 0 \\[6pt]
+x + \frac{8}{3} - \frac{6}{3} &= 0 \\[6pt]
+x &= -\frac{2}{3}
+\end{aligned}
+$$
+
+Thus, the point of concurrency is $\boxed{\left(-\frac{2}{3}, -\frac{4}{3}\right)}$.
+
+## Step 6: Verification and Identification
+
+We can verify this result using the **centroid formula**, which states that the point of concurrency of medians has coordinates $\left(\frac{x_1+x_2+x_3}{3}, \frac{y_1+y_2+y_3}{3}\right)$:
+
+$$
+\left(\frac{-6+6+(-2)}{3}, \frac{-4+(-4)+4}{3}\right) = \left(\frac{-2}{3}, \frac{-4}{3}\right)
+$$
+
+This confirms our solution. The point of concurrency of the medians of a triangle is called the **centroid** of the triangle.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Midpoint Formula:** $\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$
+- **Two-Point Form of a Line:** $\frac{x-x_1}{x_2-x_1} = \frac{y-y_1}{y_2-y_1}$
+- **Centroid Formula:** $\left(\frac{x_1+x_2+x_3}{3}, \frac{y_1+y_2+y_3}{3}\right)$
+- **Solving Simultaneous Linear Equations:** Substitution or elimination method
+
+---
+
+# **Summary of Steps**
+
+1. **Calculate midpoints** $M_1$, $M_2$, $M_3$ of the three sides $\overline{DE}$, $\overline{EF}$, and $\overline{FD}$ using the midpoint formula.
+2. **Find equations** of the three medians $\overline{DM_2}$, $\overline{EM_3}$, and $\overline{FM_1}$ using the two-point form of a line.
+3. **Solve any two median equations** simultaneously using elimination or substitution to find the intersection point.
+4. **Verify** the result using the centroid formula $\left(\frac{x_1+x_2+x_3}{3}, \frac{y_1+y_2+y_3}{3}\right)$.
+5. **Identify** the point of concurrency as the **centroid** of the triangle.",,,"unclassified","7",,"Find the equations of the medians and the point of concurrency of the triangle $DEF$ when $D(-6,-4)$, $E(6,-4)$ and $F(-2,4)$. What is the name of the point of concurrency?
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m175gtv4qpd8t9qqrz0h64t2ch8c6zcx",,,,,,,"false",,"# **Background and Explanation**
+
+Three lines are **concurrent** if they all intersect at a single common point. For three lines given by $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$, and $a_3x + b_3y + c_3 = 0$, concurrency can be verified by showing that the determinant of their coefficients equals zero. This problem demonstrates the classic geometry theorems regarding the orthocenter (altitudes), circumcenter (right bisectors), and centroid (medians).
+
+---
+
+# **Solution**
+
+## Part (i) — Triangle $ABC$ with $A(4,6)$, $B(7,2)$, $C(2,3)$
+
+### (a) Altitudes
+
+First, we calculate the slopes of the sides of $\triangle ABC$:
+
+$$\text{Slope of } \overline{AB} = \frac{6-2}{4-7} = \frac{-4}{3}$$
+
+$$\text{Slope of } \overline{BC} = \frac{2-3}{7-2} = \frac{-1}{5}$$
+
+$$\text{Slope of } \overline{CA} = \frac{6-3}{4-2} = \frac{3}{2}$$
+
+**Altitude $\overline{AE}$ from $A$ to $\overline{BC}$:**
+
+Since $\overline{AE} \perp \overline{BC}$:
+
+$$\text{Slope of } \overline{AE} = \frac{-1}{\text{Slope of } \overline{BC}} = \frac{-1}{\frac{-1}{5}} = 5$$
+
+Using point-slope form through $A(4,6)$:
+
+$$y - 6 = 5(x - 4)$$
+$$y - 6 = 5x - 20$$
+$$\Rightarrow 5x - y - 14 = 0$$
+
+**Altitude $\overline{BF}$ from $B$ to $\overline{CA}$:**
+
+Since $\overline{BF} \perp \overline{CA}$:
+
+$$\text{Slope of } \overline{BF} = \frac{-1}{\frac{3}{2}} = \frac{-2}{3}$$
+
+Equation through $B(7,2)$:
+
+$$y - 2 = -\frac{2}{3}(x - 7)$$
+$$3y - 6 = -2x + 14$$
+$$\Rightarrow 2x + 3y - 20 = 0$$
+
+**Altitude $\overline{CD}$ from $C$ to $\overline{AB}$:**
+
+Since $\overline{CD} \perp \overline{AB}$:
+
+$$\text{Slope of } \overline{CD} = \frac{-1}{\frac{-4}{3}} = \frac{3}{4}$$
+
+Equation through $C(2,3)$:
+
+$$y - 3 = \frac{3}{4}(x - 2)$$
+$$4y - 12 = 3x - 6$$
+$$\Rightarrow 3x - 4y + 6 = 0$$
+
+**Proving Concurrency:**
+
+To verify that the three altitudes meet at one point, we evaluate the determinant of their coefficients:
+
+$$\begin{vmatrix} 5 & -1 & -14 \\ 2 & 3 & -20 \\ 3 & -4 & 6 \end{vmatrix}$$
+
+Expanding along the first row:
+
+$$= 5\begin{vmatrix} 3 & -20 \\ -4 & 6 \end{vmatrix} + 1\begin{vmatrix} 2 & -20 \\ 3 & 6 \end{vmatrix} - 14\begin{vmatrix} 2 & 3 \\ 3 & -4 \end{vmatrix}$$
+
+$$= 5(18 - 80) + 1(12 + 60) - 14(-8 - 9)$$
+$$= 5(-62) + 72 - 14(-17)$$
+$$= -310 + 72 + 238 = 0$$
+
+Since the determinant equals zero, the altitudes are concurrent.
+
+---
+
+### (b) Right Bisectors
+
+Let $M_1$, $M_2$, $M_3$ be the midpoints of sides $\overline{AB}$, $\overline{BC}$, and $\overline{CA}$ respectively:
+
+$$M_1 = \left(\frac{4+7}{2}, \frac{6+2}{2}\right) = \left(\frac{11}{2}, 4\right)$$
+
+$$M_2 = \left(\frac{2+7}{2}, \frac{3+2}{2}\right) = \left(\frac{9}{2}, \frac{5}{2}\right)$$
+
+$$M_3 = \left(\frac{2+4}{2}, \frac{3+6}{2}\right) = \left(3, \frac{9}{2}\right)$$
+
+**Right bisector of $\overline{AB}$:**
+
+Perpendicular to $\overline{AB}$ (slope $\frac{-4}{3}$), so slope $= \frac{3}{4}$. Through $M_1\left(\frac{11}{2}, 4\right)$:
+
+$$y - 4 = \frac{3}{4}\left(x - \frac{11}{2}\right)$$
+$$4y - 16 = 3x - \frac{33}{2}$$
+$$8y - 32 = 6x - 33$$
+$$\Rightarrow 6x - 8y - 1 = 0$$
+
+**Right bisector of $\overline{BC}$:**
+
+Perpendicular to $\overline{BC}$ (slope $\frac{-1}{5}$), so slope $= 5$. Through $M_2\left(\frac{9}{2}, \frac{5}{2}\right)$:
+
+$$y - \frac{5}{2} = 5\left(x - \frac{9}{2}\right)$$
+$$2y - 5 = 10x - 45$$
+$$\Rightarrow 5x - y - 20 = 0$$
+
+**Right bisector of $\overline{CA}$:**
+
+Perpendicular to $\overline{CA}$ (slope $\frac{3}{2}$), so slope $= \frac{-2}{3}$. Through $M_3\left(3, \frac{9}{2}\right)$:
+
+$$y - \frac{9}{2} = \frac{-2}{3}(x - 3)$$
+
+Multiplying by 6:
+$$6y - 27 = -4x + 12$$
+$$\Rightarrow 4x + 6y - 39 = 0$$
+
+**Proving Concurrency:**
+
+$$\begin{vmatrix} 6 & -8 & -1 \\ 5 & -1 & -20 \\ 4 & 6 & -39 \end{vmatrix}$$
+
+$$= 6\begin{vmatrix} -1 & -20 \\ 6 & -39 \end{vmatrix} + 8\begin{vmatrix} 5 & -20 \\ 4 & -39 \end{vmatrix} - 1\begin{vmatrix} 5 & -1 \\ 4 & 6 \end{vmatrix}$$
+
+$$= 6(39 + 120) + 8(-195 + 80) - 1(30 + 4)$$
+$$= 6(159) + 8(-115) - 34$$
+$$= 954 - 920 - 34 = 0$$
+
+Thus, the right bisectors are concurrent.
+
+---
+
+### (c) Medians
+
+Using the same midpoints $M_1$, $M_2$, $M_3$ calculated above:
+
+**Median $\overline{AM_2}$ from $A(4,6)$ to $M_2\left(\frac{9}{2}, \frac{5}{2}\right)$:**
+
+Using two-point form:
+$$\frac{x-4}{\frac{9}{2}-4} = \frac{y-6}{\frac{5}{2}-6}$$
+$$\frac{x-4}{\frac{1}{2}} = \frac{y-6}{\frac{-7}{2}}$$
+$$\Rightarrow y - 6 = -7(x - 4)$$
+$$\Rightarrow 7x + y - 34 = 0$$
+
+**Median $\overline{BM_3}$ from $B(7,2)$ to $M_3\left(3, \frac{9}{2}\right)$:**
+
+$$\frac{x-7}{3-7} = \frac{y-2}{\frac{9}{2}-2}$$
+$$\frac{x-7}{-4} = \frac{2(y-2)}{5}$$
+$$5(x-7) = -8(y-2)$$
+$$5x - 35 = -8y + 16$$
+$$\Rightarrow 5x + 8y - 51 = 0$$
+
+**Median $\overline{CM_1}$ from $C(2,3)$ to $M_1\left(\frac{11}{2}, 4\right)$:**
+
+$$\frac{x-2}{\frac{11}{2}-2} = \frac{y-3}{4-3}$$
+$$\frac{2(x-2)}{7} = y - 3$$
+$$2x - 4 = 7y - 21$$
+$$\Rightarrow 2x - 7y + 17 = 0$$
+
+**Proving Concurrency:**
+
+$$\begin{vmatrix} 7 & 1 & -34 \\ 5 & 8 & -51 \\ 2 & -7 & 17 \end{vmatrix}$$
+
+$$= 7\begin{vmatrix} 8 & -51 \\ -7 & 17 \end{vmatrix} - 1\begin{vmatrix} 5 & -51 \\ 2 & 17 \end{vmatrix} - 34\begin{vmatrix} 5 & 8 \\ 2 & -7 \end{vmatrix}$$
+
+$$= 7(136 - 357) - 1(85 + 102) - 34(-35 - 16)$$
+$$= 7(-221) - 187 - 34(-51)$$
+$$= -1547 - 187 + 1734 = 0$$
+
+Therefore, the medians are concurrent.
+
+---
+
+## Part (ii) — Triangle $PQR$ with $P(-4,0)$, $Q(2,0)$, $R(0,3)$
+
+### (a) Altitudes
+
+Calculate side slopes:
+
+$$\text{Slope of } \overline{PQ} = \frac{0-0}{2-(-4)} = 0$$
+$$\text{Slope of } \overline{QR} = \frac{3-0}{0-2} = \frac{-3}{2}$$
+$$\text{Slope of } \overline{RP} = \frac{3-0}{0-(-4)} = \frac{3}{4}$$
+
+**Altitude $\overline{PA}$ from $P$ to $\overline{QR}$:**
+
+$$\text{Slope} = \frac{-1}{\frac{-3}{2}} = \frac{2}{3}$$
+
+Equation through $P(-4,0)$:
+$$y = \frac{2}{3}(x + 4)$$
+$$\Rightarrow 2x - 3y + 8 = 0$$
+
+**Altitude $\overline{QB}$ from $Q$ to $\overline{RP}$:**
+
+$$\text{Slope} = \frac{-1}{\frac{3}{4}} = \frac{-4}{3}$$
+
+Equation through $Q(2,0)$:
+$$y = \frac{-4}{3}(x - 2)$$
+$$3y = -4x + 8$$
+$$\Rightarrow 4x + 3y - 8 = 0$$
+
+**Altitude $\overline{RC}$ from $R$ to $\overline{PQ}$:**
+
+Since $\overline{PQ}$ is horizontal (slope 0), the altitude is vertical:
+$$\Rightarrow x = 0$$
+
+**Proving Concurrency:**
+
+$$\begin{vmatrix} 2 & -3 & 8 \\ 4 & 3 & -8 \\ 1 & 0 & 0 \end{vmatrix}$$
+
+$$= 2(0 - 0) + 3(0 + 8) + 8(0 - 3)$$
+$$= 0 + 24 - 24 = 0$$
+
+The altitudes are concurrent.
+
+---
+
+### (b) Right Bisectors
+
+Midpoints:
+$$M_1 = \left(\frac{-4+2}{2}, 0\right) = (-1, 0)$$
+$$M_2 = \left(\frac{2+0}{2}, \frac{0+3}{2}\right) = \left(1, \frac{3}{2}\right)$$
+$$M_3 = \left(\frac{-4+0}{2}, \frac{3}{2}\right) = \left(-2, \frac{3}{2}\right)$$
+
+**Right bisector of $\overline{PQ}$:**
+
+Perpendicular to horizontal line $\overline{PQ}$ is vertical through $M_1$:
+$$\Rightarrow x + 1 = 0$$
+
+**Right bisector of $\overline{QR}$:**
+
+Slope $= \frac{2}{3}$ through $M_2\left(1, \frac{3}{2}\right)$:
+$$y - \frac{3}{2} = \frac{2}{3}(x - 1)$$
+$$6y - 9 = 4x - 4$$
+$$\Rightarrow 4x - 6y + 5 = 0$$
+
+**Right bisector of $\overline{RP}$:**
+
+Slope $= \frac{-4}{3}$ through $M_3\left(-2, \frac{3}{2}\right)$:
+$$y - \frac{3}{2} = \frac{-4}{3}(x + 2)$$
+$$6y - 9 = -8x - 16$$
+$$\Rightarrow 8x + 6y + 7 = 0$$
+
+**Proving Concurrency:**
+
+$$\begin{vmatrix} 1 & 0 & 1 \\ 4 & -6 & 5 \\ 8 & 6 & 7 \end{vmatrix}$$
+
+$$= 1(-42 - 30) - 0 + 1(24 + 48)$$
+$$= -72 + 72 = 0$$
+
+The right bisectors are concurrent.
+
+---
+
+### (c) Medians
+
+**Median $\overline{PM_2}$ from $P(-4,0)$ to $M_2\left(1, \frac{3}{2}\right)$:**
+
+$$\frac{x+4}{5} = \frac{y}{\frac{3}{2}} = \frac{2y}{3}$$
+$$3x + 12 = 10y$$
+$$\Rightarrow 3x - 10y + 12 = 0$$
+
+**Median $\overline{QM_3}$ from $Q(2,0)$ to $M_3\left(-2, \frac{3}{2}\right)$:**
+
+$$\frac{x-2}{-4} = \frac{y}{\frac{3}{2}} = \frac{2y}{3}$$
+$$3x - 6 = -8y$$
+$$\Rightarrow 3x + 8y - 6 = 0$$
+
+**Median $\overline{RM_1}$ from $R(0,3)$ to $M_1(-1,0)$:**
+
+$$\frac{x}{-1} = \frac{y-3}{-3}$$
+$$3x = y - 3$$
+$$\Rightarrow 3x - y + 3 = 0$$
+
+**Proving Concurrency:**
+
+$$\begin{vmatrix} 3 & -10 & 12 \\ 3 & 8 & -6 \\ 3 & -1 & 3 \end{vmatrix}$$
+
+$$= 3(24 - 6) + 10(9 + 18) + 12(-3 - 24)$$
+$$= 3(18) + 10(27) + 12(-27)$$
+$$= 54 + 270 - 324 = 0$$
+
+All medians are concurrent.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Slope Formula:** $m = \frac{y_2 - y_1}{x_2 - x_1}$
+- **Perpendicularity Condition:** $m_{\perp} = -\frac{1}{m}$ (negative reciprocal)
+- **Point-Slope Form:** $y - y_1 = m(x - x_1)$
+- **Two-Point Form:** $\frac{y - y_1}{y_2 - y_1} = \frac{x - x_1}{x_2 - x_1}$
+- **Midpoint Formula:** $M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$
+- **Concurrency Condition:** For lines $a_ix + b_iy + c_i = 0$, the determinant $\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$
+
+---
+
+# **Summary of Steps**
+
+1. **Calculate side slopes** using the slope formula for all three sides of the triangle
+2. **Determine perpendicular slopes** (negative reciprocals) for altitudes and right bisectors
+3. **Find midpoints** of each side for right bisectors and medians
+4. **Derive line equations** using point-slope form (through vertices for altitudes/medians, through midpoints for right bisectors)
+5. **Arrange equations** in standard form $ax + by + c = 0$ to extract coefficients
+6. **Evaluate the determinant** of the $3 \times 3$ coefficient matrix—if zero, the lines are concurrent",,,"unclassified","8",,"Prove that (a) altitudes, (b) right bisectors, and (c) medians of the following triangles are concurrent:
+
+**(i)** $A(4,6)$, $B(7,2)$, $C(2,3)$
+
+**(ii)** $P(-4,0)$, $Q(2,0)$, $R(0,3)$
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-1","6.1 Concurrency of Lines in a Triangle","m17dz6zwmvxyrqpq8emk3zq7dd8c79pz",,,,,,,"false",,"# **Background and Explanation**
+
+To find the area of a triangle when the coordinates of its vertices are known, we use the determinant method (also called the shoelace formula). This involves constructing a $3 \times 3$ matrix from the coordinates and evaluating its determinant. The absolute value of half the determinant gives the area.
+
+---
+
+# **Solution**
+
+## Part (i): Triangle with vertices $A(1,1)$, $B(4,5)$, and $C(12,-1)$
+
+The area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$ is given by:
+$$\text{Area} = \frac{1}{2}\left| \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} \right|$$
+
+Substituting the coordinates of $A$, $B$, and $C$:
+
+$$
+\text{Area} = \frac{1}{2}\left|\begin{array}{rrr} 1 & 1 & 1 \\ 4 & 5 & 1 \\ 12 & -1 & 1 \end{array}\right|
+$$
+
+Expanding the determinant along the first row using cofactor expansion (multiplying each element by its corresponding $2 \times 2$ minor with appropriate sign):
+
+$$
+\quad = \frac{1}{2}\left[1\left|\begin{array}{rr} 5 & 1 \\ -1 & 1 \end{array}\right|-1\left|\begin{array}{rr} 4 & 1 \\ 12 & 1 \end{array}\right|+1\left|\begin{array}{rr} 4 & 5 \\ 12 & -1 \end{array}\right|\right]
+$$
+
+Calculating each $2 \times 2$ determinant using the formula $\left|\begin{array}{cc} a & b \\ c & d \end{array}\right| = ad - bc$:
+
+$$
+\quad = \frac{1}{2}[1(5 \cdot 1 - (-1) \cdot 1) - 1(4 \cdot 1 - 12 \cdot 1) + 1(4 \cdot (-1) - 12 \cdot 5)] \\
+\quad = \frac{1}{2}[1(5 + 1) - 1(4 - 12) + 1(-4 - 60)] \\
+\quad = \frac{1}{2}[6 - (-8) + (-64)] \\
+\quad = \frac{1}{2}[6 + 8 - 64] \\
+\quad = \frac{1}{2}(-50) \\
+\quad = -25
+$$
+
+Since area is always positive, we take the absolute value:
+
+$$\text{Area} = 25 \text{ square units}$$
+
+## Part (ii): Triangle with vertices $D(3,1)$, $E(2,3)$, and $F(2,2)$
+
+Using the same determinant formula:
+
+$$
+\text{Area} = \frac{1}{2}\left|\begin{array}{lll} 3 & 1 & 1 \\ 2 & 3 & 1 \\ 2 & 2 & 1 \end{array}\right|
+$$
+
+Expanding along the first row:
+
+$$
+\quad = \frac{1}{2}\left[3\left|\begin{array}{ll} 3 & 1 \\ 2 & 1 \end{array}\right|-1\left|\begin{array}{ll} 2 & 1 \\ 2 & 1 \end{array}\right|+1\left|\begin{array}{ll} 2 & 3 \\ 2 & 2 \end{array}\right|\right]
+$$
+
+Evaluating the $2 \times 2$ determinants:
+
+$$
+\quad = \frac{1}{2}[3(3 \cdot 1 - 2 \cdot 1) - 1(2 \cdot 1 - 2 \cdot 1) + 1(2 \cdot 2 - 2 \cdot 3)] \\
+\quad = \frac{1}{2}[3(3 - 2) - 1(2 - 2) + 1(4 - 6)] \\
+\quad = \frac{1}{2}[3(1) - 1(0) + 1(-2)] \\
+\quad = \frac{1}{2}[3 - 0 - 2] \\
+\quad = \frac{1}{2}(1) \\
+\quad = \frac{1}{2}
+$$
+
+Therefore, the area of the triangle is $\frac{1}{2}$ square units.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Determinant Formula for Triangle Area**: $\text{Area} = \frac{1}{2}\left| \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} \right|$
+- **Cofactor Expansion**: Expanding a $3 \times 3$ determinant along the first row using minors and cofactors (signs alternate: $+$, $-$, $+$)
+- **$2 \times 2$ Determinant**: $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$
+- **Absolute Value Property**: Area is always positive, so we take $| \text{result} |$ if the determinant yields a negative value
+
+---
+
+# **Summary of Steps**
+
+1. **Set up the matrix**: Write the coordinates as a $3 \times 3$ matrix with $x$ and $y$ coordinates in the first two columns and $1$ in the third column for each vertex.
+2. **Expand the determinant**: Use cofactor expansion along the first row to break the $3 \times 3$ determinant into three $2 \times 2$ determinants with alternating signs ($+$, $-$, $+$).
+3. **Calculate minors**: Evaluate each $2 \times 2$ determinant using the rule $ad - bc$.
+4. **Sum and simplify**: Multiply each minor by its cofactor, sum the results, and multiply by $\frac{1}{2}$.
+5. **Final answer**: Take the absolute value of the result to ensure the area is positive.",,,"unclassified","9",,"Find the area of the triangles:
+
+(i) $A(1,1)$; $B(4,5)$; $C(12,-1)$
+
+(ii) $D(3,1)$; $E(2,3)$; $F(2,2)$
+
+---","ms7bwq2hjabhsd3jf23j91hcn585qwyn",,"xd7fz5ys8stzebk0zeb2jr2t3x8c73gy","Exercise 6.1","exercise","{""blockIndex"":4,""chapterNumber"":6,""page"":171,""subjectSlug"":""maths-12""}"
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m1789xdb2e4w1da0s2jkb8g6bx85qdxk",,"true","Federal Board",,"[""Correctly identified coefficients $a = 3$, $h = -1$, $b = -8$ from the homogeneous equation"",""Formed and solved the quadratic $8m^2 + 2m - 3 = 0$ to find slopes $m_1 = \\frac{1}{2}$ and $m_2 = -\\frac{3}{4}$"",""Correctly wrote the pair of lines as $2x - y = 0$ and $3x + 4y = 0$"",""Applied the angle formula $\\tan\\theta = \\left|\\frac{m_1 - m_2}{1 + m_1m_2}\\right|$ correctly"",""Obtained final answer $\\theta = \\tan^{-1}(2)$ or approximately $63.43°$""]",,"false","4","**a. Pair of Straight Lines:**
+
+The equation $3x^2 - 2xy - 8y^2 = 0$ is a homogeneous second-degree equation of the form $ax^2 + 2hxy + by^2 = 0$, where $a = 3$, $2h = -2$ (so $h = -1$), and $b = -8$.
+
+To find the pair of lines, we treat this as a quadratic in $m = \frac{y}{x}$:
+$$bm^2 + 2hm + a = 0$$
+$$-8m^2 - 2m + 3 = 0$$
+$$8m^2 + 2m - 3 = 0$$
+
+Using the quadratic formula:
+$$m = \frac{-2 \pm \sqrt{4 + 96}}{16} = \frac{-2 \pm 10}{16}$$
+
+So $m_1 = \frac{1}{2}$ and $m_2 = -\frac{3}{4}$.
+
+The pair of straight lines are: $\boxed{2x - y = 0 \text{ and } 3x + 4y = 0}$
+
+**b. Angle Between the Lines:**
+
+Using the formula $\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1m_2}\right|$:
+$$\tan\theta = \left|\frac{\frac{1}{2} - (-\frac{3}{4})}{1 + (\frac{1}{2})(-\frac{3}{4})}\right| = \left|\frac{\frac{5}{4}}{1 - \frac{3}{8}}\right| = \left|\frac{\frac{5}{4}}{\frac{5}{8}}\right| = 2$$
+
+Therefore: $\boxed{\theta = \arctan(2) \approx 63.43°}$ or $\theta = \tan^{-1}(2)$",,"B","short","14","annual","If $3x^{2}-2xy-8y^{2}=0$ is a 2nd degree homogeneous equation then find:
+**a.** Pair of straight lines
+**b.** Angle between these lines","ms74hy951ytzpsaagx2xk8537h85q5rq","2025",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m17ar5rxk1kv2p2an7pjef103x85p0zz","C","true","Federal Board","The pair of lines represented by the homogeneous equation $ax^2 + 2hxy + by^2 = 0$ will be real and coincident if the discriminant equals zero, i.e., $h^2 - ab = 0$ or $h^2 = ab$. This condition ensures that the quadratic $bm^2 + 2hm + a = 0$ (obtained by treating the equation as quadratic in $m = \frac{y}{x}$) has equal roots, meaning both lines coincide into a single line through the origin.","[""The condition for real and coincident lines is $h^2 - ab = 0$ or equivalently $h^2 = ab$"",""This makes the discriminant of the quadratic $bm^2 + 2hm + a = 0$ equal to zero"",""Equal roots in the quadratic mean both lines represented are identical (coincident)"",""The lines are real when the discriminant is non-negative; coincident when discriminant equals zero""]",,"false","1","The pair of lines represented by the homogeneous equation $ax^2 + 2hxy + by^2 = 0$ will be real and coincident if the discriminant equals zero, i.e., $h^2 - ab = 0$ or $h^2 = ab$. This condition ensures that the quadratic $bm^2 + 2hm + a = 0$ (obtained by treating the equation as quadratic in $m = \frac{y}{x}$) has equal roots, meaning both lines coincide into a single line through the origin.","[{""key"":""A"",""text"":""$h^2 > ab$""},{""key"":""B"",""text"":""$h^2 < ab$""},{""key"":""C"",""text"":""$h^2 = ab$""},{""key"":""D"",""text"":""$a + b = 0$""}]","MCQ","mcq","12","annual","Pair of lines represented by Homogeneous equation $ax^2 + 2hxy + by^2 = 0$ through origin will be real and coincident if:","ms74hy951ytzpsaagx2xk8537h85q5rq","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m17ept7m0t2b19e099bfrvst2n85qpdd","B","true","Federal Board","Two vectors are parallel if one is a scalar multiple of the other. Since $\mathbf{u} = \mathbf{i} + 3\mathbf{j} - 4\mathbf{k}$ and $\mathbf{w} = \lambda \mathbf{i} + 9\mathbf{j} - 12\mathbf{k}$ are parallel, we have $\mathbf{w} = k\mathbf{u}$ for some scalar $k$. Comparing coefficients: $\lambda = k(1)$, $9 = k(3)$, and $-12 = k(-4)$. From the second equation, $k = 3$. Therefore, $\lambda = 3$.","[""Recognizes that parallel vectors satisfy $\\mathbf{w} = k\\mathbf{u}$ for scalar $k$"",""Correctly identifies $k = 3$ from the $\\mathbf{j}$ or $\\mathbf{k}$ component"",""Correctly determines $\\lambda = 3$ by applying the scalar multiple relationship""]",,"false","1","Two vectors are parallel if one is a scalar multiple of the other. Since $\mathbf{u} = \mathbf{i} + 3\mathbf{j} - 4\mathbf{k}$ and $\mathbf{w} = \lambda \mathbf{i} + 9\mathbf{j} - 12\mathbf{k}$ are parallel, we have $\mathbf{w} = k\mathbf{u}$ for some scalar $k$. Comparing coefficients: $\lambda = k(1)$, $9 = k(3)$, and $-12 = k(-4)$. From the second equation, $k = 3$. Therefore, $\lambda = 3$.","[{""key"":""A"",""text"":""-3""},{""key"":""B"",""text"":""3""},{""key"":""C"",""text"":""-9""},{""key"":""D"",""text"":""9""}]","MCQ","mcq","19","annual","If $\mathbf{u} = \mathbf{i} + 3\mathbf{j} - 4\mathbf{k}$ and $\mathbf{w} = \lambda \mathbf{i} + 9\mathbf{j} - 12\mathbf{k}$ are parallel, then what is the value of $\lambda$?","ms74hy951ytzpsaagx2xk8537h85q5rq","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m174mcsm6xzegaxc1dfapbrcp985qfv0",,"true","Federal Board",,"[""Correctly identified slopes from line equations: $m_1 = -\\frac{7}{3}$ and $m_2 = \\frac{5}{2}$"",""Applied angle formula: $\\tan\\theta = \\left|\\frac{m_2 - m_1}{1 + m_1m_2}\\right|$"",""Correctly computed numerator: $\\frac{5}{2} - (-\\frac{7}{3}) = \\frac{31}{6}$"",""Correctly computed denominator: $1 + (-\\frac{7}{3})(\\frac{5}{2}) = -\\frac{29}{6}$"",""Final answer: $\\theta = \\arctan(\\frac{31}{29})$ or approximately $47.1°$""]",,"false","4","To find the angle θ from line $L_1: 7x + 3y - 9 = 0$ to line $L_2: 5x - 2y + 2 = 0$, we use the formula for the angle between two lines. The slopes are $m_1 = -\frac{7}{3}$ and $m_2 = \frac{5}{2}$. Using $\tan\theta = \left|\frac{m_2 - m_1}{1 + m_1m_2}\right|$, we get $\tan\theta = \left|\frac{\frac{5}{2} + \frac{7}{3}}{1 - \frac{35}{6}}\right| = \left|\frac{\frac{31}{6}}{-\frac{29}{6}}\right| = \frac{31}{29}$. Therefore, $\theta = \arctan\left(\frac{31}{29}\right) \approx 47.1°$.",,"B","short","10","annual","Find the angle $\theta$ from the lines $L_1$ to $L_2$ where:
+$L_1: 7x + 3y - 9 = 0$
+$L_2: 5x - 2y + 2 = 0$","ms74hy951ytzpsaagx2xk8537h85q5rq","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m17afpwdhgbj002j740qfe6bpd85q92c",,"true","Federal Board",,"[""Correctly apply the perpendicularity condition: $\\vec{a} \\cdot \\vec{b} = 0$"",""Calculate dot product: $(3)(4) + (\\alpha)(5) + (4)(\\alpha) = 12 + 9\\alpha$"",""Solve the equation $12 + 9\\alpha = 0$ to obtain $\\alpha = -\\frac{4}{3}$""]",,"false","4","Two vectors are perpendicular when their dot product equals zero. For vectors $\vec{a} = 3\hat{i} + \alpha\hat{j} + 4\hat{k}$ and $\vec{b} = 4\hat{i} + 5\hat{j} + \alpha\hat{k}$, we calculate: $\vec{a} \cdot \vec{b} = (3)(4) + (\alpha)(5) + (4)(\alpha) = 12 + 5\alpha + 4\alpha = 12 + 9\alpha$. Setting this equal to zero: $12 + 9\alpha = 0$, which gives $\alpha = -\frac{4}{3}$.",,"B","short","15","annual","Find the scalar $\alpha$ so that vectors $3\hat{i} + \alpha\hat{j} + 4\hat{k}$ and $4\hat{i} + 5\hat{j} + \alpha\hat{k}$ are perpendicular to each other.","ms74hy951ytzpsaagx2xk8537h85q5rq","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m171k744g3crd5gp5wgg37h34185q3yc",,"true","Federal Board",,"[""Identify 9 distinct letters in EDUCATION with 4 vowels and 5 consonants"",""Calculate total arrangements: $9! = 362,880$"",""Calculate arrangements with all vowels together by treating vowels as single unit: $5! \\times 4! = 2,880$"",""Apply complementary counting principle: subtract vowels-together from total"",""Final answer: $362,880 - 2,880 = 359,400$ arrangements""]",,"false","4","The word ""EDUCATION"" has 9 letters: E, D, U, C, A, T, I, O, N with 4 vowels (E, U, A, I, O) and 5 consonants (D, C, T, N). To find arrangements where vowels are never together, we use: Total arrangements minus arrangements where all vowels are together. Total = $9!$. For vowels together, treat 4 vowels as one unit: $5! \times 4! = 120 \times 24 = 2880$. Therefore, arrangements with vowels never together = $9! - 5! \times 4! = 362880 - 2880 = 359,400$.",,"B","short","16","annual","How many words can be formed by using the letters from the word ""EDUCATION"" such that all the vowels are never together?","ms74hy951ytzpsaagx2xk8537h85q5rq","2025",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m17abrjm0r2a9e8gt6r54d0mx58c6nwy",,,,,,,"false",,"# **Background and Explanation**
+
+A joint equation of the form $ax^2 + 2hxy + by^2 = 0$ represents two straight lines passing through the origin. To find these individual lines, we factorize the homogeneous quadratic expression into two linear factors. When simple factorization by grouping is not possible, we treat the equation as a quadratic in one variable and apply the quadratic formula.
+
+---
+
+# **Solution**
+
+## Part (i)
+
+Given the equation:
+
+$$x^{2}+5 x y+6 y^{2}=0$$
+
+To factorize, we split the middle term $5xy$ into $2xy + 3xy$:
+
+$$x^{2}+2 x y+3 x y+6 y^{2}=0$$
+
+Group the terms to extract common binomial factors:
+
+$$x(x+2 y)+3 y(x+2 y)=0$$
+
+Factor out $(x+2y)$:
+
+$$(x+3 y)(x+2 y)=0$$
+
+Setting each factor equal to zero gives the required lines:
+
+$$x+3 y=0 \quad \text{and} \quad x+2 y=0$$
+
+## Part (ii)
+
+Given the equation:
+
+$$7 x^{2}-2 x y-9 y^{2}=0$$
+
+Factorize by grouping. We look for terms that give a common binomial factor:
+
+$$7 x(x+y)-9 y(x+y)=0$$
+
+Verify: $7x(x+y) = 7x^2 + 7xy$ and $-9y(x+y) = -9xy - 9y^2$, which sum to $7x^2 - 2xy - 9y^2$.
+
+Factor out $(x+y)$:
+
+$$(7 x-9 y)(x+y)=0$$
+
+Therefore, the required lines are:
+
+$$7 x-9 y=0 \quad \text{and} \quad x+y=0$$
+
+## Part (iii)
+
+Given the equation:
+
+$$x^{2}+6 x y=0$$
+
+Factor out the common term $x$:
+
+$$x(x+6 y)=0$$
+
+Setting each factor to zero:
+
+$$x=0 \quad \text{and} \quad x+6 y=0$$
+
+These are the required lines (the y-axis and a line through the origin with slope $-\frac{1}{6}$).
+
+## Part (iv)
+
+Given the equation:
+
+$$x^{2}-8 x y+12 y^{2}=0$$
+
+Split $-8xy$ as $-6xy - 2xy$ to enable grouping:
+
+$$x^{2}-6 x y-2 x y+12 y^{2}=0$$
+
+Group terms:
+
+$$x(x-6 y)-2 y(x-6 y)=0$$
+
+Factor out $(x-6y)$:
+
+$$(x-2 y)(x-6 y)=0$$
+
+Therefore, the required lines are:
+
+$$x-2 y=0 \quad \text{and} \quad x-6 y=0$$
+
+## Part (v)
+
+Given the equation:
+
+$$5 x^{2}+3 x y-2 y^{2}=0$$
+
+Split $3xy$ as $5xy - 2xy$:
+
+$$5 x^{2}+5 x y-2 x y-2 y^{2}=0$$
+
+Group terms:
+
+$$5 x(x+y)-2 y(x+y)=0$$
+
+Factor out $(x+y)$:
+
+$$(x+y)(5 x-2 y)=0$$
+
+Therefore, the required lines are:
+
+$$x+y=0 \quad \text{and} \quad 5 x-2 y=0$$
+
+## Part (vi)
+
+Given the equation:
+
+$$x^{2}-3 x y-y^{2}=0$$
+
+Since this cannot be factorized easily by rational coefficients (inspection method fails), we treat it as a quadratic equation in $x$:
+
+$$x^{2}-(3 y) x+\left(-y^{2}\right)=0$$
+
+Using the quadratic formula $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$ with $a=1$, $b=-3y$, and $c=-y^2$:
+
+$$x=\frac{-(-3 y) \pm \sqrt{(3 y)^{2}-4(1)(-y^{2})}}{2(1)}$$
+
+Simplify the discriminant:
+
+$$x=\frac{3 y \pm \sqrt{9 y^{2}+4 y^{2}}}{2}=\frac{3 y \pm \sqrt{13 y^{2}}}{2}=\frac{3 y \pm \sqrt{13} y}{2}$$
+
+Factor out $y$:
+
+$$x=\left(\frac{3 \pm \sqrt{13}}{2}\right) y$$
+
+This yields two separate equations. Multiply both sides by 2 and rearrange:
+
+$$2x=(3+\sqrt{13}) y \quad \Rightarrow \quad 2x-(3+\sqrt{13}) y=0$$
+
+$$2x=(3-\sqrt{13}) y \quad \Rightarrow \quad 2x-(3-\sqrt{13}) y=0$$
+
+Therefore, the required lines are:
+
+$$2x-(3+\sqrt{13}) y=0 \quad \text{and} \quad 2x-(3-\sqrt{13}) y=0$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Homogeneous Quadratic Equation**: General form $ax^2 + 2hxy + by^2 = 0$ representing two lines through the origin
+- **Factorization by Grouping**: Splitting the middle term $2hxy$ to create two groups with common binomial factors
+- **Quadratic Formula**: For equation $ax^2 + bx + c = 0$, solutions are $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$
+- **Linear Factor Interpretation**: Each linear factor $(lx + my)$ corresponds to a line $lx + my = 0$
+
+---
+
+# **Summary of Steps**
+
+1. **Identify** the equation as a homogeneous quadratic (joint equation) in $x$ and $y$
+2. **Attempt factorization** by splitting the middle term and grouping to find common binomial factors
+3. **If factorizable**: Set each linear factor equal to zero to obtain the two lines
+4. **If not easily factorable**: Treat as quadratic in one variable (say $x$), treating the other variable ($y$) as constant, and apply the quadratic formula
+5. **Simplify** the resulting expressions and rearrange into standard line form $lx + my = 0$",,,"unclassified","1",,"**Q1.** Find the lines represented by each of the following joint equations:
+
+(i) $x^{2}+5 x y+6 y^{2}=0$
+
+(ii) $7 x^{2}-2 x y-9 y^{2}=0$
+
+(iii) $x^{2}+6 x y=0$
+
+(iv) $x^{2}-8 x y+12 y^{2}=0$
+
+(v) $5 x^{2}+3 x y-2 y^{2}=0$
+
+(vi) $x^{2}-3 x y-y^{2}=0$
+
+---","ms74hy951ytzpsaagx2xk8537h85q5rq",,"xd7dk5nbt4e6tcn8kr75sk8rfx8c61mv","Exercise 6.2","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m1786vzxcrnszb38z33bxtvnns8c7fpj",,,,,,,"false",,"# **Background and Explanation**
+
+When a second-degree homogeneous equation $ax^2 + 2hxy + by^2 = 0$ represents two straight lines passing through the origin, the acute angle $\theta$ between them can be found using the formula $\tan \theta = \frac{2\sqrt{h^2-ab}}{|a+b|}$. Note that if $a+b=0$, the lines are perpendicular ($\theta = 90°$), and if the calculated $\tan \theta$ is negative, we take its absolute value to ensure we obtain the acute angle.
+
+---
+
+# **Solution**
+
+## Part (i): $x^{2}-y^{2}=0$
+
+First, we compare the given equation with the standard form $ax^2 + 2hxy + by^2 = 0$ to identify the coefficients:
+
+$$a=1, \quad 2h=0 \Rightarrow h=0, \quad b=-1$$
+
+Using the formula for the angle between the lines:
+
+$$\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b}$$
+
+Substituting the values:
+
+$$\tan \theta = \frac{2\sqrt{0^2-(1)(-1)}}{1+(-1)} = \frac{2\sqrt{1}}{0} = \frac{2}{0} = \infty$$
+
+Since $\tan \theta = \infty$, we have:
+
+$$\theta = \tan^{-1}(\infty) = 90^{\circ}$$
+
+**Interpretation:** When the denominator $a+b=0$, the lines are perpendicular to each other.
+
+## Part (ii): $x^{2}+5xy+4y^{2}=0$
+
+Comparing with the standard form $ax^2 + 2hxy + by^2 = 0$:
+
+$$a=1, \quad b=4, \quad 2h=5 \Rightarrow h=\frac{5}{2}$$
+
+Applying the angle formula:
+
+$$\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b} = \frac{2\sqrt{\left(\frac{5}{2}\right)^2-(1)(4)}}{1+4}$$
+
+Simplifying the expression under the square root:
+
+$$= \frac{2\sqrt{\frac{25}{4}-4}}{5} = \frac{2\sqrt{\frac{25-16}{4}}}{5} = \frac{2\sqrt{\frac{9}{4}}}{5}$$
+
+$$= \frac{2\left(\frac{3}{2}\right)}{5} = \frac{3}{5}$$
+
+Therefore:
+
+$$\theta = \tan^{-1}\left(\frac{3}{5}\right) \approx 30.96^{\circ} \approx 31^{\circ}$$
+
+## Part (iii): $15x^{2}-19xy+6y^{2}=0$
+
+Comparing with the standard form:
+
+$$a=15, \quad b=6, \quad 2h=-19 \Rightarrow h=-\frac{19}{2}$$
+
+Using the angle formula:
+
+$$\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b} = \frac{2\sqrt{\left(-\frac{19}{2}\right)^2-(15)(6)}}{15+6}$$
+
+Calculating step by step:
+
+$$= \frac{2\sqrt{\frac{361}{4}-90}}{21} = \frac{2\sqrt{\frac{361-360}{4}}}{21} = \frac{2\sqrt{\frac{1}{4}}}{21}$$
+
+$$= \frac{2\left(\frac{1}{2}\right)}{21} = \frac{1}{21}$$
+
+Thus:
+
+$$\theta = \tan^{-1}\left(\frac{1}{21}\right) \approx 2.73^{\circ}$$
+
+## Part (iv): $10x^{2}-xy-9y^{2}=0$
+
+Comparing with the standard form:
+
+$$a=10, \quad b=-9, \quad 2h=-1 \Rightarrow h=-\frac{1}{2}$$
+
+Applying the formula:
+
+$$\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b} = \frac{2\sqrt{\left(-\frac{1}{2}\right)^2-(10)(-9)}}{10+(-9)}$$
+
+Simplifying:
+
+$$= \frac{2\sqrt{\frac{1}{4}+90}}{1} = 2\sqrt{\frac{1+360}{4}} = 2\sqrt{\frac{361}{4}}$$
+
+$$= 2\left(\frac{19}{2}\right) = 19$$
+
+Therefore:
+
+$$\theta = \tan^{-1}(19) \approx 86.98^{\circ} \approx 87^{\circ}$$
+
+## Part (v): $5x^{2}-3xy-2y^{2}=0$
+
+Comparing with the standard form:
+
+$$a=5, \quad b=-2, \quad 2h=-3 \Rightarrow h=-\frac{3}{2}$$
+
+Using the angle formula:
+
+$$\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b} = \frac{2\sqrt{\left(-\frac{3}{2}\right)^2-(5)(-2)}}{5+(-2)}$$
+
+Calculating the values:
+
+$$= \frac{2\sqrt{\frac{9}{4}+10}}{3} = \frac{2\sqrt{\frac{9+40}{4}}}{3} = \frac{2\sqrt{\frac{49}{4}}}{3}$$
+
+$$= \frac{2\left(\frac{7}{2}\right)}{3} = \frac{7}{3}$$
+
+Thus:
+
+$$\theta = \tan^{-1}\left(\frac{7}{3}\right) \approx 66.80^{\circ}$$
+
+## Part (vi): $7x^{2}+2xy-9y^{2}=0$
+
+Comparing with the standard form:
+
+$$a=7, \quad b=-9, \quad 2h=2 \Rightarrow h=1$$
+
+Applying the angle formula:
+
+$$\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b} = \frac{2\sqrt{(1)^2-(7)(-9)}}{7+(-9)}$$
+
+Simplifying:
+
+$$= \frac{2\sqrt{1+63}}{-2} = \frac{2\sqrt{64}}{-2} = \frac{2(8)}{-2} = -8$$
+
+Since we require the **acute** angle between the lines, and the tangent of an acute angle must be positive, we take the absolute value:
+
+$$\tan \theta = 8$$
+
+Therefore:
+
+$$\theta = \tan^{-1}(8) \approx 82.87^{\circ}$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Standard Form:** $ax^2 + 2hxy + by^2 = 0$ represents a pair of straight lines through the origin
+- **Angle Formula:** $\tan \theta = \left|\frac{2\sqrt{h^2-ab}}{a+b}\right|$ (absolute value ensures acute angle)
+- **Special Case:** If $a+b=0$, then $\tan \theta = \infty$ and $\theta = 90^{\circ}$ (perpendicular lines)
+- **Sign Convention:** If calculation yields negative $\tan \theta$, use $|\tan \theta|$ to find the acute angle
+
+---
+
+# **Summary of Steps**
+
+1. **Identify coefficients:** Compare the given equation with $ax^2 + 2hxy + by^2 = 0$ to find $a$, $h$, and $b$
+2. **Check for perpendicularity:** If $a+b=0$, the lines are perpendicular ($\theta = 90^{\circ}$)
+3. **Apply formula:** Calculate $\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b}$
+4. **Simplify:** Evaluate the discriminant $h^2-ab$ and simplify the radical expression
+5. **Determine sign:** If $\tan \theta < 0$, take the absolute value to obtain the acute angle
+6. **Calculate angle:** Compute $\theta = \tan^{-1}(\text{value})$ and round to appropriate decimal places",,,"unclassified","2",,"Find the measure of the acute angle between the pair of lines represented by the following homogeneous equations:
+
+(i) $x^{2}-y^{2}=0$
+
+(ii) $x^{2}+5 x y+4 y^{2}=0$
+
+(iii) $15 x^{2}-19 x y+6 y^{2}=0$
+
+(iv) $10 x^{2}-x y-9 y^{2}=0$
+
+(v) $5 x^{2}-3 x y-2 y^{2}=0$
+
+(vi) $7 x^{2}+2 x y-9 y^{2}=0$
+
+---","ms74hy951ytzpsaagx2xk8537h85q5rq",,"xd7dk5nbt4e6tcn8kr75sk8rfx8c61mv","Exercise 6.2","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m171xvk2cq78hhv4keb6t100858c6e21",,,,,,,"false",,"# **Background and Explanation**
+
+A general homogeneous equation of second degree $ax^2 + 2hxy + by^2 = 0$ represents a pair of straight lines passing through the origin. The nature of these lines—whether they are real and distinct, coincident, or imaginary—is determined by the discriminant $h^2 - ab$.
+
+---
+
+# **Solution**
+
+## Part (i): $x^{2}+4xy-21y^{2}=0$
+
+Compare the given equation with the standard form $ax^{2}+2hxy+by^{2}=0$:
+
+$$a=1, \quad b=-21, \quad 2h=4 \implies h=2$$
+
+Now calculate the discriminant:
+
+$$h^{2}-ab=(2)^{2}-(1)(-21)=4+21=25$$
+
+Since $h^{2}-ab=25>0$, the discriminant is positive. Therefore, the lines represented by this equation are **real and distinct**.
+
+## Part (ii): $4x^{2}-12xy+9y^{2}=0$
+
+Compare the given equation with the standard form $ax^{2}+2hxy+by^{2}=0$:
+
+$$a=4, \quad b=9, \quad 2h=-12 \implies h=-6$$
+
+Now calculate the discriminant:
+
+$$h^{2}-ab=(-6)^{2}-(4)(9)=36-36=0$$
+
+Since $h^{2}-ab=0$, the discriminant equals zero. This indicates that the two lines merge into one, so the lines are **real and coincident**.
+
+## Part (iii): $x^{2}+xy+y^{2}=0$
+
+Compare the given equation with the standard form $ax^{2}+2hxy+by^{2}=0$:
+
+$$a=1, \quad b=1, \quad 2h=1 \implies h=\frac{1}{2}$$
+
+Now calculate the discriminant:
+
+$$h^{2}-ab=\left(\frac{1}{2}\right)^{2}-(1)(1)$$
+
+$$
+\begin{aligned}
+&=\frac{1}{4}-1 \\
+&=-\frac{3}{4}
+\end{aligned}
+$$
+
+Since $h^{2}-ab=-\frac{3}{4}<0$, the discriminant is negative. Therefore, the lines are **imaginary** (they have no real existence, though they may be considered as conjugate complex lines).
+
+## Part (iv): $x^{2}-9y^{2}=0$
+
+Compare the given equation with the standard form $ax^{2}+2hxy+by^{2}=0$:
+
+$$a=1, \quad b=-9, \quad 2h=0 \implies h=0$$
+
+Now calculate the discriminant:
+
+$$h^{2}-ab=(0)^{2}-(1)(-9)=0+9=9$$
+
+Since $h^{2}-ab=9>0$, the discriminant is positive. Therefore, the lines are **real and distinct** (physically, this represents the pair of lines $x=\pm 3y$).
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Standard form of homogeneous equation of second degree:** $ax^2 + 2hxy + by^2 = 0$
+- **Discriminant condition:** $\Delta = h^2 - ab$
+- **Nature of lines classification:**
+  - If $h^2 - ab > 0$: Real and distinct lines
+  - If $h^2 - ab = 0$: Real and coincident lines
+  - If $h^2 - ab < 0$: Imaginary lines
+
+---
+
+# **Summary of Steps**
+
+1. **Identify coefficients:** Compare the given equation with $ax^2 + 2hxy + by^2 = 0$ to determine the values of $a$, $b$, and $h$ (remembering that the coefficient of $xy$ is $2h$, not $h$).
+2. **Calculate discriminant:** Compute $h^2 - ab$ using the identified coefficients.
+3. **Interpret the result:**
+   - Positive value $\rightarrow$ Real and distinct lines
+   - Zero $\rightarrow$ Real and coincident lines
+   - Negative value $\rightarrow$ Imaginary lines",,,"unclassified","3",,"Show that the lines represented by the following equations are coincident or distinct or imaginary.
+
+(i) $x^{2}+4xy-21y^{2}=0$
+
+(ii) $4x^{2}-12xy+9y^{2}=0$
+
+(iii) $x^{2}+xy+y^{2}=0$
+
+(iv) $x^{2}-9y^{2}=0$
+
+---","ms74hy951ytzpsaagx2xk8537h85q5rq",,"xd7dk5nbt4e6tcn8kr75sk8rfx8c61mv","Exercise 6.2","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m172bgrjz717pq4wfnhp5218v58c7x30",,,,,,,"false",,"# **Background and Explanation**
+
+The general second-degree homogeneous equation $ax^2 + 2hxy + by^2 = 0$ represents a pair of straight lines passing through the origin. The angle between these lines is given by $\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b}$. When $a+b=0$, the denominator becomes zero, making $\tan \theta$ undefined (infinite), which corresponds to $\theta = 90^\circ$.
+
+---
+
+# **Solution**
+
+## Part (i)
+
+Given equation: $x^{2}+5xy-y^{2}=0$
+
+Compare with the standard form $ax^{2}+2hxy+by^{2}=0$:
+- $a = 1$
+- $b = -1$
+- $2h = 5 \Rightarrow h = \frac{5}{2}$
+
+Let $\theta$ be the angle between the lines. Using the angle formula:
+
+$$
+\tan \theta = \frac{2\sqrt{h^{2}-ab}}{a+b}
+$$
+
+Substituting the identified values:
+
+$$
+\begin{aligned}
+\tan \theta &= \frac{2\sqrt{\left(\frac{5}{2}\right)^{2}-(1)(-1)}}{1+(-1)} \\
+&= \frac{2\sqrt{\frac{25}{4}+1}}{0} \\
+&= \frac{2\sqrt{\frac{29}{4}}}{0} \\
+\Rightarrow \tan \theta &= \infty
+\end{aligned}
+$$
+
+Therefore:
+
+$$\theta = \tan^{-1}(\infty) = 90^{\circ}$$
+
+This shows that the lines are perpendicular to each other.
+
+**Key observation:** The lines are perpendicular because $a+b = 1 + (-1) = 0$, i.e., the sum of the coefficients of $x^{2}$ and $y^{2}$ is zero.
+
+## Part (ii)
+
+Given equation: $x^{2}-2(\tan \theta)xy-y^{2}=0$
+
+Compare with the standard form $ax^{2}+2hxy+by^{2}=0$:
+- $a = 1$
+- $b = -1$
+- $2h = -2\tan \theta \Rightarrow h = -\tan \theta$
+
+Let $\alpha$ be the angle between the lines. Using the angle formula:
+
+$$
+\tan \alpha = \frac{2\sqrt{h^{2}-ab}}{a+b}
+$$
+
+Substituting the identified values:
+
+$$
+\begin{aligned}
+\tan \alpha &= \frac{2\sqrt{(-\tan \theta)^{2}-(1)(-1)}}{1+(-1)} \\
+&= \frac{2\sqrt{\tan^{2}\theta+1}}{0} \\
+\Rightarrow \tan \alpha &= \infty
+\end{aligned}
+$$
+
+Therefore:
+
+$$\alpha = \tan^{-1}(\infty) = 90^{\circ}$$
+
+This shows that the lines are perpendicular to each other.
+
+**Key observation:** The lines are perpendicular because $a+b = 1 + (-1) = 0$, i.e., the sum of the coefficients of $x^{2}$ and $y^{2}$ is zero.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Standard form of pair of lines:** $ax^2 + 2hxy + by^2 = 0$
+- **Angle between two lines:** $\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b}$
+- **Condition for perpendicular lines:** $a + b = 0$ (coefficient of $x^2$ + coefficient of $y^2$ = 0)
+- **Trigonometric identity:** $1 + \tan^2 \theta = \sec^2 \theta$ (implied in the calculation of $\sqrt{\tan^2\theta+1}$)
+
+---
+
+# **Summary of Steps**
+
+1. **Identify coefficients** $a$, $b$, and $h$ by comparing the given equation with the standard form $ax^2 + 2hxy + by^2 = 0$
+2. **Check the perpendicularity condition:** Verify that $a+b=0$ (sum of coefficients of $x^2$ and $y^2$ equals zero)
+3. **Apply the angle formula** $\tan \theta = \frac{2\sqrt{h^2-ab}}{a+b}$
+4. **Evaluate:** Since $a+b=0$, the denominator is zero, making $\tan \theta \to \infty$
+5. **Conclude:** $\theta = \tan^{-1}(\infty) = 90^\circ$, proving the lines intersect at a right angle",,,"unclassified","4",,"Show that the angle between the lines represented by the following equations is a right angle:
+
+(i) $x^{2}+5xy-y^{2}=0$
+
+(ii) $x^{2}-2(\tan \theta)xy-y^{2}=0$
+
+---","ms74hy951ytzpsaagx2xk8537h85q5rq",,"xd7dk5nbt4e6tcn8kr75sk8rfx8c61mv","Exercise 6.2","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-2","6.2 Homogeneous Second-Degree Equations and Pairs of Lines","m171q20vy1bhetbs3z7qcyeh618c7q95",,,,,,,"false",,"# **Background and Explanation**
+
+A homogeneous equation of degree 2 (of the form $ax^2 + 2hxy + by^2 = 0$) represents a pair of straight lines passing through the origin. To find lines perpendicular to these through the origin, we determine the individual lines, find their slopes, calculate the negative reciprocal slopes for perpendicularity, and then combine the new line equations into a single joint equation.
+
+---
+
+# **Solution**
+
+## Part (i): For $2x^{2}-7xy+6y^{2}=0$
+
+**Step 1: Factorize the given equation to find the individual lines.**
+
+$$
+\begin{aligned}
+2x^{2}-7xy+6y^{2} &= 0 \\
+2x^{2}-4xy-3xy+6y^{2} &= 0 \\
+2x(x-2y)-3y(x-2y) &= 0 \\
+(2x-3y)(x-2y) &= 0
+\end{aligned}
+$$
+
+Thus, the two lines are:
+$$2x-3y=0 \quad \text{and} \quad x-2y=0$$
+
+**Step 2: Find the slopes of the given lines.**
+
+For $2x-3y=0$:
+$$\text{Slope } m_1 = \frac{2}{3}$$
+
+For $x-2y=0$:
+$$\text{Slope } m_2 = \frac{1}{2}$$
+
+**Step 3: Determine slopes of perpendicular lines.**
+
+The slope of a line perpendicular to a line with slope $m$ is $-\frac{1}{m}$.
+
+Perpendicular to first line: $m_1' = -\frac{1}{2/3} = -\frac{3}{2}$
+
+Perpendicular to second line: $m_2' = -\frac{1}{1/2} = -2$
+
+**Step 4: Find equations of perpendicular lines through the origin.**
+
+Using point-slope form $y - y_1 = m(x - x_1)$ with $(0,0)$:
+
+For slope $-\frac{3}{2}$:
+$$
+\begin{align*}
+y-0 &= -\frac{3}{2}(x-0) \\
+2y &= -3x \\
+3x+2y &= 0
+\end{align*}
+$$
+
+For slope $-2$:
+$$
+\begin{align*}
+y-0 &= -2(x-0) \\
+y &= -2x \\
+2x+y &= 0
+\end{align*}
+$$
+
+**Step 5: Form the joint equation.**
+
+Multiply equations (i) and (ii):
+$$
+\begin{aligned}
+(3x+2y)(2x+y) &= 0 \\
+6x^2 + 3xy + 4xy + 2y^2 &= 0 \\
+6x^2 + 7xy + 2y^2 &= 0
+\end{aligned}
+$$
+
+**Required joint equation:** $6x^{2}+7xy+2y^{2}=0$
+
+---
+
+## Part (ii): For $x^{2}+17xy+60y^{2}=0$
+
+**Step 1: Factorize the given equation.**
+
+$$
+\begin{aligned}
+x^{2}+17xy+60y^{2} &= 0 \\
+x^{2}+12xy+5xy+60y^{2} &= 0 \\
+x(x+12y)+5y(x+12y) &= 0 \\
+(x+5y)(x+12y) &= 0
+\end{aligned}
+$$
+
+The lines are:
+$$x+5y=0 \quad \text{and} \quad x+12y=0$$
+
+**Step 2: Find slopes and their perpendicular counterparts.**
+
+For $x+5y=0$: Slope $= -\frac{1}{5}$, so perpendicular slope $= 5$
+
+For $x+12y=0$: Slope $= -\frac{1}{12}$, so perpendicular slope $= 12$
+
+**Step 3: Find equations of perpendicular lines through origin.**
+
+For slope $5$:
+$$
+\begin{align*}
+y-0 &= 5(x-0) \\
+y &= 5x \\
+5x-y &= 0
+\end{align*}
+$$
+
+For slope $12$:
+$$
+\begin{align*}
+y-0 &= 12(x-0) \\
+y &= 12x \\
+12x-y &= 0
+\end{align*}
+$$
+
+**Step 4: Form the joint equation.**
+
+$$
+\begin{aligned}
+(5x-y)(12x-y) &= 0 \\
+60x^2 - 5xy - 12xy + y^2 &= 0 \\
+60x^2 - 17xy + y^2 &= 0
+\end{aligned}
+$$
+
+**Required joint equation:** $60x^{2}-17xy+y^{2}=0$
+
+---
+
+## Part (iii): For $3x^{2}-13xy-10y^{2}=0$
+
+**Step 1: Find the individual lines using the quadratic formula.**
+
+Treating the equation as quadratic in $x$:
+$$3x^{2}-(13y)x-10y^{2}=0$$
+
+Using $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$:
+$$
+\begin{aligned}
+x &= \frac{13y \pm \sqrt{(-13y)^2 - 4(3)(-10y^2)}}{2(3)} \\
+&= \frac{13y \pm \sqrt{169y^2 + 120y^2}}{6} \\
+&= \frac{13y \pm \sqrt{289y^2}}{6} \\
+&= \frac{13y \pm 17y}{6}
+\end{aligned}
+$$
+
+This gives two solutions:
+$$x = \frac{30y}{6} = 5y \quad \text{and} \quad x = \frac{-4y}{6} = -\frac{2}{3}y$$
+
+Thus, the lines are:
+$$x-5y=0 \quad \text{and} \quad 3x+2y=0$$
+
+**Step 2: Find perpendicular slopes.**
+
+For $x-5y=0$ (slope $\frac{1}{5}$): Perpendicular slope $= -5$
+
+For $3x+2y=0$ (slope $-\frac{3}{2}$): Perpendicular slope $= \frac{2}{3}$
+
+**Step 3: Find equations of perpendicular lines through origin.**
+
+For slope $-5$:
+$$
+\begin{align*}
+y-0 &= -5(x-0) \\
+y &= -5x \\
+5x+y &= 0
+\end{align*}
+$$
+
+For slope $\frac{2}{3}$:
+$$
+\begin{align*}
+y-0 &= \frac{2}{3}(x-0) \\
+3y &= 2x \\
+2x-3y &= 0
+\end{align*}
+$$
+
+**Step 4: Form the joint equation.**
+
+$$
+\begin{aligned}
+(5x+y)(2x-3y) &= 0 \\
+10x^2 - 15xy + 2xy - 3y^2 &= 0 \\
+10x^2 - 13xy - 3y^2 &= 0
+\end{aligned}
+$$
+
+**Required joint equation:** $10x^{2}-13xy-3y^{2}=0$
+
+---
+
+## Part (iv): For $x^{2}+3xy-28y^{2}=0$
+
+**Step 1: Factorize the given equation.**
+
+$$
+\begin{aligned}
+x^{2}+3xy-28y^{2} &= 0 \\
+x^{2}+7xy-4xy-28y^{2} &= 0 \\
+x(x+7y)-4y(x+7y) &= 0 \\
+(x-4y)(x+7y) &= 0
+\end{aligned}
+$$
+
+The lines are:
+$$x-4y=0 \quad \text{and} \quad x+7y=0$$
+
+**Step 2: Find perpendicular slopes.**
+
+For $x-4y=0$ (slope $\frac{1}{4}$): Perpendicular slope $= -4$
+
+For $x+7y=0$ (slope $-\frac{1}{7}$): Perpendicular slope $= 7$
+
+**Step 3: Find equations of perpendicular lines through origin.**
+
+For slope $-4$:
+$$
+\begin{align*}
+y-0 &= -4(x-0) \\
+y &= -4x \\
+4x+y &= 0
+\end{align*}
+$$
+
+For slope $7$:
+$$
+\begin{align*}
+y-0 &= 7(x-0) \\
+y &= 7x \\
+7x-y &= 0
+\end{align*}
+$$
+
+**Step 4: Form the joint equation.**
+
+$$
+\begin{aligned}
+(4x+y)(7x-y) &= 0 \\
+28x^2 - 4xy + 7xy - y^2 &= 0 \\
+28x^2 + 3xy - y^2 &= 0
+\end{aligned}
+$$
+
+**Required joint equation:** $28x^{2}+3xy-y^{2}=0$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Factorization of homogeneous equations**: Splitting the middle term to factorize $ax^2 + 2hxy + by^2 = 0$ into two linear factors
+- **Quadratic formula**: $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$ (used in part iii when factorization was difficult)
+- **Slope from line equation**: For $ax+by+c=0$, slope $m = -\frac{a}{b}$
+- **Perpendicular slope condition**: If two lines with slopes $m_1$ and $m_2$ are perpendicular, then $m_1 \cdot m_2 = -1$, or $m_2 = -\frac{1}{m_1}$
+- **Point-slope form**: $y - y_1 = m(x - x_1)$ for line through $(x_1, y_1)$ with slope $m$
+- **Joint equation formation**: If individual lines are $L_1=0$ and $L_2=0$, their joint equation is $L_1 \cdot L_2 = 0$
+
+---
+
+# **Summary of Steps**
+
+1. **Factorize** the given homogeneous equation to find the two individual lines $L_1=0$ and $L_2=0$ (or use quadratic formula if needed)
+2. **Calculate slopes** of both lines using $m = -\frac{\text{coefficient of } x}{\text{coefficient of } y}$
+3. **Find perpendicular slopes** using $m_{\perp} = -\frac{1}{m}$ for each line
+4. **Write new line equations** through the origin $(0,0)$ using the perpendicular slopes and point-slope form $y = mx$
+5. **Multiply** the two new line equations together and expand to get the required joint equation in the form $ax^2 + 2hxy + by^2 = 0$",,,"unclassified","5",,"Find the joint equation of lines through the origin and perpendicular to the lines:
+
+(i) $2x^{2}-7xy+6y^{2}=0$
+
+(ii) $x^{2}+17xy+60y^{2}=0$
+
+(iii) $3x^{2}-13xy-10y^{2}=0$
+
+(iv) $x^{2}+3xy-28y^{2}=0$
+
+---","ms74hy951ytzpsaagx2xk8537h85q5rq",,"xd7dk5nbt4e6tcn8kr75sk8rfx8c61mv","Exercise 6.2","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m178mrq9atsr3cmtpn26q5208d85qfz3","A","true","Federal Board","The volume of a parallelepiped with edges $\mathbf{a} = 2\mathbf{i} - 4\mathbf{j} + 5\mathbf{k}$, $\mathbf{b} = 2\mathbf{i} - 3\mathbf{j} + 6\mathbf{k}$, and $\mathbf{c} = -\mathbf{j} - \mathbf{k}$ is given by the scalar triple product $|\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})|$. Computing the determinant: $V = \left|\begin{vmatrix} 2 & -4 & 5 \\ 2 & -3 & 6 \\ 0 & -1 & -1 \end{vmatrix}\right| = |2(3+6) + 4(-2-0) + 5(-2-0)| = |18 - 8 - 10| = 0$. The volume is **0 cubic units**, indicating the vectors are coplanar.","[""Correctly identify the scalar triple product formula: $V = |\\mathbf{a} \\cdot (\\mathbf{b} \\times \\mathbf{c})|$"",""Set up the determinant with vector components in rows"",""Calculate the determinant correctly using cofactor expansion"",""Recognize that volume = 0 means vectors are coplanar (linearly dependent)"",""State final answer with appropriate units""]",,"false","1","The volume of a parallelepiped with edges $\mathbf{a} = 2\mathbf{i} - 4\mathbf{j} + 5\mathbf{k}$, $\mathbf{b} = 2\mathbf{i} - 3\mathbf{j} + 6\mathbf{k}$, and $\mathbf{c} = -\mathbf{j} - \mathbf{k}$ is given by the scalar triple product $|\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})|$. Computing the determinant: $V = \left|\begin{vmatrix} 2 & -4 & 5 \\ 2 & -3 & 6 \\ 0 & -1 & -1 \end{vmatrix}\right| = |2(3+6) + 4(-2-0) + 5(-2-0)| = |18 - 8 - 10| = 0$. The volume is **0 cubic units**, indicating the vectors are coplanar.","[{""key"":""A"",""text"":""0""},{""key"":""B"",""text"":""3""},{""key"":""C"",""text"":""15""},{""key"":""D"",""text"":""24""}]","MCQ","mcq","20","annual","What is the volume of a parallelepiped whose edges are $2\mathbf{i} - 4\mathbf{j} + 5\mathbf{k}$, $2\mathbf{i} - 3\mathbf{j} + 6\mathbf{k}$, and $-\mathbf{j} - \mathbf{k}$?","ms7383pr9z5ry65qk1sgcdsnph85prpe","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17f61v9r6eb5yng898tpmt37585qggp",,"true","Federal Board",,"[""Calculate position vectors $\\vec{AB}$, $\\vec{AC}$, $\\vec{AD}$ from vertex $A$ to other vertices"",""Compute cross product $\\vec{AC} \\times \\vec{AD}$ correctly using determinant method"",""Find scalar triple product $\\vec{AB} \\cdot (\\vec{AC} \\times \\vec{AD})$"",""Apply volume formula $V = \\frac{1}{6}|\\text{scalar triple product}|$ and simplify to final answer""]",,"false","4","To find the volume of the tetrahedron with vertices $A(-2, 1, 4)$, $B(3, 2, 5)$, $C(-3, -5, 0)$, and $D(5, 8, 9)$, we use the formula: $V = \frac{1}{6}|\vec{AB} \cdot (\vec{AC} \times \vec{AD})|$. First, calculate the vectors: $\vec{AB} = (5, 1, 1)$, $\vec{AC} = (-1, -6, -4)$, $\vec{AD} = (7, 7, 5)$. Next, find the cross product $\vec{AC} \times \vec{AD} = (-6 \cdot 5 - (-4) \cdot 7, (-4) \cdot 7 - (-1) \cdot 5, (-1) \cdot 7 - (-6) \cdot 7) = (-2, -23, 35)$. Then compute the scalar triple product: $\vec{AB} \cdot (\vec{AC} \times \vec{AD}) = 5(-2) + 1(-23) + 1(35) = -10 - 23 + 35 = 2$. Therefore, $V = \frac{1}{6}|2| = \frac{1}{3}$ cubic units.",,"B","short","16","annual","Find the volume of the tetrahedron whose vertices are $A(-2, 1, 4)$, $B(3, 2, 5)$, $C(-3, -5, 0)$, and $D(5, 8, 9)$.","ms7383pr9z5ry65qk1sgcdsnph85prpe","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m173faqychbwxf9gtkgqavmh5585pg1h","C","true","Federal Board","To find the number of ways to choose a committee of 4 people from a group of 6, we use the combination formula since the order of selection does not matter. We calculate $\binom{6}{4} = \frac{6!}{4!(6-4)!} = \frac{6!}{4!\,2!} = \frac{6 \times 5}{2 \times 1} = 15$. Therefore, there are **15 ways** to form the committee.","[""Correctly identifies this as a combination problem (order does not matter)"",""Applies the combination formula $\\binom{n}{r} = \\frac{n!}{r!(n-r)!}$ with $n=6$ and $r=4$"",""Simplifies the factorial expression correctly to get $\\frac{6 \\times 5}{2 \\times 1}$"",""Arrives at the correct answer of 15"",""May use symmetry property: $\\binom{6}{4} = \\binom{6}{2} = 15$""]",,"false","1","To find the number of ways to choose a committee of 4 people from a group of 6, we use the combination formula since the order of selection does not matter. We calculate $\binom{6}{4} = \frac{6!}{4!(6-4)!} = \frac{6!}{4!\,2!} = \frac{6 \times 5}{2 \times 1} = 15$. Therefore, there are **15 ways** to form the committee.","[{""key"":""A"",""text"":""7""},{""key"":""B"",""text"":""9""},{""key"":""C"",""text"":""15""},{""key"":""D"",""text"":""16""}]","MCQ","mcq","8","annual","How many ways can a committee of $4$ people be chosen from a group of $6$?","ms7383pr9z5ry65qk1sgcdsnph85prpe","2025",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m173fvg23qe4akjb3fpfycn1en85qsbs",,"true","Federal Board",,"[""Correctly applies combination formula $^nC_r = \\frac{n!}{r!(n-r)!}$ for each part"",""Part (a): Calculates $^7C_3 = 35$ and $^5C_2 = 10$, multiplies to get 350"",""Part (b): Calculates $^7C_4 = 35$ and $^5C_1 = 5$, multiplies to get 175"",""Part (c): Identifies 'at least 4 engineers' as two cases and adds: $175 + 21 = 196$"",""Part (d): Identifies 'at most 1 manager' as two cases and adds: $21 + 175 = 196$""]",,"false","8","**Solution:**
+
+We use the combination formula $^nC_r = \frac{n!}{r!(n-r)!}$ to select team members.
+
+**(a) 3 engineers and 2 managers:**
+
+Select 3 engineers from 7 and 2 managers from 5:
+$$^7C_3 \times ^5C_2 = \frac{7!}{3!4!} \times \frac{5!}{2!3!} = 35 \times 10 = 350$$
+
+**(b) 4 engineers and 1 manager:**
+
+Select 4 engineers from 7 and 1 manager from 5:
+$$^7C_4 \times ^5C_1 = \frac{7!}{4!3!} \times \frac{5!}{1!4!} = 35 \times 5 = 175$$
+
+**(c) At least 4 engineers:**
+
+This means either 4 engineers and 1 manager, or 5 engineers and 0 managers:
+$$^7C_4 \times ^5C_1 + ^7C_5 \times ^5C_0 = 35 \times 5 + 21 \times 1 = 175 + 21 = 196$$
+
+**(d) At most 1 manager:**
+
+This means either 0 managers (5 engineers) or 1 manager (4 engineers):
+$$^7C_5 \times ^5C_0 + ^7C_4 \times ^5C_1 = 21 \times 1 + 35 \times 5 = 21 + 175 = 196$$",,"C","long","8","annual","A company has $7$ engineers and $5$ managers. In how many ways can a project team of $5$ be selected if it includes:
+(a) $3$ engineers and $2$ managers?
+(b) $4$ engineers and $1$ manager?
+(c) At least $4$ engineers?
+(d) At the most $1$ manager?","ms7383pr9z5ry65qk1sgcdsnph85prpe","2025",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17656nhyr3mxpd3zc4zgkm3cs85pg29",,"true","Federal Board","Using the principle of set theory, let $C$ denote cricket players and $H$ denote hockey players. Given: $|C| = 15$, $|H| = 13$, and $|C \cup H| = 21$. By the inclusion-exclusion principle: $|C \cup H| = |C| + |H| - |C \cap H|$. Therefore: $21 = 15 + 13 - |C \cap H|$, which gives $|C \cap H| = 28 - 21 = 7$. Thus, **7 players play both cricket and hockey**.","[""Correctly identifies and applies the inclusion-exclusion principle formula"",""Substitutes given values accurately: $|C| = 15$, $|H| = 13$, $|C \\cup H| = 21$"",""Solves for the intersection: $|C \\cap H| = |C| + |H| - |C \\cup H| = 7$"",""Provides clear final answer with proper set notation""]",,"false","1","Using the principle of set theory, let $C$ denote cricket players and $H$ denote hockey players. Given: $|C| = 15$, $|H| = 13$, and $|C \cup H| = 21$. By the inclusion-exclusion principle: $|C \cup H| = |C| + |H| - |C \cap H|$. Therefore: $21 = 15 + 13 - |C \cap H|$, which gives $|C \cap H| = 28 - 21 = 7$. Thus, **7 players play both cricket and hockey**.","[{""key"":""A"",""text"":""6""},{""key"":""B"",""text"":""8""},{""key"":""C"",""text"":""7""},{""key"":""D"",""text"":""28""}]","MCQ","unclassified","3","annual","Suppose the number of players that play cricket and hockey are $15$ and $13$ respectively. If the total number of players is $21$, what is the number of players that play **both** the games?","ms7383pr9z5ry65qk1sgcdsnph85prpe","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17akvy3c95e6zffwa0vy4awxd85ptdq",,"true","Federal Board","$\binom{8}{7} + \binom{8}{6} = 8 + 28 = 36$. Using Pascal's Identity: $\binom{8}{7} + \binom{8}{6} = \binom{9}{7} = \binom{9}{2} = 36$.","[""Correctly evaluates $\\binom{8}{7} = 8$ using the formula or symmetry property"",""Correctly evaluates $\\binom{8}{6} = 28$ using the combination formula"",""Adds the two values to get 36"",""Recognizes and applies Pascal's Identity: $\\binom{n}{r} + \\binom{n}{r-1} = \\binom{n+1}{r}$""]",,"false","1","$\binom{8}{7} + \binom{8}{6} = 8 + 28 = 36$. Using Pascal's Identity: $\binom{8}{7} + \binom{8}{6} = \binom{9}{7} = \binom{9}{2} = 36$.","[{""key"":""A"",""text"":""72""},{""key"":""B"",""text"":""48""},{""key"":""C"",""text"":""63""},{""key"":""D"",""text"":""36""}]","MCQ","unclassified","11","annual","$\binom{8}{7} + \binom{8}{6} =$","ms7383pr9z5ry65qk1sgcdsnph85prpe","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m178mz85smzmkfjkd1as88d6xd85p3m2","A","true","Federal Board","When a fair die is rolled, the possible outcomes are {1, 2, 3, 4, 5, 6}. The even numbers are {2, 4, 6}, which gives 3 favorable outcomes. Therefore, the probability of getting an even number is $P(\text{even}) = \frac{3}{6} = \frac{1}{2}$.","[""Identifies total number of outcomes on a fair die as 6"",""Correctly identifies even numbers: 2, 4, 6 (3 favorable outcomes)"",""Applies probability formula: $P = \\frac{\\text{favorable outcomes}}{\\text{total outcomes}}$"",""Simplifies fraction to $\\frac{1}{2}$ or 0.5""]",,"false","1","When a fair die is rolled, the possible outcomes are {1, 2, 3, 4, 5, 6}. The even numbers are {2, 4, 6}, which gives 3 favorable outcomes. Therefore, the probability of getting an even number is $P(\text{even}) = \frac{3}{6} = \frac{1}{2}$.","[{""key"":""A"",""text"":""$\\frac{1}{3}$""},{""key"":""B"",""text"":""$\\frac{1}{6}$""},{""key"":""C"",""text"":""1""},{""key"":""D"",""text"":""$\\frac{1}{2}$""}]","MCQ","mcq","12","annual","If a fair die is rolled, then what is the probability that the top is an even number?","ms7383pr9z5ry65qk1sgcdsnph85prpe","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m173k3nr04dd4k1x2rqrefzn1n85q6rw",,"true","Federal Board",,"[""Correctly apply the formula ${}^nP_r = {}^nC_r \\times r!$ to relate permutations and combinations"",""Solve for $r$ using $r! = 6$, obtaining $r = 3$"",""Substitute $r = 3$ into combination formula to get $n(n-1)(n-2) = 60$"",""Solve the cubic equation by testing values to find $n = 5$"",""Verify: ${}^5C_3 = 10$ and ${}^5P_3 = 60$ satisfy both conditions""]",,"false","4","We use the relationship between combinations and permutations: ${}^nP_r = {}^nC_r \times r!$.
+
+Given: ${}^nC_r = 10$ and ${}^nP_r = 60$.
+
+From ${}^nP_r = {}^nC_r \times r!$:
+$$60 = 10 \times r!$$
+$$r! = 6$$
+$$r = 3$$
+
+Now substitute $r = 3$ into ${}^nC_r = 10$:
+$${}^nC_3 = 10$$
+$$\frac{n!}{3!(n-3)!} = 10$$
+$$\frac{n(n-1)(n-2)}{6} = 10$$
+$$n(n-1)(n-2) = 60$$
+
+Testing values: when $n = 5$: $5 \times 4 \times 3 = 60$ ✓
+
+Therefore, $n = 5$ and $r = 3$.",,"B","short","10","annual","Find values of $n$ and $r$, when ${}^nC_r = 10$ and ${}^nP_r = 60$.","ms7383pr9z5ry65qk1sgcdsnph85prpe","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17cxnvfjhgzfzq0e3y1rvxw4h85pkg0",,"true","Federal Board",,"[""Correctly identifies total number of balls (15)"",""Applies probability formula: P(event) = (Favorable outcomes)/(Total outcomes)"",""Calculates P(green) = 9/15 = 3/5 with simplification"",""Calculates P(red) = 6/15 = 2/5 with simplification"",""Verifies that probabilities sum to 1 (complementary events)""]",,"false","4","**Probability of Drawing a Green Ball:**
+
+Total number of balls = 9 green + 6 red = 15 balls
+
+**(i) Probability that the ball is green:**
+$$P(\text{green}) = \frac{\text{Number of green balls}}{\text{Total number of balls}} = \frac{9}{15} = \frac{3}{5}$$
+
+**(ii) Probability that the ball is red:**
+$$P(\text{red}) = \frac{\text{Number of red balls}}{\text{Total number of balls}} = \frac{6}{15} = \frac{2}{5}$$
+
+**Verification:** $P(\text{green}) + P(\text{red}) = \frac{3}{5} + \frac{2}{5} = 1$ ✓
+
+This confirms that the probabilities are complementary events, as drawing either a green or red ball accounts for all possible outcomes.",,"B","short","11","annual","There are 9 green and 6 red balls in a box. A ball is drawn (taken out). What is the probability that (i) the ball is green (ii) the ball is red.","ms7383pr9z5ry65qk1sgcdsnph85prpe","2022",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17eeyj5tjzdsd8cm7n6rw3d5585ptxr","D","true","Federal Board","Using the symmetry property of combinations, if $\binom{n}{8} = \binom{n}{12}$, then either $8 = 12$ (impossible) or $8 + 12 = n$. Therefore, $n = 20$.","[""Apply symmetry property: $\\binom{n}{r} = \\binom{n}{n-r}$"",""Recognize that $\\binom{n}{8} = \\binom{n}{12}$ implies $8 + 12 = n$"",""Calculate $n = 20$"",""Verify: $\\binom{20}{8} = \\binom{20}{12}$ since $8 + 12 = 20$""]",,"false","1","Using the symmetry property of combinations, if $\binom{n}{8} = \binom{n}{12}$, then either $8 = 12$ (impossible) or $8 + 12 = n$. Therefore, $n = 20$.","[{""key"":""A"",""text"":""4""},{""key"":""B"",""text"":""8""},{""key"":""C"",""text"":""12""},{""key"":""D"",""text"":""20""}]","MCQ","mcq","11","annual","If $\binom{n}{8} = \binom{n}{12}$, then value of $n$ is:","ms7383pr9z5ry65qk1sgcdsnph85prpe","2023",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17emjq33r4ppkn1jpef3n9n7x85q72n","A","true","Federal Board","The probability of drawing a King from a well shuffled pack of 52 playing cards is calculated using the basic probability formula. There are 4 Kings in a standard deck of 52 cards. Therefore, the probability is $P(\text{King}) = \frac{4}{52} = \frac{1}{13}$.","[""Identifies total number of Kings in deck (4)"",""Identifies total number of cards in deck (52)"",""Applies probability formula: $P = \\frac{\\text{Favourable outcomes}}{\\text{Total outcomes}}$"",""Simplifies fraction to $\\frac{1}{13}$""]",,"false","1","The probability of drawing a King from a well shuffled pack of 52 playing cards is calculated using the basic probability formula. There are 4 Kings in a standard deck of 52 cards. Therefore, the probability is $P(\text{King}) = \frac{4}{52} = \frac{1}{13}$.","[{""key"":""A"",""text"":""$\\frac{13}{52}$""},{""key"":""B"",""text"":""$\\frac{4}{52}$""},{""key"":""C"",""text"":""$\\frac{1}{52}$""},{""key"":""D"",""text"":""$\\frac{2}{52}$""}]","MCQ","mcq","12","annual","What is the probability of drawing a King from a well shuffled pack of 52 playing cards?","ms7383pr9z5ry65qk1sgcdsnph85prpe","2024",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17b2cavjm6q9j06gfy2dzn7hd85q3wm",,"true","Federal Board",,"[""Correctly identifies all outcomes with sum > 9 (6 outcomes)"",""Correctly identifies all outcomes with sum divisible by 5 (7 outcomes)"",""Correctly identifies common outcomes to avoid double counting (3 outcomes)"",""Applies addition principle for mutually non-exclusive events: $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$"",""Calculates final probability as $\\frac{10}{36} = \\frac{5}{18}$""]",,"false","4","When two fair dice are thrown, the total number of outcomes is 36. We need to find the probability of getting a sum greater than 9 OR a sum divisible by 5.
+
+**Outcomes with sum > 9:** (4,6), (5,5), (5,6), (6,4), (6,5), (6,6) = 6 outcomes
+
+**Outcomes with sum divisible by 5:** (1,4), (2,3), (3,2), (4,1), (4,6), (5,5), (6,4) = 7 outcomes
+
+**Common outcomes (sum > 9 AND divisible by 5):** (4,6), (5,5), (6,4) = 3 outcomes
+
+Using the formula: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+**Number of favorable outcomes** = 6 + 7 - 3 = 10
+
+**Probability** = $\frac{10}{36} = \frac{5}{18}$",,"B","short","18","annual","A pair of fair dice is thrown. The number of dots on the top are added. What is the probability of getting a sum greater than 9 or a sum divisible by 5?","ms7383pr9z5ry65qk1sgcdsnph85prpe","2024",,,,
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m177zt4yenc8eck2v6eny929wh8c650j",,,,,,,"false",,"# **Background and Explanation**
+
+Three straight lines are **concurrent** if they all pass through a single common point. For lines in the form $ax + by + c = 0$, we can check concurrency using the determinant condition: the determinant of the coefficient matrix must equal zero. Alternatively, we can find the intersection point of two lines and verify it lies on the third.
+
+---
+
+# **Solution**
+
+The three given lines representing the flight paths are:
+
+$$
+\begin{aligned}
+2x - y - 14 &= 0 \quad \text{(i)} \\
+x + y - 1 &= 0 \quad \text{(ii)} \\
+3x + 2y - 7 &= 0 \quad \text{(iii)}
+\end{aligned}
+$$
+
+**Step 1: Check for concurrency using the determinant condition**
+
+The jet fighters will pass through the same point if the three lines are concurrent. For three lines $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$, and $a_3x + b_3y + c_3 = 0$, the condition for concurrency is:
+
+$$\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$$
+
+Setting up the determinant with our coefficients:
+
+$$\begin{vmatrix} 2 & -1 & -14 \\ 1 & 1 & -1 \\ 3 & 2 & -7 \end{vmatrix}$$
+
+**Step 2: Evaluate the determinant**
+
+Expanding along the first row:
+
+$$= 2\begin{vmatrix} 1 & -1 \\ 2 & -7 \end{vmatrix} - (-1)\begin{vmatrix} 1 & -1 \\ 3 & -7 \end{vmatrix} + (-14)\begin{vmatrix} 1 & 1 \\ 3 & 2 \end{vmatrix}$$
+
+$$= 2(1 \cdot (-7) - (-1) \cdot 2) + 1(1 \cdot (-7) - (-1) \cdot 3) - 14(1 \cdot 2 - 1 \cdot 3)$$
+
+$$= 2(-7 + 2) + 1(-7 + 3) - 14(2 - 3)$$
+
+$$= 2(-5) + 1(-4) - 14(-1)$$
+
+$$= -10 - 4 + 14$$
+
+$$= 0$$
+
+Since the determinant equals **0**, the three lines are concurrent. Thus, the jet fighters will pass through the same point.
+
+**Step 3: Find the point of concurrency**
+
+To find the specific point, we solve equations (i) and (ii) simultaneously:
+
+Adding equations (i) and (ii):
+$$
+\begin{aligned}
+(2x - y - 14) + (x + y - 1) &= 0 \\
+3x - 15 &= 0 \\
+3x &= 15 \\
+x &= 5
+\end{aligned}
+$$
+
+Substitute $x = 5$ into equation (ii):
+$$
+\begin{aligned}
+5 + y - 1 &= 0 \\
+4 + y &= 0 \\
+y &= -4
+\end{aligned}
+$$
+
+Therefore, the point of concurrency is $(5, -4)$.
+
+*(Verification: Substituting $(5, -4)$ into equation (iii): $3(5) + 2(-4) - 7 = 15 - 8 - 7 = 0$ ✓)*
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Concurrency condition for three lines**: $\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$
+- **Determinant expansion** (Laplace expansion along first row)
+- **Solving simultaneous linear equations** by elimination method
+
+---
+
+# **Summary of Steps**
+
+1. **Identify the line equations** in standard form $ax + by + c = 0$
+2. **Set up the $3 \times 3$ determinant** using coefficients $(a, b, c)$ from each line
+3. **Expand and evaluate** the determinant:
+   - If value $= 0$: lines are concurrent (intersect at one point)
+   - If value $\neq 0$: lines are not concurrent
+4. **Solve any two equations** simultaneously to find the intersection coordinates $(x, y)$
+5. **State the final answer** with the point of concurrency (if it exists)",,,"unclassified","1",,"Three jet fighters are flying straight in different directions along the lines:
+$$2x - y - 14 = 0$$
+$$x + y - 1 = 0$$
+$$3x + 2y - 7 = 0$$
+
+Check whether the jet fighters will pass through a single point. If yes, find the point.
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m170jnn62tjxzd585g8cy2gge98c74tg",,,,,,,"false",,"# **Background and Explanation**
+
+This problem requires finding the area of a triangle given its vertices using coordinate geometry (determinant method), then applying a per-unit rate to determine the total cost of cultivation.
+
+---
+
+# **Solution**
+
+First, we find the area of the triangular field $XYZ$ using the determinant formula for the area of a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$.
+
+$$\text{Area of triangle } XYZ = \frac{1}{2}\left|\begin{array}{ccc}
+3 & 7 & 1 \\
+6 & 2 & 1 \\
+10 & 8 & 1
+\end{array}\right|$$
+
+Expanding the determinant along the first row using cofactors:
+
+$$= \frac{1}{2}\left(3\left|\begin{array}{ll}
+2 & 1 \\
+8 & 1
+\end{array}\right|-7\left|\begin{array}{cc}
+6 & 1 \\
+10 & 1
+\end{array}\right|+1\left|\begin{array}{cc}
+6 & 2 \\
+10 & 8
+\end{array}\right|\right)$$
+
+Evaluating each $2\times 2$ determinant:
+
+$$= \frac{1}{2}(3(2-8)-7(6-10)+1(48-20))$$
+
+Simplifying the expressions inside the parentheses:
+
+$$= \frac{1}{2}(-18+28+28)$$
+
+$$= 19 \text{ sq. units}$$
+
+Thus, the cost of planting maize @ Rs. 300 per square unit is:
+
+$$\text{Cost} = 19 \times 300 = \text{Rs. } 5700$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Area of triangle using determinant**: $\text{Area} = \frac{1}{2}\left|\begin{array}{ccc} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{array}\right|$
+- **Cofactor expansion**: Expanding a $3\times 3$ determinant along the first row
+- **Total cost formula**: $\text{Cost} = \text{Area} \times \text{Rate per square unit}$
+
+---
+
+# **Summary of Steps**
+
+1. **Identify coordinates**: Note the vertices $X(3,7)$, $Y(6,2)$, and $Z(10,8)$
+2. **Set up the determinant**: Construct the $3\times 3$ matrix with $x$-coordinates in the first column, $y$-coordinates in the second, and 1s in the third
+3. **Expand the determinant**: Apply cofactor expansion along the first row to reduce to $2\times 2$ determinants
+4. **Evaluate minors**: Calculate each $2\times 2$ determinant (e.g., $(2-8)$, $(6-10)$, $(48-20)$)
+5. **Compute the area**: Multiply the sum by $\frac{1}{2}$ to obtain $19$ square units
+6. **Calculate total cost**: Multiply the area ($19$) by the rate (Rs. $300$) to get Rs. $5700$",,,"numerical","2",,"A farmer owns a triangular shaped piece of land with corners at $X(3,7)$, $Y(6,2)$ and $Z(10,8)$. Calculate the cost of planting maize crop @ Rs. 300 per square unit.
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17f1sccfm04rrmq9tkh3ck4yd8c6cze",,,,,,,"false",,"# **Background and Explanation**
+
+To find the area of a triangle when the coordinates of all three vertices are known, we can use the **determinant method** (also called the shoelace formula). This method arranges the coordinates in a $3\times3$ matrix with an additional column of 1s, allowing us to compute the area directly from the determinant value.
+
+---
+
+# **Solution**
+
+First, let's visualize the triangular section of the roof:
+
+To calculate the area of triangle $PQR$ with vertices $P(4,1)$, $Q(9,5)$, and $R(7,10)$, we use the determinant formula for the area of a triangle:
+
+$$\text{Area} = \frac{1}{2}\left|\begin{array}{ccc}4 & 1 & 1 \\ 9 & 5 & 1 \\ 7 & 10 & 1\end{array}\right|$$
+
+We expand this determinant along the first row. Recall that the cofactor expansion alternates signs starting with positive for the first element:
+
+$$= \frac{1}{2}\left[4\left|\begin{array}{cc}5 & 1 \\ 10 & 1\end{array}\right| - 1\left|\begin{array}{cc}9 & 1 \\ 7 & 1\end{array}\right| + 1\left|\begin{array}{cc}9 & 5 \\ 7 & 10\end{array}\right|\right]$$
+
+Now we calculate each $2\times2$ determinant:
+- First minor: $(5 \times 1 - 10 \times 1) = (5 - 10) = -5$
+- Second minor: $(9 \times 1 - 7 \times 1) = (9 - 7) = 2$
+- Third minor: $(9 \times 10 - 7 \times 5) = (90 - 35) = 55$
+
+Substituting these values back:
+
+$$= \frac{1}{2}[4(-5) - 1(2) + 1(55)]$$
+
+Simplify the expression inside the brackets:
+
+$$= \frac{1}{2}[-20 - 2 + 55]$$
+
+$$= \frac{1}{2}(33)$$
+
+$$= 16.5 \text{ sq. units}$$
+
+Therefore, the area of the triangular roof section is **16.5 square units**.
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Determinant method for area of triangle**: $\text{Area} = \frac{1}{2}\left|\begin{array}{ccc}x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1\end{array}\right|$
+- **Cofactor expansion**: Expanding a $3\times3$ determinant along the first row using alternating signs $(+ - +)$
+- **Determinant of $2\times2$ matrix**: $\left|\begin{array}{cc}a & b \\ c & d\end{array}\right| = ad - bc$
+
+---
+
+# **Summary of Steps**
+
+1. **Identify coordinates**: Note the vertices $P(4,1)$, $Q(9,5)$, and $R(7,10)$
+2. **Set up the matrix**: Create a $3\times3$ determinant with $x$-coordinates in column 1, $y$-coordinates in column 2, and 1s in column 3
+3. **Expand the determinant**: Apply cofactor expansion along the first row, calculating the three $2\times2$ minors with appropriate signs $(+4, -1, +1)$
+4. **Calculate minors**: Compute $(5-10) = -5$, $(9-7) = 2$, and $(90-35) = 55$
+5. **Evaluate**: Compute $\frac{1}{2}[4(-5) - 2 + 55] = \frac{1}{2}(33) = 16.5$ square units",,,"numerical","3",,"Hira is designing a triangular section of a roof with vertices at points $P(4,1)$, $Q(9,5)$ and $R(7,10)$. She needs to calculate the area of the section to determine how much roofing material is required. Find the area calculated by her.
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m179wemkke2b1y6xqxhywh0xhd8c636z",,,,,,,"false",,"# **Background and Explanation**
+
+This problem requires finding the area of a triangle given its vertices in the coordinate plane, then applying a unit rate to determine total cost. The determinant method (also known as the shoelace formula) provides a straightforward way to calculate the area using the coordinates directly.
+
+---
+
+# **Solution**
+
+First, we find the area of the triangular garden using the determinant method. For a triangle with vertices $(x_1, y_1)$, $(x_2, y_2)$, and $(x_3, y_3)$, the area formula is:
+
+$$\text{Area} = \frac{1}{2}\left| \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} \right|$$
+
+Substituting the given coordinates $A(1,4)$, $B(5,1)$, and $C(8,6)$:
+
+$$
+\begin{aligned}
+\text{Area of } \triangle ABC &= \frac{1}{2}\begin{vmatrix}
+1 & 4 & 1 \\
+5 & 1 & 1 \\
+8 & 6 & 1
+\end{vmatrix} \\
+&= \frac{1}{2}\left[1\begin{vmatrix} 1 & 1 \\ 6 & 1 \end{vmatrix} - 4\begin{vmatrix} 5 & 1 \\ 8 & 1 \end{vmatrix} + 1\begin{vmatrix} 5 & 1 \\ 8 & 6 \end{vmatrix}\right] \\
+&= \frac{1}{2}[1(1-6) - 4(5-8) + 1(30-8)] \\
+&= \frac{1}{2}[1(-5) - 4(-3) + 1(22)] \\
+&= \frac{1}{2}[-5 + 12 + 22] \\
+&= \frac{1}{2}(29) \\
+&= \frac{29}{2} \text{ sq. units}
+\end{aligned}
+$$
+
+Now we calculate the cost of plantation at Rs. 70 per square unit:
+
+$$\text{Cost} = 70 \times \frac{29}{2} = 35 \times 29 = 1015 \text{ rupees}$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Determinant method for area of a triangle**: $\text{Area} = \frac{1}{2}\left| \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} \right|$
+- **Cofactor expansion**: Expanding the $3\times3$ determinant along the first row using $2\times2$ minors
+- **Unitary method for cost**: $\text{Total Cost} = \text{Area} \times \text{Rate per square unit}$
+
+---
+
+# **Summary of Steps**
+
+1. Identify the coordinates of the three vertices: $A(1,4)$, $B(5,1)$, $C(8,6)$
+2. Set up the $3\times3$ determinant matrix with $x$-coordinates, $y$-coordinates, and a column of 1s
+3. Expand the determinant along the first row, calculating each $2\times2$ minor:
+   - First minor: $(1 \times 1 - 6 \times 1) = -5$
+   - Second minor: $(5 \times 1 - 8 \times 1) = -3$
+   - Third minor: $(5 \times 6 - 8 \times 1) = 22$
+4. Evaluate: $\frac{1}{2}[1(-5) - 4(-3) + 1(22)] = \frac{1}{2}(29) = \frac{29}{2}$ sq. units
+5. Calculate total cost: $70 \times \frac{29}{2} = \text{Rs. } 1015$",,,"numerical","4",,"A landscaper is designing a triangular garden bed with vertices $A(1,4)$, $B(5,1)$ and $C(8,6)$. Calculate the cost of planting mango trees in the garden @Rs. 70 per square unit.
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17dtz4e4ykfbfxnkrdxsgme7d8c6fje",,,,,,,"false",,"# **Background and Explanation**
+
+When three or more lines intersect at a single common point, they are called **concurrent lines**. To verify concurrency, we can check if the determinant of the coefficient matrix equals zero. Alternatively, we can find the intersection point of any two lines and verify it lies on the third.
+
+---
+
+# **Solution**
+
+Let the three equations of the roads be:
+
+$$
+\begin{aligned}
+2x + y - 11.5 &= 0 \quad \text{(i)} \\
+x - 4y + 1 &= 0 \quad \text{(ii)} \\
+3x - 2y - 12 &= 0 \quad \text{(iii)}
+\end{aligned}
+$$
+
+## Checking for Concurrency
+
+First, we verify that all three roads meet at a single point by calculating the determinant of the coefficient matrix:
+
+$$
+\begin{vmatrix}
+2 & 1 & -11.5 \\
+1 & -4 & 1 \\
+3 & -2 & -12
+\end{vmatrix}
+$$
+
+Expanding along the first row:
+
+$$= 2\begin{vmatrix} -4 & 1 \\ -2 & -12 \end{vmatrix} - 1\begin{vmatrix} 1 & 1 \\ 3 & -12 \end{vmatrix} - 11.5\begin{vmatrix} 1 & -4 \\ 3 & -2 \end{vmatrix}$$
+
+$$= 2(48 + 2) - 1(-12 - 3) - 11.5(-2 + 12)$$
+
+$$= 2(50) - 1(-15) - 11.5(10)$$
+
+$$= 100 + 15 - 115 = 0$$
+
+Since the determinant equals zero, the three lines are concurrent (they converge at the same point).
+
+## Finding the Point of Intersection
+
+To find the coordinates of the roundabout, we solve any two of the three equations. Let's solve equations (ii) and (iii).
+
+Multiply equation (ii) by 3:
+$$3(x - 4y + 1) = 0 \Rightarrow 3x - 12y + 3 = 0$$
+
+Subtract equation (iii) from this result:
+$$
+\begin{array}{r}
+3x - 12y + 3 = 0 \\
+-(3x - 2y - 12 = 0) \\
+\hline
+-10y + 15 = 0
+\end{array}
+$$
+
+Solving for $y$:
+$$-10y = -15 \Rightarrow y = \frac{3}{2} = 1.5$$
+
+Substitute $y = \frac{3}{2}$ into equation (ii):
+$$x - 4\left(\frac{3}{2}\right) + 1 = 0$$
+$$x - 6 + 1 = 0$$
+$$x - 5 = 0$$
+$$x = 5$$
+
+Therefore, the point of convergence is $\left(5, \frac{3}{2}\right)$ or $(5, 1.5)$.
+
+**Verification:** Substituting $(5, 1.5)$ into equation (i): $2(5) + 1.5 - 11.5 = 10 + 1.5 - 11.5 = 0$ ✓
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Concurrency condition for three lines:** Determinant $\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$ for lines $a_ix + b_iy + c_i = 0$
+- **Solving simultaneous linear equations:** Elimination method (multiply and subtract equations)
+- **Point of intersection:** The common solution $(x, y)$ satisfying all three line equations
+
+---
+
+# **Summary of Steps**
+
+1. **Identify the three line equations** representing the roads
+2. **Check concurrency** by calculating the $3 \times 3$ determinant of coefficients; verify it equals zero
+3. **Select any two equations** and solve simultaneously using the elimination method
+4. **Solve for one variable** (here, $y = \frac{3}{2}$) by eliminating the other variable
+5. **Back-substitute** to find the remaining coordinate ($x = 5$)
+6. **State the final coordinates** $\left(5, \frac{3}{2}\right)$ where the roundabout should be constructed",,,"unclassified","5",,"A civil engineer is tasked with designing a roundabout where three main roads converge. The equations of the roads are:
+
+$$2x + y - 11.5 = 0$$
+$$x - 4y + 1 = 0$$
+$$3x - 2y - 12 = 0$$
+
+Find the coordinates of the point where the roundabout should be designed.
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17d8e47t8ts8v839hfmzzn9k58c7pej",,,,,,,"false",,"# **Background and Explanation**
+
+Three lines are said to be **concurrent** if they all pass through a single common point. To find this intersection point, we can verify that the lines meet at one point using the determinant condition for concurrency, then solve any two of the equations simultaneously to find the exact coordinates.
+
+---
+
+# **Solution**
+
+The three given lines are:
+$$
+\begin{align}
+2x + y - 23 &= 0 \\
+0.5x - y + 3 &= 0 \\
+x - y - 1 &= 0
+\end{align}
+$$
+
+## Step 1: Verify that the lines are concurrent
+
+To check if all three lines meet at a single point, we calculate the determinant of the coefficient matrix:
+
+$$
+\Delta = \begin{vmatrix} 2 & 1 & -23 \\ 0.5 & -1 & 3 \\ 1 & -1 & -1 \end{vmatrix}
+$$
+
+Expanding along the first row:
+
+$$
+\begin{aligned}
+\Delta &= 2\begin{vmatrix} -1 & 3 \\ -1 & -1 \end{vmatrix} - 1\begin{vmatrix} 0.5 & 3 \\ 1 & -1 \end{vmatrix} + (-23)\begin{vmatrix} 0.5 & -1 \\ 1 & -1 \end{vmatrix} \\[6pt]
+&= 2[(-1)(-1) - (3)(-1)] - 1[(0.5)(-1) - (3)(1)] - 23[(0.5)(-1) - (-1)(1)] \\[6pt]
+&= 2(1 + 3) - 1(-0.5 - 3) - 23(-0.5 + 1) \\[6pt]
+&= 2(4) - 1(-3.5) - 23(0.5) \\[6pt]
+&= 8 + 3.5 - 11.5 \\[6pt]
+&= 0
+\end{aligned}
+$$
+
+Since $\Delta = 0$, the three lines are concurrent (they intersect at exactly one common point).
+
+## Step 2: Find the point of intersection
+
+To find the coordinates of the flashlight, we solve any two of the three equations. Let's solve equations (i) and (iii).
+
+Adding equations (i) and (iii) to eliminate $y$:
+
+$$
+\begin{array}{rcl}
+(2x + y - 23) + (x - y - 1) &=& 0 \\
+3x - 24 &=& 0 \\
+3x &=& 24 \\
+x &=& 8
+\end{array}
+$$
+
+Substitute $x = 8$ into equation (iii):
+
+$$
+\begin{array}{rcl}
+8 - y - 1 &=& 0 \\
+7 - y &=& 0 \\
+y &=& 7
+\end{array}
+$$
+
+Thus, the position of the flashlight is at the point $(8, 7)$.
+
+**Verification:** We can check that $(8, 7)$ satisfies equation (ii) as well:
+$$0.5(8) - 7 + 3 = 4 - 7 + 3 = 0 \quad \checkmark$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Condition for concurrency of three lines:** For lines $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$, and $a_3x + b_3y + c_3 = 0$, the condition is:
+  $$\begin{vmatrix} a_1 & b_1 & c_1 \\ a_2 & b_2 & c_2 \\ a_3 & b_3 & c_3 \end{vmatrix} = 0$$
+
+- **Elimination method for simultaneous equations:** Add or subtract equations to eliminate one variable and solve for the other
+
+- **Substitution method:** Substitute the known value of one variable back into an equation to find the second variable
+
+---
+
+# **Summary of Steps**
+
+1. **Identify the three line equations** and label them (i), (ii), and (iii)
+2. **Verify concurrency** by calculating the $3 \times 3$ determinant of coefficients; confirm it equals zero
+3. **Select any two equations** (e.g., (i) and (iii)) and add them to eliminate the $y$-variable
+4. **Solve for $x$:** $3x = 24 \Rightarrow x = 8$
+5. **Substitute back** to find $y = 7$
+6. **State the final position** as the coordinate point $(8, 7)$",,,"unclassified","6",,"Asad is arranging a flash light in a marriage ceremony. The position of the flash light is at the intersection of the lines:
+- $2x + y - 23 = 0$
+- $0.5x - y + 3 = 0$
+- $x - y = 1$
+
+Find the position of the flashlight (i.e., the point of intersection of these three lines).
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17ch2kejc148mva6tvv3fzfsh8c6vwg",,,,,,,"false",,"# **Background and Explanation**
+
+To find the intersection point of two lines, we solve their equations simultaneously using elimination or substitution methods. For three lines, we solve each pair of equations to determine if they form a triangle (three distinct vertices) or if they are concurrent (all meeting at a single point).
+
+---
+
+# **Solution**
+
+The three walkways are represented by:
+- Line (i): $x + y - 4 = 0$
+- Line (ii): $2x - y - 2 = 0$
+- Line (iii): $x - 2y + 2 = 0$
+
+## Finding Intersection of Lines (i) and (ii) — Point $A$
+
+To find where the first two walkways meet, solve equations (i) and (ii) simultaneously:
+
+$$
+\begin{aligned}
+x + y - 4 &= 0 \quad \text{(i)} \\
+2x - y - 2 &= 0 \quad \text{(ii)}
+\end{aligned}
+$$
+
+Adding equations (i) and (ii) to eliminate $y$:
+$$
+\begin{aligned}
+(x + y - 4) + (2x - y - 2) &= 0 \\
+3x - 6 &= 0 \\
+3x &= 6 \\
+x &= 2
+\end{aligned}
+$$
+
+Substitute $x = 2$ into equation (i):
+$$
+\begin{aligned}
+2 + y - 4 &= 0 \\
+y - 2 &= 0 \\
+y &= 2
+\end{aligned}
+$$
+
+**Point $A$ is $(2, 2)$.**
+
+## Finding Intersection of Lines (i) and (iii) — Point $B$
+
+To find where the first and third walkways meet, solve equations (i) and (iii):
+
+$$
+\begin{aligned}
+x + y - 4 &= 0 \quad \text{(i)} \\
+x - 2y + 2 &= 0 \quad \text{(iii)}
+\end{aligned}
+$$
+
+Subtract equation (iii) from equation (i):
+$$
+\begin{aligned}
+(x + y - 4) - (x - 2y + 2) &= 0 \\
+x + y - 4 - x + 2y - 2 &= 0 \\
+3y - 6 &= 0 \\
+3y &= 6 \\
+y &= 2
+\end{aligned}
+$$
+
+Substitute $y = 2$ into equation (i):
+$$
+\begin{aligned}
+x + 2 - 4 &= 0 \\
+x - 2 &= 0 \\
+x &= 2
+\end{aligned}
+$$
+
+**Point $B$ is $(2, 2)$.**
+
+## Finding Intersection of Lines (ii) and (iii) — Point $C$
+
+To find where the second and third walkways meet, solve equations (ii) and (iii):
+
+$$
+\begin{aligned}
+2x - y - 2 &= 0 \quad \text{(ii)} \\
+x - 2y + 2 &= 0 \quad \text{(iii)}
+\end{aligned}
+$$
+
+Multiply equation (iii) by 2:
+$$2x - 4y + 4 = 0$$
+
+Subtract this from equation (ii):
+$$
+\begin{aligned}
+(2x - y - 2) - (2x - 4y + 4) &= 0 \\
+2x - y - 2 - 2x + 4y - 4 &= 0 \\
+3y - 6 &= 0 \\
+3y &= 6 \\
+y &= 2
+\end{aligned}
+$$
+
+Substitute $y = 2$ into equation (ii):
+$$
+\begin{aligned}
+2x - 2 - 2 &= 0 \\
+2x - 4 &= 0 \\
+2x &= 4 \\
+x &= 2
+\end{aligned}
+$$
+
+**Point $C$ is $(2, 2)$.**
+
+## Conclusion
+
+All three pairs of lines intersect at the same point $(2, 2)$. Therefore, the three walkways are **concurrent** (they all meet at a single point) rather than forming a triangular park with three distinct vertices.
+
+**The coordinates of the point of intersection are $(2, 2)$.**
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Solving simultaneous linear equations**: Finding values of $x$ and $y$ that satisfy both equations simultaneously
+- **Elimination method**: Adding or subtracting equations to eliminate one variable
+- **Substitution method**: Solving for one variable and substituting back into the other equation
+- **Concurrency of lines**: Three lines are concurrent if all pairs intersect at the same point
+
+---
+
+# **Summary of Steps**
+
+1. **Label the equations**: Identify the three line equations as (i), (ii), and (iii)
+2. **Solve pair (i) and (ii)**: Use elimination by adding the equations to eliminate $y$, finding $x = 2$, then substitute to find $y = 2$
+3. **Solve pair (i) and (iii)**: Use elimination by subtracting (iii) from (i) to eliminate $x$, finding $y = 2$, then substitute to find $x = 2$
+4. **Solve pair (ii) and (iii)**: Multiply (iii) by 2, then subtract from (ii) to eliminate $x$, finding $y = 2$, then substitute to find $x = 2$
+5. **Verify concurrency**: Confirm that all three intersection points are identical at $(2, 2)$, indicating the lines meet at a single point",,,"unclassified","7",,"A surveyor is mapping out a triangular park where three straight walkways meet. The walkways are represented by the equations of lines:
+$$x + y - 4 = 0$$
+$$2x - y - 2 = 0$$
+$$x - 2y + 2 = 0$$
+
+Find the coordinates of the points of intersection of the walkways.
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m175vy1vhwcryzyk2tsgfdt66x8c67k7",,,,,,,"false",,"# **Background and Explanation**
+
+The given equation is a **homogeneous equation of second degree** in $x$ and $y$, which geometrically represents a pair of straight lines passing through the origin. By factorizing this quadratic expression into two linear factors, we obtain the equations of the individual light rays. Once we have the separate line equations, we can determine their slopes and calculate the angle between them using the tangent formula.
+
+---
+
+# **Solution**
+
+## Finding the Individual Light Rays
+
+We begin with the given homogeneous equation:
+
+$$
+3x^{2}-4xy+y^{2}=0
+$$
+
+To factorize this expression, we split the middle term $-4xy$ into $-3xy$ and $-xy$ (since $3 \times 1 = 3$ and we need factors that add to $-4$):
+
+$$
+3x^{2}-3xy-xy+y^{2}=0
+$$
+
+Now we factor by grouping. Take $3x$ common from the first two terms and $-y$ common from the last two terms:
+
+$$
+3x(x-y)-y(x-y)=0
+$$
+
+Notice that $(x-y)$ is a common factor in both terms. Factoring this out:
+
+$$
+(x-y)(3x-y)=0
+$$
+
+This product equals zero when either factor equals zero. Therefore, we obtain two separate linear equations representing the individual light rays:
+
+$$
+x-y=0 \quad \Rightarrow \quad y=x
+$$
+
+and
+
+$$
+3x-y=0 \quad \Rightarrow \quad y=3x
+$$
+
+Thus, the paths of the individual light rays are the straight lines **$y=x$** and **$y=3x$**, both passing through the origin (the focal point of the lens).
+
+## Finding the Angle Between the Rays
+
+To find the angle between these two lines, we first identify their slopes by comparing with the standard form $y=mx+c$.
+
+From the first ray $y=x$:
+$$\text{Slope } m_{1}=1$$
+
+From the second ray $y=3x$:
+$$\text{Slope } m_{2}=3$$
+
+The acute angle $\theta$ between two lines with slopes $m_{1}$ and $m_{2}$ is given by the formula:
+
+$$\tan\theta=\left|\frac{m_{2}-m_{1}}{1+m_{1}m_{2}}\right|$$
+
+Substituting the values $m_{1}=1$ and $m_{2}=3$:
+
+$$
+\tan\theta=\frac{3-1}{1+(1)(3)}=\frac{2}{1+3}=\frac{2}{4}=\frac{1}{2}
+$$
+
+Therefore:
+
+$$
+\theta=\tan^{-1}\left(\frac{1}{2}\right)
+$$
+
+Calculating the numerical value:
+
+$$
+\theta\approx26.56^{\circ}
+$$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Factorization by grouping**: Splitting the middle term of a quadratic expression $ax^2 + bxy + cy^2$ to factor it into two linear terms
+- **Slope identification**: For a line $y = mx$, the coefficient $m$ represents the slope
+- **Angle between two lines**: $\tan\theta=\left|\dfrac{m_{2}-m_{1}}{1+m_{1}m_{2}}\right|$ where $m_1$ and $m_2$ are the slopes of the two lines
+
+---
+
+# **Summary of Steps**
+
+1. **Factorize** the homogeneous equation $3x^{2}-4xy+y^{2}=0$ by splitting the middle term and grouping to get $(x-y)(3x-y)=0$.
+2. **Identify** the individual ray equations: $y=x$ (first ray) and $y=3x$ (second ray).
+3. **Determine slopes**: Extract $m_{1}=1$ and $m_{2}=3$ from the line equations.
+4. **Apply angle formula**: Substitute into $\tan\theta=\frac{m_{2}-m_{1}}{1+m_{1}m_{2}}$ to get $\tan\theta=\frac{1}{2}$.
+5. **Calculate**: Find $\theta=\tan^{-1}(0.5)\approx26.56^{\circ}$.",,,"unclassified","8",,"An astronomer is studying the behaviour of light rays passing through a converging lens. The lens focuses the rays at the origin. The equation of rays is given by $3x^{2}-4xy+y^{2}=0$.
+
+Find:
+1. The path of the individual light rays
+2. The angle between the rays
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",
+"maths-12","06-analytical-geometry","Analytical Geometry","exercise-6-3","6.3 Triangles in Coordinate Geometry","m17bdfa9tz2ccd1kyd1e4wz1vs8c7kp1",,,,,,,"false",,"# **Background and Explanation**
+
+This problem involves factorizing a homogeneous cubic equation to find the equations of three straight lines passing through the origin. When multiple lines intersect at a point, their combined equation can be expressed as a product of their individual linear equations set equal to zero.
+
+---
+
+# **Solution**
+
+We are given the joint equation representing three beams (lines) passing through the origin:
+
+$$2x^{3}-8xy^{2}=0$$
+
+**Step 1: Factor out the common term**
+
+First, we identify that both terms contain a common factor of $2x$:
+
+$$2x(x^{2}-4y^{2})=0$$
+
+**Step 2: Factor the quadratic expression**
+
+The expression inside the parentheses, $x^{2}-4y^{2}$, is a difference of squares. Recall that $a^{2}-b^{2}=(a-b)(a+b)$. Here, $a=x$ and $b=2y$ (since $4y^{2}=(2y)^{2}$):
+
+$$2x(x-2y)(x+2y)=0$$
+
+**Step 3: Apply the zero product property**
+
+For the product of three factors to equal zero, at least one of the factors must be zero. This gives us three separate equations:
+
+$$2x=0, \quad x-2y=0, \quad x+2y=0$$
+
+**Step 4: Simplify the equations**
+
+Simplifying the first equation by dividing by 2:
+
+$$x=0, \quad x-2y=0, \quad x+2y=0$$
+
+Thus, the equations of the three beams are:
+- $x=0$ (the y-axis)
+- $x-2y=0$ or $x=2y$
+- $x+2y=0$ or $x=-2y$
+
+---
+
+# **Key Formulas or Methods Used**
+
+- **Factorization of common terms**: Extracting $2x$ from the polynomial
+- **Difference of squares formula**: $a^{2}-b^{2}=(a-b)(a+b)$
+- **Zero product property**: If $A \cdot B \cdot C = 0$, then $A=0$ or $B=0$ or $C=0$
+- **Homogeneous equations**: Recognition that $2x^{3}-8xy^{2}=0$ represents lines through the origin
+
+---
+
+# **Summary of Steps**
+
+1. Factor out the greatest common factor $2x$ from the given equation $2x^{3}-8xy^{2}=0$
+2. Factor the remaining quadratic expression $x^{2}-4y^{2}$ using the difference of squares formula
+3. Set each of the three factors equal to zero separately
+4. Simplify the resulting equations to obtain the three line equations: $x=0$, $x-2y=0$, and $x+2y=0$",,,"unclassified","9",,"A welder is designing a triangular support structure for a building. The structure is made up of iron beams intersecting at the origin. The equations of the lines representing the beams are given by the joint equation $2x^{3}-8xy^{2}=0$. Find the equations of the individual beams.
+
+---","ms7383pr9z5ry65qk1sgcdsnph85prpe",,"xd7er9jw9qjd2ky5ah7ktszk2x8c68fv","Exercise 6.3","exercise",

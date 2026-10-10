@@ -1,0 +1,68 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Factorial Notation and Properties",
+    "_creationTime": 1777383985757.2917,
+    "_id": "kx7ecqadmqtp7w749q74vcwtt985q00q",
+    "createdAt": 1777383985757,
+    "mdxBody": "# 6.1 Factorial Notation and Properties\n\n## Definition of Factorial\n\nFor any positive integer $n$, the **factorial** of $n$ (written $n!$) is defined as:\n\n$$n! = n \\times (n-1) \\times (n-2) \\times \\cdots \\times 3 \\times 2 \\times 1$$\n\nBy convention, $0! = 1$.\n\n**Examples:**\n- $5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120$\n- $3! = 6$, $\\quad 1! = 1$, $\\quad 0! = 1$\n\n---\n\n## Key Properties of Factorials\n\n### 1. Recursive Property\n$$n! = n \\times (n-1)!$$\n\nThis is the most important property for simplifying factorial expressions.\n\n**Example:** Simplify $\\dfrac{n!}{(n-2)!}$\n\n$$\\frac{n!}{(n-2)!} = \\frac{n \\cdot (n-1) \\cdot (n-2)!}{(n-2)!} = n(n-1)$$\n\n### 2. Writing Products as Factorial Fractions\n\nA product of consecutive integers can be written as a ratio of factorials:\n\n$$n(n-1)(n-2)\\cdots(n-r+1) = \\frac{n!}{(n-r)!}$$\n\n**Example:** Write $10 \\times 9 \\times 8$ in factorial form.\n\n$$10 \\times 9 \\times 8 = \\frac{10!}{7!}$$\n\nbecause dividing $10!$ by $7!$ cancels all factors from $7$ down to $1$.\n\n### 3. Factorial Equations (Quadratic Form)\n\nWhen a factorial equation involves $(n+k)!$ and $n!$, expand the larger factorial:\n\n$$\\frac{(n+2)!}{n!} = (n+2)(n+1)$$\n\nSo an equation like $(n+2)! = 42 \\cdot n!$ becomes:\n$$(n+2)(n+1) = 42 \\implies n^2 + 3n + 2 = 42 \\implies n^2 + 3n - 40 = 0$$\n\nFactoring: $(n+5)(n-8) = 0$, so $n = 8$ (taking the positive integer solution).\n\n### 4. Adding Factorial Fractions\n\nTo add fractions with factorial denominators, use the **largest factorial** as the LCD.\n\n**Example:** $\\dfrac{1}{n!} + \\dfrac{1}{(n+1)!}$\n\n$$= \\frac{n+1}{(n+1)!} + \\frac{1}{(n+1)!} = \\frac{n+2}{(n+1)!}$$\n\n---\n\n## Product of Odd Integers\n\nThe product of the first $n$ odd integers can be expressed using factorials:\n\n$$1 \\cdot 3 \\cdot 5 \\cdots (2n-1) = \\frac{(2n)!}{2^n \\cdot n!}$$\n\n**Derivation:** Multiply and divide by the product of even integers $2 \\cdot 4 \\cdot 6 \\cdots (2n)$:\n\n$$1 \\cdot 3 \\cdot 5 \\cdots (2n-1) = \\frac{(2n)!}{2 \\cdot 4 \\cdot 6 \\cdots (2n)}$$\n\nSince $2 \\cdot 4 \\cdot 6 \\cdots (2n) = 2^n \\cdot n!$, we get:\n\n$$1 \\cdot 3 \\cdot 5 \\cdots (2n-1) = \\frac{(2n)!}{2^n \\cdot n!}$$\n\n**Verification for $n = 3$:** $1 \\cdot 3 \\cdot 5 = 15$ and $\\dfrac{6!}{2^3 \\cdot 3!} = \\dfrac{720}{8 \\cdot 6} = \\dfrac{720}{48} = 15$ ✓\n\n---\n\n## Connection to Permutations\n\nThe factorial ratio $\\dfrac{n!}{(n-r)!}$ appears directly in the **permutation formula**:\n\n$$P(n, r) = \\frac{n!}{(n-r)!} = n(n-1)(n-2)\\cdots(n-r+1)$$\n\nThis counts the number of ways to arrange $r$ objects chosen from $n$ distinct objects.\n\n**Example:** The number of ways to arrange 3 books chosen from 7 distinct books is:\n$$P(7, 3) = \\frac{7!}{4!} = 7 \\times 6 \\times 5 = 210$$\n\n---\n\n\n",
+    "publishedAt": 1777383985757,
+    "slug": "exercise-6-1",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "6.1 Factorial Notation and Properties",
+    "topicId": "ms76a0bqf3kkrccjwtw2rdvdy185pe0s",
+    "updatedAt": 1787228894894
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_creationTime": 1777383986549.326,
+    "_id": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "createdAt": 1777383986549,
+    "mdxBody": "# 6.2 Permutations of Distinct Objects\n\nA **permutation** is an ordered arrangement of objects. In a linear permutation, objects are arranged in a straight line and the order matters.\n\n---\n\n## Key Formulas\n\n### 1. Permutations of $n$ Distinct Objects Taken $r$ at a Time\n\n$$^nP_r = \\frac{n!}{(n-r)!}$$\n\n**Special cases:**\n- $^nP_0 = 1$ (one way to choose nothing)\n- $^nP_n = n!$ (arrange all $n$ objects)\n- $^nP_n = ^nP_{n-1}$ since both equal $n!$\n\n### 2. Permutations with Repetition Allowed\n\nIf each of $r$ positions can be filled by any of $n$ objects (repetition allowed):\n\n$$\\text{Total arrangements} = n^r$$\n\n### 3. Permutations of Objects That Are Not All Distinct\n\nIf $n$ objects contain $p$ of one kind, $q$ of another, and $r$ of a third:\n\n$$\\text{Distinct arrangements} = \\frac{n!}{p!\\, q!\\, r!}$$\n\n**Example:** Arrangements of letters in STATESMAN (9 letters, S×2, T×2, A×2):\n$$\\frac{9!}{2!\\,2!\\,2!} = 45360$$\n\n---\n\n## Circular Permutations\n\nWhen $n$ distinct objects are arranged in a **circle**, rotations of the same arrangement are considered identical. Fix one object's position and arrange the remaining $(n-1)$:\n\n$$\\text{Circular permutations} = (n-1)!$$\n\n**Example:** 5 people seated at a round table: $(5-1)! = 4! = 24$ ways.\n\n---\n\n## Arrangements with Restrictions\n\n### Fill the Most Restricted Position First\n\nWhen a condition limits one position (e.g., a number must be even), **fill that position first**, then fill the remaining positions.\n\n**Example:** 3-digit even numbers from $\\{1,2,3,4,5\\}$ without repetition:\n1. Units place (must be even): 2 choices (2 or 4)\n2. Remaining 2 places from 4 digits: $^4P_2 = 12$\n3. Total $= 2 \\times 12 = 24$\n\n### Items That Must Stay Together (Bundling Method)\n\nTreat the group of items that must stay together as a **single entity**. Then:\n1. Arrange the $(n - k + 1)$ entities (where $k$ = group size)\n2. Multiply by $k!$ for internal arrangements of the group\n\n**Example:** 8 books on a shelf, 3 specific books always together:\n- Entities to arrange: $5 + 1 = 6$, giving $6!$ ways\n- Internal arrangements of the 3 books: $3!$\n- Total $= 6! \\times 3! = 720 \\times 6 = 4320$\n\n### Items That Must Never Be Adjacent (Gap Method)\n\nTo ensure certain items are **never next to each other**:\n1. Arrange the unrestricted items first ($m$ items → $m!$ ways for linear, $(m-1)!$ for circular)\n2. Count the gaps created (for $m$ items in a line: $m+1$ gaps; in a circle: $m$ gaps)\n3. Place the restricted items in the available gaps\n\n**Example:** 4 men and 3 women in a line, no two women adjacent:\n4. Arrange 4 men: $4! = 24$ ways → creates 5 gaps\n5. Choose 3 of 5 gaps for women: $^5P_3 = 60$\n6. Total $= 24 \\times 60 = 1440$\n\n---\n\n## Useful Identity\n\n$$^nP_n = ^nP_{n-1} = n!$$\n\nProof: $^nP_{n-1} = \\frac{n!}{(n-(n-1))!} = \\frac{n!}{1!} = n!$\n\n---\n\n## Real-World Applications (SLO M-11-C-04)\n\nPermutations appear in many real-world contexts:\n\n| Application | How Permutations Apply |\n|---|---|\n| **Cryptography** | Number of possible ordered keys/passwords from a character set |\n| **DNA sequences** | Ordered arrangements of nucleotide bases (A, T, G, C) |\n| **Lottery odds** | Counting ordered draws to estimate winning probability |\n| **Playlists** | Number of ways to order a set of songs for an occasion |\n\n**Example (Password):** A 4-character password using digits 0–9 with no repetition:\n$$^{10}P_4 = \\frac{10!}{6!} = 10 \\times 9 \\times 8 \\times 7 = 5040 \\text{ passwords}$$\n\n---\n\n## MCQ Practice",
+    "publishedAt": 1777383986549,
+    "slug": "exercise-6-2",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "6.2 Permutations of Distinct Objects",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5",
+    "updatedAt": 1787228895217
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_creationTime": 1777383987416.3108,
+    "_id": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "createdAt": 1777383987416,
+    "mdxBody": "# 6.3 Combinations and Their Properties\n\n## What is a Combination?\n\nA **combination** is a selection of items from a set where **order does not matter**. The number of ways to choose $r$ items from $n$ distinct items is:\n\n$${}^{n}C_{r} = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$$\n\nwhere $0 \\leq r \\leq n$.\n\n---\n\n## Key Properties of Combinations\n\n### 1. Symmetry Property\n$${}^{n}C_{r} = {}^{n}C_{n-r}$$\n\nThis means choosing $r$ items is equivalent to leaving out $n - r$ items.\n\n**Consequence:** If ${}^{n}C_{p} = {}^{n}C_{q}$, then either $p = q$ or $p + q = n$.\n\n**Example:** If ${}^{n}C_{15} = {}^{n}C_{7}$, then $n = 15 + 7 = 22$.\n\n---\n\n### 2. Pascal's Identity\n$${}^{n}C_{r} + {}^{n}C_{r-1} = {}^{n+1}C_{r}$$\n\nThis identity shows how combinations in one row of Pascal's Triangle are built from the row above.\n\n**Example:** ${}^{5}C_{2} + {}^{5}C_{3} = {}^{6}C_{3} = 20$.\n\n---\n\n### 3. Special Values\n$${}^{n}C_{0} = {}^{n}C_{n} = 1 \\qquad {}^{n}C_{1} = n$$\n\n---\n\n## Conditional Selection Problems\n\n### Fixed Item Included\nIf one specific item **must** be included in every selection of $r$ items from $n$:\n- Fix that item (1 way)\n- Choose the remaining $r - 1$ items from the other $n - 1$ items\n\n$$\\text{Ways} = {}^{n-1}C_{r-1}$$\n\n---\n\n### Complementary Counting\nFor conditions like **\"at least one\"**, it is often easier to use:\n\n$$\\text{Favourable} = \\text{Total} - \\text{Complement}$$\n\n**Example:** Committee of 5 from 6 men and 4 women with **at least one man**:\n$$= {}^{10}C_{5} - {}^{4}C_{5} = 252 - 0 = 252$$\n\n(Since ${}^{4}C_{5} = 0$, all committees automatically include at least one man here. For cases where the complement is non-zero, subtract the all-women count.)\n\n---\n\n## Real-World Application: Diagonals of a Polygon\n\nIn an $n$-sided polygon, any two vertices can be connected by a line segment. The total number of such segments is ${}^{n}C_{2}$. Subtracting the $n$ sides gives the number of **diagonals**:\n\n$$\\text{Diagonals} = {}^{n}C_{2} - n = \\frac{n(n-1)}{2} - n = \\frac{n(n-3)}{2}$$\n\n**Example:** A hexagon ($n = 6$) has $\\frac{6 \\times 3}{2} = 9$ diagonals.\n\n---\n\n## Real-World Applications\n\n| Context | How Combinations Apply |\n|---|---|\n| **Lottery** | Choosing 6 numbers from 49: ${}^{49}C_{6}$ possible tickets |\n| **DNA sequences** | Selecting bases for a codon from available nucleotides |\n| **Cryptography** | Choosing a subset of keys or characters for a cipher |\n| **Playlist selection** | Choosing 5 songs from a library of 20: ${}^{20}C_{5}$ playlists |\n\nThese applications all share the property that **order does not matter** — only which items are selected.",
+    "publishedAt": 1777383987416,
+    "slug": "exercise-6-3",
+    "sourceRef": {
+      "blockIndex": 46,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "6.3 Combinations and Their Properties",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7",
+    "updatedAt": 1787228895556
+  }
+]

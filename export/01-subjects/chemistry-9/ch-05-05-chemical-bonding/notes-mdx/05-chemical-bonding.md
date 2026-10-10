@@ -1,0 +1,505 @@
+<!-- note kx703grrm045ns0qhhj9rqrshn8brrt4 | topic ms74qdn8g0qjdpxz1fsfffmmvd8bredj | status published -->
+# 5.1 Why Do Atoms React?
+
+All the matter in this world is composed of almost entirely compounds and their mixtures. Human, animal and plant bodies, rocks, soil, petroleum, coal etc. are all complex mixtures of compounds. In compounds different kinds of atom are bounded together. Few elements also consist of unbounded atoms. For instance, helium, neon, argon, xenon and krypton present in the atmosphere consist of unbounded atoms. The manner in which various atoms are bonded together has a profound effect on the properties of substances.
+Some substances are hard and tough, others are soft and flexible why ? Resins are widely used to paint dams, bridges, buildings and automobiles. What makes them sticky ? How do adhesives such as glue bind two surfaces together ? What is the nature of such linkages ? The answer lies in the nature of bonding and structure of their molecules. Therefore, to understand the behaviour of various substances, you must understand the nature of chemical bonding and structure of molecules.
+
+There are eight groups of normal elements (IA, IIA, IIIA, IVA, VA, VIA VIIA VIIIA) in the periodic table. Group VIIIA consist of the noble gases or zero group elements because they are all very stable and chemically inert under ordinary condition. They exist in atomic form in the atmosphere. They have general electronic configuration $=\mathrm{ns}^{2}$, n ${ }^{6}$ (8 electrons in valence shell) except $\mathrm{He}\left(1 \mathrm{~s}^{2}\right)$. These noble gases have completely filled valence shells ( s and p subshells). Their octet is complete, so they do not participate in ordinary chemical reactions and are called inert gases. They have eight electrons in their valence shell, except He , which has two electrons in its valence shell.
+
+$$
+\begin{aligned}
+& { }_{2} \mathrm{He}=1 \mathrm{~s}^{2} \\
+& { }_{10} \mathrm{Ne}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{2}, 2 \mathrm{p}^{6} \\
+& { }_{10} \mathrm{Ar}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{2}, 2 \mathrm{p}^{6}, 3 \mathrm{~s}^{2}, 3 \mathrm{p}^{6}
+\end{aligned}
+$$
+
+In 1916 a chemist G. N. Lewis used the concept of octet (eight electrons) and duplet (2 electrons) electronic rule to explain the reactivity and stability of molecules.
+
+## Octet Rule
+
+The octet rule states that an atom is most stable when its valence shell contains eight electrons. This principle is derived from the observation that atoms of the major group elements tend to participate in chemical bonding in the form of eight electrons per atom in the resulting molecule. This rule only applies to the major group element. The chemical behaviour of the main group elements can be predicted with the help of the octet rule. This is because the rule only involves 5 and p electrons. Molecules such as oxygen, nitrogen, and halogens follow the octet principle. Hydrogen, helium, and lithium follow the duplet rule because their electrons lie in s orbital.
+${ }_{11} \mathrm{Na}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{2}, \mathrm{sp} 6,3 \mathrm{~s}^{1}$ (unstable, reactive, incomplete octet) Loss of one electron
+
+$$
+\mathrm{Na}{ }^{*}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{2}, 2 \mathrm{p}^{6} \text { which is same as that of Ne }
+$$
+
+${ }_{17} \mathrm{Cl}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{2}, 2 \mathrm{p}^{6}, 3 \mathrm{~s}^{2}, 3 \mathrm{p}^{5}$ (unstable, reactive, incomplete octet) ${ }_{18} \mathrm{Cl}^{1}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{2}, 2 \mathrm{p}^{6}, 3 \mathrm{~s}^{2}, 3 \mathrm{p}^{6}$ which is same as that of Ar
+
+## Duplet rule
+
+The tendency of atoms to acquire two electronic configuration in their outermost shell during bond formation is called duplet rule. They attain electronic configuration like helium.
+For Example
+
+$$
+{ }_{3} \mathrm{Li}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{1} \text { lose } 1 \text { electron to form } \mathrm{Li}^{-}\left(1 \mathrm{~s}^{2}\right)
+$$
+
+$$
+\mathrm{Be}=1 \mathrm{~s}^{2}, 2 \mathrm{~s}^{2} \text { loses two electrons to form } \mathrm{Be}^{-2}\left(1 \mathrm{~s}^{2}\right)
+$$
+
+Helium has two electrons in its valence shell and is also chemically inert. Some elements that are close to He on the periodic table tend to achieve two electronic configuration in their valence shell. For example, hydrogen, lithium and beryllium etc. tend to achieve two electron configuration in the valence shell.
+
+
+---
+
+<!-- note kx77kyv24vzt9046jr0bqd86958bswwb | topic ms7b3snv0fapjhcc7ytm5dywtd8br01h | status published -->
+# 5.2 Chemical Bonds
+
+
+Atoms combine to form various types of substances. But what holds them together? Fundamentally, some forces of attraction hold atoms together in substances. These forces are called chemical bonds. Basically the forces of attraction that lead to chemical bonding between atoms are electrical in nature. Electronic structure of an atom helps us to understand how atoms are held together to form substances. Atoms other than the noble gases have a tendency to react with other elements. These elements are reactive because they tend to gain stability by loosing or gaining electrons. When atoms gain or lose electron they acquire the configuration of next noble gas element. The tendency of metal atoms to lose electrons is called electropositivity. Where as the tendency of non-metal atoms to gain electrons is called electronegativity. So, metals are electropositive and non-metals are electronegative elements.
+Atoms can also acquire the configuration of next noble gas element by sharing electrons.
+
+## Electropositive and Electronegative Elements
+
+Metals are electropositive in nature because all metal atoms lose electrons from their outermost shell in order to become stable and become positively charged. They have low ionization energy
+and low electronegativity allowing them to easily lose electrons. Therefore, they can form positive ions by losing electrons.
+Example:
+
+$$
+\begin{aligned}
+& \mathrm{Na} \rightarrow \mathrm{Na}^{+}+\mathrm{e}^{-} \\
+& \mathrm{Mg} \rightarrow \mathrm{Mg}^{2+}+2 \mathrm{e}
+\end{aligned}
+$$
+
+Non-metals are electronegative in nature because all non-metals gain electrons in order to become stable and hence become negatively charged. They have high electronegativity and have high electron affinity. So they can easily form negative ions by gaining electrons. For example:
+
+$$
+\begin{aligned}
+& \mathrm{F}+\mathrm{e} \rightarrow \mathrm{~F} \\
+& \mathrm{O}+2 \mathrm{e} \rightarrow \mathrm{O}^{2}
+\end{aligned}
+$$
+
+
+---
+
+<!-- note kx77gbqfqmae79kks9kejcpafh8bsv7k | topic ms7bdy0bqp1q2hfdysrx37efqd8bsyw2 | status published -->
+# 5.3 Types of Bonds
+
+
+Depending on the tendency of an atom to lose or gain or share electrons, there are two types of bonds:
+
+1. Ionic bonds
+2. Covalent bonds
+
+## Ionic Bonds
+
+Ionic bonds are formed between two atoms, when one atom loses electron to form cation and the other atom gains this electron to form anion.
+
+Example 5.1: Describing the formation of cations
+Describe the formation of $\mathrm{Na}^{*}$ and $\mathrm{Mg}^{* 2}$ cations.
+Problem Solving Strategy:
+
+1. Sodium belongs to Group IA on the periodic table. It has only one electron in the valence shell. The sodium atom loses its valence electron and is left with an octet. Represent this by drawing the complete electronic configuration or using an electron dot structure.
+2. Magnesium belongs to Group IIA in the periodic table. It has two valence electrons. A magnesium atom loses these electrons to achieve noble gas configuration. Represent this by drawing the complete electronic configuration or using an electron dot structure. This number also corresponds to the Group number in the periodic table.
+
+Solution:
+
+(a) Formation of $\mathrm{Na}^{*}$ ion
+$$
+{ }_{\|, \mathrm{Na}}\left(1 \\mathrm{s}^{2} 2 \\mathrm{s}^{2} 2 \\mathrm{p}^{6} 3 \\mathrm{s}^{1}\right) \xrightarrow{-e^{-}} \mathrm{Na}^{+}\left(1 \\mathrm{s}^{2} 2 \\mathrm{s}^{2} 2 \\mathrm{p}^{6}\right)
+$$
+You can also represent this by following electron dot structure,
+
+<CaptionedImage src="kg26jz617esr93yct9z15h5g7n8btcw5" alt="" caption="" />
+
+(b) Formation of $\mathrm{Mg}^{-2}$ ion
+$$
+{ }_{12} M g\left(1 \\mathrm{s}^{2} 2 \\mathrm{s}^{2} 2 \\mathrm{p}^{6} 3 \\mathrm{s}^{2}\right) \xrightarrow{-2 e^{-}} M \\mathrm{g}^{2+}\left(1 \\mathrm{s}^{2} 2 \\mathrm{s}^{2} 2 \\mathrm{p}^{6}\right)
+$$
+You can also represent this by electron dot structure,
+
+## CONCEPT ASSESSMENT EXERCISE 5.1
+
+1. Describe the formation of cations for the following metal atoms:
+    (a) Li(atomic no 3)
+    (b) Al(atomic no. 13)
+2. Represent the formation of cations for the following metal atoms using electron dot structures.
+    (a) K (b) Ca
+
+Example 5.2: Describing the formation of anions.
+Describe the formation of anions for the following non-metal atoms:
+
+(a) Oxygen(atomic no.8) (b) Fluorine (atomic no. 9)
+
+Problem Solving Strategy:
+
+1. Write electronic configuration or dot structure.
+2. Find the number of electrons needed to acquire eight electron configuration.
+3. Represent addition of electrons.
+
+Solution:
+
+(a) Formation of anion by oxygen atom.
+
+Oxygen belongs to Group VIA on the periodic table. So it has six electrons in its valence shell. It needs two electrons to achieve noble gas configuration.
+
+$$
+{ }_{8} \mathrm{O}\left(1 \mathrm{~s}^{2} 2 \mathrm{~s}^{2} 2 \mathrm{p}^{4}\right)+2 \mathrm{e} \longrightarrow \mathrm{O}^{2}(1 \mathrm{~s}^{2} \underbrace{2 \mathrm{~s}^{2} 2 \mathrm{p}^{6}}_{\text {octet }})
+$$
+
+You can also represent this by electron dot structure,
+(a) Formation of anion by fluorine atom Fluorine belongs to Group VIIA on the periodic table. So it has seven electrons in the valence shell. A fluorine atom therefore, requires only one electron to complete octet.
+$$
+{ }_{9} F\left(1 \\mathrm{s}^{2} 2 \\mathrm{s}^{2} 2 \\mathrm{p}^{5}\right)+e^{-} \longrightarrow F^{-}(1 \\mathrm{s}^{2} \underbrace{2 \\mathrm{s}^{2} 2 \\mathrm{p}^{6}}_{\text {octet }})
+$$
+<CaptionedImage src="kg28n6t93ctegk91egn7bv3dyh8bt87e" alt="" caption="" />
+You can also represent this by electron dot structure,
+
+## CONCEPT ASSESSMENT EXERCISE 5.2
+
+1. Describe the formation of anions by the following non-metals.
+(a) Sulphur (atomic No. 16)
+(b) Chlorine(atomic No. 17)
+2. Represent the formation of anions by the following non-metals using electron dot structures.
+(a) N
+(b) P
+(c) Br
+(d) H
+3. Compare differences between the formation of cations and anions.
+
+Anions and cations have opposite charges. They attract one another by strong electrostatic forces. "An ionic bond is a strong electrostatic attraction between positively charged metal ions and negatively charged non-metal ions". Compounds that consist of ions joined by electrostatic forces are called ionic compounds. The total positive charge of the cations must be equal to the total negative charge of the anions. This is because ionic compounds are electrically neutral as a whole.
+
+Example 5.3: Representing ionic bond formation.
+For each of the following pairs of atoms, use electron dot \& electron cross structures to write the equation for the formation of ionic compound.
+(a) Na and Cl
+(b) Mg and F
+
+Problem Solving Strategy:
+
+1. The metal atoms form cations and non-metal atoms form anions.
+2. The number of electrons lost by metal atoms of group IA, IIA and IIIA equals the group number.
+3. To write the final form of the equation, you need to know the simplest ratio of cations to anions that you require for the neutral compound.
+4. Write equation using electron dot and electron cross structures.
+
+Solution:
+
+(a) Na is metal and Cl is non-metal.
+Metal atom tends to lose electrons and non - metal atoms tends to gain electrons to acquire electronic configuration of nearest noble gas. Since a Na atom has one electron in the outer most shell. It losses one electron to form $\mathrm{Na}^{*}$ ion. Since a Cl atom has seven electrons in outermost shell, it needs one electron to complete octet. So it gains one electron to form Clion. For every Na ion, you need one Clion.
+<CaptionedImage src="kg2aqtedkhwjkjm6ctp043e44s8bv9ye" alt="" caption="" />
+
+(b) Mg is metal and F is non-metal.
+A Mg atom has two electrons in the outermost shell. It losses two electrons to form $\mathrm{Mg}^{-2}$ ion. Since a F atom has seven electrons in the outermost shell, so it gains one electron to form Fion.
+<CaptionedImage src="kg2ehz22ph6gfm7berg9rxj2vx8btqrm" alt="" caption="" />
+For every $\mathrm{Mg}^{2}$ ion you need two Fions.
+
+## CONCEPT ASSESSMENT EXERCISE 5.3
+
+For each of the following pairs of atoms, use electron dot and electron cross structures to write the equation for the formation of ionic compound.
+(a) Mg and O
+(b) Al and Cl
+
+Example 5.4: Recognizing a compound as having ionic bonds.
+Recognize the following compounds as having ionic bonds.
+(a) MgO
+(b) NaF
+Problem Solving Strategy:
+
+1. The metal atom loses electrons to form cations and non-metal atom gains electrons to form anions.
+2. The number of electrons lost by metal atoms of group IA, IIA and IIIA equals the group number. The number of electrons gained by the non-metal atoms is equal to 8 minus group number.
+3. Find the simplest ratio of cations to anions, to identify the compound.
+
+Solution:
+
+(a) MgO
+Mg is metal and O is non-metal. A Mg atom has two electrons in outermost shell. So it loses two electrons to form $\mathrm{Mg}^{+2}$ ion. Since an O atom has six electrons in outermost shell, so it gains two electrons to form $\mathrm{O}^{-2}$ ion. In this way both the atoms acquire nearest noble gas configuration. For every $\mathrm{Mg}^{-2}$ ion you need one $\mathrm{O}^{-2}$ ion. Chemical formula of resulting compound is MgO . Therefore MgO is an ionic compound.
+(b) Na is metal and F is non-metal. A Na atom has one electron in outmost shell. So it loses one electron to form $\mathrm{Na}^{*}$ ion. Since a F atom has seven electrons in outermost shell, so it
+
+gains one electron to form F ion. Na atom by losing one electron and F atom by gaining one electron acquire nearest noble gas electronic configuration. You need one $F$ ion for each Na* ion. Therefore, NaF is an ionic compound.
+
+## CONCEPT ASSESSMENT EXERCISE 5.4
+
+Recognize the following compounds as having ionic bonds:
+(a)
+KCl
+(b)
+AlCl,
+(c)
+$\mathrm{MgF}_{2}$
+(d)
+NaF
+(e)
+NaBr
+
+## Covalent Bonds
+
+Nonmetal atoms tend to share electrons with each other or with other nonmetal atoms, forming a chemical bond called a covalent bond. A chemical bond formed by mutual sharing of electrons between two atoms is called a covalent bond. General representation of a covalent bond is given below.
+<CaptionedImage src="kg24yte6sg8rq91am02cfhxh858bv1dq" alt="" caption="" />
+Consider the formation of a covalent bond between two hydrogen atoms. A hydrogen atom has one valence electron. Two hydrogen atoms share their valence electrons to form a diatomic molecule.
+<CaptionedImage src="kg28qb70dqe6h9sgz5hwqsbrdh8btf00" alt="" caption="" />
+In the formation of this molecule, each hydrogen atom reaches the electronic configuration of the noble gas helium with two valence electrons. An electron pair in the region between two atoms attracts both hydrogen nuclei. This creates a strong electrostatic attraction between the shared electrons and the two nuclei. This means that the situation is more stable than in individual atoms. Because of this stability, the two atoms form a covalent bond.
+In a covalent bond, a strong electrostatic forve of attraction between the bonding electrons and two atomic nuclei binds them together.
+A covalent bond between two atoms can be represented by using electron-dot and electron-cross symbols for the atoms and the resulting molecule. As already discussed valence electrons are represented by dots. Just to understand sharing, we represent valence electrons in one atom by dots and in the other atom by crosses. However, remember that all the electrons are identical and
+cannot be differentiated. A shared pair of electrons is also represented by a dash ( - ) in a molecule.
+Consider the formation of a bond between two fluorine atoms. Fluorine belongs to Group VIIA, so it has seven electrons in the valence shell. It needs one more electron to attain the electron configuration of a noble gas. Thus two F-atoms share an electron pair and achieve electron configuration of Ne. For sharing each F-atom contributes one electron to complete the octet.
+Pairs of valence electrons that are not shared between atoms are called lone pairs or lone pairs. A covalent bond formed by sharing one pair of electrons is called a single covalent bond. So both $\mathrm{H}_{2}$ and $\mathrm{F}_{2}$ molecules contain single covalent bond.
+Can you explain the formation of covalent bond between H -atom and a F -atom?
+<CaptionedImage src="kg2cdnqkwan81a3nxweae9zb918btwes" alt="" caption="" />
+
+Sometimes atoms may share two or three electron pairs to complete an octet. Double covalent bonds are the bonds that are formed by sharing of two electron pairs. Triple covalent bonds are the bonds that involve three shared pairs of electrons.
+Consider the formation of $\mathrm{O}_{2}$ molecules. Oxygen is in Group VI A, so it has 6 electrons in the valence shell. It needs two electrons to complete its octet. So for sharing each O -atom contributes two electrons.
+Can you explain the formation of $\mathrm{N}_{2}$ molecules?
+<CaptionedImage src="kg286dpj46ke7yw5hskqgjt5kh8bvywg" alt="" caption="" />
+
+Example 5.5: Drawing electron cross and dot structures for simple covalent molecules containing single covalent bonds
+
+Draw electron cross and dot structures for (a) $\mathrm{CH}_{4}$ that is a major component of natural gas (b) $\mathrm{H}_{2} \mathrm{O}$ that covers about 80\% of the earth crust.
+Problem Solving Strategy:
+
+1. Decide from the chemical formula which atom is the central atom. An atom that contributes more electrons for sharing is the central atom. Show its valence electrons by dots. Note the number of electrons it needs to complete octet. If the number of electrons needed equals the other atoms, each atom will form a single covalent bond.
+2. Arrange other atoms around the central atom. Connect the central atom by single bonds. Use cross to represent electrons of the other atoms.
+3. Check whether the arrangement of electron satisfies the octet rule.
+
+Solution:
+
+(a) $\quad \mathrm{CH}_{4}$
+    (i) C has four electrons in the valence shell and needs four electrons to complete its octet. H has only one valence electron and needs one electron to complete the duplet. So $C$ can form four single bonds with four
+<CaptionedImage src="kg26y41g32dv9me651sqbyzqws8btgg9" alt="" caption="" />
+H -atoms. C is the central element.
+(b) $\mathrm{H}_{2} \mathrm{O}$
+    (ii) Connect the atoms with a dot and a cross
+<CaptionedImage src="kg28e1aqgf47qc2q68fzrpv2498bv2av" alt="" caption="" />
+    (i) O has six valence electrons :Ö: and each hydrogen atom has one valence electron. H So O-atom needs two electrons to complete the octet. Each H needs one electron to complete duplet.
+(ii) 0 is central atom and will form two single bonds with
+<CaptionedImage src="kg22nevf8tt05d9rx2erpsngqx8bvks6" alt="" caption="" />
+H -atoms.
+(iii) Arrange H -atoms around O and connect them by a pair of electrons (one dot and one cross)
+<CaptionedImage src="kg2a84f38ax775m76snk7fbrn18bv0hr" alt="" caption="" />
+
+## CONCEPT ASSESSMENT EXERCISE 5.5
+
+Draw electron cross and dot structures for the following molecules:
+
+(a) $\mathrm{NH}_{3}$
+(b) HCl
+(c) $\mathrm{CH}_{3} \mathrm{OH}$
+
+Example 5.6: Drawing electron cross and dot structures for molecules containing multiple bonds
+Draw electron cross and dot structures for the following molecules:
+
+(a) $\mathrm{CO}_{2}$, a component of air and is responsible for greenhouse effect.
+(b) $\quad \mathrm{HCN}$, used as insecticide.
+
+Problem Solving Strategy:
+
+1. Decide from the formula which atom is to be in the center. Show its valence electrons by dots. Note the number of electrons it needs to complete octet.
+2. Show valence electron of the other atoms by cross and find the number of electrons each of the atoms needs to complete octet or duplet.
+3. Connect central atom with the other atoms by electron pair or pairs to satisfy the octet rule.
+
+Solution:
+
+(a) $\mathrm{CO}_{2}$
+    (i) $\quad \mathrm{C}$ has four electrons in the valence shell. It needs four electrons to complete octet.
+    (ii) Each oxygen atom has six valence electrons and needs two electrons to have an octet.
+    (iii) $\quad \mathrm{C}$ is central atom, arrange O -atoms around it.
+    (iv) Since C needs four electrons and there are only two oxygen atoms. So it will share its two electrons with each oxygen atom.
+<CaptionedImage src="kg2c7s04vxhmjnjvtqrkphpq0h8bvdkd" alt="" caption="" />
+<CaptionedImage src="kg22yjeyfm24dyg6zdkepfqqh58bvn2a" alt="" caption="" />
+(b) HCN
+    (i) H has one, C has four and N has five electrons.
+    (ii) C needs four and N needs three electrons. So C shares one electron with H to form a single bond and three electrons with $N$ to form a triple bond. This will satisfy octet rule.
+<CaptionedImage src="kg22jda2spe9g77p7q2655tzsd8bv11z" alt="" caption="" />
+
+CONCEPT ASSESSMENT EXERCISE 5.6
+Draw electron cross and electron dot structures for the following molecules:
+
+(a) $\mathrm{CS}_{2}$ an organic solvent that dissolves sulphur, phosphorus etc
+(b) $\quad \mathrm{N}_{2}$ a component of air.
+(c) $\mathrm{C}_{2} \mathrm{H}_{4}$, ethane, a component of natural gas.
+
+## Types of covalent bond on the basis of polarity:
+
+Non-Polar Covalent bond:
+A covalent bond may form between two similar atoms such as in $\mathrm{H}_{2}, \mathrm{~N}_{2}, \mathrm{O}_{2}, \mathrm{Cl}_{2}$ etc. It can also occur between two different atoms, as in, $\mathrm{HCl}, \mathrm{H}_{2} \mathrm{O}, \mathrm{NH}_{3}, \mathrm{HCN}, \mathrm{CO}_{2}$ etc. When two identical atoms share electron pairs, both atoms exert the same force on the shared electron pairs. Such a covalent bond is called a nonpolar covalent bond. For example, bonds $\mathrm{H}-\mathrm{H}, \mathrm{O}=\mathrm{O}$, etc. are nonpolar covalent bonds.
+Polar Covalent bond:
+On the other hand, when two different atoms share an electron pair, both atoms exert different forces on the shared electron pair. The more electronegative atom pulls the shared electron pairs towards itself with a greater force than the other atom. Thus, the more electronegative atom attracts some of the electron density towards itself. This makes it partially negatively charged and the other atoms partially positively charged. Such a covalent bond is called a polar covalent bond. The forces of attraction between molecules are called intermolecular forces. For example,H-C̣̆:
+
+## Coordinate Covalent Bond
+
+A coordinate covalent bond is a type of covalent bond where the shared electron pair comes from a single atom (called donor). Atoms are held together because both nuclei attract a pair of electrons. Once a covalent bond is formed, it is impossible to distinguish the origin of the electrons. Such bonding is usually observed when metal ions bind to ligands. However, nonmetals can also participate in this bond. The reaction between a Lewis acid and a base is a covalent coordinate bond.
+
+## Examples of coordinate covalent bonds:
+
+1. Ammonium $\left(\mathrm{NH}_{4}{ }^{+}\right)$ion
+The ammonium ion is formed from the reaction of ammonia ( $\mathrm{NH}_{3}$ ) gas with hydrogen chloride $(\mathrm{HCl})$ gas. In $\mathrm{NH}_{4}{ }^{+}$, the fourth hydrogen is attached by acoordinate covalent bond because only the hydrogen's nucleus is transferred from the chlorine to the nitrogen. The hydrogen's electron is left behind on the chlorine to form a negative chloride ( Cl ) ion.
+
+<CaptionedImage src="kg23jdrq2098t8skxdd8ta44g98btefy" alt="" caption="" />
+
+2. Hydronium ion $\left(\mathrm{H}_{2} \mathrm{O}^{+}\right)$
+When hydrogen chloride $(\mathrm{HCl})$ gas dissolves in water to make hydrochloric acid ( HCl aq.), a coordinate covalent bond is formed in the hydronium ion. The hydrogen $(\mathrm{H})$ nucleus is transferred to the water $\left(\mathrm{H}_{2} \mathrm{O}\right)$ molecule, which has a lone pair of electrons to form hydronium. So, H does not contribute any electrons to the bond.
+3. Ammonia Boron Trifluoride $\left(\mathrm{NH}_{3}-\mathrm{BF}_{3}\right)$
+Boron trifluoride $\left(\mathrm{BF}_{1}\right)$ is a compound that does not have a noble gas structure around the boron(B) atom. The boron only has three pairs of electrons in its valence shell and requires a pair to complete the orbital. Hence, $\mathrm{BF}_{3}$ is electron deficient. The lone pair on the nitrogen $(\mathrm{N})$ of the ammonia $\left(\mathrm{NH}_{2}\right)$ molecule is used to overcome that deficiency, and a complex compound forms through a coordinate covalent bond.
+<CaptionedImage src="kg29nj45rqkdx0cwkda6r0tf7s8bt9e1" alt="" caption="" />
+CONCEPT ASSESSMENT EXERCISE 5.7
+1. Differentiate between polar and non-polar covalent bonds.
+2. How is coordinate covalent bond different from normal covalent bond?
+<CaptionedImage src="kg217ag8kxr87bxtfgx6r0gsnn8btnzp" alt="" caption="" />
+
+
+---
+
+<!-- note kx70k52b1hryyx2raeex8sedj18bs7wk | topic ms7dqv0cyr25n91w2n77k3rqw98brtyz | status published -->
+# 5.4 Intermolecular Forces
+
+
+An intermolecular force is the attractive force that exist between the molecules.
+Dipole-dipole forces
+Dipole-dipole interactions occur between polar molecules. Figure 5.1 shows these interactions.
+You know that paints and dyes are used to protect solid surfaces from the atmospheric effects. They also give visual appeal. Resins are used to coat materials that give toughness, flexibility, adhesion and chemical
+
+<CaptionedImage src="kg2dn9zmqkekbhy62zeyy7ym9s8bv8bq" alt="" caption="" />
+Figure 5.1: Dipole-Dipole Interactions
+
+resistance. For example dams, bridges, floors, trains, buses, cars etc are painted with resins. The synthetic resins are used where water resistance is required. Chemically, resins are either adhesive or they form bond linkages with the material being bonded together. What is the nature of these linkages?
+Notice that slightly negative end of polar molecule is weakly attracted to the slightly positive end of another molecule. Such attracting forces are called dipole-dipole interactions.
+
+## Hydronging bonding
+
+Molecules in which hydrogen is covalently bonded to a very electronegative atom such as oxygen, nitrogen or fluorine is also weakly bonded to a lone pair of electron of another electronegative atom. This other atom may occur in the same molecule or in a nearby molecule. This intermolecular interaction is called hydrogen bonding. Oxygen, nitrogen or fluorine makes hydrogen very electron-deficient. Thus interaction of such a highly electron deficient hydrogen and lone pair on a nearby electronegative atom compensates for the deficiency. Figure 5.2 shows hydrogen bonding in water molecules.
+The interaction of a highly electron deficient hydrogen and lone pair on a nearby highly electronegative atom such as N, O or F is called hydrogen bond. This phenomenon is called hydrogen bonding.
+These intermolecular forces are extremely important in determining properties of water, biological molecules, such as proteins, DNA etc and synthetic materials such as glue, paints, resins etc. The adhesive action of paints and dyes is developed due to hydrogen bonding. Synthetic resins bind two surfaces together by hydrogen bonding or dipole-dipole interactions
+
+## Society, Technology and Science
+
+Epoxy adhesives have excellent chemical resistance, good adhesion properties, good beat resistance and they form strong and tough coating. Therefore, propellers and parts of aircraft, boats, cars, trucks etc are held together by epoxy adhesives. Epoxy adhesives contain partially positively charged H-atoms and oxygen atoms containing lone pairs in their molecules. Epoxy adhesives are, therefore, sticky and can make H-bonds with other substances. Modern aircraft, boats and automobiles such as cars, trucks etc and even in space craft epoxy adhesives are used for assembling, saving money and reducing weight. This means glues and adhesives have become an essential item in our daily life.
+
+
+---
+
+<!-- note kx77yhx45qdefrkgh666hepmbd8br2ca | topic ms7bk5s5cq0tyczg4wcycbp83h8bs9ba | status published -->
+# 5.5 Nature of Bonding, Structure and Properties
+
+
+Three main factors are important when determining the properties of a substance:
+
+1. Type of Particles
+
+The types of elementary particles contained. The substance can contain atoms, ions or molecules. For example, if it contains ions (such as sodium chloride), it will conduct
+
+electricity when melted or dissolved in water. In order to be soluble in water, the substance must contain ions or polar molecules.
+2. The way elementary particles are connected to each other.
+Particles may have ionic, covalent, metallic, or weak intermolecular forces. The stronger the bond, the higher the melting/boiling point and hardness of the substance.
+For example, silicon dioxide ( $\mathrm{SiO}_{2}$ ) has strong covalent bonds, connecting each atom to several other atoms to form a giant covalent structure. The atoms in silica are difficult to separate, making it very hard and difficult to melt.
+On the other hand carbon dioxide has strong covalent bonds between the C and O atoms. But these molecules have weak intermolecular forces between them. The molecules are therefore easily separated and so $\mathrm{CO}_{2}$ has a low melting/boiling point.
+3. The arrangement of particles
+Particles may be arranged in planes (for example, polymers), in layers (for example, clays, graphite) or in a variety of three-dimensional networks. In graphite atoms are arranged in 2 -dimensional layers. This allows the layers of graphite to move over one another (for example, graphite pencil writing). Diamonds have a large three-dimensional network of carbon atoms, which make it the hardest substance on earth. Metals also have giant structures. metallic bonding is stong , most metals have very high melting and boiling points and are thermally stable.
+
+## Conduction of electricity in ionic compounds
+
+Electrical conductivity is achieved by the movement of charged particles.lonic compounds cannot conduct electricity in the solid state because their ions remain in a fixed position and cannot move. When an ionic compound is melted or dissolved in water. It is ionized, its ions move freely in molten or aqueous solution. Therefore electricity can pass through a molten ionic compound or its
+
+<CaptionedImage src="kg2bns516vawdfbrv3p1yw2f5n8bvg8t" alt="" caption="" />
+Figure 5.4: conduction of electricity through molten NaCl
+
+aqueous solution.
+
+## Conduction of electricity through acids
+
+Covalent compounds have no free charged particles, so they do not conduct electricity. However, some covalent compounds conduct electricity when dissolved in water. For instance, acids like $\mathrm{HCl}, \mathrm{H}_{2} \mathrm{SO}_{4}, \mathrm{HNO}_{3}$ etc. When these acids are dissolved in water, they ionize and form high concentrations of $\mathrm{H}^{\prime}$ ions and negatively charged ions. These ions can move freely in aqueous solution. Therefore, aqueous solutions of acids conduct electricity.
+Metals are good conductor of electricity because they have free electrons. These electrons are not associated with a single atom. These electrons begin to flow under the influence of electricity. Therefore metals allow electricity to pass through.
+
+Compounds that consists of covalent molecules are called covalent compounds. The intermolecular forces between their molecules are much weaker than the covalent bonds. Therefore, covalent compounds have low melting and boiling points. Since their molecules do not contain any free electrons or ions, they are poor conductors of electricity.
+
+## Intermolecular Forces and Their Influence on the Melting and Boiling Points
+
+Tables shows melting and boiling points of some common covalent and ionic compounds.
+
+| Table 5.1: Melting point and boiling points of some covalent compounds |  |  |
+| :--- | :--- | :--- |
+| Compound | Melting Point $\left({ }^{\circ} \mathrm{C}\right)$ | Boiling Point $\left({ }^{\circ} \mathrm{C}\right)$ |
+| Water $\left(\mathrm{H}_{2} \mathrm{O}\right)$ | 0 | 100 |
+| Mehtane ( $\mathrm{CH}_{4}$ ) | -183 | -162 |
+| Ethanol $\left(\mathrm{CH}_{3} \mathrm{CH}_{2} \mathrm{OH}\right)$ | -117 | 78 |
+
+| Table 5.2: Melting point and boiling points of some ionic compounds |  |  |
+| :--- | :--- | :--- |
+| Compound | Melting Point $\left({ }^{\circ} \mathrm{C}\right)$ | Boiling Point $\left({ }^{\circ} \mathrm{C}\right)$ |
+| Sodium Chloride (NaCl) | 801 | 1465 |
+| Sodium Fluoride (NaF) | 996 | 1695 |
+| Magnesium Chloride $\left(\mathrm{MgCl}_{2}\right)$ | 714 | 1412 |
+
+Covalent compounds usually have much lower melting points than ionic compounds. For example, a common covalent compound of water has a melting point of $0^{\circ} \mathrm{C}$ and a boiling point of $100^{\circ} \mathrm{C}$. The melting points and boiling points of the common ionic compound sodium chloride are 801°C and $1465^{\circ} \mathrm{C}$. This is because ionic compounds involve breaking the ionic bond. Breaking the electrostatic forces between ions requires large amounts of energy. Thus, ionic compounds have high melting points and boiling points. Melting of covalent solids involves the breaking of intermolecular forces, which are much weaker than electrostatic forces. Thus, less energy is required to break the intermolecular forces between covalent molecules.
+
+## Graphite
+
+Graphite's name is derived from the Greek word "graphein," meaning "to write." It is commonly called black lead. Graphite is an allotrope of carbon. Graphite is formed when carbon is subjected to the intense heat and pressure of the earth's crust and upper mantle.
+
+## Structure of Graphite
+
+In graphite, each carbon atom is linked with 3 other carbon atoms by a single covalent bond resulting in the hexagonal ring arranged in a layer. It has a 2 -dimensional layers structure. The $4^{\text {th }}$ valence of the carbon atom is satisfied by weak Vander walls forces between 2 layers.
+
+## Uses of graphite
+
+1. Graphite is a unique material since it has both metal and non-metal qualities. Moreover, it is a soft mineral with black colour, slippery surface and lustre. These properties are due to layered structure of graphite. Its major uses include:
+
+2. Due to its stability in high temperatures and chemical inertness, graphite is used in many refractory items such as carbon refractory bricks.
+3. The electrodes of graphite are used in electrical metallurgical furnaces. It is used as an anode in electrolytic processes.
+4. Graphite is used in making moderator rods and reflector components in a nuclear reactor. It is used in the manufacturing of carbon brushes andelectric motors.
+5. Graphite material is used in engineering sectors in the making of thrust and journal bearing, piston rings, and valves.
+6. Other applications of graphite include metallurgy, as lubricants, and in the production of paints and pencils.
+
+All these uses are a testament to the unique properties of graphite. The patterned bonding and layered structure make it suitable for such diverse applications.
+
+<CaptionedImage src="kg21t1d3e6z8derq5w7r1sns218btsmn" alt="" caption="" />
+Figure 5.5: Structure of graphite and dimond
+
+## Diamond
+
+Diamond is an allotrope of carbon in which the carbon atoms are arranged in a diamond cubic crystal lattice. Thanks to the presence of strong covalent bonds and a rigid tetrahedral structure, Diamond is the hardest material ever discovered.
+Structure of Diamond
+In a diamond, the carbon atoms are arranged tetrahedrally. Each carbon atom is attached to four other carbon atoms $1.544 \times 10^{-10}$ meter away with a C-C-C bond angle of $109.5^{\circ}$. It is a strong, rigid three-dimensional structure that results in an infinite network of atoms. This accounts for diamond's hardness, extraordinary strength and durability and gives diamond a higher density than graphite ( 3.514 grams per cubic centimeter).
+
+## Properties and uses of Diamond
+
+The giant structure and extensive covalent bonding in diamond renders it extraordinary hardness, elasticity, high yield strength, less conductivity, and chemical inertness. Owing to these properties diamond has variety of applications like:
+
+1. Diamonds are most commonly used in ornaments like rings, necklace, earrings, etc. In the gem industry, the value of diamonds is very high. They are used in making jewellery because of their durability and lustre property.
+2. Its property of hardness is useful to drill, grind or cut materials. Hence, some blades used for cutting and drills in the industry used diamonds. They are present on the edges and tips in small sizes.
+3. Diamonds are used in making medicines and beauty products. They are also used in making medical tools; like tools used in cataract surgery. Nano-diamonds have potential health benefits.
+4. Diamonds produce high-quality sound because they are hard and vibrate easily at high speed. It is also used in DJ equipment and high-quality recorders.
+
+## Contrasting ionic and covalent compounds and their uses
+
+The type of chemical bonds significantly influences the properties and uses of materials.
+
+- Ionic compounds are strong in compression, but they are brittle, i.e. they can break easily. In the solid state ionic compounds are poor conductors of electricity. But when they melt or dissolve in water, they conduct electricity due to the free movement of ions. Therefore, batteries and fuel cells use ionic compounds as electrolytes.
+- Covalent compounds with giant structures, such as diamond, quartz, silica, etc. are usually very strong and hard. Because of its hardness, diamond is used in cutting and drilling tools. Quartz and silicon dioxide are used in the production of abrasives. Graphite, quartz and silica, because they are stable at high temperatures, are used to make ceramics, glass and refractories. Most covalent compounds are poor conductors of electricity
+
+
+---
+
+<!-- note kx77fn85da7dz6haeqvvb3psqd8bra08 | topic ms72mmypprbgpctepey1vmk7758bsans | status published -->
+# 5.6 Metallic Bonds
+
+
+A special type of bonding occurs in metals. In metals, the valence electrons are not confined to individual atoms. These electrons are called free electrons. Metal atoms lose these electrons and form positive ions. The free electrons can move throughout the entire metal structure. This leads to the forming a sea of delocalized electrons called the electron sea. The metal cations are held together by the strong electrostatic attractive forces between the metal cations and negatively charged electron sea. This force gives metals their unique
+<CaptionedImage src="kg2ezmf07za82n7ae598vwpkan8bv2ah" alt="" caption="" />
+properties. This type of bonding is called metallic bonding.
+The properties of metals that are a consequence of metallic bonding include:
+
+Malleability
+Ductility
+High melting and boiling point
+High electrical and thermal conductivity Metallic lustre
+
+## Structure and Properties of Metals Which make it Suitable for Industrial Purposes
+
+1. Metals have giant structures. Metallic bond is strong due to which metals have very high melting and boiling points. This makes them thermally stable.
+2. The layers are able to slide over each other, which makes the metals to bent and shaped. This makes them malleable and ductile. They can be drawn into wires and sheets.
+3. Metals are good conductors of electricity because the delocalised electrons can move freely. The delocalised electrons can also transfer energy from one place to another and conduct thermal energy.
+
+<CaptionedImage src="kg29htat2cm8kmhb2nv6zz0cqd8bt1q6" alt="" caption="" />
+
+## KEY POINTS
+
+An octet is a set of eight. In order to gain stability atoms tend to gain electron configuration of nearest noble gas. The tendency of atoms to acquire eight electron configuration in their valence shell, when binding is called octet rule. Lonic bonds are formed between two atoms, when one atom loses electrons and other atom gains these electrons. The force of attraction that binds oppositely charged ions is called ionic bonds. Lonic compounds have high melting points. They conduct electricity in molten state.
+
+A bond that is formed by the sharing of electrons between two atoms is called a covalent bond. A covalent bond can be single, double or triple. The interaction of a highly electron deficient hydrogen and lone pair on a nearby electronegative atom is called hydrogen-bond. The adhesive action of paints and dyes is developed due to hydrogen bonding.
+
+References for additional information
+
+Lawarie Ryan, Chemistry for you. Lain Brand and Richard Grime, Chemistry (11-14). Silberg, Chemistry. Raymond Chang, Essential Chemistry.

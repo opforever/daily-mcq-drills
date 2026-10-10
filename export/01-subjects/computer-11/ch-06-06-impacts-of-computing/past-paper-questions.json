@@ -1,0 +1,1233 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-1-information",
+    "topicTitle": "6.1 Information",
+    "_id": "m17fqdf93xj69wghqqdqek7yhn85p0pr",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Forms provide user-friendly interface for data entry without SQL knowledge",
+      "Forms enforce validation rules to ensure data accuracy and completeness",
+      "Forms restrict user access to specific fields, enhancing data security and preventing unauthorized modifications",
+      "Forms improve efficiency by organizing data input in logical sequences",
+      "Forms reduce errors through controlled data entry mechanisms"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A Form in a database is useful for three main reasons: (1) **Data Entry Interface**, Forms provide a user-friendly graphical interface that allows users to input data into database tables without requiring knowledge of SQL or database structure, making data entry efficient and accessible. (2) **Data Validation**, Forms can enforce validation rules to ensure only correct and complete data is entered, reducing errors and maintaining data integrity. (3) **Data Security**, Forms control which fields users can access and modify, providing a layer of security by restricting direct table access and preventing unauthorized or accidental data manipulation.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "How is **Form** useful in database? Give three reasons.",
+    "topicId": "ms78amjf799645dz5tcwpjd9k985q98e",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-1-information",
+    "topicTitle": "6.1 Information",
+    "_id": "m17epep8rhkqpd1c681mv91xrd85qcqr",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Database design and schema maintenance",
+      "User security and access control management",
+      "Backup and disaster recovery planning",
+      "Performance monitoring and optimization",
+      "Database troubleshooting and support"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three main roles of a Database Administrator are:\n\n1. **Database Design and Maintenance**: The DBA is responsible for designing database schemas, creating tables, defining relationships, and maintaining the overall structure of the database to ensure efficient data organization and retrieval.\n\n2. **Security and Access Control**: The DBA manages user accounts, assigns permissions, implements authentication mechanisms, and ensures data security by controlling who can access, modify, or delete data in the database.\n\n3. **Backup and Recovery**: The DBA performs regular backups of the database, creates recovery plans, and ensures that data can be restored in case of system failures, data corruption, or disasters to maintain data integrity and business continuity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "Enlist any three roles of **Database administrator**.",
+    "topicId": "ms78amjf799645dz5tcwpjd9k985q98e",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-2-information-sources",
+    "topicTitle": "6.2 Information Sources",
+    "_id": "m17882ymc2568kk172d7y4fcys85pfep",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A reliable source of information is one that is accurate, unbiased, and verifiable, originating from trustworthy sources. Examples include peer-reviewed academic journals, government websites (.gov, .gov.pk), educational institution websites (.edu), reputable news organisations with editorial standards, and official reports from recognised international bodies such as WHO and UNESCO. The CRAAP Test (Currency, Relevance, Authority, Accuracy, Purpose) can be used to evaluate source credibility.",
+    "keyPoints": [
+      "Defines reliable information as accurate, unbiased, and verifiable data from trustworthy sources",
+      "Identifies examples: peer-reviewed journals, government websites, educational institutions, reputable news organisations, international bodies",
+      "Mentions CRAAP Test framework for evaluating source quality",
+      "Emphasises importance of checking author credentials and source authority",
+      "Distinguishes reliable sources from unreliable information in digital context"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A reliable source of information is one that is accurate, unbiased, and verifiable, originating from trustworthy sources. Examples include peer-reviewed academic journals, government websites (.gov, .gov.pk), educational institution websites (.edu), reputable news organisations with editorial standards, and official reports from recognised international bodies such as WHO and UNESCO. The CRAAP Test (Currency, Relevance, Authority, Accuracy, Purpose) can be used to evaluate source credibility.",
+    "options": [
+      {
+        "key": "A",
+        "text": "A personal blog with no evidence"
+      },
+      {
+        "key": "B",
+        "text": "A social media post without citation"
+      },
+      {
+        "key": "C",
+        "text": "A peer-reviewed academic journal"
+      },
+      {
+        "key": "D",
+        "text": "A random website with advertisements"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Which of the following represents a reliable source of information?",
+    "topicId": "ms70kh7f9y4c0acy7q4s43j4zx85q8q4",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-2-information-sources",
+    "topicTitle": "6.2 Information Sources",
+    "_id": "m178dnxbd8t8f96rz6f3f5f17x85qhf9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines information sources as origins/repositories of data and knowledge",
+      "Identifies and explains four distinct categories with relevant examples",
+      "Distinguishes between primary (original), secondary (analytical), tertiary (compilative), and digital sources",
+      "Emphasizes importance of evaluating source reliability using appropriate criteria",
+      "Connects to safe use practices and intellectual property considerations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Information Sources** are origins or repositories from which data, facts, and knowledge are obtained. They are essential for research, learning, and decision-making in the digital age.\n\n**Four Categories of Information Sources:**\n\n**1. Primary Sources**\nOriginal documents or firsthand accounts created at the time of an event. Examples include interviews, surveys, historical documents, research papers, and eyewitness accounts. Primary sources provide direct evidence and are highly valuable for research.\n\n**2. Secondary Sources**\nWorks that analyze, interpret, or summarize primary sources. These include textbooks, review articles, encyclopedias, and news reports. Secondary sources provide context and analysis but are once removed from the original information.\n\n**3. Tertiary Sources**\nCompilations that organize and summarize primary and secondary sources. Examples include indexes, bibliographies, databases, and reference materials. Tertiary sources help locate other sources but contain minimal original analysis.\n\n**4. Digital Sources**\nInformation accessed through electronic platforms including websites, online databases, social media, digital libraries, and online journals. Digital sources offer accessibility and currency but require careful evaluation for reliability using frameworks like the CRAAP Test (Currency, Relevance, Authority, Accuracy, Purpose).\n\nEach category serves different purposes in research. Reliable information should be accurate, unbiased, and verifiable from trustworthy sources such as peer-reviewed journals, government websites (.gov.pk), educational institutions (.edu), and recognized international bodies.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "What are **information sources**? Explain any four categories of information sources.",
+    "topicId": "ms70kh7f9y4c0acy7q4s43j4zx85q8q4",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-2-information-sources",
+    "topicTitle": "6.2 Information Sources",
+    "_id": "m17fqdf93xj69wghqqdqek7yhn85p0pr",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Forms provide user-friendly interface for data entry without SQL knowledge",
+      "Forms enforce validation rules to ensure data accuracy and completeness",
+      "Forms restrict user access to specific fields, enhancing data security and preventing unauthorized modifications",
+      "Forms improve efficiency by organizing data input in logical sequences",
+      "Forms reduce errors through controlled data entry mechanisms"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A Form in a database is useful for three main reasons: (1) **Data Entry Interface**, Forms provide a user-friendly graphical interface that allows users to input data into database tables without requiring knowledge of SQL or database structure, making data entry efficient and accessible. (2) **Data Validation**, Forms can enforce validation rules to ensure only correct and complete data is entered, reducing errors and maintaining data integrity. (3) **Data Security**, Forms control which fields users can access and modify, providing a layer of security by restricting direct table access and preventing unauthorized or accidental data manipulation.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "How is **Form** useful in database? Give three reasons.",
+    "topicId": "ms70kh7f9y4c0acy7q4s43j4zx85q8q4",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-3-safe-use-of-information-sources",
+    "topicTitle": "6.3 Safe Use of Information Sources",
+    "_id": "m178dnxbd8t8f96rz6f3f5f17x85qhf9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines information sources as origins/repositories of data and knowledge",
+      "Identifies and explains four distinct categories with relevant examples",
+      "Distinguishes between primary (original), secondary (analytical), tertiary (compilative), and digital sources",
+      "Emphasizes importance of evaluating source reliability using appropriate criteria",
+      "Connects to safe use practices and intellectual property considerations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Information Sources** are origins or repositories from which data, facts, and knowledge are obtained. They are essential for research, learning, and decision-making in the digital age.\n\n**Four Categories of Information Sources:**\n\n**1. Primary Sources**\nOriginal documents or firsthand accounts created at the time of an event. Examples include interviews, surveys, historical documents, research papers, and eyewitness accounts. Primary sources provide direct evidence and are highly valuable for research.\n\n**2. Secondary Sources**\nWorks that analyze, interpret, or summarize primary sources. These include textbooks, review articles, encyclopedias, and news reports. Secondary sources provide context and analysis but are once removed from the original information.\n\n**3. Tertiary Sources**\nCompilations that organize and summarize primary and secondary sources. Examples include indexes, bibliographies, databases, and reference materials. Tertiary sources help locate other sources but contain minimal original analysis.\n\n**4. Digital Sources**\nInformation accessed through electronic platforms including websites, online databases, social media, digital libraries, and online journals. Digital sources offer accessibility and currency but require careful evaluation for reliability using frameworks like the CRAAP Test (Currency, Relevance, Authority, Accuracy, Purpose).\n\nEach category serves different purposes in research. Reliable information should be accurate, unbiased, and verifiable from trustworthy sources such as peer-reviewed journals, government websites (.gov.pk), educational institutions (.edu), and recognized international bodies.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "What are **information sources**? Explain any four categories of information sources.",
+    "topicId": "ms7134zwpya7vx2ypge5c825zx85qryk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-5-reliable-information",
+    "topicTitle": "6.5 Reliable Information",
+    "_id": "m17882ymc2568kk172d7y4fcys85pfep",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A reliable source of information is one that is accurate, unbiased, and verifiable, originating from trustworthy sources. Examples include peer-reviewed academic journals, government websites (.gov, .gov.pk), educational institution websites (.edu), reputable news organisations with editorial standards, and official reports from recognised international bodies such as WHO and UNESCO. The CRAAP Test (Currency, Relevance, Authority, Accuracy, Purpose) can be used to evaluate source credibility.",
+    "keyPoints": [
+      "Defines reliable information as accurate, unbiased, and verifiable data from trustworthy sources",
+      "Identifies examples: peer-reviewed journals, government websites, educational institutions, reputable news organisations, international bodies",
+      "Mentions CRAAP Test framework for evaluating source quality",
+      "Emphasises importance of checking author credentials and source authority",
+      "Distinguishes reliable sources from unreliable information in digital context"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A reliable source of information is one that is accurate, unbiased, and verifiable, originating from trustworthy sources. Examples include peer-reviewed academic journals, government websites (.gov, .gov.pk), educational institution websites (.edu), reputable news organisations with editorial standards, and official reports from recognised international bodies such as WHO and UNESCO. The CRAAP Test (Currency, Relevance, Authority, Accuracy, Purpose) can be used to evaluate source credibility.",
+    "options": [
+      {
+        "key": "A",
+        "text": "A personal blog with no evidence"
+      },
+      {
+        "key": "B",
+        "text": "A social media post without citation"
+      },
+      {
+        "key": "C",
+        "text": "A peer-reviewed academic journal"
+      },
+      {
+        "key": "D",
+        "text": "A random website with advertisements"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Which of the following represents a reliable source of information?",
+    "topicId": "ms7d017k8b2mzv8jrsffbykxq585p15v",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-7-data-searches",
+    "topicTitle": "6.7 Data Searches",
+    "_id": "m176t40p5madh8ym2f575jyzt985q1v3",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines query as a request/question to retrieve specific data from a database",
+      "Explains purpose: to search, filter, and extract relevant information efficiently",
+      "Identifies that queries avoid manual browsing of large datasets",
+      "Provides a clear, relevant example with specific criteria (marks > 80)",
+      "Shows understanding of database filtering and data retrieval concepts"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **query** is a request or question posed to a database to retrieve specific information or data that meets certain criteria. The purpose of a query is to search, filter, and extract relevant data from large datasets efficiently without manually browsing through all records. **Example:** In a student database, a query might be: \"Find all students with marks greater than 80 in Mathematics\", this retrieves only the records matching this condition from thousands of student records.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "What is 'query'? Write its purpose with one example.",
+    "topicId": "ms79987rd12k7a3mmmwh1rjbp185q4gv",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-7-data-searches",
+    "topicTitle": "6.7 Data Searches",
+    "_id": "m175y3ekk3g5qzkv00ktew9kwx85pzdq",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines query as a request to retrieve or manipulate database data",
+      "Explains queries filter data based on criteria",
+      "Identifies Select Query for data retrieval",
+      "Identifies Action Query for data modification",
+      "Identifies Parameter Query and Aggregate Query with brief descriptions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **query** is a request or question posed to a database to retrieve, filter, or manipulate specific data based on defined criteria. Queries allow users to extract meaningful information from large datasets efficiently. Four common types of queries are: (1) **Select Query**, retrieves specific records matching given conditions; (2) **Action Query**, modifies database records (insert, update, delete); (3) **Parameter Query**, accepts user input to filter results dynamically; (4) **Aggregate Query**, performs calculations like sum, count, average on grouped data.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "What is **query**? Enlist names of four queries.",
+    "topicId": "ms79987rd12k7a3mmmwh1rjbp185q4gv",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-8-data-source-verification-tasks-suitable-for-humans",
+    "topicTitle": "6.8 Data Source Verification Tasks Suitable for Humans",
+    "_id": "m17b04005bs9fqf5ygkbx7yenn85qg3q",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies data collection/sensing as a computing task with appropriate examples (temperature, motion, humidity sensors)",
+      "Identifies automated control/actuation as a computing task with relevant examples (valve operation, light switching, motor control)",
+      "Identifies data processing, storage, or security tasks such as blockchain-based record-keeping or transaction verification",
+      "Provides clear distinction between input tasks (sensors), processing tasks, and output tasks (actuators)",
+      "Relates tasks to real-world IoT or computing system applications"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three tasks suitable for computing devices are: (1) **Data Collection and Processing**, using sensors to gather environmental data (temperature, motion, humidity) and processing it through software systems, as demonstrated in IoT applications; (2) **Automated Control and Action**, employing actuators to perform physical tasks like opening/closing valves, switching lights on/off, or turning motors on/off based on digital commands; (3) **Secure Record-Keeping and Verification**, utilizing blockchain technology to maintain tamper-evident digital ledgers where transactions are recorded across distributed networks, ensuring data integrity and preventing unauthorized alterations.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "22",
+    "session": "annual",
+    "stem": "Write down any three tasks suitable for computing devices.",
+    "topicId": "ms731jkdtvavc9ks7rkatta5pn85pyjj",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-8-data-source-verification-tasks-suitable-for-humans",
+    "topicTitle": "6.8 Data Source Verification Tasks Suitable for Humans",
+    "_id": "m17ehnj3e5vpnnpmedjzvfp23s85p29d",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "Creating users in RDBMS is the task of the Database Administrator (DBA). The DBA has the authority and responsibility to create new user accounts, assign privileges, manage access permissions, and control user authentication in a relational database management system.",
+    "keyPoints": [
+      "Database Administrator (DBA) creates users in RDBMS",
+      "DBA assigns privileges and access permissions to users",
+      "DBA manages user authentication and security",
+      "This is an administrative function in database management"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Creating users in RDBMS is the task of the Database Administrator (DBA). The DBA has the authority and responsibility to create new user accounts, assign privileges, manage access permissions, and control user authentication in a relational database management system.",
+    "options": [
+      {
+        "key": "A",
+        "text": "DDL"
+      },
+      {
+        "key": "B",
+        "text": "DML"
+      },
+      {
+        "key": "C",
+        "text": "DCL"
+      },
+      {
+        "key": "D",
+        "text": "DXL"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Creating users in **RDBMS** is the task of:",
+    "topicId": "ms731jkdtvavc9ks7rkatta5pn85pyjj",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-8-data-source-verification-tasks-suitable-for-humans",
+    "topicTitle": "6.8 Data Source Verification Tasks Suitable for Humans",
+    "_id": "m176md47g64ea6tf80d4zy4s8585q4cz",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "INSERT - adds new data records into tables",
+      "UPDATE - modifies existing data in tables",
+      "DELETE - removes data records from tables",
+      "DML focuses on data manipulation rather than database structure",
+      "These are the primary CRUD operations for data management"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Data Manipulation Language (DML) is used to manage data within database objects. Three main tasks of DML are: (1) INSERT - to add new records or rows into a table, (2) UPDATE - to modify or change existing data in a table, and (3) DELETE - to remove records or rows from a table. These operations allow users to manipulate and manage the actual data stored in the database.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "session": "annual",
+    "stem": "State any three tasks of **Data Manipulation Language**.",
+    "topicId": "ms731jkdtvavc9ks7rkatta5pn85pyjj",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-8-data-source-verification-tasks-suitable-for-humans",
+    "topicTitle": "6.8 Data Source Verification Tasks Suitable for Humans",
+    "_id": "m17a9dqv6wsh4knc0qf1y9j40585qmez",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Book ID is the primary key as it uniquely identifies each record",
+      "Primary key must have unique values with no repetition",
+      "Book ID: Number/AutoNumber data type",
+      "Title: Text/Short Text data type",
+      "Available: Yes/No (Boolean) data type",
+      "Publish Date: Date/Time data type",
+      "Price: Currency data type (alternative)",
+      "Each field's data type should match the nature of data it stores"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Primary Key:** Book ID\n\nBook ID is the primary key because it uniquely identifies each record in the table. Each book has a distinct Book ID that does not repeat.\n\n**Suitable Data Types for Four Fields:**\n\n1. **Book ID** - Number (or AutoNumber) - stores unique numeric identifiers\n2. **Title** - Text (or Short Text) - stores book titles as text\n3. **Available** - Yes/No (Boolean) - stores true/false values for availability status\n4. **Publish Date** - Date/Time - stores dates in date format\n\n(Alternative: Price could be Currency data type for monetary values)",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "session": "annual",
+    "stem": "Identify the **Primary key** in the given MS-Access table, also mention suitable data type for any four fields:\n\n| Book ID | Title | Available | Publish Date | Price |\n| :--- | :--- | :--- | :--- | :--- |\n| 7110 | Python | No | 26/12/21 | 550 |\n| 7111 | Oracle | Yes | 22/01/23 | 660 |",
+    "topicId": "ms731jkdtvavc9ks7rkatta5pn85pyjj",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-computing",
+    "topicTitle": "6.9 Computing",
+    "_id": "m174s8ntr42y7n3pgp6ddsy14n85qt01",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies digital literacy as essential for understanding and operating IoT devices and sensors in everyday applications",
+      "Explains how digital literacy enables comprehension of data security, blockchain technology, and cryptographic protection in connected systems",
+      "Demonstrates knowledge of connectivity technologies and cloud-based processing that require digital competency for effective use",
+      "Shows understanding of the relationship between digital literacy and safe, secure management of IoT networks and data exchange"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Digital literacy is important for three key reasons: (1) **Enabling IoT Device Management**, Digital literacy allows users to understand, configure, and safely operate IoT devices such as smart thermostats, fitness trackers, and connected systems that collect and exchange data over the internet. (2) **Understanding Data Security and Blockchain**, As IoT systems generate sensitive data, digital literacy helps users comprehend blockchain technology and cryptographic security measures that protect transactions and prevent tampering in decentralized networks. (3) **Facilitating Connectivity and Cloud Integration**, Digital literacy enables users to effectively utilize connectivity technologies (Wi-Fi, Bluetooth, 4G/5G) and cloud-based data processing platforms that form the backbone of modern IoT ecosystems, ensuring proper data transmission and analysis.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "session": "annual",
+    "stem": "What is the importance of **Digital literacy**? Give three reasons.",
+    "topicId": "ms71z7qg5dn2bcx3gdjsag4fh985pcgh",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-computing",
+    "topicTitle": "6.9 Computing",
+    "_id": "m17b04005bs9fqf5ygkbx7yenn85qg3q",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies data collection/sensing as a computing task with appropriate examples (temperature, motion, humidity sensors)",
+      "Identifies automated control/actuation as a computing task with relevant examples (valve operation, light switching, motor control)",
+      "Identifies data processing, storage, or security tasks such as blockchain-based record-keeping or transaction verification",
+      "Provides clear distinction between input tasks (sensors), processing tasks, and output tasks (actuators)",
+      "Relates tasks to real-world IoT or computing system applications"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three tasks suitable for computing devices are: (1) **Data Collection and Processing**, using sensors to gather environmental data (temperature, motion, humidity) and processing it through software systems, as demonstrated in IoT applications; (2) **Automated Control and Action**, employing actuators to perform physical tasks like opening/closing valves, switching lights on/off, or turning motors on/off based on digital commands; (3) **Secure Record-Keeping and Verification**, utilizing blockchain technology to maintain tamper-evident digital ledgers where transactions are recorded across distributed networks, ensuring data integrity and preventing unauthorized alterations.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "22",
+    "session": "annual",
+    "stem": "Write down any three tasks suitable for computing devices.",
+    "topicId": "ms71z7qg5dn2bcx3gdjsag4fh985pcgh",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-computing",
+    "topicTitle": "6.9 Computing",
+    "_id": "m177amk79r913tkaks183qcmpx85p58t",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "An embedded computing device is a specialized computer system built into another device to perform specific functions. Examples include microcontrollers in smart thermostats, fitness trackers, smart door locks, and industrial sensors that are embedded with sensors, software, and connectivity technologies to collect and exchange data over the internet.",
+    "keyPoints": [
+      "Identifies embedded computing device as a specialized computer system integrated into physical objects",
+      "Recognizes that embedded devices contain sensors, software, and connectivity components",
+      "Provides valid IoT examples such as smart thermostats, fitness trackers, or smart locks",
+      "Understands that embedded devices perform specific automated functions without direct human intervention",
+      "Distinguishes embedded devices as part of IoT systems that collect and transmit data"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "An embedded computing device is a specialized computer system built into another device to perform specific functions. Examples include microcontrollers in smart thermostats, fitness trackers, smart door locks, and industrial sensors that are embedded with sensors, software, and connectivity technologies to collect and exchange data over the internet.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keyboard"
+      },
+      {
+        "key": "B",
+        "text": "Digital Washing Machine"
+      },
+      {
+        "key": "C",
+        "text": "Mouse"
+      },
+      {
+        "key": "D",
+        "text": "Trackball"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Which of the following is an example of an **embedded computing device**?",
+    "topicId": "ms71z7qg5dn2bcx3gdjsag4fh985pcgh",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-computing",
+    "topicTitle": "6.9 Computing",
+    "_id": "m178vvyqpfg3rgz6f4gj6b3wf185qgcg",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Computer-Aided Design (CAD) software is used to process complex calculations and design complicated machines. CAD systems enable engineers and designers to create precise digital models, perform simulations, and optimize designs before physical manufacturing.",
+    "keyPoints": [
+      "CAD software processes complex mathematical calculations for design optimization",
+      "Enables creation of detailed 3D models of complicated machines",
+      "Allows simulation and testing of designs before manufacturing",
+      "Improves accuracy and reduces design errors in complex machinery"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Computer-Aided Design (CAD) software is used to process complex calculations and design complicated machines. CAD systems enable engineers and designers to create precise digital models, perform simulations, and optimize designs before physical manufacturing.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mini computer"
+      },
+      {
+        "key": "B",
+        "text": "Micro computer"
+      },
+      {
+        "key": "C",
+        "text": "Personal computer"
+      },
+      {
+        "key": "D",
+        "text": "Super computer"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Which of the following is used to process complex calculations and designing of complicated machines?",
+    "topicId": "ms71z7qg5dn2bcx3gdjsag4fh985pcgh",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-computing",
+    "topicTitle": "6.9 Computing",
+    "_id": "m1706y4p9yc6v1wn9wmhw1vryx85p9jx",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The question asks about ports for connecting video devices, but the provided notes cover IoT technologies, sensors, actuators, and blockchain. These notes do not contain information about computer ports (such as HDMI, DisplayPort, VGA, or DVI) used for video device connections. This question cannot be answered from the given note content.",
+    "keyPoints": [
+      "Question requires knowledge of computer hardware ports (HDMI, DisplayPort, VGA, DVI, etc.)",
+      "Provided notes focus on IoT technologies, sensors, actuators, and blockchain",
+      "No relevant information about video ports or display connectivity in the given material",
+      "Student should refer to computer hardware/peripherals chapter for port types"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The question asks about ports for connecting video devices, but the provided notes cover IoT technologies, sensors, actuators, and blockchain. These notes do not contain information about computer ports (such as HDMI, DisplayPort, VGA, or DVI) used for video device connections. This question cannot be answered from the given note content.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Firewire"
+      },
+      {
+        "key": "B",
+        "text": "PS/2"
+      },
+      {
+        "key": "C",
+        "text": "Serial"
+      },
+      {
+        "key": "D",
+        "text": "Parallel"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Which of the following ports is used to connect video devices?",
+    "topicId": "ms71z7qg5dn2bcx3gdjsag4fh985pcgh",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-computing",
+    "topicTitle": "6.9 Computing",
+    "_id": "m175pseczdqsszv052rxn9817h85p7td",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines MAN as a network spanning larger area than LAN but smaller than WAN",
+      "Identifies geographical coverage (city/campus level, several to tens of kilometers)",
+      "States higher data transmission speeds compared to WANs",
+      "Mentions cost-effectiveness relative to WAN infrastructure",
+      "Distinguishes MAN from both LAN and WAN in terms of scale and performance"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "MAN (Metropolitan Area Network) is a computer network that spans a larger geographical area than a LAN but smaller than a WAN, typically covering a city or large campus. Its two main characteristics are: (1) It covers a larger geographical area, usually spanning several kilometers to tens of kilometers, and (2) It offers higher data transmission speeds compared to WANs while maintaining relatively lower costs than WAN infrastructure.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "What is **MAN**? Write down its two characteristics.",
+    "topicId": "ms71z7qg5dn2bcx3gdjsag4fh985pcgh",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-computing",
+    "topicTitle": "6.9 Computing",
+    "_id": "m17at1tcj5w1j93fppv7mqfef585qxwv",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Supercomputers have multiple processors working in parallel; microcomputers have single/dual-core processors",
+      "Supercomputers measure processing speed in petaflops; microcomputers in gigahertz",
+      "Supercomputers are used for complex scientific calculations; microcomputers for personal/everyday computing tasks",
+      "Supercomputers cost millions and are institution-based; microcomputers are affordable consumer devices"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **Supercomputer** is a high-performance computing system designed for complex scientific calculations and massive data processing, featuring multiple processors working in parallel with processing speeds measured in petaflops. In contrast, a **Microcomputer** is a personal computing device with a single or dual-core processor designed for individual users, with processing speeds measured in gigahertz. **Three key differences:** (1) **Processing Power**: Supercomputers perform quadrillions of calculations per second, while microcomputers perform billions per second. (2) **Purpose and Application**: Supercomputers are used for weather forecasting, scientific research, and artificial intelligence, whereas microcomputers are used for everyday tasks like word processing and web browsing. (3) **Cost and Accessibility**: Supercomputers cost millions of dollars and are accessible only to research institutions and governments, while microcomputers are affordable consumer devices costing hundreds to thousands of rupees.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "How is a **Super computer** different from **Microcomputer**? Justify with three reasons.",
+    "topicId": "ms71z7qg5dn2bcx3gdjsag4fh985pcgh",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-10-impact-of-increased-connectivity-on-the-environment",
+    "topicTitle": "6.10 Impact of Increased Connectivity on the Environment",
+    "_id": "m1735xwbcz95yx4r3hvh2qtwqx85p3xk",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies e-waste as major environmental concern with specific hazardous materials (lead, mercury, cadmium) and their harmful effects",
+      "Explains energy consumption impact from devices and data centres leading to increased carbon emissions",
+      "Describes resource depletion from mining rare earth elements and precious metals for manufacturing connectivity infrastructure",
+      "Demonstrates understanding of how connectivity infrastructure directly causes environmental damage through multiple pathways"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three harmful effects of increased connectivity on the environment are: (1) **E-Waste Generation**, rapid device upgrades produce millions of tonnes of discarded electronics containing hazardous materials like lead, mercury, and cadmium that contaminate soil and groundwater. (2) **Energy Consumption**, billions of connected devices and data centres require massive electricity consumption, increasing carbon emissions and contributing to climate change. (3) **Resource Depletion**, manufacturing connectivity infrastructure demands extraction of rare earth elements and precious metals, causing habitat destruction and environmental degradation.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Briefly explain three harmful effects of increased connectivity on environment.",
+    "topicId": "ms71sy1bg1w16fa51e860dqq1985q7e7",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-12-effects-of-increased-connectivity-on-people",
+    "topicTitle": "6.12 Effects of Increased Connectivity on People",
+    "_id": "m1733h9ze7d5naxng30v4dt7ds85qcj0",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The IP address 172.168.12.110 is an example of Class B network. In Class B addresses, the first octet ranges from 128 to 191. Since the first octet is 172, which falls within this range, this address belongs to Class B. Class B addresses are used for medium-sized networks and have a default subnet mask of 255.255.0.0.",
+    "keyPoints": [
+      "Class B IP addresses have first octet range from 128 to 191",
+      "172 falls within the Class B range",
+      "Class B uses default subnet mask 255.255.0.0",
+      "Class B is suitable for medium-sized networks",
+      "The remaining three octets (168.12.110) represent the host portion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The IP address 172.168.12.110 is an example of Class B network. In Class B addresses, the first octet ranges from 128 to 191. Since the first octet is 172, which falls within this range, this address belongs to Class B. Class B addresses are used for medium-sized networks and have a default subnet mask of 255.255.0.0.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Class D"
+      },
+      {
+        "key": "B",
+        "text": "Class A"
+      },
+      {
+        "key": "C",
+        "text": "Class B"
+      },
+      {
+        "key": "D",
+        "text": "Class C"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "The IP address $172.168.12.110$ is an example of following network class:",
+    "topicId": "ms73qqbh7cs2carv7bazz0a3pd85q1m7",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-12-effects-of-increased-connectivity-on-people",
+    "topicTitle": "6.12 Effects of Increased Connectivity on People",
+    "_id": "m17cgypa17jrgjypgwqsgskve985qqf9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Network Interface Card (NIC) is required to connect to the internet",
+      "Can be Ethernet card (wired) or Wireless Network Adapter (WiFi)",
+      "Provides physical interface between computer and network",
+      "Converts data into appropriate signals for transmission",
+      "Manages data packets for proper communication",
+      "Enables connection to ISP and other network devices",
+      "Essential hardware component for internet connectivity"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A Network Interface Card (NIC) or Network Adapter is the expansion card required to connect to the internet. It can be either an Ethernet card (for wired connection) or a Wireless Network Adapter (for WiFi connection). Reasons for using this card: (1) It provides the physical interface between the computer and the network/internet connection. (2) It converts data into signals suitable for transmission over network cables or wireless frequencies. (3) It enables communication with other devices on the network and the internet service provider. (4) It manages data packets and ensures proper data transmission and reception. (5) Without a NIC, the computer cannot establish any network connection.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Which **expansion card** is required to connect to the internet? Give reasons of using this card.",
+    "topicId": "ms73qqbh7cs2carv7bazz0a3pd85q1m7",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-14-digital-divide",
+    "topicTitle": "6.14 Digital Divide",
+    "_id": "m174s8ntr42y7n3pgp6ddsy14n85qt01",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies digital literacy as essential for understanding and operating IoT devices and sensors in everyday applications",
+      "Explains how digital literacy enables comprehension of data security, blockchain technology, and cryptographic protection in connected systems",
+      "Demonstrates knowledge of connectivity technologies and cloud-based processing that require digital competency for effective use",
+      "Shows understanding of the relationship between digital literacy and safe, secure management of IoT networks and data exchange"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Digital literacy is important for three key reasons: (1) **Enabling IoT Device Management**, Digital literacy allows users to understand, configure, and safely operate IoT devices such as smart thermostats, fitness trackers, and connected systems that collect and exchange data over the internet. (2) **Understanding Data Security and Blockchain**, As IoT systems generate sensitive data, digital literacy helps users comprehend blockchain technology and cryptographic security measures that protect transactions and prevent tampering in decentralized networks. (3) **Facilitating Connectivity and Cloud Integration**, Digital literacy enables users to effectively utilize connectivity technologies (Wi-Fi, Bluetooth, 4G/5G) and cloud-based data processing platforms that form the backbone of modern IoT ecosystems, ensuring proper data transmission and analysis.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "session": "annual",
+    "stem": "What is the importance of **Digital literacy**? Give three reasons.",
+    "topicId": "ms74s3688h77hgcjw1wpsk9d1x85ptk2",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m171h12w51sz41b4vfv46twx1d85qbg5",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies one valid advantage of wireless communication (e.g., no cables needed, flexibility, ease of installation)",
+      "Identifies first disadvantage related to signal obstruction/interference by physical barriers",
+      "Identifies second disadvantage related to security vulnerabilities and susceptibility to interception/hacking",
+      "Explanations are clear and relevant to IoT/connectivity context",
+      "Appropriate use of technical terminology"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Advantage:** Wireless communication eliminates the need for physical cables and wiring, allowing devices to connect and communicate freely over distances, making installation easier and more flexible for IoT systems and mobile devices.\n\n**Disadvantages:** (1) Wireless signals can be interrupted by physical obstacles such as walls, buildings, and terrain, leading to reduced signal strength and unreliable connectivity. (2) Wireless communication is more vulnerable to security threats and unauthorized access compared to wired connections, as signals can be intercepted and hacked more easily by malicious users.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Write down one advantage and two disadvantages of **wireless communication**.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m17ak25w4ta5bwbtqpzw7rfzcx85q1nv",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition of Infrared as electromagnetic radiation with wavelengths beyond visible light spectrum",
+      "Line-of-sight transmission capability without RF interference",
+      "Cost-effectiveness and low power consumption for IoT devices",
+      "Security advantage due to directional transmission properties",
+      "Applications in remote controls and short-range wireless communication"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Infrared (IR) is a form of electromagnetic radiation with wavelengths longer than visible light, used for wireless communication in short-range applications. In wireless communication, IR is important because it enables line-of-sight data transmission without radio frequency interference, making it ideal for remote controls, mobile device communication, and IoT applications. IR technology is cost-effective, secure due to its directional nature, and consumes minimal power, making it valuable for battery-operated devices in IoT systems where connectivity technologies are essential for data exchange.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "What is **Infrared (IR)**? Write its importance in wireless communication.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m1737pt2jas9fn7yf5z3hhhend85ps50",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The fastest serial transmission port is USB (Universal Serial Bus), particularly USB 3.0 and later versions. USB 3.0 offers speeds up to 5 Gbps, while USB 3.1 reaches 10 Gbps. These speeds make USB significantly faster than older serial ports like RS-232, which operated at much lower baud rates.",
+    "keyPoints": [
+      "Identifies USB as the fastest serial transmission port",
+      "Mentions specific speed capabilities (USB 3.0: 5 Gbps, USB 3.1: 10 Gbps)",
+      "Compares with older serial technologies like RS-232 to demonstrate superiority",
+      "Recognizes USB as modern standard for high-speed serial communication"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The fastest serial transmission port is USB (Universal Serial Bus), particularly USB 3.0 and later versions. USB 3.0 offers speeds up to 5 Gbps, while USB 3.1 reaches 10 Gbps. These speeds make USB significantly faster than older serial ports like RS-232, which operated at much lower baud rates.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Serial port"
+      },
+      {
+        "key": "B",
+        "text": "LPT 1"
+      },
+      {
+        "key": "C",
+        "text": "USB port"
+      },
+      {
+        "key": "D",
+        "text": "Firewire port"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "The fastest serial transmission port is:",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m171sz0ekbx6hj1s1b191gmsxn85pr3q",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies three valid differences between WiFi and WiMAX",
+      "Correctly states coverage range difference (WiFi: 30-100m vs WiMAX: up to 50km)",
+      "Correctly compares transmission speeds (WiFi: 11-54 Mbps vs WiMAX: 30-40+ Mbps)",
+      "Distinguishes frequency bands used (WiFi: unlicensed 2.4/5 GHz vs WiMAX: licensed bands)",
+      "Provides clear, structured comparison with specific technical details"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "WiFi and WiMAX are wireless technologies with key differences: (1) **Coverage Range**: WiFi has a limited range of 30-100 meters, while WiMAX provides coverage up to 50 kilometers. (2) **Speed**: WiFi typically offers speeds of 11-54 Mbps, whereas WiMAX delivers higher speeds of 30-40 Mbps or more. (3) **Frequency Bands**: WiFi operates in the 2.4 GHz and 5 GHz unlicensed bands, while WiMAX uses licensed frequency bands (2.3-3.8 GHz), requiring regulatory approval for deployment.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Write down any three differences between **WiFi** and **WiMAX**.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m178dvhggbz8mpx7xgqr6777rd85qbb4",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "GPS is a satellite-based navigation system providing location and timing information",
+      "Enables location-based services and geolocation tracking in wireless networks",
+      "Synchronizes timing for accurate wireless data transmission and network coordination",
+      "Supports emergency response and mobile device tracking applications",
+      "Enhances IoT and wireless system performance through precise positioning data"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "GPS (Global Positioning System) is a satellite-based navigation system that provides precise location and timing information to receivers anywhere on Earth. In wireless communication, GPS is important because it enables location-based services, synchronizes network timing for accurate data transmission, supports emergency response systems, and allows tracking of mobile devices and IoT systems. GPS enhances wireless networks by providing geolocation data that improves service delivery, enables location-aware applications, and ensures reliable coordination between distributed wireless devices and systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "What is **GPS**? Write its importance in wireless communication.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m17824dhhg5914ey97hxgfqnjd85pexj",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies OSI Model as seven-layer framework for network communication",
+      "Accurately lists all seven layers in correct order with proper names",
+      "Provides relevant protocols for each layer with at least 2-3 examples per layer",
+      "Identifies appropriate devices/hardware for each layer",
+      "Demonstrates understanding of layer hierarchy and functional relationships"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 8,
+    "modelAnswer": "The OSI (Open Systems Interconnection) Model is a conceptual framework consisting of seven layers that standardizes how different communication systems interact and exchange data over networks. Each layer provides specific functions and uses particular protocols and devices to enable end-to-end communication. The model follows a hierarchical structure where each layer serves the layer above it, ensuring organized and efficient data transmission from the physical medium to the application level.\n\n**OSI Model - Seven Layers with Protocols and Devices:**\n\n| Layer | Name | Protocols | Devices |\n|---|---|---|---|\n| 7 | Application | HTTP, HTTPS, FTP, SMTP, POP3, DNS, Telnet, SSH | Web browsers, Email clients, DNS servers |\n| 6 | Presentation | SSL/TLS, JPEG, MPEG, ASCII | Encryption software, Compression tools |\n| 5 | Session | NetBIOS, PPTP, RPC | Session management software |\n| 4 | Transport | TCP, UDP, SCTP | Firewalls, Load balancers |\n| 3 | Network | IP (IPv4, IPv6), ICMP, IGMP | Routers, Layer 3 switches |\n| 2 | Data Link | Ethernet, PPP, Frame Relay, MAC | Switches, Bridges, Network Interface Cards (NICs) |\n| 1 | Physical | RS-232, USB, Fiber Optics | Hubs, Cables, Modems, Repeaters |\n\nThe upper layers (5-7) handle software and user-related functions, while lower layers (1-3) manage hardware and network transmission. Understanding this model is essential for network troubleshooting and protocol design.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is **OSI Model**? Write down the protocols and devices used on each of the seven layers in a tabular format.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m176jgq41sbm1mpfrbdhmd13as85qmmf",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Option B is correct: Speaker.",
+    "keyPoints": [
+      "Question requires knowledge of output devices (e.g., monitor, printer, speaker)",
+      "Provided notes cover only Python programming concepts",
+      "No relevant content available in the given material to answer the question",
+      "Output devices are hardware components that display or produce information from a computer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "I cannot answer this question based on the provided notes. The notes contain information about Python programming (lists, functions, and Python overview) but do not contain any content about computer hardware, input/output devices, or output devices. To answer this question correctly, notes on computer hardware components and peripheral devices would be required.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Microphone"
+      },
+      {
+        "key": "B",
+        "text": "Speaker"
+      },
+      {
+        "key": "C",
+        "text": "Track ball"
+      },
+      {
+        "key": "D",
+        "text": "Mouse"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Which of the following is an output device?",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m1706y4p9yc6v1wn9wmhw1vryx85p9jx",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The question asks about ports for connecting video devices, but the provided notes cover IoT technologies, sensors, actuators, and blockchain. These notes do not contain information about computer ports (such as HDMI, DisplayPort, VGA, or DVI) used for video device connections. This question cannot be answered from the given note content.",
+    "keyPoints": [
+      "Question requires knowledge of computer hardware ports (HDMI, DisplayPort, VGA, DVI, etc.)",
+      "Provided notes focus on IoT technologies, sensors, actuators, and blockchain",
+      "No relevant information about video ports or display connectivity in the given material",
+      "Student should refer to computer hardware/peripherals chapter for port types"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The question asks about ports for connecting video devices, but the provided notes cover IoT technologies, sensors, actuators, and blockchain. These notes do not contain information about computer ports (such as HDMI, DisplayPort, VGA, or DVI) used for video device connections. This question cannot be answered from the given note content.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Firewire"
+      },
+      {
+        "key": "B",
+        "text": "PS/2"
+      },
+      {
+        "key": "C",
+        "text": "Serial"
+      },
+      {
+        "key": "D",
+        "text": "Parallel"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Which of the following ports is used to connect video devices?",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m17arpwrxd1jp9rsmcdb1a8krh85qfqm",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A TV remote is an example of wireless communication. It uses infrared (IR) signals to transmit commands from the remote to the television receiver without requiring physical wired connections. The remote acts as a transmitter sending encoded digital signals through the air, which the TV's receiver decodes to perform actions like changing channels or adjusting volume.",
+    "keyPoints": [
+      "Identifies wireless communication as the type",
+      "Mentions infrared (IR) technology used in TV remotes",
+      "Explains signal transmission from remote to TV receiver",
+      "Notes absence of physical wired connection requirement",
+      "Describes function of encoding/decoding signals"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A TV remote is an example of wireless communication. It uses infrared (IR) signals to transmit commands from the remote to the television receiver without requiring physical wired connections. The remote acts as a transmitter sending encoded digital signals through the air, which the TV's receiver decodes to perform actions like changing channels or adjusting volume.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Infrared"
+      },
+      {
+        "key": "B",
+        "text": "Wi-Fi"
+      },
+      {
+        "key": "C",
+        "text": "Wi-Max"
+      },
+      {
+        "key": "D",
+        "text": "Bluetooth"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "TV remote is an example of following communication:",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m17dja59ptrwqd9qx2nnhc4hbs85qtwy",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines Bluetooth as wireless communication technology using 2.4 GHz radio frequency",
+      "Mentions short-range connectivity without cables (typically up to 100 meters)",
+      "Identifies wireless audio devices (headphones/earbuds) as first application",
+      "Identifies smart home/wearable devices as second application",
+      "Explains how each application uses Bluetooth for data exchange or control"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Bluetooth is a wireless communication technology that enables short-range data exchange between devices using radio waves in the 2.4 GHz frequency band. It allows devices to connect and communicate without physical cables over distances typically up to 100 meters. Two applications of Bluetooth are: (1) Wireless headphones and earbuds that connect to smartphones and audio devices for hands-free communication and music streaming, and (2) Smart home devices such as fitness trackers, smartwatches, and smart locks that connect to mobile phones or central hubs for data synchronization and remote control.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is **Bluetooth**? Enlist any two applications of Bluetooth.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m1701099jv7tcwejz4ckphap9185qger",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Half-duplex: bidirectional communication but alternating (one direction at a time)",
+      "Full-duplex: simultaneous two-way communication in both directions at the same time",
+      "Half-duplex is economical and simpler; Full-duplex requires more bandwidth and complex hardware",
+      "Half-duplex has lower speed due to turn-taking; Full-duplex provides faster, more efficient communication",
+      "Examples: Half-duplex (walkie-talkies, CB radio); Full-duplex (telephone calls, modern network connections)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Half-duplex and full-duplex are two communication modes that differ in data transmission direction and simultaneity. Half-duplex allows data transmission in both directions but only one direction at a time, requiring devices to take turns sending and receiving data. Full-duplex enables simultaneous two-way communication, allowing devices to send and receive data at the same time. Half-duplex is simpler and more economical but slower, while full-duplex is faster and more efficient but requires more complex hardware and bandwidth.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "session": "annual",
+    "stem": "Compare **Half-duplex** and **Full-duplex** communication modes. (Any three points)",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m170ntw12x1vb6syy40ec58ksd85qg9g",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Question topic (LCD vs CRT monitors) is not covered in provided notes",
+      "Notes contain unrelated content on data analysis and IoT technologies",
+      "Cannot ground answer in provided note content as instructed",
+      "Requires hardware/display technology notes to provide valid FBISE answer",
+      "Unable to identify three justifiable reasons from available material"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "I cannot provide an answer to this question based on the provided notes. The question asks about the advantages of LCD monitors compared to CRT monitors, which is a hardware/display technology topic. However, the provided notes contain content about data visualization, summary statistics, IoT technologies, and sensors, none of which address monitor types or their comparative advantages. To answer this question accurately according to FBISE standards, notes specifically covering display technologies (CRT vs LCD characteristics, power consumption, image quality, size/portability, etc.) would be required.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "session": "annual",
+    "stem": "Why is **LCD** better than **CRT** monitor? Justify your answer with three reasons.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-15-technological-innovations",
+    "topicTitle": "6.15 Technological Innovations",
+    "_id": "m173kdpj9qfsxq5f7kx34gdfzn85p16z",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies mobility/flexibility as key advantage of wireless communication",
+      "Explains cost-effectiveness and reduced infrastructure requirements",
+      "Discusses easy installation, maintenance, and scalability benefits",
+      "Connects wireless communication to IoT connectivity component",
+      "Mentions specific wireless technologies (Wi-Fi, Bluetooth, 4G/5G) used in IoT systems"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "Wireless communication is more popular than wired communication for five key reasons: **(1) Mobility and Flexibility**, wireless devices can be used anywhere within range without physical cables, enabling users to move freely; **(2) Cost-Effectiveness**, wireless systems eliminate expensive infrastructure costs associated with laying cables and physical installation; **(3) Easy Installation and Maintenance**, wireless networks require minimal setup time and reduce maintenance complexity compared to wired systems; **(4) Scalability**, wireless networks can easily accommodate additional devices without rewiring, making expansion simpler; **(5) Convenience in IoT Applications**, wireless connectivity (Wi-Fi, Bluetooth, 4G/5G) is essential for IoT devices that need to transmit data to cloud systems and processing centres without physical connections. In the context of IoT systems, wireless communication serves as the critical **connectivity component** that enables sensors and actuators to exchange data with cloud-based software for data processing and user interface interaction. This flexibility and ease of deployment have made wireless communication the preferred choice for modern connected devices and smart systems.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Why is **wireless communication** more popular? Give five reasons.",
+    "topicId": "ms7d4f5ev1n8qymatjqnhdqkkh85qk1b",
+    "year": 2024
+  }
+]

@@ -1,0 +1,1577 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-1-computer-program",
+    "topicTitle": "3.1 Computer Program",
+    "_id": "k973fq3z5fx7m9agejz1jqewvs8d24b3",
+    "correctKey": "A",
+    "explanation": "The corpus defines a computer program as a set of well-defined instructions that a computer executes to solve a problem.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79rby7f8yg2yd0qn4vj6dnw585ptay",
+    "options": [
+      {
+        "key": "A",
+        "text": "A set of well-defined instructions a computer can execute to solve a problem"
+      },
+      {
+        "key": "B",
+        "text": "A physical part of the processor"
+      },
+      {
+        "key": "C",
+        "text": "A queue of printer jobs only"
+      },
+      {
+        "key": "D",
+        "text": "A collection of random input values"
+      }
+    ],
+    "sectionId": "computer-program",
+    "sectionLabel": "computer-program",
+    "stem": "What is a computer program?",
+    "topicId": "ms7cm61xb8g3fv1zevtrbvwveh85q205"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-2-python-an-overview",
+    "topicTitle": "3.2 Python: An Overview",
+    "_id": "k97ewf1fpydzrmhy3p8r1z52hn85p8xj",
+    "correctKey": "C",
+    "explanation": "Python is an interpreted language, meaning the interpreter processes and executes the source code sequentially at runtime, one line at a time.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7190mhc5f95kyytsezwdg9fx85qb40",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is a purely compiled language"
+      },
+      {
+        "key": "B",
+        "text": "It converts code directly to hardware logic gates"
+      },
+      {
+        "key": "C",
+        "text": "It uses an interpreter to execute code line-by-line at runtime"
+      },
+      {
+        "key": "D",
+        "text": "It only runs on analog signals"
+      }
+    ],
+    "stem": "Which of the following is a characteristic of Python's execution model?",
+    "topicId": "ms7chq383bwqp7x3gpryqq5as185ptqe"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-2-python-an-overview",
+    "topicTitle": "3.2 Python: An Overview",
+    "_id": "k976vnrsdvv61edqa3p4afayc585q889",
+    "correctKey": "B",
+    "explanation": "The 'batteries included' philosophy refers to Python's rich standard library that provides ready-to-use tools for many common tasks without needing external packages.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7190mhc5f95kyytsezwdg9fx85qb40",
+    "options": [
+      {
+        "key": "A",
+        "text": "It requires high battery power to run"
+      },
+      {
+        "key": "B",
+        "text": "It comes with a large standard library of pre-built modules and functions"
+      },
+      {
+        "key": "C",
+        "text": "It can only run on portable devices"
+      },
+      {
+        "key": "D",
+        "text": "It automatically charges the laptop while coding"
+      }
+    ],
+    "stem": "Python is often described as a 'batteries included' language. What does this signify?",
+    "topicId": "ms7chq383bwqp7x3gpryqq5as185ptqe"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-2-python-an-overview",
+    "topicTitle": "3.2 Python: An Overview",
+    "_id": "k97fg4b5ffxrg7g2petcwm1vkn85pz66",
+    "correctKey": "B",
+    "explanation": "Python code can run on any platform (Windows, macOS, Linux) that has a Python interpreter installed, making it highly portable and platform-independent.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7190mhc5f95kyytsezwdg9fx85qb40",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its dependence on specific hardware"
+      },
+      {
+        "key": "B",
+        "text": "The use of a platform-independent interpreter"
+      },
+      {
+        "key": "C",
+        "text": "Its use of binary code only"
+      },
+      {
+        "key": "D",
+        "text": "The requirement of a specific logic gate"
+      }
+    ],
+    "stem": "Which feature of Python makes it highly portable across different operating systems?",
+    "topicId": "ms7chq383bwqp7x3gpryqq5as185ptqe"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-2-python-an-overview",
+    "topicTitle": "3.2 Python: An Overview",
+    "_id": "k976311kp8g10msqakt09pfrr985qxp1",
+    "correctKey": "C",
+    "explanation": "Python is case-sensitive, so 'Data' and 'data' differ in capitalization and are therefore treated as two distinct identifiers by the interpreter.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7190mhc5f95kyytsezwdg9fx85qb40",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identical and refer to the same variable"
+      },
+      {
+        "key": "B",
+        "text": "Treated as the same variable by the interpreter"
+      },
+      {
+        "key": "C",
+        "text": "Different identifiers due to Python's case sensitivity"
+      },
+      {
+        "key": "D",
+        "text": "Invalid syntax in Python"
+      }
+    ],
+    "stem": "In Python, the identifiers 'Data' and 'data' are:",
+    "topicId": "ms7chq383bwqp7x3gpryqq5as185ptqe"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-2-python-an-overview",
+    "topicTitle": "3.2 Python: An Overview",
+    "_id": "k977g85xfpyt8ery026d40b28585p8b0",
+    "correctKey": "C",
+    "explanation": "Python uses indentation to group statements into blocks such as the body of loops, functions, or conditionals. Incorrect indentation causes an IndentationError.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7190mhc5f95kyytsezwdg9fx85qb40",
+    "options": [
+      {
+        "key": "A",
+        "text": "To make the code look visually appealing"
+      },
+      {
+        "key": "B",
+        "text": "To indicate the end of a statement"
+      },
+      {
+        "key": "C",
+        "text": "To define a block of code (e.g., inside a loop or function)"
+      },
+      {
+        "key": "D",
+        "text": "To speed up the execution of the program"
+      }
+    ],
+    "stem": "What is the primary purpose of indentation in Python?",
+    "topicId": "ms7chq383bwqp7x3gpryqq5as185ptqe"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-2-python-an-overview",
+    "topicTitle": "3.2 Python: An Overview",
+    "_id": "k974sqvhwdbswp7t3j6sdgv8xs8d29w9",
+    "correctKey": "A",
+    "explanation": "The corpus describes Python as high-level, object-oriented, and human-friendly, and notes uses in analytics, machine learning, and software development.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7190mhc5f95kyytsezwdg9fx85qb40",
+    "options": [
+      {
+        "key": "A",
+        "text": "A high-level, object-oriented, human-friendly language"
+      },
+      {
+        "key": "B",
+        "text": "A machine-only language for processors"
+      },
+      {
+        "key": "C",
+        "text": "A printer-control language with no data uses"
+      },
+      {
+        "key": "D",
+        "text": "A language introduced only for hardware wiring"
+      }
+    ],
+    "sectionId": "python-overview",
+    "sectionLabel": "python-overview",
+    "stem": "Which description of Python is supported by the chapter?",
+    "topicId": "ms7chq383bwqp7x3gpryqq5as185ptqe"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-3-python-integrated-development-environments",
+    "topicTitle": "3.3 Python IDEs — Integrated Development Environments",
+    "_id": "k9702q312kdrtykzzxwydhy1358d2ex4",
+    "correctKey": "A",
+    "explanation": "The corpus says IDLE is a Python IDE with an interactive console where code can be written, saved, and run.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75jjjqma94wc6yvyy7kwhmz185pn3x",
+    "options": [
+      {
+        "key": "A",
+        "text": "A Python IDE with an interactive console and file-running support"
+      },
+      {
+        "key": "B",
+        "text": "A replacement for the Python interpreter that only prints output"
+      },
+      {
+        "key": "C",
+        "text": "A database server for storing variables"
+      },
+      {
+        "key": "D",
+        "text": "A graphics-only drawing canvas"
+      }
+    ],
+    "sectionId": "python-ides",
+    "sectionLabel": "python-ides",
+    "stem": "What does IDLE provide in the chapter's description?",
+    "topicId": "ms7b9jzdcr8hfjx220knsg9wxx85q1e2"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-4-turtle-graphics",
+    "topicTitle": "3.4 Turtle Graphics",
+    "_id": "k971yg9entydhgg0qxhrmhgevh85p0en",
+    "correctKey": "A",
+    "explanation": "The turtle starts at the center of the graphics window, which is the origin $(0, 0)$, and initially faces right (east, $0°$) in the Cartesian coordinate system used by the turtle module.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d3jkd2eqgde5qrh30mt6cz185p5x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "Position $(0, 0)$ facing right (east)"
+      },
+      {
+        "key": "B",
+        "text": "Position $(100, 100)$ facing up (north)"
+      },
+      {
+        "key": "C",
+        "text": "Position $(-1, -1)$ facing left (west)"
+      },
+      {
+        "key": "D",
+        "text": "Top-left corner facing down (south)"
+      }
+    ],
+    "stem": "In Turtle Graphics, what is the default starting position and direction of the turtle when the window opens?",
+    "topicId": "ms7fwpt6axy6tayhwryyvcbss985pzqf"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-4-turtle-graphics",
+    "topicTitle": "3.4 Turtle Graphics",
+    "_id": "k979cyqcakzx44z9ja1jcg5zf185prj5",
+    "correctKey": "D",
+    "explanation": "Both `turtle.color('blue')` (which sets both pen and fill color) and `turtle.pencolor('blue')` (which sets only the pen/trail color) will change the drawing trail to blue. `turtle.fillcolor('blue')` only affects the fill, not the trail.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d3jkd2eqgde5qrh30mt6cz185p5x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "turtle.color('blue') only"
+      },
+      {
+        "key": "B",
+        "text": "turtle.pencolor('blue') only"
+      },
+      {
+        "key": "C",
+        "text": "turtle.fillcolor('blue') only"
+      },
+      {
+        "key": "D",
+        "text": "Both turtle.color('blue') and turtle.pencolor('blue')"
+      }
+    ],
+    "stem": "Which command(s) can be used to change the color of the turtle's drawing trail to blue in Python Turtle Graphics?",
+    "topicId": "ms7fwpt6axy6tayhwryyvcbss985pzqf"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-4-turtle-graphics",
+    "topicTitle": "3.4 Turtle Graphics",
+    "_id": "k976h43ncntke7dqrhd14n2vk985pqny",
+    "correctKey": "B",
+    "explanation": "For a regular polygon with $n$ sides, the turn angle is $\\frac{360°}{n}$. A pentagon has 5 sides, so the turn angle is $\\frac{360°}{5} = 72°$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d3jkd2eqgde5qrh30mt6cz185p5x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "60 degrees"
+      },
+      {
+        "key": "B",
+        "text": "72 degrees"
+      },
+      {
+        "key": "C",
+        "text": "90 degrees"
+      },
+      {
+        "key": "D",
+        "text": "120 degrees"
+      }
+    ],
+    "stem": "Using the polygon turn angle formula, what angle should the turtle turn at each corner to draw a regular pentagon in Turtle Graphics?",
+    "topicId": "ms7fwpt6axy6tayhwryyvcbss985pzqf"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-4-turtle-graphics",
+    "topicTitle": "3.4 Turtle Graphics",
+    "_id": "k973j68r1jzr38szrkh4ayyxy985pr51",
+    "correctKey": "C",
+    "explanation": "The `turtle.penup()` function lifts the virtual pen from the canvas so the turtle can move to a new position without drawing a line. `turtle.pendown()` is used to resume drawing.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d3jkd2eqgde5qrh30mt6cz185p5x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "turtle.stop()"
+      },
+      {
+        "key": "B",
+        "text": "turtle.off()"
+      },
+      {
+        "key": "C",
+        "text": "turtle.penup()"
+      },
+      {
+        "key": "D",
+        "text": "turtle.hidden()"
+      }
+    ],
+    "stem": "Which Turtle Graphics function is used to stop the turtle from drawing while it moves to a new location?",
+    "topicId": "ms7fwpt6axy6tayhwryyvcbss985pzqf"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-4-turtle-graphics",
+    "topicTitle": "3.4 Turtle Graphics",
+    "_id": "k97e90hp74ye9d1wwa2fxgqrkd85pccf",
+    "correctKey": "B",
+    "explanation": "`turtle.reset()` clears all drawings and returns the turtle to the origin $(0, 0)$ with default orientation and settings restored. `turtle.clear()` only clears the drawings but keeps the turtle at its current position.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d3jkd2eqgde5qrh30mt6cz185p5x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "`reset()` only clears the drawing; `clear()` also returns the turtle to $(0, 0)$"
+      },
+      {
+        "key": "B",
+        "text": "`reset()` clears the drawing and returns the turtle to $(0, 0)$ with default settings; `clear()` only clears the drawing"
+      },
+      {
+        "key": "C",
+        "text": "Both functions are identical in behavior"
+      },
+      {
+        "key": "D",
+        "text": "`reset()` closes the window; `clear()` clears the drawing"
+      }
+    ],
+    "stem": "What is the difference between `turtle.reset()` and `turtle.clear()` in Python Turtle Graphics?",
+    "topicId": "ms7fwpt6axy6tayhwryyvcbss985pzqf"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-4-turtle-graphics",
+    "topicTitle": "3.4 Turtle Graphics",
+    "_id": "k97ebbp4gv5me0etw53gv7xm258d2v15",
+    "correctKey": "A",
+    "explanation": "The corpus states that turtle provides functions for basic drawings and two-dimensional geometrical shapes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d3jkd2eqgde5qrh30mt6cz185p5x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "Basic drawings and two-dimensional geometrical shapes"
+      },
+      {
+        "key": "B",
+        "text": "Only database tables"
+      },
+      {
+        "key": "C",
+        "text": "Only machine-language binaries"
+      },
+      {
+        "key": "D",
+        "text": "Only audio recordings"
+      }
+    ],
+    "sectionId": "turtle-graphics",
+    "sectionLabel": "turtle-graphics",
+    "stem": "What can Python's turtle graphics help a learner design?",
+    "topicId": "ms7fwpt6axy6tayhwryyvcbss985pzqf"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-5-libraries",
+    "topicTitle": "3.5 Libraries in Python",
+    "_id": "k9760s16pbf89fba8ftxa6kkz98d3gn2",
+    "correctKey": "A",
+    "explanation": "The corpus describes a library as code for a particular task that can produce a result with one line instead of many lines written from scratch.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b39rva1g1n16thz2zfmwxp185q7kj",
+    "options": [
+      {
+        "key": "A",
+        "text": "It provides reusable code for a particular task, reducing the need to write many lines"
+      },
+      {
+        "key": "B",
+        "text": "It prevents all programs from using functions"
+      },
+      {
+        "key": "C",
+        "text": "It converts every program directly into hardware"
+      },
+      {
+        "key": "D",
+        "text": "It stores only printer queues"
+      }
+    ],
+    "sectionId": "python-libraries",
+    "sectionLabel": "python-libraries",
+    "stem": "Why is a Python library useful according to the corpus?",
+    "topicId": "ms7fe7f28d43sdbmpjntry1b6n85pt6d"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-6-python-variables",
+    "topicTitle": "3.6 Python Variables",
+    "_id": "k97cevj9pp3qq4man5s9qvddjn85qjan",
+    "correctKey": "C",
+    "explanation": "The single equals sign `=` is the assignment operator in Python. It stores the value on the right into the variable on the left. The double equals `==` is the equality comparison operator and does not assign values.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bwda0q1zn6t0f41z7jnzwp585qst4",
+    "options": [
+      {
+        "key": "A",
+        "text": "=="
+      },
+      {
+        "key": "B",
+        "text": ":="
+      },
+      {
+        "key": "C",
+        "text": "="
+      },
+      {
+        "key": "D",
+        "text": "->"
+      }
+    ],
+    "stem": "Which operator is used to assign a value to a variable in Python?",
+    "topicId": "ms78sbnc1hnb4n26yyhth73n8n85qqzk"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-6-python-variables",
+    "topicTitle": "3.6 Python Variables",
+    "_id": "k974pff5akkyn6xv17n2vaka1585qe2y",
+    "correctKey": "C",
+    "explanation": "Variable names cannot start with a digit (eliminates '2myVar'), cannot contain hyphens (eliminates 'my-var'), and cannot contain spaces (eliminates 'my var'). Names starting with an underscore are valid.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bwda0q1zn6t0f41z7jnzwp585qst4",
+    "options": [
+      {
+        "key": "A",
+        "text": "2myVar"
+      },
+      {
+        "key": "B",
+        "text": "my-var"
+      },
+      {
+        "key": "C",
+        "text": "_my_var"
+      },
+      {
+        "key": "D",
+        "text": "my var"
+      }
+    ],
+    "stem": "Which of the following is a valid variable name in Python?",
+    "topicId": "ms78sbnc1hnb4n26yyhth73n8n85qqzk"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-6-python-variables",
+    "topicTitle": "3.6 Python Variables",
+    "_id": "k97ed1hekj0nrnsmecxaesvqdh85qkrw",
+    "correctKey": "B",
+    "explanation": "Python is dynamically typed because the interpreter assigns a data type to a variable at runtime based on the value currently assigned to it, without requiring explicit type declarations.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bwda0q1zn6t0f41z7jnzwp585qst4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Statically"
+      },
+      {
+        "key": "B",
+        "text": "Dynamically"
+      },
+      {
+        "key": "C",
+        "text": "Strictly"
+      },
+      {
+        "key": "D",
+        "text": "Explicitly"
+      }
+    ],
+    "stem": "Python is a ________ typed language, meaning variable types are determined at runtime.",
+    "topicId": "ms78sbnc1hnb4n26yyhth73n8n85qqzk"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-6-python-variables",
+    "topicTitle": "3.6 Python Variables",
+    "_id": "k975xy3dk031z7da63xwqwrqqd85p59q",
+    "correctKey": "B",
+    "explanation": "Python is dynamically typed, so a variable can be reassigned to a value of a different type. The last assignment sets x to the string 'Python', so print(x) outputs Python.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bwda0q1zn6t0f41z7jnzwp585qst4",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "Python"
+      },
+      {
+        "key": "C",
+        "text": "Error"
+      },
+      {
+        "key": "D",
+        "text": "10 Python"
+      }
+    ],
+    "stem": "What will be the output of the following Python code?\n```\nx = 10\nx = \"Python\"\nprint(x)\n```",
+    "topicId": "ms78sbnc1hnb4n26yyhth73n8n85qqzk"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-6-python-variables",
+    "topicTitle": "3.6 Python Variables",
+    "_id": "k97bjhrxy6faxat9smw13wxjg58d34w0",
+    "correctKey": "A",
+    "explanation": "The corpus states that a variable stores information allocated in a program so it can be used later without recalculating it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bwda0q1zn6t0f41z7jnzwp585qst4",
+    "options": [
+      {
+        "key": "A",
+        "text": "It stores information allocated in the program for later use"
+      },
+      {
+        "key": "B",
+        "text": "It permanently deletes a program's instructions"
+      },
+      {
+        "key": "C",
+        "text": "It only represents a printer queue"
+      },
+      {
+        "key": "D",
+        "text": "It can never be used again after assignment"
+      }
+    ],
+    "sectionId": "python-variables",
+    "sectionLabel": "python-variables",
+    "stem": "What is the role of a variable in a Python program?",
+    "topicId": "ms78sbnc1hnb4n26yyhth73n8n85qqzk"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-7-pythion-input-output-i-o",
+    "topicTitle": "3.7 Python Input/Output (I/O)",
+    "_id": "k9714skmeq0q1neteqdna68f9x85qw41",
+    "correctKey": "C",
+    "explanation": "Regardless of what the user types (numbers or text), Python's `input()` function always returns the value as a string. Type casting (e.g., `int()`, `float()`) is needed to convert it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsnxva430zjzr0aegr9wdj185qzq4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Integer"
+      },
+      {
+        "key": "B",
+        "text": "Float"
+      },
+      {
+        "key": "C",
+        "text": "String"
+      },
+      {
+        "key": "D",
+        "text": "Boolean"
+      }
+    ],
+    "stem": "What is the default data type of the value returned by Python's `input()` function?",
+    "topicId": "ms72cxcd4ywwz8wby67ep704gn85qcxa"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-7-pythion-input-output-i-o",
+    "topicTitle": "3.7 Python Input/Output (I/O)",
+    "_id": "k97bhmesq5p3xgkb4t94hp386n85qyk5",
+    "correctKey": "B",
+    "explanation": "To perform decimal (floating-point) calculations, the string returned by `input()` must be cast to a float using `float()`. Using `int()` would truncate decimals; `str()` keeps it as a string.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsnxva430zjzr0aegr9wdj185qzq4",
+    "options": [
+      {
+        "key": "A",
+        "text": "val = input()"
+      },
+      {
+        "key": "B",
+        "text": "val = float(input())"
+      },
+      {
+        "key": "C",
+        "text": "val = int(input())"
+      },
+      {
+        "key": "D",
+        "text": "val = str(input())"
+      }
+    ],
+    "stem": "Which code snippet correctly takes a numeric input for a floating-point calculation in Python?",
+    "topicId": "ms72cxcd4ywwz8wby67ep704gn85qcxa"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-7-pythion-input-output-i-o",
+    "topicTitle": "3.7 Python Input/Output (I/O)",
+    "_id": "k979jxqs7v5t8h5pacpb5cfctn85qsbn",
+    "correctKey": "C",
+    "explanation": "The `sep` parameter replaces the default space separator between arguments with the specified string. Here `sep=\"-\"` places a hyphen between 'Hello' and 'World', producing `Hello-World`.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsnxva430zjzr0aegr9wdj185qzq4",
+    "options": [
+      {
+        "key": "A",
+        "text": "HelloWorld"
+      },
+      {
+        "key": "B",
+        "text": "Hello World"
+      },
+      {
+        "key": "C",
+        "text": "Hello-World"
+      },
+      {
+        "key": "D",
+        "text": "Hello\\nWorld"
+      }
+    ],
+    "stem": "What will be the output of: `print(\"Hello\", \"World\", sep=\"-\")`?",
+    "topicId": "ms72cxcd4ywwz8wby67ep704gn85qcxa"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-7-pythion-input-output-i-o",
+    "topicTitle": "3.7 Python Input/Output (I/O)",
+    "_id": "k972wkjhbq6nw7c9fndntj48y985q190",
+    "correctKey": "D",
+    "explanation": "`\\n` is the newline escape sequence. It moves the cursor to the beginning of the next line. `\\t` is a tab, `\\b` is backspace, and `\\r` is carriage return.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsnxva430zjzr0aegr9wdj185qzq4",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\t"
+      },
+      {
+        "key": "B",
+        "text": "\\b"
+      },
+      {
+        "key": "C",
+        "text": "\\r"
+      },
+      {
+        "key": "D",
+        "text": "\\n"
+      }
+    ],
+    "stem": "Which escape sequence moves the cursor to the next line in a Python `print()` statement?",
+    "topicId": "ms72cxcd4ywwz8wby67ep704gn85qcxa"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-7-pythion-input-output-i-o",
+    "topicTitle": "3.7 Python Input/Output (I/O)",
+    "_id": "k979gdkj86ah7vg06r8fkpzpeh8d391g",
+    "correctKey": "A",
+    "explanation": "The corpus explicitly says that user data can be entered through input(), via which it is stored in a variable.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsnxva430zjzr0aegr9wdj185qzq4",
+    "options": [
+      {
+        "key": "A",
+        "text": "input()"
+      },
+      {
+        "key": "B",
+        "text": "turtle.Screen()"
+      },
+      {
+        "key": "C",
+        "text": "range()"
+      },
+      {
+        "key": "D",
+        "text": "debug()"
+      }
+    ],
+    "sectionId": "python-input-output",
+    "sectionLabel": "python-input-output",
+    "stem": "Which function lets a user enter data that is stored in a variable?",
+    "topicId": "ms72cxcd4ywwz8wby67ep704gn85qcxa"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-8-operators-in-python",
+    "topicTitle": "3.8 Operators in Python",
+    "_id": "k973960vsmb43f8sxs92py0tj585p0j1",
+    "correctKey": "B",
+    "explanation": "The `//` operator is the floor division operator which truncates the decimal part and returns the integer quotient.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aqrh3xmtrc31qjzhmp8338s85qgca",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.333"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "3.0"
+      }
+    ],
+    "stem": "What is the output of the expression `print(10 // 3)` in Python?",
+    "topicId": "ms7dspdf0s4zwwy1hq1r08a35185qr5f"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-8-operators-in-python",
+    "topicTitle": "3.8 Operators in Python",
+    "_id": "k97cc4ntsmdzzrf048z39sab6185qg8j",
+    "correctKey": "C",
+    "explanation": "The `%` (modulo) operator returns the remainder of the division of the left operand by the right operand.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aqrh3xmtrc31qjzhmp8338s85qgca",
+    "options": [
+      {
+        "key": "A",
+        "text": "/"
+      },
+      {
+        "key": "B",
+        "text": "//"
+      },
+      {
+        "key": "C",
+        "text": "%"
+      },
+      {
+        "key": "D",
+        "text": "rem"
+      }
+    ],
+    "stem": "Which operator is used to find the remainder of a division?",
+    "topicId": "ms7dspdf0s4zwwy1hq1r08a35185qr5f"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-8-operators-in-python",
+    "topicTitle": "3.8 Operators in Python",
+    "_id": "k9739ejcgxbz33ye12m7hb2f8x85prvy",
+    "correctKey": "B",
+    "explanation": "The exponentiation operator `**` has right-to-left associativity. Thus, it is evaluated as $2 ** (3 ** 2) = 2 ** 9 = 512$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aqrh3xmtrc31qjzhmp8338s85qgca",
+    "options": [
+      {
+        "key": "A",
+        "text": "64"
+      },
+      {
+        "key": "B",
+        "text": "512"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      }
+    ],
+    "stem": "What is the result of the expression `2 ** 3 ** 2`?",
+    "topicId": "ms7dspdf0s4zwwy1hq1r08a35185qr5f"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-8-operators-in-python",
+    "topicTitle": "3.8 Operators in Python",
+    "_id": "k978py66ss0p3cz1xr50w1xcps85qkrw",
+    "correctKey": "C",
+    "explanation": "`==` is a comparison operator used to check equality between two values, not an assignment operator. Valid assignment operators include `+=`, `*=`, and `/=`.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aqrh3xmtrc31qjzhmp8338s85qgca",
+    "options": [
+      {
+        "key": "A",
+        "text": "+="
+      },
+      {
+        "key": "B",
+        "text": "*="
+      },
+      {
+        "key": "C",
+        "text": "=="
+      },
+      {
+        "key": "D",
+        "text": "/="
+      }
+    ],
+    "stem": "Which of the following is NOT a valid assignment operator in Python?",
+    "topicId": "ms7dspdf0s4zwwy1hq1r08a35185qr5f"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-8-operators-in-python",
+    "topicTitle": "3.8 Operators in Python",
+    "_id": "k97fnw0g54f2xr1yd3kgp073rh8d35rk",
+    "correctKey": "A",
+    "explanation": "The corpus identifies the assignment operator as =, separately from arithmetic operators such as +, -, *, and /.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aqrh3xmtrc31qjzhmp8338s85qgca",
+    "options": [
+      {
+        "key": "A",
+        "text": "="
+      },
+      {
+        "key": "B",
+        "text": "**"
+      },
+      {
+        "key": "C",
+        "text": "//"
+      },
+      {
+        "key": "D",
+        "text": "%"
+      }
+    ],
+    "sectionId": "python-operators",
+    "sectionLabel": "python-operators",
+    "stem": "Which symbol is identified as Python's assignment operator?",
+    "topicId": "ms7dspdf0s4zwwy1hq1r08a35185qr5f"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-9-iteration-and-loop",
+    "topicTitle": "3.9 Iteration and Loop",
+    "_id": "k977jv3vp0245p0xa64py8yah18d24pc",
+    "correctKey": "A",
+    "explanation": "The corpus explains that a for loop executes instructions for a defined range, avoiding repeated copies of the same code.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a8fkedz8zsqmk13w96c07fx85qqjt",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repeat instructions over a defined range"
+      },
+      {
+        "key": "B",
+        "text": "Rename every variable automatically"
+      },
+      {
+        "key": "C",
+        "text": "Draw only one fixed pixel"
+      },
+      {
+        "key": "D",
+        "text": "Prevent any instruction from executing"
+      }
+    ],
+    "sectionId": "iteration-and-loop",
+    "sectionLabel": "iteration-and-loop",
+    "stem": "What does a for loop help a programmer do?",
+    "topicId": "ms77p0jvj6je17qk4sbgtkwk1x85q674"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-10-list",
+    "topicTitle": "3.10 Lists in Python",
+    "_id": "k976fb7hyww8tshkv6esffss1985qyra",
+    "correctKey": "B",
+    "explanation": "Lists are mutable. `L[1]` refers to the second element (value 2) because indexing starts at 0. Assigning 5 to it replaces 2, resulting in [1, 5, 3].",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b5zm2fvamz058fgf0cj25vd85q707",
+    "options": [
+      {
+        "key": "A",
+        "text": "[1, 2, 3, 5]"
+      },
+      {
+        "key": "B",
+        "text": "[1, 5, 3]"
+      },
+      {
+        "key": "C",
+        "text": "[5, 2, 3]"
+      },
+      {
+        "key": "D",
+        "text": "TypeError"
+      }
+    ],
+    "stem": "What will be the output of the following code?\n```python\nL = [1, 2, 3]\nL[1] = 5\nprint(L)\n```",
+    "topicId": "ms704ntrrjnmeyvhtcnrg3ngbn85q4xw"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-10-list",
+    "topicTitle": "3.10 Lists in Python",
+    "_id": "k975pnk2714d20bb4mxttxz5q185q17n",
+    "correctKey": "B",
+    "explanation": "Negative indexing in Python starts from the end of the list. Index -1 refers to the last element, which is 'd'.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b5zm2fvamz058fgf0cj25vd85q707",
+    "options": [
+      {
+        "key": "A",
+        "text": "'a'"
+      },
+      {
+        "key": "B",
+        "text": "'d'"
+      },
+      {
+        "key": "C",
+        "text": "None"
+      },
+      {
+        "key": "D",
+        "text": "IndexError"
+      }
+    ],
+    "stem": "Given `$my_list$ = ['a', 'b', 'c', 'd']`, what is the value of `$my_list$[-1]`?",
+    "topicId": "ms704ntrrjnmeyvhtcnrg3ngbn85q4xw"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-10-list",
+    "topicTitle": "3.10 Lists in Python",
+    "_id": "k977xbjyxkcvnwewyp5wrctjf185qckb",
+    "correctKey": "C",
+    "explanation": "The `pop(index)` method removes and returns the item at the given index (default is the last item). The `remove()` method deletes by value, not by index. `delete()` and `discard()` are not list methods.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b5zm2fvamz058fgf0cj25vd85q707",
+    "options": [
+      {
+        "key": "A",
+        "text": "remove()"
+      },
+      {
+        "key": "B",
+        "text": "delete()"
+      },
+      {
+        "key": "C",
+        "text": "pop()"
+      },
+      {
+        "key": "D",
+        "text": "discard()"
+      }
+    ],
+    "stem": "Which method removes an element at a specific index from a Python list?",
+    "topicId": "ms704ntrrjnmeyvhtcnrg3ngbn85q4xw"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-10-list",
+    "topicTitle": "3.10 Lists in Python",
+    "_id": "k973qax6dyg54axh4f69vkjfj58d230v",
+    "correctKey": "A",
+    "explanation": "The corpus states that Python provides a List data type that is alterable and can contain many values.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b5zm2fvamz058fgf0cj25vd85q707",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is alterable and can contain many values"
+      },
+      {
+        "key": "B",
+        "text": "It can contain exactly one immutable value"
+      },
+      {
+        "key": "C",
+        "text": "It is only a printer command queue"
+      },
+      {
+        "key": "D",
+        "text": "It cannot be initialized when created"
+      }
+    ],
+    "sectionId": "python-lists",
+    "sectionLabel": "python-lists",
+    "stem": "Which property of a Python List is stated in the chapter?",
+    "topicId": "ms704ntrrjnmeyvhtcnrg3ngbn85q4xw"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-11-functions-in-python",
+    "topicTitle": "3.11 Functions in Python",
+    "_id": "k97axqyqcfky1e71k9sb7fs36x85q4jg",
+    "correctKey": "C",
+    "explanation": "In Python, the `def` keyword is used to define a function, followed by the function name and parentheses. The other options are not valid Python keywords for defining functions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cm2ypd9nwgt0zq0181qxk9x85q0jq",
+    "options": [
+      {
+        "key": "A",
+        "text": "func"
+      },
+      {
+        "key": "B",
+        "text": "define"
+      },
+      {
+        "key": "C",
+        "text": "def"
+      },
+      {
+        "key": "D",
+        "text": "function"
+      }
+    ],
+    "stem": "Which keyword is used to define a function in Python?",
+    "topicId": "ms7bajmg5pbm18wm60sph3y83n85qa51"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-11-functions-in-python",
+    "topicTitle": "3.11 Functions in Python",
+    "_id": "k976sy6d2jfsm8hc93ske8rejn85q5t6",
+    "correctKey": "C",
+    "explanation": "The function `add(3, 4)` returns `3 + 4 = 7`. The `return` statement sends the computed value back to the caller, and `print()` displays it. The result is 7, not the string concatenation '34'.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cm2ypd9nwgt0zq0181qxk9x85q0jq",
+    "options": [
+      {
+        "key": "A",
+        "text": "None"
+      },
+      {
+        "key": "B",
+        "text": "34"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "Error"
+      }
+    ],
+    "stem": "What will be the output of the following code?\n```python\ndef add(a, b):\n    return a + b\nprint(add(3, 4))\n```",
+    "topicId": "ms7bajmg5pbm18wm60sph3y83n85qa51"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-11-functions-in-python",
+    "topicTitle": "3.11 Functions in Python",
+    "_id": "k97bzcppfy1rcmv4qtqp3237k985pw1v",
+    "correctKey": "C",
+    "explanation": "The function has a default parameter `name=\"Guest\"`. When called without an argument, the default value 'Guest' is used, so the output is 'Hello, Guest'. Default parameters prevent errors when arguments are omitted.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cm2ypd9nwgt0zq0181qxk9x85q0jq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hello,"
+      },
+      {
+        "key": "B",
+        "text": "Hello, name"
+      },
+      {
+        "key": "C",
+        "text": "Hello, Guest"
+      },
+      {
+        "key": "D",
+        "text": "Error: missing argument"
+      }
+    ],
+    "stem": "What is the output of the following code?\n```python\ndef greet(name=\"Guest\"):\n    print(\"Hello,\", name)\ngreet()\n```",
+    "topicId": "ms7bajmg5pbm18wm60sph3y83n85qa51"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-11-functions-in-python",
+    "topicTitle": "3.11 Functions in Python",
+    "_id": "k978k965mg4gh72j5hsj1fdhc185qdev",
+    "correctKey": "B",
+    "explanation": "A variable defined inside a function is a local variable. It exists only within the function's scope and cannot be accessed outside it. Attempting to access it outside the function will cause a NameError.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cm2ypd9nwgt0zq0181qxk9x85q0jq",
+    "options": [
+      {
+        "key": "A",
+        "text": "global; anywhere in the program"
+      },
+      {
+        "key": "B",
+        "text": "local; only within that function"
+      },
+      {
+        "key": "C",
+        "text": "static; only once"
+      },
+      {
+        "key": "D",
+        "text": "public; outside the function"
+      }
+    ],
+    "stem": "A variable defined inside a Python function is called a ________ variable and can be accessed ________.",
+    "topicId": "ms7bajmg5pbm18wm60sph3y83n85qa51"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-11-functions-in-python",
+    "topicTitle": "3.11 Functions in Python",
+    "_id": "k97b7jqst1ptpq7vt89kvfbs9s85qvgk",
+    "correctKey": "B",
+    "explanation": "Problem decomposition means dividing a large, complex problem into smaller, manageable sub-problems. Each sub-problem is implemented as a separate function, making the program modular, readable, and easier to debug. This is the core purpose of SLO CS-11-C-06.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cm2ypd9nwgt0zq0181qxk9x85q0jq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Writing all code in a single long function"
+      },
+      {
+        "key": "B",
+        "text": "Breaking a complex problem into smaller sub-problems, each solved by a separate function"
+      },
+      {
+        "key": "C",
+        "text": "Using only built-in Python functions to solve problems"
+      },
+      {
+        "key": "D",
+        "text": "Repeating the same code block multiple times in a program"
+      }
+    ],
+    "stem": "Which of the following best describes the concept of problem decomposition using functions?",
+    "topicId": "ms7bajmg5pbm18wm60sph3y83n85qa51"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-11-functions-in-python",
+    "topicTitle": "3.11 Functions in Python",
+    "_id": "k97ckat7998e7998jz2pezrycs8d3n5h",
+    "correctKey": "A",
+    "explanation": "The corpus says functions divide code into segments for separate tasks and that Python uses def followed by a unique name to define one.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cm2ypd9nwgt0zq0181qxk9x85q0jq",
+    "options": [
+      {
+        "key": "A",
+        "text": "As named code segments that perform separate tasks and are defined with def"
+      },
+      {
+        "key": "B",
+        "text": "As comments that cannot be called"
+      },
+      {
+        "key": "C",
+        "text": "As variables that must always be global"
+      },
+      {
+        "key": "D",
+        "text": "As printer jobs processed sequentially"
+      }
+    ],
+    "sectionId": "python-functions",
+    "sectionLabel": "python-functions",
+    "stem": "How are functions introduced in the chapter?",
+    "topicId": "ms7bajmg5pbm18wm60sph3y83n85qa51"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-12-debugging",
+    "topicTitle": "3.12 Debugging",
+    "_id": "k9752kavx298c6nr1gd3827fnd85ppmv",
+    "correctKey": "B",
+    "explanation": "Debugging is specifically the process of finding and resolving bugs or defects within a program to make it function correctly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77t7ggrdnbqxzr454924390h85q4bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Compiling"
+      },
+      {
+        "key": "B",
+        "text": "Debugging"
+      },
+      {
+        "key": "C",
+        "text": "Encoding"
+      },
+      {
+        "key": "D",
+        "text": "Interpretation"
+      }
+    ],
+    "stem": "Which process involves identifying and removing errors from software code?",
+    "topicId": "ms74maek0b4btara2d3523zn7x85q3jb"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-12-debugging",
+    "topicTitle": "3.12 Debugging",
+    "_id": "k979ysewy3h6br3yv4a95x1s9h85p03s",
+    "correctKey": "C",
+    "explanation": "Missing a colon after an `if` statement violates Python's grammatical rules, making it a syntax error that the interpreter catches before running the program.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77t7ggrdnbqxzr454924390h85q4bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Logical Error"
+      },
+      {
+        "key": "B",
+        "text": "Runtime Error"
+      },
+      {
+        "key": "C",
+        "text": "Syntax Error"
+      },
+      {
+        "key": "D",
+        "text": "Semantic Error"
+      }
+    ],
+    "stem": "A Python programmer writes `if x > 5` without a colon at the end. What type of error is this?",
+    "topicId": "ms74maek0b4btara2d3523zn7x85q3jb"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-12-debugging",
+    "topicTitle": "3.12 Debugging",
+    "_id": "k971w7yz87bwe4ddtvmamyby4x85qmjv",
+    "correctKey": "B",
+    "explanation": "Logical errors do not stop the program from running, making them the hardest to find since the interpreter cannot detect them, only careful testing reveals them.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77t7ggrdnbqxzr454924390h85q4bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Syntax Error"
+      },
+      {
+        "key": "B",
+        "text": "Logical Error"
+      },
+      {
+        "key": "C",
+        "text": "Linker Error"
+      },
+      {
+        "key": "D",
+        "text": "Runtime Error"
+      }
+    ],
+    "stem": "Which type of error is hardest to detect because the program runs but produces wrong output?",
+    "topicId": "ms74maek0b4btara2d3523zn7x85q3jb"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-12-debugging",
+    "topicTitle": "3.12 Debugging",
+    "_id": "k97fcaarzj5n5e826bd1ewwy3585qty8",
+    "correctKey": "C",
+    "explanation": "Division by zero raises a `ZeroDivisionError` in Python, which is a runtime error that occurs while the program is actively executing.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77t7ggrdnbqxzr454924390h85q4bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "SyntaxError"
+      },
+      {
+        "key": "B",
+        "text": "LogicalError"
+      },
+      {
+        "key": "C",
+        "text": "ZeroDivisionError"
+      },
+      {
+        "key": "D",
+        "text": "DesignError"
+      }
+    ],
+    "stem": "In Python, which error is raised when a program attempts to divide a number by zero?",
+    "topicId": "ms74maek0b4btara2d3523zn7x85q3jb"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-12-debugging",
+    "topicTitle": "3.12 Debugging",
+    "_id": "k976v4xmbnts77mec81pry7b4h85pc0f",
+    "correctKey": "B",
+    "explanation": "A breakpoint is a designated spot in the code where the debugger suspends execution, allowing the programmer to inspect variable values and program state.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77t7ggrdnbqxzr454924390h85q4bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Watchpoint"
+      },
+      {
+        "key": "B",
+        "text": "Breakpoint"
+      },
+      {
+        "key": "C",
+        "text": "Step-over"
+      },
+      {
+        "key": "D",
+        "text": "Trace"
+      }
+    ],
+    "stem": "What feature of a debugger allows a programmer to pause program execution at a specific line of code?",
+    "topicId": "ms74maek0b4btara2d3523zn7x85q3jb"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "03-programming-fundamentals-python",
+    "chapterTitle": "Programming Fundamentals (Python)",
+    "topicSlug": "3-12-debugging",
+    "topicTitle": "3.12 Debugging",
+    "_id": "k97355qqggm72qrx5dz9xwq2pn8d2cf8",
+    "correctKey": "A",
+    "explanation": "The corpus explains that complex bugs in large code make manual dry-runs tedious and hard, so debugging is the solution.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77t7ggrdnbqxzr454924390h85q4bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manual dry-runs become tedious in large code, so the code should be debugged"
+      },
+      {
+        "key": "B",
+        "text": "Debugging is used only to draw turtle shapes"
+      },
+      {
+        "key": "C",
+        "text": "Debugging removes the need for any code"
+      },
+      {
+        "key": "D",
+        "text": "Manual dry-runs are always impossible for short code"
+      }
+    ],
+    "sectionId": "debugging",
+    "sectionLabel": "debugging",
+    "stem": "Why is debugging needed for complex bugs?",
+    "topicId": "ms74maek0b4btara2d3523zn7x85q3jb"
+  }
+]

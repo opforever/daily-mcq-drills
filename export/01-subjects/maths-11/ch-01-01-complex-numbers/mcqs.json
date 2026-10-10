@@ -1,0 +1,1052 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k9740p161m13mgxab1xhbx03ph8cv309",
+    "correctKey": "A",
+    "explanation": "Expand and use i²=−1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "D",
+        "text": "ac+bd"
+      },
+      {
+        "key": "A",
+        "text": "(ac−bd)+(ad+bc)i"
+      },
+      {
+        "key": "B",
+        "text": "(ac+bd)+(ad−bc)i"
+      },
+      {
+        "key": "C",
+        "text": "(a+c)+(b+d)i"
+      }
+    ],
+    "sectionId": "basic-operations-on-complex-numbers",
+    "sectionLabel": "Basic Operations on Complex Numbers",
+    "stem": "What is (a+bi)(c+di)?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k97b83j9dgser6s6zvcbc48z398cvc8p",
+    "correctKey": "A",
+    "explanation": "The conjugate changes only the sign of the imaginary part.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "B",
+        "text": "−a+bi"
+      },
+      {
+        "key": "C",
+        "text": "a+bi"
+      },
+      {
+        "key": "D",
+        "text": "b+ai"
+      },
+      {
+        "key": "A",
+        "text": "a−bi"
+      }
+    ],
+    "sectionId": "complex-conjugate",
+    "sectionLabel": "Complex Conjugate",
+    "stem": "What is the conjugate of a+bi?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k979cmajkbbh448y4m3w0fdry98cvgse",
+    "correctKey": "A",
+    "explanation": "Equality requires both corresponding components to match.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "A",
+        "text": "a=c and b=d"
+      },
+      {
+        "key": "C",
+        "text": "ab=cd"
+      },
+      {
+        "key": "B",
+        "text": "a+b=c+d"
+      },
+      {
+        "key": "D",
+        "text": "a−b=c−d"
+      }
+    ],
+    "sectionId": "equality-of-complex-numbers",
+    "sectionLabel": "Equality of Complex Numbers",
+    "stem": "When are a+bi and c+di equal?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k979h4b1brtf4jhmp5zmdzvzm18ct9cc",
+    "correctKey": "A",
+    "explanation": "|z| = sqrt(x² + y²), the distance from the origin in the complex plane.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "D",
+        "text": "xy"
+      },
+      {
+        "key": "C",
+        "text": "x-y"
+      },
+      {
+        "key": "B",
+        "text": "x+y"
+      },
+      {
+        "key": "A",
+        "text": "sqrt(x²+y²)"
+      }
+    ],
+    "sectionId": "modulus-absolute-value-of-a-complex-number",
+    "sectionLabel": "Modulus (Absolute Value) of a Complex Number",
+    "stem": "For z=x+iy, what is |z|?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k974bs10hasj7781z71qkjeaan8cttfm",
+    "correctKey": "A",
+    "explanation": "The modulus is the distance from the origin.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "B",
+        "text": "a+b"
+      },
+      {
+        "key": "D",
+        "text": "ab"
+      },
+      {
+        "key": "A",
+        "text": "√(a²+b²)"
+      },
+      {
+        "key": "C",
+        "text": "a−b"
+      }
+    ],
+    "sectionId": "modulus-absolute-value-of-a-complex-number",
+    "sectionLabel": "Modulus (Absolute Value) of a Complex Number",
+    "stem": "How is |a+bi| calculated?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k97b2rehafs0wex53n8vmw4s8x8cv4y4",
+    "correctKey": "A",
+    "explanation": "As z = x + iy, where x and y are real numbers; equivalently, as the ordered pair (x,y).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "A",
+        "text": "x+iy with x,y real"
+      },
+      {
+        "key": "C",
+        "text": "x/y with y=0"
+      },
+      {
+        "key": "B",
+        "text": "xy with x,y natural"
+      },
+      {
+        "key": "D",
+        "text": "x-y with x,y complex"
+      }
+    ],
+    "sectionId": "powers-of-i",
+    "sectionLabel": "Powers of $i$",
+    "stem": "Which expression is the Cartesian form of a complex number?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k9742fwqzrhkvn1ccr640x9qed8ctjzh",
+    "correctKey": "A",
+    "explanation": "$i^4=1$ because powers of $i$ repeat every four exponents.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$i$"
+      },
+      {
+        "key": "D",
+        "text": "$-i$"
+      },
+      {
+        "key": "C",
+        "text": "$-1$"
+      }
+    ],
+    "sectionId": "powers-of-i",
+    "sectionLabel": "Powers of $i$",
+    "stem": "What is $i^4$?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Powers of $i$ and Complex Representation",
+    "_id": "k97dtw8b02r8vjy9yz195j3khd8ctg4d",
+    "correctKey": "A",
+    "explanation": "A complex number is z=a+bi with real a,b and i²=−1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70xqk8hs816ypjjz9dx2skh585qdwy",
+    "options": [
+      {
+        "key": "C",
+        "text": "z = ab"
+      },
+      {
+        "key": "A",
+        "text": "z = a + bi"
+      },
+      {
+        "key": "D",
+        "text": "z = a − b"
+      },
+      {
+        "key": "B",
+        "text": "z = a/b"
+      }
+    ],
+    "sectionId": "what-is-a-complex-number",
+    "sectionLabel": "What is a Complex Number?",
+    "stem": "What is the standard form of a complex number?",
+    "topicId": "ms75j8hrty7wwvm6xcnajba4sx85py60"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Real and Imaginary Parts - Operations, Conjugate, Modulus",
+    "_id": "k973r3g0h37hggafdyhpsprke58ctath",
+    "correctKey": "A",
+    "explanation": "Multiplying by the conjugate rationalizes a complex denominator.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c3ddrjgsfzt77rvg25j4dzs85pxa4",
+    "options": [
+      {
+        "key": "C",
+        "text": "Subtraction"
+      },
+      {
+        "key": "A",
+        "text": "Division"
+      },
+      {
+        "key": "B",
+        "text": "Addition"
+      },
+      {
+        "key": "D",
+        "text": "Argument"
+      }
+    ],
+    "sectionId": "basic-operations-on-complex-numbers",
+    "sectionLabel": "Basic Operations on Complex Numbers",
+    "stem": "Which operation uses the conjugate to simplify a denominator?",
+    "topicId": "ms72h1vpwzm5hweh16a2z117wd85p1rz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Real and Imaginary Parts - Operations, Conjugate, Modulus",
+    "_id": "k977127vc5mntp5vemm0n4813x8cv2he",
+    "correctKey": "A",
+    "explanation": "The conjugate is x−iy; it changes the sign of the imaginary part.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c3ddrjgsfzt77rvg25j4dzs85pxa4",
+    "options": [
+      {
+        "key": "C",
+        "text": "−x+iy"
+      },
+      {
+        "key": "D",
+        "text": "1/(x+iy)"
+      },
+      {
+        "key": "A",
+        "text": "x−iy"
+      },
+      {
+        "key": "B",
+        "text": "x+iy"
+      }
+    ],
+    "sectionId": "complex-conjugate",
+    "sectionLabel": "Complex Conjugate",
+    "stem": "How is the conjugate of x+iy written?",
+    "topicId": "ms72h1vpwzm5hweh16a2z117wd85p1rz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Real and Imaginary Parts - Operations, Conjugate, Modulus",
+    "_id": "k970rxhadeyjx4bhzv6dzqf1g58cvwb3",
+    "correctKey": "A",
+    "explanation": "The product is the modulus squared.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c3ddrjgsfzt77rvg25j4dzs85pxa4",
+    "options": [
+      {
+        "key": "A",
+        "text": "a²+b²"
+      },
+      {
+        "key": "B",
+        "text": "a²−b²"
+      },
+      {
+        "key": "D",
+        "text": "a+b"
+      },
+      {
+        "key": "C",
+        "text": "2ab"
+      }
+    ],
+    "sectionId": "complex-conjugate",
+    "sectionLabel": "Complex Conjugate",
+    "stem": "What is (a+bi)(a−bi)?",
+    "topicId": "ms72h1vpwzm5hweh16a2z117wd85p1rz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Real and Imaginary Parts - Operations, Conjugate, Modulus",
+    "_id": "k979h4b1brtf4jhmp5zmdzvzm18ct9cc",
+    "correctKey": "A",
+    "explanation": "|z| = sqrt(x² + y²), the distance from the origin in the complex plane.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c3ddrjgsfzt77rvg25j4dzs85pxa4",
+    "options": [
+      {
+        "key": "D",
+        "text": "xy"
+      },
+      {
+        "key": "C",
+        "text": "x-y"
+      },
+      {
+        "key": "B",
+        "text": "x+y"
+      },
+      {
+        "key": "A",
+        "text": "sqrt(x²+y²)"
+      }
+    ],
+    "sectionId": "equality-of-complex-numbers",
+    "sectionLabel": "Equality of Complex Numbers",
+    "stem": "For z=x+iy, what is |z|?",
+    "topicId": "ms72h1vpwzm5hweh16a2z117wd85p1rz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Real and Imaginary Parts - Operations, Conjugate, Modulus",
+    "_id": "k97aac32hrfgmsjby4awv57n8n8cth8j",
+    "correctKey": "A",
+    "explanation": "Both components must match.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c3ddrjgsfzt77rvg25j4dzs85pxa4",
+    "options": [
+      {
+        "key": "B",
+        "text": "a+b=c+d"
+      },
+      {
+        "key": "A",
+        "text": "a=c and b=d"
+      },
+      {
+        "key": "C",
+        "text": "ab=cd"
+      },
+      {
+        "key": "D",
+        "text": "a−b=c−d"
+      }
+    ],
+    "sectionId": "equality-of-complex-numbers",
+    "sectionLabel": "Equality of Complex Numbers",
+    "stem": "What condition makes a+bi equal to c+di?",
+    "topicId": "ms72h1vpwzm5hweh16a2z117wd85p1rz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Real and Imaginary Parts - Operations, Conjugate, Modulus",
+    "_id": "k97db6088zhvnwag5bpds071298ct15m",
+    "correctKey": "A",
+    "explanation": "It is the Euclidean distance from the origin.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c3ddrjgsfzt77rvg25j4dzs85pxa4",
+    "options": [
+      {
+        "key": "D",
+        "text": "The imaginary part"
+      },
+      {
+        "key": "C",
+        "text": "The real part"
+      },
+      {
+        "key": "A",
+        "text": "Distance from the origin"
+      },
+      {
+        "key": "B",
+        "text": "The argument"
+      }
+    ],
+    "sectionId": "modulus-absolute-value-of-a-complex-number",
+    "sectionLabel": "Modulus (Absolute Value) of a Complex Number",
+    "stem": "What does |a+bi| represent geometrically?",
+    "topicId": "ms72h1vpwzm5hweh16a2z117wd85p1rz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Real and Imaginary Parts - Operations, Conjugate, Modulus",
+    "_id": "k9792vwnwyv218jg8jefkph6bd8ctz8j",
+    "correctKey": "A",
+    "explanation": "Standard elimination and substitution work with complex arithmetic.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c3ddrjgsfzt77rvg25j4dzs85pxa4",
+    "options": [
+      {
+        "key": "D",
+        "text": "Only factorization"
+      },
+      {
+        "key": "C",
+        "text": "Only differentiation"
+      },
+      {
+        "key": "B",
+        "text": "Only graphing"
+      },
+      {
+        "key": "A",
+        "text": "Elimination or substitution"
+      }
+    ],
+    "sectionId": "simultaneous-linear-equations-with-complex-coefficients",
+    "sectionLabel": "Simultaneous Linear Equations with Complex Coefficients",
+    "stem": "Which methods solve simultaneous complex linear equations?",
+    "topicId": "ms72h1vpwzm5hweh16a2z117wd85p1rz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k9766gch3gbqhdq889hnz0kt8n8cvj48",
+    "correctKey": "A",
+    "explanation": "Use i²=−1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "(z−ia)(z+ia)"
+      },
+      {
+        "key": "B",
+        "text": "(z−a)(z+a)"
+      },
+      {
+        "key": "C",
+        "text": "z(z+a)"
+      },
+      {
+        "key": "D",
+        "text": "(z+i)(z−a)"
+      }
+    ],
+    "sectionId": "1-factorization-into-linear-factors-over-mathbbc",
+    "sectionLabel": "1. Factorization into Linear Factors over $\\mathbb{C}$",
+    "stem": "Which identity factors z²+a² over C?",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k976cxn1v4vxj1c1d2s32cb6wn85phhw",
+    "correctKey": "B",
+    "explanation": "Half of $-6$ is $-3$. Adding $(-3)^2 = 9$ to both sides of $z^2 - 6z = -2$ gives $(z-3)^2 = 9 - 2 = 7$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(z - 6)^2 = 34$"
+      },
+      {
+        "key": "B",
+        "text": "$(z - 3)^2 = 7$"
+      },
+      {
+        "key": "C",
+        "text": "$(z + 3)^2 = 11$"
+      },
+      {
+        "key": "D",
+        "text": "$(z - 3)^2 = -2$"
+      }
+    ],
+    "sectionId": "2-solving-quadratic-equations-by-completing-the-square",
+    "sectionLabel": "2. Solving Quadratic Equations by Completing the Square",
+    "stem": "Given the equation $z^2 - 6z + 2 = 0$, what is the resulting perfect square form after completing the square?",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k978jxwyh9xr927t7y2d2pdzpx85q7re",
+    "correctKey": "D",
+    "explanation": "A negative discriminant results in $\\sqrt{-16} = \\pm 4i$. Combined with the real part $-b/(2a)$, the roots form a conjugate pair $x \\pm iy$. They are not purely imaginary unless $b = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "Real and unequal"
+      },
+      {
+        "key": "B",
+        "text": "Real and equal"
+      },
+      {
+        "key": "C",
+        "text": "Purely imaginary"
+      },
+      {
+        "key": "D",
+        "text": "Complex conjugates"
+      }
+    ],
+    "sectionId": "2-solving-quadratic-equations-by-completing-the-square",
+    "sectionLabel": "2. Solving Quadratic Equations by Completing the Square",
+    "stem": "If the discriminant of a quadratic equation with real coefficients is $-16$, the roots will be:",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k970nh35w6hkhg4ka57akvgabs8cvsdx",
+    "correctKey": "A",
+    "explanation": "Complete the square, then factor the resulting expression; here the roots are z=1+2i and z=1−2i.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "Completing the square"
+      },
+      {
+        "key": "B",
+        "text": "Taking only the real part"
+      },
+      {
+        "key": "C",
+        "text": "Ordering z numerically"
+      },
+      {
+        "key": "D",
+        "text": "Using a zero denominator"
+      }
+    ],
+    "sectionId": "2-solving-quadratic-equations-by-completing-the-square",
+    "sectionLabel": "2. Solving Quadratic Equations by Completing the Square",
+    "stem": "Which method is used for z²−2z+5=0 in the textbook?",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k9781zdcfjnerjaq53zds8gshn8ctama",
+    "correctKey": "A",
+    "explanation": "It solves complex quadratics such as pz²+qz+r=0.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "Complex quadratic equations"
+      },
+      {
+        "key": "B",
+        "text": "Only matrix equations"
+      },
+      {
+        "key": "C",
+        "text": "Only trigonometric periods"
+      },
+      {
+        "key": "D",
+        "text": "Only vector projections"
+      }
+    ],
+    "sectionId": "2-solving-quadratic-equations-by-completing-the-square",
+    "sectionLabel": "2. Solving Quadratic Equations by Completing the Square",
+    "stem": "What does completing the square help solve in this chapter?",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k97f8axkaqwshj3n8gbbhnjp2h8ctk1w",
+    "correctKey": "A",
+    "explanation": "Completing the square exposes the complex roots.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "Completing the square"
+      },
+      {
+        "key": "B",
+        "text": "Ordering roots"
+      },
+      {
+        "key": "C",
+        "text": "Discarding imaginary parts"
+      },
+      {
+        "key": "D",
+        "text": "Differentiating"
+      }
+    ],
+    "sectionId": "2-solving-quadratic-equations-by-completing-the-square",
+    "sectionLabel": "2. Solving Quadratic Equations by Completing the Square",
+    "stem": "Which method solves a complex quadratic pz²+qz+r=0?",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k9772ptbkvsk6x45saz3bsr58d85pmvc",
+    "correctKey": "A",
+    "explanation": "Multiplying a complex coefficient by its conjugate (e.g., $(1-i)(1+i) = 1+1 = 2$) results in a real number, which simplifies elimination of variables in the system.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "To make the coefficients real numbers"
+      },
+      {
+        "key": "B",
+        "text": "To find the modulus of the complex number"
+      },
+      {
+        "key": "C",
+        "text": "To ensure the system has no solution"
+      },
+      {
+        "key": "D",
+        "text": "To convert the equation into polar form"
+      }
+    ],
+    "sectionId": "3-solving-simultaneous-linear-equations-with-complex-coefficients",
+    "sectionLabel": "3. Solving Simultaneous Linear Equations with Complex Coefficients",
+    "stem": "Why do we multiply by the conjugate when solving a system of complex equations like $(1-i)z + (1+i)w = 3$ via the elimination method?",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Factorization and Completing the Square",
+    "_id": "k9707rvz0n3jcy96w2z1zp422s8cva4k",
+    "correctKey": "A",
+    "explanation": "Use elimination or substitution with complex arithmetic.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71mgf0gf12ewn2tbt5yshvqx85qp1n",
+    "options": [
+      {
+        "key": "A",
+        "text": "Real and imaginary components"
+      },
+      {
+        "key": "B",
+        "text": "Only real coefficients"
+      },
+      {
+        "key": "C",
+        "text": "Only imaginary coefficients"
+      },
+      {
+        "key": "D",
+        "text": "A zero denominator"
+      }
+    ],
+    "sectionId": "3-solving-simultaneous-linear-equations-with-complex-coefficients",
+    "sectionLabel": "3. Solving Simultaneous Linear Equations with Complex Coefficients",
+    "stem": "What must be preserved when solving simultaneous complex equations?",
+    "topicId": "ms7evxvfg9anrprmf5t6zn0yv585qexh"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 Complex Numbers in Different Forms",
+    "_id": "k97d9zs16f0jq0whmchcddq1118ctnqn",
+    "correctKey": "A",
+    "explanation": "Both modulus and argument carry the equality.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c7ryycqeb46h0bgmzh4ygkn85qhqr",
+    "options": [
+      {
+        "key": "B",
+        "text": "Only real parts"
+      },
+      {
+        "key": "A",
+        "text": "Moduli and arguments"
+      },
+      {
+        "key": "C",
+        "text": "Only denominators"
+      },
+      {
+        "key": "D",
+        "text": "Only degrees"
+      }
+    ],
+    "sectionId": "equations-and-identities-in-polar-form",
+    "sectionLabel": "Equations and Identities in Polar Form",
+    "stem": "What is compared in a polar-form complex equation?",
+    "topicId": "ms7brnsmv7n5tye6pfajxqcxv985pkr4"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 Complex Numbers in Different Forms",
+    "_id": "k9735rf2mey5wndjhkp4e7kdks8cv9kh",
+    "correctKey": "A",
+    "explanation": "Arguments add and moduli multiply.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c7ryycqeb46h0bgmzh4ygkn85qhqr",
+    "options": [
+      {
+        "key": "C",
+        "text": "They always subtract"
+      },
+      {
+        "key": "D",
+        "text": "They vanish"
+      },
+      {
+        "key": "B",
+        "text": "They multiply"
+      },
+      {
+        "key": "A",
+        "text": "They add"
+      }
+    ],
+    "sectionId": "operations-with-complex-numbers-in-polar-form",
+    "sectionLabel": "Operations with Complex Numbers in Polar Form",
+    "stem": "What happens to arguments when multiplying polar complex numbers?",
+    "topicId": "ms7brnsmv7n5tye6pfajxqcxv985pkr4"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 Complex Numbers in Different Forms",
+    "_id": "k97ag2zz4fereqmg9qwszh90bh8ctmmg",
+    "correctKey": "A",
+    "explanation": "Polar coordinates use radius and angle.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c7ryycqeb46h0bgmzh4ygkn85qhqr",
+    "options": [
+      {
+        "key": "A",
+        "text": "(r, θ)"
+      },
+      {
+        "key": "C",
+        "text": "(a, b)"
+      },
+      {
+        "key": "D",
+        "text": "(m, n)"
+      },
+      {
+        "key": "B",
+        "text": "(x, y) only"
+      }
+    ],
+    "sectionId": "polar-coordinate-system",
+    "sectionLabel": "Polar Coordinate System",
+    "stem": "Which pair defines a point in polar coordinates?",
+    "topicId": "ms7brnsmv7n5tye6pfajxqcxv985pkr4"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 Complex Numbers in Different Forms",
+    "_id": "k9798chsce0zwes6a6j86q3gfd8ct1kf",
+    "correctKey": "A",
+    "explanation": "For z=x+iy, write z in polar form using its modulus r=|z| and argument θ: z=r(cos θ+i sin θ).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c7ryycqeb46h0bgmzh4ygkn85qhqr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modulus r and argument θ"
+      },
+      {
+        "key": "C",
+        "text": "Only the imaginary part"
+      },
+      {
+        "key": "B",
+        "text": "Only the real part"
+      },
+      {
+        "key": "D",
+        "text": "The denominator and numerator"
+      }
+    ],
+    "sectionId": "polar-form-of-a-complex-number",
+    "sectionLabel": "Polar Form of a Complex Number",
+    "stem": "Which pair determines the polar representation of z?",
+    "topicId": "ms7brnsmv7n5tye6pfajxqcxv985pkr4"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 Complex Numbers in Different Forms",
+    "_id": "k972pb8f0bb2s045zfyq37d15s8ctjpf",
+    "correctKey": "A",
+    "explanation": "Cartesian form x+iy and polar form using modulus and argument.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c7ryycqeb46h0bgmzh4ygkn85qhqr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cartesian and polar"
+      },
+      {
+        "key": "C",
+        "text": "Vector and scalar only"
+      },
+      {
+        "key": "D",
+        "text": "Arithmetic and geometric"
+      },
+      {
+        "key": "B",
+        "text": "Matrix and determinant"
+      }
+    ],
+    "sectionId": "polar-form-of-a-complex-number",
+    "sectionLabel": "Polar Form of a Complex Number",
+    "stem": "What are the two common forms used for a complex number?",
+    "topicId": "ms7brnsmv7n5tye6pfajxqcxv985pkr4"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 Complex Numbers in Different Forms",
+    "_id": "k97f0r7mb4e345y2zq5n2mzk858cttd3",
+    "correctKey": "A",
+    "explanation": "This is equivalent to re^{iθ}.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c7ryycqeb46h0bgmzh4ygkn85qhqr",
+    "options": [
+      {
+        "key": "A",
+        "text": "r(cosθ+i sinθ)"
+      },
+      {
+        "key": "C",
+        "text": "r+iθ"
+      },
+      {
+        "key": "D",
+        "text": "x cosθ+y sinθ"
+      },
+      {
+        "key": "B",
+        "text": "x+y"
+      }
+    ],
+    "sectionId": "polar-form-of-a-complex-number",
+    "sectionLabel": "Polar Form of a Complex Number",
+    "stem": "What is the polar form of z=x+iy?",
+    "topicId": "ms7brnsmv7n5tye6pfajxqcxv985pkr4"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 Complex Numbers in Different Forms",
+    "_id": "k978zya63raawsxqye1yngv5cs8cvfvd",
+    "correctKey": "A",
+    "explanation": "Impedance is the complex voltage/current ratio.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c7ryycqeb46h0bgmzh4ygkn85qhqr",
+    "options": [
+      {
+        "key": "C",
+        "text": "Only resistance"
+      },
+      {
+        "key": "A",
+        "text": "Voltage-to-current ratio"
+      },
+      {
+        "key": "B",
+        "text": "Voltage plus current"
+      },
+      {
+        "key": "D",
+        "text": "Wave period"
+      }
+    ],
+    "sectionId": "real-world-application-complex-impedance",
+    "sectionLabel": "Real-World Application: Complex Impedance",
+    "stem": "What does complex impedance Z=E/I represent?",
+    "topicId": "ms7brnsmv7n5tye6pfajxqcxv985pkr4"
+  }
+]

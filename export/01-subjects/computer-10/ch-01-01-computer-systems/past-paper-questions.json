@@ -1,0 +1,1370 @@
+[
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m178902xsdt1ngyvr9er54w9jd8e1hjn",
+    "correctKey": "B",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "43 in binary is 00101011; inverting gives 11010100, adding 1 gives 11010101, the two's complement of -43. (Source prints option C identically to option B, an OCR duplication.)",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "10101011"
+      },
+      {
+        "key": "B",
+        "text": "11010101"
+      },
+      {
+        "key": "C",
+        "text": "11010101"
+      },
+      {
+        "key": "D",
+        "text": "11101011"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the binary representation of the decimal number -43 using 8-bit two's complement notation?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m17djfbjh1gdvgvtkf58qxss658e1y86",
+    "correctKey": "A",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "3=0011, F=1111, A=1010, 7=0111, giving 0011 1111 1010 0111.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "0011111110100111"
+      },
+      {
+        "key": "B",
+        "text": "1100001111011000"
+      },
+      {
+        "key": "C",
+        "text": "1011110000110111"
+      },
+      {
+        "key": "D",
+        "text": "0111101110111100"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which of the following binary numbers corresponds to the hexadecimal number 3FA7?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m1722w6r0cbwzm8j4kervkyw4d8e1bx7",
+    "correctKey": "B",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "An 8-bit signed (two's complement) integer ranges from -128 to 127.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "-127 to 128"
+      },
+      {
+        "key": "B",
+        "text": "-128 to 127"
+      },
+      {
+        "key": "C",
+        "text": "0 to 255"
+      },
+      {
+        "key": "D",
+        "text": "-256 to 255"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "In an 8-bit signed integer representation, what is the range of values that can be represented?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m17byp59mdvwgjkvcmqdvw0cn98e16v4",
+    "correctKey": "B",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "10 bits give 2^10 = 1024 distinct values.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "256"
+      },
+      {
+        "key": "B",
+        "text": "1024"
+      },
+      {
+        "key": "C",
+        "text": "512"
+      },
+      {
+        "key": "D",
+        "text": "2048"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "How many different values can be represented with a 10-bit binary number?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m172gjknw08mbwrt73kn2vq6798e0hgr",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In signed binary representation the MSB is the sign bit: 0 indicates a positive number and 1 indicates a negative number.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the significance of the Most Significant Bit (MSB) in signed binary numbers?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m177khsqt9qw1wh7h41xn7ady58e1w5b",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A binary digit (bit) is a 0 or 1, the smallest unit of data a computer can store or process; it is fundamental because digital circuits naturally represent two stable states (on/off).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is a binary digit, and why is it fundamental in computer systems?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m17ea5mz0ajgd8xdzykkvz7yj58e08tk",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Binary maps directly onto the two physical states (on/off) that electronic switches can reliably represent, making binary circuits simpler, faster and less error-prone than ones built to handle ten decimal states.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Why are binary numbers more efficient for computer calculations than decimal numbers?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m174gdqr9640qfm24k0q2w6yk18e1v1h",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Positional value means a digit's contribution depends on its position (place value) in the number, which is what lets a fixed set of digits represent any magnitude. For example, in decimal 345 the '3' is worth 300 because of its hundreds position, and in binary 101 the leading '1' is worth 4 because of its position in the 2^2 place.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the importance of positional value in number systems? Give two examples.",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m176hk9xpmbvs8ye9m53p3scw18e0dk7",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Group the binary digits into sets of four starting from the right (padding with leading zeros if needed), then convert each 4-bit group into its equivalent single hexadecimal digit.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the process to convert a binary number to its hexadecimal equivalent?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m1711m5k6d8j1kj4sew973nd6x8e1vrc",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Machine code is the binary instruction set the CPU can execute directly; all higher-level program code must ultimately be translated into it for the computer to actually carry out the instructions.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the purpose of machine code in computer operations?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m171w17vx3h4b97b0w28tdfgns8e0h1v",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "Decimal (base 10) uses digits 0-9, e.g. 245.",
+      "Binary (base 2) uses digits 0-1, e.g. 11110101.",
+      "Octal (base 8) uses digits 0-7, e.g. 365.",
+      "Hexadecimal (base 16) uses digits 0-9 and A-F, e.g. 3FA7."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The decimal number system has base 10 and uses digits 0 to 9, for example 245. The binary system has base 2 and uses 0 and 1, for example 11110101. The octal system has base 8 and uses digits 0 to 7, for example 365. The hexadecimal system has base 16 and uses digits 0 to 9 and A to F, for example 3FA7.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Explain decimal, binary, octal and hexadecimal number systems with examples.",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m171rcz3d536rcjw7q8namz96x8e1krb",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "Two's complement represents a negative number by inverting all bits of its positive binary form and adding 1.",
+      "It is used because it lets addition/subtraction circuits handle positive and negative numbers with the same hardware, and gives a single representation for zero.",
+      "Example: -43 in 8-bit two's complement is 11010101 (invert 00101011 to 11010100, add 1)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Two's complement represents a negative number by inverting all bits of its positive binary form and adding 1. It is used so addition and subtraction circuits can handle positive and negative numbers with the same hardware, and so zero has a single representation. For example, -43 in 8-bit two's complement is 11010101: invert 00101011 to get 11010100, then add 1.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is 2's complement, and why is it used? Give examples.",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "m17fyvmr7dyrdez4gjhamd3z1n8e1420",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "Overflow occurs when a calculation produces a result too large to be represented in the available number of bits.",
+      "Underflow occurs when a result is too small (too close to zero, or too negative) to be represented accurately in the available format.",
+      "Example: adding two 8-bit signed numbers 127 + 1 gives 128, which cannot be represented in 8-bit two's complement (range -128 to 127), causing overflow."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Overflow occurs when a calculation produces a result too large to be represented in the available number of bits. Underflow occurs when a result is too small, or too close to zero or too negative, to be represented accurately in the available format. For example, adding two 8-bit signed numbers, 127 + 1, gives 128, which is outside the 8-bit two's-complement range of -128 to 127, so overflow occurs.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Define the terms Overflow and Underflow. Explain Overflow in number system with one example.",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-3-common-coding-schemes-ascii-and-unicode",
+    "topicTitle": "1.3 Common Coding Schemes (Ascii and Unicode)",
+    "_id": "m17fep602w1dczgy6593sa93an8e163v",
+    "correctKey": "A",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "90 in binary is 01011010.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "01011010"
+      },
+      {
+        "key": "B",
+        "text": "01001110"
+      },
+      {
+        "key": "C",
+        "text": "01011000"
+      },
+      {
+        "key": "D",
+        "text": "01101001"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "How does the ASCII code for the character 'Z' (90 in decimal) look in binary?",
+    "topicId": "ms77007rebd7b20me7xgevfjeh8bt358"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-3-common-coding-schemes-ascii-and-unicode",
+    "topicTitle": "1.3 Common Coding Schemes (Ascii and Unicode)",
+    "_id": "m1734ej150kysymsmr866c42md8e01zt",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "ASCII uses 7 or 8 bits and can represent 128-256 characters, covering mainly English letters, digits and symbols, while Unicode uses a much larger code space (commonly 16 or 32 bits) to represent characters from virtually every writing system in the world.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "How do ASCII and Unicode differ in character representation?",
+    "topicId": "ms77007rebd7b20me7xgevfjeh8bt358"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-3-common-coding-schemes-ascii-and-unicode",
+    "topicTitle": "1.3 Common Coding Schemes (Ascii and Unicode)",
+    "_id": "m172brm3y2gfxm24jpx2yh3s718e1fbw",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A coding scheme (like ASCII or Unicode) is used so that: (1) every character has one agreed binary representation, allowing consistent storage and processing; (2) text can be exchanged reliably between different computers and programs; and (3) computers, which only understand binary, can represent human-readable letters, digits and symbols.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Why is a coding scheme used in computers? Give three reasons.",
+    "topicId": "ms77007rebd7b20me7xgevfjeh8bt358"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-3-common-coding-schemes-ascii-and-unicode",
+    "topicTitle": "1.3 Common Coding Schemes (Ascii and Unicode)",
+    "_id": "m170yz47d1xr2geqtr5r19eszx8e12pb",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "ASCII and Unicode give every character a standard numeric/binary code so text can be stored, processed and exchanged consistently across different systems.",
+      "ASCII (7/8-bit) is sufficient for basic English text and control characters.",
+      "Unicode extends this to represent characters from virtually all the world's writing systems, enabling true multilingual computing."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "ASCII and Unicode assign standard numeric or binary codes to characters, allowing text to be stored, processed, and exchanged consistently between systems. ASCII uses 7 or 8 bits and is sufficient for basic English text and control characters. Unicode extends character representation to virtually all writing systems, enabling multilingual computing.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the significance of ASCII and Unicode character coding schemes?",
+    "topicId": "ms77007rebd7b20me7xgevfjeh8bt358"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m178hrq03tyg7yaqtgxc7hehvd8cbfck",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "To execute multiple processes efficiently"
+      },
+      {
+        "key": "B",
+        "text": "To slow down program execution"
+      },
+      {
+        "key": "C",
+        "text": "To prevent applications from running"
+      },
+      {
+        "key": "D",
+        "text": "To increase storage space"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "session": "model",
+    "stem": "Why does an operating system use process scheduling?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf",
+    "year": 2026
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m1782gx5k5m6fhsns8n2mrgman8e1n2h",
+    "correctKey": "C",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Email management is an application-level task, not a core OS function.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Process Management"
+      },
+      {
+        "key": "B",
+        "text": "Memory Management"
+      },
+      {
+        "key": "C",
+        "text": "Email Management"
+      },
+      {
+        "key": "D",
+        "text": "Device Management"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which of the following is NOT a task performed by an operating system?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m17a38230g8q0aye88kfexz3cs8e0fxs",
+    "correctKey": "A",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "A multiprogramming OS keeps several programs in memory and switches the CPU between them to run tasks concurrently.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Multiprogramming"
+      },
+      {
+        "key": "B",
+        "text": "Batch Processing"
+      },
+      {
+        "key": "C",
+        "text": "Real-time"
+      },
+      {
+        "key": "D",
+        "text": "Single-tasking"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which type of operating system allows multiple tasks to be performed at the same time?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m178325znnts216nfrvngagxkh8e0rh8",
+    "correctKey": "C",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "A process in the Ready state is loaded and able to run, waiting only for the scheduler to allocate CPU time.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Start State"
+      },
+      {
+        "key": "B",
+        "text": "Running State"
+      },
+      {
+        "key": "C",
+        "text": "Ready State"
+      },
+      {
+        "key": "D",
+        "text": "Blocked State"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which state of a process represents that it is ready for execution but waiting for CPU time?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m17d1snc6j2rj1jb7sr004ka958e11jf",
+    "correctKey": "B",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "The scheduler decides which ready process runs next, managing how CPU time is shared among processes.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "To manage file operations"
+      },
+      {
+        "key": "B",
+        "text": "To manage CPU utilization"
+      },
+      {
+        "key": "C",
+        "text": "To manage memory allocation"
+      },
+      {
+        "key": "D",
+        "text": "To manage network resources"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the main purpose of a process scheduler?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m17bcm46zm424vb86w2x4b3sfd8e1n73",
+    "correctKey": "A",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Paging divides memory into fixed-size blocks called pages/frames.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Paging"
+      },
+      {
+        "key": "B",
+        "text": "Segmentation"
+      },
+      {
+        "key": "C",
+        "text": "Virtual Memory"
+      },
+      {
+        "key": "D",
+        "text": "Contiguous Allocation"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which memory management approach involves dividing memory into fixed-sized blocks?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m1763wmzbqshrmcn8vz3t3rtth8e1r2n",
+    "correctKey": "C",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Interrupts signal the CPU to immediately handle a higher-priority event before resuming what it was doing.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "To speed up CPU processing"
+      },
+      {
+        "key": "B",
+        "text": "To slow down CPU processing"
+      },
+      {
+        "key": "C",
+        "text": "To handle immediate events"
+      },
+      {
+        "key": "D",
+        "text": "To manage network connections"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is the main purpose of interrupts in an operating system?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m177p78fx02xbt430da94j38dh8e1xrn",
+    "correctKey": "D",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Round Robin gives each process a fixed time slice (quantum) and cycles through the ready queue.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "First-Come First-Served (FCFS)"
+      },
+      {
+        "key": "B",
+        "text": "Shortest Job Next (SJN)"
+      },
+      {
+        "key": "C",
+        "text": "Priority Scheduling"
+      },
+      {
+        "key": "D",
+        "text": "Round Robin (RR)"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which scheduling algorithm assigns CPU time in fixed time slices to each process in a cyclic order?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m175sdhqag1fcccxs29r80nkbx8e0x07",
+    "correctKey": "B",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Paging is the memory-management technique that divides memory into fixed-size blocks (this repeats Q10's concept with a differently-worded option list, as printed in the source).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Segmentation"
+      },
+      {
+        "key": "B",
+        "text": "Paging"
+      },
+      {
+        "key": "C",
+        "text": "Fixed Partitioning"
+      },
+      {
+        "key": "D",
+        "text": "Dynamic Partitioning"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which memory management technique divides memory into fixed-sized blocks?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m17dg244ybwzw91dxe975dqezx8e0kj0",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(1) A process is an independent program in execution with its own memory space, while a thread is a lightweight unit of execution within a process that shares that memory. (2) Creating a process is more resource-intensive than creating a thread. (3) Processes do not share memory with each other, but threads of the same process do. (4) Inter-process communication is slower/more complex than communication between threads of the same process. (5) A crash in one process does not directly affect another process, whereas an unhandled crash in one thread can affect the whole process.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "State five differences between a process and a thread.",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m178a2nj36nvnn5eg4g3sr2m0n8e0xac",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Memory management is the OS function that allocates and tracks memory for running processes, reclaiming it when no longer needed; it works by keeping records of which memory blocks are free/used and assigning space to processes as they are created and released as they terminate.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "10a",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is memory management and how does it work in an operating system?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m17db6tdas4dqk8r3dhf2cqrtn8e19gf",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A real-time operating system guarantees that tasks are processed within a strict, predictable time limit; it is commonly used in embedded and control systems such as industrial automation, medical devices and avionics.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "10b",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is a real-time operating system and where is it commonly used?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m17bt7547tnkgmqt93r43r1zph8e0n5r",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A multiprogramming OS keeps several programs in memory to keep the CPU busy by switching to another program whenever one is waiting (e.g. for I/O), whereas a multitasking OS rapidly switches the CPU between multiple tasks so they all appear to run simultaneously to the user, typically on a single-user system.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Differentiate between multiprogramming and multitasking operating systems.",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m174qhg9nfam46n4n027b13t258e1t68",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "An operating system is system software that manages computer hardware and software resources and provides services for programs.",
+      "Process management: creating, scheduling and terminating processes.",
+      "Memory management: allocating and reclaiming memory for running processes.",
+      "Device management: controlling communication with hardware devices via drivers.",
+      "File management: organizing, storing and retrieving files.",
+      "Security/access control: protecting data and resources from unauthorized access."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An operating system is system software that manages computer hardware and software resources and provides services for programs. Its functions include process management, which creates, schedules, and terminates processes; memory management, which allocates and reclaims memory; device management, which controls hardware through drivers; file management, which organizes, stores, and retrieves files; and security or access control, which protects data and resources from unauthorized access.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is an operating system? Explain any five tasks/functions of an OS.",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m1741090dqkn4a8hp623wmknss8e1sy3",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "Batch OS: processes jobs in batches with no direct user interaction.",
+      "Multiprogramming OS: keeps several programs in memory, switching the CPU between them to maximize utilization.",
+      "Real-time OS: guarantees tasks complete within strict, predictable time limits.",
+      "Multitasking OS: rapidly switches the CPU between tasks so they appear to run at the same time."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A batch operating system processes jobs in batches with no direct user interaction. A multiprogramming operating system keeps several programs in memory and switches the CPU between them to maximize utilization. A real-time operating system guarantees that tasks are completed within strict, predictable time limits. A multitasking operating system rapidly switches the CPU between tasks so that they appear to run at the same time.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Explain any four types of operating systems.",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "m174vb3vsnpqtfqekbkvc03v4n8e0k7t",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "The OS manages applications as processes, tracking each one's state and allocating CPU/memory/devices to it as needed.",
+      "New: the process is being created.",
+      "Ready: the process is loaded and waiting for CPU time.",
+      "Running: the process is currently executing on the CPU.",
+      "Blocked/Waiting: the process is waiting for an event or I/O to complete.",
+      "Terminated: the process has finished execution and is being removed."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An operating system manages applications as processes by tracking their states and allocating CPU, memory, and device resources. In the New state a process is being created. In the Ready state it is waiting to be assigned CPU time. In the Running state it is being executed by the processor. In the Blocked or Waiting state it is waiting for a resource or input/output event. In the Terminated state it has completed execution and is being removed.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "How does an operating system manage applications? Explain the five states of a process (a diagram is not reproducible here, described instead).",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m17fz6h73nv0xfybyb2ft1npx18cahd7",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Microsoft Word"
+      },
+      {
+        "key": "B",
+        "text": "Google Chrome"
+      },
+      {
+        "key": "C",
+        "text": "Windows Operating System"
+      },
+      {
+        "key": "D",
+        "text": "Adobe Photoshop"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "model",
+    "stem": "Which of the following is an example of system software?",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50",
+    "year": 2026
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m171t811bn5hq2kp19c5tke3a98e0r65",
+    "correctKey": "C",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "On-premises hosting runs software on servers physically located at the organization's own site.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Shared Hosting"
+      },
+      {
+        "key": "B",
+        "text": "Dedicated Hosting"
+      },
+      {
+        "key": "C",
+        "text": "On-Premises Hosting"
+      },
+      {
+        "key": "D",
+        "text": "Cloud Hosting"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which type of hosting involves installing and running software on servers located within an organization's physical premises?",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m172zserwha8m2x34cj5heq44x8e1qkz",
+    "correctKey": "B",
+    "exerciseId": "xd77b8e2tdgvwcbfp1543fgx618e06ck",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "A compiler translates high-level source code into machine code.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Text Editor"
+      },
+      {
+        "key": "B",
+        "text": "Compiler"
+      },
+      {
+        "key": "C",
+        "text": "Debugger"
+      },
+      {
+        "key": "D",
+        "text": "IDE"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which component of programming software translates code written in a high-level programming language into machine code?",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m17dbya6e3e6m5b325evwk4v9s8e1gex",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Pros: full control over hardware and data security, and no dependency on internet connectivity for access. Cons: high upfront hardware/maintenance cost, and the organization is responsible for scaling and upgrades itself.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "List two pros and two cons of on-premises hosting.",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m17b8xtk3vpgs9jdqmt3yzvq4s8e1wmz",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An application patch is a small software update released to fix an existing program. Its key functions include: fixing bugs, closing security vulnerabilities, and improving performance or compatibility without requiring a full reinstall.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is an application patch? Give key functions of it.",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m17a6vxvk5d3q1nymmgw2n6vfn8e1435",
+    "exerciseId": "xd73haenp1he7cmy63zypbhjgd8e0r9y",
+    "exerciseTitle": "Exercise 1: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An offline application runs entirely on the local device without needing an internet connection (e.g. a desktop calculator app), while an online application requires an internet connection to function because its data or processing happens on a remote server (e.g. a web-based email client like Gmail).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Differentiate between offline and online applications. Give one example of each.",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m1717hvw2efs3tbt9qz6mt2v3h8e1bhq",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "An IDE bundles the tools a developer needs (editor, compiler/interpreter, debugger) into one application, speeding up the write-build-test cycle.",
+      "Features such as syntax highlighting and auto-completion reduce typing errors and speed up coding.",
+      "A built-in debugger lets developers step through code and inspect variables to find and fix bugs quickly.",
+      "Integrated build/run tools remove the need to manually invoke separate compiler/linker commands."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An Integrated Development Environment (IDE) bundles the editor, compiler or interpreter, and debugger needed for software development in one application. This speeds up the write, build, and test cycle. Syntax highlighting and auto-completion reduce typing errors and speed coding, while the built-in debugger allows a developer to step through code and inspect variables. Integrated build and run tools also remove the need to invoke separate compiler and linker commands manually.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Explain the role of Integrated Development Environments (IDEs) in the software development process, including specific features that enhance programming efficiency.",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "m175nqdvbc3y9mz0zaf21eax6s8e039d",
+    "exerciseId": "xd73nkxk1dwbxygnanw0sk1fh18e1m91",
+    "exerciseTitle": "Exercise 1: Extended Response Questions",
+    "keyPoints": [
+      "Software hosting is where an application's servers, storage and infrastructure physically or virtually reside.",
+      "On-premises hosting: infrastructure is owned and run at the organization's own site. Pros: full control, no dependency on internet access. Cons: high upfront cost, organization bears maintenance/scaling burden.",
+      "Cloud hosting: infrastructure is run on a third-party provider's remote servers, accessed over the internet. Pros: lower upfront cost, easy to scale on demand. Cons: ongoing subscription cost, dependent on internet connectivity and the provider's reliability."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Software hosting is where an application's servers, storage and infrastructure physically or virtually reside. On-premises hosting uses infrastructure owned and run at the organization's own site. Its advantages are full control and no dependency on internet access, while its disadvantages are high upfront cost and the burden of maintenance and scaling. Cloud hosting uses infrastructure run on a third-party provider's remote servers and accessed over the internet. Its advantages are lower upfront cost and easy scaling on demand, while its disadvantages are ongoing subscription cost and dependence on internet connectivity and provider reliability.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What is software hosting? Explain on-premises and cloud hosting, and give two pros and cons of each.",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  }
+]

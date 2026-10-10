@@ -1,0 +1,1528 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "axiom-conjecture-and-theorem",
+    "topicTitle": "9.3 Axiom, Conjecture and Theorem",
+    "_id": "m171v8fn3ftdr1xzmtnxb6mn3n8cvra8",
+    "exerciseId": "xd73p4zmbxe7ws65bqv9r1cvy58ctyja",
+    "exerciseTitle": "Exercise 9.1",
+    "keyPoints": [
+      "Axioms need no proof",
+      "Conjectures await proof"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An axiom is a statement accepted as true without proof, while a conjecture is believed true but not yet proved.\nProof turns a conjecture into a theorem.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "What is the difference between axiom and conjecture?",
+    "topicId": "ms7ab10bc94cm7sc7dwby4mxjs8cbcys"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "axiom-conjecture-and-theorem",
+    "topicTitle": "9.3 Axiom, Conjecture and Theorem",
+    "_id": "m1725eae4d50y8trtgmxxvsym58cvn79",
+    "exerciseId": "xd73p4zmbxe7ws65bqv9r1cvy58ctyja",
+    "exerciseTitle": "Exercise 9.1",
+    "keyPoints": [
+      "A statement must be decidable as true or false",
+      "Sentences with undetermined variables stay open"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Mathematical statements (definitely true or false): i, ii, iii, v, vi, viii, ix, xi.\nOpen sentences with unknown variables, hence not statements: iv, vii, x.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Which of the following are mathematical statements?\n(i) Difference of 19 and 12 is 7.\n(ii) $-2+7-3=2$\n(iii) $34+16 \\neq 50$\n(iv) $a+b=9$\n(v) $(a+b)^{2}=a^{2}+2 a b+b^{2}$\n(vi) $2+2 \\times 2=6$\n(vii) The product of $x$ and $y$ is smaller than 5.\n(viii) If $x$ is real then either $x<0$ or $x>0$ or $x=0$.\n(ix) If $a>b$ and $b>c$ then $a<c$\n(x) $x y+z=12$\n(xi) $\\mathrm{s}-\\mathrm{t}=4$ if $\\mathrm{s}=4$ and $\\mathrm{t}=0$",
+    "topicId": "ms7ab10bc94cm7sc7dwby4mxjs8cbcys"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "axiom-conjecture-and-theorem",
+    "topicTitle": "9.3 Axiom, Conjecture and Theorem",
+    "_id": "m1735x0wvp3xtxq6fj4da0mcz18ctja5",
+    "exerciseId": "xd73p4zmbxe7ws65bqv9r1cvy58ctyja",
+    "exerciseTitle": "Exercise 9.1",
+    "keyPoints": [
+      "Assign values or quantify the variables"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "No: with $a$ and $b$ unspecified the sentence cannot be judged true or false.\nReplacing variables by numbers fixes it, for example \"the sum of $2$ and $-2$ equals $0$\", which is\na (true) mathematical statement.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "The sum of $a$ and $b$ is equal to 0. Is this sentence a mathematical statement? If no! How can we make it a mathematical statement?",
+    "topicId": "ms7ab10bc94cm7sc7dwby4mxjs8cbcys"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "axiom-conjecture-and-theorem",
+    "topicTitle": "9.3 Axiom, Conjecture and Theorem",
+    "_id": "m17cnxt4nzzpm0wy9jthzr6mks8ctetm",
+    "exerciseId": "xd73p4zmbxe7ws65bqv9r1cvy58ctyja",
+    "exerciseTitle": "Exercise 9.1",
+    "keyPoints": [
+      "Substitution checks specific cases only",
+      "A general proof needs algebraic manipulation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Verification by substitution:\n$x=2$: LHS $(3)^{2}+5=14$, RHS $4+4+6=14$. Matches.\n$x=5$: LHS $36+5=41$, RHS $25+10+6=41$. Matches.\n$x=10$: LHS $121+5=126$, RHS $100+20+6=126$. Matches.\nChecking examples verifies the identity but does not constitute a general proof.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Prove $(x+1)^{2}+5=x^{2}+2 x+6$ by taking $x=2,5$ and 10.",
+    "topicId": "ms7ab10bc94cm7sc7dwby4mxjs8cbcys"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "axiom-conjecture-and-theorem",
+    "topicTitle": "9.3 Axiom, Conjecture and Theorem",
+    "_id": "m17fcftyg0tjkmye6809cqmcm98ctwab",
+    "exerciseId": "xd73p4zmbxe7ws65bqv9r1cvy58ctyja",
+    "exerciseTitle": "Exercise 9.1",
+    "keyPoints": [
+      "Pattern spotting produces a conjecture",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each term doubles and adds one: next term $=2\\times31+1=63$.\nConjecture: every term equals twice the previous term plus one.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Find the next number in the pattern using conjecture.\n$1,3,7,15,31$, ____\nState the conjecture used.",
+    "topicId": "ms7ab10bc94cm7sc7dwby4mxjs8cbcys"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "axiom-conjecture-and-theorem",
+    "topicTitle": "9.3 Axiom, Conjecture and Theorem",
+    "_id": "m1707jsmcvfj8y5nt7ypdk67kd8ct1e3",
+    "exerciseId": "xd73p4zmbxe7ws65bqv9r1cvy58ctyja",
+    "exerciseTitle": "Exercise 9.1",
+    "keyPoints": [
+      "Postulates are geometry-specific assumptions",
+      "Provable statements rank as theorems, not axioms"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Axioms (general truths needing no proof): i, ii, vii, viii.\nPostulates (geometric assumptions): iii, vi, ix; three in total.\nItems iv, v and x are provable propositions rather than axioms.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Which of the following are axioms? How many of the axioms are postulates?\n(i) If $a=b$ then $b=a$\n(ii) 2 plus 2 make 4.\n(iii) One and only one line can pass through two points.\n(iv) If two sides of a triangle are equal then opposite angles are also equal.\n(v) Product of two negative real numbers is always greater than zero.\n(vi) All right angles are equal to one another.\n(vii) The whole is greater than its part.\n(viii) If $a>b$ and $c>d$ then $a+c>b+d$\n(ix) It is possible to extend a line segment continuously in both directions.\n(x) When we add three consecutive even numbers, their sum is even.",
+    "topicId": "ms7ab10bc94cm7sc7dwby4mxjs8cbcys"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "axiom-conjecture-and-theorem",
+    "topicTitle": "9.3 Axiom, Conjecture and Theorem",
+    "_id": "m17c3s2wczgb8nxgct59y958fh8cvsem",
+    "exerciseId": "xd73p4zmbxe7ws65bqv9r1cvy58ctyja",
+    "exerciseTitle": "Exercise 9.1",
+    "keyPoints": [
+      "Every statement carries a written reason"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A geometrical proof proceeds through these steps:\nstate what is given; state what must be proved; add any needed construction;\nlist statements in order, each justified by an axiom, postulate, definition or earlier theorem;\nand close with the required conclusion.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Explain all the steps of geometrical proof.",
+    "topicId": "ms7ab10bc94cm7sc7dwby4mxjs8cbcys"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m178he2e72sb0ap9gfa5z457dd8ctzn7",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "stem": "Which of the following pairs of figures are similar? [seven pairs of figures, labelled (i)-(vii)]\n(i) [figure pair]\n(ii) [figure pair]\n(iii) [figure pair]\n(iv) [figure pair, images not present in the raw source export]\n(v) [figure pair, images not present in the raw source export]\n(vi) [figure pair, images not present in the raw source export]\n(vii) [figure pair]",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m17fe7sey027varpdx5rwhhjp18cvwf2",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "stem": "Find the unknown quantities in the following similar figures. All measurements are in centimetres. [seven pairs of similar figures with labelled measurements, (i)-(vii)]",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m177qx6jp51aap562ew57cw96n8ctwcs",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "keyPoints": [
+      "Similar triangles keep proportional sides"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Common ratio $\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{CA}{FD}=2$ means each side of DEF is half its counterpart:\n$DE=\\frac{6}{2}=3$ cm, $EF=\\frac{8}{2}=4$ cm, $FD=\\frac{4}{2}=2$ cm.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Two Triangles ABC and DEF are similar, and $\\frac{\\mathrm{AB}}{\\mathrm{DE}}=\\frac{\\mathrm{BC}}{\\mathrm{EF}}=\\frac{\\mathrm{CA}}{\\mathrm{FD}}=2$. If $\\mathrm{AB}=6 \\mathrm{~cm}, \\mathrm{BC}=8 \\mathrm{~cm}, \\mathrm{CA}=4 \\mathrm{~cm}$, find the lengths of sides of $\\triangle \\mathrm{DEF}$.",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m17depym7vtk16rf9nzwcqex418ct2n9",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "keyPoints": [
+      "Equal sun angles make shadow triangles similar",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Shadow and height form proportional similar triangles:\n$\\frac{\\text{height}}{\\text{shadow}}=\\frac{h_{w}}{h_{w}\\cdot\\frac{2}{3}}=\\frac{3}{2}$.\nFor the pole with $12$ m shadow: height $=\\frac{3}{2}\\times12=18$ m.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "While going back to home from school, Wajid noted that his shadow was $\\frac{2}{3}$ of his height. Find the height of pole nearby having shadow of 12 m.",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m1753aeqgayx3pt3kj3477kbv58ctmaq",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "stem": "Find the length of the larger rope of the hanging bridge, where $x=y$.",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m1760d7htyyxhf4wnj005pefdn8cv5x4",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "keyPoints": [
+      "Twice the size doubles the image distance for this setup",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Magnification $m=\\frac{\\text{image size}}{\\text{object size}}=2=\\frac{v}{u}$ with object distance $u=10$ cm,\nso the image distance $v=20$ cm on the opposite side of the convex lens.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "In the figure, OA is object lying in front of a convex lens at a distance of 10 cm. Find the distance of image from the lens if its size is twice that of the object.",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m17bamahem2gb203e640w9aaes8ctp7y",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "keyPoints": [
+      "Non-collinear points fix a unique circle",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The locus is the circumcircle's centre: exactly one point (the circumcentre) lies equidistant\nfrom three non-collinear points, and it serves as centre of the circle passing through them.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "stem": "Find the values of unknown quantities in the following figures. All the measurements are in centimeters.\n(a) [figure]\n(b) [figure]\n(c) $\\overline{A B} \\| \\overline{D E}$ [figure]\n(d) [figure]",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m1745xwyscv9w1q1fcde19qm518cv7sj",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "keyPoints": [
+      "Intersecting lines produce a two-bisector locus",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. Points equidistant from both lines trace the pair of angle bisectors at O.\nii. Drawing the bisector of the $60^{\\circ}$ angle gives one of those two bisector lines.\niii. The locus and the angle bisector coincide: both bisectors (of the $60^{\\circ}$ and the\n$120^{\\circ}$ angles together) form the complete locus.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "stem": "In the following figure, find the measure of $\\angle C$ and $\\angle AED$. Is $\\overline{ED} \\| \\overline{CB}$?",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m173rshdcj4fhe5xbcee9q6jj98cvkht",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "keyPoints": [
+      "Areas first give the linear scale, then cube it for volumes",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Linear ratio $\\sqrt{\\frac{300}{108}}=\\sqrt{\\frac{25}{9}}=\\frac{5}{3}$.\nVolume of Q $=135\\times\\left(\\frac{5}{3}\\right)^{3}=135\\times\\frac{125}{27}=625$ cm$^{3}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "stem": "In the figure, $\\triangle XYZ$ is an equilateral triangle and $\\overline{LM} \\| \\overline{YZ}$. Find measure of $a$ and $b$. What type of triangle is $XLM$ with respect to sides and angles?",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m17f15j5bn23as51h3hrsbhrf58ct1wt",
+    "exerciseId": "xd7129s6wz34q905edf9ykzmh58cv49s",
+    "exerciseTitle": "Exercise 9.2",
+    "keyPoints": [
+      "Shared observer angle makes the triangles similar",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Observer, treetop and base build similar right triangles: the taller tree stands\n$25+5=30$ m from the observer.\n$\\frac{h_{\\text{short}}}{25}=\\frac{12}{30}$ gives $h_{\\text{short}}=\\frac{12\\times25}{30}=10$ m.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Find the height of shorter tree if longer one is 12 m high from the ground level, where observer is at a distance of 25 m from the shorter tree and distance between both trees is 5 m.",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m17cgygnez2tp9g047s1g2w0qh8c7ntt",
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "What is the value of x in the given similar triangles?",
+    "stemImageStorageId": "kg258m275xmd2prfw2fc9th4xd8c7awh",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "similarity-of-polygons",
+    "topicTitle": "9.4 Similarity of Polygons",
+    "_id": "m171cd96kk6rdsnzw6m74jzve18e1n3s",
+    "exerciseId": "xd7986pztzyjn14v55pepv0jn18e1ebp",
+    "exerciseTitle": "Chapter 9: Miscellaneous Review Exercise",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionLabel": "Review / Encircle the Correct Option",
+    "sourceRef": {
+      "blockIndex": 46,
+      "blockKind": "exercise",
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "1. Encircle the correct option in the following.\n(i) Which of the following is polygon?\n(a) circle\n(b) pyramid\n(c) quadrilateral\n(d) sphere\n(ii) Which of the following is regular polygon?\n(a) kite\n(b) rhombus\n(c) rectangle\n(d) square\n(iii) If two triangles are similar, their corresponding sides are.\n(a) proportional\n(b) equal\n(c) congruent\n(d) parallel\n(iv) What is the sum of interior angles for an irregular hexagon?\n(a) $120^{\\circ}$\n(b) $720^{\\circ}$\n(c) 135°\n(d) $360^{\\circ}$\n(v) What is the sum of interior angles for a regular 12 sided polygon?\n(a) 1800°\n(b) $2160^{\\circ}$\n(c) 1980°\n(d) 360°\n(vi) How many sides a regular polygon has if its exterior angle is 15 ?\n(a) 20\n(b) 21\n(c) 24\n(d) 25\n(vii) In the figure, $A B=21 \\mathrm{~cm}$ and\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-224_67_649_2258_971.jpg)\n$P$ divides $A B$ in the ratio $3: 4$. What is length of $\\overline{A P}$ ?\n(a) 8 cm\n(b) 10 cm\n(c) 12 cm\n(d) 9 cm\n\n(viii) In the figure, $\\frac{a}{b}=\\frac{c}{d}$. Which one is true?\n(a) $D E=B C$\n(b) $D E>B C$\n(c) $\\overline{D E} \\cong \\overline{B C}$\n(d) $\\overline{D E} / / \\overline{B C}$\n\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-225_277_402_226_1283.jpg)\n\n(ix) In the figure if $x=y$. Then the value of $b$ is:\n(a) $\\frac{a c}{d}$\n(b) $\\frac{a d}{c}$\n(c) $\\frac{c d}{a}$\n(d) $\\frac{c}{c d}$\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-225_238_363_559_1212.jpg)\n(x) In the figure, $\\triangle A B C$ is equilateral and $\\overline{D E} / / \\overline{B C}$, then $\\triangle A D E$ is\n(a) right angled\n(b) scalene\n(c) isosceles\n(d) equilateral\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-225_228_284_804_1225.jpg)\n(xi) In the figure, $G H U E F$.\nThen $a: b=$ ?\n(a) $D G: D E$\n(b) $D G: D H$\n(c) $D G: G E$\n(d) $D E: E F$\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-225_322_395_1040_1182.jpg)\n(xii) What is the sum of all the exterior angles of a 13 -sided polygon whose one interior angle is equal to $x^{0}$ ?\n(a) $90^{\\circ}+x$\n(b) $360^{\\circ}$\n(c) $360^{\\circ}+x$\n(d) $180^{\\circ}+x$\n(xiii) Which polygon has both its interior and exterior angles the same?\n(a) pentagon\n(b) triangle\n(c) square\n(d) hexagon\n(xiv) The formation or expression of an opinion or theory without sufficient evidence for proof is known as:\n(a) axiom\n(b) conjecture\n(c) corollary\n(d) theorem\n(xv) A mathematical statement that is proved true based on already accepted statements is called:\n(a) axiom\n(b) conjecture\n(c) postulate\n(d) theorem\n(xvi) A mathematical statement that is assumed to be true without proof is called:\n(a) axiom\n(b) conjecture\n(c) postulate\n(d) theorem\n(xvii) Two solids with equal ratios of corresponding linear measures:\n\n(a) are similar\n(b) are congruent\n(c) have different area\n(d) have same volume\n\n2. Find the exterior angle of a polygon with 6 sides.\n3. Is it possible to have a polygon, in which sum of interior angles is 9 right angles?\n\n4. Is it possible to have a polygon whose sum of interior angles is $7200^{\\circ}$ ?\n5. Find the measure of each angle of a regular nonagon.\n6. In the figure $X Y$ is a concave mirror $O A$ is object and $I B$ is its image.\n    (i) Show that $\\triangle O A P \\sim \\triangle I B P$\n    (ii) Find height of object if $I B=2 \\mathrm{~cm}, O P=10 \\mathrm{~cm}, I P=4 \\mathrm{~cm}$.\n\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-226_412_788_561_625.jpg)\n\n7. In the figure, $A B=6 \\mathrm{~cm}, B D=9 \\mathrm{~cm}$.\nFind the diameter of smaller circle, if diameter of bigger one is 80 cm .\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-226_213_924_1152_651.jpg)\n8. Prove that if vertex angles of two isosceles triangles are equal then the two triangles are similar.\n9. Find the length of $\\overline{B C}$ and $\\overline{D E}$ in the figure.\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-226_344_537_1558_670.jpg)\n10. Triangles SQT and PQR are similar.\nFind the ratio of area of triangle SQT to that of triangle PQR .\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-226_434_395_1977_902.jpg)\n\n11. The following pyramids are similar and larger pyramid has a surface area of $392 \\mathrm{~cm}^{2}$. What is the surface area of smaller pyramid?\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-227_385_447_294_1207.jpg)\n12. The two cylinders are similar. What is the volume of the larger cylinder if the volume of smaller cylinder is $40 \\mathrm{ft}^{3}$.\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-227_322_481_920_589.jpg)\n13. The following pairs of solids are similar. Find the surface area of red solid.\n\n(i)\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-227_185_187_1525_649.jpg)\n\nSurface area $=336 \\mathrm{~m}^{2}$\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-227_232_264_1495_943.jpg)\n\n(ii)\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-227_322_258_1925_634.jpg)\n\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-227_157_273_2035_1012.jpg)\n\nSurface area $=1800 \\mathrm{in}^{2}$.",
+    "topicId": "ms7bh5h2b0nfxh7xpxghybqbr18cbjhq"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m175029pnxywjccz8vpnetrvfn8cvv78",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "stem": "Following pairs of shapes are similar. Find unknown area in each case. All measurements are in cm and $\\mathrm{cm}^{2}$. [four pairs of similar shapes with labelled areas, (i)-(iv)]",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m1723j62krj40x2j0s3htdtr7x8cvdgy",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "stem": "Following pairs of shapes are similar. Find unknown length $x$ in each case. All measurements are in cm and $\\mathrm{cm}^{2}$. [three pairs of similar shapes with labelled lengths, (i)-(iii)]",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m1765w42pbfpb96scccmp6jgpx8ctekn",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "keyPoints": [
+      "Areas scale with the square of the linear ratio",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Linear ratio $\\frac{r_{1}}{r_{2}}=\\frac{6}{8}=\\frac{3}{4}$.\ni. Area ratio $=\\left(\\frac{3}{4}\\right)^{2}=\\frac{9}{16}$.\nii. Larger area $=360\\times\\frac{16}{9}=640$ cm$^{2}$.\niii. Smaller area $=1600\\times\\frac{9}{16}=900$ cm$^{2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 20,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Radii of two spheres are 6 cm and 8 cm respectively. Find:\n(i) the ratio of areas of both spheres.\n(ii) area of larger sphere if area of smaller sphere is $360 \\mathrm{~cm}^{2}$.\n(iii) area of smaller sphere if area of larger sphere is $1600 \\mathrm{~cm}^{2}$.",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m171zm1853xr84exc502t287898cvnzq",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "keyPoints": [
+      "Take square roots to pass from areas to lengths",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Area ratio $16:25$ gives linear ratio $4:5$.\nSide of second pentagon $=8\\times\\frac{5}{4}=10$ cm.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 21,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Ratio of areas of two regular pentagons is $16:25$. Find the ratio of sides of pentagons. Also find length of side of second pentagon if length of side of first pentagon is 8 cm.",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m170btd64d15xf932cywfxq8gd8cvejg",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "keyPoints": [
+      "Parallel bases force similar triangles",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Triangles XAB and XYZ share angle X with AB parallel YZ, so they are similar.\nArea ratio $25:36$ gives $\\frac{XB}{XZ}=\\frac{AB}{YZ}=\\frac{5}{6}$.\nYes: corresponding-side ratios of similar triangles are equal.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 21,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "In the figure, $\\overline{AB} \\| \\overline{YZ}$. If areas of triangles XAB and XYZ are in the ratio $25:36$, find $\\frac{XB}{XZ}$ and $\\frac{AB}{YZ}$. Are the ratios equal?",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m17f4fw9ht78cy6shz620sxr718cv2kj",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "keyPoints": [
+      "Square the linear scale for areas",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Scale: $5$ cm represents $10$ m $=1000$ cm, so each map centimetre spans $200$ real centimetres.\nArea factor $=200^{2}=40000$.\nActual wall area $=1400\\times40000=56{,}000{,}000$ cm$^{2}=5600$ m$^{2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 21,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "In a map, length of a 10 m wall is shown by 5 cm. If area of wall shown on the map is $1400 \\mathrm{~cm}^{2}$, find the area of actual wall.",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m1788hcg1gc5cj895b76ng9ech8cvsdp",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "keyPoints": [
+      "Surface areas grow with the square of the scale factor",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Height ratio $1:3$ makes the linear scale $1:3$.\ni. Surface-area ratio larger : smaller $=9:1$.\nii. Bigger surface area $=350\\times9=3150$ cm$^{2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 21,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Two cuboids are similar. Height of smaller cuboid is one-third of bigger one.\n(i) Find the ratio of surface area of larger cuboid to that of smaller one.\n(ii) Find the surface area of bigger cuboid if surface area of smaller cuboid is $350 \\mathrm{~cm}^{2}$.",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m178bpmva77ybv5pe8nr5rp1qh8ctagw",
+    "exerciseId": "xd71q7dzn7db67jfjhstwaytb58cv0ra",
+    "exerciseTitle": "Exercise 9.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "stem": "In the figure, $\\overline{BC} \\| \\overline{DE}$. Find:\n(i) $\\frac{BC}{DE}$ and $\\frac{AB}{AD}$\n(ii) $\\frac{\\text { Area of } \\triangle ABC}{\\text { Area of } \\triangle ADE}$\n(iii) the area of $\\triangle ABC$ if area of $\\triangle ADE$ is $507 \\mathrm{~cm}^{2}$.\n(iv) area of quadrilateral BDEC. What type of the quadrilateral is?",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "area-and-volume-of-similar-figures",
+    "topicTitle": "9.5 Area of Similar Figures",
+    "_id": "m17cqqdx4ffg4q96rx6ytzvb718c6463",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "2:3"
+      },
+      {
+        "key": "B",
+        "text": "4:9"
+      },
+      {
+        "key": "C",
+        "text": "8:27"
+      },
+      {
+        "key": "D",
+        "text": "1:1"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "If two polygons are similar and corresponding sides are in ratio 2:3, ratio of areas is:",
+    "topicId": "ms7210fkf13b9bshpq7x1dzrbs8cam41",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m1726gdfrs1szmzpv4h9z15hss8ctb49",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Perimeter multiplies the side by three",
+      "Cost is the rate times the boundary length"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Perimeter of the equilateral lawn $=3\\times5=15$ m.\nBoundary-wall cost $=15\\times220=3300$ rupees.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 40,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A lawn is in the shape of equilateral triangle. Find the perimeter of lawn if length of one side is 5m. Also find the cost of boundary wall of lawn @ Rs. 220 per metre.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m1754swwpdprq6aryme27zkjns8ctkpg",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Distance between parallel sides acts as the height",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Area of parallelogram $=$ base $\\times$ height $=65\\times42=2730$ m$^{2}$.\nGrass-planting cost $=2730\\times10=27300$ rupees.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 40,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Cricket ground in a village is in the shape of parallelogram. One side of ground is 65 m long and distance between parallel sides having length 65 m is 42 m. Find the cost of planting grass @ Rs. 10 per square metre.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m177b8s0v4sra24ft688zc0ca98cttaq",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "stem": "Base of a minaret of a Masjid is built in the shape of regular pentagon as shown in the figure. Find the perimeter and area of base of minaret.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m1764a5pyeb4eg09peacf1etax8cta6r",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Regular-hexagon area uses $\frac{3\\sqrt{3}}{2}s^{2}$",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Hexagon perimeter $=6\\times10=60$ m.\ni. Fencing cost $=60\\times160=9600$ rupees.\nii. Area $=\\frac{3\\sqrt{3}}{2}s^{2}=\\frac{3\\sqrt{3}}{2}(100)\\approx259.81$ m$^{2}$.\niii. Filling cost $\\approx259.81\\times500\\approx129903$ rupees.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 42,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A plot in the shopping area is in the shape of regular hexagon. One side of the plot is 10 m long. Find:\n(i) the cost of fencing the plot @ Rs. 160 per metre.\n(ii) area of the plot.\n(iii) the cost of filling the plot @ Rs. 500 per $\\mathrm{m}^{2}$.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m17bwsfwyn9mw2cda4sqamp7es8cvqhf",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Wall area multiplies side length by room height",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Square perimeter $48$ ft gives side $12$ ft and floor area $144$ sq ft.\ni. Carpeting cost $=144\\times350=50400$ rupees.\nii. Each wall covers $12\\times10=120$ sq ft.\n(The printed unit mixes feet with metres; the arithmetic keeps the book's own units.)",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 42,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A room is in the shape of square having perimeter of 48 feet. Find:\n(i) the cost of carpeting the floor @ Rs. 350 per $\\mathrm{m}^{2}$.\n(ii) the inner area of each wall if room is 10 feet high.\n(iii) the cost of painting inner sides of the room @ Rs. 100 per $\\mathrm{m}^{2}$.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m175837ad1nsj2h1my3xa1k5fh8cvngm",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "stem": "A tile is in the shape of regular hexagon. Each side of the tile is one foot long. Find the perimeter of four tiles joined together as shown in the figure.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m178vgp1jrnzhze923e1esyred8ctkwy",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "stem": "Determine whether the solids are similar or not. [four pairs of solids, (i)-(iv)]",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m17bk6xrvv47mag3rmkjx8f2bd8ctq1y",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "Areas first give the linear scale, then cube it for volumes",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Linear ratio $\\sqrt{\\frac{300}{108}}=\\sqrt{\\frac{25}{9}}=\\frac{5}{3}$.\nVolume of Q $=135\\times\\left(\\frac{5}{3}\\right)^{3}=135\\times\\frac{125}{27}=625$ cm$^{3}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 38,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "P and Q are two similar solids. Solid P has surface area and volume $108 \\mathrm{~cm}^{2}$ and $135 \\mathrm{~cm}^{3}$ respectively. Find volume of solid Q if Q has surface area $300 \\mathrm{~cm}^{2}$.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m1723426hmvhsm32zvnryx3vx98ctsaq",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "One linear ratio fixes every derived ratio",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Base areas $16:25$ give linear ratio $4:5$.\ni. Height ratio $4:5$.\nii. Curved-surface ratio $\\left(\\frac{4}{5}\\right)^{2}=16:25$.\niii. Volume ratio $\\left(\\frac{4}{5}\\right)^{3}=64:125$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 38,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "X and Y are two similar cylinders such that: base area of X : base area of Y = 16:25. Find:\n(i) ratio of heights of both cylinders.\n(ii) Ratio of areas of curved surface of cylinders.\n(iii) Ratio of volumes of cylinders.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m178jfay8zazjpt8nsxc0ecn2x8cvd3y",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "Cube root of the volume ratio halves the radius here",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Volume ratio $8:1$ means linear ratio $2:1$.\nRadius of smaller cone $=\\frac{12}{2}=6$ cm.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 38,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "The volume of one right circular cone is 8 times the other one. If the radius of larger cone is 12 cm, find the radius of the smaller one.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m1724jkepng9gkcdkrbnfhshp18ct86q",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "Mass tracks volume for uniform similar bodies",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Masses of similar objects scale with volume: linear ratio $=\\sqrt[3]{\\frac{27}{8}}=\\frac{3}{2}$.\nHeight of second object $=2\\times\\frac{3}{2}=3$ m.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 38,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Masses of two similar objects are 8 kg and 27 kg respectively. If the height of first object is 2 m, what is the height of second object?",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m17ck59tkvhazzjrr4g7z400g18cv65b",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "stem": "Solids are similar. Find the values of unknowns. Also find the ratios of volume of solids. [two pairs of similar solids, (i)-(ii)]",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m17cth231bxfw3e1067fd4y9798ctjgz",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "stem": "Solids are similar. Find the unknown volume.\n(i) [figure] $\\mathrm{V}_{1}=9000 \\mathrm{~mm}^{3}$, $V_{2}=?$\n(ii) [figure] $\\mathrm{V}_{1}=?$, $\\mathrm{V}_{2}=360 \\mathrm{ft}^{3}$",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m17c9ppada958b67w8bs7x4wbs8ctc7b",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "stem": "Find the ratio of scale factors of the following pairs of similar solids.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m17ag9dtsaf8vbajac9m51gps18cv4g6",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "Cubic scaling applies to volumes",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Volume scales with the cube of the scale factor:\nchlorine for the larger pool $=3\\times\\left(\\frac{5}{4}\\right)^{3}=3\\times\\frac{125}{64}=\\frac{375}{64}\\approx5.86$ cups.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Two swimming pools are similar with a scale factor of 4:5. The amount of chlorine mixture to be added is proportional to the volume of water in the pool. If three cups of chlorine mixture are needed for the smaller pool, how much of the chlorine mixture is needed for the larger pool?",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m177pkzkbf3p98pf2x3zwexb4d8ct919",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "Cube the scale factor for volume comparisons",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Linear scale model : actual $=1:10$, so volume scales by $10^{3}$.\nActual bus volume $=30\\times1000=30000$ m$^{3}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A model bus is built with a scale of 1:10. The model bus has a volume of $30 \\mathrm{~m}^{3}$. What is the volume of the actual bus?",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m179eyg0tx8c5n4k3ydf7szw918ctgrg",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "Squares for surfaces, cubes for volumes",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With scale A : B $=2:3$, areas multiply by $\\left(\\frac{3}{2}\\right)^{2}=\\frac{9}{4}$\nand volumes by $\\left(\\frac{3}{2}\\right)^{3}=\\frac{27}{8}$.\nSolid B surface area $=130\\pi\\times\\frac{9}{4}=\\frac{585\\pi}{4}$ cm$^{2}$;\nsolid B volume $=280\\pi\\times\\frac{27}{8}=945\\pi$ cm$^{3}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solid A shown below is similar to solid B (not shown) with a scale factor of $2:3$. Find the surface area and volume of solid B if surface area and volume of solid A are $130 \\pi \\mathrm{~cm}^{2}$ and $280 \\pi \\mathrm{~cm}^{3}$ respectively.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m176hrf4xht31j8pttb8mtxar18ctwh3",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "stem": "Solid I is similar to Solid II. Find the scale factor of solid I to solid II.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "properties-of-regular-polygons",
+    "topicTitle": "9.6 Volume of Similar Solids",
+    "_id": "m173p2pdegv5xf65wnb68vx18d8cv634",
+    "exerciseId": "xd7a9d9wk2nbff7035gj781zes8ctwp8",
+    "exerciseTitle": "Exercise 9.4",
+    "keyPoints": [
+      "Cube roots return the linear scale",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Volume ratio $32:108=(4:6)^{3}$? Check: linear ratio $=\\sqrt[3]{\\frac{108}{32}}=\\sqrt[3]{\\frac{27}{8}}=\\frac{3}{2}$.\nHeight of solid B $=10\\times\\frac{3}{2}=15$ cm.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 38,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solid A and solid B are mathematically similar. The volume of solid A is $32 \\mathrm{~cm}^{3}$. The volume of solid $B$ is $108 \\mathrm{~cm}^{3}$. The height of solid A is 10 cm. Find the height of solid B.",
+    "topicId": "ms7cwgsmc17t0wa1bkjwg4rqsn8cakr0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "real-life-problems-involving-regular-polygons-triangles-and-parallelograms",
+    "topicTitle": "9.8 Real-Life Problems Involving Regular Polygons, Triangles and Parallelograms",
+    "_id": "m1726gdfrs1szmzpv4h9z15hss8ctb49",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Perimeter multiplies the side by three",
+      "Cost is the rate times the boundary length"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Perimeter of the equilateral lawn $=3\\times5=15$ m.\nBoundary-wall cost $=15\\times220=3300$ rupees.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 40,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A lawn is in the shape of equilateral triangle. Find the perimeter of lawn if length of one side is 5m. Also find the cost of boundary wall of lawn @ Rs. 220 per metre.",
+    "topicId": "ms79bs064sek2rt8y1h3q5nv998ca3tj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "real-life-problems-involving-regular-polygons-triangles-and-parallelograms",
+    "topicTitle": "9.8 Real-Life Problems Involving Regular Polygons, Triangles and Parallelograms",
+    "_id": "m1754swwpdprq6aryme27zkjns8ctkpg",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Distance between parallel sides acts as the height",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Area of parallelogram $=$ base $\\times$ height $=65\\times42=2730$ m$^{2}$.\nGrass-planting cost $=2730\\times10=27300$ rupees.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 40,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Cricket ground in a village is in the shape of parallelogram. One side of ground is 65 m long and distance between parallel sides having length 65 m is 42 m. Find the cost of planting grass @ Rs. 10 per square metre.",
+    "topicId": "ms79bs064sek2rt8y1h3q5nv998ca3tj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "real-life-problems-involving-regular-polygons-triangles-and-parallelograms",
+    "topicTitle": "9.8 Real-Life Problems Involving Regular Polygons, Triangles and Parallelograms",
+    "_id": "m177b8s0v4sra24ft688zc0ca98cttaq",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "stem": "Base of a minaret of a Masjid is built in the shape of regular pentagon as shown in the figure. Find the perimeter and area of base of minaret.",
+    "topicId": "ms79bs064sek2rt8y1h3q5nv998ca3tj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "real-life-problems-involving-regular-polygons-triangles-and-parallelograms",
+    "topicTitle": "9.8 Real-Life Problems Involving Regular Polygons, Triangles and Parallelograms",
+    "_id": "m1764a5pyeb4eg09peacf1etax8cta6r",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Regular-hexagon area uses $\frac{3\\sqrt{3}}{2}s^{2}$",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Hexagon perimeter $=6\\times10=60$ m.\ni. Fencing cost $=60\\times160=9600$ rupees.\nii. Area $=\\frac{3\\sqrt{3}}{2}s^{2}=\\frac{3\\sqrt{3}}{2}(100)\\approx259.81$ m$^{2}$.\niii. Filling cost $\\approx259.81\\times500\\approx129903$ rupees.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 42,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A plot in the shopping area is in the shape of regular hexagon. One side of the plot is 10 m long. Find:\n(i) the cost of fencing the plot @ Rs. 160 per metre.\n(ii) area of the plot.\n(iii) the cost of filling the plot @ Rs. 500 per $\\mathrm{m}^{2}$.",
+    "topicId": "ms79bs064sek2rt8y1h3q5nv998ca3tj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "real-life-problems-involving-regular-polygons-triangles-and-parallelograms",
+    "topicTitle": "9.8 Real-Life Problems Involving Regular Polygons, Triangles and Parallelograms",
+    "_id": "m17bwsfwyn9mw2cda4sqamp7es8cvqhf",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "keyPoints": [
+      "Wall area multiplies side length by room height",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Square perimeter $48$ ft gives side $12$ ft and floor area $144$ sq ft.\ni. Carpeting cost $=144\\times350=50400$ rupees.\nii. Each wall covers $12\\times10=120$ sq ft.\n(The printed unit mixes feet with metres; the arithmetic keeps the book's own units.)",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 42,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A room is in the shape of square having perimeter of 48 feet. Find:\n(i) the cost of carpeting the floor @ Rs. 350 per $\\mathrm{m}^{2}$.\n(ii) the inner area of each wall if room is 10 feet high.\n(iii) the cost of painting inner sides of the room @ Rs. 100 per $\\mathrm{m}^{2}$.",
+    "topicId": "ms79bs064sek2rt8y1h3q5nv998ca3tj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "real-life-problems-involving-regular-polygons-triangles-and-parallelograms",
+    "topicTitle": "9.8 Real-Life Problems Involving Regular Polygons, Triangles and Parallelograms",
+    "_id": "m175837ad1nsj2h1my3xa1k5fh8cvngm",
+    "exerciseId": "xd72wsy97jzbs6ce8e98pcf84h8ctbk1",
+    "exerciseTitle": "Exercise 9.6",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "stem": "A tile is in the shape of regular hexagon. Each side of the tile is one foot long. Find the perimeter of four tiles joined together as shown in the figure.",
+    "topicId": "ms79bs064sek2rt8y1h3q5nv998ca3tj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m17dy6edqrfg9y3d2rf53q0gk58ct802",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Equidistance from a point generates a circle",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Points at a fixed distance from O trace a circle about O; restricting to above AB leaves\nthe upper semicircle. The locus is named a semicircle (half of the circle centred at O).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 44,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Draw $\\mathrm{AB}=6 \\mathrm{~cm}$. Bisect AB at O and draw a locus of point P equidistant from O and above AB. What could be the name of locus?",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m177bx1xytyncncjpa5kwqt4a18ct3zs",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Fixed radius around the origin defines the arc",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Points equidistant from the origin lie on the circle centred there; the arc from A on the\nx-axis to B on the y-axis is the quarter circle between them.\nSpecific name: quadrant arc of the circle (a circular arc).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 44,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Draw coordinate axes. Take two points A and B on x-axis and y-axis respectively at a distance of 4.5 cm each. Draw a locus of points from A to B equidistant from origin. What is specific name of this locus? How many such loci can be drawn around the origin?",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m17e69an318bwr9cbmgvckevw98ctpft",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Constant distance from a line yields a parallel line",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. The locus is the straight line through T parallel to $l$ at distance $3$ cm.\nii. Similarly below $l$, the line through Q parallel to $l$ at distance $3.2$ cm.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 44,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Draw a horizontal line $l$.\n(i) Take a point T above $l$ at a distance of 3 cm and draw a locus of points through T parallel to $l$.\n(ii) Now take a point Q below $l$ at a distance of 3.2 cm and draw a locus of points through Q parallel to $l$.\n(iii) What is distance between both loci?",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m175en7yzqsy6brj0jpy0jjnx98cvrhg",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Chord bisectors always cross the centre",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Points equidistant from X and Y lie on the perpendicular bisector of chord XY.\nSince the centre P is itself equidistant from X and Y, that bisector passes through P as a diameter line.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 44,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Diagram shows a circle with centre P, X and Y are two points on the circumference of the circle.\n(i) Draw locus of points which are equidistant from X and Y through P.\n(ii) Take another point Z on the locus outside the circle and draw another circle of radius PZ.\n(iii) What is the relation of this circle with given circle?",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m17622hvc5m41rs0demcta9b9d8ctf2y",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Straight-line locus extends without end",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. The shortest path from P to Q is the straight segment PQ; the locus is that line segment.\nii. Yes: extending it gives the complete line PQ, and every point of the extended line still\nlies at zero distance from the path direction, satisfying the same collinearity condition.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 45,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Draw a line AB. Let P and Q be two points not on AB but coplanar with AB. Draw the locus of points from P to Q.\n(i) What is the name of that locus?\n(ii) Is there any point on the locus PQ if extended which lies on line AB?\n(iii) How can we take points P and Q such that no point of the above locus lies in line AB?\n(iv) How can we take points P and Q such that every point of line AB may lie on locus?",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m17d41n2dp0r7h7gdh5x535vv98ctn0e",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Equilateral symmetry merges circumcentre and incentre",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In an equilateral triangle the right bisectors of the sides and the angle bisectors meet at\none common point: it is simultaneously the circumcentre (point A) and incentre (point B).\nFor an equilateral triangle the two centres coincide.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 45,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Draw an equilateral triangle PQR of suitable measurement.\n(i) Draw right bisectors of any two sides and locate a point A where both bisectors meet.\n(ii) Draw angle bisectors of any two vertices and locate a point B where both bisectors meet.\n(iii) What is the relation between locus of A and B?",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m174h65x0ceh8k4swpvc2sj9md8ctvr4",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Congruence transfers equality onto the base",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let the bisector of angle A meet BC at M. In the isosceles triangle AB = AC.\nRight triangles ABM and ACM share hypotenuse-free legs AM, equal angles at A, and equal sides\nAB = AC, so they are congruent (ASA); hence BM = MC and angle AMC = 90 degrees.\nSo the angle bisector of A is exactly the right bisector of BC.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 45,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Figure shows an isosceles triangle ABC. Prove that the locus of bisector of angle A is right bisector of side BC.",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m17fbj8pgja9rhnkhhvf3t6vns8cvw63",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Non-collinear points fix a unique circle",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The locus is the circumcircle's centre: exactly one point (the circumcentre) lies equidistant\nfrom three non-collinear points, and it serves as centre of the circle passing through them.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 45,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Draw three non-collinear points in the plane. Find the locus of the points which are equidistant from these three points. How many such points exist?",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "09-geometry-and-polygons",
+    "chapterTitle": "Geometry And Polygons",
+    "topicSlug": "locus",
+    "topicTitle": "9.9 Locus",
+    "_id": "m17bynv4zdvq72hm84618p0r2n8ct3g3",
+    "exerciseId": "xd71fwrqw9rgcwvt0j5ac8s1198ctfzv",
+    "exerciseTitle": "Exercise 9.7",
+    "keyPoints": [
+      "Intersecting lines produce a two-bisector locus",
+      "Support the classification with the corpus definitions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. Points equidistant from both lines trace the pair of angle bisectors at O.\nii. Drawing the bisector of the $60^{\\circ}$ angle gives one of those two bisector lines.\niii. The locus and the angle bisector coincide: both bisectors (of the $60^{\\circ}$ and the\n$120^{\\circ}$ angles together) form the complete locus.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 45,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Take two lines AB and CD inclined at $60^{\\circ}$ intersecting at O.\n(i) Draw a locus of points which are equidistant from both lines.\n(ii) Draw bisector of 60°.\n(iii) What is relation between locus of points equidistant from lines and angle bisector?\n(iv) Draw bisector of adjacent angle at O find the relation between both angle bisectors.",
+    "topicId": "ms7cpxd3xwq61zxevpbcfftncs8cbjh0"
+  }
+]

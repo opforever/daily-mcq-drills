@@ -1,0 +1,200 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "k97481qz7xdspx5avtc95qmrw185q385",
+    "correctKey": "C",
+    "explanation": "For a square root function to produce real values, the radicand must be greater than or equal to zero. Solving $x - 5 \\geq 0$ gives $x \\geq 5$, which is the domain.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72rn1j25myeppvyg2w8da4sh85qrm4",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x - 5 > 0$"
+      },
+      {
+        "key": "B",
+        "text": "$x - 5 < 0$"
+      },
+      {
+        "key": "C",
+        "text": "$x - 5 \\geq 0$"
+      },
+      {
+        "key": "D",
+        "text": "$x - 5 \\neq 0$"
+      }
+    ],
+    "stem": "To find the domain of $f(x) = \\sqrt{x-5}$, which inequality must be solved?",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "k9731ee9hcjyanmq0k3wy1gx9985qkqt",
+    "correctKey": "B",
+    "explanation": "By definition of an inverse function, the inputs of $f^{-1}$ are the outputs of $f$. Therefore the domain of $f^{-1}$ equals the range $R$ of $f$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72rn1j25myeppvyg2w8da4sh85qrm4",
+    "options": [
+      {
+        "key": "A",
+        "text": "$D$"
+      },
+      {
+        "key": "B",
+        "text": "$R$"
+      },
+      {
+        "key": "C",
+        "text": "$D \\cap R$"
+      },
+      {
+        "key": "D",
+        "text": "All real numbers"
+      }
+    ],
+    "stem": "If $f(x)$ has domain $D$ and range $R$, what is the domain of its inverse $f^{-1}(x)$?",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "k97e3fjq48zw0qbh343afmkpv585pqyk",
+    "correctKey": "C",
+    "explanation": "Let $y = 2x + 1$. Swap $x$ and $y$: $x = 2y + 1$. Solve for $y$: $y = \\frac{x-1}{2}$. Therefore $f^{-1}(x) = \\frac{x-1}{2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72rn1j25myeppvyg2w8da4sh85qrm4",
+    "options": [
+      {
+        "key": "A",
+        "text": "$f^{-1}(x) = 2x - 1$"
+      },
+      {
+        "key": "B",
+        "text": "$f^{-1}(x) = \\frac{x+1}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$f^{-1}(x) = \\frac{x-1}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$f^{-1}(x) = \\frac{1}{2x+1}$"
+      }
+    ],
+    "stem": "If $f(x) = 2x + 1$, what is $f^{-1}(x)$?",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 One-Sided Limits and Continuity at a Point",
+    "_id": "k970yxwp35444vr27az8fkcde585p3dh",
+    "correctKey": "B",
+    "explanation": "A limit exists only when LHL = RHL. Since $L_1 \\neq L_2$, the two-sided limit does not exist, which automatically means the function cannot be continuous at $x=c$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx721hxhrmbgzcryekzcbdwvas85qjx5",
+    "options": [
+      {
+        "key": "A",
+        "text": "The function is continuous at $x=c$"
+      },
+      {
+        "key": "B",
+        "text": "The limit $\\lim_{x \\to c} f(x)$ does not exist"
+      },
+      {
+        "key": "C",
+        "text": "The function is one-to-one"
+      },
+      {
+        "key": "D",
+        "text": "The value $f(c)$ must equal $L_1$"
+      }
+    ],
+    "stem": "If $\\lim_{x \\to c^-} f(x) = L_1$ and $\\lim_{x \\to c^+} f(x) = L_2$ where $L_1 \\neq L_2$, what can be concluded?",
+    "topicId": "ms7acywe5ah251xrddbqbr4xg985qcfd"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 One-Sided Limits and Continuity at a Point",
+    "_id": "k971094z5rayvfcx7rjptdrfzn85p0zt",
+    "correctKey": "B",
+    "explanation": "For $\\lim_{x \\to c} f(x)$ to exist, the left-hand and right-hand limits must be equal. This is a necessary prerequisite before checking the third condition of continuity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx721hxhrmbgzcryekzcbdwvas85qjx5",
+    "options": [
+      {
+        "key": "A",
+        "text": "To ensure the function is defined at $x=c$"
+      },
+      {
+        "key": "B",
+        "text": "To ensure the limit $\\lim_{x \\to c} f(x)$ exists"
+      },
+      {
+        "key": "C",
+        "text": "To find the domain of the function"
+      },
+      {
+        "key": "D",
+        "text": "To prove the function is one-to-one"
+      }
+    ],
+    "stem": "To find the value of $k$ that makes a piecewise function continuous at $x=c$, why do we set the LHL equal to the RHL?",
+    "topicId": "ms7acywe5ah251xrddbqbr4xg985qcfd"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "k976n638qa724xmywh8etzk2wn85prbt",
+    "correctKey": "C",
+    "explanation": "In $y = f(cx)$, the graph is horizontally compressed by a factor of $\\frac{1}{c}$. Every $x$-coordinate is divided by $c$. So the point $(a, b)$ maps to $\\left(\\frac{a}{2}, b\\right)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77q8js9h8ny9nryba3yf2w7185qf9e",
+    "options": [
+      {
+        "key": "A",
+        "text": "It becomes $2a$"
+      },
+      {
+        "key": "B",
+        "text": "It becomes $a + 2$"
+      },
+      {
+        "key": "C",
+        "text": "It becomes $\\frac{a}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "It remains $a$"
+      }
+    ],
+    "stem": "If $y = f(x)$ is transformed into $y = f(2x)$, what happens to the $x$-coordinate of a point $(a, b)$ on the original graph?",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  }
+]

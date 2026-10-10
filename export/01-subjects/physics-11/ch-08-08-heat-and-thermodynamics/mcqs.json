@@ -1,0 +1,2852 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "k9732zfse60fmx020tj5ck07e585pqxe",
+    "correctKey": "A",
+    "explanation": "The first law states that heat energy supplied to a system ($Q$) is used to increase internal energy ($\\Delta U$) and perform external work ($W$).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt77hqx25zj5cr2f7n13cnd85qjt0",
+    "options": [
+      {
+        "key": "A",
+        "text": "$Q = \\Delta U + W$"
+      },
+      {
+        "key": "B",
+        "text": "$Q = \\Delta U - W$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta U = Q + W$"
+      },
+      {
+        "key": "D",
+        "text": "$W = Q + \\Delta U$"
+      }
+    ],
+    "sectionId": "equation-of-the-first-law",
+    "sectionLabel": "Equation of the First Law",
+    "stem": "According to the first law of thermodynamics, which of the following is a statement of the conservation of energy?",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "k972ks4k2r5s8mvw374eah1qas85pkjv",
+    "correctKey": "C",
+    "explanation": "For an ideal gas, intermolecular forces are negligible, so internal energy depends solely on the kinetic energy of molecules, which is directly proportional to absolute temperature. This is central to applying the First Law to isothermal processes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt77hqx25zj5cr2f7n13cnd85qjt0",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure only"
+      },
+      {
+        "key": "B",
+        "text": "Volume only"
+      },
+      {
+        "key": "C",
+        "text": "Temperature only"
+      },
+      {
+        "key": "D",
+        "text": "Entropy only"
+      }
+    ],
+    "sectionId": "heat-and-internal-energy",
+    "sectionLabel": "Heat and Internal Energy",
+    "stem": "The internal energy of an ideal gas system is a function of which state variable?",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "k97d7q1bpc4p3cb9x0qbgk5y6985qbmg",
+    "correctKey": "C",
+    "explanation": "In an adiabatic process $Q = 0$, so the First Law gives $0 = \\Delta U + W$, meaning $\\Delta U = -W$. If the gas does positive work ($W > 0$), then $\\Delta U < 0$: internal energy decreases and temperature falls.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt77hqx25zj5cr2f7n13cnd85qjt0",
+    "options": [
+      {
+        "key": "A",
+        "text": "It increases"
+      },
+      {
+        "key": "B",
+        "text": "It remains constant"
+      },
+      {
+        "key": "C",
+        "text": "It decreases"
+      },
+      {
+        "key": "D",
+        "text": "It becomes zero"
+      }
+    ],
+    "sectionId": "thermodynamic-processes",
+    "sectionLabel": "Thermodynamic Processes",
+    "stem": "In an adiabatic process, if a gas does positive work on its surroundings, what happens to its internal energy?",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "k97ee3mdxhksdfff0tf0rzcjes8bcej0",
+    "correctKey": "A",
+    "explanation": "An isobaric process occurs at constant pressure. Unlike an isochoric process, work can still be done (W = P*deltaV) since volume is free to change, and unlike an isothermal process, temperature and internal energy can change too.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt77hqx25zj5cr2f7n13cnd85qjt0",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure"
+      },
+      {
+        "key": "B",
+        "text": "Volume"
+      },
+      {
+        "key": "C",
+        "text": "Temperature"
+      },
+      {
+        "key": "D",
+        "text": "Heat (Q = 0)"
+      }
+    ],
+    "sectionId": "thermodynamic-processes",
+    "sectionLabel": "Thermodynamic Processes",
+    "stem": "In an isobaric process, which of the following is held constant?",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "k9743wxe1bjg9th8y102sdrh398cc8ww",
+    "correctKey": "A",
+    "explanation": "The live note defines an adiabatic process as one with no heat transfer.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt77hqx25zj5cr2f7n13cnd85qjt0",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adiabatic"
+      },
+      {
+        "key": "B",
+        "text": "Isothermal"
+      },
+      {
+        "key": "C",
+        "text": "Isochoric"
+      },
+      {
+        "key": "D",
+        "text": "Isobaric"
+      }
+    ],
+    "sectionId": "thermodynamic-processes",
+    "sectionLabel": "Thermodynamic Processes",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 127,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which thermodynamic process involves no heat transfer into or out of the system?",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "k970tebd3fz2s02pey5e8ff81s8bdn3q",
+    "correctKey": "B",
+    "explanation": "The First Law guarantees the total quantity of energy is conserved. What the Second Law shows is that every natural process degrades some high-quality, usable energy into low-quality waste heat, so it is energy quality, not quantity, that is depleted.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dbw5s7rfkbq8jnpvdrjgszx85pe2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "The quantity of energy in the universe"
+      },
+      {
+        "key": "B",
+        "text": "The quality (usefulness) of energy, as it degrades into low-grade waste heat"
+      },
+      {
+        "key": "C",
+        "text": "Nothing; energy resources are never actually consumed"
+      },
+      {
+        "key": "D",
+        "text": "Only the mass of the fuel being burned"
+      }
+    ],
+    "sectionId": "energy-degradation-and-entropy",
+    "sectionLabel": "Energy Degradation and Entropy",
+    "stem": "According to the Second Law, what is really being 'used up' when we consume energy resources, given that the First Law says total energy cannot decrease?",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "k97447pwmqv9gek4w251kjj8hx85qh1v",
+    "correctKey": "B",
+    "explanation": "An increase in entropy corresponds to the degradation of energy quality: high-quality, easily usable energy (like mechanical work) is irreversibly converted into low-quality waste heat, which has a reduced ability to do useful work, even though the total quantity of energy stays conserved.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dbw5s7rfkbq8jnpvdrjgszx85pe2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "Energy is created from disorder"
+      },
+      {
+        "key": "B",
+        "text": "High-quality energy is degraded into less useful low-quality heat"
+      },
+      {
+        "key": "C",
+        "text": "The total energy of the system increases"
+      },
+      {
+        "key": "D",
+        "text": "Energy becomes more available for doing useful work"
+      }
+    ],
+    "sectionId": "entropy-the-measure-of-disorder",
+    "sectionLabel": "Entropy: The Measure of Disorder",
+    "stem": "Which of the following best describes what an increase in entropy implies about the energy of a system?",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "k9754cvv6rfxsm56hq5vd7wreh85qww0",
+    "correctKey": "C",
+    "explanation": "In a perfectly reversible process, no net disorder is created and the entropy of the system remains constant, so $\\Delta S = 0$. Only in irreversible (natural) processes does entropy increase ($\\Delta S > 0$), as stated by the Second Law.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dbw5s7rfkbq8jnpvdrjgszx85pe2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "Always positive"
+      },
+      {
+        "key": "B",
+        "text": "Always negative"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "entropy-the-measure-of-disorder",
+    "sectionLabel": "Entropy: The Measure of Disorder",
+    "stem": "For a perfectly reversible process in an isolated system, the change in entropy ($\\Delta S$) is:",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "k976s31tsv9fsb03dywstacffn8ccx9j",
+    "correctKey": "A",
+    "explanation": "The live note states that total entropy of the universe increases during a natural irreversible process.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dbw5s7rfkbq8jnpvdrjgszx85pe2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "It increases"
+      },
+      {
+        "key": "B",
+        "text": "It always decreases"
+      },
+      {
+        "key": "C",
+        "text": "It becomes exactly zero"
+      },
+      {
+        "key": "D",
+        "text": "It is unrelated to disorder"
+      }
+    ],
+    "sectionId": "entropy-the-measure-of-disorder",
+    "sectionLabel": "Entropy: The Measure of Disorder",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 128,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What generally happens to total entropy during a natural irreversible process?",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "k97axmakjpafey9q317e2rx2mh85p9fr",
+    "correctKey": "C",
+    "explanation": "The Clausius statement says heat cannot spontaneously flow from a colder body to a hotter body without work being done. A refrigerator does exactly this: it uses electrical work to pump heat from its cold interior to the warmer room outside.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dbw5s7rfkbq8jnpvdrjgszx85pe2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "Electric Heater"
+      },
+      {
+        "key": "B",
+        "text": "Internal Combustion Engine"
+      },
+      {
+        "key": "C",
+        "text": "Refrigerator"
+      },
+      {
+        "key": "D",
+        "text": "Steam Turbine"
+      }
+    ],
+    "sectionId": "the-clausius-statement-the-refrigerator-statement",
+    "sectionLabel": "The Clausius Statement (The Refrigerator Statement)",
+    "stem": "The Clausius statement of the Second Law of Thermodynamics directly relates to the operation of which device?",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "k970zyh7gyraxb5vsfjz74sceh8bcg18",
+    "correctKey": "A",
+    "explanation": "The First Law only establishes that energy is conserved in any process. It says nothing about which direction a process naturally proceeds in, or about the fundamental limits on converting heat into useful work; that is exactly what the Second Law addresses.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dbw5s7rfkbq8jnpvdrjgszx85pe2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "The First Law does not specify the natural direction processes occur in or limit heat-to-work conversion efficiency"
+      },
+      {
+        "key": "B",
+        "text": "The First Law is incorrect and must be replaced"
+      },
+      {
+        "key": "C",
+        "text": "The First Law only applies to solids, not gases"
+      },
+      {
+        "key": "D",
+        "text": "The First Law does not conserve energy"
+      }
+    ],
+    "sectionId": "the-direction-of-thermodynamic-processes",
+    "sectionLabel": "The Direction of Thermodynamic Processes",
+    "stem": "Why is the Second Law of Thermodynamics needed in addition to the First Law?",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "k97dzt94gx4t98ayerqj2cty718bdq5g",
+    "correctKey": "B",
+    "explanation": "$W=Q_H-Q_C=500-350=150\\,\\mathrm{J}$. Efficiency $=W/Q_H=150/500=0.30$, or 30%.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dbw5s7rfkbq8jnpvdrjgszx85pe2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "30%"
+      },
+      {
+        "key": "C",
+        "text": "50%"
+      },
+      {
+        "key": "D",
+        "text": "70%"
+      }
+    ],
+    "sectionId": "working-principle-of-a-heat-engine",
+    "sectionLabel": "Working Principle of a Heat Engine",
+    "stem": "A heat engine absorbs 500 J of heat from a hot reservoir and rejects 350 J to a cold reservoir in one cycle. What is its efficiency?",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "k977acj686bk0t9wtwpbh3xdj585qd94",
+    "correctKey": "C",
+    "explanation": "In adiabatic compression, work is done on the gas ($W < 0$). Since $Q = 0$, the First Law gives $\\Delta U = -W > 0$. Increased internal energy means increased temperature.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f215xdc5q3f2sam5rabzpbx85qbsk",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decreases"
+      },
+      {
+        "key": "B",
+        "text": "Remains constant"
+      },
+      {
+        "key": "C",
+        "text": "Increases"
+      },
+      {
+        "key": "D",
+        "text": "Becomes zero"
+      }
+    ],
+    "sectionId": "1-the-first-law-of-thermodynamics-in-an-adiabatic-process",
+    "sectionLabel": "1. The First Law of Thermodynamics in an Adiabatic Process",
+    "stem": "During an adiabatic compression, the temperature of the gas:",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "k97dd1kc0vz8jmpxh4w6np02d98bdrap",
+    "correctKey": "A",
+    "explanation": "Since gamma = Cp/Cv, a higher gamma (1.67 for monatomic vs 1.4 for diatomic) means monatomic gases have a larger ratio of heat capacity at constant pressure to heat capacity at constant volume.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f215xdc5q3f2sam5rabzpbx85qbsk",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monatomic gases have a larger Cp/Cv ratio than diatomic gases"
+      },
+      {
+        "key": "B",
+        "text": "Monatomic gases have a smaller Cp/Cv ratio than diatomic gases"
+      },
+      {
+        "key": "C",
+        "text": "Both gases have identical heat capacities"
+      },
+      {
+        "key": "D",
+        "text": "Diatomic gases cannot undergo adiabatic processes"
+      }
+    ],
+    "sectionId": "2-the-adiabatic-index-gamma",
+    "sectionLabel": "2. The Adiabatic Index ($\\gamma$)",
+    "stem": "A monatomic ideal gas has gamma approximately equal to 1.67, while a diatomic gas (like air) has gamma approximately equal to 1.4. What does this comparison tell you?",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "k9761kaz7dcy6v6jr46r02cgax85p4md",
+    "correctKey": "A",
+    "explanation": "Using $PV = nRT$ and $PV^\\gamma = C$, substituting $V$ gives $P(T/P)^\\gamma = C$, which simplifies to $P^{1-\\gamma} T^\\gamma = \\text{constant}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f215xdc5q3f2sam5rabzpbx85qbsk",
+    "options": [
+      {
+        "key": "A",
+        "text": "$P^{1-\\gamma} T^\\gamma = \\text{constant}$"
+      },
+      {
+        "key": "B",
+        "text": "$P^\\gamma T^{1-\\gamma} = \\text{constant}$"
+      },
+      {
+        "key": "C",
+        "text": "$PT^\\gamma = \\text{constant}$"
+      },
+      {
+        "key": "D",
+        "text": "$P^{\\gamma-1} T^\\gamma = \\text{constant}$"
+      }
+    ],
+    "sectionId": "4-temperature-volume-and-temperature-pressure-relations",
+    "sectionLabel": "4. Temperature-Volume and Temperature-Pressure Relations",
+    "stem": "Which of the following represents the correct Pressure-Temperature relationship for an adiabatic process?",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "k972a2zktwaz39nzkh368fdpfx85qc2s",
+    "correctKey": "B",
+    "explanation": "The slope of an isotherm is $-P/V$, while the slope of an adiabat is $-\\gamma P/V$. Therefore, the adiabatic slope is $\\gamma$ times steeper, since $\\gamma > 1$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f215xdc5q3f2sam5rabzpbx85qbsk",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 time"
+      },
+      {
+        "key": "B",
+        "text": "$\\gamma$ times"
+      },
+      {
+        "key": "C",
+        "text": "$1/\\gamma$ times"
+      },
+      {
+        "key": "D",
+        "text": "$\\gamma - 1$ times"
+      }
+    ],
+    "sectionId": "5-adiabatic-vs-isothermal-process",
+    "sectionLabel": "5. Adiabatic vs. Isothermal Process",
+    "stem": "The slope of an adiabatic curve on a P-V diagram is how many times the slope of an isothermal curve?",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "k977q8208r6vfb5eqkz7rtjvtd8cd2w6",
+    "correctKey": "A",
+    "explanation": "The live note defines the adiabatic index as the ratio of the two heat capacities.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f215xdc5q3f2sam5rabzpbx85qbsk",
+    "options": [
+      {
+        "key": "A",
+        "text": "The ratio of heat capacity at constant pressure to heat capacity at constant volume"
+      },
+      {
+        "key": "B",
+        "text": "The ratio of pressure to volume only"
+      },
+      {
+        "key": "C",
+        "text": "The total mass of the gas"
+      },
+      {
+        "key": "D",
+        "text": "The heat transferred in every process"
+      }
+    ],
+    "sectionId": "no-heat-transfer-the-adiabatic-condition",
+    "sectionLabel": "No Heat Transfer: The Adiabatic Condition",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 129,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What does the adiabatic index represent?",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "k9707rvvtf5zea2ss64epw9x9985pfj6",
+    "correctKey": "D",
+    "explanation": "In an isochoric (constant volume) process, $W = P\\Delta V = 0$ since volume does not change. The First Law then gives $Q = \\Delta U$, meaning all supplied heat increases internal energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dske6wp703k1hrjwytwfwyn85ph5m",
+    "options": [
+      {
+        "key": "A",
+        "text": "Isothermal"
+      },
+      {
+        "key": "B",
+        "text": "Adiabatic"
+      },
+      {
+        "key": "C",
+        "text": "Isobaric"
+      },
+      {
+        "key": "D",
+        "text": "Isochoric"
+      }
+    ],
+    "sectionId": "1-isochoric-process-constant-volume",
+    "sectionLabel": "1. Isochoric Process (Constant Volume)",
+    "stem": "In which thermodynamic process is the entire heat energy supplied to the system converted into internal energy?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "k97exycbf48r760wr4z69vg47985pn82",
+    "correctKey": "B",
+    "explanation": "In an isobaric process, pressure $P$ is constant. Work done by the gas equals the product of constant pressure and the change in volume: $W = P(V_2 - V_1) = P\\Delta V$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dske6wp703k1hrjwytwfwyn85ph5m",
+    "options": [
+      {
+        "key": "A",
+        "text": "$W = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$W = P\\Delta V$"
+      },
+      {
+        "key": "C",
+        "text": "$W = -\\Delta U$"
+      },
+      {
+        "key": "D",
+        "text": "$W = Q$"
+      }
+    ],
+    "sectionId": "2-isobaric-process-constant-pressure",
+    "sectionLabel": "2. Isobaric Process (Constant Pressure)",
+    "stem": "Which of the following represents the work done by a gas in an isobaric process when its volume changes from $V_1$ to $V_2$?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "k97fyy3akdm2974wv5xf5ax2gx8ccnt9",
+    "correctKey": "A",
+    "explanation": "The live note defines an isobaric process as one in which pressure remains constant.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dske6wp703k1hrjwytwfwyn85ph5m",
+    "options": [
+      {
+        "key": "A",
+        "text": "Isobaric"
+      },
+      {
+        "key": "B",
+        "text": "Isochoric"
+      },
+      {
+        "key": "C",
+        "text": "Isothermal"
+      },
+      {
+        "key": "D",
+        "text": "Adiabatic"
+      }
+    ],
+    "sectionId": "2-isobaric-process-constant-pressure",
+    "sectionLabel": "2. Isobaric Process (Constant Pressure)",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 130,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which thermodynamic process occurs at constant pressure?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "k975x857kkh4nsdtw3cax57ryn85q1hc",
+    "correctKey": "B",
+    "explanation": "In an isothermal process, temperature is constant. For an ideal gas, internal energy depends only on temperature, so $\\Delta U = 0$. Substituting into $Q = \\Delta U + W$ gives $Q = W$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dske6wp703k1hrjwytwfwyn85ph5m",
+    "options": [
+      {
+        "key": "A",
+        "text": "$Q = \\Delta U$"
+      },
+      {
+        "key": "B",
+        "text": "$Q = W$"
+      },
+      {
+        "key": "C",
+        "text": "$W = -\\Delta U$"
+      },
+      {
+        "key": "D",
+        "text": "$Q = \\Delta U + W$"
+      }
+    ],
+    "sectionId": "3-isothermal-process-constant-temperature",
+    "sectionLabel": "3. Isothermal Process (Constant Temperature)",
+    "stem": "For an isothermal process involving an ideal gas, the First Law of Thermodynamics simplifies to:",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "k975bas014waz9t7ax6td09hf98bcrkt",
+    "correctKey": "A",
+    "explanation": "In the isothermal case, heat is continuously added to keep temperature (and internal energy) constant. In the adiabatic case, no heat is added, so the internal energy and temperature drop as the gas does work, resulting in a lower final pressure and temperature than the isothermal expansion to the same volume.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dske6wp703k1hrjwytwfwyn85ph5m",
+    "options": [
+      {
+        "key": "A",
+        "text": "The adiabatic expansion ends at a lower final pressure and temperature"
+      },
+      {
+        "key": "B",
+        "text": "The adiabatic expansion ends at a higher final pressure and temperature"
+      },
+      {
+        "key": "C",
+        "text": "Both processes end at exactly the same final pressure and temperature"
+      },
+      {
+        "key": "D",
+        "text": "The adiabatic expansion does not change the volume at all"
+      }
+    ],
+    "sectionId": "4-adiabatic-process-no-heat-exchange",
+    "sectionLabel": "4. Adiabatic Process (No Heat Exchange)",
+    "stem": "Starting from the same initial state and expanding to the same final volume, how does an adiabatic expansion compare to an isothermal expansion?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "k97c4y4e6ebcsrsznhfaktg5918bcns2",
+    "correctKey": "A",
+    "explanation": "Each special-case process fixes one variable: isochoric fixes volume (W=0), isobaric fixes pressure, isothermal fixes temperature for an ideal gas (deltaU=0), and adiabatic fixes heat (Q=0). Holding that variable constant simplifies the general First Law equation for that specific case.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dske6wp703k1hrjwytwfwyn85ph5m",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because holding one variable (volume, pressure, temperature, or heat) constant eliminates or simplifies one term in the equation"
+      },
+      {
+        "key": "B",
+        "text": "Because the First Law only applies to ideal gases"
+      },
+      {
+        "key": "C",
+        "text": "Because each process uses a completely different law of physics"
+      },
+      {
+        "key": "D",
+        "text": "Because W is always zero in every real process"
+      }
+    ],
+    "sectionId": "one-law-four-special-case-processes",
+    "sectionLabel": "One Law, Four Special-Case Processes",
+    "stem": "Why do the four special-case processes (isochoric, isobaric, isothermal, adiabatic) each give a simplified version of Q = deltaU + W?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "k972rszsx9qw1s091yt5bdhhzs8bczfw",
+    "correctKey": "A",
+    "explanation": "Carnot's theorem states that no heat engine operating between two given reservoirs can exceed the efficiency of a reversible Carnot engine between those same reservoirs; any real, irreversible engine is necessarily less efficient.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ap4g7x9wsxgws9f12tt4dks85q1mr",
+    "options": [
+      {
+        "key": "A",
+        "text": "The real engine is always less efficient than the Carnot engine"
+      },
+      {
+        "key": "B",
+        "text": "The real engine is always more efficient"
+      },
+      {
+        "key": "C",
+        "text": "They are always exactly equal"
+      },
+      {
+        "key": "D",
+        "text": "There is no relationship between them"
+      }
+    ],
+    "sectionId": "carnots-theorem",
+    "sectionLabel": "Carnot's Theorem",
+    "stem": "According to Carnot's theorem, how does the efficiency of a real, irreversible heat engine compare to a Carnot engine operating between the same two temperatures?",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "k9740b4a6dbamx693mascmzy018cczd4",
+    "correctKey": "A",
+    "explanation": "The live note states that no engine between the same reservoirs can exceed the efficiency of a reversible Carnot engine.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ap4g7x9wsxgws9f12tt4dks85q1mr",
+    "options": [
+      {
+        "key": "A",
+        "text": "A reversible Carnot engine is the maximum-efficiency engine between two given reservoirs"
+      },
+      {
+        "key": "B",
+        "text": "Every real engine is perfectly reversible"
+      },
+      {
+        "key": "C",
+        "text": "A heat engine needs only one reservoir"
+      },
+      {
+        "key": "D",
+        "text": "Carnot engines always reach 100 percent efficiency"
+      }
+    ],
+    "sectionId": "carnots-theorem",
+    "sectionLabel": "Carnot's Theorem",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 131,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What does Carnot theorem establish?",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "k97eey4nb87y4ctvg4t8z7vmkd8bdbdd",
+    "correctKey": "B",
+    "explanation": "$E=1-\\frac{T_2}{T_1}=1-\\frac{300}{500}=1-0.6=0.4$, or 40%.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ap4g7x9wsxgws9f12tt4dks85q1mr",
+    "options": [
+      {
+        "key": "A",
+        "text": "20%"
+      },
+      {
+        "key": "B",
+        "text": "40%"
+      },
+      {
+        "key": "C",
+        "text": "60%"
+      },
+      {
+        "key": "D",
+        "text": "80%"
+      }
+    ],
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "stem": "A Carnot engine operates between a hot reservoir at 500 K and a cold reservoir at 300 K. What is its efficiency?",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "k976qwq7448rhd0wah7yxp0pr18bdytt",
+    "correctKey": "C",
+    "explanation": "During isothermal compression (C to D), the cylinder is on the cold reservoir at T2; the gas is compressed and rejects heat Q2 to keep its temperature constant.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ap4g7x9wsxgws9f12tt4dks85q1mr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Isothermal expansion"
+      },
+      {
+        "key": "B",
+        "text": "Adiabatic expansion"
+      },
+      {
+        "key": "C",
+        "text": "Isothermal compression"
+      },
+      {
+        "key": "D",
+        "text": "Adiabatic compression"
+      }
+    ],
+    "sectionId": "the-carnot-cycle",
+    "sectionLabel": "The Carnot Cycle",
+    "stem": "Which step of the Carnot cycle involves the gas being compressed while rejecting heat to the cold reservoir at constant temperature?",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "k97ehc5gn66gr0yqe3t2qp8pth8bd939",
+    "correctKey": "A",
+    "explanation": "The Carnot heat engine is a theoretical, idealized engine proposed by Sadi Carnot in 1824.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ap4g7x9wsxgws9f12tt4dks85q1mr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sadi Carnot, in 1824"
+      },
+      {
+        "key": "B",
+        "text": "James Watt, in 1769"
+      },
+      {
+        "key": "C",
+        "text": "Rudolf Clausius, in 1850"
+      },
+      {
+        "key": "D",
+        "text": "William Thomson, in 1848"
+      }
+    ],
+    "sectionId": "the-ideal-heat-engine",
+    "sectionLabel": "The Ideal Heat Engine",
+    "stem": "Who proposed the theoretical Carnot heat engine, and in what year?",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k972zxvqc8x8smna5b7e1mrd118bdvy4",
+    "correctKey": "A",
+    "explanation": "To complete a cycle, a heat engine must reject some heat to a cold reservoir. This heat rejection increases the entropy of the surroundings, which is required to keep the total entropy of the universe from decreasing, so 100% conversion of heat to work is impossible.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "Some heat must always be rejected to a cold reservoir, increasing the surroundings' entropy and keeping total entropy non-decreasing"
+      },
+      {
+        "key": "B",
+        "text": "Entropy has nothing to do with heat engine efficiency"
+      },
+      {
+        "key": "C",
+        "text": "All the heat absorbed can be fully converted to work without any entropy increase"
+      },
+      {
+        "key": "D",
+        "text": "Heat engines violate the Second Law by design"
+      }
+    ],
+    "sectionId": "applications",
+    "sectionLabel": "Applications",
+    "stem": "Why can no real heat engine be 100% efficient, in terms of entropy?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k979nepxq8k716fbzgth7m3xah85pzd5",
+    "correctKey": "A",
+    "explanation": "Entropy $S = Q/T$. Heat $Q$ has dimensions of energy $[ML^2T^{-2}]$ and temperature $T$ has dimension $[K]$. Therefore entropy has dimensions $[ML^2T^{-2}K^{-1}]$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[ML^2T^{-2}K^{-1}]$"
+      },
+      {
+        "key": "B",
+        "text": "$[MLT^{-2}K^{-1}]$"
+      },
+      {
+        "key": "C",
+        "text": "$[ML^2T^{-3}K^{-1}]$"
+      },
+      {
+        "key": "D",
+        "text": "$[ML^2T^{-2}]$"
+      }
+    ],
+    "sectionId": "definition-of-entropy",
+    "sectionLabel": "Definition of Entropy",
+    "stem": "Which of the following represents the correct dimensions of entropy?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k970jhzyxv5bjr96badjyewq0n85qn7m",
+    "correctKey": "B",
+    "explanation": "By definition, the change in entropy for a reversible process is $\\Delta S = \\Delta Q_{rev}/T$. For an isothermal process absorbing heat $Q$ at constant temperature $T$, this gives $\\Delta S = Q/T$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Delta S = Q \\times T$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Delta S = Q / T$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta S = T / Q$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta S = 0$"
+      }
+    ],
+    "sectionId": "definition-of-entropy",
+    "sectionLabel": "Definition of Entropy",
+    "stem": "If a system undergoes an isothermal expansion at temperature $T$ by absorbing heat $Q$, the change in entropy is given by:",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k97400eq030qafcrm3ny9r0v2s85pdke",
+    "correctKey": "C",
+    "explanation": "In irreversible processes such as friction or heat conduction across a finite temperature difference, energy is conserved in total but is converted into a less organised form (internal energy/heat) that is less available for doing useful work. This is energy degradation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "It increases as energy is released"
+      },
+      {
+        "key": "B",
+        "text": "It remains constant due to energy conservation"
+      },
+      {
+        "key": "C",
+        "text": "It decreases due to energy degradation"
+      },
+      {
+        "key": "D",
+        "text": "It converts entirely into kinetic energy"
+      }
+    ],
+    "sectionId": "degradation-of-energy",
+    "sectionLabel": "Degradation of Energy",
+    "stem": "What happens to the availability of energy for doing useful work during an irreversible process?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k97922acykjz4m0ggd0krqwkv18cdpak",
+    "correctKey": "A",
+    "explanation": "The live note states that increasing entropy makes energy less available to do useful work.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "Energy becomes less available for useful work"
+      },
+      {
+        "key": "B",
+        "text": "Energy is destroyed completely"
+      },
+      {
+        "key": "C",
+        "text": "Energy becomes mass only"
+      },
+      {
+        "key": "D",
+        "text": "Energy becomes perfectly reversible"
+      }
+    ],
+    "sectionId": "degradation-of-energy",
+    "sectionLabel": "Degradation of Energy",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 132,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What does degradation of energy mean in an irreversible process?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k975cvt6hcamjwxqp20yp31s7h8bdac5",
+    "correctKey": "A",
+    "explanation": "Lower temperature means lower average molecular kinetic energy, so molecules move less randomly and the system becomes more ordered. This corresponds to a decrease in entropy, consistent with liquid water becoming more ordered ice as it freezes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "It decreases, since molecular motion becomes less random"
+      },
+      {
+        "key": "B",
+        "text": "It increases, since cooling always increases disorder"
+      },
+      {
+        "key": "C",
+        "text": "It stays exactly the same regardless of temperature"
+      },
+      {
+        "key": "D",
+        "text": "It becomes undefined below room temperature"
+      }
+    ],
+    "sectionId": "effect-of-temperature-on-disorder",
+    "sectionLabel": "Effect of Temperature on Disorder",
+    "stem": "As the temperature of a substance decreases, what generally happens to its entropy?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k973fhxacjh229hk47sk2fmtpx8bdtnh",
+    "correctKey": "C",
+    "explanation": "Ice is a crystalline solid with atoms fixed in a highly ordered lattice, giving it the lowest entropy of the options listed. Gases and liquids have progressively more disordered, randomly arranged molecules.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "Steam"
+      },
+      {
+        "key": "B",
+        "text": "Liquid water"
+      },
+      {
+        "key": "C",
+        "text": "Ice (a crystalline solid)"
+      },
+      {
+        "key": "D",
+        "text": "Water vapor mixed with air"
+      }
+    ],
+    "sectionId": "entropy-and-disorder",
+    "sectionLabel": "Entropy and Disorder",
+    "stem": "Which of the following states has the LOWEST entropy?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k9754cvv6rfxsm56hq5vd7wreh85qww0",
+    "correctKey": "C",
+    "explanation": "In a perfectly reversible process, no net disorder is created and the entropy of the system remains constant, so $\\Delta S = 0$. Only in irreversible (natural) processes does entropy increase ($\\Delta S > 0$), as stated by the Second Law.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "Always positive"
+      },
+      {
+        "key": "B",
+        "text": "Always negative"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "entropy-and-the-second-law-of-thermodynamics",
+    "sectionLabel": "Entropy and the Second Law of Thermodynamics",
+    "stem": "For a perfectly reversible process in an isolated system, the change in entropy ($\\Delta S$) is:",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "k9739axw2xgyg9g1yvn6e64yf585paws",
+    "correctKey": "B",
+    "explanation": "The heat death of the universe is the hypothetical state where entropy reaches its maximum value. At that point, energy is uniformly distributed with no temperature differences, so heat can no longer flow and no further thermodynamic processes (including useful work) can occur.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a71b6m9wjky1fm193sj41cs85pvna",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temperature reaches absolute zero everywhere"
+      },
+      {
+        "key": "B",
+        "text": "Entropy reaches a maximum value and no further thermodynamic processes can occur"
+      },
+      {
+        "key": "C",
+        "text": "Entropy reaches a minimum value"
+      },
+      {
+        "key": "D",
+        "text": "All energy is converted into useful work"
+      }
+    ],
+    "sectionId": "the-heat-death-of-the-universe-and-local-entropy-decreases",
+    "sectionLabel": "The Heat Death of the Universe and Local Entropy Decreases",
+    "stem": "The 'Heat Death' of the universe refers to a hypothetical state where:",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "k979tckhtvncqpm6msch86tbk98bcb55",
+    "correctKey": "A",
+    "explanation": "Petrol engines are relatively inefficient: typically only about 25% to 30% of the fuel's chemical energy becomes useful work, with the rest lost as waste heat through the exhaust and cooling system.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cc6af8vbhg91d3j2068kh7n85qfyt",
+    "options": [
+      {
+        "key": "A",
+        "text": "25% to 30%"
+      },
+      {
+        "key": "B",
+        "text": "50% to 60%"
+      },
+      {
+        "key": "C",
+        "text": "70% to 80%"
+      },
+      {
+        "key": "D",
+        "text": "95% to 100%"
+      }
+    ],
+    "sectionId": "application-the-petrol-engine",
+    "sectionLabel": "Application: The Petrol Engine",
+    "stem": "Approximately what fraction of the chemical energy in petrol fuel is converted into useful mechanical work by a typical petrol engine?",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "k974zkm9m8jncxct94m6pq5qg185qn1b",
+    "correctKey": "B",
+    "explanation": "The Carnot efficiency formula $E = 1 - T_2/T_1$ shows that efficiency depends only on the absolute temperatures of the hot reservoir ($T_1$) and cold reservoir ($T_2$), not on the working substance, volume, or cycle duration.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cc6af8vbhg91d3j2068kh7n85qfyt",
+    "options": [
+      {
+        "key": "A",
+        "text": "The nature of the working substance"
+      },
+      {
+        "key": "B",
+        "text": "The absolute temperatures of the source and the sink"
+      },
+      {
+        "key": "C",
+        "text": "The volume of the cylinder"
+      },
+      {
+        "key": "D",
+        "text": "The duration of each cycle"
+      }
+    ],
+    "sectionId": "carnot-engine",
+    "sectionLabel": "Carnot Engine",
+    "stem": "The efficiency of a Carnot engine depends solely upon:",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "k97bj7xe76xk7d47fescvpc7bd85pc3h",
+    "correctKey": "C",
+    "explanation": "According to the first law of thermodynamics for a cyclic process, $\\Delta U = 0$, so $W = Q_{net} = Q_H - Q_L$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cc6af8vbhg91d3j2068kh7n85qfyt",
+    "options": [
+      {
+        "key": "A",
+        "text": "The total heat absorbed from the source ($Q_H$)"
+      },
+      {
+        "key": "B",
+        "text": "The total heat rejected to the sink ($Q_L$)"
+      },
+      {
+        "key": "C",
+        "text": "The difference between heat absorbed and heat rejected ($Q_H - Q_L$)"
+      },
+      {
+        "key": "D",
+        "text": "The sum of heat absorbed and heat rejected ($Q_H + Q_L$)"
+      }
+    ],
+    "sectionId": "converting-heat-into-work",
+    "sectionLabel": "Converting Heat Into Work",
+    "stem": "In a heat engine, the net work done per cycle is equal to:",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "k973ed9hj0kkgrrem02316wtfs85p5t3",
+    "correctKey": "B",
+    "explanation": "Efficiency $\\eta = \\frac{W}{Q_H} = \\frac{150}{500} = 0.3$ or $30\\%$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cc6af8vbhg91d3j2068kh7n85qfyt",
+    "options": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "30%"
+      },
+      {
+        "key": "C",
+        "text": "70%"
+      },
+      {
+        "key": "D",
+        "text": "45%"
+      }
+    ],
+    "sectionId": "converting-heat-into-work",
+    "sectionLabel": "Converting Heat Into Work",
+    "stem": "A heat engine absorbs 500 J of heat and performs 150 J of work. What is its efficiency?",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "k9711a8kn05e9bxk0nhn48bq2s85qfv7",
+    "correctKey": "B",
+    "explanation": "The Second Law of Thermodynamics (Kelvin-Planck statement) requires a temperature difference; heat must be rejected to a sink ($Q_L > 0$) to complete the cycle.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cc6af8vbhg91d3j2068kh7n85qfyt",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because of friction in the piston"
+      },
+      {
+        "key": "B",
+        "text": "Because some heat must always be rejected to a sink at a lower temperature"
+      },
+      {
+        "key": "C",
+        "text": "Because the working substance is never an ideal gas"
+      },
+      {
+        "key": "D",
+        "text": "Because the source temperature cannot be high enough"
+      }
+    ],
+    "sectionId": "converting-heat-into-work",
+    "sectionLabel": "Converting Heat Into Work",
+    "stem": "Why can a heat engine never have an efficiency of 100%?",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "k972c4v9bkcrktkknr71wevjmx8cdtfq",
+    "correctKey": "A",
+    "explanation": "The live note states that a continuous heat engine must reject some waste heat to a cold reservoir.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cc6af8vbhg91d3j2068kh7n85qfyt",
+    "options": [
+      {
+        "key": "A",
+        "text": "It must reject some heat to a cold reservoir"
+      },
+      {
+        "key": "B",
+        "text": "It cannot absorb heat from a hot reservoir"
+      },
+      {
+        "key": "C",
+        "text": "It never performs work"
+      },
+      {
+        "key": "D",
+        "text": "It has no working substance"
+      }
+    ],
+    "sectionId": "converting-heat-into-work",
+    "sectionLabel": "Converting Heat Into Work",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 133,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why can a continuous heat engine not be 100 percent efficient?",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k97amb2qsahd3trjvkb9jf4x8h85prjm",
+    "correctKey": "C",
+    "explanation": "KTG assumes molecules exert no intermolecular forces except during instantaneous collisions. Strong attractive forces at all times would violate the ideal gas model and is therefore NOT an assumption of KTG.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "Collisions between molecules are perfectly elastic"
+      },
+      {
+        "key": "B",
+        "text": "The time spent during a collision is negligible compared to the time between collisions"
+      },
+      {
+        "key": "C",
+        "text": "Molecules exert strong attractive forces on each other at all times"
+      },
+      {
+        "key": "D",
+        "text": "The volume of the molecules is negligible compared to the volume of the container"
+      }
+    ],
+    "sectionId": "assumptions-of-the-kinetic-theory-for-an-ideal-gas",
+    "sectionLabel": "Assumptions of the Kinetic Theory for an Ideal Gas",
+    "stem": "Which of the following is NOT an assumption of the Kinetic Theory of Gases for an ideal gas?",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k9742tdx4ksf6nam5ptytr0f518bcva5",
+    "correctKey": "A",
+    "explanation": "One of the key simplifying assumptions of the kinetic theory is that molecules exert no long-range forces on each other; they interact only briefly during collisions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "There are no long-range intermolecular forces"
+      },
+      {
+        "key": "B",
+        "text": "Strong attractive forces always act between them"
+      },
+      {
+        "key": "C",
+        "text": "They repel each other constantly"
+      },
+      {
+        "key": "D",
+        "text": "Gravity is the dominant force between them"
+      }
+    ],
+    "sectionId": "assumptions-of-the-kinetic-theory-for-an-ideal-gas",
+    "sectionLabel": "Assumptions of the Kinetic Theory for an Ideal Gas",
+    "stem": "According to the kinetic theory's assumptions for an ideal gas, what is true about the forces between molecules when they are not colliding?",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k973s3zvfk0aybzbwch60c19jd85qbtn",
+    "correctKey": "A",
+    "explanation": "From the kinetic theory pressure equation $P = \\frac{1}{3}\\rho\\langle v^2 \\rangle$, pressure is directly proportional to the mean square velocity $\\langle v^2 \\rangle$ of the gas molecules, not the square root of velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "The mean square velocity of the molecules"
+      },
+      {
+        "key": "B",
+        "text": "The square root of the average velocity"
+      },
+      {
+        "key": "C",
+        "text": "The sum of the volumes of the molecules"
+      },
+      {
+        "key": "D",
+        "text": "The inverse of the absolute temperature"
+      }
+    ],
+    "sectionId": "linking-microscopic-and-macroscopic-properties",
+    "sectionLabel": "Linking Microscopic and Macroscopic Properties",
+    "stem": "According to the kinetic theory, the pressure exerted by a gas on its container walls is proportional to:",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k970m5h2ekdcq8ng8d8v24k2zd85qx34",
+    "correctKey": "B",
+    "explanation": "Since $\\langle K.E. \\rangle = \\frac{3}{2}k_BT$, average kinetic energy is directly proportional to absolute temperature $T$. If $T$ increases by a factor of 4, kinetic energy also increases by exactly a factor of 4.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two times the original"
+      },
+      {
+        "key": "B",
+        "text": "Four times the original"
+      },
+      {
+        "key": "C",
+        "text": "Sixteen times the original"
+      },
+      {
+        "key": "D",
+        "text": "Unchanged"
+      }
+    ],
+    "sectionId": "linking-microscopic-and-macroscopic-properties",
+    "sectionLabel": "Linking Microscopic and Macroscopic Properties",
+    "stem": "If the absolute temperature of a gas is quadrupled, the average translational kinetic energy of its molecules becomes:",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k972934ngf3sbbcdpy93wczc4d85qeqj",
+    "correctKey": "C",
+    "explanation": "Since $v_{rms} = \\sqrt{\\frac{3RT}{M}}$, we have $v_{rms} \\propto \\frac{1}{\\sqrt{M}}$. Therefore $\\frac{v_1}{v_2} = \\sqrt{\\frac{M_2}{M_1}}$. The heavier gas has the lower RMS speed at the same temperature.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "$M_1 / M_2$"
+      },
+      {
+        "key": "B",
+        "text": "$M_2 / M_1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{M_2 / M_1}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt{M_1 / M_2}$"
+      }
+    ],
+    "sectionId": "linking-microscopic-and-macroscopic-properties",
+    "sectionLabel": "Linking Microscopic and Macroscopic Properties",
+    "stem": "The ratio of RMS speeds $v_1/v_2$ of two gases with molar masses $M_1$ and $M_2$ at the same temperature is:",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k97az08p7ant9mhw62d3wtx1xx8bdkqf",
+    "correctKey": "A",
+    "explanation": "With V and n constant, PV = nRT means P is directly proportional to T. Doubling T (with everything else fixed) doubles P.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "It doubles"
+      },
+      {
+        "key": "B",
+        "text": "It halves"
+      },
+      {
+        "key": "C",
+        "text": "It stays the same"
+      },
+      {
+        "key": "D",
+        "text": "It quadruples"
+      }
+    ],
+    "sectionId": "the-ideal-gas-law",
+    "sectionLabel": "The Ideal Gas Law",
+    "stem": "According to the Ideal Gas Law PV = nRT, if the volume and number of moles of a gas are held constant while its absolute temperature doubles, what happens to its pressure?",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k976ytnkxc0j4k62v0mmq4mgc98bcsk4",
+    "correctKey": "A",
+    "explanation": "Gas molecules are in continuous, chaotic motion and collide with the walls of their container. The cumulative force of these countless collisions per unit area is what we measure macroscopically as pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "Collisions of gas molecules with the container walls"
+      },
+      {
+        "key": "B",
+        "text": "The weight of the gas molecules resting on the container floor"
+      },
+      {
+        "key": "C",
+        "text": "Chemical bonds forming between gas molecules and the container"
+      },
+      {
+        "key": "D",
+        "text": "Electric charge on the gas molecules"
+      }
+    ],
+    "sectionId": "the-microscopic-model-of-a-gas",
+    "sectionLabel": "The Microscopic Model of a Gas",
+    "stem": "In the kinetic theory's microscopic model of a gas, what causes the pressure a gas exerts on its container?",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k97cqh8580ecsy3ssdpcmxzktn8ccv6m",
+    "correctKey": "A",
+    "explanation": "The live note states that ideal-gas collisions are perfectly elastic and conserve kinetic energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "They are perfectly elastic"
+      },
+      {
+        "key": "B",
+        "text": "They always destroy kinetic energy"
+      },
+      {
+        "key": "C",
+        "text": "They occur only at absolute zero"
+      },
+      {
+        "key": "D",
+        "text": "They cannot involve container walls"
+      }
+    ],
+    "sectionId": "the-microscopic-model-of-a-gas",
+    "sectionLabel": "The Microscopic Model of a Gas",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 134,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is assumed about collisions in the ideal-gas kinetic model?",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k979ksjy3y21m4tk2a2eg2190185pggx",
+    "correctKey": "A",
+    "explanation": "During compression, the surroundings push the piston inward so $\\Delta V < 0$. By convention, $W = P\\Delta V < 0$, meaning the gas has negative work done by it (equivalently, positive work is done on the gas, increasing its internal energy).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "Work is done on the gas; $\\Delta V < 0$; $W_{by\\ gas}$ is negative"
+      },
+      {
+        "key": "B",
+        "text": "Work is done by the gas; $\\Delta V > 0$; $W_{by\\ gas}$ is positive"
+      },
+      {
+        "key": "C",
+        "text": "No work is done because pressure is constant"
+      },
+      {
+        "key": "D",
+        "text": "Work is done on the gas; $\\Delta V > 0$; $W_{by\\ gas}$ is positive"
+      }
+    ],
+    "sectionId": "work-in-thermodynamics",
+    "sectionLabel": "Work in Thermodynamics",
+    "stem": "When a gas is compressed at constant pressure, which of the following correctly describes the work and energy transfer?",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "k97ak6rqtcq5eqg970vrv3xsgd8bdkwz",
+    "correctKey": "B",
+    "explanation": "$W=P\\Delta V=200\\,\\mathrm{Pa}\\cdot(5-2)\\,\\mathrm{m^3}=200\\cdot3=600\\,\\mathrm{J}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77dq6z50t6cq7yshez2rvy3s85qzqz",
+    "options": [
+      {
+        "key": "A",
+        "text": "300 J"
+      },
+      {
+        "key": "B",
+        "text": "600 J"
+      },
+      {
+        "key": "C",
+        "text": "1000 J"
+      },
+      {
+        "key": "D",
+        "text": "1400 J"
+      }
+    ],
+    "sectionId": "work-in-thermodynamics",
+    "sectionLabel": "Work in Thermodynamics",
+    "stem": "A gas at a constant pressure of $200\\,\\mathrm{Pa}$ expands from a volume of $2\\,\\mathrm{m^3}$ to $5\\,\\mathrm{m^3}$. How much work does the gas do on its surroundings?",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "k977j10ftba0vmzxz603xfjfrn8cd5jf",
+    "correctKey": "A",
+    "explanation": "The live note explains that constant-pressure heating includes expansion work as well as an increase in internal energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75q5zy9pxp9wjzbwvchebt3185qvbq",
+    "options": [
+      {
+        "key": "A",
+        "text": "It expands and does work"
+      },
+      {
+        "key": "B",
+        "text": "Its volume must remain fixed"
+      },
+      {
+        "key": "C",
+        "text": "It cannot gain internal energy"
+      },
+      {
+        "key": "D",
+        "text": "It loses all supplied heat"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 135,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "During heating at constant pressure, what additional effect occurs for a gas?",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "k97819v2031ncde7jywvbj3khx85p03f",
+    "correctKey": "B",
+    "explanation": "Molar specific heat is defined as heat per mole per kelvin. The SI unit is therefore $J \\cdot mol^{-1} \\cdot K^{-1}$. Option A is the unit of specific heat capacity (per kg), not molar specific heat.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75q5zy9pxp9wjzbwvchebt3185qvbq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$J \\cdot kg^{-1} \\cdot K^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$J \\cdot mol^{-1} \\cdot K^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$cal \\cdot g^{-1} \\cdot ^\\circ C^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$N \\cdot m \\cdot mol^{-1}$"
+      }
+    ],
+    "sectionId": "heat-capacity-and-specific-heat-quick-review",
+    "sectionLabel": "Heat Capacity and Specific Heat: Quick Review",
+    "stem": "What are the SI units for Molar Specific Heat ($C_p$ or $C_v$)?",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "k971avecesswgyf929928xbhx185pjh8",
+    "correctKey": "B",
+    "explanation": "Mayer's relation $C_p - C_v = R$ is derived by applying the first law to a constant-pressure process and substituting $P\\Delta V = nR\\Delta T$ from the ideal gas law. The extra heat needed at constant pressure per mole per kelvin equals exactly $R \\approx 8.314\\, J\\cdot mol^{-1}\\cdot K^{-1}$, expressing conservation of energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75q5zy9pxp9wjzbwvchebt3185qvbq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Boltzmann constant ($k_B$)"
+      },
+      {
+        "key": "B",
+        "text": "Universal Gas Constant ($R$)"
+      },
+      {
+        "key": "C",
+        "text": "Avogadro's Number ($N_A$)"
+      },
+      {
+        "key": "D",
+        "text": "The internal energy per mole ($U/n$)"
+      }
+    ],
+    "sectionId": "mayers-relation-cp---cv--r",
+    "sectionLabel": "Mayer's Relation: Cp - Cv = R",
+    "stem": "According to Mayer's relation, the difference $C_p - C_v$ for an ideal gas equals:",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "k973z9gg7e09dm2vp54a0mshhn85qbmn",
+    "correctKey": "C",
+    "explanation": "Work done by a gas is $W = P\\Delta V$. At constant volume, $\\Delta V = 0$, so $W = 0$. By the first law, all the heat supplied goes entirely into increasing the internal energy of the gas.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75q5zy9pxp9wjzbwvchebt3185qvbq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Positive"
+      },
+      {
+        "key": "B",
+        "text": "Negative"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Equal to the heat added"
+      }
+    ],
+    "sectionId": "molar-specific-heats-of-gases-c_p-and-c_v",
+    "sectionLabel": "Molar Specific Heats of Gases: $C_p$ and $C_v$",
+    "stem": "When heat is added to a gas at constant volume, the work done by the gas is:",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "k977w1yxexm0632a4q9zq2ak9585ph8x",
+    "correctKey": "B",
+    "explanation": "COP measures efficiency in terms of 'what you want' (cooling $Q_L$) divided by 'what you pay' (work $W$). Thus, $COP = Q_L / W$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74jtssw3cdwnaxnz1debn65985p4xq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Work input to the heat absorbed from the cold reservoir"
+      },
+      {
+        "key": "B",
+        "text": "Heat absorbed from the cold reservoir to the work input"
+      },
+      {
+        "key": "C",
+        "text": "Heat rejected to the hot reservoir to the work input"
+      },
+      {
+        "key": "D",
+        "text": "Work input to the heat rejected to the hot reservoir"
+      }
+    ],
+    "sectionId": "coefficient-of-performance-cop",
+    "sectionLabel": "Coefficient of Performance (COP)",
+    "stem": "The Coefficient of Performance (COP) of a refrigerator is defined as the ratio of:",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "k971a824wy7bmf801mg69jwwvs85pkj9",
+    "correctKey": "A",
+    "explanation": "For a Carnot cycle, heat ratios are proportional to temperature ratios. Substituting $Q$ with $T$ in the COP formula gives $COP = T_L / (T_H - T_L)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74jtssw3cdwnaxnz1debn65985p4xq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$T_L / (T_H - T_L)$"
+      },
+      {
+        "key": "B",
+        "text": "$T_H / (T_H - T_L)$"
+      },
+      {
+        "key": "C",
+        "text": "$(T_H - T_L) / T_L$"
+      },
+      {
+        "key": "D",
+        "text": "$1 - (T_L / T_H)$"
+      }
+    ],
+    "sectionId": "coefficient-of-performance-cop",
+    "sectionLabel": "Coefficient of Performance (COP)",
+    "stem": "For an ideal (Carnot) refrigerator operating between temperatures $T_L$ and $T_H$ (in Kelvin), the COP is given by:",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "k97bs7zb44bq3s5zbv3jdf890d8cd95h",
+    "correctKey": "A",
+    "explanation": "The live note defines COP as the desired heat removed divided by the required work input.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74jtssw3cdwnaxnz1debn65985p4xq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Heat removed from the cold reservoir with work input"
+      },
+      {
+        "key": "B",
+        "text": "Work input with the mass of the refrigerator"
+      },
+      {
+        "key": "C",
+        "text": "Hot-reservoir temperature with room volume"
+      },
+      {
+        "key": "D",
+        "text": "Pressure with molecular mass only"
+      }
+    ],
+    "sectionId": "coefficient-of-performance-cop",
+    "sectionLabel": "Coefficient of Performance (COP)",
+    "sourceRef": {
+      "chapterNumber": 8,
+      "page": 136,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What does the coefficient of performance of a refrigerator compare?",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "k9734qhz91gqbcm7wgf3132w1s85qrb7",
+    "correctKey": "C",
+    "explanation": "By conservation of energy (First Law), the total energy rejected to the hot reservoir ($Q_H$) equals the energy absorbed from the cold reservoir ($Q_L$) plus the work input ($W$). Therefore $Q_H = Q_L + W$, giving $W = Q_H - Q_L$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74jtssw3cdwnaxnz1debn65985p4xq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$W = Q_L + Q_H$"
+      },
+      {
+        "key": "B",
+        "text": "$W = Q_L - Q_H$"
+      },
+      {
+        "key": "C",
+        "text": "$W = Q_H - Q_L$"
+      },
+      {
+        "key": "D",
+        "text": "$W = Q_L / Q_H$"
+      }
+    ],
+    "sectionId": "the-reversed-carnot-cycle",
+    "sectionLabel": "The Reversed Carnot Cycle",
+    "stem": "In a refrigeration cycle, if $Q_L$ is the heat absorbed from the cold reservoir and $Q_H$ is the heat rejected to the hot reservoir, the work $W$ done by the compressor is:",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "k97bwth384n5a8n4p901ev0byd85qnzw",
+    "correctKey": "B",
+    "explanation": "The Clausius statement deals with the transfer of heat from a cold body to a hot body, which is the fundamental principle of a refrigerator.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74jtssw3cdwnaxnz1debn65985p4xq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kelvin-Planck Statement"
+      },
+      {
+        "key": "B",
+        "text": "Clausius Statement"
+      },
+      {
+        "key": "C",
+        "text": "Boyle's Law"
+      },
+      {
+        "key": "D",
+        "text": "Entropy Principle"
+      }
+    ],
+    "sectionId": "working-principle",
+    "sectionLabel": "Working Principle",
+    "stem": "Which statement of the Second Law of Thermodynamics specifically relates to the operation of a refrigerator?",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "k970nzhyxv6t5vz058335ah01n85pfk0",
+    "correctKey": "C",
+    "explanation": "For an ideal gas, internal energy depends only on temperature. In an isothermal process $\\Delta T = 0$, so $\\Delta U = 0$. By the First Law ($Q = \\Delta U + W$), all heat absorbed equals the work done by the gas.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7axpzjen6hjwzq6sqqgewecx85q99j",
+    "options": [
+      {
+        "key": "A",
+        "text": "Positive, because the gas does work"
+      },
+      {
+        "key": "B",
+        "text": "Negative, because heat is released"
+      },
+      {
+        "key": "C",
+        "text": "Zero, because temperature is constant"
+      },
+      {
+        "key": "D",
+        "text": "Infinite, because the process is quasi-static"
+      }
+    ],
+    "sectionId": "1-reversible-process",
+    "sectionLabel": "1. Reversible Process",
+    "stem": "In a reversible isothermal expansion of an ideal gas, the change in internal energy ($\\Delta U$) is:",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "k978ydhebzc4hxps7sdfg72vtn85qc4g",
+    "correctKey": "B",
+    "explanation": "A reversible process must be quasi-static, meaning it proceeds through a continuous series of equilibrium states so slowly that the system remains in thermal and mechanical equilibrium with its surroundings at every stage.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7axpzjen6hjwzq6sqqgewecx85q99j",
+    "options": [
+      {
+        "key": "A",
+        "text": "The process must occur rapidly."
+      },
+      {
+        "key": "B",
+        "text": "The system must be in thermal and mechanical equilibrium with the surroundings at all stages."
+      },
+      {
+        "key": "C",
+        "text": "There must be some friction to stabilize the system."
+      },
+      {
+        "key": "D",
+        "text": "Heat must flow from a cold body to a hot body spontaneously."
+      }
+    ],
+    "sectionId": "1-reversible-process",
+    "sectionLabel": "1. Reversible Process",
+    "stem": "Which of the following is a necessary condition for a process to be strictly reversible?",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "k978pjgf7wtgnjs1pemnndewfh85q969",
+    "correctKey": "B",
+    "explanation": "Slow (quasi-static) compression or expansion without friction satisfies both conditions for reversibility: the system remains in equilibrium at every stage and there are no dissipative forces converting work to heat irreversibly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7axpzjen6hjwzq6sqqgewecx85q99j",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sudden expansion of a gas into a vacuum."
+      },
+      {
+        "key": "B",
+        "text": "Slow, quasi-static compression of a gas in a cylinder with a frictionless piston."
+      },
+      {
+        "key": "C",
+        "text": "Heat transfer through a large temperature difference."
+      },
+      {
+        "key": "D",
+        "text": "Production of heat by friction."
+      }
+    ],
+    "sectionId": "1-reversible-process",
+    "sectionLabel": "1. Reversible Process",
+    "stem": "Which of the following is the closest approximation to a reversible process?",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "k97400eq030qafcrm3ny9r0v2s85pdke",
+    "correctKey": "C",
+    "explanation": "In irreversible processes such as friction or heat conduction across a finite temperature difference, energy is conserved in total but is converted into a less organised form (internal energy/heat) that is less available for doing useful work. This is energy degradation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7axpzjen6hjwzq6sqqgewecx85q99j",
+    "options": [
+      {
+        "key": "A",
+        "text": "It increases as energy is released"
+      },
+      {
+        "key": "B",
+        "text": "It remains constant due to energy conservation"
+      },
+      {
+        "key": "C",
+        "text": "It decreases due to energy degradation"
+      },
+      {
+        "key": "D",
+        "text": "It converts entirely into kinetic energy"
+      }
+    ],
+    "sectionId": "2-irreversible-process",
+    "sectionLabel": "2. Irreversible Process",
+    "stem": "What happens to the availability of energy for doing useful work during an irreversible process?",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "k97cptesek6abkxkddtdqh2hs58bdygj",
+    "correctKey": "A",
+    "explanation": "An infinitely slow, quasi-static process with no dissipation is exactly the condition for reversibility, not a cause of irreversibility. Friction, sudden/rapid changes, and heat flow across a finite temperature gap are the actual causes of irreversibility.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7axpzjen6hjwzq6sqqgewecx85q99j",
+    "options": [
+      {
+        "key": "A",
+        "text": "The process occurring infinitely slowly (quasi-statically)"
+      },
+      {
+        "key": "B",
+        "text": "Dissipative forces such as friction and viscosity"
+      },
+      {
+        "key": "C",
+        "text": "Sudden changes, like a rapid expansion into a vacuum"
+      },
+      {
+        "key": "D",
+        "text": "Heat transfer across a finite temperature difference"
+      }
+    ],
+    "sectionId": "2-irreversible-process",
+    "sectionLabel": "2. Irreversible Process",
+    "stem": "Which of the following is NOT one of the main causes of irreversibility in a real thermodynamic process?",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "k97az171rr7g8styr5y483xs158cc0qj",
+    "correctKey": "B",
+    "explanation": "Spontaneous heat transfer across a finite temperature difference is irreversible because it cannot be exactly retraced while restoring both the system and surroundings.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7axpzjen6hjwzq6sqqgewecx85q99j",
+    "options": [
+      {
+        "key": "A",
+        "text": "A frictionless compression carried out infinitely slowly"
+      },
+      {
+        "key": "B",
+        "text": "Heat flowing spontaneously from a hot object to a cold object"
+      },
+      {
+        "key": "C",
+        "text": "A process with no dissipative forces and exact reverse control"
+      },
+      {
+        "key": "D",
+        "text": "A theoretical process that leaves the system and surroundings unchanged after reversal"
+      }
+    ],
+    "sectionId": "2-irreversible-process",
+    "sectionLabel": "2. Irreversible Process",
+    "stem": "Which situation is an example of an irreversible thermodynamic process?",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "k97er4eztj4wb7gnhmv5ysmad98bc6ts",
+    "correctKey": "A",
+    "explanation": "Internal energy is a state function, depending only on the system's current state. Since a cyclic process returns the system to its exact initial state, the net change in internal energy over the cycle is always zero, regardless of the path taken.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7axpzjen6hjwzq6sqqgewecx85q99j",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is always zero, since internal energy is a state function"
+      },
+      {
+        "key": "B",
+        "text": "It always equals the net heat absorbed only"
+      },
+      {
+        "key": "C",
+        "text": "It always equals the net work done only"
+      },
+      {
+        "key": "D",
+        "text": "It depends on how fast the cycle is completed"
+      }
+    ],
+    "sectionId": "3-cyclic-process",
+    "sectionLabel": "3. Cyclic Process",
+    "stem": "For any thermodynamic process that returns a system to its exact initial state (a cyclic process), what is true about the net change in internal energy over one complete cycle?",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "k9705psmqywtpq3dw7f6nr7a0d85q1mp",
+    "correctKey": "C",
+    "explanation": "According to Boyle's Law ($$PV = \\text{constant}$$), pressure and volume are inversely proportional at constant temperature. Doubling the pressure ($$2P$$) results in half the original volume ($$V/2$$).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fkjwd9t3t5tm092ag3pvh0n85qyes",
+    "options": [
+      {
+        "key": "A",
+        "text": "It doubles"
+      },
+      {
+        "key": "B",
+        "text": "It remains the same"
+      },
+      {
+        "key": "C",
+        "text": "It is reduced to half"
+      },
+      {
+        "key": "D",
+        "text": "It increases fourfold"
+      }
+    ],
+    "sectionId": "boyles-law-constant-temperature",
+    "sectionLabel": "Boyle's Law (Constant Temperature)",
+    "stem": "If the pressure of a fixed mass of an ideal gas is doubled while keeping the temperature constant, what happens to its volume?",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "k971mg0w7ykmjx4cg9cn0rs67985p9gq",
+    "correctKey": "B",
+    "explanation": "Charles's Law states $$V \\propto T$$, a direct proportionality. When plotted against absolute temperature in Kelvin, the graph is a straight line through the origin, since $$V = 0$$ when $$T = 0\\text{ K}$$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fkjwd9t3t5tm092ag3pvh0n85qyes",
+    "options": [
+      {
+        "key": "A",
+        "text": "A hyperbola (V vs T)"
+      },
+      {
+        "key": "B",
+        "text": "A straight line passing through the origin (V vs T)"
+      },
+      {
+        "key": "C",
+        "text": "A straight line with a non-zero y-intercept (V vs T)"
+      },
+      {
+        "key": "D",
+        "text": "A horizontal line (V vs T)"
+      }
+    ],
+    "sectionId": "charless-law-constant-pressure",
+    "sectionLabel": "Charles's Law (Constant Pressure)",
+    "stem": "Which of the following graphs correctly represents Charles's Law for an ideal gas (temperature in Kelvin)?",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "k97d2jd2sjjyxzhbga7ph5vj2h85pvah",
+    "correctKey": "C",
+    "explanation": "Gay-Lussac's Law states $$P \\propto T$$ at constant volume. If absolute temperature doubles ($$T_{2} = 2T_{1}$$), then pressure also doubles: $$\\frac{P_{1}}{T_{1}} = \\frac{P_{2}}{T_{2}}$$ gives $$P_{2} = 2P_{1}$$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fkjwd9t3t5tm092ag3pvh0n85qyes",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure is halved"
+      },
+      {
+        "key": "B",
+        "text": "Pressure remains the same"
+      },
+      {
+        "key": "C",
+        "text": "Pressure doubles"
+      },
+      {
+        "key": "D",
+        "text": "Pressure increases fourfold"
+      }
+    ],
+    "sectionId": "gay-lussacs-law-constant-volume",
+    "sectionLabel": "Gay-Lussac's Law (Constant Volume)",
+    "stem": "A sealed rigid container of gas is heated so its temperature doubles (in Kelvin). According to Gay-Lussac's Law, what happens to the pressure?",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "k978hyjhqzyr3cc9z31s9w2e8x8cc70v",
+    "correctKey": "B",
+    "explanation": "Charles's law relates volume and absolute temperature at constant pressure, with volume increasing directly as temperature increases.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fkjwd9t3t5tm092ag3pvh0n85qyes",
+    "options": [
+      {
+        "key": "A",
+        "text": "Volume is inversely proportional to absolute temperature"
+      },
+      {
+        "key": "B",
+        "text": "Volume is directly proportional to absolute temperature"
+      },
+      {
+        "key": "C",
+        "text": "Pressure is directly proportional to volume"
+      },
+      {
+        "key": "D",
+        "text": "Temperature remains independent of volume"
+      }
+    ],
+    "sectionId": "gay-lussacs-law-constant-volume",
+    "sectionLabel": "Gay-Lussac's Law (Constant Volume)",
+    "stem": "When pressure and the amount of gas remain constant, what does Charles's law state?",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "k974vvndapz736w5s32w5gqyyx85p9et",
+    "correctKey": "B",
+    "explanation": "In SI units, the Universal Gas Constant is $$R = 8.314\\text{ J mol}^{-1}\\text{ K}^{-1}$$. Option C is the Boltzmann constant $$k_{B}$$, and option D is Avogadro's number $$N_{A}$$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fkjwd9t3t5tm092ag3pvh0n85qyes",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.0821 L atm mol⁻¹ K⁻¹"
+      },
+      {
+        "key": "B",
+        "text": "8.314 J mol⁻¹ K⁻¹"
+      },
+      {
+        "key": "C",
+        "text": "1.38 × 10⁻²³ J K⁻¹"
+      },
+      {
+        "key": "D",
+        "text": "6.022 × 10²³ mol⁻¹"
+      }
+    ],
+    "sectionId": "ideal-gas-equation",
+    "sectionLabel": "Ideal Gas Equation",
+    "stem": "The value of the Universal Gas Constant ($R$) in SI units is approximately:",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "k972nz3jj1syns34nc4s07rngn8cdj5b",
+    "correctKey": "B",
+    "explanation": "For an ideal gas, a temperature rise increases the average kinetic energy of its molecules, so the internal energy increases.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c5qt0kgq69j2a7pedr7wvj985qeq3",
+    "options": [
+      {
+        "key": "A",
+        "text": "It decreases because molecular motion slows"
+      },
+      {
+        "key": "B",
+        "text": "It increases because the average molecular kinetic energy increases"
+      },
+      {
+        "key": "C",
+        "text": "It remains fixed for every temperature"
+      },
+      {
+        "key": "D",
+        "text": "It changes only when the gas changes volume"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "For an ideal gas, what happens to internal energy when its temperature rises?",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "k9746kg3rshkfzrsnkn1awqyb585p4tg",
+    "correctKey": "A",
+    "explanation": "The product $k_B T$ represents thermal energy, as seen in the relation $\\langle KE \\rangle = \\frac{3}{2}k_B T$. Energy has dimensions $[M L^2 T^{-2}]$, making option A correct. Force, power, and angular momentum each have different dimensional formulae.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c5qt0kgq69j2a7pedr7wvj985qeq3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Energy ($M L^2 T^{-2}$)"
+      },
+      {
+        "key": "B",
+        "text": "Force ($M L T^{-2}$)"
+      },
+      {
+        "key": "C",
+        "text": "Power ($M L^2 T^{-3}$)"
+      },
+      {
+        "key": "D",
+        "text": "Angular momentum ($M L^2 T^{-1}$)"
+      }
+    ],
+    "sectionId": "internal-energy-u",
+    "sectionLabel": "Internal Energy (U)",
+    "stem": "The product of the Boltzmann constant ($k_B$) and absolute temperature ($T$) has the same dimensions as:",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "k97c9m1vk4ehdyd3tzt92rb4wh8bcakn",
+    "correctKey": "A",
+    "explanation": "A state function's value is fully determined by the system's current state (e.g. its temperature and pressure) and is independent of the path or process used to reach that state.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c5qt0kgq69j2a7pedr7wvj985qeq3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its value depends only on the system's current state, not on the path taken to reach it"
+      },
+      {
+        "key": "B",
+        "text": "It can only be measured while the system is in a solid state"
+      },
+      {
+        "key": "C",
+        "text": "It changes only when the system's state remains fixed"
+      },
+      {
+        "key": "D",
+        "text": "It depends on how quickly the system reached its current state"
+      }
+    ],
+    "sectionId": "internal-energy-u",
+    "sectionLabel": "Internal Energy (U)",
+    "stem": "Internal energy is described as a 'state function'. What does this mean?",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "k9749pg31z54pb43d075wkyy4s85qbhz",
+    "correctKey": "C",
+    "explanation": "The Zeroth Law states that if two systems are each in thermal equilibrium with a third system (the thermometer), they are in equilibrium with each other, implying they share the same temperature. This is the logical foundation of thermometry.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c5qt0kgq69j2a7pedr7wvj985qeq3",
+    "options": [
+      {
+        "key": "A",
+        "text": "First Law of Thermodynamics"
+      },
+      {
+        "key": "B",
+        "text": "Second Law of Thermodynamics"
+      },
+      {
+        "key": "C",
+        "text": "Zeroth Law of Thermodynamics"
+      },
+      {
+        "key": "D",
+        "text": "Third Law of Thermodynamics"
+      }
+    ],
+    "sectionId": "the-zeroth-law-and-thermal-equilibrium",
+    "sectionLabel": "The Zeroth Law and Thermal Equilibrium",
+    "stem": "Which law of thermodynamics provides the basis for the measurement of temperature using a thermometer?",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "k976gmq98h9es260r7dzwda48n85pp3a",
+    "correctKey": "C",
+    "explanation": "Thermal equilibrium is characterised by the absence of net heat flow between the systems, which occurs when both systems are at the same temperature. Equal internal energies or equal masses are not sufficient conditions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c5qt0kgq69j2a7pedr7wvj985qeq3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Their internal energies are equal"
+      },
+      {
+        "key": "B",
+        "text": "Their masses and volumes are equal"
+      },
+      {
+        "key": "C",
+        "text": "There is no net exchange of heat between them"
+      },
+      {
+        "key": "D",
+        "text": "They are separated by an adiabatic wall"
+      }
+    ],
+    "sectionId": "thermal-equilibrium",
+    "sectionLabel": "Thermal Equilibrium",
+    "stem": "Two systems are said to be in thermal equilibrium if and only if:",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "k97e77vrrt45khac9gce4pzjwx85qft5",
+    "correctKey": "C",
+    "explanation": "Temperature is a measure of average translational kinetic energy of molecules. Thermal equilibrium is reached when both substances reach the same temperature, meaning their average molecular kinetic energies are equal. Entropy never becomes zero in a natural process.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c5qt0kgq69j2a7pedr7wvj985qeq3",
+    "options": [
+      {
+        "key": "A",
+        "text": "The water starts boiling"
+      },
+      {
+        "key": "B",
+        "text": "The copper block loses all its internal energy"
+      },
+      {
+        "key": "C",
+        "text": "The average translational kinetic energy of molecules in both substances is equal"
+      },
+      {
+        "key": "D",
+        "text": "The entropy of the system becomes zero"
+      }
+    ],
+    "sectionId": "thermal-equilibrium",
+    "sectionLabel": "Thermal Equilibrium",
+    "stem": "When a hot copper block is placed in cold water, heat flows until:",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  }
+]

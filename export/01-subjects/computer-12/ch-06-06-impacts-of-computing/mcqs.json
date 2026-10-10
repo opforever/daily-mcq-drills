@@ -1,0 +1,1091 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-1-security-protocols",
+    "topicTitle": "6.1 Security Protocols",
+    "_id": "k975j71vps5h7cj6gnedc3zh1985p425",
+    "correctKey": "B",
+    "explanation": "Encryption scrambles data so only authorised parties with the correct key can read it, directly protecting Confidentiality, one of the three pillars of the CIA triad.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tjszag9xjmdb158dta398985q13y",
+    "options": [
+      {
+        "key": "A",
+        "text": "Availability"
+      },
+      {
+        "key": "B",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "C",
+        "text": "Integrity"
+      },
+      {
+        "key": "D",
+        "text": "Scalability"
+      }
+    ],
+    "stem": "Which component of the CIA triad is primarily addressed by using encryption protocols like AES?",
+    "topicId": "ms7dd2msfvjawppf4r5305yd4h85pedd"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-1-security-protocols",
+    "topicTitle": "6.1 Security Protocols",
+    "_id": "k97431nrh8rm4z6q3t8p6e6b7s85qdds",
+    "correctKey": "B",
+    "explanation": "The padlock icon indicates an HTTPS connection, which relies on TLS (Transport Layer Security) or its predecessor SSL to encrypt data between the browser and the web server.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tjszag9xjmdb158dta398985q13y",
+    "options": [
+      {
+        "key": "A",
+        "text": "IPsec"
+      },
+      {
+        "key": "B",
+        "text": "TLS/SSL"
+      },
+      {
+        "key": "C",
+        "text": "SNMP"
+      },
+      {
+        "key": "D",
+        "text": "UDP"
+      }
+    ],
+    "stem": "When a user sees a padlock icon in their browser address bar, which protocol is most likely being utilized?",
+    "topicId": "ms7dd2msfvjawppf4r5305yd4h85pedd"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-1-security-protocols",
+    "topicTitle": "6.1 Security Protocols",
+    "_id": "k97cynf0tpyhhpwmbd3pwf0t7n85pmt7",
+    "correctKey": "C",
+    "explanation": "IPsec operates at the Network Layer (Layer 3), authenticating and encrypting every IP packet. This allows it to secure all applications running over IP, unlike SSL/TLS which operates at the Transport/Application layers.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tjszag9xjmdb158dta398985q13y",
+    "options": [
+      {
+        "key": "A",
+        "text": "SSL"
+      },
+      {
+        "key": "B",
+        "text": "TLS"
+      },
+      {
+        "key": "C",
+        "text": "IPsec"
+      },
+      {
+        "key": "D",
+        "text": "HTTPS"
+      }
+    ],
+    "stem": "Which security protocol operates at the Network Layer (Layer 3) of the OSI model to secure all IP traffic between two points?",
+    "topicId": "ms7dd2msfvjawppf4r5305yd4h85pedd"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-1-security-protocols",
+    "topicTitle": "6.1 Security Protocols",
+    "_id": "k97dw7b6mmdpce7k6py2gy78rx85q1ff",
+    "correctKey": "C",
+    "explanation": "Standard FTP does not use encryption, meaning usernames, passwords, and file data are transmitted as plain text and can be intercepted by attackers using packet sniffers. SSH/SFTP should be used instead.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tjszag9xjmdb158dta398985q13y",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is too slow for large files"
+      },
+      {
+        "key": "B",
+        "text": "It does not support binary files"
+      },
+      {
+        "key": "C",
+        "text": "It transmits credentials and data in cleartext"
+      },
+      {
+        "key": "D",
+        "text": "It requires a dedicated hardware firewall"
+      }
+    ],
+    "stem": "What is the main security risk of using the standard FTP protocol for file transfer?",
+    "topicId": "ms7dd2msfvjawppf4r5305yd4h85pedd"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-4-cyber-attacks",
+    "topicTitle": "6.4 Cyber-Attacks",
+    "_id": "k97c7pbymaev5y23fb1w1781en85qt98",
+    "correctKey": "C",
+    "explanation": "A DoS attack overwhelms a system with traffic to make it inaccessible to legitimate users, directly violating the 'Availability' principle of the CIA triad. Confidentiality and Integrity are not the primary targets.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dhzkaen64gphqgz2pcbjzzs85qbzc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "B",
+        "text": "Integrity"
+      },
+      {
+        "key": "C",
+        "text": "Availability"
+      },
+      {
+        "key": "D",
+        "text": "Authenticity"
+      }
+    ],
+    "stem": "Which pillar of the CIA triad is primarily compromised during a successful Denial of Service (DoS) attack?",
+    "topicId": "ms7b6wv6nb9p8jrbjg0703kyds85pr21"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-4-cyber-attacks",
+    "topicTitle": "6.4 Cyber-Attacks",
+    "_id": "k973mm47dct7ykbskvwrvsbrrh85qkfr",
+    "correctKey": "B",
+    "explanation": "DDoS attacks use a distributed network of infected computers (a botnet) to flood a target from many sources simultaneously, making them harder to block than single-source DoS attacks.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dhzkaen64gphqgz2pcbjzzs85qbzc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Uses a single high-speed server to crash the target."
+      },
+      {
+        "key": "B",
+        "text": "Originates from multiple compromised systems (botnets) simultaneously."
+      },
+      {
+        "key": "C",
+        "text": "Only targets the physical hardware of the server."
+      },
+      {
+        "key": "D",
+        "text": "Is impossible to detect using modern firewalls."
+      }
+    ],
+    "stem": "A Distributed Denial of Service (DDoS) attack differs from a standard DoS attack because it:",
+    "topicId": "ms7b6wv6nb9p8jrbjg0703kyds85pr21"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-4-cyber-attacks",
+    "topicTitle": "6.4 Cyber-Attacks",
+    "_id": "k975y122b2tn3vpfd941e496a185q8vp",
+    "correctKey": "B",
+    "explanation": "Phishing uses deceptive emails or fake websites that impersonate trusted entities to trick users into revealing sensitive information such as passwords or credit card numbers.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dhzkaen64gphqgz2pcbjzzs85qbzc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Eavesdropping"
+      },
+      {
+        "key": "B",
+        "text": "Phishing"
+      },
+      {
+        "key": "C",
+        "text": "SQL Injection"
+      },
+      {
+        "key": "D",
+        "text": "Brute Force Attack"
+      }
+    ],
+    "stem": "An employee receives an email appearing to be from their bank, asking them to click a link and verify their account details. This is an example of:",
+    "topicId": "ms7b6wv6nb9p8jrbjg0703kyds85pr21"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-4-cyber-attacks",
+    "topicTitle": "6.4 Cyber-Attacks",
+    "_id": "k977050jdtpz08eyvgkdzfb2dn85q873",
+    "correctKey": "C",
+    "explanation": "Unlike viruses that require a host file or user action to spread, worms are self-replicating standalone programs that propagate automatically across networks without human interaction.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dhzkaen64gphqgz2pcbjzzs85qbzc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trojan Horse"
+      },
+      {
+        "key": "B",
+        "text": "Virus"
+      },
+      {
+        "key": "C",
+        "text": "Worm"
+      },
+      {
+        "key": "D",
+        "text": "Spyware"
+      }
+    ],
+    "stem": "Which type of malware is designed to spread itself from one computer to another across a network without any human intervention?",
+    "topicId": "ms7b6wv6nb9p8jrbjg0703kyds85pr21"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-4-cyber-attacks",
+    "topicTitle": "6.4 Cyber-Attacks",
+    "_id": "k979dw0jzjsq48771ktjda3dkx85pbne",
+    "correctKey": "B",
+    "explanation": "SQL Injection exploits insufficient input validation in web applications by inserting malicious SQL statements into form fields, allowing attackers to manipulate or access the backend database directly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dhzkaen64gphqgz2pcbjzzs85qbzc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cross-Site Scripting (XSS)"
+      },
+      {
+        "key": "B",
+        "text": "SQL Injection"
+      },
+      {
+        "key": "C",
+        "text": "Man-in-the-Middle"
+      },
+      {
+        "key": "D",
+        "text": "Packet Sniffing"
+      }
+    ],
+    "stem": "Which attack involves inserting malicious code into a web form input field to gain unauthorized access to a backend database?",
+    "topicId": "ms7b6wv6nb9p8jrbjg0703kyds85pr21"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-5-security-methods",
+    "topicTitle": "6.5 Security Methods",
+    "_id": "k978jevyqdkvryykyw7drtamcs85p1aq",
+    "correctKey": "C",
+    "explanation": "MFA involves using two or more different categories of credentials (something you know like a password and something you are like a fingerprint).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76387d7p8vmz8xd24zsb0k5x85q0x3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Single-factor authentication"
+      },
+      {
+        "key": "B",
+        "text": "Biometric-only access"
+      },
+      {
+        "key": "C",
+        "text": "Multi-Factor Authentication (MFA)"
+      },
+      {
+        "key": "D",
+        "text": "Symmetric encryption"
+      }
+    ],
+    "stem": "A user logs into a banking app using a password and a fingerprint scan. This is an example of:",
+    "topicId": "ms70zv3f43kr4w4775g28yg9vd85q91b"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-5-security-methods",
+    "topicTitle": "6.5 Security Methods",
+    "_id": "k97e840h8dfpdx6kfdt188mhdd85q27p",
+    "correctKey": "D",
+    "explanation": "In asymmetric encryption, the sender uses the recipient's Public Key to encrypt the data so that only the recipient's Private Key can decrypt it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76387d7p8vmz8xd24zsb0k5x85q0x3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alice's Private Key"
+      },
+      {
+        "key": "B",
+        "text": "Alice's Public Key"
+      },
+      {
+        "key": "C",
+        "text": "Bob's Private Key"
+      },
+      {
+        "key": "D",
+        "text": "Bob's Public Key"
+      }
+    ],
+    "stem": "In Asymmetric Encryption, if Alice wants to send a secure message to Bob, which key should she use to encrypt the message?",
+    "topicId": "ms70zv3f43kr4w4775g28yg9vd85q91b"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-5-security-methods",
+    "topicTitle": "6.5 Security Methods",
+    "_id": "k977773b3wcwg140008bdbjprs85p8fe",
+    "correctKey": "B",
+    "explanation": "A firewall filters traffic between networks to prevent unauthorized access from external sources like the internet.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76387d7p8vmz8xd24zsb0k5x85q0x3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Antivirus Software"
+      },
+      {
+        "key": "B",
+        "text": "Firewall"
+      },
+      {
+        "key": "C",
+        "text": "Data Compression"
+      },
+      {
+        "key": "D",
+        "text": "Digital Signature"
+      }
+    ],
+    "stem": "Which security method is primarily designed to prevent unauthorized external access to a private local area network (LAN)?",
+    "topicId": "ms70zv3f43kr4w4775g28yg9vd85q91b"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-5-security-methods",
+    "topicTitle": "6.5 Security Methods",
+    "_id": "k973v34mg5128evhk8yschsjkd85p14c",
+    "correctKey": "C",
+    "explanation": "Digital signatures verify the sender's identity (authentication) and ensure that the content has not been altered (integrity), providing non-repudiation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76387d7p8vmz8xd24zsb0k5x85q0x3",
+    "options": [
+      {
+        "key": "A",
+        "text": "To compress the file size for faster transmission"
+      },
+      {
+        "key": "B",
+        "text": "To encrypt the entire document for confidentiality"
+      },
+      {
+        "key": "C",
+        "text": "To provide authentication and ensure non-repudiation"
+      },
+      {
+        "key": "D",
+        "text": "To remove viruses from an email attachment"
+      }
+    ],
+    "stem": "What is the primary purpose of a Digital Signature?",
+    "topicId": "ms70zv3f43kr4w4775g28yg9vd85q91b"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-6-safe-transmission-of-data",
+    "topicTitle": "6.6 Safe Transmission of Data",
+    "_id": "k979b7w56kgpmfb3n65xdr6htd85qydn",
+    "correctKey": "C",
+    "explanation": "The 'Key Exchange Problem' is the main drawback of symmetric encryption; if the single key is intercepted during sharing, the entire system is compromised.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bb7egtf3hcfa5rgbam0darh85qqxn",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is computationally slower."
+      },
+      {
+        "key": "B",
+        "text": "It requires a complex infrastructure of public keys."
+      },
+      {
+        "key": "C",
+        "text": "Securely sharing the secret key between parties is difficult."
+      },
+      {
+        "key": "D",
+        "text": "It cannot be used for large amounts of data."
+      }
+    ],
+    "stem": "What is the main disadvantage of Symmetric Encryption compared to Asymmetric Encryption?",
+    "topicId": "ms7dbj8dgwe4ba3rqbtp3jrfn185qs40"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-6-safe-transmission-of-data",
+    "topicTitle": "6.6 Safe Transmission of Data",
+    "_id": "k97affgb6rn4atamcj9yxhswsd85p66h",
+    "correctKey": "B",
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) uses SSL/TLS to encrypt communication between the client and the server.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bb7egtf3hcfa5rgbam0darh85qqxn",
+    "options": [
+      {
+        "key": "A",
+        "text": "HTTP over SSH"
+      },
+      {
+        "key": "B",
+        "text": "HTTP over SSL/TLS"
+      },
+      {
+        "key": "C",
+        "text": "FTP Secure"
+      },
+      {
+        "key": "D",
+        "text": "SMTP"
+      }
+    ],
+    "stem": "Which protocol is indicated by the 'https://' prefix in a URL, signifying a secure connection?",
+    "topicId": "ms7dbj8dgwe4ba3rqbtp3jrfn185qs40"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-6-safe-transmission-of-data",
+    "topicTitle": "6.6 Safe Transmission of Data",
+    "_id": "k9760hypd84fgm7986sfj24r0x85phqe",
+    "correctKey": "B",
+    "explanation": "Integrity ensures that data remains accurate and has not been tampered with or corrupted during transit. Checksums and hashes are common tools for this.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bb7egtf3hcfa5rgbam0darh85qqxn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "B",
+        "text": "Integrity"
+      },
+      {
+        "key": "C",
+        "text": "Availability"
+      },
+      {
+        "key": "D",
+        "text": "Authenticity"
+      }
+    ],
+    "stem": "Which component of the CIA triad is primarily protected when using a checksum to verify that a file was not corrupted during transmission?",
+    "topicId": "ms7dbj8dgwe4ba3rqbtp3jrfn185qs40"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-7-security-protocols",
+    "topicTitle": "6.7 Security Protocols",
+    "_id": "k97cvpeyq3dj2cgbhmgrmy5as985pb7f",
+    "correctKey": "C",
+    "explanation": "SSH (Secure Shell) replaces insecure protocols like Telnet by providing strong encryption and authentication for remote administration and command execution.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt4henamejqqgzn7zrwf9g185pr5c",
+    "options": [
+      {
+        "key": "A",
+        "text": "FTP"
+      },
+      {
+        "key": "B",
+        "text": "Telnet"
+      },
+      {
+        "key": "C",
+        "text": "SSH (Secure Shell)"
+      },
+      {
+        "key": "D",
+        "text": "SMTP"
+      }
+    ],
+    "stem": "Which protocol is specifically designed to provide secure remote login and command execution over a network?",
+    "topicId": "ms76rdpyhpajzmqczf6e48xavs85q0hp"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-7-security-protocols",
+    "topicTitle": "6.7 Security Protocols",
+    "_id": "k97dj4pxttwx8q9hjszycnvt7x85pnwq",
+    "correctKey": "C",
+    "explanation": "While HTTP uses port 80, HTTPS uses port 443 by default to handle SSL/TLS encrypted traffic between the browser and web server.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt4henamejqqgzn7zrwf9g185pr5c",
+    "options": [
+      {
+        "key": "A",
+        "text": "Port 80"
+      },
+      {
+        "key": "B",
+        "text": "Port 21"
+      },
+      {
+        "key": "C",
+        "text": "Port 443"
+      },
+      {
+        "key": "D",
+        "text": "Port 25"
+      }
+    ],
+    "stem": "In HTTPS, which port is typically used for secure communication?",
+    "topicId": "ms76rdpyhpajzmqczf6e48xavs85q0hp"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-7-security-protocols",
+    "topicTitle": "6.7 Security Protocols",
+    "_id": "k97e0hjecqd3tp165tyz3jnvfs85qr5j",
+    "correctKey": "A",
+    "explanation": "WPA2 and WPA3 are Wi-Fi security protocols that use advanced encryption standards (AES) to protect wireless networks, replacing the weaker WEP standard.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dt4henamejqqgzn7zrwf9g185pr5c",
+    "options": [
+      {
+        "key": "A",
+        "text": "WPA2/WPA3"
+      },
+      {
+        "key": "B",
+        "text": "HTTP"
+      },
+      {
+        "key": "C",
+        "text": "FTP"
+      },
+      {
+        "key": "D",
+        "text": "SNMP"
+      }
+    ],
+    "stem": "Which protocol is used to secure wireless networks by providing stronger data encryption than WEP?",
+    "topicId": "ms76rdpyhpajzmqczf6e48xavs85q0hp"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-identifying-a-cybersecurity-threat",
+    "topicTitle": "6.9 Identifying a Cybersecurity Threat",
+    "_id": "k974tnr25npdnbjvn9yknmh3xh85qxss",
+    "correctKey": "C",
+    "explanation": "A Denial of Service (DoS) attack targets 'Availability' by ensuring the system is not reachable or usable for authorized users.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e1a7byxvrmvyt021j8dhtm585p12w",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "B",
+        "text": "Integrity"
+      },
+      {
+        "key": "C",
+        "text": "Availability"
+      },
+      {
+        "key": "D",
+        "text": "Authenticity"
+      }
+    ],
+    "stem": "An attacker floods a web server with excessive requests to crash it. Which pillar of the CIA triad is being directly targeted?",
+    "topicId": "ms7dq5d3kc8kk9d0nwbgv1e3q585qc4h"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-identifying-a-cybersecurity-threat",
+    "topicTitle": "6.9 Identifying a Cybersecurity Threat",
+    "_id": "k977fszjysbnahanyjsnjrcz6x85pnnv",
+    "correctKey": "B",
+    "explanation": "Social Engineering targets human psychology rather than technical software flaws to gain unauthorized access.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e1a7byxvrmvyt021j8dhtm585p12w",
+    "options": [
+      {
+        "key": "A",
+        "text": "SQL Injection"
+      },
+      {
+        "key": "B",
+        "text": "Social Engineering"
+      },
+      {
+        "key": "C",
+        "text": "Zero-day Exploit"
+      },
+      {
+        "key": "D",
+        "text": "Brute Force Attack"
+      }
+    ],
+    "stem": "Which of the following is considered a 'Human-centric' cybersecurity threat?",
+    "topicId": "ms7dq5d3kc8kk9d0nwbgv1e3q585qc4h"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-identifying-a-cybersecurity-threat",
+    "topicTitle": "6.9 Identifying a Cybersecurity Threat",
+    "_id": "k97e8axw3153jbn2a0vttpmn1x85qyzx",
+    "correctKey": "C",
+    "explanation": "Vulnerabilities are the 'holes' or weaknesses in a system that threats exploit to cause harm.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e1a7byxvrmvyt021j8dhtm585p12w",
+    "options": [
+      {
+        "key": "A",
+        "text": "A malicious software program"
+      },
+      {
+        "key": "B",
+        "text": "A person attempting to hack a system"
+      },
+      {
+        "key": "C",
+        "text": "A flaw or weakness in a system's security"
+      },
+      {
+        "key": "D",
+        "text": "The impact of a successful data breach"
+      }
+    ],
+    "stem": "In the context of threat identification, what does a 'Vulnerability' represent?",
+    "topicId": "ms7dq5d3kc8kk9d0nwbgv1e3q585qc4h"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-identifying-a-cybersecurity-threat",
+    "topicTitle": "6.9 Identifying a Cybersecurity Threat",
+    "_id": "k97adhtmby8ybyrv6x3xma3rwd85p6qb",
+    "correctKey": "B",
+    "explanation": "Phishing involves using deceptive emails and websites to steal sensitive information like login credentials.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e1a7byxvrmvyt021j8dhtm585p12w",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ransomware"
+      },
+      {
+        "key": "B",
+        "text": "Phishing"
+      },
+      {
+        "key": "C",
+        "text": "Spyware"
+      },
+      {
+        "key": "D",
+        "text": "Adware"
+      }
+    ],
+    "stem": "A user receives an email that looks like it is from their bank, asking them to 'verify' their password on a linked website. This is an example of:",
+    "topicId": "ms7dq5d3kc8kk9d0nwbgv1e3q585qc4h"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-9-identifying-a-cybersecurity-threat",
+    "topicTitle": "6.9 Identifying a Cybersecurity Threat",
+    "_id": "k971brqdxrj2rwm69z20ysev3985pa9p",
+    "correctKey": "B",
+    "explanation": "Intrusion Detection involves monitoring network traffic and logs to identify suspicious activities that indicate a threat.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e1a7byxvrmvyt021j8dhtm585p12w",
+    "options": [
+      {
+        "key": "A",
+        "text": "Physical Security Audit"
+      },
+      {
+        "key": "B",
+        "text": "Intrusion Detection"
+      },
+      {
+        "key": "C",
+        "text": "Usability Testing"
+      },
+      {
+        "key": "D",
+        "text": "A/B Testing"
+      }
+    ],
+    "stem": "Which threat identification method involves analyzing system logs for unusual patterns of data egress?",
+    "topicId": "ms7dq5d3kc8kk9d0nwbgv1e3q585qc4h"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-11-computing-applications",
+    "topicTitle": "6.11 Computing Applications",
+    "_id": "k976ywtjjbbv3skrrcfgc76vwd85p099",
+    "correctKey": "B",
+    "explanation": "CRM software is specifically designed to manage customer relationships, track sales leads, and store customer interaction data to improve business relationships and retention.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fxeeqy5n0tdk8c3przq7twn85qgrg",
+    "options": [
+      {
+        "key": "A",
+        "text": "ERP (Enterprise Resource Planning)"
+      },
+      {
+        "key": "D",
+        "text": "DBMS (Database Management System)"
+      },
+      {
+        "key": "B",
+        "text": "CRM (Customer Relationship Management)"
+      },
+      {
+        "key": "C",
+        "text": "SCM (Supply Chain Management)"
+      }
+    ],
+    "stem": "Which type of application software is specifically designed to manage a company's interactions with current and potential customers?",
+    "topicId": "ms7e6yg236x6nn3pb25ech58eh85qbbt"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-11-computing-applications",
+    "topicTitle": "6.11 Computing Applications",
+    "_id": "k970x6x82b8rzn6svwqx1abqtd85qn59",
+    "correctKey": "B",
+    "explanation": "Interoperability in healthcare IT means different medical software systems and databases can share patient records accurately and securely, improving care coordination and reducing errors.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fxeeqy5n0tdk8c3przq7twn85qgrg",
+    "options": [
+      {
+        "key": "B",
+        "text": "The ability of different health information systems to work together and exchange data"
+      },
+      {
+        "key": "A",
+        "text": "The speed of the internet connection in a hospital"
+      },
+      {
+        "key": "C",
+        "text": "The use of robots in surgery"
+      },
+      {
+        "key": "D",
+        "text": "The encryption of patient passwords"
+      }
+    ],
+    "stem": "In the context of healthcare computing applications, what does 'Interoperability' refer to?",
+    "topicId": "ms7e6yg236x6nn3pb25ech58eh85qbbt"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-11-computing-applications",
+    "topicTitle": "6.11 Computing Applications",
+    "_id": "k977qnnc7km1vy23t88nbasrxs85p5ev",
+    "correctKey": "B",
+    "explanation": "E-Learning allows students to access course materials at their own pace (asynchronous) from any location, removing geographic and time constraints that exist in traditional classrooms.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fxeeqy5n0tdk8c3przq7twn85qgrg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Elimination of the need for instructors"
+      },
+      {
+        "key": "C",
+        "text": "Lower hardware requirements for students"
+      },
+      {
+        "key": "D",
+        "text": "Guaranteed higher academic grades"
+      },
+      {
+        "key": "B",
+        "text": "Asynchronous learning and geographical flexibility"
+      }
+    ],
+    "stem": "Which of the following is a primary benefit of E-Learning applications over traditional classroom instruction?",
+    "topicId": "ms7e6yg236x6nn3pb25ech58eh85qbbt"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-11-computing-applications",
+    "topicTitle": "6.11 Computing Applications",
+    "_id": "k97dwz4ea9j7fdj382vq154nws85p5yy",
+    "correctKey": "B",
+    "explanation": "Integrity ensures that data remains accurate and unmodified during transmission or storage. Preventing unauthorized alteration of transaction data is a core integrity requirement in banking applications.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fxeeqy5n0tdk8c3przq7twn85qgrg",
+    "options": [
+      {
+        "key": "B",
+        "text": "Integrity"
+      },
+      {
+        "key": "C",
+        "text": "Availability"
+      },
+      {
+        "key": "A",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "D",
+        "text": "Authenticity"
+      }
+    ],
+    "stem": "When a banking application ensures that a transaction amount cannot be altered by an unauthorized party during transmission, which pillar of the CIA triad is it upholding?",
+    "topicId": "ms7e6yg236x6nn3pb25ech58eh85qbbt"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-11-computing-applications",
+    "topicTitle": "6.11 Computing Applications",
+    "_id": "k975v7xjtd90z7g5nsbvxzjczd85p863",
+    "correctKey": "B",
+    "explanation": "CAD software is the industry standard tool in engineering and architecture for creating precise 2D drawings and 3D models of mechanical parts, buildings, and infrastructure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fxeeqy5n0tdk8c3przq7twn85qgrg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Financial Accounting"
+      },
+      {
+        "key": "B",
+        "text": "Engineering and Architecture"
+      },
+      {
+        "key": "D",
+        "text": "Database Administration"
+      },
+      {
+        "key": "C",
+        "text": "Social Media Marketing"
+      }
+    ],
+    "stem": "CAD (Computer-Aided Design) applications are most commonly used in which professional field?",
+    "topicId": "ms7e6yg236x6nn3pb25ech58eh85qbbt"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-12-resources-for-equal-information-accessibility",
+    "topicTitle": "6.12 Resources for Equal Information Accessibility",
+    "_id": "k97947yevpkt5msjekgerycd5n85qc4n",
+    "correctKey": "B",
+    "explanation": "Equal accessibility focuses on removing barriers so that everyone, including those with disabilities, has the same opportunity to access information.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77j5tdpzj4vhvn749mjrnpyh85pej4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Providing high-speed internet to urban areas only."
+      },
+      {
+        "key": "B",
+        "text": "Ensuring all users, regardless of disability or status, can access and use information."
+      },
+      {
+        "key": "C",
+        "text": "Restricting information to authorized personnel only."
+      },
+      {
+        "key": "D",
+        "text": "Increasing the cost of digital resources to improve quality."
+      }
+    ],
+    "stem": "Which of the following best describes the goal of 'Equal Information Accessibility'?",
+    "topicId": "ms7epkzby5jh64xhsp2cq7f62985q8k6"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-12-resources-for-equal-information-accessibility",
+    "topicTitle": "6.12 Resources for Equal Information Accessibility",
+    "_id": "k972h0kcectsrfmge5m414png585qf0q",
+    "correctKey": "B",
+    "explanation": "The 'Operable' principle requires that users must be able to operate the interface, which includes keyboard navigation for those who cannot use a mouse.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77j5tdpzj4vhvn749mjrnpyh85pej4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Perceivable"
+      },
+      {
+        "key": "B",
+        "text": "Operable"
+      },
+      {
+        "key": "C",
+        "text": "Understandable"
+      },
+      {
+        "key": "D",
+        "text": "Robust"
+      }
+    ],
+    "stem": "Under the POUR principles, making a website navigable via keyboard alone falls under which category?",
+    "topicId": "ms7epkzby5jh64xhsp2cq7f62985q8k6"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-12-resources-for-equal-information-accessibility",
+    "topicTitle": "6.12 Resources for Equal Information Accessibility",
+    "_id": "k97c3hcnfwbmbhdj96jggdastd85pnrh",
+    "correctKey": "C",
+    "explanation": "Screen readers translate on-screen text into speech or Braille, making digital content accessible to the blind or visually impaired.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77j5tdpzj4vhvn749mjrnpyh85pej4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Subtitles"
+      },
+      {
+        "key": "B",
+        "text": "High-definition monitors"
+      },
+      {
+        "key": "C",
+        "text": "Screen Readers"
+      },
+      {
+        "key": "D",
+        "text": "Color-coded buttons"
+      }
+    ],
+    "stem": "Which resource is specifically designed to assist users with visual impairments in navigating web content?",
+    "topicId": "ms7epkzby5jh64xhsp2cq7f62985q8k6"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "06-impacts-of-computing",
+    "chapterTitle": "Impacts Of Computing",
+    "topicSlug": "6-12-resources-for-equal-information-accessibility",
+    "topicTitle": "6.12 Resources for Equal Information Accessibility",
+    "_id": "k97fknfmt0v0352f51ekaqsysd85praf",
+    "correctKey": "B",
+    "explanation": "OERs provide free, openly licensed materials that ensure students regardless of economic status have access to quality learning resources.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77j5tdpzj4vhvn749mjrnpyh85pej4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proprietary expensive software"
+      },
+      {
+        "key": "B",
+        "text": "Open Educational Resources (OER)"
+      },
+      {
+        "key": "C",
+        "text": "Restricted access journals"
+      },
+      {
+        "key": "D",
+        "text": "High-latency satellite links"
+      }
+    ],
+    "stem": "Which of the following is a resource for bridging the digital divide in education?",
+    "topicId": "ms7epkzby5jh64xhsp2cq7f62985q8k6"
+  }
+]

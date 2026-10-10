@@ -1,0 +1,134 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Antiderivatives and the Power Rule for Integration",
+    "_id": "k973ngygjh98pdwpc18v469sfh85qkv3",
+    "correctKey": "C",
+    "explanation": "The power rule $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}+C$ fails for $n=-1$ because the denominator becomes zero. The special case $\\int x^{-1}\\,dx = \\ln|x| + C$ is a fundamental result.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fw6b17nbtaa35f6jcjqd44s85qrsa",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{x^0}{0} + C$"
+      },
+      {
+        "key": "B",
+        "text": "$x^{-1} + C$"
+      },
+      {
+        "key": "C",
+        "text": "$\\ln|x| + C$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\frac{1}{x^2} + C$"
+      }
+    ],
+    "stem": "What is the result of $\\int \\frac{1}{x} \\, dx$?",
+    "topicId": "ms7avp8r5098f68d076pp07a2985qpeb"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Integration by Substitution",
+    "_id": "k9738x4cekt8400yb4q1y59tk985pqmc",
+    "correctKey": "B",
+    "explanation": "Completing the square: $20 - x^2 - 4x = 24 - (x+2)^2$. This fits the standard form $\\sqrt{a^2-u^2}$ with $a=\\sqrt{24}$ and $u=x+2$, allowing use of $\\int \\frac{du}{\\sqrt{a^2-u^2}} = \\sin^{-1}\\left(\\frac{u}{a}\\right)+C$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72rcsayds4hatwhg5h6whnjd85qefq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Partial fraction decomposition"
+      },
+      {
+        "key": "B",
+        "text": "Completing the square to get $\\sqrt{a^2-(x+h)^2}$"
+      },
+      {
+        "key": "C",
+        "text": "Multiplying by the conjugate"
+      },
+      {
+        "key": "D",
+        "text": "Substitution $u = x^2$"
+      }
+    ],
+    "stem": "When faced with $\\int \\frac{dx}{\\sqrt{20-x^2-4x}}$, what is the required algebraic manipulation before integrating?",
+    "topicId": "ms7fe30txqvh65vcrxmeyqt2rn85qek1"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Integration by Parts",
+    "_id": "k97fkf7b82xw6h4v9tr1df67y985ppad",
+    "correctKey": "C",
+    "explanation": "Cyclic integrals return to their original form after two applications of integration by parts. The resulting equation $2I = e^x(\\sin x + \\cos x)$ is then solved algebraically for $I$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72qak63vrr1ss97ed152pfxx85q8cf",
+    "options": [
+      {
+        "key": "A",
+        "text": "The integral has no solution."
+      },
+      {
+        "key": "B",
+        "text": "The integral will eventually become zero."
+      },
+      {
+        "key": "C",
+        "text": "Apply integration by parts twice, then solve for the integral $I$ algebraically by collecting like terms."
+      },
+      {
+        "key": "D",
+        "text": "Use a trigonometric identity to remove the exponential."
+      }
+    ],
+    "stem": "When evaluating $\\int e^x \\cos x \\, dx$, the integral is found to be cyclic. What does this imply about the solution process?",
+    "topicId": "ms722m80t5ja8mb1v9xp3zjpts85pz6k"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-6",
+    "topicTitle": "3.6 Definite Integrals as Signed Area",
+    "_id": "k97ed8xs86rby17q6mrv78r78585q170",
+    "correctKey": "C",
+    "explanation": "The function definition changes at $x=1$. The integral must be split at this boundary, using $x$ for the interval $[-1, 1]$ and $3$ for $[1, 2]$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx706adtrs8r0e6f9fkw4jekb985q1q7",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\int_{-1}^{2} x \\, dx$"
+      },
+      {
+        "key": "B",
+        "text": "$\\int_{-1}^{2} 3 \\, dx$"
+      },
+      {
+        "key": "C",
+        "text": "$\\int_{-1}^{1} x \\, dx + \\int_{1}^{2} 3 \\, dx$"
+      },
+      {
+        "key": "D",
+        "text": "$\\int_{-1}^{1} 3 \\, dx + \\int_{1}^{2} x \\, dx$"
+      }
+    ],
+    "stem": "To evaluate $\\int_{-1}^{2} f(x) \\, dx$ where $f(x) = x$ for $x \\leq 1$ and $f(x) = 3$ for $x > 1$, which setup is correct?",
+    "topicId": "ms7a6bfkqfywwa1pc5w22fz29h85qbat"
+  }
+]

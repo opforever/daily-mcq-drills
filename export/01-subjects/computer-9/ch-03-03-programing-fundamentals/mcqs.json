@@ -1,0 +1,212 @@
+[
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-1-introduction",
+    "topicTitle": "3.1 Introduction",
+    "_id": "k9751pxapg82nr2yp5w0n9090h8d3vp4",
+    "correctKey": "A",
+    "explanation": "The corpus defines a webpage as an internet-accessible document and a website as a set of webpages.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74rm0bcar9s8fwer5y24asgn8btfb2",
+    "options": [
+      {
+        "key": "A",
+        "text": "A webpage is a document; a website is a set of webpages."
+      },
+      {
+        "key": "B",
+        "text": "A webpage is a set of servers; a website is one tag."
+      },
+      {
+        "key": "C",
+        "text": "A webpage is only an image; a website is only a video."
+      },
+      {
+        "key": "D",
+        "text": "There is no difference."
+      }
+    ],
+    "sectionId": "web-and-website",
+    "sectionLabel": "Web and Website",
+    "stem": "Which statement correctly distinguishes a webpage from a website?",
+    "topicId": "ms7c6hh9phk1qw75m4nvr90aqs8bvcfm"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "k977efr5ytn3kk0k06we568zb98d2aa9",
+    "correctKey": "A",
+    "explanation": "The corpus says HTML defines and displays webpage content and uses tags to identify components.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bnq3ya2pa46tewwff5dz0s98btv9a",
+    "options": [
+      {
+        "key": "A",
+        "text": "Define and display webpage content using tags."
+      },
+      {
+        "key": "B",
+        "text": "Store browser history."
+      },
+      {
+        "key": "C",
+        "text": "Draw only hardware diagrams."
+      },
+      {
+        "key": "D",
+        "text": "Manage a server without a webpage."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What is HTML primarily used to do?",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-3-cascading-style-sheets-css",
+    "topicTitle": "3.3 Cascading Style Sheets (Css)",
+    "_id": "k9742kvkdghzrd582y9j9amef58d3wpw",
+    "correctKey": "A",
+    "explanation": "The corpus distinguishes HTML content from CSS, which handles the webpage scheme, arrangement, presentation, and component look.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dx6anyscjv9n6xap24v3mc98bv203",
+    "options": [
+      {
+        "key": "A",
+        "text": "The look, arrangement, and presentation of components."
+      },
+      {
+        "key": "B",
+        "text": "The meaning of a URL only."
+      },
+      {
+        "key": "C",
+        "text": "The browser’s saved passwords."
+      },
+      {
+        "key": "D",
+        "text": "The physical keyboard layout."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What does CSS mainly handle in an HTML webpage?",
+    "topicId": "ms7e6zp0grntywgfnk3n381kch8bvzka"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "k97dmvmr6msdd7ygjj1ba42wt58d379n",
+    "correctKey": "A",
+    "explanation": "The corpus defines a variable as an entity storing a value for later use and names number, string, and Boolean values.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73fagbt4sk9y6dsq36y4d81x8bvbb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "It stores a value for later use."
+      },
+      {
+        "key": "B",
+        "text": "It must always start with a number."
+      },
+      {
+        "key": "C",
+        "text": "It can store only images."
+      },
+      {
+        "key": "D",
+        "text": "It is a browser window."
+      }
+    ],
+    "sectionId": "variables",
+    "sectionLabel": "Variables",
+    "stem": "Which statement about a JavaScript variable is correct?",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-5-debug-the-code",
+    "topicTitle": "3.5 Debug the Code",
+    "_id": "k97afv6fdahezx09fw9tz2j0q18d29mj",
+    "correctKey": "A",
+    "explanation": "The textbook explicitly defines debugging as locating an error or bug in code.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ajb86nder1a77ek5t9egy2d8bveyj",
+    "options": [
+      {
+        "key": "A",
+        "text": "To locate an error or bug in code."
+      },
+      {
+        "key": "B",
+        "text": "To add random errors to a program."
+      },
+      {
+        "key": "C",
+        "text": "To replace every variable with an image."
+      },
+      {
+        "key": "D",
+        "text": "To disconnect a webpage from its server."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What is the purpose of debugging?",
+    "topicId": "ms7e4jdr5kdhh6g87rngamnden8bv1va"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-6-create-a-dynamic-website",
+    "topicTitle": "3.6 Create a Dynamic Website",
+    "_id": "k9767s0f9fjhpsyfvrw8hmnwxn8d3yab",
+    "correctKey": "A",
+    "explanation": "The corpus states that a dynamic website changes with user input and can be created with JavaScript, HTML, and CSS.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bt56drjvqfxjv4pwdgbwnas8bvaq0",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its content changes according to user input or choice."
+      },
+      {
+        "key": "B",
+        "text": "Its content can never change."
+      },
+      {
+        "key": "C",
+        "text": "It works only without a browser."
+      },
+      {
+        "key": "D",
+        "text": "It is made only of printed pages."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What is a characteristic of a dynamic website?",
+    "topicId": "ms7d9ycaze8h2n3v2zfrr5fe9d8bv54p"
+  }
+]

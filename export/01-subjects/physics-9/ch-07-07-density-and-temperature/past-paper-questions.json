@@ -1,0 +1,1324 @@
+[
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-1-density",
+    "topicTitle": "7.1 Density",
+    "_id": "m177hfk6xg7g7qt5bxzn3nqzrs8e19qb",
+    "correctKey": "D",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Density is mass per unit volume, an intensive property independent of the amount of substance; all samples of water at the same temperature have the same density.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "100 g"
+      },
+      {
+        "key": "B",
+        "text": "1 kg"
+      },
+      {
+        "key": "C",
+        "text": "1 ton"
+      },
+      {
+        "key": "D",
+        "text": "All have same density"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Which amount of water has greater density at room temperature?",
+    "topicId": "ms7cx4338gmc0y0cf3tr1wjgb58bvygs"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-1-density",
+    "topicTitle": "7.1 Density",
+    "_id": "m178wvemdh3bvyaf29xmb1sb2d8e0et0",
+    "correctKey": "C",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Mass = density x volume = 50 kg/m3 x 5 m3 = 250 kg.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "200 kg"
+      },
+      {
+        "key": "B",
+        "text": "225 kg"
+      },
+      {
+        "key": "C",
+        "text": "250 kg"
+      },
+      {
+        "key": "D",
+        "text": "275 kg"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "What is mass of a liquid of density 50 kg/m3 in a container of volume 5 m3?",
+    "topicId": "ms7cx4338gmc0y0cf3tr1wjgb58bvygs"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-1-density",
+    "topicTitle": "7.1 Density",
+    "_id": "m1714s7dcra6dadp92960pygbx8e1102",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Liquid A (density 1 g/mL) floats on top of liquid B (density 1.2 g/mL) because a less dense liquid experiences a net upward buoyant effect relative to a denser liquid beneath it; the denser liquid B settles at the bottom.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Two liquids A and B have densities 1 g/mL and 1.2 g/mL respectively. When both liquids are poured into a container, one liquid floats on top of the other. Which liquid is on top, and why?",
+    "topicId": "ms7cx4338gmc0y0cf3tr1wjgb58bvygs"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m171chq2tp5vmsmx968q73ats58e0xgd",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The body's volume can be found by water displacement: submerge the body in a large tank of water and measure the volume of water displaced (equal to body volume), e.g. using a spirometer-style overflow tank. Density is then found by dividing the body's mass (measured on a scale) by this measured volume.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Write a method to find the volume and density of a human body.",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m17961xz6g3523zx75365xv9xs8e0f8t",
+    "exerciseId": "xd7d4sydnrms1frbke0aye39p98e1fd2",
+    "exerciseTitle": "Exercise 7: Long Response Questions",
+    "keyPoints": [
+      "Density is mass per unit volume of a substance (rho = m/V).",
+      "Regular solid: measure mass with a balance, calculate volume from its geometric dimensions (e.g. length x width x height for a cuboid), then divide mass by volume.",
+      "Irregular solid: measure mass with a balance, find volume by water displacement in a measuring cylinder or eureka can.",
+      "Liquid: weigh an empty measuring cylinder, then weigh it with a known volume of liquid; the mass difference divided by the volume gives density.",
+      "Gas: weigh an evacuated flask of known volume, then weigh it filled with the gas at known conditions; the mass difference divided by the flask's volume gives the gas's density."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Long Response Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Define density. Describe methods to determine densities of regular and irregular-shaped solids, liquids and gases.",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m17fy4bzkty8rbbwcxe5yf436s8e0mwq",
+    "exerciseId": "xd745eae3002jjfv3g2e541gbx8e0p0c",
+    "exerciseTitle": "Exercise 7: Numerical Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Wooden block: density = 300 g / 150 cm3 = 2 g/mL. Metal ball: density = 500 g / 50 cm3 = 10 g/mL. The metal ball is denser. (Ans. 2 g/mL, 10 g/mL, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Numerical Response Questions",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Sarah has two objects, a wooden block and a metal ball. The wooden block has a mass of 300 g and a volume of 150 cm3. The metal ball has a mass of 500 g and a volume of 50 cm3. Calculate the density of each object and determine which one is denser.",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m17bq5er2c2spsbbt659j6d1ys8e0vc1",
+    "exerciseId": "xd745eae3002jjfv3g2e541gbx8e0p0c",
+    "exerciseTitle": "Exercise 7: Numerical Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Density = mass/volume = 450 g / 500 mL = 0.9 g/mL. (Ans. 0.9 g/mL, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Numerical Response Questions",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "You have a container with 500 milliliters of cooking oil, and it has a mass of 450 grams. Calculate the density of the cooking oil in grams per milliliter (g/mL).",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m172ckb907tcx1cyv3x577rfnn8e0r4c",
+    "exerciseId": "xd745eae3002jjfv3g2e541gbx8e0p0c",
+    "exerciseTitle": "Exercise 7: Numerical Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Volume = 70 x 10 x 30 = 21000 cm3. Density = 2500 g / 21000 cm3 ~= 0.12 g/cm3. (Ans. 0.12 g/cm3, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Numerical Response Questions",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "A 70 cm x 10 cm x 30 cm plastic box has mass of 2500 g. Find the density of plastic.",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m172z21ej6fzh2q4jnmsrzc12d8e0h0r",
+    "exerciseId": "xd745eae3002jjfv3g2e541gbx8e0p0c",
+    "exerciseTitle": "Exercise 7: Numerical Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Radius = 12.5 cm = 0.125 m. Volume of sphere $= \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi (0.125)^3 \\approx 8.181\\times10^{-3}\\ \\mathrm{m^3}$. Mass = density x volume $\\approx 2700 \\times 8.181\\times10^{-3} \\approx 22.1$ kg. (Ans. 22 kg, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Numerical Response Questions",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Aluminum has a density of 2700 kg/m3. Find the mass of a solid 25 cm diameter aluminum ball.",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m17bh2xz2t55d0gh3qypgapapx8e1njw",
+    "exerciseId": "xd745eae3002jjfv3g2e541gbx8e0p0c",
+    "exerciseTitle": "Exercise 7: Numerical Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Cube volume = 10^3 = 1000 cm3. Using iron's density ~7.874 g/cm3, the solid iron present has volume = mass/density = 500 g / 7.874 g/cm3 ~= 63.5 cm3. Cavity volume = 1000 - 63.5 ~= 936.5 cm3, matching the textbook's printed answer. (Ans. 935.9 cm3, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Numerical Response Questions",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "A cube of iron has a side length of 10 cm. What is volume of this cube? Mass of this iron cube is half a kilogram. This cube has a cavity inside it, find the volume of the cavity.",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-2-measuring-densities-of-different-substances",
+    "topicTitle": "7.2 Measuring Densities of Different Substances",
+    "_id": "m176qm5cr1j3qxfqvc414czcxh8e0m2z",
+    "exerciseId": "xd745eae3002jjfv3g2e541gbx8e0p0c",
+    "exerciseTitle": "Exercise 7: Numerical Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Volume = 73 - 40 = 33 mL. Density = mass/volume = 200 g / 33 mL ~= 6.06 g/mL. (Ans. 33 mL, 6.1 g/mL, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Numerical Response Questions",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Mass of an irregular shaped stone is 200 grams. When it is lowered in a measuring cylinder, it raises the water level from 40 mL to 73 mL. Find the volume and density of this stone.",
+    "topicId": "ms70vqvqcc1z24297at137gmch8bta85"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-3-states-of-matter",
+    "topicTitle": "7.3 States of Matter",
+    "_id": "m175zyz8sanv45k3ykyym2tvbd8e1721",
+    "correctKey": "D",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "The classical phases are solid, liquid, gas and plasma -- four in total.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "How many phases of matter are there?",
+    "topicId": "ms72664sp54wzf1gdxm2wnvd7n8bv405"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-3-states-of-matter",
+    "topicTitle": "7.3 States of Matter",
+    "_id": "m171j5zb6me0ac3n7vkxanefe98e1h30",
+    "correctKey": "A",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "In a solid, particles are held in fixed positions by strong bonds and can only vibrate about those positions.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Solid"
+      },
+      {
+        "key": "B",
+        "text": "Liquids"
+      },
+      {
+        "key": "C",
+        "text": "Gas"
+      },
+      {
+        "key": "D",
+        "text": "Plasma"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "In which of the materials, particles have only vibrational motion?",
+    "topicId": "ms72664sp54wzf1gdxm2wnvd7n8bv405"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-3-states-of-matter",
+    "topicTitle": "7.3 States of Matter",
+    "_id": "m17baz7tz3b3f0j6d6g5p7k9jn8e15kr",
+    "correctKey": "C",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Both gases and liquids can flow and take the shape of their container, so together they are classed as fluids.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Liquids"
+      },
+      {
+        "key": "B",
+        "text": "Gases"
+      },
+      {
+        "key": "C",
+        "text": "Fluids"
+      },
+      {
+        "key": "D",
+        "text": "Solids"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Gases and liquids are categorized as:",
+    "topicId": "ms72664sp54wzf1gdxm2wnvd7n8bv405"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-3-states-of-matter",
+    "topicTitle": "7.3 States of Matter",
+    "_id": "m173p9bw6339xe3ez9m23csf7s8e0nw4",
+    "correctKey": "B",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Gas particles have high kinetic energy and move randomly with large separations; among the options, moderate/random motion is the closest description of a gas's disordered, energetic particles compared to a solid's fixed lattice.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Particles are tightly packed and have strong bonds."
+      },
+      {
+        "key": "B",
+        "text": "Particles have moderate kinetic energy and move randomly."
+      },
+      {
+        "key": "C",
+        "text": "Particles are arranged in a repeating pattern."
+      },
+      {
+        "key": "D",
+        "text": "Particles have fixed positions and low kinetic energy."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Which statement describes the particle structure of gases?",
+    "topicId": "ms72664sp54wzf1gdxm2wnvd7n8bv405"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-3-states-of-matter",
+    "topicTitle": "7.3 States of Matter",
+    "_id": "m177jh7qtf2j1bx38amqbvwg8h8e1zr4",
+    "correctKey": "C",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Gas particles are widely spaced and weakly bound, so gases are highly compressible and expand to fill any container.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Solid"
+      },
+      {
+        "key": "B",
+        "text": "Liquid"
+      },
+      {
+        "key": "C",
+        "text": "Gas"
+      },
+      {
+        "key": "D",
+        "text": "Plasma"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Which state of matter has particles that are highly compressible and can fill any container?",
+    "topicId": "ms72664sp54wzf1gdxm2wnvd7n8bv405"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-3-states-of-matter",
+    "topicTitle": "7.3 States of Matter",
+    "_id": "m176nr6hq8x9hx7p8ttf9vkc1x8e01jk",
+    "correctKey": "B",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Melting increases particle separation and mobility compared to the tightly-fixed solid lattice.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Particles become more closely packed."
+      },
+      {
+        "key": "B",
+        "text": "Particles move farther apart."
+      },
+      {
+        "key": "C",
+        "text": "Particles start vibrating in fixed positions."
+      },
+      {
+        "key": "D",
+        "text": "Particles change their state from solid to gas."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "What happens to the arrangement of particles when a solid is heated and turns into a liquid?",
+    "topicId": "ms72664sp54wzf1gdxm2wnvd7n8bv405"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-3-states-of-matter",
+    "topicTitle": "7.3 States of Matter",
+    "_id": "m177sc3d8g23zhhhhvy9rp2e4s8e09s0",
+    "exerciseId": "xd7d4sydnrms1frbke0aye39p98e1fd2",
+    "exerciseTitle": "Exercise 7: Long Response Questions",
+    "keyPoints": [
+      "Solids: strong interparticle attractive forces hold particles in fixed positions; particles only vibrate about those positions.",
+      "Liquids: moderate attractive forces let particles stay close together but move/slide past one another, so liquids flow but keep a fixed volume.",
+      "Gases: very weak attractive forces allow particles to move freely and rapidly in random directions over large separations, so gases have neither fixed shape nor fixed volume."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Long Response Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "How would you distinguish between solids, liquids and gases on the basis of attractive forces between particles and the motion of particles?",
+    "topicId": "ms72664sp54wzf1gdxm2wnvd7n8bv405"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-4-plasma-as-a-fourth-state-of-matter",
+    "topicTitle": "7.4 Plasma as a Fourth State of Matter",
+    "_id": "m1769j17wtzhnqv01f3tzjn8h98e1v7h",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Plasma is an ionized gas consisting of free electrons and positive ions rather than neutral atoms/molecules; it has distinct properties from solids, liquids and gases (e.g. it conducts electricity and responds to magnetic fields), so it is classified as a separate, fourth state of matter.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "How is plasma the fourth state of matter? Give a reason.",
+    "topicId": "ms7c8z22mc0ey57v1wk756fks98bt8ek"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-5-relationship-between-the-motion-of-particles-and-temperature",
+    "topicTitle": "7.5 Relationship Between the Motion of Particles and Temperature",
+    "_id": "m17b30rsddr802501ef7mfm6b58e1bg7",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Absolute zero (-273.15 degrees C) is the theoretical temperature at which particles have the minimum possible kinetic energy (ideally zero) and thermal motion ceases; it is the lower limit of the thermodynamic temperature scale. It cannot be achieved in practice; the third law of thermodynamics implies it can only be approached arbitrarily closely, never fully reached.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Why is -273.15 degrees C temperature called absolute zero? Can we achieve this temperature?",
+    "topicId": "ms77mk9k8tbsh1f0jg5mdhr9hd8bt5cs"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-6-internal-energy-and-temperature-of-a-substance",
+    "topicTitle": "7.6 Internal Energy and Temperature of a Substance",
+    "_id": "m1781h45h60gqsr5gaa7vf36s98e0sr9",
+    "correctKey": "D",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Internal energy is the sum of the kinetic and potential (including bond/chemical) energies of a substance's particles; light energy is not a component of a substance's internal energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Kinetic energy of the particles"
+      },
+      {
+        "key": "B",
+        "text": "Potential energy of the particles"
+      },
+      {
+        "key": "C",
+        "text": "Chemical energy of the bonds between the particles"
+      },
+      {
+        "key": "D",
+        "text": "Light energy"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Which of the following is NOT a form of internal energy?",
+    "topicId": "ms78dxx985pg3880kmctemmft58bv1pp"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-6-internal-energy-and-temperature-of-a-substance",
+    "topicTitle": "7.6 Internal Energy and Temperature of a Substance",
+    "_id": "m17famwh7jgpt6ecn7yb2z3ngh8e1wcm",
+    "correctKey": "C",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "The internal energy of an ideal gas depends only on its temperature; at constant temperature it remains unchanged regardless of volume/expansion.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Increases"
+      },
+      {
+        "key": "B",
+        "text": "Decreases"
+      },
+      {
+        "key": "C",
+        "text": "Remains the same"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "When an ideal gas is expanded keeping its temperature constant, its internal energy",
+    "topicId": "ms78dxx985pg3880kmctemmft58bv1pp"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-6-internal-energy-and-temperature-of-a-substance",
+    "topicTitle": "7.6 Internal Energy and Temperature of a Substance",
+    "_id": "m176xp2qtsq07ztw2pqe8t66jn8e1hsj",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes. Internal energy can increase without a temperature rise during a phase change (e.g. melting or boiling), where added heat goes into increasing the potential energy of particles (breaking bonds/separating them) rather than their kinetic energy, so temperature stays constant while internal energy increases.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Can we increase internal energy of a substance without increasing its temperature?",
+    "topicId": "ms78dxx985pg3880kmctemmft58bv1pp"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-8-variation-in-physical-properties-as-a-tool-for-measuring-temperature-of-a-substance",
+    "topicTitle": "7.8 Variation in Physical Properties as a Tool for Measuring Temperature of a Substance",
+    "_id": "m17fchknpsdzjtyq56vrsw1wp58e0s04",
+    "correctKey": "C",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "A mercury-in-glass thermometer uses the thermal expansion (change in volume) of mercury to indicate temperature.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Electrical resistance"
+      },
+      {
+        "key": "B",
+        "text": "Pressure"
+      },
+      {
+        "key": "C",
+        "text": "Volume"
+      },
+      {
+        "key": "D",
+        "text": "Colour"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Which of the following physical properties is used in a mercury thermometer?",
+    "topicId": "ms7an82a385nrhwjtst3dn5kgd8btyce"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-8-variation-in-physical-properties-as-a-tool-for-measuring-temperature-of-a-substance",
+    "topicTitle": "7.8 Variation in Physical Properties as a Tool for Measuring Temperature of a Substance",
+    "_id": "m1710yv7bp50w3qrjhzft4v7018e156f",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Fixed points (like the ice point and steam point of water) give reproducible reference temperatures so that different thermometers can be calibrated consistently against the same scale. Difficulties include impurities in the reference substance changing its melting/boiling point, variation of boiling point with atmospheric pressure, and ensuring the thermometer reaches true thermal equilibrium with the fixed-point substance before reading.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Why are fixed point scales required for thermometers? What difficulties are there when setting fixed points for thermometer scales?",
+    "topicId": "ms7an82a385nrhwjtst3dn5kgd8btyce"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-8-variation-in-physical-properties-as-a-tool-for-measuring-temperature-of-a-substance",
+    "topicTitle": "7.8 Variation in Physical Properties as a Tool for Measuring Temperature of a Substance",
+    "_id": "m175vkcabhdd3ny1xz3p4190pd8e1ra2",
+    "exerciseId": "xd7d4sydnrms1frbke0aye39p98e1fd2",
+    "exerciseTitle": "Exercise 7: Long Response Questions",
+    "keyPoints": [
+      "Volume/length of a liquid (e.g. mercury) expands predictably with temperature, which is used in liquid-in-glass thermometers by reading the liquid column's position against a calibrated scale.",
+      "Electrical resistance of a metal wire changes with temperature in a predictable way, which is used in resistance thermometers by measuring resistance and converting it to a temperature reading.",
+      "Both properties are calibrated against fixed reference points (e.g. ice point, steam point) so that the varying property can be read as a temperature value."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Long Response Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Describe two different physical properties that vary with temperature and explain how these properties can be used to measure temperature.",
+    "topicId": "ms7an82a385nrhwjtst3dn5kgd8btyce"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-10-sensitivity-range-and-linearity-of-thermometres",
+    "topicTitle": "7.10 Sensitivity, Range and Linearity of Thermometres",
+    "_id": "m1742eacqf5q3st33e2b76gb8s8c69a5",
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Range"
+      },
+      {
+        "key": "B",
+        "text": "Linearity"
+      },
+      {
+        "key": "C",
+        "text": "Sensitivity"
+      },
+      {
+        "key": "D",
+        "text": "Reliability"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "The ability of a thermometer to show temperature variations uniformly and equally is called:",
+    "topicId": "ms76j33fzn17tdkawtpgabzy2n8bt6yy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-10-sensitivity-range-and-linearity-of-thermometres",
+    "topicTitle": "7.10 Sensitivity, Range and Linearity of Thermometres",
+    "_id": "m174sy4ybvx4kb9qxzb6j1rhpn8c6rtx",
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Range"
+      },
+      {
+        "key": "B",
+        "text": "Linearity"
+      },
+      {
+        "key": "C",
+        "text": "Sensitivity"
+      },
+      {
+        "key": "D",
+        "text": "Reliability"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "The property of a thermometer to respond to small temperature change is:",
+    "topicId": "ms76j33fzn17tdkawtpgabzy2n8bt6yy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-10-sensitivity-range-and-linearity-of-thermometres",
+    "topicTitle": "7.10 Sensitivity, Range and Linearity of Thermometres",
+    "_id": "m1716cwqvk039nbnadtvnfpmpn8e1qm0",
+    "correctKey": "B",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "A bigger bulb and a narrower/longer capillary tube both increase sensitivity by making a given temperature change produce a longer column movement; of the printed options, a longer capillary tube is the standard textbook answer for increased sensitivity.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Use a bigger bulb which contains more amount of liquid"
+      },
+      {
+        "key": "B",
+        "text": "Use a longer capillary tube"
+      },
+      {
+        "key": "C",
+        "text": "Use a narrower capillary tube"
+      },
+      {
+        "key": "D",
+        "text": "Use a liquid that changes colour on temperature"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Which of the following can increase the sensitivity of liquid in glass thermometre?",
+    "topicId": "ms76j33fzn17tdkawtpgabzy2n8bt6yy"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-10-sensitivity-range-and-linearity-of-thermometres",
+    "topicTitle": "7.10 Sensitivity, Range and Linearity of Thermometres",
+    "_id": "m178yfp71695n43mn8rhqa8z858e1agp",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes, to an extent: making the capillary tube narrower increases sensitivity (a given volume change produces a longer column movement) without changing the bulb size or the liquid used, so the temperature range (set by the liquid's freezing/boiling points) stays the same while readings become more precise.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Can we increase the sensitivity of a liquid-in-glass thermometer without changing its range?",
+    "topicId": "ms76j33fzn17tdkawtpgabzy2n8bt6yy"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-10-sensitivity-range-and-linearity-of-thermometres",
+    "topicTitle": "7.10 Sensitivity, Range and Linearity of Thermometres",
+    "_id": "m176d4bsq6gv2hz2s1qb17acyd8e111b",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Compare both thermometers side by side in the same water bath as the temperature is changed gradually and measure the length of liquid column movement per degree Celsius change for each; the thermometer that shows a longer column movement for the same temperature change is more sensitive, confirming or refuting the claim experimentally.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "One student claims to have constructed a more sensitive liquid in glass thermometer. How can her claim be verified?",
+    "topicId": "ms76j33fzn17tdkawtpgabzy2n8bt6yy"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-10-sensitivity-range-and-linearity-of-thermometres",
+    "topicTitle": "7.10 Sensitivity, Range and Linearity of Thermometres",
+    "_id": "m175c5s34hem04ys04nke8y1698e1n58",
+    "exerciseId": "xd7d4sydnrms1frbke0aye39p98e1fd2",
+    "exerciseTitle": "Exercise 7: Long Response Questions",
+    "keyPoints": [
+      "A constant-volume gas thermometer holds a fixed volume of gas in a bulb connected to a manometer; as temperature changes, the gas's pressure changes proportionally, and pressure is read and converted to temperature.",
+      "A constant-pressure gas thermometer instead keeps the gas's pressure fixed and measures the change in its volume with temperature.",
+      "Gas thermometers are highly accurate over a very wide temperature range (from very low to very high temperatures) because gases expand more uniformly and predictably than liquids, though they are bulkier and slower to use than liquid-in-glass thermometers."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Long Response Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Describe the construction and working of different types of gas thermometres.",
+    "topicId": "ms76j33fzn17tdkawtpgabzy2n8bt6yy"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-11-structures-and-function-of-liquid-in-glass-and-thermocouple-thermometres",
+    "topicTitle": "7.11 Structures and Function of Liquid-in-glass and Thermocouple Thermometres",
+    "_id": "m171k0n25m5ynnbnts1esv7jf18e088m",
+    "correctKey": "D",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "A thermocouple has very low thermal mass and responds almost instantly to temperature changes, making it best suited for rapidly varying temperatures.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Constant volume gas thermometre"
+      },
+      {
+        "key": "B",
+        "text": "Resistance thermometre"
+      },
+      {
+        "key": "C",
+        "text": "Liquid in glass thermometre"
+      },
+      {
+        "key": "D",
+        "text": "Thermocouple"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Thermometre, which is most suitable for measuring rapid changing temperatures, is",
+    "topicId": "ms7djwecr44k74qt60ss25jhrh8bvfxz"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-11-structures-and-function-of-liquid-in-glass-and-thermocouple-thermometres",
+    "topicTitle": "7.11 Structures and Function of Liquid-in-glass and Thermocouple Thermometres",
+    "_id": "m177093953adffs7etgnt9r8m18e05yt",
+    "correctKey": "A",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "A thermocouple generates a small voltage (EMF) that varies with temperature difference between its junctions, which is used to determine temperature.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Thermocouple"
+      },
+      {
+        "key": "B",
+        "text": "Resistance thermometre"
+      },
+      {
+        "key": "C",
+        "text": "Liquid in glass thermometre"
+      },
+      {
+        "key": "D",
+        "text": "Gas thermometre"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Which thermometre uses voltage to measure temperature of a hot body?",
+    "topicId": "ms7djwecr44k74qt60ss25jhrh8bvfxz"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-11-structures-and-function-of-liquid-in-glass-and-thermocouple-thermometres",
+    "topicTitle": "7.11 Structures and Function of Liquid-in-glass and Thermocouple Thermometres",
+    "_id": "m178znj94qzdc2hxs481z5patd8e0dzb",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Water has a small and non-uniform (non-linear) expansion with temperature, freezes at 0 degrees C and boils at 100 degrees C (a narrow usable range), and famously contracts between 0 and 4 degrees C instead of expanding, making it unsuitable for a reliable, linear liquid-in-glass thermometer. Mercury or alcohol, with more uniform expansion, are used instead.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Why is water not used in liquid in glass thermometres?",
+    "topicId": "ms7djwecr44k74qt60ss25jhrh8bvfxz"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-11-structures-and-function-of-liquid-in-glass-and-thermocouple-thermometres",
+    "topicTitle": "7.11 Structures and Function of Liquid-in-glass and Thermocouple Thermometres",
+    "_id": "m17d27w072p37msc14p3nshc5s8e0mt2",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A thermocouple uses metal junctions that can withstand very high temperatures and generates a measurable voltage proportional to temperature difference, so it works well at high temperatures. A liquid-in-glass thermometer is limited by the liquid's boiling point (mercury boils around 357 degrees C) and the glass's strength, so it cannot survive or accurately read very high temperatures.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Why is a thermocouple thermometer good for measuring high temperatures but a liquid in glass thermometer is not?",
+    "topicId": "ms7djwecr44k74qt60ss25jhrh8bvfxz"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-12-effect-of-structure-of-a-liquid-in-glass-thermometre-on-its-sensitivity-range-and-linearity",
+    "topicTitle": "7.12 Effect of Structure of a Liquid-in-glass Thermometre on Its Sensitivity, Range and Linearity",
+    "_id": "m173gp13fcsx53nmvc2e3knjxx8c79e1",
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Thermodynamics"
+      },
+      {
+        "key": "B",
+        "text": "Optics"
+      },
+      {
+        "key": "C",
+        "text": "Astronomy"
+      },
+      {
+        "key": "D",
+        "text": "Acoustics"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "The branch dealing with heat and temperature is:",
+    "topicId": "ms79a6pc5bsy3a5729xfxg7n5n8btdea",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-12-effect-of-structure-of-a-liquid-in-glass-thermometre-on-its-sensitivity-range-and-linearity",
+    "topicTitle": "7.12 Effect of Structure of a Liquid-in-glass Thermometre on Its Sensitivity, Range and Linearity",
+    "_id": "m17dg2503807fv0yst6zddwa3x8e1tm2",
+    "correctKey": "A",
+    "exerciseId": "xd7e01ynbwwar9pbmpcya9n4118e0kpm",
+    "exerciseTitle": "Exercise 7: Multiple Choice Questions",
+    "explanation": "Total rise = 6 - 2 = 4 cm over 100 degrees C (0 to 100), so each 1 degree C division = 4/100 = 0.04 cm.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "0.04 cm"
+      },
+      {
+        "key": "B",
+        "text": "0.06 cm"
+      },
+      {
+        "key": "C",
+        "text": "0.08 cm"
+      },
+      {
+        "key": "D",
+        "text": "1.00 cm"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Mercury has uniform linear expansion in liquid in glass thermometres. A liquid in glass thermometre has a mercury level of 2 cm at melting point of ice and a mercury level of 6 cm at boiling point of water. What is the distance between every 1 degree C division on Celsius scale of thermometre?",
+    "topicId": "ms79a6pc5bsy3a5729xfxg7n5n8btdea"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-12-effect-of-structure-of-a-liquid-in-glass-thermometre-on-its-sensitivity-range-and-linearity",
+    "topicTitle": "7.12 Effect of Structure of a Liquid-in-glass Thermometre on Its Sensitivity, Range and Linearity",
+    "_id": "m17ev3r3pcrp3d56hm2pe4ttw58e10rm",
+    "exerciseId": "xd7abx7sbghs530ph4gshw0yz18e1xgh",
+    "exerciseTitle": "Exercise 7: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Alcohol has a much larger coefficient of expansion than mercury, so an alcohol thermometer is more sensitive (a given temperature change produces a larger column movement). However, alcohol has a much lower boiling point than mercury, so its usable range is narrower and it cannot measure high temperatures; it is however better suited for very low temperatures since it does not freeze until far below mercury's freezing point.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Mercury is replaced with alcohol in liquid in glass thermometres. Discuss the possible change in sensitivity and range of thermometre.",
+    "topicId": "ms79a6pc5bsy3a5729xfxg7n5n8btdea"
+  },
+  {
+    "subjectSlug": "physics-9",
+    "chapterSlug": "07-density-and-temperature",
+    "chapterTitle": "Density And Temperature",
+    "topicSlug": "7-12-effect-of-structure-of-a-liquid-in-glass-thermometre-on-its-sensitivity-range-and-linearity",
+    "topicTitle": "7.12 Effect of Structure of a Liquid-in-glass Thermometre on Its Sensitivity, Range and Linearity",
+    "_id": "m170neprwatxp3dv5tcy05s5g98e0p94",
+    "exerciseId": "xd7d4sydnrms1frbke0aye39p98e1fd2",
+    "exerciseTitle": "Exercise 7: Long Response Questions",
+    "keyPoints": [
+      "A narrower capillary tube increases sensitivity, since a given volume expansion produces a longer, more readable column movement.",
+      "A larger bulb holding more liquid also increases sensitivity, since more liquid means a larger absolute volume change for the same temperature change.",
+      "The choice of liquid affects range: mercury allows a wide range including high temperatures (up to near its boiling point ~357 degrees C) while alcohol allows measurement of very low temperatures but not high ones.",
+      "Thinner glass walls around the bulb improve response time by letting heat reach the liquid faster, though this must be balanced against durability."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Long Response Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "subjectSlug": "physics-9"
+    },
+    "stem": "Analyse how the structure of a liquid-in-glass thermometer can be modified to improve its performance. Give a detailed answer.",
+    "topicId": "ms79a6pc5bsy3a5729xfxg7n5n8btdea"
+  }
+]

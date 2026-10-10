@@ -1,0 +1,3774 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m17enzg9vcwmjkm759s2zg0ym58e12ta",
+    "correctKey": "A",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "The principle of floatation (a floating body displaces liquid equal to its own weight) is used to determine the density of a floating object relative to the liquid.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Density"
+      },
+      {
+        "key": "B",
+        "text": "Velocity"
+      },
+      {
+        "key": "C",
+        "text": "Area"
+      },
+      {
+        "key": "D",
+        "text": "Pressure"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Principle of floatation helps us to find:",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m1713z5ysensnsw414t5927b098e0tp7",
+    "correctKey": "A",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Archimedes' principle states the upthrust (buoyant force) on a submerged/floating object equals the weight of the liquid it displaces.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "weight of the displaced liquid"
+      },
+      {
+        "key": "B",
+        "text": "volume of the displaced liquid"
+      },
+      {
+        "key": "C",
+        "text": "mass of the displaced liquid"
+      },
+      {
+        "key": "D",
+        "text": "density of the displaced liquid"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "According to Archimedes' principle, the up-thrust on an object equals:",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m17f5tft3y3h0csb7bvqz2tazd8e11ym",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Upthrust (buoyant force) is the upward force exerted by a fluid on a body wholly or partially submerged in it, arising from the pressure difference between the bottom and top surfaces of the body.",
+      "By Archimedes' principle, upthrust equals the weight of the fluid displaced by the submerged part of the body.",
+      "Examples: a ship floats because its displaced water's weight equals the ship's weight; a person feels lighter while standing in a swimming pool because water exerts an upward buoyant force on their body."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Up-thrust, or buoyant force, is the upward force exerted by a fluid on an immersed object. It is present whether the object floats, sinks, or is suspended. If up-thrust exceeds weight the object rises, if it is less than weight the object sinks, and if it equals weight the object remains suspended. Archimedes' principle gives its magnitude as the weight of displaced fluid, $F_b=\\rho gV$. Ships float by displacing enough water for this buoyant force to balance their weight, and a balloon rises when its buoyant force exceeds its weight.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.1",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is up thrust? Explain with the help of examples.",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m17b8cmg4414qh8hsqbj3j2dqn8e0vx7",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Archimedes' principle states that a body wholly or partially immersed in a fluid experiences an upthrust equal to the weight of the fluid it displaces.",
+      "The principle of floatation follows from this: a body floats when the upthrust (weight of displaced fluid) equals the body's own weight, which happens when the body displaces just enough fluid before it is fully submerged.",
+      "A body sinks if its weight exceeds the maximum possible upthrust (weight of fluid displaced when fully submerged), i.e. if its average density exceeds the fluid's density."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Archimedes' principle states that an object wholly or partly immersed in a fluid experiences an up-thrust equal to the weight of the fluid it displaces: $F_b=\\rho gV$. For a floating object, the up-thrust balances the object's weight. The principle explains why a ship can float despite its large mass: its hollow hull displaces enough water that the buoyant force equals the ship's weight. It also permits density measurements from an object's apparent loss of weight in a liquid.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.2",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain Archimedes' principle of flotation.",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m1744vycm1n67xy8zbrc4yw8p98e2aa8",
+    "correctKey": "A",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "The principle of floatation (a floating body displaces liquid equal to its own weight) is used to determine the density of a floating object relative to the liquid.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Density"
+      },
+      {
+        "key": "B",
+        "text": "Velocity"
+      },
+      {
+        "key": "C",
+        "text": "Area"
+      },
+      {
+        "key": "D",
+        "text": "Pressure"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Principle of floatation helps us to find:",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m178mcbvvf522zyha4h9bkwwhh8e2tmc",
+    "correctKey": "A",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Archimedes' principle states the upthrust (buoyant force) on a submerged/floating object equals the weight of the liquid it displaces.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "weight of the displaced liquid"
+      },
+      {
+        "key": "B",
+        "text": "volume of the displaced liquid"
+      },
+      {
+        "key": "C",
+        "text": "mass of the displaced liquid"
+      },
+      {
+        "key": "D",
+        "text": "density of the displaced liquid"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "According to Archimedes' principle, the up-thrust on an object equals:",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m170na6mjjhvgj2gj98s8j8gxd8e3stw",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Upthrust (buoyant force) is the upward force exerted by a fluid on a body wholly or partially submerged in it, arising from the pressure difference between the bottom and top surfaces of the body.",
+      "By Archimedes' principle, upthrust equals the weight of the fluid displaced by the submerged part of the body.",
+      "Examples: a ship floats because its displaced water's weight equals the ship's weight; a person feels lighter while standing in a swimming pool because water exerts an upward buoyant force on their body."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Up-thrust, or buoyant force, is the upward force exerted by a fluid on an immersed object. It is present whether the object floats, sinks, or is suspended. If up-thrust exceeds weight the object rises, if it is less than weight the object sinks, and if it equals weight the object remains suspended. Archimedes' principle gives its magnitude as the weight of displaced fluid, $F_b=\\rho gV$. Ships float by displacing enough water for this buoyant force to balance their weight, and a balloon rises when its buoyant force exceeds its weight.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.1",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is up thrust? Explain with the help of examples.",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m17617za005fhc2at719bkrejd8e377p",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Archimedes' principle states that a body wholly or partially immersed in a fluid experiences an upthrust equal to the weight of the fluid it displaces.",
+      "The principle of floatation follows from this: a body floats when the upthrust (weight of displaced fluid) equals the body's own weight, which happens when the body displaces just enough fluid before it is fully submerged.",
+      "A body sinks if its weight exceeds the maximum possible upthrust (weight of fluid displaced when fully submerged), i.e. if its average density exceeds the fluid's density."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Archimedes' principle states that an object wholly or partly immersed in a fluid experiences an up-thrust equal to the weight of the fluid it displaces: $F_b=\\rho gV$. For a floating object, the up-thrust balances the object's weight. The principle explains why a ship can float despite its large mass: its hollow hull displaces enough water that the buoyant force equals the ship's weight. It also permits density measurements from an object's apparent loss of weight in a liquid.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.2",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain Archimedes' principle of flotation.",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "upthrust-and-archimedes-principle",
+    "topicTitle": "6.1 Archimedes' Principle and Buoyancy",
+    "_id": "m179nwvvedqy6rhvdsedcrmczs8e25a5",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Upthrust (weight of displaced air) = $V \\rho_{air} g = 10 \\times 1.3 \\times 9.8 \\approx 127.4$ N. Weight of hydrogen = $V \\rho_{H_2} g = 10 \\times 0.09 \\times 9.8 \\approx 8.82$ N. Maximum additional load = Upthrust - (balloon weight + hydrogen weight) = $127.4 - (80 + 8.82) \\approx 38.58$ N, matching the textbook. (Ans. 38.58 N, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.11",
+    "sectionId": "applications",
+    "sectionLabel": "Applications",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "An empty meteorological balloon has a weight of 80 N. How much maximum contents can the balloon lift besides its own weight if it is filled with 10 m^3 of hydrogen? (Density of hydrogen = 0.09 kg/m^3, Density of air = 1.3 kg/m^3).",
+    "topicId": "ms71yphrrtcynvhjxta4t2sx4n85qxan"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "fluid-flow",
+    "topicTitle": "6.2 Types of Fluid Flow",
+    "_id": "m17fvvtvba4vm5hscnjw2qkqb585q19v",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified and applied the Equation of Continuity: $A_1v_1 = A_2v_2$",
+      "Properly calculated cross-sectional areas using $A = \\pi r^2$ and simplified to $r_1^2v_1 = r_2^2v_2$",
+      "Correctly substituted numerical values and performed algebraic manipulation to solve for $v_2$",
+      "Obtained final answer of approximately 45.1 m/s with correct units",
+      "Demonstrated understanding that velocity increases as cross-sectional area decreases (conservation of mass principle)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Using the Equation of Continuity, which states that $A_1v_1 = A_2v_2$ for an incompressible fluid, we can find the velocity at the nozzle. Given: $r_1 = 1.25$ cm, $v_1 = 2.60$ m/s, $r_2 = 0.30$ cm. Since $A = \\pi r^2$, we have $\\pi r_1^2 v_1 = \\pi r_2^2 v_2$. Solving for $v_2$: $v_2 = v_1\\left(\\frac{r_1}{r_2}\\right)^2 = 2.60 \\times \\left(\\frac{1.25}{0.30}\\right)^2 = 2.60 \\times (4.167)^2 = 2.60 \\times 17.36 = 45.1$ m/s. Therefore, water emerges from the nozzle at approximately **45.1 m/s**.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "sectionId": "ideal-fluid",
+    "sectionLabel": "Ideal Fluid",
+    "session": "annual",
+    "stem": "A garden hose of inner radius $1.25\\text{ cm}$ carries water at $2.60\\text{ ms}^{-1}$. The nozzle at the end has radius $0.30\\text{ cm}$. How fast does the water emerge out through the nozzle?",
+    "topicId": "ms70t4tmm5v3sbd6ze7ym3fezd85p8v2",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "fluid-flow",
+    "topicTitle": "6.2 Types of Fluid Flow",
+    "_id": "m17124j2xq15t0pr783ayxap5185qhgw",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies and applies the flow rate formula $Q = A \\cdot v$",
+      "Substitutes given values accurately: $A = 0.0002 \\text{ m}^2$ and $v = 5 \\text{ m/s}$",
+      "Calculates correct numerical answer: $Q = 0.001 \\text{ m}^3/\\text{s}$ or $1 \\times 10^{-3} \\text{ m}^3/\\text{s}$",
+      "Includes proper units ($\\text{m}^3/\\text{s}$) in final answer",
+      "Explains that flow rate represents volume of fluid passing per unit time"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The flow rate (discharge) is calculated using the formula $Q = A \\cdot v$, where $A$ is the cross-sectional area and $v$ is the velocity of fluid flow. Given $A = 0.0002 \\text{ m}^2$ and $v = 5 \\text{ m/s}$, the flow rate is $Q = 0.0002 \\times 5 = 0.001 \\text{ m}^3/\\text{s}$ or $1 \\times 10^{-3} \\text{ m}^3/\\text{s}$. This represents the volume of water passing through the pipe per unit time.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "16",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "session": "annual",
+    "stem": "A certain pipe has a cross-sectional area of $0.0002\\text{ m}^2$ in which water is flowing at $5\\text{ m/s}$. Find **flow rate**.",
+    "topicId": "ms70t4tmm5v3sbd6ze7ym3fezd85p8v2",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "fluid-flow",
+    "topicTitle": "6.2 Types of Fluid Flow",
+    "_id": "m179ccc4rfjsw1vvc9cnz77htn8e1bbk",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In streamline (laminar) flow, fluid particles move in smooth, orderly paths that do not cross, with velocity at any point remaining steady over time. In turbulent flow, fluid particles move in irregular, chaotic paths with eddies and swirls, and velocity at a point fluctuates unpredictably; turbulent flow typically occurs at high speeds or past obstacles.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.2",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Distinguish between turbulent and streamline flow.",
+    "topicId": "ms70t4tmm5v3sbd6ze7ym3fezd85p8v2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "fluid-flow",
+    "topicTitle": "6.2 Types of Fluid Flow",
+    "_id": "m17d4p6mwj7pjnxvfjn6a432kn8e3996",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In streamline (laminar) flow, fluid particles move in smooth, orderly paths that do not cross, with velocity at any point remaining steady over time. In turbulent flow, fluid particles move in irregular, chaotic paths with eddies and swirls, and velocity at a point fluctuates unpredictably; turbulent flow typically occurs at high speeds or past obstacles.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.2",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Distinguish between turbulent and streamline flow.",
+    "topicId": "ms70t4tmm5v3sbd6ze7ym3fezd85p8v2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17eca51e2zncf1ymm1bd1ap9n8e0md2",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Since v is inversely proportional to $d^2$ ($A \\propto d^2$), to increase v by 4x, $d^2$ must decrease by 4x, so d decreases by a factor of 2: $d' = 4/2 = 2$ cm.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1/4 cm"
+      },
+      {
+        "key": "B",
+        "text": "4 cm"
+      },
+      {
+        "key": "C",
+        "text": "2 cm"
+      },
+      {
+        "key": "D",
+        "text": "1/2 cm"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The end of a hose has a diameter of 4 cm. If one wants the velocity of the water coming out to be 4 times higher, what should be the diameter of the nozzle on the end?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m171nvk1fht9f2xmad9bqzbhps8e1mer",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes. Squeezing the rubber pipe reduces its cross-sectional area at that point. By the equation of continuity (Av = constant), a decrease in area A must be accompanied by an increase in velocity v to keep the volume flow rate constant, so the water speeds up at the squeezed section.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.10",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Can you increase the flow velocity of water in a rubber pipe by squeezing? Explain briefly.",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m1707z5fb924dm6syscakchft98e00xk",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By continuity, $A_1v_1 = A_2v_2$, and since $A \\propto d^2$: $d_2 = d_1\\sqrt{v_1/v_2} = 4 \\times \\sqrt{2/4} = 4 \\times 0.707 \\approx 2.8$ cm, matching the textbook. (Ans. 2.8 cm, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.4",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Water flows through a pipe with an internal diameter of 4 cm at a speed of 2 m/s. What should be the diameter of the nozzle if the water is to emerge out with a speed of 4 m/s?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m178227w5t3pa6kmg25dhcbm818e34sk",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Since v is inversely proportional to $d^2$ ($A \\propto d^2$), to increase v by 4x, $d^2$ must decrease by 4x, so d decreases by a factor of 2: $d' = 4/2 = 2$ cm.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1/4 cm"
+      },
+      {
+        "key": "B",
+        "text": "4 cm"
+      },
+      {
+        "key": "C",
+        "text": "2 cm"
+      },
+      {
+        "key": "D",
+        "text": "1/2 cm"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The end of a hose has a diameter of 4 cm. If one wants the velocity of the water coming out to be 4 times higher, what should be the diameter of the nozzle on the end?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17e9tkgtf1bcv7462ftw31rp18e2tfv",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes. Squeezing the rubber pipe reduces its cross-sectional area at that point. By the equation of continuity (Av = constant), a decrease in area A must be accompanied by an increase in velocity v to keep the volume flow rate constant, so the water speeds up at the squeezed section.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.10",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Can you increase the flow velocity of water in a rubber pipe by squeezing? Explain briefly.",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m1798emqvde2khh09whpwmc6tx8e2p0r",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By continuity, $A_1v_1 = A_2v_2$, and since $A \\propto d^2$: $d_2 = d_1\\sqrt{v_1/v_2} = 4 \\times \\sqrt{2/4} = 4 \\times 0.707 \\approx 2.8$ cm, matching the textbook. (Ans. 2.8 cm, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.4",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Water flows through a pipe with an internal diameter of 4 cm at a speed of 2 m/s. What should be the diameter of the nozzle if the water is to emerge out with a speed of 4 m/s?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17fvvtvba4vm5hscnjw2qkqb585q19v",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified and applied the Equation of Continuity: $A_1v_1 = A_2v_2$",
+      "Properly calculated cross-sectional areas using $A = \\pi r^2$ and simplified to $r_1^2v_1 = r_2^2v_2$",
+      "Correctly substituted numerical values and performed algebraic manipulation to solve for $v_2$",
+      "Obtained final answer of approximately 45.1 m/s with correct units",
+      "Demonstrated understanding that velocity increases as cross-sectional area decreases (conservation of mass principle)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Using the Equation of Continuity, which states that $A_1v_1 = A_2v_2$ for an incompressible fluid, we can find the velocity at the nozzle. Given: $r_1 = 1.25$ cm, $v_1 = 2.60$ m/s, $r_2 = 0.30$ cm. Since $A = \\pi r^2$, we have $\\pi r_1^2 v_1 = \\pi r_2^2 v_2$. Solving for $v_2$: $v_2 = v_1\\left(\\frac{r_1}{r_2}\\right)^2 = 2.60 \\times \\left(\\frac{1.25}{0.30}\\right)^2 = 2.60 \\times (4.167)^2 = 2.60 \\times 17.36 = 45.1$ m/s. Therefore, water emerges from the nozzle at approximately **45.1 m/s**.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "sectionId": "ideal-fluid",
+    "sectionLabel": "Ideal Fluid",
+    "session": "annual",
+    "stem": "A garden hose of inner radius $1.25\\text{ cm}$ carries water at $2.60\\text{ ms}^{-1}$. The nozzle at the end has radius $0.30\\text{ cm}$. How fast does the water emerge out through the nozzle?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m1737kn6wpeq88zj9rnvfvjz7n8e12px",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By the equation of continuity, the volume flow rate (Av) must stay constant along the river. Where the river widens, cross-sectional area A increases, so speed v must decrease; where it narrows, A decreases, so v must increase to keep Av constant.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.3",
+    "sectionId": "ideal-fluid",
+    "sectionLabel": "Ideal Fluid",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "When there is a change in the width of a river, the speed of the water decreases in wider regions whereas the speed of water increases in the narrower regions. Why?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m178tcex4kt5qd045ezs6z5fn18e0d1f",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) $A = \\pi (d/2)^2 = \\pi (0.008)^2 \\approx 2.01\\times10^{-4}\\ \\mathrm{m^2}$. Flow rate $Q = Av = 2.01\\times10^{-4} \\times 2.00 \\approx 4.02\\times10^{-4}\\ \\mathrm{m^3/s} = 0.402\\ \\mathrm{L/s}$. (b) By continuity, $A_1v_1=A_2v_2$, so $d_2 = d_1\\sqrt{v_1/v_2} = 1.60 \\times \\sqrt{2.00/15.0} \\approx 0.584$ cm, matching the textbook. (Ans. 0.402 L/s, 0.584 cm, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.2",
+    "sectionId": "ideal-fluid",
+    "sectionLabel": "Ideal Fluid",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Water is flowing at a velocity of 2.00 m/s through a hose with an internal diameter of 1.60 cm. (a) What is the flow rate in liters per second? (b) The fluid velocity in this hose's nozzle is 15.0 m/s. What is the nozzle's inside diameter?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m177w04kgpc2nb5fcmv16s6nfs8e2dsx",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By the equation of continuity, the volume flow rate (Av) must stay constant along the river. Where the river widens, cross-sectional area A increases, so speed v must decrease; where it narrows, A decreases, so v must increase to keep Av constant.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.3",
+    "sectionId": "ideal-fluid",
+    "sectionLabel": "Ideal Fluid",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "When there is a change in the width of a river, the speed of the water decreases in wider regions whereas the speed of water increases in the narrower regions. Why?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17bh0h7v5d0xkryf8hc1p3nfd8e3mq5",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) $A = \\pi (d/2)^2 = \\pi (0.008)^2 \\approx 2.01\\times10^{-4}\\ \\mathrm{m^2}$. Flow rate $Q = Av = 2.01\\times10^{-4} \\times 2.00 \\approx 4.02\\times10^{-4}\\ \\mathrm{m^3/s} = 0.402\\ \\mathrm{L/s}$. (b) By continuity, $A_1v_1=A_2v_2$, so $d_2 = d_1\\sqrt{v_1/v_2} = 1.60 \\times \\sqrt{2.00/15.0} \\approx 0.584$ cm, matching the textbook. (Ans. 0.402 L/s, 0.584 cm, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.2",
+    "sectionId": "ideal-fluid",
+    "sectionLabel": "Ideal Fluid",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Water is flowing at a velocity of 2.00 m/s through a hose with an internal diameter of 1.60 cm. (a) What is the flow rate in liters per second? (b) The fluid velocity in this hose's nozzle is 15.0 m/s. What is the nozzle's inside diameter?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m1777k5gk7b23gvxw9yh5djqcs85pf3b",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "States that mass flow rate is constant: $A_1 v_1 = A_2 v_2$ for incompressible fluids",
+      "Derived from conservation of mass principle: mass entering equals mass leaving in steady flow",
+      "Mathematical derivation uses $\\rho A_1 v_1 \\Delta t = \\rho A_2 v_2 \\Delta t$ for incompressible fluids",
+      "Applies to ideal fluids in streamline flow with constant density",
+      "Explains inverse relationship between area and velocity in fluid flow"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "The **equation of continuity** states that for an ideal, incompressible fluid in streamline flow, the mass flow rate is constant at all points along the flow path. Mathematically, it is expressed as: $$A_1 v_1 = A_2 v_2 \\quad \\text{or} \\quad A \\cdot v = \\text{constant}$$ where $A$ is the cross-sectional area and $v$ is the fluid velocity at any point.\n\n**Derivation:**\nThe equation is derived from the **law of conservation of mass**. Consider a fluid flowing through a pipe with varying cross-sections. In time $\\Delta t$, the volume of fluid entering at point 1 is $V_1 = A_1 v_1 \\Delta t$, and the volume leaving at point 2 is $V_2 = A_2 v_2 \\Delta t$. For an incompressible fluid, the mass entering must equal the mass leaving: $\\rho A_1 v_1 \\Delta t = \\rho A_2 v_2 \\Delta t$. Canceling $\\rho$ and $\\Delta t$ gives $A_1 v_1 = A_2 v_2$.\n\n**Basis of Derivation:**\nThe equation of continuity is derived on the basis of the **law of conservation of mass**, which states that mass cannot be created or destroyed in a closed system. For steady streamline flow of an incompressible fluid, the mass flow rate (mass per unit time) must remain constant throughout the pipe, regardless of changes in cross-sectional area. This fundamental principle ensures that where the pipe narrows, fluid velocity increases, and where it widens, velocity decreases, maintaining constant mass flow rate at all points.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionId": "mathematical-derivation",
+    "sectionLabel": "Mathematical Derivation",
+    "session": "annual",
+    "stem": "State the **equation of continuity** and derive its mathematical form. On what basis is the equation of continuity derived?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m176791vm0pdb8kw9h1a91sm0985q2fn",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "In the equation of continuity, the volume flow rate is equal to the product of the cross-sectional area and the fluid velocity at any point along the streamline. Mathematically, it is expressed as $Q = A \\cdot v$, where $Q$ is the volume flow rate, $A$ is the cross-sectional area, and $v$ is the fluid velocity. This quantity remains constant throughout the flow of an ideal, incompressible fluid.",
+    "keyPoints": [
+      "Volume flow rate $Q = A \\cdot v$ (area multiplied by velocity)",
+      "Remains constant at all points along a streamline for ideal incompressible fluids",
+      "Derived from the law of conservation of mass",
+      "Where cross-sectional area decreases, velocity increases proportionally to maintain constant flow rate"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "In the equation of continuity, the volume flow rate is equal to the product of the cross-sectional area and the fluid velocity at any point along the streamline. Mathematically, it is expressed as $Q = A \\cdot v$, where $Q$ is the volume flow rate, $A$ is the cross-sectional area, and $v$ is the fluid velocity. This quantity remains constant throughout the flow of an ideal, incompressible fluid.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ad"
+      },
+      {
+        "key": "B",
+        "text": "Ap"
+      },
+      {
+        "key": "C",
+        "text": "Av"
+      },
+      {
+        "key": "D",
+        "text": "$A \\Delta t$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "session": "annual",
+    "stem": "In equation of continuity, the 'volume flow rate' is equal to:",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17124j2xq15t0pr783ayxap5185qhgw",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies and applies the flow rate formula $Q = A \\cdot v$",
+      "Substitutes given values accurately: $A = 0.0002 \\text{ m}^2$ and $v = 5 \\text{ m/s}$",
+      "Calculates correct numerical answer: $Q = 0.001 \\text{ m}^3/\\text{s}$ or $1 \\times 10^{-3} \\text{ m}^3/\\text{s}$",
+      "Includes proper units ($\\text{m}^3/\\text{s}$) in final answer",
+      "Explains that flow rate represents volume of fluid passing per unit time"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The flow rate (discharge) is calculated using the formula $Q = A \\cdot v$, where $A$ is the cross-sectional area and $v$ is the velocity of fluid flow. Given $A = 0.0002 \\text{ m}^2$ and $v = 5 \\text{ m/s}$, the flow rate is $Q = 0.0002 \\times 5 = 0.001 \\text{ m}^3/\\text{s}$ or $1 \\times 10^{-3} \\text{ m}^3/\\text{s}$. This represents the volume of water passing through the pipe per unit time.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "16",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "session": "annual",
+    "stem": "A certain pipe has a cross-sectional area of $0.0002\\text{ m}^2$ in which water is flowing at $5\\text{ m/s}$. Find **flow rate**.",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17d6csjd5n2z6bhj8kmytr8ms8e10y0",
+    "correctKey": "D",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By the equation of continuity, A1v1 = A2v2, with area proportional to diameter squared: v2 = v1*(d1/d2)^2 = 9*(10/6)^2 = 9*2.778 ≈ 25 cm/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "12 cm/s"
+      },
+      {
+        "key": "B",
+        "text": "15 cm/s"
+      },
+      {
+        "key": "C",
+        "text": "21 cm/s"
+      },
+      {
+        "key": "D",
+        "text": "25 cm/s"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A liquid flows through a pipe with a diameter of 10 cm at a velocity of 9 cm/s. If the diameter of the pipe decreases to 6 cm, the new velocity of the liquid will be:",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17erkbg7zw8wc6j560ysawptx8e0f0b",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By the equation of continuity A1v1 = A2v2, if A2 = 9*A1, then v1 = 9*v2, so the flow speed at point 1 is nine times that at point 2.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "The flow speed at point 2 is nine times that at point 1"
+      },
+      {
+        "key": "B",
+        "text": "The flow speed at point 2 is three times that at point 1"
+      },
+      {
+        "key": "C",
+        "text": "The flow speed at point 1 is nine times that at point 2"
+      },
+      {
+        "key": "D",
+        "text": "The flow speed at point 1 is three times that at point 2"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If a pipe with flowing water has a cross-sectional area nine times greater at point 2 than at point 1, what would be the relation of flow speed at the two points?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m172s0119xqcqz0tm2r9qwkx698e05ar",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Since Av is constant along the flow, an increase in speed (as water falls and accelerates under gravity) requires a corresponding decrease in cross-sectional area.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "remains same"
+      },
+      {
+        "key": "B",
+        "text": "decreases"
+      },
+      {
+        "key": "C",
+        "text": "increases"
+      },
+      {
+        "key": "D",
+        "text": "can't be predicted"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "According to equation of continuity, when water falls its speed increases, while its cross-sectional area ____",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m1783g0dtsz1tkyvqtr9jhgydh8e1qhj",
+    "correctKey": "A",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By the equation of continuity, velocity is inversely proportional to cross-sectional area (proportional to $r^2$); halving the radius quarters the area, quadrupling the velocity, the largest effect among the listed options.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "halving the tube radius"
+      },
+      {
+        "key": "B",
+        "text": "doubling the viscosity of the liquid"
+      },
+      {
+        "key": "C",
+        "text": "doubling the tube area"
+      },
+      {
+        "key": "D",
+        "text": "doubling the tube radius"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which will produce the greatest increase in flow velocity through a tube?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m171s3x11s4thpqjwb49tjza5n8e1qgs",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "The equation of continuity expresses conservation of mass for an incompressible fluid in steady flow: the volume flow rate (A*v) is the same at every cross-section along a flow tube.",
+      "Derivation: in time interval dt, the volume of fluid entering a tube of area A1 at speed v1 equals A1*v1*dt; by conservation of mass for an incompressible fluid, this must equal the volume leaving through area A2 at speed v2, A2*v2*dt, giving A1*v1 = A2*v2 = constant.",
+      "Daily-life example: water flowing from a wide garden hose speeds up noticeably when it exits through a narrower nozzle, since the smaller exit area requires a higher exit velocity to keep the flow rate constant."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For steady incompressible flow, conservation of mass gives the equation of continuity, $A_1v_1=A_2v_2$. The product of cross-sectional area and speed is constant, so reducing the area increases the speed. This explains why water speeds up when a hose end is squeezed and why falling water becomes narrower as it accelerates.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.7",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "State the equation of continuity and derive its mathematical form. Also write one example from daily life, where equation of continuity applies.",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17a5ckrt1pfeh35d47zdmk0qs8e0967",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$Q = 5.0\\ \\mathrm{L/min} = \\frac{5.0\\times10^{-3}\\ \\mathrm{m^3}}{60\\ \\mathrm{s}} \\approx 8.33\\times10^{-5}\\ \\mathrm{m^3/s}$. Area $A = \\pi r^2 = \\pi (0.01)^2 \\approx 3.14\\times10^{-4}\\ \\mathrm{m^2}$. Speed $v = Q/A \\approx 8.33\\times10^{-5}/3.14\\times10^{-4} \\approx 0.265\\ \\mathrm{m/s} \\approx 27\\ \\mathrm{cm/s}$, matching the textbook. (Ans. 27 cm/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.3",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Blood is pumped from the heart at a rate of 5.0 L/min into the aorta (of radius 1.0 cm). Determine the speed of blood through the aorta.",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m177r91vawpjjkgfba096ajxfx8e2xv7",
+    "correctKey": "D",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By the equation of continuity, A1v1 = A2v2, with area proportional to diameter squared: v2 = v1*(d1/d2)^2 = 9*(10/6)^2 = 9*2.778 ≈ 25 cm/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "12 cm/s"
+      },
+      {
+        "key": "B",
+        "text": "15 cm/s"
+      },
+      {
+        "key": "C",
+        "text": "21 cm/s"
+      },
+      {
+        "key": "D",
+        "text": "25 cm/s"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A liquid flows through a pipe with a diameter of 10 cm at a velocity of 9 cm/s. If the diameter of the pipe decreases to 6 cm, the new velocity of the liquid will be:",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17ea6wnq87qpzktjgdk3wgzmx8e322d",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By the equation of continuity A1v1 = A2v2, if A2 = 9*A1, then v1 = 9*v2, so the flow speed at point 1 is nine times that at point 2.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "The flow speed at point 2 is nine times that at point 1"
+      },
+      {
+        "key": "B",
+        "text": "The flow speed at point 2 is three times that at point 1"
+      },
+      {
+        "key": "C",
+        "text": "The flow speed at point 1 is nine times that at point 2"
+      },
+      {
+        "key": "D",
+        "text": "The flow speed at point 1 is three times that at point 2"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If a pipe with flowing water has a cross-sectional area nine times greater at point 2 than at point 1, what would be the relation of flow speed at the two points?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m176qn2cwy1chchvpk8ys482ah8e282x",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Since Av is constant along the flow, an increase in speed (as water falls and accelerates under gravity) requires a corresponding decrease in cross-sectional area.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "remains same"
+      },
+      {
+        "key": "B",
+        "text": "decreases"
+      },
+      {
+        "key": "C",
+        "text": "increases"
+      },
+      {
+        "key": "D",
+        "text": "can't be predicted"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "According to equation of continuity, when water falls its speed increases, while its cross-sectional area ____",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17fv071ajzdnn2c9y9sfvfj2n8e3xnt",
+    "correctKey": "A",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By the equation of continuity, velocity is inversely proportional to cross-sectional area (proportional to $r^2$); halving the radius quarters the area, quadrupling the velocity, the largest effect among the listed options.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "halving the tube radius"
+      },
+      {
+        "key": "B",
+        "text": "doubling the viscosity of the liquid"
+      },
+      {
+        "key": "C",
+        "text": "doubling the tube area"
+      },
+      {
+        "key": "D",
+        "text": "doubling the tube radius"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which will produce the greatest increase in flow velocity through a tube?",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m175cxp90bhw79fakng0pjcg1n8e3pd0",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "The equation of continuity expresses conservation of mass for an incompressible fluid in steady flow: the volume flow rate (A*v) is the same at every cross-section along a flow tube.",
+      "Derivation: in time interval dt, the volume of fluid entering a tube of area A1 at speed v1 equals A1*v1*dt; by conservation of mass for an incompressible fluid, this must equal the volume leaving through area A2 at speed v2, A2*v2*dt, giving A1*v1 = A2*v2 = constant.",
+      "Daily-life example: water flowing from a wide garden hose speeds up noticeably when it exits through a narrower nozzle, since the smaller exit area requires a higher exit velocity to keep the flow rate constant."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For steady incompressible flow, conservation of mass gives the equation of continuity, $A_1v_1=A_2v_2$. The product of cross-sectional area and speed is constant, so reducing the area increases the speed. This explains why water speeds up when a hose end is squeezed and why falling water becomes narrower as it accelerates.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.7",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "State the equation of continuity and derive its mathematical form. Also write one example from daily life, where equation of continuity applies.",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "equation-of-continuity",
+    "topicTitle": "6.3 Equation of Continuity",
+    "_id": "m17ada4jbebe8nkcxsaqjvvqgx8e3fzk",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$Q = 5.0\\ \\mathrm{L/min} = \\frac{5.0\\times10^{-3}\\ \\mathrm{m^3}}{60\\ \\mathrm{s}} \\approx 8.33\\times10^{-5}\\ \\mathrm{m^3/s}$. Area $A = \\pi r^2 = \\pi (0.01)^2 \\approx 3.14\\times10^{-4}\\ \\mathrm{m^2}$. Speed $v = Q/A \\approx 8.33\\times10^{-5}/3.14\\times10^{-4} \\approx 0.265\\ \\mathrm{m/s} \\approx 27\\ \\mathrm{cm/s}$, matching the textbook. (Ans. 27 cm/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.3",
+    "sectionId": "what-the-equation-of-continuity-states",
+    "sectionLabel": "What the Equation of Continuity States",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Blood is pumped from the heart at a rate of 5.0 L/min into the aorta (of radius 1.0 cm). Determine the speed of blood through the aorta.",
+    "topicId": "ms706d5gmgwqh7d1dn6c2saf9d85q4nw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m172kmpd1fr3gsa58hcv7ycv5985pk4v",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognizes that lift calculation requires Bernoulli's principle or aerodynamic lift equation",
+      "Identifies that lift depends on air density, wing area, and velocity difference between surfaces",
+      "Notes that provided content does not contain relevant aerodynamics material",
+      "Would require formula: $L = \\frac{1}{2}\\rho A(v_{top}^2 - v_{bottom}^2)$ to proceed",
+      "Correct answer would be approximately 1.96 × 10⁷ N if proper aerodynamic principles were applied"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "By Bernoulli's equation applied across the top and bottom surfaces of the wing (same height), the pressure difference is $\\Delta P = \\frac{1}{2}\\rho(v_{top}^2 - v_{bottom}^2)$. Lift force $L = \\Delta P \\times A = \\frac{1}{2}\\rho A(v_{top}^2 - v_{bottom}^2)$.\n\nSubstituting: $L = \\frac{1}{2}(1.2)(88)(280^2 - 150^2) = 0.5 \\times 1.2 \\times 88 \\times (78400 - 22500) = 52.8 \\times 55900 \\approx 2.95 \\times 10^6$ N.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionId": "working-principle",
+    "sectionLabel": "Working Principle",
+    "session": "annual",
+    "stem": "What is the aerofoil lift (in newtons) on a wing of area 88 m² if the air passes at speed over its top surface at 280 m·s⁻¹ and bottom surface at 150 m·s⁻¹? (Assume standard air density ρ = 1.2 kg·m⁻³)",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m178b19bqfzmnge02t9k5ag6vh8e2g1e",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By Bernoulli's equation (same pressure, atmospheric, at both points): $\\frac{1}{2}v_1^2 = \\frac{1}{2}v_2^2 + gh$, so $v_2 = \\sqrt{v_1^2 - 2gh} = \\sqrt{5.4^2 - 2\\times9.8\\times1.3} = \\sqrt{29.16 - 25.48} = \\sqrt{3.68} \\approx 1.9\\ \\mathrm{m/s}$, matching the textbook. (Ans. 1.9 m/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.5",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A hose lying on the ground has water coming out of it at a speed of 5.4 m/s. You lift the nozzle of the hose to a height of 1.3 m above the ground. At what speed does the water now come out of the hose?",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17bw31axmx84q41crvjt9gjq985qkxm",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "State Bernoulli's equation correctly with all three energy terms per unit volume",
+      "Derive equation using work-energy theorem and continuity equation systematically",
+      "Show algebraic steps leading from work-energy principle to final form",
+      "Apply Bernoulli's equation to aerofoil explaining pressure difference and lift generation",
+      "Connect principle to practical aviation application with clear physical reasoning"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Bernoulli's Equation:** For an ideal, incompressible fluid in streamline flow, the sum of pressure energy, kinetic energy, and potential energy per unit volume remains constant along a streamline: $P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}$\n\n**Derivation:** Consider a fluid element of mass $dm$ moving along a streamline from point 1 to point 2. Applying the work-energy theorem, the net work done by pressure and gravitational forces equals the change in kinetic energy. At point 1: $W_1 = P_1 A_1 ds_1$ and at point 2: $W_2 = P_2 A_2 ds_2$. The gravitational work is $W_g = -dm \\cdot g(h_2 - h_1)$. Using the continuity equation $A_1 v_1 = A_2 v_2$, we can express $dm = \\rho A_1 v_1 dt$. Applying work-energy theorem: $P_1 A_1 ds_1 - P_2 A_2 ds_2 - \\rho A_1 v_1 dt \\cdot g(h_2 - h_1) = \\frac{1}{2}\\rho A_1 v_1 dt(v_2^2 - v_1^2)$. Simplifying and dividing by $\\rho A_1 v_1 dt$ yields: $\\frac{P_1}{\\rho} + \\frac{1}{2}v_1^2 + gh_1 = \\frac{P_2}{\\rho} + \\frac{1}{2}v_2^2 + gh_2$, which is Bernoulli's equation.\n\n**Application - Aerofoil (Aircraft Wing):** The curved upper surface of an aerofoil forces air to travel faster than air beneath the flatter lower surface. By Bernoulli's principle, faster-moving air has lower pressure. This pressure difference creates an upward lift force, enabling aircraft to fly. The lift balances the aircraft's weight for sustained flight.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "session": "annual",
+    "stem": "State and derive Bernoulli's equation. Also give one of its applications.",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17casgcf0aq37ga6dgstm0sqx8e0n3k",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The fast-moving train drags the adjacent air along with it, creating a region of high-speed, low-pressure air near the train (Bernoulli's principle). The pressure difference between this low-pressure region and the higher-pressure still air farther away pushes a standing person toward the train, risking a fall or collision.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.4",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "It is dangerous to stand close to rail tracks when a rapidly moving train passes. Explain why?",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m171hc93htqqtj9825btvgwk798e1pm2",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Air rushing past the open window outside the car moves faster than the relatively still air inside the cabin. By Bernoulli's principle, the fast-moving outside air has lower pressure than the air inside, so the pressure difference pushes the light plastic bag from the higher-pressure interior toward the lower-pressure exterior, out of the window.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.7",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If you lower the window on a car while moving, an empty plastic bag can sometimes fly out the window. Why does this happen?",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m175d57brwzzvpwjms43tyzttd8e1npg",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Bernoulli's equation follows from the work-energy theorem applied to a fluid element flowing through a tube of varying cross-section and height, using the work done by pressure forces and the changes in kinetic and gravitational potential energy of the fluid.",
+      "The result is: $P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{constant}$ along a streamline, where P is pressure, rho is fluid density, v is flow speed, and h is height, expressing conservation of energy per unit volume for an ideal (non-viscous, incompressible) fluid in steady flow.",
+      "Applications: lift on an aircraft wing (faster flow over the curved top surface creates lower pressure than below), a perfume atomizer/carburettor spray, and the lower pressure in the throat of a Venturi meter used to measure flow rate."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Bernoulli's equation follows from conservation of energy for an ideal flowing fluid: $P+\\frac{1}{2}\\rho v^2+\\rho gh=\\text{constant}$ along a streamline. Therefore fast flow is associated with lower pressure when elevation is unchanged. This pressure difference explains applications such as atomizers, filter pumps, aerofoils, and the Venturi meter.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.8",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Derive the Bernoulli's equation. Also, discuss its application in daily life.",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17a3tchwdpwqt6jkk9h4r8vd18e2x7w",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The fast-moving train drags the adjacent air along with it, creating a region of high-speed, low-pressure air near the train (Bernoulli's principle). The pressure difference between this low-pressure region and the higher-pressure still air farther away pushes a standing person toward the train, risking a fall or collision.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.4",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "It is dangerous to stand close to rail tracks when a rapidly moving train passes. Explain why?",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m173c577wf0gdw2rgz5p2qde2s8e25j0",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Air rushing past the open window outside the car moves faster than the relatively still air inside the cabin. By Bernoulli's principle, the fast-moving outside air has lower pressure than the air inside, so the pressure difference pushes the light plastic bag from the higher-pressure interior toward the lower-pressure exterior, out of the window.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.7",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If you lower the window on a car while moving, an empty plastic bag can sometimes fly out the window. Why does this happen?",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m174penjybcpasty1gwaddzdah8e2bfh",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Bernoulli's equation follows from the work-energy theorem applied to a fluid element flowing through a tube of varying cross-section and height, using the work done by pressure forces and the changes in kinetic and gravitational potential energy of the fluid.",
+      "The result is: $P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{constant}$ along a streamline, where P is pressure, rho is fluid density, v is flow speed, and h is height, expressing conservation of energy per unit volume for an ideal (non-viscous, incompressible) fluid in steady flow.",
+      "Applications: lift on an aircraft wing (faster flow over the curved top surface creates lower pressure than below), a perfume atomizer/carburettor spray, and the lower pressure in the throat of a Venturi meter used to measure flow rate."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Bernoulli's equation follows from conservation of energy for an ideal flowing fluid: $P+\\frac{1}{2}\\rho v^2+\\rho gh=\\text{constant}$ along a streamline. Therefore fast flow is associated with lower pressure when elevation is unchanged. This pressure difference explains applications such as atomizers, filter pumps, aerofoils, and the Venturi meter.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.8",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Derive the Bernoulli's equation. Also, discuss its application in daily life.",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17et27tfz4cn3x86zyn3rmpvn8e2c64",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) $v_1 = Q/A_1 = 5\\times10^{-3}/25\\times10^{-4} = 2\\ \\mathrm{m/s}$; $v_2 = Q/A_2 = 5\\times10^{-3}/4\\times10^{-4} = 12.5\\ \\mathrm{m/s}$. (b) By Bernoulli's equation (same height): $P_1 - P_2 = \\frac{1}{2}\\rho(v_2^2 - v_1^2) = \\frac{1}{2}\\times1000\\times(156.25-4) = 0.5\\times1000\\times152.25 \\approx 7.6\\times10^4\\ \\mathrm{Pa}$, matching the textbook. (Ans. 2 m/s, 12.5 m/s, $7.6\\times10^4$ Pa, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.6",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A pipe has two different cross-sectional areas, A1 = 25 cm^2 and A2 = 4 cm^2. The volumetric flow rate of water through the pipe is 5 x 10^-3 m^3/s. Determine: (a) the speed of water in both cross-sectional areas of the pipe. (b) the pressure difference between them (density = 10^3 kg/m^3).",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m178c9qq6zarf36yw70fqb18p185ppcn",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Bernoulli's equation: $P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}$ along a streamline",
+      "Represents conservation of mechanical energy per unit volume for ideal fluid flow",
+      "Inverse relationship between pressure and velocity: higher velocity results in lower pressure",
+      "Applies to ideal, incompressible fluids under streamline (laminar) flow conditions",
+      "Practical applications include aerofoil lift generation and fluid flow analysis in pipes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "Bernoulli's equation is a fundamental principle in fluid dynamics that relates pressure, velocity, and height for ideal fluid flow in streamline conditions. It states that the total mechanical energy per unit volume of an ideal fluid remains constant along a streamline: $P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}$, where $P$ is pressure, $\\rho$ is fluid density, $v$ is velocity, $g$ is gravitational acceleration, and $h$ is height. This equation demonstrates that as fluid velocity increases, pressure decreases, and vice versa. Bernoulli's equation is derived from the conservation of energy and the equation of continuity, and it applies only to ideal, incompressible fluids in streamline flow. It has practical applications in explaining phenomena such as lift generation in aerofoils, where faster-moving air over a curved surface creates lower pressure, producing an upward force.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionId": "energy-conservation-along-a-streamline",
+    "sectionLabel": "Energy Conservation Along a Streamline",
+    "session": "annual",
+    "stem": "Describe **Bernoulli's equation** for ideal fluid flow.",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17bkyhkw3ndyxv3q01dhk9rb98e0y69",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By Bernoulli's principle, faster-moving air between the balloons has lower pressure than the still air outside; the pressure difference pushes the balloons together.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "remain stationary"
+      },
+      {
+        "key": "B",
+        "text": "move closely to each other"
+      },
+      {
+        "key": "C",
+        "text": "move far apart to each other"
+      },
+      {
+        "key": "D",
+        "text": "burst"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionId": "energy-conservation-along-a-streamline",
+    "sectionLabel": "Energy Conservation Along a Streamline",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two balloons are hung by a string, side by side. When the air is blown harder through a straw between them, the balloons will:",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17awxr52vz8gc5ntyrdpac4j98e0tk5",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Pressure = force/area, with SI units $\\mathrm{N/m^2} = (\\mathrm{N}\\cdot\\mathrm{m})/\\mathrm{m^3} = \\mathrm{J/m^3}$. Since a joule (J) is a unit of energy, $\\mathrm{N/m^2}$ is equivalent to energy per unit volume ($\\mathrm{J/m^3}$), confirming pressure has these units. This is also why each term in Bernoulli's equation (pressure, kinetic energy per volume, potential energy per volume) can be added together consistently.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.5",
+    "sectionId": "energy-conservation-along-a-streamline",
+    "sectionLabel": "Energy Conservation Along a Streamline",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Verify that pressure has units of energy per unit volume.",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17fetzevkqk5yfbenv7288n898e293j",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By Bernoulli's principle, faster-moving air between the balloons has lower pressure than the still air outside; the pressure difference pushes the balloons together.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "remain stationary"
+      },
+      {
+        "key": "B",
+        "text": "move closely to each other"
+      },
+      {
+        "key": "C",
+        "text": "move far apart to each other"
+      },
+      {
+        "key": "D",
+        "text": "burst"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionId": "energy-conservation-along-a-streamline",
+    "sectionLabel": "Energy Conservation Along a Streamline",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two balloons are hung by a string, side by side. When the air is blown harder through a straw between them, the balloons will:",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m174a1ha43r5n529hhgkzvx5xh8e31w0",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Pressure = force/area, with SI units $\\mathrm{N/m^2} = (\\mathrm{N}\\cdot\\mathrm{m})/\\mathrm{m^3} = \\mathrm{J/m^3}$. Since a joule (J) is a unit of energy, $\\mathrm{N/m^2}$ is equivalent to energy per unit volume ($\\mathrm{J/m^3}$), confirming pressure has these units. This is also why each term in Bernoulli's equation (pressure, kinetic energy per volume, potential energy per volume) can be added together consistently.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.5",
+    "sectionId": "energy-conservation-along-a-streamline",
+    "sectionLabel": "Energy Conservation Along a Streamline",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Verify that pressure has units of energy per unit volume.",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "bernoulli-s-equation",
+    "topicTitle": "6.4 Bernoulli's Equation",
+    "_id": "m17dy8zrj4bm864d7y5v8zrm0d8e3fmf",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By Bernoulli's equation (same height): $P_1 = P_2 + \\frac{1}{2}\\rho(v_2^2 - v_1^2) = 1.01\\times10^5 + \\frac{1}{2}\\times1000\\times(25.5^2 - 1.96^2) = 1.01\\times10^5 + 0.5\\times1000\\times(650.25-3.84) \\approx 1.01\\times10^5 + 3.23\\times10^5 \\approx 4.24\\times10^5\\ \\mathrm{N/m^2}$, matching the textbook. (Ans. $4.24\\times10^5\\ \\mathrm{N/m^2}$, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.7",
+    "sectionId": "energy-conservation-along-a-streamline",
+    "sectionLabel": "Energy Conservation Along a Streamline",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The speed of water in a hose increases from 1.96 m/s to 25.5 m/s as it moves from the hose to the nozzle. Calculate the pressure in the hose, given that the absolute pressure in the nozzle is 1.01 x 10^5 N/m^2 (atmospheric) and assuming level and frictionless flow.",
+    "topicId": "ms7cbbe0az78sj21mgkef6mr0d85pwfq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m1790awn07cx8ctrpy2qfv9dmx85q5qe",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Aerofoil shape creates pressure difference between upper (curved) and lower (flatter) surfaces",
+      "Higher air velocity over upper surface results in lower pressure (Bernoulli's principle)",
+      "Aerofoil deflects air downward, producing upward reaction force (Newton's third law)",
+      "Net upward force (lift) is generated to support aircraft weight",
+      "Design minimizes drag while maximizing lift for efficient flight"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An aerofoil is a streamlined shape designed to generate lift by exploiting Bernoulli's principle and Newton's third law. As air flows over the curved upper surface and flatter lower surface, the velocity of air is higher over the upper surface, creating lower pressure. Simultaneously, the aerofoil deflects air downward, and by Newton's third law, this produces an equal and opposite upward force (lift). The combination of pressure difference and momentum change enables the aerofoil to generate lift while minimizing drag, making it essential for aircraft flight.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "working-principle",
+    "sectionLabel": "Working Principle",
+    "session": "annual",
+    "stem": "Discuss working principle of aerofoil.",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m172kmpd1fr3gsa58hcv7ycv5985pk4v",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognizes that lift calculation requires Bernoulli's principle or aerodynamic lift equation",
+      "Identifies that lift depends on air density, wing area, and velocity difference between surfaces",
+      "Notes that provided content does not contain relevant aerodynamics material",
+      "Would require formula: $L = \\frac{1}{2}\\rho A(v_{top}^2 - v_{bottom}^2)$ to proceed",
+      "Correct answer would be approximately 1.96 × 10⁷ N if proper aerodynamic principles were applied"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "By Bernoulli's equation applied across the top and bottom surfaces of the wing (same height), the pressure difference is $\\Delta P = \\frac{1}{2}\\rho(v_{top}^2 - v_{bottom}^2)$. Lift force $L = \\Delta P \\times A = \\frac{1}{2}\\rho A(v_{top}^2 - v_{bottom}^2)$.\n\nSubstituting: $L = \\frac{1}{2}(1.2)(88)(280^2 - 150^2) = 0.5 \\times 1.2 \\times 88 \\times (78400 - 22500) = 52.8 \\times 55900 \\approx 2.95 \\times 10^6$ N.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionId": "working-principle",
+    "sectionLabel": "Working Principle",
+    "session": "annual",
+    "stem": "What is the aerofoil lift (in newtons) on a wing of area 88 m² if the air passes at speed over its top surface at 280 m·s⁻¹ and bottom surface at 150 m·s⁻¹? (Assume standard air density ρ = 1.2 kg·m⁻³)",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m177ps77955s5fsf7yv651zpfd85qgjx",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The speed of efflux from a hole at the middle of a 2 m high tank is determined using Torricelli's Theorem. The hole is at depth $h = 1$ m below the water surface. Using $v = \\sqrt{2gh}$, we get $v = \\sqrt{2 \\times 10 \\times 1} = \\sqrt{20} \\approx 4.47$ m/s.",
+    "keyPoints": [
+      "Correctly identifies depth h = 1 m (middle of 2 m tank)",
+      "Applies Torricelli's Theorem formula: $v = \\sqrt{2gh}$",
+      "Substitutes values correctly into the equation",
+      "Calculates final speed of efflux accurately",
+      "Shows understanding that pressure at surface and orifice are both atmospheric"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The speed of efflux from a hole at the middle of a 2 m high tank is determined using Torricelli's Theorem. The hole is at depth $h = 1$ m below the water surface. Using $v = \\sqrt{2gh}$, we get $v = \\sqrt{2 \\times 10 \\times 1} = \\sqrt{20} \\approx 4.47$ m/s.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2.42\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$3.42\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$4.42\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$5.42\\text{ ms}^{-1}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "torricellis-law-of-efflux",
+    "sectionLabel": "Torricelli's Law of Efflux",
+    "session": "annual",
+    "stem": "A 2 m high tank is full of water. If a hole appears at its middle, then the speed of efflux is:",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m17bw31axmx84q41crvjt9gjq985qkxm",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "State Bernoulli's equation correctly with all three energy terms per unit volume",
+      "Derive equation using work-energy theorem and continuity equation systematically",
+      "Show algebraic steps leading from work-energy principle to final form",
+      "Apply Bernoulli's equation to aerofoil explaining pressure difference and lift generation",
+      "Connect principle to practical aviation application with clear physical reasoning"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Bernoulli's Equation:** For an ideal, incompressible fluid in streamline flow, the sum of pressure energy, kinetic energy, and potential energy per unit volume remains constant along a streamline: $P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}$\n\n**Derivation:** Consider a fluid element of mass $dm$ moving along a streamline from point 1 to point 2. Applying the work-energy theorem, the net work done by pressure and gravitational forces equals the change in kinetic energy. At point 1: $W_1 = P_1 A_1 ds_1$ and at point 2: $W_2 = P_2 A_2 ds_2$. The gravitational work is $W_g = -dm \\cdot g(h_2 - h_1)$. Using the continuity equation $A_1 v_1 = A_2 v_2$, we can express $dm = \\rho A_1 v_1 dt$. Applying work-energy theorem: $P_1 A_1 ds_1 - P_2 A_2 ds_2 - \\rho A_1 v_1 dt \\cdot g(h_2 - h_1) = \\frac{1}{2}\\rho A_1 v_1 dt(v_2^2 - v_1^2)$. Simplifying and dividing by $\\rho A_1 v_1 dt$ yields: $\\frac{P_1}{\\rho} + \\frac{1}{2}v_1^2 + gh_1 = \\frac{P_2}{\\rho} + \\frac{1}{2}v_2^2 + gh_2$, which is Bernoulli's equation.\n\n**Application - Aerofoil (Aircraft Wing):** The curved upper surface of an aerofoil forces air to travel faster than air beneath the flatter lower surface. By Bernoulli's principle, faster-moving air has lower pressure. This pressure difference creates an upward lift force, enabling aircraft to fly. The lift balances the aircraft's weight for sustained flight.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionId": "derivation-of-the-equation",
+    "sectionLabel": "Derivation of the Equation",
+    "session": "annual",
+    "stem": "State and derive Bernoulli's equation. Also give one of its applications.",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m172vqve9yjh9sn2dwvcx18qc185p4kj",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A **Venturi meter** is used to measure the speed of liquid flow. It works by narrowing the fluid's path to increase velocity and decrease pressure, then measures this pressure difference to calculate the flow rate using Bernoulli's Equation and the Equation of Continuity.",
+    "keyPoints": [
+      "Identifies Venturi meter as the correct device for measuring liquid flow speed",
+      "Mentions the narrowing of the pipe causes velocity increase and pressure decrease",
+      "References use of pressure difference measurement",
+      "Connects to Bernoulli's Equation and/or Equation of Continuity principles"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A **Venturi meter** is used to measure the speed of liquid flow. It works by narrowing the fluid's path to increase velocity and decrease pressure, then measures this pressure difference to calculate the flow rate using Bernoulli's Equation and the Equation of Continuity.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Barometer"
+      },
+      {
+        "key": "B",
+        "text": "Venturimeter"
+      },
+      {
+        "key": "C",
+        "text": "Spectrometer"
+      },
+      {
+        "key": "D",
+        "text": "Speedometer"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionId": "how-a-venturi-meter-works",
+    "sectionLabel": "How a Venturi Meter Works",
+    "session": "annual",
+    "stem": "Which of the following devices is used to measure speed of liquid flow?",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m17cngkps0j8ej883rr4nrq7098e2j1g",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Treating the driving pressure as converting to kinetic energy per unit volume: $P = \\frac{1}{2}\\rho v^2$, so $\\rho = \\frac{2P}{v^2} = \\frac{2\\times4.12\\times10^5}{33.8^2} = \\frac{8.24\\times10^5}{1142.44} \\approx 721\\ \\mathrm{kg/m^3}$; the textbook's printed answer (0.72 kg/m^3) appears to have a units/decimal typo for this same order of magnitude, so it is presented as printed per house rule while flagging the apparent unit inconsistency (correct SI value is closer to 721 kg/m^3, roughly the density of a light oil). (Ans: 0.72 kg m^-3, as printed in the textbook; likely intends approximately 720 kg/m^3.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.9",
+    "sectionId": "1-speed-of-efflux-torricellis-theorem",
+    "sectionLabel": "1. Speed of Efflux (Torricelli’s Theorem)",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The efflux speed of oil from a narrow hole of a tank is 33.8 m/s, at a pressure of 4.12 x 10^5 Pa. Calculate the density of the oil.",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m177br4hhb4wcyv3pfhvp0r5858e15ct",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Squeezing the bulb forces air to rush rapidly across the top of the vertical tube. By Bernoulli's principle, this fast-moving air has lower pressure than the near-still air (and liquid) inside the bottle below. The resulting pressure difference pushes the liquid up the vertical tube, where it is caught by the fast air stream and sprayed out as a fine mist.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.6",
+    "sectionId": "4-atomizer",
+    "sectionLabel": "4. Atomizer",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A perfume bottle or atomizer sprays a fluid from inside the bottle when it is pressed. How does the fluid rise up in the vertical tube in the bottle?",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m173h4rvcyww25pr8qwqj05k6s8e2x37",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Squeezing the bulb forces air to rush rapidly across the top of the vertical tube. By Bernoulli's principle, this fast-moving air has lower pressure than the near-still air (and liquid) inside the bottle below. The resulting pressure difference pushes the liquid up the vertical tube, where it is caught by the fast air stream and sprayed out as a fine mist.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.6",
+    "sectionId": "4-atomizer",
+    "sectionLabel": "4. Atomizer",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A perfume bottle or atomizer sprays a fluid from inside the bottle when it is pressed. How does the fluid rise up in the vertical tube in the bottle?",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m179fygsydqdktph9ghy135jr185q1c5",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Bernoulli's principle states that faster-moving fluid has lower pressure: $P + \\frac{1}{2}\\rho v^2 = \\text{constant}$",
+      "Spinning ball creates asymmetric airflow around its surface due to seam orientation",
+      "Pressure difference develops between sides of ball where air velocities differ",
+      "Net perpendicular force acts on ball, causing curved trajectory (swing)",
+      "Greater spin rate and ball speed increase the magnitude of swing effect"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Swing in a fast-moving cricket ball is produced due to the Bernoulli effect. When a bowler imparts spin on the ball, the seam orientation causes air to flow at different speeds around the ball's surface. According to Bernoulli's principle, where air moves faster, pressure decreases. The asymmetric airflow creates a pressure difference between the two sides of the ball, generating a net force perpendicular to the direction of motion. This force causes the ball's trajectory to curve, producing the swing effect observed in cricket.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "6-swing-of-a-ball",
+    "sectionLabel": "6. Swing of a Ball",
+    "session": "annual",
+    "stem": "Explain how swing is produced in a fast moving cricket ball? (**Bernoulli effect**)",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m1763553f05wcpkkvb6v7kj0js8e1jn6",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The upward jet of air moving fast around the ball has lower pressure than the still surrounding air. If the ball drifts toward the edge of the jet, the higher-pressure still air on the outside pushes it back toward the low-pressure jet center, while the upward momentum of the air supports its weight; together these effects keep the ball suspended and centered in the jet.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.9",
+    "sectionId": "6-swing-of-a-ball",
+    "sectionLabel": "6. Swing of a Ball",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why does a ball placed in a vertical air jet become suspended?",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "applications-of-bernoulli-s-equation",
+    "topicTitle": "6.5 Applications of Bernoulli's Equation",
+    "_id": "m17dafe83evvngj6hz47bcvccn8e3qe9",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The upward jet of air moving fast around the ball has lower pressure than the still surrounding air. If the ball drifts toward the edge of the jet, the higher-pressure still air on the outside pushes it back toward the low-pressure jet center, while the upward momentum of the air supports its weight; together these effects keep the ball suspended and centered in the jet.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.9",
+    "sectionId": "6-swing-of-a-ball",
+    "sectionLabel": "6. Swing of a Ball",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why does a ball placed in a vertical air jet become suspended?",
+    "topicId": "ms7ct9myk1zxkr2vqamftnya4d85qzgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "torricelli-s-theorem",
+    "topicTitle": "6.6 Torricelli's Theorem",
+    "_id": "m17250yaq8prmw253km3zedpp58e25tb",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By Torricelli's theorem (Bernoulli's equation applied between the top surface and the hole), the efflux velocity is $v = \\sqrt{2gh}$, matching the textbook's printed answer. (Ans. $\\sqrt{2gh}$, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.8",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A hole is drilled at the bottom of a full bucket of water of height h. What will be the velocity of water exiting from the hole?",
+    "topicId": "ms70pqftm087x2hfdjgmmkxffn85qeht"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "torricelli-s-theorem",
+    "topicTitle": "6.6 Torricelli's Theorem",
+    "_id": "m177ps77955s5fsf7yv651zpfd85qgjx",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The speed of efflux from a hole at the middle of a 2 m high tank is determined using Torricelli's Theorem. The hole is at depth $h = 1$ m below the water surface. Using $v = \\sqrt{2gh}$, we get $v = \\sqrt{2 \\times 10 \\times 1} = \\sqrt{20} \\approx 4.47$ m/s.",
+    "keyPoints": [
+      "Correctly identifies depth h = 1 m (middle of 2 m tank)",
+      "Applies Torricelli's Theorem formula: $v = \\sqrt{2gh}$",
+      "Substitutes values correctly into the equation",
+      "Calculates final speed of efflux accurately",
+      "Shows understanding that pressure at surface and orifice are both atmospheric"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The speed of efflux from a hole at the middle of a 2 m high tank is determined using Torricelli's Theorem. The hole is at depth $h = 1$ m below the water surface. Using $v = \\sqrt{2gh}$, we get $v = \\sqrt{2 \\times 10 \\times 1} = \\sqrt{20} \\approx 4.47$ m/s.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2.42\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$3.42\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$4.42\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$5.42\\text{ ms}^{-1}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "torricellis-law-of-efflux",
+    "sectionLabel": "Torricelli's Law of Efflux",
+    "session": "annual",
+    "stem": "A 2 m high tank is full of water. If a hole appears at its middle, then the speed of efflux is:",
+    "topicId": "ms70pqftm087x2hfdjgmmkxffn85qeht",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "torricelli-s-theorem",
+    "topicTitle": "6.6 Torricelli's Theorem",
+    "_id": "m179zw8ywxnczhzc9e6w600e3n8e0scz",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Torricelli's theorem is a special case of Bernoulli's equation that gives the efflux (outflow) speed of a fluid jetting from a small opening at depth h below the free surface of a large open tank.",
+      "Applying Bernoulli's equation between the top surface (open to atmosphere, large area so its speed is negligible) and the hole (also at atmospheric pressure), the pressure terms cancel and the height difference converts entirely to kinetic energy of the jet.",
+      "The result is $v = \\sqrt{2gh}$, the same speed an object would reach falling freely from height h, showing the escaping fluid behaves like a body in free fall."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Torricelli's theorem states that fluid flowing from an orifice at depth $h$ below the liquid surface has the same speed as an object that has freely fallen through height $h$. For an ideal fluid this gives $v=\\sqrt{2gh}$. The result follows by applying Bernoulli's equation between the free surface and the opening.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.9",
+    "sectionId": "torricellis-law-of-efflux",
+    "sectionLabel": "Torricelli's Law of Efflux",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is Torricelli's theorem. Explain.",
+    "topicId": "ms70pqftm087x2hfdjgmmkxffn85qeht"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "torricelli-s-theorem",
+    "topicTitle": "6.6 Torricelli's Theorem",
+    "_id": "m17fp6c0daq2za1wn16we8vhmd8e3mdj",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Torricelli's theorem is a special case of Bernoulli's equation that gives the efflux (outflow) speed of a fluid jetting from a small opening at depth h below the free surface of a large open tank.",
+      "Applying Bernoulli's equation between the top surface (open to atmosphere, large area so its speed is negligible) and the hole (also at atmospheric pressure), the pressure terms cancel and the height difference converts entirely to kinetic energy of the jet.",
+      "The result is $v = \\sqrt{2gh}$, the same speed an object would reach falling freely from height h, showing the escaping fluid behaves like a body in free fall."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Torricelli's theorem states that fluid flowing from an orifice at depth $h$ below the liquid surface has the same speed as an object that has freely fallen through height $h$. For an ideal fluid this gives $v=\\sqrt{2gh}$. The result follows by applying Bernoulli's equation between the free surface and the opening.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.9",
+    "sectionId": "torricellis-law-of-efflux",
+    "sectionLabel": "Torricelli's Law of Efflux",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is Torricelli's theorem. Explain.",
+    "topicId": "ms70pqftm087x2hfdjgmmkxffn85qeht"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "venturi-meter",
+    "topicTitle": "6.7 Venturi Meter",
+    "_id": "m172vqve9yjh9sn2dwvcx18qc185p4kj",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A **Venturi meter** is used to measure the speed of liquid flow. It works by narrowing the fluid's path to increase velocity and decrease pressure, then measures this pressure difference to calculate the flow rate using Bernoulli's Equation and the Equation of Continuity.",
+    "keyPoints": [
+      "Identifies Venturi meter as the correct device for measuring liquid flow speed",
+      "Mentions the narrowing of the pipe causes velocity increase and pressure decrease",
+      "References use of pressure difference measurement",
+      "Connects to Bernoulli's Equation and/or Equation of Continuity principles"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A **Venturi meter** is used to measure the speed of liquid flow. It works by narrowing the fluid's path to increase velocity and decrease pressure, then measures this pressure difference to calculate the flow rate using Bernoulli's Equation and the Equation of Continuity.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Barometer"
+      },
+      {
+        "key": "B",
+        "text": "Venturimeter"
+      },
+      {
+        "key": "C",
+        "text": "Spectrometer"
+      },
+      {
+        "key": "D",
+        "text": "Speedometer"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionId": "how-a-venturi-meter-works",
+    "sectionLabel": "How a Venturi Meter Works",
+    "session": "annual",
+    "stem": "Which of the following devices is used to measure speed of liquid flow?",
+    "topicId": "ms78q9984mrjxr8xaw6dyn85bn85pwkg",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "venturi-meter",
+    "topicTitle": "6.7 Venturi Meter",
+    "_id": "m1744dc7zyyqr8088gzfqvs67s8e0k77",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "The Venturi effect is the pressure drop that occurs where a fluid stream is constricted (narrowed), causing its velocity to increase.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Where a stream is expanded"
+      },
+      {
+        "key": "B",
+        "text": "Where a stream flows downwards with gravity"
+      },
+      {
+        "key": "C",
+        "text": "Where a stream constricts"
+      },
+      {
+        "key": "D",
+        "text": "In the exact center of a flowing stream"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionId": "how-a-venturi-meter-works",
+    "sectionLabel": "How a Venturi Meter Works",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Where does the Venturi effect specifically occur?",
+    "topicId": "ms78q9984mrjxr8xaw6dyn85bn85pwkg"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "venturi-meter",
+    "topicTitle": "6.7 Venturi Meter",
+    "_id": "m17fs9vk7amsmwvk7kmm1tzdzx8e1myd",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "A Venturi meter is a device used to measure the flow rate (or speed) of a fluid moving through a pipe, consisting of a tube with a constricted (narrower) section, the throat, between two wider sections.",
+      "As fluid passes through the narrower throat, the equation of continuity requires its speed to increase; by Bernoulli's equation, this increase in speed is accompanied by a drop in pressure at the throat compared to the wider sections.",
+      "By measuring the pressure difference between the wide section and the throat (e.g. with a manometer), the flow speed and hence the volumetric flow rate through the pipe can be calculated."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A Venturi meter measures flow through a tube with a narrow throat. Continuity makes the speed higher in the constricted section, and Bernoulli's equation makes its pressure lower. The pressure difference between the wide section and throat is measured and used with the continuity relation to calculate flow speed or flow rate.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.10",
+    "sectionId": "how-a-venturi-meter-works",
+    "sectionLabel": "How a Venturi Meter Works",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is venturi meter? Explain.",
+    "topicId": "ms78q9984mrjxr8xaw6dyn85bn85pwkg"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "venturi-meter",
+    "topicTitle": "6.7 Venturi Meter",
+    "_id": "m179w8p3e62zd85z057spk1gnn8e208f",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "The Venturi effect is the pressure drop that occurs where a fluid stream is constricted (narrowed), causing its velocity to increase.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Where a stream is expanded"
+      },
+      {
+        "key": "B",
+        "text": "Where a stream flows downwards with gravity"
+      },
+      {
+        "key": "C",
+        "text": "Where a stream constricts"
+      },
+      {
+        "key": "D",
+        "text": "In the exact center of a flowing stream"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionId": "how-a-venturi-meter-works",
+    "sectionLabel": "How a Venturi Meter Works",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Where does the Venturi effect specifically occur?",
+    "topicId": "ms78q9984mrjxr8xaw6dyn85bn85pwkg"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "venturi-meter",
+    "topicTitle": "6.7 Venturi Meter",
+    "_id": "m179r9ck5dhcvak7r68n119s118e2hhh",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "A Venturi meter is a device used to measure the flow rate (or speed) of a fluid moving through a pipe, consisting of a tube with a constricted (narrower) section, the throat, between two wider sections.",
+      "As fluid passes through the narrower throat, the equation of continuity requires its speed to increase; by Bernoulli's equation, this increase in speed is accompanied by a drop in pressure at the throat compared to the wider sections.",
+      "By measuring the pressure difference between the wide section and the throat (e.g. with a manometer), the flow speed and hence the volumetric flow rate through the pipe can be calculated."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A Venturi meter measures flow through a tube with a narrow throat. Continuity makes the speed higher in the constricted section, and Bernoulli's equation makes its pressure lower. The pressure difference between the wide section and throat is measured and used with the continuity relation to calculate flow speed or flow rate.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.10",
+    "sectionId": "how-a-venturi-meter-works",
+    "sectionLabel": "How a Venturi Meter Works",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is venturi meter? Explain.",
+    "topicId": "ms78q9984mrjxr8xaw6dyn85bn85pwkg"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "aerofoil",
+    "topicTitle": "6.8 Aerofoil",
+    "_id": "m179fygsydqdktph9ghy135jr185q1c5",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Bernoulli's principle states that faster-moving fluid has lower pressure: $P + \\frac{1}{2}\\rho v^2 = \\text{constant}$",
+      "Spinning ball creates asymmetric airflow around its surface due to seam orientation",
+      "Pressure difference develops between sides of ball where air velocities differ",
+      "Net perpendicular force acts on ball, causing curved trajectory (swing)",
+      "Greater spin rate and ball speed increase the magnitude of swing effect"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Swing in a fast-moving cricket ball is produced due to the Bernoulli effect. When a bowler imparts spin on the ball, the seam orientation causes air to flow at different speeds around the ball's surface. According to Bernoulli's principle, where air moves faster, pressure decreases. The asymmetric airflow creates a pressure difference between the two sides of the ball, generating a net force perpendicular to the direction of motion. This force causes the ball's trajectory to curve, producing the swing effect observed in cricket.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "6-swing-of-a-ball",
+    "sectionLabel": "6. Swing of a Ball",
+    "session": "annual",
+    "stem": "Explain how swing is produced in a fast moving cricket ball? (**Bernoulli effect**)",
+    "topicId": "ms746q7b8p5bbc659hwbc54r5h85px04",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "aerofoil",
+    "topicTitle": "6.8 Aerofoil",
+    "_id": "m1709hj3bv4j31e2j8bjn1tgc58e1ha6",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "As the plane accelerates, air flows faster over the curved upper surface of the wing than beneath the flatter lower surface. By Bernoulli's principle, faster-moving air has lower pressure, so the pressure above the wing becomes lower than the pressure below it. This pressure difference produces a net upward force (lift/upthrust) on the wing once the plane is moving fast enough on the runway.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.8",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain how an upthrust is produced when an aeroplane is running on the runway?",
+    "topicId": "ms746q7b8p5bbc659hwbc54r5h85px04"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "aerofoil",
+    "topicTitle": "6.8 Aerofoil",
+    "_id": "m175f61jj5pzeffftyxm9h3k0h8e2wqv",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "As the plane accelerates, air flows faster over the curved upper surface of the wing than beneath the flatter lower surface. By Bernoulli's principle, faster-moving air has lower pressure, so the pressure above the wing becomes lower than the pressure below it. This pressure difference produces a net upward force (lift/upthrust) on the wing once the plane is moving fast enough on the runway.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.8",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain how an upthrust is produced when an aeroplane is running on the runway?",
+    "topicId": "ms746q7b8p5bbc659hwbc54r5h85px04"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "aerofoil",
+    "topicTitle": "6.8 Aerofoil",
+    "_id": "m176wqsvj1htvxm84jwqrrfs8n85qdwa",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: Magnus effect is a force on a spinning object moving through a fluid, perpendicular to its velocity",
+      "Cause: Spinning creates asymmetric pressure distribution around the moving object",
+      "Direction: Force acts perpendicular to both velocity and spin axis",
+      "Example: Spinning cricket ball curves during flight due to pressure difference",
+      "Applications: Explains curved trajectories in sports (cricket, tennis, football)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Magnus effect is the phenomenon where a spinning object moving through a fluid (liquid or gas) experiences a force perpendicular to its direction of motion. This occurs because the spinning motion creates a pressure difference around the object. For example, when a cricket ball is bowled with spin, the rotating ball curves away from its initial trajectory due to the Magnus effect. The side of the ball spinning into the direction of motion experiences higher air pressure, while the opposite side experiences lower pressure, causing the ball to deflect sideways.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionId": "spin-bowling-and-the-magnus-effect",
+    "sectionLabel": "Spin Bowling and the Magnus Effect",
+    "session": "annual",
+    "stem": "What is meant by **Magnus effect**? Explain with the help of an example.",
+    "topicId": "ms746q7b8p5bbc659hwbc54r5h85px04",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "aerofoil",
+    "topicTitle": "6.8 Aerofoil",
+    "_id": "m1790awn07cx8ctrpy2qfv9dmx85q5qe",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Aerofoil shape creates pressure difference between upper (curved) and lower (flatter) surfaces",
+      "Higher air velocity over upper surface results in lower pressure (Bernoulli's principle)",
+      "Aerofoil deflects air downward, producing upward reaction force (Newton's third law)",
+      "Net upward force (lift) is generated to support aircraft weight",
+      "Design minimizes drag while maximizing lift for efficient flight"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An aerofoil is a streamlined shape designed to generate lift by exploiting Bernoulli's principle and Newton's third law. As air flows over the curved upper surface and flatter lower surface, the velocity of air is higher over the upper surface, creating lower pressure. Simultaneously, the aerofoil deflects air downward, and by Newton's third law, this produces an equal and opposite upward force (lift). The combination of pressure difference and momentum change enables the aerofoil to generate lift while minimizing drag, making it essential for aircraft flight.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "working-principle",
+    "sectionLabel": "Working Principle",
+    "session": "annual",
+    "stem": "Discuss working principle of aerofoil.",
+    "topicId": "ms746q7b8p5bbc659hwbc54r5h85px04",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "aerofoil",
+    "topicTitle": "6.8 Aerofoil",
+    "_id": "m172kmpd1fr3gsa58hcv7ycv5985pk4v",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognizes that lift calculation requires Bernoulli's principle or aerodynamic lift equation",
+      "Identifies that lift depends on air density, wing area, and velocity difference between surfaces",
+      "Notes that provided content does not contain relevant aerodynamics material",
+      "Would require formula: $L = \\frac{1}{2}\\rho A(v_{top}^2 - v_{bottom}^2)$ to proceed",
+      "Correct answer would be approximately 1.96 × 10⁷ N if proper aerodynamic principles were applied"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "By Bernoulli's equation applied across the top and bottom surfaces of the wing (same height), the pressure difference is $\\Delta P = \\frac{1}{2}\\rho(v_{top}^2 - v_{bottom}^2)$. Lift force $L = \\Delta P \\times A = \\frac{1}{2}\\rho A(v_{top}^2 - v_{bottom}^2)$.\n\nSubstituting: $L = \\frac{1}{2}(1.2)(88)(280^2 - 150^2) = 0.5 \\times 1.2 \\times 88 \\times (78400 - 22500) = 52.8 \\times 55900 \\approx 2.95 \\times 10^6$ N.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionId": "working-principle",
+    "sectionLabel": "Working Principle",
+    "session": "annual",
+    "stem": "What is the aerofoil lift (in newtons) on a wing of area 88 m² if the air passes at speed over its top surface at 280 m·s⁻¹ and bottom surface at 150 m·s⁻¹? (Assume standard air density ρ = 1.2 kg·m⁻³)",
+    "topicId": "ms746q7b8p5bbc659hwbc54r5h85px04",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "aerofoil",
+    "topicTitle": "6.8 Aerofoil",
+    "_id": "m175fr39yr2eqbth3k7a9ykt8h8e3tn3",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By Bernoulli's equation: $\\Delta P = \\frac{1}{2}\\rho(v_{top}^2 - v_{bottom}^2) = \\frac{1}{2}\\times1.29\\times(900-400) = 0.645\\times500 \\approx 322.5\\ \\mathrm{Pa}$, matching the textbook. (Ans. 322.5 Pa, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.10",
+    "sectionId": "working-principle",
+    "sectionLabel": "Working Principle",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If the speed of air across the top and bottom of a small aeroplane's wing is 30 m/s and 20 m/s respectively, calculate the pressure difference between the top and bottom of the wings if air density = 1.29 kg/m^3.",
+    "topicId": "ms746q7b8p5bbc659hwbc54r5h85px04"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m171afvztts51ycrr6p9p9weg985p57k",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Rearrange Stokes' law to isolate $\\eta$: $\\eta = \\frac{F_D}{rv}$",
+      "Substitute dimensions: drag force $[F_D] = MLT^{-2}$, radius $[r] = L$, velocity $[v] = LT^{-1}$",
+      "Simplify dimensional expression: $\\frac{MLT^{-2}}{L \\cdot LT^{-1}} = ML^{-1}T^{-1}$",
+      "Final answer: $[\\eta] = ML^{-1}T^{-1}$ (mass per unit length per unit time)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To find the dimensions of coefficient of viscosity $\\eta$ from Stokes' law $F_D = 6\\pi\\eta r v$, we rearrange to get $\\eta = \\frac{F_D}{6\\pi r v}$. The dimensions are: $[\\eta] = \\frac{[F_D]}{[r][v]} = \\frac{MLT^{-2}}{L \\cdot LT^{-1}} = \\frac{MLT^{-2}}{L^2T^{-1}} = ML^{-1}T^{-1}$. Therefore, the coefficient of viscosity has dimensions $[\\eta] = ML^{-1}T^{-1}$ or $[M][L]^{-1}[T]^{-1}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "From Stokes' law, the drag force can be expressed as $F_D = 6\\pi\\eta r v$, then find the dimensions of coefficient of viscosity $\\eta$?",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m175e0v8b53rnxwtbhj44qfxcs8e0q9h",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By Stoke's law, viscous drag force $F = 6\\pi\\eta r v$, which is directly proportional to both the radius r and the velocity v.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "inversely proportional to 'r' but directly proportional to velocity 'v'"
+      },
+      {
+        "key": "B",
+        "text": "directly proportional to both radius 'r' and velocity 'v'"
+      },
+      {
+        "key": "C",
+        "text": "inversely proportional to both radius 'r' and velocity 'v'"
+      },
+      {
+        "key": "D",
+        "text": "directly proportional to 'r' but inversely proportional to 'v'"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Spherical balls of radius 'r' are falling in a viscous fluid of viscosity 'eta' with a velocity 'v'. The retarding viscous force acting on the spherical ball is:",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m176w1c6en1bq6h5djc0st9vw58e0qdw",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Liquid viscosity decreases with rising temperature (molecules move more freely), while gas viscosity increases with temperature (more frequent intermolecular collisions from momentum transfer).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "increase and increase"
+      },
+      {
+        "key": "B",
+        "text": "increase and decrease"
+      },
+      {
+        "key": "C",
+        "text": "decrease and increase"
+      },
+      {
+        "key": "D",
+        "text": "decrease and decrease"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "With an increase in temperature, the viscosity of liquids and gases, respectively will:",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m170yx336d4wkgw5vrj3q1gsv18e0hex",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Tight-fitting body suits are smooth and streamlined, reducing turbulence and skin-friction drag from the surrounding fluid (water or air), allowing the athlete to move faster with less resistive force opposing their motion.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.1",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why do athletes, such as swimmers and bicyclists, wear body suits in competition?",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m17brcm6kaxdnsjkwyfz1998158e0hf4",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Viscosity is a fluid's internal resistance to flow, arising from friction between adjacent layers of fluid moving at different velocities.",
+      "A more viscous fluid flows more slowly and resists the relative motion of its layers more strongly than a less viscous one.",
+      "Examples: honey and glycerin are highly viscous and pour slowly, while water and petrol have low viscosity and flow easily; motor oil is chosen for lubrication partly based on its viscosity to reduce friction between engine parts."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Viscosity is a fluid's resistance to flow. Honey and engine oil have relatively large viscosity and flow slowly, while water and air have lower viscosity and flow more easily. In most liquids viscosity decreases as temperature increases, whereas in most gases it increases. Viscosity is represented by $\\eta$ and has SI units such as $\\mathrm{N\\,s\\,m^{-2}}$ or $\\mathrm{Pa\\,s}$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.3",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is viscosity? Explain with the help of examples.",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m17c4g98dm8w8axvvhrhfp7zz18e195c",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Viscous drag is the resistive (retarding) force experienced by an object moving through a viscous fluid, or by fluid layers moving past each other, due to the fluid's internal friction.",
+      "For a sphere moving through a fluid, viscous drag opposes its motion and increases with the object's speed and the fluid's viscosity (as described by Stoke's law).",
+      "Examples: a marble falling through glycerin slows and reaches a constant (terminal) speed due to viscous drag; air resistance on a falling raindrop or parachutist is a form of viscous drag."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Viscous drag is the retarding force exerted by a fluid on an object moving through it. It acts opposite the relative motion, as when a hand is moved through water or air. Drag depends on the object's size, shape, and orientation, the fluid's viscosity, and relative speed. Streamlining reduces drag, while a parachute increases drag to slow a falling person.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.4",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is viscous drag? Explain with the help of examples.",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m17030x8fv6nqdp9sag4gxprk58e22ed",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "By Stoke's law, viscous drag force $F = 6\\pi\\eta r v$, which is directly proportional to both the radius r and the velocity v.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "inversely proportional to 'r' but directly proportional to velocity 'v'"
+      },
+      {
+        "key": "B",
+        "text": "directly proportional to both radius 'r' and velocity 'v'"
+      },
+      {
+        "key": "C",
+        "text": "inversely proportional to both radius 'r' and velocity 'v'"
+      },
+      {
+        "key": "D",
+        "text": "directly proportional to 'r' but inversely proportional to 'v'"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Spherical balls of radius 'r' are falling in a viscous fluid of viscosity 'eta' with a velocity 'v'. The retarding viscous force acting on the spherical ball is:",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m17fzta35ffd91k386zf087a998e2mwt",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Liquid viscosity decreases with rising temperature (molecules move more freely), while gas viscosity increases with temperature (more frequent intermolecular collisions from momentum transfer).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "increase and increase"
+      },
+      {
+        "key": "B",
+        "text": "increase and decrease"
+      },
+      {
+        "key": "C",
+        "text": "decrease and increase"
+      },
+      {
+        "key": "D",
+        "text": "decrease and decrease"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "With an increase in temperature, the viscosity of liquids and gases, respectively will:",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m179zpwpm0ccjyqtc5e65j3yt58e2pm4",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Tight-fitting body suits are smooth and streamlined, reducing turbulence and skin-friction drag from the surrounding fluid (water or air), allowing the athlete to move faster with less resistive force opposing their motion.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.1",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why do athletes, such as swimmers and bicyclists, wear body suits in competition?",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m172jv7xj2g8qhgahz4nnmmmhn8e3rdc",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Viscosity is a fluid's internal resistance to flow, arising from friction between adjacent layers of fluid moving at different velocities.",
+      "A more viscous fluid flows more slowly and resists the relative motion of its layers more strongly than a less viscous one.",
+      "Examples: honey and glycerin are highly viscous and pour slowly, while water and petrol have low viscosity and flow easily; motor oil is chosen for lubrication partly based on its viscosity to reduce friction between engine parts."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Viscosity is a fluid's resistance to flow. Honey and engine oil have relatively large viscosity and flow slowly, while water and air have lower viscosity and flow more easily. In most liquids viscosity decreases as temperature increases, whereas in most gases it increases. Viscosity is represented by $\\eta$ and has SI units such as $\\mathrm{N\\,s\\,m^{-2}}$ or $\\mathrm{Pa\\,s}$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.3",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is viscosity? Explain with the help of examples.",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m17dfazbc91n176887fea2n9fx8e26xq",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Viscous drag is the resistive (retarding) force experienced by an object moving through a viscous fluid, or by fluid layers moving past each other, due to the fluid's internal friction.",
+      "For a sphere moving through a fluid, viscous drag opposes its motion and increases with the object's speed and the fluid's viscosity (as described by Stoke's law).",
+      "Examples: a marble falling through glycerin slows and reaches a constant (terminal) speed due to viscous drag; air resistance on a falling raindrop or parachutist is a form of viscous drag."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Viscous drag is the retarding force exerted by a fluid on an object moving through it. It acts opposite the relative motion, as when a hand is moved through water or air. Drag depends on the object's size, shape, and orientation, the fluid's viscosity, and relative speed. Streamlining reduces drag, while a parachute increases drag to slow a falling person.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.4",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is viscous drag? Explain with the help of examples.",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m1739jpehjtjbwm3et3mm4cbmd8e0jrd",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Stoke's law gives the viscous drag force on a small sphere moving slowly through a viscous fluid; the force depends on the fluid's viscosity (eta), the sphere's radius (r), and its velocity (v).",
+      "By dimensional analysis, assuming $F = k\\eta^a r^b v^c$ and matching the dimensions of force $[MLT^{-2}]$ to those of eta $[ML^{-1}T^{-1}]$, r $[L]$, and v $[LT^{-1}]$, solving the resulting equations gives $a=1, b=1, c=1$.",
+      "This yields Stoke's law: $F = 6\\pi\\eta r v$, where the numerical constant $6\\pi$ is determined experimentally/theoretically (dimensional analysis alone gives the proportionality $F \\propto \\eta r v$)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a small spherical object moving through a viscous fluid, Stokes' law states that the drag force is $F_d=6\\pi\\eta r v$. Thus drag is directly proportional to the sphere's radius $r$, speed $v$, and the fluid's coefficient of viscosity $\\eta$. The relation applies to a small sphere in the low-speed viscous-flow regime.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.5",
+    "sectionId": "stokes-law",
+    "sectionLabel": "Stokes' Law",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain Stoke's law. Derive its mathematical formula by using dimensional analysis.",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m17daqqcyhsyhf9wv723gfkr2h8e29dd",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Stoke's law gives the viscous drag force on a small sphere moving slowly through a viscous fluid; the force depends on the fluid's viscosity (eta), the sphere's radius (r), and its velocity (v).",
+      "By dimensional analysis, assuming $F = k\\eta^a r^b v^c$ and matching the dimensions of force $[MLT^{-2}]$ to those of eta $[ML^{-1}T^{-1}]$, r $[L]$, and v $[LT^{-1}]$, solving the resulting equations gives $a=1, b=1, c=1$.",
+      "This yields Stoke's law: $F = 6\\pi\\eta r v$, where the numerical constant $6\\pi$ is determined experimentally/theoretically (dimensional analysis alone gives the proportionality $F \\propto \\eta r v$)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a small spherical object moving through a viscous fluid, Stokes' law states that the drag force is $F_d=6\\pi\\eta r v$. Thus drag is directly proportional to the sphere's radius $r$, speed $v$, and the fluid's coefficient of viscosity $\\eta$. The relation applies to a small sphere in the low-speed viscous-flow regime.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.5",
+    "sectionId": "stokes-law",
+    "sectionLabel": "Stokes' Law",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain Stoke's law. Derive its mathematical formula by using dimensional analysis.",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m17b4r6tqvzw0468an2edfwty98e0afx",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Stoke's law for viscous drag applies at terminal (constant) velocity, where the net force on the sphere is zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "moving with a low, non-zero acceleration"
+      },
+      {
+        "key": "B",
+        "text": "moving with a constant velocity"
+      },
+      {
+        "key": "C",
+        "text": "at rest in the fluid"
+      },
+      {
+        "key": "D",
+        "text": "of the same density as the fluid"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "terminal-velocity",
+    "sectionLabel": "Terminal Velocity",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "In the equation for Stoke's law, the sphere must be:",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "viscous-drag",
+    "topicTitle": "6.9 Viscosity and Drag",
+    "_id": "m170kxnamyfsgtv408yt166gdx8e2aty",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Stoke's law for viscous drag applies at terminal (constant) velocity, where the net force on the sphere is zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "moving with a low, non-zero acceleration"
+      },
+      {
+        "key": "B",
+        "text": "moving with a constant velocity"
+      },
+      {
+        "key": "C",
+        "text": "at rest in the fluid"
+      },
+      {
+        "key": "D",
+        "text": "of the same density as the fluid"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "terminal-velocity",
+    "sectionLabel": "Terminal Velocity",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "In the equation for Stoke's law, the sphere must be:",
+    "topicId": "ms7by316qjr1tyr6e59p00nwws85prjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "fluid-friction-and-drag",
+    "topicTitle": "6.10 Fluid Friction and Drag",
+    "_id": "m17d1x9jw1c6xpgcwqamz8ahvx85qxm5",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For spherical raindrops falling at terminal velocity, the drag force equals the gravitational force. Using Stokes' law for viscous drag ($F_D = 6\\pi\\eta rv$) and balancing with weight ($mg = \\frac{4}{3}\\pi r^3\\rho g$), we get $v_t \\propto r^2$. Therefore, if radii are in ratio $2:3$, terminal velocities are in ratio $2^2:3^2 = 4:9$.",
+    "keyPoints": [
+      "Correctly identifies that terminal velocity occurs when drag force equals gravitational force",
+      "Applies Stokes' law for viscous drag on spherical objects",
+      "Derives the relationship $v_t \\propto r^2$ for terminal velocity",
+      "Correctly calculates the ratio as $4:9$ using the proportionality relationship"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For spherical raindrops falling at terminal velocity, the drag force equals the gravitational force. Using Stokes' law for viscous drag ($F_D = 6\\pi\\eta rv$) and balancing with weight ($mg = \\frac{4}{3}\\pi r^3\\rho g$), we get $v_t \\propto r^2$. Therefore, if radii are in ratio $2:3$, terminal velocities are in ratio $2^2:3^2 = 4:9$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2:3$"
+      },
+      {
+        "key": "B",
+        "text": "$3:2$"
+      },
+      {
+        "key": "C",
+        "text": "$4:9$"
+      },
+      {
+        "key": "D",
+        "text": "$9:4$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sectionId": "mathematical-derivation-for-a-sphere",
+    "sectionLabel": "Mathematical Derivation (for a Sphere)",
+    "session": "annual",
+    "stem": "Two rain drops have radii in the ratio $2:3$. The ratio between their terminal velocities will be:",
+    "topicId": "ms76karsyp8pj5g3gje8g0q0j585qvtg",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "fluid-friction-and-drag",
+    "topicTitle": "6.10 Fluid Friction and Drag",
+    "_id": "m171afvztts51ycrr6p9p9weg985p57k",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Rearrange Stokes' law to isolate $\\eta$: $\\eta = \\frac{F_D}{rv}$",
+      "Substitute dimensions: drag force $[F_D] = MLT^{-2}$, radius $[r] = L$, velocity $[v] = LT^{-1}$",
+      "Simplify dimensional expression: $\\frac{MLT^{-2}}{L \\cdot LT^{-1}} = ML^{-1}T^{-1}$",
+      "Final answer: $[\\eta] = ML^{-1}T^{-1}$ (mass per unit length per unit time)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To find the dimensions of coefficient of viscosity $\\eta$ from Stokes' law $F_D = 6\\pi\\eta r v$, we rearrange to get $\\eta = \\frac{F_D}{6\\pi r v}$. The dimensions are: $[\\eta] = \\frac{[F_D]}{[r][v]} = \\frac{MLT^{-2}}{L \\cdot LT^{-1}} = \\frac{MLT^{-2}}{L^2T^{-1}} = ML^{-1}T^{-1}$. Therefore, the coefficient of viscosity has dimensions $[\\eta] = ML^{-1}T^{-1}$ or $[M][L]^{-1}[T]^{-1}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "From Stokes' law, the drag force can be expressed as $F_D = 6\\pi\\eta r v$, then find the dimensions of coefficient of viscosity $\\eta$?",
+    "topicId": "ms76karsyp8pj5g3gje8g0q0j585qvtg",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "fluid-friction-and-drag",
+    "topicTitle": "6.10 Fluid Friction and Drag",
+    "_id": "m177vxhpzwkq4fgvmv91tmknyd85q0m6",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Fog droplets experience downward gravitational force",
+      "Air resistance/viscous drag acts upward on falling droplets",
+      "When drag force equals weight, droplet reaches equilibrium (terminal velocity)",
+      "Small size of fog droplets results in significant drag relative to weight",
+      "Droplets appear suspended when moving at constant (very slow) velocity or in equilibrium"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Fog droplets appear suspended in air because they experience an upward drag force from air resistance that balances their weight. As droplets fall through air, viscous forces create a resistive drag that opposes their motion. When this drag force equals the gravitational force pulling the droplet downward, the droplet reaches terminal velocity and appears stationary or slowly descends, creating the illusion of suspension.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "terminal-velocity",
+    "sectionLabel": "Terminal Velocity",
+    "session": "annual",
+    "stem": "Why do fog droplets appear to be suspended in air? Explain briefly.",
+    "topicId": "ms76karsyp8pj5g3gje8g0q0j585qvtg",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m177vxhpzwkq4fgvmv91tmknyd85q0m6",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Fog droplets experience downward gravitational force",
+      "Air resistance/viscous drag acts upward on falling droplets",
+      "When drag force equals weight, droplet reaches equilibrium (terminal velocity)",
+      "Small size of fog droplets results in significant drag relative to weight",
+      "Droplets appear suspended when moving at constant (very slow) velocity or in equilibrium"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Fog droplets appear suspended in air because they experience an upward drag force from air resistance that balances their weight. As droplets fall through air, viscous forces create a resistive drag that opposes their motion. When this drag force equals the gravitational force pulling the droplet downward, the droplet reaches terminal velocity and appears stationary or slowly descends, creating the illusion of suspension.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "terminal-velocity",
+    "sectionLabel": "Terminal Velocity",
+    "session": "annual",
+    "stem": "Why do fog droplets appear to be suspended in air? Explain briefly.",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m173wvvys9j7pmyw289m64faed8e1xv5",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At terminal velocity, $v_t = \\frac{2r^2 g(\\rho-\\sigma)}{9\\eta}$. Treating air density $\\sigma$ as negligible compared to water droplet density $\\rho \\approx 1000\\ \\mathrm{kg/m^3}$: $r^2 = \\frac{9\\eta v_t}{2 g \\rho} = \\frac{9 \\times 1.9\\times10^{-5} \\times 2.98\\times10^{-3}}{2 \\times 9.8 \\times 1000} \\approx 2.6\\times10^{-11}$, so $r \\approx 5.1\\times10^{-6}$ m, matching the textbook's printed answer. (Ans. $5.1 \\times 10^{-6}$ m, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.1",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The settling speed of a small fog droplet in air is found to be 2.98 mm/s. Find out the radius of the droplet. The coefficient of viscosity of air is 1.9 x 10^-5 kg m^-1 s^-1.",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m175a5z3nvf80gdqvrepjx75b98e32eg",
+    "exerciseId": "xd706awf7127bvfjw3xc90ee5d8e03ht",
+    "exerciseTitle": "Exercise 6: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At terminal velocity, $v_t = \\frac{2r^2 g(\\rho-\\sigma)}{9\\eta}$. Treating air density $\\sigma$ as negligible compared to water droplet density $\\rho \\approx 1000\\ \\mathrm{kg/m^3}$: $r^2 = \\frac{9\\eta v_t}{2 g \\rho} = \\frac{9 \\times 1.9\\times10^{-5} \\times 2.98\\times10^{-3}}{2 \\times 9.8 \\times 1000} \\approx 2.6\\times10^{-11}$, so $r \\approx 5.1\\times10^{-6}$ m, matching the textbook's printed answer. (Ans. $5.1 \\times 10^{-6}$ m, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.1",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The settling speed of a small fog droplet in air is found to be 2.98 mm/s. Find out the radius of the droplet. The coefficient of viscosity of air is 1.9 x 10^-5 kg m^-1 s^-1.",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m17d1x9jw1c6xpgcwqamz8ahvx85qxm5",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For spherical raindrops falling at terminal velocity, the drag force equals the gravitational force. Using Stokes' law for viscous drag ($F_D = 6\\pi\\eta rv$) and balancing with weight ($mg = \\frac{4}{3}\\pi r^3\\rho g$), we get $v_t \\propto r^2$. Therefore, if radii are in ratio $2:3$, terminal velocities are in ratio $2^2:3^2 = 4:9$.",
+    "keyPoints": [
+      "Correctly identifies that terminal velocity occurs when drag force equals gravitational force",
+      "Applies Stokes' law for viscous drag on spherical objects",
+      "Derives the relationship $v_t \\propto r^2$ for terminal velocity",
+      "Correctly calculates the ratio as $4:9$ using the proportionality relationship"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For spherical raindrops falling at terminal velocity, the drag force equals the gravitational force. Using Stokes' law for viscous drag ($F_D = 6\\pi\\eta rv$) and balancing with weight ($mg = \\frac{4}{3}\\pi r^3\\rho g$), we get $v_t \\propto r^2$. Therefore, if radii are in ratio $2:3$, terminal velocities are in ratio $2^2:3^2 = 4:9$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2:3$"
+      },
+      {
+        "key": "B",
+        "text": "$3:2$"
+      },
+      {
+        "key": "C",
+        "text": "$4:9$"
+      },
+      {
+        "key": "D",
+        "text": "$9:4$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sectionId": "mathematical-derivation-for-a-sphere",
+    "sectionLabel": "Mathematical Derivation (for a Sphere)",
+    "session": "annual",
+    "stem": "Two rain drops have radii in the ratio $2:3$. The ratio between their terminal velocities will be:",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m175amcrqwh797qefptf1wpjfs85p6w9",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Terminal velocity occurs when drag force equals gravitational force: $F_D = F_g$",
+      "Heavier object has larger gravitational force ($F_g = mg$), requiring larger drag force for equilibrium",
+      "Heavier object accelerates faster due to greater net force, reaching higher velocities more quickly",
+      "Drag force increases with velocity, so heavier object reaches equilibrium condition sooner",
+      "At terminal velocity, net force is zero and acceleration becomes zero"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A heavier object will attain terminal velocity first. This is because terminal velocity is reached when the drag force equals the gravitational force ($F_g = F_D$). Since the gravitational force on a heavier object is greater ($F_g = mg$), it requires a larger drag force to achieve equilibrium. However, the heavier object experiences a greater net downward force initially, causing it to accelerate faster and reach higher velocities more quickly. The drag force increases with velocity, so the heavier object reaches the velocity at which $F_D = F_g$ sooner than a lighter object, which has a smaller gravitational force to balance.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionId": "mathematical-derivation-for-a-sphere",
+    "sectionLabel": "Mathematical Derivation (for a Sphere)",
+    "session": "annual",
+    "stem": "Which object will attain terminal velocity first, a lighter object or a heavier object? Justify your answer.",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m1710e49rmy8ydd9x1yhvqw0498e0r67",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Terminal velocity scales with $r^2$. Combining two equal-volume drops into one gives a new radius $r' = 2^{1/3} r$, so $v' = v \\times 2^{2/3} \\approx 20 \\times 1.587 \\approx 31.7$ cm/s $\\approx 32$ cm/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "10 cm/s"
+      },
+      {
+        "key": "B",
+        "text": "20 cm/s"
+      },
+      {
+        "key": "C",
+        "text": "32 cm/s"
+      },
+      {
+        "key": "D",
+        "text": "40 cm/s"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "the-terminal-velocity-condition",
+    "sectionLabel": "The Terminal Velocity Condition",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two identical spherical drops of water are falling through air with a steady velocity of 20 cm/s. If the drops combine to form a single drop, what would be the terminal velocity of the single drop?",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m173qfcvy9metp78k1dtpq1bk58e1xmy",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Terminal velocity is proportional to $r^2$, so $v_1/v_2 = (r_1/r_2)^2 = 4/9$, giving $r_1/r_2 = 2/3$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "4:9"
+      },
+      {
+        "key": "B",
+        "text": "2:3"
+      },
+      {
+        "key": "C",
+        "text": "3:2"
+      },
+      {
+        "key": "D",
+        "text": "9:4"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "the-terminal-velocity-condition",
+    "sectionLabel": "The Terminal Velocity Condition",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two rain drops reach the Earth with their terminal velocities in the ratio 4:9. The ratio of their radii is:",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m17by2bfg8mcaephbtz54zpsb18e1v7n",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Terminal velocity is the constant maximum velocity a falling object (e.g. a sphere in a viscous fluid) reaches when the net force on it becomes zero, i.e. when the viscous drag force plus upthrust balance its weight.",
+      "At terminal velocity: weight = upthrust + viscous drag, i.e. $\\frac{4}{3}\\pi r^3 \\rho g = \\frac{4}{3}\\pi r^3 \\sigma g + 6\\pi\\eta r v_t$, where rho is the sphere's density, sigma is the fluid's density, and $v_t$ is terminal velocity.",
+      "Solving for $v_t$ gives: $v_t = \\frac{2r^2 g(\\rho - \\sigma)}{9\\eta}$, showing terminal velocity increases with the square of the radius and the density difference, and decreases with fluid viscosity."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Terminal velocity is the maximum constant speed reached by a freely falling object in a viscous medium. Initially weight exceeds drag and the object accelerates; as speed rises, drag rises. At terminal velocity the upward drag equals weight, so net force and acceleration are zero. Combining weight $mg=\\frac{4}{3}\\pi r^3\\rho g$ with Stokes' drag $6\\pi\\eta r v_t$ gives $v_t=\\frac{2r^2\\rho g}{9\\eta}$, so $v_t\\propto r^2$ and inversely depends on viscosity.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.6",
+    "sectionId": "the-terminal-velocity-condition",
+    "sectionLabel": "The Terminal Velocity Condition",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain terminal velocity and derive its equation by using Stoke's law.",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m179psm58cqk3xe4rqam8dxqps8e30xf",
+    "correctKey": "C",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Terminal velocity scales with $r^2$. Combining two equal-volume drops into one gives a new radius $r' = 2^{1/3} r$, so $v' = v \\times 2^{2/3} \\approx 20 \\times 1.587 \\approx 31.7$ cm/s $\\approx 32$ cm/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "10 cm/s"
+      },
+      {
+        "key": "B",
+        "text": "20 cm/s"
+      },
+      {
+        "key": "C",
+        "text": "32 cm/s"
+      },
+      {
+        "key": "D",
+        "text": "40 cm/s"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "the-terminal-velocity-condition",
+    "sectionLabel": "The Terminal Velocity Condition",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two identical spherical drops of water are falling through air with a steady velocity of 20 cm/s. If the drops combine to form a single drop, what would be the terminal velocity of the single drop?",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m17e19dn7wez1w75z6jf5txx098e3ctd",
+    "correctKey": "B",
+    "exerciseId": "xd73kyfnassjqf9qb0yrrpgq3s8e0a6r",
+    "exerciseTitle": "Exercise 6: Multiple Choice Questions",
+    "explanation": "Terminal velocity is proportional to $r^2$, so $v_1/v_2 = (r_1/r_2)^2 = 4/9$, giving $r_1/r_2 = 2/3$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "4:9"
+      },
+      {
+        "key": "B",
+        "text": "2:3"
+      },
+      {
+        "key": "C",
+        "text": "3:2"
+      },
+      {
+        "key": "D",
+        "text": "9:4"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "the-terminal-velocity-condition",
+    "sectionLabel": "The Terminal Velocity Condition",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two rain drops reach the Earth with their terminal velocities in the ratio 4:9. The ratio of their radii is:",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "terminal-velocity",
+    "topicTitle": "6.11 Terminal Velocity",
+    "_id": "m1782fhm0hxmbd8fffdf2b4n218e3cen",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Terminal velocity is the constant maximum velocity a falling object (e.g. a sphere in a viscous fluid) reaches when the net force on it becomes zero, i.e. when the viscous drag force plus upthrust balance its weight.",
+      "At terminal velocity: weight = upthrust + viscous drag, i.e. $\\frac{4}{3}\\pi r^3 \\rho g = \\frac{4}{3}\\pi r^3 \\sigma g + 6\\pi\\eta r v_t$, where rho is the sphere's density, sigma is the fluid's density, and $v_t$ is terminal velocity.",
+      "Solving for $v_t$ gives: $v_t = \\frac{2r^2 g(\\rho - \\sigma)}{9\\eta}$, showing terminal velocity increases with the square of the radius and the density difference, and decreases with fluid viscosity."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Terminal velocity is the maximum constant speed reached by a freely falling object in a viscous medium. Initially weight exceeds drag and the object accelerates; as speed rises, drag rises. At terminal velocity the upward drag equals weight, so net force and acceleration are zero. Combining weight $mg=\\frac{4}{3}\\pi r^3\\rho g$ with Stokes' drag $6\\pi\\eta r v_t$ gives $v_t=\\frac{2r^2\\rho g}{9\\eta}$, so $v_t\\propto r^2$ and inversely depends on viscosity.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.6",
+    "sectionId": "the-terminal-velocity-condition",
+    "sectionLabel": "The Terminal Velocity Condition",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain terminal velocity and derive its equation by using Stoke's law.",
+    "topicId": "ms78zd4v411g5zhy3024khws9h85pbvw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "superfluidity",
+    "topicTitle": "6.12 Superfluidity",
+    "_id": "m179fehdvqge0nxv95n7map4558e13vk",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A superfluid is a phase of matter that flows with zero viscosity (no internal friction or resistance to flow), allowing it to flow through extremely narrow channels and even climb container walls without dissipating energy. Superfluids are made by cooling certain substances, most notably liquid helium-4, to extremely low temperatures (below about 2.17 K, the lambda point), at which point a macroscopic quantum effect (Bose-Einstein-condensate-like behavior) sets in and the liquid transitions into the frictionless superfluid state.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.11",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is meant by superfluid? How is superfluid made?",
+    "topicId": "ms790qdz17q40ndc6mk4z1m79x85q2d8"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "superfluidity",
+    "topicTitle": "6.12 Superfluidity",
+    "_id": "m175z34aahtspd2aanhn7dr81x8e0kpr",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Superfluidity is a state of matter in which a liquid flows with exactly zero viscosity, offering no resistance to flow at all, unlike ordinary fluids which always have some internal friction.",
+      "It is a macroscopic quantum phenomenon, first observed in liquid helium-4 cooled below about 2.17 K (the lambda point), where a large fraction of the atoms condense into the same lowest-energy quantum state.",
+      "A superfluid displays striking behaviors such as flowing without measurable loss through extremely narrow capillaries and creeping up and over the walls of its container (the fountain/creeping film effect), because it has no viscous drag to oppose these motions."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Superfluidity is a state in which a liquid has zero viscosity and flows without friction or loss of kinetic energy. A stirred superfluid can form vortices that continue spinning indefinitely, and it can creep over container walls. Liquid helium near absolute zero is an example described in the chapter.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.11",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Describe super fluidity.",
+    "topicId": "ms790qdz17q40ndc6mk4z1m79x85q2d8"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "superfluidity",
+    "topicTitle": "6.12 Superfluidity",
+    "_id": "m17bbdff7m3bsqj5at02wpc8mn8e294a",
+    "exerciseId": "xd747wwb47cck0b4eg7zrva0yx8e1x1g",
+    "exerciseTitle": "Exercise 6: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A superfluid is a phase of matter that flows with zero viscosity (no internal friction or resistance to flow), allowing it to flow through extremely narrow channels and even climb container walls without dissipating energy. Superfluids are made by cooling certain substances, most notably liquid helium-4, to extremely low temperatures (below about 2.17 K, the lambda point), at which point a macroscopic quantum effect (Bose-Einstein-condensate-like behavior) sets in and the liquid transitions into the frictionless superfluid state.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6.11",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is meant by superfluid? How is superfluid made?",
+    "topicId": "ms790qdz17q40ndc6mk4z1m79x85q2d8"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "06-fluid-mechanics",
+    "chapterTitle": "Fluid Mechanics",
+    "topicSlug": "superfluidity",
+    "topicTitle": "6.12 Superfluidity",
+    "_id": "m177ex6wx24afmhx6jbadj4hcx8e2f70",
+    "exerciseId": "xd728wg2m8th9gg949xgccr37s8e1kgb",
+    "exerciseTitle": "Exercise 6: Comprehensive Questions",
+    "keyPoints": [
+      "Superfluidity is a state of matter in which a liquid flows with exactly zero viscosity, offering no resistance to flow at all, unlike ordinary fluids which always have some internal friction.",
+      "It is a macroscopic quantum phenomenon, first observed in liquid helium-4 cooled below about 2.17 K (the lambda point), where a large fraction of the atoms condense into the same lowest-energy quantum state.",
+      "A superfluid displays striking behaviors such as flowing without measurable loss through extremely narrow capillaries and creeping up and over the walls of its container (the fountain/creeping film effect), because it has no viscous drag to oppose these motions."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Superfluidity is a state in which a liquid has zero viscosity and flows without friction or loss of kinetic energy. A stirred superfluid can form vortices that continue spinning indefinitely, and it can creep over container walls. Liquid helium near absolute zero is an example described in the chapter.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.11",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 6,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Describe super fluidity.",
+    "topicId": "ms790qdz17q40ndc6mk4z1m79x85q2d8"
+  }
+]

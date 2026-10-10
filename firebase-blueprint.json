@@ -1,0 +1,100 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Student or Admin user profile and credentials",
+      "type": "object",
+      "properties": {
+        "username": { "type": "string" },
+        "role": { "type": "string", "enum": ["student", "admin"] },
+        "fullName": { "type": "string" },
+        "passwordHash": { "type": "string" },
+        "email": { "type": "string" },
+        "college": { "type": "string" },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["username", "role"]
+    },
+    "Drill": {
+      "title": "Drill",
+      "description": "Daily MCQ drill authored by the administrator",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "subject": { "type": "string" },
+        "dayNumber": { "type": "number" },
+        "drillNumber": { "type": "number" },
+        "title": { "type": "string" },
+        "chapter": { "type": "string" },
+        "date": { "type": "string" },
+        "totalMarks": { "type": "number" },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["id", "subject", "title"]
+    },
+    "UserAttempt": {
+      "title": "UserAttempt",
+      "description": "Student completed drill attempt record and score",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "drillId": { "type": "string" },
+        "username": { "type": "string" },
+        "subject": { "type": "string" },
+        "score": { "type": "number" },
+        "totalQuestions": { "type": "number" },
+        "completedAt": { "type": "number" },
+        "timeSpentSeconds": { "type": "number" }
+      },
+      "required": ["id", "drillId", "username", "score", "totalQuestions", "completedAt"]
+    },
+    "ChatMessage": {
+      "title": "ChatMessage",
+      "description": "Study group discussion chat message",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "text": { "type": "string" },
+        "senderUsername": { "type": "string" },
+        "senderFullName": { "type": "string" },
+        "senderRole": { "type": "string" },
+        "timestamp": { "type": "number" }
+      },
+      "required": ["id", "text", "senderUsername", "timestamp"]
+    },
+    "Announcement": {
+      "title": "Announcement",
+      "description": "Official admin portal broadcast announcement",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "createdAt": { "type": "number" }
+      },
+      "required": ["id", "title", "content"]
+    }
+  },
+  "firestore": {
+    "/kips_users/{userId}": {
+      "schema": "User",
+      "description": "User profile accounts and credentials"
+    },
+    "/kips_drills/{drillId}": {
+      "schema": "Drill",
+      "description": "Official daily MCQ drills"
+    },
+    "/kips_attempts/{attemptId}": {
+      "schema": "UserAttempt",
+      "description": "Student drill attempt records and scores"
+    },
+    "/kips_group_chat/{messageId}": {
+      "schema": "ChatMessage",
+      "description": "Real-time group discussion messages"
+    },
+    "/kips_announcements/{announcementId}": {
+      "schema": "Announcement",
+      "description": "Portal wide announcements from admin"
+    }
+  }
+}

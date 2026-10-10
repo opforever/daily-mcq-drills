@@ -1,0 +1,124 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isGoogleAdmin() {
+      return request.auth != null && (
+        request.auth.token.email == 'hussainnaveed1230@gmail.com' ||
+        request.auth.token.email == 'opforever1230@gmail.com'
+      );
+    }
+
+    function isPasswordAdmin() {
+      return request.resource.data.adminKey == 'kips_freefire_auth_2026';
+    }
+
+    function isAdmin() {
+      return isGoogleAdmin() || isPasswordAdmin();
+    }
+
+    function canDeleteAdminData() {
+      return isGoogleAdmin() || resource.data.adminKey == 'kips_freefire_auth_2026';
+    }
+
+    // 🛡️ USER ACCOUNTS (kips_users)
+    match /kips_users/{userId} {
+      // Anyone can read for login verification and leaderboard names
+      allow read: if true;
+      
+      // Creating accounts: Only student role can be created, must have password hash
+      allow create: if request.resource.data.keys().hasAll(['passwordHash', 'username', 'role']) 
+                    && request.resource.data.passwordHash.size() > 0
+                    && request.resource.data.role == 'student';
+      
+      // Updating accounts: Only Admin or the owner can update. Cannot elevate self to admin!
+      allow update: if isAdmin() || (
+        request.resource.data.username == resource.data.username &&
+        request.resource.data.role == resource.data.role &&
+        resource.data.role != 'admin'
+      );
+
+      // Deleting accounts: STRICTLY Admin only
+      allow delete: if isGoogleAdmin() || canDeleteAdminData();
+    }
+
+    // 📚 DRILLS & TEST QUESTIONS (kips_drills)
+    // Only Admin can create, modify, or delete official tests
+    match /kips_drills/{drillId} {
+      allow read: if true;
+      allow create, update: if isAdmin();
+      allow delete: if canDeleteAdminData();
+    }
+
+    // 🏆 STUDENT ATTEMPTS & SCORES (kips_attempts)
+    match /kips_attempts/{attemptId} {
+      // Anyone can read (needed for public leaderboard calculation and score verification)
+      allow read: if true;
+
+      // Creating a new attempt: Must provide valid payload
+      allow create: if request.resource.data.keys().hasAll(['id', 'drillId', 'username', 'score', 'totalQuestions', 'completedAt'])
+                    && request.resource.data.score >= 0;
+
+      // Updating an attempt (Retakes): Must be Admin OR updating their OWN attempt
+      // Strictly prevents tampering with other students' documents or changing ownership!
+      allow update: if isAdmin() || (
+        request.resource.data.username == resource.data.username &&
+        request.resource.data.drillId == resource.data.drillId &&
+        request.resource.data.id == resource.data.id &&
+        request.resource.data.score >= 0
+      );
+
+      // Deleting attempts: STRICTLY Admin only (Students cannot wipe or delete any attempts!)
+      allow delete: if isGoogleAdmin() || canDeleteAdminData();
+    }
+
+    // 💬 GROUP CHAT (kips_group_chat)
+    match /kips_group_chat/{messageId} {
+      allow read: if true;
+      // Normal students cannot post with role 'admin'
+      allow create: if request.resource.data.keys().hasAll(['id', 'text', 'senderUsername', 'timestamp'])
+                    && (request.resource.data.senderRole != 'admin' || isAdmin());
+      allow update: if isAdmin();
+      allow delete: if isGoogleAdmin() || canDeleteAdminData();
+    }
+
+    // 📢 ANNOUNCEMENTS (kips_announcements)
+    // Only Admin can post or clear announcements
+    match /kips_announcements/{document=**} {
+      allow read: if true;
+      allow create, update: if isAdmin();
+      allow delete: if canDeleteAdminData();
+    }
+
+    // ⏱️ ACTIVE DRILL SESSIONS (kips_active_sessions)
+    match /kips_active_sessions/{sessionId} {
+      allow read: if true;
+      allow create, update: if request.resource.data.keys().hasAll(['username', 'drillId']);
+      allow delete: if true;
+    }
+
+    // 💡 AI HINTS CACHE (kips_ai_hints)
+    match /kips_ai_hints/{hintId} {
+      allow read, create: if true;
+      allow update: if isAdmin();
+      allow delete: if canDeleteAdminData();
+    }
+
+    // 📓 MISTAKE VAULT (kips_mistakes)
+    match /kips_mistakes/{mistakeId} {
+      allow read: if true;
+      allow create: if request.resource.data.keys().hasAll(['username', 'questionId', 'subject']);
+      allow update: if isAdmin() || (request.resource.data.username == resource.data.username);
+      allow delete: if true;
+    }
+
+    // 📖 SYLLABUS & TRACKING (kips_syllabus)
+    // Only Admin can edit syllabus
+    match /kips_syllabus/{subjectId} {
+      allow read: if true;
+      allow create, update: if isAdmin();
+      allow delete: if canDeleteAdminData();
+    }
+  }
+}

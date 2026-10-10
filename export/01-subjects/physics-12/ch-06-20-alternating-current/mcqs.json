@@ -1,0 +1,1437 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-1-alternating-current-and-voltage",
+    "topicTitle": "20.1 Alternating Current and Voltage",
+    "_id": "k97fv4k2brdh0j3mrfb3m2sw3185qyrj",
+    "correctKey": "A",
+    "explanation": "Comparing with $V = V_0 \\sin(2\\pi f t)$, we get $2\\pi f = 157$. Thus $f = 157 / (2\\pi) = 157 / 6.283 \\approx 25$ Hz.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fxp9rx2vtpkxd9ta1pbsc5h85pw8v",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 Hz"
+      },
+      {
+        "key": "B",
+        "text": "50 Hz"
+      },
+      {
+        "key": "C",
+        "text": "60 Hz"
+      },
+      {
+        "key": "D",
+        "text": "157 Hz"
+      }
+    ],
+    "sectionId": "ac-terminologies",
+    "sectionLabel": "AC Terminologies",
+    "stem": "An alternating voltage is given by $V = 30 \\sin(157t)$. The frequency of this alternating voltage is approximately:",
+    "topicId": "ms7ev9v2558d7j5taqjb94ffrn85q586"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-1-alternating-current-and-voltage",
+    "topicTitle": "20.1 Alternating Current and Voltage",
+    "_id": "k9711cb6bkxfeefmjafjkfzm0h85ph9n",
+    "correctKey": "B",
+    "explanation": "A.C. voltmeters measure the rms value. $V_{rms} = V_o / \\sqrt{2} = 311 / 1.414 \\approx 220\\text{ V}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fxp9rx2vtpkxd9ta1pbsc5h85pw8v",
+    "options": [
+      {
+        "key": "A",
+        "text": "311 V"
+      },
+      {
+        "key": "B",
+        "text": "220 V"
+      },
+      {
+        "key": "C",
+        "text": "155.5 V"
+      },
+      {
+        "key": "D",
+        "text": "440 V"
+      }
+    ],
+    "sectionId": "ac-terminologies",
+    "sectionLabel": "AC Terminologies",
+    "stem": "If the peak value of an A.C. supply is $311\\text{ V}$, what is the value measured by a standard A.C. voltmeter?",
+    "topicId": "ms7ev9v2558d7j5taqjb94ffrn85q586"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-rectification",
+    "topicTitle": "20.2 Rectification",
+    "_id": "k97877rng016h6s335ag5bscyx85qd14",
+    "correctKey": "A",
+    "explanation": "The average value $V_{dc}$ for a half-wave rectified sine wave is calculated as $V_m / \\pi$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7740vttf8yc4e77ggkg377r585pcmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "$V_m / \\pi$"
+      },
+      {
+        "key": "B",
+        "text": "$2V_m / \\pi$"
+      },
+      {
+        "key": "C",
+        "text": "$V_m / \\sqrt{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$V_m / 2$"
+      }
+    ],
+    "sectionId": "key-parameters",
+    "sectionLabel": "Key Parameters",
+    "stem": "If the input AC voltage has a peak value of $V_m$, the average (DC) voltage of a half-wave rectifier (ignoring diode drop) is:",
+    "topicId": "ms7anvb7r3qm1h5zdm2wet1tkn85q1r9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-rectification",
+    "topicTitle": "20.2 Rectification",
+    "_id": "k974t8gctx8n8m929yzpnqqzmn85qxwg",
+    "correctKey": "C",
+    "explanation": "Full-wave rectifiers redirect the negative half-cycle so that current flows through the load in the same direction as the positive half-cycle.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7740vttf8yc4e77ggkg377r585pcmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "The positive half cycle only"
+      },
+      {
+        "key": "B",
+        "text": "The negative half cycle only"
+      },
+      {
+        "key": "C",
+        "text": "Both positive and negative half cycles"
+      },
+      {
+        "key": "D",
+        "text": "Neither half cycle"
+      }
+    ],
+    "sectionId": "full-wave-rectification",
+    "sectionLabel": "Full-Wave Rectification",
+    "stem": "In full-wave rectification, the output signal is produced during:",
+    "topicId": "ms7anvb7r3qm1h5zdm2wet1tkn85q1r9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-rectification",
+    "topicTitle": "20.2 Rectification",
+    "_id": "k979wbaznnkyvy22c8jjn9nsb585prdw",
+    "correctKey": "C",
+    "explanation": "A bridge rectifier uses four diodes arranged in a bridge configuration to achieve full-wave rectification without a center-tapped transformer.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7740vttf8yc4e77ggkg377r585pcmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "sectionId": "full-wave-rectification",
+    "sectionLabel": "Full-Wave Rectification",
+    "stem": "A bridge rectifier requires a minimum of how many diodes?",
+    "topicId": "ms7anvb7r3qm1h5zdm2wet1tkn85q1r9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-rectification",
+    "topicTitle": "20.2 Rectification",
+    "_id": "k97d1kpkegw14tryxdb1aygb6x85pqc2",
+    "correctKey": "C",
+    "explanation": "Since both halves of the cycle are rectified, the number of pulses per second doubles: $f_{out} = 2 \\times f_{in} = 2 \\times 50 = 100\\text{ Hz}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7740vttf8yc4e77ggkg377r585pcmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 Hz"
+      },
+      {
+        "key": "B",
+        "text": "50 Hz"
+      },
+      {
+        "key": "C",
+        "text": "100 Hz"
+      },
+      {
+        "key": "D",
+        "text": "200 Hz"
+      }
+    ],
+    "sectionId": "full-wave-rectification",
+    "sectionLabel": "Full-Wave Rectification",
+    "stem": "If the input AC frequency is $50\\text{ Hz}$, the ripple frequency of the output of a full-wave rectifier is:",
+    "topicId": "ms7anvb7r3qm1h5zdm2wet1tkn85q1r9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-rectification",
+    "topicTitle": "20.2 Rectification",
+    "_id": "k97dx4zykj3de57a72n04732m185qysq",
+    "correctKey": "C",
+    "explanation": "In a bridge rectifier, diodes work in complementary pairs. When $D_1$ and $D_2$ conduct during the positive half-cycle, $D_3$ and $D_4$ are reverse biased, preventing a short circuit through the source.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7740vttf8yc4e77ggkg377r585pcmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "$D_1$ and $D_2$"
+      },
+      {
+        "key": "B",
+        "text": "$D_2$ and $D_3$"
+      },
+      {
+        "key": "C",
+        "text": "$D_3$ and $D_4$"
+      },
+      {
+        "key": "D",
+        "text": "All four diodes"
+      }
+    ],
+    "sectionId": "full-wave-rectification",
+    "sectionLabel": "Full-Wave Rectification",
+    "stem": "During the positive half-cycle in a bridge rectifier, diodes $D_1$ and $D_2$ are forward biased. Which diodes are simultaneously reverse biased?",
+    "topicId": "ms7anvb7r3qm1h5zdm2wet1tkn85q1r9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-rectification",
+    "topicTitle": "20.2 Rectification",
+    "_id": "k97eb5pfryfx0zspm8epdaafw585qhhf",
+    "correctKey": "B",
+    "explanation": "In half-wave rectification, the output pulses repeat at the same rate as the input cycles, so the ripple frequency equals the input frequency.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7740vttf8yc4e77ggkg377r585pcmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 Hz"
+      },
+      {
+        "key": "B",
+        "text": "50 Hz"
+      },
+      {
+        "key": "C",
+        "text": "100 Hz"
+      },
+      {
+        "key": "D",
+        "text": "0 Hz"
+      }
+    ],
+    "sectionId": "half-wave-rectification",
+    "sectionLabel": "Half-Wave Rectification",
+    "stem": "If an AC supply of 50 Hz is given to a half-wave rectifier, the ripple frequency of the output will be:",
+    "topicId": "ms7anvb7r3qm1h5zdm2wet1tkn85q1r9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-rectification",
+    "topicTitle": "20.2 Rectification",
+    "_id": "k970e8d2wpet2nsj7be5mb9xp18bkwbv",
+    "correctKey": "B",
+    "explanation": "Between pulses the diode is reverse-biased and stops conducting, so the capacitor discharges slowly through the load resistor RL with time constant tau = $CR_L$, keeping the output voltage from dropping to zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7740vttf8yc4e77ggkg377r585pcmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Charges rapidly to the peak voltage"
+      },
+      {
+        "key": "B",
+        "text": "Discharges slowly through the load resistor"
+      },
+      {
+        "key": "C",
+        "text": "Blocks all current from reaching the load"
+      },
+      {
+        "key": "D",
+        "text": "Reverses the polarity of the output"
+      }
+    ],
+    "sectionId": "smoothing-capacitor",
+    "sectionLabel": "Smoothing Capacitor",
+    "stem": "A smoothing capacitor is connected in parallel with the load resistor of a rectifier. During the interval between successive output pulses, the capacitor:",
+    "topicId": "ms7anvb7r3qm1h5zdm2wet1tkn85q1r9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-1-half-wave-rectification",
+    "topicTitle": "20.2.1 Half-Wave Rectification",
+    "_id": "k97877rng016h6s335ag5bscyx85qd14",
+    "correctKey": "A",
+    "explanation": "The average value $V_{dc}$ for a half-wave rectified sine wave is calculated as $V_m / \\pi$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78k8ce6gy1kgtk9tkfq4pa3585pmtk",
+    "options": [
+      {
+        "key": "A",
+        "text": "$V_m / \\pi$"
+      },
+      {
+        "key": "B",
+        "text": "$2V_m / \\pi$"
+      },
+      {
+        "key": "C",
+        "text": "$V_m / \\sqrt{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$V_m / 2$"
+      }
+    ],
+    "sectionId": "key-parameters",
+    "sectionLabel": "Key Parameters",
+    "stem": "If the input AC voltage has a peak value of $V_m$, the average (DC) voltage of a half-wave rectifier (ignoring diode drop) is:",
+    "topicId": "ms79fk1t2crxnmdsr2evpe813x85pnew"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-1-half-wave-rectification",
+    "topicTitle": "20.2.1 Half-Wave Rectification",
+    "_id": "k97eb5pfryfx0zspm8epdaafw585qhhf",
+    "correctKey": "B",
+    "explanation": "In half-wave rectification, the output pulses repeat at the same rate as the input cycles, so the ripple frequency equals the input frequency.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78k8ce6gy1kgtk9tkfq4pa3585pmtk",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 Hz"
+      },
+      {
+        "key": "B",
+        "text": "50 Hz"
+      },
+      {
+        "key": "C",
+        "text": "100 Hz"
+      },
+      {
+        "key": "D",
+        "text": "0 Hz"
+      }
+    ],
+    "sectionId": "key-parameters",
+    "sectionLabel": "Key Parameters",
+    "stem": "If an AC supply of 50 Hz is given to a half-wave rectifier, the ripple frequency of the output will be:",
+    "topicId": "ms79fk1t2crxnmdsr2evpe813x85pnew"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-1-half-wave-rectification",
+    "topicTitle": "20.2.1 Half-Wave Rectification",
+    "_id": "k978rkqz22jxp4jg7dk7dg1y5s8bkzy0",
+    "correctKey": "C",
+    "explanation": "$V_{ripple}$ is approximately $V_{m}$ / (f * C * $R_{L}$), so increasing C (or $R_{L}$) makes the capacitor discharge more slowly between pulses, reducing the ripple voltage.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78k8ce6gy1kgtk9tkfq4pa3585pmtk",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decreasing the capacitance C"
+      },
+      {
+        "key": "B",
+        "text": "Decreasing the load resistance $R_{L}$"
+      },
+      {
+        "key": "C",
+        "text": "Increasing the capacitance C"
+      },
+      {
+        "key": "D",
+        "text": "Increasing the input frequency's period"
+      }
+    ],
+    "sectionId": "smoothing-filter-capacitor",
+    "sectionLabel": "Smoothing (Filter) Capacitor",
+    "stem": "In a half-wave rectifier with a filter capacitor, which change reduces the ripple voltage?",
+    "topicId": "ms79fk1t2crxnmdsr2evpe813x85pnew"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-2-full-wave-rectification",
+    "topicTitle": "20.2.2 Full Wave Rectification",
+    "_id": "k974t8gctx8n8m929yzpnqqzmn85qxwg",
+    "correctKey": "C",
+    "explanation": "Full-wave rectifiers redirect the negative half-cycle so that current flows through the load in the same direction as the positive half-cycle.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c1k7080dmhqd2j2q3m8xjk585p32v",
+    "options": [
+      {
+        "key": "A",
+        "text": "The positive half cycle only"
+      },
+      {
+        "key": "B",
+        "text": "The negative half cycle only"
+      },
+      {
+        "key": "C",
+        "text": "Both positive and negative half cycles"
+      },
+      {
+        "key": "D",
+        "text": "Neither half cycle"
+      }
+    ],
+    "sectionId": "the-bridge-rectifier",
+    "sectionLabel": "The Bridge Rectifier",
+    "stem": "In full-wave rectification, the output signal is produced during:",
+    "topicId": "ms7brc0qjzc297v7m57d9ndbph85pcq6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-2-full-wave-rectification",
+    "topicTitle": "20.2.2 Full Wave Rectification",
+    "_id": "k979wbaznnkyvy22c8jjn9nsb585prdw",
+    "correctKey": "C",
+    "explanation": "A bridge rectifier uses four diodes arranged in a bridge configuration to achieve full-wave rectification without a center-tapped transformer.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c1k7080dmhqd2j2q3m8xjk585p32v",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "sectionId": "the-bridge-rectifier",
+    "sectionLabel": "The Bridge Rectifier",
+    "stem": "A bridge rectifier requires a minimum of how many diodes?",
+    "topicId": "ms7brc0qjzc297v7m57d9ndbph85pcq6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-2-full-wave-rectification",
+    "topicTitle": "20.2.2 Full Wave Rectification",
+    "_id": "k97d1kpkegw14tryxdb1aygb6x85pqc2",
+    "correctKey": "C",
+    "explanation": "Since both halves of the cycle are rectified, the number of pulses per second doubles: $f_{out} = 2 \\times f_{in} = 2 \\times 50 = 100\\text{ Hz}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c1k7080dmhqd2j2q3m8xjk585p32v",
+    "options": [
+      {
+        "key": "A",
+        "text": "25 Hz"
+      },
+      {
+        "key": "B",
+        "text": "50 Hz"
+      },
+      {
+        "key": "C",
+        "text": "100 Hz"
+      },
+      {
+        "key": "D",
+        "text": "200 Hz"
+      }
+    ],
+    "sectionId": "the-bridge-rectifier",
+    "sectionLabel": "The Bridge Rectifier",
+    "stem": "If the input AC frequency is $50\\text{ Hz}$, the ripple frequency of the output of a full-wave rectifier is:",
+    "topicId": "ms7brc0qjzc297v7m57d9ndbph85pcq6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-2-full-wave-rectification",
+    "topicTitle": "20.2.2 Full Wave Rectification",
+    "_id": "k97dx4zykj3de57a72n04732m185qysq",
+    "correctKey": "C",
+    "explanation": "In a bridge rectifier, diodes work in complementary pairs. When $D_1$ and $D_2$ conduct during the positive half-cycle, $D_3$ and $D_4$ are reverse biased, preventing a short circuit through the source.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c1k7080dmhqd2j2q3m8xjk585p32v",
+    "options": [
+      {
+        "key": "A",
+        "text": "$D_1$ and $D_2$"
+      },
+      {
+        "key": "B",
+        "text": "$D_2$ and $D_3$"
+      },
+      {
+        "key": "C",
+        "text": "$D_3$ and $D_4$"
+      },
+      {
+        "key": "D",
+        "text": "All four diodes"
+      }
+    ],
+    "sectionId": "the-bridge-rectifier",
+    "sectionLabel": "The Bridge Rectifier",
+    "stem": "During the positive half-cycle in a bridge rectifier, diodes $D_1$ and $D_2$ are forward biased. Which diodes are simultaneously reverse biased?",
+    "topicId": "ms7brc0qjzc297v7m57d9ndbph85pcq6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-2-2-full-wave-rectification",
+    "topicTitle": "20.2.2 Full Wave Rectification",
+    "_id": "k97cqx15ds2wrm12jkpy7f2qq98bkxz8",
+    "correctKey": "B",
+    "explanation": "Delta V is approximately I / ($f_{ripple}$ * C), which is inversely proportional to the ripple frequency, so doubling $f_{ripple}$ halves Delta V.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c1k7080dmhqd2j2q3m8xjk585p32v",
+    "options": [
+      {
+        "key": "A",
+        "text": "Doubles it"
+      },
+      {
+        "key": "B",
+        "text": "Halves it"
+      },
+      {
+        "key": "C",
+        "text": "Leaves it unchanged"
+      },
+      {
+        "key": "D",
+        "text": "Quadruples it"
+      }
+    ],
+    "sectionId": "the-smoothing-capacitor",
+    "sectionLabel": "The Smoothing Capacitor",
+    "stem": "For a fixed load current, doubling the ripple frequency (at constant C and $R_{L}$) approximately does what to the ripple voltage Delta V?",
+    "topicId": "ms7brc0qjzc297v7m57d9ndbph85pcq6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-3-mutual-inductance-and-self-inductance",
+    "topicTitle": "20.3 Mutual Inductance and Self-Inductance",
+    "_id": "k97d8vxs98n1x8dp0xxk9s5x3d85qtgp",
+    "correctKey": "B",
+    "explanation": "A transformer operates on the principle of mutual induction: a changing current in the primary coil creates a changing magnetic flux that induces an emf in the secondary coil. Electric motors use magnetic force on current-carrying conductors, not mutual induction.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsvww5ny0fy3tyve80n11dh85pd10",
+    "options": [
+      {
+        "key": "A",
+        "text": "Electric Motor"
+      },
+      {
+        "key": "B",
+        "text": "Transformer"
+      },
+      {
+        "key": "C",
+        "text": "Galvanometer"
+      },
+      {
+        "key": "D",
+        "text": "Resistance Box"
+      }
+    ],
+    "sectionId": "mutual-inductance",
+    "sectionLabel": "Mutual Inductance",
+    "stem": "Which of the following is a practical application of Mutual Induction?",
+    "topicId": "ms73qc3cnyc6fd8fn9p7xzcggn85p3ny"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-3-mutual-inductance-and-self-inductance",
+    "topicTitle": "20.3 Mutual Inductance and Self-Inductance",
+    "_id": "k97e1jcbxpfprbx7svjwmtsh5d85qpfz",
+    "correctKey": "C",
+    "explanation": "A soft iron core has high magnetic permeability ($\\mu$), which concentrates the magnetic flux and increases the flux linkage between the primary and secondary coils, thereby increasing mutual inductance $M$. All other options reduce $M$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsvww5ny0fy3tyve80n11dh85pd10",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decreasing the number of turns in both coils"
+      },
+      {
+        "key": "B",
+        "text": "Moving the coils further apart"
+      },
+      {
+        "key": "C",
+        "text": "Using a soft iron core between the coils"
+      },
+      {
+        "key": "D",
+        "text": "Decreasing the cross-sectional area of the coils"
+      }
+    ],
+    "sectionId": "mutual-inductance",
+    "sectionLabel": "Mutual Inductance",
+    "stem": "Mutual inductance between two coils can be increased by:",
+    "topicId": "ms73qc3cnyc6fd8fn9p7xzcggn85p3ny"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-3-mutual-inductance-and-self-inductance",
+    "topicTitle": "20.3 Mutual Inductance and Self-Inductance",
+    "_id": "k978zgd8yxh460201c3nqcyvsd85pbd7",
+    "correctKey": "C",
+    "explanation": "Using $|\\varepsilon_L| = L |\\Delta I / \\Delta t|$, we get $|\\varepsilon_L| = 5\\text{ H} \\times 2\\text{ A/s} = 10\\text{ V}$. The magnitude is taken since the question asks for the induced emf value, not its direction.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsvww5ny0fy3tyve80n11dh85pd10",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.5 V"
+      },
+      {
+        "key": "B",
+        "text": "5 V"
+      },
+      {
+        "key": "C",
+        "text": "10 V"
+      },
+      {
+        "key": "D",
+        "text": "0.4 V"
+      }
+    ],
+    "sectionId": "self-inductance",
+    "sectionLabel": "Self-Inductance",
+    "stem": "The current in a coil of self-inductance $L = 5\\text{ H}$ decreases at the rate of $2\\text{ A/s}$. The magnitude of the induced emf is:",
+    "topicId": "ms73qc3cnyc6fd8fn9p7xzcggn85p3ny"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-3-mutual-inductance-and-self-inductance",
+    "topicTitle": "20.3 Mutual Inductance and Self-Inductance",
+    "_id": "k9720xjyzft75d8a4w5gmkab7x85qenq",
+    "correctKey": "B",
+    "explanation": "From $\\varepsilon_L = L (\\Delta I / \\Delta t)$, rearranging gives $L = \\varepsilon_L \\cdot \\Delta t / \\Delta I$. Substituting units: $1\\text{ H} = 1\\text{ V} \\cdot 1\\text{ s} / 1\\text{ A} = 1\\text{ V·s/A}$. Option C (Wb/m²) is the unit of magnetic flux density, not inductance.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bsvww5ny0fy3tyve80n11dh85pd10",
+    "options": [
+      {
+        "key": "A",
+        "text": "V · A / s"
+      },
+      {
+        "key": "B",
+        "text": "V · s / A"
+      },
+      {
+        "key": "C",
+        "text": "Wb / m²"
+      },
+      {
+        "key": "D",
+        "text": "A · s / V"
+      }
+    ],
+    "sectionId": "the-henry-si-unit-of-inductance",
+    "sectionLabel": "The Henry: SI Unit of Inductance",
+    "stem": "One henry is equal to:",
+    "topicId": "ms73qc3cnyc6fd8fn9p7xzcggn85p3ny"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-phase-of-a-c",
+    "topicTitle": "20.4 Phase of A.C.",
+    "_id": "k975gz4tnkj740b7aqgzxh6kcn85q6st",
+    "correctKey": "A",
+    "explanation": "In a resistor, the current responds instantaneously to the voltage. Therefore, they reach peaks and zeros simultaneously, making the phase difference zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74nw0vsypf7fx8acd3xvg5mh85p12b",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 radians"
+      },
+      {
+        "key": "B",
+        "text": "π/2 radians"
+      },
+      {
+        "key": "C",
+        "text": "π radians"
+      },
+      {
+        "key": "D",
+        "text": "3π/2 radians"
+      }
+    ],
+    "sectionId": "phase-relationship",
+    "sectionLabel": "Phase Relationship",
+    "stem": "In a purely resistive A.C. circuit, the phase difference between the applied voltage and the resulting current is:",
+    "topicId": "ms72drs4c8ghbc6evx2z4bvn2185qb3v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-phase-of-a-c",
+    "topicTitle": "20.4 Phase of A.C.",
+    "_id": "k978qwy96gaqj0ymnstjfxggmd85psph",
+    "correctKey": "C",
+    "explanation": "In a pure inductor, current lags the voltage by $90^\\circ$ ($\\pi/2$ radians). Therefore, the phase of current is $(\\omega t - \\pi/2)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74nw0vsypf7fx8acd3xvg5mh85p12b",
+    "options": [
+      {
+        "key": "A",
+        "text": "$I = I_o \\sin(\\omega t)$"
+      },
+      {
+        "key": "B",
+        "text": "$I = I_o \\sin(\\omega t + \\pi/2)$"
+      },
+      {
+        "key": "C",
+        "text": "$I = I_o \\sin(\\omega t - \\pi/2)$"
+      },
+      {
+        "key": "D",
+        "text": "$I = I_o \\sin(\\omega t + \\pi)$"
+      }
+    ],
+    "sectionId": "phase-relationships-in-basic-ac-circuits",
+    "sectionLabel": "Phase Relationships in Basic AC Circuits",
+    "stem": "If the instantaneous voltage across an inductor is $V = V_o \\sin(\\omega t)$, the instantaneous current $I$ is given by:",
+    "topicId": "ms72drs4c8ghbc6evx2z4bvn2185qb3v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-phase-of-a-c",
+    "topicTitle": "20.4 Phase of A.C.",
+    "_id": "k97f20sxpggh3pj9ewjxvyws7585p4zf",
+    "correctKey": "B",
+    "explanation": "In a capacitor, the charge $q=CV$ must be present before voltage builds up. Mathematically, $I = dq/dt = \\omega C V_0 \\cos(\\omega t)$, which is $I_0 \\sin(\\omega t + \\pi/2)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74nw0vsypf7fx8acd3xvg5mh85p12b",
+    "options": [
+      {
+        "key": "A",
+        "text": "$I = I_0 \\sin(\\omega t - \\pi/2)$"
+      },
+      {
+        "key": "B",
+        "text": "$I = I_0 \\sin(\\omega t + \\pi/2)$"
+      },
+      {
+        "key": "C",
+        "text": "$I = I_0 \\sin(\\omega t)$"
+      },
+      {
+        "key": "D",
+        "text": "$I = I_0 \\cos(\\omega t + \\pi/2)$"
+      }
+    ],
+    "sectionId": "phase-relationships-in-basic-ac-circuits",
+    "sectionLabel": "Phase Relationships in Basic AC Circuits",
+    "stem": "When an alternating voltage $V = V_0 \\sin(\\omega t)$ is applied across a capacitor, the resulting current is given by:",
+    "topicId": "ms72drs4c8ghbc6evx2z4bvn2185qb3v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-phase-of-a-c",
+    "topicTitle": "20.4 Phase of A.C.",
+    "_id": "k97d12sesgs9y01pxc1gd1ynbd85q6ne",
+    "correctKey": "A",
+    "explanation": "Power factor is $\\cos(\\theta)$. Since the phase difference $\\theta$ is $90^\\circ$ in a pure capacitor, $\\cos(90^\\circ) = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74nw0vsypf7fx8acd3xvg5mh85p12b",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0.5"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "phase-relationships-in-basic-ac-circuits",
+    "sectionLabel": "Phase Relationships in Basic AC Circuits",
+    "stem": "The power factor of a purely capacitive circuit is:",
+    "topicId": "ms72drs4c8ghbc6evx2z4bvn2185qb3v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-phase-of-a-c",
+    "topicTitle": "20.4 Phase of A.C.",
+    "_id": "k978yqqrgev7xz2w38dggzwwgh85prz0",
+    "correctKey": "B",
+    "explanation": "The angle $\\theta = \\omega t$ specifies the instantaneous state (magnitude and direction) of the alternating quantity at any moment, which is defined as the phase of the AC.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74nw0vsypf7fx8acd3xvg5mh85p12b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Frequency of the AC"
+      },
+      {
+        "key": "B",
+        "text": "Phase of the AC"
+      },
+      {
+        "key": "C",
+        "text": "Time period of the AC"
+      },
+      {
+        "key": "D",
+        "text": "RMS value of the AC"
+      }
+    ],
+    "sectionId": "what-is-phase",
+    "sectionLabel": "What is Phase?",
+    "stem": "The instantaneous value of an AC voltage is given by $v = V_o \\sin(\\theta)$. Here, the angle $\\theta$ represents the:",
+    "topicId": "ms72drs4c8ghbc6evx2z4bvn2185qb3v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-1-a-c-through-resistor",
+    "topicTitle": "20.4.1 A.C. Through a Resistor",
+    "_id": "k97aq6syf97rfjpfmzkr91phcs85qkxs",
+    "correctKey": "C",
+    "explanation": "In a purely resistive circuit there is no phase shift. Applying Ohm's Law, $I = V/R = (V_0/R)\\sin(\\omega t) = I_0 \\sin(\\omega t)$, so current is in phase with voltage.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75nzkm5vg3c4x0t1kxhpc1vh85q87d",
+    "options": [
+      {
+        "key": "A",
+        "text": "$I = I_0 \\sin(\\omega t + \\pi/2)$"
+      },
+      {
+        "key": "B",
+        "text": "$I = I_0 \\sin(\\omega t - \\pi/2)$"
+      },
+      {
+        "key": "C",
+        "text": "$I = I_0 \\sin(\\omega t)$"
+      },
+      {
+        "key": "D",
+        "text": "$I = I_0 \\cos(\\omega t)$"
+      }
+    ],
+    "sectionId": "applied-voltage-and-resulting-current",
+    "sectionLabel": "Applied Voltage and Resulting Current",
+    "stem": "When an A.C. voltage $V = V_0 \\sin(\\omega t)$ is applied across a resistor $R$, the instantaneous current is:",
+    "topicId": "ms74p7nfvt16ysh80wyhw92s4h85p5vv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-1-a-c-through-resistor",
+    "topicTitle": "20.4.1 A.C. Through a Resistor",
+    "_id": "k976zxgffw627xen1jz6ky556n85q16f",
+    "correctKey": "C",
+    "explanation": "Pure resistance $R$ is a property of the material and geometry of the conductor; it does not depend on the frequency of the alternating current.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75nzkm5vg3c4x0t1kxhpc1vh85q87d",
+    "options": [
+      {
+        "key": "A",
+        "text": "Be doubled"
+      },
+      {
+        "key": "B",
+        "text": "Be halved"
+      },
+      {
+        "key": "C",
+        "text": "Remain unchanged"
+      },
+      {
+        "key": "D",
+        "text": "Become four times"
+      }
+    ],
+    "sectionId": "frequency-independence-of-resistance",
+    "sectionLabel": "Frequency Independence of Resistance",
+    "stem": "If the frequency of an A.C. source connected across a resistor is doubled, the resistance will:",
+    "topicId": "ms74p7nfvt16ysh80wyhw92s4h85p5vv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-1-a-c-through-resistor",
+    "topicTitle": "20.4.1 A.C. Through a Resistor",
+    "_id": "k975gz4tnkj740b7aqgzxh6kcn85q6st",
+    "correctKey": "A",
+    "explanation": "In a resistor, the current responds instantaneously to the voltage. Therefore, they reach peaks and zeros simultaneously, making the phase difference zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75nzkm5vg3c4x0t1kxhpc1vh85q87d",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 radians"
+      },
+      {
+        "key": "B",
+        "text": "π/2 radians"
+      },
+      {
+        "key": "C",
+        "text": "π radians"
+      },
+      {
+        "key": "D",
+        "text": "3π/2 radians"
+      }
+    ],
+    "sectionId": "phase-relationship",
+    "sectionLabel": "Phase Relationship",
+    "stem": "In a purely resistive A.C. circuit, the phase difference between the applied voltage and the resulting current is:",
+    "topicId": "ms74p7nfvt16ysh80wyhw92s4h85p5vv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-1-a-c-through-resistor",
+    "topicTitle": "20.4.1 A.C. Through a Resistor",
+    "_id": "k977ezv86t9xyne7swqsk1zth185pncg",
+    "correctKey": "D",
+    "explanation": "Average power $P = V_{rms} I_{rms} \\cos(\\phi)$. Since $\\phi = 0°$, $\\cos(0°) = 1$, giving $P = V_{rms} I_{rms}$. Also, $V_{rms} = V_0/\\sqrt{2}$ and $I_{rms} = I_0/\\sqrt{2}$, so $P = V_0 I_0/2 = \\frac{1}{2}V_0 I_0$. Both expressions are equivalent, so both B and C are correct.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75nzkm5vg3c4x0t1kxhpc1vh85q87d",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "$V_{rms} \\times I_{rms}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{2} V_0 \\times I_0$"
+      },
+      {
+        "key": "D",
+        "text": "Both B and C are correct"
+      }
+    ],
+    "sectionId": "power-dissipation",
+    "sectionLabel": "Power Dissipation",
+    "stem": "The average power dissipated in a purely resistive A.C. circuit over a complete cycle is:",
+    "topicId": "ms74p7nfvt16ysh80wyhw92s4h85p5vv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-2-a-c-through-an-inductor",
+    "topicTitle": "20.4.2 AC Through an Inductor",
+    "_id": "k978qwy96gaqj0ymnstjfxggmd85psph",
+    "correctKey": "C",
+    "explanation": "In a pure inductor, current lags the voltage by $90^\\circ$ ($\\pi/2$ radians). Therefore, the phase of current is $(\\omega t - \\pi/2)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7evhrf9mntz3f5ewdgzmxfz585p41r",
+    "options": [
+      {
+        "key": "A",
+        "text": "$I = I_o \\sin(\\omega t)$"
+      },
+      {
+        "key": "B",
+        "text": "$I = I_o \\sin(\\omega t + \\pi/2)$"
+      },
+      {
+        "key": "C",
+        "text": "$I = I_o \\sin(\\omega t - \\pi/2)$"
+      },
+      {
+        "key": "D",
+        "text": "$I = I_o \\sin(\\omega t + \\pi)$"
+      }
+    ],
+    "sectionId": "circuit-analysis",
+    "sectionLabel": "Circuit Analysis",
+    "stem": "If the instantaneous voltage across an inductor is $V = V_o \\sin(\\omega t)$, the instantaneous current $I$ is given by:",
+    "topicId": "ms787wjzzhs4prwkd0xnnckc0985pfzm"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-2-a-c-through-an-inductor",
+    "topicTitle": "20.4.2 AC Through an Inductor",
+    "_id": "k972c3fjg7qm2mzfnc39srfe218bjdb2",
+    "correctKey": "C",
+    "explanation": "$X_{L}$ = 2*pi*f*L is directly proportional to frequency f, so doubling f doubles $X_{L}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7evhrf9mntz3f5ewdgzmxfz585p41r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Is halved"
+      },
+      {
+        "key": "B",
+        "text": "Stays the same"
+      },
+      {
+        "key": "C",
+        "text": "Is doubled"
+      },
+      {
+        "key": "D",
+        "text": "Becomes zero"
+      }
+    ],
+    "sectionId": "inductive-reactance-x_l",
+    "sectionLabel": "Inductive Reactance ($X_L$)",
+    "stem": "If the frequency of the AC supply connected to a pure inductor is doubled, the inductive reactance $X_{L}$:",
+    "topicId": "ms787wjzzhs4prwkd0xnnckc0985pfzm"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-2-a-c-through-an-inductor",
+    "topicTitle": "20.4.2 AC Through an Inductor",
+    "_id": "k972qj70xxrr9spayz0z81d8an8bj1n3",
+    "correctKey": "B",
+    "explanation": "A choke passes DC while blocking AC ripple, so it is placed in series with the load in power-supply filters to smooth pulsating DC.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7evhrf9mntz3f5ewdgzmxfz585p41r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Amplifying a DC signal"
+      },
+      {
+        "key": "B",
+        "text": "Smoothing pulsating DC in a power supply filter"
+      },
+      {
+        "key": "C",
+        "text": "Storing charge in a rectifier"
+      },
+      {
+        "key": "D",
+        "text": "Converting AC to a higher voltage"
+      }
+    ],
+    "sectionId": "inductor-as-a-choke",
+    "sectionLabel": "Inductor as a Choke",
+    "stem": "Which of these is an application of an inductor used as a choke?",
+    "topicId": "ms787wjzzhs4prwkd0xnnckc0985pfzm"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-3-a-c-through-a-capacitor",
+    "topicTitle": "20.4.3 AC Through a Capacitor",
+    "_id": "k97f20sxpggh3pj9ewjxvyws7585p4zf",
+    "correctKey": "B",
+    "explanation": "In a capacitor, the charge $q=CV$ must be present before voltage builds up. Mathematically, $I = dq/dt = \\omega C V_0 \\cos(\\omega t)$, which is $I_0 \\sin(\\omega t + \\pi/2)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx717n94qjwdtfkrp1e2enx24h85qyyy",
+    "options": [
+      {
+        "key": "A",
+        "text": "$I = I_0 \\sin(\\omega t - \\pi/2)$"
+      },
+      {
+        "key": "B",
+        "text": "$I = I_0 \\sin(\\omega t + \\pi/2)$"
+      },
+      {
+        "key": "C",
+        "text": "$I = I_0 \\sin(\\omega t)$"
+      },
+      {
+        "key": "D",
+        "text": "$I = I_0 \\cos(\\omega t + \\pi/2)$"
+      }
+    ],
+    "sectionId": "1-circuit-analysis",
+    "sectionLabel": "1. Circuit Analysis",
+    "stem": "When an alternating voltage $V = V_0 \\sin(\\omega t)$ is applied across a capacitor, the resulting current is given by:",
+    "topicId": "ms755hjr7y48aqw7r4qt94d09585pkvq"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-3-a-c-through-a-capacitor",
+    "topicTitle": "20.4.3 AC Through a Capacitor",
+    "_id": "k97artcx3m1a526mmw1zda4qbn8bkz7f",
+    "correctKey": "C",
+    "explanation": "$X_{C}$ = 1/(2*pi*f*C) is inversely proportional to frequency f, so doubling f halves $X_{C}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx717n94qjwdtfkrp1e2enx24h85qyyy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Is doubled"
+      },
+      {
+        "key": "B",
+        "text": "Stays the same"
+      },
+      {
+        "key": "C",
+        "text": "Is halved"
+      },
+      {
+        "key": "D",
+        "text": "Becomes zero"
+      }
+    ],
+    "sectionId": "4-effect-of-frequency-on-x_c",
+    "sectionLabel": "4. Effect of Frequency on $X_C$",
+    "stem": "If the frequency of the AC supply connected to a pure capacitor is doubled, the capacitive reactance $X_{C}$:",
+    "topicId": "ms755hjr7y48aqw7r4qt94d09585pkvq"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-3-a-c-through-a-capacitor",
+    "topicTitle": "20.4.3 AC Through a Capacitor",
+    "_id": "k97d12sesgs9y01pxc1gd1ynbd85q6ne",
+    "correctKey": "A",
+    "explanation": "Power factor is $\\cos(\\theta)$. Since the phase difference $\\theta$ is $90^\\circ$ in a pure capacitor, $\\cos(90^\\circ) = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx717n94qjwdtfkrp1e2enx24h85qyyy",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0.5"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "5-power-in-a-purely-capacitive-circuit",
+    "sectionLabel": "5. Power in a Purely Capacitive Circuit",
+    "stem": "The power factor of a purely capacitive circuit is:",
+    "topicId": "ms755hjr7y48aqw7r4qt94d09585pkvq"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-4-impedance-and-series-ac-circuits",
+    "topicTitle": "20.4.4 Impedance in Series AC Circuits",
+    "_id": "k97ap2q1f19e4avgvgxz6z2fvd8bjzmv",
+    "correctKey": "C",
+    "explanation": "All three (R, $X_{L}$, $X_{C}$) are opposition to current and share the SI unit Ohm.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fd7gmpv2dkmhxxjrmw7346d85pg7b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Henry"
+      },
+      {
+        "key": "B",
+        "text": "Farad"
+      },
+      {
+        "key": "C",
+        "text": "Ohm"
+      },
+      {
+        "key": "D",
+        "text": "Siemens"
+      }
+    ],
+    "sectionId": "20441-reactances-a-quick-review",
+    "sectionLabel": "20.4.4.1 Reactances: A Quick Review",
+    "stem": "Resistance R, inductive reactance $X_{L}$, and capacitive reactance $X_{C}$ all share which SI unit?",
+    "topicId": "ms79dgcz1dq2mq3ykf2xq9ed6d85qwh4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-4-impedance-and-series-ac-circuits",
+    "topicTitle": "20.4.4 Impedance in Series AC Circuits",
+    "_id": "k97amat4r3wfehke3a923bwpbd8bkphq",
+    "correctKey": "C",
+    "explanation": "$V_{L}$ leads the reference current phasor by 90 degrees while $V_{C}$ lags it by 90 degrees, so $V_{L}$ and $V_{C}$ point in opposite directions (180 degrees apart) and partially cancel.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fd7gmpv2dkmhxxjrmw7346d85pg7b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parallel, in the same direction"
+      },
+      {
+        "key": "B",
+        "text": "Perpendicular (90 degrees apart)"
+      },
+      {
+        "key": "C",
+        "text": "Anti-parallel (180 degrees apart)"
+      },
+      {
+        "key": "D",
+        "text": "At a variable angle depending on R"
+      }
+    ],
+    "sectionId": "20442-phasor-diagram-for-a-series-rlc-circuit",
+    "sectionLabel": "20.4.4.2 Phasor Diagram for a Series RLC Circuit",
+    "stem": "In the phasor diagram of a series RLC circuit, how are the inductor voltage phasor $V_{L}$ and capacitor voltage phasor $V_{C}$ oriented relative to each other?",
+    "topicId": "ms79dgcz1dq2mq3ykf2xq9ed6d85qwh4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-4-impedance-and-series-ac-circuits",
+    "topicTitle": "20.4.4 Impedance in Series AC Circuits",
+    "_id": "k979trf7ackyjh5kkmyyb3akvh8bkarf",
+    "correctKey": "B",
+    "explanation": "Impedance is the vector sum of resistance R and net reactance ($X_{L}$ - $X_{C}$): Z = sqrt($R^{2}$ + ($X_{L}$ - $X_{C}$)^2).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fd7gmpv2dkmhxxjrmw7346d85pg7b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Z = R + $X_{L}$ + $X_{C}$"
+      },
+      {
+        "key": "B",
+        "text": "Z = sqrt($R^{2}$ + ($X_{L}$ - $X_{C}$)^2)"
+      },
+      {
+        "key": "C",
+        "text": "Z = R * $X_{L}$ * $X_{C}$"
+      },
+      {
+        "key": "D",
+        "text": "Z = ($X_{L}$ - $X_{C}$) / R"
+      }
+    ],
+    "sectionId": "20443-impedance-formula",
+    "sectionLabel": "20.4.4.3 Impedance Formula",
+    "stem": "The impedance Z of a series RLC circuit is given by:",
+    "topicId": "ms79dgcz1dq2mq3ykf2xq9ed6d85qwh4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-4-impedance-and-series-ac-circuits",
+    "topicTitle": "20.4.4 Impedance in Series AC Circuits",
+    "_id": "k9731sqrtpgmm4vxpx07fagy0n8bk2he",
+    "correctKey": "B",
+    "explanation": "When $X_{L}$ > $X_{C}$ the net reactance is inductive, so the circuit behaves as inductive and the voltage leads the current by the phase angle phi = arctan(($X_{L}$ - $X_{C}$)/R).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fd7gmpv2dkmhxxjrmw7346d85pg7b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Capacitive, with current leading voltage"
+      },
+      {
+        "key": "B",
+        "text": "Inductive, with voltage leading current"
+      },
+      {
+        "key": "C",
+        "text": "Purely resistive"
+      },
+      {
+        "key": "D",
+        "text": "At resonance"
+      }
+    ],
+    "sectionId": "20444-phase-angle",
+    "sectionLabel": "20.4.4.4 Phase Angle",
+    "stem": "In a series RLC circuit, if $X_{L}$ > $X_{C}$, the circuit is:",
+    "topicId": "ms79dgcz1dq2mq3ykf2xq9ed6d85qwh4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "20-alternating-current",
+    "chapterTitle": "Alternating Current",
+    "topicSlug": "20-4-4-impedance-and-series-ac-circuits",
+    "topicTitle": "20.4.4 Impedance in Series AC Circuits",
+    "_id": "k97bax6dasysdg17jxn66mw9j58bj24y",
+    "correctKey": "B",
+    "explanation": "Z = sqrt($R^{2}$ + ($X_{L}$ - $X_{C}$)^2) = sqrt(36 + 3298) ~= 57.7 Ohm. I = V/Z = $\\frac{100}{57}$.7 ~= 1.73 A.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fd7gmpv2dkmhxxjrmw7346d85pg7b",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.6 A"
+      },
+      {
+        "key": "B",
+        "text": "1.73 A"
+      },
+      {
+        "key": "C",
+        "text": "16.7 A"
+      },
+      {
+        "key": "D",
+        "text": "100 A"
+      }
+    ],
+    "sectionId": "20445-worked-example",
+    "sectionLabel": "20.4.4.5 Worked Example",
+    "stem": "A series RLC circuit has R = 6 Ohm, $X_{L}$ = 6.28 Ohm, $X_{C}$ = 63.7 Ohm, and is connected to a 100 V supply. What is the current, approximately?",
+    "topicId": "ms79dgcz1dq2mq3ykf2xq9ed6d85qwh4"
+  }
+]

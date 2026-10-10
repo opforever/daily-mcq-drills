@@ -1,0 +1,526 @@
+[
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-1-how-to-analyse-a-number-of-isotopes-and-their-relative-abundances-of-isotopes",
+    "topicTitle": "17.1 Analysis of Isotopes using Mass Spectrometry",
+    "_id": "m17dfsgnss4zbhj5nac7anwysd85qyed",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Mass spectrometer ionizes sample with 70 eV electrons to produce molecular ion ($M^{+\\bullet}$) with $m/z$ equal to relative molecular mass",
+      "Molecular ion peak is the highest $m/z$ value in spectrum; isotope peaks show different masses and relative abundances",
+      "Relative atomic mass calculated using: $\\text{Relative atomic mass} = \\frac{\\sum(\\text{mass} \\times \\text{abundance})}{100}$",
+      "Fragmentation pattern and isotopic ratios (e.g., Cl: $^{35}$Cl:$^{37}$Cl = 3:1) allow identification of elements and molecular structure",
+      "Applications include determining atomic/molecular masses, identifying isotopes, and deducing elemental composition of compounds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "Mass spectrometry is an analytical technique that separates ions based on their mass-to-charge ratio ($m/z$) to determine molecular and atomic masses. A sample is ionized by high-energy electrons (70 eV), producing a molecular ion ($M^{+\\bullet}$) according to: $M + e^- \\rightarrow M^{+\\bullet} + 2e^-$. The $m/z$ value of the molecular ion peak (the highest peak in the spectrum) directly equals the relative molecular mass. The mass spectrum displays peaks corresponding to different isotopes, with peak positions revealing isotopic masses and peak heights indicating relative abundances. By analyzing the isotopic pattern and calculating the weighted average using relative abundances, the relative atomic mass is determined from the formula: $\\text{Relative atomic mass} = \\frac{\\sum(\\text{mass} \\times \\text{abundance})}{100}$. This technique is highly accurate and can identify elements like chlorine and bromine through their characteristic M+2 peaks, arising from their naturally occurring isotopes in approximately 3:1 ratios.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is mass spectrometry? Explain its working and its applications in determining the relative atomic mass.",
+    "topicId": "ms7e47ag4ak01f4y07cpwx2wc985q2pn",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-1-how-to-analyse-a-number-of-isotopes-and-their-relative-abundances-of-isotopes",
+    "topicTitle": "17.1 Analysis of Isotopes using Mass Spectrometry",
+    "_id": "m174fk4pvrxvk0knrkagfzc4zs85paj7",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Mass spectrometry separates ions based on mass-to-charge ratio (m/z) to determine molecular mass",
+      "Molecules are ionized by high-energy electrons (70 eV) to form molecular ions (M⁺•) with m/z equal to relative molecular mass",
+      "Molecular ions are accelerated and separated in a magnetic field; lighter ions deflected more than heavier ions",
+      "Molecular ion peak appears at highest m/z value; fragmentation produces lower m/z peaks forming characteristic fingerprint pattern",
+      "Detector records ion abundance at each m/z value to produce mass spectrum for molecular identification"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "Mass spectrometry is an analytical technique that separates ions based on their mass-to-charge ratio (m/z) to determine molecular mass and identify molecular structure. The basic principle involves ionizing chemical compounds to generate charged molecules or fragments, then separating these ions by their m/z values using electric and/or magnetic fields. A mass spectrometer consists of an ion source, accelerating region, mass analyzer, and detector. In operation, molecules are bombarded by high-energy electrons (70 eV) in the ion source, causing loss of an electron to form molecular ions (M⁺•). These ions are accelerated through an electric field, then separated in the mass analyzer based on their m/z ratios. Lighter ions are deflected more than heavier ions by the magnetic field. The detector records the abundance of ions at each m/z value, producing a mass spectrum. The molecular ion peak appears at the highest m/z value and indicates the relative molecular mass. Fragmentation of unstable molecular ions produces additional peaks at lower m/z values, creating a characteristic fragmentation pattern that serves as a fingerprint for molecular identification.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "What is mass spectrometry? Write down its basic principle. Explain the construction and working of a mass spectrometer.",
+    "topicId": "ms7e47ag4ak01f4y07cpwx2wc985q2pn",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-1-how-to-analyse-a-number-of-isotopes-and-their-relative-abundances-of-isotopes",
+    "topicTitle": "17.1 Analysis of Isotopes using Mass Spectrometry",
+    "_id": "m17cppdgj5pb2kkmx7v6a5wz998dz9e9",
+    "exerciseId": "xd7c899v85bb77skzzepkzwq5x8dzchw",
+    "exerciseTitle": "Printed Exercise Section 1",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "IR spectroscopy"
+      },
+      {
+        "key": "B",
+        "text": "b. UV visible spectroscopy"
+      },
+      {
+        "key": "C",
+        "text": "Mass spectrometry"
+      },
+      {
+        "key": "D",
+        "text": "d. Nuclear magnetic resonance spectroscopy"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.ii",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 17,
+      "page": 270,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Average atomic mass of an element can be calculated by using:",
+    "topicId": "ms7e47ag4ak01f4y07cpwx2wc985q2pn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-1-how-to-analyse-a-number-of-isotopes-and-their-relative-abundances-of-isotopes",
+    "topicTitle": "17.1 Analysis of Isotopes using Mass Spectrometry",
+    "_id": "m171h0g16wn4ss3fmaybn1b5wx8dz8b1",
+    "exerciseId": "xd7axv2w20x391cfcn6k1n08gd8dyc8w",
+    "exerciseTitle": "Printed Exercise Section 2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2.i",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 17,
+      "page": 265,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "How can you calculate average atomic mass of an element using relative abundance is of all isotopes?",
+    "topicId": "ms7e47ag4ak01f4y07cpwx2wc985q2pn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-2-calculation-of-relative-atomic-masses",
+    "topicTitle": "17.2 Calculation of Relative Atomic Masses",
+    "_id": "m17dfsgnss4zbhj5nac7anwysd85qyed",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Mass spectrometer ionizes sample with 70 eV electrons to produce molecular ion ($M^{+\\bullet}$) with $m/z$ equal to relative molecular mass",
+      "Molecular ion peak is the highest $m/z$ value in spectrum; isotope peaks show different masses and relative abundances",
+      "Relative atomic mass calculated using: $\\text{Relative atomic mass} = \\frac{\\sum(\\text{mass} \\times \\text{abundance})}{100}$",
+      "Fragmentation pattern and isotopic ratios (e.g., Cl: $^{35}$Cl:$^{37}$Cl = 3:1) allow identification of elements and molecular structure",
+      "Applications include determining atomic/molecular masses, identifying isotopes, and deducing elemental composition of compounds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "Mass spectrometry is an analytical technique that separates ions based on their mass-to-charge ratio ($m/z$) to determine molecular and atomic masses. A sample is ionized by high-energy electrons (70 eV), producing a molecular ion ($M^{+\\bullet}$) according to: $M + e^- \\rightarrow M^{+\\bullet} + 2e^-$. The $m/z$ value of the molecular ion peak (the highest peak in the spectrum) directly equals the relative molecular mass. The mass spectrum displays peaks corresponding to different isotopes, with peak positions revealing isotopic masses and peak heights indicating relative abundances. By analyzing the isotopic pattern and calculating the weighted average using relative abundances, the relative atomic mass is determined from the formula: $\\text{Relative atomic mass} = \\frac{\\sum(\\text{mass} \\times \\text{abundance})}{100}$. This technique is highly accurate and can identify elements like chlorine and bromine through their characteristic M+2 peaks, arising from their naturally occurring isotopes in approximately 3:1 ratios.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is mass spectrometry? Explain its working and its applications in determining the relative atomic mass.",
+    "topicId": "ms7cdshe1tkxw76fe7b4gbdjzh85pran",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-2-calculation-of-relative-atomic-masses",
+    "topicTitle": "17.2 Calculation of Relative Atomic Masses",
+    "_id": "m178bj36wnpzgw5dg24d4k4pwh85pmr3",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies the three isotopes and their mass numbers (24, 25, 26)",
+      "Applies weighted average formula: (mass₁ × abundance₁) + (mass₂ × abundance₂) + (mass₃ × abundance₃)",
+      "Converts percentage abundances to decimal form (78.70% = 0.7870, etc.)",
+      "Performs accurate arithmetic calculations for each term and final sum",
+      "Expresses final answer as relative atomic mass in amu (24.32 amu)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The relative atomic mass of Mg is calculated using the weighted average method: Relative atomic mass = (24 × 0.7870) + (25 × 0.1013) + (26 × 0.1117) = 18.888 + 2.5325 + 2.9042 = 24.32 amu. This value represents the average mass of naturally occurring magnesium atoms accounting for the abundance of each isotope.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "session": "annual",
+    "stem": "Naturally occurring magnesium has three isotopes: $Mg-24$ (mass=24 amu, 78.70%), $Mg-25$ (mass=25 amu, 10.13%), $Mg-26$ (mass=26 amu, 11.17%). Calculate relative atomic mass of $Mg$.",
+    "topicId": "ms7cdshe1tkxw76fe7b4gbdjzh85pran",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-3-determination-of-molecular-mass-by-molecular-ion-peak",
+    "topicTitle": "17.3 Determination of Molecular Mass by Molecular Ion Peak",
+    "_id": "m17cc0ygngex18rbcgp78kqcm18dzpy5",
+    "exerciseId": "xd7c899v85bb77skzzepkzwq5x8dzchw",
+    "exerciseTitle": "Printed Exercise Section 1",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecular ion peak"
+      },
+      {
+        "key": "B",
+        "text": "Base peak"
+      },
+      {
+        "key": "C",
+        "text": "M+1peak"
+      },
+      {
+        "key": "D",
+        "text": "M+2 peak"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.iii",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 17,
+      "page": 270,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Molecular mass of a compound cannot be deduced by:",
+    "topicId": "ms70f0fdhm74p7tz7vghnmsp3s85qp35"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-3-determination-of-molecular-mass-by-molecular-ion-peak",
+    "topicTitle": "17.3 Determination of Molecular Mass by Molecular Ion Peak",
+    "_id": "m17bndr7z0gzssy18a4h6hhw858dzwy1",
+    "exerciseId": "xd7c899v85bb77skzzepkzwq5x8dzchw",
+    "exerciseTitle": "Printed Exercise Section 1",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Charge is zero"
+      },
+      {
+        "key": "B",
+        "text": "Charge of ions is equal to+1"
+      },
+      {
+        "key": "C",
+        "text": "Charge of irons is equal to -1"
+      },
+      {
+        "key": "D",
+        "text": "Mass is very high as compared to charge"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.iv",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 17,
+      "page": 270,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Why is m/z value taken equivalent to mass?",
+    "topicId": "ms70f0fdhm74p7tz7vghnmsp3s85qp35"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-3-determination-of-molecular-mass-by-molecular-ion-peak",
+    "topicTitle": "17.3 Determination of Molecular Mass by Molecular Ion Peak",
+    "_id": "m17ecawdsapawzcn1hzgxpg8618dz74j",
+    "exerciseId": "xd7axv2w20x391cfcn6k1n08gd8dyc8w",
+    "exerciseTitle": "Printed Exercise Section 2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2.iv",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 17,
+      "page": 267,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "What is the role of molecular ion peak in the determination of molecular mass of a substance?",
+    "topicId": "ms70f0fdhm74p7tz7vghnmsp3s85qp35"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-4-identification-of-a-molecule-by-fragmentation-pattern",
+    "topicTitle": "17.4 Identification of a Molecule by Fragmentation Pattern",
+    "_id": "m173ptsm8qdxm1d68wcgv2s2g18dydps",
+    "exerciseId": "xd75brrawv1xm6pybrtzt5n0wh8dykt9",
+    "exerciseTitle": "Printed Exercise Section 3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3.i",
+    "sourceRef": {
+      "blockIndex": 44,
+      "chapterNumber": 17,
+      "page": 272,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Analyse in detail, the information obtained by the fragmentation pattern in mass spectrum, used for the structural elucidation of a molecule.",
+    "topicId": "ms75x8v6g9weng709yqwk4h9q185qh0v"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-5-deduction-of-c-number-in-a-molecule",
+    "topicTitle": "17.5 Determining the Number of Carbon Atoms using Mass Spectrometry",
+    "_id": "m177q24rezzm895ps4srj9ydbs8dy8wj",
+    "exerciseId": "xd7axwmepff7chr8bfv1b11tkx8dzbrd",
+    "exerciseTitle": "Concept Assessment Exercise 17.1",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "17.1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 17,
+      "page": 266,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Question: Using the given spectrum, calculate the average atomic mass of the element and find out to which element this spectrum belongs. You can take the help of the periodic table.\n[Source figure reference: ./images/054141f4-d978-49d7-be4e-e377f2c6ff76-267_496_959_244_988.jpg]",
+    "topicId": "ms7aq3p1n7maft7kpdrg1zb12x85ph8b"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-5-deduction-of-c-number-in-a-molecule",
+    "topicTitle": "17.5 Determining the Number of Carbon Atoms using Mass Spectrometry",
+    "_id": "m170y2dy72gvqxjs3rcpkqy70h8dy84a",
+    "exerciseId": "xd7c899v85bb77skzzepkzwq5x8dzchw",
+    "exerciseTitle": "Printed Exercise Section 1",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecular mass"
+      },
+      {
+        "key": "B",
+        "text": "Relative abundance of isotopes"
+      },
+      {
+        "key": "C",
+        "text": "Concentration of molecules in a sample"
+      },
+      {
+        "key": "D",
+        "text": "Molecular structure elucidation"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.i",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 17,
+      "page": 270,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Which is not the field of mass spectrometry?",
+    "topicId": "ms7aq3p1n7maft7kpdrg1zb12x85ph8b"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-5-deduction-of-c-number-in-a-molecule",
+    "topicTitle": "17.5 Determining the Number of Carbon Atoms using Mass Spectrometry",
+    "_id": "m176vjtt3s1tqpt6pw5a62cgzn8dznp9",
+    "exerciseId": "xd7c899v85bb77skzzepkzwq5x8dzchw",
+    "exerciseTitle": "Printed Exercise Section 1",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Impact of electrons"
+      },
+      {
+        "key": "B",
+        "text": "Impact of protons"
+      },
+      {
+        "key": "C",
+        "text": "Chemical rearrangements"
+      },
+      {
+        "key": "D",
+        "text": "Both A and C"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.v",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 17,
+      "page": 270,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Fragments in mass spectrum are formed by the:",
+    "topicId": "ms7aq3p1n7maft7kpdrg1zb12x85ph8b"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-5-deduction-of-c-number-in-a-molecule",
+    "topicTitle": "17.5 Determining the Number of Carbon Atoms using Mass Spectrometry",
+    "_id": "m17bkbncqxhj3zb2yt1b7dq3td8dyt9g",
+    "exerciseId": "xd7axv2w20x391cfcn6k1n08gd8dyc8w",
+    "exerciseTitle": "Printed Exercise Section 2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2.ii",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 17,
+      "page": 269,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "How the number of carbon atoms in a molecule can be calculated by using intensities of the peaks in mass spectrum?",
+    "topicId": "ms7aq3p1n7maft7kpdrg1zb12x85ph8b"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-6-deduction-of-the-presence-of-chlorine-and-bromine-in-a-molecule",
+    "topicTitle": "17.6 Deduction of Chlorine and Bromine in a Molecule by Mass Spectrometry",
+    "_id": "m17ayx0cgbnd2myzt6bmdcgnps8dzshg",
+    "exerciseId": "xd7c899v85bb77skzzepkzwq5x8dzchw",
+    "exerciseTitle": "Printed Exercise Section 1",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecular ion peak"
+      },
+      {
+        "key": "B",
+        "text": "M+1 peak"
+      },
+      {
+        "key": "C",
+        "text": "M+2 peak"
+      },
+      {
+        "key": "D",
+        "text": "M-1 peak"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.vi",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 17,
+      "page": 270,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Bromine can be recognised by:",
+    "topicId": "ms70tm9ny3vga6n5nsbwg73fy985p9xn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-6-deduction-of-the-presence-of-chlorine-and-bromine-in-a-molecule",
+    "topicTitle": "17.6 Deduction of Chlorine and Bromine in a Molecule by Mass Spectrometry",
+    "_id": "m17251xqq6svvhyq9xgaehb6v18dy7dg",
+    "exerciseId": "xd7axv2w20x391cfcn6k1n08gd8dyc8w",
+    "exerciseTitle": "Printed Exercise Section 2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2.iii",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 17,
+      "page": 265,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "How can you identify the presence of chlorine and bromine in the molecule using mass spectrum?",
+    "topicId": "ms70tm9ny3vga6n5nsbwg73fy985p9xn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-6-deduction-of-the-presence-of-chlorine-and-bromine-in-a-molecule",
+    "topicTitle": "17.6 Deduction of Chlorine and Bromine in a Molecule by Mass Spectrometry",
+    "_id": "m173c473wxxh4p282s41y0wqwd8dyn2t",
+    "exerciseId": "xd7axv2w20x391cfcn6k1n08gd8dyc8w",
+    "exerciseTitle": "Printed Exercise Section 2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2.v",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 17,
+      "page": 265,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Observe following mass spectrum of an organic compound \" g \" carefully and answer the given questions.\n[Source figure reference: ./images/054141f4-d978-49d7-be4e-e377f2c6ff76-272_832_1370_1139_463.jpg]",
+    "topicId": "ms70tm9ny3vga6n5nsbwg73fy985p9xn"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k97f61ynbf5pesqxtm53gsehwd8dhzte",
+    "correctKey": "B",
+    "explanation": "By definition, a diagonal matrix has zeros everywhere off the primary diagonal; diagonal entries need not be zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only the primary diagonal entries"
+      },
+      {
+        "key": "B",
+        "text": "All entries except the primary diagonal"
+      },
+      {
+        "key": "C",
+        "text": "All entries without exception"
+      },
+      {
+        "key": "D",
+        "text": "Only the first row entries"
+      }
+    ],
+    "sectionId": "diagonal-matrix",
+    "sectionLabel": "Diagonal Matrix",
+    "stem": "In a diagonal matrix, which entries are guaranteed to be zero?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k97b7q646958trtytp37k2qn2s8dh5kk",
+    "correctKey": "B",
+    "explanation": "Equality of matrices requires both same order and identical corresponding elements; a single mismatched pair breaks equality.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, order matching is enough"
+      },
+      {
+        "key": "B",
+        "text": "No, corresponding elements must also match"
+      },
+      {
+        "key": "C",
+        "text": "Yes, if their determinants match"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined"
+      }
+    ],
+    "sectionId": "equal-matrices",
+    "sectionLabel": "Equal Matrices",
+    "stem": "Matrices P and Q have the same order but two corresponding elements differ. Are P and Q equal?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k979ryh6ypq2sxh9a00hnt3fms8d36tg",
+    "correctKey": "A",
+    "explanation": "The canonical matrix section defines a matrix as a rectangular arrangement of numbers.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "A rectangular arrangement of numbers"
+      },
+      {
+        "key": "B",
+        "text": "A single equation with no entries"
+      },
+      {
+        "key": "C",
+        "text": "A list that must have one row only"
+      },
+      {
+        "key": "D",
+        "text": "A graph with no coordinates"
+      }
+    ],
+    "sectionId": "introduction-of-matrices",
+    "sectionLabel": "Introduction of Matrices",
+    "stem": "Which description matches a matrix?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k970h6ynj3r4qqny236kas2xah8dg5mn",
+    "correctKey": "B",
+    "explanation": "A null (zero) matrix has every element equal to zero, whatever its order, and is denoted O.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "All elements are equal to one"
+      },
+      {
+        "key": "B",
+        "text": "All elements are equal to zero"
+      },
+      {
+        "key": "C",
+        "text": "It has equal rows and columns"
+      },
+      {
+        "key": "D",
+        "text": "Its determinant is one"
+      }
+    ],
+    "sectionId": "null-matrix-zero-matrix-additive-identity-matrix",
+    "sectionLabel": "Null Matrix (Zero Matrix, Additive Identity Matrix)",
+    "stem": "Which property makes a matrix a null matrix?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k97c49ykphxsnqtctkj7g830c18dhm21",
+    "correctKey": "B",
+    "explanation": "Order is written as (number of rows)-by-(number of columns), so 3 rows and 2 columns gives order 3-by-2.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "2-by-3"
+      },
+      {
+        "key": "B",
+        "text": "3-by-2"
+      },
+      {
+        "key": "C",
+        "text": "2-by-2"
+      },
+      {
+        "key": "D",
+        "text": "3-by-3"
+      }
+    ],
+    "sectionId": "order-of-matrix",
+    "sectionLabel": "Order of Matrix",
+    "stem": "A matrix has 3 rows and 2 columns. What is its order?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k97cf45rc2nm0g77semf8t57pd8dhegj",
+    "correctKey": "C",
+    "explanation": "Equal, non-zero primary diagonal entries in a diagonal matrix make it a scalar matrix.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Null matrix"
+      },
+      {
+        "key": "B",
+        "text": "Rectangular matrix"
+      },
+      {
+        "key": "C",
+        "text": "Scalar matrix"
+      },
+      {
+        "key": "D",
+        "text": "Row matrix"
+      }
+    ],
+    "sectionId": "scalar-matrix",
+    "sectionLabel": "Scalar Matrix",
+    "stem": "A diagonal matrix has primary diagonal entries 5, 5 and 5. What type of matrix is it?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k97fgm0dc33zrq8pnqa0fgb05s8dhmqx",
+    "correctKey": "C",
+    "explanation": "A square matrix has an equal row and column count, which only the 3-by-3 option satisfies.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "A 2-by-3 matrix"
+      },
+      {
+        "key": "B",
+        "text": "A 1-by-4 matrix"
+      },
+      {
+        "key": "C",
+        "text": "A 3-by-3 matrix"
+      },
+      {
+        "key": "D",
+        "text": "A 4-by-1 matrix"
+      }
+    ],
+    "sectionId": "square-matrix",
+    "sectionLabel": "Square Matrix",
+    "stem": "Which of these is a square matrix?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k97djwsy2prasdk73x30fdjd6x8dhkge",
+    "correctKey": "B",
+    "explanation": "Transposing swaps rows and columns, so a 3-by-2 matrix becomes 2-by-3 as its transpose.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "3-by-2"
+      },
+      {
+        "key": "B",
+        "text": "2-by-3"
+      },
+      {
+        "key": "C",
+        "text": "2-by-2"
+      },
+      {
+        "key": "D",
+        "text": "3-by-3"
+      }
+    ],
+    "sectionId": "transpose-of-a-matrix",
+    "sectionLabel": "Transpose of a Matrix",
+    "stem": "A matrix P has order 3-by-2. What is the order of its transpose P^t?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-1-introduction-of-matrices",
+    "topicTitle": "3.1 Introduction of Matrices",
+    "_id": "k97ank7ca1dkmg6dpenpbyvc4s8dhd19",
+    "correctKey": "B",
+    "explanation": "The unit matrix I of order 2 has 1's on the primary diagonal and 0's elsewhere.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jk5h5ft1b25rspppb55f998btr5r",
+    "options": [
+      {
+        "key": "A",
+        "text": "[[0,0],[0,0]]"
+      },
+      {
+        "key": "B",
+        "text": "[[1,0],[0,1]]"
+      },
+      {
+        "key": "C",
+        "text": "[[2,0],[0,2]]"
+      },
+      {
+        "key": "D",
+        "text": "[[1,1],[1,1]]"
+      }
+    ],
+    "sectionId": "unit-matrix-multiplicative-identity-matrix",
+    "sectionLabel": "Unit Matrix (Multiplicative Identity Matrix)",
+    "stem": "Which matrix is the unit (identity) matrix of order 2?",
+    "topicId": "ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-2-addition-subtraction-and-scalar-multiplication-of-matrices",
+    "topicTitle": "3.2 Addition, Subtraction and Scalar Multiplication of Matrices",
+    "_id": "k97e1tdpbq87bfexb6efmw9f6s8dh41q",
+    "correctKey": "B",
+    "explanation": "Matrix addition requires identical order; a 2-by-3 and a 3-by-2 matrix cannot be added directly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73k7zd6den446bys9xwqjdhx8bvqdc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, addition always works"
+      },
+      {
+        "key": "B",
+        "text": "No, their orders differ so addition is undefined"
+      },
+      {
+        "key": "C",
+        "text": "Yes, after transposing either one first automatically"
+      },
+      {
+        "key": "D",
+        "text": "Only if both are square"
+      }
+    ],
+    "sectionId": "addition-and-subtraction-of-matrices",
+    "sectionLabel": "Addition and Subtraction of Matrices",
+    "stem": "Matrix A has order 2-by-3 and matrix B has order 3-by-2. Can A + B be computed?",
+    "topicId": "ms7eesdvszwgrptn7hb4hw45218bvtz8"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-2-addition-subtraction-and-scalar-multiplication-of-matrices",
+    "topicTitle": "3.2 Addition, Subtraction and Scalar Multiplication of Matrices",
+    "_id": "k9715apqn6ejkmf05qrkwda8sd8d2r06",
+    "correctKey": "A",
+    "explanation": "The corpus states that matrices can be added or subtracted only if their order is the same.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73k7zd6den446bys9xwqjdhx8bvqdc",
+    "options": [
+      {
+        "key": "A",
+        "text": "They must have the same order"
+      },
+      {
+        "key": "B",
+        "text": "They must have different orders"
+      },
+      {
+        "key": "C",
+        "text": "They must contain only zeroes"
+      },
+      {
+        "key": "D",
+        "text": "They must each have one column"
+      }
+    ],
+    "sectionId": "addition-subtraction-and-scalar-multiplication-of-matrices",
+    "sectionLabel": "Addition, Subtraction and Scalar Multiplication of Matrices",
+    "stem": "What condition is required to add two matrices?",
+    "topicId": "ms7eesdvszwgrptn7hb4hw45218bvtz8"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-2-addition-subtraction-and-scalar-multiplication-of-matrices",
+    "topicTitle": "3.2 Addition, Subtraction and Scalar Multiplication of Matrices",
+    "_id": "k976j4hhpw20tsa8g028y8a63d8dhhpe",
+    "correctKey": "B",
+    "explanation": "The additive identity leaves A unchanged under addition, which only the null matrix O of matching order does.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73k7zd6den446bys9xwqjdhx8bvqdc",
+    "options": [
+      {
+        "key": "A",
+        "text": "The 2-by-2 unit matrix I"
+      },
+      {
+        "key": "B",
+        "text": "The 2-by-2 null matrix O"
+      },
+      {
+        "key": "C",
+        "text": "Any 2-by-2 scalar matrix"
+      },
+      {
+        "key": "D",
+        "text": "The transpose of A"
+      }
+    ],
+    "sectionId": "additive-identity-in-matrices",
+    "sectionLabel": "Additive Identity in Matrices",
+    "stem": "Which matrix serves as the additive identity for a 2-by-2 matrix A?",
+    "topicId": "ms7eesdvszwgrptn7hb4hw45218bvtz8"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-2-addition-subtraction-and-scalar-multiplication-of-matrices",
+    "topicTitle": "3.2 Addition, Subtraction and Scalar Multiplication of Matrices",
+    "_id": "k97dta17bt5ysgh5vaxstbmqah8dggzc",
+    "correctKey": "B",
+    "explanation": "Commutative property of matrix addition states A + B = B + A for matrices of equal order.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73k7zd6den446bys9xwqjdhx8bvqdc",
+    "options": [
+      {
+        "key": "A",
+        "text": "A + B = B - A"
+      },
+      {
+        "key": "B",
+        "text": "A + B = B + A"
+      },
+      {
+        "key": "C",
+        "text": "A + B = AB"
+      },
+      {
+        "key": "D",
+        "text": "A + B depends on the order of addition"
+      }
+    ],
+    "sectionId": "commutative-property-of-matrix-addition",
+    "sectionLabel": "Commutative Property of Matrix Addition",
+    "stem": "For same-order matrices A and B, which statement reflects the commutative property of addition?",
+    "topicId": "ms7eesdvszwgrptn7hb4hw45218bvtz8"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-3-multiplicative-inverse-of-a-matrix",
+    "topicTitle": "3.3 Multiplicative Inverse of a Matrix",
+    "_id": "k97em8hwmr2cbtgzzcttex1zjs8dhw77",
+    "correctKey": "B",
+    "explanation": "The adjoint of a 2-by-2 matrix swaps the primary diagonal entries and flips the sign of the secondary diagonal entries.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a59zyaac95v8cnn1yw7ye658bvcqv",
+    "options": [
+      {
+        "key": "A",
+        "text": "Doubling every element and reversing rows"
+      },
+      {
+        "key": "B",
+        "text": "Interchanging the primary diagonal elements and changing the signs of the secondary diagonal elements"
+      },
+      {
+        "key": "C",
+        "text": "Transposing the matrix and adding the identity matrix"
+      },
+      {
+        "key": "D",
+        "text": "Dividing every element by the determinant"
+      }
+    ],
+    "sectionId": "adjoint-of-a-matrix",
+    "sectionLabel": "Adjoint of a Matrix",
+    "stem": "For a 2-by-2 matrix A, the adjoint is formed by which two steps?",
+    "topicId": "ms743cdde84s5b749rae60dht58bt1ey"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-3-multiplicative-inverse-of-a-matrix",
+    "topicTitle": "3.3 Multiplicative Inverse of a Matrix",
+    "_id": "k973af8x78v5ke2beaaqhgjg098d3xwf",
+    "correctKey": "A",
+    "explanation": "The inverse is defined by the identity-matrix relationship A A⁻¹ = I.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a59zyaac95v8cnn1yw7ye658bvcqv",
+    "options": [
+      {
+        "key": "A",
+        "text": "A A⁻¹ = I"
+      },
+      {
+        "key": "B",
+        "text": "A + A⁻¹ = 0"
+      },
+      {
+        "key": "C",
+        "text": "A A⁻¹ = A"
+      },
+      {
+        "key": "D",
+        "text": "A − A⁻¹ = I"
+      }
+    ],
+    "sectionId": "multiplicative-inverse-of-a-matrix",
+    "sectionLabel": "Multiplicative Inverse of a Matrix",
+    "stem": "Which product identifies a matrix inverse when it exists?",
+    "topicId": "ms743cdde84s5b749rae60dht58bt1ey"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "03-matrices-and-determinants",
+    "chapterTitle": "Matrices and Determinants",
+    "topicSlug": "3-4-applications-of-matrices",
+    "topicTitle": "3.4 Applications of Matrices",
+    "_id": "k975edhr9m6vgf30pnqaje10w98d30h0",
+    "correctKey": "A",
+    "explanation": "The applications section explicitly suggests matrix inversion or Cramer's rule for the two-item cost system.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bgpdjf066djretdsayh6bas8bvpfm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Matrix inversion or Cramer's rule"
+      },
+      {
+        "key": "B",
+        "text": "Only drawing a bar graph"
+      },
+      {
+        "key": "C",
+        "text": "Only rounding each price"
+      },
+      {
+        "key": "D",
+        "text": "Only subtracting the two totals"
+      }
+    ],
+    "sectionId": "applications-of-matrices",
+    "sectionLabel": "Applications of Matrices",
+    "stem": "Which methods does the applications section identify for solving the cream-puff and pringle cost system?",
+    "topicId": "ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+  }
+]

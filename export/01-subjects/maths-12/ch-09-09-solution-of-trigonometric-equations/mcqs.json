@@ -1,0 +1,134 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "09-solution-of-trigonometric-equations",
+    "chapterTitle": "Solution Of Trigonometric Equations",
+    "topicSlug": "exercise-9-2",
+    "topicTitle": "9.2 Graphical Solution of Trigonometric Equations",
+    "_id": "k977ag356mam6we36y4hh2qpqn85q0se",
+    "correctKey": "B",
+    "explanation": "Graphical solution of $f(\\theta) = g(\\theta)$ relies on the fact that equality holds at points where the two graphs share the same coordinates, i.e., their intersection points.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tvk3zav2frevnjwkfxh4nn85qk45",
+    "options": [
+      {
+        "key": "A",
+        "text": "Finding the area between the cosine curve and the line $y = \\frac{\\theta}{2}$."
+      },
+      {
+        "key": "B",
+        "text": "Identifying the $\\theta$-values where the graphs of $y = \\cos\\theta$ and $y = \\frac{\\theta}{2}$ intersect."
+      },
+      {
+        "key": "C",
+        "text": "Calculating the derivatives of both functions to find their local extrema."
+      },
+      {
+        "key": "D",
+        "text": "Finding the $\\theta$-intercepts of the cosine function only."
+      }
+    ],
+    "stem": "What is the fundamental principle behind solving $\\cos\\theta = \\frac{\\theta}{2}$ graphically?",
+    "topicId": "ms76j6jg19nwx99h6jhvpev0nx85psr1"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "09-solution-of-trigonometric-equations",
+    "chapterTitle": "Solution Of Trigonometric Equations",
+    "topicSlug": "exercise-9-2",
+    "topicTitle": "9.2 Graphical Solution of Trigonometric Equations",
+    "_id": "k9722a4b257wm48e418jadzr4185q5ee",
+    "correctKey": "B",
+    "explanation": "To solve $f(\\theta) = g(\\theta)$ graphically, plot $y_1 = f(\\theta)$ and $y_2 = g(\\theta)$ separately. Here $f(\\theta) = \\cos\\left(\\frac{\\theta}{2}\\right)$ and $g(\\theta) = \\theta$, so options (A), (C), and (D) are incorrect transformations.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tvk3zav2frevnjwkfxh4nn85qk45",
+    "options": [
+      {
+        "key": "A",
+        "text": "$y = \\cos\\theta$ and $y = \\frac{\\theta}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$y = \\cos\\left(\\frac{\\theta}{2}\\right)$ and $y = \\theta$"
+      },
+      {
+        "key": "C",
+        "text": "$y = \\cos\\left(\\frac{\\theta}{2}\\right) - \\theta$ and $y = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$y = \\frac{1}{2}\\cos\\theta$ and $y = \\theta$"
+      }
+    ],
+    "stem": "To solve $\\cos\\left(\\frac{\\theta}{2}\\right) = \\theta$ graphically, which two functions must be plotted on the same axes?",
+    "topicId": "ms76j6jg19nwx99h6jhvpev0nx85psr1"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "09-solution-of-trigonometric-equations",
+    "chapterTitle": "Solution Of Trigonometric Equations",
+    "topicSlug": "exercise-9-2",
+    "topicTitle": "9.2 Graphical Solution of Trigonometric Equations",
+    "_id": "k974nh4mppb1qydcqjzpja3qyn85qe3b",
+    "correctKey": "C",
+    "explanation": "The slope of $y = \\sin\\theta$ at the origin equals 1 (same as $y = \\theta$), but $\\sin\\theta < \\theta$ for all $\\theta > 0$ and $\\sin\\theta > \\theta$ for all $\\theta < 0$, so the only intersection is at $\\theta = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tvk3zav2frevnjwkfxh4nn85qk45",
+    "options": [
+      {
+        "key": "A",
+        "text": "Three points"
+      },
+      {
+        "key": "B",
+        "text": "Two points"
+      },
+      {
+        "key": "C",
+        "text": "Only one point (at the origin)"
+      },
+      {
+        "key": "D",
+        "text": "No points"
+      }
+    ],
+    "stem": "For the equation $\\sin\\theta = \\theta$ in the interval $\\theta \\in \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$, how many intersection points exist between $y = \\sin\\theta$ and $y = \\theta$?",
+    "topicId": "ms76j6jg19nwx99h6jhvpev0nx85psr1"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "09-solution-of-trigonometric-equations",
+    "chapterTitle": "Solution Of Trigonometric Equations",
+    "topicSlug": "exercise-9-2",
+    "topicTitle": "9.2 Graphical Solution of Trigonometric Equations",
+    "_id": "k977rdw83fkve4t8wykj4nnb6n85qj2a",
+    "correctKey": "B",
+    "explanation": "The periodicity of $\\tan\\theta$ (period $\\pi$) and its vertical asymptotes at $\\theta = \\frac{\\pi}{2} + n\\pi$ determine how many separate branches exist within the domain, each of which may intersect the line $y = \\frac{\\theta}{2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tvk3zav2frevnjwkfxh4nn85qk45",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its amplitude"
+      },
+      {
+        "key": "B",
+        "text": "Its periodicity and vertical asymptotes"
+      },
+      {
+        "key": "C",
+        "text": "Its symmetry about the $x$-axis"
+      },
+      {
+        "key": "D",
+        "text": "Its $y$-intercept"
+      }
+    ],
+    "stem": "When solving $\\tan\\theta = \\frac{\\theta}{2}$ graphically, which characteristic of $y = \\tan\\theta$ is most critical for determining the number of solutions?",
+    "topicId": "ms76j6jg19nwx99h6jhvpev0nx85psr1"
+  }
+]

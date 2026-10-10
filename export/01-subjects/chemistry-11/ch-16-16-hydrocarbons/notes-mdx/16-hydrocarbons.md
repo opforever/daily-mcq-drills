@@ -1,0 +1,786 @@
+<!-- note kx77h44th34r0f21ahe2neqr7s85pmm4 | topic ms7bs3meq7a75q32n0zkxq1sks85q337 | status published -->
+# 16.1 Hydrocarbons
+
+# 16.1 Hydrocarbons
+
+**Hydrocarbons** are organic compounds composed exclusively of *hydrogen* and *carbon* elements. They are the fundamental building blocks of organic chemistry and are broadly classified into two main categories: **aliphatic** and **aromatic** hydrocarbons.
+
+- **Aliphatic Hydrocarbons**: Derived from the Greek word for "fatty," this class includes open-chain hydrocarbons and closed-chain (cyclic) compounds that behave similarly to open-chain compounds.
+- **Aromatic Hydrocarbons**: Derived from the Greek word for "fragrant," this class includes benzene and compounds with properties similar to benzene.
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010224353.webp" alt="Figure 16.1: Classification of hydrocarbons" caption="Figure 16.1: Classification of hydrocarbons" />
+
+## 16.1.1 Open Chain Hydrocarbons
+
+Also known as **acyclic hydrocarbons**, these compounds feature carbon skeletons arranged in straight or branched chains. They do not form rings and have terminal carbon atoms.
+
+### 1. Saturated Hydrocarbons
+
+These hydrocarbons contain only **single covalent bonds** between carbon atoms. Each carbon atom is bonded to four other atoms via $sp^3$ hybrid orbitals, meaning no more atoms can be added — hence they are "saturated."
+
+- **Key Features**:
+  - All carbon-carbon bonds are single ($C-C$).
+  - Each carbon atom is $sp^3$ hybridized with tetrahedral geometry (bond angle $\approx 109.5°$).
+  - General formula: $C_nH_{2n+2}$
+  - Can be straight-chain or branched-chain.
+- **Example (Alkanes)**:
+  - *Butane (straight chain)*: $$CH_3-CH_2-CH_2-CH_3$$
+  - *2-methylpropane (branched chain)*:
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010224424.webp" alt="Figure 16.2: Structure of 2-methylpropane" caption="Figure 16.2: Structure of 2-methylpropane" />
+
+### 2. Unsaturated Hydrocarbons
+
+These hydrocarbons contain at least one **multiple bond** (double or triple) between carbon atoms. The carbon atoms involved in multiple bonds are bonded to fewer than four other atoms, so more atoms can be added through addition reactions.
+
+- **Key Features**:
+  - Contain at least one $C=C$ double bond or $C\equiv C$ triple bond.
+  - Include alkenes and alkynes.
+
+**a. Alkenes**
+
+Commonly known as *olefins*, alkenes are hydrocarbons that contain at least one carbon-carbon double bond.
+
+- **Key Features**:
+  - Contain at least one $C=C$ double bond.
+  - Carbon atoms in the double bond are $sp^2$ hybridized (bond angle $\approx 120°$, trigonal planar).
+  - General formula: $C_nH_{2n}$
+  - Alkenes with more than one double bond are called **polyenes**.
+
+For properties and reactions of alkanes, see <InlineNoteTag label="Reactivity of Alkanes" notePath="chemistry-11/hydrocarbons/16-2-reactivity-of-alkanes" />.
+
+**b. Alkynes**
+
+Commonly known as *acetylenes*, alkynes are hydrocarbons that contain at least one carbon-carbon triple bond.
+
+- **Key Features**:
+  - Contain at least one $C\equiv C$ triple bond.
+  - Carbon atoms in the triple bond are $sp$ hybridized (bond angle $= 180°$, linear).
+  - General formula: $C_nH_{2n-2}$
+  - Alkynes with more than one triple bond are called **polyynes**.
+
+## 16.1.2 Closed Chain Hydrocarbons
+
+Also known as **cyclic hydrocarbons**, these compounds have carbon skeletons arranged in rings, with no terminal carbon atoms. Each carbon atom is bonded to at least two other carbon atoms.
+
+### 1. Alicyclic Hydrocarbons
+
+The term "alicyclic" is a blend of *aliphatic* and *cyclic*. These are aliphatic hydrocarbons that form rings of carbon atoms but do **not** possess aromatic character.
+
+- **Key Features**:
+  - Chemical properties are similar to open-chain aliphatic hydrocarbons.
+  - Have two fewer hydrogen atoms than the corresponding open-chain alkane (same formula as alkenes: $C_nH_{2n}$ for cycloalkanes).
+  - Carbon atoms are $sp^3$ hybridized (in cycloalkanes).
+- **Examples**:
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010224514.webp" alt="Figure 16.3: Examples of alicyclic hydrocarbons" caption="Figure 16.3: Examples of alicyclic hydrocarbons" />
+
+### 2. Aromatic Hydrocarbons
+
+These are cyclic hydrocarbons that contain at least one **benzene ring** in their molecular structure.
+
+- **Key Features**:
+  - The simplest example is benzene ($\mathrm{C_6H_6}$).
+  - The benzene ring is a planar hexagonal structure with all bond angles of $120°$.
+  - All six carbon atoms in the benzene ring are $sp^2$ hybridized.
+  - The six $\pi$-electrons are **delocalized** over the entire ring, giving benzene exceptional stability (aromaticity).
+- **Examples**:
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010224540.webp" alt="Figure 16.4: Examples of aromatic hydrocarbons" caption="Figure 16.4: Examples of aromatic hydrocarbons" />
+
+## Summary: Hybridization in Hydrocarbons
+
+| Hydrocarbon Class | Bond Type | Hybridization | Bond Angle | General Formula |
+|---|---|---|---|---|
+| Alkane | $C-C$ single | $sp^3$ | $109.5°$ | $C_nH_{2n+2}$ |
+| Alkene | $C=C$ double | $sp^2$ | $120°$ | $C_nH_{2n}$ |
+| Alkyne | $C\equiv C$ triple | $sp$ | $180°$ | $C_nH_{2n-2}$ |
+| Cycloalkane | $C-C$ single (ring) | $sp^3$ | $\approx 109.5°$ | $C_nH_{2n}$ |
+| Benzene (aromatic) | Delocalized | $sp^2$ | $120°$ | $C_nH_{2n-6}$ |
+
+## Concept Assessment Exercise 16.1
+
+**Q1. Differentiate between saturated and unsaturated compounds. Give examples.**
+
+| Feature | Saturated Compounds | Unsaturated Compounds |
+|---|---|---|
+| **Bond Type** | Only $C-C$ single bonds | At least one $C=C$ or $C\equiv C$ bond |
+| **Hybridization** | $sp^3$ | $sp^2$ (alkenes) or $sp$ (alkynes) |
+| **Atom Capacity** | Cannot add more atoms | Can add atoms via addition reactions |
+| **Example Class** | Alkanes | Alkenes, Alkynes |
+| **Specific Example** | Butane ($\mathrm{CH_3CH_2CH_2CH_3}$) | Ethene ($\mathrm{CH_2=CH_2}$), Ethyne ($\mathrm{CH\equiv CH}$) |
+
+**Q2. Define aliphatic and aromatic compounds. Give two examples of each.**
+
+- **Aliphatic compounds** are hydrocarbons with open-chain (straight or branched) structures, or cyclic structures that do **not** contain a benzene ring. They can be saturated or unsaturated.
+  - Examples: Butane ($\mathrm{C_4H_{10}}$), Cyclohexane ($\mathrm{C_6H_{12}}$)
+
+- **Aromatic compounds** are cyclic hydrocarbons containing at least one benzene ring with delocalized $\pi$-electrons, giving them special stability.
+  - Examples: Benzene ($\mathrm{C_6H_6}$), Toluene ($\mathrm{C_6H_5CH_3}$)
+
+---
+
+<!-- note kx70fg7yr8rqpmznhkhb7f8tsx85qpkv | topic ms74pxxfhfre8pskemyg99je3d85qgnp | status published -->
+# 16.2 Reactivity of Alkanes
+
+# 16.2 Reactivity of Alkanes
+
+Alkanes are non-polar hydrocarbons because the electronegativity difference between carbon and hydrogen is not significant enough to create polar bonds. They are also known as **paraffins**, a term derived from the Latin words *parum* (little) and *affinis* (affinity/reactivity), which aptly describes their low reactivity under normal conditions.
+
+The low reactivity of alkanes is attributed to two main factors:
+
+### 1. Non-polar Bonds
+
+The electronegativity values of carbon and hydrogen are 2.5 and 2.1, respectively. The small difference in electronegativity means the bonding electrons in $C-H$ bonds are shared almost equally, making the bonds **non-polar**.
+
+Because alkanes are composed of non-polar $C-C$ and $C-H$ bonds, they do not react with polar reagents such as acids, bases, oxidizing agents, or reducing agents under normal conditions.
+
+### 2. Strength of Sigma (σ) Bond
+
+Alkanes contain only single covalent bonds, which are **sigma (σ) bonds**. They do not have any pi (π) bonds.
+
+A sigma (σ) bond is very strong because the shared electrons are located directly between the two bonded nuclei, resulting in a strong electrostatic attraction. These strongly held electrons are not easily available for chemical reactions, which contributes to the chemical inertness of alkanes. For more on orbital overlaps, see <InlineNoteTag label="Shapes of Orbitals" notePath="chemistry-11/2.5-shapes-of-orbitals" />.
+
+Despite their general lack of reactivity under normal conditions, alkanes undergo reactions at high temperatures or in the presence of ultraviolet (UV) light. Two important reactions of alkanes are:
+
+1. **Free Radical Substitution**
+2. **Cracking**
+
+Free radical substitution reactions are initiated by UV light, which generates highly reactive free radicals. Cracking involves heating large alkane molecules to high temperatures to break them down into smaller, more useful molecules.
+
+### Reactivity of Halogens Towards Alkanes
+
+Not all halogens react with alkanes at the same rate. The order of reactivity is:
+
+$$F_2 > Cl_2 > Br_2 > I_2$$
+
+| Halogen | Reactivity | Notes |
+|---------|-----------|-------|
+| $F_2$ | Explosive | Reaction is uncontrollable; highly exothermic |
+| $Cl_2$ | Vigorous (UV light) | Most commonly used in laboratory reactions |
+| $Br_2$ | Slow | More selective; requires UV light or heat |
+| $I_2$ | Very slow / reversible | Practically does not occur under normal conditions |
+
+### 16.2.1 Free Radical Substitution of Ethane
+
+This type of reaction involves highly reactive **halogen free radicals** — species with one or more unpaired electrons — that attack ethane molecules, replacing hydrogen atoms with halogen atoms. The mechanism occurs in three distinct steps.
+
+#### 1. Initiation
+
+The reaction is initiated by ultraviolet (UV) light, which provides the energy to break the chlorine-chlorine bond through **homolytic fission**. Each atom retains one electron from the shared pair, creating two highly reactive chlorine free radicals.
+
+$$\mathrm{Cl-Cl} \xrightarrow{h\nu} \mathrm{Cl^\cdot} + \mathrm{Cl^\cdot}$$
+
+(Here, $h\nu$ represents a photon of UV light)
+
+#### 2. Propagation
+
+This step is a self-sustaining chain reaction. Once a chlorine radical is formed, it attacks an ethane molecule, abstracting a hydrogen atom to form hydrogen chloride ($\mathrm{HCl}$) and an ethyl free radical.
+
+$$\mathrm{CH_3-CH_3 + Cl^\cdot \rightarrow CH_3-CH_2^\cdot + HCl}$$
+
+The newly formed ethyl free radical is also highly reactive. It attacks a neutral chlorine molecule, abstracting a chlorine atom to form chloroethane and a new chlorine free radical, which continues the chain.
+
+$$\mathrm{CH_3-CH_2^\cdot + Cl_2 \rightarrow CH_3-CH_2Cl + Cl^\cdot}$$
+
+**Further Substitution:** If excess chlorine is used, the propagation steps can continue, substituting more hydrogen atoms. This leads to a mixture of chloro-substituted products like 1,1-dichloroethane, 1,1,1-trichloroethane, and eventually, 1,1,1,2,2,2-hexachloroethane ($\mathrm{C_2Cl_6}$).
+
+#### 3. Termination
+
+The chain reaction eventually stops when two free radicals collide and combine to form a stable molecule. This removes the reactive radicals from the system.
+
+- Two chlorine radicals combine:
+  $$\mathrm{Cl^\cdot + Cl^\cdot \rightarrow Cl_2}$$
+- An ethyl radical and a chlorine radical combine:
+  $$\mathrm{CH_3-CH_2^\cdot + Cl^\cdot \rightarrow CH_3-CH_2Cl}$$
+- Two ethyl radicals combine to form butane:
+  $$\mathrm{CH_3-CH_2^\cdot + CH_3-CH_2^\cdot \rightarrow CH_3-CH_2-CH_2-CH_3}$$
+
+---
+
+<!-- note kx7d1kpkwgqtkc6vb89hp3f3s985q4nk | topic ms79a5g8pxs481bvd1g2t6wetx85qd15 | status published -->
+# 16.3 Shapes of Ethane and Cyclopropane
+
+# 16.3 Shapes of Ethane and Cyclopropane
+
+## 1. Shape of Ethane Molecules ($C_2H_6$)
+
+### Bonding Structure
+
+The ethane molecule consists of two carbon atoms bonded to each other by a single covalent bond. Each carbon atom is also bonded to three hydrogen atoms by single covalent bonds. A covalent bond formed by the direct, end-on overlap of atomic orbitals is called a **sigma ($\sigma$) bond**. All single covalent bonds in ethane are sigma bonds.
+
+### Hybridization
+
+Each carbon atom in ethane undergoes **$sp^3$ hybridization**. Consequently, all orbitals involved in bonding, both C-C and C-H bonds, are $sp^3$ hybridized orbitals. For more on how these orbitals are formed, see <InlineNoteTag label="Shapes of Orbitals" notePath="chemistry-11/2.5-shapes-of-orbitals" />.
+
+### Molecular Geometry
+
+The ethane molecule is **non-planar**. The covalent bonds around each carbon atom are arranged in a **tetrahedral** geometry. This arrangement results in bond angles of approximately **$109.5^\circ$** between any two bonds on the same carbon atom.
+
+### Visual Representation
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010225128.webp" alt="Figure 16.3a: Shape of ethane molecule" caption="Figure 16.3a: Shape of ethane molecule" />
+
+---
+
+## 2. Shape of Cyclopropane Molecules ($C_3H_6$)
+
+### Bonding Structure
+
+The cyclopropane molecule consists of three carbon atoms bonded by single covalent bonds to form a triangular ring. Each carbon atom is also bonded to two hydrogen atoms.
+
+### Hybridization
+
+Like ethane, each carbon atom in cyclopropane exhibits **$sp^3$ hybridization**. The orbitals involved in C-C and C-H bonds are $sp^3$ hybridized, which ideally leads to a tetrahedral arrangement.
+
+### Molecular Geometry and Bond Angles
+
+The molecule has a three-dimensional, non-planar structure. The C-C-C bond angle within the ring is constrained to **$60^\circ$**. This is a significant deviation from the ideal $109.5^\circ$ angle for $sp^3$ hybridized orbitals, causing substantial **angle strain** (also called ring strain).
+
+Because the orbitals cannot overlap head-on effectively due to the geometric constraints of the ring, the C-C bonds are often described as **'bent bonds'** or **'banana bonds'**.
+
+The H-C-H and C-C-H bond angles are closer to the ideal tetrahedral angle of $109.5^\circ$.
+
+### Reactivity of Cyclopropane
+
+Due to the high angle strain from the $60^\circ$ C-C-C bond angle (vs. ideal $109.5^\circ$), the bent bonds in cyclopropane are weaker than normal $\sigma$ bonds. This makes cyclopropane significantly more reactive than other alkanes such as ethane, and it can undergo ring-opening reactions.
+
+### Visual Representation
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010225503.webp" alt="Figure 16.3b: Shape of cyclopropane molecule" caption="Figure 16.3b: Shape of cyclopropane molecule" />
+
+---
+
+
+---
+
+<!-- note kx7dves70srhk9weddgdph40w985pt43 | topic ms7bf593vs6xfr8k7fg2kmn42x85qnav | status published -->
+# 16.4 Preparation of Alkenes
+
+# 16.4 Preparation of Alkenes
+
+Alkenes can be synthesized through various methods. This section focuses on common laboratory preparations: the dehydration of alcohols, dehydrohalogenation of halogenoalkanes, vicinal dehalogenation, and controlled hydrogenation of alkynes. These methods are primarily types of **elimination reactions**.
+
+---
+
+## 1. Dehydration of Alcohols
+
+*Dehydration* is an elimination reaction that involves the removal of a water molecule ($H_2O$) from an alcohol. This reaction is also classified as a **β-elimination reaction**, where a hydrogen atom from the β-carbon (the carbon adjacent to the carbon bearing the -OH group) and the hydroxyl group are removed, forming a double bond.
+
+**Key Features:**
+
+- **Reactant:** An alcohol (e.g., ethanol).
+- **Product:** An alkene (e.g., ethene) and water.
+- **Conditions:** Requires a catalyst and heat.
+- **Catalysts:** The reaction is typically catalyzed by passing the alcohol vapors over hot **aluminium oxide** ($Al_2O_3$), which also acts as a dehydrating agent. Other common catalysts include concentrated **sulfuric acid** ($H_2SO_4$) and **phosphoric acid** ($H_3PO_4$).
+
+**Ease of Dehydration:**
+The ease of dehydration follows the order: **Tertiary (3°) > Secondary (2°) > Primary (1°)**. Tertiary alcohols dehydrate most readily because they form more stable carbocation intermediates.
+
+**General Reaction:**
+
+$$ \text{Alcohol} \xrightarrow[\text{Heat}]{\text{Catalyst}} \text{Alkene} + H_2O $$
+
+**Example: Preparation of Ethene from Ethanol**
+
+When ethanol vapor is passed over hot aluminium oxide, it dehydrates to form ethene and water. Note that temperature matters; at $170^\circ C$ with $H_2SO_4$, ethene is the major product.
+
+$$ \underset{\text{Ethanol}}{CH_3CH_2OH} \xrightarrow[Heat]{Al_2O_3} \underset{\text{Ethene}}{CH_2=CH_2} + H_2O $$
+
+---
+
+## 2. Dehydrohalogenation of Halogenoalkanes
+
+*Dehydrohalogenation* is an elimination reaction involving the removal of a hydrogen atom and a halogen atom from adjacent carbon atoms in a halogenoalkane. This is another example of a **β-elimination reaction**.
+
+**Key Features:**
+
+- **Reactant:** A halogenoalkane (e.g., bromoethane).
+- **Reagent:** A strong base dissolved in ethanol, such as hot ethanolic **potassium hydroxide** ($KOH$). The alcoholic medium favors elimination over substitution.
+- **Product:** An alkene, a salt, and water.
+
+**General Reaction:**
+
+$$ \text{Halogenoalkane} + \text{Base} \xrightarrow[\text{Heat}]{\text{Ethanol}} \text{Alkene} + \text{Salt} + H_2O $$
+
+**Example: Preparation of Ethene from Bromoethane**
+
+Ethene can be prepared by heating bromoethane with a hot, ethanolic solution of potassium hydroxide.
+
+$$ \underset{\text{Bromoethane}}{CH_3CH_2Br} + KOH \xrightarrow[\text{Heat}]{\text{Ethanol}} \underset{\text{Ethene}}{CH_2=CH_2} + KBr + H_2O $$
+
+---
+
+## 3. Dehalogenation of Vicinal Dihalides
+
+Vicinal dihalides are compounds where two halogen atoms are attached to adjacent carbon atoms. When treated with **Zinc dust** in an anhydrous solvent like methanol or acetic acid, they undergo dehalogenation to form an alkene.
+
+**Reaction:**
+
+$$ \underset{\text{Vicinal dihalide}}{R-CHX-CHX-R} + Zn \rightarrow R-CH=CH-R + ZnX_2 $$
+
+---
+
+## 4. Controlled Hydrogenation of Alkynes
+
+Alkenes can be prepared by the partial reduction of alkynes. The stereochemistry of the product depends on the reducing agent used:
+
+1.  **Cis-alkenes:** Produced using hydrogen gas with **Lindlar's catalyst** ($Pd/BaSO_4$ poisoned with quinoline).
+2.  **Trans-alkenes:** Produced using **Sodium in liquid ammonia** ($Na / \text{liq. } NH_3$).
+
+---
+
+## Concept Assessment Exercise 16.2
+
+Prepare **but-1-ene** by the following preparatory methods.
+
+**i. Dehydration of an alcohol**
+**ii. Dehydrohalogenation of a halogenoalkane**
+
+### Solution
+
+**i. Preparation of But-1-ene by Dehydration of an Alcohol**
+
+To produce but-1-ene ($CH_2=CHCH_2CH_3$), we must start with an alcohol where the -OH group is on carbon 1, which is **butan-1-ol**.
+
+**Reaction:**
+
+$$ \underset{\text{Butan-1-ol}}{CH_3CH_2CH_2CH_2OH} \xrightarrow[\text{Heat}]{\text{conc. } H_2SO_4} \underset{\text{But-1-ene}}{CH_2=CHCH_2CH_3} + H_2O $$
+
+**ii. Preparation of But-1-ene by Dehydrohalogenation of a Halogenoalkane**
+
+To produce but-1-ene, we must start with a halogenoalkane where the halogen is on carbon 1, such as **1-bromobutane**.
+
+**Reaction:**
+
+$$ \underset{\text{1-Bromobutane}}{CH_3CH_2CH_2CH_2Br} + KOH \xrightarrow[\text{Heat}]{\text{Ethanol}} \underset{\text{But-1-ene}}{CH_2=CHCH_2CH_3} + KBr + H_2O $$
+
+---
+
+<!-- note kx7cgs7h4yh79t524z1temvhes85phve | topic ms755bavc131sfqgd7tgxg5h7185pzp5 | status published -->
+# Molecular Structure of Ethene
+
+Ethene ($\mathrm{C_2H_4}$) is an alkene consisting of two carbon atoms joined by a double covalent bond, with two hydrogen atoms singly bonded to each carbon.
+
+- **Hybridization:** Each carbon atom in ethene is **$sp^2$ hybridized**.
+- **Geometry:** The $sp^2$ hybridization results in a **trigonal planar** arrangement around each carbon atom.
+- **Planarity:** The entire ethene molecule is planar, meaning all six atoms (2 carbons and 4 hydrogens) lie in the same plane.
+- **Bond Angles:** The $H-C-H$ bond angle is approximately $117.6^\circ$ and the $H-C=C$ bond angle is approximately $121.3^\circ$ (both close to the ideal $120^\circ$).
+- **Bond Length:** The $C=C$ bond length is $1.34\ \text{Å}$, shorter than the $C-C$ single bond ($1.54\ \text{Å}$) in ethane.
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010225936.webp" alt="Shape and Bonding in the Ethene Molecule" caption="Figure 16.5.1: Shape and Bonding in the Ethene Molecule" />
+
+### Bonding in Ethene
+
+The double bond between the two carbon atoms is a combination of one sigma ($\sigma$) bond and one pi ($\pi$) bond.
+
+#### Sigma ($\sigma$) Bonds
+
+Sigma bonds are formed by the direct, head-on overlap of atomic or hybrid orbitals. They are strong and hold electrons tightly.
+
+- **Carbon-Carbon ($\sigma$) Bond:** Formed by the head-on overlap of two **$sp^2$ hybridized orbitals**, one from each carbon atom ($sp^2 - sp^2$ overlap).
+- **Carbon-Hydrogen ($\sigma$) Bonds:** Each of the four C-H bonds is formed by the overlap of an **$sp^2$ orbital** from a carbon atom and the **$s$-orbital** of a hydrogen atom ($sp^2 - s$ overlap).
+
+#### Pi ($\pi$) Bond
+
+Pi bonds are formed by the parallel (sideways) overlap of unhybridized p-orbitals. For more on orbital shapes, see <InlineNoteTag label="Shapes of Orbitals" notePath="chemistry-11/2.5-shapes-of-orbitals" />.
+
+- **Carbon-Carbon ($\pi$) Bond:** After $sp^2$ hybridization, each carbon atom has one unhybridized $p_z$-orbital perpendicular to the molecular plane. These two parallel $p_z$-orbitals overlap sideways to form the $\pi$ bond.
+- **Characteristics:** The electrons in a $\pi$ bond are held less tightly and are located above and below the plane of the sigma bonds. This makes the $\pi$ bond **weaker** and more **exposed** than a sigma bond.
+
+#### Why is the C=C Bond Shorter than C-C?
+
+Two factors contribute to the shorter $C=C$ bond ($1.34\ \text{Å}$) compared to $C-C$ ($1.54\ \text{Å}$):
+1. **Greater $s$-character:** $sp^2$ orbitals have 33% $s$-character vs. 25% in $sp^3$ orbitals, making them more compact and pulling the nuclei closer.
+2. **Additional $\pi$ bond:** The extra electron density between the nuclei from the $\pi$ bond pulls them closer together.
+
+### Reactivity of Ethene
+
+The presence of the weak and accessible $\pi$ bond makes ethene significantly more reactive than alkanes like ethane.
+
+#### Ethene vs. Ethane
+
+| Property | Ethene ($\mathrm{C_2H_4}$) | Ethane ($\mathrm{C_2H_6}$) |
+|---|---|---|
+| Bond type | $\sigma$ + $\pi$ | $\sigma$ only |
+| $\pi$ electrons | Exposed, accessible | None |
+| Typical reaction | Electrophilic addition | Free radical substitution |
+| Reactivity | Higher | Lower |
+
+Ethene is more reactive than ethane because the $\pi$ bond can be easily broken to form new single bonds (addition reactions). Ethane only contains strong $\sigma$ bonds, which are difficult to break.
+
+#### Ethene vs. Ethyne
+
+Ethene is **more reactive** than ethyne. The $\pi$ electrons in ethene are more exposed and accessible for reaction. The shorter $C\equiv C$ triple bond in ethyne holds its $\pi$ electrons more tightly between the carbon nuclei (due to greater nuclear attraction), making them less available for electrophilic attack compared to the more diffuse $\pi$ cloud of the $C=C$ double bond in ethene.
+
+#### Electrophilic Addition
+
+Alkenes typically undergo **electrophilic addition** reactions:
+- The exposed $\pi$ electrons act as a **nucleophile** (electron donor)
+- An **electrophile** (electron acceptor) is attracted to the $\pi$ cloud
+- The $\pi$ bond breaks and two new $\sigma$ bonds form
+
+**Example:** Addition of $\mathrm{HBr}$ to ethene:
+$$\mathrm{CH_2=CH_2 + HBr \rightarrow CH_3-CH_2Br}$$
+
+---
+
+<!-- note kx70cehnxcd2yzq7jvt9cjq8kd85q4zx | topic ms75a5rt42ed65s3x1y36j4z8185qb46 | status published -->
+# 16.6 Chemical Reactions of Alkenes
+
+# 16.6 Chemical Reactions of Alkenes
+
+Alkenes are characterized by their reactivity, which is centered around the carbon-carbon double bond. They primarily undergo **addition reactions**, where a molecule adds across the double bond. This process converts the $\pi$-bond into two new $\sigma$-bonds, resulting in a saturated product.
+
+## 1. Hydrogenation
+
+**Hydrogenation** (catalytic reduction) is the addition of hydrogen gas ($H_2$) to an alkene in the presence of a metal catalyst to form the corresponding alkane.
+
+- **Conditions:** Finely divided Ni at $250$–$300^\circ C$, or Pt/Pd at room temperature.
+- **Reaction:**
+$$\underset{\text{Ethene}}{CH_2=CH_2} + H_2 \xrightarrow[\text{heat}]{Ni/Pt} \underset{\text{Ethane}}{CH_3-CH_3}$$
+- **Industrial Application:** Used to convert unsaturated vegetable oils (containing C=C bonds) into saturated solid fats (margarine/ghee).
+
+## 2. Hydrohalogenation
+
+**Hydrohalogenation** is the addition of a hydrogen halide ($HX$, e.g., $HBr$ or $HCl$) to an alkene to form a halogenoalkane (alkyl halide).
+
+- **Reaction with propene:**
+$$\underset{\text{Propene}}{CH_3-CH=CH_2} + HBr \rightarrow \underset{\text{2-Bromopropane (Major)}}{CH_3-CHBr-CH_3} + \underset{\text{1-Bromopropane (Minor)}}{CH_3-CH_2-CH_2Br}$$
+
+### Markovnikov's Rule
+
+> **Markovnikov's Rule:** When an unsymmetrical reagent (like $H$–$X$) adds to an unsymmetrical alkene, the negative part ($X^-$) attaches to the carbon of the double bond that has the **fewer hydrogen atoms** (the more substituted carbon).
+
+### Mechanism of Electrophilic Addition
+
+1. **Electrophilic Attack:** $H^+$ from $HBr$ attacks the $\pi$-bond of propene, forming two possible carbocation intermediates:
+   - **Path A:** More stable **secondary (2°) carbocation** → leads to 2-bromopropane (major product)
+   - **Path B:** Less stable **primary (1°) carbocation** → leads to 1-bromopropane (minor product)
+
+2. **Carbocation Stability Order:**
+$$\text{Tertiary (3°)} > \text{Secondary (2°)} > \text{Primary (1°)}$$
+Stability increases with more alkyl groups due to the **positive inductive effect** — electron-donating alkyl groups help disperse the positive charge.
+
+3. **Nucleophilic Attack:** $Br^-$ attacks the more stable secondary carbocation → **2-bromopropane** (major product).
+
+## 3. Hydration of Alkenes
+
+**Hydration** is the addition of water ($H_2O$) across the double bond to produce an **alcohol**, requiring a strong acid catalyst (e.g., $H_2SO_4$).
+
+- **Industrial Application:** Primary method for industrial production of ethanol.
+- **Mechanism (Two Steps):**
+
+  **Step 1 — Formation of Ethyl Hydrogen Sulphate:**
+  $$\underset{\text{Ethene}}{CH_2=CH_2} + H_2SO_4 \rightarrow \underset{\text{Ethyl hydrogen sulphate}}{CH_3-CH_2-OSO_3H}$$
+
+  **Step 2 — Hydrolysis:**
+  $$\underset{\text{Ethyl hydrogen sulphate}}{CH_3-CH_2-OSO_3H} + H_2O \xrightarrow{\text{heat}} \underset{\text{Ethanol}}{CH_3-CH_2-OH} + H_2SO_4$$
+
+The $H_2SO_4$ is regenerated, confirming its role as a catalyst.
+
+## 4. Halogenation
+
+**Halogenation** is the addition of a halogen molecule ($X_2$, e.g., $Cl_2$, $Br_2$) across the double bond to form a **dihalogenoalkane**.
+
+- **Reaction:** Ethene reacts with bromine in $CCl_4$:
+$$\underset{\text{Ethene}}{CH_2=CH_2} + Br_2 \xrightarrow{CCl_4} \underset{\text{1,2-Dibromoethane}}{Br-CH_2-CH_2-Br}$$
+
+- **Test for Unsaturation:**
+  - **Bromine water test:** The reddish-brown colour of $Br_2/H_2O$ is rapidly decolorized by alkenes.
+  - **Baeyer's Test:** Cold dilute alkaline $KMnO_4$ (purple) is decolorized, forming a colourless vicinal diol (glycol). This is the more specific test for unsaturation.
+
+## 5. Halohydration
+
+**Halohydration** is the addition of a halogen and a hydroxyl group across a double bond using a hypohalous acid ($HOX$).
+
+- **Reaction:** Ethene reacts with hypobromous acid ($HOBr$):
+$$\underset{\text{Ethene}}{CH_2=CH_2} + HOBr \rightarrow \underset{\text{2-Bromoethanol}}{HO-CH_2-CH_2-Br}$$
+
+## 6. Epoxidation
+
+**Epoxidation** is the reaction of an alkene with a **peracid** (e.g., peroxyacetic acid, $CH_3COOOH$) to form an **epoxide** — a three-membered ring containing an oxygen atom.
+
+- **Reaction:** Ethene reacts with peroxyacetic acid:
+$$\underset{\text{Ethene}}{CH_2=CH_2} + CH_3COOOH \rightarrow \underset{\text{Epoxyethane (Ethylene oxide)}}{\begin{smallmatrix}CH_2-CH_2\\\hline O\end{smallmatrix}} + CH_3COOH$$
+
+Epoxides are highly reactive three-membered ring compounds used as intermediates in organic synthesis.
+
+## 7. Ozonolysis
+
+**Ozonolysis** is the cleavage of the C=C double bond using ozone ($O_3$), followed by workup to give carbonyl compounds.
+
+- **Mechanism:**
+  1. Ozone adds across the double bond to form an unstable **ozonide** intermediate.
+  2. The ozonide is cleaved by workup:
+     - **Reductive workup** ($Zn/H_2O$): gives **aldehydes** or **ketones** (no further oxidation).
+     - **Oxidative workup** ($H_2O_2$): gives **carboxylic acids** from terminal alkenes.
+
+- **Example (Reductive workup):**
+$$\underset{\text{Ethene}}{CH_2=CH_2} \xrightarrow{1.\, O_3 \;\; 2.\, Zn/H_2O} 2\, \underset{\text{Formaldehyde}}{HCHO}$$
+
+- **Application:** Ozonolysis is used to **determine the position of the double bond** in an unknown alkene by identifying the carbonyl fragments produced.
+
+---
+
+<!-- note kx7f29t2fh8v4s2h2s8p3frb8985qyn5 | topic ms7c81btkmqss531d0x37gh57185pcsc | status published -->
+# 16.7 Conjugation in Alkenes
+
+### Definition of Conjugation
+
+The term *conjugation* originates from the Latin for "to join together." In chemistry, it describes a system where unhybridized **p-orbitals** on adjacent atoms in a molecule overlap, creating a continuous "bridge" for pi ($\pi$) electrons.
+
+Conjugation is a key feature in alkenes that possess **alternating double and single bonds**. In these molecules:
+
+- The carbon atoms involved in the alternating system are **$sp^2$ hybridized**.
+- Each of these carbon atoms has one unhybridized p-orbital that is perpendicular to the plane of the sigma ($\sigma$) bonds.
+
+### Delocalization of Pi ($\pi$) Electrons
+
+The side-by-side overlap of these unhybridized p-orbitals creates a larger, continuous molecular orbital that extends across the entire conjugated system.
+
+- The double bonds in such molecules are described as **delocalized**.
+- This means their $\pi$ electrons are not confined between two specific carbon atoms but can move freely along the entire bridge of overlapping p-orbitals.
+- Delocalization generally leads to **increased molecular stability** (resonance stabilization energy).
+
+### Bond Length Evidence for Conjugation
+
+Conjugation has a measurable effect on bond lengths. In **1,3-butadiene** ($\mathrm{CH_2=CH-CH=CH_2}$):
+
+| Bond | Length |
+|------|--------|
+| C=C double bond | $\approx 1.34\text{ Å}$ |
+| C–C single bond (C2–C3) | $\approx 1.47\text{ Å}$ |
+| Typical alkane C–C bond | $\approx 1.54\text{ Å}$ |
+
+The central C2–C3 single bond is **shorter than a typical alkane C–C bond** because:
+1. Both C2 and C3 are $sp^2$ hybridized (stronger overlap than $sp^3$–$sp^3$).
+2. Partial double-bond character arises from $\pi$ electron delocalization across all four carbons.
+
+### Example: Hexa-1,3,5-triene
+
+Hexa-1,3,5-triene is a classic example of a conjugated system.
+
+- **Structure:** $\mathrm{CH_2=CH-CH=CH-CH=CH_2}$
+- The molecule features an alternating pattern of three double bonds and two single bonds.
+
+<CaptionedImage src="kg2exr9swwbr7rs4b4hz2exa0s8dhc5q" alt="Skeletal structure of hexa-1,3,5-triene" caption="Figure: Skeletal structure of hexa-1,3,5-triene." />
+
+### Concept Assessment Exercise 16.5
+
+**Question:** Explain which one of the following compounds shows conjugation.
+i. ethene
+ii. but-1-ene
+iii. penta-1,2-diene
+iv. buta-1,2-diene
+v. penta-1,3-diene
+
+**Answer and Explanation:**
+
+To determine if a compound shows conjugation, we look for an alternating pattern of double and single bonds.
+
+- **i. Ethene ($\mathrm{CH_2=CH_2}$)**
+  - This molecule contains only one double bond. There is no alternating system.
+  - **Conclusion:** *Not conjugated.*
+
+- **ii. But-1-ene ($\mathrm{CH_2=CH-CH_2-CH_3}$)**
+  - This molecule has one double bond and two single bonds in the chain, but they are not in an alternating sequence. The double bond is isolated.
+  - **Conclusion:** *Not conjugated.*
+
+- **iii. Penta-1,2-diene ($\mathrm{CH_2=C=CH-CH_2-CH_3}$)**
+  - The double bonds are adjacent (cumulative), not separated by a single bond. This type of compound is called an **allene**.
+  - **Conclusion:** *Not conjugated.*
+
+- **iv. Buta-1,2-diene ($\mathrm{CH_2=C=CH-CH_3}$)**
+  - Like penta-1,2-diene, this molecule has cumulative double bonds. It is also an allene.
+  - **Conclusion:** *Not conjugated.*
+
+- **v. Penta-1,3-diene ($\mathrm{CH_2=CH-CH=CH-CH_3}$)**
+  - This molecule's structure shows a double bond, followed by a single bond, followed by another double bond. This is the required alternating pattern.
+  - **Conclusion:** **Shows conjugation.**
+
+### Summary
+
+- **Conjugation** is a property of molecules that have an alternating sequence of single and double bonds.
+- It arises from the overlap of unhybridized **p-orbitals** on adjacent **$sp^2$ hybridized** carbon atoms.
+- This overlap forms a continuous molecular orbital system, allowing **$\pi$ electrons** to be **delocalized** across multiple atoms.
+- Delocalization leads to increased molecular stability and measurably shorter central C–C single bonds (e.g., $1.47\text{ Å}$ in 1,3-butadiene vs $1.54\text{ Å}$ in alkanes).
+- A molecule like **penta-1,3-diene** ($\mathrm{CH_2=CH-CH=CH-CH_3}$) is conjugated, while molecules with isolated ($\mathrm{CH_2=CH-CH_2-}$) or cumulative ($\mathrm{C=C=C}$) double bonds are not.
+
+---
+
+<!-- note kx7585rp5pkyxgt0t7phd8hdq985pezc | topic ms74nc4qmavs5hkzdrc6hbnmwh85q55r | status published -->
+# 16.8 Redox Reactions of Organic Compounds
+
+# 16.8 Redox Reactions of Organic Compounds
+
+The term "redox" is a combination of **reduction** and **oxidation**. In organic chemistry, redox reactions are fundamental processes where one species is oxidized (loses electrons or electron density) while another is reduced (gains electrons or electron density). These two processes always occur simultaneously.
+
+## 1. Oxidation Reaction
+
+In the context of organic chemistry, oxidation can be defined in several ways:
+
+1.  **Addition of oxygen**.
+2.  **Loss of hydrogen**.
+3.  **Increase in the number of bonds** between carbon and oxygen (or another heteroatom more electronegative than carbon).
+4.  **Formation of a bond** between carbon and an element with a higher electronegativity (e.g., O, N, halogens).
+
+### Examples
+
+**Oxidation of Methane to Methanol (Addition of Oxygen)**
+
+$$
+\underset{\text{methane}}{\mathrm{CH}_{4}} + \frac{1}{2} \mathrm{O}_{2} \longrightarrow \underset{\text{methanol}}{\mathrm{CH}_{3}\mathrm{OH}}
+$$
+
+**Stepwise Oxidation of Methane**
+
+This sequence shows a progressive increase in the oxidation state of the carbon atom, characterized by the loss of hydrogen and the gain of bonds to oxygen.
+
+$$
+\underset{\text{Methane}}{\mathrm{CH}_{4}} \xrightarrow{\text{Oxidation}} \underset{\text{Methanol}}{\mathrm{CH}_{3}\mathrm{OH}} \xrightarrow{\text{Oxidation}} \underset{\text{Formaldehyde}}{\mathrm{HCHO}} \xrightarrow{\text{Oxidation}} \underset{\text{Formic Acid}}{\mathrm{HCOOH}} \xrightarrow{\text{Oxidation}} \underset{\text{Carbon Dioxide}}{\mathrm{CO}_{2}}
+$$
+
+**Chlorination of Methane (Bonding to a More Electronegative Element)**
+
+Here, carbon forms a bond with chlorine, which is more electronegative, thus oxidizing the carbon atom. This type of reaction is discussed further in the context of <InlineNoteTag label="Halogens" notePath="chemistry-11/12.1-halogens" />.
+
+$$
+\underset{\text{methane}}{\mathrm{CH}_{4}} + \mathrm{Cl}_{2} \xrightarrow{h\nu} \underset{\text{chloromethane}}{\mathrm{CH}_{3}\mathrm{Cl}} + \mathrm{HCl}
+$$
+
+---
+
+## 2. Reduction Reaction
+
+Reduction is the reverse of oxidation and can be defined as:
+
+1.  **Addition of hydrogen**.
+2.  **Loss of oxygen**.
+3.  **Decrease in the number of bonds** between carbon and oxygen (or another electronegative heteroatom).
+4.  **Formation of a bond** between carbon and an element with a lower electronegativity (e.g., H, metals).
+
+### Example
+
+**Stepwise Reduction of Carbon Dioxide**
+
+This is the reverse of the oxidation sequence. The carbon atom's oxidation state progressively decreases as it gains bonds to hydrogen and loses bonds to oxygen.
+
+$$
+\underset{\text{Carbon Dioxide}}{\mathrm{CO}_{2}} \xrightarrow{\text{Reduction}} \underset{\text{Formic Acid}}{\mathrm{HCOOH}} \xrightarrow{\text{Reduction}} \underset{\text{Formaldehyde}}{\mathrm{HCHO}} \xrightarrow{\text{Reduction}} \underset{\text{Methanol}}{\mathrm{CH}_{3}\mathrm{OH}} \xrightarrow{\text{Reduction}} \underset{\text{Methane}}{\mathrm{CH}_{4}}
+$$
+
+---
+
+## Possible Questions/Answers
+
+**Q:** How can the oxidation of methane ($\mathrm{CH}_{4}$) to methanol ($\mathrm{CH}_{3}\mathrm{OH}$) be identified as an oxidation reaction?
+
+**A:** It involves the **addition of an oxygen atom** to the molecule.
+
+**Q:** When an aldehyde is reduced to a primary alcohol, what changes occur in terms of hydrogen and oxygen bonds?
+
+**A:** The reaction involves the **addition of hydrogen** across the $\mathrm{C=O}$ double bond and a **decrease in the number of carbon-oxygen bonds** (from a double bond to a single bond).
+
+---
+
+## Summary
+
+-   **Redox reactions** in organic chemistry involve changes in the electron density around a carbon atom.
+-   **Oxidation** generally increases the number of bonds to electronegative atoms (like O) and/or decreases the number of bonds to hydrogen.
+-   **Reduction** generally decreases the number of bonds to electronegative atoms and/or increases the number of bonds to hydrogen.
+
+| Process       | Key Characteristics                                           | Example                                       |
+| :------------ | :------------------------------------------------------------ | :-------------------------------------------- |
+| **Oxidation** | Addition of O <br /> Loss of H <br /> Increase in C-O bonds     | $\mathrm{CH}_{3}\mathrm{OH} \rightarrow \mathrm{HCHO}$ |
+| **Reduction** | Loss of O <br /> Addition of H <br /> Decrease in C-O bonds     | $\mathrm{CO}_{2} \rightarrow \mathrm{HCOOH}$  |
+
+**Significance:** Redox reactions are central to many biological and industrial processes, including cellular respiration (metabolism of glucose), combustion of fuels, synthesis of pharmaceuticals, and production of polymers.
+
+---
+
+
+---
+
+<!-- note kx74z719tafnxgea7dqxkv241h85qh9w | topic ms72kxh68d3xqkm31vsmpa8atn85qvqs | status published -->
+# 16.9 Stereoisomerism
+
+**Stereoisomerism** is a form of isomerism where molecules have the same molecular formula and sequence of bonded atoms (constitution), but differ in the three-dimensional orientations of their atoms in space. This phenomenon is also known as *configurational isomerism*.
+
+There are two main types of stereoisomerism:
+1.  **Optical Isomerism**
+2.  **Geometric Isomerism**
+
+---
+
+## 1. Optical Isomerism
+
+Optical isomerism is exhibited by molecules that contain a **chiral carbon**, which is a carbon atom bonded to four different atoms or groups of atoms. A molecule with a chiral carbon is described as being *chiral*. A chiral carbon is also called an **asymmetric carbon** because it lacks a plane of symmetry.
+
+Optical isomers share the same molecular formula but have different spatial arrangements of atoms. Their key distinguishing feature is their effect on plane-polarized light.
+
+### Polarized Light and Optical Activity
+
+*   **Unpolarized Light:** Ordinary light consists of electromagnetic waves vibrating in all possible planes perpendicular to the direction of propagation.
+*   **Polarized Light:** When unpolarized light passes through a polarizer (like in a polarimeter), the emerging light waves vibrate in only a single plane.
+
+<CaptionedImage src="kg260s06hgt4wgka0rfejsffnn8dgpjc" alt="Polarized Light Diagram" caption="The process of polarizing light using a polarizer" />
+
+A pair of optical isomers, known as **enantiomers**, rotate the plane of polarized light by equal amounts but in opposite directions (one clockwise, the other anticlockwise). Such compounds are said to be **optically active**.
+
+### Enantiomers and Chirality
+
+**Enantiomers** are stereoisomers that are non-superimposable mirror images of each other, much like a person's left and right hands. Any object that cannot be superimposed on its mirror image is said to possess **chirality**.
+
+A classic example is **lactic acid**, which has one chiral carbon atom.
+
+<CaptionedImage src="kg24cq5gatj8wqbxsd3rh9e7s18dgjkd" alt="Lactic Acid Enantiomers" caption="Mirror images of lactic acid showing chirality" />
+
+### Molecules with Multiple Chiral Centers
+
+If a molecule contains *n* chiral centers, it can have a maximum of $2^n$ stereoisomers. For a molecule with two chiral carbons, there can be up to four optical isomers.
+
+*   **Optically Active Isomers:** Isomers I and II are enantiomers (mirror images) and are optically active.
+*   **Optically Inactive Isomers:**
+    *   **Meso Compound (Isomer III):** This isomer has a plane of symmetry, causing the rotational effects of its two chiral centers to cancel each other out. This is called *internal compensation*.
+    *   **Racemic Mixture (Isomer IV):** This is an equimolar ($50/50$) mixture of dextrorotatory (clockwise) and levorotatory (anticlockwise) enantiomers. The net rotation of polarized light is zero because the effects of the two enantiomers cancel each other out.
+
+---
+
+### Diastereomers
+
+**Diastereomers** are stereoisomers that are _not_ mirror images of one another. They arise in molecules containing two or more chiral centers.
+
+For example, in **2,3-dichloropentane**, structures **I** and **III** are diastereomers, as are **I** and **IV**.
+
+Enantiomers, on the other hand, are _mirror images_ of each other, while diastereomers are _not_.
+The difference is illustrated below:
+<CaptionedImage src="kg28ehnyzkmrv3zvz2ta6j217s8dgsbp" alt="Diastereomers vs Enantiomers" caption="Comparison between enantiomers and diastereomers" />
+
+### Optical Activity in Cyclic Compounds
+
+Substituted cyclic compounds can also be optically active if they contain asymmetric carbon atoms. For example, in **2-aminocyclohexanol**, carbon-1 is chiral because it is attached to four different groups: $-H$, $-OH$, $-CH(NH_2)(CH_2)_4-$, and $-(CH_2)_4CH(NH_2)-$.
+
+The optical activity of a substance is measured using an instrument called a **polarimeter**. A solution of known concentration is placed in the instrument, and the degree and direction of rotation of polarized light are determined.
+
+---
+
+## 2. Geometric Isomerism
+
+**Geometric isomerism**, also known as **cis-trans isomerism**, occurs in molecules where there is restricted rotation around a bond. This is common in:
+*   Unsaturated compounds with a carbon-carbon double bond ($C=C$).
+*   Substituted cyclic compounds with carbon-carbon single bonds within the ring.
+
+For geometric isomerism to exist, each carbon atom involved in the restricted rotation must be bonded to two different atoms or groups.
+
+*   ***cis* isomer:** The isomer where identical or high-priority groups are on the *same side* of the double bond or the ring. (*cis* is Latin for "on the same side").
+*   ***trans* isomer:** The isomer where identical or high-priority groups are on *opposite sides* of the double bond or the ring. (*trans* is Latin for "opposite side").
+
+**Examples:**
+
+| cis-Isomers | trans-Isomers |
+| :---: | :---: |
+| **cis-but-2-ene** | **trans-but-2-ene** |
+| <img class="imgSvg" id = "mggacgylloc0xes7eu" src="data:image/svg+xml;base64,PHN2ZyBpZD0ic21pbGVzLW1nZ2FjZ3lsbG9jMHhlczdldSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTY2IDExOS45Njg2NDgyNTEzODI1MyIgc3R5bGU9IndpZHRoOiAxNjUuNTQwNTA2OTcwOTMyMjNweDsgaGVpZ2h0OiAxMTkuOTY4NjQ4MjUxMzgyNTNweDsgb3ZlcmZsb3c6IHZpc2libGU7Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneWxsb2MweGVzN2V1LTEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iOTYuMjYwNjk2MTQ4NzQ4MjIiIHkxPSI2MS4wOTIwMTMyNDU3MTcyMSIgeDI9IjEyMy41NDA1MDY5NzA5MzIyMyIgeTI9IjQ1LjM0MjAzMTYxMDYyMTUyIj48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMjAlIj48L3N0b3A+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZS1tZ2dhY2d5bGxvYzB4ZXM3ZXUtMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI5Mi45NjgwMjg0NjYwMjU1OSIgeTE9IjkyLjQxOTQ1MDczMzE4NDIiIHgyPSI5Ni4yNjA2OTYxNDg3NDgyMiIgeTI9IjYxLjA5MjAxMzI0NTcxNzIxIj48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMjAlIj48L3N0b3A+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZS1tZ2dhY2d5bGxvYzB4ZXM3ZXUtNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI2Ny40ODQwMjI4NTgyNTQxIiB5MT0iNDguMjc5Nzg5NjE2MjIzMjciIHgyPSI5Ni4yNjA2OTYxNDg3NDgyMiIgeTI9IjYxLjA5MjAxMzI0NTcxNzIxIj48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMjAlIj48L3N0b3A+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZS1tZ2dhY2d5bGxvYzB4ZXM3ZXUtNyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI2Mi4xNTYzNzQ2MzM5NTA1MzQiIHkxPSI5OC45Njg2NDgyNTEzODI1MyIgeDI9IjkyLjk2ODAyODQ2NjAyNTU5IiB5Mj0iOTIuNDE5NDUwNzMzMTg0MiI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneWxsb2MweGVzN2V1LTkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDYuNDA2MzkyOTk4ODU0ODMiIHkxPSI3MS42ODg4Mzc0MjkxOTg1IiB4Mj0iNjcuNDg0MDIyODU4MjU0MSIgeTI9IjQ4LjI3OTc4OTYxNjIyMzI3Ij48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMjAlIj48L3N0b3A+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZS1tZ2dhY2d5bGxvYzB4ZXM3ZXUtMTEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDIiIHkxPSIyOS43NjQ1MzcwMTMwMzE5NCIgeDI9IjY3LjQ4NDAyMjg1ODI1NDEiIHkyPSI0OC4yNzk3ODk2MTYyMjMyNyI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneWxsb2MweGVzN2V1LTEzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjY3LjQ4NDAyMjg1ODI1NDEiIHkxPSI0OC4yNzk3ODk2MTYyMjMyNyIgeDI9IjgzLjIzNDA0MTIyMzE1MTIyIiB5Mj0iMjEiPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIyMCUiPjwvc3RvcD48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMTAwJSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lLW1nZ2FjZ3lsbG9jMHhlczdldS0xNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI0Ni40MDYzOTI5OTk4ODU0ODMiIHkxPSI3MS42ODg4Mzc0MjkxOTg1IiB4Mj0iNjIuMTU2Mzc0NjMzOTUwNTM0IiB5Mj0iOTguOTY4NjQ4MjUxMzgyNTMiPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIyMCUiPjwvc3RvcD48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMTAwJSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxtYXNrIGlkPSJ0ZXh0LW1hc2stbWdnYWNneWxsb2MweGVzN2V1Ij48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ3aGl0ZSI+PC9yZWN0PjwvbWFzaz48c3R5bGU+CiAgICAgICAgICAgICAgICAuZWxlbWVudC1tZ2dhY2d5bGxvYzB4ZXM3ZXUgewogICAgICAgICAgICAgICAgICAgIGZvbnQ6IDE0cHggSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKICAgICAgICAgICAgICAgICAgICBhbGlnbm1lbnQtYmFzZWxpbmU6ICdtaWRkbGUnOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLnN1Yi1tZ2dhY2d5bGxvYzB4ZXM3ZXUgewogICAgICAgICAgICAgICAgICAgIGZvbnQ6IDguNHB4IEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIDwvc3R5bGU+PGcgbWFzaz0idXJsKCN0ZXh0LW1hc2stbWdnYWNneWxsb2MweGVzN2V1KSI+PGxpbmUgeDE9Ijk2LjI2MDY5NjE0ODc0ODIyIiB5MT0iNjEuMDkyMDEzMjQ1NzE3MjEiIHgyPSIxMjMuNTQwNTA2OTcwOTMyMjMiIHkyPSI0NS4zNDIwMzE2MTA2MjE1MiIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3lsbG9jMHhlczdldS0xJykiPjwvbGluZT48bGluZSB4MT0iOTIuOTY4MDI4NDY2MDI1NTkiIHkxPSI5Mi40MTk0NTA3MzMxODQyIiB4Mj0iOTYuMjYwNjk2MTQ4NzQ4MjIiIHkyPSI2MS4wOTIwMTMyNDU3MTcyMSIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3lsbG9jMHhlczdldS0zJykiPjwvbGluZT48bGluZSB4MT0iNjcuNDg0MDIyODU4MjU0MSIgeTE9IjQ4LjI3OTc4OTYxNjIyMzI3IiB4Mj0iOTYuMjYwNjk2MTQ4NzQ4MjIiIHkyPSI2MS4wOTIwMTMyNDU3MTcyMSIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3lsbG9jMHhlczdldS01JykiPjwvbGluZT48bGluZSB4MT0iNjIuMTU2Mzc0NjMzOTUwNTM0IiB5MT0iOTguOTY4NjQ4MjUxMzgyNTMiIHgyPSI5Mi45NjgwMjg0NjYwMjU1OSIgeTI9IjkyLjQxOTQ1MDczMzE4NDIiIHN0eWxlPSJzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLXdpZHRoOjEuMjYiIHN0cm9rZT0idXJsKCcjbGluZS1tZ2dhY2d5bGxvYzB4ZXM3ZXUtNycpIj48L2xpbmU+PGxpbmUgeDE9IjQ2LjQwNjM5Mjk5ODg1NDgzIiB5MT0iNzEuNjg4ODM3NDI5MTk4NSIgeDI9IjY3LjQ4NDAyMjg1ODI1NDEiIHkyPSI0OC4yNzk3ODk2MTYyMjMyNyIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3lsbG9jMHhlczdldS05JykiPjwvbGluZT48bGluZSB4MT0iNDIiIHkxPSIyOS43NjQ1MzcwMTMwMzE5NCIgeDI9IjY3LjQ4NDAyMjg1ODI1NDEiIHkyPSI0OC4yNzk3ODk2MTYyMjMyNyIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3lsbG9jMHhlczdldS0xMSkiPjwvbGluZT48bGluZSB4MT0iNjcuNDg0MDIyODU4MjU0MSIgeTE9IjQ4LjI3OTc4OTYxNjIyMzI3IiB4Mj0iODMuMjM0MDQxMjIzMTUxMjIiIHkyPSIyMSIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3lsbG9jMHhlczdldS0xMykiPjwvbGluZT48bGluZSB4MT0iNDYuNDA2MzkyOTk4ODU0ODMiIHkxPSI3MS42ODg4Mzc0MjkxOTg1IiB4Mj0iNjIuMTU2Mzc0NjMzOTUwNTM0IiB5Mj0iOTguOTY4NjQ4MjUxMzgyNTMiIHN0eWxlPSJzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLXdpZHRoOjEuMjYiIHN0cm9rZT0idXJsKCcjbGluZS1tZ2dhY2d5bGxvYzB4ZXM3ZXUtMTUnKSI+PC9saW5lPjwvZz48Zz48dGV4dCB4PSIxMjMuNTQwNTA2OTcwOTMyMjMiIHk9IjQ1LjM0MjAzMTYxMDYyMTUyIiBjbGFzcz0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgICAgICAgIGZvbnQ6IDVweCBEcm9pZCBTYW5zLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAiPjwvdGV4dD48dGV4dCB4PSI5Ni4yNjA2OTYxNDg3NDgyMiIgeT0iNjEuMDkyMDEzMjQ1NzE3MjEiIGNsYXNzPSJkZWJ1ZyIgZmlsbD0iI2ZmMDAwMCIgc3R5bGU9IgogICAgICAgICAgICAgICAgZm9udDogNXB4IERyb2lkIFNhbnMsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICI+PC90ZXh0Pjx0ZXh0IHg9IjkyLjk2ODAyODQ2NjAyNTU5IiB5PSI5Mi40MTk0NTA3MzMxODQyIiBjbGFzcz0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgICAgICAgIGZvbnQ6IDVweCBEcm9pZCBTYW5zLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAiPjwvdGV4dD48dGV4dCB4PSI2Mi4xNTYzNzQ2MzM5NTA1MzQiIHk9Ijk4Ljk2ODY0ODI1MTM4MjUzIiBjbGFzcz0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgIC2ICAgICAgZm9udDogNXB4IERyb2lkIFNhbnMsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICI+PC90ZXh0Pjx0ZXh0IHg9IjQ2LjQwNjM5Mjk5ODg1NDgzIiB5PSI3MS42ODg4Mzc0MjkxOTg1IiBjbGFzcz0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgICAgICAgIGZvbnQ6IDVweCBEcm9pZCBTYW5zLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAiPjwvdGV4dD48dGV4dCB4PSI2Ny40ODQwMjI4NTgyNTQxIiB5PSI0OC4yNzk3ODk2MTYyMjIzMjciIGNsYXNzPSJkZWJ1ZyIgZmlsbD0iI2ZmMDAwMCIgc3R5bGU9IgogICAgICAgICAgICAgICAgZm9udDogNXB4IERyb2lkIFNhbnMsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICI+PC90ZXh0Pjx0ZXh0IHg9IjQyIiB5PSIyOS43NjQ1MzcwMTMwMzE5NCIgeT0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgICAgICAgIGZvbnQ6IDVweCBEcm9pZCBTYW5zLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAiPjwvdGV4dD48dGV4dCB4PSI4My4yMzQwNDExMjIzMTUxMjIiIHk9IjIxIiBjbGFzcz0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgICAgICAgIGZvbnQ6IDVweCBEcm9pZCBTYW5zLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAiPjwvdGV4dD48L2c+PC9zdmc+"/> | <img class="imgSvg" id = "mggacgynt0rhoajva3" src="data:image/svg+xml;base64,PHN2ZyBpZD0ic21pbGVzLW1nZ2FjZ3ludDByaG9hanZhMyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTY2IDU3Ljc1MDA1NTA5NDY5ODY1IiBzdHlsZT0id2lkdGg6IDE2NS44MzkzOTAwNTQ2MzA1NHB4OyBoZWlnaHQ6IDU3Ljc1MDA1NTA5NDY5ODY1cHg7IG92ZXJmbG93OiB2aXNpYmxlOyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lLW1nZ2FjZ3ludDByaG9hanZhMy0xIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ijk2LjU1OTYwMDQzODQwNzI3IiB5MT0iMjEuMDAwMDM2NzI5ODAxNDgiIHgyPSIxMjMuODM5MzkwMDU0NjMwNTQiIHkyPSIzNi43NTAwNTUwOTQ2OTg2NSI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneW50MHJob2FqdmEzLTMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNzQuODQyNzY3MzkyNzU4ODciIHkxPSI0MC4wODUzODYxNDkzODA3NCIgeDI9Ijk2LjY2NjYxNjA1MDUwNjEiIHkyPSIyNy40ODU0MDA4NDEzMDUxNyI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneW50MHJob2FqdmEzLTUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNjkuMjc5Nzg5NjE2MjIzMjUiIHkxPSIzNi43NTAwMTgzNjQ4OTcxNyIgeDI9Ijk2LjU1OTYwMDQzODQwNzI3IiB5Mj0iMjEuMDAwMDM2NzI5ODAxNDgiPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIyMCUiPjwvc3RvcD48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMTAwJSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lLW1nZ2FjZ3ludDByaG9hanZhMy03IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQyIiB5MT0iMjEiIHgyPSI2OS4yNzk3ODk2MTYyMjMyNSIgeTI9IjM2Ljc1MDAxODM2NDg5NzE3Ij48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMjAlIj48L3N0b3A+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48bWFzayBpZD0idGV4dC1tYXNrLW1nZ2FjZ3ludDByaG9hanZhMyI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0id2hpdGUiPjwvcmVjdD48L21hc2s+PHN0eWxlPgogICAgICAgICAgICAgICAgLmVsZW1lbnQtbWdnYWNneW50MHJob2FqdmEzIHsKICAgICAgICAgICAgICAgICAgICBmb250OiAxNHB4IEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICAgICAgICAgYWxpZ25tZW50LWJhc2VsaW5lOiAnbWlkZGxlJzsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC5zdWItbWdnYWNneW50MHJob2FqdmEzIHsKICAgICAgICAgICAgICAgICAgICBmb250OiA4LjRweCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAgICB9CiAgICAgICAgICAgIDwvc3R5bGU+PGcgbWFzaz0idXJsKCN0ZXh0LW1hc2stbWdnYWNneW50MHJob2FqdmEzKSI+PGxpbmUgeDE9Ijk2LjU1OTYwMDQzODQwNzI3IiB5MT0iMjEuMDAwMDM2NzI5ODAxNDgiIHgyPSIxMjMuODM5MzkwMDU0NjMwNTQiIHkyPSIzNi43NTAwNTUwOTQ2OTg2NSIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3ludDByaG9hanZhMy0xJykiPjwvbGluZT48bGluZSB4MT0iNzQuODQyNzY3MzkyNzU4ODciIHkxPSI0MC4wODUzODYxNDkzODA3NCIgeDI9Ijk2LjY2NjYxNjA1MDUwNjEiIHkyPSIyNy40ODU0MDA4NDExMzA0MTciIHN0eWxlPSJzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLXdpZHRoOjEuMjYiIHN0cm9rZT0idXJsKCcjbGluZS1tZ2dhY2d5bnQwcmhvYWp2YTMtMycpIj48L2xpbmU+PGxpbmUgeDE9IjY5LjI3OTc4OTYxNjIyMzI1IiB5MT0iMzY3NTAwMTgzNjQ4OTcxNyIgeDI9Ijk2LjU1OTYwMDQzODQwNzI3IiB5Mj0iMjEuMDAwMDM2NzI5ODAxNDgiIHN0eWxlPSJzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLXdpZHRoOjEuMjYiIHN0cm9rZT0idXJsKCcjbGluZS1tZ2dhY2d5bnQwcmhvYWp2YTMtNScpIj48L2xpbmU+PGxpbmUgeDE9IjQyIiB5MT0iMjEiIHgyPSI2OS4yNzk3ODk2MTYyMjMyNSIgeTI9IjM2Ljc1MDAxODM2NDg5NzE3IjIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3ludDByaG9hanZhMy03JykiPjwvbGluZT48L2c+PGc+PHRleHQgeD0iMTIzLjgzOTM5MDA1NDYzMDU0IiB5PSIzNi43NTAwNTUwOTQ2OTg2NSIgY2xhc3M9ImRlYnVnIiBmaWxsPSIjZmYwMDAwIiBzdHlsZT0iCiAgICAgICAgICAgICAgICBmb250OiA1cHggRHJvaWQgU2Fucywgc2Fucy1zZXJpZjsKICAgICAgICAgICAgIj48L3RleHQ+PHRleHQgeD0iOTYuNTU5NjAwNDM4NDA3MjciIHk9IjIxLjAwMDAzNjcyOTgwMTQ4IiBjbGFzcz0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgICAgICAgIGZvbnQ6IDVweCBEcm9pZCBTYW5zLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAiPjwvdGV4dD48dGV4dCB4PSI2OS4yNzk3ODk2MTYyMjMyNSIgeT0iMzYuNzUwMDE4MzY0ODk3MTciIGNsYXNzPSJkZWJ1ZyIgZmlsbD0iI2ZmMDAwMCIgc3R5bGU9IgogICAgICAgICAgICAgICAgZm9udDogNXB4IERyb2lkIFNhbnMsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICI+PC90ZXh0Pjx0ZXh0IHg9IjQyIiB5PSIyMSIgY2xhc3M9ImRlYnVnIiBmaWxsPSIjZmYwMDAwIiBzdHlsZT0iCiAgICAgICAgICAgICAgICBmb250OiA1cHggRHJvaWQgU2Fucywgc2Fucy1zZXJpZjsKICAgICAgICAgICAgIj48L3RleHQ+PC9nPjwvc3ZnPg=="/> |
+| **cis-1,3-dimethylcyclopentane** | **trans-1,3-dimethylcyclopentane** |
+| <img class="imgSvg" id = "mggacgymrwi0z0mnq5l" src="data:image/svg+xml;base64,PHN2ZyBpZD0ic21pbGVzLW1nZ2FjZ3ltcndpMHowbW5xNWwiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE5MiA5NS42MjY3MjY4MzgzMDQzOCIgc3R5bGU9IndpZHRoOiAxOTIuNDYxNTEwMDcyMjY3MTJweDsgaGVpZ2h0OiA5NS42MjY3MjY4MzgzMDQzOHB4OyBvdmVyZmxvdzogdmlzaWJsZTsiPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZS1tZ2dhY2d5bXJ3aTB6MG1ucTVsLTEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTIzLjE4MTcyNzUyNDcwODQyIiB5MT0iNTguODc2Njk2MjMwMTQ2NDEiIHgyPSIxNTAuNDYxNTEwMDcyMjY3MTIiIHkyPSI3NC42MjY3MjY4MzgzMDQzOCI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneW1yd2kwejBtbnE1bC0zIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ijk0LjQwNTAzMTIzMzU4MjQ4IiB5MT0iNzEuNjg4ODY4MTk5MzQ0MTYiIHgyPSIxMjMuMTgxNzI3NTI0NzA4NDIiIHkyPSI1OC44NzY2OTYyMzAxNDY0MSI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneW1yd2kwejBtbnE1bC01IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjExOS44ODkxMTYwODE0MzMyNCIgeTE9IjI3LjU0OTI1MjgzMTY4ODAxIiB4Mj0iMTIzLjE4MTcyNzUyNDcwODQyIiB5Mj0iNTguODc2Njk2MjMwMTQ2NDEiPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIyMCUiPjwvc3RvcD48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMTAwJSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lLW1nZ2FjZ3ltcndpMHowbW5xNWwtNyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI3My4zMjc0NDMzOTg0NTgzOSIgeTE9IjQ4LjI3OTc4MjU0NzU1ODY4IiB4Mj0iOTQuNDA1MDMxMjMzNTgyNDgiIHkyPSI3MS42ODg4NjgxOTkzNDQxNiI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneW1yd2kwejBtbnE1bC05IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ijg5LjA3NzQ3NDAwNjYxNjMzIiB5MT0iMjEiIHgyPSIxMTkuODg5MTE2MDgxNDMzMjQiIHkyPSIyNy41NDkyNTI4MzE2ODgwMSI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneW1yd2kwejBtbnE1bC0xMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI3My4zMjc0NDMzOTg0NTgzOSIgeTE9IjQ4LjI3OTc4MjU0NzU1ODY4IiB4Mj0iODkuMDc3NDc0MDA2NjE2MzMiIHkyPSIyMSI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNneW1yd2kwejBtbnE1bC0xMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI0MiIgeTE9IjUxLjU3MjM5Mzk5MDgzMzkiIHgyPSI3My4zMjc0NDMzOTg0NTgzOSIgeTI9IjQ4LjI3OTc4MjU0NzU1ODY4Ij48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMjAlIj48L3N0b3A+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48bWFzayBpZD0idGV4dC1tYXNrLW1nZ2FjZ3ltcndpMHowbW5xNWwiPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IndoaXRlIj48L3JlY3Q+PC9tYXNrPjxzdHlsZT4KICAgICAgICAgICAgICAgIC5lbGVtZW50LW1nZ2FjZ3ltcndpMHowbW5xNWwgewogICAgICAgICAgICAgICAgICAgIGZvbnQ6IDE0cHggSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsKICAgICAgICAgICAgICAgICAgICBhbGlnbm1lbnQtYmFzZWxpbmU6ICdtaWRkbGUnOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLnN1Yi1tZ2dhY2d5bXJ3aTB6MG1ucTVsIHsKICAgICAgICAgICAgICAgICAgICBmb250OiA4LjRweCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICA8L3N0eWxlPjxnIG1hc2s9InVybCgjdGV4dC1tYXNrLW1nZ2FjZ3ltcndpMHowbW5xNWwpIj48cG9seWdvbiBwb2ludHM9IjEyMi44NjY3MjY5MTI1NDUyNiw1OS40MjIyOTE4ODEwOTc1OCAxNDkuMzk2NTA4MDAyNTcyNjMsNzYuNDcxMzU5NzUzNDI1MDIgMTUxLjUyNjUxMjE0MTk2MTYsNzIuNzgyMDkzOTIzMTgzNzQgMTIzLjQ5NjcyODEzNjg3MTU4LDU4LjMzMTEwMDU3OTE5NTI0IiBmaWxsPSJ1cmwoJyNsaW5lLW1nZ2FjZ3ltcndpMHowbW5xNWwtMScpIj48L3BvbHlnb24+PGxpbmUgeDE9Ijk0LjQwNTAzMTIzMzU4MjQ4IiB5MT0iNzEuNjg4ODY4MTk5MzQ0MTYiIHgyPSIxMjMuMTgxNzI3NTI0NzA4NDIiIHkyPSI1OC44NzY2OTYyMzAxNDY0MSIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3ltcndpMHowbW5xNWwtMycpIj48L2xpbmU+PGxpbmUgeDE9IjExOS44ODkxMTYwODE0MzMyNCIgeTE9IjI3LjU0OTI1MjgzMTY4ODAxIiB4Mj0iMTIzLjE4MTcyNzUyNDcwODQyIiB5Mj0iNTguODc2Njk2MjMwMTQ2NDEiIHN0eWxlPSJzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLXdpZHRoOjEuMjYiIHN0cm9rZT0idXJsKCcjbGluZS1tZ2dhY2d5bXJ3aTB6MG1ucTVsLTUnKSI+PC9saW5lPjxsaW5lIHgxPSI3My4zMjc0NDMzOTg0NTgzOSIgeTE9IjQ4LjI3OTc4MjU0NzU1ODY4IiB4Mj0iOTQuNDA1MDMxMjMzNTgyNDgiIHkyPSI3MS42ODg4NjgxOTkzNDQxNiIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3ltcndpMHowbW5xNWwtNycpIj48L2xpbmU+PGxpbmUgeDE9Ijg5LjA3NzQ3NDAwNjYxNjMzIiB5MT0iMjEiIHgyPSIxMTkuODg5MTE2MDgxNDMzMjQiIHkyPSIyNy41NDkyNTI4MzE2ODgwMSIgc3R5bGU9InN0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utd2lkdGg6MS4yNiIgc3Ryb2tlPSJ1cmwoJyNsaW5lLW1nZ2FjZ3ltcndpMHowbW5xNWwtOScpIj48L2xpbmU+PGxpbmUgeDE9IjczLjMyNzQ0MzM5ODQ1ODM5IiB5MT0iNDguMjc5NzgyNTQ3NTU4NjgiIHgyPSI4OS4wNzc0NzQwMDY2MTYzMyIgeTI9IjIxIiBzdHlsZT0ic3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS13aWR0aDoxLjI2IiBzdHJva2U9InVybCgnI2xpbmUtbWdnYWNneW1yd2kwejBtbnE1bC0xMScpIj48L2xpbmU+PHBvbHlnb24gcG9pbnRzPSI3My4zOTMyOTU2MjczMjM5LDQ4LjkwNjMzMTQxNTUyNzg1IDQyLjIyMjY0MzI0OTk3Mzg1LDUzLjY5MDcyNTg3Nzc3OTI3IDQxLjY3NzM1Njc1MDAyNjE1LDQ5LjQ1NDA2MjEwMzg5MDUzIDczLjI2MTU5MTE2OTU5Mjg4LDQ3LjY1MzIzMzY3OTU4OTUxIiBmaWxsPSJ1cmwoJyNsaW5lLW1nZ2FjZ3ltcndpMHowbW5xNWwtMTMnJykiPjwvcG9seWdvbj48L2c+PGc+PHRleHQgeD0iMTUwLjQ2MTUxMDA3MjI2NzEyIiB5PSI3NC42MjY3MjY4MzgzMDQzOCIgY2xhc3M9ImRlYnVnIiBmaWxsPSIjZmYwMDAwIiBzdHlsZT0iCiAgICAgICAgICAgICAgICBmb250OiA1cHggRHJvaWQgU2Fucywgc2Fucy1zZXJpZjsKICAgICAgICAgICAgIj48L3RleHQ+PHRleHQgeD0iMTIzLjE4MTcyNzUyNDcwODQyIiB5PSI1OC44NzY2OTYyMzAxNDY0MSIgY2xhc3M9ImRlYnVnIiBmaWxsPSIjZmYwMDAwIiBzdHlsZT0iCiAgICAgICAgICAgICAgICBmb250OiA1cHggRHJvaWQgU2Fucywgc2Fucy1zZXJpZjsKICAgICAgICAgICAgIj5TPC90ZXh0Pjx0ZXh0IHg9IjExOS44ODkxMTYwODE0MzMyNCIgeT0iMjcuNTQ5MjUyODMxNjg4MDEiIGNsYXNzPSJkZWJ1ZyIgZmlsbD0iI2ZmMDAwMCIgc3R5bGU9IgogICAgICAgICAgICAgICAgZm9udDogNXB4IERyb2lkIFNhbnMsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICI+PC90ZXh0Pjx0ZXh0IHg9Ijg5LjA3NzQ3NDAwNjYxNjMzIiB5PSIyMSIgY2xhc3M9ImRlYnVnIiBmaWxsPSIjZmYwMDAwIiBzdHlsZT0iCiAgICAgICAgICAgICAgICBmb250OiA1cHggRHJvaWQgU2Fucywgc2Fucy1zZXJpZjsKICAgICAgICAgICAgIj48L3RleHQ+PHRleHQgeD0iNzMuMzI3NDQzMzk4NDU4MzkiIHk9IjQ4LjI3OTc4MjU0NzU1ODY4IiBjbGFzcz0iZGVidWciIGZpbGw9IiNmZjAwMDAiIHN0eWxlPSIKICAgICAgICAgICAgICAgIGZvbnQ6IDVweCBEcm9pZCBTYW5zLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAiPlI8L3RleHQ+PHRleHQgeD0iNDIiIHk9IjUxLjU3MjM5Mzk5MDgzMzkiIGNsYXNzPSJkZWJ1ZyIgZmlsbD0iI2ZmMDAwMCIgc3R5bGU9IgogICAgICAgICAgICAgICAgZm9udDogNXB4IERyb2lkIFNhbnMsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgICI+PC90ZXh0Pjx0ZXh0IHg9Ijk0LjQwNTAzMTIzMzU4MjQ4IiB5PSI3MS42ODg4NjgxOTkzNDQxNiIgY2xhc3M9ImRlYnVnIiBmaWxsPSIjZmYwMDAwIiBzdHlsZT0iCiAgICAgICAgICAgICAgICBmb250OiA1cHggRHJvaWQgU2Fucywgc2Fucy1zZXJpZjsKICAgICAgICAgICAgIj48L3RleHQ+PC9nPjwvc3ZnPg=="/> | <img class="imgSvg" id = "mggacgzhoedj2qybfg" src="data:image/svg+xml;base64,PHN2ZyBpZD0ic21pbGVzLW1nZ2FjZ3pob2VkajJxeWJmZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTkyIDk1LjYyNjcyNjgzODMwNDM4IiBzdHlsZT0id2lkdGg6IDE5Mi40NjE1MTAwNzIyNjcxMnB4OyBoZWlnaHQ6IDk1LjYyNjcyNjgzODMwNDM4cHg7IG92ZXJmbG93OiB2aXNpYmxlOyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lLW1nZ2FjZ3pob2VkajJxeWJmZy0xIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjEyMy4xODE3Mjc1MjQ3MDg0MiIgeTE9IjU4Ljg3NjY5NjIzMDE0NjQxIiB4Mj0iMTUwLjQ2MTUxMDA3MjI2NzEyIiB5Mj0iNzQuNjI2NzI2ODM4MzA0MzgiPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIyMCUiPjwvc3RvcD48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMTAwJSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lLW1nZ2FjZ3pob2VkajJxeWJmZy0zIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ijk0LjQwNTAzMTIzMzU4MjQ4IiB5MT0iNzEuNjg4ODY4MTk5MzQ0MTYiIHgyPSIxMjMuMTgxNzI3NTI0NzA4NDIiIHkyPSI1OC44NzY2OTYyMzAxNDY0MSI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNnemhvZWRqMnF5YmZnLTUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTE5Ljg4OTExNjA4MTQzMzI0IiB5MT0iMjcuNTQ5MjUyODMxNjg4MDEiIHgyPSIxMjMuMTgxNzI3NTI0NzA4NDIiIHkyPSI1OC44NzY2OTYyMzAxNDY0MSI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNnemhvZWRqMnF5YmZnLTciIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNzMuMzI3NDQzMzk4NDU4MzkiIHkxPSI0OC4yNzk3ODI1NDc1NTg2OCIgeDI9Ijk0LjQwNTAzMTIzMzU4MjQ4IiB5Mj0iNzEuNjg4ODY4MTk5MzQ0MTYiPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIyMCUiPjwvc3RvcD48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMTAwJSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lLW1nZ2FjZ3pob2VkajJxeWJmZy05IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9Ijg5LjA3NzQ3NDAwNjYxNjMzIiB5MT0iMjEiIHgyPSIxMTkuODg5MTE2MDgxNDMzMjQiIHkyPSIyNy41NDkyNTI4MzE2ODgwMSI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImxpbmUtbWdnYWNnemhvZWRqMnF5YmZnLTExIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjczLjMyNzQ0MzM5ODQ1ODM5IiB5MT0iNDguMjc5NzgyNTQ3NTU4NjgiIHgyPSI4OS4wNzc0NzQwMDY2MTYzMyIgeTI9IjIxIj48c3RvcCBzdG9wLWNvbG9yPSJjdXJyZW50Q29sb3IiIG9mZnNldD0iMjAlIj48L3N0b3A+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjEwMCUiPjwvc3RvcD48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZS1tZ2dhY2d6aG9lZGoycXliZmctMTMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDIiIHkxPSI1MS41NzIzOTM5OTA4MzM5IiB4Mj0iNzMuMzI3NDQzMzk4NDU4MzkiIHkyPSI0OC4yNzk3ODI1NDc1NTg2OCI+PHN0b3Agc3RvcC1jb2xvcj0iY3VycmVudENvbG9yIiBvZmZzZXQ9IjIwJSI+PC9zdG9wPjxzdG9wIHN0b3AtY29sb3I9ImN1cnJlbnRDb2xvciIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+PC9saW5lYX

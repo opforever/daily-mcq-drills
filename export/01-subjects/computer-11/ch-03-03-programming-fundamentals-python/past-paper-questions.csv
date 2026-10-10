@@ -1,0 +1,423 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,correctKey,correctKeyVerified,examBoard,explanation,keyPoints,lastAttempt,locked,marks,modelAnswer,options,partType,questionKind,questionNumber,session,stem,topicId,year
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17ay1w2dcdm1kmfq1ym1xg9g185qt41","D","true","Federal Board","The Instruction Register (IR) holds program instructions that are fetched from the memory for execution. The IR stores the current instruction being executed, allowing the CPU to decode and execute it.","[""Instruction Register (IR) is the correct register"",""IR stores instructions fetched from memory"",""IR holds instructions during the fetch-execute cycle"",""Instructions are decoded from IR for execution""]",,"false","1","The Instruction Register (IR) holds program instructions that are fetched from the memory for execution. The IR stores the current instruction being executed, allowing the CPU to decode and execute it.","[{""key"":""A"",""text"":""Memory Address Register""},{""key"":""B"",""text"":""Memory Buffer Register""},{""key"":""C"",""text"":""Program Counter Register""},{""key"":""D"",""text"":""Instruction Register""}]","MCQ","mcq","6","annual","Which of the following registers holds program instructions that are fetched from the memory for execution?","ms7cm61xb8g3fv1zevtrbvwveh85q205","2022"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m176x9tjg07r3m3m3yzm8xpead85p3e9",,"true","Federal Board",,"[""Identifies two distinct types of system software correctly"",""Provides relevant real-world examples for each type"",""Explains the primary function/purpose of each type"",""Distinguishes between system software roles (management vs. maintenance)""]",,"false","3","System software comprises programs that manage computer hardware and provide a platform for application software. Two types are: (1) **Operating Systems** (e.g., Windows, Linux, macOS), manage hardware resources, file systems, and user interfaces; (2) **Utility Software** (e.g., antivirus programs, disk defragmenters, backup tools), perform maintenance and optimization tasks to keep the system running efficiently.",,"B","short","1","annual","Briefly explain any two types of **system software** with examples.","ms7cm61xb8g3fv1zevtrbvwveh85q205","2022"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17fb9q07sppb3jmqxwx1aa67185pd80",,"true","Federal Board",,"[""Sequential Access Memory requires reading data in order from beginning to desired location"",""Direct Access Memory allows instant access to any memory address without sequential reading"",""SAM is slower but economical for large data storage like magnetic tapes"",""DAM is faster and used for immediate access in RAM and cache systems"",""Access time in DAM is independent of data location while SAM access time depends on position""]",,"false","3","Sequential Access Memory (SAM) stores and retrieves data in a predetermined order, requiring the system to read through all preceding data to access a specific location, making it slower but cost-effective for bulk data storage. Direct Access Memory (DAM) allows random access to any memory location directly without reading intermediate data, enabling faster retrieval but typically at higher cost, commonly used in RAM and cache memory for immediate data access.",,"B","short","5","annual","Briefly explain **Sequential** and **Direct Access Memory**.","ms7cm61xb8g3fv1zevtrbvwveh85q205","2022"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m178q1hqesachwxrqjqy99rqwx85p4p6","A","true","Federal Board","The instruction MOV A, B will copy the contents of register B into register A. After execution, register A will contain the same value that was in register B, while register B remains unchanged. The instruction transfers data from the source (B) to the destination (A).","[""Copies data from source register B to destination register A"",""Register A gets the value of register B"",""Register B remains unchanged after the operation"",""This is a data transfer instruction that does not perform arithmetic or logical operations"",""The original value in register A is overwritten""]",,"false","1","The instruction MOV A, B will copy the contents of register B into register A. After execution, register A will contain the same value that was in register B, while register B remains unchanged. The instruction transfers data from the source (B) to the destination (A).","[{""key"":""A"",""text"":""Move values of register B to register A""},{""key"":""B"",""text"":""Move values of register A to register B""},{""key"":""C"",""text"":""Move values of A & B to Memory Buffer Register""},{""key"":""D"",""text"":""None of these""}]","MCQ","mcq","5","annual","The data transfer instruction **MOV A, B** will:","ms7cm61xb8g3fv1zevtrbvwveh85q205","2022"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17densn21bh5b751atzcd0qk185q7kp",,"true","Federal Board","STOP and Halt are examples of assembly language instructions or machine-level instructions that are used to terminate or stop the execution of a program. They are low-level control instructions that cause the processor to cease operation or enter a halted state.","[""STOP and Halt are assembly language/machine instructions"",""They are used to terminate program execution"",""They represent low-level control flow instructions"",""They cause the processor to cease or halt operation"",""These are fundamental instructions in computer architecture and assembly language programming""]",,"false","1","STOP and Halt are examples of assembly language instructions or machine-level instructions that are used to terminate or stop the execution of a program. They are low-level control instructions that cause the processor to cease operation or enter a halted state.","[{""key"":""A"",""text"":""Zero address instruction format""},{""key"":""B"",""text"":""One address instruction format""},{""key"":""C"",""text"":""Two address instruction format""},{""key"":""D"",""text"":""Three address instruction format""}]","MCQ","unclassified","6","annual","**STOP** and **Halt** are examples of:","ms7cm61xb8g3fv1zevtrbvwveh85q205","2022"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17c8zfdxh6dj9pt2hac9qmh8d85qdpy",,,"Federal Board",,"[""Shareware requires payment after trial period; Freeware is permanently free"",""Shareware is proprietary with time-limited trial access; Freeware is proprietary but no payment required"",""Shareware encourages purchase for full features; Freeware allows indefinite use without licensing fees"",""Both maintain proprietary source code; neither is open-source"",""Shareware generates revenue through licensing; Freeware is distributed at no cost to users""]",,"false","3","Shareware and Freeware are both types of software distributed to users, but they differ fundamentally in licensing and usage rights. Shareware is proprietary software that users can try for a limited period (trial version) before purchasing a license; it requires payment for continued use after the trial expires. Freeware, conversely, is software that is distributed at no cost and remains free indefinitely; users have the right to use it without payment, though the source code typically remains proprietary and modifications may be restricted. In summary, shareware operates on a trial-then-purchase model, while freeware is permanently free but with limited user rights regarding modification and redistribution.",,"B","short","1","annual","Differentiate between **Shareware** and **Freeware**.","ms7cm61xb8g3fv1zevtrbvwveh85q205","2022"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m174fmhddwa2ptt6ch5tt3sjx585qh5p","A","true","Federal Board","Magnetic tape is an example of sequential access memory. In sequential access memory, data must be accessed in a specific order from the beginning, making it slower than random access memory. Tape storage requires reading through all preceding data to reach a desired location.","[""Identifies magnetic tape as sequential access memory"",""Explains that data must be accessed in order from the beginning"",""Contrasts with random access memory (faster access)"",""Mentions practical limitation of sequential access requiring reading preceding data""]",,"false","1","Magnetic tape is an example of sequential access memory. In sequential access memory, data must be accessed in a specific order from the beginning, making it slower than random access memory. Tape storage requires reading through all preceding data to reach a desired location.","[{""key"":""A"",""text"":""Flash Memory""},{""key"":""B"",""text"":""Hard Disk""},{""key"":""C"",""text"":""Magnetic Tape""},{""key"":""D"",""text"":""Blu-Ray Disk""}]","MCQ","mcq","4","annual","Which of the following is an example of sequential access memory?","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17f8nps5cf67wbg4jwsc5h6xn85psa3","A","true","Federal Board","A memory word that is to be stored in or fetched from memory must first be transferred into the **Memory Data Register (MDR)**, also known as the Memory Buffer Register (MBR). The MDR acts as an intermediary buffer that holds data temporarily during memory operations, facilitating the transfer between the CPU and main memory.","[""Memory word must be transferred to Memory Data Register (MDR)"",""MDR is also called Memory Buffer Register (MBR)"",""MDR acts as a temporary buffer/intermediary between CPU and main memory"",""MDR holds data during both storage and fetch operations""]",,"false","1","A memory word that is to be stored in or fetched from memory must first be transferred into the **Memory Data Register (MDR)**, also known as the Memory Buffer Register (MBR). The MDR acts as an intermediary buffer that holds data temporarily during memory operations, facilitating the transfer between the CPU and main memory.","[{""key"":""A"",""text"":""Memory address register""},{""key"":""B"",""text"":""Data register""},{""key"":""C"",""text"":""Memory buffer register""},{""key"":""D"",""text"":""Accumulator register""}]","MCQ","mcq","6","annual","A memory word that is to be stored in or fetched from memory must first be transferred into:","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17chcg67dmhjsad0213zjfhz985qzfq",,"true","Federal Board",,"[""SRAM uses flip-flop circuits for storage; DRAM uses capacitors requiring refresh cycles"",""SRAM has no refresh overhead; DRAM refresh operations cause access delays"",""SRAM access time is 1-10 ns; DRAM access time is 50-100 ns"",""SRAM provides direct immediate access; DRAM requires read-modify-write operations"",""SRAM is faster due to simpler storage mechanism and no refresh requirement""]",,"false","3","SRAM (Static RAM) is faster than DRAM (Dynamic RAM). First, SRAM uses a flip-flop circuit to store each bit, allowing direct and immediate access without refresh cycles, whereas DRAM requires periodic refreshing to maintain data, causing access delays. Second, SRAM has faster access times (typically 1-10 nanoseconds) compared to DRAM (typically 50-100 nanoseconds) because DRAM must perform read-modify-write operations during refresh cycles, adding latency to memory access.",,"B","short","3","annual","Which chip memory is faster: **SRAM** or **DRAM**? Give two reasons for your selection.","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17c590efytt36jbzxk44xxpcx85p0gr",,"true","Federal Board",,"[""Volatile memory loses data without power; non-volatile memory retains data permanently"",""Example of volatile: RAM; Example of non-volatile: ROM or hard disk"",""Volatile memory is faster for temporary storage; non-volatile is slower but permanent"",""Volatile used during program execution; non-volatile used for system and file storage""]",,"false","3","**Comparison between Volatile and Non-Volatile Memory:**
+
+**Point 1 - Data Retention:** Volatile memory loses all stored data when power is switched off, such as RAM (Random Access Memory), whereas non-volatile memory retains data permanently even without power supply, such as ROM (Read-Only Memory) or hard disk drives.
+
+**Point 2 - Speed and Access:** Volatile memory offers faster read/write speeds and is used for temporary data storage during program execution, while non-volatile memory has slower access times but is used for permanent storage of operating systems and application files.",,"B","short","5","annual","Write two comparison points between **'volatile'** and **'non-volatile'** memories with one example each.","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17322sh643e3wqspeskhbmeqs85q88p",,"true","Federal Board",,"[""Cache memory is faster than main RAM, improving system speed and performance"",""Cache reduces memory access latency by storing frequently used data near the CPU"",""Cache improves CPU efficiency by minimizing wait time for data retrieval from main memory"",""Cache acts as a buffer between the fast CPU and slower main memory"",""Using cache increases overall system throughput and responsiveness""]",,"false","3","Cache memory is used for three main reasons: (1) **Speed Enhancement**, Cache operates at much faster speeds than main memory (RAM), reducing access time and improving overall system performance. (2) **Reduced Memory Access Latency**, By storing frequently accessed data and instructions closer to the CPU, cache minimizes the time the processor spends waiting for data from slower main memory. (3) **Improved CPU Efficiency**, Cache reduces the number of slow memory accesses required, allowing the CPU to execute instructions more quickly and efficiently, thereby increasing throughput and system responsiveness.",,"B","short","6","annual","Why is **'Cache'** memory used? (Give three reasons.)","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m17eybk6j7hrnzzqjnq7z77jmx85qhx0",,,"Federal Board",,"[""Zero-address instructions: 0 operands, stack-based operations (PUSH, POP, ADD)"",""One-address instructions: 1 operand, accumulator-based (LOAD, STORE, ADD with accumulator)"",""Two-address instructions: 2 operands, source and destination (MOV A,B or ADD A,B)"",""Understanding operand count relates to instruction set architecture design"",""Different types affect memory usage, instruction length, and execution efficiency""]",,"false","3","The table for instruction types based on operands is: Zero-address instructions have 0 operands and use a stack-based approach (example: PUSH, POP); One-address instructions have 1 operand and typically use an accumulator (example: LOAD A, ADD B); Two-address instructions have 2 operands where one serves as both source and destination (example: ADD A, B or MOV A, B). Each type represents different instruction set architectures with varying complexity and memory requirements.",,"B","short","7","annual","Complete the following table for the following types of instructions:
+
+| Instruction Type | Number of operands | Example |
+| :--- | :--- | :--- |
+| Zero-address | | |
+| One-address | | |
+| Two-address | | |","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m170rpdxepz1jpafk8rcbkcvk985pg6w",,,"Federal Board",,"[""Defines Control Unit as the component that fetches, decodes, and coordinates instruction execution"",""Identifies Instruction Register (IR) as the component that stores current instructions"",""Identifies Decoder as the component that interprets instructions and generates control signals"",""Identifies Control Signal Generator as the component that produces timing and control signals"",""Explains the role of each component in directing computer operations""]",,"false","3","The **Control Unit (CU)** is a component of the CPU that directs and coordinates all operations of the computer by fetching instructions from memory, decoding them, and sending control signals to other components to execute those instructions. The three main components of the Control Unit are: (1) **Instruction Register (IR)**, stores the current instruction being executed; (2) **Decoder**, interprets the instruction and generates appropriate control signals; and (3) **Control Signal Generator**, produces timing and control signals that direct the operation of other CPU components and memory.",,"B","short","23","annual","What is **control unit**? List down three main components of control unit.","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-1-computer-program","3.1 Computer Program","m1725m51ja6j3k4b9gtc1g6cg185p3wf",,"true","Federal Board",,"[""Defines program control instructions as instructions that alter sequential execution flow"",""Explains that they enable conditional execution and repetition in programs"",""Provides valid Python example using if-else statement for conditional control"",""Provides valid Python example using for loop for iterative control"",""Demonstrates understanding of how control instructions direct program execution""]",,"false","3","A **program control instruction** is a type of instruction that alters the normal sequential flow of program execution by directing the computer to jump to a different part of the program based on certain conditions or unconditionally. These instructions enable decision-making and repetition in programs. **Example:** In Python, the `if` statement is a program control instruction that checks a condition and executes different code blocks based on whether the condition is true or false: `if age >= 18: print(""Adult"") else: print(""Minor"")`. Another example is the `for` loop, which repeatedly executes a block of code: `for i in range(5): print(i)`, which controls program flow by iterating through a sequence.",,"B","short","26","annual","What is **Program control instruction**? Give an example as well.","ms7cm61xb8g3fv1zevtrbvwveh85q205","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-2-python-an-overview","3.2 Python: An Overview","m1735vkr0c1z0wsr28zah01t9185qk4e","A","true","Federal Board","Google Chrome is an example of a computational artifact, specifically a software program or application. It is a product created by humans using computational thinking and development processes to solve the problem of web browsing and provide users with a digital tool for accessing the internet.","[""Google Chrome is a computational artifact (software/program)"",""It is created by humans using computers and computational thinking"",""It serves as a practical tool/application for web browsing"",""It represents the output of the Software Development Life Cycle (SDLC)"",""It provides value to users by solving a real-world problem""]",,"false","1","Google Chrome is an example of a computational artifact, specifically a software program or application. It is a product created by humans using computational thinking and development processes to solve the problem of web browsing and provide users with a digital tool for accessing the internet.","[{""key"":""A"",""text"":""Open-Source software""},{""key"":""B"",""text"":""Freeware""},{""key"":""C"",""text"":""Shareware""},{""key"":""D"",""text"":""Licensed software""}]","MCQ","mcq","3","annual","Google Chrome is an example of:","ms7chq383bwqp7x3gpryqq5as185ptqe","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-2-python-an-overview","3.2 Python: An Overview","m17dxh3tc8x2szken4mstek99d85phmd",,,"Federal Board",,"[""Definition of open source software with emphasis on free source code availability and modification rights"",""Definition of licensed software highlighting proprietary nature and purchase requirement"",""Correct example of open source software (Linux, Apache, Firefox, etc.)"",""Correct example of licensed software (Windows, MS Office, Adobe products, etc.)"",""Clear distinction between the two in terms of accessibility, cost, and usage rights""]",,"false","3","**Open Source Software** is software whose source code is freely available for anyone to view, modify, and distribute under an open license. Example: Linux operating system. **Licensed Software** is proprietary software where the source code is kept confidential and users must purchase a license to use it legally. Example: Microsoft Windows. Open source promotes collaboration and transparency, while licensed software provides commercial support and controlled distribution.",,"B","short","1","annual","Differentiate between **opensource software** and **licensed software** with one example each.","ms7chq383bwqp7x3gpryqq5as185ptqe","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-4-turtle-graphics","3.4 Turtle Graphics","m17dg8ftph9adkkh4ky4jm52nh85pzkx",,"true","Federal Board",,"[""Correct use of `pencolor('blue')` method to change pen colour"",""Correct use of `backward(150)` method to move turtle backward by 150 pixels"",""Correct use of `left(90)` method to rotate turtle 90 degrees counterclockwise"",""Proper turtle module import and object creation"",""Accurate syntax and method parameters""]",,"false","3","To perform the specified turtle graphics actions in Python, use the following statements:
+
+```python
+import turtle
+t = turtle.Turtle()
+t.pencolor('blue')  # Change pen colour to blue
+t.backward(150)    # Move turtle backward by 150 pixels
+t.left(90)         # Rotate turtle 90 degrees to the left
+```
+
+The `pencolor()` method sets the pen colour, `backward()` moves the turtle in the opposite direction of its heading, and `left()` rotates the turtle counterclockwise by the specified angle in degrees.",,"B","short","26","annual","Write Python statements considering turtle graphics to perform the following actions:
+a) Change the pen colour to blue.
+b) Move the turtle backward by 150 pixels.
+c) Rotate the turtle 90 degrees to the left.","ms7fwpt6axy6tayhwryyvcbss985pzqf","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-6-python-variables","3.6 Python Variables","m170nsmp05agsvhttzxrmtewfh85qhjw",,"true","Federal Board",,"[""Correctly applies subtraction operator to calculate result1 = 6"",""Correctly applies floor division operator (//) to calculate result2 = 5"",""Correctly applies modulus operator (%) to calculate result3 = 0"",""Demonstrates understanding of arithmetic operators in Python"",""Shows proper substitution of variable values into expressions""]",,"false","3","Given x=4, y=10, and z=2:
+
+a) result1 = y - x = 10 - 4 = **6**
+
+b) result2 = y // z = 10 // 2 = **5** (floor division operator // returns the quotient without remainder)
+
+c) result3 = x % z = 4 % 2 = **0** (modulus operator % returns the remainder after division)",,"B","short","1","annual","Assume the variables $x$, $y$, and $z$ where $x=4$, $y=10$, and $z=2$. What value will be stored in result1, result2, and result3 after executing the following Python statements?
+a) $result1 = y - x$
+b) $result2 = y // z$
+c) $result3 = x \% z$","ms78sbnc1hnb4n26yyhth73n8n85qqzk","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-6-python-variables","3.6 Python Variables","m174hdn46atqcze5evz5rxwfpn85psfa",,"true","Federal Board",,"[""Valid variable names must start with a letter or underscore, not a digit"",""Variable names cannot contain spaces or special characters (except underscore)"",""Variable names should be meaningful and follow naming conventions"",""`input` is valid as it contains only letters and follows proper naming rules"",""`your age` is invalid because spaces are not permitted in variable names"",""`marks1` is valid as it combines letters with a digit in a proper format"",""Reserved keywords should not be used as variable names (though `input` is typically not reserved in most languages)""]",,"false","3","a) `input` - VALID. It is a meaningful identifier composed of lowercase letters only, follows naming conventions, and is not a reserved keyword in most programming contexts.
+
+b) `your age` - INVALID. Variable names cannot contain spaces. Spaces are not allowed in identifiers as they are used to separate tokens in programming languages. Valid alternatives would be `your_age`, `yourAge`, or `yourage`.
+
+c) `marks1` - VALID. It is a valid variable name containing letters and a digit. It starts with a letter (not a digit), follows naming conventions, and is meaningful.",,"B","short","9","annual","Determine whether these variable names are valid or invalid. Provide reasons for any invalid variable names.
+a) `input`
+b) `your age`
+c) `marks1`","ms78sbnc1hnb4n26yyhth73n8n85qqzk","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-6-python-variables","3.6 Python Variables","m17a49ebq035z51eam1txgcr1185pwfq",,"false","Federal Board",,"[""Semicolons are not required in Python statements"",""Comparison operators use == (double equals), while assignment uses = (single equals)"",""print() is the correct built-in function for output; display() is not valid in Python"",""Proper syntax is essential for code execution without errors""]",,"false","3","Three errors in the given Python code are:
+
+1. **Line 1 - Unnecessary semicolon**: The semicolon at the end of `temperature = 5;` should be removed. Python does not require semicolons to terminate statements.
+   Corrected: `temperature = 5`
+
+2. **Line 4 - Assignment operator instead of comparison**: The line `elif temperature = 5:` uses a single equals sign (=) which is an assignment operator. It should use the double equals sign (==) for comparison.
+   Corrected: `elif temperature == 5:`
+
+3. **Line 5 - Invalid function name**: The function `display()` is not a valid Python built-in function. It should be replaced with `print()`.
+   Corrected: `print(""It's cold"")`
+
+Corrected code:
+```python
+temperature = 5
+if temperature > 30:
+    print(""It's hot"")
+elif temperature == 5:
+    print(""It's cold"")
+else:
+    print(""The weather is mild"")
+```",,"B","short","14","annual","Correct any three errors in the following Python code:
+```python
+temperature = 5;
+if temperature > 30:
+    print(""It's hot"")
+elif temperature = 5:
+    display(""It's cold"")
+else:
+    print(""The weather is mild"")
+```","ms78sbnc1hnb4n26yyhth73n8n85qqzk","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-7-pythion-input-output-i-o","3.7 Python Input/Output (I/O)","m17d71ajetjv5ak6dxw385n9jh85q3j0",,,"Federal Board",,"[""Correct use of input() built-in function to accept user data"",""Proper variable declaration and assignment for storing name and marks"",""Correct use of print() function to display the entered information"",""Program executes without errors and produces required output"",""Optional: Use of user-defined function demonstrates better code organization and reusability""]",,"false","3","Here is a Python program that takes user input for name and marks, then displays them:
+
+```python
+name = input(""Enter your name: "")
+marks = input(""Enter your marks: "")
+print(""Name:"", name)
+print(""Marks:"", marks)
+```
+
+Alternatively, using a function for better code organization:
+
+```python
+def display_info():
+    name = input(""Enter your name: "")
+    marks = input(""Enter your marks: "")
+    print(""\n--- Student Information ---"")
+    print(""Name:"", name)
+    print(""Marks:"", marks)
+
+display_info()
+```
+
+The `input()` function is a built-in function that prompts the user to enter data. The entered values are stored in variables `name` and `marks`, which are then displayed using the `print()` function. Using a function improves code reusability and readability as per best programming practices.",,"B","short","19","annual","Write a Python program that asks the user to input name and marks. Also displays the entered name and marks.","ms72cxcd4ywwz8wby67ep704gn85qcxa","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-7-pythion-input-output-i-o","3.7 Python Input/Output (I/O)","m170vv1e8s5dv7399zyxw2npcn85q0df",,"true","Federal Board",,"[""Function definition using `def` keyword with parameters for code reusability"",""Comparison logic using `if-else` statement to determine minimum value"",""Input handling using `input()` function and type conversion with `float()`"",""Function call with arguments and return value assignment"",""Output display using `print()` function with formatted string""]",,"false","5","# Python Program to Find Minimum of Two Numbers Using Function
+
+## Program Code
+
+```python
+def find_minimum(num1, num2):
+    """"""
+    Function to find and return the minimum of two numbers
+    Parameters: num1, num2 (two numbers to compare)
+    Returns: the smaller number
+    """"""
+    if num1 < num2:
+        return num1
+    else:
+        return num2
+
+# Main program
+print(""Program to find minimum of two numbers"")
+
+# Read two numbers from user
+num1 = float(input(""Enter first number: ""))
+num2 = float(input(""Enter second number: ""))
+
+# Call function and store result
+minimum = find_minimum(num1, num2)
+
+# Display result
+print(f""The minimum number is: {minimum}"")
+```
+
+## Explanation
+
+**Function Definition:** The `find_minimum()` function accepts two parameters `num1` and `num2`. It uses an `if-else` statement to compare the two numbers and returns the smaller value.
+
+**Input:** The program uses `input()` built-in function to read two numbers from the user. `float()` converts the input strings to floating-point numbers for numerical comparison.
+
+**Function Call:** The function is called with the two input numbers as arguments, and the returned minimum value is stored in the variable `minimum`.
+
+**Output:** The result is displayed using `print()` with an f-string for formatted output.
+
+## Alternative Approach Using Built-in Function
+
+```python
+def find_minimum(num1, num2):
+    return min(num1, num2)
+
+num1 = float(input(""Enter first number: ""))
+num2 = float(input(""Enter second number: ""))
+minimum = find_minimum(num1, num2)
+print(f""The minimum number is: {minimum}"")
+```
+
+This approach uses Python's built-in `min()` function, which directly returns the minimum value from the given arguments.",,"C","long","4","annual","Write a Python program that reads two numbers and prints the minimum number by using function.","ms72cxcd4ywwz8wby67ep704gn85qcxa","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-7-pythion-input-output-i-o","3.7 Python Input/Output (I/O)","m174bq5d44mdtdh2wzr45cw3ad85q1t5",,"true","Federal Board",,"[""Correct use of `int(input())` to accept numeric input from user"",""Proper implementation of `for` loop with `range(1, 11)` to iterate from 1 to 10"",""Correct multiplication logic inside the loop to calculate table values"",""Appropriate use of `print()` statement to display formatted output"",""Program produces all 10 multiplication results correctly""]",,"false","5","# Multiplication Table Program
+
+## Program Code
+```python
+# Input a number from the user
+num = int(input(""Enter a number: ""))
+
+# Print multiplication table using for loop
+print(f""\nMultiplication table of {num}:"")
+for i in range(1, 11):
+    product = num * i
+    print(f""{num} × {i} = {product}"")
+```
+
+## Explanation
+
+**Input Statement:** The `int(input())` function takes user input and converts it to an integer, storing it in the variable `num`.
+
+**For Loop:** The `for` loop iterates from 1 to 10 using `range(1, 11)`. The `range()` function generates numbers starting from 1 up to (but not including) 11, so it produces values 1 through 10.
+
+**Calculation:** Inside the loop, each iteration multiplies `num` by the current value of `i` and stores the result in `product`.
+
+**Output:** The `print()` statement displays each multiplication result in a formatted manner using f-strings, showing the number, multiplier, and product clearly.
+
+## Sample Output
+```
+Enter a number: 5
+
+Multiplication table of 5:
+5 × 1 = 5
+5 × 2 = 10
+5 × 3 = 15
+5 × 4 = 20
+5 × 5 = 25
+5 × 6 = 30
+5 × 7 = 35
+5 × 8 = 40
+5 × 9 = 45
+5 × 10 = 50
+```
+
+This program demonstrates the use of the `for` loop with `range()` function to iterate a fixed number of times and perform repetitive calculations efficiently.",,"C","long","6","annual","Write a Python program that inputs a number and prints its multiplication table from 1 to 10 using for loop.","ms72cxcd4ywwz8wby67ep704gn85qcxa","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-7-pythion-input-output-i-o","3.7 Python Input/Output (I/O)","m17eq154sswfch36474dnw9e4n85q69b",,"true","Federal Board",,"[""The provided notes do not contain information about output devices"",""Notes focus on Python programming (lists, functions, and language overview)"",""Cannot ground answer in provided note content as instructed"",""Question requires hardware/output device content not present in materials"",""Unable to generate valid model answer without relevant source material""]",,"false","8","I cannot provide an answer to this question based on the provided notes. The question asks about output devices (LCD monitor, Dot Matrix Printer, Inkjet Printer, and Plotter), but the provided notes contain only information about Python programming concepts including lists, functions, and Python overview. There is no content about computer hardware or output devices in the supplied material. To answer this question accurately according to FBISE standards, notes covering output devices and their characteristics would be required.",,"C","long","3","annual","Describe the following **output devices**: a) **LCD monitor** b) **Dot Matrix Printer** c) **Inkjet Printer** d) **Plotter**","ms72cxcd4ywwz8wby67ep704gn85qcxa","2022"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-7-pythion-input-output-i-o","3.7 Python Input/Output (I/O)","m176jgq41sbm1mpfrbdhmd13as85qmmf","B","true","Federal Board","Option B is correct: Speaker.","[""Question requires knowledge of output devices (e.g., monitor, printer, speaker)"",""Provided notes cover only Python programming concepts"",""No relevant content available in the given material to answer the question"",""Output devices are hardware components that display or produce information from a computer""]",,"false","1","I cannot answer this question based on the provided notes. The notes contain information about Python programming (lists, functions, and Python overview) but do not contain any content about computer hardware, input/output devices, or output devices. To answer this question correctly, notes on computer hardware components and peripheral devices would be required.","[{""key"":""A"",""text"":""Microphone""},{""key"":""B"",""text"":""Speaker""},{""key"":""C"",""text"":""Track ball""},{""key"":""D"",""text"":""Mouse""}]","MCQ","mcq","2","annual","Which of the following is an output device?","ms72cxcd4ywwz8wby67ep704gn85qcxa","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-8-operators-in-python","3.8 Operators in Python","m172wyejbjmj6gepg6exq54q6h85qaap",,"true","Federal Board","The result of `x = 5 & 3` in Python is `x = 1`. The `&` operator performs a **bitwise AND operation** on the two integers. In binary: 5 is `101` and 3 is `011`. The bitwise AND compares each bit position and returns 1 only where both bits are 1, resulting in `001` which equals 1 in decimal.","[""Identifies `&` as the bitwise AND operator"",""Correctly converts 5 and 3 to binary (101 and 011)"",""Explains bitwise AND logic (1 only where both bits are 1)"",""Provides correct final answer: 1"",""Shows understanding of bitwise operations in Python""]",,"false","1","The result of `x = 5 & 3` in Python is `x = 1`. The `&` operator performs a **bitwise AND operation** on the two integers. In binary: 5 is `101` and 3 is `011`. The bitwise AND compares each bit position and returns 1 only where both bits are 1, resulting in `001` which equals 1 in decimal.","[{""key"":""A"",""text"":""1""},{""key"":""B"",""text"":""3""},{""key"":""C"",""text"":""5""},{""key"":""D"",""text"":""7""}]","MCQ","unclassified","12","annual","What will be the result of $x = 5 \& 3$ Python statement?","ms7dspdf0s4zwwy1hq1r08a35185qr5f","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-8-operators-in-python","3.8 Operators in Python","m170nsmp05agsvhttzxrmtewfh85qhjw",,"true","Federal Board",,"[""Correctly applies subtraction operator to calculate result1 = 6"",""Correctly applies floor division operator (//) to calculate result2 = 5"",""Correctly applies modulus operator (%) to calculate result3 = 0"",""Demonstrates understanding of arithmetic operators in Python"",""Shows proper substitution of variable values into expressions""]",,"false","3","Given x=4, y=10, and z=2:
+
+a) result1 = y - x = 10 - 4 = **6**
+
+b) result2 = y // z = 10 // 2 = **5** (floor division operator // returns the quotient without remainder)
+
+c) result3 = x % z = 4 % 2 = **0** (modulus operator % returns the remainder after division)",,"B","short","1","annual","Assume the variables $x$, $y$, and $z$ where $x=4$, $y=10$, and $z=2$. What value will be stored in result1, result2, and result3 after executing the following Python statements?
+a) $result1 = y - x$
+b) $result2 = y // z$
+c) $result3 = x \% z$","ms7dspdf0s4zwwy1hq1r08a35185qr5f","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-8-operators-in-python","3.8 Operators in Python","m17egveg5kbj86aehtptge0cfx85qwh0",,,"Federal Board",,"[""Correctly identifies exponentiation as highest priority: $2**3 = 8$"",""Correctly evaluates division, multiplication, and modulus operators from left to right: $8/2=4$, $4*4=16$, $16\\%3=1$"",""Correctly performs addition and subtraction from left to right: $2+1-1=2$"",""Demonstrates understanding of operator precedence in Python"",""Arrives at correct final answer of 2""]",,"false","3","To evaluate $2 + 2**3 / 2 * 4 \% 3 - 1$ in Python, we must follow the proper order of operations (PEMDAS/BODMAS). First, exponentiation: $2**3 = 8$. Then, division, multiplication, and modulus from left to right: $8 / 2 = 4$, then $4 * 4 = 16$, then $16 \% 3 = 1$. Finally, addition and subtraction from left to right: $2 + 1 - 1 = 2$. The result is **2**.",,"B","short","15","annual","Evaluate the following expression in Python using the proper order of operations: $2 + 2**3 / 2 * 4 \% 3 - 1$","ms7dspdf0s4zwwy1hq1r08a35185qr5f","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-8-operators-in-python","3.8 Operators in Python","m171x5k3xehwrgb9dsbyhmcj8585p1bg",,"true","Federal Board",,"[""Correctly identifies that list indexing is zero-based (index 2 refers to the third element)"",""Recognizes that the assignment operator modifies the element at index 2 from 'China' to 'Turkey'"",""Understands that the `append()` method adds a new element to the end of the list"",""Demonstrates knowledge that lists are mutable data structures in Python"",""Provides the correct final output: ['Pakistan', 'Iran', 'Turkey', 'Oman']""]",,"false","3","The code will generate the following output:
+
+```
+['Pakistan', 'Iran', 'Turkey', 'Oman']
+```
+
+Explanation: The list is initially created with three elements. The statement `country[2] = ""Turkey""` modifies the element at index 2 (which was ""China"") to ""Turkey"". The `append()` method then adds ""Oman"" as a new element at the end of the list. Since lists are mutable, these modifications are reflected in the final output.",,"B","short","24","annual","What will be generated by the following Python code? 
+```python
+country=[""Pakistan"", ""Iran"", ""China""]
+country[2]= ""Turkey""
+country.append(""Oman"")
+print(country)
+```","ms7dspdf0s4zwwy1hq1r08a35185qr5f","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-8-operators-in-python","3.8 Operators in Python","m1725m51ja6j3k4b9gtc1g6cg185p3wf",,"true","Federal Board",,"[""Defines program control instructions as instructions that alter sequential execution flow"",""Explains that they enable conditional execution and repetition in programs"",""Provides valid Python example using if-else statement for conditional control"",""Provides valid Python example using for loop for iterative control"",""Demonstrates understanding of how control instructions direct program execution""]",,"false","3","A **program control instruction** is a type of instruction that alters the normal sequential flow of program execution by directing the computer to jump to a different part of the program based on certain conditions or unconditionally. These instructions enable decision-making and repetition in programs. **Example:** In Python, the `if` statement is a program control instruction that checks a condition and executes different code blocks based on whether the condition is true or false: `if age >= 18: print(""Adult"") else: print(""Minor"")`. Another example is the `for` loop, which repeatedly executes a block of code: `for i in range(5): print(i)`, which controls program flow by iterating through a sequence.",,"B","short","26","annual","What is **Program control instruction**? Give an example as well.","ms7dspdf0s4zwwy1hq1r08a35185qr5f","2024"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-9-iteration-and-loop","3.9 Iteration and Loop","m17e02p9qazx5gndw6vd2a6fxh85pme2",,"true","Federal Board",,"[""Initialize all variables with their starting values before loop execution"",""Execute loop body step-by-step for each iteration"",""Update variable values according to pseudocode logic (increment, arithmetic operations, etc.)"",""Record the state of variables (i, sum) after each iteration completes"",""Include print output exactly as it would appear during that iteration"",""Continue iterations until the loop condition becomes false"",""Verify calculations at each step to ensure accuracy"",""Present results in a clear table format with columns for iteration number, variables, and output""]",,"false","3","To trace pseudocode and complete a table tracking variables through loop iterations, follow these steps:
+
+1. **Initialize variables**: Identify starting values before the loop begins
+2. **Execute each iteration**: For each loop cycle, update variable values according to the pseudocode logic
+3. **Record values**: Document the values of i, sum, and any print output at each iteration
+4. **Continue until loop condition fails**: Stop when the loop termination condition is met
+
+**Example approach**:
+- Iteration 1: Execute loop body with initial values, record i, sum, and output
+- Iteration 2: Use updated values from iteration 1, execute loop body again
+- Iteration 3: Use updated values from iteration 2, execute loop body again
+
+**Table format**:
+| Iteration | i | sum | Print Output |
+|-----------|---|-----|---------------|
+| 1 | [value] | [value] | [output] |
+| 2 | [value] | [value] | [output] |
+| 3 | [value] | [value] | [output] |
+
+**Key steps for accurate tracing**:
+- Follow the exact order of operations in the pseudocode
+- Update variables in the sequence they appear
+- Include all print statements with their values at that iteration
+- Verify loop condition after each iteration",,"B","short","2","annual","Trace the following pseudocode and complete the table below, which tracks the values of the variables at each iteration of the loop. (Iteration 1, 2, 3 for variables $i$, $sum$, and Print output).","ms77p0jvj6je17qk4sbgtkwk1x85q674","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-9-iteration-and-loop","3.9 Iteration and Loop","m174bq5d44mdtdh2wzr45cw3ad85q1t5",,"true","Federal Board",,"[""Correct use of `int(input())` to accept numeric input from user"",""Proper implementation of `for` loop with `range(1, 11)` to iterate from 1 to 10"",""Correct multiplication logic inside the loop to calculate table values"",""Appropriate use of `print()` statement to display formatted output"",""Program produces all 10 multiplication results correctly""]",,"false","5","# Multiplication Table Program
+
+## Program Code
+```python
+# Input a number from the user
+num = int(input(""Enter a number: ""))
+
+# Print multiplication table using for loop
+print(f""\nMultiplication table of {num}:"")
+for i in range(1, 11):
+    product = num * i
+    print(f""{num} × {i} = {product}"")
+```
+
+## Explanation
+
+**Input Statement:** The `int(input())` function takes user input and converts it to an integer, storing it in the variable `num`.
+
+**For Loop:** The `for` loop iterates from 1 to 10 using `range(1, 11)`. The `range()` function generates numbers starting from 1 up to (but not including) 11, so it produces values 1 through 10.
+
+**Calculation:** Inside the loop, each iteration multiplies `num` by the current value of `i` and stores the result in `product`.
+
+**Output:** The `print()` statement displays each multiplication result in a formatted manner using f-strings, showing the number, multiplier, and product clearly.
+
+## Sample Output
+```
+Enter a number: 5
+
+Multiplication table of 5:
+5 × 1 = 5
+5 × 2 = 10
+5 × 3 = 15
+5 × 4 = 20
+5 × 5 = 25
+5 × 6 = 30
+5 × 7 = 35
+5 × 8 = 40
+5 × 9 = 45
+5 × 10 = 50
+```
+
+This program demonstrates the use of the `for` loop with `range()` function to iterate a fixed number of times and perform repetitive calculations efficiently.",,"C","long","6","annual","Write a Python program that inputs a number and prints its multiplication table from 1 to 10 using for loop.","ms77p0jvj6je17qk4sbgtkwk1x85q674","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-10-list","3.10 Lists in Python","m17dtx7k4xpc92vq12wvtrvwc585qx12","A","true","Federal Board","The statement `print(len(A))` will return `4`. The `len()` function returns the number of elements in a list. Since list A contains four elements (10, 20, 30, and 40), the output will be 4.","[""The len() function returns the number of elements in a list"",""List A has 4 elements: 10, 20, 30, 40"",""The output of print(len(A)) is: 4"",""len() counts all items regardless of their values or data types""]",,"false","1","The statement `print(len(A))` will return `4`. The `len()` function returns the number of elements in a list. Since list A contains four elements (10, 20, 30, and 40), the output will be 4.","[{""key"":""A"",""text"":""0""},{""key"":""B"",""text"":""4""},{""key"":""C"",""text"":""40""},{""key"":""D"",""text"":""Error in statement""}]","MCQ","mcq","6","annual","Consider the list, $A = [10, 20, 30, 40]$, what will the statement `print(len(A))` return?","ms704ntrrjnmeyvhtcnrg3ngbn85q4xw","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-11-functions-in-python","3.11 Functions in Python","m17dtx7k4xpc92vq12wvtrvwc585qx12","A","true","Federal Board","The statement `print(len(A))` will return `4`. The `len()` function returns the number of elements in a list. Since list A contains four elements (10, 20, 30, and 40), the output will be 4.","[""The len() function returns the number of elements in a list"",""List A has 4 elements: 10, 20, 30, 40"",""The output of print(len(A)) is: 4"",""len() counts all items regardless of their values or data types""]",,"false","1","The statement `print(len(A))` will return `4`. The `len()` function returns the number of elements in a list. Since list A contains four elements (10, 20, 30, and 40), the output will be 4.","[{""key"":""A"",""text"":""0""},{""key"":""B"",""text"":""4""},{""key"":""C"",""text"":""40""},{""key"":""D"",""text"":""Error in statement""}]","MCQ","mcq","6","annual","Consider the list, $A = [10, 20, 30, 40]$, what will the statement `print(len(A))` return?","ms7bajmg5pbm18wm60sph3y83n85qa51","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-11-functions-in-python","3.11 Functions in Python","m171x5k3xehwrgb9dsbyhmcj8585p1bg",,"true","Federal Board",,"[""Correctly identifies that list indexing is zero-based (index 2 refers to the third element)"",""Recognizes that the assignment operator modifies the element at index 2 from 'China' to 'Turkey'"",""Understands that the `append()` method adds a new element to the end of the list"",""Demonstrates knowledge that lists are mutable data structures in Python"",""Provides the correct final output: ['Pakistan', 'Iran', 'Turkey', 'Oman']""]",,"false","3","The code will generate the following output:
+
+```
+['Pakistan', 'Iran', 'Turkey', 'Oman']
+```
+
+Explanation: The list is initially created with three elements. The statement `country[2] = ""Turkey""` modifies the element at index 2 (which was ""China"") to ""Turkey"". The `append()` method then adds ""Oman"" as a new element at the end of the list. Since lists are mutable, these modifications are reflected in the final output.",,"B","short","24","annual","What will be generated by the following Python code? 
+```python
+country=[""Pakistan"", ""Iran"", ""China""]
+country[2]= ""Turkey""
+country.append(""Oman"")
+print(country)
+```","ms7bajmg5pbm18wm60sph3y83n85qa51","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-11-functions-in-python","3.11 Functions in Python","m170vv1e8s5dv7399zyxw2npcn85q0df",,"true","Federal Board",,"[""Function definition using `def` keyword with parameters for code reusability"",""Comparison logic using `if-else` statement to determine minimum value"",""Input handling using `input()` function and type conversion with `float()`"",""Function call with arguments and return value assignment"",""Output display using `print()` function with formatted string""]",,"false","5","# Python Program to Find Minimum of Two Numbers Using Function
+
+## Program Code
+
+```python
+def find_minimum(num1, num2):
+    """"""
+    Function to find and return the minimum of two numbers
+    Parameters: num1, num2 (two numbers to compare)
+    Returns: the smaller number
+    """"""
+    if num1 < num2:
+        return num1
+    else:
+        return num2
+
+# Main program
+print(""Program to find minimum of two numbers"")
+
+# Read two numbers from user
+num1 = float(input(""Enter first number: ""))
+num2 = float(input(""Enter second number: ""))
+
+# Call function and store result
+minimum = find_minimum(num1, num2)
+
+# Display result
+print(f""The minimum number is: {minimum}"")
+```
+
+## Explanation
+
+**Function Definition:** The `find_minimum()` function accepts two parameters `num1` and `num2`. It uses an `if-else` statement to compare the two numbers and returns the smaller value.
+
+**Input:** The program uses `input()` built-in function to read two numbers from the user. `float()` converts the input strings to floating-point numbers for numerical comparison.
+
+**Function Call:** The function is called with the two input numbers as arguments, and the returned minimum value is stored in the variable `minimum`.
+
+**Output:** The result is displayed using `print()` with an f-string for formatted output.
+
+## Alternative Approach Using Built-in Function
+
+```python
+def find_minimum(num1, num2):
+    return min(num1, num2)
+
+num1 = float(input(""Enter first number: ""))
+num2 = float(input(""Enter second number: ""))
+minimum = find_minimum(num1, num2)
+print(f""The minimum number is: {minimum}"")
+```
+
+This approach uses Python's built-in `min()` function, which directly returns the minimum value from the given arguments.",,"C","long","4","annual","Write a Python program that reads two numbers and prints the minimum number by using function.","ms7bajmg5pbm18wm60sph3y83n85qa51","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-12-debugging","3.12 Debugging","m17e02p9qazx5gndw6vd2a6fxh85pme2",,"true","Federal Board",,"[""Initialize all variables with their starting values before loop execution"",""Execute loop body step-by-step for each iteration"",""Update variable values according to pseudocode logic (increment, arithmetic operations, etc.)"",""Record the state of variables (i, sum) after each iteration completes"",""Include print output exactly as it would appear during that iteration"",""Continue iterations until the loop condition becomes false"",""Verify calculations at each step to ensure accuracy"",""Present results in a clear table format with columns for iteration number, variables, and output""]",,"false","3","To trace pseudocode and complete a table tracking variables through loop iterations, follow these steps:
+
+1. **Initialize variables**: Identify starting values before the loop begins
+2. **Execute each iteration**: For each loop cycle, update variable values according to the pseudocode logic
+3. **Record values**: Document the values of i, sum, and any print output at each iteration
+4. **Continue until loop condition fails**: Stop when the loop termination condition is met
+
+**Example approach**:
+- Iteration 1: Execute loop body with initial values, record i, sum, and output
+- Iteration 2: Use updated values from iteration 1, execute loop body again
+- Iteration 3: Use updated values from iteration 2, execute loop body again
+
+**Table format**:
+| Iteration | i | sum | Print Output |
+|-----------|---|-----|---------------|
+| 1 | [value] | [value] | [output] |
+| 2 | [value] | [value] | [output] |
+| 3 | [value] | [value] | [output] |
+
+**Key steps for accurate tracing**:
+- Follow the exact order of operations in the pseudocode
+- Update variables in the sequence they appear
+- Include all print statements with their values at that iteration
+- Verify loop condition after each iteration",,"B","short","2","annual","Trace the following pseudocode and complete the table below, which tracks the values of the variables at each iteration of the loop. (Iteration 1, 2, 3 for variables $i$, $sum$, and Print output).","ms74maek0b4btara2d3523zn7x85q3jb","2025"
+"computer-11","03-programming-fundamentals-python","Programming Fundamentals (Python)","3-12-debugging","3.12 Debugging","m17a49ebq035z51eam1txgcr1185pwfq",,"false","Federal Board",,"[""Semicolons are not required in Python statements"",""Comparison operators use == (double equals), while assignment uses = (single equals)"",""print() is the correct built-in function for output; display() is not valid in Python"",""Proper syntax is essential for code execution without errors""]",,"false","3","Three errors in the given Python code are:
+
+1. **Line 1 - Unnecessary semicolon**: The semicolon at the end of `temperature = 5;` should be removed. Python does not require semicolons to terminate statements.
+   Corrected: `temperature = 5`
+
+2. **Line 4 - Assignment operator instead of comparison**: The line `elif temperature = 5:` uses a single equals sign (=) which is an assignment operator. It should use the double equals sign (==) for comparison.
+   Corrected: `elif temperature == 5:`
+
+3. **Line 5 - Invalid function name**: The function `display()` is not a valid Python built-in function. It should be replaced with `print()`.
+   Corrected: `print(""It's cold"")`
+
+Corrected code:
+```python
+temperature = 5
+if temperature > 30:
+    print(""It's hot"")
+elif temperature == 5:
+    print(""It's cold"")
+else:
+    print(""The weather is mild"")
+```",,"B","short","14","annual","Correct any three errors in the following Python code:
+```python
+temperature = 5;
+if temperature > 30:
+    print(""It's hot"")
+elif temperature = 5:
+    display(""It's cold"")
+else:
+    print(""The weather is mild"")
+```","ms74maek0b4btara2d3523zn7x85q3jb","2025"

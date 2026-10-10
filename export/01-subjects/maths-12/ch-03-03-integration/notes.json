@@ -1,0 +1,178 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Antiderivatives and the Power Rule for Integration",
+    "_creationTime": 1777384374925.162,
+    "_id": "kx7fw6b17nbtaa35f6jcjqd44s85qrsa",
+    "createdAt": 1777384374925,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the foundational techniques of **indefinite integration** (antidifferentiation).\n\n## Antiderivatives and Notation\n\nA function $F(x)$ is called an **antiderivative** of $f(x)$ on an interval if $F'(x) = f(x)$ for all $x$ in that interval.\n\nThe **indefinite integral** represents the entire family of antiderivatives:\n$$\\int f(x) \\, dx = F(x) + C$$\nwhere $C$ is the **constant of integration** (always required for indefinite integrals).\n\n**Notation:** $\\int$ is the integral sign, $f(x)$ is the **integrand**, $dx$ is the **variable of integration**, and $F(x)+C$ is the **general antiderivative**.\n\n## Power Rule for Integration\n\n$$\\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1)$$\n\n**Special case:** When $n = -1$, the power rule fails (division by zero). Instead:\n$$\\int x^{-1} \\, dx = \\int \\frac{1}{x} \\, dx = \\ln|x| + C$$\n\n**Applying to radicals and fractions:** Convert to fractional/negative exponents first:\n- $\\sqrt{x} = x^{1/2}$, so $\\int \\sqrt{x}\\,dx = \\frac{x^{3/2}}{3/2} + C = \\frac{2}{3}x^{3/2} + C$\n- $\\frac{1}{x^3} = x^{-3}$, so $\\int \\frac{1}{x^3}\\,dx = \\frac{x^{-2}}{-2} + C = -\\frac{1}{2x^2} + C$\n\n## Exponential Integration (Base $a$)\n\n$$\\int a^x \\, dx = \\frac{a^x}{\\ln a} + C \\quad (a > 0,\\, a \\neq 1)$$\n\nFor a linear exponent $\\int a^{kx}\\,dx = \\frac{a^{kx}}{k\\ln a} + C$.\n\n**Special case** (base $e$): $\\int e^x\\,dx = e^x + C$ and $\\int e^{kx}\\,dx = \\frac{1}{k}e^{kx} + C$.\n\n## Linearity of Integrals\n\n| Rule | Formula |\n|:---|:---|\n| **Constant Multiple** | $\\int k\\,f(x)\\,dx = k\\int f(x)\\,dx$ |\n| **Sum/Difference** | $\\int [f(x) \\pm g(x)]\\,dx = \\int f(x)\\,dx \\pm \\int g(x)\\,dx$ |\n\n---\n\n# **Important Formulas**\n\n| Rule Name | Formula |\n|:--- |:--- |\n| **Power Rule** | $\\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1)$ |\n| **Special Case** | $\\int \\frac{1}{x} \\, dx = \\ln\\vert x\\vert  + C$ |\n| **Exponential Rule (Base $e$)** | $\\int e^{kx} \\, dx = \\frac{1}{k}e^{kx} + C$ |\n| **Exponential Rule (Base $a$)** | $\\int a^x \\, dx = \\frac{a^x}{\\ln a} + C$ |\n| **Constant Multiple Rule** | $\\int k f(x) \\, dx = k \\int f(x) \\, dx$ |\n| **Sum/Difference Rule** | $\\int [f(x) \\pm g(x)] \\, dx = \\int f(x) \\, dx \\pm \\int g(x) \\, dx$ |\n\n---\n\n# **Problem-Solving Strategies**\n\n## Strategy 1: Algebraic Simplification First\n\nBefore integrating, simplify the integrand algebraically:\n- **Expand products:** $\\int (1+x)(1-x^2)\\,dx$ → expand to $\\int (1 + x - x^2 - x^3)\\,dx$\n- **Distribute fractions:** $\\int \\frac{x^2+8}{x^2}\\,dx = \\int\\left(1 + 8x^{-2}\\right)dx$\n- **Convert radicals:** $\\int \\sqrt[3]{x^2}\\,dx = \\int x^{2/3}\\,dx$\n\n## Strategy 2: U-Substitution for Composite Functions\n\nWhen the integrand contains a composite function $f(g(x))\\cdot g'(x)$, substitute $u = g(x)$:\n\n**Example:** $\\int x e^{x^2}\\,dx$\n- Let $u = x^2$, then $du = 2x\\,dx$, so $x\\,dx = \\frac{du}{2}$\n- $\\int x e^{x^2}\\,dx = \\frac{1}{2}\\int e^u\\,du = \\frac{1}{2}e^{x^2} + C$\n\n---\n\n# **Summary**\n\nExercise 3.1 covers the fundamental techniques of indefinite integration:\n1. **Power Rule**, the primary tool for integrating $x^n$ ($n \\neq -1$)\n2. **Exponential Rule**, for $e^{kx}$ and $a^x$\n3. **Linearity**, sum, difference, and constant multiple rules\n4. **Algebraic simplification**, always simplify before integrating\n5. **U-substitution**, for composite exponential forms\n\nAlways include the **constant of integration $C$** for every indefinite integral.",
+    "publishedAt": 1777384374925,
+    "slug": "exercise-3-1",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.1 Exercise 3.1",
+    "topicId": "ms7avp8r5098f68d076pp07a2985qpeb",
+    "updatedAt": 1789036024580
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Integration of Trigonometric Functions",
+    "_creationTime": 1777384375797.4648,
+    "_id": "kx71y5hdp8bry67rrzbgzk5vdh85p0mh",
+    "createdAt": 1777384375797,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Integration of basic trigonometric functions (sine, cosine, tangent, cotangent, secant, cosecant)\n- Standard integral formulas and their application with linear arguments ($ax+b$)\n\n- Trigonometric identities for simplification ($1+\\tan^2 x = \\sec^2 x$, $\\cos^2 x$ half-angle, etc.)\n\n- Integration by substitution (u-substitution) for composite functions\n\n- Algebraic simplification of integrands before integration (e.g., $\\csc x \\tan x = \\sec x$)\n\n- Linearity properties of integrals (sum rule and constant multiple rule)\n\n- Verification of integration results by differentiation\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Standard Trigonometric Integrals:**\n$$\\int \\sin(ax) \\, dx = -\\frac{\\cos(ax)}{a} + C$$\n$$\\int \\cos(ax) \\, dx = \\frac{\\sin(ax)}{a} + C$$\n$$\\int \\sec^2(ax+b) \\, dx = \\frac{\\tan(ax+b)}{a} + C$$\n$$\\int \\csc^2(ax+b) \\, dx = -\\frac{\\cot(ax+b)}{a} + C$$\n$$\\int \\sec(ax)\\tan(ax) \\, dx = \\frac{\\sec(ax)}{a} + C$$\n\n**Logarithmic Forms:**\n$$\\int \\tan(ax) \\, dx = -\\frac{1}{a}\\ln|\\cos(ax)| + C = \\frac{1}{a}\\ln|\\sec(ax)| + C$$\n\n$$\\int \\cot(ax) \\, dx = \\frac{1}{a}\\ln|\\sin(ax)| + C$$\n\n$$\\int \\csc(ax) \\, dx = -\\frac{1}{a}\\ln|\\csc(ax) + \\cot(ax)| + C$$\n\n**Trigonometric Identities:**\n$$1 + \\tan^2 x = \\sec^2 x \\quad \\Rightarrow \\quad \\tan^2 x = \\sec^2 x - 1$$\n\n$$1 + \\cot^2 x = \\csc^2 x \\quad \\Rightarrow \\quad \\cot^2 x = \\csc^2 x - 1$$\n$$\\cos^2 x = \\frac{1 + \\cos(2x)}{2}$$\n\n**Substitution Rule:**\n$$\\int f(g(x))g'(x) \\, dx = \\int f(u) \\, du \\quad \\text{where } u = g(x)$$\n\n---\n\n# **Summary**\n\nThis exercise covers the fundamental techniques of integrating trigonometric functions and their combinations. The primary strategies involve:\n\n1. **Applying standard integral formulas directly** — especially for $\\sin(ax+b)$, $\\cos(ax+b)$, $\\sec^2(ax+b)$, $\\csc^2(ax+b)$, and $\\sec(ax)\\tan(ax)$, each introducing a factor of $\\frac{1}{a}$.\n2. **Using trigonometric identities** to rewrite integrands into integrable forms — such as converting $\\tan^2 x$ to $\\sec^2 x - 1$, or $\\cos^2 x$ to $\\frac{1+\\cos 2x}{2}$.\n3. **Simplifying products** of trig functions — e.g., $\\csc x \\tan x = \\sec x$ — before integrating.\n4. **Employing u-substitution** for composite functions, where the inner function's derivative appears as a factor.\n\nParticular attention is required for linear transformations inside trigonometric functions ($ax+b$), which introduce scaling factors of $\\frac{1}{a}$ in the result. Always verify solutions by differentiating the result to recover the original integrand.",
+    "publishedAt": 1777384375797,
+    "slug": "exercise-3-2",
+    "sourceRef": {
+      "blockIndex": 62,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.2 Exercise 3.2",
+    "topicId": "ms71eaw39z990mr9z4pcbgfq2n85pa08",
+    "updatedAt": 1787554345569
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Integration by Substitution",
+    "_creationTime": 1777384376571.231,
+    "_id": "kx72rcsayds4hatwhg5h6whnjd85qefq",
+    "createdAt": 1777384376571,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on **integration by substitution** (change of variables) — the reverse of the chain rule.\n\n- Integration by substitution (change of variables)\n\n- Standard integral forms involving inverse trigonometric functions\n- Completing the square for quadratic expressions\n\n- Integration of composite functions (chain rule in reverse)\n- Logarithmic integration (derivative-over-function pattern)\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n$$\\int \\frac{dx}{x^2+a^2} = \\frac{1}{a}\\tan^{-1}\\left(\\frac{x}{a}\\right) + C$$\n\n$$\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\sin^{-1}\\left(\\frac{x}{a}\\right) + C$$\n\n$$\\int \\frac{f'(x)}{f(x)}\\,dx = \\ln|f(x)| + C$$\n\n$$\\int [f(x)]^n f'(x)\\,dx = \\frac{[f(x)]^{n+1}}{n+1} + C \\quad (n \\neq -1)$$\n\n**Substitution rule:** If $u = g(x)$, then\n$$\\int f(g(x))\\,g'(x)\\,dx = \\int f(u)\\,du$$\n\n---\n\n# **Method: Integration by Substitution**\n\nThe substitution method transforms a complex integral into a standard form by introducing a new variable $u$.\n\n**Steps:**\n1. Identify a function $u = g(x)$ whose derivative $g'(x)$ (or a constant multiple) appears in the integrand.\n2. Compute $du = g'(x)\\,dx$ and express $dx$ in terms of $du$.\n3. Rewrite the entire integral in terms of $u$.\n4. Integrate with respect to $u$.\n5. Substitute back $u = g(x)$ to express the answer in terms of $x$.\n\n**Worked Example 1 — Power substitution:**\n\nEvaluate $\\int \\frac{x^2}{x^3+1}\\,dx$.\n\nLet $u = x^3+1$, so $du = 3x^2\\,dx \\Rightarrow x^2\\,dx = \\dfrac{du}{3}$.\n\n$$\\int \\frac{x^2}{x^3+1}\\,dx = \\frac{1}{3}\\int \\frac{du}{u} = \\frac{1}{3}\\ln|u|+C = \\frac{1}{3}\\ln|x^3+1|+C$$\n\n**Worked Example 2 — Inverse trig form:**\n\nEvaluate $\\int \\frac{dy}{y^2+8y+20}$.\n\nComplete the square: $y^2+8y+20 = (y+4)^2+4$.\n\nLet $u = y+4$, $a = 2$:\n\n$$\\int \\frac{du}{u^2+4} = \\frac{1}{2}\\tan^{-1}\\left(\\frac{u}{2}\\right)+C = \\frac{1}{2}\\tan^{-1}\\left(\\frac{y+4}{2}\\right)+C$$\n\n**Worked Example 3 — $\\sin^{-1}$ form:**\n\nEvaluate $\\int \\frac{dx}{\\sqrt{20-x^2-4x}}$.\n\nComplete the square: $20-x^2-4x = 24-(x+2)^2$.\n\nLet $u = x+2$, $a = \\sqrt{24} = 2\\sqrt{6}$:\n\n$$\\int \\frac{du}{\\sqrt{24-u^2}} = \\sin^{-1}\\left(\\frac{u}{2\\sqrt{6}}\\right)+C = \\sin^{-1}\\left(\\frac{x+2}{2\\sqrt{6}}\\right)+C$$\n\n---\n\n# **Summary**\n\nThis exercise demonstrates the method of substitution for evaluating indefinite integrals. The key strategy involves identifying a substitution $u = g(x)$ such that $g'(x)$ (or a constant multiple) appears in the integrand, transforming the integral into a standard form. Special attention is given to:\n\n- **Trigonometric substitutions** for quadratic forms ($\\tan^{-1}$ for $x^2+a^2$, $\\sin^{-1}$ for $\\sqrt{a^2-x^2}$)\n- **Algebraic substitutions** for composite power functions and rational functions\n- **Completing the square** to reduce general quadratics to standard forms\n\n- **Recognizing the pattern** $\\int \\frac{f'(x)}{f(x)}dx = \\ln|f(x)|$ for logarithmic integration",
+    "publishedAt": 1777384376571,
+    "slug": "exercise-3-3",
+    "sourceRef": {
+      "blockIndex": 79,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.3 Exercise 3.3",
+    "topicId": "ms7fe30txqvh65vcrxmeyqt2rn85qek1",
+    "updatedAt": 1787554345844
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Integration by Parts",
+    "_creationTime": 1777384377315.8044,
+    "_id": "kx72qak63vrr1ss97ed152pfxx85q8cf",
+    "createdAt": 1777384377315,
+    "mdxBody": "# **Exercise 3.4 — Integration by Parts**\n\n---\n\n# **Key Concepts**\n\nThis exercise focuses on **integration by parts**, a technique used when the integrand is a product of two functions.\n\n## Integration by Parts Formula\n\n$$\\int u \\, dv = uv - \\int v \\, du$$\n\n## LIATE Rule\n\nThe **LIATE rule** guides the selection of $u$ and $dv$:\n\n| Priority | Function Type |\n|----------|---------------|\n| 1st | **L**ogarithmic |\n| 2nd | **I**nverse Trigonometric |\n| 3rd | **A**lgebraic (polynomial) |\n| 4th | **T**rigonometric |\n| 5th | **E**xponential |\n\nChoose the function **highest** on this list as $u$; assign the remaining factor to $dv$.\n\n## Repeated Integration by Parts (Tabular Method)\n\nWhen the integrand contains a polynomial factor $x^n$ multiplied by an exponential or trigonometric function, apply integration by parts **repeatedly** until the polynomial reduces to a constant.\n\n**Example:** $\\int x^2 e^x \\, dx$\n\n| Differentiate ($u$) | Integrate ($dv$) |\n|---------------------|------------------|\n| $x^2$ | $e^x$ |\n| $2x$ | $e^x$ |\n| $2$ | $e^x$ |\n| $0$ | $e^x$ |\n\nResult: $\\int x^2 e^x \\, dx = e^x(x^2 - 2x + 2) + C$\n\n## Cyclic Integrals\n\nFor integrals like $\\int e^x \\cos x \\, dx$ or $\\int e^x \\sin x \\, dx$, applying integration by parts **twice** returns the original integral $I$ on the right-hand side. Solve algebraically:\n\n$$I = e^x \\sin x + e^x \\cos x - I \\implies 2I = e^x(\\sin x + \\cos x) \\implies I = \\frac{e^x(\\sin x + \\cos x)}{2} + C$$\n\n## Integration of Inverse Trigonometric Functions\n\nFor integrals like $\\int \\sin^{-1} x \\, dx$, $\\int \\cos^{-1} x \\, dx$, $\\int \\tan^{-1} x \\, dx$: set $u$ = the inverse trig function and $dv = dx$.\n\n## Combining Substitution with Integration by Parts\n\nSome integrals require a substitution first to simplify the integrand before applying integration by parts.\n\n**Example:** $\\int \\sin(\\ln x) \\, dx$ — substitute $t = \\ln x$ first, then apply cyclic IBP.\n\n---\n\n# **Important Formulas**\n\n**Integration by Parts:**\n$$\\int u \\, dv = uv - \\int v \\, du$$\n\n**Cyclic Integral Result** (for $\\int e^{ax}\\cos(bx)\\,dx$):\n$$\\int e^{ax}\\cos(bx)\\,dx = \\frac{e^{ax}}{a^2+b^2}(a\\cos(bx) + b\\sin(bx)) + C$$\n\n**Standard Logarithmic Integral:**\n$$\\int \\ln x \\, dx = x\\ln x - x + C$$\n\n---\n\n# **Summary**\n\nThis exercise develops proficiency in integration by parts across diverse function types. The key strategy involves selecting $u$ using the LIATE priority rule: logarithmic and inverse trig functions are typically chosen as $u$, while exponentials and trig functions are assigned to $dv$. For integrands with polynomial factors, repeated integration by parts (tabular method) is efficient until the polynomial reduces to a constant. Some questions require combining substitution with integration by parts. The cyclic pattern arises when integration by parts twice yields an equation solvable for the original integral. Inverse trig integrals are handled by setting $u$ as the inverse function and $dv = dx$.",
+    "publishedAt": 1777384377315,
+    "slug": "exercise-3-4",
+    "sourceRef": {
+      "blockIndex": 113,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.4 Exercise 3.4 — Integration by Parts",
+    "topicId": "ms722m80t5ja8mb1v9xp3zjpts85pz6k",
+    "updatedAt": 1787554346140
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-5",
+    "topicTitle": "3.5 Integration by Partial Fractions",
+    "_creationTime": 1777384378091.2278,
+    "_id": "kx79ygmzscqydpefqny1cm85x185pb9e",
+    "createdAt": 1777384378091,
+    "mdxBody": "# **Exercise 3.5 — Integration by Partial Fractions**\n\n---\n\n# **Key Concepts**\n\nThis exercise focuses on integrating **rational functions** using the method of **partial fraction decomposition**.\n\n*   Recognising proper vs. improper rational functions\n*   Polynomial long division for improper fractions\n*   Decomposing into partial fractions based on denominator type\n*   Integrating each partial fraction term using logarithmic and power rules\n\n*   Algebraic simplification and factoring of denominators\n\n*   Integration of rational functions after decomposition\n\n---\n\n# **Important Formulas and Rules**\n\n## Standard Integration Results Used\n\n$$\\int \\frac{1}{x} \\, dx = \\ln|x| + C$$\n\n$$\\int \\frac{A}{x+a} \\, dx = A\\ln|x+a| + C$$\n\n$$\\int \\frac{A}{(x+a)^n} \\, dx = \\frac{A(x+a)^{-n+1}}{-n+1} + C \\quad (n \\neq 1)$$\n\n$$\\int \\frac{1}{x^2+a^2} \\, dx = \\frac{1}{a}\\tan^{-1}\\!\\left(\\frac{x}{a}\\right) + C$$\n\n## Partial Fraction Decomposition Rules\n\n| Denominator Factor | Partial Fraction Form |\n|---|---|\n| Distinct linear: $(x+a)$ | $\\dfrac{A}{x+a}$ |\n| Repeated linear: $(x+a)^n$ | $\\dfrac{A_1}{x+a} + \\dfrac{A_2}{(x+a)^2} + \\cdots + \\dfrac{A_n}{(x+a)^n}$ |\n| Irreducible quadratic: $(ax^2+bx+c)$ | $\\dfrac{Ax+B}{ax^2+bx+c}$ |\n\n---\n\n# **Method: Step-by-Step Partial Fractions**\n\n**Step 1 — Check if proper:** If $\\deg(\\text{numerator}) \\geq \\deg(\\text{denominator})$, perform **polynomial long division** first.\n\n**Step 2 — Factor the denominator** completely into linear and/or irreducible quadratic factors.\n\n**Step 3 — Write the partial fraction form** according to the table above.\n\n**Step 4 — Find the constants** by multiplying both sides by the denominator and substituting convenient values of $x$ (or equating coefficients).\n\n**Step 5 — Integrate** each term separately.\n\n### Worked Example\n\nEvaluate $\\displaystyle\\int \\frac{2x-1}{x^3 - x^2 - 2x} \\, dx$.\n\n**Step 1:** Degree of numerator (1) $<$ degree of denominator (3) — already proper.\n\n**Step 2:** Factor: $x^3 - x^2 - 2x = x(x^2 - x - 2) = x(x-2)(x+1)$.\n\n**Step 3:** Write:\n$$\\frac{2x-1}{x(x-2)(x+1)} = \\frac{A}{x} + \\frac{B}{x-2} + \\frac{C}{x+1}$$\n\n**Step 4:** Multiply through by $x(x-2)(x+1)$:\n$$2x - 1 = A(x-2)(x+1) + Bx(x+1) + Cx(x-2)$$\n\n- $x=0$: $-1 = A(-2)(1) \\Rightarrow A = \\tfrac{1}{2}$\n- $x=2$: $3 = B(2)(3) \\Rightarrow B = \\tfrac{1}{2}$\n- $x=-1$: $-3 = C(-1)(-3) \\Rightarrow C = -1$\n\n**Step 5:** Integrate:\n$$\\int \\frac{2x-1}{x(x-2)(x+1)} \\, dx = \\frac{1}{2}\\ln|x| + \\frac{1}{2}\\ln|x-2| - \\ln|x+1| + C$$\n\n---\n\n# **Summary**\n\nThis exercise covers integration of rational functions via partial fractions. The key skill is recognising the type of denominator factor and writing the correct decomposition form before integrating.\n\nIn partial fraction decomposition, the structure of the numerator depends on the nature of the factor in the denominator.",
+    "publishedAt": 1777384378091,
+    "slug": "exercise-3-5",
+    "sourceRef": {
+      "blockIndex": 137,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.5 Exercise 3.5 — Integration by Partial Fractions",
+    "topicId": "ms7b9t79j2bcjv70q49x7c4yh985qnj3",
+    "updatedAt": 1787554346426
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-6",
+    "topicTitle": "3.6 Definite Integrals as Signed Area",
+    "_creationTime": 1777384378876.1616,
+    "_id": "kx706adtrs8r0e6f9fkw4jekb985q1q7",
+    "createdAt": 1777384378876,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Definite integrals as signed area under curves\n\n- Geometric interpretation of definite integrals (rectangles, triangles, circles)\n\n- Properties of definite integrals (linearity and additivity)\n\n- Integration of piecewise-defined functions\n\n- Evaluating integrals using geometric area formulas\n- Interval additivity property: $\\int_a^c f(x)\\,dx = \\int_a^b f(x)\\,dx + \\int_b^c f(x)\\,dx$\n\n---\n\n# **Important Formulas**\n\n## Signed Area and the Definite Integral\n\nThe definite integral $\\int_{a}^{b} f(x)\\,dx$ represents the **net signed area** between the curve $y = f(x)$ and the $x$-axis over $[a, b]$:\n\n- Regions **above** the $x$-axis contribute **positive** area.\n- Regions **below** the $x$-axis contribute **negative** area.\n\nWhen $f(x) \\geq 0$ on $[a,b]$, the definite integral equals the actual geometric area of the region bounded by $y = f(x)$, the $x$-axis, and the lines $x = a$ and $x = b$.\n\n## Properties of Definite Integrals\n\n**Zero-width interval:**\n$$\\int_{a}^{a} f(x)\\,dx = 0$$\n\n**Reversing limits:**\n$$\\int_{b}^{a} f(x)\\,dx = -\\int_{a}^{b} f(x)\\,dx$$\n\n**Linearity Property:**\n$$\\int_{a}^{b} \\left[ c_1 f(x) + c_2 g(x) \\right] dx = c_1 \\int_{a}^{b} f(x)\\,dx + c_2 \\int_{a}^{b} g(x)\\,dx$$\n\n**Interval Additivity:**\n$$\\int_{a}^{c} f(x)\\,dx = \\int_{a}^{b} f(x)\\,dx + \\int_{b}^{c} f(x)\\,dx$$\n\n## Geometric Area Formulas\n\nWhen the integrand defines a standard geometric shape, the integral can be evaluated directly using the corresponding area formula:\n\n| Shape | Formula |\n| :--- | :--- |\n| Rectangle | $A = \\text{base} \\times \\text{height}$ |\n| Triangle | $A = \\dfrac{1}{2} \\times \\text{base} \\times \\text{height}$ |\n| Semicircle | $A = \\dfrac{1}{2}\\pi r^2$ |\n| Quarter-circle | $A = \\dfrac{1}{4}\\pi r^2$ |\n\n**Example:** $\\int_{0}^{r} \\sqrt{r^2 - x^2}\\,dx = \\dfrac{1}{4}\\pi r^2$ because the integrand $y = \\sqrt{r^2 - x^2}$ over $[0, r]$ traces a quarter-circle of radius $r$.\n\n## Piecewise Functions\n\nFor a piecewise function $f(x)$ whose definition changes at $x = k$ within $[a, b]$, use interval additivity to split the integral:\n\n$$\\int_{a}^{b} f(x)\\,dx = \\int_{a}^{k} f_1(x)\\,dx + \\int_{k}^{b} f_2(x)\\,dx$$\n\nwhere $f_1$ and $f_2$ are the respective pieces. Each sub-integral is then evaluated using the appropriate formula for that piece.\n\n---\n\n# **Summary**\n\nThis exercise develops geometric and algebraic techniques for evaluating definite integrals without using antiderivatives. Key strategies include:\n\n1. **Visualizing signed area** — recognizing whether regions lie above or below the $x$-axis.\n2. **Geometric shortcuts** — identifying triangles, rectangles, and semicircles within integral bounds and applying their area formulas directly.\n3. **Linearity** — splitting sums/differences of integrands and factoring out constants.\n4. **Interval additivity** — splitting integrals at boundary points, especially for piecewise functions.\n5. **Limit reversal** — understanding that swapping limits negates the integral value.",
+    "publishedAt": 1777384378876,
+    "slug": "exercise-3-6",
+    "sourceRef": {
+      "blockIndex": 171,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.6 Exercise 3.6",
+    "topicId": "ms7a6bfkqfywwa1pc5w22fz29h85qbat",
+    "updatedAt": 1787554346711
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-7",
+    "topicTitle": "3.7 Definite Integration and the Fundamental Theorem of Calculus",
+    "_creationTime": 1777384379657.1746,
+    "_id": "kx7139j4hbdq02akapz9hqe7ex85q2kg",
+    "createdAt": 1777384379657,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following integration concepts:\n\n- Definite integration using the Fundamental Theorem of Calculus\n\n- Integration of polynomial and power functions\n\n- Integration of trigonometric functions ($\\sin x$, $\\cos x$, $\\sec^2 x$)\n\n- Integration by substitution ($u$-substitution) for composite functions\n\n- Integration by parts for logarithmic and inverse trigonometric functions\n\n- Partial fraction decomposition for rational functions\n\n- Integration of exponential functions\n\n- Algebraic simplification of integrands before integration\n\n- **Volume of Revolution** (Disk Method)\n- **Trapezium Rule** for numerical estimation of definite integrals\n\n---\n\n# **Important Formulas**\n\n## Fundamental Theorem of Calculus\n$$\\int_a^b f(x) \\, dx = F(b) - F(a) \\quad \\text{where } F'(x) = f(x)$$\n\n## Power Rule for Integration\n$$\\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\quad (n \\neq -1)$$\n\n## Basic Trigonometric Integrals\n$$\\int \\cos x \\, dx = \\sin x + C$$\n\n$$\\int \\sec^2 x \\, dx = \\tan x + C$$\n\n$$\\int \\sin x \\, dx = -\\cos x + C$$\n\n## Integration by Parts\n$$\\int u \\, dv = uv - \\int v \\, du$$\n\n## Power Reduction Formula\n$$\\cos^2 x = \\frac{1 + \\cos(2x)}{2}$$\n\n## Partial Fractions (distinct linear factors)\n$$\\frac{1}{(x+a)(x+b)} = \\frac{1}{b-a}\\left(\\frac{1}{x+a} - \\frac{1}{x+b}\\right)$$\n\n---\n\n# **Volume of Revolution — Disk Method**\n\nWhen a region bounded by $y = f(x)$, the $x$-axis, and the vertical lines $x = a$ and $x = b$ is rotated about the **$x$-axis**, the volume of the resulting solid is:\n\n$$V = \\pi \\int_{a}^{b} [f(x)]^2 \\, dx$$\n\nEach thin slice perpendicular to the $x$-axis is a **disk** of:\n- Radius $= f(x)$\n- Area $= \\pi [f(x)]^2$\n- Thickness $= dx$\n\n**Similarly**, rotating about the **$y$-axis** with $x = g(y)$:\n$$V = \\pi \\int_{c}^{d} [g(y)]^2 \\, dy$$\n\n**Worked Example:** Find the volume when $y = \\sqrt{x}$ from $x = 0$ to $x = 4$ is rotated about the $x$-axis.\n\n$$V = \\pi \\int_{0}^{4} (\\sqrt{x})^2 \\, dx = \\pi \\int_{0}^{4} x \\, dx = \\pi \\left[\\frac{x^2}{2}\\right]_0^4 = \\pi \\cdot 8 = 8\\pi \\text{ cubic units}$$\n\n---\n\n# **Trapezium Rule**\n\nThe **Trapezium Rule** estimates $\\int_{a}^{b} f(x) \\, dx$ by dividing $[a, b]$ into $n$ equal strips of width $h = \\dfrac{b-a}{n}$:\n\n$$\\int_{a}^{b} f(x) \\, dx \\approx \\frac{h}{2}\\left[f(x_0) + 2f(x_1) + 2f(x_2) + \\cdots + 2f(x_{n-1}) + f(x_n)\\right]$$\n\nwhere $x_i = a + ih$ for $i = 0, 1, 2, \\ldots, n$.\n\n**Key points:**\n- The **first** and **last** ordinates have coefficient **1**.\n- All **interior** ordinates have coefficient **2**.\n- The result is multiplied by $\\dfrac{h}{2}$.\n\n**Worked Example:** Estimate $\\int_{0}^{4} x^2 \\, dx$ using the Trapezium Rule with $n = 4$.\n\n$h = 1$; ordinates at $x = 0, 1, 2, 3, 4$: $f = 0, 1, 4, 9, 16$.\n\n$$\\approx \\frac{1}{2}[0 + 2(1) + 2(4) + 2(9) + 16] = \\frac{1}{2}[0 + 2 + 8 + 18 + 16] = \\frac{44}{2} = 22$$\n\n(Exact value: $\\frac{64}{3} \\approx 21.33$)\n\n---\n\n# **Summary**\n\nThis exercise provides comprehensive practice in evaluating definite integrals using various techniques. Key topics include:\n\n- **FTC**: $\\int_a^b f(x)\\,dx = F(b) - F(a)$\n- **Substitution**: Change limits when substituting in definite integrals\n- **Integration by Parts**: $\\int u\\,dv = uv - \\int v\\,du$ (use LIATE rule for choosing $u$)\n- **Partial Fractions**: Decompose rational functions before integrating\n- **Volume of Revolution**: $V = \\pi\\int_a^b [f(x)]^2\\,dx$ (Disk Method)\n- **Trapezium Rule**: Numerical estimation with coefficients $1, 2, 2, \\ldots, 2, 1$\n\nKey strategies: recognize when algebraic simplification is needed, apply even/odd function properties over symmetric intervals, and select the appropriate technique based on the integrand's structure.",
+    "publishedAt": 1777384379657,
+    "slug": "exercise-3-7",
+    "sourceRef": {
+      "blockIndex": 205,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.7 Exercise 3.7",
+    "topicId": "ms781xa41b81wxrctexamzbz1h85p4p1",
+    "updatedAt": 1787554347005
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "03-integration",
+    "chapterTitle": "Integration",
+    "topicSlug": "exercise-3-8",
+    "topicTitle": "3.8 Applications of Definite Integrals",
+    "_creationTime": 1777384380429.9153,
+    "_id": "kx7b6ephjnzbhbqpxwnc29rxks85q0b3",
+    "createdAt": 1777384380430,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Definite integrals for calculating areas under curves and between curves\n- Integration with respect to both $x$ and $y$ (horizontal and vertical slices)\n\n- Volumes of solids of revolution (Disk and Washer methods)\n- Applications to physics: Work, force, and Hooke's Law for springs\n- Applications to economics: Consumer surplus and producer surplus\n- Total accumulation from rate of change (revenue, motion)\n- Position functions and rectilinear motion\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n## Area Formulas\n\n$$A = \\int_a^b f(x) \\, dx \\quad \\text{(Area under curve, } f(x) \\geq 0\\text{)}$$\n\n$$A = -\\int_a^b f(x) \\, dx \\quad \\text{(Area under curve, } f(x) \\leq 0\\text{)}$$\n\n$$A = \\int_a^b [f(x) - g(x)] \\, dx \\quad \\text{(Area between curves, vertical slices)}$$\n\n$$A = \\int_c^d [f(y) - g(y)] \\, dy \\quad \\text{(Area between curves, horizontal slices)}$$\n\n**Key strategy:** To find limits of integration when not given, set the two curve equations equal and solve for the intersection points.\n\n## Volume Formulas (Solids of Revolution)\n\n$$V = \\pi \\int_a^b [f(x)]^2 \\, dx \\quad \\text{(Disk Method — rotation about } x\\text{-axis)}$$\n\n$$V = \\pi \\int_a^b \\left([R(x)]^2 - [r(x)]^2\\right) \\, dx \\quad \\text{(Washer Method)}$$\n\nwhere $R(x)$ is the outer radius and $r(x)$ is the inner radius.\n\n## Physics Applications\n\n**Hooke's Law:** $F = kx$, where $k$ is the spring constant and $x$ is the displacement from natural length.\n\n$$W = \\int_a^b F(x) \\, dx \\quad \\text{(Work done by a variable force)}$$\n\n$$W = \\frac{1}{2}kx^2 \\quad \\text{(Work to stretch/compress a spring by distance } x\\text{)}$$\n\n**Procedure:** Given that a force $F_0$ stretches a spring by $x_0$, find $k = F_0/x_0$, then integrate $F = kx$ over the required interval.\n\n## Economic Applications\n\n$$\\text{Consumer Surplus: } CS = \\int_0^{q^*} D(q) \\, dq - p^* q^*$$\n\n$$\\text{Producer Surplus: } PS = p^* q^* - \\int_0^{q^*} S(q) \\, dq$$\n\nwhere $D(q)$ is the demand function, $S(q)$ is the supply function, $p^*$ is the equilibrium price, and $q^*$ is the equilibrium quantity.\n\n## Accumulation from Rate of Change\n\n$$\\text{Total quantity} = \\int_a^b r(t) \\, dt$$\n\nThis applies to: total revenue from marginal revenue, total distance from velocity, total population change from growth rate, etc.\n\n---\n\n# **Summary**\n\nThis exercise comprehensively covers applications of definite integration across geometry, physics, and economics.\n\n- **Geometry:** Calculate areas between curves using vertical slices ($dx$) or horizontal slices ($dy$); find volumes of solids of revolution using the Disk Method and Washer Method.\n- **Physics:** Calculate work done by variable forces, particularly spring problems using Hooke's Law ($F = kx$).\n- **Economics:** Compute consumer surplus and producer surplus from demand and supply functions.\n- **Accumulation:** Determine total quantities (revenue, displacement, population change) by integrating rate functions.\n\n**Key strategies:**\n1. Find limits of integration from intersection points of curves.\n2. Choose the variable of integration ($x$ or $y$) that simplifies the setup.\n3. Correctly identify outer and inner radii for the Washer Method.\n4. Always verify that the integrand represents the correct quantity (e.g., upper curve minus lower curve for area).",
+    "publishedAt": 1777384380430,
+    "slug": "exercise-3-8",
+    "sourceRef": {
+      "blockIndex": 217,
+      "chapterNumber": 3,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "3.8 Exercise 3.8",
+    "topicId": "ms73pkt8jbb2zgdac8ecdmk0rx85qc3r",
+    "updatedAt": 1787554347298
+  }
+]

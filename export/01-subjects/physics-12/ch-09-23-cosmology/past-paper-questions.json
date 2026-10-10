@@ -1,0 +1,162 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-1-black-body-radiation",
+    "topicTitle": "23.1 Blackbody Radiation",
+    "_id": "m177qjcqzmq4s9hxfvh2pxvqa185q5t7",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition of black body: absorbs all incident radiation (absorptivity = 1) and emits maximum radiation at given temperature",
+      "Peak wavelength $\\lambda_{\\max}$ shifts to shorter wavelengths with increasing temperature (Wien's displacement law)",
+      "Intensity-wavelength curves show characteristic shape with peak that increases in height and shifts left as temperature rises",
+      "Total radiated power increases with temperature following Stefan-Boltzmann law $P = \\sigma A T^4$",
+      "Curves are continuous distributions; higher temperature curves lie above lower temperature curves, demonstrating increased energy emission at all wavelengths"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "A **black body** is an idealised object that absorbs all incident electromagnetic radiation (absorptivity = 1) and emits radiation at the maximum possible rate for its temperature. Real examples include a small hole in a hollow cavity and the Sun's surface. When heated, a black body emits a continuous spectrum with a characteristic peak wavelength $\\lambda_{\\max}$ that shifts to shorter wavelengths as temperature increases, following Wien's displacement law: $\\lambda_{\\max} T = \\text{constant}$. The intensity-wavelength distribution shows that at higher temperatures, the peak intensity increases and moves leftward (toward shorter wavelengths), while the total radiated power increases according to the Stefan-Boltzmann law: $P = \\sigma A T^4$. The curves are smooth, continuous distributions that never cross; each curve represents a different temperature, with higher temperature curves lying above lower temperature curves across most of the spectrum. The area under each curve represents total energy radiated, which increases dramatically with temperature. These curves demonstrate that hotter objects emit more total radiation and emit it predominantly at shorter wavelengths, explaining why hot objects appear blue-white while cooler objects appear red.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Explain the concept of **Black body radiation** with the help of examples. Describe how energy is distributed over the wavelength range for different values of source temperature. Also draw its curves.",
+    "topicId": "ms7933b2g56r1t1h2c2p9cvc5585pjnk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-1-black-body-radiation",
+    "topicTitle": "23.1 Blackbody Radiation",
+    "_id": "m178nyqx7y50amw2kb27b6jxc585qt5t",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "States inverse relationship between peak wavelength and absolute temperature: $\\lambda_{\\max} T = b$",
+      "Wien's constant $b = 2.898 \\times 10^{-3}$ m·K",
+      "Peak wavelength shifts to shorter wavelengths as temperature increases",
+      "Explains colour changes in heated objects (blue for hot, red for cool)",
+      "Applies to black body radiation spectrum"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Wien's displacement law states that the wavelength at which a black body emits maximum radiation is inversely proportional to its absolute temperature: $\\lambda_{\\max} T = b$, where $b = 2.898 \\times 10^{-3}$ m·K is Wien's constant. As temperature increases, the peak wavelength shifts to shorter (bluer) wavelengths, and vice versa. This law explains why hotter objects appear bluer and cooler objects appear redder.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "What is Wien’s displacement law? Explain briefly.",
+    "topicId": "ms7933b2g56r1t1h2c2p9cvc5585pjnk",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-4-spectra-of-light",
+    "topicTitle": "23.4 Spectra of Light",
+    "_id": "m175gr07xazefz1d9c5x3edfvx85pzmg",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The Lyman series corresponds to electron transitions to n=1 and lies entirely in the ultraviolet region. The Bracket series (n=4), Pfund series (n=5), and Balmer series (n=2) lie in infrared or visible regions respectively.",
+    "keyPoints": [
+      "Lyman series involves transitions to n = 1 (ground state)",
+      "Large energy differences produce short wavelengths (UV region)",
+      "Wavelength range approximately 91–122 nm",
+      "Uses energy relation $E = hf = \\frac{hc}{\\lambda}$ to determine photon wavelength",
+      "Other series (Balmer, Paschen, Brackett) lie in visible or infrared regions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The **Lyman series** lies in the ultraviolet region. This series corresponds to electron transitions ending at the ground state ($n = 1$) in hydrogen. Since transitions from higher levels ($n = 2, 3, 4, \\ldots$) to $n = 1$ release large amounts of energy, the emitted photons have short wavelengths in the UV range (approximately 91–122 nm).",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bracket series"
+      },
+      {
+        "key": "B",
+        "text": "Pfund series"
+      },
+      {
+        "key": "C",
+        "text": "Lyman series"
+      },
+      {
+        "key": "D",
+        "text": "Balmer series"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "Which of the following series lies in the ultraviolet region?",
+    "topicId": "ms72j06dy7t6gw7ajgh85hw53585qp9p",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-4-spectra-of-light",
+    "topicTitle": "23.4 Spectra of Light",
+    "_id": "m179ngnh7zzpqcnq1znh7zgtnx85q37t",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "X-rays have wavelengths 0.01–10 nm (much shorter than visible light 400–700 nm) and higher frequencies",
+      "X-rays originate from inner-shell electron transitions in heavy elements; visible light from outer-shell transitions",
+      "X-rays have much higher photon energy ($E = hf$) due to greater frequency difference between energy levels",
+      "X-rays are highly penetrating and ionizing; visible light is non-ionizing",
+      "X-ray emission is characteristic of specific elements (discrete lines); visible light can be continuous or discrete depending on source"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Characteristic X-rays differ from visible light in several fundamental ways. X-rays have much shorter wavelengths (0.01–10 nm) compared to visible light (400–700 nm), resulting in much higher frequencies (~$10^{17}$–$10^{19}$ Hz vs ~$10^{14}$–$10^{15}$ Hz) and higher photon energies. X-rays are produced by inner-shell electron transitions in heavy elements, where electrons fall from higher energy levels to fill vacancies in inner shells (K, L, M shells), emitting high-energy photons. In contrast, visible light is typically produced by outer-shell electron transitions in atoms or by thermal radiation. Additionally, X-rays are highly penetrating and ionizing due to their high energy, whereas visible light is non-ionizing and easily absorbed by matter.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "The inner shell transitions in heavy elements result into emission of characteristic X-Rays. How do these X-Rays differ from visible light?",
+    "topicId": "ms72j06dy7t6gw7ajgh85hw53585qp9p",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-4-spectra-of-light",
+    "topicTitle": "23.4 Spectra of Light",
+    "_id": "m175s53bg6d8p940ebvz85f55s85qgz5",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies Lyman series as transitions ending at $n=1$",
+      "Recognizes longest wavelength corresponds to smallest energy transition ($n=2 \\to n=1$)",
+      "Correctly applies Rydberg formula with $R_H = 1.097 \\times 10^7 \\text{ m}^{-1}$",
+      "Calculates $\\lambda = 1.22 \\times 10^{-7}$ m or 122 nm",
+      "Shows correct mathematical steps and unit conversion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The longest wavelength in the Lyman series corresponds to the transition from $n = 2$ to $n = 1$. Using the Rydberg formula: $\\frac{1}{\\lambda} = R_H\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right) = 1.097 \\times 10^7\\left(\\frac{1}{1^2} - \\frac{1}{2^2}\\right) = 1.097 \\times 10^7 \\times \\frac{3}{4} = 8.228 \\times 10^6 \\text{ m}^{-1}$. Therefore, $\\lambda = \\frac{1}{8.228 \\times 10^6} = 1.22 \\times 10^{-7} \\text{ m} = 122 \\text{ nm}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Calculate the longest wavelength of radiation for the Lyman series of hydrogen spectra.",
+    "topicId": "ms72j06dy7t6gw7ajgh85hw53585qp9p",
+    "year": 2024
+  }
+]

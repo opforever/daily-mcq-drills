@@ -1,0 +1,955 @@
+<!-- note kx7ffvbm3215sq7rd3cdztwpps85p409 | topic ms75zhhpbts34wyxdnjvv6brkh85qj14 | status published -->
+# 6.1 Energy in Chemical Reactions
+
+# 6.1 Energy in Chemical Reactions
+
+Energy, often in the form of heat, is either evolved or absorbed during a chemical reaction. This occurs because chemical reactions involve the breaking of old chemical bonds and the formation of new ones.
+
+*   **Bond Breaking:** Always consumes energy.
+*   **Bond Making:** Always releases energy.
+
+The net energy change depends on the balance between these two processes.
+
+*   If energy released from bond formation is greater than energy consumed by bond breaking, the reaction releases energy to the surroundings (**exothermic**).
+*   If energy consumed by bond breaking is greater than energy released from bond formation, the reaction absorbs energy from the surroundings (**endothermic**).
+
+Thus, in chemical reactions, there is always an energy transfer between the **system** (the reaction itself) and the **surroundings**.
+
+---
+
+## 6.1.1 Units of Thermal Energy
+
+The standard unit of heat or thermal energy in the SI system is the **Joule (J)**.
+
+Another common unit is the **calorie (cal)**.
+
+*   **Definition:** The thermal energy required to raise the temperature of one gram of water from $14.5^\circ\mathrm{C}$ to $15.5^\circ\mathrm{C}$.
+*   **Conversion:**
+    $$1\ \text{calorie} = 4.184\ \text{Joules}$$
+
+For larger quantities, the **kilocalorie (kcal)** and **kilojoule (kJ)** are commonly used:
+$$1\ \text{kcal} = 1000\ \text{cal} = 4184\ \text{J} = 4.184\ \text{kJ}$$
+
+---
+
+## 6.1.2 Thermochemical Reactions
+
+A **thermochemical reaction** is a chemical reaction that proceeds with the evolution or absorption of heat. The study of these heat changes is called **thermochemistry**.
+
+A **thermochemical equation** is a balanced chemical equation that includes the heat change (enthalpy change, $\Delta H$).
+
+**Example:**
+$$\mathrm{C_{(s)}} + \mathrm{O_{2(g)}} \rightarrow \mathrm{CO_{2(g)}} \quad \Delta H^\circ = -393.5\ \text{kJ}$$
+
+This equation indicates that when one mole of solid carbon reacts with one mole of oxygen gas to form one mole of carbon dioxide gas, 393.5 kJ of heat is released.
+
+### (1) Exothermic Reactions
+
+An **exothermic reaction** is a chemical reaction that proceeds with the *evolution of heat* ($\Delta H$ is negative). In these reactions, the system transfers energy to the surroundings.
+
+**Examples:**
+
+*   Combustion of Carbon:
+    $$\mathrm{C_{(s)}} + \mathrm{O_{2(g)}} \rightarrow \mathrm{CO_{2(g)}} \quad \Delta H^\circ = -393.5\ \text{kJ}$$
+*   Formation of Water:
+    $$2\mathrm{H_{2(g)}} + \mathrm{O_{2(g)}} \rightarrow 2\mathrm{H_2O_{(l)}} \quad \Delta H^\circ = -571.6\ \text{kJ}$$
+*   Formation of Carbon Monoxide:
+    $$\mathrm{C_{(s)}} + \frac{1}{2}\mathrm{O_{2(g)}} \rightarrow \mathrm{CO_{(g)}} \quad \Delta H^\circ = -110.5\ \text{kJ}$$
+
+### (2) Endothermic Reactions
+
+An **endothermic reaction** is a chemical reaction that proceeds with the *absorption of heat* ($\Delta H$ is positive). In these reactions, the system absorbs heat from the surroundings.
+
+**Examples:**
+
+*   Formation of Hydrogen Iodide:
+    $$\mathrm{H_{2(g)}} + \mathrm{I_{2(g)}} \rightarrow 2\mathrm{HI_{(g)}} \quad \Delta H^\circ = +53.8\ \text{kJ}$$
+*   Steam Reforming of Carbon:
+    $$\mathrm{C_{(s)}} + \mathrm{H_2O_{(g)}} \rightarrow \mathrm{CO_{(g)}} + \mathrm{H_{2(g)}} \quad \Delta H^\circ = +131.4\ \text{kJ}$$
+*   Formation of Nitric Oxide:
+    $$\mathrm{N_{2(g)}} + \mathrm{O_{2(g)}} \rightarrow 2\mathrm{NO_{(g)}} \quad \Delta H^\circ = +180.5\ \text{kJ}$$
+
+---
+
+## 6.1.3 Heat of Reaction ($\Delta H$)
+
+The **heat of reaction** is the amount of heat evolved or absorbed in a chemical reaction, corresponding to the molar quantities shown in the balanced chemical equation.
+
+The **standard enthalpy change ($\Delta H^\circ$)** is the heat of reaction measured under standard conditions:
+
+*   **Temperature:** $25^\circ\mathrm{C}$ (298 K)
+*   **Pressure:** 1 atmosphere (atm)
+
+**Important Note:** If a reaction is reversed, the magnitude of $\Delta H^\circ$ remains the same, but its sign changes.
+
+*   **Forward Reaction (Exothermic):**
+    $$\mathrm{C_{(s)}} + \mathrm{O_{2(g)}} \rightarrow \mathrm{CO_{2(g)}} \quad \Delta H^\circ = -393.5\ \text{kJ}$$
+*   **Reverse Reaction (Endothermic):**
+    $$\mathrm{CO_{2(g)}} \rightarrow \mathrm{C_{(s)}} + \mathrm{O_{2(g)}} \quad \Delta H^\circ = +393.5\ \text{kJ}$$
+
+---
+
+## 6.1.4 Relation between Enthalpy Change and Heat of Reaction
+
+For reactions occurring at **constant pressure**, the heat change is equal to the change in **enthalpy ($\Delta H$)**.
+
+Enthalpy change is the difference between the enthalpies of the products and the reactants:
+$$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
+
+*   For an **exothermic** process, heat is released, so $H_{\text{products}} < H_{\text{reactants}}$, and **$\Delta H$ is negative**.
+*   For an **endothermic** process, heat is absorbed, so $H_{\text{products}} > H_{\text{reactants}}$, and **$\Delta H$ is positive**.
+
+---
+
+## 6.1.5 Standard States and Standard Enthalpy Changes
+
+To ensure consistency, enthalpy changes are reported for reactions where all substances are in their **standard state**.
+
+**Conditions for Standard States:**
+
+1.  **Gas:** A pure gas at 1 atm pressure.
+2.  **Element/Compound:** The most stable physical state (solid, liquid, or gas) at 1 atm and $25^\circ\mathrm{C}$ (298 K).
+3.  **Aqueous Solution:** A substance at a 1 M concentration.
+
+---
+
+## 6.1.6 Types of Standard Enthalpies
+
+### 1. Standard Enthalpy of Reaction ($\Delta H_r^\circ$)
+
+The enthalpy change when molar quantities of reactants as shown in the balanced equation react to form products, with all substances in their standard states.
+
+**Example:** Methane Combustion
+$$\mathrm{CH_{4(g)}} + 2\mathrm{O_{2(g)}} \rightarrow \mathrm{CO_{2(g)}} + 2\mathrm{H_2O_{(l)}} \quad \Delta H_r^\circ = -890.4\ \text{kJ}$$
+
+### 2. Standard Enthalpy of Formation ($\Delta H_f^\circ$)
+
+The enthalpy change when **one mole** of a compound is formed from its constituent elements in their standard states.
+
+**Convention:** The standard enthalpy of formation of an element in its most stable standard state is **zero** ($\Delta H_f^\circ = 0$).
+
+**Examples:**
+$$\mathrm{C_{(s)}} + \mathrm{O_{2(g)}} \rightarrow \mathrm{CO_{2(g)}} \quad \Delta H_f^\circ = -393.5\ \text{kJ/mol}$$
+$$\mathrm{H_{2(g)}} + \frac{1}{2}\mathrm{O_{2(g)}} \rightarrow \mathrm{H_2O_{(l)}} \quad \Delta H_f^\circ = -285.8\ \text{kJ/mol}$$
+
+### 3. Standard Enthalpy of Combustion ($\Delta H_c^\circ$)
+
+The enthalpy change when **one mole** of a substance is completely burned in excess oxygen under standard conditions.
+
+**Example:**
+$$\mathrm{CH_{4(g)}} + 2\mathrm{O_{2(g)}} \rightarrow \mathrm{CO_{2(g)}} + 2\mathrm{H_2O_{(l)}} \quad \Delta H_c^\circ = -890.4\ \text{kJ/mol}$$
+
+### 4. Standard Enthalpy of Neutralization ($\Delta H_n^\circ$)
+
+The enthalpy change when an acid and a base react to form **one mole of water** under standard conditions.
+
+**Example:**
+$$\mathrm{HCl_{(aq)}} + \mathrm{NaOH_{(aq)}} \rightarrow \mathrm{NaCl_{(aq)}} + \mathrm{H_2O_{(l)}} \quad \Delta H_n^\circ = -57.3\ \text{kJ/mol}$$
+
+For strong acid–strong base neutralization, $\Delta H_n^\circ \approx -57.3\ \text{kJ/mol}$ because the net ionic equation is always:
+$$\mathrm{H^+_{(aq)}} + \mathrm{OH^-_{(aq)}} \rightarrow \mathrm{H_2O_{(l)}}$$
+
+---
+
+<!-- note kx7ctxvdez1djqh18dr4f05je185pxpb | topic ms76hpb7kmvqa79v2f2jc5zrdx85ps7p | status published -->
+# 6.2 Bond Energy
+
+# 6.2 Bond Energy
+
+When a chemical reaction occurs, chemical bonds in the reactant molecules are broken, and new bonds are formed in the product molecules. This process involves changes in energy.
+
+**Bond Breaking**: This process always requires an input of energy. The energy needed to break one mole of a particular bond to form neutral gaseous atoms is known as the **bond dissociation energy**. It is an **endothermic** process ($\Delta H = +ve$).
+
+**Bond Formation**: This process always releases energy. The energy released when one mole of a bond is formed from neutral gaseous atoms is called **bond energy**. It is an **exothermic** process ($\Delta H = -ve$).
+
+## Calculating Enthalpy Change from Bond Energies
+
+The overall energy change in a reaction, known as the **enthalpy change ($\Delta H$)**, is the difference between the energy absorbed to break bonds and the energy released when new bonds are formed.
+
+$$
+\Delta H = \sum H_{\text{(bonds broken)}} - \sum H_{\text{(bonds formed)}}
+$$
+
+Where:
+- $\sum H_{\text{(bonds broken)}}$ = sum of bond dissociation energies of all bonds in the **reactants**
+- $\sum H_{\text{(bonds formed)}}$ = sum of bond energies of all bonds in the **products**
+
+> **Sign convention:** If $\Delta H < 0$, the reaction is **exothermic** (more energy released in bond formation than absorbed in bond breaking). If $\Delta H > 0$, the reaction is **endothermic**.
+
+## Worked Examples
+
+### Example 1: Theoretical Bond Energy of H–Cl
+
+Calculate the bond energy for the H–Cl bond using the reaction:
+
+$$\mathrm{H_2(g)} + \mathrm{Cl_2(g)} \rightarrow 2\mathrm{HCl(g)}$$
+
+**Given:**
+- Bond dissociation energy of H–H: $436\ \text{kJ/mol}$
+- Bond dissociation energy of Cl–Cl: $243\ \text{kJ/mol}$
+
+**Solution:**
+
+1. **Bonds broken (reactants):** 1 mol H–H + 1 mol Cl–Cl
+2. **Bonds formed (products):** 2 mol H–Cl
+3. **Energy balance:**
+
+$$436 + 243 = 2 \times (\text{Bond energy of H–Cl})$$
+
+$$679\ \text{kJ} = 2 \times (\text{Bond energy of H–Cl})$$
+
+$$\text{Bond energy of H–Cl} = \frac{679}{2} = 339.5\ \text{kJ/mol}$$
+
+> **Note:** The experimentally determined bond energy of HCl is $431.5\ \text{kJ/mol}$. The difference arises because theoretical values are averages and do not account for factors like unequal electron distribution due to electronegativity differences.
+
+### Example 2: Enthalpy of Reaction for Water Formation
+
+Calculate $\Delta H$ for:
+
+$$2\mathrm{H_2(g)} + \mathrm{O_2(g)} \rightarrow 2\mathrm{H_2O(l)}$$
+
+**Given:**
+- H–H bond energy: $436\ \text{kJ/mol}$
+- O=O bond energy: $493.6\ \text{kJ/mol}$
+- O–H bond energy: $460\ \text{kJ/mol}$
+
+**Solution:**
+
+| Step | Calculation | Energy |
+|------|-------------|--------|
+| Bonds broken: 2 mol H–H | $2 \times 436$ | $+872\ \text{kJ}$ |
+| Bonds broken: 1 mol O=O | $1 \times 493.6$ | $+493.6\ \text{kJ}$ |
+| **Total energy absorbed** | | $+1365.6\ \text{kJ}$ |
+| Bonds formed: 4 mol O–H (2 per H₂O × 2 mol H₂O) | $4 \times 460$ | $-1840\ \text{kJ}$ |
+
+$$\Delta H = 1365.6 - 1840 = -474.4\ \text{kJ}$$
+
+The **negative sign** confirms the reaction is **exothermic**, releasing $474.4\ \text{kJ}$ of energy.
+
+### Example 3: Average Bond Energy of C–H in Methane
+
+Calculate the average bond energy per mole of C–H bonds in methane ($\mathrm{CH_4}$).
+
+**Given:**
+$$\mathrm{CH_4(g)} \rightarrow \mathrm{C(s)} + 4\mathrm{H(g)} \quad \Delta H^\circ = +1662\ \text{kJ}$$
+
+**Solution:**
+
+One molecule of $\mathrm{CH_4}$ contains **four C–H bonds**. The total energy absorbed ($+1662\ \text{kJ}$) breaks all four bonds.
+
+$$\text{Average C–H bond energy} = \frac{1662\ \text{kJ}}{4} = +415.5\ \text{kJ/mol}$$
+
+## 6.2.1 Variability in Bond Energies
+
+Tabulated bond energy values are often averages, and their precision depends on the specific molecule and its chemical environment.
+
+### Well-Defined (Exact) Bond Energies
+
+For **diatomic homonuclear molecules** (e.g., $\mathrm{H_2, O_2, N_2, Cl_2}$), bond energies are highly accurate and precise. Since only one type of bond exists in the molecule, the bond dissociation energy is the same for every molecule of that type.
+
+| Molecule | Bond | Bond Energy (kJ/mol) |
+|----------|------|---------------------|
+| $H_2$ | H–H | 436 |
+| $N_2$ | N≡N | 941 |
+| $O_2$ | O=O | 494 |
+| $Cl_2$ | Cl–Cl | 242 |
+| $F_2$ | F–F | 158 |
+
+### Approximate Bond Energies
+
+In **polyatomic molecules**, bond energies are approximate. The strength of a particular bond (e.g., C–H or C–C) is influenced by:
+
+- **Neighboring atoms:** Other atoms or functional groups attached to the bonded atoms alter the electron density and thus the bond strength. For example, the C–H bond energy in $\mathrm{CH_4}$ differs slightly from that in $\mathrm{CHCl_3}$.
+- **Molecular environment:** Resonance, inductive effects, and hybridization all affect bond strength.
+
+Because of this variability, bond energies for bonds in polyatomic molecules (e.g., C–H, C–C, C=O) are **average values** calculated from many different compounds. These averages are useful for estimating $\Delta H$ but may differ from experimentally measured values.
+
+> **Key distinction:** Bond dissociation energies of diatomic molecules are exact; bond energies of bonds in polyatomic molecules are averages and therefore approximate.
+
+## 6.2.2 Factors Affecting Bond Energy
+
+The following factors determine the strength of a covalent bond:
+
+### 1. Bond Length
+Bond energy is **inversely proportional** to bond length. Shorter bonds have greater orbital overlap, resulting in stronger bonds and higher bond energy.
+
+### 2. Bond Multiplicity (Bond Order)
+Bond energy **increases with bond order**:
+$$C\equiv C\ (837\ \text{kJ/mol}) > C=C\ (614\ \text{kJ/mol}) > C-C\ (347\ \text{kJ/mol})$$
+
+Higher bond order also means shorter bond length.
+
+### 3. Bond Polarity
+Greater electronegativity difference between bonded atoms increases ionic character, which adds electrostatic attraction and generally **increases bond energy**. This explains why HF ($569\ \text{kJ/mol}$) has a higher bond energy than HI ($297\ \text{kJ/mol}$).
+
+### 4. Lone Pair Repulsion (Anomalous Cases)
+In small atoms like fluorine, lone pairs on adjacent atoms are forced very close together, causing **lone pair–lone pair repulsion** that weakens the bond. This explains why $F_2$ ($158\ \text{kJ/mol}$) has a lower bond energy than $Cl_2$ ($242\ \text{kJ/mol}$) despite fluorine's higher electronegativity.
+
+## Using Bond Energy to Compare Reactivity
+
+Bond energy values allow us to compare the **reactivity of covalent molecules**:
+- Molecules with **lower bond energy** are more reactive (bonds break more easily)
+- Molecules with **higher bond energy** are less reactive (bonds are harder to break)
+
+Example: $F_2$ is more reactive than $Cl_2$ not because of bond energy alone, but $I_2$ is less reactive than $F_2$ in terms of bond strength considerations alongside other factors.
+
+Among hydrogen halides: HI is most reactive (lowest bond energy, $297\ \text{kJ/mol}$); HF is least reactive (highest bond energy, $569\ \text{kJ/mol}$).
+
+---
+
+<!-- note kx78exk6d739qwh2httn59gns985qwvg | topic ms745bpa3zncxm0cb8pskeag9n85q0m9 | status published -->
+# 6.3 HEAT AND TEMPERATURE
+
+## 6.3 HEAT AND TEMPERATURE
+
+This section explores the fundamental concepts of heat and temperature, their relationship, and how heat changes in chemical reactions are measured using calorimetry.
+
+## Heat as a Form of Energy
+
+**Heat** is a form of energy that arises from the movement (kinetic energy) of molecules within a substance. When a body absorbs heat, it becomes hotter; when it releases heat, it becomes colder.
+
+The **Law of Conservation of Energy** states that energy cannot be created or destroyed, only converted from one form to another. Heat is one of these forms, alongside light, mechanical, chemical, and nuclear energy.
+
+**Example**: Boiling water in a pot causes the lid to jump. This demonstrates the conversion of heat energy from the stove into mechanical energy that moves the lid.
+
+The SI unit for heat is the **Joule (J)**. It is also commonly measured in **calories (cal)**.
+
+$$1\,\text{cal} = 4.184\,\text{J}$$
+
+## Heat vs. Temperature
+
+While related, heat and temperature are distinct concepts. Temperature is considered an **intensive property** because it does not depend on the amount of matter present.
+
+| Feature | **Heat ($q$)** | **Temperature ($T$)** |
+|---------|--------------|---------------------|
+| **Definition** | The *total* energy produced by the movement of all molecules in a substance. | A measure of the *average* kinetic energy of the molecules in a substance. It describes the intensity of heat (hotness or coldness). |
+| **Type of Property** | Extensive (depends on amount of matter) | Intensive (independent of amount of matter) |
+| **Depends On** | Particle speed, particle size, and **number of particles**. | Particle speed (average kinetic energy) only. |
+| **Units** | Joules (J), calories (cal) | Kelvin (K), Celsius (°C), Fahrenheit (°F) |
+
+**Example**: A large jar and a small glass both filled with water at the same temperature. The water in both has the same average kinetic energy (same temperature), but the jar contains more water molecules, so it possesses more total heat energy.
+
+## Heat Capacity and Specific Heat Capacity
+
+The amount of heat absorbed ($q$) by a substance is directly proportional to its temperature change ($\Delta T$).
+
+$$q \propto \Delta T$$
+
+$$q = \text{Heat Capacity} \times \Delta T$$
+
+### Heat Capacity ($C$)
+
+The amount of heat required to raise the temperature of a **given amount** of a substance by 1 Kelvin.
+
+$$C = \frac{q}{\Delta T}$$
+
+- Units: Joules per Kelvin ($J\,K^{-1}$)
+- Heat capacity is an **extensive** property (depends on the amount of substance).
+
+### Specific Heat Capacity ($c$)
+
+The amount of heat required to raise the temperature of **one gram** of a substance by 1 Kelvin.
+
+$$c = \frac{q}{m \times \Delta T}$$
+
+This leads to the fundamental equation for heat calculation:
+
+$$q = m \times c \times \Delta T$$
+
+Where:
+- $q$ = heat absorbed or released (J)
+- $m$ = mass of the substance (g)
+- $c$ = specific heat capacity ($J\,g^{-1}\,K^{-1}$)
+- $\Delta T$ = change in temperature (K or °C)
+
+### Molar Heat Capacity
+
+The heat capacity per **mole** of a substance ($J\,mol^{-1}\,K^{-1}$).
+
+$$\text{Molar Heat Capacity} = c \times M$$
+
+Where $M$ is the molar mass in $g\,mol^{-1}$.
+
+**Example**:
+- Specific heat capacity of Copper (Cu) = $0.387\,J\,g^{-1}\,K^{-1}$
+- Molar mass of Cu = $63.54\,g\,mol^{-1}$
+- Molar heat capacity of Cu = $0.387 \times 63.54 = 24.59\,J\,mol^{-1}\,K^{-1}$
+
+## Measurement of Heat of Reaction (Calorimetry)
+
+A **calorimeter** is a device used to measure the heat flow associated with a chemical or physical process.
+
+### Constant Pressure Calorimeter (Coffee Cup Calorimeter)
+
+This type of calorimeter measures heat changes at **constant atmospheric pressure**. A simple and common version is the **coffee cup calorimeter**. It consists of:
+- A thermally insulated container (e.g., Styrofoam cup)
+- A lid
+- A thermometer
+- A stirrer
+
+The heat absorbed or released by the reaction ($q_{rxn}$) is equal in magnitude but opposite in sign to the heat absorbed or released by the solution ($q_{soln}$):
+
+$$q_{rxn} = -q_{soln}$$
+
+The heat change of the solution is calculated using:
+
+$$q_{soln} = m \times c \times \Delta T$$
+
+Where $m$ is the total mass of the solution and $c$ is the specific heat of the solution (often assumed to be that of water = $4.18\,J\,g^{-1}\,K^{-1}$).
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010200417.webp" alt="Coffee Cup calorimeter" caption="Figure 6.1: Coffee Cup calorimeter" />
+
+## Worked Examples
+
+### Example 6.4: Calculating Heat of Neutralization
+
+When $50\,cm^3$ of $1.0\,M$ NaOH neutralizes $50\,cm^3$ of $1.0\,M$ HCl at $25^\circ C$, the temperature rises to $31.9^\circ C$. Calculate the heat of neutralization. (Specific heat of water = $4.2\,J\,g^{-1}\,K^{-1}$. Density of water = $1\,g\,cm^{-3}$)
+
+**Solution:**
+
+**Step 1: Identify given values**
+- Volume of NaOH = $50\,cm^3$
+- Volume of HCl = $50\,cm^3$
+- Total Volume = $50 + 50 = 100\,cm^3$
+- Density of solution = $1\,g\,cm^{-3}$
+- Specific heat capacity ($c$) = $4.2\,J\,g^{-1}\,K^{-1}$
+- Initial Temperature ($T_i$) = $25^\circ C$
+- Final Temperature ($T_f$) = $31.9^\circ C$
+
+**Step 2: Calculate the mass ($m$) of the reaction mixture**
+
+$$m = \text{Total Volume} \times \text{Density} = 100\,cm^3 \times 1\,g\,cm^{-3} = 100\,g$$
+
+**Step 3: Calculate the change in temperature ($\Delta T$)**
+
+$$\Delta T = T_f - T_i = 31.9^\circ C - 25^\circ C = 6.9^\circ C = 6.9\,K$$
+
+**Step 4: Calculate the heat evolved ($q_{soln}$) by the solution**
+
+$$q_{soln} = m \times c \times \Delta T = 100\,g \times 4.2\,J\,g^{-1}\,K^{-1} \times 6.9\,K$$
+
+$$q_{soln} = 2898\,J = 2.898\,kJ$$
+
+**Step 5: Calculate the heat of reaction ($q_{rxn}$)**
+
+$$q_{rxn} = -q_{soln} = -2898\,J = -2.898\,kJ$$
+
+The negative sign indicates the reaction is **exothermic** (heat is released by the reaction into the solution).
+
+**Step 6: Calculate moles of water formed**
+
+The neutralization reaction is:
+$$\text{NaOH}_{(aq)} + \text{HCl}_{(aq)} \rightarrow \text{NaCl}_{(aq)} + \text{H}_2\text{O}_{(l)}$$
+
+Moles of NaOH = $1.0\,M \times 0.050\,L = 0.050\,mol$
+
+Moles of HCl = $1.0\,M \times 0.050\,L = 0.050\,mol$
+
+Moles of $\text{H}_2\text{O}$ formed = $0.050\,mol$
+
+**Step 7: Calculate heat of neutralization per mole**
+
+$$\Delta H_{\text{neutralization}} = \frac{q_{rxn}}{\text{moles of water}} = \frac{-2898\,J}{0.050\,mol} = -57960\,J\,mol^{-1}$$
+
+$$\boxed{\Delta H_{\text{neutralization}} = -57.96\,kJ\,mol^{-1}}$$
+
+This value is close to the standard heat of neutralization of a strong acid with a strong base ($-57.3\,kJ\,mol^{-1}$).
+
+---
+
+<!-- note kx702j0kj8t5ax8rq51ncfzsyx85p79s | topic ms7bzr618ej8mjt27t79jw1mh985q45y | status published -->
+# 6.4 Hess's Law
+
+Hess's Law is a fundamental principle in thermochemistry based on the fact that enthalpy is a *state function*. This means the total enthalpy change for a chemical reaction is independent of the pathway taken from the initial state (reactants) to the final state (products). The change in enthalpy is the same whether the reaction occurs in a single step or in multiple sequential steps.
+
+The law, stated by G.H. Hess in 1840, can be summarized as:
+
+> **The total enthalpy change in a chemical reaction is the same regardless of whether the reaction is completed in one step or in several steps.**
+
+Mathematically, for any cyclic process, the sum of all enthalpy changes is zero:
+$$ \Sigma \Delta H(\text{Cycle}) = 0 $$
+
+Consider a reaction where reactant **A** transforms into product **B**.
+
+* **Direct Path:** $A \rightarrow B$ with an enthalpy change of $\Delta H$.
+* **Indirect Path:** $A \rightarrow C \rightarrow D \rightarrow B$ with enthalpy changes $\Delta H_1$, $\Delta H_2$, and $\Delta H_3$ for each step.
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010200603.webp" alt="Hess's Law energy pathway diagram" caption="Figure 6.3: Hess's Law energy pathway diagram." />
+
+According to Hess's Law, the enthalpy change for the direct path is equal to the sum of the enthalpy changes for the indirect path:
+$$ \Delta H = \Delta H_1 + \Delta H_2 + \Delta H_3 $$
+
+## Principle and Application
+
+Hess's Law is particularly useful for determining the enthalpy changes of reactions that are difficult or impossible to measure directly in a calorimeter. This includes:
+
+- Reactions that are very slow.
+- Reactions that do not go to completion.
+- Reactions that produce side products.
+- Formation of compounds that cannot be synthesized directly from their elements (e.g., $\mathrm{CCl_4}$).
+- Combustion of elements that form a protective oxide layer (e.g., $\mathrm{Al}$, $\mathrm{B}$).
+
+By using Hess's Law, we can calculate the desired enthalpy change by combining the known enthalpy changes of other related reactions.
+
+## Calculating Enthalpies of Reaction from Enthalpies of Formation ($\Delta H_f^{\circ}$)
+
+A common application of Hess's Law is to calculate the standard enthalpy change of a reaction ($\Delta H_{\text{reaction}}^{\circ}$) using the standard enthalpies of formation ($\Delta H_f^{\circ}$) of the reactants and products.
+
+The general formula is:
+$$ \Delta H_{\text{reaction}}^{\circ} = \sum n_p \Delta H_f^{\circ}(\text{products}) - \sum n_r \Delta H_f^{\circ}(\text{reactants}) $$
+
+Where:
+
+- $n_p$ and $n_r$ are the stoichiometric coefficients of the products and reactants, respectively.
+- **Important Note:** The standard enthalpy of formation ($\Delta H_f^{\circ}$) of any element in its most stable standard state is defined as **zero**.
+
+## Calculation of Enthalpy of Combustion ($\Delta H_c^{\circ}$)
+
+The *enthalpy of combustion*, $\Delta H_c^{\circ}$, is the heat evolved when one mole of a substance burns completely in oxygen under standard conditions. It can be calculated using the same formula as above, with the products typically being $\mathrm{CO_2(g)}$ and $\mathrm{H_2O(l)}$.
+
+$$ \Delta H_c^{\circ} = \sum n_p \Delta H_f^{\circ}(\text{products}) - \sum n_r \Delta H_f^{\circ}(\text{reactants}) $$
+
+## Worked Examples
+
+### Example 6.6: Combustion of Carbon
+
+The complete combustion of carbon to carbon dioxide can occur in one step or two steps.
+
+**Single Step:**
+$$ \mathrm{C_{(s)} + O_{2(g)} \rightarrow CO_{2(g)}} \quad \Delta H^{\circ} = -393.5 \,\text{kJ} $$
+
+**Two Steps:**
+
+1. Formation of carbon monoxide:
+   $$ \mathrm{C_{(s)} + \frac{1}{2}O_{2(g)} \rightarrow CO_{(g)}} \quad \Delta H_1^{\circ} = -110.52 \,\text{kJ} $$
+2. Combustion of carbon monoxide:
+   $$ \mathrm{CO_{(g)} + \frac{1}{2}O_{2(g)} \rightarrow CO_{2(g)}} \quad \Delta H_2^{\circ} = -282.98 \,\text{kJ} $$
+
+**Applying Hess's Law:**
+
+The total enthalpy change for the two-step process is the sum of the individual steps:
+$$ \Delta H^{\circ} = \Delta H_1^{\circ} + \Delta H_2^{\circ} = (-110.52) + (-282.98) = -393.50 \,\text{kJ} $$
+
+This matches the enthalpy change for the single-step reaction, demonstrating the path independence.
+
+*Figure 6.4: Energy cycle for the reaction between $\mathrm{C(s)}$ and $\mathrm{O_{2(g)}}$ to produce $\mathrm{CO_{2}(g)}$.*
+
+### Example 6.7: Enthalpy of Formation of Methane
+
+Calculate the standard enthalpy of formation for methane ($\mathrm{CH_4}$) using the following combustion data.
+
+**Target Reaction:** $\mathrm{C_{(s)} + 2H_{2(g)} \rightarrow CH_{4(g)}} \quad \Delta H_f^{\circ} = ?$
+
+**Given Reactions:**
+
+(i) $\mathrm{CH_{4(g)} + 2O_{2(g)} \rightarrow CO_{2(g)} + 2H_2O_{(l)}} \quad \Delta H^{\circ} = -890.4 \,\text{kJ mol}^{-1}$
+
+(ii) $\mathrm{H_{2(g)} + \frac{1}{2}O_{2(g)} \rightarrow H_2O_{(l)}} \quad \Delta H^{\circ} = -285.8 \,\text{kJ mol}^{-1}$
+
+(iii) $\mathrm{C_{(s)} + O_{2(g)} \rightarrow CO_{2(g)}} \quad \Delta H^{\circ} = -393.5 \,\text{kJ mol}^{-1}$
+
+**Solution:**
+
+1. **Manipulate the given equations** to match the target reaction:
+- **Equation (iii):** Use as is, provides $\mathrm{C_{(s)}}$ as a reactant. $\Delta H^{\circ} = -393.5 \,\text{kJ}$
+- **Equation (ii):** Multiply by 2, provides $2\mathrm{H_{2(g)}}$ as reactants. $\Delta H^{\circ} = 2 \times (-285.8) = -571.6 \,\text{kJ}$
+- **Equation (i):** Reverse the reaction, places $\mathrm{CH_{4(g)}}$ as a product. Sign of $\Delta H^{\circ}$ is changed: $\Delta H^{\circ} = +890.4 \,\text{kJ}$
+
+2. **Combine the manipulated equations:**
+
+$$
+\begin{align*}
+\mathrm{C_{(s)} + O_{2(g)}} &\rightarrow \mathrm{CO_{2(g)}} & \Delta H^{\circ} &= -393.5 \,\text{kJ} \\
+\mathrm{2H_{2(g)} + O_{2(g)}} &\rightarrow \mathrm{2H_2O_{(l)}} & \Delta H^{\circ} &= -571.6 \,\text{kJ} \\
+\mathrm{CO_{2(g)} + 2H_2O_{(l)}} &\rightarrow \mathrm{CH_{4(g)} + 2O_{2(g)}} & \Delta H^{\circ} &= +890.4 \,\text{kJ}
+\end{align*}
+$$
+
+3. **Cancel species appearing on both sides** ($\mathrm{CO_2}$, $\mathrm{2H_2O}$, $\mathrm{2O_2}$ cancel):
+
+$$\mathrm{C_{(s)} + 2H_{2(g)} \rightarrow CH_{4(g)}}$$
+
+4. **Sum the enthalpy changes:**
+
+$$\Delta H_f^{\circ}(\mathrm{CH_4}) = (-393.5) + (-571.6) + (+890.4) = -74.7 \,\text{kJ mol}^{-1}$$
+
+The standard enthalpy of formation of methane is $\mathbf{-74.7 \,\text{kJ mol}^{-1}}$.
+
+---
+
+<!-- note kx707afwfj6wna3a0e5z922cad85qkm4 | topic ms7b3j9dm6vpr6csp8e6f2czvn85qxk0 | status published -->
+# 6.5 Born-Haber Cycle
+
+The **Born-Haber cycle** is a specific application of Hess's Law used to determine the lattice energies of binary ionic compounds (like $M^+X^-$).
+
+## Lattice Energy
+
+The **lattice energy** ($\Delta H_{lattice}$) is the change in energy that occurs when one mole of an ionic solid is formed from its separated gaseous ions. It is a measure of the strength of the ionic bonds in a crystal lattice.
+
+$$
+\mathrm{M}^{+}_{(g)} + \mathrm{X}^{-}_{(g)} \longrightarrow \mathrm{MX}_{(s)}
+$$
+
+Lattice energy cannot be measured directly in an experiment. However, it can be calculated indirectly using the Born-Haber cycle, which breaks down the formation of an ionic compound into a series of well-defined steps.
+
+## Constructing the Born-Haber Cycle for NaCl
+
+We can illustrate the cycle using sodium chloride ($NaCl$) as an example. The standard enthalpy of formation ($\Delta H_f^{\circ}$) for $NaCl$ is $-411 \, kJ\,mol^{-1}$. The cycle connects this value to other measurable enthalpy changes.
+
+The overall formation reaction is:
+$$ \mathrm{Na}_{(s)} + \frac{1}{2} \mathrm{Cl}_{2(g)} \longrightarrow \mathrm{NaCl}_{(s)} \quad \Delta H_f^{\circ} = -411 \, kJ\,mol^{-1} $$
+
+This process can be broken down into five distinct steps:
+
+**Step I: Sublimation of Sodium**
+Solid sodium is converted into gaseous sodium atoms.
+$$ \mathrm{Na}_{(s)} \longrightarrow \mathrm{Na}_{(g)} \quad \Delta H_s^{\circ} = +108 \, kJ\,mol^{-1} $$
+
+**Step II: Ionization of Sodium**
+Gaseous sodium atoms lose an electron to form gaseous sodium ions. This is the first ionization energy ($IE_1$) of sodium.
+<InlineNoteTag label="Ionization Energy" notePath="chemistry-11/2.6-ionization-energy" />
+$$ \mathrm{Na}_{(g)} \longrightarrow \mathrm{Na}^{+}_{(g)} + 1e^{-} \quad \Delta H_{IE}^{\circ} = +496 \, kJ\,mol^{-1} $$
+
+**Step III: Dissociation (Atomization) of Chlorine**
+The covalent bond in chlorine molecules is broken to form gaseous chlorine atoms. We only need one mole of Cl atoms, so we start with half a mole of $Cl_2$.
+$$ \frac{1}{2} \mathrm{Cl}_{2(g)} \longrightarrow \mathrm{Cl}_{(g)} \quad \Delta H_{at}^{\circ} = +121 \, kJ\,mol^{-1} $$
+
+**Step IV: Formation of Chloride Ion**
+Gaseous chlorine atoms gain an electron to form gaseous chloride ions. This is the electron affinity ($EA$) of chlorine.
+$$ \mathrm{Cl}_{(g)} + 1e^{-} \longrightarrow \mathrm{Cl}^{-}_{(g)} \quad \Delta H_{EA}^{\circ} = -349 \, kJ\,mol^{-1} $$
+
+**Step V: Formation of the Ionic Lattice**
+Gaseous sodium and chloride ions combine to form one mole of solid sodium chloride. This is the lattice energy ($\Delta H_{l}^{\circ}$) that we want to calculate.
+$$ \mathrm{Na}^{+}_{(g)} + \mathrm{Cl}^{-}_{(g)} \longrightarrow \mathrm{NaCl}_{(s)} \quad \Delta H_{l}^{\circ} = ? $$
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010200901.webp" alt="Born-Haber Cycle for NaCl" caption="Figure 6.5: Born-Haber Cycle for the formation of NaCl(s)" />
+
+## Calculation of Lattice Energy for NaCl
+
+According to Hess's Law, the total enthalpy change of the direct route (enthalpy of formation) must equal the sum of the enthalpy changes of the indirect route (the five steps).
+
+$$ \Delta H_f^{\circ} = \Delta H_s^{\circ} + \Delta H_{IE}^{\circ} + \Delta H_{at}^{\circ} + \Delta H_{EA}^{\circ} + \Delta H_l^{\circ} $$
+
+1.  **Given Values:**
+    -   $\Delta H_f^{\circ} = -411 \, kJ\,mol^{-1}$
+    -   $\Delta H_s^{\circ} = +108 \, kJ\,mol^{-1}$
+    -   $\Delta H_{IE}^{\circ} = +496 \, kJ\,mol^{-1}$
+    -   $\Delta H_{at}^{\circ} = +121 \, kJ\,mol^{-1}$
+    -   $\Delta H_{EA}^{\circ} = -349 \, kJ\,mol^{-1}$
+
+2.  **Apply the Formula:**
+    $$ -411 = (+108) + (+496) + (+121) + (-349) + \Delta H_l^{\circ} $$
+
+3.  **Solve for Lattice Energy ($\Delta H_l^{\circ}$):**
+    $$ -411 = (725) + (-349) + \Delta H_l^{\circ} $$
+    $$ -411 = 376 + \Delta H_l^{\circ} $$
+    $$ \Delta H_l^{\circ} = -411 - 376 $$
+    $$ \Delta H_l^{\circ} = -787 \, kJ\,mol^{-1} $$
+
+Thus, the lattice energy of NaCl is **-787 kJ/mol**. The negative sign indicates that energy is released when the lattice is formed.
+
+## Concept Assessment Exercise 6.5
+
+**Q:** Draw a complete Born-Haber Cycle for the formation of $MgO(s)$ and calculate its lattice energy from the following data.
+
+| Enthalpy Change | Value |
+| :--- | :--- |
+| Standard enthalpy of formation of MgO | $-602 \, kJ\,mol^{-1}$ |
+| Standard enthalpy of sublimation of Mg | $+150 \, kJ\,mol^{-1}$ |
+| Total Ionization energy of Mg to $Mg^{2+}$ | $+2180 \, kJ\,mol^{-1}$ |
+| Standard enthalpy of atomization of $O_2$ ($1/2 O_2 \rightarrow O$) | $+247 \, kJ\,mol^{-1}$ |
+| Total Electron affinity of O to $O^{2-}$ (EA₁ + EA₂) | $(-141) + (+878) = +737 \, kJ\,mol^{-1}$ |
+
+**A:**
+The steps are:
+1.  $Mg_{(s)} \rightarrow Mg_{(g)}$
+2.  $Mg_{(g)} \rightarrow Mg^{2+}_{(g)} + 2e^-$
+3.  $\frac{1}{2} O_{2(g)} \rightarrow O_{(g)}$
+4.  $O_{(g)} + 2e^- \rightarrow O^{2-}_{(g)}$
+5.  $Mg^{2+}_{(g)} + O^{2-}_{(g)} \rightarrow MgO_{(s)}$
+
+Using Hess's Law:
+$$ \Delta H_f^{\circ} = \Delta H_{sub} + \Delta H_{IE} + \Delta H_{at} + \Delta H_{EA} + \Delta H_{lattice} $$
+$$ -602 = (+150) + (+2180) + (+247) + (+737) + \Delta H_{lattice} $$
+$$ -602 = 3314 + \Delta H_{lattice} $$
+$$ \Delta H_{lattice} = -602 - 3314 = -3916 \, kJ\,mol^{-1} $$
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010200947.webp" alt="Born-Haber Cycle for MgO" />
+
+## Factors Affecting Lattice Energy
+
+Lattice energy is influenced by the **charge density** of the ions involved.
+$$ \text{Charge Density} = \frac{\text{Ionic Charge}}{\text{Ionic Radius}} $$
+Two main factors determine the magnitude of lattice energy:
+
+1.  ***Ionic Charge***: As the magnitude of the ionic charges increases, the electrostatic attraction between ions becomes stronger, leading to a higher (more exothermic) lattice energy.
+    -   *Example*: The lattice energy of $MgO$ ($Mg^{2+}$ and $O^{2-}$) is significantly higher than that of $NaCl$ ($Na^+$ and $Cl^-$) because of the greater charges.
+
+2.  ***Ionic Radius***: As the ionic radius increases, the distance between the centers of the ions increases. This weakens the electrostatic attraction, leading to a lower (less exothermic) lattice energy.
+    -   *Example*: Both $LiF$ and $KF$ have ions with +1 and -1 charges. However, the $K^+$ ion is larger than the $Li^+$ ion. Therefore, $LiF$ has a higher lattice energy than $KF$.
+
+## Concept Assessment Exercise 6.6
+
+**Q:** Which of the following compounds is expected to have higher lattice energy? Why?
+a. LiF or NaF
+b. NaCl or $MgCl_2$
+
+**A:**
+a. **LiF** has a higher lattice energy. Both have a -1 fluoride ion, but the $Li^+$ ion is smaller than the $Na^+$ ion, resulting in a stronger attraction.
+b. **$MgCl_2$** has a higher lattice energy. The magnesium ion has a +2 charge ($Mg^{2+}$), which creates a much stronger electrostatic attraction with the chloride ions compared to the +1 charge of the sodium ion ($Na^+$) in NaCl.
+
+## Role of Hydration in the Dissolving Process
+
+When an ionic solute dissolves in a solvent like water, two main energy changes occur:
+1.  **Breaking the Lattice**: Energy is required to overcome the ionic attractions and separate the ions from the crystal lattice. This is an *endothermic* process, equal in magnitude but opposite in sign to the lattice energy ($- \Delta H_{lattice}$).
+2.  **Hydration of Ions**: Energy is released when the separated gaseous ions are surrounded and stabilized by solvent molecules (water). This is an *exothermic* process known as the **enthalpy of hydration** ($\Delta H_{hyd}$).
+
+The overall energy change, the **enthalpy of solution** ($\Delta H_{solution}$), is the sum of these two steps.
+
+$$ \Delta H_{solution} = (-\Delta H_{lattice}) + \Delta H_{hydration} $$
+
+-   If $\Delta H_{solution}$ is **negative (exothermic)**, the solution gets warmer. This occurs when the hydration energy released is greater than the energy required to break the lattice.
+    -   Example: $NaOH_{(s)} + xH_2O_{(l)} \rightarrow Na^{+}_{(aq)} + OH^{-}_{(aq)} \quad \Delta H_{soln} = -44.5 \, kJ\,mol^{-1}$
+-   If $\Delta H_{solution}$ is **positive (endothermic)**, the solution gets colder. This occurs when the energy required to break the lattice is greater than the hydration energy released.
+    -   Example: $NH_4NO_{3(s)} + xH_2O_{(l)} \rightarrow NH_{4(aq)}^{+} + NO_{3(aq)}^{-} \quad \Delta H_{solution} = +25.7 \, kJ\,mol^{-1}$
+
+| Substance | Enthalpy of Solution ($kJ\,mol^{-1}$) |
+| :--- | :--- |
+| LiCl | -37.0 |
+| NaCl | +2.98 |
+| KCl | +17.2 |
+| KI | +20.3 |
+| $NH_4NO_3$ | +25.7 |
+| $AlCl_3$ | -321.0 |
+
+## Concept Assessment Exercise 6.7
+
+**Q:** Calculate the enthalpy of solution for NaCl from the following data:
+-   $\Delta H_{lattice} = -786 \, kJ/mol$
+-   $\Delta H_{hydration} = -783 \, kJ/mol$
+
+**A:**
+1.  **Energy to break the lattice:** $-\Delta H_{lattice} = -(-786) = +786 \, kJ/mol$
+2.  **Energy released by hydration:** $\Delta H_{hydration} = -783 \, kJ/mol$
+3.  **Calculate enthalpy of solution:**
+    $$ \Delta H_{solution} = (-\Delta H_{lattice}) + \Delta H_{hydration} $$
+    $$ \Delta H_{solution} = (+786) + (-783) = +3 \, kJ/mol $$
+This small positive value indicates that dissolving NaCl in water is slightly endothermic, which is consistent with experimental data.
+
+## Factors Affecting Enthalpy of Hydration
+
+Similar to lattice energy, the enthalpy of hydration is influenced by the **charge density** of the ion.
+$$ \text{Charge Density} = \frac{\text{Ionic Charge}}{\text{Ionic Radius}} $$
+
+1.  ***Ionic Charge***: Ions with a higher charge create a stronger ion-dipole attraction with water molecules, resulting in a more exothermic (more negative) enthalpy of hydration.
+    -   *Example*: The hydration enthalpy of $Mg^{2+}$ ions is much more exothermic than that of $Na^+$ ions.
+
+2.  ***Ionic Radius***: Smaller ions have a higher charge density, allowing water molecules to approach more closely and form stronger ion-dipole interactions. This leads to a more exothermic enthalpy of hydration.
+    -   *Example*: The $Mg^{2+}$ ion is smaller than the $Ca^{2+}$ ion. Therefore, the enthalpy of hydration for $MgSO_4$ is more exothermic than for $CaSO_4$.
+
+## Concept Assessment Exercise 6.8
+
+**Q:** Which has a higher (more exothermic) enthalpy of hydration? Justify your answer.
+a. LiF or NaF
+b. $KNO_3$ or $NaNO_3$
+
+**A:**
+a. **LiF**. The cations ($Li^+$ vs $Na^+$) are the difference. Since $Li^+$ is smaller than $Na^+$, it has a higher charge density and thus a more exothermic enthalpy of hydration.
+b. **$NaNO_3$**. The anions are the same ($NO_3^-$). The $Na^+$ ion is smaller than the $K^+$ ion, giving it a higher charge density and a more exothermic enthalpy of hydration.
+
+---
+
+<!-- note kx73cf61yhk7ryp9apzgg2jjch85qg6n | topic ms7axf172ed787c2trshzz0wxh85p759 | status published -->
+# 6.6 Entropy
+
+Entropy, denoted by the symbol **S**, is a thermodynamic property that measures the degree of disorder or randomness in a system. The more disordered a system is, the higher its entropy.
+
+- A system moving from a more ordered state to a less ordered state experiences an **increase** in entropy.
+- Conversely, a system moving from a less ordered state to a more ordered state experiences a **decrease** in entropy.
+
+<CaptionedImage src="/content/assets/class-11/chemistry/Pasted image 20251010201152.webp" alt="Figure 6.6.1: States of matter and entropy relationship" caption="Relationship between states of matter and entropy" />
+
+### Entropy and States of Matter
+
+The state of matter is a key factor in determining a substance's entropy.
+
+- **Solids**: Particles are in a fixed, ordered arrangement with minimum energy and movement. They have the *lowest entropy*.
+- **Liquids**: Particles have more freedom of movement than in solids but are still relatively close. They have *intermediate entropy*.
+- **Gases**: Particles are far apart and move randomly and rapidly. They have the *highest entropy*.
+
+The general trend is:
+
+$S_{\text{gas}} > S_{\text{liquid}} > S_{\text{solid}}$
+
+**Example: Melting Ice**
+
+- In ice (solid), water molecules are in a fixed, ordered crystal lattice ($S_{\text{solid}}$ is low).
+- As ice melts into water (liquid), the molecules gain energy and freedom of movement, becoming more disordered. Entropy increases ($S_{\text{liquid}} > S_{\text{solid}}$).
+- When water boils into steam (gas), the molecules become highly disordered and spread out, leading to a further, significant increase in entropy ($S_{\text{gas}} > S_{\text{liquid}}$).
+
+$H_2O_{(s)} \rightarrow H_2O_{(l)} \rightarrow H_2O_{(g)}$
+
+*Entropy increases* $\rightarrow$
+
+### Entropy Change ($\Delta S$)
+
+The change in entropy for a process is denoted as $\Delta S$.
+
+- If the entropy of the system increases (more disorder), the change is positive: **$\Delta S > 0$**.
+- If the entropy of the system decreases (more order), the change is negative: **$\Delta S < 0$**.
+
+**Effect of Temperature**
+
+- Increasing the temperature of a system increases the kinetic energy of its particles, leading to more random motion and thus higher entropy ($\Delta S > 0$).
+- Decreasing the temperature reduces particle motion, making the system more ordered and lowering its entropy ($\Delta S < 0$).
+
+### Entropy Change During a Reversible Process
+
+For a reversible process, the entropy change is related to the heat transferred and the absolute temperature:
+
+$\Delta S = \frac{q_{\text{rev}}}{T}$
+
+where:
+- $q_{\text{rev}}$ = heat transferred reversibly (in Joules)
+- $T$ = absolute temperature (in Kelvin)
+- $\Delta S$ = entropy change (in J/K)
+
+A positive $\Delta S$ indicates increased disorder; a negative $\Delta S$ indicates increased order.
+
+### Calculation of the Standard Entropy Change
+
+The standard entropy change ($\Delta S^{\circ}$) for a chemical reaction can be calculated by subtracting the sum of the standard entropies of the reactants from the sum of the standard entropies of the products.
+
+The general equation is:
+
+$\Delta S^{\circ}_{rxn} = \Sigma S^{\circ}_{\text{products}} - \Sigma S^{\circ}_{\text{reactants}}$
+
+*Note: The coefficients from the balanced chemical equation must be included in the calculation.*
+
+As a general rule:
+- If the **number of moles of gas increases** during a reaction, $\Delta S^{\circ}$ is typically **positive**.
+- If the **number of moles of gas decreases**, $\Delta S^{\circ}$ is typically **negative**.
+
+### Worked Example
+
+Calculate the standard entropy change, $\Delta S^{\circ}$, for the following reaction:
+
+$A + 2B \rightarrow C$
+
+**Given:**
+
+- $S^{\circ}(A) = 40 \text{ J/mol·K}$
+- $S^{\circ}(B) = 50 \text{ J/mol·K}$
+- $S^{\circ}(C) = 100 \text{ J/mol·K}$
+
+**Solution:**
+
+1. **Write the formula:**
+
+$\Delta S^{\circ} = \Sigma S^{\circ}_{\text{products}} - \Sigma S^{\circ}_{\text{reactants}}$
+
+2. **Apply the formula:**
+
+$\Delta S^{\circ} = [1 \times S^{\circ}(C)] - [1 \times S^{\circ}(A) + 2 \times S^{\circ}(B)]$
+
+3. **Substitute and calculate:**
+
+$\Delta S^{\circ} = [1 \times (100)] - [1 \times (40) + 2 \times (50)]$
+$\Delta S^{\circ} = 100 - [40 + 100]$
+$\Delta S^{\circ} = 100 - 140$
+$\Delta S^{\circ} = -40 \text{ J/mol·K}$
+
+The result is negative, indicating a **decrease in entropy** for this reaction.
+
+### Predicting the Sign of $\Delta S$
+
+**Q: For which of the following reactions is $\Delta S^{\circ}$ positive or negative?**
+
+**a) $CO_{2(g)} \rightarrow CO_{2(s)}$**
+
+**A:** **Negative**. The process involves a transition from a highly disordered gaseous state to a very ordered solid state (deposition). This significant increase in order results in a decrease in entropy ($\Delta S < 0$).
+
+**b) $2H_{2(g)} + O_{2(g)} \rightarrow 2H_2O_{(l)}$**
+
+**A:** **Negative**. The reaction starts with 3 moles of gas (2 mol $H_2$ + 1 mol $O_2$) and ends with 2 moles of liquid. There is a decrease in the number of particles and a transition from the highly disordered gas phase to the more ordered liquid phase. Both factors contribute to a decrease in entropy ($\Delta S < 0$).
+
+**c) $H_2O_{(l)} \rightarrow H_2O_{(g)}$**
+
+**A:** **Positive**. This is the process of vaporization (boiling). The molecules transition from the relatively ordered liquid state to the highly disordered gaseous state. This increase in randomness means the entropy increases ($\Delta S > 0$).
+
+---
+
+<!-- note kx73an6cdgd31yh8574c5ck4sh85ppk5 | topic ms72n7mpxd8y4442jf0pcpdf2985q0c0 | status published -->
+# 6.7 Gibbs Free Energy
+
+## 6.7 Gibbs Free Energy
+
+Gibbs free energy ($G$) is a fundamental thermodynamic quantity that measures the amount of *usable energy* in a system at constant temperature and pressure. It is also known as **available energy**. This concept was introduced by the American scientist Josiah Willard Gibbs in 1876.
+
+### Definition and Equation
+
+Gibbs free energy is defined as the enthalpy of a system minus the product of its absolute temperature and entropy:
+
+$$G = H - TS$$
+
+Where:
+- $G$ = Gibbs free energy (J or kJ)
+- $H$ = Enthalpy of the system (J or kJ)
+- $T$ = Absolute temperature (Kelvin)
+- $S$ = Entropy of the system ($\text{J K}^{-1}$ or $\text{kJ K}^{-1}$)
+
+### Gibbs Free Energy as a State Function
+
+Gibbs free energy is a *state function* — its value depends only on the initial and final states of the system, not on the path taken. Therefore, the **change** in Gibbs free energy ($\Delta G$) for a process is particularly significant.
+
+For a reaction carried out at **constant temperature** ($\Delta T = 0$), the change in Gibbs free energy is given by the **Gibbs-Helmholtz equation**:
+
+$$\Delta G = \Delta H - T\Delta S$$
+
+This equation is central to predicting the spontaneity and equilibrium state of a chemical reaction.
+
+### Spontaneity and Equilibrium from $\Delta G$
+
+The sign of $\Delta G$ directly indicates whether a process is spontaneous:
+
+| $\Delta G$ | Meaning |
+|---|---|
+| $\Delta G < 0$ | **Spontaneous** in the forward direction (exergonic) |
+| $\Delta G > 0$ | **Non-spontaneous** in the forward direction; reverse reaction is spontaneous |
+| $\Delta G = 0$ | System is at **equilibrium**; no net change occurs |
+
+### Effect of $\Delta H$ and $\Delta S$ on Spontaneity
+
+The Gibbs-Helmholtz equation $\Delta G = \Delta H - T\Delta S$ shows that spontaneity depends on both enthalpy and entropy, and on temperature:
+
+| $\Delta H$ | $\Delta S$ | Spontaneity |
+|---|---|---|
+| Negative (exothermic) | Positive (more disorder) | Always spontaneous ($\Delta G < 0$ at all $T$) |
+| Positive (endothermic) | Negative (less disorder) | Never spontaneous ($\Delta G > 0$ at all $T$) |
+| Negative (exothermic) | Negative (less disorder) | Spontaneous at **low** temperatures |
+| Positive (endothermic) | Positive (more disorder) | Spontaneous at **high** temperatures |
+
+### Application: Phase Transitions
+
+Gibbs free energy is also valuable for understanding phase transitions such as melting, freezing, boiling, and condensation. Consider the melting of ice:
+
+$$\mathrm{H_2O_{(s)}} \rightarrow \mathrm{H_2O_{(l)}}$$
+
+- **At $0^\circ\text{C}$ (273.15 K):** Solid ice and liquid water are in equilibrium, so $\Delta G = 0$.
+- **Below $0^\circ\text{C}$:** $\Delta G > 0$ for melting — the solid phase is more stable (melting is non-spontaneous).
+- **Above $0^\circ\text{C}$:** $\Delta G < 0$ for melting — the liquid phase is more stable (melting is spontaneous).
+
+The same logic applies to boiling: at the normal boiling point, $\Delta G = 0$ for the liquid $\rightarrow$ vapour transition.
+
+### Worked Example
+
+**Problem:** For a reaction at 298 K, $\Delta H = -92\,\text{kJ mol}^{-1}$ and $\Delta S = -198\,\text{J K}^{-1}\text{mol}^{-1}$. Calculate $\Delta G$ and determine if the reaction is spontaneous.
+
+**Solution:**
+
+Convert $\Delta S$ to kJ: $\Delta S = -0.198\,\text{kJ K}^{-1}\text{mol}^{-1}$
+
+$$\Delta G = \Delta H - T\Delta S = -92 - (298)(-0.198)$$
+$$\Delta G = -92 + 59.0 = -33\,\text{kJ mol}^{-1}$$
+
+Since $\Delta G < 0$, the reaction is **spontaneous** at 298 K.

@@ -1,0 +1,379 @@
+<!-- note kx7cbqzv89re15gdrfp0qxmpjs8bvagn | topic ms740n430zc20gfzczpng3rarx8bvrsm | status published -->
+# 5.1 Foundations of Pakistan's Foreign Policy
+
+As an individual living in a community, while we might be self-sufficient in many ways, we still need to interact with others to meet our needs, like having groceries or seeking medical help. Similarly, no country can fulfill all its needs on its own. Countries depend on each other for resources, trade, security, and cultural exchange. This interdependence requires a strategy for interacting with other nations, known as foreign policy. Just as individuals form relationships to ensure their well-being, countries develop foreign policies to protect their interests, ensure security, foster economic growth, and promote their values globally. Foreign policy involves diplomacy, trade deals, alliances, and participation in international organizations to create a stable and prosperous environment both domestically and globally. According to Oxford Reference, "Foreign policy is a government's plan for interacting with the other nations of the world, typically involving diplomacy, military strategy, trade policies, and cultural exchanges." Britannica defines foreign policy as "general objectives that guide the activities and relationships of one state in its interactions with other states".
+
+Policy is a guide to an action or a set of actions intended for the realization of the goals of an organization. It is a set of guiding principles, rules, or courses of action adopted and implemented by an organization, government, or institution to achieve specific objectives and address issues or problems. It represents a relatively stable and purposive course of action that reflects the values, priorities, and goals of the entity, guiding decision-making and ensuring consistency in actions and responses.
+
+## Importance of Foreign Policy
+
+Foreign policy plays a crucial role in shaping a nation's interactions and relationships with the rest of the world. It serves as a strategic tool for countries to navigate the complexities of international relations, addressing global challenges and seizing opportunities. Through well-crafted foreign policies, nations can protect their interests, promote prosperity, and contribute to global stability and peace.
+
+On the security side, foreign policy helps countries build strong alliances, enhance military capabilities, and engage diplomatically to safeguard borders and maintain peace, while nations also use it to participate in peacekeeping missions, mediate conflicts, and promote peaceful resolutions to disputes; diplomatic efforts and international interventions of this kind help prevent conflicts and maintain peace in volatile regions.
+
+Economically, countries use foreign policy to negotiate trade agreements, attract investments, and open markets abroad, which boosts the economy, creates jobs, and improves living standards for citizens. Foreign policy also guides participation in international organizations to address shared global issues like climate change and human rights, since collaborating with other countries helps set standards for peace and development.
+
+Foreign policy is equally a tool of diplomacy and influence. Through it, nations build diplomatic ties, resolve conflicts peacefully, and represent their interests globally, and effective diplomacy of this kind promotes stability and cooperation among countries. It also promotes cultural exchanges, educational programs, and humanitarian aid initiatives, helping nations build positive relationships and shape how they are perceived abroad, including through humanitarian missions, development projects, and disaster relief efforts for vulnerable populations worldwide. Taken together, effective foreign policy enhances a country's global influence and status: by engaging diplomatically, forming alliances, and promoting national values, nations gain respect and leadership opportunities in international organizations, strengthening their ability to shape global policies and contribute to international peace and stability.
+
+<SideActivity title="Learning Activity" kind="activity">
+Conduct a crisis simulation exercise: assume roles as diplomats from various countries and international organizations (e.g. OIC, Arab League, EU) to negotiate a resolution to a regional conflict of your teacher's choosing.
+</SideActivity>
+
+## Diplomacy
+
+Diplomacy is the practice of managing relationships between countries through peaceful dialogue and negotiation. It helps nations protect their interests, resolve conflicts, and promote cooperation in areas like politics, trade, and culture, all while maintaining peaceful and respectful interactions. Diplomacy is a key tool of foreign policy, as it allows countries to achieve their international goals through peaceful negotiation and dialogue, helping to resolve conflicts, build alliances, and promote cooperation without resorting to force. Diplomacy is carried out by diplomats, who represent their country abroad and engage in negotiations to advance national interests. A good diplomat helps resolve conflicts, foster cooperation, and promote foreign policy goals effectively.
+
+<SideActivity title="Activity" kind="activity">
+Work in pairs and complete the following activity through internet search.
+
+- Write a simple definition of diplomacy in your own words.
+- List three characteristics of effective diplomacy.
+- Write down three responsibilities of a diplomat.
+- Identify four qualities that a good diplomat should have.
+</SideActivity>
+
+<SideActivity title="Role Play: Diplomacy in Action" kind="activity">
+Divide the class into groups, each representing a different country. Assign each group one of the following scenarios: a border dispute, smuggling, or cross-border terrorism. Each group must engage in diplomatic discussions to find a peaceful solution, using negotiation, dialogue, and diplomacy skills to resolve the issue collaboratively, while focusing on maintaining peaceful relations and addressing each country's interests.
+</SideActivity>
+
+## Determinants of Foreign Policy of Pakistan
+
+Foreign policy is shaped by a multitude of factors that influence how a nation engages with the international community. These determinants, ranging from internal socio-economic conditions to external geopolitical pressures, collectively define a country's strategic approach on the global stage.
+
+### Geography, History and Capacity
+
+Pakistan's location at the crossroads of South Asia, Central Asia, and the Middle East shapes its strategic outlook, and its proximity to conflict zones like Afghanistan and the Arabian Sea affects both security policies and economic strategies. Its historical experiences, including the partition from India and subsequent conflicts, shape its foreign policy objectives, while cultural ties and historical grievances continue to influence diplomatic relations and strategic alliances. Alongside geography and history, national capacity matters: the country's economic strength, military capabilities, and technological advancements determine its ability to pursue independent foreign policy goals, since economic development impacts its bargaining power and influence in international affairs.
+
+### Ideology, Society and National Interest
+
+In Pakistan's democratic framework, public sentiment plays a crucial role in shaping foreign policy decisions, with media, telecommunications, and public discourse influencing government policy, particularly on issues like regional stability and international engagement. Pakistan's ideological principles, rooted in Islamic identity and national sovereignty, guide its foreign policy stance and influence its alliances and responses to global issues, while the nature of its political system and societal dynamics, including changes in government leadership and societal cohesion, shape its diplomatic strategies and regional interactions. Above all of these sits national interest: the primary driver of Pakistan's foreign policy is the protection and promotion of its own interests, with security concerns, economic prosperity, and regional stability central to its decision-making.
+
+### External Factors and Policy-Making
+
+International laws, treaties, and global organizations such as the United Nations shape Pakistan's foreign policy landscape, and its relations with neighbouring countries, global powers, and regional alliances affect its diplomatic manoeuvres and strategic alignments. Within government itself, the leadership qualities, personal ideologies, and bureaucratic influences of Pakistan's policy-makers determine how foreign policy strategies are formulated and executed.
+
+## Evaluation of Pakistan's Foreign Policy
+
+Evaluating Pakistan's foreign policy involves looking at its history, geography, and political choices. Pakistan inherited many factors from its past, like its colonial legacy and partition with India. These factors shaped how it interacts with other countries. By studying these influences, we can see how Pakistan works to keep peace, grow its economy, and solve global issues. Pakistan's foreign policy can be evaluated through the following phases.
+
+## Era of Neutrality (1947-1953)
+
+After gaining independence in 1947, Pakistan chose to remain neutral in the Cold War. Both the USA and USSR wanted Pakistan's support, but Pakistan decided not to align with either. Internally, Pakistan faced economic and political challenges. It also had security threats from India and Afghanistan. This period set the foundation for Pakistan's foreign policy.
+
+## Alliance with the West (1954-1962)
+
+In the mid-1950s, Pakistan joined Western alliances such as SEATO and CENTO, aiming to counter the threat of Communism in the region. Pakistan received military and economic aid from the USA. This period strengthened Pakistan's defense but also increased dependence on Western powers.
+
+## Era of Bilateralism (1962-1971)
+
+During this time, Pakistan tried to improve relations with neighboring countries. It also sought stronger ties with China and other Asian nations. The focus was on solving regional issues through bilateral agreements. This period included the 1965 war with India over Kashmir, which strained relations further.
+
+## Non-Aligned Movement (1972-1979)
+
+After the 1971 war with India and the creation of Bangladesh, Pakistan adopted a non-aligned policy. It joined the Non-Aligned Movement, which aimed to stay neutral in the Cold War. Pakistan also strengthened its ties with Muslim countries. This period emphasized economic cooperation and regional stability.
+
+## Islamic Solidarity and Regional Focus (1979-1988)
+
+In the late 1970s, Pakistan shifted its focus to the Muslim world. It played a key role in the Afghan conflict, supporting Afghan mujahideen against the Soviet invasion. Pakistan also sought closer ties with Middle Eastern countries. This period highlighted Islamic solidarity and regional cooperation.
+
+## Post-Cold War Adjustments (1989-2001)
+
+After the Cold War, Pakistan had to adjust its foreign policy. The collapse of the Soviet Union changed global dynamics. Pakistan faced new challenges, such as nuclear proliferation and regional instability. It sought to maintain good relations with the USA while also addressing regional issues.
+
+## War on Terror and Strategic Realignments (2001-Present)
+
+After the 9/11 attacks, Pakistan became a key ally of the USA in the War on Terror. It faced challenges like terrorism and regional conflicts. During this time, Pakistan also built a strong partnership with China. The China-Pakistan Economic Corridor (CPEC) is a major part of this relationship, helping with economic growth and infrastructure development. In this phase, Pakistan balances relations with major powers, deals with security issues at home, and works closely with China to boost development and regional stability.
+
+## Objectives of Pakistan's Foreign Policy
+
+### Preservation of National Independence and Security
+
+The primary objective of Pakistan's foreign policy is to ensure national independence and security. This includes protecting the country from external threats, maintaining territorial integrity, and safeguarding the ideological foundations of the state. To achieve this, Pakistan focuses on strengthening its defense capabilities and building strategic alliances.
+
+### Economic Development
+
+Economic development is crucial for a nation's independence and security. A strong economy provides the resources needed to defend national interests and maintain sovereignty. By focusing on trade, investment, and infrastructure, Pakistan aims to enhance its economic stability, which in turn supports its security and independence.
+
+### Unity of the Muslim World
+
+The unity of the Muslim world is a key objective of Pakistan's foreign policy, reflected in Quaid-e-Azam Muhammad Ali Jinnah's vision and the 1973 Constitution. Pakistan is a strong proponent of Muslim unity and works to strengthen ties with Muslim-majority countries through diplomacy, economic cooperation, and cultural exchanges. By advocating for common causes and supporting Muslim communities globally, Pakistan seeks to foster unity and collaboration within the Muslim Ummah.
+
+### Regional and Global Peace and Stability
+
+Pakistan strives to resolve conflicts through diplomatic means and supports international efforts to maintain peace. By participating in peacekeeping missions, engaging in dialogue, and cooperating with global organizations including the UN, Pakistan aims to contribute to a stable and secure international environment. This commitment helps address regional tensions and supports global peace initiatives.
+
+## Guiding Principles of Pakistan's Foreign Policy
+
+Pakistan's foreign policy is shaped by its historical legacy, geographical position, and constitutional directives. Guided by the vision of Quaid-e-Azam Muhammad Ali Jinnah, it emphasizes Pakistan's commitment to peace, justice, and friendly relations among nations. The policy aims to protect national sovereignty, promote regional stability, and strengthen global partnerships.
+
+---
+
+<!-- note kx7355v8qhkzwn7sc0k0yc6vtd8bt37e | topic ms722eb76kww5xf3xtgkaaab6n8bvxh0 | status published -->
+# 5.2 Pakistan's Regional Relations: India and China
+
+
+Geopolitics is crucial for Pakistan's global position and relations with neighboring countries. Located in South Asia, at the crossroads of Central Asia and the Middle East, Pakistan's strategic location shapes its foreign policy and economic interests. Factors like geography, trade routes, natural resources, and security concerns heavily influence Pakistan's interactions with neighbors and international partners, affecting regional stability. Understanding these dynamics is key to grasping Pakistan's role in the global geopolitical landscape.
+
+## Pakistan's Geostrategic Location
+
+<SideActivity kind="tidbit" title="Do You Know?">
+"Geo" comes from Greek meaning "earth" or "land," and "politics" refers to the activities related to governance and power. Geopolitics is a branch of political science which studies how geography affects the way countries interact and make decisions. The term emerged in the late 19th century to describe how geographical factors like location, resources, and terrain shape global affairs.
+
+Strategic Location: Pakistan's strategic location at the crossroads of South Asia, Central Asia, and the Middle East enhances its geopolitical importance. Pakistan serves as a critical link in regional connectivity and trade routes, facilitating the movement of goods and energy resources.
+Bridge between South Asia and Central Asia: Pakistan's geographical position acts as a bridge connecting the South Asian subcontinent with Central Asia. This geographic linkage plays a crucial role in facilitating trade, energy transport, and connectivity routes. The China-Pakistan Economic Corridor (CPEC) exemplifies this importance, linking China's Kashgar to Pakistan's Gwadar Port, providing China access to the Arabian Sea and beyond.
+Balancing Power Dynamics: Pakistan's location serves as a balancing factor in the region's power dynamics. Sharing borders with China, Afghanistan, India, and Iran underscores its strategic importance. Major world powers, such as the United States, Russia and China have engaged with Pakistan to advance their interests in South and Central Asia.
+Economic Significance: Pakistan's economic significance in geostrategy is substantial. It serves as a vital transit route for trade and energy corridors. The CPEC, part of China's Belt and Road Initiative, enhances Pakistan's geostrategic importance by boosting connectivity and economic integration with China.
+Security Significance: Pakistan holds significant security importance due to its location at the confluence of South Asia, Central Asia, and the Middle East. Its border with Afghanistan has positioned it centrally in the Afghan conflict, influencing regional stability. Pakistan's role in counterterrorism efforts and its nuclear capabilities further impact regional and global security dynamics.
+Regional Dynamics: Pakistan's regional dynamics are pivotal in geostrategic terms. Its relationships with neighboring countries like India, Afghanistan, and Iran are marked by historical tensions and strategic interests. These dynamics influence stability, security, and economic cooperation in a geopolitically volatile region.
+</SideActivity>
+
+<SideActivity kind="prompt" title="Expand Your Horizon">
+Historically, Gulf countries have had closer ties with Pakistan than with India. However, recent years have seen a shift in this dynamic. Analyze the reasons behind this change and assess the impact of Pakistan's foreign policy on its relations with the Gulf countries.
+</SideActivity>
+## Strategic Significance and Challenges for Pakistan
+
+Pakistan's strategic importance is both advantageous and challenging. Security concerns, terrorism, and geopolitical rivalry have worsened Pakistan's economic challenges, leading to increasing debts and law and order issues. The situation in Afghanistan, particularly after the U.S. withdrawal, has made things even more challenging, with concerns about terrorism spilling over into Pakistan. Despite these hurdles, Pakistan is working to strengthen its position. It has built a strong partnership with China. Pakistan is trying to maintain a careful balance in its relationships with global powers while protecting its own national interests.
+
+## Pakistan's Commitment to Supporting Less Privileged Nations
+
+The history of Pakistan is rooted in the struggle of Muslims in the Indian subcontinent. Before partition, they faced social, economic, and political challenges. This history of overcoming adversity has instilled a strong sense of solidarity in Pakistan. It has also created a sense of responsibility towards supporting less privileged people and nations.
+
+## Aid in Disasters
+
+Reflecting on its own historical experiences, Pakistan has sent medical teams, relief supplies, and financial aid to countries affected by natural disasters, such as earthquakes and floods. For instance, Pakistan provided significant support to Turkey after the devastating earthquake in 1999. Pakistan also helped Indonesia after the 2004 tsunami and provided relief to Haiti after the 2010 earthquake. It sent aid to Nepal following the 2015 earthquake. Additionally, Pakistan
+supported Bosnian Muslims during the Bosnian War in the 1990s. These efforts highlight Pakistan's commitment to aiding those in need worldwide.
+
+## Diplomatic support
+
+Pakistan advocates for the rights and development of less privileged nations in international forums. Pakistan champions the rights of oppressed communities, such as Palestinians, Kashmiris, Rohingya Muslims in Myanmar, and Eritrean Muslims, providing non-material aid through diplomatic advocacy and support.
+
+## Peacekeeping Missions
+
+Pakistan has become one of the largest contributors to United Nations peacekeeping missions. Pakistani peacekeepers have served in conflict zones around the world, including Africa and the Middle East, helping to stabilize regions, protect civilians, and support post-conflict recovery efforts. Pakistani forces have been deployed in many countries and regions including Balkan, Somalia, Congo, Sudan, Sierra Leone, Kuwait, Haiti , East Timor, and Liberia to help stabilize regions, protect civilians, and supporting post-conflict recovery efforts. These deployments showcase Pakistan's commitment to global peace and security.
+
+<SideActivity kind="activity" title="Learning Activity">
+- Provide students with a map of Pakistan highlighting its geostrategic location.
+- Ask them to identify and label key land routes (e.g., connections to Central Asia), sea routes (e.g., access to the Arabian Sea), and air routes (e.g., flight paths to major global cities).
+- Ask students to explain how these routes enhance or impact Pakistan's geopolitical importance.
+</SideActivity>
+
+## Pakistan's Relations with Countries in the Region
+
+## Pakistan- India Relations
+
+Pakistan and India share a long, complex history. Geographically, both countries share a border that stretches over 3,323 kilometers, including Indian occupied Kashmir. The two nations were part of British India until 1947, when they got independence and were partitioned into two separate countries. This division led to large-scale migration and communal violence, impacting their relations from the beginning. The partition and subsequent conflicts, particularly over Kashmir, have been central to their relationship. Despite periods of tension and conflict, both nations have also engaged in peace talks and confidence-building measures to improve bilateral relations.
+
+## Note For Teachers:
+
+Lead structured discussion in the class on "Is it more advantageous for Pakistan to pursue a nonaligned foreign policy or to align with major global powers?
+
+## Wars and Conflicts
+
+Since 1947, Pakistan and India have fought three major wars. These conflicts have caused loss of life and strained relations further. India's role in the separation of Bangladesh in 1971 added to the bitterness.
+
+## Nuclear Rivalry
+
+Both Pakistan and India are nuclear-armed states. This adds a layer of complexity to their relations. Efforts to manage this rivalry are crucial for regional stability.
+
+## Indian Efforts to Destabilize Pakistan
+
+India is responsible for destabilizing Pakistan through terrorism and promoting militancy. Such actions create further mistrust and conflict.
+
+## Diplomatic and Economic Challenges
+
+India has attempted to create obstacles for Pakistan at the international level. These efforts aim to isolate Pakistan diplomatically and economically. For example, India has lobbied against Pakistan in international forums, such as the Financial Action Task Force (FATF), pushing for Pakistan's inclusion in the "grey list" of countries with inadequate measures against money laundering and terrorism financing. India has also sought to block Pakistan's trade agreements and accession to regional trade groups like the South Asian Free Trade Area (SAFTA).
+
+## Water Dispute
+
+India's control over rivers flowing into Pakistan has led to water disputes. Pakistan views this as water aggression, impacting its agriculture and livelihoods.
+
+## The Sir Creek Dispute
+
+The Sir Creek is a 96 -kilometer strip of marshy land located in the Rann of Kutch, bordering Pakistan and India. The boundary was established by the 1914 agreement between British India and the princely state of Kutch. However, India has contested this settled issue by interpreting the agreement in a way that suits its interests. This has led to an ongoing dispute between the two countries.
+
+## Siachen Conflict
+
+Siachen, a glacier approximately 75 kilometers long and situated at an altitude of over 6,000 meters, lies in the Karakoram Range. By launching a military operation to occupy the glacier in April 1984, India violated the Simla Agreement of 1972 which called for maintaining the status quo along the Line of Control (LoC). Pakistan's forces swiftly countered, resulting in Siachen becoming the highest battlefield in the world.
+Both countries have since borne immense human, financial, and environmental costs due to the militarization of this harsh and unforgiving region. Pakistan has consistently advocated for the demilitarization of Siachen and the restoration of the pre-1984 status, emphasizing dialogue as
+the path to resolving this conflict and ensuring regional stability.
+
+## Regional Superiority vs. Equal Relations
+
+India often exhibits an attitude of regional superiority. Pakistan, on the other hand, seeks equallevel relations, advocating for mutual respect and cooperation.
+
+## Impacts:
+
+Security Concerns: Persistent security concerns, especially related to cross-border terrorism, have strained relations and led to military standoffs.
+Economic Costs: Limited trade relations due to political tensions have hampered economic growth and potential bilateral benefits.
+Regional Dynamics: The rivalry between Pakistan and India has influenced regional dynamics, affecting neighboring countries and regional stability.
+
+## Kashmir Conflict and Pak-India Relations
+
+Kashmir remains a central issue in Pak-India relations. At the time of independence in 1947, the princely state of Jammu and Kashmir was given the option to join either Pakistan or India. Against the wishes of the Kashmiri people to join Pakistan, the Maharaja acceded to India, leading to conflict. Since 1948, Kashmiris have been struggling for freedom against what they see as illegitimate Indian occupation. Indian brutalities in Kashmir to suppress the voice for freedom have been widely reported, with allegations of human rights abuses against Kashmiris. The unresolved status of Kashmir continues to fuel tensions and hinder peace efforts between the two nations.
+Pakistan has consistently advocated for dialogue and diplomatic efforts to resolve the Kashmir issue. It has sought international intervention, particularly from the United Nations, to address reported human rights violations in Kashmir and to facilitate a peaceful resolution in accordance with the will of the Kashmiri people. On the other hand, India has focused on suppressing dissent in the region, deploying a significant military presence to suppress the Kashmiris' struggle for freedom.
+
+## Future Prospects
+
+Continued Tensions: As long as the border issues remain unresolved, tensions are likely to persist.
+Peace Talks: Successful peace talks could improve relations, but both nations need to make concessions.
+Economic Impact: Improved relations could boost trade and economic cooperation, benefiting both countries.
+Regional Stability: Resolving the Kashmir and Sir Creek conflicts could enhance stability in South Asia, reducing the risk of armed conflict.
+
+## Pakistan- China Relations
+
+Pakistan shares a significant border of 523 kilometers in the north with China. Both countries have a history of diplomatic, economic, and military cooperation. These connections have built a robust partnership, leading to strategic collaboration and projects like CPEC.
+
+## Early Development
+
+Pak-China relations began on May 21, 1951, when both countries established diplomatic ties. Early interactions involved trade and cultural exchanges. The 1963 boundary agreement marked a significant milestone in their relationship. Military cooperation grew during the 1965 and 1971 India-Pakistan wars, leading to strategic partnership. Both nations have engaged in extensive technological exchanges and development cooperation.
+
+## Military Cooperation
+
+Military cooperation between Pakistan and China is robust. China is a key supplier of military equipment to Pakistan. China has assisted in the development of strategic weapons. Both countries regularly engage in joint military exercises. This collaboration strengthens their defense capabilities and strategic alliance.
+
+## Strategic Cooperation
+
+Strategic cooperation is a cornerstone of Pak-China relations. Both nations share common security interests. They collaborate closely on regional security issues. This partnership enhances their mutual strategic goals and regional stability.
+
+## Trade and Economic Relations
+
+Pakistan and China are connected through strong economic ties. Beyond CPEC, these ties encompass various sectors such as manufacturing, agriculture, and technology. China remains Pakistan's largest trading partner.
+
+## Issues and Challenges
+
+Challenges in Pak-China relations include economic imbalances, trade deficit, security concerns related to regional stability, and public perceptions of Chinese investments and influence. Addressing these challenges is crucial for sustaining the long-term partnership and mutual benefits.
+
+## China Pakistan Economic Corridor (CPEC)
+
+The Pak-China Economic Corridor (CPEC) is a monumental initiative. It aims to deepen economic ties and infrastructure development between Pakistan and China. CPEC involves the construction of highways, railways, pipelines, and energy projects across Pakistan. It also includes the development of Gwadar Port and special economic zones (SEZs) aimed at boosting industrial growth.
+
+## Significant Outcomes of CPEC
+
+Economic Growth: CPEC is expected to boost Pakistan's economy significantly. It aims to achieve this by improving transportation infrastructure and reducing trade costs. Additionally, CPEC is anticipated to attract foreign investment. These efforts will create jobs and stimulate economic development, particularly in less developed regions of Pakistan.
+Regional Connectivity: CPEC connects Gwadar Port in Pakistan's Baluchistan province to China's Xinjiang region, enhancing regional connectivity and trade routes. It provides a direct link between the Arabian Sea and China's western provinces, reducing transportation times and costs for goods.
+Strategic Significance: CPEC enhances Pakistan's strategic importance by providing China with an alternative trade route, reducing reliance on the vulnerable Strait of Malacca. This strengthens Pakistan-China relations through increased military cooperation and intelligence sharing, crucial for regional stability and counterterrorism efforts.
+Diplomatic Influence: CPEC enhances Pakistan and China's diplomatic influence in South Asia, Central Asia and beyond. It positions both countries as significant players in regional trade. It also strengthens their roles in infrastructure development, influencing economic and political dynamics in their respective regions.
+
+Gwadar Port: A symbol of the peaceful progress of CPEC initiatives
+
+
+---
+
+<!-- note kx70cf1n37tn40gwcgb40scwwn8bv3sc | topic ms7f2e5v751xc2j224v2z8vk7h8btjw5 | status published -->
+# 5.3 Pakistan's Relations with Afghanistan, Iran, the Gulf and the US
+
+
+Pakistan and Afghanistan share a long border of about $\mathbf{2 , 6 4 0}$ kilometers, known as the Durand Line, established in 1893. Both nations have deep cultural, ethnic, and linguistic ties, especially through the Pashtun ethnic group, which lives in both countries. Being Muslim countries, both share cultural traditions. Trade across the border has been vital for both. Historically, political relations
+have been shaped by regional and global politics, including the Great Game, the Cold War, and the War on Terror. Both countries face challenges like political instability and militancy, influencing their bilateral relations.
+
+## Political Relations
+
+Political relations between Pakistan and Afghanistan have been complex and often strained. After Pakistan's independence in 1947, Afghanistan was the only country to oppose Pakistan's admission to the United Nations. The Durand Line border has been a source of tension. Relations worsened after the $9 / 11$ attacks.
+
+## Soviet Invasion (1979-1989)
+
+In 1979, the Soviet Union invaded Afghanistan. Pakistan supported Afghan mujahideen, against the Soviet forces. Millions of Afghan refugees fled to Pakistan during this time. This period strengthened Pakistan-Afghanistan ties against a common enemy. However, it also led to the rise of militant groups in the region.
+
+## Taliban in Government (1996-2001)
+
+The Taliban came to power in Afghanistan in 1996. Pakistan was one of the few countries to recognize the Taliban government. Pakistan hoped that the Taliban would bring stability to Afghanistan. However, the Taliban's strict rule and human rights abuses drew international criticism. Relations between Pakistan and Afghanistan were relatively stable but complicated by regional and global politics.
+
+## War on Terror (2001-Present)
+
+After the 9/11 attacks in 2001, the United States invaded Afghanistan to remove the Taliban and fight Al-Qaeda. Pakistan became a key ally of the US in the War on Terror. Pakistan provided support for US military operations and faced backlash from militant groups. Relations between Pakistan and Afghanistan were tense and marked by mutual distrust.
+
+## Return of the Taliban (2021-Present)
+
+In 2021, the Taliban returned to power in Afghanistan. Pakistan aims to maintain stable relations with the new Taliban government. Both countries are working on improving ties but face challenges. Border security, refugee management, and counter-terrorism cooperation are important issues. Pakistan supports international efforts to provide humanitarian aid to Afghanistan.
+
+<SideActivity kind="tidbit" title="Do You Know?">
+The international boundary between Pakistan and Afghanistan is called the Durand Line. It was established in 1893 to separate British India from Afghanistan. The line is named after Sir Mortimer Durand, a British diplomat who negotiated the boundary agreement with the Afghan ruler, Amir Abdur Rahman Khan.
+</SideActivity>
+
+## Economic Relations
+
+Trade between Pakistan and Afghanistan is important for both countries. Pakistan provides access to international markets through its ports. The Afghanistan-Pakistan Transit Trade Agreement (APTTA) aims to formalize trade. However, border closures and security issues often disrupt trade. Despite challenges both countries benefit from cross-border trade.
+
+## Future Prospects
+
+The future of Pakistan-Afghanistan relations depends on regional stability and cooperation. Improved diplomatic efforts, increased economic cooperation, and enhanced security measures are crucial. Both countries can benefit from peaceful relations and mutual cooperation in addressing common challenges such as terrorism, poverty, and development.
+
+## Importance of Peaceful Afghanistan for Pakistan
+
+Afghanistan has faced decades of conflict, starting with the Soviet invasion in the 1979, followed by civil wars and the rise of the Taliban. These events have led to ongoing instability and violence, deeply affecting Afghan society.
+Today, Afghanistan still faces political uncertainties and ongoing conflicts, although the current Afghan government is working to bring stability. The country continues to face challenges with governance and security, which impact both regional peace and its own efforts toward economic development. Pakistan sees a stable Afghanistan as essential for preventing cross-border terrorism, enhancing economic connectivity, and promoting overall stability in the region. Pakistan supports the Afghan government's efforts toward achieving peace and security, recognizing the importance of a peaceful Afghanistan for the well-being of both nations and the wider region.
+
+## Activity:
+
+## Objective:
+
+To enhance communication, analytical, critical thinking, and leadership skills.
+
+- Divide the class into teams representing different stakeholders (e.g., Government, Military, NGOs, Business Community, Politicians, Journalists, Religious Groups).
+- Each team should submit recommendations outlining their stakeholder's perspective on Pakistan's foreign policy and present these to the class.
+- After all presentations, a selected student acting as the "Foreign Minister" will provide feedback on the proposals after consulting with the "Government."
+
+## Pakistan Iran Relationships
+
+Pakistan and Iran share a 959 -kilometer border and have historical and cultural ties. Since Pakistan's independence in 1947, their relationship has been a mix of cooperation and complexity due to geographical proximity and shared interests.
+
+## Economic Cooperation with Iran
+
+Economically, Pakistan and Iran trade in natural gas and agricultural
+products. Projects like the IranPakistan Gas Pipeline aim to enhance energy security. However, international sanctions on Iran have posed challenges to expanding economic relations.
+
+## Cultural and People-to-People Relations
+
+Culturally, Pakistan and Iran share deep-rooted ties, including linguistic and historical connections. Urdu and Persian literature have influenced each other over the centuries, and cultural exchanges through music, art, and literature continue to foster mutual understanding. People-to-people contacts are facilitated through religious pilgrimages, educational exchanges, and tourism.
+
+## Geopolitical Dynamics
+
+Geopolitically, Pakistan and Iran navigate complex regional dynamics, including relations with neighboring countries like Afghanistan and Saudi Arabia. Differences in their strategic alignments and regional policies occasionally impact bilateral relations.
+
+## Chabahar and Gwadar Port
+
+The Chabahar and Gwadar ports represent strategic assets for Iran and Pakistan, respectively, serve different geopolitical interests. Gwadar, a key component of the China-Pakistan Economic Corridor (CPEC), aims to enhancing trade and infrastructure connectivity. On the other hand, Chabahar, developed with India's assistance, seeks to bolster India's access to Afghanistan and Central Asia, balancing the influence of CPEC in the region.
+
+## Balochistan's Impact on Pakistan-Iran Relations
+
+Balochistan's strategic position affects Pakistan-Iran relations. Militant groups and separatist activities pose security risks along shared border. Both nations cooperate in military operations and intelligence-sharing to address these challenges and protect their sovereignty.
+
+## Pakistan's Relations with Saudi Arabia
+
+There is a history of strong relations between Saudi Arabia and the Muslims of the Indian subcontinent before partition. After the creation of Pakistan, King Saud of Saudi Arabia visited Pakistan in 1953. King Faisal's visit in 1966 further strengthened the ties. The Faisal Mosque in Islamabad was built as a symbol of their strong bond.
+
+## Defense Cooperation
+
+Saudi Arabia generously supported Pakistan during the 1965 and 1971 wars with India, providing financial and diplomatic assistance. In 1979, when extremists attacked the Holy Kaaba, Pakistan's armed forces played a key role in restoring security at the sacred site. Additionally, Pakistani forces have trained Saudi military personnel and assisted in defense operations. This mutual support has significantly strengthened the defense ties between the two countries.
+
+## Economic Cooperation with Saudi Arabia
+
+Saudi Arabia has invested in various sectors in Pakistan, including energy, agriculture, and infrastructure. In recent years, it has provided significant financial support through aid, loans, and investments to help Pakistan overcome economic crises. When Pakistan became a nuclear power in 1998, Saudi Arabia embraced this development and supported Pakistan in addressing international pressure. Saudi Arabia's backing helped Pakistan manage the diplomatic and economic challenges following its nuclear tests.
+
+## Diplomatic Collaboration
+
+In 1974, Saudi Arabia backed Pakistan during the OIC Summit in Lahore. It has also supported Pakistan's position on Kashmir and assisted with FATF challenges. Pakistan has supported Saudi Arabia's stance on regional issues and provided diplomatic support in international settings.
+
+## Humanitarian Support During Disasters
+
+Saudi Arabia has provided significant aid to Pakistan during natural disasters. After the 2005 earthquake, Saudi Arabia quickly sent financial
+support, relief materials, and medical help. The kingdom also assisted during severe floods by offering funds and resources for rescue and rebuilding efforts.
+
+## Pakistani Workforce
+
+Saudi Arabia hosts a large number of Pakistani workers. These workers are employed in various sectors, including construction, healthcare, and domestic services. Pakistani manpower plays a crucial role in Saudi Arabia's economy. The remittances sent by these workers significantly support Pakistan's economy. The presence of Pakistani workers in Saudi Arabia strengthens the bilateral ties between the two countries.
+
+## Pak - US Relations
+
+The US, as one of the world's leading military powers and a highly developed, economically strong nation, plays a significant role in global affairs. Shortly after its independence in 1947, Pakistan sought an alliance with the US. This relationship included cooperation in defense, economy, and education. However, the relations have also faced challenges. This relationship has evolved over the decades, influenced by global and regional events. The ties between Pakistan and the US are important for both nations and the wider world.
+
+## Pak US Relations before 9/11
+
+Pakistan and the US established diplomatic relations in 1947. In the 1950s, Pakistan joined US-led alliances like SEATO and CENTO. These alliances aimed to contain Soviet influence in the region. The US provided military and economic aid to Pakistan. This support strengthened Pakistan's defense capabilities.
+In the 1960s and 1970s, relations faced ups and downs. The US cut off military aid during the IndiaPakistan wars of 1965 and 1971. However, in the 1980s, relations improved again. Pakistan became a key ally in the US-led effort to support Afghan mujahideen against the Soviet invasion of Afghanistan. This period saw increased military and economic assistance to Pakistan.
+
+## Pak US Relations after 9/11
+
+After 9/11, Pakistan became a non NATO ally in the US-led War on Terror. The US provided significant military and economic aid to Pakistan. This support aimed to help Pakistan combat terrorism and stabilize the region. Pakistan's role was vital in fighting Al-Qaeda and Taliban forces.
+However, the relationship faced
+challenges. The US often expressed concerns over Pakistan's efforts against terrorism. Incidents like the 2011 raid that killed Osama bin Laden in Pakistan strained relations. The War on Terror had significant impacts on Pakistan. The country faced increased terrorism and violence, leading to many civilian and military casualties. Despite these challenges, the two countries continued to cooperate in various areas. The relationship remains important for regional and global stability.

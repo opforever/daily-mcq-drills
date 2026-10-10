@@ -1,0 +1,247 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "k9745e568q7tc9gx1by2358a3h8d3256",
+    "correctKey": "A",
+    "explanation": "The Chapter 7 summary gives the distance between two coordinate points as the square root of the sum of the squared coordinate differences.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72vw59w9yq7n1kq622xwdj9h8cbyrj",
+    "options": [
+      {
+        "key": "C",
+        "text": "$\\mathrm{d}(A,B)=|x_2-x_1|+|y_2-y_1|$"
+      },
+      {
+        "key": "D",
+        "text": "$\\mathrm{d}(A,B)=\\sqrt{(x_2+x_1)^2+(y_2+y_1)^2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\mathrm{d}(A,B)=(x_2-x_1)+(y_2-y_1)$"
+      },
+      {
+        "key": "A",
+        "text": "$\\mathrm{d}(A,B)=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$"
+      }
+    ],
+    "sectionId": "the-distance-formula",
+    "sectionLabel": "the-distance-formula",
+    "stem": "Which expression gives the distance between $A(x_1,y_1)$ and $B(x_2,y_2)$?",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "k97ec9z6f1rg3b21cpfj12f0n58dr54m",
+    "correctKey": "A",
+    "explanation": "The note defines a set of points lying on the same straight line as collinear points.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72vw59w9yq7n1kq622xwdj9h8cbyrj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Collinear"
+      },
+      {
+        "key": "B",
+        "text": "Concurrent"
+      },
+      {
+        "key": "D",
+        "text": "Concentric"
+      },
+      {
+        "key": "C",
+        "text": "Congruent"
+      }
+    ],
+    "sectionId": "the-distance-formula",
+    "sectionLabel": "the-distance-formula",
+    "stem": "A set of points that all lie on the same straight line are said to be:",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "k97c6nyzwrzarr224xpnbsk6mn8drp9v",
+    "correctKey": "A",
+    "explanation": "The note states that when three or more points do not lie on the same straight line, they are non-collinear points.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72vw59w9yq7n1kq622xwdj9h8cbyrj",
+    "options": [
+      {
+        "key": "D",
+        "text": "Quadrantal points"
+      },
+      {
+        "key": "A",
+        "text": "Non-collinear points"
+      },
+      {
+        "key": "C",
+        "text": "Coincident points"
+      },
+      {
+        "key": "B",
+        "text": "Collinear points"
+      }
+    ],
+    "sectionId": "the-distance-formula",
+    "sectionLabel": "the-distance-formula",
+    "stem": "Points P, Q and R do not lie on one straight line. They are described as:",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "k97c7n8a50edx90gf2cae0anf98dr4s8",
+    "correctKey": "A",
+    "explanation": "The note lists finding the length of the sides of geometrical figures obtained by joining three or more non-collinear points as a use of the distance formula.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72vw59w9yq7n1kq622xwdj9h8cbyrj",
+    "options": [
+      {
+        "key": "B",
+        "text": "Finding the gradient of a line"
+      },
+      {
+        "key": "C",
+        "text": "Finding the area of a sector"
+      },
+      {
+        "key": "D",
+        "text": "Converting degrees into radians"
+      },
+      {
+        "key": "A",
+        "text": "Finding the lengths of the sides of a figure formed by joining non-collinear points"
+      }
+    ],
+    "sectionId": "the-distance-formula",
+    "sectionLabel": "the-distance-formula",
+    "stem": "According to the note, which task is the distance formula used for?",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "k9720fw0f0nznpygkq8t2462bs8d2vxk",
+    "correctKey": "A",
+    "explanation": "The midpoint is found by averaging the x-coordinates and averaging the y-coordinates: ((2+6)/2,(4+10)/2)=(4,7).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d4z1evhdfzx4tad5z2274jh8cam5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(4,7)$"
+      },
+      {
+        "key": "D",
+        "text": "$(3,5)$"
+      },
+      {
+        "key": "B",
+        "text": "$(8,14)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2,6)$"
+      }
+    ],
+    "sectionId": "mid-point-formula",
+    "sectionLabel": "mid-point-formula",
+    "stem": "What is the midpoint of $A(2,4)$ and $B(6,10)$?",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "k97axfmc3amgsma8mttjwss4dn8drxdd",
+    "correctKey": "A",
+    "explanation": "The note states that the y-coordinate of the midpoint is the average of the y-coordinates of the end points.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d4z1evhdfzx4tad5z2274jh8cam5k",
+    "options": [
+      {
+        "key": "C",
+        "text": "The product of the y-coordinates of the end points"
+      },
+      {
+        "key": "A",
+        "text": "The average of the y-coordinates of the end points"
+      },
+      {
+        "key": "D",
+        "text": "Always zero"
+      },
+      {
+        "key": "B",
+        "text": "The difference of the y-coordinates of the end points"
+      }
+    ],
+    "sectionId": "mid-point-formula",
+    "sectionLabel": "mid-point-formula",
+    "stem": "The y-coordinate of the midpoint of a line segment is:",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "k97dx6pxytnenb0sgq4wj2j9z18dr6hj",
+    "correctKey": "A",
+    "explanation": "The note's worked example concludes that because both diagonals share one midpoint, they bisect each other at that point.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d4z1evhdfzx4tad5z2274jh8cam5k",
+    "options": [
+      {
+        "key": "D",
+        "text": "The parallelogram is a square"
+      },
+      {
+        "key": "B",
+        "text": "The diagonals are equal in length"
+      },
+      {
+        "key": "A",
+        "text": "The diagonals bisect each other"
+      },
+      {
+        "key": "C",
+        "text": "The diagonals are perpendicular"
+      }
+    ],
+    "sectionId": "mid-point-formula",
+    "sectionLabel": "mid-point-formula",
+    "stem": "Both diagonals of a parallelogram are found to have the same midpoint. What does this prove?",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  }
+]

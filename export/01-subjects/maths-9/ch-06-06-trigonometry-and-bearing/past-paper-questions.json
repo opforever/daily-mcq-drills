@@ -1,0 +1,618 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-1-measurement-of-an-angle",
+    "topicTitle": "6.1 Measurement of an Angle",
+    "_id": "m17f6r5jf58wr5m04db5y8p4nn8cv9z5",
+    "exerciseId": "xd7dqe4wwjerzwdemakmpwmgbx8ctadr",
+    "exerciseTitle": "Exercise 6.1",
+    "keyPoints": [
+      "One degree equals sixty minutes",
+      "One minute equals sixty seconds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Multiply degrees by $3600$, minutes by $60$.\ni. $5^{\\circ}=18000''$\nii. $30'=1800''$\niii. $10^{\\circ}30'=36000''+1800''=37800''$\niv. $20^{\\circ}20'20''=72000''+1200''+20''=73220''$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Convert the following measure of angles in seconds.\ni. 5°\nii. 30'\niii. $10^{\\circ} 30^{\\prime}$\niv. $20^{\\circ} 20^{\\prime} 20^{\\prime\\prime}$",
+    "topicId": "ms762ykadcj531g214j6m8kbpx8bv2aw"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-1-measurement-of-an-angle",
+    "topicTitle": "6.1 Measurement of an Angle",
+    "_id": "m17b1cnn6bhyy3k9cmem23383x8cvwwh",
+    "exerciseId": "xd7dqe4wwjerzwdemakmpwmgbx8ctadr",
+    "exerciseTitle": "Exercise 6.1",
+    "keyPoints": [
+      "Seconds become minutes on dividing by $60$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $75^{\\circ}=75\\times60=4500'$\nii. $120^{\\circ}=7200'$\niii. $50^{\\circ}40'=3000'+40'=3040'$\niv. $30^{\\circ}30'30''=1800'+30'+0.5'=1830.5'$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Convert the following measure of angles in minutes.\ni. 75°\nii. $120^{\\circ}$\niii. 50°40'\niv. $30^{\\circ} 30^{\\prime} 30^{\\prime\\prime}$",
+    "topicId": "ms762ykadcj531g214j6m8kbpx8bv2aw"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-1-measurement-of-an-angle",
+    "topicTitle": "6.1 Measurement of an Angle",
+    "_id": "m17c9w3fx884kytg9kc7vkrkv58ct65r",
+    "exerciseId": "xd7dqe4wwjerzwdemakmpwmgbx8ctadr",
+    "exerciseTitle": "Exercise 6.1",
+    "keyPoints": [
+      "Divide minutes by sixty and seconds by thirty-six hundred"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $135'=\\frac{135}{60}=2.25^{\\circ}$\nii. $150''=\\frac{150}{3600}\\approx0.0417^{\\circ}$\niii. $60^{\\circ}60'=61^{\\circ}$\niv. $45^{\\circ}45'45''=45+\\frac{45}{60}+\\frac{45}{3600}=45.7625^{\\circ}$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Convert the following measure of angles in degrees and write the answer correct to 4 decimals places.\ni. 135'\nii. 150''\niii. 60°60'\niv. $45^{\\circ} 45^{\\prime} 45^{\\prime\\prime}$",
+    "topicId": "ms762ykadcj531g214j6m8kbpx8bv2aw"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-1-measurement-of-an-angle",
+    "topicTitle": "6.1 Measurement of an Angle",
+    "_id": "m176m7er2fx3vk7h71t1zsc0tn8ctxjv",
+    "exerciseId": "xd7dqe4wwjerzwdemakmpwmgbx8ctadr",
+    "exerciseTitle": "Exercise 6.1",
+    "keyPoints": [
+      "Integer part gives degrees, fraction converts to minutes",
+      "Leftover minute fraction converts to seconds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $60.125^{\\circ}=60^{\\circ}$; $.125\\times60=7.5'$, so $7'$ and $30''$: $60^{\\circ}7'30''$\nii. $135.375^{\\circ}=135^{\\circ}$; $.375\\times60=22.5'$: $135^{\\circ}22'30''$\niii. $60.85'=60'$ and $.85\\times60=51''$: $1^{\\circ}0'51''$\niv. $255.45^{\\circ}=255^{\\circ}$; $.45\\times60=27'$: $255^{\\circ}27'0''$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Write the following measures of angles in $\\mathrm{D}^{\\circ} \\mathrm{M}^{\\prime} \\mathrm{S}^{\\prime\\prime}$.\ni. 60.125°\nii. 135.375°\niii. 60.85'\niv. 255.45°",
+    "topicId": "ms762ykadcj531g214j6m8kbpx8bv2aw"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-1-measurement-of-an-angle",
+    "topicTitle": "6.1 Measurement of an Angle",
+    "_id": "m176dyprxq6vwvxynnhgjhk4t18ctysn",
+    "exerciseId": "xd7dqe4wwjerzwdemakmpwmgbx8ctadr",
+    "exerciseTitle": "Exercise 6.1",
+    "keyPoints": [
+      "Degrees cancel against the $180$ in the denominator"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Multiply by $\\frac{\\pi}{180}$.\ni. $45^{\\circ}=\\frac{\\pi}{4}$\nii. $150^{\\circ}=\\frac{5\\pi}{6}$\niii. $60^{\\circ}30'=60.5^{\\circ}=60.5\\times\\frac{\\pi}{180}=\\frac{121\\pi}{360}$\niv. $120^{\\circ}=\\frac{2\\pi}{3}$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Convert the following in radians. Write the answers in terms of $\\pi$.\ni. $45^{\\circ}$\nii. 150°\niii. $60^{\\circ} 30^{\\prime}$\niv. $120^{\\circ}$",
+    "topicId": "ms762ykadcj531g214j6m8kbpx8bv2aw"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-1-measurement-of-an-angle",
+    "topicTitle": "6.1 Measurement of an Angle",
+    "_id": "m1702d7mcfgjet02w55a7hk2sx8cvkk4",
+    "exerciseId": "xd7dqe4wwjerzwdemakmpwmgbx8ctadr",
+    "exerciseTitle": "Exercise 6.1",
+    "keyPoints": [
+      "Convert DMS to decimal degrees first"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With $\\pi=3.1416$:\ni. $270^{\\circ}=270\\times\\frac{3.1416}{180}=4.7124$ rad\nii. $60^{\\circ}=\\frac{3.1416}{3}=1.0472$ rad\niii. $180^{\\circ}45'=180.75^{\\circ}$: $180.75\\times\\frac{3.1416}{180}\\approx3.1546$ rad\niv. $75^{\\circ}30'45''\\approx75.5125^{\\circ}$: $75.5125\\times\\frac{3.1416}{180}\\approx1.3179$ rad",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Convert the following in radians. Use $\\pi=3.1416$.\ni. 270°\nii. 60°\niii. 180°45'\niv. 75°30'45\"",
+    "topicId": "ms762ykadcj531g214j6m8kbpx8bv2aw"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-1-measurement-of-an-angle",
+    "topicTitle": "6.1 Measurement of an Angle",
+    "_id": "m176bjdze7kep3fqtckt0tv44s8cvkdn",
+    "exerciseId": "xd7dqe4wwjerzwdemakmpwmgbx8ctadr",
+    "exerciseTitle": "Exercise 6.1",
+    "keyPoints": [
+      "$\\pi$ radians equal $180$ degrees exactly"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Multiply by $\\left(\\frac{180}{\\pi}\\right)^{\\circ}$.\ni. $\\frac{\\pi}{4}=45^{\\circ}$\nii. $\\frac{5\\pi}{6}=150^{\\circ}$\niii. $\\frac{\\pi}{12}=15^{\\circ}$\niv. $\\frac{7\\pi}{40}=31.5^{\\circ}=31^{\\circ}30'0''$\nv. $1$ rad $\\approx57.2958^{\\circ}=57^{\\circ}17'45''$\nvi. $3.1416$ rad $\\approx180^{\\circ}0'0''$\nvii. $12\\pi$ rad $=2160^{\\circ}$\nviii. $5$ rad $=\\frac{900}{\\pi}\\approx286.479^{\\circ}=286^{\\circ}28'44''$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Write the following radian measures of angles in $\\mathrm{D}^{\\circ} \\mathrm{M}^{\\prime} \\mathrm{S}^{\\prime\\prime}$.\ni. $\\frac{\\pi}{4}$\nii. $\\frac{5 \\pi}{6}$\niii. $\\frac{\\pi}{12}$\niv. $\\frac{7 \\pi}{40}$\nv. 1\nvi. 3.1416\nvii. $12 \\pi$\nviii. 5",
+    "topicId": "ms762ykadcj531g214j6m8kbpx8bv2aw"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-4-trigonometric-identities",
+    "topicTitle": "6.4 Trigonometric Identities",
+    "_id": "m17bvcz5czt6mpk39z99c33mfs8cv5s6",
+    "exerciseId": "xd72gax8z69fed4nhgm5rx35x18ctvf5",
+    "exerciseTitle": "Exercise 6.4",
+    "keyPoints": [
+      "Reduce everything to sine and cosine early",
+      "Pythagorean identities replace $1$ wherever convenient",
+      "Rationalizing numerators reveals hidden factors",
+      "Factoring out common terms exposes the target form"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $(1-\\sin^{2}\\theta)\\sec^{2}\\theta=\\cos^{2}\\theta\\cdot\\frac{1}{\\cos^{2}\\theta}=1$.\nii. Multiply top and bottom by $(1-\\sin\\theta)$:\n$\\frac{(1-\\sin\\theta)^{2}}{1-\\sin^{2}\\theta}=\\frac{(1-\\sin\\theta)^{2}}{\\cos^{2}\\theta}=(\\sec\\theta-\\tan\\theta)^{2}$.\niii. Rationalize inside the root by multiplying over $\\frac{1-\\cos\\theta}{1-\\cos\\theta}$:\n$\\sqrt{\\frac{(1-\\cos)^{2}}{1-\\cos^{2}}}=\\frac{1-\\cos\\theta}{\\sin\\theta}=\\frac{\\sin\\theta}{1+\\cos\\theta}$ using $(1-\\cos)(1+\\cos)=\\sin^{2}$.\niv. Factor: $\\frac{\\sin\\theta(1-2\\sin^{2}\\theta)}{\\cos\\theta(2\\cos^{2}\\theta-1)}=\\frac{\\sin\\theta\\cos2\\theta}{\\cos\\theta\\cos2\\theta}=\\tan\\theta$.\nv. $\\sec^{2}+\\operatorname{cosec}^{2}=\\frac{\\sin^{2}+\\cos^{2}}{\\sin^{2}\\cos^{2}}=\\sec^{2}\\operatorname{cosec}^{2}$; taking the positive root,\n$\\sec\\theta\\operatorname{cosec}\\theta=\\tan\\theta+\\cot\\theta$.\nvi. $(\\sec\\theta-\\tan\\theta)(\\sec\\theta+\\tan\\theta)=\\sec^{2}-\\tan^{2}=1$, so the reciprocal claim holds.\nvii. Difference of sides: $\\sin^{2}-\\sin^{4}=\\sin^{2}\\cos^{2}$ and $\\cos^{4}-\\cos^{2}=-\\sin^{2}\\cos^{2}$, so both sides are equal.\nviii. Divide numerator and denominator by $\\sin\\theta$: each $\\tan/\\sin$ becomes $\\sec$:\n$\\frac{\\sec\\theta+1}{\\sec\\theta-1}$.\nix. Shown in v: $\\sec^{2}\\theta+\\operatorname{cosec}^{2}\\theta=\\frac{1}{\\sin^{2}\\cos^{2}}=\\sec^{2}\\theta\\operatorname{cosec}^{2}\\theta$.\nx. With $a=\\sin^{2}, b=\\cos^{2}$: $a^{3}+b^{3}=(a+b)^{3}-3ab(a+b)=1-3\\sin^{2}\\theta\\cos^{2}\\theta$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Prove the following relations by using basic trigonometric identities.\ni. $\\left(1-\\sin ^{2} \\theta\\right) \\sec ^{2} \\theta=1$\nii. $\\frac{1-\\sin \\theta}{1+\\sin \\theta}=(\\sec \\theta-\\tan \\theta)^{2}$\niii. $\\sqrt{\\frac{1-\\cos \\theta}{1+\\cos \\theta}}=\\frac{\\sin \\theta}{1+\\cos \\theta}$\niv. $\\frac{\\sin \\theta-2 \\sin ^{3} \\theta}{2 \\cos ^{3} \\theta-\\cos \\theta}=\\tan \\theta$\nv. $\\sqrt{\\sec ^{2} \\theta+\\operatorname{cosec}^{2} \\theta}=\\tan \\theta+\\cot \\theta$\nvi. $\\frac{1}{\\sec \\theta-\\tan \\theta}=\\sec \\theta+\\tan \\theta$\nvii. $\\sin ^{2} \\theta+\\cos ^{4} \\theta=\\sin ^{4} \\theta+\\cos ^{2} \\theta$\nviii. $\\frac{\\tan \\theta+\\sin \\theta}{\\tan \\theta-\\sin \\theta}=\\frac{\\sec \\theta+1}{\\sec \\theta-1}$\nix. $\\sec ^{2} \\theta+\\operatorname{cosec}^{2} \\theta=\\sec ^{2} \\theta \\operatorname{cosec}^{2} \\theta$\nx. $\\sin ^{6} \\theta+\\cos ^{6} \\theta=1-3 \\sin ^{2} \\theta \\cos ^{2} \\theta$",
+    "topicId": "ms7923e9jjapbazx36gxg10n718bv0e1"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-4-trigonometric-identities",
+    "topicTitle": "6.4 Trigonometric Identities",
+    "_id": "m1714wea0bfavsv25m001ppkcx8ctvst",
+    "exerciseId": "xd72gax8z69fed4nhgm5rx35x18ctvf5",
+    "exerciseTitle": "Exercise 6.4",
+    "keyPoints": [
+      "Adding kills the mixed terms",
+      "The unit identity finishes the argument"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Square both given equations and add:\n$m^{2}=x^{2}\\cos^{2}\\theta+y^{2}\\sin^{2}\\theta+2xy\\sin\\theta\\cos\\theta$\n$n^{2}=x^{2}\\sin^{2}\\theta+y^{2}\\cos^{2}\\theta-2xy\\sin\\theta\\cos\\theta$\nAdding, the cross terms cancel and $\\sin^{2}+\\cos^{2}$ collapses to $1$:\n$m^{2}+n^{2}=x^{2}+y^{2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "If $x \\cos \\theta+y \\sin \\theta=m$ and $x \\sin \\theta-y \\cos \\theta=n$, prove that $x^{2}+y^{2}=m^{2}+n^{2}$.",
+    "topicId": "ms7923e9jjapbazx36gxg10n718bv0e1"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-4-trigonometric-identities",
+    "topicTitle": "6.4 Trigonometric Identities",
+    "_id": "m1766en4hrwx2q1xrer5w0bq798ct05e",
+    "exerciseId": "xd72gax8z69fed4nhgm5rx35x18ctvf5",
+    "exerciseTitle": "Exercise 6.4",
+    "keyPoints": [
+      "Restrict to the stated interval at the end"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $2\\sin^{2}\\theta=\\frac{1}{2}$ gives $\\sin\\theta=\\pm\\frac{1}{2}$; in $[0,\\frac{\\pi}{2}]$, $\\theta=\\frac{\\pi}{6}$.\nii. $\\sin\\theta=\\cos\\theta$ gives $\\tan\\theta=1$, so $\\theta=\\frac{\\pi}{4}$.\niii. $1+\\tan^{2}\\theta-2\\tan^{2}\\theta=0$ gives $\\tan^{2}\\theta=1$, so $\\theta=\\frac{\\pi}{4}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Find values of $\\theta$ for the following equations in the interval $0 \\leq \\theta \\leq \\frac{\\pi}{2}$.\ni. $2 \\sin ^{2} \\theta=\\frac{1}{2}$\nii. $\\sin \\theta=\\cos \\theta$\niii. $\\sec ^{2} \\theta-2 \\tan ^{2} \\theta=0$",
+    "topicId": "ms7923e9jjapbazx36gxg10n718bv0e1"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-4-trigonometric-identities",
+    "topicTitle": "6.4 Trigonometric Identities",
+    "_id": "m173frwjy5ttxt29n8adwfp4n18ctgnp",
+    "exerciseId": "xd72gax8z69fed4nhgm5rx35x18ctvf5",
+    "exerciseTitle": "Exercise 6.4",
+    "keyPoints": [
+      "Name the sides relative to the chosen acute angle",
+      "Pythagoras supplies any missing side"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $\\sin A=\\frac{a}{c}=\\frac{4}{4\\sqrt{2}}=\\frac{1}{\\sqrt{2}}$, so $A=B=45^{\\circ}$ and $b=4$ cm (isosceles).\nii. $\\cos P=\\frac{PQ}{PR}$ gives $PR=\\frac{4\\sqrt{3}}{1/2}=8\\sqrt{3}$ cm; $RQ=PQ\\tan P=12$ cm; $R=30^{\\circ}$.\niii. Legs $8,8$: angles $P=Q=45^{\\circ}$, hypotenuse $PQ=8\\sqrt{2}$ m.\niv. $\\sin Y=\\frac{XZ}{YZ}=\\frac{8}{16}=\\frac{1}{2}$, so $Y=30^{\\circ}$, $Z=60^{\\circ}$, $XY=8\\sqrt{3}$ m.\nv. $6,8,10$ satisfy $6^{2}+8^{2}=10^{2}$, so $N=90^{\\circ}$;\n$\\sin L=\\frac{MN}{LM}=\\frac{4}{5}$ gives $L\\approx53.13^{\\circ}$, $M\\approx36.87^{\\circ}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following right-angled triangles\ni. $\\triangle \\mathrm{ABC}, \\angle \\mathrm{C}=90^{\\circ}, a=4 \\mathrm{~cm}, \\mathrm{c}=4 \\sqrt{2} \\mathrm{~cm}$.\nii. $\\triangle \\mathrm{PQR}, \\angle \\mathrm{Q}=90^{\\circ}, \\angle \\mathrm{P}=60^{\\circ}, \\mathrm{PQ}=4 \\sqrt{3} \\mathrm{~cm}$.\niii. $\\triangle \\mathrm{PQR}, \\angle \\mathrm{R}=90^{\\circ}, \\mathrm{PR}=8 \\mathrm{~m}, \\mathrm{RQ}=8 \\mathrm{~m}$.\niv. $\\triangle X Y Z, \\angle X=90^{\\circ}, Y Z=16 \\mathrm{~m}, X Z=8 \\mathrm{~m}$.\nv. $\\triangle \\mathrm{LMN}, \\mathrm{LM}=10 \\mathrm{~cm}, \\mathrm{MN}=8 \\mathrm{~cm}, \\mathrm{NL}=6 \\mathrm{~cm}$.",
+    "topicId": "ms7923e9jjapbazx36gxg10n718bv0e1"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-4-trigonometric-identities",
+    "topicTitle": "6.4 Trigonometric Identities",
+    "_id": "m1746rcsrs8bhgpzvfzgb72ngs8ct38t",
+    "exerciseId": "xd72gax8z69fed4nhgm5rx35x18ctvf5",
+    "exerciseTitle": "Exercise 6.4",
+    "keyPoints": [
+      "Group by the shared factor before applying the identity"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x^{2}+y^{2}=r^{2}\\cos^{2}\\alpha(\\sin^{2}\\beta+\\cos^{2}\\beta)=r^{2}\\cos^{2}\\alpha$.\nAdding $z^{2}=r^{2}\\sin^{2}\\alpha$:\n$x^{2}+y^{2}+z^{2}=r^{2}(\\cos^{2}\\alpha+\\sin^{2}\\alpha)=r^{2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "If $x=\\mathrm{r} \\cos \\alpha \\sin \\beta, y=\\mathrm{r} \\cos \\alpha \\cos \\beta$ and $z=\\mathrm{r} \\sin \\alpha$, then find value of $x^{2}+y^{2}+z^{2}$.",
+    "topicId": "ms7923e9jjapbazx36gxg10n718bv0e1"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m172a2aqpzp4rrp43a33x10vg58cv8sw",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "stem": "Measure three figure bearing of $B$ from $A$ with the help of protractor in each of the following.\n(i) [bearing diagram figure]\n(ii) [bearing diagram figure]",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m1715s269fy1ydb7srcetkaj3h8cvnwk",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "stem": "School A and school B are marked, find the bearing of school A from school B. [figure showing positions of School A and School B]",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m1786dqy39hfztybye691t0bwx8cvq3y",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "keyPoints": [
+      "Reverse direction shifts a bearing by exactly $180$ degrees"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Back bearing differs by $180^{\\circ}$ when the forward bearing exceeds $180^{\\circ}$:\nbearing of A from B $=250^{\\circ}-180^{\\circ}=070^{\\circ}$.\nThe diagram shows boat B south-west of A, hence boat A north-east of B along the same line.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Two boats A and B are 5 km apart and the bearing of boat B from boat A is $250^{\\circ}$. Draw the diagram showing relative positions of both boats, then find the bearing of boat A from boat B.",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m1715zqf8b1rme9qs8kw3g8tdx8ct1f5",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "keyPoints": [
+      "North lines at different points stay parallel",
+      "Equal east components force the due-west direction"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Place A at the origin. B lies at bearing $045^{\\circ}$, $10$ km away:\neast component $10\\sin45^{\\circ}=5\\sqrt{2}$ km, north component $5\\sqrt{2}$ km.\nC is east of A and due south of B, so C shares B's east coordinate: $AC=5\\sqrt{2}\\approx7.07$ km.\nA lies due west of C, so the bearing of A from C is $270^{\\circ}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "The positions of three ships A, B and C are such that the bearing of B from A is $045^{\\circ}$ and ship C is to the east of A. If bearing of C from B is 180° and mAB=10km, what is the bearing of A from C? Also find the distance between ship A and ship C.",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m174cvjpy180jbst6nfyvpprcn8ctqsm",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "keyPoints": [
+      "Parallel norths transfer angles between points",
+      "Recognise the three-four-five triangle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Direction QP reverses to $230^{\\circ}$ while QR runs $140^{\\circ}$, so\nangle PQR $=230^{\\circ}-140^{\\circ}=90^{\\circ}$.\nTriangle PQR is right-angled at Q with hypotenuse $PR=5$ km and $PQ=3$ km:\n$QR=\\sqrt{25-9}=4$ km.\nVector addition gives $PR$ pointing about $103^{\\circ}$, so the bearing of R from P $\\approx103^{\\circ}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Babar Azam walked from point $P$ to point $Q$ at a bearing of $050^{\\circ}$ for 3 km. Then, he walked from point $Q$ to point $R$ at a bearing of $140^{\\circ}$. Find the distance $QR$, if the distance between $P$ and $R$ is 5 km. Also find the bearing of $R$ from $P$.",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m17c5tk6a9ek3p73kwz1gejs8s8cv1q3",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "keyPoints": [
+      "Draw the right triangle between the three positions",
+      "The complementary angle links bearing to the interior angle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let Rayyan be at the origin, snake at $(0,h)$ due north, Sarim at $(25,0)$ east.\nBearing of Sarim from the snake is $122^{\\circ}$, so the vector makes $58^{\\circ}$ with the vertical line toward south:\n$\\tan58^{\\circ}=\\frac{25}{h}$, giving $h=\\frac{25}{\\tan58^{\\circ}}\\approx15.62$ m.\nRayyan is about $15.62$ m from the snake.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Rayyan spots a snake directly north from his location. Sarim is 25m east of Rayyan and spots the same snake. If the bearing of Sarim from snake is $122^{\\circ}$, how far is Rayyan from the snake?",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m17b9p7yzhxxz5q77c2dtsvz498cv32e",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "keyPoints": [
+      "Component addition locates the final point",
+      "Zero dot product marks the right-angle turn",
+      "Bearings recompute from total displacement"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Home to school: $12$ km at $060^{\\circ}$ gives components $(12\\sin60^{\\circ},12\\cos60^{\\circ})=(6\\sqrt{3},6)$.\nSchool to ground: $5$ km at $150^{\\circ}$ gives $(2.5,-2.5\\sqrt{3})$.\nDot product $=6\\sqrt{3}(2.5)+6(-2.5\\sqrt{3})=0$, so the turn is a right angle.\nDistance home to ground $=\\sqrt{12^{2}+5^{2}}=13$ km;\nbearing $=\\arctan\\left(\\frac{12.892}{1.670}\\right)\\approx083^{\\circ}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Bilal traveled 12 km on his bike to reach school at a bearing of $060^{\\circ}$ from his home. Then, he went to football ground from school at a bearing of $150^{\\circ}$. If the football ground is at a distance of 5 km from school, find the distance he has to cover to reach home from football ground?",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m17fhxcx9xqay35tdjj0ck1bb18cvb1e",
+    "exerciseId": "xd72dph25ghq5kvp45cy7vvj8d8ctzsa",
+    "exerciseTitle": "Exercise 6.6",
+    "keyPoints": [
+      "North component uses cosine of the bearing",
+      "East component uses sine of the bearing"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Northward distance $=13\\cos40^{\\circ}\\approx13(0.7660)=9.96$ km.\nEastward distance $=13\\sin40^{\\circ}\\approx13(0.6428)=8.36$ km.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "A car leaves the garage at a bearing of $040^{\\circ}$ and travels in a straight line for 13 km. How many kilometres north and how many kilometres east has the car travelled from the garage?",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m177rjf9dpnn5sn509s49x9z598c7ekv",
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "035°"
+      },
+      {
+        "key": "B",
+        "text": "055°"
+      },
+      {
+        "key": "C",
+        "text": "125°"
+      },
+      {
+        "key": "D",
+        "text": "305°"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "The bearing of A from O is:",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m170jqhxsnpysgw4j959sn78mh8c7tgj",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "North"
+      },
+      {
+        "key": "B",
+        "text": "East"
+      },
+      {
+        "key": "C",
+        "text": "North East"
+      },
+      {
+        "key": "D",
+        "text": "South East"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "A ship sails on a three-figure bearing of 075°. In which direction is it heading?",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "06-trigonometry-and-bearing",
+    "chapterTitle": "Trigonometry And Bearing",
+    "topicSlug": "6-6-bearing",
+    "topicTitle": "6.6 Bearing",
+    "_id": "m17e12cparkdc2cq0v07cg831d8e16pg",
+    "exerciseId": "xd7ezf3aws20s8tytvc0jrn23n8e13cs",
+    "exerciseTitle": "Chapter 6: Miscellaneous Review Exercise",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Q1 key: (i)a (ii)b (iii)d (iv)c (v)b (vi)a (vii)c (viii)d (ix)d (x)b (xi)c (xii)a (xiii)c (xiv)c (xv)d.\nIdentities used: $\\sin^2+\\cos^2=1$, $\\sec^2-\\tan^2=1$, $\\cosec^2-\\cot^2=1$; (ii) $\\cos 120=-1/2$; (v) $\\tan x=1$; (viii) $30'=0.5$ deg; (xii) $270=3\\pi/2$; (xiii) $180+45=225$; (xiv) $070+180=250$; (xv) $360-\\arctan(3/4)\\approx323$.\nRest: (x) second quadrant; (xi) radian is circular.\nQ2: $\\sin\\alpha=12/13$, $\\tan\\alpha=-12/5$, $\\sec\\alpha=-13/5$ (second quadrant).\nQ3: $1000/\\sqrt{3}$ m over 100 s, about 5.77 m/s.\nQ4: apply the matching trig ratio to the marked sides in the figure and solve for $a$.\nQ5: legs 10 cm, 10 cm, hypotenuse $10\\sqrt{2}$ cm.\nQ6: $h=18+6\\sqrt{3}$, about 28.4 m.\nQ7: about 163 m ($100\\sqrt{3}$ m apart, upper part $100\\sqrt{3}\\tan20$).\nQ8: bearing about 050 ($\\arctan(119/100)$ east of north).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionLabel": "Review / Encircle the Correct Option",
+    "sourceRef": {
+      "blockIndex": 15,
+      "blockKind": "exercise",
+      "chapterNumber": 6,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "1. Encircle the correct option in each of the following.\n(i) If $\\sin x=\\frac{1}{4}$, what is the value of $\\cos x$ ?\n(a) $\\frac{\\sqrt{15}}{4}$\n(b) $\\frac{3}{4}$\n(c) $\\frac{\\sqrt{17}}{4}$\n(d) $\\frac{15}{4}$\n(ii) $\\cos \\frac{2 \\pi}{3}=$ ?\n(a) $\\frac{1}{2}$\n(b) $-\\frac{1}{2}$\n(c) $-\\frac{\\sqrt{3}}{2}$\n(d) $\\frac{\\sqrt{3}}{2}$\n(iii) $\\frac{1}{1-\\sin \\theta}+\\frac{1}{1+\\sin \\theta}=$ ?\n(a) $\\operatorname{cosec}^{2} \\theta$\n(b) $2 \\operatorname{cosec}^{2} \\theta$\n(c) $\\sec ^{2} \\theta$\n(d) $2 \\sec ^{2} \\theta$\n(iv) $-3-3 \\tan ^{2} \\theta=$ ?\n(a) $3 \\operatorname{cosec}^{2} \\theta$\n(b) $-3 \\operatorname{cosec}^{2} \\theta$\n(c) $-3 \\sec ^{2} \\theta$\n(d) $3 \\sec ^{2} \\theta$\n(v) If $\\cos x=\\sin x$, then the value of $x$ is\n(a) 30°\n(b) $45^{\\circ}$\n(c) 60°\n(d) 90°\n(vi) $4 \\operatorname{cosec}^{2} \\theta-4 \\cot ^{2} \\theta-4 \\cos 0^{\\circ}=$ ?\n(a) 0\n(b) 1\n(c) -1\n(d) 4\n(vii) If $\\tan x=\\frac{a}{b}$, then $\\sin x=$ ?\n(a) $\\frac{a}{\\sqrt{a^{2}-b^{2}}}$\n(b) $\\frac{b}{\\sqrt{a^{2}-b^{2}}}$\n(c) $\\frac{a}{\\sqrt{a^{2}+b^{2}}}$\n(d) $\\frac{b}{\\sqrt{a^{2}+b^{2}}}$\n(viii) $50^{\\circ} 30^{\\prime}=$ ?\n(a) 50.2°\n(b) 50.3°\n(c) 50.4°\n(d) $50.5^{\\circ}$\n(ix) $\\left(1-\\cos ^{2} \\theta\\right) \\sec ^{2} \\theta=$ ?\n(a) $\\operatorname{cosec}^{2} \\theta$\n(b) $\\cot ^{2} \\theta$\n(c) $\\sec ^{2} \\theta$\n(d) $\\tan ^{2} \\theta$\n(x) In which quadrant do the angles between 90° and 180° lie?\n(a) 1st\n(b) 2nd\n(c) 3rd\n(d) 4th\n(xi) The system in which the angles are measured in radians is called\n(a) CGS\n(b) sexagesimal\n(c) circular\n(d) centesimal\n(xii) $270^{\\circ}=$ ?\n(a) $\\frac{3 \\pi}{2}$\n(b) $\\frac{\\pi}{2}$\n(c) $-\\frac{\\pi}{2}$\n(d) $-\\frac{3 \\pi}{2}$\n\n(xiii) What is the bearing of south-west direction line?\n(a) $45^{\\circ}$\n(b) $135^{\\circ}$\n(c) 225\n(d) $270^{\\circ}$\n(xiv) If an automobile travels at the bearing of is $070^{\\circ}$ from city A to city B , then the bearing from city $B$ to city $A$ is\n(a) 070°\n(b) $110^{\\circ}$\n(c) $250^{\\circ}$\n(d) $290^{\\circ}$\n(xv) A boat sails 4 km north from point L to M , then it sails 3 km west from M to P . What is the bearing of P from L ? Provide your answer to the nearest degree.\n(a) $037^{\\circ}$\n(b) $053^{\\circ}$\n(c) $217^{\\circ}$\n(d) $323^{\\circ}$\n2. Find $\\sin \\alpha, \\tan \\alpha$ and $\\sec \\alpha$, if $\\cos \\alpha=\\frac{-5}{13}$, where $\\frac{\\pi}{2}<\\alpha<\\pi$.\n3. The angle of elevation of a hot air balloon 500 m away, climbing up vertically, changes from $30^{\\circ}$ to $60^{\\circ}$ in 100 seconds. What is the upward speed in meters per second?\n4. Find the value of $a$ in the following figure.\n![](./images/586322db-47a5-4f90-b0af-149cd93fd880-143_327_655_1341_578.jpg)\n5. The area of a right triangle is $50 \\mathrm{~cm}^{2}$. One of its angles is $45^{\\circ}$. Find the lengths of the sides and hypotenuse of the triangle.\n6. If the shadow of a building increases by 12 meters when the angle of elevation of the sun rays decreases from $60^{\\circ}$ to $45^{\\circ}$, what is the height of that building?\n7. From the top of a 100 meters high building, the angle of depression to the bottom of a second building is $30^{\\circ}$. From the same point, the angle of elevation to the top of the second-building is 20°. Calculate the height of the second building.\n8. A plane is 119 km west and 100 km south of an airport. At what bearing, the pilot wants to fly directly back to the airport?",
+    "topicId": "ms7dpw10fbthpqyz60t881ad2x8bv19h"
+  }
+]

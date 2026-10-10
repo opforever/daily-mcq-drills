@@ -1,0 +1,632 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-1-newton-s-law-of-universal-gravitation",
+    "topicTitle": "15.1 Newton's Law of Universal Gravitation",
+    "_id": "k9754e4czmyyg78m5p9y13kk198be0t9",
+    "correctKey": "A",
+    "explanation": "Newton's law gives $F \\propto 1/r^2$. Replacing $r$ by $3r$ changes the force by $1/3^2 = 1/9$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b3kc9sserthsnt158r8zb2s85q7eq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$F/9$"
+      },
+      {
+        "key": "B",
+        "text": "$F/3$"
+      },
+      {
+        "key": "C",
+        "text": "$3F$"
+      },
+      {
+        "key": "D",
+        "text": "$9F$"
+      }
+    ],
+    "sectionId": "inverse-square-relationship",
+    "sectionLabel": "Inverse-Square Relationship",
+    "stem": "Two masses remain unchanged while the distance between their centres becomes three times larger. What is the new gravitational force?",
+    "topicId": "ms7dqzy99xyw5pewhx1g27sx5x85qrte"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-1-newton-s-law-of-universal-gravitation",
+    "topicTitle": "15.1 Newton's Law of Universal Gravitation",
+    "_id": "k97cpcsn6gpsd9gfpw91w6jty18be6e5",
+    "correctKey": "A",
+    "explanation": "The unit vector is defined away from the source in the stated convention, while gravitational force points toward the source because it is attractive.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b3kc9sserthsnt158r8zb2s85q7eq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gravity acts toward the source mass"
+      },
+      {
+        "key": "B",
+        "text": "Gravity increases kinetic energy"
+      },
+      {
+        "key": "C",
+        "text": "The gravitational constant is negative"
+      },
+      {
+        "key": "D",
+        "text": "The masses exert unequal forces"
+      }
+    ],
+    "sectionId": "vector-form-and-direction",
+    "sectionLabel": "Vector Form and Direction",
+    "stem": "Why is there a negative sign in the vector form of Newton's gravitational law?",
+    "topicId": "ms7dqzy99xyw5pewhx1g27sx5x85qrte"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-1-newton-s-law-of-universal-gravitation",
+    "topicTitle": "15.1 Newton's Law of Universal Gravitation",
+    "_id": "k971254xwgfy7bvtq57z5m99ch8bg6cq",
+    "correctKey": "C",
+    "explanation": "The law governs interactions ranging from objects on Earth to planets, stars, and galaxies, regardless of size, composition, or location.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b3kc9sserthsnt158r8zb2s85q7eq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only planets orbiting stars"
+      },
+      {
+        "key": "B",
+        "text": "Only objects on Earth's surface"
+      },
+      {
+        "key": "C",
+        "text": "Every pair of objects, regardless of size, composition, or location"
+      },
+      {
+        "key": "D",
+        "text": "Only objects with electric charge"
+      }
+    ],
+    "sectionId": "why-the-law-is-universal",
+    "sectionLabel": "Why the Law Is Universal",
+    "stem": "Newton's law of universal gravitation is described as \"universal\" because it applies to:",
+    "topicId": "ms7dqzy99xyw5pewhx1g27sx5x85qrte"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-2-gravitational-field-strength",
+    "topicTitle": "15.2 Gravitational Field Strength",
+    "_id": "k9750vv5emnqg9651wn744h55985qh1c",
+    "correctKey": "B",
+    "explanation": "Gravitational field strength is force per unit mass ($F/m$), hence Newtons per kilogram (N/kg).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78gjnn70a5gca2sdnvdp758n85p903",
+    "options": [
+      {
+        "key": "C",
+        "text": "N m/kg"
+      },
+      {
+        "key": "A",
+        "text": "kg/N"
+      },
+      {
+        "key": "D",
+        "text": "kg m/s"
+      },
+      {
+        "key": "B",
+        "text": "N/kg"
+      }
+    ],
+    "sectionId": "definition-of-gravitational-field-strength",
+    "sectionLabel": "Definition of Gravitational Field Strength",
+    "stem": "Which of the following represents the correct SI unit for gravitational field strength?",
+    "topicId": "ms789qctbtvpzbad9zkpwxdhyh85qnjg"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-2-gravitational-field-strength",
+    "topicTitle": "15.2 Gravitational Field Strength",
+    "_id": "k979yd00026f7ws15g72b7b0kh85qwd6",
+    "correctKey": "B",
+    "explanation": "At altitude $h = R_E$, the distance from Earth's centre is $r = R_E + h = 2R_E$. Using $g_h = \\frac{g R_E^2}{(R_E+h)^2} = \\frac{g R_E^2}{(2R_E)^2} = \\frac{g}{4}$, so $g_h = \\frac{9.8}{4} \\approx 2.45\\ \\mathrm{m\\ s^{-2}}$. The field weakens by the square of the distance ratio.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78gjnn70a5gca2sdnvdp758n85p903",
+    "options": [
+      {
+        "key": "B",
+        "text": "$2.45\\ \\mathrm{m\\ s^{-2}}$"
+      },
+      {
+        "key": "D",
+        "text": "$1.225\\ \\mathrm{m\\ s^{-2}}$"
+      },
+      {
+        "key": "A",
+        "text": "$4.9\\ \\mathrm{m\\ s^{-2}}$"
+      },
+      {
+        "key": "C",
+        "text": "$19.6\\ \\mathrm{m\\ s^{-2}}$"
+      }
+    ],
+    "sectionId": "derivation-at-distance-r",
+    "sectionLabel": "Derivation at Distance $r$",
+    "stem": "A satellite orbits Earth at an altitude equal to Earth's radius ($R_E$). What is the approximate gravitational field strength at this altitude?",
+    "topicId": "ms789qctbtvpzbad9zkpwxdhyh85qnjg"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-2-gravitational-field-strength",
+    "topicTitle": "15.2 Gravitational Field Strength",
+    "_id": "k975xhxdbyjkxk0sed5egzwf1d85pjqm",
+    "correctKey": "B",
+    "explanation": "Gravitational field lines point radially inward toward the centre of the mass (direction of gravitational force on a test mass). Lines closer together indicate a stronger field, so they are denser near the surface and spread out with distance.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78gjnn70a5gca2sdnvdp758n85p903",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lines point radially outward from the centre of the mass"
+      },
+      {
+        "key": "B",
+        "text": "Lines point radially inward toward the centre, closer together where the field is stronger"
+      },
+      {
+        "key": "C",
+        "text": "Lines are parallel and equally spaced in all regions"
+      },
+      {
+        "key": "D",
+        "text": "Lines point radially inward but are equally spaced regardless of distance"
+      }
+    ],
+    "sectionId": "gravitational-field-lines",
+    "sectionLabel": "Gravitational Field Lines",
+    "stem": "Which of the following correctly describes the gravitational field lines around a uniform spherical mass?",
+    "topicId": "ms789qctbtvpzbad9zkpwxdhyh85qnjg"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-2-gravitational-field-strength",
+    "topicTitle": "15.2 Gravitational Field Strength",
+    "_id": "k97dfpyz3rcz8v9a474zymjzyx85pxyt",
+    "correctKey": "B",
+    "explanation": "The formula $g_h = gR_E^2/(R_E+h)^2$ shows the fractional change is approximately $2h/R_E$. Since $R_E \\approx 6.4 \\times 10^6\\ \\mathrm{m}$, heights of a few km produce changes less than 0.1%, so $g$ is effectively constant near the surface.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78gjnn70a5gca2sdnvdp758n85p903",
+    "options": [
+      {
+        "key": "C",
+        "text": "Because the mass of objects near the surface is too small to affect $g$"
+      },
+      {
+        "key": "A",
+        "text": "Because Earth's gravitational field is perfectly uniform everywhere"
+      },
+      {
+        "key": "D",
+        "text": "Because $g$ only varies with latitude, not altitude"
+      },
+      {
+        "key": "B",
+        "text": "Because the fractional change $2h/R_E$ is negligible for heights much smaller than $R_E$"
+      }
+    ],
+    "sectionId": "why-g-is-approximately-constant-near-earth",
+    "sectionLabel": "Why $g$ Is Approximately Constant Near Earth",
+    "stem": "Why is the value of $g$ taken as approximately constant ($9.8\\ \\mathrm{m\\ s^{-2}}$) for objects near Earth's surface?",
+    "topicId": "ms789qctbtvpzbad9zkpwxdhyh85qnjg"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-3-satellites-and-orbits",
+    "topicTitle": "15.3 Satellites and Orbits",
+    "_id": "k97531dmp8wbd61d29ms3g1zz58bfrm9",
+    "correctKey": "A",
+    "explanation": "Since $v = \\sqrt{GM/r}$, increasing the radius by a factor of 4 reduces the speed by $\\sqrt{4}=2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72ez5zm02246a7757d0k0s0585qqb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "It becomes $v/2$"
+      },
+      {
+        "key": "B",
+        "text": "It becomes $v/4$"
+      },
+      {
+        "key": "C",
+        "text": "It becomes $2v$"
+      },
+      {
+        "key": "D",
+        "text": "It remains $v$"
+      }
+    ],
+    "sectionId": "circular-orbital-motion",
+    "sectionLabel": "Circular Orbital Motion",
+    "stem": "A satellite moves from a circular orbit of radius $r$ to one of radius $4r$ around the same planet. How does its orbital speed change?",
+    "topicId": "ms7fgqjrh77pcb08pr0qj7zzcx85qx0b"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-3-satellites-and-orbits",
+    "topicTitle": "15.3 Satellites and Orbits",
+    "_id": "k973zp93xxa1jrny56e32qw35s8bhbdp",
+    "correctKey": "C",
+    "explanation": "When launch speed exceeds the circular orbital speed but stays below escape speed, the satellite follows an elliptical orbit.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72ez5zm02246a7757d0k0s0585qqb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "It falls back to Earth"
+      },
+      {
+        "key": "B",
+        "text": "It follows a stable circular orbit"
+      },
+      {
+        "key": "C",
+        "text": "It follows an elliptical orbit"
+      },
+      {
+        "key": "D",
+        "text": "It escapes Earth's gravity entirely"
+      }
+    ],
+    "sectionId": "effect-of-launch-speed",
+    "sectionLabel": "Effect of Launch Speed",
+    "stem": "A satellite is launched with a speed v such that the circular orbital speed $v_{o}$ < v < the escape speed $v_{esc}$. What path does it follow?",
+    "topicId": "ms7fgqjrh77pcb08pr0qj7zzcx85qx0b"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-3-satellites-and-orbits",
+    "topicTitle": "15.3 Satellites and Orbits",
+    "_id": "k976knxm379hs0m93s0y59jv3s8benn3",
+    "correctKey": "A",
+    "explanation": "Matching Earth's angular velocity requires a circular equatorial orbit in the same rotational direction and with the same period.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72ez5zm02246a7757d0k0s0585qqb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "A circular equatorial orbit with a 24-hour period, moving west to east"
+      },
+      {
+        "key": "B",
+        "text": "A polar orbit with a 24-hour period"
+      },
+      {
+        "key": "C",
+        "text": "Any circular orbit at an altitude of 36,000 km"
+      },
+      {
+        "key": "D",
+        "text": "An equatorial orbit moving east to west"
+      }
+    ],
+    "sectionId": "geostationary-satellites",
+    "sectionLabel": "Geostationary Satellites",
+    "stem": "Which orbit can make a satellite remain above the same point on Earth's surface?",
+    "topicId": "ms7fgqjrh77pcb08pr0qj7zzcx85qx0b"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-3-satellites-and-orbits",
+    "topicTitle": "15.3 Satellites and Orbits",
+    "_id": "k975s7g4zsbxyhmp44d9sznwqx8bgkne",
+    "correctKey": "C",
+    "explanation": "A polar orbit passes over Earth's poles, letting the satellite eventually cover the entire surface as Earth rotates beneath it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72ez5zm02246a7757d0k0s0585qqb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Equatorial orbit"
+      },
+      {
+        "key": "B",
+        "text": "Inclined orbit"
+      },
+      {
+        "key": "C",
+        "text": "Polar orbit"
+      },
+      {
+        "key": "D",
+        "text": "Geostationary orbit"
+      }
+    ],
+    "sectionId": "types-of-satellite-orbits",
+    "sectionLabel": "Types of Satellite Orbits",
+    "stem": "Which type of satellite orbit passes over Earth's poles and is useful for full-surface coverage?",
+    "topicId": "ms7fgqjrh77pcb08pr0qj7zzcx85qx0b"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-4-geostationary-satellites",
+    "topicTitle": "15.4 Geostationary Satellites",
+    "_id": "k974ty0a70pamm58b6rkg9fvv185q8nv",
+    "correctKey": "C",
+    "explanation": "For a satellite to appear stationary, its orbital plane must be perpendicular to the Earth's axis of rotation, which only happens in the equatorial plane.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cwhayyqnnjtntt5q06wbpn185pdzx",
+    "options": [
+      {
+        "key": "A",
+        "text": "The gravitational pull is too strong at the poles"
+      },
+      {
+        "key": "B",
+        "text": "The satellite would not be able to see the equator"
+      },
+      {
+        "key": "C",
+        "text": "The center of the orbit must coincide with the center of the Earth, and the period must match Earth's rotation around its axis"
+      },
+      {
+        "key": "D",
+        "text": "There is no atmosphere at the poles to support the orbit"
+      }
+    ],
+    "sectionId": "conditions-for-a-geostationary-orbit",
+    "sectionLabel": "Conditions for a Geostationary Orbit",
+    "stem": "Why can a geostationary satellite not be placed in an orbit directly over the North Pole?",
+    "topicId": "ms7d1ja3gj5w48k5ajg5fnc9r585pfaf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-4-geostationary-satellites",
+    "topicTitle": "15.4 Geostationary Satellites",
+    "_id": "k97dzmkc8rsn2tkzh1tywnmn1s85phty",
+    "correctKey": "C",
+    "explanation": "The orbital radius $r = \\sqrt[3]{\\frac{GMT^2}{4\\pi^2}}$ is independent of the mass of the satellite; it only depends on the mass of the planet and the orbital period.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cwhayyqnnjtntt5q06wbpn185pdzx",
+    "options": [
+      {
+        "key": "A",
+        "text": "The radius must be doubled"
+      },
+      {
+        "key": "B",
+        "text": "The radius must be halved"
+      },
+      {
+        "key": "C",
+        "text": "The radius remains the same"
+      },
+      {
+        "key": "D",
+        "text": "The radius increases by $\\sqrt{2}$"
+      }
+    ],
+    "sectionId": "derivation-of-geostationary-orbital-radius",
+    "sectionLabel": "Derivation of Geostationary Orbital Radius",
+    "stem": "A geostationary satellite must have an orbital radius $r$ such that its period $T$ is 24 hours. If the mass of the satellite is doubled, what happens to the required orbital radius?",
+    "topicId": "ms7d1ja3gj5w48k5ajg5fnc9r585pfaf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-4-geostationary-satellites",
+    "topicTitle": "15.4 Geostationary Satellites",
+    "_id": "k974qqtghbq06mxr21jrcpey8n85p2ma",
+    "correctKey": "A",
+    "explanation": "Using $v = \\frac{2\\pi r}{T}$ where $r \\approx 4.23 \\times 10^7\\text{ m}$ and $T = 86,400\\text{ s}$, the velocity is roughly $3.07\\text{ km/s}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cwhayyqnnjtntt5q06wbpn185pdzx",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.1 km/s"
+      },
+      {
+        "key": "B",
+        "text": "7.9 km/s"
+      },
+      {
+        "key": "C",
+        "text": "11.2 km/s"
+      },
+      {
+        "key": "D",
+        "text": "9.8 km/s"
+      }
+    ],
+    "sectionId": "orbital-velocity-of-a-geostationary-satellite",
+    "sectionLabel": "Orbital Velocity of a Geostationary Satellite",
+    "stem": "The orbital velocity of a geostationary satellite is approximately:",
+    "topicId": "ms7d1ja3gj5w48k5ajg5fnc9r585pfaf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-5-gravitational-potential",
+    "topicTitle": "15.5 Gravitational Potential",
+    "_id": "k972s2epb3e47r5n5gffxg1efn85qqak",
+    "correctKey": "B",
+    "explanation": "Since $V = -\\frac{GM}{r}$, gravitational potential is proportional to $1/r$. If the distance is doubled to $2r$, the new potential is $V' = -\\frac{GM}{2r} = \\frac{1}{2}V$. The magnitude halves (the value becomes half as negative), so the potential changes by a factor of $1/2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72zjhdx1fm3bh9an3f5avfhd85pky9",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "sectionId": "worked-example",
+    "sectionLabel": "Worked Example",
+    "stem": "If the distance from the center of the Earth is doubled, the gravitational potential changes by a factor of:",
+    "topicId": "ms72tjt8470sxx267pd2p0kwcx85p06a"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-5-gravitational-potential",
+    "topicTitle": "15.5 Gravitational Potential",
+    "_id": "k9711y7z52k91h0agbtgb1feqs85pwz5",
+    "correctKey": "C",
+    "explanation": "Gravitational potential is work done per unit mass, so its unit is $J/kg$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72zjhdx1fm3bh9an3f5avfhd85pky9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Joules (J)"
+      },
+      {
+        "key": "B",
+        "text": "Newtons per kilogram (N/kg)"
+      },
+      {
+        "key": "C",
+        "text": "Joules per kilogram (J/kg)"
+      },
+      {
+        "key": "D",
+        "text": "Watts (W)"
+      }
+    ],
+    "sectionId": "definition",
+    "sectionLabel": "Definition",
+    "stem": "What are the SI units for Gravitational Potential?",
+    "topicId": "ms72tjt8470sxx267pd2p0kwcx85p06a"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-5-gravitational-potential",
+    "topicTitle": "15.5 Gravitational Potential",
+    "_id": "k97ec4b5x802m04b4reg0kmtyd85qb1q",
+    "correctKey": "C",
+    "explanation": "By convention, gravitational potential is zero at infinity where the gravitational influence of the mass becomes negligible.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72zjhdx1fm3bh9an3f5avfhd85pky9",
+    "options": [
+      {
+        "key": "A",
+        "text": "At the center of the mass"
+      },
+      {
+        "key": "B",
+        "text": "At the surface of the mass"
+      },
+      {
+        "key": "C",
+        "text": "At an infinite distance"
+      },
+      {
+        "key": "D",
+        "text": "At the edge of the atmosphere"
+      }
+    ],
+    "sectionId": "formula-for-gravitational-potential",
+    "sectionLabel": "Formula for Gravitational Potential",
+    "stem": "At what distance from a central mass is the gravitational potential defined to be zero?",
+    "topicId": "ms72tjt8470sxx267pd2p0kwcx85p06a"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "15-gravitation",
+    "chapterTitle": "Gravitation",
+    "topicSlug": "15-5-gravitational-potential",
+    "topicTitle": "15.5 Gravitational Potential",
+    "_id": "k970txs5bcqebmrn0ckagpgd5585qwz8",
+    "correctKey": "B",
+    "explanation": "The gravitational field strength $g$ is defined as the negative gradient of gravitational potential: $g = -\\frac{\\Delta V}{\\Delta r}$. This means $g$ points in the direction of decreasing potential, and its magnitude equals the rate of change of $V$ with distance $r$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72zjhdx1fm3bh9an3f5avfhd85pky9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gravitational Potential Energy"
+      },
+      {
+        "key": "B",
+        "text": "Gravitational Field Strength"
+      },
+      {
+        "key": "C",
+        "text": "Escape Velocity"
+      },
+      {
+        "key": "D",
+        "text": "Universal Gravitational Constant"
+      }
+    ],
+    "sectionId": "relationship-between-v-and-gravitational-field-strength-g",
+    "sectionLabel": "Relationship Between $V$ and Gravitational Field Strength $g$",
+    "stem": "The potential gradient in a gravitational field represents:",
+    "topicId": "ms72tjt8470sxx267pd2p0kwcx85p06a"
+  }
+]

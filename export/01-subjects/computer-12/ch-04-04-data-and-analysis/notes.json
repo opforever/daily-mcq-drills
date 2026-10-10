@@ -1,0 +1,74 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-types",
+    "topicTitle": "4.1 Data Types in C++",
+    "_creationTime": 1777384339156.23,
+    "_id": "kx7bcj3wt1vb4jg6m3sztafk4d85pa94",
+    "createdAt": 1777384339156,
+    "mdxBody": "A **data type** is a classification that tells the compiler:\n1. What kind of value a variable can hold\n2. How much memory to allocate\n3. What operations can be performed on it\n\nC++ provides several **fundamental (primitive) data types** built into the language.\n\n---\n\n## 1. Integer Types (`int`)\n\nUsed to store **whole numbers** (no decimal part).\n\n| Modifier | Size | Range |\n|---|---|---|\n| `short int` | 2 bytes | -32,768 to 32,767 |\n| `int` | 4 bytes | -2,147,483,648 to 2,147,483,647 |\n| `long int` | 4–8 bytes | Platform dependent |\n| `long long int` | 8 bytes | Very large range |\n\n### Signed vs Unsigned\n- **`signed`** (default): stores both positive and negative values\n- **`unsigned`**: stores only non-negative values (0 and above), doubling the positive range\n\n```cpp\nint a = -10;           // signed (default)\nunsigned int b = 200;  // unsigned, range: 0 to 4,294,967,295\n```\n\n---\n\n## 2. Floating-Point Types\n\nUsed to store **real numbers** (numbers with fractional/decimal parts).\n\n| Type | Size | Precision |\n|---|---|---|\n| `float` | 4 bytes | ~7 decimal digits |\n| `double` | 8 bytes | ~15 decimal digits |\n| `long double` | 10–16 bytes | Extended precision |\n\n```cpp\nfloat pi = 3.14f;\ndouble precise_pi = 3.14159265358979;\n```\n\n> Use `double` when higher precision is needed (e.g., scientific calculations).\n\n---\n\n## 3. Character Type (`char`)\n\nUsed to store a **single character** using its ASCII code.\n\n- Size: **1 byte** (8 bits)\n- Range: 0–255 (unsigned) or -128 to 127 (signed)\n- Stores 256 possible values representing ASCII characters\n\n```cpp\nchar grade = 'A';   // stored as ASCII value 65\nchar newline = '\\n'; // escape character\n```\n\n**ASCII Examples:**\n- `'A'` = 65, `'a'` = 97, `'0'` = 48\n\n---\n\n## 4. Boolean Type (`bool`)\n\nUsed to store **logical values**.\n\n- Size: **1 byte**\n- Values: `true` (stored as 1) or `false` (stored as 0)\n\n```cpp\nbool isLoggedIn = true;\nbool hasError = false;\n\nif (isLoggedIn) {\n    cout << \"Welcome!\";\n}\n```\n\n---\n\n## 5. Void Type (`void`)\n\n`void` means **no type** or **no value**. It is used:\n- As a return type for functions that return nothing\n- For generic pointers (`void*`) that can point to any data type\n\n```cpp\nvoid printMessage() {      // returns nothing\n    cout << \"Hello\";\n}\n\nvoid *ptr1;    // generic pointer, can point to any type\nint  *ptr2;    // typed pointer, can only point to int\n```\n\n### `void*` vs `int*`\n| Feature | `void *ptr1` | `int *ptr2` |\n|---|---|---|\n| Points to | Any data type | Only `int` variables |\n| Dereferencing | Requires explicit cast | Direct dereferencing allowed |\n| Type safety | Less type-safe | Type-safe |\n| Use case | Generic functions, malloc | Integer-specific operations |\n\n---\n\n## Summary Table\n\n| Data Type | Size | Example Values |\n|---|---|---|\n| `int` | 4 bytes | -100, 0, 42 |\n| `unsigned int` | 4 bytes | 0, 200, 65535 |\n| `float` | 4 bytes | 3.14, -0.5 |\n| `double` | 8 bytes | 3.14159265 |\n| `char` | 1 byte | 'A', 'z', '5' |\n| `bool` | 1 byte | true, false |\n| `void` |, | (no value) |",
+    "publishedAt": 1777384339156,
+    "slug": "4-1-data-types",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "page": 101,
+      "subjectSlug": "computer-12"
+    },
+    "status": "published",
+    "summary": "Preserve canonical Computer 12 Chapter 4 note content and add verified source anchor 1.",
+    "title": "4.1 Data Types in C++",
+    "topicId": "ms7deqegt38drkkh138m8a8kns85qsck",
+    "updatedAt": 1787554474374
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-data-visualization",
+    "topicTitle": "4.2 Data Visualization",
+    "_creationTime": 1777384340234.4055,
+    "_id": "kx7dn56qk5q6x47nk3rkmtbphd85p142",
+    "createdAt": 1777384340234,
+    "mdxBody": "Data visualization is the **graphical representation of information and data** using visual elements such as charts, graphs, maps, and dashboards. It transforms raw data into an accessible format that helps identify trends, outliers, and patterns quickly.\n\nTools used for data visualization include **SQL**, **Python** (matplotlib, seaborn, plotly), and **R** (ggplot2).\n\n---\n\n## Why Data Visualization Matters\n\n- The human brain processes visual information faster than raw numbers.\n- Helps communicate findings to both technical and non-technical audiences.\n- Supports hypothesis testing by visually confirming or challenging assumptions.\n- Enables real-time monitoring through dashboards.\n\n---\n\n## Common Chart Types\n\n| Chart Type | Best Used For | Example Tool (Python) |\n|---|---|---|\n| **Bar Chart** | Comparing discrete categories | `plt.bar()` |\n| **Histogram** | Distribution of continuous data | `plt.hist()` |\n| **Line Graph** | Trends over time | `plt.plot()` |\n| **Scatter Plot** | Relationship between two numeric variables | `plt.scatter()` |\n| **Pie Chart** | Proportions of a whole | `plt.pie()` |\n| **Heat Map** | Magnitude across a matrix or geography | `sns.heatmap()` |\n| **Box Plot** | Distribution, median, and outliers | `sns.boxplot()` |\n\n### Bar Chart vs. Histogram\n- A **Bar Chart** compares **discrete categories** (e.g., sales per product).\n- A **Histogram** shows the **frequency distribution** of **continuous numerical data** over intervals (bins).\n\n---\n\n## Creating Visualizations in Python\n\n### Using Matplotlib\n\n```python\nimport matplotlib.pyplot as plt\n\n# Bar Chart\ncategories = ['Math', 'Science', 'English']\nscores = [85, 92, 78]\nplt.bar(categories, scores, color='steelblue')\nplt.title('Student Scores by Subject')\nplt.xlabel('Subject')\nplt.ylabel('Score')\nplt.show()\n```\n\n```python\n# Scatter Plot\nimport matplotlib.pyplot as plt\n\nheight = [150, 160, 170, 180, 190]\nweight = [50, 60, 70, 80, 90]\nplt.scatter(height, weight, color='red')\nplt.title('Height vs Weight')\nplt.xlabel('Height (cm)')\nplt.ylabel('Weight (kg)')\nplt.show()\n```\n\n### Using Seaborn\n\n```python\nimport seaborn as sns\nimport pandas as pd\n\n# Heat Map (Correlation Matrix)\ndf = pd.DataFrame({'A': [1,2,3], 'B': [4,5,6], 'C': [7,8,9]})\nsns.heatmap(df.corr(), annot=True, cmap='coolwarm')\n```\n\n---\n\n## Creating Visualizations in SQL\n\nSQL itself does not render charts, but query results can be exported to visualization tools. Some database environments (e.g., MySQL Workbench, PostgreSQL with Grafana) support basic chart generation.\n\n```sql\n-- Example: Aggregate data for visualization\nSELECT department, COUNT(*) AS employee_count\nFROM employees\nGROUP BY department\nORDER BY employee_count DESC;\n```\nThis result can then be fed into Python or R to create a bar chart.\n\n---\n\n## Creating Visualizations in R\n\n```r\n# Using ggplot2\nlibrary(ggplot2)\n\ndf <- data.frame(subject = c('Math','Science','English'), score = c(85,92,78))\nggplot(df, aes(x=subject, y=score, fill=subject)) +\n  geom_bar(stat='identity') +\n  ggtitle('Student Scores by Subject')\n```\n\n---\n\n## Heat Maps\n\nA **Heat Map** uses **color intensity** to represent values across a data matrix or geographical area.\n- Darker or warmer colors indicate higher values.\n- Useful for spotting correlations in large datasets.\n- Common in bioinformatics, web analytics, and financial analysis.\n\n---\n\n## Dashboards\n\nA **Dashboard** is an interactive information management tool that:\n- Visually tracks and displays **Key Performance Indicators (KPIs)**.\n- Allows users to **filter and drill down** into specific data subsets.\n- Provides real-time monitoring of business or system health.\n\nPopular dashboard tools include **Tableau**, **Power BI**, and Python's **Dash** library.\n\n---\n\n## Data Visualization and Hypothesis Testing\n\nVisualizations play a key role in communicating hypothesis testing results:\n- **Before testing**: Use exploratory plots (histograms, scatter plots) to understand data distribution.\n- **After testing**: Use visualizations to present findings clearly, e.g., a bar chart comparing means of two groups, or a scatter plot showing a regression line.\n- Advanced visuals such as **confidence interval plots** and **residual plots** help tie findings back to the original hypothesis.\n\n---\n\n## Key Principles of Effective Visualization\n\n1. **Clarity**, Choose the right chart type for the data.\n2. **Accuracy**, Do not distort scales or omit data points.\n3. **Simplicity**, Avoid information overload; include only relevant data.\n4. **Labeling**, Always label axes, add titles, and include legends.\n5. **Color**, Use color meaningfully, not decoratively.\n\n---",
+    "publishedAt": 1777384340234,
+    "slug": "4-2-data-visualization",
+    "sourceRef": {
+      "blockIndex": 35,
+      "chapterNumber": 4,
+      "page": 107,
+      "subjectSlug": "computer-12"
+    },
+    "status": "published",
+    "summary": "Preserve canonical Computer 12 Chapter 4 note content and add verified source anchor 35.",
+    "title": "4.2 Data Visualization",
+    "topicId": "ms72ew62mvdzj4v2kac5fcn1yd85qdpz",
+    "updatedAt": 1787554474705
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-hypothesis-formulation-and-hypothesis-testing",
+    "topicTitle": "4.3 Hypothesis Formulation and Hypothesis Testing",
+    "_creationTime": 1777384341274.1567,
+    "_id": "kx736nysby4ff9qhc72qwd7yqd85p0ef",
+    "createdAt": 1777384341274,
+    "mdxBody": "In data analysis and research, a **hypothesis** is a testable prediction about the relationship between variables. Hypothesis testing is the statistical process used to determine whether the evidence supports or refutes that prediction.\n\n---\n\n## What is a Hypothesis?\n\nA hypothesis is a **specific, measurable, and falsifiable statement** that predicts a relationship between two or more variables.\n\n**Example:**\n> *\"A simplified menu layout reduces the average time users take to complete a task.\"*\n\nA good hypothesis must be:\n- **Specific**, clearly defines the variables involved\n- **Testable**, data can be collected to support or refute it\n- **Falsifiable**, it is possible for the hypothesis to be proven wrong\n\n---\n\n## Types of Hypotheses\n\n### Null Hypothesis ($H_0$)\nThe Null Hypothesis states that there is **no significant difference or effect** between the variables being studied. It is the default assumption.\n\n> **Example:** *\"Changing the button color does not affect the click rate.\"\n\n### Alternative Hypothesis ($H_1$)\nThe Alternative Hypothesis is the statement the researcher **aims to support**. It claims that a significant relationship or difference **does exist**.\n\n> **Example:** *\"Changing the button color increases the click rate.\"\n\n---\n\n## Variables in a Hypothesis\n\n| Variable | Definition | Example |\n|---|---|---|\n| **Independent Variable** | The factor deliberately **changed/manipulated** | Font size, menu layout |\n| **Dependent Variable** | The factor **measured** as an outcome | Readability score, task time |\n\n---\n\n## Hypothesis Testing Process\n\nHypothesis testing follows a structured process:\n\n1. **Formulate** $H_0$ and $H_1$\n2. **Collect data** through experiments or observations (e.g., A/B Testing)\n3. **Analyze data** using statistical methods\n4. **Calculate the P-value**\n5. **Make a decision**, reject or fail to reject $H_0$\n6. **Communicate findings** using data visualizations\n\n---\n\n## The P-Value\n\nThe **P-value** is a statistical measure that indicates the probability that the observed results occurred by chance.\n\n$$p < \\alpha \\Rightarrow \\text{Reject } H_0$$\n\n- The standard **significance level** is $\\alpha = 0.05$\n- If $p < 0.05$: the result is **statistically significant** → reject $H_0$, support $H_1$\n- If $p \\geq 0.05$: insufficient evidence to reject $H_0$\n\n**Example:** A P-value of $0.03$ means there is only a 3% chance the result is due to random chance. Since $0.03 < 0.05$, we reject $H_0$.\n\n---\n\n## A/B Testing\n\n**A/B Testing** (split testing) is one of the most common methods used to validate hypotheses about user interfaces and system designs.\n\n- **Version A** = the original/control design\n- **Version B** = the modified/experimental design\n- Users are randomly assigned to each version\n- Data is collected and compared statistically\n\n> **Example Hypothesis:** *\"Users who see Version B (larger buttons) will complete checkout faster than users who see Version A.\"\n\n---\n\n## Communicating Findings with Data Visualizations\n\nAfter hypothesis testing, results must be communicated clearly. **Advanced data visualizations** are used to:\n\n- Show the **distribution** of results (box plots, histograms)\n- Highlight **statistically significant differences** (bar charts with error bars)\n- Display **relationships between variables** (scatter plots)\n- Tie observed patterns back to the original hypothesis\n\n### Choosing the Right Visual\n\n| Visualization | Best Used For |\n|---|---|\n| **Scatter Plot** | Showing correlation between two continuous variables |\n| **Box Plot** | Comparing distributions across groups |\n| **Bar Chart with Error Bars** | Comparing means with confidence intervals |\n| **Line Graph** | Showing trends over time |\n\n---\n\n## Worked Example\n\n**Research Question:** Does increasing font size improve readability for elderly users?\n\n| Element | Value |\n|---|---|\n| $H_0$ | Font size has no effect on readability scores |\n| $H_1$ | Larger font size improves readability scores |\n| Independent Variable | Font size |\n| Dependent Variable | Readability score (measured) |\n| Method | A/B Test with two font sizes |\n| Result | $p = 0.02 < 0.05$ → Reject $H_0$ |\n| Conclusion | Larger font size significantly improves readability |",
+    "publishedAt": 1777384341274,
+    "slug": "4-3-hypothesis-formulation-and-hypothesis-testing",
+    "sourceRef": {
+      "blockIndex": 64,
+      "chapterNumber": 4,
+      "page": 111,
+      "subjectSlug": "computer-12"
+    },
+    "status": "published",
+    "summary": "Preserve canonical Computer 12 Chapter 4 note content and add verified source anchor 64.",
+    "title": "4.3 Hypothesis Formulation and Hypothesis Testing",
+    "topicId": "ms743em6nbs81f09k796gce0px85pz2j",
+    "updatedAt": 1787554475076
+  }
+]

@@ -1,0 +1,698 @@
+[
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-1-important-organic-reactions",
+    "topicTitle": "21.1 Important Organic Reactions",
+    "_id": "m17bzrzxfhg981739vvyyztdrd85pmma",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The compound that gives both Silver mirror test and Iodoform test is acetaldehyde (CH₃CHO). Acetaldehyde contains an aldehyde functional group (-CHO) which gives the Silver mirror test, and it also has a methyl group adjacent to the carbonyl (CH₃CO-), which gives the Iodoform test.",
+    "keyPoints": [
+      "Identifies acetaldehyde (CH₃CHO) as the correct compound",
+      "Recognizes aldehyde functional group (-CHO) responsible for Silver mirror test",
+      "Recognizes CH₃CO- structure responsible for Iodoform test",
+      "Understands that both functional groups must be present in the same molecule"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The compound that gives both Silver mirror test and Iodoform test is acetaldehyde (CH₃CHO). Acetaldehyde contains an aldehyde functional group (-CHO) which gives the Silver mirror test, and it also has a methyl group adjacent to the carbonyl (CH₃CO-), which gives the Iodoform test.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ethanol"
+      },
+      {
+        "key": "B",
+        "text": "Ethanal"
+      },
+      {
+        "key": "C",
+        "text": "Propanal"
+      },
+      {
+        "key": "D",
+        "text": "Propanone"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "The compound which gives Silver mirror test as well as Iodoform test is:",
+    "topicId": "ms78bnp3j32w156g22d0nevjrn85qq7d",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-1-important-organic-reactions",
+    "topicTitle": "21.1 Important Organic Reactions",
+    "_id": "m17btsar4wtqbahks0ngz1h4zn85ptpd",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies nucleophilic substitution mechanism with KOH and NH₃ as nucleophiles",
+      "Correctly writes balanced equations for all three reactions",
+      "Recognizes precipitation reaction with AgNO₃ forming white AgBr precipitate",
+      "Shows understanding of halogenoalkane functional group reactivity",
+      "Includes physical states/observations (precipitate formation)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Ethyl bromide (C₂H₅Br) undergoes nucleophilic substitution and precipitation reactions:\n\n**With KOH(aq):** C₂H₅Br + KOH → C₂H₅OH + KBr (Nucleophilic substitution - SN2 mechanism produces ethanol)\n\n**With NH₃:** C₂H₅Br + 2NH₃ → C₂H₅NH₂ + NH₄Br (Nucleophilic substitution produces ethylamine)\n\n**With AgNO₃:** C₂H₅Br + AgNO₃ → AgBr↓ + C₂H₅NO₃ (Precipitation reaction - silver bromide precipitate forms as white solid)",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Write down the reaction of Ethyl Bromide with $KOH_{(aq)}$, $NH_3$ and $AgNO_3$.",
+    "topicId": "ms78bnp3j32w156g22d0nevjrn85qq7d",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-1-important-organic-reactions",
+    "topicTitle": "21.1 Important Organic Reactions",
+    "_id": "m17d0a8g9hwagk9hm88fqda0rh8e0xyv",
+    "exerciseId": "xd70vdv76jjst1wx29609ws7zh8e09jm",
+    "exerciseTitle": "Concept Assessment Exercise 21.1",
+    "keyPoints": [
+      "Stage 1: nitrate benzene (conc. HNO3/H2SO4) to give nitrobenzene.",
+      "Stage 2: reduce nitrobenzene (e.g. Sn/HCl then NaOH, or H2/catalyst) to give aniline (phenylamine).",
+      "Stage 3: treat aniline with nitrous acid (NaNO2/HCl, 0-5 degC) to form benzenediazonium chloride."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1b(i)",
+    "sectionLabel": "Concept Assessment Exercise 21.1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Devise a three-stage synthetic route to convert benzene into benzenediazonium chloride.",
+    "topicId": "ms78bnp3j32w156g22d0nevjrn85qq7d"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-1-important-organic-reactions",
+    "topicTitle": "21.1 Important Organic Reactions",
+    "_id": "m17719rf1xrzf4235t8k009g2s8e1h5y",
+    "exerciseId": "xd70vdv76jjst1wx29609ws7zh8e09jm",
+    "exerciseTitle": "Concept Assessment Exercise 21.1",
+    "keyPoints": [
+      "Couple the diazonium salt with a phenol or aromatic amine (an azo coupling reaction) under mildly alkaline/cold conditions.",
+      "The coupling forms an azo compound (-N=N- linkage) which is extensively conjugated and gives the coloured (e.g. orange) dye."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1b(ii)",
+    "sectionLabel": "Concept Assessment Exercise 21.1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "How would you convert benzenediazonium chloride into an orange dye?",
+    "topicId": "ms78bnp3j32w156g22d0nevjrn85qq7d"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-1-important-organic-reactions",
+    "topicTitle": "21.1 Important Organic Reactions",
+    "_id": "m17be9zwnjjmapez97vgg3kvq58e0m65",
+    "correctKey": "D",
+    "exerciseId": "xd71wmarcc8t7gkf389cfc0nyh8e094a",
+    "exerciseTitle": "Exercise 21: Choose the Correct Answer",
+    "explanation": "Propan-1-ol oxidises (no carbon loss) to propanoic acid; propan-1-ol then reacts with this propanoic acid in an esterification to give propyl propanoate, a sweet-smelling ester.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "propanal"
+      },
+      {
+        "key": "B",
+        "text": "propanoic acid"
+      },
+      {
+        "key": "C",
+        "text": "propanone"
+      },
+      {
+        "key": "D",
+        "text": "propan-1-ol"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(vii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 44,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Which compound reacts with its own oxidation product (an oxidation which involves no loss of carbon) to give a sweet-smelling liquid?",
+    "topicId": "ms78bnp3j32w156g22d0nevjrn85qq7d"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-2-key-regents-used-for-synthesis",
+    "topicTitle": "21.2 Key Reagents and Functional Group Interconversions",
+    "_id": "m177bpgk3mnxgjmy2r8dxc5peh85qrdr",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Lithium Aluminium Hydride (LiAlH₄) is the primary reagent used for the reduction of carboxylic acids to primary alcohols. This strong reducing agent donates hydride ions that attack the carbonyl carbon of the carboxyl group ($-COOH$), converting it to a hydroxymethyl group ($-CH_2OH$).",
+    "keyPoints": [
+      "Identifies LiAlH₄ as the reducing agent",
+      "Explains that carboxylic acids are reduced to primary alcohols",
+      "Mentions the mechanism involves hydride ion attack on carbonyl carbon",
+      "Notes this is a strong reducing agent suitable for carboxylic acid reduction"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Lithium Aluminium Hydride (LiAlH₄) is the primary reagent used for the reduction of carboxylic acids to primary alcohols. This strong reducing agent donates hydride ions that attack the carbonyl carbon of the carboxyl group ($-COOH$), converting it to a hydroxymethyl group ($-CH_2OH$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "$KMnO_4$"
+      },
+      {
+        "key": "B",
+        "text": "$K_2Cr_2O_7$"
+      },
+      {
+        "key": "C",
+        "text": "$LiAlH_4$"
+      },
+      {
+        "key": "D",
+        "text": "$H_2/Pt$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Which reagent is used for the reduction of Carboxylic acids to Alcohols?",
+    "topicId": "ms76zr0pc5twwakycjwab3qya985qvs8",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-2-key-regents-used-for-synthesis",
+    "topicTitle": "21.2 Key Reagents and Functional Group Interconversions",
+    "_id": "m1775sgmrkn3cg8b9qb21wse798e0p7j",
+    "exerciseId": "xd70vdv76jjst1wx29609ws7zh8e09jm",
+    "exerciseTitle": "Concept Assessment Exercise 21.1",
+    "keyPoints": [
+      "A = a mixture of propanoate salt and propan-1-ol, from base hydrolysis of the ester.",
+      "B = propanoic acid, formed when excess HCl protonates the propanoate salt.",
+      "C = propanoyl chloride, from reaction of the carboxylic acid with PCl5.",
+      "D = propanamide, from reaction of the acid chloride with concentrated ammonia."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1a",
+    "sectionLabel": "Concept Assessment Exercise 21.1",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Name the organic products A to D in the synthetic route: C2H5COOC3H7 --(boil with NaOH)--> A --(add excess HCl)--> B --(add PCl5)--> C --(add conc NH3)--> D",
+    "topicId": "ms76zr0pc5twwakycjwab3qya985qvs8"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-2-key-regents-used-for-synthesis",
+    "topicTitle": "21.2 Key Reagents and Functional Group Interconversions",
+    "_id": "m178ejm419scwz1wndvkwfjm758e186j",
+    "correctKey": "D",
+    "exerciseId": "xd71wmarcc8t7gkf389cfc0nyh8e094a",
+    "exerciseTitle": "Exercise 21: Choose the Correct Answer",
+    "explanation": "Propanone + HCN gives the cyanohydrin (CH3)2C(OH)CN; acidic hydrolysis of the nitrile converts -CN to -CO2H, giving (CH3)2C(OH)CO2H.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "CH3CH(OH)CO2H"
+      },
+      {
+        "key": "B",
+        "text": "CH3CH2CH2CO2H"
+      },
+      {
+        "key": "C",
+        "text": "(CH3)2CHCONH2"
+      },
+      {
+        "key": "D",
+        "text": "(CH3)2C(OH)CO2H"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(i)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 41,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The product of the reaction between propanone and hydrogen cyanide is hydrolysed under acidic conditions. What is the formula of the final product?",
+    "topicId": "ms76zr0pc5twwakycjwab3qya985qvs8"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-2-key-regents-used-for-synthesis",
+    "topicTitle": "21.2 Key Reagents and Functional Group Interconversions",
+    "_id": "m1733hnas5k82xc2215ztjsxfh8e1gqa",
+    "exerciseId": "xd7agapd4c3td65ztn76mcw93n8e1584",
+    "exerciseTitle": "Project",
+    "keyPoints": [
+      "The chart should map each functional group family (alcohols, halogenoalkanes, aldehydes/ketones, carboxylic acids, amines, esters, nitriles) to the reagents/conditions that convert it into the others.",
+      "Arrows should be labelled with reagent and reaction type (substitution, oxidation, reduction, addition) so the chart functions as a quick retrosynthesis reference."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Project",
+    "sourceRef": {
+      "blockIndex": 58,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Design a chart to show functional group interconversion in organic chemistry.",
+    "topicId": "ms76zr0pc5twwakycjwab3qya985qvs8"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-2-key-regents-used-for-synthesis",
+    "topicTitle": "21.2 Key Reagents and Functional Group Interconversions",
+    "_id": "m171g2c5qtzg54aw908vjfmtd98e31dv",
+    "correctKey": "A",
+    "exerciseId": "xd71wmarcc8t7gkf389cfc0nyh8e094a",
+    "exerciseTitle": "Exercise 21: Choose the Correct Answer",
+    "explanation": "KCN performs nucleophilic substitution, replacing a leaving group with -CN. To get NC-(CH2)4-CN from X in one KCN step, X must be a dihalide with the same 4-carbon chain and two leaving groups: 1,4-dibromobutane, Br(CH2)4Br. The diol and diacid options are not converted to nitriles by KCN (no leaving group for substitution), and the diene would need an addition, not a substitution, reaction.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "BrCH2CH2CH2CH2Br (1,4-dibromobutane)"
+      },
+      {
+        "key": "B",
+        "text": "CH2=CHCH=CH2 (buta-1,3-diene)"
+      },
+      {
+        "key": "C",
+        "text": "HOCH2CH2CH2CH2OH (butane-1,4-diol)"
+      },
+      {
+        "key": "D",
+        "text": "HO2CCH2CH2CH2CH2CO2H (adipic acid)"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(iii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 42,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The reaction scheme outlines the production of one of the monomers of nylon 66 from compound X: compound X --KCN, in ethanol--> NC-CH2-CH2-CH2-CH2-CN --reduction--> H2N-(CH2)6-NH2. Which compound could be X?",
+    "topicId": "ms76zr0pc5twwakycjwab3qya985qvs8"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-2-key-regents-used-for-synthesis",
+    "topicTitle": "21.2 Key Reagents and Functional Group Interconversions",
+    "_id": "m17e20ky1wqwrpjnkcsvpjs1n58e3nyj",
+    "correctKey": "D",
+    "exerciseId": "xd71wmarcc8t7gkf389cfc0nyh8e094a",
+    "exerciseTitle": "Exercise 21: Choose the Correct Answer",
+    "explanation": "Ethanal (CH3CHO, 2 carbons) reacts with HCN in step 1 (nucleophilic addition to the carbonyl) to form the cyanohydrin CH3CH(OH)CN, a 3-carbon intermediate. Step 2 (acidic hydrolysis of the nitrile) converts -CN to -CO2H, giving the 3-carbon acid CH3CH(OH)CO2H (2-hydroxypropanoic/lactic acid).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "CH3CO2H (ethanoic acid)"
+      },
+      {
+        "key": "B",
+        "text": "CH3CN (ethanenitrile)"
+      },
+      {
+        "key": "C",
+        "text": "CH3CH2CN (propanenitrile)"
+      },
+      {
+        "key": "D",
+        "text": "CH3CH(OH)CN (2-hydroxypropanenitrile)"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(v)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Ethanal may be converted into a three-carbon acid in a two-step process. Which compound is the intermediate?",
+    "topicId": "ms76zr0pc5twwakycjwab3qya985qvs8"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-2-key-regents-used-for-synthesis",
+    "topicTitle": "21.2 Key Reagents and Functional Group Interconversions",
+    "_id": "m1739z3favr4xdws7dvmvne1vs8e259j",
+    "correctKey": "C",
+    "exerciseId": "xd71wmarcc8t7gkf389cfc0nyh8e094a",
+    "exerciseTitle": "Exercise 21: Choose the Correct Answer",
+    "explanation": "Step 1 must substitute both bromines with -CN groups via KCN (aq/alcoholic), giving the dinitrile NC-CH2-CH2-CN (succinonitrile). Step 2 must hydrolyse both nitrile groups to carboxylic acid groups, which is done with aqueous acid, H2SO4(aq), giving butanedioic (succinic) acid.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "step 1: HCN(g); step 2: HCl(aq)"
+      },
+      {
+        "key": "B",
+        "text": "step 1: HCO2Na(aq); step 2: HCl(aq)"
+      },
+      {
+        "key": "C",
+        "text": "step 1: KCN(aq/alcoholic); step 2: H2SO4(aq)"
+      },
+      {
+        "key": "D",
+        "text": "step 1: NaOH(aq); step 2: K2Cr2O7/H2SO4(aq)"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(viii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 44,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Butanedioic acid may be synthesised in two steps from 1,2-dibromoethane: BrCH2CH2Br --step 1--> X --step 2--> HO2CCH2CH2CO2H. Which reagents could be used for this synthesis?",
+    "topicId": "ms76zr0pc5twwakycjwab3qya985qvs8"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m17a6d2h7pq1hkb1wc5ghat0398e0wm6",
+    "exerciseId": "xd704m889e9q198d8xbctm39h98e0w8z",
+    "exerciseTitle": "Concept Assessment Exercise 21.3",
+    "keyPoints": [
+      "Compound X (C4H8) is an alkene isomer (e.g. but-1-ene or but-2-ene); it can be synthesised by dehydration of the corresponding butanol or by dehydrohalogenation of a bromobutane with alcoholic KOH.",
+      "Identifying compound Z requires reading the specific reagents/steps shown in the source diagram for this question, which is not reproducible as text; this answer covers the synthesis of the starting material only and flags Z as depending on the (unavailable) reaction-scheme image."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Concept Assessment Exercise 21.3",
+    "sourceRef": {
+      "blockIndex": 33,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Compound X, molecular formula C4H8, undergoes the reaction sequence shown in the accompanying diagram to give compound Z. (a) Suggest a synthesis of the starting material, C4H8. (b) What is the formula of compound Z?",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m177ptpqhbh551951kmr5ab76s8e1zwb",
+    "exerciseId": "xd704m889e9q198d8xbctm39h98e0w8z",
+    "exerciseTitle": "Concept Assessment Exercise 21.3",
+    "keyPoints": [
+      "Ozonolysis (or acid-catalysed hydration followed by oxidation) of 2-methylbut-2-ene cleaves the C=C bond at the more-substituted alkene carbon.",
+      "Oxidative cleavage gives propanone ((CH3)2C=O) from the trisubstituted carbon and ethanal (CH3CHO) from the disubstituted carbon."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Concept Assessment Exercise 21.3",
+    "sourceRef": {
+      "blockIndex": 35,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Prepare ethanal and propanone starting from 2-methylbut-2-ene.",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m170qxzdgg9cks9h0qkrbtymnn8e0qvc",
+    "exerciseId": "xd704m889e9q198d8xbctm39h98e0w8z",
+    "exerciseTitle": "Concept Assessment Exercise 21.3",
+    "keyPoints": [
+      "Retrosynthetically, the target has a hydroxyl group flanked by two carboxylic acid groups on a 3-carbon chain, so the route from a 2-carbon starting material (ethanal) must extend the carbon skeleton, most plausibly via cyanohydrin chemistry (HCN addition to a carbonyl, followed by hydrolysis of -CN to -COOH) applied at each stage needed to install both carboxyl groups.",
+      "This route requires verification against a full literature synthesis before being treated as a definitive answer key; flagged here as draft-quality given the multi-step chain-extension involved."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Concept Assessment Exercise 21.3",
+    "sourceRef": {
+      "blockIndex": 35,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Devise the best synthetic route to prepare 2-hydroxypropanedioic acid (tartronic acid) starting from ethanal.",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m173jg6x856bha4ncge0vw0pw98e0ty6",
+    "exerciseId": "xd7fq31750w5q321njfas6zjvx8e00dj",
+    "exerciseTitle": "Concept Assessment Exercise 21.4",
+    "keyPoints": [
+      "Disconnect the C-Cl bond: the synthon is Cl- attacking propan-1-ol activated as a leaving group.",
+      "Forward synthesis: propan-1-ol + HCl (or PCl3/SOCl2) gives 1-chloropropane via nucleophilic substitution."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "(a)",
+    "sectionLabel": "Concept Assessment Exercise 21.4",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Discuss the retrosynthesis of CH3-CH2-CH2-Cl (1-chloropropane).",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m17cdd4s5he9m3st67mcx22mnn8e035n",
+    "exerciseId": "xd7fq31750w5q321njfas6zjvx8e00dj",
+    "exerciseTitle": "Concept Assessment Exercise 21.4",
+    "keyPoints": [
+      "Disconnect the C-OH bond: the synthon is OH- displacing a leaving group on 1-chloropropane, or reduction of propanal/propanoic acid.",
+      "Forward synthesis: 1-chloropropane + aqueous NaOH (nucleophilic substitution), or reduction of propanal with NaBH4/LiAlH4."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "(b)",
+    "sectionLabel": "Concept Assessment Exercise 21.4",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Discuss the retrosynthesis of CH3-CH2-CH2-OH (propan-1-ol).",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m1735js0zkec765j0t1g1j51dh8e0zpq",
+    "exerciseId": "xd7fq31750w5q321njfas6zjvx8e00dj",
+    "exerciseTitle": "Concept Assessment Exercise 21.4",
+    "keyPoints": [
+      "Disconnect the amide C-N bond: the synthons are propanoyl chloride (or propanoic acid) and methylamine.",
+      "Forward synthesis: propanoyl chloride + methylamine gives the N-methylamide directly."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "(c)",
+    "sectionLabel": "Concept Assessment Exercise 21.4",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Discuss the retrosynthesis of CH3-CH2-CO-NH-CH3 (N-methylpropanamide).",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m171ax2z08bpjmghjy0sgxf5e18e0sdp",
+    "exerciseId": "xd7fq31750w5q321njfas6zjvx8e00dj",
+    "exerciseTitle": "Concept Assessment Exercise 21.4",
+    "keyPoints": [
+      "Disconnect via oxidation: the synthon is propan-1-ol (or propanal) oxidised at the terminal carbon, or hydrolysis of propanenitrile.",
+      "Forward synthesis: oxidation of propan-1-ol (e.g. with acidified K2Cr2O7), or hydrolysis of CH3CH2CN."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "(d)",
+    "sectionLabel": "Concept Assessment Exercise 21.4",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Discuss the retrosynthesis of CH3-CH2-COOH (propanoic acid).",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m17e45x5s7n9qy7652rwhgb6eh8e0949",
+    "exerciseId": "xd7fq31750w5q321njfas6zjvx8e00dj",
+    "exerciseTitle": "Concept Assessment Exercise 21.4",
+    "keyPoints": [
+      "Disconnect the C-N bond: the synthons are bromoethane and methylamine (or ethylamine and a methylating agent).",
+      "Forward synthesis: bromoethane + excess methylamine (nucleophilic substitution) gives the secondary amine."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "(e)",
+    "sectionLabel": "Concept Assessment Exercise 21.4",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Discuss the retrosynthesis of CH3-CH2-NH-CH3 (N-methylethanamine).",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "21-organic-synthesis",
+    "chapterTitle": "Organic Synthesis",
+    "topicSlug": "21-3-retrosynthetic-analysis",
+    "topicTitle": "21.3 Introduction to Retrosynthesis",
+    "_id": "m179fwqyjpns1w8drq6t22cqkd8e1rfq",
+    "exerciseId": "xd7fq31750w5q321njfas6zjvx8e00dj",
+    "exerciseTitle": "Concept Assessment Exercise 21.4",
+    "keyPoints": [
+      "Disconnect the ester C-O bond: the synthons are methanoic acid (or its acyl chloride) and ethanol.",
+      "Forward synthesis: methanoic acid + ethanol with an acid catalyst (Fischer esterification), or methanoyl chloride + ethanol."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "(f)",
+    "sectionLabel": "Concept Assessment Exercise 21.4",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 21,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Discuss the retrosynthesis of HCOOC2H5 (ethyl methanoate).",
+    "topicId": "ms7da8wjteb7xvngwat4epk80985pkz1"
+  }
+]

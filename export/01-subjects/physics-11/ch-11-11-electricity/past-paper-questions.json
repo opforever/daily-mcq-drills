@@ -1,0 +1,1498 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "drift-velocity",
+    "topicTitle": "11.1 Drift Velocity",
+    "_id": "m17dp5hexdgzdsrs49k0a392xx8e2azf",
+    "correctKey": "A",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Drift velocity depends on the cross-sectional area, the number of free charge carriers per unit volume, and the applied electric field (via $v_d = I/(nAq)$), but it does not depend on the length of the wire.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "length of the wire."
+      },
+      {
+        "key": "B",
+        "text": "cross-section of the wire."
+      },
+      {
+        "key": "C",
+        "text": "number of free electrons."
+      },
+      {
+        "key": "D",
+        "text": "magnitude of the electric field."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "On which of the following factor the drift velocity does not depend:",
+    "topicId": "ms7f2fnhm5z45hsqbry2k7kjbn85p3jm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "drift-velocity",
+    "topicTitle": "11.1 Drift Velocity",
+    "_id": "m17ec509z6zarxeggt2rp24kvd8e3nq6",
+    "correctKey": "B",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Drift velocity depends on the electric field strength and the number of free electrons (via $v_d = I/(nAq)$), but is independent of the length of the wire itself.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "time consumed."
+      },
+      {
+        "key": "B",
+        "text": "the length of the wire."
+      },
+      {
+        "key": "C",
+        "text": "the number of free electrons."
+      },
+      {
+        "key": "D",
+        "text": "the Strength of the electric field."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Drift velocity of electrons is independent of",
+    "topicId": "ms7f2fnhm5z45hsqbry2k7kjbn85p3jm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "drift-velocity",
+    "topicTitle": "11.1 Drift Velocity",
+    "_id": "m175z85sfvpdz5swfba3wrpm098e3dxt",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Drift speed of electrons in a typical conductor is extremely small (on the order of fractions of a millimeter per second), while the number of free electrons involved is astronomically large and their individual motion is randomized by frequent collisions superimposed on the tiny net drift. This makes it practically impossible to track and time an individual electron's net displacement directly; drift velocity is instead inferred from measurable quantities like current, cross-sectional area and free-electron density.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.1",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why it is not possible to measure the drift speed for electron by timing their travel along a conductor?",
+    "topicId": "ms7f2fnhm5z45hsqbry2k7kjbn85p3jm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "drift-velocity",
+    "topicTitle": "11.1 Drift Velocity",
+    "_id": "m17ed0wrdgsn5bnebkg8czaz3h8e29r1",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "No. A source of electricity (like a battery) does not consume or use up electrons themselves; conducting materials already contain a vast, essentially inexhaustible supply of free electrons. What a battery 'runs out of' is its store of chemical energy needed to keep pushing those existing electrons around the circuit -- once the chemical reactants are depleted, current stops, but the electrons themselves are neither created nor destroyed.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.10b",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Does a source of electricity ever run out of electrons?",
+    "topicId": "ms7f2fnhm5z45hsqbry2k7kjbn85p3jm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "drift-velocity",
+    "topicTitle": "11.1 Drift Velocity",
+    "_id": "m17e12q8jyfnxydk9sp7sqh7p98e37hq",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "In a metal, a large number of free (conduction) electrons move randomly at high speeds due to thermal energy, but with no net motion in any direction in the absence of an applied field, producing zero net current.",
+      "When an electric field is applied (e.g. by connecting the wire to a battery), each free electron experiences a force and gains a small net drift velocity opposite to the field direction, superimposed on its much larger random thermal velocity.",
+      "This coordinated net drift of the enormous number of free electrons constitutes the electric current in the wire; the conventional current I is related to drift velocity $v_d$ by $I = nAqv_d$, where n is the free-electron density, A is the cross-sectional area, and q is the electron's charge magnitude."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In a metallic wire, free electrons move randomly when no external electric field is present, so their average velocity and net current are zero. Applying a potential difference creates an electric field that gives the electrons a small average drift velocity toward the positive terminal. The resulting directed drift produces conventional electric current, even though the electrons retain random thermal motion and collide with one another.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.11",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the electronic current in a metallic wire due to the drift of free electrons in the wire.",
+    "topicId": "ms7f2fnhm5z45hsqbry2k7kjbn85p3jm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "drift-velocity",
+    "topicTitle": "11.1 Drift Velocity",
+    "_id": "m1700jx9mghh39g6y7a6x3g5gh8e3ra5",
+    "correctKey": "C",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Charge in motion (dynamic charge, i.e. the rate of flow of charge) is electric current, whose SI unit is the ampere.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "coulomb"
+      },
+      {
+        "key": "B",
+        "text": "ohm"
+      },
+      {
+        "key": "C",
+        "text": "ampere"
+      },
+      {
+        "key": "D",
+        "text": "volt"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "relationship-with-electric-current",
+    "sectionLabel": "Relationship with Electric Current",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The unit of dynamic charge is:",
+    "topicId": "ms7f2fnhm5z45hsqbry2k7kjbn85p3jm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "drift-velocity",
+    "topicTitle": "11.1 Drift Velocity",
+    "_id": "m170vgetaqs01083wpjg9a8tyd8e3ngs",
+    "exerciseId": "xd75erxv38mzza5az7j5jb39418e2qk3",
+    "exerciseTitle": "Exercise 11: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Drift velocity $v_d = \\frac{I}{nAq} = \\frac{1}{8.5\\times10^{28} \\times 1\\times10^{-4} \\times 1.6\\times10^{-19}} \\approx 7.35\\times10^{-7}$ m/s. Time $t = \\frac{L}{v_d} = \\frac{10000}{7.35\\times10^{-7}} \\approx 1.36\\times10^{10}$ s $\\approx 431$ years, matching the textbook. (Ans. 431 years, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.1",
+    "sectionId": "relationship-with-electric-current",
+    "sectionLabel": "Relationship with Electric Current",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If 1A current flows through a copper wire having 1 cm^2 area of cross-section and 10 km length; calculate the time required by charge carrier to travel from one end to other end of the conductor (Free electron density of copper is 8.5x10^28 per m^3).",
+    "topicId": "ms7f2fnhm5z45hsqbry2k7kjbn85p3jm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electric-potential",
+    "topicTitle": "11.2 Electric Potential",
+    "_id": "m17a4w4kb0xqyknzddey71ra8x8e2sqj",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "A potential divider is a simple circuit of two or more resistors connected in series across a voltage source, used to obtain a fraction of the supply voltage at a tapping point between the resistors.",
+      "The output voltage across one resistor is given by $V_{out} = V_{in} \times \frac{R_2}{R_1+R_2}$, proportional to that resistor's share of the total series resistance.",
+      "Potential dividers are widely used to provide a reference or bias voltage, and (when one resistor is replaced by a sensor like an LDR or thermistor) to convert a physical quantity such as light or temperature into a proportional voltage signal."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A potential divider is a series network that divides a supply potential between its resistive elements. The same current flows through series components, and the voltage across a chosen element depends on its resistance relative to the total resistance. A variable resistor, LDR, or thermistor can therefore change the output voltage in response to light or temperature.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.4",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is potential divider? Explain.",
+    "topicId": "ms78xkz878nfvxvjvr6qq41e1d85qqed"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electric-potential",
+    "topicTitle": "11.2 Electric Potential",
+    "_id": "m17fh1y9jq1ypdx92ah5dvszn185qs2p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies that kinetic energy gained equals work done by electric field: $KE = qV$",
+      "Calculates energy in electron volts: $KE = 2$ eV (charge of electron × potential difference)",
+      "Converts to joules using electron charge $e = 1.6 \\times 10^{-19}$ C: $KE = 3.2 \\times 10^{-19}$ J",
+      "Shows proper use of units and conversion between eV and joules",
+      "Demonstrates understanding that potential difference directly determines kinetic energy gained by charged particle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When an electron moves through a potential difference of 2 volts, it gains kinetic energy equal to the work done by the electric field. Using the relationship between potential difference and energy: $KE = qV$, where $q = 1.6 \\times 10^{-19}$ C (electron charge) and $V = 2$ V. In electron volts: $KE = 2$ eV. In joules: $KE = 1.6 \\times 10^{-19} \\times 2 = 3.2 \\times 10^{-19}$ J.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionId": "the-electron-volt-ev",
+    "sectionLabel": "The Electron-Volt (eV)",
+    "session": "annual",
+    "stem": "Calculate KE in electron volt and joules gained by an electron moving through a potential difference of $2 \\text{ volts}$.",
+    "topicId": "ms78xkz878nfvxvjvr6qq41e1d85qqed",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electromotive-force-maximum-power-output",
+    "topicTitle": "11.3 Electromotive Force and Maximum Power Output",
+    "_id": "m172r2b4364w5y4gwz74k2f4s58e3p4x",
+    "correctKey": "C",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Charge $Q = It = 3 \\times (5\\times60) = 900$ C. $\\text{emf} = W/Q = 900/900 = 1$ V.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "10 V"
+      },
+      {
+        "key": "B",
+        "text": "3 V"
+      },
+      {
+        "key": "C",
+        "text": "1 V"
+      },
+      {
+        "key": "D",
+        "text": "5 V"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "electromotive-force-emf",
+    "sectionLabel": "Electromotive Force (emf)",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What will be the value of emf if 3A current within 5mins perform work about 900J?",
+    "topicId": "ms7ehex677z228e2ztbqjaa40x85q9cb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electromotive-force-maximum-power-output",
+    "topicTitle": "11.3 Electromotive Force and Maximum Power Output",
+    "_id": "m17bectxe2f5ddyb0ba0b6tv0h8e28fy",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "E.m.f. (electromotive force) is the total energy supplied per unit charge by a source (like a battery) in driving charge around a complete circuit, including the energy dissipated inside the source's own internal resistance. Potential difference is the energy transferred per unit charge between two specific points in a circuit (e.g. across an external component), which is generally less than the emf because some energy is lost overcoming the source's internal resistance.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.2",
+    "sectionId": "electromotive-force-emf",
+    "sectionLabel": "Electromotive Force (emf)",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the difference between e.m.f. and potential difference?",
+    "topicId": "ms7ehex677z228e2ztbqjaa40x85q9cb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electromotive-force-maximum-power-output",
+    "topicTitle": "11.3 Electromotive Force and Maximum Power Output",
+    "_id": "m17fmqt10gy6nkfyqn9et5d3rs8e3a1b",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The terminal potential difference can exceed the emf when the battery is being charged by an external source (current is forced into the battery in the reverse direction), since the terminal voltage then equals emf plus the IR drop across the internal resistance, rather than emf minus it as during normal discharge.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.7",
+    "sectionId": "electromotive-force-emf",
+    "sectionLabel": "Electromotive Force (emf)",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Under what circumstances can the terminal potential difference of a battery exceed its e.m.f.?",
+    "topicId": "ms7ehex677z228e2ztbqjaa40x85q9cb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electromotive-force-maximum-power-output",
+    "topicTitle": "11.3 Electromotive Force and Maximum Power Output",
+    "_id": "m179eg2mv6wttryf06a6rnzrvh8e3sxz",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "(A) Drift velocity is the average net velocity that free charge carriers (electrons) acquire in a conductor due to an applied electric field, superimposed on their much faster random thermal motion; it is typically very small (fractions of a mm/s).",
+      "(B) EMF (electromotive force) is the total energy supplied per unit charge by a source in driving charge around a complete circuit, including the energy used to overcome the source's own internal resistance.",
+      "(C) Internal resistance is the resistance intrinsic to a source of emf (such as a battery's electrolyte and electrode materials) that opposes the flow of current within the source itself, causing the terminal potential difference to be less than the emf when current flows."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Drift velocity is the average velocity acquired by free electrons in a conductor under an applied electric field. Electromotive force is work or energy supplied per unit charge by a source in driving charge around a complete circuit. Internal resistance is the resistance within the cell or source; it causes a potential drop inside the source, so the terminal potential difference is less than the emf when current flows.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.3",
+    "sectionId": "electromotive-force-emf",
+    "sectionLabel": "Electromotive Force (emf)",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the following terms. (A) Drift velocity, (B) emf, (C) internal resistance.",
+    "topicId": "ms7ehex677z228e2ztbqjaa40x85q9cb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electromotive-force-maximum-power-output",
+    "topicTitle": "11.3 Electromotive Force and Maximum Power Output",
+    "_id": "m17atn7g280bzam7250vxvbrbs8e3sdb",
+    "exerciseId": "xd75erxv38mzza5az7j5jb39418e2qk3",
+    "exerciseTitle": "Exercise 11: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With the terminals shorted together, all the emf drives current through only the internal resistance: $I = \\mathcal{E}/r = 2/0.02 = 100$ A, matching the textbook. (Ans. 100 A, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.2",
+    "sectionId": "electromotive-force-emf",
+    "sectionLabel": "Electromotive Force (emf)",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Calculate the flow of charges per unit time inside the emf source having potential 2 V and terminals are connected with each other having internal resistance 0.02 ohm?",
+    "topicId": "ms7ehex677z228e2ztbqjaa40x85q9cb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electromotive-force-maximum-power-output",
+    "topicTitle": "11.3 Electromotive Force and Maximum Power Output",
+    "_id": "m175ttfwx8dar60a26r443x4s58e2cmg",
+    "exerciseId": "xd75erxv38mzza5az7j5jb39418e2qk3",
+    "exerciseTitle": "Exercise 11: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Terminal potential $V = \\mathcal{E} - Ir = 10 - (1)(10) = 0$ V, matching the textbook. (Ans. 0 V, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.3",
+    "sectionId": "electromotive-force-emf",
+    "sectionLabel": "Electromotive Force (emf)",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Calculate the terminal potential of the emf source if internal resistance of the battery is 10 ohm and current and internal potential are 1 A and 10 V respectively?",
+    "topicId": "ms7ehex677z228e2ztbqjaa40x85q9cb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electromotive-force-maximum-power-output",
+    "topicTitle": "11.3 Electromotive Force and Maximum Power Output",
+    "_id": "m17e1shmbthwf87pr7712btr858e3qsw",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Internal resistance is often ignored as a simplifying approximation when it is very small compared to the external circuit resistance, so its effect on the current and terminal voltage is negligible; this simplifies calculations while introducing only a small error, though it must be included when internal resistance is comparable to the external resistance (e.g. for a nearly-shorted or heavily loaded battery).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.5",
+    "sectionId": "summary",
+    "sectionLabel": "Summary",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "While analyzing a circuit, the internal resistance of e.m.f. sources is ignored. Why?",
+    "topicId": "ms7ehex677z228e2ztbqjaa40x85q9cb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "variation-of-resistance-with-temperature",
+    "topicTitle": "11.4 Variation of Resistance with Temperature",
+    "_id": "m176e9wdv0sr55qcs6kb2x76zh8e3ft0",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Manganin has a much higher resistivity than copper. Since resistance R = (resistivity x length)/area, for the same length and same resistance, the wire with higher resistivity (manganin) must have a larger cross-sectional area to compensate -- so the manganin wire will be thicker than the copper wire.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.11",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two wires have equal length, one is made of copper and the other of manganin and they have the same resistance. Which wire here will be thicker between these two given wires?",
+    "topicId": "ms76ht6dhstq4v6rw89ze3ya1585pgvr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "variation-of-resistance-with-temperature",
+    "topicTitle": "11.4 Variation of Resistance with Temperature",
+    "_id": "m17crzekd11bne8ztjpptg5zjd8e3xrs",
+    "exerciseId": "xd75erxv38mzza5az7j5jb39418e2qk3",
+    "exerciseTitle": "Exercise 11: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$R = \\rho L/A$, with $A \\propto d^2$. New resistance $R' = R \\times \\frac{\\rho'}{\\rho} \\times \\frac{L'}{L} \\times \\frac{A}{A'} = 1 \\times 30 \\times \\frac{1}{3} \\times \\left(\\frac{1}{1/3}\\right)^2 = 1 \\times 30 \\times \\frac{1}{3} \\times 9 = 90\\ \\Omega$, matching the textbook. (Ans. $90\\ \\Omega$, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.5",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A piece of silver wire has a resistance of 1 ohm. What will be the resistance of magnum wire of one third of the length and one third of diameter, if the specific resistance of wire is 30 times that of silver?",
+    "topicId": "ms76ht6dhstq4v6rw89ze3ya1585pgvr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "variation-of-resistance-with-temperature",
+    "topicTitle": "11.4 Variation of Resistance with Temperature",
+    "_id": "m176de7chqj8qmkggzy3e7mjfx8e2m5p",
+    "correctKey": "A",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Resistivity is an intrinsic material property and does not change with the wire's dimensions; doubling length and diameter changes the resistance but not the resistivity, which stays at its fixed material value (the textbook's answer key gives this as 1x10^-7 ohm-m for steel).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1x10^-7 ohm-m"
+      },
+      {
+        "key": "B",
+        "text": "2x10^-7 ohm-m"
+      },
+      {
+        "key": "C",
+        "text": "4x10^-7 ohm-m"
+      },
+      {
+        "key": "D",
+        "text": "5x10^-7 ohm-m"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "resistance-and-resistivity",
+    "sectionLabel": "Resistance and Resistivity",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The resistance of a steel wire of particular length and thickness is 100 ohm. If the length and the diameter of the wire both are doubled, then the resistivity in ohm-m will be:",
+    "topicId": "ms76ht6dhstq4v6rw89ze3ya1585pgvr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "variation-of-resistance-with-temperature",
+    "topicTitle": "11.4 Variation of Resistance with Temperature",
+    "_id": "m170mwb5zr68cshmrc3590tj6x8e2mkj",
+    "exerciseId": "xd75erxv38mzza5az7j5jb39418e2qk3",
+    "exerciseTitle": "Exercise 11: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Total length $L = 2000 \\times 0.80 = 1600$ m. $R = \\frac{\\rho L}{A} = \\frac{(0.02\\times10^{-6})(1600)}{0.8\\times10^{-6}} = \\frac{3.2\\times10^{-5}}{8\\times10^{-7}} = 40\\ \\Omega$, matching the textbook. (Ans. $40\\ \\Omega$, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.4",
+    "sectionId": "resistance-and-resistivity",
+    "sectionLabel": "Resistance and Resistivity",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "There is a copper coil having 2000 number of turns with 0.8 mm^2 cross-section area, the length per turn is 80 cm. Calculate the resistance of the coil? (Resistivity of copper is 0.02 microOhm-m)?",
+    "topicId": "ms76ht6dhstq4v6rw89ze3ya1585pgvr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "variation-of-resistance-with-temperature",
+    "topicTitle": "11.4 Variation of Resistance with Temperature",
+    "_id": "m175smf1ydm7hqqtq813w1kcr58e21bm",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In a conductor with a positive temperature coefficient of resistance, rising temperature increases the thermal vibration of the lattice ions, causing more frequent collisions with the free electrons (reducing their mean free path and drift mobility); this increased scattering raises the material's resistivity and hence its resistance.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.6",
+    "sectionId": "temperature-coefficient-of-resistance",
+    "sectionLabel": "Temperature Coefficient of Resistance",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why rise in temperature of a conductor, with positive temperature coefficient, is accompanied by a rise in the resistance?",
+    "topicId": "ms76ht6dhstq4v6rw89ze3ya1585pgvr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "light-dependent-resistors-ldrs",
+    "topicTitle": "11.5 Light-Dependent Resistors (LDRs)",
+    "_id": "m1750bt5j1sbggz2xcyq1xh1w58e2mhe",
+    "correctKey": "C",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Total resistance needed: $R_{total} = V/I = 10/0.012 \\approx 833\\ \\Omega$. Series (protective) resistance $= R_{total} - R_{LDR} = 833 - 20 \\approx 813\\ \\Omega$, matching the textbook's answer key.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "681 ohm"
+      },
+      {
+        "key": "B",
+        "text": "773 ohm"
+      },
+      {
+        "key": "C",
+        "text": "813 ohm"
+      },
+      {
+        "key": "D",
+        "text": "973 ohm"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What will be the nearest value of protected resistance, if LDR having resistance 20 ohm is operated at specific intensity of light is to be protected through a series resistance in such a way that up to 12 mA current in the provision of 10 V potential across the circuit as shown in following figure?",
+    "topicId": "ms70cx0w972h44m35zyw68gbp985qe3g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "light-dependent-resistors-ldrs",
+    "topicTitle": "11.5 Light-Dependent Resistors (LDRs)",
+    "_id": "m175qxj578mp8svy41zjp1h4hn85pq5q",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Photons provide energy to excite electrons in semiconductor material",
+      "Increased number of free charge carriers (electrons and holes) in conduction band",
+      "Higher conductivity results from more available charge carriers",
+      "Resistance inversely related to number of charge carriers",
+      "Light intensity directly affects carrier generation in LDR material"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An LDR (Light Dependent Resistor) contains a semiconductor material whose resistance decreases with increasing light intensity because photons from incident light provide energy to charge carriers in the semiconductor. This energy excites electrons from the valence band to the conduction band, increasing the number of free charge carriers available for conduction. With more charge carriers, the conductivity increases and resistance decreases according to the relationship $R = \\frac{\\rho l}{A}$, where the effective resistivity decreases with light intensity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "sectionId": "mechanism-of-photoconductivity",
+    "sectionLabel": "Mechanism of Photoconductivity",
+    "session": "annual",
+    "stem": "Why does the resistance of LDR decrease with increase in intensity of light on it?",
+    "topicId": "ms70cx0w972h44m35zyw68gbp985qe3g",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "light-dependent-resistors-ldrs",
+    "topicTitle": "11.5 Light-Dependent Resistors (LDRs)",
+    "_id": "m176fn68qrdjyjwhkzgpwrh2m58e26ds",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "A light-dependent resistor (LDR), or photoresistor, is a resistor made of a semiconductor material (such as cadmium sulphide) whose resistance decreases as the intensity of light falling on it increases.",
+      "In darkness, few charge carriers are available in the semiconductor, so resistance is very high (often megohms); light photons excite electrons across the semiconductor's band gap, generating more free charge carriers and sharply lowering resistance as illumination increases.",
+      "LDRs are used in light-sensing applications such as automatic street-light switches, camera light meters, and as part of potential-divider circuits to trigger other components based on ambient light level."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An LDR, or photo-resistor, is a light-sensitive resistor based on photoconductivity. Its resistance decreases as light intensity increases and is very large in darkness. This variable resistance lets an LDR detect light level and control circuits, such as automatic street lighting, alarms, cameras, and other automation systems.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.1",
+    "sectionId": "what-is-an-ldr",
+    "sectionLabel": "What Is an LDR?",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is LDR? Discuss in detail.",
+    "topicId": "ms70cx0w972h44m35zyw68gbp985qe3g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electric-power-electric-energy",
+    "topicTitle": "11.6 Electric Power and Electric Energy",
+    "_id": "m171wdx028z7sa3gt42nx22kms8e3b9k",
+    "correctKey": "A",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Energy per day = 1 kW x 10 h = 10 kWh. Over 10 days: 10 x 10 = 100 kWh.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "100 kWh"
+      },
+      {
+        "key": "B",
+        "text": "200 kWh"
+      },
+      {
+        "key": "C",
+        "text": "300 kWh"
+      },
+      {
+        "key": "D",
+        "text": "350 kWh"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A heavy duty refrigerator is used about 1000 W, if it is allowed to run continuously for 10 hours daily, how many kilowatt-hours of energy does it consume in 10 days?",
+    "topicId": "ms72nmrnmzk13hx4y4pn57cht985paqt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electric-power-electric-energy",
+    "topicTitle": "11.6 Electric Power and Electric Energy",
+    "_id": "m171a0d74y4ag3xccngk2vrkqs8e29ab",
+    "correctKey": "D",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Power dissipated $P = V^2/R = 10^2/10 = 10$ W.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "100 W"
+      },
+      {
+        "key": "B",
+        "text": "50 W"
+      },
+      {
+        "key": "C",
+        "text": "25 W"
+      },
+      {
+        "key": "D",
+        "text": "10 W"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "energy-dissipation-in-a-resistor-joule-heating",
+    "sectionLabel": "Energy Dissipation in a Resistor (Joule Heating)",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A 10 ohm resistor is connected across the terminals of a 10 V battery. The power dissipation of the resistor is",
+    "topicId": "ms72nmrnmzk13hx4y4pn57cht985paqt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electric-power-electric-energy",
+    "topicTitle": "11.6 Electric Power and Electric Energy",
+    "_id": "m171eve832bt8k6hhya1azpvfx8e3txw",
+    "correctKey": "C",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Power $P = I^2R$, so doubling the current (100% increase, $I \\to 2I$) quadruples power (4x); this is an increase of 300% over the original value.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "100%"
+      },
+      {
+        "key": "B",
+        "text": "200%"
+      },
+      {
+        "key": "C",
+        "text": "300%"
+      },
+      {
+        "key": "D",
+        "text": "500%"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionId": "energy-dissipation-in-a-resistor-joule-heating",
+    "sectionLabel": "Energy Dissipation in a Resistor (Joule Heating)",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How much power dissipation will be increased if current passing through the circuit is increased 100% (let keeping temperature constant)?",
+    "topicId": "ms72nmrnmzk13hx4y4pn57cht985paqt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electric-power-electric-energy",
+    "topicTitle": "11.6 Electric Power and Electric Energy",
+    "_id": "m17dergbssx9fjmajz3tceqtt98e385d",
+    "correctKey": "C",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "Series current $I = V/(R_1+R_2) = 6/6 = 1$ A. Heat in the 4 ohm resistor: $Q = I^2 R t = 1^2 \\times 4 \\times 5 = 20$ J.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "5 J"
+      },
+      {
+        "key": "B",
+        "text": "10 J"
+      },
+      {
+        "key": "C",
+        "text": "20 J"
+      },
+      {
+        "key": "D",
+        "text": "30 J"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "energy-dissipation-in-a-resistor-joule-heating",
+    "sectionLabel": "Energy Dissipation in a Resistor (Joule Heating)",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "There are 2 resistors of having values 2 ohm and 4 ohm respectively are connected in series to a 6 V battery. The heat dissipated by the 4 ohm resistor in 5s will be:",
+    "topicId": "ms72nmrnmzk13hx4y4pn57cht985paqt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "electric-power-electric-energy",
+    "topicTitle": "11.6 Electric Power and Electric Energy",
+    "_id": "m179ayfdhajnr7rfq55gbwsken8e2xwr",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Not from nothing, but yes via harvested ambient energy: devices can convert available environmental energy -- solar (photovoltaic) energy, kinetic/vibrational energy, thermal gradients, or ambient radio-frequency energy -- into electrical energy through appropriate transducers, effectively 'charging themselves' without a direct wired connection to an external electricity source, though this still requires some available energy source, not creation of energy from nothing.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.10a",
+    "sectionId": "summary-table",
+    "sectionLabel": "Summary Table",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Could electronic devices charge themselves without being plugged into an electricity source?",
+    "topicId": "ms72nmrnmzk13hx4y4pn57cht985paqt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m170j7g2n3mavgxtktxd51z1z18e332x",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Kirchhoff's laws (the current law from conservation of charge, and the voltage law from conservation of energy) allow systematic analysis of complex circuits with multiple loops and junctions that cannot be reduced to simple series/parallel combinations, providing a complete set of equations to solve for unknown currents and voltages.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.3",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why we use Kirchhoff's law for circuit problems solution.",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m17fzrbycj2ywjw7eey7gr1z1n8e2ydr",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "For resistors R1, R2, ... in series, the same current I flows through each resistor (Kirchhoff's current law at each junction, since there is only one path).",
+      "Applying Kirchhoff's voltage law around the loop: the total emf equals the sum of the individual IR drops, $V = IR_1 + IR_2 + ... = I(R_1+R_2+...)$.",
+      "Comparing this to $V = IR_{eq}$ for a single equivalent resistor gives $R_{eq} = R_1 + R_2 + ...$, i.e. resistances in series simply add."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For resistors in series, the current $I$ is the same through every resistor because there are no junctions. Kirchhoff's voltage law gives the total potential difference as the sum of the individual drops: $V=IR_1+IR_2+\\cdots$. Defining $V=IR_{\\mathrm{eq}}$ and dividing by $I$ gives $R_{\\mathrm{eq}}=R_1+R_2+\\cdots$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.9",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Using Kirchhoff's laws, derive a formula for the combined resistance of two or more resistors in series.",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m17cb4shk2hqzd6cbs7yayxb3s8e3e3k",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "For resistors R1, R2, ... in parallel, each resistor has the same potential difference V across it, but the total current I splits into individual branch currents I1, I2, ... (Kirchhoff's current law at the parallel junction: $I = I_1 + I_2 + ...$).",
+      "Since each branch current $I_i = V/R_i$, substituting gives $I = V/R_1 + V/R_2 + ... = V(1/R_1 + 1/R_2 + ...)$.",
+      "Comparing this to $I = V/R_{eq}$ for a single equivalent resistor gives $1/R_{eq} = 1/R_1 + 1/R_2 + ...$, the reciprocal-sum formula for resistors in parallel."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For resistors in parallel, the potential difference $V$ across every branch is the same, while Kirchhoff's first law gives $I=I_1+I_2+\\cdots$. Using Ohm's law, $I=V/R_{\\mathrm{eq}}$ and $I_i=V/R_i$, so $\\frac{1}{R_{\\mathrm{eq}}}=\\frac{1}{R_1}+\\frac{1}{R_2}+\\cdots$. The equivalent resistance is therefore smaller than any individual branch resistance.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.10",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Using Kirchhoff's laws, derive a formula for the combined resistance of two or more resistors in parallel.",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m173afd1ctp2kndt17kqrfdpm98e3zfd",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At any junction in a circuit, charge cannot be created or destroyed and cannot accumulate indefinitely in steady state, so the total charge (and hence current) flowing into the junction per unit time must exactly equal the total charge flowing out; this is precisely Kirchhoff's current law (the algebraic sum of currents at a junction is zero).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.4",
+    "sectionId": "kirchhoffs-first-law-the-current-law-or-kcl",
+    "sectionLabel": "Kirchhoff's First Law (The Current Law or KCL)",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The Kirchhoff's current rule is based on conservation of charge. Explain how?",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m17aa7ze6sy2n87kn2fje253p58e22m5",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "Kirchhoff's first law (current law) states that the algebraic sum of currents entering and leaving any junction in a circuit is zero, i.e. total current in equals total current out.",
+      "This follows directly from conservation of charge: charge cannot be created, destroyed, or accumulate indefinitely at a junction in a steady-state circuit, so whatever charge flows in per unit time must flow out per unit time.",
+      "The law provides one independent equation per junction, which combined with Kirchhoff's second law allows complete analysis of currents in complex multi-loop circuits."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Kirchhoff's first law says that the algebraic sum of currents at a junction is zero, or that total current entering a node equals total current leaving it. It follows from conservation of electric charge: charge cannot accumulate at an ideal junction, so every amount of charge arriving per unit time must leave per unit time.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.7",
+    "sectionId": "kirchhoffs-first-law-the-current-law-or-kcl",
+    "sectionLabel": "Kirchhoff's First Law (The Current Law or KCL)",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain Kirchhoff's first law and describe that it is a consequence of conservation of charge.",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m170yfvwhdaf7p75aj9ba7xzk98e32w6",
+    "exerciseId": "xd75erxv38mzza5az7j5jb39418e2qk3",
+    "exerciseTitle": "Exercise 11: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Applying Kirchhoff's laws to the circuit as shown (per the textbook's own worked solution using the given emf sources and resistor network), the current through the 1 ohm resistor works out to approximately 0.13 A, matching the textbook's printed answer. (Ans. 0.13 A, as printed in the textbook; this problem's circuit diagram is not reproduced here, so the numeric result is taken directly from the textbook's answer key per house rule on diagram-dependent numericals.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.6",
+    "sectionId": "kirchhoffs-first-law-the-current-law-or-kcl",
+    "sectionLabel": "Kirchhoff's First Law (The Current Law or KCL)",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Calculate the current that flows in the 1 ohm resistor in the following circuit.",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m17bnpasq9bwbxwsf175fc4xns8e3282",
+    "correctKey": "A",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "The sign of an IR (voltage) drop across a resistor in Kirchhoff's-law circuit analysis depends on the assumed direction of current flow through that resistor relative to the loop-traversal direction.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "direction of flow of current."
+      },
+      {
+        "key": "B",
+        "text": "battery connections."
+      },
+      {
+        "key": "C",
+        "text": "magnitude of current flowing through it."
+      },
+      {
+        "key": "D",
+        "text": "value of resistance."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionId": "kirchhoffs-second-law-the-voltage-law-or-kvl",
+    "sectionLabel": "Kirchhoff's Second Law (The Voltage Law or KVL)",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The algebraic sign of an IR drop primarily depends upon the",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "kirchhoff-s-laws",
+    "topicTitle": "11.7 Kirchhoff's Laws",
+    "_id": "m17c2jry6e1asjmf9z6104ajf58e22kt",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "Kirchhoff's second law (voltage law) states that the algebraic sum of the emfs and potential drops around any closed loop in a circuit is zero.",
+      "This follows from conservation of energy: as a unit charge travels around a complete closed loop and returns to its starting point, the net energy gained (from emf sources) must exactly equal the net energy lost (as IR drops across resistances), since potential is a single-valued function of position.",
+      "The law provides one independent equation per independent loop, which combined with Kirchhoff's current law allows the currents and voltages in a complex circuit to be fully determined."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Kirchhoff's second law says that the algebraic sum of all potential changes around a closed loop is zero, $\\sum V=0$. Voltage rises from sources equal voltage drops in resistive elements. This is a statement of conservation of energy because the net energy gained per unit charge after one complete circuit must be zero.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.8",
+    "sectionId": "kirchhoffs-second-law-the-voltage-law-or-kvl",
+    "sectionLabel": "Kirchhoff's Second Law (The Voltage Law or KVL)",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain Kirchhoff's second law and describe that it is a consequence of conservation of energy.",
+    "topicId": "ms77r7dc8r4ndarz86akdvfq3s85praq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "null-method-of-measurement",
+    "topicTitle": "11.8 Null Method of Measurement",
+    "_id": "m173znk9a0t2rj0yje7d2hvhj58e3vn3",
+    "correctKey": "D",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "A potentiometer measures emf without drawing any current from the source (a null-deflection method), so it gives the true, accurate emf value rather than a slightly reduced terminal voltage as a voltmeter would.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "meter Bridge"
+      },
+      {
+        "key": "B",
+        "text": "voltmeter"
+      },
+      {
+        "key": "C",
+        "text": "multimeter"
+      },
+      {
+        "key": "D",
+        "text": "potentiometer"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which one of the following electrical devices helps us to measure the accurate value of emf?",
+    "topicId": "ms745ep5y73esm1de4r3g0ctnx85p8x1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "null-method-of-measurement",
+    "topicTitle": "11.8 Null Method of Measurement",
+    "_id": "m179kdfffkyvq7zycp2vvjk5yd8e3xgs",
+    "correctKey": "A",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "A potentiometer's principal use is comparing two emfs/voltages against each other using a null-deflection balance point, without drawing current from either source.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "comparing two voltages."
+      },
+      {
+        "key": "B",
+        "text": "comparing two currents."
+      },
+      {
+        "key": "C",
+        "text": "measuring a voltage."
+      },
+      {
+        "key": "D",
+        "text": "measuring a current."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Potentiometer can be used for",
+    "topicId": "ms745ep5y73esm1de4r3g0ctnx85p8x1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "null-method-of-measurement",
+    "topicTitle": "11.8 Null Method of Measurement",
+    "_id": "m17627t5vr8crc5ejhb0saq8hs8e34hw",
+    "correctKey": "A",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "A longer slide wire spreads the potential gradient over a greater length, giving finer resolution and hence higher accuracy when locating the balance/null point.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "as long as possible."
+      },
+      {
+        "key": "B",
+        "text": "as short as possible."
+      },
+      {
+        "key": "C",
+        "text": "neither too small not too large."
+      },
+      {
+        "key": "D",
+        "text": "very thick."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "In order to achieve high accuracy, the slide wire of a potentiometer should be:",
+    "topicId": "ms745ep5y73esm1de4r3g0ctnx85p8x1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "null-method-of-measurement",
+    "topicTitle": "11.8 Null Method of Measurement",
+    "_id": "m1707xqyvxtctja1dm5acnc7a58e22kc",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "A potentiometer is a device consisting of a long, uniform resistance wire with a sliding contact, used to measure or compare emfs/potential differences accurately by a null-deflection (balance-point) method.",
+      "A known emf source is connected to establish a steady potential gradient along the wire; the unknown emf (or a known standard cell) is connected in opposition through a galvanometer, and the sliding contact is moved until the galvanometer shows zero deflection (the balance point).",
+      "Since no current is drawn from the source being measured at the balance point, the potentiometer measures the true emf of a source directly, unlike a voltmeter, which always draws some current and reads a slightly reduced terminal voltage."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A potentiometer is a null-type resistance network for measuring potential difference or emf. A uniform wire is connected across a known supply, and a slider is adjusted until the galvanometer shows zero deflection. At balance, the potential drop along the selected wire length equals the unknown emf or potential difference, so no current is drawn from the measured source.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.6",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is a potentiometer? Explain.",
+    "topicId": "ms745ep5y73esm1de4r3g0ctnx85p8x1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "null-method-of-measurement",
+    "topicTitle": "11.8 Null Method of Measurement",
+    "_id": "m179heht1vberbvk3ncd52bgcd8e3g0p",
+    "correctKey": "A",
+    "exerciseId": "xd7dahbcnj8xdss598yzshack58e2f1w",
+    "exerciseTitle": "Exercise 11: Multiple Choice Questions",
+    "explanation": "A galvanometer, which detects the absence of current flow (a null/zero-deflection condition) when the bridge is balanced, is used as the null detector in a Wheatstone bridge.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "galvanometer"
+      },
+      {
+        "key": "B",
+        "text": "ammeter"
+      },
+      {
+        "key": "C",
+        "text": "voltmeter"
+      },
+      {
+        "key": "D",
+        "text": "multimeter"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionId": "1-the-wheatstone-bridge",
+    "sectionLabel": "1. The Wheatstone Bridge",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which of the following electrical instrument can be used as a null detector in the Wheatstone bridge?",
+    "topicId": "ms745ep5y73esm1de4r3g0ctnx85p8x1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "null-method-of-measurement",
+    "topicTitle": "11.8 Null Method of Measurement",
+    "_id": "m170x04j4jjxrqrnxt53p9jkqh8e2g4r",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A galvanometer works on the principle that a current-carrying coil placed in a magnetic field experiences a torque proportional to the current flowing through it; this torque deflects a pointer (or coil) against a restoring spring, with the deflection angle proportional to the current, allowing small currents to be detected and measured.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.8",
+    "sectionId": "1-the-wheatstone-bridge",
+    "sectionLabel": "1. The Wheatstone Bridge",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the working principle of Galvanometer?",
+    "topicId": "ms745ep5y73esm1de4r3g0ctnx85p8x1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "null-method-of-measurement",
+    "topicTitle": "11.8 Null Method of Measurement",
+    "_id": "m17b88kfx9qb4zvmwfah9s4ma18e3x8g",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "A Wheatstone bridge is a circuit of four resistors arranged in a diamond configuration with a galvanometer connected across the bridge's middle, used to measure an unknown resistance precisely by comparison with known resistances.",
+      "The bridge is 'balanced' when the galvanometer shows zero deflection (no current flows through it), which occurs when the ratio of resistances in one pair of arms equals the ratio in the other pair ($R_1/R_2 = R_3/R_4$), allowing the unknown resistance to be calculated from the three known ones.",
+      "Because it is a null-deflection method, the Wheatstone bridge is highly accurate and does not depend on the calibration of the galvanometer's deflection scale, only on it correctly detecting zero current."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A Wheatstone bridge has four resistors and a galvanometer joining the two middle points. It is balanced when the galvanometer shows no deflection, so the middle points are at the same potential and no current flows through the galvanometer. With three known resistances, the balance relation can be used to determine the fourth, unknown resistance.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.5",
+    "sectionId": "1-the-wheatstone-bridge",
+    "sectionLabel": "1. The Wheatstone Bridge",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is Wheatstone bridge? Explain in detail.",
+    "topicId": "ms745ep5y73esm1de4r3g0ctnx85p8x1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "thermistor",
+    "topicTitle": "11.9 Thermistor",
+    "_id": "m1775ktq7xvvs3vfz15ax373x98e2w1a",
+    "exerciseId": "xd7b0p70wb96qz0g5qe4pbshv58e22jr",
+    "exerciseTitle": "Exercise 11: Comprehensive Questions",
+    "keyPoints": [
+      "A potential divider splits a supply voltage across two series components in proportion to their resistances; replacing one of the fixed resistors with a thermistor or LDR makes the output voltage vary with temperature or light level respectively.",
+      "With a thermistor in the divider, the output voltage changes as ambient temperature changes (since thermistor resistance is strongly temperature-dependent), allowing the circuit to feed a temperature-sensitive control or alarm signal to further electronics.",
+      "With an LDR in the divider, the output voltage changes with ambient light level, which is the basis of light-sensing circuits such as automatic lighting controls that switch on when the LDR's resistance rises (darkness) past a threshold."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A potential divider uses resistors in series to share a supply voltage. A thermistor or LDR can serve as the variable resistor. For an LDR, increasing light lowers its resistance; for an NTC thermistor, increasing temperature lowers its resistance. The resistance change alters the voltage drop across that component, so the divider converts light or temperature changes into a measurable output voltage.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11.2",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the use of thermistors and light-dependent resistors in potential dividers.",
+    "topicId": "ms72d7y92a3593pnkph6ytdat185p3bg"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "11-electricity",
+    "chapterTitle": "Electricity",
+    "topicSlug": "carbon-fibre-in-concrete-bridge",
+    "topicTitle": "11.10 Carbon Fibres in Concrete Bridge",
+    "_id": "m178vnpe6n5ghmrygc4rkgb20n8e21jf",
+    "exerciseId": "xd7d946wg8m3002tdxepny8a9n8e2s0c",
+    "exerciseTitle": "Exercise 11: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Carbon fibers embedded in concrete are electrically conductive, and their resistance changes measurably when the concrete develops cracks or structural strain (as the fiber network is disrupted or stretched). By periodically measuring the electrical resistance of the carbon-fiber-reinforced concrete, inspectors can detect developing structural damage non-destructively, without needing to physically break open or visually inspect every part of the bridge.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11.9",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 11,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How inspectors can easily check the reliability of a concrete bridge with carbon fibers.",
+    "topicId": "ms7b8ny1w1dw8skm0j8z4t8gf585qfaq"
+  }
+]

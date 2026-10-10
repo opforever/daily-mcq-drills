@@ -1,0 +1,30 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-3-trade-offs-between-usability-and-security-in-computing-systems",
+    "topicTitle": "1.3 Trade-offs Between Usability and Security in Computing Systems",
+    "_id": "m17a1kh4cy0awq0sg4z5y8ehgs85qjrg",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Prevents unauthorized access to sensitive data and system resources",
+      "Ensures process isolation and prevents interference between processes and the kernel",
+      "Enforces access control policies and manages user privileges",
+      "Protects against malicious software and maintains system integrity",
+      "Balances security requirements with system usability and performance"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A protection system in an operating system is crucial for maintaining security, integrity, and controlled access to system resources. It prevents unauthorized users from accessing sensitive data, ensures that processes cannot interfere with each other or the kernel, and protects against malicious software. Protection mechanisms enforce access control policies, manage user privileges, and isolate processes in separate memory spaces, thereby maintaining system stability and data confidentiality while allowing legitimate users to perform their authorized tasks efficiently.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "How is protection system important in an operating system?",
+    "topicId": "ms70w2pde05bw16yxx4ryzkc7s85q3bt",
+    "year": 2024
+  }
+]

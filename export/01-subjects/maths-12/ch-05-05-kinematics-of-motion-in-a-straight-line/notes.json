@@ -1,0 +1,68 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "05-kinematics-of-motion-in-a-straight-line",
+    "chapterTitle": "Kinematics Of Motion In A Straight Line",
+    "topicSlug": "exercise-5-1",
+    "topicTitle": "5.1 Displacement-Time and Velocity-Time Graphs",
+    "_creationTime": 1777384384318.0562,
+    "_id": "kx76jncnbgq0rxxmwsm1v4v2s185qn6f",
+    "createdAt": 1777384384318,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Displacement-time graphs and their interpretation\n\n- Velocity-time graphs and their interpretation\n\n- Distance, speed, and time relationships\n- Acceleration and deceleration in linear motion\n\n- Constant velocity and periods of rest\n- Calculating displacement from velocity-time graphs (area under curve)\n\n- Determining velocity from displacement-time graphs (gradient)\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Distance, Speed, and Time:**\n$$v = \\frac{d}{t} \\quad \\text{or} \\quad d = v \\times t \\quad \\text{or} \\quad t = \\frac{d}{v}$$\n\n**Average Speed:**\n$$\\text{Average Speed} = \\frac{\\text{Total Distance}}{\\text{Total Time}}$$\n\n**Acceleration:**\n$$a = \\frac{v - u}{t}$$\n\nWhere $u$ = initial velocity, $v$ = final velocity, $t$ = time interval\n\n**Graphical Relationships:**\n\n| Graph Type | Gradient Represents | Area Under Curve Represents |\n| :--- | :--- | :--- |\n| Displacement-Time | Velocity | — |\n| Velocity-Time | Acceleration | Displacement |\n\n---\n\n# **Summary**\n\nThis exercise covers linear motion analysis using both algebraic methods and graphical interpretation. Key skills include constructing and interpreting displacement-time and velocity-time graphs, calculating distance, speed, and acceleration for objects with constant velocity or uniform acceleration, and analyzing multi-stage journeys involving periods of motion, rest, and return trips. Emphasis is placed on understanding the relationships between graphical features (gradients and areas) and physical quantities: velocity equals the gradient of a displacement-time graph, while displacement equals the area under a velocity-time graph.",
+    "publishedAt": 1777384384318,
+    "slug": "exercise-5-1",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "5.1 Exercise 5.1",
+    "topicId": "ms739166ywgc4de28zx770kfqn85pks7",
+    "updatedAt": 1787554458128
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "05-kinematics-of-motion-in-a-straight-line",
+    "chapterTitle": "Kinematics Of Motion In A Straight Line",
+    "topicSlug": "exercise-5-2",
+    "topicTitle": "5.2 Rectilinear Motion and the Kinematic Equations",
+    "_creationTime": 1777384385195.3953,
+    "_id": "kx7d1qh2d05axx7bgwy4aa3jj185q6fm",
+    "createdAt": 1777384385195,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Rectilinear motion (motion along a straight line)\n- Projectile motion under gravity\n- Relationships between position $s(t)$, velocity $v(t)$, and acceleration $a(t)$\n- Differentiation of position to find velocity and acceleration\n- Integration of acceleration to find velocity and position\n\n- Finding when a particle is at rest ($v=0$)\n- Determining maximum height or extreme positions\n\n- Calculating displacement vs. total distance traveled\n- Constant acceleration kinematic equations (SUVAT equations)\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Kinematics Relationships:**\n$$v = \\frac{ds}{dt} \\quad \\text{(Velocity is the derivative of position)}$$\n$$a = \\frac{dv}{dt} = \\frac{d^2s}{dt^2} \\quad \\text{(Acceleration is the derivative of velocity)}$$\n\n**Integration Formulas:**\n$$v = \\int a \\, dt \\quad \\text{(Velocity from acceleration)}$$\n\n$$s = \\int v \\, dt \\quad \\text{(Position from velocity)}$$\n\n**Distance and Displacement:**\n$$\\text{Displacement} = \\int_{t_1}^{t_2} v(t) \\, dt$$\n$$\\text{Total Distance} = \\int_{t_1}^{t_2} |v(t)| \\, dt$$\n\n**Constant Acceleration Equations:**\n$$v = u + at$$\n$$s = ut + \\frac{1}{2}at^2$$\n$$v^2 = u^2 + 2as$$\n\n**Projectile Motion:**\n$$h(t) = h_0 + v_0t - \\frac{1}{2}gt^2 \\quad \\text{(where $g \\approx 32$ ft/s$^2$ or $9.8$ m/s$^2$)}$$\n\n---\n\n# **Summary**\n\nThis exercise covers the application of calculus to kinematics problems involving particles moving along a straight line and projectile motion. The key strategy involves understanding the fundamental relationships: differentiation connects position $\\to$ velocity $\\to$ acceleration, while integration reverses this process. Common problem types include finding when objects are at rest (solve $v=0$), determining maximum height or position (find critical points of $s(t)$ or when $v=0$), calculating total distance traveled (integrate $|v|$ between direction changes), and distinguishing between displacement and total distance. For constant acceleration problems, standard kinematic equations apply, while variable acceleration requires integration techniques.",
+    "publishedAt": 1777384385195,
+    "slug": "exercise-5-2",
+    "sourceRef": {
+      "blockIndex": 68,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "5.2 Exercise 5.2",
+    "topicId": "ms7a158vd1fnrx8ydqbyfmrry985qbb2",
+    "updatedAt": 1787554458415
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "05-kinematics-of-motion-in-a-straight-line",
+    "chapterTitle": "Kinematics Of Motion In A Straight Line",
+    "topicSlug": "exercise-5-3",
+    "topicTitle": "5.3 Vector-Valued Functions: Velocity, Acceleration and Speed",
+    "_creationTime": 1777384386152.3833,
+    "_id": "kx79fwstmnqdzj0h4a0fk2w8f585pkjz",
+    "createdAt": 1777384386152,
+    "mdxBody": "# **Exercise 5.3 — Vector-Valued Functions: Velocity, Acceleration & Speed**\n\n---\n\n# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- **Vector-valued position functions** $\\mathbf{r}(t)$\n\n- **Domain and range of vector functions** (intersection of component domains)\n\n- **Velocity** as the derivative of position: $\\mathbf{v}(t) = \\mathbf{r}'(t)$\n\n- **Acceleration** as the derivative of velocity: $\\mathbf{a}(t) = \\mathbf{v}'(t) = \\mathbf{r}''(t)$\n\n- **Speed** as a scalar-valued magnitude function $|\\mathbf{v}(t)|$\n\n- **Differentiation of vector functions** (component-wise)\n\n---\n\n# **Important Formulas**\n\n## Kinematic Vectors\n\n$$\\mathbf{v}(t) = \\mathbf{r}'(t) = \\frac{d\\mathbf{r}}{dt}$$\n\n$$\\mathbf{a}(t) = \\mathbf{v}'(t) = \\mathbf{r}''(t) = \\frac{d^2\\mathbf{r}}{dt^2}$$\n\n## Speed (Scalar Magnitude of Velocity)\n\n$$|\\mathbf{v}(t)| = \\sqrt{[x'(t)]^2 + [y'(t)]^2 + [z'(t)]^2}$$\n\n*(For 2D motion, omit the $z$-component.)*\n\n---\n\n# **Worked Example**\n\nLet $\\mathbf{r}(t) = t^3\\hat{i} + e^{-2t}\\hat{j} + \\sin 2t\\,\\hat{k}$.\n\n**Step 1 — Velocity vector:**\n$$\\mathbf{v}(t) = \\mathbf{r}'(t) = 3t^2\\hat{i} - 2e^{-2t}\\hat{j} + 2\\cos 2t\\,\\hat{k}$$\n\n**Step 2 — Acceleration vector:**\n$$\\mathbf{a}(t) = \\mathbf{v}'(t) = 6t\\,\\hat{i} + 4e^{-2t}\\hat{j} - 4\\sin 2t\\,\\hat{k}$$\n\n**Step 3 — Speed at any time $t$:**\n$$|\\mathbf{v}(t)| = \\sqrt{(3t^2)^2 + (-2e^{-2t})^2 + (2\\cos 2t)^2} = \\sqrt{9t^4 + 4e^{-4t} + 4\\cos^2 2t}$$\n\n---\n\n# **Summary**\n\nThis exercise covers the analysis of particle motion using vector-valued functions:\n\n1. **Domain** of $\\mathbf{r}(t)$ = intersection of domains of all component functions.\n2. **Velocity**: differentiate each component of $\\mathbf{r}(t)$ once.\n3. **Acceleration**: differentiate each component of $\\mathbf{r}(t)$ twice.\n4. **Speed**: take the magnitude of the velocity vector using the Pythagorean formula.",
+    "publishedAt": 1777384386152,
+    "slug": "exercise-5-3",
+    "sourceRef": {
+      "blockIndex": 160,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "5.3 Exercise 5.3 — Vector-Valued Functions: Velocity, Acceleration & Speed",
+    "topicId": "ms7bn3922te0ztsk0kn6xsrk7s85pyt3",
+    "updatedAt": 1787554458694
+  }
+]

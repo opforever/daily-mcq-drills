@@ -1,0 +1,517 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "k9746gbm1zq8fxca2xy4156sn58d3ved",
+    "correctKey": "A",
+    "explanation": "Scientific notation uses a coefficient from 1 up to but not including 10 multiplied by an integral power of 10.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx703ncc80kd5xvc4skkmg6w9x8btab6",
+    "options": [
+      {
+        "key": "A",
+        "text": "$c=d \\times 10^{n}$ with $1 \\leq d<10$ and integer $n$"
+      },
+      {
+        "key": "B",
+        "text": "$c=d+10n$ for any $d$"
+      },
+      {
+        "key": "D",
+        "text": "$c=d \\times n^{10}$"
+      },
+      {
+        "key": "C",
+        "text": "$c=10d+n$ with negative $d$"
+      }
+    ],
+    "stem": "Which condition describes scientific notation?",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "k977phhtmc9tvxc4t2ym81xpqh8djcnk",
+    "correctKey": "A",
+    "explanation": "The note defines scientific notation as c = d x 10^n with 1<=d<10 and n an integer.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx703ncc80kd5xvc4skkmg6w9x8btab6",
+    "options": [
+      {
+        "key": "D",
+        "text": "1 < d <= 10 and n is a fraction"
+      },
+      {
+        "key": "C",
+        "text": "d is any real number and n is 10"
+      },
+      {
+        "key": "A",
+        "text": "1 <= d < 10 and n is an integer"
+      },
+      {
+        "key": "B",
+        "text": "0 <= d < 1 and n is a positive integer"
+      }
+    ],
+    "sectionId": "2-1-scientific-notation",
+    "sectionLabel": "2-1-scientific-notation",
+    "stem": "A number c is written in scientific notation as c = d x 10^n where:",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "k97fb9e7p15db6krxprakd5tp18dkdyd",
+    "correctKey": "A",
+    "explanation": "The note states n is positive when the decimal moves left, and (by the same rule) negative when it moves right.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx703ncc80kd5xvc4skkmg6w9x8btab6",
+    "options": [
+      {
+        "key": "C",
+        "text": "Always zero"
+      },
+      {
+        "key": "A",
+        "text": "Negative"
+      },
+      {
+        "key": "D",
+        "text": "Undefined"
+      },
+      {
+        "key": "B",
+        "text": "Positive"
+      }
+    ],
+    "sectionId": "2-1-scientific-notation",
+    "sectionLabel": "2-1-scientific-notation",
+    "stem": "When writing a number in scientific notation, if the decimal point is moved to the right to reach the reference position, the exponent n is:",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-2-logarithms",
+    "topicTitle": "2.2 Logarithms",
+    "_id": "k973r4sk900fsjhxaregqe5n9s8d23xj",
+    "correctKey": "A",
+    "explanation": "A logarithm is an exponent: it gives the power to which the base is raised.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71narrqy7jdcn2gaz31w7qz58bvvsp",
+    "options": [
+      {
+        "key": "B",
+        "text": "What is the sum of the base and number?"
+      },
+      {
+        "key": "D",
+        "text": "How many digits are in the number?"
+      },
+      {
+        "key": "C",
+        "text": "What is the inverse of addition?"
+      },
+      {
+        "key": "A",
+        "text": "To what exponent must the base be raised to obtain the number?"
+      }
+    ],
+    "stem": "A logarithm answers which question?",
+    "topicId": "ms79pjpq9nycef5rzyjhpjm08n8bt3vk"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-2-logarithms",
+    "topicTitle": "2.2 Logarithms",
+    "_id": "k975m4mg6sxh3hbwvybw67yct18dj11t",
+    "correctKey": "A",
+    "explanation": "The note's Key Fact states log_b x is defined only for positive x.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71narrqy7jdcn2gaz31w7qz58bvvsp",
+    "options": [
+      {
+        "key": "D",
+        "text": "Any real number"
+      },
+      {
+        "key": "A",
+        "text": "Positive"
+      },
+      {
+        "key": "B",
+        "text": "Negative"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "2-2-logarithms",
+    "sectionLabel": "2-2-logarithms",
+    "stem": "log_b(x) is defined only when x is:",
+    "topicId": "ms79pjpq9nycef5rzyjhpjm08n8bt3vk"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-2-logarithms",
+    "topicTitle": "2.2 Logarithms",
+    "_id": "k974gf9b2ymyf4r9hc2hya1ycn8djzgz",
+    "correctKey": "A",
+    "explanation": "The note states base-10 logarithms are also called Briggs's logarithms after Henry Briggs.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71narrqy7jdcn2gaz31w7qz58bvvsp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Briggs's logarithms"
+      },
+      {
+        "key": "B",
+        "text": "Naperian logarithms"
+      },
+      {
+        "key": "C",
+        "text": "Natural logarithms"
+      },
+      {
+        "key": "D",
+        "text": "Common exponentials"
+      }
+    ],
+    "sectionId": "2-2-logarithms",
+    "sectionLabel": "2-2-logarithms",
+    "stem": "Logarithms with base 10 are also known as:",
+    "topicId": "ms79pjpq9nycef5rzyjhpjm08n8bt3vk"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-2-logarithms",
+    "topicTitle": "2.2 Logarithms",
+    "_id": "k977pn8p93c67dk1mdtd99mp1x8dkhz7",
+    "correctKey": "A",
+    "explanation": "The note defines mantissa as the decimal/fractional part of a logarithm, always nonnegative and less than 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71narrqy7jdcn2gaz31w7qz58bvvsp",
+    "options": [
+      {
+        "key": "D",
+        "text": "The antilog of the number"
+      },
+      {
+        "key": "B",
+        "text": "The integer part, which can be negative"
+      },
+      {
+        "key": "A",
+        "text": "The fractional part, always nonnegative and less than 1"
+      },
+      {
+        "key": "C",
+        "text": "The base of the logarithm"
+      }
+    ],
+    "sectionId": "2-2-logarithms",
+    "sectionLabel": "2-2-logarithms",
+    "stem": "The mantissa of a logarithm is:",
+    "topicId": "ms79pjpq9nycef5rzyjhpjm08n8bt3vk"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-3-common-and-natural-logarithm",
+    "topicTitle": "2.3 Common and Natural Logarithm",
+    "_id": "k97em2da94b6dg1bbarsyv7mzs8d2qjf",
+    "correctKey": "C",
+    "explanation": "Common logarithms use base 10; when the base is omitted, the textbook writes simply log.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cknk9mcxw6hkj9hdzyn4vc18btm62",
+    "options": [
+      {
+        "key": "A",
+        "text": "$e$"
+      },
+      {
+        "key": "B",
+        "text": "$2$"
+      },
+      {
+        "key": "C",
+        "text": "$10$"
+      },
+      {
+        "key": "D",
+        "text": "$100$"
+      }
+    ],
+    "stem": "Which base is used for a common logarithm when no base is shown?",
+    "topicId": "ms7ee50hbw9jvngd4zv0z01aen8bvpgb"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-3-common-and-natural-logarithm",
+    "topicTitle": "2.3 Common and Natural Logarithm",
+    "_id": "k97d2wzywrk1hmj3mja99gv6e98dkwwt",
+    "correctKey": "A",
+    "explanation": "The note defines natural logarithms as base e (approximately 2.71828), written ln(x).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cknk9mcxw6hkj9hdzyn4vc18btm62",
+    "options": [
+      {
+        "key": "A",
+        "text": "e, approximately 2.71828"
+      },
+      {
+        "key": "B",
+        "text": "10, exactly 10"
+      },
+      {
+        "key": "C",
+        "text": "2, exactly 2"
+      },
+      {
+        "key": "D",
+        "text": "pi, approximately 3.14159"
+      }
+    ],
+    "sectionId": "2-3-common-and-natural-logarithm",
+    "sectionLabel": "2-3-common-and-natural-logarithm",
+    "stem": "Natural logarithms use which base, and what is that base's approximate value?",
+    "topicId": "ms7ee50hbw9jvngd4zv0z01aen8bvpgb"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-4-laws-of-logarithms",
+    "topicTitle": "2.4 Laws of Logarithms",
+    "_id": "k97cxawepvwrxeg5b3qx0fvmnd8d30e6",
+    "correctKey": "A",
+    "explanation": "The product law converts the logarithm of a product into the sum of the logarithms.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70gs47vbkgj8375kb5jzcek18btf30",
+    "options": [
+      {
+        "key": "D",
+        "text": "$\\log_b(mn)=m+n$"
+      },
+      {
+        "key": "B",
+        "text": "$\\log_b(mn)=\\log_bm-\\log_bn$"
+      },
+      {
+        "key": "A",
+        "text": "$\\log_b(mn)=\\log_bm+\\log_bn$"
+      },
+      {
+        "key": "C",
+        "text": "$\\log_b(mn)=\\log_bm\\log_bn$"
+      }
+    ],
+    "stem": "Which expression is the product law of logarithms?",
+    "topicId": "ms768qspy2c805pa6be534e7s58btrm8"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-4-laws-of-logarithms",
+    "topicTitle": "2.4 Laws of Logarithms",
+    "_id": "k970bdhxh3hx5h1nx9g5snzzbx8dj6j6",
+    "correctKey": "A",
+    "explanation": "The note's Product law states log_b(mn) = log_b(m) + log_b(n).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70gs47vbkgj8375kb5jzcek18btf30",
+    "options": [
+      {
+        "key": "B",
+        "text": "log_b(m) - log_b(n)"
+      },
+      {
+        "key": "A",
+        "text": "log_b(m) + log_b(n)"
+      },
+      {
+        "key": "C",
+        "text": "log_b(m) x log_b(n)"
+      },
+      {
+        "key": "D",
+        "text": "log_b(m)/log_b(n)"
+      }
+    ],
+    "sectionId": "2-4-laws-of-logarithms",
+    "sectionLabel": "2-4-laws-of-logarithms",
+    "stem": "The Product law of logarithms states that log_b(mn) equals:",
+    "topicId": "ms768qspy2c805pa6be534e7s58btrm8"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-4-laws-of-logarithms",
+    "topicTitle": "2.4 Laws of Logarithms",
+    "_id": "k97dhwdnafkffq6ysdn9611zzd8djzxk",
+    "correctKey": "A",
+    "explanation": "The note's Quotient law states log_b(m/n) = log_b(m) - log_b(n).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70gs47vbkgj8375kb5jzcek18btf30",
+    "options": [
+      {
+        "key": "C",
+        "text": "log_b(m) x log_b(n)"
+      },
+      {
+        "key": "B",
+        "text": "log_b(m) + log_b(n)"
+      },
+      {
+        "key": "D",
+        "text": "n . log_b(m)"
+      },
+      {
+        "key": "A",
+        "text": "log_b(m) - log_b(n)"
+      }
+    ],
+    "sectionId": "2-4-laws-of-logarithms",
+    "sectionLabel": "2-4-laws-of-logarithms",
+    "stem": "The Quotient law of logarithms states that log_b(m/n) equals:",
+    "topicId": "ms768qspy2c805pa6be534e7s58btrm8"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-4-laws-of-logarithms",
+    "topicTitle": "2.4 Laws of Logarithms",
+    "_id": "k9772b78df6jv7s2jszt6c78md8djbx5",
+    "correctKey": "A",
+    "explanation": "The note's Power law states log_b(m^n) = n . log_b(m).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70gs47vbkgj8375kb5jzcek18btf30",
+    "options": [
+      {
+        "key": "D",
+        "text": "log_b(n) . m"
+      },
+      {
+        "key": "B",
+        "text": "log_b(m) + n"
+      },
+      {
+        "key": "A",
+        "text": "n . log_b(m)"
+      },
+      {
+        "key": "C",
+        "text": "log_b(m) / n"
+      }
+    ],
+    "sectionId": "2-4-laws-of-logarithms",
+    "sectionLabel": "2-4-laws-of-logarithms",
+    "stem": "The Power law of logarithms states that log_b(m^n) equals:",
+    "topicId": "ms768qspy2c805pa6be534e7s58btrm8"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-5-applications-of-logarithms",
+    "topicTitle": "2.5 Applications of Logarithms",
+    "_id": "k97cfkm1jqwg3p0erzhg6hajan8d2bar",
+    "correctKey": "B",
+    "explanation": "The textbook defines $I$ as shock-wave intensity and $I_0$ as a constant.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx753h72a0nb16rakmrx671fj58btfed",
+    "options": [
+      {
+        "key": "A",
+        "text": "A constant reference intensity"
+      },
+      {
+        "key": "B",
+        "text": "$I$ is the intensity of the earthquake shock waves"
+      },
+      {
+        "key": "C",
+        "text": "The earthquake year"
+      },
+      {
+        "key": "D",
+        "text": "The logarithm base"
+      }
+    ],
+    "stem": "What does $I$ represent in the Richter scale formula $M=\\log(I/I_0)$?",
+    "topicId": "ms757x9g6kw3fz0h2hey64w8198bvrme"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-5-applications-of-logarithms",
+    "topicTitle": "2.5 Applications of Logarithms",
+    "_id": "k97ctcd5r4p00cdg170twwmn0x8dj23d",
+    "correctKey": "A",
+    "explanation": "The note states the Richter Scale for measuring earthquake magnitude is a logarithmic scale.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx753h72a0nb16rakmrx671fj58btfed",
+    "options": [
+      {
+        "key": "A",
+        "text": "The magnitude of an earthquake"
+      },
+      {
+        "key": "B",
+        "text": "The pH of a solution"
+      },
+      {
+        "key": "C",
+        "text": "The loudness of sound"
+      },
+      {
+        "key": "D",
+        "text": "Population growth rate"
+      }
+    ],
+    "sectionId": "2-5-applications-of-logarithms",
+    "sectionLabel": "2-5-applications-of-logarithms",
+    "stem": "The Richter Scale, a real-world application of common logarithms discussed in this unit, is used to measure:",
+    "topicId": "ms757x9g6kw3fz0h2hey64w8198bvrme"
+  }
+]

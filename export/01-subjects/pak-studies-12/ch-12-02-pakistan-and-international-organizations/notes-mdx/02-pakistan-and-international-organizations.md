@@ -1,0 +1,189 @@
+<!-- note kx7a8e2b3z7ze1t0z7pn6qe4n98ccpq2 | topic ms7dhy7xv08akdbws4gvvdgg1h8cc4gp | status published -->
+# BRICS and the IMF
+
+## Pakistan and BRICS
+
+BRICS is an emerging-market economic and political bloc made up of Brazil, Russia, India, China, and South Africa. Pakistan is not a member, but it has expressed interest in engaging with the group. Its location, ties with China, and interest in regional connectivity and economic development make engagement significant.
+
+## Role of global monetary institutions
+
+The IMF and World Bank provide financial assistance, policy advice, and technical expertise. Their aims include economic stabilization, sustainable growth, poverty reduction, and economic cooperation.
+
+## Role of the IMF
+
+The IMF provides financial support to countries facing balance-of-payments problems. It advises on fiscal and monetary policy and structural reform, provides technical assistance and training, and monitors economic trends and national policies through surveillance.
+
+## IMF assistance and its effects
+
+The corpus identifies fiscal deficits, inflation, balance-of-payments problems, debt, low tax revenue, inefficient public enterprises, corruption, and energy-sector deficiencies among Pakistan's economic challenges. IMF programs can support stabilization, reform implementation, institution building, and capacity building. The corpus also records risks including austerity, debt sustainability concerns, implementation difficulties, sovereignty concerns, and inequality.
+
+---
+
+<!-- note kx79je4vf62zh0366gvv1hg09x8ccyxz | topic ms77ttk5qwp0m81ykzwm0p7k6n8cc0en | status published -->
+# Pakistan in ECO, the EU and the SCO
+
+## Status within ECO
+
+Pakistan is one of the ten member states of the ECO. Its mandate promotes economic, technical, and cultural cooperation among member states. Pakistan's strategic location and significant economic potential make it a key player within the ECO framework. The Forum was founded as the Regional Cooperation for Development (RCD) in 1964 by the Islamic Republic of Iran, the Islamic Republic of Pakistan, and the Republic of Turkey. It was renamed the Economic Cooperation Organization (ECO) in 1985.
+
+## Role and Contributions
+
+1. Economic Integration and Trade Promotion.
+
+Regional commercial measures: Pakistan has pushed for regional integration in trade and actively participated in boosting intra-regional trade. The ECO Trade Agreement (ECOTA) aims to lower tariffs and non-tariff barriers among member states to increase trade. Infrastructure Development: Pakistan has contributed to infrastructure initiatives that promote regional connectivity. The ECO Container Train, which runs from Islamabad to Istanbul via Tehran, exemplifies Pakistan's initiatives to improve regional transportation and trade.
+2. Energy Cooperation.
+
+Energy Projects: Pakistan has participated in several energy projects under the ECO framework, including attempts to share and develop energy resources. Pakistan's energy sector, especially natural gas, is critical to regional security and cooperation.
+CASA-1000 Project: Although mostly under World Bank supervision, the CASA-1000 project, which aims to transfer electricity from Central Asia to South Asia, is consistent with ECO's objectives. Pakistan's participation demonstrates its commitment to regional energy cooperation.
+3. Cultural and Technical Cooperation.
+
+Cultural Exchange: Pakistan has actively promoted cultural exchanges and tourism among the ECO countries. By organizing cultural events and encouraging people-to-people encounters, Pakistan has helped to enhance regional cultural relations.
+Technical Help:Pakistan gives technical help and expertise in education, research, and technology to other ECO member states. This cooperation promotes regional growth and capacity building.
+4. Addressing Regional Challenges
+
+Counter-terrorism Efforts: Pakistan has played a vital role in regional security measures. Pakistan supports regional stability and security through collaborative counter-terrorism efforts and intelligence sharing within the ECO framework. In 2024 Pakistan hosted SCO summit and it's agenda focused on enhancing regional economic cooperation and counter terrorism.
+Disaster Management: Pakistan has also participated in regional disaster management initiatives helpin develop cooperation mechanisms in disaster risk reduction and response.
+
+Critical Analysis of the role of Pakistan in ECO
+While Pakistan has made significant contributions to the ECO and enhanced its trade and transport links and build stronger ties with ECO member countries. But various difficulties and opportunities for improvement remain. Despite ECO agreements, implementation is typically delayed due to political barriers. Pakistan and the other member states must focus on practical execution. Member states must follow through on commitments which can can hinder economic integration. Pakistan must overcome its domestic economic issues to contribute to and benefit from regional cooperation better. Regional tensions and instability, notably Afghanistan-related issues, can impact the ECO's operations. The success of ECO programs depends on Pakistan's involvement in promoting regional peace and stability.
+While Pakistan has progressed in infrastructure development but continued investment and improvement in transport and communication networks are necessary to control regional trade and connectivity between member states.
+Pakistan's Multifaceted Involvement in the ECO Framework
+Overall Pakistan's status, function, and contributions to the Economic Cooperation Organization are extensive and diverse. Pakistan has contributed significantly to advancing ECO objectives by boosting trade, energy cooperation, cultural exchange, and resolving regional security problems. The ECO Science Foundation (ECOSF) headquarters is in Islamabad. It promotes scientific and Technological collaboration. Pakistan has actively supported ECO projects and ECO Railway initiatives ( e,g., Islamabad-Tehran-Istanbul railway corridor). To fully reap the benefits of this regional cooperation, Pakistan and other member states must solve implementation issues, economic inequality, and political instability. Increased collaboration and dedication can result in more robust regional economic integration and development.
+
+## Pakistan's Status, Role, and Contribution to the European Union (EU):
+
+The European Union (EU) was officially established on November 1, 1993. Despite not being a member of the European Union (EU), Pakistan maintains a multidimensional relationship with the bloc, including political, economic, security, and cultural exchanges. Pakistan's relationship with the European Union (EU) includes economic cooperation, political engagement, and development assistance. Here's a critical analysis of
+
+<CaptionedImage src="kg2a38d3cv045x4qtwbws4jd7n8dgxpy" alt="" caption="" />
+Flag of the European Union
+
+Pakistan's standing, role, and contributions:
+
+## 1. Economic Cooperation
+
+Pakistan and the EU enjoy healthy trade relations. The EU is one of Pakistan's main trading partners, with significant exports of textiles, clothing, and agricultural goods. The Generalised Scheme of Preferences Plus (GSP+) status awarded to Pakistan has played a critical role in increasing its exports to the EU. The GSP+ status has significantly boosted exports and benefited Pakistan's economy. Pakistan must comply with international accords on labor rights, human rights, and environmental norms to maintain its position. Noncompliance may result in the loss of these benefits.
+2. Political Engagement
+
+Diplomatic relations between Pakistan and the European Economic Community were established in 1962. In June 2019, Pakistan and the EU signed the Strategic Engagement Plan (SEP) to build a partnership rooted in shared values and principles. Pakistan and the EU hold regular political discussions to address bilateral, regional, and global issues. These dialogues provide opportunities to address human rights, governance, and counterterrorism. These discussions help to align Pakistan's policies with international norms and improve diplomatic ties. There are frequent complaints of Pakistan's human rights and governance difficulties, which can strain political relations.
+3. Development Assistance
+
+The EU gives Pakistan significant development aid for education, rural development, and governance. It has funded numerous tasks to improve societal structure and capacity building. Under the Multiannual Indicative Programme (MIP) for 2021-27, the EU allocated EUR 265 million in grant funding to Pakistan for 2021-2024. EU aid has also supported important projects that promote education and healthcare facilities in underdeveloped regions. Productive use of aid demands transparency and efficient governance mechanisms, and Pakistan faces challenges due to corruption and bureaucratic incompetence.
+4. Human Rights and Governance
+
+The EU has continuously emphasized the significance of human rights and good governance. Pakistan's adherence to these norms is crucial for preserving trade benefits and development funding. Compliance can lead to long-term economic gains and enhanced international standing. Restrictions on free speech, minority rights, and judicial independence warrant serious revisions.
+5. Counter-Terrorism and Security
+
+Pakistan and the EU work together on security and counterterrorism measures. This involves intelligence exchange, counter-radicalization initiatives, and attempts to combat illegal trafficking. Collaborative security activities promote regional stability and contribute to global security. The Pakistani security situation, which includes domestic insurgencies and geopolitical issues, challenges these attempts.
+6. Environmental Cooperation
+
+The European Union (EU) contributes significantly to environmental cooperation with Pakistan through various projects and programs. This collaboration spans several areas, including climate change mitigation and sustainable development. EU-supported environmental projects help Pakistan mitigate the impacts of climate change and promote sustainable practices. Pakistan must strengthen its environmental policies and enforcement mechanisms to tackle climate challenges effectively.
+Overall, Pakistan's relationship with the European Union has diverse economic, political, and developmental aspects. While this collaboration has many advantages, such as economic growth, development aid, and increased security, it also faces significant hurdles. These include assuring compliance with international standards, addressing governance challenges, and using development support optimally. By tackling these difficulties, Pakistan may strengthen and expand its engagement with the EU, contributing positively to global and regional stability and growth.
+
+## Pakistan's Status, Role, and Contribution to the Shanghai Cooperation Organization (SCO)
+
+Pakistan holds a significant position in the Shanghai Cooperation Organization (SCO) as a full member, contributing actively to its objectives of fostering regional cooperation, security, and economic development. Its role and contributions can be summarized as follows:
+
+1. Pkistan's Status within the SCO
+
+Pakistan became a full member of the SCO in June 2017, alongside India, during the Astana Summit. Before this, Pakistan had observer status since 2005. Full membership has enabled Pakistan to collaborate with regional powers, particularly China and Russia.
+2. Strategic Role
+<CaptionedImage src="kg29f55bezjnm8091wvrrv8zzs8dhp9r" alt="" caption="" />
+
+Geostrategic Importance:
+Pakistan is a bridge for connectivity projects, including China's Belt and Road Initiative (BRI) at the crossroads of South Asia, Central Asia, and the Middle East. The China-Pakistan Economic Corridor (CPEC), a flagship BRI project, underscores Pakistan's role in enhancing regional economic integration within the SCO framework.
+Counterterrorism:
+Pakistan plays an active role in the Regional Anti-Terrorist Structure (RATS) of the SCO, contributing to countering terrorism, extremism, and separatism in the region. As a country heavily impacted by terrorism, Pakistan brings practical experience and collaboration opportunities to SCO's counterterrorism initiatives.
+Afghanistan Stabilization:
+Pakistan advocates for a peaceful and stable Afghanistan, aligning with SCO's objectives of addressing regional security and preventing instability in Central and SouthAsia.
+3. Economic Contribution
+
+Trade and Connectivity:
+Pakistan promotes regional trade and economic integration through initiatives like CPEC, which enhances connectivity between SCO member states and other regions. Its Gwadar Port offers landlocked Central Asian states access to global markets, strengthening trade routes under the SCO umbrella.
+Energy Cooperation:
+Pakistan's energy demands and its role as a potential transit country for energy pipelines, such as the Turkmenistan-Afghanistan-Pakistan-India (TAPI) pipeline, align with SCO's energy security goals.
+4. Diplomatic and Cultural Engagement
+
+Dialogue and Multilateralism:
+
+Pakistan actively participates in SCO summits and working groups, emphasizing multilateralism and regional cooperation. It has been vocal about promoting dialogue and peaceful conflict resolution among member states, including India and China.
+
+## Cultural Exchange:
+
+---
+
+<!-- note kx77kx55vpbd4b875tetexmmx18cdwq7 | topic ms76rehjma4t2gqzzwqfh9m0rn85q53a | status published -->
+# The United Nations and Global Welfare
+
+## Pakistan and International Organizations
+
+In this unit the students will be able to:
+
+- Elaborate the significance of the UN's role in promoting the welfare of developing and conflict-affected countries in terms of addressing issues related to human rights, religious freedom, peacekeeping, access to food and healthcare, education, poverty reduction, and economic progress.
+- Critically review Pakistan's status, role, and contribution in different scenarios of global importance in regional organizations (EU and ECO).
+- Discuss the impact of global monetary institutions on the development of countries, with a specific focus on the current state of the IMF and its efforts to assist Pakistan in addressing its economic challenges.
+
+## The United Nation's Role in Improving Welfare in Developing and Conflict-Affected Countries
+
+The United Nations plays a crucial role in promoting the welfare of developing and conflict-affected countries through different initiatives. It addresses human rights, religious freedom, peacekeeping, access to food and healthcare, education, poverty reduction, and economic progress.
+
+1. Human Rights
+
+On December 10, 1948, the UN General Assembly adopted the Universal Declaration of Human Rights.
+<CaptionedImage src="kg2bkdz7p91td7cx583arr7y5h8dgpkm" alt="" caption="" />
+The United Nations defends human rights worldwide through the Universal Declaration of Human Rights. The Human Rights Council and the Office of the High Commissioner for Human Rights (OHCHR) monitor and report on human rights violations. It also helps countries improve their human rights records and help victims of rights breaches. The United Nations promotes a culture of human rights, respect, and protection by establishing international standards and keeping nations accountable.
+2. Religious Freedom
+
+The International Covenant on Civil and Political Rights (ICCPR) was adopted by the United Nations General Assembly on December 16, 1966 and entered into force on March 23, 1976.The UN promotes religious freedom through ICCPR. It ensures the freedom of thought, conscience, and religion. It also makes recommendations to guarantee respect for religious diversity and freedom. This is critical in conflict-affected countries where religious persecution is prevalent.
+3. Peacekeeping
+
+UN peacekeeping deployments serve an essential role in stabilizing conflict-affected areas. These operations safeguard civilians, monitor ceasefires, disarm combatants, and facilitate the execution of peace treaties. UN peacekeepers play an essential role in decreasing violence and promoting stability by acting as a buffer between opposing parties. They assist in creating conditions conducive to long-term peace. The UN has conducted successful peacekeeping operations in Cambodia, El Salvador, Guatemala, Mozambique, Namibia, Tajikistan, Liberia, Haiti, and Kosovo
+4. Access to Food and Health Care
+
+The World Food Programme (WFP) and the World Health Organization (WHO) ensure food and healthcare access. The World Food Programme (WFP) combats hunger and food insecurity by providing emergency food aid and boosting food production systems in poor nations. WHO aims to enhance health systems, control disease outbreaks, and ensure access to critical health services. It tries to improve overall health outcomes.
+5. Education
+
+The United Nations Educational, Scientific, and Cultural Organization (UNESCO) promotes education for all, focusing on literacy, teacher training, and inclusive education. UNESCO ensures
+that education is a fundamental human right and a prerequisite for developing sustainable communities. The United Nations also supports projects such as the Global Education First Initiative (GEFI), which prioritizes education in global development objectives.
+
+## 6. Poverty Reduction
+
+The UN's efforts to end poverty are guided by the Sustainable Development Goals (SDGs), especially Goal 1 (No Poverty). The UN seeks to provide social safety nets, strengthen governance, and expand economic possibilities through programs like the United Nations Development Programme (UNDP). These initiatives are essential for raising living standards and decreasing poverty in developing and conflict-affected nations.
+
+## 7. Economic Progress
+
+The UN encourages global trade, investment, and collaboration to support economic development. It assists nations in establishing an atmosphere that is favorable for financial growth by supporting policy advice and infrastructure development. The UN Conference on Trade and Development (UNCTAD) and other specialized bodies provide assistance to improve trade possibilities and economic resilience.
+
+## Comprehensive Impact
+
+The UN's integrated strategy tackles the issues developed and conflict-affected nations must deal with. The United Nations establishes a comprehensive framework for sustainable development and peace by concurrently focusing on education, poverty alleviation, economic growth, and promoting human rights, religious freedom, peace, and access to essential services. This allencompassing assistance contributes to developing resilient societies that can triumph over hardship and achieve stability and prosperity. The UN plays a critical role in fostering an international environment that supports the growth of developing and conflict-affected nations and guarantees that no one is left behind on the path to peace and development.
+
+## Addressing Critical Issues in Conflict-Affected Countries: Examples of UN Interventions
+
+The UN handles issues about human rights, religious freedom, peacekeeping, access to food and healthcare, education, poverty reduction, and economic advancement in the following conflictaffected countries:
+
+## 1. Syria
+
+In March 2011, popular discontent with President Bashar al-Assad led to large-scale protests and pro-democracy rallies across Syria, as part of the wider Arab Spring protests in the region. Numerous protests were violently suppressed by security forces in deadly crackdowns ordered by Assad, resulting in tens of thousands of deaths and detentions, many of whom were civilians. The Syrian revolution transformed into an insurgency with the formation of resistance militias across the country, developing into a full civil war by 2012.The major parties that supported the Syrian government were Iran, Russia and Lebanese militia Hezbollah. Syrian rebel groups received political, logistic and military support from the United States, Turkey, Saudi Arabia, Qatar, Britain, France, Israel and the Netherlands. The atrocities occurring in the town of El-Houleh on 25 May 2012 and in the province of Hama on 6 June 2012 prompted heightened international attention to the situation.
+
+Several UN bodies, including the Human Rights Council, the General Assembly, and the Security Council, responded to the escalating crisis in Syria. In August 2011, the Human Rights Council created the Commission of Inquiry on Syria to monitor gross violations of Human Rights. This body, along with the General Assembly, consistently put forth resolutions condemning rights abuses and calling upon the Syrian Arab Republic to put an end to its attacks on civilians.
+A notable example is Resolution 79/185, which addresses the situation of human rights in the Syrian Arab Republic. This resolution, adopted on December 17, 2024, was part of the 79th session of the General Assembly.
+The Security Council also become increasingly engaged with the situation in Syria. On 14 April, the Council authorized 30 unarmed observers to report on the implementation of the ceasefire through its adoption of Resolution 2042 and on 21 April 2012, the UN Supervision Mission in Syria was established under Resolution 2043.Furthermore, the Security Council offered its support to the Six-Point Plan spearheaded by the UN-Arab League Special Envoy Kofi Annan, which was considered the best opportunity to resolve the conflict.
+The Syrian Revolution achieved its main goal of achieving the fall of the Assad regime in December 2024 after Assad fled to Moscow. The Fall of Damascus ended the Assad regime as Prime Minister of Syria Mohammad Ghazi al-Jalali handed over power to the revolutionaries in December 8, 2024.
+
+## 2. South Sudan
+
+The root causes of the Sudan Civil War are deeply embedded in historical, social, and economic factors. Issues of governance, religious identity, and resource allocation fueled and perpetuated conflicts. This Civil War was a multi-sided civil war in South Sudan fought from 2013 to 2020, between forces of the government and opposition forces. Two civil wars were fought in Sudan -the first from 1955 to 1972 and the second, 1983 to 2005 - between the central government and the southern regions, which led to the independence of South Sudan in 2011, killed 1.5 million people.
+The Civil War caused rampant human rights abuses, including forced displacement, ethnic massacres, and killings of journalists by variousThe United Nations (UN) has been involved in South Sudan's conflict through peacekeeping missions, humanitarian support, and efforts to promote development. parties.
+The United Nations Mission in South Sudan (UNMISS) was established in 2011. It conducted patrols by land, air, and water, and protected and sheltered civilians on peacekeeping bases to protect them from violence. This mission supported the peace process and efforts to return refugees and internally displaced people.
+UNMISS has provided lifesaving support to vulnerable populations and has supported the health sector, including preparedness and response to epidemics, malnutrition, and maternal and child health. This mission has supported the transition from conflict to recovery and electoral preparations and efforts to ensure that the electoral process is credible and successful. The Comprehensive Peace Agreement signed on 9 January 2005 between the Sudan People's Liberation Mcivement (SPLM) and the Government of Sudan ended Second Sudanese Civil War, which had started in 1983.
+
+## 3. Yemen
+
+The Yemeni civil war is an ongoing multilateral civil war that began in late 2014 mainly between the Rashad al-Alimi-led Presidential Leadership Council and the Mahdi al-Mashat-led Supreme Political Council, along with their supporters and allies. Both claim to constitute the official government of Yemen. The civil war began in September 2014 when Houthi forces took over the capital city Sanaa, which was followed by a rapid Houthi takeover of the government. According to the UN, over 150,000 people have been killed in Yemen, as well as estimates of more than 227,000 dead as a result of an ongoing famine and lack of basic needs of life. The UN accomplishes this by working to prevent conflict, helping parties in conflict make peace, deploying peacekeepers, and creating the conditions to allow peace to hold and flourish. Since the establishment of the Office of the Special Envoy in 2012, the United Nations has provided support for the Yemeni-led political transition process and has promoted inclusive participation, including of previously marginalized groups, such as women, youth, the Houthis and Southern Hirak. The additional funds will support humanitarian partners to continue to reach millions of vulnerable Yemenis, as well as refugees and asylum seekers in Yemen. Security Council Resolution 2722 (2024) was adopted in January and demanded that all attacks in the Red Sea must cease.
+
+## 4. Central African Republic (CAR)
+
+The Central African Republic Civil War is an ongoing civil war in the Central African Republic (CAR) involving the government, rebels from the Séléka coalition, and Anti-balaka militias. The United Nations (UN) has played a role in helping to end the conflict in the Central African Republic (CAR) by its various agencies. The UN has supported various peace agreements, often in collaboration with regional actors. In 2019, Khartoum Agreement brokered by the African Union (AU) and supported by the UN, this was a major peace deal signed between the CAR government and 14 armed groups.
+The UN Human Rights Council addresses human rights abuses. MINUSCA( United Nations Multidimensional Integrated Stabilization Mission )which was established on April 10, 2014, protects religious communities and promotes interfaith dialogue to reduce tensions. This mission also protects civilians, supports the peace process, and facilitates humanitarian assistance. The WFP (World Food Program) provides food assistance, and the WHO(World Health Organization) supports health initiatives to combat malnutrition and disease. UNICEF and other agencies run educational programs to ensure school access for children affected by conflict. The UNDP supports community-based recovery and livelihood programs to foster economic resilience.
+
+## 5. Afghanistan

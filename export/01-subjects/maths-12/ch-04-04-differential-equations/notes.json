@@ -1,0 +1,90 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "04-differential-equations",
+    "chapterTitle": "Differential Equations",
+    "topicSlug": "exercise-4-1",
+    "topicTitle": "4.1 Order and Degree of Differential Equations",
+    "_creationTime": 1777384381188.991,
+    "_id": "kx7bfcs5b3d78gphxxccxt3tdx85qhjm",
+    "createdAt": 1777384381189,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n* **Order of a Differential Equation**: The highest order derivative present in the equation.\n* **Degree of a Differential Equation**: The power of the highest order derivative, provided the equation is a polynomial in its derivatives.\n* **Elimination of Arbitrary Constants**: The process of forming a differential equation by differentiating a general solution and substituting constants.\n* **Verification of Solutions**: Checking if a given function satisfies a differential equation by calculating its derivatives and substituting them back into the equation.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Concept | Definition / Formula |\n| :--- | :--- |\n| **Order** | Highest $n$ in $\\frac{d^n y}{dx^n}$ |\n| **Degree** | Power $k$ in $\\left(\\frac{d^n y}{dx^n}\\right)^k$ (after removing radicals) |\n| **Solution Verification** | Substitute $y, y', y'', \\dots$ into $F(x, y, y', \\dots) = 0$ |\n\n---\n\n# **Summary**\n\nThis exercise introduces the foundational properties of differential equations. Key learnings include identifying the **order** (highest derivative) and **degree** (power of the highest derivative) of an equation. It also covers the relationship between general solutions and differential equations, specifically how to eliminate arbitrary constants through differentiation and how to verify if a specific function is a valid solution to a given differential equation.",
+    "publishedAt": 1777384381189,
+    "slug": "exercise-4-1",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "4.1 Exercise 4.1",
+    "topicId": "ms7bs23ec0rja2m0d76qhs76b585prg2",
+    "updatedAt": 1787554391113
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "04-differential-equations",
+    "chapterTitle": "Differential Equations",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Separation of Variables",
+    "_creationTime": 1777384381961.6272,
+    "_id": "kx7dd50m0qkmv4anxnz6zp6fy185q9hy",
+    "createdAt": 1777384381961,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n*   **Separation of Variables**: The primary technique for solving first-order differential equations by grouping all $y$ terms with $dy$ and all $x$ terms with $dx$.\n*   **First-Order Ordinary Differential Equations (ODEs)**: Equations involving the first derivative of a function.\n*   **General vs. Particular Solutions**: Finding the family of solutions (including constant $C$) versus finding a specific solution using initial conditions.\n*   **Initial Value Problems (IVP)**: Using a given point $(x_0, y_0)$ to solve for the constant of integration.\n*   **Integration Techniques**: Application of power rules, exponential integration, trigonometric integration, and integration by parts.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Concept | Formula |\n| :--- | :--- |\n| **Separable Form** | $\\frac{dy}{dx} = f(x)g(y) \\implies \\frac{1}{g(y)} dy = f(x) dx$ |\n| **General Solution** | $\\int \\frac{1}{g(y)} dy = \\int f(x) dx + C$ |\n| **Exponent Laws** | $e^{A+B} = e^A \\cdot e^B$ |\n| **Trig Identity** | $\\cot y = \\frac{\\cos y}{\\sin y}$ |\n\n---\n\n# **Summary**\n\nThis exercise covers the fundamental method of **Separation of Variables** for solving first-order differential equations. The general strategy involves algebraic manipulation to isolate variables, followed by integration of both sides. A significant portion of the exercise focuses on **Initial Value Problems (IVPs)**, where students must first find the general solution and then substitute the given initial values to determine the specific value of the integration constant $C$. Key challenges include identifying the correct integration technique (such as $u$-substitution or integration by parts) once the variables are separated.",
+    "publishedAt": 1777384381961,
+    "slug": "exercise-4-2",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "4.2 Exercise 4.2",
+    "topicId": "ms7bdfj01g53mt1se5c0f6x6ph85p2af",
+    "updatedAt": 1787554391411
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "04-differential-equations",
+    "chapterTitle": "Differential Equations",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Homogeneous Differential Equations",
+    "_creationTime": 1777384382748.3909,
+    "_id": "kx75rc64n7nkvzqf84hv3ngqj985pemd",
+    "createdAt": 1777384382748,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Homogeneous functions and their definition via scaling property\n- Degree of homogeneity ($n$ where $f(tx,ty) = t^n f(x,y)$)\n- Homogeneous differential equations (first-order)\n- Substitution method for solving homogeneous ODEs ($v = \\frac{y}{x}$ or $v = \\frac{x}{y}$)\n- Transformation of homogeneous ODEs into separable form\n- Initial value problems (IVP) involving homogeneous differential equations\n- Integration techniques after variable substitution\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Homogeneous Function Definition:**\n$$f(tx, ty) = t^n f(x, y)$$\nwhere $n$ is the degree of homogeneity.\n\n**Substitution for Homogeneous ODEs:**\nWhen $y = vx$ (where $v = \\frac{y}{x}$):\n$$\\frac{dy}{dx} = v + x\\frac{dv}{dx}$$\n\nWhen $x = vy$ (where $v = \\frac{x}{y}$):\n$$\\frac{dx}{dy} = v + y\\frac{dv}{dy}$$\n\n**General Form of Homogeneous ODE:**\n$$\\frac{dy}{dx} = \\frac{f_1(x,y)}{f_2(x,y)}$$\nwhere $f_1$ and $f_2$ are homogeneous functions of the same degree.\n\n---\n\n# **Summary**\n\nThis exercise covers the identification of homogeneous functions using the scaling property $f(tx, ty) = t^n f(x, y)$ to determine the degree $n$. It progresses to solving homogeneous differential equations through the substitution $y = vx$ (or $x = vy$), which reduces the equation to separable variables. The exercise emphasizes algebraic manipulation to recognize homogeneous forms, proper application of substitutions, and handling initial value problems by determining constants of integration from given conditions. Common patterns include rational functions of $\\frac{y}{x}$ and terms involving $\\sqrt{xy}$ or $e^{y/x}$.",
+    "publishedAt": 1777384382748,
+    "slug": "exercise-4-3",
+    "sourceRef": {
+      "blockIndex": 67,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "4.3 Exercise 4.3",
+    "topicId": "ms7bzfyjh7f8mj0ne3dse6swb185qkpg",
+    "updatedAt": 1787554391739
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "04-differential-equations",
+    "chapterTitle": "Differential Equations",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Applications of Differential Equations",
+    "_creationTime": 1777384383524.7473,
+    "_id": "kx7fqmx7hfd42m3bhgxn837cm585p8hz",
+    "createdAt": 1777384383524,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n*   **Malthusian Growth Model:** Modeling population increases where the rate of change is proportional to the current population.\n*   **Newton's Law of Cooling:** Describing the rate of change of temperature of an object relative to its surroundings.\n*   **Exponential Growth and Decay:** General applications of first-order differential equations to biology and physics.\n*   **Radioactive Disintegration:** Modeling the decay of substances over time.\n*   **Kinematics:** Using differential equations to describe the velocity and position of an object under the influence of gravity.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Exponential Growth and Decay**\n$$\\frac{dy}{dt} = ky \\implies y(t) = y_0 e^{kt}$$\n\n**Newton's Law of Cooling**\n$$\\frac{dT}{dt} = k(T - T_s)$$\n*(Where $T$ is the object temperature and $T_s$ is the surrounding temperature)*\n\n**Radioactive Decay**\n$$\\frac{dA}{dt} = -kA$$\n\n**Equations of Motion**\n$$\\frac{dv}{dt} = -g$$\n$$\\frac{ds}{dt} = v$$\n\n---\n\n# **Summary**\n\nThis exercise focuses on the practical application of first-order differential equations to model real-world scenarios. The primary strategy involves translating verbal descriptions of rates—such as \"proportional to the amount present\"—into mathematical equations. Key learnings include solving initial value problems to find constants of proportionality and using those models to predict future states in population dynamics, thermodynamics, and physics.",
+    "publishedAt": 1777384383524,
+    "slug": "exercise-4-4",
+    "sourceRef": {
+      "blockIndex": 105,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "4.4 Exercise 4.4",
+    "topicId": "ms760p19m743mpsccb168zva1185p8th",
+    "updatedAt": 1787554392029
+  }
+]

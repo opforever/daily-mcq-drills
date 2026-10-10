@@ -1,0 +1,1962 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "k9786zbw7yd4htbwwwxv6j1tfh85pt0c",
+    "correctKey": "C",
+    "explanation": "The equations of motion require uniform (constant) acceleration. A pendulum's acceleration varies with its angular position (simple harmonic motion), so these equations cannot be applied directly. The other scenarios all involve constant acceleration.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75hsmy3v08kv3dehqqjt8x6n85pjra",
+    "options": [
+      {
+        "key": "A",
+        "text": "A ball falling freely under gravity."
+      },
+      {
+        "key": "B",
+        "text": "A car braking with a constant deceleration."
+      },
+      {
+        "key": "C",
+        "text": "A pendulum swinging with varying acceleration."
+      },
+      {
+        "key": "D",
+        "text": "An electron moving in a uniform electric field."
+      }
+    ],
+    "sectionId": "worked-examples",
+    "sectionLabel": "Worked Examples",
+    "stem": "Which of the following scenarios prevents the use of the standard equations of motion?",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "k97de2g0pprk0neb6hhc85rqfh85pbhe",
+    "correctKey": "C",
+    "explanation": "Acceleration = change in velocity / time = $[LT^{-1}] / [T] = [LT^{-2}]$. Note that $[MLT^{-2}]$ is the dimension of force, not acceleration.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75hsmy3v08kv3dehqqjt8x6n85pjra",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[LT^{-1}]$"
+      },
+      {
+        "key": "B",
+        "text": "$[L^2T^{-2}]$"
+      },
+      {
+        "key": "C",
+        "text": "$[LT^{-2}]$"
+      },
+      {
+        "key": "D",
+        "text": "$[MLT^{-2}]$"
+      }
+    ],
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "stem": "Which of the following represents the dimensional formula for acceleration?",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "k97bkbxa2njw66k9hv4sfb3a6x85q80z",
+    "correctKey": "B",
+    "explanation": "When an object decelerates (slows down), its acceleration vector is directed opposite to its velocity vector. Since the car's velocity is directed East, its acceleration (deceleration) is directed West.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75hsmy3v08kv3dehqqjt8x6n85pjra",
+    "options": [
+      {
+        "key": "A",
+        "text": "East"
+      },
+      {
+        "key": "B",
+        "text": "West"
+      },
+      {
+        "key": "C",
+        "text": "North"
+      },
+      {
+        "key": "D",
+        "text": "South"
+      }
+    ],
+    "sectionId": "direction-of-acceleration",
+    "sectionLabel": "Direction of Acceleration",
+    "stem": "A car is traveling East and begins to slow down. What is the direction of its acceleration?",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "k977e7x0gaen0vgq61cd0592n985qxhp",
+    "correctKey": "C",
+    "explanation": "Acceleration is defined as the rate of change of velocity ($a = \\Delta v / \\Delta t$). If velocity is constant, there is no change in velocity ($\\Delta v = 0$), so acceleration is zero regardless of the magnitude of the velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75hsmy3v08kv3dehqqjt8x6n85pjra",
+    "options": [
+      {
+        "key": "A",
+        "text": "Constant and non-zero"
+      },
+      {
+        "key": "B",
+        "text": "Increasing with time"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "direction-of-acceleration",
+    "sectionLabel": "Direction of Acceleration",
+    "stem": "If an object moves with constant velocity, what is its acceleration?",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "k97br10v63x6dqj2psn6fj27c585p592",
+    "correctKey": "C",
+    "explanation": "Using the first equation of motion $v_f = v_i + at$: since the car starts from rest, $v_i = 0$. Therefore $v_f = 0 + (2)(5) = 10\\text{ ms}^{-1}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75hsmy3v08kv3dehqqjt8x6n85pjra",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2.5\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$7\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$10\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$25\\text{ ms}^{-1}$"
+      }
+    ],
+    "sectionId": "equations-of-motion-for-uniform-acceleration",
+    "sectionLabel": "Equations of Motion for Uniform Acceleration",
+    "stem": "A car starts from rest and accelerates uniformly at $2\\text{ ms}^{-2}$. What is its velocity after $5$ seconds?",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "k976ha3mg8nmzd5w3pkhm2x06d85pfxs",
+    "correctKey": "C",
+    "explanation": "From $a = \\Delta v / \\Delta t$, rearranging gives $\\Delta v = a \\cdot \\Delta t$. The product $a \\times \\Delta t$ is the area under the a-t graph, which equals the change in velocity $\\Delta v$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75hsmy3v08kv3dehqqjt8x6n85pjra",
+    "options": [
+      {
+        "key": "A",
+        "text": "Displacement"
+      },
+      {
+        "key": "B",
+        "text": "Distance traveled"
+      },
+      {
+        "key": "C",
+        "text": "Change in velocity"
+      },
+      {
+        "key": "D",
+        "text": "Average speed"
+      }
+    ],
+    "sectionId": "graphical-representation",
+    "sectionLabel": "Graphical Representation",
+    "stem": "The area under an Acceleration-Time (a-t) graph represents:",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "k971kx17a7tza6vcf2pb927fw985qenb",
+    "correctKey": "B",
+    "explanation": "For uniform (constant) acceleration, the rate of change of velocity is the same at every instant throughout the motion. Therefore, the instantaneous acceleration equals the average acceleration at all times.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75hsmy3v08kv3dehqqjt8x6n85pjra",
+    "options": [
+      {
+        "key": "A",
+        "text": "When the object is at rest"
+      },
+      {
+        "key": "B",
+        "text": "When the object moves with uniform (constant) acceleration"
+      },
+      {
+        "key": "C",
+        "text": "When the object moves in a circular path"
+      },
+      {
+        "key": "D",
+        "text": "When the object has variable acceleration"
+      }
+    ],
+    "sectionId": "types-of-acceleration",
+    "sectionLabel": "Types of Acceleration",
+    "stem": "Under what condition are average acceleration and instantaneous acceleration equal at every instant?",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "displacement",
+    "topicTitle": "3.2 Displacement",
+    "_id": "k97bfb19c97edg32qbgkmm4nr585pmnf",
+    "correctKey": "B",
+    "explanation": "Displacement is a measure of length (change in position), so its SI unit is the meter (m) and its dimensional formula is $[L]$. It is not a rate (not m/s) and not an area (not m²).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70evdjr3d00778dv5vhqv3zn85q329",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unit: m/s, Dimension: $[LT^{-1}]$"
+      },
+      {
+        "key": "B",
+        "text": "Unit: m, Dimension: $[L]$"
+      },
+      {
+        "key": "C",
+        "text": "Unit: m², Dimension: $[L^2]$"
+      },
+      {
+        "key": "D",
+        "text": "Unit: kg, Dimension: $[M]$"
+      }
+    ],
+    "sectionId": "definition-and-vector-nature",
+    "sectionLabel": "Definition and Vector Nature",
+    "stem": "What is the SI unit and dimensional formula of displacement?",
+    "topicId": "ms71zysvnaq7f5f94r474r2bh185p52p"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "displacement",
+    "topicTitle": "3.2 Displacement",
+    "_id": "k973esqwnydytt43m697awjq8985p0ag",
+    "correctKey": "B",
+    "explanation": "Displacement is defined as the change in position: final position minus initial position. Therefore $\\Delta\\vec{r} = \\vec{r}_2 - \\vec{r}_1$. This vector points from the initial position to the final position.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70evdjr3d00778dv5vhqv3zn85q329",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\vec{r}_1 + \\vec{r}_2$"
+      },
+      {
+        "key": "B",
+        "text": "$\\vec{r}_2 - \\vec{r}_1$"
+      },
+      {
+        "key": "C",
+        "text": "$\\vec{r}_1 - \\vec{r}_2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt{r_1^2 + r_2^2}$"
+      }
+    ],
+    "sectionId": "representation-using-position-vectors",
+    "sectionLabel": "Representation using Position Vectors",
+    "stem": "A particle moves from a point with position vector $\\vec{r}_1$ to a point with position vector $\\vec{r}_2$. What is the displacement of the particle?",
+    "topicId": "ms71zysvnaq7f5f94r474r2bh185p52p"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "displacement",
+    "topicTitle": "3.2 Displacement",
+    "_id": "k97ebej43pr266q3zjd5vnrwmx85qw00",
+    "correctKey": "C",
+    "explanation": "Displacement is a vector quantity because it has both magnitude (shortest straight-line distance between start and end points) and direction (from initial to final position). It is path-independent and its magnitude is less than or equal to distance traveled.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70evdjr3d00778dv5vhqv3zn85q329",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is a scalar quantity with magnitude only."
+      },
+      {
+        "key": "B",
+        "text": "It depends on the actual path taken by the object."
+      },
+      {
+        "key": "C",
+        "text": "It is a vector quantity pointing from the initial to the final position."
+      },
+      {
+        "key": "D",
+        "text": "Its magnitude is always equal to the distance traveled."
+      }
+    ],
+    "sectionId": "what-displacement-describes",
+    "sectionLabel": "What Displacement Describes",
+    "stem": "Which of the following statements is correct regarding displacement?",
+    "topicId": "ms71zysvnaq7f5f94r474r2bh185p52p"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "displacement",
+    "topicTitle": "3.2 Displacement",
+    "_id": "k977dphqb0nb9z639hbd6n549185qh5w",
+    "correctKey": "D",
+    "explanation": "After one complete lap, the athlete returns to the starting point. Since displacement equals final position minus initial position ($\\Delta\\vec{r} = \\vec{r}_2 - \\vec{r}_1$), and both positions are the same, the displacement is zero. The distance traveled is $2\\pi R$, but displacement is zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70evdjr3d00778dv5vhqv3zn85q329",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2\\pi R$"
+      },
+      {
+        "key": "B",
+        "text": "$\\pi R$"
+      },
+      {
+        "key": "C",
+        "text": "$2R$"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "zero-and-negative-displacement",
+    "sectionLabel": "Zero and Negative Displacement",
+    "stem": "An athlete completes one full lap around a circular track of radius $R$. What is the magnitude of the athlete's displacement?",
+    "topicId": "ms71zysvnaq7f5f94r474r2bh185p52p"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "elastic-and-inelastic-collision",
+    "topicTitle": "3.3 Elastic and Inelastic Collisions",
+    "_id": "k977crvsp38pp0kqbgxm7r8rf585q5mz",
+    "correctKey": "D",
+    "explanation": "Using the elastic collision formula $v_1' = \\frac{m_1 - m_2}{m_1 + m_2}v_1$, when $m_2 \\gg m_1$, the fraction approaches $-1$, so $v_1' \\approx -v_1$. The ball bounces back with the same speed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76b63qvpx97dj2n0mj8tzst985ppb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "Same as initial velocity ($+v_1$)"
+      },
+      {
+        "key": "C",
+        "text": "Double the initial velocity ($2v_1$)"
+      },
+      {
+        "key": "D",
+        "text": "Negative of initial velocity ($-v_1$)"
+      }
+    ],
+    "sectionId": "elastic-collision",
+    "sectionLabel": "Elastic Collision",
+    "stem": "A light ball ($m_1 \\ll m_2$) collides elastically with a very massive stationary wall ($m_2$). What is the approximate velocity of the ball after the collision?",
+    "topicId": "ms79j2c12ggdpgk7ppa0ax4myh85qh2w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "elastic-and-inelastic-collision",
+    "topicTitle": "3.3 Elastic and Inelastic Collisions",
+    "_id": "k971jqkgvj090mtkrdtjanpph58bay6r",
+    "correctKey": "B",
+    "explanation": "From the elastic-collision special-case results, when m1 >> m2 and u2 = 0, v2 approx 2*u1: the massive object barely slows down (v1 approx u1) while the light object is propelled forward at roughly twice the massive object's speed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76b63qvpx97dj2n0mj8tzst985ppb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "u1 (moves off at the same speed)"
+      },
+      {
+        "key": "B",
+        "text": "2*u1 (moves off at twice the speed)"
+      },
+      {
+        "key": "C",
+        "text": "0 (stays at rest)"
+      },
+      {
+        "key": "D",
+        "text": "-u1 (bounces straight back)"
+      }
+    ],
+    "sectionId": "elastic-collision",
+    "sectionLabel": "Elastic Collision",
+    "stem": "In a 1D elastic collision, a very massive object (m1 >> m2) moving at speed u1 strikes a much lighter, stationary object (m2). What is the approximate final velocity of the light object?",
+    "topicId": "ms79j2c12ggdpgk7ppa0ax4myh85qh2w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "elastic-and-inelastic-collision",
+    "topicTitle": "3.3 Elastic and Inelastic Collisions",
+    "_id": "k97emfa4vg0hhes0kd99m87can85qdmq",
+    "correctKey": "C",
+    "explanation": "While total energy and momentum are always conserved in an isolated system, kinetic energy is specifically lost (converted to other forms) in an inelastic collision.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76b63qvpx97dj2n0mj8tzst985ppb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Total Momentum"
+      },
+      {
+        "key": "B",
+        "text": "Total Energy"
+      },
+      {
+        "key": "C",
+        "text": "Kinetic Energy"
+      },
+      {
+        "key": "D",
+        "text": "Mass"
+      }
+    ],
+    "sectionId": "inelastic-collision",
+    "sectionLabel": "Inelastic Collision",
+    "stem": "Which of the following quantities is NOT conserved in an inelastic collision within an isolated system?",
+    "topicId": "ms79j2c12ggdpgk7ppa0ax4myh85qh2w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "elastic-and-inelastic-collision",
+    "topicTitle": "3.3 Elastic and Inelastic Collisions",
+    "_id": "k976096d1eyr0cdfrf7t6j97e185p89q",
+    "correctKey": "A",
+    "explanation": "This is derived from the conservation of momentum: $m_1 u_1 + m_2 u_2 = (m_1 + m_2)V$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76b63qvpx97dj2n0mj8tzst985ppb9",
+    "options": [
+      {
+        "key": "A",
+        "text": "$V = \\frac{m_1 u_1 + m_2 u_2}{m_1 + m_2}$"
+      },
+      {
+        "key": "B",
+        "text": "$V = \\frac{m_1 u_1 - m_2 u_2}{m_1 + m_2}$"
+      },
+      {
+        "key": "C",
+        "text": "$V = \\frac{m_1 + m_2}{m_1 u_1 + m_2 u_2}$"
+      },
+      {
+        "key": "D",
+        "text": "$V = \\sqrt{u_1^2 + u_2^2}$"
+      }
+    ],
+    "sectionId": "inelastic-collision",
+    "sectionLabel": "Inelastic Collision",
+    "stem": "Two bodies of masses $m_1$ and $m_2$ moving with velocities $u_1$ and $u_2$ stick together after a collision. Their common velocity $V$ is given by:",
+    "topicId": "ms79j2c12ggdpgk7ppa0ax4myh85qh2w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "k9762hzdvm4j75xrg5066bq4sn85q0x7",
+    "correctKey": "A",
+    "explanation": "Dimensions of $as$: $(\\text{LT}^{-2})(\\text{L}) = \\text{L}^2\\text{T}^{-2}$. Dimensions of $v^2$: $(\\text{LT}^{-1})^2 = \\text{L}^2\\text{T}^{-2}$. Both sides match, confirming dimensional homogeneity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx719t8p5p3wc0w9764nfz0xpd85q5ma",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[2as] = \\text{L}^2\\text{T}^{-2}$ and $[v_f^2 - v_i^2] = \\text{L}^2\\text{T}^{-2}$"
+      },
+      {
+        "key": "B",
+        "text": "$[2as] = \\text{LT}^{-1}$ and $[v_f^2 - v_i^2] = \\text{LT}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$[2as] = \\text{L}^2\\text{T}^{-1}$ and $[v_f^2 - v_i^2] = \\text{L}^2\\text{T}^{-2}$"
+      },
+      {
+        "key": "D",
+        "text": "$[2as] = \\text{LT}^{-2}$ and $[v_f^2 - v_i^2] = \\text{L}^2\\text{T}^{-2}$"
+      }
+    ],
+    "sectionId": "derivation-of-the-equations",
+    "sectionLabel": "Derivation of the Equations",
+    "stem": "Which of the following confirms that the equation $2as = v_f^2 - v_i^2$ is dimensionally homogeneous?",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "k9736wpcct3w76dtx64pmzm9318baq19",
+    "correctKey": "C",
+    "explanation": "The third equation of motion, $2as=v_f^2-v_i^2$, is derived precisely by eliminating time from the first two equations, so it is the one usable when time is unknown.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx719t8p5p3wc0w9764nfz0xpd85q5ma",
+    "options": [
+      {
+        "key": "A",
+        "text": "$v_f=v_i+at$"
+      },
+      {
+        "key": "B",
+        "text": "$s=v_i t+\\frac12at^2$"
+      },
+      {
+        "key": "C",
+        "text": "$2as=v_f^2-v_i^2$"
+      },
+      {
+        "key": "D",
+        "text": "$s=\\frac12(v_i+v_f)t$"
+      }
+    ],
+    "sectionId": "derivation-of-the-equations",
+    "sectionLabel": "Derivation of the Equations",
+    "stem": "Which equation of motion for uniform acceleration allows you to relate initial velocity, final velocity, acceleration, and displacement WITHOUT knowing the time taken?",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "force-due-to-water-flow",
+    "topicTitle": "3.5 Force Exerted by Water Striking a Wall",
+    "_id": "k9705yc1sd5wptmxnxmpfzbk3185qznx",
+    "correctKey": "C",
+    "explanation": "Using $F = \\left(\\frac{m}{\\Delta t}\\right) \\times V$, we get $F = 2\\text{ kg/s} \\times 10\\text{ m/s} = 20\\text{ N}$. The water stops completely so $\\Delta v = V$. Options A, B, and D result from arithmetic errors.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dwb07c66az1zqardmstpvy585pdha",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 N"
+      },
+      {
+        "key": "B",
+        "text": "10 N"
+      },
+      {
+        "key": "C",
+        "text": "20 N"
+      },
+      {
+        "key": "D",
+        "text": "40 N"
+      }
+    ],
+    "sectionId": "example-calculation",
+    "sectionLabel": "Example Calculation",
+    "stem": "Water flows from a hose at a rate of $2\\text{ kg/s}$ and strikes a wall with velocity $10\\text{ m/s}$, coming to a complete stop. What is the force exerted on the wall?",
+    "topicId": "ms7965zbz4wwjw79b4mjna7h6985qzt2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "force-due-to-water-flow",
+    "topicTitle": "3.5 Force Exerted by Water Striking a Wall",
+    "_id": "k978z50csq9p5x8xsmxm0r77pd85p63n",
+    "correctKey": "C",
+    "explanation": "Since $F = \\left(\\frac{m}{\\Delta t}\\right) V$, force is directly proportional to velocity $V$. Doubling $V$ while keeping mass flow rate constant doubles the force. Quadrupling would occur only if force were proportional to $V^2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dwb07c66az1zqardmstpvy585pdha",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain the same"
+      },
+      {
+        "key": "B",
+        "text": "Be halved"
+      },
+      {
+        "key": "C",
+        "text": "Double"
+      },
+      {
+        "key": "D",
+        "text": "Increase four times"
+      }
+    ],
+    "sectionId": "example-calculation",
+    "sectionLabel": "Example Calculation",
+    "stem": "If the velocity of water striking a wall is doubled while the mass flow rate remains constant, the force exerted on the wall will:",
+    "topicId": "ms7965zbz4wwjw79b4mjna7h6985qzt2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "force-due-to-water-flow",
+    "topicTitle": "3.5 Force Exerted by Water Striking a Wall",
+    "_id": "k97fkczchqr5c9pd4pjha5re8x85pf37",
+    "correctKey": "C",
+    "explanation": "Taking the initial direction as positive, $\\Delta v = v_f - v_i = (-5) - (5) = -10\\text{ m/s}$, so $|\\Delta v| = 10\\text{ m/s}$. Force on wall $= 1\\text{ kg/s} \\times 10\\text{ m/s} = 10\\text{ N}$. Zero is wrong because momentum clearly changes direction, doubling the impulse.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dwb07c66az1zqardmstpvy585pdha",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 N"
+      },
+      {
+        "key": "B",
+        "text": "5 N"
+      },
+      {
+        "key": "C",
+        "text": "10 N"
+      },
+      {
+        "key": "D",
+        "text": "25 N"
+      }
+    ],
+    "sectionId": "example-calculation",
+    "sectionLabel": "Example Calculation",
+    "stem": "Water strikes a wall at $5\\text{ m/s}$ and rebounds at $5\\text{ m/s}$. If the mass flow rate is $1\\text{ kg/s}$, what is the force exerted on the wall?",
+    "topicId": "ms7965zbz4wwjw79b4mjna7h6985qzt2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "force-due-to-water-flow",
+    "topicTitle": "3.5 Force Exerted by Water Striking a Wall",
+    "_id": "k97ba5ckq10tw88es6j3y1qfan85qf2f",
+    "correctKey": "B",
+    "explanation": "From $F = \\frac{m}{\\Delta t} \\Delta v$, force is directly proportional to the mass flow rate ($m/\\Delta t$). Squaring time, taking square roots of velocity, or using container volume are all incorrect relationships derived from misapplying the formula.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dwb07c66az1zqardmstpvy585pdha",
+    "options": [
+      {
+        "key": "A",
+        "text": "The square of the time of impact"
+      },
+      {
+        "key": "B",
+        "text": "The mass of liquid striking the surface per unit time"
+      },
+      {
+        "key": "C",
+        "text": "The square root of the velocity change"
+      },
+      {
+        "key": "D",
+        "text": "The volume of the container"
+      }
+    ],
+    "sectionId": "key-concepts-and-derivation",
+    "sectionLabel": "Key Concepts and Derivation",
+    "stem": "The force exerted by a liquid flow on a surface is directly proportional to which of the following?",
+    "topicId": "ms7965zbz4wwjw79b4mjna7h6985qzt2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "k9710m5b0d8s5t4ya67zmgw44185qjza",
+    "correctKey": "A",
+    "explanation": "An impulsive force is characterized by a very large magnitude acting over a negligibly short time duration, such as a bat hitting a ball or a hammer striking a nail. It produces a significant impulse despite the brief contact time.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73z9nzedpv16ra7vdpf6jb1585qqzy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Impulsive force"
+      },
+      {
+        "key": "B",
+        "text": "Centripetal force"
+      },
+      {
+        "key": "C",
+        "text": "Inertial force"
+      },
+      {
+        "key": "D",
+        "text": "Gravitational force"
+      }
+    ],
+    "sectionId": "applications-and-significance",
+    "sectionLabel": "Applications and Significance",
+    "stem": "A large force acting for a very short interval of time is called:",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "k97bhcxrtgc75cyns9r9ktgw6d8ba0ht",
+    "correctKey": "A",
+    "explanation": "Impulse has dimensions $[MLT^{-1}]$, the same as momentum, so its base-unit expression is $\\mathrm{kg\\,m\\,s^{-1}}$ ( $\\mathrm{kg\\,m\\,s^{-1}}$ ).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73z9nzedpv16ra7vdpf6jb1585qqzy",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\mathrm{kg\\,m\\,s^{-2}}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\mathrm{kg\\,m\\,s^{-1}}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\mathrm{kg\\,m^2\\,s^{-2}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\mathrm{kg\\,m^2\\,s^{-1}}$"
+      }
+    ],
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "stem": "The SI unit of impulse, the Newton-second (N s), is equivalent to which combination of SI base units?",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "k971439ggmwee2h4xh020j1zx585pw3n",
+    "correctKey": "D",
+    "explanation": "Work and Energy both have dimensions $[ML^2T^{-2}]$. Impulse and Momentum both have dimensions $[MLT^{-1}]$. Both pairs share identical dimensions within each pair, so option D is correct. Force has $[MLT^{-2}]$ and Power has $[ML^2T^{-3}]$: these differ.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73z9nzedpv16ra7vdpf6jb1585qqzy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Force and Power"
+      },
+      {
+        "key": "B",
+        "text": "Work and Energy"
+      },
+      {
+        "key": "C",
+        "text": "Impulse and Momentum"
+      },
+      {
+        "key": "D",
+        "text": "Both Work/Energy and Impulse/Momentum"
+      }
+    ],
+    "sectionId": "difference-between-impulse-and-momentum",
+    "sectionLabel": "Difference Between Impulse and Momentum",
+    "stem": "Which of the following pairs of physical quantities have the same dimensions?",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "k97fr0qe708askfgtr5ch6rvgd85p4ff",
+    "correctKey": "C",
+    "explanation": "The area under an $F$-$t$ graph equals $\\int F\\,dt$, which is the impulse. By the Impulse-Momentum Theorem, impulse equals the change in momentum ($\\Delta p$). Work done is the area under a Force-displacement graph, not a Force-time graph.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73z9nzedpv16ra7vdpf6jb1585qqzy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Acceleration"
+      },
+      {
+        "key": "B",
+        "text": "Work done"
+      },
+      {
+        "key": "C",
+        "text": "Change in momentum (Impulse)"
+      },
+      {
+        "key": "D",
+        "text": "Power"
+      }
+    ],
+    "sectionId": "graphical-representation",
+    "sectionLabel": "Graphical Representation",
+    "stem": "The area under a Force-Time ($F$-$t$) graph for a variable force represents:",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "k97c3nfvy05rcddm2w5drp0ayn85qrg3",
+    "correctKey": "B",
+    "explanation": "By the Impulse-Momentum Theorem, impulse equals the change in momentum: $J = \\Delta p = p_f - p_i = 30 - 10 = 20\\text{ N s}$. The time interval is not needed here since impulse equals $\\Delta p$ directly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73z9nzedpv16ra7vdpf6jb1585qqzy",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 N s"
+      },
+      {
+        "key": "B",
+        "text": "20 N s"
+      },
+      {
+        "key": "C",
+        "text": "40 N s"
+      },
+      {
+        "key": "D",
+        "text": "60 N s"
+      }
+    ],
+    "sectionId": "the-impulse-momentum-theorem",
+    "sectionLabel": "The Impulse-Momentum Theorem",
+    "stem": "If the momentum of an object changes from $10\\text{ kg m s}^{-1}$ to $30\\text{ kg m s}^{-1}$ in $2$ seconds, the impulse received is:",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "law-of-conservation-of-momentum",
+    "topicTitle": "3.7 The Law of Conservation of Linear Momentum",
+    "_id": "k97dqtwr8r4wj18gd867p8ec1985p1mt",
+    "correctKey": "C",
+    "explanation": "During a collision, Newton's Third Law gives equal and opposite action-reaction forces between the bodies. Combined with Newton's Second Law ($\\vec{F} = \\Delta\\vec{p}/\\Delta t$), these equal and opposite forces produce equal and opposite momentum changes, so the total momentum of the isolated system remains constant.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76yeeb8g1xxn7fbte34mms0n85p3zp",
+    "options": [
+      {
+        "key": "D",
+        "text": "Newton's Law of Gravitation"
+      },
+      {
+        "key": "C",
+        "text": "Newton's Third Law combined with Newton's Second Law"
+      },
+      {
+        "key": "B",
+        "text": "Newton's Second Law only"
+      },
+      {
+        "key": "A",
+        "text": "Newton's First Law only"
+      }
+    ],
+    "sectionId": "derivation-from-newtons-laws",
+    "sectionLabel": "Derivation from Newton's Laws",
+    "stem": "The Law of Conservation of Momentum is a direct consequence of which of Newton's Laws?",
+    "topicId": "ms75ahzf474zm0rszy430ntc8h85qj5n"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "law-of-conservation-of-momentum",
+    "topicTitle": "3.7 The Law of Conservation of Linear Momentum",
+    "_id": "k975h332rxt99jde0px68bhy3h85qjnm",
+    "correctKey": "C",
+    "explanation": "According to the Law of Conservation of Momentum, the total vector momentum of an isolated system remains constant. Individual momenta change during collision, and kinetic energy is only conserved in elastic collisions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76yeeb8g1xxn7fbte34mms0n85p3zp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Individual velocities of both bodies"
+      },
+      {
+        "key": "B",
+        "text": "Individual momentum of each body"
+      },
+      {
+        "key": "D",
+        "text": "Kinetic energy (always)"
+      },
+      {
+        "key": "C",
+        "text": "Total vector sum of the momenta"
+      }
+    ],
+    "sectionId": "mathematical-formulation",
+    "sectionLabel": "Mathematical Formulation",
+    "stem": "In an isolated system, if two bodies of masses $m_1$ and $m_2$ collide, which of the following remains constant?",
+    "topicId": "ms75ahzf474zm0rszy430ntc8h85qj5n"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "law-of-conservation-of-momentum",
+    "topicTitle": "3.7 The Law of Conservation of Linear Momentum",
+    "_id": "k9793v3zzvpmp8s26amh151epd85ptq2",
+    "correctKey": "C",
+    "explanation": "From Newton's Second Law, $F = \\Delta p / \\Delta t$. If the net external force $F = 0$, then $\\Delta p / \\Delta t = 0$, meaning total momentum $p$ does not change: it is conserved.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76yeeb8g1xxn7fbte34mms0n85p3zp",
+    "options": [
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "Unity"
+      },
+      {
+        "key": "D",
+        "text": "Constant but non-zero"
+      },
+      {
+        "key": "A",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "statement-of-the-law",
+    "sectionLabel": "Statement of the Law",
+    "stem": "If the net external force acting on a system is zero, the rate of change of total momentum is:",
+    "topicId": "ms75ahzf474zm0rszy430ntc8h85qj5n"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum-and-explosive-forces",
+    "topicTitle": "3.8 Momentum and Explosive Forces",
+    "_id": "k970yw663w5zzs4wxrdrtbr0bd85q89r",
+    "correctKey": "C",
+    "explanation": "By conservation of momentum, if initial momentum is zero, the vector sum of final momenta must also be zero: $m_1\\vec{v}_1 + m_2\\vec{v}_2 = 0$, meaning $\\vec{p}_1 = -\\vec{p}_2$. The momenta are equal in magnitude and opposite in direction.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75v2ejkr7ee7hk6r40g04x7985pmbp",
+    "options": [
+      {
+        "key": "A",
+        "text": "The heavier fragment has more momentum."
+      },
+      {
+        "key": "B",
+        "text": "The lighter fragment has more momentum."
+      },
+      {
+        "key": "C",
+        "text": "Both fragments have equal and opposite momenta."
+      },
+      {
+        "key": "D",
+        "text": "Kinetic energy is conserved."
+      }
+    ],
+    "sectionId": "2-explosion-from-a-state-of-rest",
+    "sectionLabel": "2. Explosion from a State of Rest",
+    "stem": "A shell at rest explodes into two fragments of unequal masses. Which of the following is true?",
+    "topicId": "ms7eec460bpwaxknmpkx2r1xb185qvaa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum-and-explosive-forces",
+    "topicTitle": "3.8 Momentum and Explosive Forces",
+    "_id": "k97dwb0nxbayc2sx48jd3vnxz585ppk1",
+    "correctKey": "A",
+    "explanation": "Using conservation of momentum (initial momentum = 0): $MV + m_b v_b = 0 \\Rightarrow 5V = -(0.05 \\times 200) = -10 \\Rightarrow V = -2.0\\text{ m/s}$. The negative sign indicates recoil in the direction opposite to the bullet.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75v2ejkr7ee7hk6r40g04x7985pmbp",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-2.0\\text{ m/s}$"
+      },
+      {
+        "key": "B",
+        "text": "$-4.0\\text{ m/s}$"
+      },
+      {
+        "key": "C",
+        "text": "$-0.5\\text{ m/s}$"
+      },
+      {
+        "key": "D",
+        "text": "$-20\\text{ m/s}$"
+      }
+    ],
+    "sectionId": "3-recoil-of-a-rifle",
+    "sectionLabel": "3. Recoil of a Rifle",
+    "stem": "A rifle of mass $5\\text{ kg}$ fires a bullet of mass $0.05\\text{ kg}$ with a velocity of $200\\text{ m/s}$. What is the recoil velocity of the rifle?",
+    "topicId": "ms7eec460bpwaxknmpkx2r1xb185qvaa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum-and-explosive-forces",
+    "topicTitle": "3.8 Momentum and Explosive Forces",
+    "_id": "k971e4346rb5h5q1pnejtq1d1s85p3rk",
+    "correctKey": "A",
+    "explanation": "By conservation of momentum, the total momentum before the explosion equals the total momentum after. The initial momentum is $M\\vec{V}$ and the final momentum is the vector sum $m_1\\vec{v}_1 + m_2\\vec{v}_2$. Kinetic energy is NOT conserved in an explosion.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75v2ejkr7ee7hk6r40g04x7985pmbp",
+    "options": [
+      {
+        "key": "A",
+        "text": "$M\\vec{V} = m_1\\vec{v}_1 + m_2\\vec{v}_2$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{2}M V^2 = \\frac{1}{2}m_1 v_1^2 + \\frac{1}{2}m_2 v_2^2$"
+      },
+      {
+        "key": "C",
+        "text": "$M\\vec{V} = (m_1 + m_2)(\\vec{v}_1 - \\vec{v}_2)$"
+      },
+      {
+        "key": "D",
+        "text": "$M = m_1\\vec{v}_1 - m_2\\vec{v}_2$"
+      }
+    ],
+    "sectionId": "4-explosion-of-a-moving-object",
+    "sectionLabel": "4. Explosion of a Moving Object",
+    "stem": "A shell of mass $M$ moving with velocity $\\vec{V}$ explodes into two fragments of masses $m_1$ and $m_2$ with velocities $\\vec{v}_1$ and $\\vec{v}_2$. Which equation correctly represents conservation of momentum?",
+    "topicId": "ms7eec460bpwaxknmpkx2r1xb185qvaa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum-and-explosive-forces",
+    "topicTitle": "3.8 Momentum and Explosive Forces",
+    "_id": "k97ante7cj0wpbrchs97bxzn9h85ps9r",
+    "correctKey": "C",
+    "explanation": "In an explosion, internal chemical or nuclear potential energy is converted into kinetic energy of the fragments. Total momentum remains zero (conserved), but kinetic energy increases from zero to a large positive value as potential energy is released.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75v2ejkr7ee7hk6r40g04x7985pmbp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remains zero"
+      },
+      {
+        "key": "B",
+        "text": "Decreases"
+      },
+      {
+        "key": "C",
+        "text": "Increases"
+      },
+      {
+        "key": "D",
+        "text": "Becomes negative"
+      }
+    ],
+    "sectionId": "5-kinetic-energy-in-an-explosion",
+    "sectionLabel": "5. Kinetic Energy in an Explosion",
+    "stem": "In an explosion starting from rest, the total momentum is conserved, but the total kinetic energy:",
+    "topicId": "ms7eec460bpwaxknmpkx2r1xb185qvaa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "k97fazea0r2v5as5evtx73c33h85qhjd",
+    "correctKey": "B",
+    "explanation": "Since $\\vec{p} = m\\vec{v}$ and mass $m$ is a positive scalar, the momentum vector $\\vec{p}$ always points in the same direction as the velocity vector $\\vec{v}$. Acceleration and force may point in any direction relative to motion.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d37evypgdqdp1se86750vwn85p6kc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mass"
+      },
+      {
+        "key": "B",
+        "text": "Velocity"
+      },
+      {
+        "key": "C",
+        "text": "Acceleration"
+      },
+      {
+        "key": "D",
+        "text": "Force"
+      }
+    ],
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "stem": "Which of the following physical quantities always has the same direction as the linear momentum of a moving body?",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "k97bbd78pnf8cf8974eakpb56585pc3x",
+    "correctKey": "C",
+    "explanation": "Impulse $= \\vec{F}_{avg}\\Delta t$, so its unit is N·s. Since $1\\,\\text{N} = 1\\,\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$, we get $1\\,\\text{N}\\cdot\\text{s} = 1\\,\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-1}$, which equals the unit of momentum, confirming the Impulse-Momentum Theorem. N·m is the unit of work/energy, not impulse.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d37evypgdqdp1se86750vwn85p6kc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Newton-metre ($\\text{N}\\cdot\\text{m}$)"
+      },
+      {
+        "key": "B",
+        "text": "Joule-second ($\\text{J}\\cdot\\text{s}$)"
+      },
+      {
+        "key": "C",
+        "text": "Newton-second ($\\text{N}\\cdot\\text{s}$)"
+      },
+      {
+        "key": "D",
+        "text": "Kilogram-metre per second squared ($\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$)"
+      }
+    ],
+    "sectionId": "impulse",
+    "sectionLabel": "Impulse",
+    "stem": "The SI unit of impulse is equivalent to which of the following?",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "k970sce6319h90dj08edsmrc3585qepa",
+    "correctKey": "B",
+    "explanation": "Using $F = \\frac{\\Delta p}{\\Delta t} = \\frac{m(v_f - v_i)}{\\Delta t} = \\frac{2(0 - 10)}{0.1} = -200\\,\\text{N}$. The magnitude of the force is $200\\,\\text{N}$. The negative sign indicates the force opposes the initial motion.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d37evypgdqdp1se86750vwn85p6kc",
+    "options": [
+      {
+        "key": "A",
+        "text": "$20\\,\\text{N}$"
+      },
+      {
+        "key": "B",
+        "text": "$200\\,\\text{N}$"
+      },
+      {
+        "key": "C",
+        "text": "$2\\,\\text{N}$"
+      },
+      {
+        "key": "D",
+        "text": "$0.2\\,\\text{N}$"
+      }
+    ],
+    "sectionId": "impulse",
+    "sectionLabel": "Impulse",
+    "stem": "A 2 kg object moving at $10\\,\\text{m/s}$ strikes a wall and comes to rest in $0.1\\,\\text{s}$. What is the magnitude of the average force exerted by the wall on the object?",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "k9795z87a7rtv851xc4ygnfegx85qzrg",
+    "correctKey": "C",
+    "explanation": "By the Impulse-Momentum Theorem, $\\Delta p = F_{net}\\,\\Delta t$. With $\\Delta t$ constant, $\\Delta p$ is directly proportional to $F_{net}$. Doubling $F_{net}$ therefore doubles $\\Delta p$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d37evypgdqdp1se86750vwn85p6kc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain the same"
+      },
+      {
+        "key": "B",
+        "text": "Be halved"
+      },
+      {
+        "key": "C",
+        "text": "Be doubled"
+      },
+      {
+        "key": "D",
+        "text": "Be quadrupled"
+      }
+    ],
+    "sectionId": "momentum-and-newtons-second-law-of-motion",
+    "sectionLabel": "Momentum and Newton's Second Law of Motion",
+    "stem": "If the net force acting on a body is doubled while the time interval remains constant, the change in momentum will:",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "newton-laws-of-motion",
+    "topicTitle": "3.10 Newton's Laws of Motion",
+    "_id": "k978bc4kjgwmwbxtzgpag7avbn85p159",
+    "correctKey": "C",
+    "explanation": "A non-inertial frame is one that is accelerating. In such frames, Newton's laws do not hold in their standard form: fictitious (pseudo) forces must be introduced to explain observed motion. Inertial frames are non-accelerating.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70cw20j3bss0ahrg2a449we985pk35",
+    "options": [
+      {
+        "key": "A",
+        "text": "A frame moving with constant velocity"
+      },
+      {
+        "key": "B",
+        "text": "A frame at rest relative to the ground"
+      },
+      {
+        "key": "C",
+        "text": "A frame that is accelerating, where fictitious forces must be introduced"
+      },
+      {
+        "key": "D",
+        "text": "A frame in which Newton's First Law holds without modification"
+      }
+    ],
+    "sectionId": "1-newtons-first-law-of-motion-the-law-of-inertia",
+    "sectionLabel": "1. Newton's First Law of Motion (The Law of Inertia)",
+    "stem": "Which of the following best describes a non-inertial frame of reference?",
+    "topicId": "ms752v9ec1f8yk7s0mccg2zdk985q51b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "newton-laws-of-motion",
+    "topicTitle": "3.10 Newton's Laws of Motion",
+    "_id": "k97bchrhg281q1z036jg8pxv7985phe7",
+    "correctKey": "A",
+    "explanation": "From Newton's Second Law $F = ma$, the unit of force = unit of mass × unit of acceleration = $\\text{kg} \\times \\text{m}\\cdot\\text{s}^{-2} = \\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70cw20j3bss0ahrg2a449we985pk35",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\text{kg}\\cdot\\text{m}^2\\cdot\\text{s}^{-2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{2}$"
+      }
+    ],
+    "sectionId": "2-newtons-second-law-of-motion",
+    "sectionLabel": "2. Newton's Second Law of Motion",
+    "stem": "Which of the following represents the base SI units of a Newton ($\\text{N}$)?",
+    "topicId": "ms752v9ec1f8yk7s0mccg2zdk985q51b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "newton-laws-of-motion",
+    "topicTitle": "3.10 Newton's Laws of Motion",
+    "_id": "k970dp1fregkg6f1g33b3y5ks585q8f4",
+    "correctKey": "C",
+    "explanation": "Using $a = F/m$. New acceleration $a' = (2F)/(m/2) = 4F/m = 4a$. Doubling force doubles acceleration, and halving mass doubles it again: giving four times the original acceleration.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70cw20j3bss0ahrg2a449we985pk35",
+    "options": [
+      {
+        "key": "A",
+        "text": "The same"
+      },
+      {
+        "key": "B",
+        "text": "Double"
+      },
+      {
+        "key": "C",
+        "text": "Four times"
+      },
+      {
+        "key": "D",
+        "text": "Half"
+      }
+    ],
+    "sectionId": "2-newtons-second-law-of-motion",
+    "sectionLabel": "2. Newton's Second Law of Motion",
+    "stem": "If the net force on a body is doubled and its mass is halved, the acceleration becomes:",
+    "topicId": "ms752v9ec1f8yk7s0mccg2zdk985q51b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "newton-laws-of-motion",
+    "topicTitle": "3.10 Newton's Laws of Motion",
+    "_id": "k97ejrak6bbnfgbw1x2pqd63qx85qgnh",
+    "correctKey": "C",
+    "explanation": "Constant velocity means zero acceleration. By Newton's Second Law, net force = 0, so the normal force (scale reading) equals the gravitational force (weight). The scale reads the true weight.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70cw20j3bss0ahrg2a449we985pk35",
+    "options": [
+      {
+        "key": "A",
+        "text": "Greater than the person's weight"
+      },
+      {
+        "key": "B",
+        "text": "Less than the person's weight"
+      },
+      {
+        "key": "C",
+        "text": "Equal to the person's weight"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "2-newtons-second-law-of-motion",
+    "sectionLabel": "2. Newton's Second Law of Motion",
+    "stem": "A person stands in an elevator moving upward at constant velocity. The reading on the weighing scale is:",
+    "topicId": "ms752v9ec1f8yk7s0mccg2zdk985q51b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "newton-laws-of-motion",
+    "topicTitle": "3.10 Newton's Laws of Motion",
+    "_id": "k97577bbqw3wbwjdv7r9f94sph8baryh",
+    "correctKey": "B",
+    "explanation": "Mass is a scalar measure of an object's inertia and does not change with location. Weight is the gravitational force acting on that mass, a vector given by W = mg, and it does change with the local gravitational field strength g.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70cw20j3bss0ahrg2a449we985pk35",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mass is a vector and weight is a scalar"
+      },
+      {
+        "key": "B",
+        "text": "Mass is a measure of inertia (scalar) and weight is the gravitational force on that mass (vector)"
+      },
+      {
+        "key": "C",
+        "text": "Mass and weight are the same quantity measured in different units"
+      },
+      {
+        "key": "D",
+        "text": "Weight is constant everywhere, while mass changes with location"
+      }
+    ],
+    "sectionId": "mass-vs-weight",
+    "sectionLabel": "Mass vs. Weight",
+    "stem": "Which statement correctly distinguishes mass from weight?",
+    "topicId": "ms752v9ec1f8yk7s0mccg2zdk985q51b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "k97c54y6h9yzqpcvpd5g03da4185qy8g",
+    "correctKey": "B",
+    "explanation": "At maximum height, the vertical component of velocity becomes zero. Only the horizontal component $v_x = v_i \\cos\\theta$ remains, since there is no horizontal acceleration. Therefore the speed equals $v_i \\cos\\theta$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ffgc7e1rmhesh3y90ypqdd185ppwh",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "$v_i \\cos\\theta$"
+      },
+      {
+        "key": "C",
+        "text": "$v_i \\sin\\theta$"
+      },
+      {
+        "key": "D",
+        "text": "$v_i$"
+      }
+    ],
+    "sectionId": "1-maximum-height-of-a-projectile-h",
+    "sectionLabel": "1. Maximum Height of a Projectile (H)",
+    "stem": "A projectile is launched at angle $\\theta$ with initial speed $v_i$. What is its speed at maximum height?",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "k971bac8vs62vdraxt6eyywa7s85q78g",
+    "correctKey": "B",
+    "explanation": "Using $T = \\frac{2v_i \\sin \\theta}{g} = \\frac{2(30) \\sin 30^\\circ}{10} = \\frac{60(0.5)}{10} = 3\\text{ s}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ffgc7e1rmhesh3y90ypqdd185ppwh",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1.5\\text{ s}$"
+      },
+      {
+        "key": "B",
+        "text": "$3.0\\text{ s}$"
+      },
+      {
+        "key": "C",
+        "text": "$4.5\\text{ s}$"
+      },
+      {
+        "key": "D",
+        "text": "$6.0\\text{ s}$"
+      }
+    ],
+    "sectionId": "2-time-of-flight-t",
+    "sectionLabel": "2. Time of Flight (T)",
+    "stem": "A projectile is thrown at an angle of $30^\\circ$ with horizontal with velocity $30\\text{ ms}^{-1}$. Its time of flight is (take $g = 10\\text{ ms}^{-2}$):",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "k977k2qvsyay1dq5pk3gexjr9h85p33j",
+    "correctKey": "C",
+    "explanation": "The range formula contains $\\sin 2\\theta$. The maximum value of sine is 1, which occurs at $90^\\circ$. Thus, $2\\theta = 90^\\circ \\implies \\theta = 45^\\circ$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ffgc7e1rmhesh3y90ypqdd185ppwh",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "sectionId": "conditions-for-maximum-range",
+    "sectionLabel": "Conditions for Maximum Range",
+    "stem": "At what angle of projection is the horizontal range maximum?",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "k9752hre43c305ravc6wbvyv1d85p10k",
+    "correctKey": "A",
+    "explanation": "The range formula $R = \\frac{v_i^2 \\sin 2\\theta}{g}$ gives the same value for complementary angles (summing to $90^\\circ$) because $\\sin(2\\theta) = \\sin(180^\\circ - 2\\theta)$. Only $30^\\circ + 60^\\circ = 90^\\circ$ among the options.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ffgc7e1rmhesh3y90ypqdd185ppwh",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$ and $60^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$20^\\circ$ and $80^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$45^\\circ$ and $60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$10^\\circ$ and $40^\\circ$"
+      }
+    ],
+    "sectionId": "conditions-for-maximum-range",
+    "sectionLabel": "Conditions for Maximum Range",
+    "stem": "Which pair of launch angles will give a projectile the same horizontal range (with the same initial speed)?",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "k97f4y8473ten1fy8weagjpmvd85q7s1",
+    "correctKey": "B",
+    "explanation": "Since there is no horizontal force (ignoring air resistance), the horizontal acceleration is zero, making the horizontal velocity constant.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72yg4k9fanx3fyt6jg8zjqns85q82n",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vertical component of velocity"
+      },
+      {
+        "key": "B",
+        "text": "Horizontal component of velocity"
+      },
+      {
+        "key": "C",
+        "text": "Momentum"
+      },
+      {
+        "key": "D",
+        "text": "Kinetic Energy"
+      }
+    ],
+    "sectionId": "analysis-of-motion-separating-the-components",
+    "sectionLabel": "Analysis of Motion: Separating the Components",
+    "stem": "Which of the following remains constant during the motion of a projectile in a vacuum?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "k979t2zem6zyf2zp5r7qcrp8158bacdm",
+    "correctKey": "C",
+    "explanation": "Horizontal and vertical motions are independent. Both bullets start with zero initial vertical velocity and accelerate downward at the same rate g, so they reach the ground at the same time regardless of horizontal velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72yg4k9fanx3fyt6jg8zjqns85q82n",
+    "options": [
+      {
+        "key": "A",
+        "text": "The dropped bullet"
+      },
+      {
+        "key": "B",
+        "text": "The fired bullet"
+      },
+      {
+        "key": "C",
+        "text": "Both hit the ground at the same time"
+      },
+      {
+        "key": "D",
+        "text": "It depends on the firing speed"
+      }
+    ],
+    "sectionId": "conceptual-points",
+    "sectionLabel": "Conceptual Points",
+    "stem": "A bullet is dropped from a height h at the same instant that an identical bullet is fired horizontally from the same height (ignoring air resistance). Which hits the ground first?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity-time-graph",
+    "topicTitle": "3.12 Velocity-Time Graphs",
+    "_id": "k975y90s9ghnp2fcxthrfkb2w985p5xm",
+    "correctKey": "C",
+    "explanation": "Constant speed means velocity does not change with time, resulting in a horizontal line where the slope (acceleration) is zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aaxg9r6rmn5x8ad6f7g77y985qrnm",
+    "options": [
+      {
+        "key": "A",
+        "text": "A straight line starting from the origin with a $45^{\\circ}$ angle"
+      },
+      {
+        "key": "B",
+        "text": "A vertical line parallel to the velocity axis"
+      },
+      {
+        "key": "C",
+        "text": "A horizontal line parallel to the time axis"
+      },
+      {
+        "key": "D",
+        "text": "A downward sloping line"
+      }
+    ],
+    "sectionId": "interpreting-the-graph",
+    "sectionLabel": "Interpreting the Graph",
+    "stem": "A car travels at a constant speed of $20 \\, ms^{-1}$ for $10$ seconds. What is the shape of its velocity-time graph?",
+    "topicId": "ms77df3sg7pf7rj1sr2ckbn9w985q8fm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity-time-graph",
+    "topicTitle": "3.12 Velocity-Time Graphs",
+    "_id": "k979nyyxswk8y9m116knbpx28n85qxtj",
+    "correctKey": "C",
+    "explanation": "Instantaneous acceleration is the limiting value of $\\Delta v / \\Delta t$, which corresponds to the gradient of the tangent at that specific point.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aaxg9r6rmn5x8ad6f7g77y985qrnm",
+    "options": [
+      {
+        "key": "A",
+        "text": "The total area under the curve"
+      },
+      {
+        "key": "B",
+        "text": "The slope of the chord between $t=0$ and $t=2$"
+      },
+      {
+        "key": "C",
+        "text": "The slope of the tangent at $t=2s$"
+      },
+      {
+        "key": "D",
+        "text": "The reciprocal of the velocity at $t=2s$"
+      }
+    ],
+    "sectionId": "interpreting-the-graph",
+    "sectionLabel": "Interpreting the Graph",
+    "stem": "To find the instantaneous acceleration at $t = 2s$ on a curved v-t graph, one must calculate:",
+    "topicId": "ms77df3sg7pf7rj1sr2ckbn9w985q8fm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity-time-graph",
+    "topicTitle": "3.12 Velocity-Time Graphs",
+    "_id": "k973agr0q4zqbdbqemd86hprm985pxqf",
+    "correctKey": "B",
+    "explanation": "A straight inclined line on a v-t graph has a constant slope. Since slope = acceleration, a constant slope means the acceleration is uniform (constant). Zero slope would mean constant velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aaxg9r6rmn5x8ad6f7g77y985qrnm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variable acceleration"
+      },
+      {
+        "key": "B",
+        "text": "Uniform (constant) acceleration"
+      },
+      {
+        "key": "C",
+        "text": "Uniform velocity"
+      },
+      {
+        "key": "D",
+        "text": "Zero acceleration"
+      }
+    ],
+    "sectionId": "interpreting-the-graph",
+    "sectionLabel": "Interpreting the Graph",
+    "stem": "If a velocity-time graph shows a straight line inclined to the time axis, the object is moving with:",
+    "topicId": "ms77df3sg7pf7rj1sr2ckbn9w985q8fm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity-time-graph",
+    "topicTitle": "3.12 Velocity-Time Graphs",
+    "_id": "k978wr0jvm8heqfn2grdnzj7dx85qf15",
+    "correctKey": "C",
+    "explanation": "The area under a v-t graph equals $\\int v \\, dt$, which is displacement. Areas above the time axis represent positive displacement and areas below represent negative displacement.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aaxg9r6rmn5x8ad6f7g77y985qrnm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Average acceleration"
+      },
+      {
+        "key": "B",
+        "text": "Instantaneous velocity"
+      },
+      {
+        "key": "C",
+        "text": "Displacement"
+      },
+      {
+        "key": "D",
+        "text": "Distance only (never displacement)"
+      }
+    ],
+    "sectionId": "relationship-with-other-motion-graphs",
+    "sectionLabel": "Relationship with Other Motion Graphs",
+    "stem": "The area bounded by a velocity-time graph and the time axis represents:",
+    "topicId": "ms77df3sg7pf7rj1sr2ckbn9w985q8fm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity",
+    "topicTitle": "3.13 Velocity",
+    "_id": "k9744xqr9yykpcj6cva0g7ve3985qtsp",
+    "correctKey": "B",
+    "explanation": "Velocity = displacement/time. Its SI unit is meters per second (m/s) and its dimensional formula is $[L]/[T] = [LT^{-1}]$. The unit m/s² and $[LT^{-2}]$ belong to acceleration, not velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tbdd09gq6ww77wnr6d40m585qw9j",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\text{m/s}^2$ and $[LT^{-2}]$"
+      },
+      {
+        "key": "B",
+        "text": "$\\text{m/s}$ and $[LT^{-1}]$"
+      },
+      {
+        "key": "C",
+        "text": "$\\text{km/h}$ and $[L^2T^{-1}]$"
+      },
+      {
+        "key": "D",
+        "text": "$\\text{m}$ and $[L]$"
+      }
+    ],
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "stem": "Which of the following correctly states the SI unit and dimensional formula for velocity?",
+    "topicId": "ms78qawpd16bd1b5xnpg4qpa0n85pj53"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity",
+    "topicTitle": "3.13 Velocity",
+    "_id": "k973rhxas2bqdhsvs6s42sdfjn85qz3s",
+    "correctKey": "B",
+    "explanation": "Displacement (shortest path) = $\\sqrt{3^2 + 4^2} = 5\\text{ m}$. Average velocity = displacement/time = $5/10 = 0.5\\text{ ms}^{-1}$. Distance (7 m) is irrelevant for velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tbdd09gq6ww77wnr6d40m585qw9j",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0.7 \\text{ ms}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$0.5 \\text{ ms}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$0.1 \\text{ ms}^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$1.2 \\text{ ms}^{-1}$"
+      }
+    ],
+    "sectionId": "types-of-velocity",
+    "sectionLabel": "Types of Velocity",
+    "stem": "A person walks 3 m East then 4 m North in 10 seconds. What is the magnitude of their average velocity?",
+    "topicId": "ms78qawpd16bd1b5xnpg4qpa0n85pj53"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity",
+    "topicTitle": "3.13 Velocity",
+    "_id": "k972hps0860a32xnsgn7mbzb6x85p6dk",
+    "correctKey": "C",
+    "explanation": "The derivative of displacement with respect to time ($d\\vec{s}/dt$) gives instantaneous velocity. Graphically, this is the slope of the tangent to the displacement-time curve at that instant.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tbdd09gq6ww77wnr6d40m585qw9j",
+    "options": [
+      {
+        "key": "A",
+        "text": "Average acceleration"
+      },
+      {
+        "key": "B",
+        "text": "Total distance travelled"
+      },
+      {
+        "key": "C",
+        "text": "Instantaneous velocity"
+      },
+      {
+        "key": "D",
+        "text": "Average speed"
+      }
+    ],
+    "sectionId": "types-of-velocity",
+    "sectionLabel": "Types of Velocity",
+    "stem": "The slope of the tangent to a displacement-time graph at any specific instant represents:",
+    "topicId": "ms78qawpd16bd1b5xnpg4qpa0n85pj53"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity",
+    "topicTitle": "3.13 Velocity",
+    "_id": "k973yekwa22jtkxgc6zvq2b9p585p1x3",
+    "correctKey": "B",
+    "explanation": "Uniform velocity means both the magnitude (speed) and direction of motion remain constant. Equal displacements in equal time intervals in a straight line is the defining condition for uniform velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76tbdd09gq6ww77wnr6d40m585qw9j",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variable"
+      },
+      {
+        "key": "B",
+        "text": "Uniform"
+      },
+      {
+        "key": "C",
+        "text": "Instantaneous"
+      },
+      {
+        "key": "D",
+        "text": "Relative"
+      }
+    ],
+    "sectionId": "types-of-velocity",
+    "sectionLabel": "Types of Velocity",
+    "stem": "An object travels in a straight line covering equal displacements in equal time intervals. Its velocity is:",
+    "topicId": "ms78qawpd16bd1b5xnpg4qpa0n85pj53"
+  }
+]

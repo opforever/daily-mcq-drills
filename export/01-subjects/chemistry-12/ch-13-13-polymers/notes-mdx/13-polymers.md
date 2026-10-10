@@ -1,0 +1,419 @@
+<!-- note kx7b58wwxk0z2k4trv31kjb8x585qk69 | topic ms7b56z11s447731d6nxbbbe3h85q0sg | status published -->
+# 1. Introduction to Polymers
+
+Polymers are fundamental to chemistry and material science, representing a class of high molecular weight compounds with unique properties.
+
+*   **Polymers:** These are large molecules (macromolecules) characterized by their structure, which is composed of a vast number of simple, repeating units. Their high molecular weight contributes to many of their distinct physical and chemical properties.
+*   **Monomers:** These are the low molecular weight, simple compounds that serve as the building blocks for polymers. Each repeating unit within a polymer's structure is typically derived from a monomer.
+*   **Polymerization:** This is the chemical reaction process through which monomers are chemically bonded together to form long chains or networks, resulting in a polymer.
+
+### 2. Polymerization Example: Polyethylene
+
+The formation of polyethylene from ethylene is a classic example of a polymerization reaction. In this process, multiple ethylene molecules (monomers) react to form a long-chain polyethylene molecule (polymer).
+
+<CaptionedImage src="kg297aene9v7jddf5h9ec4dr698dgzfw" alt="Polyethylene formation from ethylene monomers" caption="Polyethylene formation from ethylene monomers" />
+
+The general reaction can be represented as:
+$ n\,CH_2=CH_2 \xrightarrow{\text{polymerization}} -[CH_2-CH_2]_n- $
+Where:
+*   $CH_2=CH_2$ represents an *ethylene monomer*.
+*   $n$ denotes the number of repeating units.
+*   $-[CH_2-CH_2]_n-$ represents a *polyethylene polymer*.
+
+### 3. Classification of Polymers by Monomer Type
+
+Polymers can be categorized based on the number and types of monomers used in their synthesis:
+
+*   **Homopolymers:** These are polymers that are synthesized from only *one kind* of monomer. All the repeating units in a homopolymer are identical.
+    *   *Example:* Polyethylene (formed solely from ethylene monomers).
+*   **Copolymers:** Also known as *heteropolymers*, these are polymers prepared from *two different types* of monomers. The repeating units are derived from two distinct monomer species.
+    *   *Example:* Styrene-butadiene rubber (SBR) is a copolymer of styrene and butadiene.
+*   **Terpolymers:** These are polymers formed from *three different types* of monomers.
+    *   *Example:* ABS plastic (Acrylonitrile-Butadiene-Styrene) is a terpolymer.
+
+For more details on classification methods, see <InlineNoteTag label="Classification Of Polymers" notePath="chemistry-12/132-classification-of-polymers" />.
+
+### 4. Condensation Polymers: Polyamides and Polyesters
+
+Synthetic polymers like Nylon and Terylene are formed via condensation polymerization, where monomers join with the elimination of small molecules like water or methanol.
+
+*   **Nylon-6,6:** A polyamide formed from hexamethylenediamine and adipic acid.
+*   **Terylene (Dacron):** A polyester formed from ethylene glycol and terephthalic acid.
+
+For information on polymer degradation, see <InlineNoteTag label="Polymer Hydrolysis" notePath="chemistry-12/135-polymer-hydrolysis" /> and <InlineNoteTag label="Biodegradable And Non Biodegradable Polymers" notePath="chemistry-12/134-biodegradable-and-non-biodegradable-polymers" />.
+
+
+---
+
+<!-- note kx74z3xbb85fr0wgkqyj9t8t1s85qryr | topic ms7fcg88zfzd3yxb5sbq487ng185qpjr | status published -->
+# 13.2 Classification of Polymers
+
+Polymers can be classified on several bases: **mode of synthesis**, **composition of monomers**, **thermal behaviour**, and **origin/source**.
+
+---
+
+## 1. Classification Based on Mode of Synthesis
+
+### Addition Polymers
+Formed when monomers containing **C=C double bonds** join together repeatedly **without the loss of any small molecule**. The monomer's molecular formula equals the repeating unit's formula.
+
+**General reaction:**
+$n\,CH_2{=}CH_2 \xrightarrow{\text{catalyst}} [-CH_2-CH_2-]_n$
+
+| Polymer | Monomer | Repeating Unit |
+|---|---|---|
+| Polyethene | $CH_2{=}CH_2$ | $-CH_2-CH_2-$ |
+| Polypropene | $CH_3CH{=}CH_2$ | $-CH(CH_3)-CH_2-$ |
+| PVC | $CH_2{=}CHCl$ | $-CH_2-CHCl-$ |
+| Polystyrene | $C_6H_5CH{=}CH_2$ | $-CH_2-CH(C_6H_5)-$ |
+| Teflon (PTFE) | $CF_2{=}CF_2$ | $-CF_2-CF_2-$ |
+
+### Condensation Polymers
+Formed when monomers with **two functional groups** (e.g., $-COOH$, $-NH_2$, $-OH$) react repeatedly with the **elimination of a small molecule** (usually $H_2O$ or $HCl$).
+
+| Polymer | Monomers | Eliminated molecule | Linkage |
+|---|---|---|---|
+| Nylon-6,6 | Adipic acid + Hexamethylenediamine | $H_2O$ | Amide ($-CO-NH-$) |
+| Terylene (Dacron) | Terephthalic acid + Ethylene glycol | $H_2O$ | Ester ($-CO-O-$) |
+| Bakelite | Phenol + Formaldehyde | $H_2O$ | C–C cross-links |
+
+**Nylon-6,6 formation:**
+$HOOC(CH_2)_4COOH + H_2N(CH_2)_6NH_2 \rightarrow [-CO(CH_2)_4CO-NH(CH_2)_6NH-]_n + n\,H_2O$
+
+---
+
+## 2. Classification Based on Composition of Monomers
+
+### Homopolymers
+Made from **only one type of monomer**.
+- Example: PVC (from vinyl chloride), Polyethene (from ethene)
+
+### Copolymers
+Made from **two or more different monomers**.
+- Example: SBR, Styrene-Butadiene Rubber (from styrene + 1,3-butadiene)
+- Example: Nylon-6,6 (from adipic acid + hexamethylenediamine)
+
+---
+
+## 3. Classification Based on Thermal Behaviour
+
+### Thermoplastics
+- Consist of **linear or slightly branched chains** held by weak intermolecular forces.
+- **Soften on heating** and can be remoulded repeatedly.
+- Example: Polyethene, PVC, Polystyrene
+
+### Thermosetting Plastics
+- Contain **extensive cross-linking** forming a rigid 3D network.
+- **Do not soften on reheating**, permanently set once formed.
+- Example: Bakelite, Melamine
+
+---
+
+## 4. Classification Based on Origin/Source
+
+| Type | Description | Examples |
+|---|---|---|
+| **Natural** | Occur in nature | Cellulose, Proteins, Natural Rubber, Starch |
+| **Synthetic** | Man-made in laboratory/industry | Nylon, Terylene, PVC, Bakelite |
+| **Semi-synthetic** | Natural polymers chemically modified | Rayon (cellulose acetate), Vulcanised rubber |
+
+---
+
+## 5. Identifying Monomers from a Polymer Section
+
+To deduce the **repeating unit** from a polymer:
+1. Identify the smallest unit that repeats along the chain.
+2. For addition polymers: the repeating unit = monomer (with double bond opened).
+3. For condensation polymers: add back the eliminated molecule ($H_2O$) to the repeating unit to recover the monomers.
+
+**Example:** Given the repeating unit $[-NH(CH_2)_6NH-CO(CH_2)_4CO-]_n$, the monomers are:
+- $H_2N(CH_2)_6NH_2$ (hexamethylenediamine)
+- $HOOC(CH_2)_4COOH$ (adipic acid)
+
+
+---
+
+<!-- note kx7e2h3k5779v01xg5sj3srndx85p0b5 | topic ms7eeb9a51tg1h442cx5ksvgx585qa26 | status published -->
+# 13.4 Biodegradable and Non-biodegradable Polymers
+
+Polymers are large molecules composed of repeating structural units. Their interaction with the environment, particularly regarding their degradation, is a critical aspect of modern chemistry and environmental science. Polymers can be broadly categorized into biodegradable and non-biodegradable types based on their ability to decompose.
+
+### 1. Biodegradable Polymers
+
+**Definition:** These are polymers that can be decomposed by the action of microorganisms (e.g., bacteria, fungi) in the environment.
+
+**Chemical Characteristics:**
+
+- They typically contain hydrolysable functional groups, such as amino (in polyamides) or ester (in polyesters) groups.
+- These groups can be easily broken down by enzymes produced by microorganisms, as well as by acids and alkalis.
+
+**Examples:**
+
+- Polyamides (e.g., Nylon-2-Nylon-6)
+- Polyesters (e.g., PHBV - Polyhydroxybutyrate-co-hydroxyvalerate, PLA - Polylactic acid, PGA - Polyglycolic acid)
+
+### 2. Non-biodegradable Polymers
+
+**Definition:** These are polymers that cannot be decomposed by the action of microorganisms and remain intact in the environment for extended periods.
+
+**Chemical Characteristics:**
+
+- Often formed from addition polymerization.
+- Characterized by being unreactive or inert, largely due to their non-polar and saturated nature.
+- They possess long chains of carbon atoms linked by non-polar C-C bonds, which are chemically very stable and difficult for biological systems to break down.
+
+**Examples:**
+
+- Polyethylene (PE)
+- Polypropylene (PP)
+- Polyvinyl chloride (PVC)
+- Polyethylene terephthalate (PET)
+
+Some non-biodegradable polymers can be recycled to form new polymers for different purposes, offering an alternative to direct disposal. This relates to the <InlineNoteTag label="Ethical Considerations In The Production And Use Of Chemical Substances" notePath="chemistry-12/2-ethical-considerations-in-the-production-and-use-of-chemical-substances" /> regarding waste management.
+
+### 3. UV Degradation
+
+Some non-biodegradable polymers, despite resisting microbial action, can be degraded by ultraviolet (UV) light.
+
+**Mechanism:** UV light can break down the polymer chains (photodegradation), leading to the weakening and eventual disintegration of the material.
+
+**Examples:** Polyethylene, polypropylene, and polystyrene.
+
+### 4. Long-Term Effects of Non-biodegradable Polymers
+
+Non-biodegradable polymers pose significant environmental challenges due to their persistence:
+
+- **Environmental Accumulation:** They accumulate in landfills, oceans, and natural habitats because they do not decompose naturally.
+- **Pollutant Production:** In the presence of sunlight, water, and air, these materials can produce highly toxic pollutants.
+- **Water Pollution:** These pollutants can leach into water bodies, causing severe water pollution. This can be monitored using techniques like the <InlineNoteTag label="Winkler Method For Biological Oxygen Demand" notePath="chemistry-12/2.11-winkler-method-for-biological-oxygen-demand" />.
+- **Food Chain Entry:** Microplastics (small fragments of non-biodegradable polymers) can enter the food chain, potentially impacting ecosystems and human health.
+
+### Comparison of Biodegradable and Non-biodegradable Polymers
+
+| Feature | Biodegradable Polymers | Non-biodegradable Polymers |
+|:--- |:--- |:--- |
+| **Decomposition** | Decomposed by microorganisms | Not decomposed by microorganisms |
+| **Chemical Basis** | Contain hydrolysable groups (ester, amino) | Often from addition polymerization; inert, non-polar, saturated carbon chains |
+| **Environmental Impact** | Environmentally friendly; break down naturally | Accumulate; cause pollution; can enter food chain |
+| **Examples** | Polyamides, Polyesters (e.g., PHBV, PLA) | Polyethylene, Polypropylene, PVC, PET |
+| **Degradation Agents** | Enzymes, acids, alkalis, microorganisms | Primarily UV light for some; otherwise very stable |
+| **Recycling Potential** | Less emphasis on traditional recycling due to natural breakdown | High potential for traditional recycling |
+
+
+---
+
+<!-- note kx73ehev0jgr5dsk8xz2ntb0fh85qd1t | topic ms7c4x1hc0rha1fys4x85zf88d85pq76 | status published -->
+# 13.5 Polymer Hydrolysis
+
+Condensation polymers, formed through condensation reactions where small molecules such as water are eliminated, can be broken down into their constituent monomers or smaller units via hydrolysis reactions. Hydrolysis involves the cleavage of a bond by water. These reactions are typically catalyzed by either acidic or basic conditions.
+
+The general principle involves the addition of a water molecule ($H_2O$) across the ester or amide linkage, effectively reversing the condensation polymerization process.
+
+### Hydrolysis of Polyesters
+
+Polyesters contain ester linkages ($-COO-$) in their polymer backbone. The hydrolysis products depend on the reaction conditions.
+
+**Acid Hydrolysis**
+
+* **Conditions:** Catalyzed by an acid such as hydrochloric acid ($HCl$).
+* **Products:** The ester linkages are broken, yielding a diol and a dicarboxylic acid.
+* **General Reaction:**
+  $ \text{Polyester} + nH_2O \xrightarrow{H^+} \text{Diols} + \text{Dicarboxylic Acids} $
+
+  Example using simplified ester linkage:
+  $ R_1-COO-R_2 + H_2O \xrightarrow{H^+} R_1-COOH + R_2-OH $
+
+**Alkaline Hydrolysis (Saponification)**
+
+* **Conditions:** Heated with a strong base such as sodium hydroxide ($NaOH$).
+* **Products:** This process is irreversible under these conditions and yields a diol and the sodium salt of a dicarboxylic acid. The carboxylic acid is deprotonated by the strong base.
+* **General Reaction:**
+  $ \text{Polyester} + nH_2O \xrightarrow{OH^- / \Delta} \text{Diols} + \text{Dicarboxylic Acid Salts} $
+
+  Example using simplified ester linkage:
+  $ R_1-COO-R_2 + NaOH \xrightarrow{\Delta} R_1-COONa + R_2-OH $
+
+### Hydrolysis of Polyamides
+
+Polyamides contain amide linkages ($-CONH-$) in their polymer backbone. Similar to polyesters, the products vary with conditions.
+
+**Acid Hydrolysis**
+
+* **Conditions:** Catalyzed by an acid.
+* **Products:** The amide linkages are broken, producing a dicarboxylic acid and ammonium ions. The amine group accepts a proton to become $-NH_3^+$.
+* **General Reaction:**
+  $ \text{Polyamide} + nH_2O \xrightarrow{H^+} \text{Dicarboxylic Acids} + \text{Ammonium Ions} $
+
+  Example using simplified amide linkage:
+  $ R_1-CONH-R_2 + H_2O + H^+ \rightarrow R_1-COOH + R_2-NH_3^+ $
+
+**Alkaline Hydrolysis**
+
+* **Conditions:** Catalyzed by a base.
+* **Products:** Yields the sodium salt of a dicarboxylic acid and a diamine. The amine group remains unprotonated under basic conditions.
+* **General Reaction:**
+  $ \text{Polyamide} + nH_2O \xrightarrow{OH^-} \text{Dicarboxylic Acid Salts} + \text{Diamines} $
+
+  Example using simplified amide linkage:
+  $ R_1-CONH-R_2 + NaOH \rightarrow R_1-COONa + R_2-NH_2 $
+
+### Hydrolysis of Proteins
+
+Proteins are naturally occurring polyamides (polypeptides) formed from amino acid monomers linked by peptide bonds, which are a specific type of amide linkage.
+
+* **Conditions:** Typically hydrolyzed under acidic conditions, for example, concentrated $HCl$ and heat.
+* **Products:** The peptide bonds are cleaved, leading to the formation of individual amino acids. However, under acidic conditions, the amine groups ($-NH_2$) in the amino acids accept a proton and become protonated ammonium ions ($-NH_3^+$). The carboxylic acid groups ($-COOH$) remain as carboxylic acids.
+* **Significance:** This process is crucial in digestion, where enzymes (biological catalysts) facilitate the hydrolysis of proteins into amino acids for absorption.
+
+| Polymer Type | Hydrolysis Condition | Products                                                 |
+|:----------- |:------------------- |:------------------------------------------------------- |
+| **Polyester**  | Acidic ($H^+$)       | Diol, Dicarboxylic acid                                  |
+|              | Alkaline ($OH^-$)    | Diol, Carboxylic acid salt                               |
+| **Polyamide**  | Acidic ($H^+$)       | Dicarboxylic acid, Ammonium ions ($-NH_3^+$)             |
+|              | Alkaline ($OH^-$)    | Dicarboxylic acid salt, Diamine ($-NH_2$)                |
+| **Protein**    | Acidic ($H^+$)       | Amino acids (with protonated amine groups, $-NH_3^+$)    |
+
+Polymer hydrolysis is vital in various contexts, from industrial recycling of plastics to biological processes like the digestion of proteins in living organisms.
+
+
+---
+
+<!-- note kx7ej03w0dmqb73zfyk1kbh9w985qw10 | topic ms75xrryyt21p6es4ykchrwvsh85ps69 | status published -->
+# Artificial Organs
+
+Artificial organs are innovative biological devices or tissues meticulously crafted by scientists to either replace, replicate, or augment the functionality of a naturally occurring organ within the body. These advanced solutions serve a dual purpose: they can act as vital substitutes for organ donors, addressing critical shortages, and also serve as invaluable tools for medical education and research.
+
+The development and use of these materials must also align with <InlineNoteTag label="Ethical Considerations In The Production And Use Of Chemical Substances" notePath="chemistry-12/2-ethical-considerations-in-the-production-and-use-of-chemical-substances" />.
+
+---
+
+## Definition and Purpose
+
+An *artificial organ* is a man-made device or tissue designed to take over or enhance the function of a failed or damaged natural organ. Their primary goals include:
+
+- Providing an alternative when donor organs are unavailable.
+- Restoring physiological functions vital for life.
+- Assisting in medical training and understanding organ systems.
+
+## Types of Organs (in the context of artificial organ development)
+
+The classification of organs, especially when discussing artificial replacements, typically considers the materials and biological components used in their construction or their natural state.
+
+### 1. Mechanical Artificial Organs
+
+These are constructed *entirely from non-living materials*. They commonly utilize **polymers** (like plastics) and **metals** due to their durability, biocompatibility, and ease of fabrication.
+
+*   **Polymers:** Materials like Dacron or Teflon are used for vascular grafts, while Silicone is used in various implants.
+*   **Metals/Alloys:** Titanium and Stainless Steel are preferred for their strength and resistance to corrosion within the body's aqueous environment.
+
+*Examples:* Many types of artificial heart valves, joint prostheses, or early versions of artificial hearts.
+
+### 2. Biomechanical Organs (or Biosynthetic Organs)
+
+These represent a hybrid approach, containing *both living cells and non-living materials*. The living cells are often integrated into a scaffold of non-living polymers or metals, allowing for more complex biological interactions and functions. They can involve the transformation of living cells into *biomass* that integrates with the artificial structure.
+
+*Examples:* Tissue-engineered skin grafts, some types of artificial blood vessels lined with patient's own cells, or bio-hybrid artificial livers.
+
+### 3. Biological Organs
+
+In the context of artificial organ discussions, "biological organs" refer to the *naturally occurring organs* within living organisms that artificial organs aim to replace or mimic. These are *specialized structures* within living organisms that perform specific functions essential for life. They are composed of different **tissues** that work synergistically to carry out particular tasks.
+
+*Examples:* The heart (for circulation), lungs (for respiration), liver (for metabolism and detoxification), brain (for nervous system control), and kidneys (for filtration).
+
+Biological organs are integral components of larger **organ systems** (e.g., digestive, respiratory, circulatory, nervous systems) that coordinate to support all life processes. Each organ's contribution is precise and interdependent, ensuring the overall function of the organism.
+
+In the case of the kidney, artificial dialysis machines mimic the natural filtration process.
+
+---
+
+
+---
+
+<!-- note kx7ba53fqsrhvpb0wxtmwr218s85qsq5 | topic ms7djsaw3y3jx004c0aq8b6ssh85pjtc | status published -->
+# The Importance of Chemical Industries in Pakistan
+
+The chemical industry plays a pivotal role in Pakistan's economy, demonstrating significant influence on both domestic and international trade. It is a major contributor, accounting for approximately 4.5% of the country's total exports and 12% of its total imports.
+
+This industry serves as a crucial backbone for numerous "forward-oriented" sectors such as:
+
+*   Pakistan's automobile industry
+*   Textiles and leather goods
+*   Shoes
+*   Furniture
+*   Food and beverages
+
+Conversely, it also supports "backward-oriented" industries, providing essential components like surfactants for oil refiners and extractors.
+
+The **rapid growth** of Pakistan's chemical industry in recent years can be attributed to several factors:
+
+*   Rising domestic demand
+*   Improved raw material availability
+*   Supportive government policies
+*   Increased foreign investment
+*   Advances in technology
+*   Increased regional integration
+
+This expansion enhances Pakistan's economic competitiveness and its position in international trade. However, industrial growth must be balanced with <InlineNoteTag label="Ethical Considerations In The Production And Use Of Chemical Substances" notePath="chemistry-12/2-ethical-considerations-in-the-production-and-use-of-chemical-substances" /> regarding environmental impact.
+
+### Raw Materials Used in Chemical Industry in Pakistan
+
+The chemical industry relies on a diverse range of raw materials. Globally, primary raw materials include:
+
+*   Fossil fuels (coal, natural gas, oil)
+*   Air
+*   Water
+*   Salt
+*   Limestone
+*   Sulphur
+*   Specialized raw materials like phosphates and fluorides
+
+Pakistan is fortunate to possess various mineral deposits, including coal, copper, gold, chromite, mineral salt, bauxite, and numerous other precious and semi-precious minerals, which serve as foundational resources for its chemical sector.
+
+Some of the main raw materials and their applications within Pakistan's chemical industry are:
+
+#### Soapstone
+
+*   **Description:** A significant raw material for Pakistan's chemical industry.
+*   **Applications:** Approximately 85% of soapstone is utilized in other industries such as textiles, paper, soap, detergents, leather, and food.
+
+#### Polyvinyl Chloride (PVC)
+
+*   **Description:** A synthetic polymer.
+*   **Applications:** In Pakistan, PVC is primarily used for the production of:
+    *   Pipes and fittings
+    *   Cables
+    *   Profiles
+    *   Footwear
+*   It also finds use in medical devices, packaging materials, and various consumer products.
+*   **Demand Driver:** The construction industry is the main driver, accounting for roughly 70% of total PVC consumption.
+
+#### Resin
+
+*   **Description:** A synthetic organic polymer.
+*   **Applications:** Resins are essential for manufacturing:
+    *   Plastics
+    *   Adhesives
+    *   Paints
+    *   Coatings
+    *   Other products
+*   **Production Basis:** Resin production largely relies on petrochemical raw materials like petroleum, ethylene, and propylene.
+
+#### Soda Ash ($Na_2CO_3$)
+
+*   **Common Name:** Sodium carbonate.
+*   **Applications:** Utilized in the production of:
+    *   Glass
+    *   Detergents
+    *   Paper
+    *   Textiles
+    *   Other products
+*   **Production Basis in Pakistan:** Primarily based on natural resources such as rock salt and limestone.
+
+#### Hydrogen Peroxide ($H_2O_2$)
+
+*   **Description:** A chemical compound.
+*   **Applications:** Used for various purposes including:
+    *   Bleaching
+    *   Disinfecting
+    *   Oxygenating
+*   **Production Basis in Pakistan:** Largely relies on imported raw materials like anthraquinone and hydrogen gas.

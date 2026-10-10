@@ -1,0 +1,852 @@
+[
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-problems",
+    "topicTitle": "2.1 Problems",
+    "_id": "m17bbyfw81bq7bjpcp96js3vtd8e1t59",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With the area code fixed, the remaining 7 digits form the number. The first of these 7 digits has 9 choices (1-9, not 0), and each of the other 6 digits has 10 choices (0-9), giving 9 x 10^6 = 9,000,000 possible numbers.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The telephone numbers usually have 9 digits. Out of these 9, the first two digits represents the area code and are remained constant within a given area. The last 7 digits represents the number, and it cannot begin with 0. How many different telephone numbers are possible with a given area code?",
+    "topicId": "ms71ckyqhp9rxye1jn23bz52w98btcw0"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-problems",
+    "topicTitle": "2.1 Problems",
+    "_id": "m17f0428x2vfx08xswse0zhgph8e1rvz",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By the multiplication counting principle, the total number of routes is 4 x 2 = 8 possible routes from A to C via B.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "From city A to city B, there are 4 different roads and from city B to city C there are 2 different roads. Draw a map of the given situation and identify how many possible routes are there that someone can follow to reach from city A to city C passing by city B?",
+    "topicId": "ms71ckyqhp9rxye1jn23bz52w98btcw0"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-problems",
+    "topicTitle": "2.1 Problems",
+    "_id": "m174e82xc08gmmrg3ybd9h2kbh8e1f3t",
+    "exerciseId": "xd75fevg4snedvhmpr1f2gkacd8e0es0",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "Apply the multiplication counting principle across the three independent choices.",
+      "3 (physics) x 2 (science) x 2 (mathematics) = 12.",
+      "So there are 12 possible ways to select the three courses."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Choose one of 3 physics courses, one of 2 science courses, and one of 2 mathematics courses. By the counting principle, the number of selections is 3 × 2 × 2 = 12.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "A student has to take one course of physics, one of science and one of mathematics. He may choose one of 3 physics courses (P1, P2, P3), one of 2 science courses (S1, S2) and one of 2 mathematics courses (M1, M2). In how many ways can this student select the 3 courses he has to take?",
+    "topicId": "ms71ckyqhp9rxye1jn23bz52w98btcw0"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-identifying-a-computing-problem",
+    "topicTitle": "2.2 Identifying a Computing Problem",
+    "_id": "m17c7vx2807d6ajdghqr79b7958e1n9r",
+    "correctKey": "D",
+    "exerciseId": "xd7ezq257tp1t9xgatjkpnwe498e156z",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "Counting, search and decision problems are all standard categories of computing problems.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "I and II"
+      },
+      {
+        "key": "B",
+        "text": "I and III"
+      },
+      {
+        "key": "C",
+        "text": "II and III"
+      },
+      {
+        "key": "D",
+        "text": "I and II and III"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Which of these are types of computing problems: I. Counting Problems, II. Search Problems, III. Decision Problem?",
+    "topicId": "ms74rjmwdm20ngzzt0f4dghme18bt2kh"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-identifying-a-computing-problem",
+    "topicTitle": "2.2 Identifying a Computing Problem",
+    "_id": "m17as0z8fqbjkwe7fp6kdhxryd8e0727",
+    "correctKey": "D",
+    "exerciseId": "xd7ezq257tp1t9xgatjkpnwe498e156z",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "Solving a search problem requires knowing the possible moves, the start state and the end (goal) state.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide the moves."
+      },
+      {
+        "key": "B",
+        "text": "Provide start state."
+      },
+      {
+        "key": "C",
+        "text": "Provide the end state."
+      },
+      {
+        "key": "D",
+        "text": "a, b and c"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "To solve Search problems, we need to:",
+    "topicId": "ms74rjmwdm20ngzzt0f4dghme18bt2kh"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-identifying-a-computing-problem",
+    "topicTitle": "2.2 Identifying a Computing Problem",
+    "_id": "m17aace1d8js89gz0z6tqq5ed18e13p9",
+    "correctKey": "B",
+    "exerciseId": "xd7ezq257tp1t9xgatjkpnwe498e156z",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "The eight queens puzzle is a classic search problem: searching for a valid placement of queens on the board.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Sorting"
+      },
+      {
+        "key": "B",
+        "text": "Searching"
+      },
+      {
+        "key": "C",
+        "text": "Counting"
+      },
+      {
+        "key": "D",
+        "text": "Both a and b"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The eight queens puzzle is the problem of:",
+    "topicId": "ms74rjmwdm20ngzzt0f4dghme18bt2kh"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-identifying-a-computing-problem",
+    "topicTitle": "2.2 Identifying a Computing Problem",
+    "_id": "m17a0en5w6dnstjhvwbq21we0x8e1cxb",
+    "correctKey": "A",
+    "exerciseId": "xd7ezq257tp1t9xgatjkpnwe498e156z",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "Locating an element by its value is a search operation.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Search"
+      },
+      {
+        "key": "B",
+        "text": "Traversal"
+      },
+      {
+        "key": "C",
+        "text": "Sort"
+      },
+      {
+        "key": "D",
+        "text": "None of above"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Finding the location of the element with a given value is:",
+    "topicId": "ms74rjmwdm20ngzzt0f4dghme18bt2kh"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-identifying-a-computing-problem",
+    "topicTitle": "2.2 Identifying a Computing Problem",
+    "_id": "m176csp7het2y4cgs78k12wbzd8e16tv",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Examples: calculating average marks in mathematics (counting/processing problem), searching for a specific word in an English text (search problem), and deciding whether a chemical reaction is balanced (decision problem).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Identify 3 computing problems from other subjects that you are studying in your class.",
+    "topicId": "ms74rjmwdm20ngzzt0f4dghme18bt2kh"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-identifying-a-computing-problem",
+    "topicTitle": "2.2 Identifying a Computing Problem",
+    "_id": "m173p37nzj2gw48da1py45nt798e1c24",
+    "exerciseId": "xd75fevg4snedvhmpr1f2gkacd8e0es0",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "a) Decision Problem -- answer is simply yes/no (even number of zeros or not).",
+      "b) Counting Problem -- asks for the total number of possible sequences.",
+      "c) Decision Problem -- answer is yes/no on the program's output for empty input.",
+      "d) Counting Problem -- asks how many arrangements (permutations) are possible.",
+      "e) Search Problem -- asks to find a valid placement satisfying the constraint."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "a) Decision problem: it asks whether the binary string has an even number of zeros. b) Counting problem: it asks how many sequences are possible in 20 coin flips. c) Decision problem: it asks whether the Java program answers yes. d) Counting problem: it asks how many arrangements of TRIANGLE are possible. e) Search problem: the N-queens task searches for a placement satisfying the non-attacking constraint.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Identify whether the given problems are Decision Problem, Counting Problem or Search Problem: a) Does a given binary string have an even number of zeros? b) Flipping a coin, how many different sequences of heads and tails are possible in 20 flips? c) Does a certain Java program say \"yes\" to an empty input? d) How many ways can the letters of the word TRIANGLE be arranged? e) N-queens problem: place eight queens on a chessboard such that no queen attacks any other.",
+    "topicId": "ms74rjmwdm20ngzzt0f4dghme18bt2kh"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-problem-solving",
+    "topicTitle": "2.3 Problem Solving",
+    "_id": "m17fm237pkwnvtsaskrdctyew58c6df8",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Design a plan"
+      },
+      {
+        "key": "B",
+        "text": "Implement the plan"
+      },
+      {
+        "key": "C",
+        "text": "Define and analyze the problem"
+      },
+      {
+        "key": "D",
+        "text": "Evaluate"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Which of the following is the first step in solving a simple problem?",
+    "topicId": "ms78xxdzw8gkxet1wmy3nqdq198btycy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-problem-solving",
+    "topicTitle": "2.3 Problem Solving",
+    "_id": "m17evn8yc9s3j09311fjhd8rdx8e1yq6",
+    "correctKey": "C",
+    "exerciseId": "xd7ezq257tp1t9xgatjkpnwe498e156z",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "You must first understand the real-world problem (II), then work out a solution (I), then instruct the computer to carry it out (III).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "I, II, III"
+      },
+      {
+        "key": "B",
+        "text": "I, III, II"
+      },
+      {
+        "key": "C",
+        "text": "II, I, III"
+      },
+      {
+        "key": "D",
+        "text": "II, III, I"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "For a problem we face in real world situations, in what sequence do we follow the steps: I. make some solution; II. understand the real-world problem; III. instruct the computer to behave accordingly?",
+    "topicId": "ms78xxdzw8gkxet1wmy3nqdq198btycy"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-problem-solving",
+    "topicTitle": "2.3 Problem Solving",
+    "_id": "m17emje880gxqc4rqc7z9vzby98e09tr",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Simple problems can usually be solved directly in one step, while complex problems need to be broken down into smaller sub-problems (decomposition) before they can be solved.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "What is the major difference in solving simple problems and complex problems?",
+    "topicId": "ms78xxdzw8gkxet1wmy3nqdq198btycy"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-input-processing-output-i-p-o-chart",
+    "topicTitle": "2.5 Input-processing-output (I-p-o) Chart",
+    "_id": "m172bsz1b5w2wmyvmvz5b8dnah8c7fgx",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Input, plan, output"
+      },
+      {
+        "key": "B",
+        "text": "Input, process, output"
+      },
+      {
+        "key": "C",
+        "text": "Input, program, output"
+      },
+      {
+        "key": "D",
+        "text": "Input, proceed, output"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "What is the correct sequence of IPO chart?",
+    "topicId": "ms7ctfr0wr377jnhwyky6xjt6x8btqsj",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-input-processing-output-i-p-o-chart",
+    "topicTitle": "2.5 Input-processing-output (I-p-o) Chart",
+    "_id": "m172r5a6xcwwa2912qbtk16wfx8c63sn",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Input, plan, output"
+      },
+      {
+        "key": "B",
+        "text": "Input, process, output"
+      },
+      {
+        "key": "C",
+        "text": "Input, program, output"
+      },
+      {
+        "key": "D",
+        "text": "Input, proceed, output"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "What is correct sequence of IPO chart?",
+    "topicId": "ms7ctfr0wr377jnhwyky6xjt6x8btqsj",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-input-processing-output-i-p-o-chart",
+    "topicTitle": "2.5 Input-processing-output (I-p-o) Chart",
+    "_id": "m17c0frq8e9t5hs7debzgqkw4n8e14y5",
+    "correctKey": "C",
+    "exerciseId": "xd7ezq257tp1t9xgatjkpnwe498e156z",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "IPO stands for Input, Process, Output.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Input, Plan, Output"
+      },
+      {
+        "key": "B",
+        "text": "Input, Program, Output"
+      },
+      {
+        "key": "C",
+        "text": "Input, Process, Output"
+      },
+      {
+        "key": "D",
+        "text": "Input, Proceed, Output"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "In IPO Charts, we have:",
+    "topicId": "ms7ctfr0wr377jnhwyky6xjt6x8btqsj"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-input-processing-output-i-p-o-chart",
+    "topicTitle": "2.5 Input-processing-output (I-p-o) Chart",
+    "_id": "m175ztrm3e37m3m1yq7gh60tq18e0q5y",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "IPO charts let designers clearly plan and visualize what inputs a program needs, how it will process them, and what output it must produce, before writing any code.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Why software designers prefer to use IPO charts?",
+    "topicId": "ms7ctfr0wr377jnhwyky6xjt6x8btqsj"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-input-processing-output-i-p-o-chart",
+    "topicTitle": "2.5 Input-processing-output (I-p-o) Chart",
+    "_id": "m17f33kkth1cmmm9e7skkyf1x18e0ap5",
+    "exerciseId": "xd75fevg4snedvhmpr1f2gkacd8e0es0",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "Input: the four boys' ages (age1, age2, age3, age4).",
+      "Process: total = age1 + age2 + age3 + age4; average = total / 4.",
+      "Output: display total age and average age."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "IPO chart: Input = ages A, B, C, and D of the four boys. Process = total = A + B + C + D; average = total ÷ 4. Output = display the total age and the average age.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Create an IPO chart which will accept the ages of four boys and calculate their total age and average age. The program must display both the total age and the average age.",
+    "topicId": "ms7ctfr0wr377jnhwyky6xjt6x8btqsj"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-input-processing-output-i-p-o-chart",
+    "topicTitle": "2.5 Input-processing-output (I-p-o) Chart",
+    "_id": "m17amj4z1akezytcdwf1ef1kad8e1yt6",
+    "exerciseId": "xd75fevg4snedvhmpr1f2gkacd8e0es0",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "Input: two numbers (num1, num2) and the chosen operation.",
+      "Process: based on the chosen operation, compute num1+num2, num1-num2, num1*num2, or num1/num2.",
+      "Output: display the result of the chosen operation."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "IPO chart: Input = two numbers x and y and the selected operation (+, −, ×, or ÷). Process = perform the selected operation; for division, check that y is not zero. Output = display the resulting value, or a clear error when division by zero is requested.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Create an IPO chart of a scenario that allows a user to enter in two numbers. The operation to be performed is either addition, subtraction, multiplication or division and accordingly the output should be given to the user.",
+    "topicId": "ms7ctfr0wr377jnhwyky6xjt6x8btqsj"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-6-computational-thinking",
+    "topicTitle": "2.6 Computational Thinking",
+    "_id": "m17aw648m3crjwehxp9q92as8n8e1jwx",
+    "correctKey": "D",
+    "exerciseId": "xd7ezq257tp1t9xgatjkpnwe498e156z",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "Computational thinking is a general problem-solving approach (breaking problems down logically), not programming or coding itself.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Programming"
+      },
+      {
+        "key": "B",
+        "text": "Thinking like a computer"
+      },
+      {
+        "key": "C",
+        "text": "Coding"
+      },
+      {
+        "key": "D",
+        "text": "Logically solving problems"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Computational thinking is:",
+    "topicId": "ms75mxyrdj22fs3dxt9bxj0v418btmtc"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-6-computational-thinking",
+    "topicTitle": "2.6 Computational Thinking",
+    "_id": "m179e5xfkrh9a2acg2v0x2a7w98e06rh",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Computational thinking is a structured approach (decomposition, pattern recognition, abstraction, algorithms) specifically used to formulate problems so a computer can solve them, while logical thinking is the general human ability to reason step by step, which computational thinking builds on but is not limited to computing.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Differentiate between Computational thinking and Logical thinking.",
+    "topicId": "ms75mxyrdj22fs3dxt9bxj0v418btmtc"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-6-computational-thinking",
+    "topicTitle": "2.6 Computational Thinking",
+    "_id": "m172bnzndkmzkvyjhrxqhkat5h8e1cpt",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Computational thinking lets us break real-world problems into steps a computer can execute, helping us design efficient, logical solutions rather than relying on guesswork.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Why do we need to think computationally?",
+    "topicId": "ms75mxyrdj22fs3dxt9bxj0v418btmtc"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-7-principles-of-computational-thinking",
+    "topicTitle": "2.7 Principles of Computational Thinking",
+    "_id": "m172w6c3h42cknf72f0rmw45298e0qsx",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Four properties: decomposition (breaking a problem into parts), pattern recognition (finding similarities), abstraction (focusing on relevant details), and algorithm design (creating step-by-step instructions).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Write four properties of Computational thinking.",
+    "topicId": "ms74zsrgy7pgrp7pftz2h96ebh8bvc8n"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-7-principles-of-computational-thinking",
+    "topicTitle": "2.7 Principles of Computational Thinking",
+    "_id": "m17bz4wz5a309cb40kxbvtvebx8e0jr1",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Decomposition is the computational thinking technique that breaks a problem down into smaller, more manageable parts.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Which Computational thinking technique breaks down the problem into smaller parts?",
+    "topicId": "ms74zsrgy7pgrp7pftz2h96ebh8bvc8n"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-7-principles-of-computational-thinking",
+    "topicTitle": "2.7 Principles of Computational Thinking",
+    "_id": "m17141zr7560rx249zje1agt998e16br",
+    "exerciseId": "xd75fevg4snedvhmpr1f2gkacd8e0es0",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "a) Input: budget, guest list, venue options, food/decoration choices. Process: decide venue, allocate budget across food/decorations/entertainment, finalize guest list. Output: a finished party plan.",
+      "b) Properties of computational thinking: decomposition, pattern recognition, abstraction, and algorithm design -- the same four properties used generally to break down and solve any problem, including planning a party."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Birthday-party IPO chart: Input = friend’s name, date, guest list, budget, venue, food, and activities. Process = choose a feasible plan, calculate the budget, arrange invitations and supplies, and schedule the activities. Output = the confirmed party plan, invitations, shopping list, and total cost. Computational-thinking properties applied are decomposition (break planning into tasks), abstraction (retain essential details), pattern recognition (reuse a successful party plan), and algorithm design (order the preparation steps).",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The child wants to plan a birthday party for their friend. a) Draw an IPO chart of this situation. b) Write down properties of computational thinking.",
+    "topicId": "ms74zsrgy7pgrp7pftz2h96ebh8bvc8n"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-8-methods-to-design-a-solution",
+    "topicTitle": "2.8 Methods to Design a Solution",
+    "_id": "m176nzqk54bgqs9sh2xfbarabs8c63yz",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Squares & triangle"
+      },
+      {
+        "key": "B",
+        "text": "Boxes & circles"
+      },
+      {
+        "key": "C",
+        "text": "Stars & polygons"
+      },
+      {
+        "key": "D",
+        "text": "Rectangle & hexagons"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Which shapes are used to represent concepts in a concept map?",
+    "topicId": "ms73s75d6srf46ddxhnrq07dtd8bt1j0",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-8-methods-to-design-a-solution",
+    "topicTitle": "2.8 Methods to Design a Solution",
+    "_id": "m172v6t6h5hh8g04j7zhm8kxyh8e1baq",
+    "exerciseId": "xd75s4x4rfcv953jnjdnxtd9m58e0ag7",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Solutions are commonly designed using flowcharts, algorithms (step-by-step instructions) and IPO charts.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "What are the methods used to design a solution?",
+    "topicId": "ms73s75d6srf46ddxhnrq07dtd8bt1j0"
+  }
+]

@@ -1,0 +1,1460 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m179fwxmk09kd1hpvsv7qtvnws85q297",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "K-means clustering is an example of unsupervised learning statistical modelling technique. It is a partitioning method that groups data points into K clusters by minimizing the within-cluster sum of squares. Each data point is assigned to the nearest cluster center (centroid), and centroids are iteratively updated until convergence. K-means does not require labeled training data, making it a fundamental unsupervised learning algorithm used for data segmentation and pattern discovery.",
+    "keyPoints": [
+      "K-means is an unsupervised learning technique",
+      "It partitions data into K clusters",
+      "Uses iterative centroid-based approach",
+      "Minimizes within-cluster variance",
+      "Does not require labeled data",
+      "Used for data segmentation and clustering"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "K-means clustering is an example of unsupervised learning statistical modelling technique. It is a partitioning method that groups data points into K clusters by minimizing the within-cluster sum of squares. Each data point is assigned to the nearest cluster center (centroid), and centroids are iteratively updated until convergence. K-means does not require labeled training data, making it a fundamental unsupervised learning algorithm used for data segmentation and pattern discovery.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Supervised learning"
+      },
+      {
+        "key": "B",
+        "text": "Semi-supervised learning"
+      },
+      {
+        "key": "C",
+        "text": "Reinforcement learning"
+      },
+      {
+        "key": "D",
+        "text": "Unsupervised learning"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "**K-means clustering** is an example of the following statistical modelling technique:",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m17bajqshtkwc90xws73p7gq5h85q7eg",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Supervised learning requires labeled training data with known outputs; unsupervised learning uses unlabeled data",
+      "Supervised learning predicts specific outcomes; unsupervised learning discovers hidden patterns and structures",
+      "Supervised learning example: spam email classification with labeled training data",
+      "Unsupervised learning example: customer segmentation without predefined categories",
+      "Supervised learning is more accurate for specific tasks; unsupervised learning is useful for exploration and pattern discovery",
+      "Supervised learning requires human effort to label data; unsupervised learning is more autonomous"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Supervised learning is a machine learning approach where the algorithm learns from labeled training data, meaning each input has a corresponding correct output. The algorithm uses these examples to predict outputs for new inputs. In contrast, unsupervised learning works with unlabeled data, where the algorithm identifies patterns, structures, or relationships without predefined answers. Daily life example for supervised learning: Email spam filtering, where the system learns from emails labeled as 'spam' or 'not spam' to classify new incoming emails. Daily life example for unsupervised learning: Grouping customers in a shopping mall by their purchasing behavior without predefined categories, the system discovers natural groups on its own. Another supervised example: Weather prediction using historical labeled data of temperature, humidity, and rainfall. Another unsupervised example: Netflix recommending movies by finding patterns in user viewing habits without explicit instructions on which movies to group together.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Differentiate between **supervised** and **unsupervised learning** with daily life examples.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m179q7dn3bq2zhx0fvraykrbm985pfae",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The relationship between entities COLLEGE and DEPARTMENT is one-to-many (1:M). One college can have multiple departments, but each department belongs to only one college. This is a fundamental hierarchical relationship in database design where COLLEGE is the parent entity and DEPARTMENT is the child entity.",
+    "keyPoints": [
+      "Identifies the relationship type as one-to-many (1:M)",
+      "Explains that one college has multiple departments",
+      "States that each department belongs to only one college",
+      "Recognizes the hierarchical parent-child relationship structure"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The relationship between entities COLLEGE and DEPARTMENT is one-to-many (1:M). One college can have multiple departments, but each department belongs to only one college. This is a fundamental hierarchical relationship in database design where COLLEGE is the parent entity and DEPARTMENT is the child entity.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Recursive"
+      },
+      {
+        "key": "B",
+        "text": "Unary"
+      },
+      {
+        "key": "C",
+        "text": "Binary"
+      },
+      {
+        "key": "D",
+        "text": "Ternary"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "The relationship between entities **COLLEGE** and **DEPARTMENT** is:",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m172a8m64h4bdvmqnm0eca8b0s85qpm3",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The term that refers to the minimum number of times an instance of one entity is associated with instances of a related entity is **cardinality** (specifically, minimum cardinality). In database design, cardinality defines the relationship constraints between entities, indicating whether each instance must be associated with at least one instance of the related entity or can exist independently.",
+    "keyPoints": [
+      "Cardinality defines the minimum and maximum number of entity instances in a relationship",
+      "Minimum cardinality indicates if an entity instance must be associated with related entities (mandatory or optional)",
+      "Expressed as 1:1, 1:N, or M:N relationships in Entity-Relationship (ER) diagrams",
+      "Essential for database integrity and constraint enforcement"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The term that refers to the minimum number of times an instance of one entity is associated with instances of a related entity is **cardinality** (specifically, minimum cardinality). In database design, cardinality defines the relationship constraints between entities, indicating whether each instance must be associated with at least one instance of the related entity or can exist independently.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modality"
+      },
+      {
+        "key": "B",
+        "text": "Hierarchy"
+      },
+      {
+        "key": "C",
+        "text": "Cardinality"
+      },
+      {
+        "key": "D",
+        "text": "Feasibility"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Which of the following refers to the minimum number of times an instance of one entity associated with the instances of related entity?",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m179x9sphr6kb4nfyrd9rr6jzd8e3157",
+    "correctKey": "A",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Supervised learning is one of the main categories of statistical modeling, alongside unsupervised learning.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Statistical modeling"
+      },
+      {
+        "key": "B",
+        "text": "Data waggling"
+      },
+      {
+        "key": "C",
+        "text": "Data collection"
+      },
+      {
+        "key": "D",
+        "text": "Evaluation modeling"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Supervised learning is one of the main categories of ____.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m176p7wqpfamx1vtqngefwajvh8e2ehj",
+    "correctKey": "B",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Predictive statistical models are commonly used to forecast natural disasters such as cyclones so preventive measures can be taken.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Pandemic"
+      },
+      {
+        "key": "B",
+        "text": "Cyclones"
+      },
+      {
+        "key": "C",
+        "text": "Data analysis"
+      },
+      {
+        "key": "D",
+        "text": "Temperature"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Natural disaster prediction helps people to take preventive measures against ____.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m17b6gtta0hgefcn6w85yc2v6d8e27zf",
+    "correctKey": "A",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "A linear regression equation predicts a response value from a given predictor value.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Predictor value"
+      },
+      {
+        "key": "B",
+        "text": "Variable"
+      },
+      {
+        "key": "C",
+        "text": "Intercepts"
+      },
+      {
+        "key": "D",
+        "text": "Model"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "A linear regression model is a mathematical equation that allows us to predict a response for a given ____.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m172e6a8b2rcbq630vxkzymmqh8e37an",
+    "correctKey": "B",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "The point where a line crosses the y-axis is called the y-intercept.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Y-axis"
+      },
+      {
+        "key": "B",
+        "text": "Y-intercept"
+      },
+      {
+        "key": "C",
+        "text": "Y-coordinates"
+      },
+      {
+        "key": "D",
+        "text": "Y-dimensions"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "A point where the graph line meets the y-axis is called ____.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m17b5vw2vvf03q36fzv4a2rk418e2ea6",
+    "correctKey": "C",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Clustering is a classic unsupervised learning technique, since it groups unlabeled data without predefined categories.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Classical learning"
+      },
+      {
+        "key": "B",
+        "text": "Professional learning"
+      },
+      {
+        "key": "C",
+        "text": "Unsupervised learning"
+      },
+      {
+        "key": "D",
+        "text": "Cognitive learning"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Clustering algorithms are examples of ____.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m17ceem8e41my69a4skmq7x8198e3nwb",
+    "correctKey": "A",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Python code (e.g. using libraries like NumPy/random) is used to generate random numbers for creating sample datasets, as shown elsewhere in this chapter's activities.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Python code"
+      },
+      {
+        "key": "B",
+        "text": "Data code"
+      },
+      {
+        "key": "C",
+        "text": "System code"
+      },
+      {
+        "key": "D",
+        "text": "Pseudo code"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "We can create our own database by generating some random numbers by using ____.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m17bzq439gachphewbzhwc0k498e3mej",
+    "exerciseId": "xd79ee8rvnp55n9kv6ndt6b52s8e3t97",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Statistical modeling techniques let us describe relationships in data and make predictions, which is valuable for planning, forecasting and decision-making.",
+      "Linear regression: models the relationship between a predictor and a response as a straight line, used for prediction.",
+      "Classification: assigns data points into predefined categories, used for tasks like distinguishing spam from non-spam.",
+      "Clustering (unsupervised learning): groups similar unlabeled data points together to reveal hidden structure.",
+      "Supervised vs unsupervised learning as the two overarching families these techniques fall under.",
+      "Argument: each technique suits different problems and data (labeled vs unlabeled, prediction vs categorization vs grouping), so a data scientist chooses the technique matching the actual question being asked."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Statistical modeling is the use of mathematical models and statistical assumptions to generate sample data and make predictions about the real world. A statistical model is a collection of probability distributions on a set of all possible outcomes of an experiment. It shows that variable $y$ is a dependent variable because it is dependent on variable x. Figure 4.1 shows this relationship graphically.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Argue about the use of statistical modeling techniques. Highlight all techniques discussed in this unit.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m17cewk18cvney8dxdd34mef658e3p50",
+    "exerciseId": "xd79ee8rvnp55n9kv6ndt6b52s8e3t97",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Linear regression predicts a continuous numeric output (e.g. a price, a temperature) from one or more predictor variables using a straight-line equation.",
+      "Classification predicts a discrete category/label (e.g. spam vs not-spam, disease vs no disease) for a given input.",
+      "Both are supervised learning techniques: they are trained on labeled data and validated against known outcomes.",
+      "Role in statistical modeling: regression is used when the question is 'how much/what value', while classification is used when the question is 'which category'."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "- Data analysis: is the primary step, where data is cleaned, explored, and summarized, providing insights and information for the construction of statistical models to make predictions or draw inferences about real-world phenomena. - Statistical modeling: is the use of mathematical models and statistical assumptions to generate sample data and make predictions about the real world. - Statistical model: is a collection of probability distributions on a set of all possible outcomes of an experiment. - Use case: is a methodology used in system analysis to identify, clarify, and organize a system. A use case is a description of how the users will perform tasks or achieve the goal. - Supervised learning model: uses a labeled dataset for learning, with an answer key to determine accuracy as it trains on the data. - Regression model: is predictive model designed to analyze the relationship between independent and dependent variables. - Linear regression model: is a mathematical equation that allows us to predict a response for a given predictor value. - Classification model: analyzes and classifies a large and complex set of data points.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Compare linear regression and classification. Emphasize their respective roles in statistical modeling.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m171r34sf1zgympmwpgc5q3bex8e24cb",
+    "exerciseId": "xd79ee8rvnp55n9kv6ndt6b52s8e3t97",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Supervised learning (defended here): trains on labeled data, so it can be evaluated for accuracy against known correct answers, making it more reliable for prediction tasks like regression and classification.",
+      "Unsupervised learning (the alternative) works on unlabeled data, so its output (e.g. clusters) has no ground truth to check against, making results harder to validate.",
+      "Reasoning for the preference: when labeled data is available, supervised learning gives clearer, checkable, more directly usable predictions for real decisions, whereas unsupervised learning is more exploratory and its findings still need human interpretation."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A use case is a description of how the users will perform tasks or achieve the goal. - Supervised learning model: uses a labeled dataset for learning, with an answer key to determine accuracy as it trains on the data. - Regression model: is predictive model designed to analyze the relationship between independent and dependent variables. - Linear regression model: is a mathematical equation that allows us to predict a response for a given predictor value. - Classification model: analyzes and classifies a large and complex set of data points. Common models include decision trees, Naive Bayes, the nearest neighbor, random forests, and neural networking models. - Unsupervised learning: is given unlabeled data and attempts to extract features and determine patterns independently. - K-means clustering: combines a specified number of data points into specific groupings based on similarities. - Reinforcement learning: involves training the algorithm to iterate over many attempts using deep learning. - Experimental design: is about precise planning and design to ensure that you have the appropriate data and design for your analysis or studies so that erroneous conclusions can be prevented. - Randomization: is the technique of dividing people into various treatment groups at random. This approach guarantees that the treatment is the reason that any other factors are to blame for the outcomes.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Defend either supervised learning or unsupervised learning. Give reasons for your preference over the other.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "m174raj05b9j34bg723d47j2eh8e2p00",
+    "exerciseId": "xd79ee8rvnp55n9kv6ndt6b52s8e3t97",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Amazon: uses purchase-history and browsing data to build recommendation models that suggest products, increasing sales.",
+      "Netflix: uses viewing-history data and statistical/clustering models to recommend shows and personalize the user's home screen.",
+      "Spotify: analyzes listening data to build personalized playlists (e.g. Discover Weekly), keeping users engaged and subscribed.",
+      "In each case, data science techniques (data collection, modeling, and analysis) are used to understand customer behavior and target marketing/product decisions more effectively, directly improving business outcomes."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Facebook A/B testing: A/B testing, also known as split testing, is a method used by companies like Facebook to compare two versions of something to figure out which one performs better. In the context of Facebook or other online platforms, this often involves testing different versions of a webpage, app feature, or advertisement to see which one leads to better results. AirBnB uses data science to help renters set their prices: Airbnb uses statistical experimentation, such as A/B testing, to enhance its platform and user experience. For instance, when testing a new feature like a redesigned booking flow or a different search algorithm, Airbnb would create two versions (A and B) and randomly assign users to each group. By collecting and analyzing data on user interactions, conversion rates, or other relevant metrics, Airbnb can determine which version performs better.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Relate some real-world examples (other than Airbnb, Facebook and YouTube) where data science was used to improve marketing strategies and enhance business.",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m1734gy6kcnqbahteekkk81emd85qds2",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A typical survey question is a question asked directly to respondents to gather primary data about their opinions, behaviors, or characteristics. Examples include closed-ended questions like \"How satisfied are you with this service?\" (with rating scales) or open-ended questions like \"What improvements would you suggest?\" Survey questions are used in data collection strategies to obtain first-hand information from specific populations.",
+    "keyPoints": [
+      "Survey questions are used to collect primary data directly from respondents",
+      "Can be closed-ended (with predefined options/scales) or open-ended (requiring written responses)",
+      "Designed to gather information about opinions, behaviors, experiences, or demographics",
+      "Part of systematic data collection strategies in research and database development",
+      "Should be clear, unbiased, and relevant to the research hypothesis or objective"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A typical survey question is a question asked directly to respondents to gather primary data about their opinions, behaviors, or characteristics. Examples include closed-ended questions like \"How satisfied are you with this service?\" (with rating scales) or open-ended questions like \"What improvements would you suggest?\" Survey questions are used in data collection strategies to obtain first-hand information from specific populations.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Solve $5 \\times 7 = ?$"
+      },
+      {
+        "key": "B",
+        "text": "What is the capital of China?"
+      },
+      {
+        "key": "C",
+        "text": "How many hours do you spend on the internet daily?"
+      },
+      {
+        "key": "D",
+        "text": "What is the boiling point of water?"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "Which of the following is an example of a typical survey question?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m174wj2vrr7wrjwrhat5ra771s85qh9s",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Qualitative interviews are a primary data collection method that gathers in-depth, open-ended responses from participants to understand their perspectives, experiences, and motivations. They produce rich, descriptive data rather than numerical measurements.",
+    "keyPoints": [
+      "Qualitative interviews are a primary data collection strategy",
+      "They gather open-ended, in-depth responses from participants",
+      "They produce descriptive/narrative data rather than quantitative data",
+      "They help understand perspectives, experiences, and motivations of respondents",
+      "They are used to explore complex phenomena in detail"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Qualitative interviews are a primary data collection method that gathers in-depth, open-ended responses from participants to understand their perspectives, experiences, and motivations. They produce rich, descriptive data rather than numerical measurements.",
+    "options": [
+      {
+        "key": "A",
+        "text": "They have only one-word answers"
+      },
+      {
+        "key": "B",
+        "text": "They focus on open-ended questions"
+      },
+      {
+        "key": "C",
+        "text": "They only collect numerical data"
+      },
+      {
+        "key": "D",
+        "text": "They follow a strict set of yes/no questions"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Which of the following is a characteristic of **qualitative interviews**?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17721ca5bb6mwqssy9e4exc6585qjb9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Parameter is a fixed value describing the entire population; statistic is calculated from a sample",
+      "Parameters are usually unknown and estimated using statistics",
+      "Daily life example: population average vs. sample average demonstrates the relationship clearly",
+      "Statistics provide practical estimates when measuring entire populations is impossible or impractical",
+      "Understanding the distinction is crucial for data analysis and drawing valid conclusions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **parameter** is a numerical characteristic of an entire population, while a **statistic** is a numerical characteristic calculated from a sample of that population. For example, if we want to know the average height of all students in Pakistan (parameter), we cannot measure every student. Instead, we measure heights of 500 students from different cities (sample) and calculate their average height (statistic). The statistic estimates the parameter. Similarly, a teacher wanting to know the average score of all class 11 students in FBISE would use the average score of students in their school (statistic) to estimate the national average (parameter).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "session": "annual",
+    "stem": "Compare **Parameter** and **Statistics** with daily life example.",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17b6mqg4jkzsr17vbaa2dw3y585pnkp",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: Sample is a subset/portion of the population selected for investigation",
+      "Cost-effectiveness: Sampling reduces expenses compared to studying entire population",
+      "Time efficiency: Faster data collection and analysis with smaller sample size",
+      "Practicality: Easier to manage, control, and maintain quality of data collection",
+      "Reliability: Well-designed samples can produce valid conclusions about the population"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **sample** is a subset of a population selected for study or analysis. Instead of studying an entire population, samples are often used because they are more **cost-effective**, require **less time**, and are more **practical** to manage. Sampling allows researchers to draw reliable conclusions about the population while conserving resources and maintaining data quality.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "28",
+    "session": "annual",
+    "stem": "What is a **sample**? Why is it often used instead of studying an entire population?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17cqg8tynxz3k1mpka0tqswk985ptm3",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correlation shows two variables move together statistically; causation means one variable directly causes changes in another",
+      "Correlated variables may both be influenced by a third variable (confounding variable) rather than causing each other",
+      "Experimental design with controlled independent and dependent variables can establish causal relationships",
+      "Observational studies typically reveal only correlation, not causation",
+      "Real-world examples demonstrate how correlation without causation leads to misleading conclusions (ice cream/drowning, shoe size/reading ability)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Correlation** describes a statistical relationship where two variables move together, but does not imply one causes the other. **Causation** means one variable directly causes changes in another. For example, ice cream sales and drowning deaths are correlated (both increase in summer), but ice cream does not cause drowning, temperature is the underlying cause. Similarly, shoe size correlates with reading ability in children, but larger shoes don't improve reading; age causes both. Experimental design with controlled independent and dependent variables can establish causation, while observational studies typically only reveal correlation. Understanding this distinction is critical in data science to avoid drawing false conclusions from data patterns.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Explain the differences between **Correlation** and **Causation** with examples.",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17eanyv9v5fhdgf175sbe66bd85qhws",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The maximum number of instances of one entity associated with each instance of a related entity is called **cardinality**. Cardinality defines the relationship constraints between entities in a database, specifying whether the relationship is one-to-one, one-to-many, or many-to-many.",
+    "keyPoints": [
+      "Cardinality defines the maximum number of entity instances in a relationship",
+      "Expresses relationship constraints between entities (1:1, 1:N, M:N)",
+      "Essential for database design and entity-relationship modeling",
+      "Determines how data is organized and linked in relational databases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The maximum number of instances of one entity associated with each instance of a related entity is called **cardinality**. Cardinality defines the relationship constraints between entities in a database, specifying whether the relationship is one-to-one, one-to-many, or many-to-many.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modality"
+      },
+      {
+        "key": "B",
+        "text": "Cardinality"
+      },
+      {
+        "key": "C",
+        "text": "Relational schema"
+      },
+      {
+        "key": "D",
+        "text": "Relationship degree"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "The maximum number of instances of one entity associated with each instance of a related entity is called:",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m172a8m64h4bdvmqnm0eca8b0s85qpm3",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The term that refers to the minimum number of times an instance of one entity is associated with instances of a related entity is **cardinality** (specifically, minimum cardinality). In database design, cardinality defines the relationship constraints between entities, indicating whether each instance must be associated with at least one instance of the related entity or can exist independently.",
+    "keyPoints": [
+      "Cardinality defines the minimum and maximum number of entity instances in a relationship",
+      "Minimum cardinality indicates if an entity instance must be associated with related entities (mandatory or optional)",
+      "Expressed as 1:1, 1:N, or M:N relationships in Entity-Relationship (ER) diagrams",
+      "Essential for database integrity and constraint enforcement"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The term that refers to the minimum number of times an instance of one entity is associated with instances of a related entity is **cardinality** (specifically, minimum cardinality). In database design, cardinality defines the relationship constraints between entities, indicating whether each instance must be associated with at least one instance of the related entity or can exist independently.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modality"
+      },
+      {
+        "key": "B",
+        "text": "Hierarchy"
+      },
+      {
+        "key": "C",
+        "text": "Cardinality"
+      },
+      {
+        "key": "D",
+        "text": "Feasibility"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Which of the following refers to the minimum number of times an instance of one entity associated with the instances of related entity?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m176jepqf6x31xmh59ez2ns1t185qffb",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A **Foreign Key** is used in the relationship between tables whose value matches with the primary key in another table. It establishes a link between two tables by referencing the primary key of one table in another table, ensuring referential integrity and maintaining relationships in a relational database.",
+    "keyPoints": [
+      "Foreign Key is a field that references the Primary Key of another table",
+      "It establishes relationships between tables in a relational database",
+      "Foreign Key values must match existing Primary Key values in the referenced table",
+      "It ensures referential integrity and data consistency",
+      "Foreign Key allows data to be linked across multiple tables"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A **Foreign Key** is used in the relationship between tables whose value matches with the primary key in another table. It establishes a link between two tables by referencing the primary key of one table in another table, ensuring referential integrity and maintaining relationships in a relational database.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Secondary key"
+      },
+      {
+        "key": "B",
+        "text": "Candidate key"
+      },
+      {
+        "key": "C",
+        "text": "Foreign key"
+      },
+      {
+        "key": "D",
+        "text": "Alternate key"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Which of the following is used in relationship between tables whose value matches with the primary key in another table?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17147gvp3wg22sfa3ze290spd8e2vfg",
+    "correctKey": "C",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Weather-related statistics are commonly acquired as existing data from the meteorological department rather than being freshly collected.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Sampling department"
+      },
+      {
+        "key": "B",
+        "text": "Modeling techniques"
+      },
+      {
+        "key": "C",
+        "text": "Meteorological department"
+      },
+      {
+        "key": "D",
+        "text": "Educational department"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "For accurate data collection, existing data from ____ is acquired.",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17f8sctpdpd6bbr99z8b1daf98e37t7",
+    "correctKey": "D",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Flawed data collection methods introduce errors, so analysis based on that data becomes more erroneous.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Accurate"
+      },
+      {
+        "key": "B",
+        "text": "Huge"
+      },
+      {
+        "key": "C",
+        "text": "No result can be drawn"
+      },
+      {
+        "key": "D",
+        "text": "Erroneous"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "If there are some flaws in the data collection method, after analyzing such data the result would be more ____.",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17awr7ye3hjwzt1pg7agb3avs8e2jqg",
+    "correctKey": "D",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Experimental design is used to test hypotheses/results effectively under controlled conditions.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Add"
+      },
+      {
+        "key": "B",
+        "text": "Evaluate"
+      },
+      {
+        "key": "C",
+        "text": "Organize"
+      },
+      {
+        "key": "D",
+        "text": "Test"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Experimental design is a tool used to ____ the result effectively.",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17ejwqcnd4dy5gqb3nndzqtqx8e3ddg",
+    "exerciseId": "xd74chwj9jsz8reh78j7d2b9hd8e3zrv",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "1) Visit the library and consult trade/economic reference sections or government publications. 2) Search library catalogs and databases for reports from bodies like the State Bank of Pakistan or the Federal Bureau of Statistics. 3) Note down export figures/product categories for each of the five years from these published records. 4) Cross-check figures across more than one published source for accuracy. 5) Organize the collected data into a table before building the report.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "If you want to make a report regarding the products exported from Pakistan in the last five years, how can libraries help you to collect data? Write steps.",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m1774wfn8mt19rbk5j3tqbwxrd8e2hfh",
+    "exerciseId": "xd79ee8rvnp55n9kv6ndt6b52s8e3t97",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "State the objective: raise awareness of food security in a target community using a narrative visualization (a story told through data and visuals).",
+      "Define the population and a representative sample (e.g. households in a district) and the variables to collect: food availability, affordability, and access.",
+      "Design the data collection method: surveys/interviews of sampled households, plus existing government food-security statistics.",
+      "Plan the narrative visualization: a sequence of charts/graphics (e.g. maps of food scarcity, bar charts of affordability over time) arranged to tell a clear story of the issue.",
+      "Conclude with the intended outcome: the visualization should make the food-security problem understandable and emotionally engaging to drive awareness and action."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "c relate the role and importance of model building with their real-world applications. (c) understand and explain experimental design in data science. - analyze pre-existing datasets to create summary statistics and data visuals (such as bar charts, pie charts, line graphs, etc.)",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Simulate, on paper, an experimental design for awareness of food security (Narrative Visualization).",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "m17b0vh5y2tjhwazgm7408pvas8e39de",
+    "exerciseId": "xd79ee8rvnp55n9kv6ndt6b52s8e3t97",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Surveys/questionnaires: directly asking affected individuals about symptoms, onset date, and exposure.",
+      "Interviews: structured conversations with patients or healthcare workers to gather detailed case information.",
+      "Direct observation/clinical records: recording confirmed case counts and symptoms directly at clinics/hospitals.",
+      "Sampling: testing a representative sample of the population (e.g. random swab testing) rather than the whole population, to estimate outbreak spread.",
+      "All of these are primary methods because the data is collected first-hand for this specific outbreak, rather than reused from an existing source."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This principle makes sure that the results aren't affected by group differences. - Correlation: describes an association between types of variables. - Causation means that changes in one variable bring about changes in the other variable. - Population is a complete set of people with a specialized set of characteristics. - Sample: is a subset of the population. - Parameter: is number that describes something (usually mean) about the whole population - Statistics: are number that describes something (usually mean) about the sample or describe properties of sample. - Mean, MEDIAN AND Mode are different types of averages used to represent typical values in a population. - Data collection: is the process of collecting, measuring, and analyzing different types of information using a set of standard validated techniques. - Primary data: refers to data collected from firsthand experience directly from the main source. It refers to data that has never been used in the past. Here are some of the most common primary data collection methods: - Interviews: are a direct method of data collection. - Observations: is the method, in which researchers observe a situation around them and record the findings. - Surveys and Questionnaires: provide a broad perspective from large groups of people. - Focus Groups: is similar to an interview, but it is conducted with a group of people who all have something in common. - Oral Histories: involve asking questions like interviews and focus groups. However, it is defined more precisely, and the data collected is linked to a single phenomenon. - Secondary data: refers to data that has already been collected by someone else.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Sketch primary data collection methods in the context of a disease outbreak, like seasonal flu.",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m1716wece84t3r7dex3wq045t985pcgb",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies clarity as a feature enabling effective communication of patterns and trends",
+      "Identifies accuracy as a feature ensuring truthful and unbiased data representation",
+      "Identifies accessibility as a feature making data insights understandable through appropriate visual tools",
+      "Explains how each feature contributes to effective data presentation",
+      "Uses appropriate terminology (patterns, trends, bias, raw data)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three features of data visualization are: (1) **Clarity**, visualizations present complex data in an easy-to-understand format that communicates patterns and trends effectively; (2) **Accuracy**, data is represented truthfully without distortion or bias to support valid conclusions; (3) **Accessibility**, visualizations use appropriate charts, graphs, and tables that make data insights quickly understandable to diverse audiences without requiring examination of raw numbers.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Write down any three features of **data visualization**.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m17721ca5bb6mwqssy9e4exc6585qjb9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Parameter is a fixed value describing the entire population; statistic is calculated from a sample",
+      "Parameters are usually unknown and estimated using statistics",
+      "Daily life example: population average vs. sample average demonstrates the relationship clearly",
+      "Statistics provide practical estimates when measuring entire populations is impossible or impractical",
+      "Understanding the distinction is crucial for data analysis and drawing valid conclusions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **parameter** is a numerical characteristic of an entire population, while a **statistic** is a numerical characteristic calculated from a sample of that population. For example, if we want to know the average height of all students in Pakistan (parameter), we cannot measure every student. Instead, we measure heights of 500 students from different cities (sample) and calculate their average height (statistic). The statistic estimates the parameter. Similarly, a teacher wanting to know the average score of all class 11 students in FBISE would use the average score of students in their school (statistic) to estimate the national average (parameter).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "session": "annual",
+    "stem": "Compare **Parameter** and **Statistics** with daily life example.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m174fwfjmrhq3ewpsr6w7nee4585qc6p",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A SELECT query with a WHERE clause is used to extract data from tables based on specified criteria. The SELECT statement retrieves columns from one or more tables, while the WHERE clause filters the results by applying conditions. For example: SELECT * FROM Students WHERE Age > 18; retrieves all records where the age is greater than 18.",
+    "keyPoints": [
+      "SELECT query is the primary query type for extracting data",
+      "WHERE clause specifies the criteria/conditions for filtering",
+      "SELECT statement can retrieve specific columns or all columns (*)",
+      "Multiple conditions can be combined using AND, OR operators",
+      "The query returns only rows that satisfy the specified criteria"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A SELECT query with a WHERE clause is used to extract data from tables based on specified criteria. The SELECT statement retrieves columns from one or more tables, while the WHERE clause filters the results by applying conditions. For example: SELECT * FROM Students WHERE Age > 18; retrieves all records where the age is greater than 18.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Action query"
+      },
+      {
+        "key": "B",
+        "text": "Select query"
+      },
+      {
+        "key": "C",
+        "text": "Update query"
+      },
+      {
+        "key": "D",
+        "text": "Insert query"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "session": "annual",
+    "stem": "Which type of query is used to extract data from tables based on specified criteria?",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m176md47g64ea6tf80d4zy4s8585q4cz",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "INSERT - adds new data records into tables",
+      "UPDATE - modifies existing data in tables",
+      "DELETE - removes data records from tables",
+      "DML focuses on data manipulation rather than database structure",
+      "These are the primary CRUD operations for data management"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Data Manipulation Language (DML) is used to manage data within database objects. Three main tasks of DML are: (1) INSERT - to add new records or rows into a table, (2) UPDATE - to modify or change existing data in a table, and (3) DELETE - to remove records or rows from a table. These operations allow users to manipulate and manage the actual data stored in the database.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "session": "annual",
+    "stem": "State any three tasks of **Data Manipulation Language**.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m1784n3k95wvhm9r6hp89ma80585q8re",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Field is a single data item; record is a collection of related fields",
+      "Field stores one attribute; record stores all attributes of one entity",
+      "Example field: Email address of a student",
+      "Example record: Complete information of one student (ID, Name, Email, Phone, Address)",
+      "Records are organized as rows in a table; fields are organized as columns"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A field is the smallest unit of data in a database that stores a single piece of information about an entity. A record is a collection of related fields that describes one complete instance of an entity. Example of field: 'StudentName' containing 'Ali Ahmed'. Example of record: One complete row in a student table containing StudentID (101), StudentName (Ali Ahmed), Class (11-A), and Marks (85) - all fields together form one record.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "24",
+    "session": "annual",
+    "stem": "Compare **'field'** and **'record'** with one example of each.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m17a9dqv6wsh4knc0qf1y9j40585qmez",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Book ID is the primary key as it uniquely identifies each record",
+      "Primary key must have unique values with no repetition",
+      "Book ID: Number/AutoNumber data type",
+      "Title: Text/Short Text data type",
+      "Available: Yes/No (Boolean) data type",
+      "Publish Date: Date/Time data type",
+      "Price: Currency data type (alternative)",
+      "Each field's data type should match the nature of data it stores"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Primary Key:** Book ID\n\nBook ID is the primary key because it uniquely identifies each record in the table. Each book has a distinct Book ID that does not repeat.\n\n**Suitable Data Types for Four Fields:**\n\n1. **Book ID** - Number (or AutoNumber) - stores unique numeric identifiers\n2. **Title** - Text (or Short Text) - stores book titles as text\n3. **Available** - Yes/No (Boolean) - stores true/false values for availability status\n4. **Publish Date** - Date/Time - stores dates in date format\n\n(Alternative: Price could be Currency data type for monetary values)",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "session": "annual",
+    "stem": "Identify the **Primary key** in the given MS-Access table, also mention suitable data type for any four fields:\n\n| Book ID | Title | Available | Publish Date | Price |\n| :--- | :--- | :--- | :--- | :--- |\n| 7110 | Python | No | 26/12/21 | 550 |\n| 7111 | Oracle | Yes | 22/01/23 | 660 |",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m1781q9av3kd8d695jhw1d09wx85qrjf",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines report as structured presentation of organized data and findings",
+      "Identifies tabular layout with rows and columns for data organization",
+      "Identifies narrative layout with descriptive text and interpretations",
+      "Explains purpose of reports in communicating research results",
+      "Distinguishes between the two layouts in terms of format and presentation style"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A report is a structured document that presents organized data, findings, and conclusions in a clear and systematic manner to communicate research results or information to stakeholders. Two common report layouts are: (1) **Tabular Layout**, data organized in rows and columns for easy comparison and reference, and (2) **Narrative Layout**, data presented in paragraph form with descriptive text, summary statistics, and interpretations woven together to tell a coherent story.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "session": "annual",
+    "stem": "What is **report**? Enlist any two report layouts.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m17fxdnq809qv2s60hgcs4wqnx8e254j",
+    "correctKey": "C",
+    "exerciseId": "xd7482yw58w08fpm5spasprt298e2pj1",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "A generalized observation drawn from collected data about a population's behavior is a statistic.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Parameter"
+      },
+      {
+        "key": "B",
+        "text": "Population"
+      },
+      {
+        "key": "C",
+        "text": "Statistics"
+      },
+      {
+        "key": "D",
+        "text": "Random sample"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "During summer, people of hot regions consume more cold items. This information is called ____.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m171r402dm1br3e138zmaa5mes8e2dpw",
+    "exerciseId": "xd74chwj9jsz8reh78j7d2b9hd8e3zrv",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Parameters (facts about a whole, defined population): c) There are 430 doctors in a hospital; e) the number of basketball team players having height above 6 feet (a specific, known team). Statistics (values estimated from a sample, used to describe a broader group): a) average height of a giraffe; b) average weight of a watermelon; d) average age of 6th-class students in a school.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "List out the parameters and statistics from the given statements:\na) Average length of height of a giraffe.\nb) Average weight of watermelon.\nc) There are 430 doctors in a hospital.\nd) Average age of students of 6th class in a school is 12 years.\ne) The number of a basketball team players having height above 6 feet.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m17c05yz38hb3fr1gthwvyncax8e2xc8",
+    "exerciseId": "xd74chwj9jsz8reh78j7d2b9hd8e3zrv",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Collect current market prices for five to ten vegetables (e.g. potato, onion, tomato, spinach, carrot). Assign each vegetable a slice of the pie chart sized in proportion to its price relative to the total of all chosen prices, label each slice with the vegetable name and price/percentage, and give the chart a title such as 'Vegetable Prices in the Local Market'.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Make a pie chart of vegetable prices in the market. Consider five to ten vegetables.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m17bchb5btbt9bbkksh7xr1z2n8e3tp0",
+    "exerciseId": "xd74chwj9jsz8reh78j7d2b9hd8e3zrv",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "1) Collect average monthly temperature readings for the city for each month of 2023. 2) Set up the x-axis to represent the twelve months (January-December) and the y-axis to represent temperature. 3) Plot a point for each month's temperature value. 4) Connect the points in sequence with straight lines. 5) Label the axes, add a title, and add gridlines/markers for readability.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "List the steps to represent the monthly temperatures of a Pakistani city in 2023 from January till December using a line graph.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "m1797e0vdpbvqd2z0qhp79bwe98e2dcm",
+    "exerciseId": "xd79ee8rvnp55n9kv6ndt6b52s8e3t97",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Use Python with libraries such as numpy, pandas and matplotlib.",
+      "Generate an array of x values, e.g. `x = numpy.linspace(-10, 10, 50)`, then compute `y = x**2 + 2*x`.",
+      "Store x and y together, e.g. in a pandas DataFrame with columns 'x' and 'y'.",
+      "Create a scatter plot: `matplotlib.pyplot.scatter(x, y)` with axis labels and a title, to visualize the x-y relationship.",
+      "Create a box plot: `matplotlib.pyplot.boxplot(y)` (or use the DataFrame's boxplot method) to visualize the spread/outliers of the generated y values.",
+      "Call `matplotlib.pyplot.show()` to display each plot."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "- Tips database: is the record of the tip given by the customers in a restaurant for two and a half months in the early 1990s. It contains 6 columns such as total bill, tip, sex, smoker, day, time, size. - Matplotlib: is an easy-to-use, low-level data visualization library that is built on NumPy arrays. It consists of various plots like scatter plot, line plot, histogram, etc. Matplotlib provides a lot of flexibility. - Scatter Plot: Scatter plots are used to observe relationships between variables and uses dots to represent the relationship between them. - Line Chart: is used to represent a relationship between two data $X$ and $Y$ on a different axis. - Bar Chart is a graph that represents the category of data with rectangular bars with lengths and heights that is proportional to the values which they represent. - Histogram: is used to represent data in the form of groups.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-11"
+    },
+    "stem": "Write Python code to generate a dataset with two variables where y = x^2 + 2x. Plot a scatter plot and a box plot for this data.",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc"
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "subjectSlug": "biology-11",
+    "chapterSlug": "13-chromosome-and-dna",
+    "chapterTitle": "Chromosome And DNA",
+    "topicSlug": "13-2-dna-as-the-hereditary-material",
+    "topicTitle": "13.2 DNA as the Hereditary Material",
+    "_id": "m177w4vy0jf4asswg0wmbr2y7585q9xf",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Option A is correct: Transformation.",
+    "keyPoints": [
+      "Transformation - the process of DNA uptake from the environment",
+      "Horizontal gene transfer between bacterial cells",
+      "DNA integration into the bacterial chromosome through recombination",
+      "Results in genetic variation and expression of new traits",
+      "Requires competence - the physiological state allowing DNA uptake",
+      "Discovered by Griffith in his classic bacterial experiments"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "In bacterial cells, the absorption of DNA from the medium into the cell results in transformation. This is a process of horizontal gene transfer where bacteria take up naked DNA fragments from their environment. The DNA passes through the cell wall and cell membrane, and if the DNA is homologous to the bacterial chromosome, it can integrate into the genome through recombination, resulting in genetic changes in the recipient cell. This process was first discovered by Frederick Griffith in his experiments with Streptococcus pneumoniae.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transformation"
+      },
+      {
+        "key": "B",
+        "text": "Transduction"
+      },
+      {
+        "key": "C",
+        "text": "Conjugation"
+      },
+      {
+        "key": "D",
+        "text": "Translation"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "In bacterial cell the absorption of DNA from medium to cell results in:",
+    "topicId": "ms74gr8xvc6zkbz4npks5nz9s585pj3s",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "biology-11",
+    "chapterSlug": "13-chromosome-and-dna",
+    "chapterTitle": "Chromosome And DNA",
+    "topicSlug": "13-3-dna-replication",
+    "topicTitle": "13.3 DNA Replication",
+    "_id": "m1793pcqxm0jv2xms1erbmg92185q2cf",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Meselson-Stahl experiment used ¹⁵N and ¹⁴N isotopes to track DNA replication",
+      "Tube 2 showed single heavy band (¹⁵N-¹⁵N) of parental DNA",
+      "Tube 3 showed single hybrid band (¹⁵N-¹⁴N) after first replication, proving semi-conservative mechanism",
+      "Tube 4 showed two bands: hybrid (¹⁵N-¹⁴N) and light (¹⁴N-¹⁴N) in 1:1 ratio after second replication",
+      "Results ruled out conservative and dispersive replication models",
+      "Density gradient centrifugation separated DNA based on density differences",
+      "Each DNA strand serves as template for new complementary strand"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Meselson and Stahl experiment demonstrated semi-conservative DNA replication using nitrogen isotopes and density gradient centrifugation. Initially, bacteria were grown in ¹⁵N medium (heavy nitrogen), producing DNA with both strands containing ¹⁵N. When transferred to ¹⁴N medium (light nitrogen), the DNA replication pattern was observed:\n\nTube 2 (0 minutes/Generation 0): Single band at heavy position (¹⁵N-¹⁵N), showing original parental DNA remained intact.\n\nTube 3 (20 minutes/Generation 1): Single band at intermediate position (hybrid DNA with ¹⁵N-¹⁴N), indicating each new DNA molecule contained one original heavy strand and one newly synthesized light strand. This ruled out conservative replication.\n\nTube 4 (40 minutes/Generation 2): Two bands appeared, one at hybrid position (¹⁵N-¹⁴N) and one at light position (¹⁴N-¹⁴N) in equal proportions. The hybrid DNA molecules separated, with the ¹⁵N strand pairing with new ¹⁴N strand, and the ¹⁴N strand pairing with another new ¹⁴N strand.\n\nThese results conclusively proved semi-conservative replication: each strand of the original DNA molecule serves as a template for a new complementary strand, producing two identical DNA molecules with one old and one new strand each.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "22",
+    "sectionId": "semi-conservative-replication",
+    "sectionLabel": "Semi-Conservative Replication",
+    "session": "annual",
+    "stem": "Interpret the results of the Meselson and Stahl experiment when they grew bacteria in $^{15}N$ medium and then transferred them to $^{14}N$ medium. Explain the DNA band patterns observed in tubes 2, 3, and 4 at different time intervals (0, 20, and 40 minutes) using density gradient centrifugation.",
+    "topicId": "ms7e11vbxb4f4d92f26vwayj9585pxcd",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "biology-11",
+    "chapterSlug": "13-chromosome-and-dna",
+    "chapterTitle": "Chromosome And DNA",
+    "topicSlug": "13-3-dna-replication",
+    "topicTitle": "13.3 DNA Replication",
+    "_id": "m177zrn72nwq6h7kxhckajc58x85pt7x",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "DNA Helicase unwinds the double helix",
+      "DNA Polymerase synthesizes new DNA strands by adding nucleotides",
+      "DNA Ligase seals phosphodiester bonds between DNA fragments",
+      "These enzymes work together during DNA replication",
+      "DNA Polymerase adds nucleotides in 5' to 3' direction"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three important enzymes involved in DNA replication are: (1) DNA Helicase - unwinds the double helix by breaking hydrogen bonds between base pairs, separating the two strands; (2) DNA Polymerase - synthesizes new DNA strands by adding nucleotides in the 5' to 3' direction, using the template strand; (3) DNA Ligase - seals the phosphodiester bonds between Okazaki fragments on the lagging strand, joining them together to form a continuous strand.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "24",
+    "sectionId": "steps-of-dna-replication",
+    "sectionLabel": "Steps of DNA Replication",
+    "session": "annual",
+    "stem": "Name any three enzymes with their functions involved in DNA replication.",
+    "topicId": "ms7e11vbxb4f4d92f26vwayj9585pxcd",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "biology-11",
+    "chapterSlug": "13-chromosome-and-dna",
+    "chapterTitle": "Chromosome And DNA",
+    "topicSlug": "13-4-gene-expression",
+    "topicTitle": "13.4 Gene Expression",
+    "_id": "m17acpgzpw5bp6cqhngwavhw4s85psrb",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The anticodon is a sequence of three nucleotides that is part of transfer RNA (tRNA). The anticodon is located on the tRNA molecule and pairs with the complementary codon on messenger RNA (mRNA) during protein synthesis. This base pairing ensures that the correct amino acid is added to the growing protein chain during translation at the ribosome.",
+    "keyPoints": [
+      "Anticodon is a three-nucleotide sequence",
+      "It is part of transfer RNA (tRNA)",
+      "It is located on the tRNA molecule",
+      "It pairs with the complementary codon on mRNA",
+      "It functions during translation/protein synthesis",
+      "It ensures correct amino acid placement in the protein chain"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The anticodon is a sequence of three nucleotides that is part of transfer RNA (tRNA). The anticodon is located on the tRNA molecule and pairs with the complementary codon on messenger RNA (mRNA) during protein synthesis. This base pairing ensures that the correct amino acid is added to the growing protein chain during translation at the ribosome.",
+    "options": [
+      {
+        "key": "A",
+        "text": "tRNA"
+      },
+      {
+        "key": "B",
+        "text": "cDNA"
+      },
+      {
+        "key": "C",
+        "text": "rRNA"
+      },
+      {
+        "key": "D",
+        "text": "mRNA"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "A sequence of three nucleotides called **anticodon** is part of:",
+    "topicId": "ms79dr3sjb5ww1c28p343vez4585peaq",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "biology-11",
+    "chapterSlug": "13-chromosome-and-dna",
+    "chapterTitle": "Chromosome And DNA",
+    "topicSlug": "13-6-mutations",
+    "topicTitle": "13.6 Mutations",
+    "_id": "m177k6xydm765vv5xtd3chgqgs85pffj",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Normal hemoglobin has glutamic acid (hydrophilic) at position 6 of β-globin chain; sickle cell has valine (hydrophobic)",
+      "Single amino acid substitution causes polymerization of hemoglobin under low oxygen conditions",
+      "Polymerization leads to sickling of red blood cells and vascular occlusion",
+      "Sickled cells cause hemolysis, pain, and tissue damage",
+      "Demonstrates that primary structure determines tertiary structure and protein function",
+      "Illustrates how point mutations can cause severe genetic diseases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The sequence of amino acids in hemoglobin is significant because it determines the protein's three-dimensional structure and functional properties. In normal hemoglobin, the 6th amino acid in the β-globin chain is glutamic acid, which is hydrophilic and negatively charged. This allows normal hemoglobin molecules to remain soluble and dispersed in the cytoplasm, enabling efficient oxygen transport and release. In sickle cell hemoglobin, glutamic acid is replaced by valine, a hydrophobic amino acid. This single amino acid substitution causes hemoglobin molecules to polymerize under low oxygen conditions, forming rigid fibers that distort red blood cells into a sickle shape. These sickled cells become rigid, block blood vessels, cause hemolysis, and result in pain, tissue damage, and organ complications. This demonstrates that even a single change in amino acid sequence can dramatically alter protein structure and function, leading to severe pathological consequences. The difference illustrates the critical relationship between primary structure (amino acid sequence) and tertiary structure, which ultimately determines protein function and organism health.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "sickle-cell-anemia-and-sickle-hemoglobin-hbs",
+    "sectionLabel": "Sickle Cell Anemia and Sickle Hemoglobin (HbS)",
+    "session": "annual",
+    "stem": "Justify the significance of sequence of amino acids in Normal and Sickle Cell Haemoglobin.",
+    "topicId": "ms7a5av69jtg1mx9x60a4rpts985qr2s",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "biology-11",
+    "chapterSlug": "13-chromosome-and-dna",
+    "chapterTitle": "Chromosome And DNA",
+    "topicSlug": "13-6-mutations",
+    "topicTitle": "13.6 Mutations",
+    "_id": "m172nph2w2kvrf675ka7sp77as85q5hm",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Point mutation is substitution of one nucleotide/base pair with another at a specific location",
+      "In sickle cell anaemia, the 6th codon of beta-globin gene mutates from GAG to GTG",
+      "This causes glutamic acid to be replaced by valine in the protein",
+      "Valine causes hemoglobin polymerization under low oxygen conditions",
+      "Polymerized hemoglobin distorts RBCs into sickle shape",
+      "Sickled cells are fragile, cause vascular occlusion, and hemolysis",
+      "Results in anaemia, pain, and tissue damage"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A point mutation is a change in a single nucleotide (DNA base) at a specific location in the DNA sequence. It involves the substitution of one base pair with another, such as adenine replacing thymine. In sickle cell anaemia, a point mutation occurs in the gene coding for beta-globin protein of hemoglobin. Specifically, the sixth codon changes from GAG (coding for glutamic acid) to GTG (coding for valine). This single base substitution (A to T) causes glutamic acid to be replaced by valine in the beta-globin chain. Valine is hydrophobic and causes hemoglobin molecules to polymerize under low oxygen conditions, forming rigid fibers that distort red blood cells into a sickle shape. These sickled cells are fragile, block blood vessels, and are destroyed prematurely, leading to hemolytic anaemia, pain, and tissue damage characteristic of sickle cell disease.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "sectionId": "example-sickle-cell-anaemia",
+    "sectionLabel": "Example: Sickle Cell Anaemia",
+    "session": "annual",
+    "stem": "What is **point mutation**? How does it cause sickle cell anaemia?",
+    "topicId": "ms7a5av69jtg1mx9x60a4rpts985qr2s",
+    "year": 2025
+  }
+]

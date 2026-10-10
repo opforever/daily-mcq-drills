@@ -1,0 +1,1503 @@
+[
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-1-macroscopic-events-and-microscopic-events",
+    "topicTitle": "8.1 Macroscopic and Microscopic Events",
+    "_id": "m175s06vdzht81763ve6esh6vx8e10aa",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "When a disturbance is applied, the rate of the forward or reverse reaction momentarily changes at the molecular level, so one direction proceeds faster until concentrations adjust and the rates re-equalize at a new equilibrium position."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Propose microscopic events that account for observed macroscopic changes that take place during a shift in equilibrium.",
+    "topicId": "ms7ee3ss9b4w1ccpekdh8r83fs85pbb2"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-2-reversible-reactions-and-dynamic-equilibrium",
+    "topicTitle": "8.2 Reversible Reactions and Dynamic Equilibrium",
+    "_id": "m173xhrwzg0b0rxv1n13k420js85pwk5",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct identification of equilibrium constant expression with products in numerator and reactants in denominator",
+      "Proper application of stoichiometric coefficients as exponents in the expression",
+      "Accurate substitution of equilibrium concentration values",
+      "Correct mathematical calculation yielding $K_c \\approx 3.86$ or 3.9",
+      "Recognition that $K_c$ is temperature-dependent and specific to 100°C"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To calculate $K_c$, use the equilibrium constant expression: $K_c = \\frac{[SO_3]^2}{[SO_2]^2[O_2]}$. Substituting the equilibrium concentrations: $K_c = \\frac{(0.259)^2}{(0.59)^2(0.05)} = \\frac{0.067081}{0.017405} = 3.86$ (or approximately 3.9). This value represents the ratio of product to reactant concentrations at equilibrium at 100°C.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "session": "annual",
+    "stem": "Calculate $K_c$ for the following reaction at equilibrium at $100^{\\circ}C$: \n$2SO_{2(g)} + O_{2(g)} \\rightleftharpoons 2SO_{3(g)}$\n$[SO_2] = 0.59\\text{ M}, [O_2] = 0.05\\text{ M}, [SO_3] = 0.259\\text{ M}$",
+    "topicId": "ms7f4y8jkhfqdgka3my2y1me0s85qpyp",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-2-reversible-reactions-and-dynamic-equilibrium",
+    "topicTitle": "8.2 Reversible Reactions and Dynamic Equilibrium",
+    "_id": "m17fm31hpe59ej9c0vh8ac0fj985pnsv",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Describes construction: lead dioxide positive plate, lead negative plate, sulfuric acid electrolyte",
+      "Discharge reactions: oxidation of Pb and reduction of PbO₂ forming PbSO₄, with correct half-equations",
+      "Charge reactions: reversal of discharge reactions by external voltage, regenerating Pb and PbO₂",
+      "Overall discharge equation showing reactants and products",
+      "Explains reversible nature enabling rechargeability"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "A lead storage battery consists of a lead dioxide (PbO₂) positive plate, a lead (Pb) negative plate, and sulfuric acid (H₂SO₄) electrolyte. During discharging, lead is oxidized at the negative plate while lead dioxide is reduced at the positive plate, both forming lead sulfate (PbSO₄) and releasing electrical energy. During charging, an external current reverses these reactions: PbSO₄ at the negative plate is reduced back to Pb, while PbSO₄ at the positive plate is oxidized back to PbO₂, regenerating the battery's capacity.\n\n**Discharge Reactions:**\nNegative plate (oxidation): $Pb + SO_4^{2-} \\rightarrow PbSO_4 + 2e^-$\nPositive plate (reduction): $PbO_2 + 4H^+ + SO_4^{2-} + 2e^- \\rightarrow PbSO_4 + 2H_2O$\nOverall: $Pb + PbO_2 + 2H_2SO_4 \\rightarrow 2PbSO_4 + 2H_2O$\n\n**Charge Reactions:**\nThe reactions are reversed by applying external voltage, converting PbSO₄ back to Pb and PbO₂, restoring the battery to its original state. This reversible nature makes the lead storage battery rechargeable and suitable for repeated use in vehicles.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Describe the construction of a lead storage battery and the reactions taking place during charging and discharging.",
+    "topicId": "ms7f4y8jkhfqdgka3my2y1me0s85qpyp",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-2-reversible-reactions-and-dynamic-equilibrium",
+    "topicTitle": "8.2 Reversible Reactions and Dynamic Equilibrium",
+    "_id": "m177xg536h6zcq11qwnxed36zd85qh62",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A reaction will proceed in the forward direction to maximum extent if the value of $K_c$ is very large (much greater than 1). A large $K_c$ indicates that at equilibrium, the concentration of products is significantly higher than the concentration of reactants, meaning the forward reaction is favored and proceeds nearly to completion.",
+    "keyPoints": [
+      "Large $K_c$ value (>> 1) favors forward reaction",
+      "High $K_c$ means equilibrium position shifts toward products",
+      "Reaction proceeds to maximum extent when $K_c$ is large",
+      "Small $K_c$ (< 1) would favor reverse reaction instead"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A reaction will proceed in the forward direction to maximum extent if the value of $K_c$ is very large (much greater than 1). A large $K_c$ indicates that at equilibrium, the concentration of products is significantly higher than the concentration of reactants, meaning the forward reaction is favored and proceeds nearly to completion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$10^{-2}$"
+      },
+      {
+        "key": "B",
+        "text": "$10^{-30}$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$10^{+30}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "A reaction will proceed in forward direction to maximum extent if value of $K_c$ is:",
+    "topicId": "ms7f4y8jkhfqdgka3my2y1me0s85qpyp",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-2-reversible-reactions-and-dynamic-equilibrium",
+    "topicTitle": "8.2 Reversible Reactions and Dynamic Equilibrium",
+    "_id": "m179j8jtftc67ck3xc9xswgnsn8e0vrr",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Chemical equilibrium is the state of a reversible reaction at which the rates of the forward and reverse reactions are equal, so the concentrations of reactants and products remain constant over time."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Define chemical equilibrium.",
+    "topicId": "ms7f4y8jkhfqdgka3my2y1me0s85qpyp"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m173xhrwzg0b0rxv1n13k420js85pwk5",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct identification of equilibrium constant expression with products in numerator and reactants in denominator",
+      "Proper application of stoichiometric coefficients as exponents in the expression",
+      "Accurate substitution of equilibrium concentration values",
+      "Correct mathematical calculation yielding $K_c \\approx 3.86$ or 3.9",
+      "Recognition that $K_c$ is temperature-dependent and specific to 100°C"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To calculate $K_c$, use the equilibrium constant expression: $K_c = \\frac{[SO_3]^2}{[SO_2]^2[O_2]}$. Substituting the equilibrium concentrations: $K_c = \\frac{(0.259)^2}{(0.59)^2(0.05)} = \\frac{0.067081}{0.017405} = 3.86$ (or approximately 3.9). This value represents the ratio of product to reactant concentrations at equilibrium at 100°C.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "session": "annual",
+    "stem": "Calculate $K_c$ for the following reaction at equilibrium at $100^{\\circ}C$: \n$2SO_{2(g)} + O_{2(g)} \\rightleftharpoons 2SO_{3(g)}$\n$[SO_2] = 0.59\\text{ M}, [O_2] = 0.05\\text{ M}, [SO_3] = 0.259\\text{ M}$",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m17c30pgd1spka245321cj52bs85p9p4",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "Using the relationship between $K_c$ and $K_p$: $K_p = K_c(RT)^{\\Delta n}$, where $\\Delta n = (1+1) - 1 = 1$. Therefore, $K_p = 0.04 \\times (0.082 \\times 723)^1 = 0.04 \\times 59.286 = 2.37$ atm.",
+    "keyPoints": [
+      "Correctly identifies the relationship formula: $K_p = K_c(RT)^{\\Delta n}$",
+      "Accurately calculates $\\Delta n$ (change in number of moles of gas) = 1",
+      "Properly substitutes values: $K_c = 0.04$, $R = 0.082$, $T = 723$ K",
+      "Performs correct arithmetic to obtain $K_p \\approx 2.37$ atm",
+      "Includes appropriate units (atm) in final answer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Using the relationship between $K_c$ and $K_p$: $K_p = K_c(RT)^{\\Delta n}$, where $\\Delta n = (1+1) - 1 = 1$. Therefore, $K_p = 0.04 \\times (0.082 \\times 723)^1 = 0.04 \\times 59.286 = 2.37$ atm.",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.04"
+      },
+      {
+        "key": "B",
+        "text": "2.37"
+      },
+      {
+        "key": "C",
+        "text": "0.64"
+      },
+      {
+        "key": "D",
+        "text": "0.40"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "$K_c = 0.04$ at $723\\text{ K}$ for the following reaction: $PCl_{5(g)} \\rightleftharpoons PCl_{3(g)} + Cl_{2(g)}$. The $K_p$ of the reaction will be: (where $R = 0.082\\text{ atm dm}^3\\text{ mol}^{-1}\\text{ K}^{-1}$)",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m1782154nnqsmm16y00c8da3rs85qr1x",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The equilibrium constants $K_c = K_p$ when $\\Delta n = 0$, meaning the number of moles of gaseous products equals the number of moles of gaseous reactants in the balanced chemical equation.",
+    "keyPoints": [
+      "$K_c = K_p$ occurs when $\\Delta n = 0$",
+      "This means moles of gaseous products = moles of gaseous reactants",
+      "$\\Delta n$ represents the change in number of moles of gas",
+      "When $\\Delta n \\neq 0$, the relationship $K_p = K_c(RT)^{\\Delta n}$ applies",
+      "Understanding this relationship is essential for converting between $K_c$ and $K_p$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The equilibrium constants $K_c = K_p$ when $\\Delta n = 0$, meaning the number of moles of gaseous products equals the number of moles of gaseous reactants in the balanced chemical equation.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "-1"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "-2"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Equilibrium constants $K_c = K_p$, when $\\Delta n$ is:",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m1755qqd5ke8hzbbhvxw87r7k985qezm",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly calculate reaction quotient $Q$ using given concentrations",
+      "Compare $Q$ with $K_c$ to determine direction of shift",
+      "State that $Q > K_c$ means system shifts in reverse direction (toward reactants)",
+      "Apply Le Chatelier's principle to explain the shift counteracts excess product formation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To predict the direction of shift, calculate the reaction quotient $Q$ and compare it with $K_c$. Using $Q = \\frac{[NH_3]^2}{[N_2][H_2]^3} = \\frac{(1.0 \\times 10^{-3})^2}{(1.0 \\times 10^{-3})(1.0 \\times 10^{-2})^3} = \\frac{1.0 \\times 10^{-6}}{1.0 \\times 10^{-9}} = 1.0 \\times 10^{3}$. Since $Q = 1.0 \\times 10^{3} > K_c = 6 \\times 10^{-1}$, the system will shift in the reverse direction (toward reactants) to attain equilibrium, as predicted by Le Chatelier's principle.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "For the reaction $N_2 + 3H_2 \\rightleftharpoons 2NH_3$ with $K_c = 6 \\times 10^{-1}$ at $500^{\\circ}C$, predict the direction in which the system will shift to attain equilibrium when concentrations of $H_2$, $N_2$, and $NH_3$ are $1.0 \\times 10^{-2}$ M, $1.0 \\times 10^{-3}$ M, and $1.0 \\times 10^{-3}$ M respectively.",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m177xg536h6zcq11qwnxed36zd85qh62",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A reaction will proceed in the forward direction to maximum extent if the value of $K_c$ is very large (much greater than 1). A large $K_c$ indicates that at equilibrium, the concentration of products is significantly higher than the concentration of reactants, meaning the forward reaction is favored and proceeds nearly to completion.",
+    "keyPoints": [
+      "Large $K_c$ value (>> 1) favors forward reaction",
+      "High $K_c$ means equilibrium position shifts toward products",
+      "Reaction proceeds to maximum extent when $K_c$ is large",
+      "Small $K_c$ (< 1) would favor reverse reaction instead"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A reaction will proceed in the forward direction to maximum extent if the value of $K_c$ is very large (much greater than 1). A large $K_c$ indicates that at equilibrium, the concentration of products is significantly higher than the concentration of reactants, meaning the forward reaction is favored and proceeds nearly to completion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$10^{-2}$"
+      },
+      {
+        "key": "B",
+        "text": "$10^{-30}$"
+      },
+      {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
+        "text": "$10^{+30}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "A reaction will proceed in forward direction to maximum extent if value of $K_c$ is:",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m17emm2pxrezrj6pgpc5twh0d185qgks",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies initial and equilibrium moles using stoichiometry",
+      "Converts moles to molar concentrations by dividing by volume V",
+      "Applies equilibrium constant expression with correct stoichiometric coefficients",
+      "Performs algebraic simplification to derive the final relation",
+      "Shows all steps clearly in the derivation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For the reaction $N_2O_4 \\rightleftharpoons 2NO_2$, let initial moles of $N_2O_4$ be **a** and **x** moles dissociate. At equilibrium: moles of $N_2O_4$ = $(a-x)$ and moles of $NO_2$ = $2x$. Converting to concentrations in volume V: $[N_2O_4] = \\frac{a-x}{V}$ and $[NO_2] = \\frac{2x}{V}$. Applying the equilibrium constant expression: $K_c = \\frac{[NO_2]^2}{[N_2O_4]} = \\frac{\\left(\\frac{2x}{V}\\right)^2}{\\frac{a-x}{V}} = \\frac{\\frac{4x^2}{V^2}}{\\frac{a-x}{V}} = \\frac{4x^2}{V^2} \\times \\frac{V}{a-x} = \\frac{4x^2}{V(a-x)}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "If initial concentration of $N_2O_4$ in moles is **a** and **x** moles of it converted to $NO_2$, then derive the general relation of equilibrium constant ($K_c = \\frac{4x^2}{V(a-x)}$) for following reaction: $N_2O_4 \\rightleftharpoons 2NO_2$.",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m1715xn8g4gxq867n90cj24xjd85p67z",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified $\\Delta n = -1$ from stoichiometric coefficients (products minus reactants)",
+      "Applied correct formula: $K_p = K_c(RT)^{\\Delta n}$",
+      "Converted temperature to Kelvin: $1050°C + 273 = 1323$ K",
+      "Substituted values accurately with appropriate units",
+      "Calculated final answer: $K_p \\approx 2.12 \\times 10^{20}$ atm$^{-1}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To calculate $K_p$ from $K_c$, use the relationship: $K_p = K_c(RT)^{\\Delta n}$, where $\\Delta n$ is the change in moles of gas. For the reaction $2CO_{(g)} + O_{2(g)} \\rightleftharpoons 2CO_{2(g)}$, $\\Delta n = 2 - (2 + 1) = -1$. With $K_c = 2.3 \\times 10^{22}$, $R = 0.0821$ L·atm·mol$^{-1}$·K$^{-1}$, and $T = 1323$ K: $K_p = 2.3 \\times 10^{22} \\times (0.0821 \\times 1323)^{-1} = 2.3 \\times 10^{22} \\times (108.6)^{-1} = 2.12 \\times 10^{20}$ atm$^{-1}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "session": "annual",
+    "stem": "Calculate the value of $K_p$ at $1050^\\circ C$ if $K_c$ is $2.3 \\times 10^{22}$ for the following reaction: $2CO_{(g)} + O_{2(g)} \\rightleftharpoons 2CO_{2(g)}$.",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m177r9yswq6jv38tza5gtkahgs8e1nnf",
+    "correctKey": "B",
+    "exerciseId": "xd76d1nenfdzrtyh3prmbv18zx8e1syp",
+    "exerciseTitle": "Exercise 8: Choose the Correct Answer",
+    "explanation": "Kc depends only on temperature; concentration units cancel out pressure dependence for a given equilibrium at fixed temperature.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Temperature"
+      },
+      {
+        "key": "B",
+        "text": "Pressure"
+      },
+      {
+        "key": "C",
+        "text": "Both temperature and pressure"
+      },
+      {
+        "key": "D",
+        "text": "Kp"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(i)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Kc is independent of:",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m17301wxcf5cfbes5f86tgfyc98e0xan",
+    "correctKey": "B",
+    "exerciseId": "xd76d1nenfdzrtyh3prmbv18zx8e1syp",
+    "exerciseTitle": "Exercise 8: Choose the Correct Answer",
+    "explanation": "When the number of moles of gaseous product equals the number of moles of gaseous reactant (Δn = 0), the concentration units cancel and Kc is dimensionless.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "2A(g) <=> B(g)"
+      },
+      {
+        "key": "B",
+        "text": "A(g) <=> B(g)"
+      },
+      {
+        "key": "C",
+        "text": "A(g) <=> 2B(g)"
+      },
+      {
+        "key": "D",
+        "text": "3A(g) <=> 2C(g)"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(ii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "For which of the following reactions does Kc have no units of concentration: (a) 2A(g) <=> B(g) (b) A(g) <=> B(g) (c) A(g) <=> 2B(g) (d) 3A(g) <=> 2C(g)?",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m176w948v81ftkkc0r0yvs0yk18e0pdm",
+    "correctKey": "C",
+    "exerciseId": "xd76d1nenfdzrtyh3prmbv18zx8e1syp",
+    "exerciseTitle": "Exercise 8: Choose the Correct Answer",
+    "explanation": "Moles of gas: 2 + 1 = 3 reactant moles, 3 product moles, so Δn = 0. Since Kp = Kc(RT)^Δn, when Δn = 0, Kp = Kc, i.e. Kp - Kc = 0.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Ka > Kp"
+      },
+      {
+        "key": "B",
+        "text": "Kc < Kp"
+      },
+      {
+        "key": "C",
+        "text": "Kp - Kc = 0"
+      },
+      {
+        "key": "D",
+        "text": "Kp - Kc = -1"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(iii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "For the reaction 2A(g) + B(g) <=> 3C(g), we can write:",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m174z8851ccgyxb0yfzzm1ttmx8e03yj",
+    "correctKey": "A",
+    "exerciseId": "xd76d1nenfdzrtyh3prmbv18zx8e1syp",
+    "exerciseTitle": "Exercise 8: Choose the Correct Answer",
+    "explanation": "Kp = Kc(RT)^Δn, so Kp equals Kc exactly when Δn = 0.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "+1"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "-2"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(vi)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Kc = Kp when Δn is equal to:",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m173w08626j4areshz7ckmr3tx8e0tn0",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Each expression is written as products over reactants, each raised to its stoichiometric coefficient, with pure solids and liquids omitted (e.g. reaction (vii): Kc = [CO2]).",
+      "Kp uses partial pressures of gaseous species in place of concentrations; the two are related by Kp = Kc(RT)^Δn."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Write Kc and Kp expressions for the following reactions: (i) SO2(g) + 1/2 O2(g) <=> SO3(g) (ii) H2O(g) + Cl2O(g) <=> 2HOCl(g) (iii) O3(g) <=> O2(g) + O(g) (iv) O3(g) <=> 3/2 O2(g) (v) Fe3O4(s) + H2(g) <=> 3FeO(s) + H2O(g) (vi) 2NO(g) + Cl2(g) <=> 2NOCl(g) (vii) CaCO3(s) <=> CaO(s) + CO2(g) (viii) C(s) + H2O(g) <=> CO(g) + H2(g)",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m1770g8p9ftm8astgvza7c31dx8e0x8n",
+    "exerciseId": "xd72ygecd535c159yne7qgvwdn8e3m4r",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Compute Qp = PB^2/PA for each option and compare to Kp = 0.133 atm; the option(s) whose Qp equals Kp are at equilibrium.",
+      "The textbook's own answer key (Ans: b and c) indicates options (b) and (c) satisfy the equilibrium condition."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "7",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "At a particular temperature Kp = 0.133 atm for A(g) <=> 2B(g). Which of the following conditions corresponds to the equilibrium position: (a) PB=0.175 atm, PA=0.102 atm (b) PB=0.064 atm, PA=0.0308 atm (c) PB=0.144 atm, PA=0.156 atm?",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m174kjf9dkjrm4g8x0q4wx5srn8e0s7j",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "(a) CuSO4.5H2O(s) <=> CuSO4(s) + 5H2O(g): Kc = [H2O]^5, Kp = (P(H2O))^5, since solids are omitted.",
+      "(b) PCl5(s) <=> PCl3(g) + Cl2(g): Kc = [PCl3][Cl2], Kp = P(PCl3) x P(Cl2)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Write the expression for Kc and Kp for the following processes: (a) Blue vitriol (deep blue solid copper(II) sulphate pentahydrate) is heated to drive off water vapours to form white solid copper(II) sulphate. (b) The decomposition of solid phosphorus pentachloride to gaseous phosphorus trichloride and chlorine gas.",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-3-the-law-of-mass-action",
+    "topicTitle": "8.3 The Law of Mass Action",
+    "_id": "m17d6dgxz14kwbgnvwz7xprjxn8e0yr9",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Kc > 1 means products are favoured at equilibrium (more product than reactant concentration).",
+      "Kc < 1 means reactants are favoured at equilibrium (the reaction proceeds only slightly toward products)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "What is the difference between an equilibrium with a Kc value larger than one compared with an equilibrium that has a Kc smaller than one?",
+    "topicId": "ms7ft7ses461bwj4z2ht4rzp0d85q8jf"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-4-types-of-equilibrium",
+    "topicTitle": "8.4 Types of Equilibrium",
+    "_id": "m1782154nnqsmm16y00c8da3rs85qr1x",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The equilibrium constants $K_c = K_p$ when $\\Delta n = 0$, meaning the number of moles of gaseous products equals the number of moles of gaseous reactants in the balanced chemical equation.",
+    "keyPoints": [
+      "$K_c = K_p$ occurs when $\\Delta n = 0$",
+      "This means moles of gaseous products = moles of gaseous reactants",
+      "$\\Delta n$ represents the change in number of moles of gas",
+      "When $\\Delta n \\neq 0$, the relationship $K_p = K_c(RT)^{\\Delta n}$ applies",
+      "Understanding this relationship is essential for converting between $K_c$ and $K_p$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The equilibrium constants $K_c = K_p$ when $\\Delta n = 0$, meaning the number of moles of gaseous products equals the number of moles of gaseous reactants in the balanced chemical equation.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "-1"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "-2"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Equilibrium constants $K_c = K_p$, when $\\Delta n$ is:",
+    "topicId": "ms771p8ha2patg4zak0p680w4s85ppyv",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-4-types-of-equilibrium",
+    "topicTitle": "8.4 Types of Equilibrium",
+    "_id": "m17emm2pxrezrj6pgpc5twh0d185qgks",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies initial and equilibrium moles using stoichiometry",
+      "Converts moles to molar concentrations by dividing by volume V",
+      "Applies equilibrium constant expression with correct stoichiometric coefficients",
+      "Performs algebraic simplification to derive the final relation",
+      "Shows all steps clearly in the derivation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For the reaction $N_2O_4 \\rightleftharpoons 2NO_2$, let initial moles of $N_2O_4$ be **a** and **x** moles dissociate. At equilibrium: moles of $N_2O_4$ = $(a-x)$ and moles of $NO_2$ = $2x$. Converting to concentrations in volume V: $[N_2O_4] = \\frac{a-x}{V}$ and $[NO_2] = \\frac{2x}{V}$. Applying the equilibrium constant expression: $K_c = \\frac{[NO_2]^2}{[N_2O_4]} = \\frac{\\left(\\frac{2x}{V}\\right)^2}{\\frac{a-x}{V}} = \\frac{\\frac{4x^2}{V^2}}{\\frac{a-x}{V}} = \\frac{4x^2}{V^2} \\times \\frac{V}{a-x} = \\frac{4x^2}{V(a-x)}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "If initial concentration of $N_2O_4$ in moles is **a** and **x** moles of it converted to $NO_2$, then derive the general relation of equilibrium constant ($K_c = \\frac{4x^2}{V(a-x)}$) for following reaction: $N_2O_4 \\rightleftharpoons 2NO_2$.",
+    "topicId": "ms771p8ha2patg4zak0p680w4s85ppyv",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-4-types-of-equilibrium",
+    "topicTitle": "8.4 Types of Equilibrium",
+    "_id": "m179h8e3vkbxvzh9vvcpndtzwd8e1txp",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Microscopic events are the individual molecular-level forward and reverse reaction occurrences that continue even at equilibrium.",
+      "Dynamic equilibrium means both forward and reverse reactions continue at equal rates, so no net change is observed macroscopically.",
+      "Le Chatelier's principle states that when a system at equilibrium is disturbed, it shifts to partially counteract the disturbance.",
+      "Heterogeneous equilibria involve reactants/products in more than one phase; homogeneous equilibria involve all species in a single phase."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Define and explain the following terms: (i) Microscopic events (ii) Dynamic equilibrium (iii) Le Chatelier's principle (iv) Heterogenous equilibria (v) Homogenous equilibrium",
+    "topicId": "ms771p8ha2patg4zak0p680w4s85ppyv"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m170re2fhc0vetjqcjqtqfy2m585p43z",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The equilibrium will NOT be shifted in the forward direction by decreasing the pressure. Since the forward reaction decreases the number of moles of gas (4 moles → 2 moles), decreasing pressure shifts the equilibrium backward (toward more moles), not forward. Increasing pressure, temperature decrease, or adding more reactants would shift it forward.",
+    "keyPoints": [
+      "Decreasing pressure shifts equilibrium toward side with more moles (backward direction)",
+      "Forward reaction has 4 moles reactants → 2 moles products, so pressure decrease favors reverse reaction",
+      "Increasing pressure, decreasing temperature, or increasing reactant concentration would shift forward",
+      "Le Chatelier's principle predicts system opposes the applied change"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The equilibrium will NOT be shifted in the forward direction by decreasing the pressure. Since the forward reaction decreases the number of moles of gas (4 moles → 2 moles), decreasing pressure shifts the equilibrium backward (toward more moles), not forward. Increasing pressure, temperature decrease, or adding more reactants would shift it forward.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increasing temperature"
+      },
+      {
+        "key": "B",
+        "text": "Increasing pressure"
+      },
+      {
+        "key": "C",
+        "text": "Adding $H_2$ gas"
+      },
+      {
+        "key": "D",
+        "text": "Removing $NH_3$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "The following equilibrium will **NOT** be shifted in the forward direction by: ($N_2 + 3H_2 \\rightleftharpoons 2NH_3 + \\Delta$)",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m171h6jdc7ysg2196bbng6tvjn85pava",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "According to Le Chatelier's Principle, in an exothermic reaction, the temperature of the system should be decreased to obtain maximum product at equilibrium. When temperature is lowered, the equilibrium shifts in the direction of the exothermic reaction (forward direction) to counteract the change, thereby producing more products and increasing the yield at equilibrium.",
+    "keyPoints": [
+      "Le Chatelier's Principle states that a system at equilibrium shifts to counteract any imposed change",
+      "In exothermic reactions, heat is released (ΔH is negative)",
+      "Decreasing temperature favors the exothermic (forward) direction",
+      "The equilibrium shifts right to produce more products",
+      "Lower temperature increases product yield at equilibrium",
+      "This is the opposite of endothermic reactions where temperature should be increased"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "According to Le Chatelier's Principle, in an exothermic reaction, the temperature of the system should be decreased to obtain maximum product at equilibrium. When temperature is lowered, the equilibrium shifts in the direction of the exothermic reaction (forward direction) to counteract the change, thereby producing more products and increasing the yield at equilibrium.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kept Low"
+      },
+      {
+        "key": "B",
+        "text": "Kept High"
+      },
+      {
+        "key": "C",
+        "text": "Kept Same"
+      },
+      {
+        "key": "D",
+        "text": "Temperature has no effect"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "According to **Le Chatelier's Principle**, in an exothermic reaction, what should be done to the temperature of the system to obtain maximum product at equilibrium?",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m1755qqd5ke8hzbbhvxw87r7k985qezm",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly calculate reaction quotient $Q$ using given concentrations",
+      "Compare $Q$ with $K_c$ to determine direction of shift",
+      "State that $Q > K_c$ means system shifts in reverse direction (toward reactants)",
+      "Apply Le Chatelier's principle to explain the shift counteracts excess product formation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To predict the direction of shift, calculate the reaction quotient $Q$ and compare it with $K_c$. Using $Q = \\frac{[NH_3]^2}{[N_2][H_2]^3} = \\frac{(1.0 \\times 10^{-3})^2}{(1.0 \\times 10^{-3})(1.0 \\times 10^{-2})^3} = \\frac{1.0 \\times 10^{-6}}{1.0 \\times 10^{-9}} = 1.0 \\times 10^{3}$. Since $Q = 1.0 \\times 10^{3} > K_c = 6 \\times 10^{-1}$, the system will shift in the reverse direction (toward reactants) to attain equilibrium, as predicted by Le Chatelier's principle.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "For the reaction $N_2 + 3H_2 \\rightleftharpoons 2NH_3$ with $K_c = 6 \\times 10^{-1}$ at $500^{\\circ}C$, predict the direction in which the system will shift to attain equilibrium when concentrations of $H_2$, $N_2$, and $NH_3$ are $1.0 \\times 10^{-2}$ M, $1.0 \\times 10^{-3}$ M, and $1.0 \\times 10^{-3}$ M respectively.",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m17d6zcme70e5y9c73ctfwb73585qqqj",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct statement of Le Chatelier's principle with reference to counteracting changes",
+      "Pressure increase shifts equilibrium right due to decrease in moles of gas (3→2)",
+      "Increase in $SO_2$ concentration shifts equilibrium right, consuming excess reactant",
+      "Temperature increase shifts equilibrium left because reaction is exothermic",
+      "Catalyst increases reaction rate but does not affect equilibrium position or yield"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Le Chatelier's Principle:** If a change of condition (concentration, pressure, or temperature) is applied to a system in equilibrium, the system will shift in a direction that counteracts the change.\n\n**Effects on the reaction $2SO_2 + O_2 \\rightleftharpoons 2SO_3$ ($\\Delta H = -256$ kJ/mol):**\n\n**Increase in Pressure:** The equilibrium shifts to the right (forward direction) because the forward reaction decreases the number of moles of gas (3 moles → 2 moles). The system counteracts the pressure increase by shifting toward fewer moles, increasing $SO_3$ yield.\n\n**Increase in Concentration of $SO_2$:** The equilibrium shifts to the right. According to Le Chatelier's principle, the system counteracts the increase in $SO_2$ concentration by consuming excess $SO_2$ through the forward reaction, producing more $SO_3$.\n\n**Increase in Temperature:** The equilibrium shifts to the left (reverse direction). Since the reaction is exothermic ($\\Delta H = -256$ kJ/mol), increasing temperature favors the endothermic reverse reaction. The system counteracts the temperature increase by absorbing heat through the reverse reaction, decreasing $SO_3$ yield.\n\n**Increase in $NO_2$ Catalyst:** A catalyst does not shift the equilibrium position. It increases the rate of both forward and reverse reactions equally, allowing equilibrium to be reached faster without changing the equilibrium concentrations or yield of $SO_3$.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "State **Le-Chatelier's principle**. Briefly discuss the effect of increase in pressure, increase in concentration of $SO_2$, increase in temperature, and increase in $NO_2$ catalyst when the following reaction is at equilibrium: $2SO_2 + O_2 \\rightleftharpoons 2SO_3 \\quad \\Delta H = -256\\text{ kJ/mol}$ (with $NO_2$ as catalyst).",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m17d2ysa08jexeyecrqtz975kn85p5nw",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Decreasing volume increases pressure; equilibrium shifts toward fewer moles of gas (right), increasing $NO_2$ yield",
+      "Increasing temperature in endothermic reaction shifts equilibrium forward (right), increasing CO and $H_2$ yield",
+      "Adding product ($I_2$) shifts equilibrium left (toward reactants) to counteract the disturbance, reducing HI dissociation",
+      "Le Chatelier's principle correctly predicts direction of equilibrium shift for all three scenarios",
+      "Understanding mole changes and reaction type ($\\Delta H$) is essential for predicting equilibrium shifts"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Effect of Changes on Equilibrium Reactions:**\n\n**(i) Decreasing volume in $2NO + O_2 \\rightleftharpoons 2NO_2$:** Decreasing volume increases pressure. The system has 3 moles of gas on the left and 2 moles on the right. According to Le Chatelier's principle, the equilibrium shifts toward the side with fewer moles of gas (right side), favoring the forward reaction and increasing $NO_2$ yield.\n\n**(ii) Increasing temperature in $CH_4 + H_2O \\rightleftharpoons CO + 3H_2$ ($\\Delta H = +256 kJ$):** This is an endothermic reaction. Increasing temperature provides more energy to the system. According to Le Chatelier's principle, the equilibrium shifts in the endothermic direction (forward/right) to absorb the added heat, increasing the yield of CO and $H_2$.\n\n**(iii) Adding $I_2$ in $2HI \\rightleftharpoons H_2 + I_2$:** Adding $I_2$ increases the concentration of a product. According to Le Chatelier's principle, the equilibrium shifts toward the reactants (left side) to counteract this increase. The equilibrium position shifts left, but the overall amount of $I_2$ remains increased due to the added amount, though the degree of dissociation of HI decreases.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Describe the effect of stated change on the following reactions at equilibrium position: (i) Decreasing the volume in $2NO + O_2 \\rightleftharpoons 2NO_2$ (ii) Increasing temperature in $CH_4 + H_2O \\rightleftharpoons CO + 3H_2$ ($\\Delta H = +256 kJ$) (iii) Adding $I_2$ in $2HI \\rightleftharpoons H_2 + I_2$.",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m175s8wv27bya82zjg1et43r9n8e0q37",
+    "correctKey": "D",
+    "exerciseId": "xd76d1nenfdzrtyh3prmbv18zx8e1syp",
+    "exerciseTitle": "Exercise 8: Choose the Correct Answer",
+    "explanation": "A catalyst speeds up both forward and reverse reactions equally, so it has no effect on the equilibrium position, only on the time taken to reach it.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Reverse reaction"
+      },
+      {
+        "key": "B",
+        "text": "Forward reaction"
+      },
+      {
+        "key": "C",
+        "text": "Enthalpy of reaction"
+      },
+      {
+        "key": "D",
+        "text": "It has no effect"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(iv)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "What is the effect of addition of a catalyst on an equilibrium mixture?",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m1733w96s5rgvvhejdy7wfvz058e05an",
+    "correctKey": "B",
+    "exerciseId": "xd76d1nenfdzrtyh3prmbv18zx8e1syp",
+    "exerciseTitle": "Exercise 8: Choose the Correct Answer",
+    "explanation": "Passing HCl gas into a concentrated (saturated) NaCl solution raises the common Cl- ion concentration and shifts the solubility equilibrium, precipitating purer NaCl.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Dilute"
+      },
+      {
+        "key": "B",
+        "text": "Concentrated"
+      },
+      {
+        "key": "C",
+        "text": "Hot"
+      },
+      {
+        "key": "D",
+        "text": "Cold"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(v)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "NaCl can be purified by passing HCl gas through the ___ solution of NaCl.",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m178e96cmek7q4kdx3c7e5vn6h8e0ktr",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Reducing volume increases pressure, shifting equilibrium toward the side with fewer moles of gas.",
+      "(i) 4 mol gas <=> 4 mol gas: Δn = 0, no shift. (ii) 3 mol <=> 2 mol: shifts right (toward NO2). (iii) 9 mol <=> 10 mol: shifts left (toward reactants)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Predict the shift in equilibrium position that will occur for each of the following processes when the volume is reduced: (i) PCl3(g) + 3NH3(g) <=> P(NH2)3(g) + 3HCl(g) (ii) 2NO(g) + O2(g) <=> 2NO2(g) (iii) 4NH3(g) + 5O2(g) <=> 4NO(g) + 6H2O(g)",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m17by3s6rhvn48g02zkye33nh18e1btg",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "For endothermic reactions (positive ΔH: a, c, d), increasing temperature increases Kc (favours products).",
+      "For the exothermic reaction (negative ΔH: b), increasing temperature decreases Kc (favours reactants)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "10",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "For each of the following reactions, predict how the value of Kc changes as the temperature is increased: (a) N2(g)+O2(g)<=>2NO(g), ΔH°=+180 kJ (b) 2SO2(g)+O2(g)<=>2SO3(g), ΔH°=-198 kJ (c) N2O4(g)<=>2NO2(g), ΔH°=58 kJ (d) CH4(g)+H2O(g)<=>CO(g)+3H2(g), ΔH°=256 kJ",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m179fzvybjrqeyah08snbra3xd8e06c0",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "(a) 6 mol gas <=> 7 mol gas: increasing pressure shifts left (toward reactants, fewer moles).",
+      "(b) Adding I2 (a product) shifts equilibrium left, toward HI.",
+      "(c) Removing heat from this endothermic reaction shifts equilibrium left (toward CO2), since the reaction is disfavoured when heat is withdrawn.",
+      "(d) 1 mol gas <=> 2 mol gas: decreasing pressure shifts right (toward products, more moles)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "12",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Describe the behaviour of the following equilibria with the stated changes: (a) Increasing pressure on C3H8(g)+5O2(g)<=>3CO2(g)+4H2O(g) (b) Adding I2(g) to 2HI(g)<=>I2(g)+H2(g) (c) Removing heat from CO2(g)<=>CO(g)+1/2O2(g), ΔH°=284 kJ (d) Decreasing pressure on C2H6(g)<=>C2H4(g)+H2(g)",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m1779e90v1hzhjv70aj5zgms758e0t9n",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Since the forward reaction is exothermic and reduces gas moles (2 -> 1), the equilibrium can be driven left by: (1) increasing temperature, (2) decreasing pressure/increasing volume, (3) removing SO2Cl2 product build-up counter-argument aside, adding more SO2Cl2 product, and (4) removing SO2 or Cl2 reactant."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "13",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Consider the following gas phase reaction: SO2(g) + Cl2(g) <=> SO2Cl2(g) + Heat. Describe four changes that would drive the equilibrium to the left.",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m17bbtb6j5b77b5n9jwf19bvc98e0msq",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "(i) 2 mol gas <=> 2 mol gas: Δn = 0, so volume change does not affect the yield.",
+      "(ii) 2 mol gas <=> 1 mol gas: decreasing volume (increasing pressure) increases yield of N2O4."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "How would you change the volume of the following reactions to increase the yield of products: (i) Cl2(g) + I2(g) <=> 2ICl(g) (ii) 2NO2(g) <=> N2O4(g)",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m176t04p3pncw213qkv075ves18e0rvq",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "(i) Adding NaOH removes H+ (neutralises it), shifting the equilibrium right, toward yellow CrO4(2-).",
+      "(ii) Adding HCl increases H+ concentration, shifting the equilibrium left, back toward orange Cr2O7(2-)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "15",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Potassium dichromate solution has a clear orange colour, due to the dichromate ion Cr2O7(2-). When dissolved in water, the equilibrium Cr2O7(2-)(aq,orange) + H2O(l) <=> 2CrO4(2-)(aq,yellow) + 2H+(aq) is set up on heating the solution. What will happen if: (i) dilute sodium hydroxide is added to this solution? (ii) dilute hydrochloric acid is added to this solution?",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m1705k88yg2kte2dmndmwyg6vx8e0q9n",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Since Kc decreases as temperature increases, the forward reaction (formation of HI) is exothermic.",
+      "At higher temperature the equilibrium shifts toward the reactants (less HI formed), consistent with Le Chatelier's principle for an exothermic forward reaction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "16",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "For the reaction between hydrogen and iodine to form hydrogen iodide, the value of Kc is 794 at 298 K but 54 at 700 K. What can you deduce from this information?",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m173caf50gq0d9a8pz77f9qh6n8e0kwr",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "Since the reaction is endothermic, increasing temperature favours products (shifts equilibrium forward).",
+      "If the reaction reduces gas moles, increasing pressure/reducing volume also favours products; continuously removing product and maintaining high reactant concentration further increases yield."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "17",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Propose a set of conditions (temperature, pressure and concentration) for a reversible reaction where the enthalpy change is positive (endothermic), to maximise product yield.",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-6-factors-affecting-equilibrium-the-le-chatelier-s-principle",
+    "topicTitle": "8.6 Factors Affecting Equilibrium (The Le Chatelier's Principle)",
+    "_id": "m175pvrherytrfab276xk4scrh8e06k4",
+    "exerciseId": "xd7fpsapf0krbsase95w9gw2ns8e1xaf",
+    "exerciseTitle": "Project",
+    "keyPoints": [
+      "The presentation should define dynamic equilibrium and cover the factors (concentration, pressure/volume, temperature, catalyst) affecting equilibrium position per Le Chatelier's principle."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Project",
+    "sourceRef": {
+      "blockIndex": 31,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Create a presentation where students explain the equilibrium concept and discuss the factors that influence equilibrium position.",
+    "topicId": "ms76kp7e9g2vgsqvdvxt30b4a985pyfy"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-7-industrial-application-of-lechatelier-s-principle",
+    "topicTitle": "8.7 Industrial Application of Le Chatelier's Principle",
+    "_id": "m170re2fhc0vetjqcjqtqfy2m585p43z",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The equilibrium will NOT be shifted in the forward direction by decreasing the pressure. Since the forward reaction decreases the number of moles of gas (4 moles → 2 moles), decreasing pressure shifts the equilibrium backward (toward more moles), not forward. Increasing pressure, temperature decrease, or adding more reactants would shift it forward.",
+    "keyPoints": [
+      "Decreasing pressure shifts equilibrium toward side with more moles (backward direction)",
+      "Forward reaction has 4 moles reactants → 2 moles products, so pressure decrease favors reverse reaction",
+      "Increasing pressure, decreasing temperature, or increasing reactant concentration would shift forward",
+      "Le Chatelier's principle predicts system opposes the applied change"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The equilibrium will NOT be shifted in the forward direction by decreasing the pressure. Since the forward reaction decreases the number of moles of gas (4 moles → 2 moles), decreasing pressure shifts the equilibrium backward (toward more moles), not forward. Increasing pressure, temperature decrease, or adding more reactants would shift it forward.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increasing temperature"
+      },
+      {
+        "key": "B",
+        "text": "Increasing pressure"
+      },
+      {
+        "key": "C",
+        "text": "Adding $H_2$ gas"
+      },
+      {
+        "key": "D",
+        "text": "Removing $NH_3$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "The following equilibrium will **NOT** be shifted in the forward direction by: ($N_2 + 3H_2 \\rightleftharpoons 2NH_3 + \\Delta$)",
+    "topicId": "ms710c866xkaefvcww5denb0ex85qj90",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-7-industrial-application-of-lechatelier-s-principle",
+    "topicTitle": "8.7 Industrial Application of Le Chatelier's Principle",
+    "_id": "m17d6zcme70e5y9c73ctfwb73585qqqj",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct statement of Le Chatelier's principle with reference to counteracting changes",
+      "Pressure increase shifts equilibrium right due to decrease in moles of gas (3→2)",
+      "Increase in $SO_2$ concentration shifts equilibrium right, consuming excess reactant",
+      "Temperature increase shifts equilibrium left because reaction is exothermic",
+      "Catalyst increases reaction rate but does not affect equilibrium position or yield"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Le Chatelier's Principle:** If a change of condition (concentration, pressure, or temperature) is applied to a system in equilibrium, the system will shift in a direction that counteracts the change.\n\n**Effects on the reaction $2SO_2 + O_2 \\rightleftharpoons 2SO_3$ ($\\Delta H = -256$ kJ/mol):**\n\n**Increase in Pressure:** The equilibrium shifts to the right (forward direction) because the forward reaction decreases the number of moles of gas (3 moles → 2 moles). The system counteracts the pressure increase by shifting toward fewer moles, increasing $SO_3$ yield.\n\n**Increase in Concentration of $SO_2$:** The equilibrium shifts to the right. According to Le Chatelier's principle, the system counteracts the increase in $SO_2$ concentration by consuming excess $SO_2$ through the forward reaction, producing more $SO_3$.\n\n**Increase in Temperature:** The equilibrium shifts to the left (reverse direction). Since the reaction is exothermic ($\\Delta H = -256$ kJ/mol), increasing temperature favors the endothermic reverse reaction. The system counteracts the temperature increase by absorbing heat through the reverse reaction, decreasing $SO_3$ yield.\n\n**Increase in $NO_2$ Catalyst:** A catalyst does not shift the equilibrium position. It increases the rate of both forward and reverse reactions equally, allowing equilibrium to be reached faster without changing the equilibrium concentrations or yield of $SO_3$.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "State **Le-Chatelier's principle**. Briefly discuss the effect of increase in pressure, increase in concentration of $SO_2$, increase in temperature, and increase in $NO_2$ catalyst when the following reaction is at equilibrium: $2SO_2 + O_2 \\rightleftharpoons 2SO_3 \\quad \\Delta H = -256\\text{ kJ/mol}$ (with $NO_2$ as catalyst).",
+    "topicId": "ms710c866xkaefvcww5denb0ex85qj90",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-7-industrial-application-of-lechatelier-s-principle",
+    "topicTitle": "8.7 Industrial Application of Le Chatelier's Principle",
+    "_id": "m17d2ysa08jexeyecrqtz975kn85p5nw",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Decreasing volume increases pressure; equilibrium shifts toward fewer moles of gas (right), increasing $NO_2$ yield",
+      "Increasing temperature in endothermic reaction shifts equilibrium forward (right), increasing CO and $H_2$ yield",
+      "Adding product ($I_2$) shifts equilibrium left (toward reactants) to counteract the disturbance, reducing HI dissociation",
+      "Le Chatelier's principle correctly predicts direction of equilibrium shift for all three scenarios",
+      "Understanding mole changes and reaction type ($\\Delta H$) is essential for predicting equilibrium shifts"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Effect of Changes on Equilibrium Reactions:**\n\n**(i) Decreasing volume in $2NO + O_2 \\rightleftharpoons 2NO_2$:** Decreasing volume increases pressure. The system has 3 moles of gas on the left and 2 moles on the right. According to Le Chatelier's principle, the equilibrium shifts toward the side with fewer moles of gas (right side), favoring the forward reaction and increasing $NO_2$ yield.\n\n**(ii) Increasing temperature in $CH_4 + H_2O \\rightleftharpoons CO + 3H_2$ ($\\Delta H = +256 kJ$):** This is an endothermic reaction. Increasing temperature provides more energy to the system. According to Le Chatelier's principle, the equilibrium shifts in the endothermic direction (forward/right) to absorb the added heat, increasing the yield of CO and $H_2$.\n\n**(iii) Adding $I_2$ in $2HI \\rightleftharpoons H_2 + I_2$:** Adding $I_2$ increases the concentration of a product. According to Le Chatelier's principle, the equilibrium shifts toward the reactants (left side) to counteract this increase. The equilibrium position shifts left, but the overall amount of $I_2$ remains increased due to the added amount, though the degree of dissociation of HI decreases.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Describe the effect of stated change on the following reactions at equilibrium position: (i) Decreasing the volume in $2NO + O_2 \\rightleftharpoons 2NO_2$ (ii) Increasing temperature in $CH_4 + H_2O \\rightleftharpoons CO + 3H_2$ ($\\Delta H = +256 kJ$) (iii) Adding $I_2$ in $2HI \\rightleftharpoons H_2 + I_2$.",
+    "topicId": "ms710c866xkaefvcww5denb0ex85qj90",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-7-industrial-application-of-lechatelier-s-principle",
+    "topicTitle": "8.7 Industrial Application of Le Chatelier's Principle",
+    "_id": "m177yb7n58zrwyj02ys6dkhd5h8e1ha4",
+    "correctKey": "D",
+    "exerciseId": "xd76d1nenfdzrtyh3prmbv18zx8e1syp",
+    "exerciseTitle": "Exercise 8: Choose the Correct Answer",
+    "explanation": "Increasing pressure favours the side with fewer gas moles (products), and increasing O2 concentration shifts equilibrium toward SO3 (Le Chatelier); increasing temperature would shift the exothermic reaction backward, and a catalyst does not change yield, so only (a) and (d) increase yield.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "a, b"
+      },
+      {
+        "key": "B",
+        "text": "a, b, c"
+      },
+      {
+        "key": "C",
+        "text": "a, b, c, d"
+      },
+      {
+        "key": "D",
+        "text": "a, d"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(vii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "For 2SO2(g) + O2(g) <=> 2SO3(g), ΔH° = -198 kJ, the yield of sulphur trioxide can be increased by: 1. a,b 2. a,b,c 3. a,b,c,d 4. a,d (where a=increasing pressure, b=increasing temperature, c=adding catalyst, d=increasing concentration of oxygen)",
+    "topicId": "ms710c866xkaefvcww5denb0ex85qj90"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-7-industrial-application-of-lechatelier-s-principle",
+    "topicTitle": "8.7 Industrial Application of Le Chatelier's Principle",
+    "_id": "m1767nb5emxwmjfn1h80gfy6w98e1fnj",
+    "exerciseId": "xd75e9etpzh3vmq9hdc6c88f4s8e1vrs",
+    "exerciseTitle": "Exercise 8: Questions",
+    "keyPoints": [
+      "In the Haber process (N2 + 3H2 <=> 2NH3, exothermic), high pressure is used to shift equilibrium toward the side with fewer gas moles (ammonia), increasing yield.",
+      "A moderate temperature balances yield (favoured by low T) against reaction rate (favoured by high T), and a catalyst speeds equilibrium attainment without changing the yield."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Questions",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Explain the industrial application of Le Chatelier's principle using Haber's process as an example.",
+    "topicId": "ms710c866xkaefvcww5denb0ex85qj90"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "08-chemical-equilibrium",
+    "chapterTitle": "Chemical Equilibrium",
+    "topicSlug": "8-7-industrial-application-of-lechatelier-s-principle",
+    "topicTitle": "8.7 Industrial Application of Le Chatelier's Principle",
+    "_id": "m17bvcqx6y19bejvjczfqznhf18e1r0h",
+    "exerciseId": "xd7fpsapf0krbsase95w9gw2ns8e1xaf",
+    "exerciseTitle": "Project",
+    "keyPoints": [
+      "Examples include the carbonate/bicarbonate buffer equilibrium in blood, the CO2 dissolution equilibrium in oceans, and oxygen-haemoglobin binding equilibrium in respiration."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Project",
+    "sourceRef": {
+      "blockIndex": 31,
+      "chapterNumber": 8,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Investigate examples of chemical equilibrium in natural systems and prepare a report on it.",
+    "topicId": "ms710c866xkaefvcww5denb0ex85qj90"
+  }
+]

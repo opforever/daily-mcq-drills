@@ -1,0 +1,2311 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17758bq5wynjz15fsqab57g058c824h",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Telescoping identity 1/((3k+1)(3k+4))=(k+1)/(3k+4)-k/(3k+1)",
+      "Divisibility step 4^(k+1)+15(k+1)-1=4(4^k+15k-1)+9(1-k)",
+      "Binomial bound uses C(2k+2,k+1)<4C(2k,k)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For each assertion $P(n)$, check the first allowed value, assume $P(k)$, append the next series term (or multiply by the next factor), substitute the induction hypothesis, and simplify to the expression at $k+1$. This proves items 1–19. Key telescoping steps are $1/((3k+1)(3k+4))=(k+1)/(3k+4)-k/(3k+1)$ and $1/(k(k+1))=1/k-1/(k+1)$; item 6 is the geometric-series step, while items 10, 12, and 13 add the next decimal, weighted-power, and factorial term.\n\nFor items 20–24, use $(k+1)^3+2(k+1)-(k^3+2k)=3(k^2+k+1)$; $(k+1)((k+1)^2+5)-k(k^2+5)=3(k^2+k+2)$, divisible by $6$ because $k^2+k$ is even; $4^{k+1}+15(k+1)-1=4(4^k+15k-1)+9(1-k)$; and $7^{k+1}-2^{k+1}=7(7^k-2^k)+5\\cdot2^k$. Item 22 is rational directly because an integer divided by the non-zero integer $15$ is rational.\n\nFor items 25–32, the bases are $n=2,2,0,5,2,0,2,4$. Use multiplication by $2$ and $k+2\\ge4$ for 25; $6^k\\ge9$ for 26; multiply Bernoulli's induction inequality by positive $1+h$ for 27; use $\\binom{2k+2}{k+1}=\\binom{2k}{k}2(2k+1)/(k+1)<4\\binom{2k}{k}$ for 28; raise positive sides to the $k(k+1)$ power and use the binomial expansion for 29; and use $1+3(k+1)\\le4(1+3k)$ plus the growth comparisons for 30–32. Thus all printed statements hold on their stated domains by induction.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "By the method of the mathematical induction prove the following when $n$ is an integer.\n\n1. $1+2+3+\\cdots+n=\\frac{n(n+1)}{2} \\quad \\forall n \\geq 1$\n2. $1^{2}+2^{2}+3^{2}+\\cdots+n^{2}=\\frac{n(n+1)(2 n+1)}{6} \\quad \\forall n \\geq 1$\n3. $1^{3}+2^{3}+3^{3}+\\cdots+n^{3}=\\frac{n^{2}(n+1)^{2}}{4} \\quad \\forall n \\geq 1$\n4. $\\frac{1}{1.4}+\\frac{1}{4.7}+\\frac{1}{7.10}+\\cdots+\\frac{1}{(3 n-2)(3 n+1)}=\\frac{n}{3 n+1} \\quad \\forall n \\geq 1$\n5. $1^{2}+3^{2}+5^{2}+\\cdots+(2 n-1)^{2}=\\frac{n\\left(4 n^{2}-1\\right)}{3} \\quad \\forall n \\geq 1$\n6. $4^{3}+4^{4}+4^{5}+\\cdots+4^{n}=4^{3}\\left(\\frac{4^{n-2}-1}{3}\\right) \\quad \\forall n \\geq 3$\n7. $\\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\cdots+\\frac{1}{n(n+1)}=\\frac{n}{n+1} \\quad \\forall n \\geq 1$\n8. $\\frac{3}{1.2 .2}+\\frac{4}{2.3 .2^{2}}+\\frac{5}{3.4 .2^{3}}+\\cdots+\\frac{n+2}{n(n+1) .2^{n}}=1-\\frac{1}{(n+1) .2^{n}} \\quad \\forall n \\geq 1$\n9. $\\frac{5}{1.2 .3}+\\frac{6}{2.3 .4}+\\frac{7}{3.4 .5}+\\cdots+\\frac{n+4}{n(n+1)(n+2)}=\\frac{n(3 n+7)}{2(n+1)(n+2)} \\quad \\forall n \\geq 1$\n10. $7+77+777+\\cdots+777 \\ldots 7_{n \\text { times }}=\\frac{7}{81}\\left(10^{n+1}-9 n-10\\right) \\quad \\forall n \\geq 1$\n11. $1^{3}+3^{3}+5^{3}+\\cdots+(2 n+1)^{3}=(n+1)^{2}\\left(2 n^{2}+4 n+1\\right) \\quad \\forall n \\geq 0$\n12. $1.2^{0}+2.2^{1}+3.2^{2}+\\cdots+n .2^{n-1}=(n-1) .2^{n}+1 \\quad \\forall n \\geq 1$\n\n13. $1.1!+2.2!+3.3!+\\cdots n . n!=(n+1)!-1$ $\\forall n \\geq 1$\n14. $\\left(1-\\frac{1}{2^{2}}\\right)\\left(1-\\frac{1}{3^{2}}\\right)\\left(1-\\frac{1}{4^{2}}\\right) \\ldots\\left(1-\\frac{1}{n^{2}}\\right)=\\frac{n+1}{2 n} \\quad \\forall n \\geq 2$\n15. $\\left(\\frac{1}{1} \\cdot \\frac{1}{2}\\right)\\left(\\frac{1}{3} \\cdot \\frac{1}{4}\\right)\\left(\\frac{1}{5} \\cdot \\frac{1}{6}\\right) \\ldots\\left(\\frac{1}{2 n+1} \\cdot \\frac{1}{2 n+2}\\right)=\\frac{1}{(2 n+2)!} \\quad \\forall n \\geq 0$\n16. $1-2+2^{2}-2^{3}+\\cdots+(-1)^{n-1} 2^{n-1}=\\frac{1-(-2)^{n}}{3} \\quad \\forall n \\geq 0$\n17. $\\binom{n}{0}+\\binom{n}{1}+\\binom{n}{2}+\\cdots+\\binom{n}{n}=2^{n} \\quad \\forall n \\geq 0$\n18. $\\binom{n}{1}+2\\binom{n}{2}+3\\binom{n}{3}+\\cdots+n\\binom{n}{n}=n \\cdot 2^{n-1} \\quad \\forall n \\geq 1$\n19. $\\binom{n}{0}+\\frac{1}{2}\\binom{n}{1}+\\frac{1}{3}\\binom{n}{2}+\\cdots+\\frac{1}{n+1}\\binom{n}{n}=\\frac{2^{n+1}-1}{n+1} \\quad \\forall n \\geq 0$\n\nProve the followings by mathematical induction.\n\n20. $n^{3}+2 n$ is divisible by 3 $\\forall n \\geq 1$\n21. 6 is a factor of $n\\left(n^{2}+5\\right)$ $\\forall n \\geq 1$\n22. $\\frac{n\\left(3 n^{4}+5 n^{2}+7\\right)}{15}$ is a rational number.\n23. $4^{n}+15 n-1$ is divisible by 9 $\\boldsymbol{\\forall} \\boldsymbol{n} \\geq \\mathbf{1}$\n24. $7^{n}-2^{n}$ is divisible by 5 $\\forall n \\geq 0$\n\nProve the followings inequalities by using the method of mathematical induction.\n\n25. $2^{n}<(n+1)!$ $\\forall n \\geq 2$\n26. $5^{n}+9<6^{n}$ $\\forall n \\geq 2$\n27. If $h>-1$ then $1+n h \\leq(1+h)^{n}$ $\\forall n \\geq 0$\n28. $\\binom{2 n}{n}<2^{2 n-2}$ $\\forall n \\geq 5$\n29. $\\sqrt[n]{n}<2-\\frac{1}{n}$ $\\forall n \\geq 2$\n30. $1+3 n \\leq 4^{n}$ $\\forall n \\geq 0$\n31. $n^{3}>2 n+1$ $\\forall n \\geq 2$\n32. $n!>n^{2}$ $\\forall n \\geq 4$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17bzhyg40wt76c68bfptxagb18c87gg",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Verify the base case.",
+      "Assume the statement for k.",
+      "Add the next term and simplify."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Induction: for n=1 both sides equal 1. Assuming 1+...+k=k(k+1)/2, add k+1 to obtain (k+1)(k+2)/2, proving the formula.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+2+3+\\cdots+n=\\frac{n(n+1)}{2} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m177g5n0qcn63qyv9jnmrrr3q18c94az",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Check n=1.",
+      "Assume the square-sum identity at k.",
+      "Add (k+1)^2 and simplify."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use induction: the base case n=1 is true. If the sum of squares through k is k(k+1)(2k+1)/6, adding (k+1)^2 simplifies to (k+1)(k+2)(2k+3)/6.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1^{2}+2^{2}+3^{2}+\\cdots+n^{2}=\\frac{n(n+1)(2 n+1)}{6} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m1736g6kws77wtc0k820mkfk018c9jrv",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Verify the base case.",
+      "Use the induction hypothesis.",
+      "Add the next cube and factor."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Induct on n: the cubic-sum identity is true at n=1. Assuming it through k, add (k+1)^3 and factor to obtain (k+1)^2(k+2)^2/4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1^{3}+2^{3}+3^{3}+\\cdots+n^{3}=\\frac{n^{2}(n+1)^{2}}{4} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m170ahf5jf2satqnkdxdanhmdh8c8qbw",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Use partial fractions.",
+      "The sum telescopes.",
+      "The result is n/(3n+1)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Rewrite each fraction as 1/[3(3j+1)] and telescope: 1/(3j-2)-1/(3j+1)=3/[(3j-2)(3j+1)]. Summing leaves n/(3n+1).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{1.4}+\\frac{1}{4.7}+\\frac{1}{7.10}+\\cdots+\\frac{1}{(3 n-2)(3 n+1)}=\\frac{n}{3 n+1} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17ff6hcwhgbk4p8hd71g573an8c8mvc",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Base case $n=1$: $1=(1(4-1))/3$. If true for $n$, adding $(2n+1)^2$ gives $((n+1)(4(n+1)^2-1))/3$ after simplification. Hence true for all $n\\ge1$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1^{2}+3^{2}+5^{2}+\\cdots+(2 n-1)^{2}=\\frac{n\\left(4 n^{2}-1\\right)}{3} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m171mqwjxhgdk27nj6k9bdh7v58c8c80",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For $n=3$, both sides equal $4^3$. If true at $n$, adding $4^{n+1}$ gives $4^3(4^{n-1}-1)/3+4^{n+1}=4^3(4^{n-1+1}-1)/3$, the claimed form at $n+1$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$4^{3}+4^{4}+4^{5}+\\cdots+4^{n}=4^{3}\\left(\\frac{4^{n-2}-1}{3}\\right) \\quad \\forall n \\geq 3$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17e1y7p3eh4517vaa9w1tc5gh8c9ser",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use $1/[k(k+1)]=1/k-1/(k+1)$. The sum telescopes to $1-1/(n+1)=n/(n+1)$; this also supplies the induction step.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{1.2}+\\frac{1}{2.3}+\\frac{1}{3.4}+\\cdots+\\frac{1}{n(n+1)}=\\frac{n}{n+1} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m177h2ftpx4z5kv06xnj8cq3bh8c8ndf",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Rewrite each term as $(k+2)/(2^k k(k+1))$ and verify the base case. Subtracting consecutive right-hand sides shows the increment equals the next summand, proving the identity by induction.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{3}{1.2 .2}+\\frac{4}{2.3 .2^{2}}+\\frac{5}{3.4 .2^{3}}+\\cdots+\\frac{n+2}{n(n+1) .2^{n}}=1-\\frac{1}{(n+1) .2^{n}} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m173en9hkz01nsf8sj816tdjen8c811c",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Verify $n=1$. Decompose each summand into partial fractions and simplify the increment from $n$ to $n+1$; it equals the $(n+1)$th summand, so induction proves the displayed closed form.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{5}{1.2 .3}+\\frac{6}{2.3 .4}+\\frac{7}{3.4 .5}+\\cdots+\\frac{n+4}{n(n+1)(n+2)}=\\frac{n(3 n+7)}{2(n+1)(n+2)} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m1703f107149682b7vjhkz06q18c8mr7",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Verify n=1.",
+      "Add the next repunit term.",
+      "Simplify to the claimed closed form."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use induction on n: the base case n=1 holds. Assuming the identity through k, adding the next repunit term 7(10^k) and simplifying gives 7/81(10^(k+2)-9(k+1)-10), proving the stated formula.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$7+77+777+\\cdots+777 \\ldots 7_{n \\text { times }}=\\frac{7}{81}\\left(10^{n+1}-9 n-10\\right) \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17adet91hr3fyhvwazysyderh8c9377",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Check n=0.",
+      "Use the induction hypothesis.",
+      "Add the next odd cube and factor."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Induct from n=0. The base case is 1=1. Assuming the formula at k, add (2k+3)^3 and simplify to (k+2)^2(2(k+1)^2+4(k+1)+1), proving the identity.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1^{3}+3^{3}+5^{3}+\\cdots+(2 n+1)^{3}=(n+1)^{2}\\left(2 n^{2}+4 n+1\\right) \\quad \\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17cb8ekxykgstjqwdk45fcgyh8c9tg4",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Verify n=1.",
+      "Add the next term (k+1)2^k.",
+      "Simplify to k2^(k+1)+1."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Induct on n. For n=1, the sum is 1. If the result is (k-1)2^k+1, adding (k+1)2^k gives k2^(k+1)+1, which is the formula at k+1.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1.2^{0}+2.2^{1}+3.2^{2}+\\cdots+n .2^{n-1}=(n-1) .2^{n}+1 \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m170hbxgak941tnyc07b9281ex8c96mh",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Rewrite k·k! as (k+1)!-k!.",
+      "The sum telescopes.",
+      "Result is (n+1)!-1."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use k·k!=(k+1)!-k! and telescope: 1·1!+...+n·n!=(n+1)!-1.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1.1!+2.2!+3.3!+\\cdots n . n!=(n+1)!-1$ $\\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m179c2y72deydmknb41pgkrf1n8c8dkt",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Factor each term.",
+      "Cancel adjacent factors.",
+      "The product is (n+1)/(2n)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each factor is $\frac{j^2-1}{j^2}$, so the product telescopes to $\frac{n+1}{2n}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\left(1-\\frac{1}{2^{2}}\\right)\\left(1-\\frac{1}{3^{2}}\\right)\\left(1-\\frac{1}{4^{2}}\\right) \\ldots\\left(1-\\frac{1}{n^{2}}\\right)=\\frac{n+1}{2 n} \\quad \\forall n \\geq 2$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m171fkewpwff8a1vnw6t6283v18c8cc5",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Combine all consecutive denominator factors.",
+      "The product denominator is (2n+2)!.",
+      "Result is 1/(2n+2)!."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The product equals the reciprocal of 1·2·3·...·(2n+2), hence 1/(2n+2)!; this follows directly by multiplying the displayed factors.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\left(\\frac{1}{1} \\cdot \\frac{1}{2}\\right)\\left(\\frac{1}{3} \\cdot \\frac{1}{4}\\right)\\left(\\frac{1}{5} \\cdot \\frac{1}{6}\\right) \\ldots\\left(\\frac{1}{2 n+1} \\cdot \\frac{1}{2 n+2}\\right)=\\frac{1}{(2 n+2)!} \\quad \\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17fpjh2yyw1h0sxsescwqz6ds8c9vqh",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Identify first term and ratio.",
+      "Apply the finite geometric sum formula.",
+      "Result is (1-(-2)^n)/3."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This is a geometric series with first term 1 and ratio -2, so its sum through n terms is (1-(-2)^n)/(1-(-2))=(1-(-2)^n)/3.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1-2+2^{2}-2^{3}+\\cdots+(-1)^{n-1} 2^{n-1}=\\frac{1-(-2)^{n}}{3} \\quad \\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17912ka1n9f79rw2xpp1zs6yh8c964a",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Use the binomial expansion.",
+      "Set both variables to 1.",
+      "The coefficient sum is 2^n."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By the binomial theorem, summing all coefficients in (1+1)^n gives 2^n.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "17",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\binom{n}{0}+\\binom{n}{1}+\\binom{n}{2}+\\cdots+\\binom{n}{n}=2^{n} \\quad \\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m173vsp2bkgkhgrhcxe6t3g7ch8c9pb7",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Differentiate the binomial expansion.",
+      "Set x=1.",
+      "Obtain n·2^(n-1)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Differentiate (1+x)^n and set x=1: the weighted coefficient sum is n(1+1)^(n-1)=n·2^(n-1).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "18",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\binom{n}{1}+2\\binom{n}{2}+3\\binom{n}{3}+\\cdots+n\\binom{n}{n}=n \\cdot 2^{n-1} \\quad \\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m170hz3pvxnnbftx3qdgaah21h8c9364",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Rewrite each term using the adjacent binomial coefficient.",
+      "Sum the resulting binomial coefficients.",
+      "Divide by n+1."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use the integral identity C(n,k)/(k+1)=C(n+1,k+1)/(n+1), then sum: [2^(n+1)-1]/(n+1).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "19",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\binom{n}{0}+\\frac{1}{2}\\binom{n}{1}+\\frac{1}{3}\\binom{n}{2}+\\cdots+\\frac{1}{n+1}\\binom{n}{n}=\\frac{2^{n+1}-1}{n+1} \\quad \\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m173q495h2xaccyejmbassnn558c9xrw",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Divisibility difference 3(k^2+k+1) for n^3+2n",
+      "Divisibility difference 3(k^2+k+2) for n(n^2+5)",
+      "7^(k+1)-2^(k+1)=7(7^k-2^k)+5*2^k"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let $P(n)$ denote each statement. For 20, $P(1)=3$ and the induction difference is $3(k^2+k+1)$. For 21, $P(1)=6$ and the difference is $3(k^2+k+2)$, divisible by $6$ because $k^2+k$ is even. For 22, the expression is rational for every integer $n$ directly. For 23, $P(1)=18$ and $4^{k+1}+15(k+1)-1=4(4^k+15k-1)+9(1-k)$. For 24, $P(0)=0$ and $7^{k+1}-2^{k+1}=7(7^k-2^k)+5\\cdot2^k$. Each induction step preserves the required divisibility.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "20. $n^{3}+2 n$ is divisible by 3 $\\forall n \\geq 1$\n21. 6 is a factor of $n\\left(n^{2}+5\\right)$ $\\forall n \\geq 1$\n22. $\\frac{n\\left(3 n^{4}+5 n^{2}+7\\right)}{15}$ is a rational number.\n23. $4^{n}+15 n-1$ is divisible by 9 $\\boldsymbol{\\forall} \\boldsymbol{n} \\geq \\mathbf{1}$\n24. $7^{n}-2^{n}$ is divisible by 5 $\\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m178e9k614tbrawajvak78vqj58c8304",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Use n^3≡n mod 3.",
+      "Add 2n.",
+      "The result is 0 mod 3."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since $n^3equiv npmod 3$, $n^3+2nequiv3nequiv0pmod 3$, so the expression is divisible by 3.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "20",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$n^{3}+2 n$ is divisible by 3 $\\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m172qb76ex23c34vmpctbh8exs8c9yxj",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Show divisibility by 2.",
+      "Use n^2≡0 or 1 mod 3.",
+      "Combine coprime factors 2 and 3."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Among three consecutive residues modulo 2 and modulo 3, $n(n^2+5)$ is always divisible by 2 and by 3; therefore it is divisible by 6.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "21",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "6 is a factor of $n\\left(n^{2}+5\\right)$ $\\forall n \\geq 1$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m1742pyfg1b6twshg0nxtw8djn8c9vvt",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For every integer $n$, the numerator $n(3n^4+5n^2+7)$ is an integer and the denominator is the nonzero integer $15$. Therefore the quotient is rational.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "22",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{n\\left(3 n^{4}+5 n^{2}+7\\right)}{15}$ is a rational number.",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17b7wedyaxxwq0a5qvgyy0cp98c9k82",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Verify n=1.",
+      "Express the next case using the induction hypothesis.",
+      "The remainder is a multiple of 9."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Base n=1 gives 18. If 4^k+15k-1=9m, then the next expression equals 4(4^k+15k-1)-45k+18=36m+9(2-5k), divisible by 9.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "23",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$4^{n}+15 n-1$ is divisible by 9 $\\boldsymbol{\\forall} \\boldsymbol{n} \\geq \\mathbf{1}$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17aqbjysh2e9c429scteewj998c8h5r",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Reduce both bases modulo 5.",
+      "Their powers are congruent.",
+      "The difference is divisible by 5."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Because 7≡2 (mod 5), 7^n-2^n≡0 (mod 5) for every n≥0, so 5 divides the difference.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "24",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$7^{n}-2^{n}$ is divisible by 5 $\\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17fp5cznr2qxwrcqj796tpjy58c9tsp",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "25. $2^{n}<(n+1)!$ $\\forall n \\geq 2$\n26. $5^{n}+9<6^{n}$ $\\forall n \\geq 2$\n27. If $h>-1$ then $1+n h \\leq(1+h)^{n}$ $\\forall n \\geq 0$\n28. $\\binom{2 n}{n}<2^{2 n-2}$ $\\forall n \\geq 5$\n29. $\\sqrt[n]{n}<2-\\frac{1}{n}$ $\\forall n \\geq 2$\n30. $1+3 n \\leq 4^{n}$ $\\forall n \\geq 0$\n31. $n^{3}>2 n+1$ $\\forall n \\geq 2$\n32. $n!>n^{2}$ $\\forall n \\geq 4$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m1779rfds19a0rzw85xq1hzrw98c8ahz",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Check n=2.",
+      "Multiply the induction hypothesis by 2.",
+      "Use 2<k+2."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Base n=2: 4<6. If 2^k<(k+1)!, then 2^(k+1)<2(k+1)!<(k+2)(k+1)!=(k+2)!, proving the inequality.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "25",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$2^{n}<(n+1)!$ $\\forall n \\geq 2$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17e4mjj78k0a6snyq5q494d7n8c8qcr",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Verify n=2.",
+      "Apply the induction hypothesis.",
+      "Use 9<6^k for k≥2."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At n=2, 25+9=34<36. Assuming 5^k+9<6^k, then 5^(k+1)+9=5·5^k+9<5·6^k+9<6·6^k=6^(k+1), since 9<6^k.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "26",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$5^{n}+9<6^{n}$ $\\forall n \\geq 2$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m170y64dah22khtswqn9scvnjx8c9gac",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Use h>-1 so 1+h>0.",
+      "Check n=0.",
+      "Multiply and apply the induction hypothesis."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This is Bernoulli’s inequality. For n=0 equality holds; if 1+kh≤(1+h)^k, multiply by 1+h>0 and use the induction step to obtain 1+(k+1)h≤(1+h)^(k+1).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "27",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $h>-1$ then $1+n h \\leq(1+h)^{n}$ $\\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m173p4sveqaca5dyc15npv8nr98c9dmv",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Verify n=5.",
+      "Use the central-binomial coefficient ratio.",
+      "The ratio is less than 4."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At n=5, C(10,5)=252<256=2^8. If C(2k,k)<2^(2k-2), then C(2k+2,k+1)/C(2k,k)=2(2k+1)/(k+1)<4, so C(2k+2,k+1)<4·2^(2k-2)=2^(2k), proving the claim for k+1.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "28",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\binom{2 n}{n}<2^{2 n-2}$ $\\forall n \\geq 5$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m1743qtesmfpa1p8gcmzgqt7y18c9jbx",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "29",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sqrt[n]{n}<2-\\frac{1}{n}$ $\\forall n \\geq 2$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m1776tst4tna7f62whfkrnnc158c958y",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Check n=0.",
+      "Use the induction hypothesis.",
+      "Compare the next linear term with 4^(k+1)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For n=0 equality holds. If 1+3k≤4^k, then 1+3(k+1)=4+3k≤4·4^k=4^(k+1).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "30",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+3 n \\leq 4^{n}$ $\\forall n \\geq 0$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m179z4m8wfm76ey01bw2rz64rs8c8a0m",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Check n=2.",
+      "Expand (k+1)^3.",
+      "The added positive terms preserve a strict inequality."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At $n=2$, $8>5$. If $k^3>2k+1$, then $(k+1)^3=k^3+3k^2+3k+1>2k+1+3k^2+3k+1>2k+3$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "31",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$n^{3}>2 n+1$ $\\forall n \\geq 2$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "m17evwfpmqne4157f5pmq58wqn8c94b0",
+    "exerciseId": "xd7ea0veg470nxvxntvtq0145d8c93tb",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Check n=4.",
+      "Multiply the induction hypothesis by k+1.",
+      "(k+1)k^2>(k+1)^2 for k≥4."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At $n=4$, $24>16$. If $k!>k^2$ for $kge4$, then $(k+1)!=(k+1)k!>(k+1)k^2>(k+1)^2$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "32",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 7,
+      "page": 176,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$n!>n^{2}$ $\\forall n \\geq 4$",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m1739550jvq51f365cv1dvgy218c9wt6",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Expand the following with the help of Pascal's triangle.\n(i) $\\left(2 \\sqrt{x}+\\frac{1}{\\sqrt{x}}\\right)^{5}$\n(ii) $\\left(\\frac{3}{x}+\\frac{y}{2}\\right)^{6}$\n(iii) $\\left(2-x^{3 / 2}\\right)^{7}$\n(iv) $\\left(\\frac{x^{2}}{y^{2}}-\\sqrt{\\frac{y}{x}}\\right)^{5}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17f0gs4fn3kjvr8w0f14b3gpn8c8bke",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Expand the followings by using binomial theorem.\n(i) $\\left(\\frac{2 x}{3}-\\frac{3}{2 x}\\right)^{5}$\n(ii) $\\left(-x+y^{-1}\\right)^{6}$\n(iii) $(3 u-1)^{7}$\n(iv) $(a \\sqrt{2}+b \\sqrt{3})^{5}$\n(v) $(1+2 x-y)^{4}$\n(vi) $\\left(\\frac{1}{x}+\\frac{2}{y}+\\frac{3}{z}\\right)^{4}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m179p3x1181yyesft4mfeerfds8c8ps8",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Expand and simplify.\n(i) $(1+10 x)^{4}+(1-10 x)^{4}$\n(ii) $\\left(2-\\frac{3}{x}\\right)\\left(1+4 x^{2}\\right)$\n(iii) $\\left(1+2 x+2 x^{2}\\right)(1-x)^{5}$\n(iv) $(.99)^{3}+(1.01)^{4}$\n(v) $\\left(\\frac{2}{x}-\\frac{x}{4}\\right)^{4}+\\left(\\frac{2}{x}+\\frac{x}{4}\\right)^{4}$\n(vi) $\\left(a^{2}+\\sqrt{a^{2}-1}\\right)^{4}-\\left(a^{2}-\\sqrt{a^{2}-1}\\right)^{4}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m172ndhamrk75hve088tbr091d8c8asj",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The 8th term is $\\binom{10}{7}(x^2)^3(y/2)^7=\\frac{15}{16}x^6y^7$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the coefficient of the $8^{\\text {th }}$ term in the expansion of $\\left(x^{2}+\\frac{y}{2}\\right)^{10}$.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17d6k4f0kcjxrqgkec0zwrvm98c8zth",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the middle term in the expansion of the following.\n(i) $\\left(3 x^{2}-\\frac{1}{2 x}\\right)^{10}$\n(ii) $\\left(2 x^{2}-\\frac{1}{5 x}\\right)^{11}$\n(iii) $\\left(\\frac{a}{\\sqrt{x}}+\\sqrt{x}\\right)^{8}$\n(iv) $\\left(a-\\frac{3}{x^{2}}\\right)^{12}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17723v049ygwp96ybstsy4mpd8c9qm1",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the specified term in the following expansions.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17f7yxkvb6w6rcs104kxqdtpx8c990c",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The terms independent of $x$ are $7920$ in (i) and $5$ in (ii).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 10,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the term independent of $x$ in the expansions of the following.\n(i) $\\left(2 x^{2}-\\frac{1}{x}\\right)^{12}$\n(ii) $\\left(\\sqrt{x}+\\frac{1}{3 x^{2}}\\right)^{10}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17815j12p1km2ee0fhjwqntd18c95pc",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With $0\\le r\\le n$, the $(r+1)$th term from the end is $\\binom nr a^r b^{n-r}$ (equivalently, the $r$th term from the end under one-based indexing is $\\binom n{r-1}a^{r-1}b^{n-r+1}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 10,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the $r^{\\text {th }}$ term from the end in the expansion of $(a+b)^{n}$ where $0 \\leq r \\leq n$.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17dnqrxbj3ymk03acsp98ftq18c8ce4",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Set $a=b=1$ in $(a+b)^n$ to get the sum of all coefficients $2^n$. Subtract the even-coefficient sum, or compare $(1-1)^n$, to obtain the odd-coefficient sum $2^{n-1}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove that sum of all the binomial coefficients in the expansion of $(a+b)^{n}$ is $2^{n}$; hence or otherwise prove that sum of odd coefficients is $2^{n-1}$.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m174sna0r9bys70ky2k7p1rj9x8c9456",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "The sum of coefficients of first three terms in the expansion of $\\left(a-\\frac{3}{a^{2}}\\right)^{n}$ is 559. Find the term involving $a^{3}$ in the expansion.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17dhaev2fachk2twcrhm7kqcd8c8pbt",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If the coefficients of $(r-5)^{\\text {th }}$ and $(2 r-1)^{\\text {th }}$ term in the expansion of $(1+a)^{34}$ are equal; then find the value of $r$.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m176gfax3zsxkgqea59e9g9xk18c9f6p",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If the coefficients of $2^{\\text {nd }}, 3^{\\text {rd }}$ and $4^{\\text {th }}$ terms in the expansion of $(1+x)^{2 m}$ are in A.P., show that $2 m^{2}-9 m+7=0$.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17b9yphpgxjhyc0f1qjjsrszd8c970q",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If coefficients of three consecutive terms in the expansion of $(1+x)^{n}$ are in the ratio $6: 33: 110$, then find the value of $n$ and the position of terms.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17ckzc624smvshkf2z7mdwnpd8c89se",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Integrate $(1+x)^n$ from $0$ to $1$: $\\int_0^1(1+x)^n dx=(2^{n+1}-1)/(n+1)$. Expanding and integrating termwise gives the displayed sum.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove that $\\binom{n}{0}+\\frac{1}{2}\\binom{n}{1}+\\frac{1}{3}\\binom{n}{2}+\\cdots+\\frac{1}{n+1}\\binom{n}{n}=\\frac{2^{n+1}-1}{n+1}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17179561kdsm7zmgvdbzqxngn8c8atr",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Integrate $(1+x)^n$ from $-1$ to $0$: after the substitution, the alternating binomial sum equals $1/(n+1)$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove that $\\binom{n}{0}-\\frac{1}{2}\\binom{n}{1}+\\frac{1}{3}\\binom{n}{2}-\\cdots+\\frac{(-1)^{n}}{n+1}\\binom{n}{n}=\\frac{1}{n+1}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m175v2b4nn0w9tg417rv9086718c8p86",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove that $\\binom{n}{0}+\\frac{1}{2}\\binom{n}{1}+\\frac{1}{2^{2}}\\binom{n}{2}+\\cdots+\\frac{1}{2^{n}}\\binom{n}{n}=\\left(\\frac{3}{2}\\right)^{n}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m175abnznqr59h1x8mz523ww2x8c9k3r",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "17",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove that $\\binom{n}{0}^{2}+\\binom{n}{1}^{2}+\\binom{n}{2}^{2}+\\cdots+\\binom{n}{n}^{2}=\\binom{2 n}{n}$",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17e3b04r4cceebpkpx6wzmdtx8c92e9",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Six fair coins give head-count frequencies $1,6,15,20,15,6,1$ for $0$ through $6$ heads.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "18",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Use pascals triangle to find the number of heads when six coins are tossed simultaneously.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m173ewg48xpgjg5rhjdxshwrm98c8t18",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Exactly five heads occur in $\\binom75=21$ outcomes.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "19",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If 7 coins are tossed how many times 5 heads will appear.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "m17f56z6qjazsd4p9ewxnd3a5n8c8dbv",
+    "exerciseId": "xd71v2wshczmtstb5reveh52gx8c9hjw",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Exactly three tails occur in $\\binom83=56$ outcomes.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "20",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If a coin is tossed 8 times how many times 3 tails will appear.",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m173tn4564tq16mwb9jn182pzh8c89fw",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Expand the followings upto four terms and also find the values of $x$ for which the series is convergent.\n(i). $(1-\\sqrt{x})^{-3}$\n(ii). $\\left(3+\\frac{2}{x}\\right)^{-\\frac{1}{3}}$\n(iii). $\\left(\\frac{5}{2}-\\frac{3}{x^{2}}\\right)^{\\frac{1}{2}}$\n(iv) $\\frac{3+x}{3-x}$\n(v). $\\frac{1-2 x}{\\sqrt{3+\\frac{x}{2}}}$\n(vi) $\\frac{\\sqrt{x+1}}{\\sqrt{1-x}}$",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m178151809x2872g124j2s3zgn8c8s1r",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Approximate the value upto four places of decimal.\n(i). $\\sqrt[6]{65}$\n(ii). $\\sqrt{\\frac{5}{3}}$\n(iii). $(1.03)^{\\frac{1}{3}}$\n(iv) $(.95)^{\\frac{2}{7}}$",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m174nxg4qhen2d91dhfchm19vh8c8vcw",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the term involving $x^{14}$ in the product of $\\left(1+x^{2}\\right)\\left(2+\\sqrt{3} x^{3}\\right)^{-\\frac{1}{2}}$.",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m1759m0ysx2wqytkabrkyjgw518c908j",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $x$ is so small that its square and higher powers may be neglected then prove that:\n(i) $\\frac{\\sqrt{2+x}(1-x)^{3 / 2}}{3+x} \\approx \\frac{\\sqrt{2}}{3}\\left(1-\\frac{19}{12} x\\right)$\n(ii) $\\frac{\\left(1+\\frac{2}{3} x\\right)^{-5}+\\sqrt{4+2 x}}{(4+x)^{3 / 2}} \\approx \\frac{1}{8}\\left(3-\\frac{95}{24} x\\right)$\n(iii) $\\frac{\\sqrt{9-x}+\\left(1+\\frac{3}{4} x\\right)^{-5}}{2+x} \\approx 2-\\frac{71}{24} x$",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m174asqdjtv7xjjpy3wyk4dcfd8c83j7",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $x$ is so small that its cube and higher powers may be neglected then show that:\n(i) $\\frac{(1+x)^{3 / 2-\\left(1+x^{2}\\right)^{3}}}{\\sqrt{1-x}} \\approx \\frac{3}{2} x-\\frac{15}{8} x^{2}$\n(ii) $\\frac{(4+x)^{-2}+(1-2 x)^{-5}}{(1+2 x)^{2}} \\approx \\frac{17}{16}+\\frac{183}{32} x+\\frac{8419}{256} x^{2}$",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m172z3hgdvqwcwkrx3gs1499j58c984z",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $x$ is so large that $\\left(\\frac{1}{x}\\right)^{2}$ and higher powers may be neglected then show that:\n$$\n\\sqrt{x^{2}+25}-\\sqrt{x^{2}+9} \\approx \\frac{8}{x}\n$$",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m173chzdvqes2vg0dk00qeyw9s8c8gag",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the term involving $x^{n}$ while simplifying $\\frac{(2+x)^{2}}{(1+x)^{3}}$.",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m17c1n9dwb7ezqkbp91zpg9ejh8c97ws",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Identify as binomial series and find the sum of the following:\n(i) $1-\\frac{3}{7}+4 \\cdot\\left(\\frac{3}{7}\\right)^{2}-8 \\cdot\\left(\\frac{3}{7}\\right)^{3}+\\cdots$\n(ii) $1-\\frac{1}{15}+\\frac{4}{2!\\cdot 15^{2}}-\\frac{4 \\cdot 7}{3!\\cdot 15^{3}}+\\cdots$",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m17b33500272g6g5s3xdqaxkcs8c85fm",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "(i) If $y=\\frac{3}{2^{2} .1!}+\\frac{3}{2^{4} .2!}+\\frac{3}{2^{6} .3!}+\\cdots$, then show that $8 y^{2}+16 y-19=0$.\n(ii) If $y=\\frac{1}{3}+\\frac{1.3}{3.6}+\\frac{1.3 .5}{3.6 .9}+\\cdots$ then show that $y^{2}-2 y-2=0$.",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "m17a7t87bmjt2bj3q1mgczgdks8c8yes",
+    "exerciseId": "xd772ex4w95gsz30enxy6997qd8c831c",
+    "exerciseTitle": "Exercise 7.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "(i) If $x$ is very nearly equal to 1 then show that $\\frac{a x^{b}-b x^{a}}{x^{b}-x^{a}} \\approx \\frac{1}{1-x}$.\n(ii) If $p$ and $q$ are approximately equal; then prove that $\\frac{q+2 p}{p+2 q} \\approx\\left(\\frac{p}{q}\\right)^{1 / 3}$. Hence approximate the value of $\\left(\\frac{2.01}{2}\\right)^{1 / 3}$.",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m172dx15rqyq4r8yxpzsb5f9nh8c8qyf",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Unit digits are $1,8,4,7$ respectively (taking the printed exponent $43$ for the final item).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the unit place digits in $27^{304}, 108^{33}, 54^{203}$ and $503^{43^{*}}$ :",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17a1jx3fxf3tsvf9mwm84z3a98c84kr",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The remainders are $5$ and $32$ respectively.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the remainder when:\na. $\\quad 9^{205}$ is divided by 31 .\nb. $8^{205}$ is divided by 48 .",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17chxtq3rqh6xmh5n3mdgn9qs8c8rkj",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since $2^5\\equiv1\\pmod{31}$, $2^{510}\\equiv1$, so $k=1$.",
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If fractional part of number $\\frac{2^{510}}{31}$ is $\\frac{k}{31}$, then find the value of $k$.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17ag30y62jbq246hx8fpf3w518c8azq",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The last two digits are $25$, $33$, and $01$ respectively.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the last one or two digits of the number where applicable.\na. $\\quad 15^{8}$\nb. $37^{7}$\nc. $29^{10}$",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m1745t80rhjeeg00dkb9yjy5mn8c84gr",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In both comparisons the second number is larger: $102^{50}>98^{50}+100^{50}$ and $53^{30}>47^{30}+50^{30}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Which of the following is a larger number?\na. $98^{50}+100^{50}$ or $102^{50}$\nb. $47^{30}+50^{30}$ or $53^{30}$",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m175yfsqen4sq4xhvr5k945vph8c945z",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The last digits are $8$ and $2$, so the sum ends in $0$ and is divisible by $10$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Show that $12^{15}+8^{15}$ is divisible by 10 .",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17e3sp1se3tg4ffc9v35n8djh8c8135",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Modulo $20$, $22^{25}+18^{25}\\equiv2^{25}+(-2)^{25}\\equiv0$, so it is divisible by $20$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Show that $22^{25}+18^{25}$ is divisible by 20 .",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m170z70g9ar3xpmdpqa5c7cf5d8c84nh",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Because $5^2\\equiv-1\\pmod{13}$, $5^{103}\\equiv5$, so the remainder is $5$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Use binomial theorem to find the remainder when $\\mathbf{5}^{\\mathbf{1 0 3}}$ is divided by 13.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m178bvswmv1rpm8bbzbppg013x8c80vz",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since $17\\equiv-1\\pmod9$ and $1717$ is odd, the remainder is $8$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "What is the remainder when $17^{1717}$ is divided by 9.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m1737wvby3sz59dedez945q0898c9bjd",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$(1.1)^{10000}>1000$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Using Binomial Theorem, indicate which number is larger $(1.1)^{10000}$ or 1000.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17f5hhg8berh6zm65ktt74ch98c95rx",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Base case $n=1$ gives $64$. The induction increment is $8(9^{n+1}-1)$, divisible by $64$ because $9^{n+1}\\equiv1\\pmod8$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Show that $9^{n+1}-8 n-9$ is divisible by 64 , whenever $n$ is a positive integer.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m178s6mdpjwtptd2tenhs9s4918c91ev",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use $a^n-b^n=(a-b)(a^{n-1}+a^{n-2}b+\\cdots+b^{n-1})$, so $a-b$ is a factor.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $a$ and $b$ are distinct integers, prove that $a-b$ is a factor of $a^{n}-b^{n}$, whenever $n$ is a positive integer.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17cpg84rac2dhe4dt587rv1ah8c8bqj",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Show that $6^{n+3}-8 n-6$ is divisible by 6 .",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m176n2jcyvazkkw8373z2kgbtn8c8q6b",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "real number"
+      },
+      {
+        "key": "B",
+        "text": "rational number"
+      },
+      {
+        "key": "C",
+        "text": "integer"
+      },
+      {
+        "key": "D",
+        "text": "positive integer\n    (ii) A mathematical statement which is true for all positive integers is also true for all:"
+      },
+      {
+        "key": "A",
+        "text": "negative integers"
+      },
+      {
+        "key": "B",
+        "text": "positive numbers"
+      },
+      {
+        "key": "C",
+        "text": "whole numbers"
+      },
+      {
+        "key": "D",
+        "text": "none\n    (iii) If $n$ is even positive integer then the middle term in the expansion of $(a+b)^{n}$ is:"
+      },
+      {
+        "key": "A",
+        "text": "$\\left(\\frac{n}{2}\\right)^{\\text {th }}$ term"
+      },
+      {
+        "key": "B",
+        "text": "$\\left(\\frac{n+1}{2}\\right)^{\\text {th }}$ term"
+      },
+      {
+        "key": "C",
+        "text": "$\\left(\\frac{n-1}{2}\\right)^{\\text {th }}$ term"
+      },
+      {
+        "key": "D",
+        "text": "$\\left(\\frac{n}{2}+1\\right)^{\\text {th }}$ term\n    (iv) In the expansion of $(a+b)^{20}$ a term is at the $11^{\\text {th }}$ position. Its position from the end is:"
+      },
+      {
+        "key": "A",
+        "text": "$9^{\\text {th }}$"
+      },
+      {
+        "key": "B",
+        "text": "$10^{\\text {th }}$"
+      },
+      {
+        "key": "C",
+        "text": "$11^{\\text {th }}$"
+      },
+      {
+        "key": "D",
+        "text": "$12^{\\text {th }}$\n    (v) The coefficient of the $3^{\\text {rd }}$ last term in the expansion of $(1+x)^{300}$ is:"
+      },
+      {
+        "key": "A",
+        "text": "277"
+      },
+      {
+        "key": "B",
+        "text": "44850"
+      },
+      {
+        "key": "C",
+        "text": "303"
+      },
+      {
+        "key": "D",
+        "text": "4305600\n    (vi) $\\binom{11}{0}+\\binom{11}{2}+\\binom{11}{4}+\\cdots+\\binom{11}{10}$ is equal to"
+      },
+      {
+        "key": "A",
+        "text": "$2^{11}$"
+      },
+      {
+        "key": "B",
+        "text": "$2^{12}$"
+      },
+      {
+        "key": "C",
+        "text": "$2^{10}$"
+      },
+      {
+        "key": "D",
+        "text": "$2^{11}-1$\n    (vii) If the third term in the expansion of $(1+x)^{p}$ is $-\\frac{1}{8} x^{2}$ then the value of $p$ is:"
+      },
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "3\n    (viii) The coefficient of $x^{n}$ in the expansion of $\\left(1+x+x^{2}+\\cdots\\right)^{-n}$ where $n$ is a even number:"
+      },
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "-1"
+      },
+      {
+        "key": "C",
+        "text": "$n$"
+      },
+      {
+        "key": "D",
+        "text": "$-n+1$\n    (ix) The greatest coefficient in the expansion of $(1+x)^{10}$ is:"
+      },
+      {
+        "key": "A",
+        "text": "$2^{x}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\binom{10}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\binom{10}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$2^{10}$\n    (x) Binomial series $(2+3 x)^{-1 / 2}$ is valid when:"
+      },
+      {
+        "key": "A",
+        "text": "$|x| \\leq 1$"
+      },
+      {
+        "key": "B",
+        "text": "$|x|<1$"
+      },
+      {
+        "key": "C",
+        "text": "$|x|<\\frac{2}{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$|x|<\\frac{3}{2}$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "A",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Select the correct option:\n    (i) Mathematical induction is used to check a proposition for all $n$ where $n$ is a/an:",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17654h5h8jjk3dk4zmhkw1qq58c8f5r",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $1/[k(k+1)(k+2)]=\\frac12(1/[k(k+1)]-1/[(k+1)(k+2)])$, the sum telescopes to $\\frac{n(n+3)}{4(n+1)(n+2)}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Using principle of mathematical induction prove that for all positive integersn:\n$$\n\\frac{1}{1 \\cdot 2 \\cdot 3}+\\frac{1}{2 \\cdot 3 \\cdot 4}++\\cdots+\\frac{1}{n(n+1)(n+2)}=\\frac{n(n+3)}{4(n+1)(n+2)}\n$$",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m171g1s4zkfcqhf14actm2f53d8c9zm8",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The ratio equations give $n=16$ and consecutive coefficients $16,120,560$; their average is $232$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "The ratio of coefficients of three consecutive terms in the binomial expansion of $(1+x)^{n}$ is $2: 15: 70$. Find the average of the three coefficients.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17dyw7m8f3tkjgpem9f0trjex8c8gyw",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A general term has power $x^{24-3k}$, which cannot equal $x^{-1}$ for integer $k$; hence no $1/x$ term occurs.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Show that the expansion of $\\left(x^{2}+\\frac{1}{x}\\right)^{12}$ does not contain any term involving $\\frac{1}{x}$.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m173d4h2j9693ta85x1p8ww7dh8c9j5q",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $\\alpha$ and $\\beta$ are nearly equal then show that $\\left(\\frac{3 \\beta}{5 \\alpha-2 \\beta}\\right)^{-2 / 3} \\approx \\frac{\\alpha}{\\alpha+2 \\beta}+\\frac{\\alpha+\\beta}{3 \\beta}$",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m179q1ff6apnjcw53ed3hfbf2x8c8cck",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The largest coefficient in $(1+x)^{22}$ is $^{22}C_{11}$, so $r=11$ and $^{13}C_r=^{13}C_{11}=^{13}C_2=78$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If ${ }^{22} C_{r}$ is the largest coefficient in the expansion of $(1+x)^{22}$ then find ${ }^{13} C_{r}$.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "m17a04ne5xkc2jkkba9d77g08h8c85kb",
+    "exerciseId": "xd727p3znvq9g6jf4xmhzpnheh8c84k6",
+    "exerciseTitle": "Exercise 7.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Modulo $5$, $6^n-5^n\\equiv1^n-0=1$, so the remainder is $1$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 7,
+      "page": 187,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Use binomial theorem to prove that $6^{n}-5^{n}$ leaves a remainder 1 , when divided by 5.",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  }
+]

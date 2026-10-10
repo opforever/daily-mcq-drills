@@ -1,0 +1,266 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "k974t2a7xm56tywe91kn6q4zys85q42z",
+    "correctKey": "A",
+    "explanation": "The Imperative paradigm focuses on the explicit steps (commands) the computer must take to reach a state.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f1cs7ca6nfj53f5xa425xp985p7zg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Imperative Paradigm"
+      },
+      {
+        "key": "B",
+        "text": "Functional Paradigm"
+      },
+      {
+        "key": "C",
+        "text": "Logic Paradigm"
+      },
+      {
+        "key": "D",
+        "text": "Declarative Paradigm"
+      }
+    ],
+    "stem": "Which paradigm is characterized by a step-by-step execution of commands that change the program's state?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "k97dcyagbjq7ew1k18rff70mjd85qjkf",
+    "correctKey": "B",
+    "explanation": "SQL is declarative because the user specifies 'what' data is needed, not 'how' the database engine should retrieve it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f1cs7ca6nfj53f5xa425xp985p7zg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Procedural"
+      },
+      {
+        "key": "B",
+        "text": "Declarative"
+      },
+      {
+        "key": "C",
+        "text": "Object-Oriented"
+      },
+      {
+        "key": "D",
+        "text": "Imperative"
+      }
+    ],
+    "stem": "SQL (Structured Query Language) is a primary example of which programming paradigm?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "k976x1rfjd4wf2px6fhkecad3s85q2pb",
+    "correctKey": "C",
+    "explanation": "Procedural programming follows a top-down approach where a program is divided into smaller procedures or functions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7f1cs7ca6nfj53f5xa425xp985p7zg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Data Encapsulation"
+      },
+      {
+        "key": "B",
+        "text": "Inheritance"
+      },
+      {
+        "key": "C",
+        "text": "Top-down approach"
+      },
+      {
+        "key": "D",
+        "text": "Logic-based rules"
+      }
+    ],
+    "stem": "Which of the following is a key feature of the Procedural paradigm?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "k97cgxq87ngb9zn839zyqmhhzn85pd70",
+    "correctKey": "A",
+    "explanation": "Sequence is the default mode of execution where the Python interpreter processes lines from top to bottom in the order they are written.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ewq8kmy9nzx4vgsxyg98t6x85pzf6",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sequence"
+      },
+      {
+        "key": "B",
+        "text": "Selection"
+      },
+      {
+        "key": "C",
+        "text": "Iteration"
+      },
+      {
+        "key": "D",
+        "text": "Recursion"
+      }
+    ],
+    "stem": "Which programming construct ensures that statements are executed one after another in the order they appear?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "k979sq73tcxbn2cnt3ng8z5j6s85qxqa",
+    "correctKey": "B",
+    "explanation": "Since the condition (10 > 5) evaluates to True, the 'if' block executes and prints 'High'. The 'else' block is skipped.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ewq8kmy9nzx4vgsxyg98t6x85pzf6",
+    "options": [
+      {
+        "key": "A",
+        "text": "Low"
+      },
+      {
+        "key": "B",
+        "text": "High"
+      },
+      {
+        "key": "C",
+        "text": "Error"
+      },
+      {
+        "key": "D",
+        "text": "None"
+      }
+    ],
+    "stem": "What will be the output of the following Python code?\n\nx = 10\nif x > 5:\n    print('High')\nelse:\n    print('Low')",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "k97czgx6y59q11547h6g11wdb985q7hb",
+    "correctKey": "C",
+    "explanation": "Python uses 'elif' (a contraction of 'else if') as the standard syntax for chaining multiple conditional checks. Python has no 'switch' statement.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ewq8kmy9nzx4vgsxyg98t6x85pzf6",
+    "options": [
+      {
+        "key": "A",
+        "text": "else if"
+      },
+      {
+        "key": "B",
+        "text": "elseif"
+      },
+      {
+        "key": "C",
+        "text": "elif"
+      },
+      {
+        "key": "D",
+        "text": "switch"
+      }
+    ],
+    "stem": "Which keyword is used to handle multiple mutually exclusive conditions in Python?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "k97ey596pn1zvpnp2b4syv233s85q2d5",
+    "correctKey": "C",
+    "explanation": "range(1, 6) generates numbers from 1 up to but not including 6: [1, 2, 3, 4, 5]. The loop executes 5 times.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ewq8kmy9nzx4vgsxyg98t6x85pzf6",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "stem": "How many times will the following Python loop execute?\n\nfor i in range(1, 6):\n    print(i)",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "k97cvnvnxad1p5r70dgtgzwe6985qd1c",
+    "correctKey": "B",
+    "explanation": "The built-in open() function is used in Python to open a file. It takes the filename and mode ('r' for read, 'w' for write, 'a' for append) as arguments and returns a file object.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ewq8kmy9nzx4vgsxyg98t6x85pzf6",
+    "options": [
+      {
+        "key": "A",
+        "text": "file()"
+      },
+      {
+        "key": "B",
+        "text": "open()"
+      },
+      {
+        "key": "C",
+        "text": "read()"
+      },
+      {
+        "key": "D",
+        "text": "load()"
+      }
+    ],
+    "stem": "Which Python function is used to open a file for reading or writing?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  }
+]

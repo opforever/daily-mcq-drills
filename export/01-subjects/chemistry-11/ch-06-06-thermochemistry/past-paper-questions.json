@@ -1,0 +1,2318 @@
+[
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17bf6zgnnqcvzfh8ch9xaqhks85qvek",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Option undefined is the verified answer.",
+    "keyPoints": [
+      "Enthalpy of solution is the sum of lattice enthalpy and hydration enthalpy",
+      "ΔH_sol = ΔH(lattice) + ΔH(hydration)",
+      "Lattice enthalpy is positive (energy required to break ionic bonds)",
+      "Hydration enthalpy is negative (energy released when ions are hydrated)",
+      "ΔH_sol = +786 + (-783) = +3 kJ/mol",
+      "Positive value indicates slightly endothermic dissolution",
+      "For NaCl, the lattice energy and hydration energy nearly cancel out"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The enthalpy of solution (ΔH_sol) is calculated using the relationship:\n\nΔH_sol = ΔH(lattice) + ΔH(hydration)\n\nGiven:\n- ΔH(reverse lattice) = +786 kJ/mol (this is the lattice enthalpy, the energy required to separate one mole of solid ionic compound into gaseous ions)\n- ΔH(hydration) = -783 kJ/mol (the energy released when gaseous ions are hydrated)\n\nTherefore:\nΔH_sol = (+786) + (-783) = +3 kJ/mol\n\nThe enthalpy of solution of NaCl is **+3 kJ/mol**.\n\nThis small positive value indicates that the dissolution of NaCl is slightly endothermic, meaning a small amount of heat is absorbed during the process. This is consistent with experimental observations where dissolving NaCl causes a slight cooling effect.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$+3\\text{ kJ/mol}$"
+      },
+      {
+        "key": "B",
+        "text": "$-3\\text{ kJ/mol}$"
+      },
+      {
+        "key": "C",
+        "text": "$+1569\\text{ kJ/mol}$"
+      },
+      {
+        "key": "D",
+        "text": "$-1569\\text{ kJ/mol}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "What will be the enthalpy of solution of $NaCl$ if $\\Delta H$ (reverse lattice) is $+786\\text{ kJ/mol}$ and $\\Delta H$ (hyd) is $-783\\text{ kJ/mol}$?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m173t2t6tp0mm3972x3964tfwn85pcqw",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Enthalpy of solution depends on lattice energy (endothermic, energy required to separate ions) and hydration energy (exothermic, energy released when ions are surrounded by water molecules)",
+      "NH₄NO₃: lattice energy > hydration energy → endothermic process, ΔH > 0",
+      "CaCl₂: hydration energy > lattice energy → exothermic process, ΔH < 0",
+      "Ca²⁺ has high charge density leading to strong hydration interactions with water molecules",
+      "NH₄⁺ and NO₃⁻ have lower charge densities and weaker hydration compared to Ca²⁺ and Cl⁻"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The difference in enthalpy of solution between NH₄NO₃ and CaCl₂ depends on the relative magnitudes of the energy required to break ionic bonds (endothermic) versus the energy released when ions are hydrated (exothermic). For NH₄NO₃, the lattice energy is high and the hydration energy is relatively low, making the overall process endothermic (+25.7 kJ/mol). The solution absorbs heat from surroundings. For CaCl₂, the hydration energy is significantly greater than the lattice energy, making the overall process exothermic (-83.0 kJ/mol). The strong hydration of Ca²⁺ and Cl⁻ ions releases more energy than is needed to break the ionic bonds, so heat is released to the surroundings. In summary: ΔH_solution = ΔH_lattice + ΔH_hydration. When hydration energy > lattice energy, the process is exothermic; when lattice energy > hydration energy, the process is endothermic.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Why is the enthalpy of solution for $NH_4NO_3$ equal to $+25.7\\text{ kJ/mol}$ (endothermic process) whereas that of $CaCl_2$ is $-83.0\\text{ kJ/mol}$ (exothermic process)? Explain briefly.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17932yhme35nm4w4jandpqpbn85qcbx",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Molecular collisions must occur between reactant particles with sufficient kinetic energy",
+      "Activation energy ($E_a$) is the minimum energy threshold required for collision to produce reaction",
+      "Activated complex forms as unstable intermediate state with partially broken/formed bonds",
+      "Bond breaking is endothermic; bond formation is exothermic; net $\\Delta H$ determines if reaction is exothermic or endothermic",
+      "Enthalpy change reflects energy transfer between system and surroundings based on bond energy balance"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "A chemical reaction occurs through molecular collisions between reactant particles. For a reaction to proceed, colliding molecules must possess sufficient energy equal to or greater than the activation energy ($E_a$), which is the minimum energy barrier that must be overcome. When molecules collide with adequate energy, they form an activated complex (transition state), an unstable, high-energy intermediate configuration where old bonds are partially broken and new bonds are partially formed. The enthalpy change ($\\Delta H$) of the reaction depends on the energy balance: bond breaking is endothermic (requires energy) while bond formation is exothermic (releases energy). If energy released from forming new bonds exceeds energy consumed in breaking old bonds, the reaction is exothermic ($\\Delta H < 0$) and releases heat to surroundings. Conversely, if more energy is required to break bonds than is released forming new ones, the reaction is endothermic ($\\Delta H > 0$) and absorbs heat. Only collisions with energy $\\geq E_a$ successfully form the activated complex and proceed to products, determining the reaction rate and overall energy transfer between system and surroundings.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Explain the occurrence of a chemical reaction with reference to molecular collisions, activation energy, formation of activated complex and enthalpy changes in the reaction.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m170chdxyd16sncn6bq6qyyy8185pm3z",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "A state function is a property that depends only on the initial and final states of a system, not on the path taken. Examples include internal energy (U), enthalpy (H), and temperature. Heat (q) and work (w) are NOT state functions because they depend on the specific path or process followed during the reaction.",
+    "keyPoints": [
+      "State functions depend only on initial and final states, not on the path taken",
+      "Heat (q) is path-dependent and therefore NOT a state function",
+      "Work (w) is path-dependent and therefore NOT a state function",
+      "Internal energy (U), enthalpy (H), and temperature are examples of state functions",
+      "The distinction is crucial: state functions are properties of the system; heat and work are energy transfers that depend on how the process occurs"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A state function is a property that depends only on the initial and final states of a system, not on the path taken. Examples include internal energy (U), enthalpy (H), and temperature. Heat (q) and work (w) are NOT state functions because they depend on the specific path or process followed during the reaction.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure"
+      },
+      {
+        "key": "B",
+        "text": "Volume"
+      },
+      {
+        "key": "C",
+        "text": "Temperature"
+      },
+      {
+        "key": "D",
+        "text": "Work"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Which of the following is **NOT** a state function?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m171egzmakvjbv7gb6rt8qz8bn85q19y",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "This formula represents the relationship between enthalpy change (ΔH) and internal energy change (ΔE) at constant pressure. ΔH is the enthalpy change of a system, ΔE is the change in internal energy, P is the constant external pressure, and ΔV is the change in volume. This equation shows that enthalpy change equals the change in internal energy plus the work done by or on the system during expansion or compression at constant pressure.",
+    "keyPoints": [
+      "ΔH = ΔE + PΔV is the relationship between enthalpy and internal energy",
+      "ΔH represents enthalpy change",
+      "ΔE represents internal energy change",
+      "PΔV represents pressure-volume work",
+      "This equation applies at constant pressure",
+      "Used to convert between internal energy and enthalpy changes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "This formula represents the relationship between enthalpy change (ΔH) and internal energy change (ΔE) at constant pressure. ΔH is the enthalpy change of a system, ΔE is the change in internal energy, P is the constant external pressure, and ΔV is the change in volume. This equation shows that enthalpy change equals the change in internal energy plus the work done by or on the system during expansion or compression at constant pressure.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Enthalpy"
+      },
+      {
+        "key": "B",
+        "text": "Work"
+      },
+      {
+        "key": "C",
+        "text": "Surrounding"
+      },
+      {
+        "key": "D",
+        "text": "Internal energy"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "$\\Delta H = \\Delta E + P\\Delta V$ is the formula for:",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17ff6465hn2egr638asqs6tph85qw67",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "System: the portion of universe being studied",
+      "Surroundings: everything outside the system",
+      "Boundary: surface separating system from surroundings",
+      "Boundary can be real (cup walls) or imaginary",
+      "Example clearly demonstrates all three concepts",
+      "Energy/matter can cross the boundary between system and surroundings"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A system is the specific portion of the universe that is being studied or observed. The surroundings are everything in the universe outside the system. The boundary is the real or imaginary surface that separates the system from its surroundings.\n\nExample: Consider a cup of hot tea. The tea and cup together form the system. The air, table, and everything else outside the cup constitute the surroundings. The walls of the cup represent the boundary that separates the tea (system) from the surrounding environment. Heat flows across this boundary from the hot tea to the cooler surroundings until thermal equilibrium is reached.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "session": "annual",
+    "stem": "Define **system**, **surroundings**, and **boundary** with a suitable example.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m1774zph5pdnwnv6y3kr69tf1d85p67f",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Energy formula for hydrogen-like ions: En = -13.6Z²/n² eV",
+      "Energy released: ΔE = 13.6Z²(1/n₁² - 1/n₂²) eV",
+      "For He⁺: Z = 2 (nuclear charge)",
+      "Substituting n₁ = 1, n₂ = 3: ΔE = 13.6 × 4 × (8/9) = 48.4 eV",
+      "Energy is positive, indicating energy is released during transition",
+      "Can be converted to joules: 1 eV = 1.6 × 10⁻¹⁹ J"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "For a hydrogen-like ion with nuclear charge Z, when an electron transitions from orbit n₂ to n₁, the energy released is derived from Bohr's model.\n\nThe energy of an electron in the nth orbit is: En = -13.6 × Z²/n² eV\n\nEnergy released when electron drops from n₂ to n₁:\nΔE = E₁ - E₂ = -13.6Z²/n₁² - (-13.6Z²/n₂²)\nΔE = 13.6Z²(1/n₁² - 1/n₂²) eV\n\nFor He⁺ ion: Z = 2, n₁ = 1, n₂ = 3\n\nΔE = 13.6 × (2)² × (1/1² - 1/3²)\nΔE = 13.6 × 4 × (1 - 1/9)\nΔE = 54.4 × (8/9)\nΔE = 48.36 eV\n\nAlternatively: ΔE = 48.4 eV (or 7.74 × 10⁻¹⁸ J if converted)",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Derive a relationship for energy released ($\\Delta E$) when an electron drops from $n_2$ orbit to $n_1$ orbit in $He^+$ ion. Also calculate $\\Delta E$ if $n_1=1$ and $n_2=3$ in $He^{+1}$ ion.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17aphhzw4seg8vyd7ph2b86fx85pzpd",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Collision theory requires reactant molecules to collide with energy ≥ activation energy ($E_a$) and proper orientation",
+      "Activated complex is the unstable, high-energy transition state formed during collision where bonds are partially broken/formed",
+      "Activation energy is the minimum energy barrier that must be overcome for reaction to proceed",
+      "Heat of reaction ($\\Delta H$) is the net energy change between products and reactants (independent of $E_a$)",
+      "Exothermic reactions release energy ($\\Delta H < 0$); endothermic reactions absorb energy ($\\Delta H > 0$)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Collision Theory** explains how chemical reactions occur through molecular collisions. For a reaction to proceed, reactant molecules must collide with sufficient energy (exceeding the **activation energy**, $E_a$) and proper orientation. During collision, reactants form an **activated complex** (transition state), an unstable, high-energy intermediate where old bonds are partially broken and new bonds are partially formed. The activation energy is the minimum energy required to reach this activated complex state. After the activated complex forms, it either decomposes to products (releasing energy) or reverts to reactants. The **heat of reaction** ($\\Delta H$) is the net energy difference between products and reactants: if products are lower in energy than reactants, the reaction is exothermic ($\\Delta H < 0$); if products are higher in energy, the reaction is endothermic ($\\Delta H > 0$). The activation energy is independent of $\\Delta H$, a reaction with high $E_a$ may still be exothermic, and vice versa. Catalysts lower the activation energy by providing an alternative reaction pathway, increasing reaction rate without affecting the heat of reaction.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "What is **collision theory**? Describe with reference to the energy of activation, formation of activated complex and heat of reaction.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17cj90wjhvwjc2014asqb9sc585qsjx",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Exothermic processes are NOT endothermic. Examples include condensation (gas to liquid), freezing (liquid to solid), and crystallization, where heat is released to the surroundings ($\\Delta H < 0$). Endothermic processes such as melting, vaporization, and evaporation require heat absorption ($\\Delta H > 0$).",
+    "keyPoints": [
+      "Identifies that exothermic processes are NOT endothermic",
+      "Provides examples of exothermic phase changes (condensation, freezing)",
+      "Contrasts with endothermic processes (melting, vaporization, evaporation)",
+      "References negative enthalpy change ($\\Delta H < 0$) for exothermic processes",
+      "Demonstrates understanding of energy flow direction in phase changes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Exothermic processes are NOT endothermic. Examples include condensation (gas to liquid), freezing (liquid to solid), and crystallization, where heat is released to the surroundings ($\\Delta H < 0$). Endothermic processes such as melting, vaporization, and evaporation require heat absorption ($\\Delta H > 0$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vaporization"
+      },
+      {
+        "key": "B",
+        "text": "Condensation"
+      },
+      {
+        "key": "C",
+        "text": "Fusion"
+      },
+      {
+        "key": "D",
+        "text": "Sublimation"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Which of the following processes is **NOT** endothermic?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m170mw40sftqtw43js45b42c3h85qvnr",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Heat (q) and work (w) are NOT state functions. State functions depend only on the initial and final states of a system, regardless of the path taken. Heat and work are path functions because their values depend on how the process is carried out. For example, reaching the same final state through different processes (isothermal vs. adiabatic) results in different amounts of heat and work being exchanged, even though the change in internal energy (ΔU) remains the same. Internal energy (U), enthalpy (H), entropy (S), and Gibbs free energy (G) are state functions.",
+    "keyPoints": [
+      "Heat (q) and work (w) are path functions, not state functions",
+      "State functions depend only on initial and final states, independent of path",
+      "Path functions depend on the route or process taken",
+      "Internal energy (ΔU), enthalpy (H), entropy (S), and Gibbs free energy (G) are state functions",
+      "The same final state can be reached through different paths with different q and w values"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Heat (q) and work (w) are NOT state functions. State functions depend only on the initial and final states of a system, regardless of the path taken. Heat and work are path functions because their values depend on how the process is carried out. For example, reaching the same final state through different processes (isothermal vs. adiabatic) results in different amounts of heat and work being exchanged, even though the change in internal energy (ΔU) remains the same. Internal energy (U), enthalpy (H), entropy (S), and Gibbs free energy (G) are state functions.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Work"
+      },
+      {
+        "key": "B",
+        "text": "Temperature"
+      },
+      {
+        "key": "C",
+        "text": "Pressure"
+      },
+      {
+        "key": "D",
+        "text": "Volume"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "Which of the following is **NOT** a state function?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m174rdt7yy0aa2bjab9fp9y1bn85pqjg",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Thermochemical equations include balanced chemical equation with enthalpy change (ΔH)",
+      "Formation reactions show elements in standard states forming one mole of compound",
+      "Combustion reactions show complete oxidation to stable oxides (CO₂, H₂O)",
+      "Negative ΔH indicates exothermic reactions",
+      "Equations can be written per mole or with whole number coefficients",
+      "Standard states must be specified (s, l, g, aq)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Thermochemical equations are written by showing the balanced chemical equation with the enthalpy change (ΔH) included.\n\n(i) For CaCO₃ with standard enthalpy of formation = -1207 kJ/mol:\nThe formation reaction shows elements in their standard states forming one mole of the compound:\nCa(s) + C(s) + 3/2 O₂(g) → CaCO₃(s)  ΔH°f = -1207 kJ/mol\n\nOr written with whole number coefficients:\n2Ca(s) + 2C(s) + 3O₂(g) → 2CaCO₃(s)  ΔH° = -2414 kJ\n\n(ii) For CH₃COOH with standard enthalpy of combustion = -875 kJ/mol:\nThe combustion reaction shows complete oxidation to CO₂ and H₂O:\nCH₃COOH(l) + 2O₂(g) → 2CO₂(g) + 2H₂O(l)  ΔH°c = -875 kJ/mol\n\nAlternatively:\n2CH₃COOH(l) + 4O₂(g) → 4CO₂(g) + 4H₂O(l)  ΔH° = -1750 kJ",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "session": "annual",
+    "stem": "Write thermochemical equations from the given information: (i) Standard enthalpy of formation of $CaCO_3$ is $-1207\\text{ kJ/mol}$ (ii) Standard enthalpy of combustion of $CH_3COOH$ is $-875\\text{ kJ/mol}$.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m176yegajpsfvwhrkaamhsxbq585pz3c",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "session": "annual",
+    "stem": "Calculate $E^\\circ_{\\text{cell}}$ for Li-Zn cell and write cell reactions. $E^\\circ_{\\text{Li}}$ is $-3.05\\text{ V}$ and $E^\\circ_{\\text{Zn}}$ is $-0.76\\text{ V}$.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17eqk7eds02j64455pfka849n85peam",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Cathode reaction involves reduction of MnO₂ in alkaline medium producing MnO(OH) and OH⁻ ions",
+      "Anode reaction involves oxidation of Zn metal producing ZnO and water",
+      "Alkaline dry cell uses KOH or NaOH as electrolyte",
+      "Electrons are released at anode and consumed at cathode",
+      "Overall reaction shows formation of zinc oxide and manganese oxide products",
+      "The cell provides sustained voltage due to continuous electrochemical reactions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "In an alkaline dry cell, the following chemical reactions occur:\n\nAt the Cathode (Positive terminal):\nMnO₂ + H₂O + e⁻ → MnO(OH) + OH⁻\n\nAt the Anode (Negative terminal):\nZn + 2OH⁻ → ZnO + H₂O + 2e⁻\n\nOverall cell reaction:\n2MnO₂ + Zn + 2H₂O → Zn(OH)₂ + 2MnO(OH)\n\nAlternatively, the overall reaction can be written as:\nZn + 2MnO₂ + 2KOH → ZnO + Mn₂O₃ + H₂O\n\nThe electrolyte used is potassium hydroxide (KOH) or sodium hydroxide (NaOH) solution, which provides the alkaline medium. The cathode is made of manganese dioxide (MnO₂), and the anode is made of zinc (Zn).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "28",
+    "session": "annual",
+    "stem": "Write chemical reactions that occur at cathode and anode in alkaline dry cell.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m177n7ewfmqx2qwhd93qvx3hs585pndd",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "States first law: energy conservation; internal energy change equals heat absorbed minus work done",
+      "Provides correct mathematical expression: $\\Delta U = q - w$ with proper definition of terms",
+      "Explains application to gas-piston system: heat energy distributed between internal energy increase and work against pressure",
+      "Derives $W = P\\Delta V$ from force-distance relationship: $dw = P \\cdot A \\cdot dx = P \\cdot dV$",
+      "Clarifies that formula applies at constant external pressure during volume expansion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**First Law of Thermodynamics:** The first law of thermodynamics states that energy cannot be created or destroyed; it can only be converted from one form to another. For a system, the change in internal energy equals the heat absorbed by the system minus the work done by the system.\n\n**Mathematical Expression:**\n$$\\Delta U = q - w$$\n\nAlternatively: $\\Delta U = q + w$ (when work is done on the system)\n\nWhere: $\\Delta U$ = change in internal energy, $q$ = heat absorbed by system, $w$ = work done by system\n\n**Application to Gas in Cylinder with Moveable Piston:**\n\nConsider a gas confined in a cylinder with a moveable piston. When the gas is heated, it absorbs heat energy ($q$). This energy is used in two ways: (1) to increase the internal energy of the gas molecules ($\\Delta U$), and (2) to do work against external pressure by pushing the piston outward ($w$).\n\nThe internal energy change depends on temperature change of the gas. The work done by the gas expands the volume against atmospheric pressure. Therefore: $\\Delta U = q - w$\n\n**Derivation of $W = P\\Delta V$:**\n\nWhen the piston moves outward by distance $dx$, the work done by gas is:\n$$dw = F \\cdot dx = P \\cdot A \\cdot dx$$\n\nSince $A \\cdot dx = dV$ (change in volume):\n$$dw = P \\cdot dV$$\n\nFor finite volume change at constant pressure:\n$$W = P(V_f - V_i) = P\\Delta V$$\n\nThis represents the work done by the gas during expansion against constant external pressure.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "State first law of thermodynamics. Write its mathematical expression with reference to heat and work. Explain it for a gas confined to a cylinder having a moveable piston, and derive the formula of $W = P\\Delta V$ for this system.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17apdn6kf6zv7vvk15bt64b398e1075",
+    "exerciseId": "xd7btd810rdnr4aa7t1z4z1azh8e129g",
+    "exerciseTitle": "Worked Practice",
+    "keyPoints": [
+      "(a) Freezing of water: exothermic (heat released as liquid becomes solid).",
+      "(b) Combustion of methane: exothermic.",
+      "(c) Sublimation of dry ice: endothermic (energy absorbed to go solid to gas).",
+      "(d) Condensation of steam to water: exothermic.",
+      "(e) Decomposition of limestone (CaCO3 -> CaO + CO2): endothermic."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.1",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Classify the following processes as exothermic or endothermic: (a) freezing of water, (b) combustion of methane, (c) sublimation of dry ice, (d) H2O(g) -> H2O(l), (e) decomposition of limestone.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m176qzqzbrh8dzv07v2488gwkn8e035x",
+    "exerciseId": "xd7btd810rdnr4aa7t1z4z1azh8e129g",
+    "exerciseTitle": "Worked Practice",
+    "keyPoints": [
+      "(a) 6C(s) + 3H2(g) -> C6H6(l), ΔHf = +49.0 kJ/mol.",
+      "(b) 2C(s) + 3H2(g) + 1/2O2(g) -> C2H5OH(l), ΔHf = -277.7 kJ/mol.",
+      "(c) CH3COOH(l) + 2O2(g) -> 2CO2(g) + 2H2O(l), ΔHcomb = -876 kJ/mol.",
+      "(d) C2H5OH(l) + 3O2(g) -> 2CO2(g) + 3H2O(g), ΔH = -1367 kJ/mol.",
+      "Only equation (c), CO(g) + 1/2O2(g) -> CO2(g), represents 1 mole of a compound formed directly from its elements/simpler compound in a single step matching a standard enthalpy of formation definition among the given options; (a) and (b) both form Al2O3 but only the one written per mole of product (b) matches the formation definition."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.2",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Write the thermochemical equation from the given information: (a) standard enthalpy of formation of benzene(l) is +49.0 kJ/mol, (b) standard enthalpy of formation of ethanol(l) is -277.7 kJ/mol, (c) standard enthalpy of combustion of acetic acid(l) is -876 kJ/mol, (d) burning ethanol in air releases -1367 kJ/mol at 1 atm and 25C. Also, which equation describes a reaction for which delta-H is equal to the enthalpy of formation of a compound: (a) 4Al+2O2->2Al2O3, (b) 4Al+3/2O2->Al2O3, (c) CO+1/2O2->CO2?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17d6dsydcwkbbvzjkyj0zs7558e1va7",
+    "correctKey": "D",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "Standard enthalpy of formation is zero only for an element in its standard state (e.g. O2, not O3); none of O3, H2O or ZnO is an element in its standard state, so none of these has zero enthalpy of formation.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "O3"
+      },
+      {
+        "key": "B",
+        "text": "H2O"
+      },
+      {
+        "key": "C",
+        "text": "ZnO"
+      },
+      {
+        "key": "D",
+        "text": "None of these"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(i)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Which of the following substances has a zero value for its standard enthalpy of formation?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17f3fh7b3c1xytnjreqjgzttn8e1m7p",
+    "correctKey": "D",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "Since strong acids and bases fully ionize, the net ionic reaction in every case is simply H+ + OH- -> H2O, giving the same enthalpy of neutralization regardless of which strong acid/base is used.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "The formation of salt and water"
+      },
+      {
+        "key": "B",
+        "text": "The formation of salt"
+      },
+      {
+        "key": "C",
+        "text": "The complete ionization of acids and bases"
+      },
+      {
+        "key": "D",
+        "text": "The combination of H+ and OH- ions"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(iii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The enthalpy of neutralization of all strong acids and strong bases has the same value due to:",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m179t6vcz3g21n5zyyrn6fg2rh8e1k5x",
+    "correctKey": "A",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "Enthalpy is defined as the total heat content of a system at constant pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Enthalpy"
+      },
+      {
+        "key": "B",
+        "text": "Internal energy"
+      },
+      {
+        "key": "C",
+        "text": "Heat"
+      },
+      {
+        "key": "D",
+        "text": "State function"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(iv)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The total heat content of a system is called:",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17apd26r31bvcnpkr7v6xzdph8e0rkx",
+    "correctKey": "B",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "Combustion reactions are always exothermic, so heat (enthalpy) of combustion is always negative.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Formation"
+      },
+      {
+        "key": "B",
+        "text": "Combustion"
+      },
+      {
+        "key": "C",
+        "text": "Decomposition"
+      },
+      {
+        "key": "D",
+        "text": "Solution"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(v)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Heat of ___ of a substance is always negative.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17b6zb73557tjsqvhadbc0tqh8e18j2",
+    "correctKey": "B",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "The system is the substance under study, the oxygen gas inside the balloon; the balloon material is the boundary and the freezer is the surroundings.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Balloon"
+      },
+      {
+        "key": "B",
+        "text": "Oxygen"
+      },
+      {
+        "key": "C",
+        "text": "Freezer"
+      },
+      {
+        "key": "D",
+        "text": "All of these"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(vi)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "A balloon filled with oxygen is placed in a freezer. Identify the system.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17apzfapmx4z2v2kn2ejkpqsh8e05kb",
+    "correctKey": "B",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "Since the combustion of carbon to CO2 is identical to the formation reaction of CO2 from its elements, the enthalpy of formation of CO2 equals its enthalpy of combustion, -393.5 kJ/mol.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "+393.5 kJ"
+      },
+      {
+        "key": "B",
+        "text": "-393.5 kJ"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be predicted from the given equation"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(ix)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Enthalpy of combustion for C is -393.5 kJ/mol (C(s) + O2(g) -> CO2(g)). What would the enthalpy of formation of CO2 be?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m172067wc0jjwcbksqq4ty0c3d8e0m1t",
+    "correctKey": "D",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "Work done is a path function, dependent on how a process occurs, unlike enthalpy and internal energy which are state functions depending only on the initial and final states.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Thermal energy at constant pressure"
+      },
+      {
+        "key": "B",
+        "text": "Enthalpy"
+      },
+      {
+        "key": "C",
+        "text": "Internal energy"
+      },
+      {
+        "key": "D",
+        "text": "Work done"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(x)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Which of the following is not a state function of a system?",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m170rbrt7069ek7gxnjcvzga7s8e1vqj",
+    "correctKey": "C",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "A standard thermochemical equation requires all reactants and products to be in their standard states, so the tabulated value corresponds to defined, comparable conditions.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1 mole of element as reactant"
+      },
+      {
+        "key": "B",
+        "text": "1 mole of oxide of element as product"
+      },
+      {
+        "key": "C",
+        "text": "Standard states of all the substances"
+      },
+      {
+        "key": "D",
+        "text": "Balanced equation of 1 mole of element"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(xi)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Writing a thermochemical equation for the standard enthalpy of a substance requires:",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17ac5jahj5wbnkx3d20hqxw418e0x8b",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "System: the part of the universe under study. Surroundings: everything outside the system. Boundary: the real or imaginary surface separating system from surroundings.",
+      "State function: a property that depends only on the current state, not the path taken (e.g. enthalpy, internal energy).",
+      "Heat capacity: the heat required to raise the temperature of a substance by 1 degree.",
+      "Internal energy: the total kinetic and potential energy of all particles in a system.",
+      "Enthalpy: the total heat content of a system at constant pressure, H = U + PV."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Define the terms: system, surrounding, boundary, state function, heat capacity, internal energy, enthalpy of a substance.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17bkhpx90k8mtsp98bq8vsxd58e1zd3",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "Exothermic reactions release heat to the surroundings (ΔH negative), e.g. combustion.",
+      "Endothermic reactions absorb heat from the surroundings (ΔH positive), e.g. decomposition of limestone."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Classify reactions as exothermic or endothermic, with the criteria used.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-1-energy-in-chemical-reactions",
+    "topicTitle": "6.1 Energy in Chemical Reactions",
+    "_id": "m17dj5ef03w5demzekqtnmfmqn8e04bs",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "(a) 4C(s) + 5H2(g) + 1/2O2(g) -> C4H9OH(l).",
+      "(b) 3Fe(s) + 2O2(g) -> Fe3O4(s).",
+      "(c) 2C(s) + 2H2(g) + O2(g) -> CH3CO2H(l).",
+      "(d) N2(g) + 2H2(g) + C(s) + 1/2O2(g) -> (NH2)2CO(s)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Write the balanced equation for the formation reaction of each of: (a) C4H9OH (butanol), (b) rust Fe3O4, (c) acetic acid CH3CO2H, (d) urea (NH2)2CO.",
+    "topicId": "ms75zhhpbts34wyxdnjvv6brkh85qj14"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-2-bond-energy",
+    "topicTitle": "6.2 Bond Energy",
+    "_id": "m17ew5mj2h4ydk6x4cxxte59sd85p0my",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Bond energy depends on electronegativity difference, atomic size, and bond order",
+      "Smaller atoms form shorter bonds with greater orbital overlap, increasing bond energy",
+      "Higher bond order (triple > double > single) results in stronger, higher energy bonds",
+      "Atomic size effects can outweigh electronegativity effects in determining bond strength",
+      "Electron-electron repulsion in small atoms (like F) can reduce bond energy despite high electronegativity"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Bond energy is influenced by electronegativity difference, atomic size, and bond order. a) Cl₂ > F₂: Although F is more electronegative, Cl atoms are larger, resulting in longer Cl-Cl bonds with weaker overlap and lower bond energy compared to the shorter, stronger F-F bond. However, F₂ has lower bond energy due to electron-electron repulsion in the small F atoms. b) H₂ > HBr: The H-H bond is shorter with greater orbital overlap than H-Br, resulting in higher bond energy. Additionally, the greater electronegativity difference in H-Br increases polarity but the longer bond length dominates. c) N₂ > O₂: Nitrogen forms a triple bond ($N \\equiv N$) with bond energy ~941 $kJ\\,mol^{-1}$, while oxygen forms a double bond ($O=O$), resulting in lower bond energy. The higher bond order in N₂ makes it significantly stronger.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Keeping in view the factors affecting bond energy, justify the order of bond energies in the following:\na) Cl₂ > F₂\nb) H₂ > HBr\nc) N₂ > O₂",
+    "topicId": "ms76hpb7kmvqa79v2f2jc5zrdx85ps7p",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-2-bond-energy",
+    "topicTitle": "6.2 Bond Energy",
+    "_id": "m173xq0nxkbrv9g9538jqh8q4s85qvez",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The covalent bond with the lowest bond energy is the single bond between two atoms, particularly single bonds involving larger atoms or atoms with lower electronegativity differences. Among common bonds, the C-I (carbon-iodine) single bond or bonds involving heavier atoms like I-I typically have the lowest bond energies. However, without specific options provided in the question, the general principle is that single bonds have lower bond energy than double or triple bonds, and bonds between larger atoms have lower bond energy than bonds between smaller atoms.",
+    "keyPoints": [
+      "Single bonds have lower bond energy than double or triple bonds",
+      "Bonds between larger atoms have lower bond energy than bonds between smaller atoms",
+      "Bond energy increases with bond order (single < double < triple)",
+      "Bonds involving heavier elements (like iodine) typically have lower bond energies",
+      "C-I, Br-Br, and I-I bonds are examples of relatively low bond energy covalent bonds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The covalent bond with the lowest bond energy is the single bond between two atoms, particularly single bonds involving larger atoms or atoms with lower electronegativity differences. Among common bonds, the C-I (carbon-iodine) single bond or bonds involving heavier atoms like I-I typically have the lowest bond energies. However, without specific options provided in the question, the general principle is that single bonds have lower bond energy than double or triple bonds, and bonds between larger atoms have lower bond energy than bonds between smaller atoms.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$H-I$"
+      },
+      {
+        "key": "B",
+        "text": "$H-F$"
+      },
+      {
+        "key": "C",
+        "text": "$H-Cl$"
+      },
+      {
+        "key": "D",
+        "text": "$H-Br$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Which of the following covalent bond has lowest bond energy?",
+    "topicId": "ms76hpb7kmvqa79v2f2jc5zrdx85ps7p",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-2-bond-energy",
+    "topicTitle": "6.2 Bond Energy",
+    "_id": "m17dg8e5vxzm9e1j4ghmz77xfn8e055e",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "Bond dissociation energy is the energy required to break one mole of a specific covalent bond in the gaseous state, producing gaseous atoms or fragments."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Define bond dissociation energy.",
+    "topicId": "ms76hpb7kmvqa79v2f2jc5zrdx85ps7p"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m170chdxyd16sncn6bq6qyyy8185pm3z",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "A state function is a property that depends only on the initial and final states of a system, not on the path taken. Examples include internal energy (U), enthalpy (H), and temperature. Heat (q) and work (w) are NOT state functions because they depend on the specific path or process followed during the reaction.",
+    "keyPoints": [
+      "State functions depend only on initial and final states, not on the path taken",
+      "Heat (q) is path-dependent and therefore NOT a state function",
+      "Work (w) is path-dependent and therefore NOT a state function",
+      "Internal energy (U), enthalpy (H), and temperature are examples of state functions",
+      "The distinction is crucial: state functions are properties of the system; heat and work are energy transfers that depend on how the process occurs"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A state function is a property that depends only on the initial and final states of a system, not on the path taken. Examples include internal energy (U), enthalpy (H), and temperature. Heat (q) and work (w) are NOT state functions because they depend on the specific path or process followed during the reaction.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure"
+      },
+      {
+        "key": "B",
+        "text": "Volume"
+      },
+      {
+        "key": "C",
+        "text": "Temperature"
+      },
+      {
+        "key": "D",
+        "text": "Work"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Which of the following is **NOT** a state function?",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m1774a6x8r9y2f6ta3gqnwy40985qh3e",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Calculate temperature change: $\\Delta T = 6.52 K$",
+      "Apply calorimetry equation: $q = C \\times \\Delta T = 28.17 \\text{ kJ}$",
+      "Convert mass to moles using molar mass of glucose (180 g/mol): 0.01 mol",
+      "Calculate molar heat of combustion: $\\frac{28.17}{0.01} = 2817 \\text{ kJ/mol}$",
+      "Report as negative value indicating exothermic reaction: $\\Delta H_c = -2817 \\text{ kJ/mol}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The heat of combustion of glucose is calculated using the bomb calorimeter data. First, calculate the temperature change: $\\Delta T = 31.52°C - 25°C = 6.52 K$. Using $q = C \\times \\Delta T$, where $C = 4.321 \\text{ kJ/K}$: $q = 4.321 \\times 6.52 = 28.17 \\text{ kJ}$. This is the heat released by 1.8 g glucose. To find molar heat of combustion, convert to moles: molar mass of glucose = 180 g/mol, so moles = $\\frac{1.8}{180} = 0.01 \\text{ mol}$. Therefore, heat of combustion = $\\frac{28.17}{0.01} = 2817 \\text{ kJ/mol}$ or $-2817 \\text{ kJ/mol}$ (negative because combustion is exothermic).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "When $1.8 \\text{ g}$ glucose is burnt in a bomb calorimeter, the temperature of water increases from $25^{\\circ}C$ to $31.52^{\\circ}C$. If the heat capacity of the calorimeter is $4.321 \\text{ kJ/K}$, calculate the heat of combustion of glucose.",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m177n7ewfmqx2qwhd93qvx3hs585pndd",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "States first law: energy conservation; internal energy change equals heat absorbed minus work done",
+      "Provides correct mathematical expression: $\\Delta U = q - w$ with proper definition of terms",
+      "Explains application to gas-piston system: heat energy distributed between internal energy increase and work against pressure",
+      "Derives $W = P\\Delta V$ from force-distance relationship: $dw = P \\cdot A \\cdot dx = P \\cdot dV$",
+      "Clarifies that formula applies at constant external pressure during volume expansion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**First Law of Thermodynamics:** The first law of thermodynamics states that energy cannot be created or destroyed; it can only be converted from one form to another. For a system, the change in internal energy equals the heat absorbed by the system minus the work done by the system.\n\n**Mathematical Expression:**\n$$\\Delta U = q - w$$\n\nAlternatively: $\\Delta U = q + w$ (when work is done on the system)\n\nWhere: $\\Delta U$ = change in internal energy, $q$ = heat absorbed by system, $w$ = work done by system\n\n**Application to Gas in Cylinder with Moveable Piston:**\n\nConsider a gas confined in a cylinder with a moveable piston. When the gas is heated, it absorbs heat energy ($q$). This energy is used in two ways: (1) to increase the internal energy of the gas molecules ($\\Delta U$), and (2) to do work against external pressure by pushing the piston outward ($w$).\n\nThe internal energy change depends on temperature change of the gas. The work done by the gas expands the volume against atmospheric pressure. Therefore: $\\Delta U = q - w$\n\n**Derivation of $W = P\\Delta V$:**\n\nWhen the piston moves outward by distance $dx$, the work done by gas is:\n$$dw = F \\cdot dx = P \\cdot A \\cdot dx$$\n\nSince $A \\cdot dx = dV$ (change in volume):\n$$dw = P \\cdot dV$$\n\nFor finite volume change at constant pressure:\n$$W = P(V_f - V_i) = P\\Delta V$$\n\nThis represents the work done by the gas during expansion against constant external pressure.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "State first law of thermodynamics. Write its mathematical expression with reference to heat and work. Explain it for a gas confined to a cylinder having a moveable piston, and derive the formula of $W = P\\Delta V$ for this system.",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m1752ebyrnjpy044qgxndfyah18e18av",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Moles HCl = 0.0875 dm3 x 0.10 = 8.75x10^-3 mol; moles NaOH = 0.025 dm3 x 0.35 = 8.75x10^-3 mol (matched, confirming complete neutralization).",
+      "The textbook gives the answer as the enthalpy of neutralization = -57.78 kJ/mol, obtained from q = mcΔT divided by moles of water formed."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "6.3",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Experimental data shows that when 87.5 cm3 of a 0.10 M HCl solution is mixed with 25.0 cm3 of 0.35 M NaOH in a calorimeter, complete neutralization occurs. The temperature of the calorimeter changes from 25C to 26.07C. Use this data to determine the heat of neutralization for the reaction.",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m17bqyknb4061ax5qhxd8q68sd8e0jj5",
+    "correctKey": "A",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "1 calorie is defined as equal to 4.18 joules.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "4.18 J"
+      },
+      {
+        "key": "B",
+        "text": "4.18 kJ"
+      },
+      {
+        "key": "C",
+        "text": "0.418 J"
+      },
+      {
+        "key": "D",
+        "text": "0.418 kJ"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(ii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "A calorie is equivalent to:",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m17d0b6gykqdfz01wwdbcf6rcn8e1m3s",
+    "correctKey": "A",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "A bomb calorimeter is a sealed, rigid vessel, so reactions occur at constant volume.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Constant volume"
+      },
+      {
+        "key": "B",
+        "text": "Constant pressure"
+      },
+      {
+        "key": "C",
+        "text": "Both a and b"
+      },
+      {
+        "key": "D",
+        "text": "Constant temperature"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(vii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "A bomb calorimeter is used in ___ calorimetry.",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m17fb1mxksf4s2y1r3xc87ndc98e0xbn",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "The joule (J) is the SI unit of energy, defined as the work done when a force of 1 newton moves an object 1 metre.",
+      "The calorie (cal) is a non-SI unit, defined as the heat needed to raise the temperature of 1 g of water by 1C; 1 calorie = 4.18 J."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Name and define units of thermal energy.",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m1790mwja192bypm1g0zvkzc1x8e1z5v",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Moles camphor = 0.1204 g / 152 g/mol = 7.92x10^-4 mol; heat released = 7.92x10^-4 x 5903.6 ≈ 4.677 kJ.",
+      "Heat capacity = heat released / ΔT = 4.677 kJ / 2.28C ≈ 2.05 kJ/K.",
+      "The textbook gives the answer as 2.04531 kJ/K."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "10",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Camphor (C10H16O) has a heat of combustion of 5903.6 kJ/mol. A 0.1204 g sample of camphor is burned in a bomb calorimeter, and the temperature increases by 2.28C. Calculate the heat capacity of the calorimeter.",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m17e4czarhnbgkexp09924ad2n8e1wwy",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Total mass of solution ≈ 200 g; heat released q = mcΔT = 200 x 4.18 x 6.9 ≈ 5768.4 J = 5.768 kJ.",
+      "Moles HCl (= moles NaOH = moles water formed) = 0.100 dm3 x 1.0 M = 0.100 mol.",
+      "Enthalpy of neutralization = -q/moles = -5.768/0.100 ≈ -57.68 kJ/mol, matching the textbook answer of -57.684 kJ/mole."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "11",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "In a coffee-cup calorimeter, 100 cm3 of 1.0 M HCl and 100 cm3 of 1.0 M NaOH are mixed at 24.6C, raising the temperature by 6.9C. Calculate the enthalpy of neutralization of HCl by NaOH, given the heat capacity of water is 4.18 J/gK.",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-3-heat-and-temperature",
+    "topicTitle": "6.3 Heat and Temperature",
+    "_id": "m17fb8w0k5r9p22m9te7w565n98e08ev",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Moles Al = 745/27 = 27.6 mol; ΔT = 205-25 = 180C.",
+      "q = n x Cp x ΔT = 27.6 x 24.35 x 180 ≈ 120,983 J, matching the textbook answer of 120938.3 J."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "13",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "An aluminium frying pan weighing 745 g is heated on a stove from 25C to 205C. What is q for the frying pan, given Cp for Al is 24.35 J/mol.K?",
+    "topicId": "ms745bpa3zncxm0cb8pskeag9n85q0m9"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m1770wc6s8mxa6jbr8chmbrpwh85pjx2",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "Without seeing the specific relationship options provided in your question, I cannot identify which relationship is incorrect. However, based on the notes, key correct relationships include: (1) $\\Delta H_f$ for ice = +6.02 kJ mol⁻¹ (endothermic), (2) average kinetic energy of liquid molecules equals that of vapor molecules at constant temperature, and (3) evaporation causes cooling due to loss of high-energy molecules. An incorrect relationship would contradict these established principles from the notes.",
+    "keyPoints": [
+      "Identifies that molar heat of fusion is positive (endothermic process)",
+      "Recognizes that average KE of liquid = average KE of vapor at constant temperature",
+      "Understands evaporation involves highest-energy molecules escaping",
+      "Distinguishes between correct thermodynamic relationships and incorrect ones",
+      "Applies FBISE chemistry principles on phase changes and energetics"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Without seeing the specific relationship options provided in your question, I cannot identify which relationship is incorrect. However, based on the notes, key correct relationships include: (1) $\\Delta H_f$ for ice = +6.02 kJ mol⁻¹ (endothermic), (2) average kinetic energy of liquid molecules equals that of vapor molecules at constant temperature, and (3) evaporation causes cooling due to loss of high-energy molecules. An incorrect relationship would contradict these established principles from the notes.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Delta H_v > \\Delta H_f$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Delta H_f > \\Delta H_v$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta H_s > \\Delta H_f$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta H_s > \\Delta H_v$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "Which of the following relationships is **incorrect**?",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m176vtrenx8dqcfhkmdr1syrad85qhdj",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies all seven steps in the Born-Haber cycle with proper energy values and signs (endothermic positive, exothermic negative)",
+      "Applies Hess's Law to relate formation enthalpy to individual energy terms: ΔH°f = sum of all intermediate steps",
+      "Calculates lattice energy accurately: ΔH°lattice = -3926 kJ/mol by rearranging the thermochemical equation",
+      "Explains that large negative lattice energy drives ionic compound formation despite positive ionization energies",
+      "Presents cycle in logical sequence from reactants through ionization, atomization, and electron affinity to product formation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "The Born-Haber cycle for MgO formation illustrates the enthalpy changes in the ionic compound formation process. Starting from solid Mg and O₂ gas, the cycle involves: (1) sublimation of Mg: +150 kJ/mol, (2) first ionization of Mg: +738 kJ/mol, (3) second ionization of Mg²⁺: +1451 kJ/mol, (4) atomization of O₂: +248 kJ/mol, (5) first electron affinity of O: -141 kJ/mol, (6) second electron affinity of O²⁻: +878 kJ/mol, and (7) lattice energy formation. The cycle closes with the overall formation enthalpy: ΔH°f = -602 kJ/mol. Using Hess's Law: ΔH°f = ΔH°s(Mg) + ΔH°IE(Mg) + ΔH°IE(Mg²⁺) + ½ΔH°at(O₂) + ΔH°EA(O) + ΔH°EA(O²⁻) + ΔH°lattice. Therefore: -602 = 150 + 738 + 1451 + 248 + (-141) + 878 + ΔH°lattice, giving ΔH°lattice = -3926 kJ/mol. The Born-Haber cycle demonstrates that ionic compound formation is thermodynamically favorable due to the large negative lattice energy compensating for the endothermic ionization processes.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Draw the complete **Born-Haber cycle** for the formation of $MgO$ from the following data: $\\Delta H_f^0$ of $MgO = -602\\text{ kJ/mol}$, $\\Delta H_s^0$ of $Mg = 150\\text{ kJ/mol}$, $\\Delta H_{I.E.}^0$ of $Mg^{2+} = 2180\\text{ kJ/mol}$, $\\Delta H_{at}^0$ of $O_2 = 24\\text{ kJ/mol}$, $\\Delta H_{E.A.}^0$ of $O^{-} = -141\\text{ kJ/mol}$, $\\Delta H_{E.A.}^0$ of $O^{2-} = 878\\text{ kJ/mol}$.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m17ej395zqwrh679gzpb0by0mh85ptf3",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies the standard enthalpy of formation formula: $\\Delta H^{\\circ}_{rxn} = \\sum \\Delta H_f^{\\circ}(\\text{products}) - \\sum \\Delta H_f^{\\circ}(\\text{reactants})$",
+      "Accurately calculates products: $16(-393.5) + 18(-285) = -11426$ kJ",
+      "Accurately calculates reactants: $2(-269) + 25(0) = -538$ kJ",
+      "Correctly subtracts to obtain final answer: $\\Delta H^{\\circ}_{rxn} = -10888$ kJ",
+      "Identifies reaction as exothermic based on negative $\\Delta H^{\\circ}$ value"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To calculate $\\Delta H^{\\circ}$ for this combustion reaction, we use the standard enthalpy of formation equation: $\\Delta H^{\\circ}_{rxn} = \\sum \\Delta H_f^{\\circ}(\\text{products}) - \\sum \\Delta H_f^{\\circ}(\\text{reactants})$. For products: $\\Delta H_f^{\\circ} = [16(-393.5) + 18(-285)] = -6296 - 5130 = -11426$ kJ. For reactants: $\\Delta H_f^{\\circ} = [2(-269) + 25(0)] = -538$ kJ. Therefore, $\\Delta H^{\\circ}_{rxn} = -11426 - (-538) = -10888$ kJ. The negative value indicates this is an exothermic reaction, as expected for combustion reactions where energy is released to the surroundings.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "session": "annual",
+    "stem": "Calculate $\\Delta H^{\\circ}$ for the following reaction: $2C_8H_{18} + 25O_2 \\rightarrow 16CO_2 + 18H_2O$. The values of $\\Delta H_f^{\\circ}$ for $C_8H_{18}$, $O_2$, $CO_2$ and $H_2O$ are $-269$ kJ/mol, $0$ kJ/mol, $-393.5$ kJ/mol and $-285$ kJ/mol respectively.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m174rdt7yy0aa2bjab9fp9y1bn85pqjg",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Thermochemical equations include balanced chemical equation with enthalpy change (ΔH)",
+      "Formation reactions show elements in standard states forming one mole of compound",
+      "Combustion reactions show complete oxidation to stable oxides (CO₂, H₂O)",
+      "Negative ΔH indicates exothermic reactions",
+      "Equations can be written per mole or with whole number coefficients",
+      "Standard states must be specified (s, l, g, aq)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Thermochemical equations are written by showing the balanced chemical equation with the enthalpy change (ΔH) included.\n\n(i) For CaCO₃ with standard enthalpy of formation = -1207 kJ/mol:\nThe formation reaction shows elements in their standard states forming one mole of the compound:\nCa(s) + C(s) + 3/2 O₂(g) → CaCO₃(s)  ΔH°f = -1207 kJ/mol\n\nOr written with whole number coefficients:\n2Ca(s) + 2C(s) + 3O₂(g) → 2CaCO₃(s)  ΔH° = -2414 kJ\n\n(ii) For CH₃COOH with standard enthalpy of combustion = -875 kJ/mol:\nThe combustion reaction shows complete oxidation to CO₂ and H₂O:\nCH₃COOH(l) + 2O₂(g) → 2CO₂(g) + 2H₂O(l)  ΔH°c = -875 kJ/mol\n\nAlternatively:\n2CH₃COOH(l) + 4O₂(g) → 4CO₂(g) + 4H₂O(l)  ΔH° = -1750 kJ",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "session": "annual",
+    "stem": "Write thermochemical equations from the given information: (i) Standard enthalpy of formation of $CaCO_3$ is $-1207\\text{ kJ/mol}$ (ii) Standard enthalpy of combustion of $CH_3COOH$ is $-875\\text{ kJ/mol}$.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m17fphfc00rrctc4sgrpn1ppvn8e13gx",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "(a) C2H5OH(l) + 3O2(g) -> 2CO2(g) + 3H2O(l).",
+      "(b) By Hess's law: the enthalpy of combustion = [2 x ΔHf(CO2) + 3 x ΔHf(H2O)] - ΔHf(ethanol) = [2(-393.5) + 3(-285.8)] - (-277.0) = (-787.0 - 857.4) + 277.0 = -1367.4 kJ/mol."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "6",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "When ethanol burns in oxygen, carbon dioxide and water are formed. (a) Write the equation describing this reaction. (b) Using ΔHf(ethanol,l) = -277.0 kJ/mol, ΔHf(CO2,g) = -393.5 kJ/mol, ΔHf(water,l) = -285.8 kJ/mol, calculate the enthalpy of combustion for ethanol.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m179q4hzwmrwt4ayf4cgb43acx8e1n4m",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "This is the reverse of benzene's formation reaction (6C(s) + 3H2(g) -> C6H6(l), ΔHf = +49.0 kJ/mol), so reversing the sign gives ΔH ≈ -49.0 kJ/mol.",
+      "The textbook gives the answer as -49.6 kJ/mole."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "7",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Calculate the enthalpy change for C6H6(l) -> 6C(s) + 3H2(g) at standard conditions, using standard enthalpy of formation data for benzene.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m172nz0br7pasnew9yhxjxmx2h8e0jsw",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Using Hess's law with the known combustion enthalpies of C and H2, the heat of formation of benzene can be deduced from the combustion enthalpy of benzene and its elements.",
+      "The textbook gives the answer as +49.6 kJ/mole, consistent with the standard enthalpy of formation of benzene stated earlier in this chapter (+49.0 kJ/mol)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "8",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The heat of combustion of liquid benzene (C6H6) to form H2O and CO2 at 1 atm and 25C is -3268 kJ/mol of benzene. What is the heat of formation of liquid benzene under these conditions?",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m174s8p7f2axxn2fzygehy8kb18e1k5m",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Reverse and halve the second equation: SO3(g) -> SO2(g) + 1/2O2(g), ΔH° = +99.1 kJ.",
+      "Add this to the first equation: S(s) + 3/2O2(g) + SO3(g) -> SO3(g) + SO2(g) + 1/2O2(g), which simplifies to S(s) + O2(g) -> SO2(g).",
+      "ΔH° = -395.2 + 99.1 = -296.1 kJ (close to the standard textbook value of about -296.8 kJ/mol for this reaction)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "12",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Calculate ΔH° for S(s) + O2(g) -> SO2(g), given S(s) + 3/2O2(g) -> SO3(g), ΔH° = -395.2 kJ, and 2SO2(g) + O2(g) -> 2SO3(g), ΔH° = -198.2 kJ.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m17171cpbjerrsqwd8dhzvpgb98e1vxw",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "(a) C6H12O6(s) + 6O2(g) -> 6CO2(g) + 6H2O(l).",
+      "(b) Molar mass glucose = 180 g/mol; molar heat of combustion = 15.65 x 180 = 2817 kJ/mol, matching the textbook answer of -2817 kJ/mol.",
+      "(c) Using Hess's law with the combustion data of C, H2 and glucose, the textbook gives the heat of formation of glucose as -1258.8 kJ/mol."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "15",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The human body burns glucose for energy; burning 1.0 g of glucose produces 15.65 kJ of heat. (a) Write the balanced equation for the combustion of glucose. (b) Determine the molar heat of combustion of glucose. (c) Given heats of combustion of C and H2 are -393.5 kJ/mol and -285.8 kJ/mol respectively, determine the heat of formation of glucose.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m1781q4b29ehqms7q7bm0fjzdh8e0rmq",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Using Hess's law: ΔHf(CH3COOH) = [2xΔHc(C) + 2xΔHc(H2)] - ΔHc(CH3COOH), combining the combustion enthalpies per the balanced combustion equation for acetic acid.",
+      "The textbook gives the answer as -483.6 kJ/mole."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "16",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The standard combustion enthalpies of carbon, hydrogen and acetic acid are -393.5 kJ/mol, -285.8 kJ/mol and -875 kJ/mol respectively. Deduce the standard enthalpy of formation of acetic acid, CH3COOH.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m174zft4dna16ewrf2kfj0rap58e1v11",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "Combining these (via Hess's law) to derive 2Fe3O4(s) + 1/2O2(g) -> 3Fe2O3(s) gives a net negative ΔH, so the conversion of magnetite to hematite by oxygen is exothermic."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "17",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Is the conversion of magnetite (Fe3O4) to hematite (Fe2O3) by oxygen endothermic or exothermic? Justify your answer, given 3Fe(s) + 2O2(g) -> Fe3O4(s), ΔH° = -1118 kJ, and 2Fe(s) + 3/2O2(g) -> Fe2O3(s), ΔH° = -824.2 kJ.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-4-hess-s-law",
+    "topicTitle": "6.4 Hess's Law",
+    "_id": "m17a2mkvp41pkptnmzv6ae2kyx8e0qae",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "By Hess's law: ΔH(graphite->diamond) = ΔHc(graphite) - ΔHc(diamond) = -393.5 - (-395.4) = +1.9 kJ/mol, matching the textbook answer.",
+      "The small positive value shows diamond is slightly higher in energy (less stable) than graphite under standard conditions."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "18",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Calculate ΔH for the conversion of graphite to diamond, given the heats of combustion of graphite and diamond (measured at 25C, 1 atm) are -393.5 kJ and -395.4 kJ respectively.",
+    "topicId": "ms7bzr618ej8mjt27t79jw1mh985q45y"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m17bf6zgnnqcvzfh8ch9xaqhks85qvek",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Option undefined is the verified answer.",
+    "keyPoints": [
+      "Enthalpy of solution is the sum of lattice enthalpy and hydration enthalpy",
+      "ΔH_sol = ΔH(lattice) + ΔH(hydration)",
+      "Lattice enthalpy is positive (energy required to break ionic bonds)",
+      "Hydration enthalpy is negative (energy released when ions are hydrated)",
+      "ΔH_sol = +786 + (-783) = +3 kJ/mol",
+      "Positive value indicates slightly endothermic dissolution",
+      "For NaCl, the lattice energy and hydration energy nearly cancel out"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The enthalpy of solution (ΔH_sol) is calculated using the relationship:\n\nΔH_sol = ΔH(lattice) + ΔH(hydration)\n\nGiven:\n- ΔH(reverse lattice) = +786 kJ/mol (this is the lattice enthalpy, the energy required to separate one mole of solid ionic compound into gaseous ions)\n- ΔH(hydration) = -783 kJ/mol (the energy released when gaseous ions are hydrated)\n\nTherefore:\nΔH_sol = (+786) + (-783) = +3 kJ/mol\n\nThe enthalpy of solution of NaCl is **+3 kJ/mol**.\n\nThis small positive value indicates that the dissolution of NaCl is slightly endothermic, meaning a small amount of heat is absorbed during the process. This is consistent with experimental observations where dissolving NaCl causes a slight cooling effect.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$+3\\text{ kJ/mol}$"
+      },
+      {
+        "key": "B",
+        "text": "$-3\\text{ kJ/mol}$"
+      },
+      {
+        "key": "C",
+        "text": "$+1569\\text{ kJ/mol}$"
+      },
+      {
+        "key": "D",
+        "text": "$-1569\\text{ kJ/mol}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "What will be the enthalpy of solution of $NaCl$ if $\\Delta H$ (reverse lattice) is $+786\\text{ kJ/mol}$ and $\\Delta H$ (hyd) is $-783\\text{ kJ/mol}$?",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m173t2t6tp0mm3972x3964tfwn85pcqw",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Enthalpy of solution depends on lattice energy (endothermic, energy required to separate ions) and hydration energy (exothermic, energy released when ions are surrounded by water molecules)",
+      "NH₄NO₃: lattice energy > hydration energy → endothermic process, ΔH > 0",
+      "CaCl₂: hydration energy > lattice energy → exothermic process, ΔH < 0",
+      "Ca²⁺ has high charge density leading to strong hydration interactions with water molecules",
+      "NH₄⁺ and NO₃⁻ have lower charge densities and weaker hydration compared to Ca²⁺ and Cl⁻"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The difference in enthalpy of solution between NH₄NO₃ and CaCl₂ depends on the relative magnitudes of the energy required to break ionic bonds (endothermic) versus the energy released when ions are hydrated (exothermic). For NH₄NO₃, the lattice energy is high and the hydration energy is relatively low, making the overall process endothermic (+25.7 kJ/mol). The solution absorbs heat from surroundings. For CaCl₂, the hydration energy is significantly greater than the lattice energy, making the overall process exothermic (-83.0 kJ/mol). The strong hydration of Ca²⁺ and Cl⁻ ions releases more energy than is needed to break the ionic bonds, so heat is released to the surroundings. In summary: ΔH_solution = ΔH_lattice + ΔH_hydration. When hydration energy > lattice energy, the process is exothermic; when lattice energy > hydration energy, the process is endothermic.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Why is the enthalpy of solution for $NH_4NO_3$ equal to $+25.7\\text{ kJ/mol}$ (endothermic process) whereas that of $CaCl_2$ is $-83.0\\text{ kJ/mol}$ (exothermic process)? Explain briefly.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m17389f0ndbawq0wtfm0p0p2pn85pe1w",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Born-Haber cycle shows all energy changes in ionic compound formation",
+      "Five main steps: sublimation, ionization, dissociation, electron affinity, and lattice energy",
+      "Sublimation, ionization, and dissociation are endothermic (upward arrows)",
+      "Electron affinity and lattice energy are exothermic (downward arrows)",
+      "Lattice energy is the largest energy term and drives the overall exothermic process",
+      "The cycle demonstrates Hess's Law application",
+      "ΔH_formation = ΔH_sub + IE + ½ΔH_diss + EA - ΔH_lattice"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Born-Haber cycle for KCl formation shows the energy changes involved in the formation of solid KCl from its elements. The cycle consists of the following steps:\n\n1. **Sublimation of K(s)**: K(s) → K(g) + ΔH_sub\n2. **Ionization of K(g)**: K(g) → K⁺(g) + e⁻ + IE\n3. **Dissociation of Cl₂(g)**: ½Cl₂(g) → Cl(g) + ½ΔH_diss\n4. **Electron affinity of Cl(g)**: Cl(g) + e⁻ → Cl⁻(g) + EA\n5. **Lattice energy**: K⁺(g) + Cl⁻(g) → KCl(s) + ΔH_lattice\n\n**Diagram representation**:\n- Start with K(s) + ½Cl₂(g) at the top (reference level)\n- Show upward arrows for sublimation, ionization, and dissociation (endothermic steps)\n- Show downward arrow for electron affinity (exothermic)\n- Show large downward arrow for lattice energy formation\n- End with KCl(s) at the bottom\n- The net enthalpy of formation (ΔH_f) equals the algebraic sum of all steps\n\nThe cycle demonstrates that the large negative lattice energy compensates for the endothermic steps, making the overall formation of KCl exothermic.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "session": "annual",
+    "stem": "Draw Born-Haber cycle for the formation of $KCl$. (Calculation is **NOT** required)",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m170g5netpn0573rchzgpy678x85pvga",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Lattice energy may also be called bond energy or bond enthalpy. These terms refer to the energy required to break chemical bonds in ionic or covalent compounds. Lattice energy specifically describes the energy needed to completely separate one mole of an ionic solid into gaseous ions.",
+    "keyPoints": [
+      "Lattice energy is synonymous with bond energy/bond enthalpy",
+      "It represents energy required to break bonds in a substance",
+      "Measured in kJ mol⁻¹",
+      "Bond breaking is endothermic (ΔH = +ve)",
+      "Reflects the strength of chemical bonds in the crystal structure"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Lattice energy may also be called bond energy or bond enthalpy. These terms refer to the energy required to break chemical bonds in ionic or covalent compounds. Lattice energy specifically describes the energy needed to completely separate one mole of an ionic solid into gaseous ions.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Affinity energy"
+      },
+      {
+        "key": "B",
+        "text": "Crystal energy"
+      },
+      {
+        "key": "C",
+        "text": "Bond energy"
+      },
+      {
+        "key": "D",
+        "text": "Ionization energy"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "session": "annual",
+    "stem": "Lattice energy may also be called:",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m176vtrenx8dqcfhkmdr1syrad85qhdj",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies all seven steps in the Born-Haber cycle with proper energy values and signs (endothermic positive, exothermic negative)",
+      "Applies Hess's Law to relate formation enthalpy to individual energy terms: ΔH°f = sum of all intermediate steps",
+      "Calculates lattice energy accurately: ΔH°lattice = -3926 kJ/mol by rearranging the thermochemical equation",
+      "Explains that large negative lattice energy drives ionic compound formation despite positive ionization energies",
+      "Presents cycle in logical sequence from reactants through ionization, atomization, and electron affinity to product formation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "The Born-Haber cycle for MgO formation illustrates the enthalpy changes in the ionic compound formation process. Starting from solid Mg and O₂ gas, the cycle involves: (1) sublimation of Mg: +150 kJ/mol, (2) first ionization of Mg: +738 kJ/mol, (3) second ionization of Mg²⁺: +1451 kJ/mol, (4) atomization of O₂: +248 kJ/mol, (5) first electron affinity of O: -141 kJ/mol, (6) second electron affinity of O²⁻: +878 kJ/mol, and (7) lattice energy formation. The cycle closes with the overall formation enthalpy: ΔH°f = -602 kJ/mol. Using Hess's Law: ΔH°f = ΔH°s(Mg) + ΔH°IE(Mg) + ΔH°IE(Mg²⁺) + ½ΔH°at(O₂) + ΔH°EA(O) + ΔH°EA(O²⁻) + ΔH°lattice. Therefore: -602 = 150 + 738 + 1451 + 248 + (-141) + 878 + ΔH°lattice, giving ΔH°lattice = -3926 kJ/mol. The Born-Haber cycle demonstrates that ionic compound formation is thermodynamically favorable due to the large negative lattice energy compensating for the endothermic ionization processes.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Draw the complete **Born-Haber cycle** for the formation of $MgO$ from the following data: $\\Delta H_f^0$ of $MgO = -602\\text{ kJ/mol}$, $\\Delta H_s^0$ of $Mg = 150\\text{ kJ/mol}$, $\\Delta H_{I.E.}^0$ of $Mg^{2+} = 2180\\text{ kJ/mol}$, $\\Delta H_{at}^0$ of $O_2 = 24\\text{ kJ/mol}$, $\\Delta H_{E.A.}^0$ of $O^{-} = -141\\text{ kJ/mol}$, $\\Delta H_{E.A.}^0$ of $O^{2-} = 878\\text{ kJ/mol}$.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m176ra2zqmbdykhnebnpqe2k4h8e0f96",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "By Hess's law (Born-Haber cycle): ΔHf(MgO) = the sublimation enthalpy of Mg + IE(Mg) + the atomization enthalpy of O2 + EA1(O) + EA2(O) + Lattice energy.",
+      "Rearranging: Lattice energy = ΔHf(MgO) - [the sublimation enthalpy of Mg + IE(Mg) + the atomization enthalpy of O2 + EA1(O) + EA2(O)] = -602 - [150+2180+247-141+878] = -602 - 3314 = -3916 kJ/mol.",
+      "This matches the textbook's given answer of -3916 kJ/mol (the corpus preserves this as a standalone '(Ans: -3916kJ)' fragment adjacent to this question -- folded back into this item's answer here rather than treated as a separate phantom question)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "6.5-borhaber",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Draw a complete Born-Haber cycle for the formation of MgO(s) and calculate its lattice energy from: standard enthalpy of formation of MgO = -602 kJ/mol; standard enthalpy of sublimation of Mg = 150 kJ/mol; ionization energy of Mg(g) to Mg2+(g) = 2180 kJ/mol; standard enthalpy of atomization of O2 = 247 kJ/mol; electron affinity of O(g) to O-(g) = -141 kJ/mol; electron affinity of O-(g) to O2-(g) = 878 kJ/mol.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m17d3xvqjg0m7ksxfdhcfc9yq58e13bd",
+    "exerciseId": "xd7btd810rdnr4aa7t1z4z1azh8e129g",
+    "exerciseTitle": "Worked Practice",
+    "keyPoints": [
+      "(a) LiF has higher lattice energy than NaF because Li+ is smaller than Na+, giving a shorter ionic distance and stronger electrostatic attraction.",
+      "(b) MgCl2 has higher lattice energy than NaCl because Mg2+ has a higher charge (+2 vs +1) than Na+, increasing the electrostatic attraction to Cl-."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.6",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Which of the following compounds is expected to have higher lattice energy, and why? (a) LiF or NaF, (b) NaCl or MgCl2.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m1792d29wcftjpq0wjg798pkm18e07hr",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "the enthalpy of solution = -the lattice enthalpy + the hydration enthalpy = +786 + (-783) = +3 kJ/mol.",
+      "The small positive value explains why NaCl dissolves readily in water with only a very slight temperature change (nearly athermal, entropy-driven dissolution)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "6.7",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Construct an energy cycle and energy level diagram to calculate the enthalpy of solution for NaCl, given lattice enthalpy = -786 kJ/mol and hydration enthalpy = -783 kJ/mol.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m17eww5ecg7ev2fz27czessa1d8e13hb",
+    "exerciseId": "xd7btd810rdnr4aa7t1z4z1azh8e129g",
+    "exerciseTitle": "Worked Practice",
+    "keyPoints": [
+      "(a) LiF's Li+ ion has a higher enthalpy of hydration than NaF's Na+ ion, because the smaller Li+ ion has a higher charge density, attracting water molecules more strongly.",
+      "(b) NaNO3 has a higher enthalpy of hydration than KNO3, because Na+ is smaller than K+ and has a higher charge density."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.8",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Which has higher enthalpy of hydration? Justify your answer. (a) LiF or NaF, (b) KNO3 or NaNO3.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m178vtqgpmmc9gqsktg7xz6ea98e1ee4",
+    "correctKey": "B",
+    "exerciseId": "xd75wdcecs3811s65feh6x0te98e0zjw",
+    "exerciseTitle": "Exercise: Choose the Correct Answer",
+    "explanation": "The Born-Haber cycle applies Hess's law to determine the lattice energy of ionic solids.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecular solids"
+      },
+      {
+        "key": "B",
+        "text": "Ionic solids"
+      },
+      {
+        "key": "C",
+        "text": "Covalent solids"
+      },
+      {
+        "key": "D",
+        "text": "Metallic solids"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "(viii)",
+    "sectionLabel": "Choose the Correct Answer",
+    "sourceRef": {
+      "blockIndex": 24,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "The Born-Haber cycle is used to determine lattice energies of:",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m177btm6yd4z5j0jsrrjwqrps98e0xtf",
+    "exerciseId": "xd738h74dmvtcy7gzkedk4nsqh8e2c1m",
+    "exerciseTitle": "Numerical Problems",
+    "keyPoints": [
+      "the enthalpy of solution = -the lattice enthalpy + the hydration enthalpy(Sr2+) + 2xthe hydration enthalpy(F-) = +2492 + (-1480) + 2(-506) = 2492 - 1480 - 1012 = 0 kJ/mol.",
+      "A near-zero enthalpy of solution means dissolution is close to athermal, so it is driven mainly by the entropy increase on dissolving."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "21",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 29,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Strontium fluoride is an ionic solid that dissolves in water and can be used as an optical coating for lenses. (a) Draw the Born-Haber cycle for the enthalpy change of solution of SrF2(s). (b) Label each enthalpy change. (c) Calculate the enthalpy change of solution of SrF2, given lattice energy = -2492 kJ/mol, enthalpy of hydration for Sr2+ = -1480 kJ/mol, enthalpy of hydration for F- = -506 kJ/mol.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m175m4nejvv0g80sd3fp7k1dcn8e03a9",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "Ionic charge (higher charge gives greater hydration enthalpy) and ionic radius (smaller ions give greater hydration enthalpy due to higher charge density)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "21d",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 31,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Write the names of the factors that affect enthalpy of hydration.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-5-born-haber-cycle",
+    "topicTitle": "6.5 Born-Haber Cycle",
+    "_id": "m1737an32nbstcecn35687hgn58e0wb7",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "Lattice energy is the energy released when gaseous ions come together to form a solid ionic lattice.",
+      "Enthalpy of hydration is the energy released when gaseous ions are surrounded by (dissolved in) water molecules; both are exothermic processes but describe different physical steps in the Born-Haber/dissolution cycle."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "21e",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 31,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Differentiate enthalpy of hydration from lattice energy.",
+    "topicId": "ms7b3j9dm6vpr6csp8e6f2czvn85qxk0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-6-entropy",
+    "topicTitle": "6.6 Entropy",
+    "_id": "m17104s2akbw4jcneak8qvrynh85p1da",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Entropy change calculated using: ΔS° = Σ S°(products) - Σ S°(reactants)",
+      "Sum of product entropies: 321 + 56.5 = 377.5 J/mol/K",
+      "ΔS° = 377.5 - 72.1 = +305.4 J/mol/K",
+      "Positive ΔS° indicates increased disorder/spontaneous dissolution",
+      "Dissolution increases entropy due to transition from ordered solid to dispersed aqueous ions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To calculate the total entropy change (ΔS°) for the dissolution of NaCl:\n\nΔS° = Σ S°(products) - Σ S°(reactants)\n\nΔS° = [S°(Na⁺) + S°(Cl⁻)] - S°(NaCl)\n\nΔS° = [321 + 56.5] - 72.1\n\nΔS° = 377.5 - 72.1\n\nΔS° = +305.4 J/mol/K\n\nThe positive entropy change indicates that the dissolution process increases disorder in the system, which is expected as the solid ionic compound breaks down into hydrated ions in solution.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "session": "annual",
+    "stem": "Calculate total entropy change when $NaCl$ dissolves in water under standard conditions: \n$NaCl_{(s)} \\longrightarrow Na^+_{(aq)} + Cl^-_{(aq)}$\n$S^{\\circ}(NaCl) = 72.1\\text{ J/mol/K}, S^{\\circ}(Na^+) = 321\\text{ J/mol/K}, S^{\\circ}(Cl^-) = 56.5\\text{ J/mol/K}$",
+    "topicId": "ms7axf172ed787c2trshzz0wxh85p759",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-6-entropy",
+    "topicTitle": "6.6 Entropy",
+    "_id": "m170xegpy6hhy1d507hhv9vbrh8e0c23",
+    "exerciseId": "xd7btd810rdnr4aa7t1z4z1azh8e129g",
+    "exerciseTitle": "Worked Practice",
+    "keyPoints": [
+      "(a) CO2(g) -> CO2(s): ΔS is negative (gas to solid decreases disorder).",
+      "(b) 2H2(g) + O2(g) -> 2H2O(l): ΔS is negative (3 mol gas -> 2 mol liquid, large decrease in disorder and moles of gas).",
+      "(c) H2O(l) -> H2O(g): ΔS is positive (liquid to gas increases disorder)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6.9",
+    "sectionLabel": "Worked Practice",
+    "sourceRef": {
+      "blockIndex": 20,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "For which of the following reactions is delta-S standard positive or negative? (a) CO2(g) -> CO2(s), (b) 2H2(g) + O2(g) -> 2H2O(l), (c) H2O(l) -> H2O(g).",
+    "topicId": "ms7axf172ed787c2trshzz0wxh85p759"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-6-entropy",
+    "topicTitle": "6.6 Entropy",
+    "_id": "m170qwgcvev7e0mns14kr60rx58e0b63",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "Increasing entropy order: CH3OH(s) < CH3OH(l) < CH3OH(g).",
+      "Entropy increases from solid to liquid to gas because molecular disorder and freedom of motion increase at each stage."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "20",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 29,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Arrange CH3OH(s), CH3OH(g), and CH3OH(l) in order of increasing entropy. Justify your order.",
+    "topicId": "ms7axf172ed787c2trshzz0wxh85p759"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-7-gibbs-free-energy",
+    "topicTitle": "6.7 Gibbs Free Energy",
+    "_id": "m17990zww748m3fjwz70eg58qd8e1gkq",
+    "exerciseId": "xd738514wqstnzy7yj99mkn5e18e1844",
+    "exerciseTitle": "Exercise: Long Answer",
+    "keyPoints": [
+      "Using ΔG = ΔH - TΔS, a reaction is spontaneous when ΔG is negative.",
+      "If ΔH is negative and ΔS is positive, the reaction is spontaneous at all temperatures. If ΔH is positive and ΔS is negative, it is never spontaneous. Mixed-sign cases depend on temperature (e.g. exothermic with decreasing entropy is spontaneous only at low T)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "19",
+    "sectionLabel": "Long Answer",
+    "sourceRef": {
+      "blockIndex": 29,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Develop a hypothetical reaction and calculate the Gibbs free energy. Discuss the conditions under which the reaction would be spontaneous or non-spontaneous.",
+    "topicId": "ms72n7mpxd8y4442jf0pcpdf2985q0c0"
+  },
+  {
+    "subjectSlug": "chemistry-11",
+    "chapterSlug": "06-thermochemistry",
+    "chapterTitle": "Thermochemistry",
+    "topicSlug": "6-7-gibbs-free-energy",
+    "topicTitle": "6.7 Gibbs Free Energy",
+    "_id": "m17f9d4j2ntbz4y3ps1a4pt60n8e0dhx",
+    "exerciseId": "xd7ah3839sn6r9fzjey8mk53zn8e1bgk",
+    "exerciseTitle": "Research Activity",
+    "keyPoints": [
+      "Enthalpy (H) tracks heat content at constant pressure; entropy (S) tracks disorder/randomness; Gibbs free energy (G = H - TS) combines both to predict reaction spontaneity.",
+      "A good review should connect these three quantities through ΔG = ΔH - TΔS and explain how each is measured or calculated (calorimetry for ΔH, statistical/thermodynamic tables for ΔS)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Research Activity",
+    "sourceRef": {
+      "blockIndex": 32,
+      "chapterNumber": 6,
+      "subjectSlug": "chemistry-11"
+    },
+    "stem": "Research and review the fundamental concepts of enthalpy, entropy, and Gibbs free energy.",
+    "topicId": "ms72n7mpxd8y4442jf0pcpdf2985q0c0"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "08-inverse-trigonometric-functions-and-their-graphs",
+    "chapterTitle": "Inverse Trigonometric Functions And Their Graphs",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Principal Values of Inverse Trigonometric Functions",
+    "_creationTime": 1777384397527.924,
+    "_id": "kx725jp5mbrvnce7cv7g8v7mfn85p96m",
+    "createdAt": 1777384397528,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n* **Principal Value Ranges**: Understanding the restricted codomains for inverse trigonometric functions to ensure they remain functions.\n\n* **Inverse Trigonometric Functions**: Evaluating $\\arcsin(x)$, $\\arccos(x)$, $\\arctan(x)$, and their reciprocal counterparts.\n\n* **Exact Values**: Utilizing knowledge of standard angles ($0, \\frac{\\pi}{6}, \\frac{\\pi}{4}, \\frac{\\pi}{3}, \\frac{\\pi}{2}$) and the unit circle.\n\n* **Algebraic Summation**: Combining multiple inverse trigonometric values into a single real number or angle.\n\n* **Numerical Approximation**: Using calculators to find non-standard angles in both degrees and radians.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Function | Principal Value Range (Output) | Domain (Input) |\n| :--- | :--- | :--- |\n| $y = \\arcsin(x)$ | $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ | $[-1, 1]$ |\n| $y = \\arccos(x)$ | $[0, \\pi]$ | $[-1, 1]$ |\n\n| $y = \\arctan(x)$ | $(-\\frac{\\pi}{2}, \\frac{\\pi}{2})$ | $\\mathbb{R}$ |\n\n| $y = \\text{arccsc}(x)$ | $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}], y \\neq 0$ | $(-\\infty, -1] \\cup [1, \\infty)$ |\n| $y = \\text{arcsec}(x)$ | $[0, \\pi], y \\neq \\frac{\\pi}{2}$ | $(-\\infty, -1] \\cup [1, \\infty)$ |\n\n| $y = \\text{arccot}(x)$ | $(0, \\pi)$ | $\\mathbb{R}$ |\n\n---\n\n# **Summary**\n\nThis exercise covers the foundational skills required to work with inverse trigonometric functions. The primary learning objective is to distinguish between the infinite possible angles that satisfy a trigonometric equation and the unique **principal value** defined by mathematical convention. Key strategies include identifying the sign of the input to determine the correct quadrant and memorizing the standard unit circle values to solve expressions without digital aids.\n\nFor non-standard values, the exercise emphasizes the correct use of calculators for decimal approximation.",
+    "publishedAt": 1777384397528,
+    "slug": "exercise-8-1",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 8,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "8.1 Exercise 8.1",
+    "topicId": "ms72qbgqssa3r2z73frjbpvr2985px9a",
+    "updatedAt": 1787554994002
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "08-inverse-trigonometric-functions-and-their-graphs",
+    "chapterTitle": "Inverse Trigonometric Functions And Their Graphs",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Graphs of Inverse Trigonometric Functions",
+    "_creationTime": 1777384398319.4763,
+    "_id": "kx7d7e4f6s95k7cjwab4ahxkzs85pxxz",
+    "createdAt": 1777384398319,
+    "mdxBody": "# **Exercise Questions**\n\n<ExerciseQuestionList questions=\"[{&quot;num&quot;:1,&quot;path&quot;:&quot;exercises/class-12/maths/08_Inverse Trigonometric Functions and Their Graphs/8.2 Q&A/8.2 Q-1.md&quot;,&quot;statement&quot;:&quot;Draw the graph of each of the following functions against the interval mentioned:&quot;},{&quot;num&quot;:2,&quot;path&quot;:&quot;exercises/class-12/maths/08_Inverse Trigonometric Functions and Their Graphs/8.2 Q&A/8.2 Q-2.md&quot;,&quot;statement&quot;:&quot;Draw the graph of each of the following functions against the intervals mentioned:&quot;},{&quot;num&quot;:3,&quot;path&quot;:&quot;exercises/class-12/maths/08_Inverse Trigonometric Functions and Their Graphs/8.2 Q&A/8.2 Q-3.md&quot;,&quot;statement&quot;:&quot;Draw the graph of the following functions and answer the questions given at the end of each question:&quot;}]\"></ExerciseQuestionList>\n\n---\n---\n\n# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n* **Function Graphing:** Visualizing algebraic relationships on a Cartesian plane.\n\n* **Domain and Intervals:** Plotting functions within specific bounded ranges $[a, b]$.\n\n* **Graphical Analysis:** Interpreting properties of a function based on its visual representation.\n\n* **Point Plotting:** Evaluating $f(x)$ at specific values of $x$ to determine coordinates.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Concept | Formula |\n| :--- | :--- |\n| Function Notation | $y = f(x)$ |\n| Closed Interval | $a \\leq x \\leq b$ or $x \\in [a, b]$ |\n| Slope-Intercept Form (for linear graphs) | $y = mx + c$ |\n\n---\n\n# **Summary**\n\nThis exercise focuses on the practical application of graphing techniques. The primary objective is to translate algebraic functions into geometric curves or lines over defined intervals. Key strategies include creating a table of values for $x$ and $y$, identifying the behavior of the function within the given domain, and using the resulting graph to answer specific analytical questions regarding the function's properties.",
+    "publishedAt": 1777384398319,
+    "slug": "exercise-8-2",
+    "sourceRef": {
+      "blockIndex": 112,
+      "chapterNumber": 8,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "8.2 Exercise 8.2",
+    "topicId": "ms77dc3fjjptf0x0d5df8baaad85qg4t",
+    "updatedAt": 1787554994349
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "08-inverse-trigonometric-functions-and-their-graphs",
+    "chapterTitle": "Inverse Trigonometric Functions And Their Graphs",
+    "topicSlug": "exercise-8-3",
+    "topicTitle": "8.3 Addition and Subtraction Theorems for Inverse Trigonometric Functions",
+    "_creationTime": 1777384399183.2642,
+    "_id": "kx7c548x5ecna39ex82c9xm08185qh20",
+    "createdAt": 1777384399183,
+    "mdxBody": "# **Exercise Questions**\n\n<ExerciseQuestionList questions=\"[{&quot;num&quot;:3,&quot;path&quot;:&quot;exercises/class-12/maths/08_Inverse Trigonometric Functions and Their Graphs/8.3 Q&A/8.3 Q-3.md&quot;,&quot;statement&quot;:&quot;Solve the following inverse trigonometric equations algebraically and prove the given identities:&quot;}]\"></ExerciseQuestionList>\n\n---\n---\n\n# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- **Addition and Subtraction Theorems:** Applying formulas for $\\sin^{-1}$, $\\cos^{-1}$, $\\tan^{-1}$, and $\\cot^{-1}$ to combine multiple terms.\n- **Reciprocal Relationships:** Using the relationships between $\\csc^{-1}$, $\\sec^{-1}$, $\\cot^{-1}$ and their primary counterparts ($\\sin^{-1}$, $\\cos^{-1}$, $\\tan^{-1}$).\n- **Identity Verification:** Proving that the sum or difference of specific inverse trigonometric values equals a constant (e.g., $\\pi/2$, $\\pi/4$).\n- **Negative Arguments:** Handling properties like $\\sin^{-1}(-x) = -\\sin^{-1}(x)$ and $\\cos^{-1}(-x) = \\pi - \\cos^{-1}(x)$.\n\n- **Algebraic Substitution:** Evaluating complex inverse trigonometric expressions by substituting specific values for $x$.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Function | Addition / Subtraction Formula |\n| :--- | :--- |\n| **Sine** | $\\sin^{-1} x \\pm \\sin^{-1} y = \\sin^{-1}\\left(x \\sqrt{1-y^{2}} \\pm y \\sqrt{1-x^{2}}\\right)$ |\n\n| **Cosine** | $\\cos^{-1} x \\pm \\cos^{-1} y = \\cos^{-1}\\left(xy \\mp \\sqrt{(1-x^{2})(1-y^{2})}\\right)$ |\n\n| **Tangent** | $\\tan^{-1} x \\pm \\tan^{-1} y = \\tan^{-1}\\left(\\frac{x \\pm y}{1 \\mp xy}\\right)$ |\n\n| **Cotangent** | $\\cot^{-1} x + \\cot^{-1} y = \\cot^{-1}\\left(\\frac{xy-1}{x+y}\\right)$ |\n| **Secant** | $\\sec^{-1} x + \\sec^{-1} y = \\cos^{-1}\\left(\\frac{1-\\sqrt{(x^{2}-1)(y^{2}-1)}}{xy}\\right)$ |\n| **Cosecant** | $\\operatorname{cosec}^{-1} x + \\operatorname{cosec}^{-1} y = \\sin^{-1}\\left[\\frac{\\sqrt{y^{2}-1}+\\sqrt{x^{2}-1}}{xy}\\right]$ |\n\n---\n\n# **Summary**\n\nThis exercise provides practice in manipulating inverse trigonometric functions through their respective addition and subtraction laws. The primary strategy involves identifying the appropriate formula based on the function type and simplifying the resulting algebraic expression. For functions like $\\sec^{-1}$ and $\\csc^{-1}$, it is often helpful to convert them into $\\cos^{-1}$ and $\\sin^{-1}$ forms.\n\nA common pattern in these problems is the verification of the identity $\\sin^{-1} x + \\cos^{-1} x = \\pi/2$ or similar results involving complementary angles. When solving equations, ensure that the final result is checked against the principal value branches of the inverse functions.",
+    "publishedAt": 1777384399183,
+    "slug": "exercise-8-3",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "8.3 Exercise 8.3",
+    "topicId": "ms734e72k0bnrt32nx9m4gh71x85pz1q",
+    "updatedAt": 1787554994081
+  }
+]

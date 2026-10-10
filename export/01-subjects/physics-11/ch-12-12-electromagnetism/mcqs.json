@@ -1,0 +1,2487 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-fields",
+    "topicTitle": "12.1 Magnetic Fields",
+    "_id": "k978r3htf4fpzacx2nnj0fa7w18cc8z5",
+    "correctKey": "A",
+    "explanation": "The field around a long straight current-carrying wire forms concentric circles centered on the wire.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71c92pxzh84ds8bszcf8374d85q9wq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Concentric circles centered on the wire"
+      },
+      {
+        "key": "B",
+        "text": "Parallel straight lines only"
+      },
+      {
+        "key": "C",
+        "text": "Random disconnected segments"
+      },
+      {
+        "key": "D",
+        "text": "A single line along the wire"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What shape do the magnetic field lines around a long straight current-carrying wire have?",
+    "topicId": "ms77mtpmm3ktxx0yc3cwzbqv7x85q3gz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-fields",
+    "topicTitle": "12.1 Magnetic Fields",
+    "_id": "k972jkjejh3st3kz0ehjca8c2h85pwn7",
+    "correctKey": "A",
+    "explanation": "The magnetic force is $F = qvB \\sin(\\theta)$. Since the charge moves parallel to the field, $\\theta = 0^\\circ$ and $\\sin(0^\\circ) = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71c92pxzh84ds8bszcf8374d85q9wq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "$qvB$"
+      },
+      {
+        "key": "C",
+        "text": "$qvB \\sin(90^\\circ)$"
+      },
+      {
+        "key": "D",
+        "text": "$qv/B$"
+      }
+    ],
+    "sectionId": "force-on-a-moving-charge",
+    "sectionLabel": "Force on a Moving Charge",
+    "stem": "A charge $q$ moves with velocity $v$ parallel to a uniform magnetic field $B$. What is the magnitude of the magnetic force acting on it?",
+    "topicId": "ms77mtpmm3ktxx0yc3cwzbqv7x85q3gz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-fields",
+    "topicTitle": "12.1 Magnetic Fields",
+    "_id": "k973bbn406m31rnztb8sd2dfjh8bdx2a",
+    "correctKey": "B",
+    "explanation": "A long, straight current-carrying wire produces a magnetic field whose lines form concentric circles centered on the wire, with direction given by the right-hand grip rule.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71c92pxzh84ds8bszcf8374d85q9wq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Straight lines parallel to the wire"
+      },
+      {
+        "key": "B",
+        "text": "Concentric circles centered on the wire"
+      },
+      {
+        "key": "C",
+        "text": "Radial lines pointing away from the wire"
+      },
+      {
+        "key": "D",
+        "text": "Elliptical loops around the wire"
+      }
+    ],
+    "sectionId": "magnetic-field-of-a-current-carrying-wire",
+    "sectionLabel": "Magnetic Field of a Current-Carrying Wire",
+    "stem": "The magnetic field lines around a long, straight current-carrying wire form:",
+    "topicId": "ms77mtpmm3ktxx0yc3cwzbqv7x85q3gz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-fields",
+    "topicTitle": "12.1 Magnetic Fields",
+    "_id": "k97eq6yf56fc4d9sejc0r0ry2x8bd2hh",
+    "correctKey": "B",
+    "explanation": "Magnetic field lines always form continuous, closed loops (unlike electric field lines, which start and end on charges), a direct consequence of the non-existence of magnetic monopoles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71c92pxzh84ds8bszcf8374d85q9wq",
+    "options": [
+      {
+        "key": "A",
+        "text": "They can cross each other at points of zero field strength"
+      },
+      {
+        "key": "B",
+        "text": "They always form closed loops with no start or end point"
+      },
+      {
+        "key": "C",
+        "text": "They only exist outside a bar magnet, not inside it"
+      },
+      {
+        "key": "D",
+        "text": "They represent a scalar quantity"
+      }
+    ],
+    "sectionId": "properties-of-magnetic-field-lines",
+    "sectionLabel": "Properties of Magnetic Field Lines",
+    "stem": "Which of the following is a property of magnetic field lines?",
+    "topicId": "ms77mtpmm3ktxx0yc3cwzbqv7x85q3gz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-fields",
+    "topicTitle": "12.1 Magnetic Fields",
+    "_id": "k973st048fn1rm4sym99k4xq0h8bcdkz",
+    "correctKey": "A",
+    "explanation": "Hans Christian Oersted's 1820 experiment showed that a current-carrying wire deflects a nearby compass needle, demonstrating that electric currents create magnetic fields.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71c92pxzh84ds8bszcf8374d85q9wq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hans Christian Oersted"
+      },
+      {
+        "key": "B",
+        "text": "Michael Faraday"
+      },
+      {
+        "key": "C",
+        "text": "James Clerk Maxwell"
+      },
+      {
+        "key": "D",
+        "text": "Andre-Marie Ampere"
+      }
+    ],
+    "sectionId": "sources-of-magnetic-fields",
+    "sectionLabel": "Sources of Magnetic Fields",
+    "stem": "Which scientist's experiment first demonstrated that an electric current creates a magnetic field?",
+    "topicId": "ms77mtpmm3ktxx0yc3cwzbqv7x85q3gz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-on-a-current-carrying-conductor",
+    "topicTitle": "12.2 Magnetic Force on a Current-Carrying Conductor",
+    "_id": "k973w7zhnnpfc7tbhkvgpvkmrs8cdysp",
+    "correctKey": "A",
+    "explanation": "In the left-hand rule, the forefinger indicates the field, the middle finger indicates current, and the thumb indicates force or thrust.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cf823q3rpk825rstgg1easx85p6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "The direction of the force or thrust"
+      },
+      {
+        "key": "B",
+        "text": "The direction of the magnetic field"
+      },
+      {
+        "key": "C",
+        "text": "The direction of the current"
+      },
+      {
+        "key": "D",
+        "text": "The direction of resistance"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "In Fleming's Left-Hand Rule, what does the thumb indicate?",
+    "topicId": "ms73h44jkvrmgf540mkk4afv4585pmy8"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-on-a-current-carrying-conductor",
+    "topicTitle": "12.2 Magnetic Force on a Current-Carrying Conductor",
+    "_id": "k97fdmdcz1g6nd7b069m7mc62585q9qm",
+    "correctKey": "A",
+    "explanation": "From $B = F/(IL)$: units are $\\text{N}/(\\text{A}\\cdot\\text{m})$. Since $\\text{N} = \\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$, we get $B = \\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}/(\\text{A}\\cdot\\text{m}) = \\text{kg}\\cdot\\text{s}^{-2}\\cdot\\text{A}^{-1}$. Option (1) incorrectly retains the metre; options (2) and (3) have wrong exponents.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cf823q3rpk825rstgg1easx85p6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\text{kg}\\,\\text{s}^{-2}\\,\\text{A}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\text{kg}\\,\\text{m}\\,\\text{s}^{-2}\\,\\text{A}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\text{kg}\\,\\text{m}^{-1}\\,\\text{s}^{-2}\\,\\text{A}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\text{kg}\\,\\text{s}^{-1}\\,\\text{A}^{-2}$"
+      }
+    ],
+    "sectionId": "what-causes-the-force-on-a-current-carrying-wire",
+    "sectionLabel": "What Causes the Force on a Current-Carrying Wire?",
+    "stem": "The SI unit of magnetic flux density, the Tesla ($T$), is equivalent to which combination of SI base units?",
+    "topicId": "ms73h44jkvrmgf540mkk4afv4585pmy8"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-on-a-current-carrying-conductor",
+    "topicTitle": "12.2 Magnetic Force on a Current-Carrying Conductor",
+    "_id": "k971tdyxmd9r366qm1a3xk7vy585q56c",
+    "correctKey": "B",
+    "explanation": "Using $F = ILB\\sin\\theta$: $F = (5)(2.0)(0.1)\\sin(30^\\circ) = 1.0 \\times 0.5 = 0.50\\,\\text{N}$. Option (0) would result from using $\\sin(30°)/2$; option (2) ignores the $\\sin$ factor; option (3) uses $\\sin(60°)$ instead.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cf823q3rpk825rstgg1easx85p6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.25 N"
+      },
+      {
+        "key": "B",
+        "text": "0.50 N"
+      },
+      {
+        "key": "C",
+        "text": "1.00 N"
+      },
+      {
+        "key": "D",
+        "text": "0.87 N"
+      }
+    ],
+    "sectionId": "what-causes-the-force-on-a-current-carrying-wire",
+    "sectionLabel": "What Causes the Force on a Current-Carrying Wire?",
+    "stem": "A wire of length $2.0\\,\\text{m}$ carrying a current of $5\\,\\text{A}$ is placed at $30^\\circ$ to a uniform magnetic field of $0.1\\,\\text{T}$. What is the magnitude of the magnetic force on the wire?",
+    "topicId": "ms73h44jkvrmgf540mkk4afv4585pmy8"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-on-a-current-carrying-conductor",
+    "topicTitle": "12.2 Magnetic Force on a Current-Carrying Conductor",
+    "_id": "k976xtches2trsn546bkevcxvd85qgbj",
+    "correctKey": "C",
+    "explanation": "Using Fleming's Left-Hand Rule: middle finger points Up (current), forefinger points North (field). With these orientations, the thumb, indicating the force, points West. This is consistent with the cross product $\\vec{F} = I(\\vec{L} \\times \\vec{B})$: $\\hat{j} \\times \\hat{y}_{\\text{North}}$ gives $-\\hat{x}$ (West).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cf823q3rpk825rstgg1easx85p6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "Towards the South"
+      },
+      {
+        "key": "B",
+        "text": "Towards the East"
+      },
+      {
+        "key": "C",
+        "text": "Towards the West"
+      },
+      {
+        "key": "D",
+        "text": "Downwards"
+      }
+    ],
+    "sectionId": "what-causes-the-force-on-a-current-carrying-wire",
+    "sectionLabel": "What Causes the Force on a Current-Carrying Wire?",
+    "stem": "Current in a wire flows vertically upward and the external magnetic field points toward the North. Using Fleming's Left-Hand Rule, in which direction does the magnetic force on the wire act?",
+    "topicId": "ms73h44jkvrmgf540mkk4afv4585pmy8"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-density",
+    "topicTitle": "12.3 Magnetic Flux Density",
+    "_id": "k97brcef0h3tpqrehdp243tkzs8cd5gq",
+    "correctKey": "A",
+    "explanation": "Magnetic flux density is a vector because it specifies both the strength of the magnetic field and its direction.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jkayqf0nytn9wzw0zr0f8585qp7w",
+    "options": [
+      {
+        "key": "A",
+        "text": "It has both magnitude and direction."
+      },
+      {
+        "key": "B",
+        "text": "It has a unit but no measurable value."
+      },
+      {
+        "key": "C",
+        "text": "It only describes temperature."
+      },
+      {
+        "key": "D",
+        "text": "It is always zero outside a magnet."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "Why is magnetic flux density treated as a vector quantity?",
+    "topicId": "ms7b5m1hrw43en9mj4xawf1j0185qj7q"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-density",
+    "topicTitle": "12.3 Magnetic Flux Density",
+    "_id": "k9775xkazy3tkd2jgtmkjz63kd8bcdwg",
+    "correctKey": "A",
+    "explanation": "$B=\\frac{F}{IL}=\\frac{2\\,\\mathrm{N}}{4\\,\\mathrm{A}\\cdot0.5\\,\\mathrm{m}}=\\frac22=1\\,\\mathrm{T}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jkayqf0nytn9wzw0zr0f8585qp7w",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 T"
+      },
+      {
+        "key": "B",
+        "text": "0.5 T"
+      },
+      {
+        "key": "C",
+        "text": "2 T"
+      },
+      {
+        "key": "D",
+        "text": "4 T"
+      }
+    ],
+    "sectionId": "magnetic-flux-density-formula",
+    "sectionLabel": "Magnetic Flux Density Formula",
+    "stem": "A conductor of length 0.5 m carrying a current of 4 A is placed perpendicular to a magnetic field, experiencing a force of 2 N. What is the magnetic flux density?",
+    "topicId": "ms7b5m1hrw43en9mj4xawf1j0185qj7q"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-density",
+    "topicTitle": "12.3 Magnetic Flux Density",
+    "_id": "k976v43q632r5xpwp7bvkav48985qrp5",
+    "correctKey": "B",
+    "explanation": "From $B = F/(IL)$, rearranging gives $1\\,\\text{T} = 1\\,\\text{N}/(1\\,\\text{A}\\times 1\\,\\text{m}) = 1\\,\\text{N}\\cdot\\text{A}^{-1}\\cdot\\text{m}^{-1}$. Option A has A in the numerator (wrong exponent sign). Option C has m in the numerator. Option D is the unit of force (Newton), not flux density.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jkayqf0nytn9wzw0zr0f8585qp7w",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1\\,\\text{N}\\cdot\\text{A}\\cdot\\text{m}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$1\\,\\text{N}\\cdot\\text{A}^{-1}\\cdot\\text{m}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$1\\,\\text{N}\\cdot\\text{A}^{-1}\\cdot\\text{m}$"
+      },
+      {
+        "key": "D",
+        "text": "$1\\,\\text{kg}\\cdot\\text{m}\\cdot\\text{s}^{-2}$"
+      }
+    ],
+    "sectionId": "units-of-magnetic-flux-density",
+    "sectionLabel": "Units of Magnetic Flux Density",
+    "stem": "One Tesla ($\\text{T}$) is equivalent to which combination of SI units?",
+    "topicId": "ms7b5m1hrw43en9mj4xawf1j0185qj7q"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-density",
+    "topicTitle": "12.3 Magnetic Flux Density",
+    "_id": "k97979nn9z54nxjvgrqyns6zeh85p2w6",
+    "correctKey": "B",
+    "explanation": "From $B = F/(IL)$, dimensions are $[MLT^{-2}]/([A][L]) = [MT^{-2}A^{-1}]$. Option A incorrectly retains an extra $L$ factor from force without cancelling the $L$ in the denominator. Options C and D have incorrect exponents for mass and time.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78jkayqf0nytn9wzw0zr0f8585qp7w",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[MLT^{-2}A^{-1}]$"
+      },
+      {
+        "key": "B",
+        "text": "$[MT^{-2}A^{-1}]$"
+      },
+      {
+        "key": "C",
+        "text": "$[ML^{2}T^{-2}A^{-1}]$"
+      },
+      {
+        "key": "D",
+        "text": "$[MT^{-1}A^{-2}]$"
+      }
+    ],
+    "sectionId": "vector-nature-of-magnetic-field",
+    "sectionLabel": "Vector Nature of Magnetic Field",
+    "stem": "What is the dimensional formula for Magnetic Flux Density ($B$)?",
+    "topicId": "ms7b5m1hrw43en9mj4xawf1j0185qj7q"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-acting-on-moving-charge",
+    "topicTitle": "12.4 Magnetic Force on a Moving Charge",
+    "_id": "k973k5defj14vaxq172bw3ccvs8cca9a",
+    "correctKey": "A",
+    "explanation": "The perpendicular component produces circular motion while the parallel component carries the particle along the field, resulting in a helix.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76z3smn001p8fc7b3egsdvts85py6r",
+    "options": [
+      {
+        "key": "A",
+        "text": "A helical path"
+      },
+      {
+        "key": "B",
+        "text": "A stationary point"
+      },
+      {
+        "key": "C",
+        "text": "A straight line always parallel to the field"
+      },
+      {
+        "key": "D",
+        "text": "A square path"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What path does a charged particle generally follow when its velocity has both parallel and perpendicular components relative to a magnetic field?",
+    "topicId": "ms795wz29ndtvvw477qhv5nxn985p403"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-acting-on-moving-charge",
+    "topicTitle": "12.4 Magnetic Force on a Moving Charge",
+    "_id": "k973254szh2h1fjbr4edgptjkd85qj0t",
+    "correctKey": "C",
+    "explanation": "When velocity is perpendicular to the magnetic field, the magnetic force is always perpendicular to the velocity, acting as a centripetal force. This causes the particle to move in a uniform circular path at constant speed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76z3smn001p8fc7b3egsdvts85py6r",
+    "options": [
+      {
+        "key": "A",
+        "text": "A straight line"
+      },
+      {
+        "key": "B",
+        "text": "A parabola"
+      },
+      {
+        "key": "C",
+        "text": "A circle"
+      },
+      {
+        "key": "D",
+        "text": "A helix"
+      }
+    ],
+    "sectionId": "motion-of-a-charged-particle-in-a-magnetic-field",
+    "sectionLabel": "Motion of a Charged Particle in a Magnetic Field",
+    "stem": "A charged particle enters a uniform magnetic field with its velocity entirely perpendicular to the field. What is the resulting path of the particle?",
+    "topicId": "ms795wz29ndtvvw477qhv5nxn985p403"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-acting-on-moving-charge",
+    "topicTitle": "12.4 Magnetic Force on a Moving Charge",
+    "_id": "k976rqkjcshdnhxg5gmx9wcttd85pvx2",
+    "correctKey": "B",
+    "explanation": "Using $F = qvB\\sin(90^\\circ)$ with $q = 1.6 \\times 10^{-19}\\,\\text{C}$, $v = 3 \\times 10^6\\,\\text{m/s}$, $B = 2.0\\,\\text{T}$: $F = (1.6 \\times 10^{-19})(3 \\times 10^6)(2.0)(1) = 9.6 \\times 10^{-13}\\,\\text{N}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76z3smn001p8fc7b3egsdvts85py6r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "$9.6 \\times 10^{-13}\\,\\text{N}$"
+      },
+      {
+        "key": "C",
+        "text": "$4.8 \\times 10^{-13}\\,\\text{N}$"
+      },
+      {
+        "key": "D",
+        "text": "$1.6 \\times 10^{-19}\\,\\text{N}$"
+      }
+    ],
+    "sectionId": "motion-of-a-charged-particle-in-a-magnetic-field",
+    "sectionLabel": "Motion of a Charged Particle in a Magnetic Field",
+    "stem": "A proton enters a uniform magnetic field of $2.0\\,\\text{T}$ with a velocity of $3 \\times 10^6\\,\\text{m/s}$ perpendicular to the field. What is the magnitude of the magnetic force on it? (charge of proton $= 1.6 \\times 10^{-19}\\,\\text{C}$)",
+    "topicId": "ms795wz29ndtvvw477qhv5nxn985p403"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-acting-on-moving-charge",
+    "topicTitle": "12.4 Magnetic Force on a Moving Charge",
+    "_id": "k9785f994bprgkj6tvnsgakt6985pncv",
+    "correctKey": "C",
+    "explanation": "When velocity and magnetic field are parallel ($\\theta = 0^\\circ$), $\\sin(0^\\circ) = 0$ in $F = qvB\\sin\\theta$, so the magnetic force is zero regardless of the sign of the charge.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76z3smn001p8fc7b3egsdvts85py6r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Directed along the positive y-axis"
+      },
+      {
+        "key": "B",
+        "text": "Directed along the positive z-axis"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Directed along the negative x-axis"
+      }
+    ],
+    "sectionId": "right-hand-rule",
+    "sectionLabel": "Right-Hand Rule",
+    "stem": "An electron moves along the positive x-axis in a region where the magnetic field is also directed along the positive x-axis. The magnetic force on the electron is:",
+    "topicId": "ms795wz29ndtvvw477qhv5nxn985p403"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-acting-on-moving-charge",
+    "topicTitle": "12.4 Magnetic Force on a Moving Charge",
+    "_id": "k97dkgs9hdq9smqrvhx6yqcpz985ptfp",
+    "correctKey": "B",
+    "explanation": "Using the right-hand rule: velocity (into page, $-\\hat{z}$) cross field (rightward, $+\\hat{x}$) gives $(-\\hat{z}) \\times (+\\hat{x}) = -\\hat{y}$, which points toward the bottom of the page.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76z3smn001p8fc7b3egsdvts85py6r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Toward the top of the page"
+      },
+      {
+        "key": "B",
+        "text": "Toward the bottom of the page"
+      },
+      {
+        "key": "C",
+        "text": "Out of the page"
+      },
+      {
+        "key": "D",
+        "text": "Toward the left"
+      }
+    ],
+    "sectionId": "right-hand-rule",
+    "sectionLabel": "Right-Hand Rule",
+    "stem": "A positive charge $+q$ moves into the page while the magnetic field points from left to right. What is the direction of the magnetic force on the charge?",
+    "topicId": "ms795wz29ndtvvw477qhv5nxn985p403"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "motion-of-charged-particle-in-magnetic-field",
+    "topicTitle": "12.5 Motion of a Charged Particle in a Uniform Magnetic Field",
+    "_id": "k975eh36gseey0jnvesbyhywrs8ccq1h",
+    "correctKey": "A",
+    "explanation": "Cyclotron frequency describes the rotational rate of a charged particle moving in a circular path within a magnetic field.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c80q3qqnr7kb2sqqxwqtktx85qfn2",
+    "options": [
+      {
+        "key": "A",
+        "text": "The rate at which a charged particle completes angular motion in a magnetic field"
+      },
+      {
+        "key": "B",
+        "text": "The electric resistance of the field"
+      },
+      {
+        "key": "C",
+        "text": "The mass of the particle at rest"
+      },
+      {
+        "key": "D",
+        "text": "The number of magnetic poles in a conductor"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What does the cyclotron frequency describe?",
+    "topicId": "ms7b9tesqvr09jr0sjntsnvtwx85qvbz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "motion-of-charged-particle-in-magnetic-field",
+    "topicTitle": "12.5 Motion of a Charged Particle in a Uniform Magnetic Field",
+    "_id": "k97br91avftybv3tz6ce3m16hx85qbx4",
+    "correctKey": "C",
+    "explanation": "From $qvB = \\frac{mv^2}{r}$, solving gives $r = \\frac{mv}{qB}$. Since $r \\propto v$, doubling the speed doubles the radius. Charge, mass, and field strength are unchanged.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c80q3qqnr7kb2sqqxwqtktx85qfn2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain the same"
+      },
+      {
+        "key": "B",
+        "text": "Be halved"
+      },
+      {
+        "key": "C",
+        "text": "Double"
+      },
+      {
+        "key": "D",
+        "text": "Quadruple"
+      }
+    ],
+    "sectionId": "how-a-charged-particle-moves-in-a-uniform-magnetic-field",
+    "sectionLabel": "How a Charged Particle Moves in a Uniform Magnetic Field",
+    "stem": "If the speed of a charged particle moving perpendicularly in a uniform magnetic field is doubled, the radius of its circular orbit will:",
+    "topicId": "ms7b9tesqvr09jr0sjntsnvtwx85qvbz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "motion-of-charged-particle-in-magnetic-field",
+    "topicTitle": "12.5 Motion of a Charged Particle in a Uniform Magnetic Field",
+    "_id": "k977sfabkw26y76c7npcx3w4fx85p6hy",
+    "correctKey": "C",
+    "explanation": "The period T = 2*pi*m/(qB) contains only mass m, charge q, and field B. Speed v does not appear, so the period is independent of speed. This is the key principle behind the cyclotron accelerator.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c80q3qqnr7kb2sqqxwqtktx85qfn2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Magnetic flux density ($B$)"
+      },
+      {
+        "key": "B",
+        "text": "Charge-to-mass ratio ($q/m$)"
+      },
+      {
+        "key": "C",
+        "text": "Speed of the particle ($v$)"
+      },
+      {
+        "key": "D",
+        "text": "Mass of the particle ($m$)"
+      }
+    ],
+    "sectionId": "how-a-charged-particle-moves-in-a-uniform-magnetic-field",
+    "sectionLabel": "How a Charged Particle Moves in a Uniform Magnetic Field",
+    "stem": "Which of the following does NOT affect the period of revolution of a charged particle moving in a uniform magnetic field?",
+    "topicId": "ms7b9tesqvr09jr0sjntsnvtwx85qvbz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "motion-of-charged-particle-in-magnetic-field",
+    "topicTitle": "12.5 Motion of a Charged Particle in a Uniform Magnetic Field",
+    "_id": "k971035ybmwmtaztxwtq4tdqdd85q5g2",
+    "correctKey": "B",
+    "explanation": "The magnetic force is $F = qvB\\sin\\theta$. When the particle moves parallel to the field, $\\theta = 0^\\circ$, so $\\sin(0^\\circ) = 0$ and $F = 0$. No force acts and the particle continues in a straight line.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c80q3qqnr7kb2sqqxwqtktx85qfn2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximum ($qvB$)"
+      },
+      {
+        "key": "B",
+        "text": "Zero"
+      },
+      {
+        "key": "C",
+        "text": "Half of maximum ($\\frac{qvB}{2}$)"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "how-a-charged-particle-moves-in-a-uniform-magnetic-field",
+    "sectionLabel": "How a Charged Particle Moves in a Uniform Magnetic Field",
+    "stem": "A proton enters a uniform magnetic field moving parallel to the field lines. What is the magnitude of the magnetic force acting on it?",
+    "topicId": "ms7b9tesqvr09jr0sjntsnvtwx85qvbz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "motion-of-charged-particle-in-magnetic-field",
+    "topicTitle": "12.5 Motion of a Charged Particle in a Uniform Magnetic Field",
+    "_id": "k972zssbqdh37a7asctwam8fax85pch1",
+    "correctKey": "C",
+    "explanation": "The magnetic force $\\vec{F} = q(\\vec{v} \\times \\vec{B})$ is always perpendicular to velocity $\\vec{v}$. Since $W = \\vec{F} \\cdot \\vec{d} = Fd\\cos(90^\\circ) = 0$, no work is done. The particle's speed and kinetic energy remain constant; only direction changes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7c80q3qqnr7kb2sqqxwqtktx85qfn2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Positive"
+      },
+      {
+        "key": "B",
+        "text": "Negative"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Dependent on the sign of the charge"
+      }
+    ],
+    "sectionId": "summary-how-radius-and-period-depend-on-speed",
+    "sectionLabel": "Summary: How Radius and Period Depend on Speed",
+    "stem": "The work done by a magnetic force on a moving charged particle is always:",
+    "topicId": "ms7b9tesqvr09jr0sjntsnvtwx85qvbz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "velocity-selector-method",
+    "topicTitle": "12.6 Velocity Selector Method",
+    "_id": "k97fb0qhf4nrc6x40d5gsqx08h8ccv2n",
+    "correctKey": "A",
+    "explanation": "Only particles at the selected speed have balanced electric and magnetic forces; slower particles are deflected.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76jf95vzfcq75vdm6fc1gm2585qq60",
+    "options": [
+      {
+        "key": "A",
+        "text": "They are deflected and do not pass straight through."
+      },
+      {
+        "key": "B",
+        "text": "They always pass undeflected."
+      },
+      {
+        "key": "C",
+        "text": "They stop because their charge disappears."
+      },
+      {
+        "key": "D",
+        "text": "They become electrically neutral immediately."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What happens to particles moving slower than the selected speed in a velocity selector?",
+    "topicId": "ms75phwzdczqbzjw42c3168s4d85p5g4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "velocity-selector-method",
+    "topicTitle": "12.6 Velocity Selector Method",
+    "_id": "k975whmdhmmx6r2pck3y19t18d85pebt",
+    "correctKey": "B",
+    "explanation": "For undeflected motion, the electric and magnetic forces balance: $qE = qvB$, so $v = E/B = 10^4 / 0.2 = 5 \\times 10^4\\,\\text{m/s}$. Option A results from multiplying instead of dividing; options C and D arise from arithmetic errors.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76jf95vzfcq75vdm6fc1gm2585qq60",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2 \\times 10^3\\,\\text{m/s}$"
+      },
+      {
+        "key": "B",
+        "text": "$5 \\times 10^4\\,\\text{m/s}$"
+      },
+      {
+        "key": "C",
+        "text": "$2 \\times 10^5\\,\\text{m/s}$"
+      },
+      {
+        "key": "D",
+        "text": "$5 \\times 10^5\\,\\text{m/s}$"
+      }
+    ],
+    "sectionId": "condition-for-no-deflection",
+    "sectionLabel": "Condition for No Deflection",
+    "stem": "In a velocity selector, if the electric field intensity is $10^4\\,\\text{V/m}$ and the magnetic field is $0.2\\,\\text{T}$, what is the velocity of the undeflected particles?",
+    "topicId": "ms75phwzdczqbzjw42c3168s4d85p5g4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "velocity-selector-method",
+    "topicTitle": "12.6 Velocity Selector Method",
+    "_id": "k97ex7hcqyzpfadzdp98zq8a3h85pabs",
+    "correctKey": "C",
+    "explanation": "'Crossed fields' means $\\vec{E} \\perp \\vec{B}$. This perpendicular arrangement ensures the electric and magnetic forces act along the same line but in opposite directions, enabling force balance at a specific velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76jf95vzfcq75vdm6fc1gm2585qq60",
+    "options": [
+      {
+        "key": "A",
+        "text": "The particles cross the fields at an angle of $45^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "The electric and magnetic fields are parallel to each other"
+      },
+      {
+        "key": "C",
+        "text": "The electric and magnetic fields are perpendicular to each other"
+      },
+      {
+        "key": "D",
+        "text": "The magnetic field completely cancels the electric field"
+      }
+    ],
+    "sectionId": "configuration-of-electric-and-magnetic-fields",
+    "sectionLabel": "Configuration of Electric and Magnetic Fields",
+    "stem": "The term 'crossed fields' in a velocity selector refers to the fact that:",
+    "topicId": "ms75phwzdczqbzjw42c3168s4d85p5g4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "velocity-selector-method",
+    "topicTitle": "12.6 Velocity Selector Method",
+    "_id": "k97bhmjbn5whftvrvt1we7crjx85py3e",
+    "correctKey": "C",
+    "explanation": "From the equilibrium condition $qE = qvB$, we get $v = E/B$. Therefore $E/B$ has the dimensions of velocity $[LT^{-1}]$. This can also be verified: $[E] = \\text{V m}^{-1} = \\text{kg m s}^{-3} \\text{A}^{-1}$ and $[B] = \\text{kg s}^{-2} \\text{A}^{-1}$, so $[E/B] = \\text{m s}^{-1}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76jf95vzfcq75vdm6fc1gm2585qq60",
+    "options": [
+      {
+        "key": "A",
+        "text": "Acceleration"
+      },
+      {
+        "key": "B",
+        "text": "Force"
+      },
+      {
+        "key": "C",
+        "text": "Velocity"
+      },
+      {
+        "key": "D",
+        "text": "Magnetic Flux"
+      }
+    ],
+    "sectionId": "key-equations-summary",
+    "sectionLabel": "Key Equations Summary",
+    "stem": "In a velocity selector, the ratio $E/B$ has the same dimensions as:",
+    "topicId": "ms75phwzdczqbzjw42c3168s4d85p5g4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "velocity-selector-method",
+    "topicTitle": "12.6 Velocity Selector Method",
+    "_id": "k978s6kppj87t5tyqprgrv1xp985pepv",
+    "correctKey": "A",
+    "explanation": "When $v < E/B$, the magnetic force $qvB$ is less than the electric force $qE$. The net force is therefore upward (in the direction of the electric force), so the particle deflects upward. A magnetic force cannot stop a particle since it always acts perpendicular to velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76jf95vzfcq75vdm6fc1gm2585qq60",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deflect upward"
+      },
+      {
+        "key": "B",
+        "text": "Deflect downward"
+      },
+      {
+        "key": "C",
+        "text": "Continue in a straight line"
+      },
+      {
+        "key": "D",
+        "text": "Come to a stop"
+      }
+    ],
+    "sectionId": "the-lorentz-force",
+    "sectionLabel": "The Lorentz Force",
+    "stem": "In a velocity selector, the electric force on a particle acts upward and the magnetic force acts downward. If the particle's speed is less than $E/B$, the particle will:",
+    "topicId": "ms75phwzdczqbzjw42c3168s4d85p5g4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-patterns",
+    "topicTitle": "12.7 Magnetic Field Patterns",
+    "_id": "k97ap6wgdp05z7q088npte8yn985q3ha",
+    "correctKey": "B",
+    "explanation": "According to the Right-Hand Grip Rule, if the thumb points up (current), the fingers curl counter-clockwise when viewed from above.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx798eq08jk574ct2hqvmqnww185qsc9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Clockwise"
+      },
+      {
+        "key": "B",
+        "text": "Counter-clockwise"
+      },
+      {
+        "key": "C",
+        "text": "Radially outward"
+      },
+      {
+        "key": "D",
+        "text": "Radially inward"
+      }
+    ],
+    "sectionId": "1-magnetic-field-due-to-a-long-straight-conductor",
+    "sectionLabel": "1. Magnetic Field Due to a Long, Straight Conductor",
+    "stem": "If a vertical wire carries a conventional current upwards, what is the direction of the magnetic field as viewed from above?",
+    "topicId": "ms7ete7q4x6pmg8kkq4f2wktax85q1qp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-patterns",
+    "topicTitle": "12.7 Magnetic Field Patterns",
+    "_id": "k971x54b10x16j37aczfqb6hxx8bc9vq",
+    "correctKey": "A",
+    "explanation": "B = mu0*I/(2*pi*r) = (4*pi*10^-7 * 5)/(2*pi*0.1) = (2*10^-7*5)/0.1 = 1.0 x 10^-5 T.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx798eq08jk574ct2hqvmqnww185qsc9",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.0 x 10^-5 T"
+      },
+      {
+        "key": "B",
+        "text": "5.0 x 10^-5 T"
+      },
+      {
+        "key": "C",
+        "text": "2.0 x 10^-6 T"
+      },
+      {
+        "key": "D",
+        "text": "1.0 x 10^-4 T"
+      }
+    ],
+    "sectionId": "1-magnetic-field-due-to-a-long-straight-conductor",
+    "sectionLabel": "1. Magnetic Field Due to a Long, Straight Conductor",
+    "stem": "A long straight wire carries a current of 5 A. What is the magnetic field strength at a perpendicular distance of 0.1 m from the wire? (mu0 = 4*pi*10^-7 T.m/A)",
+    "topicId": "ms7ete7q4x6pmg8kkq4f2wktax85q1qp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-patterns",
+    "topicTitle": "12.7 Magnetic Field Patterns",
+    "_id": "k976n9fjv5xgjs373mve1eean585p6ws",
+    "correctKey": "C",
+    "explanation": "The formula $B = \\mu_0 n I$ shows that $B$ depends on $\\mu_0$, $n$ (turns per unit length), and $I$ (current). The cross-sectional area does not appear in this formula and has no effect on the magnitude of $B$ inside an ideal solenoid.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx798eq08jk574ct2hqvmqnww185qsc9",
+    "options": [
+      {
+        "key": "A",
+        "text": "The magnitude of the current $I$"
+      },
+      {
+        "key": "B",
+        "text": "The number of turns per unit length $n$"
+      },
+      {
+        "key": "C",
+        "text": "The cross-sectional area of the solenoid"
+      },
+      {
+        "key": "D",
+        "text": "The permeability of free space $\\mu_0$"
+      }
+    ],
+    "sectionId": "2-magnetic-field-due-to-a-flat-circular-coil",
+    "sectionLabel": "2. Magnetic Field Due to a Flat Circular Coil",
+    "stem": "Which factor does NOT affect the magnitude of the magnetic field $B$ produced inside a solenoid?",
+    "topicId": "ms7ete7q4x6pmg8kkq4f2wktax85q1qp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-patterns",
+    "topicTitle": "12.7 Magnetic Field Patterns",
+    "_id": "k97bdkp6w1xs5yfpw24zd6ftkd85phj6",
+    "correctKey": "B",
+    "explanation": "For an ideal long solenoid, field lines inside are straight, parallel, and equally spaced along the axis, indicating a uniform field $B = \\mu_0 n I$. The field is approximately zero outside and half-strength at the ends.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx798eq08jk574ct2hqvmqnww185qsc9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero everywhere inside"
+      },
+      {
+        "key": "B",
+        "text": "Uniform and parallel to the axis"
+      },
+      {
+        "key": "C",
+        "text": "Non-uniform and circular around the axis"
+      },
+      {
+        "key": "D",
+        "text": "Strongest at the ends and zero at the center"
+      }
+    ],
+    "sectionId": "3-magnetic-field-due-to-a-solenoid",
+    "sectionLabel": "3. Magnetic Field Due to a Solenoid",
+    "stem": "Inside a very long solenoid carrying current $I$, the magnetic field $B$ is:",
+    "topicId": "ms7ete7q4x6pmg8kkq4f2wktax85q1qp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-patterns",
+    "topicTitle": "12.7 Magnetic Field Patterns",
+    "_id": "k97dsqf0887rz7jr25pkf0dwsn8ccb3v",
+    "correctKey": "A",
+    "explanation": "For a circular current-carrying coil, the field is strongest and most concentrated at its center.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx798eq08jk574ct2hqvmqnww185qsc9",
+    "options": [
+      {
+        "key": "A",
+        "text": "At the center of the coil"
+      },
+      {
+        "key": "B",
+        "text": "Only far outside the coil"
+      },
+      {
+        "key": "C",
+        "text": "At a point unrelated to the coil"
+      },
+      {
+        "key": "D",
+        "text": "It is always zero at the center"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "Where is the magnetic field of a current-carrying circular coil strongest and most concentrated?",
+    "topicId": "ms7ete7q4x6pmg8kkq4f2wktax85q1qp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-patterns",
+    "topicTitle": "12.7 Magnetic Field Patterns",
+    "_id": "k973jbewgvp5hzcv0px23de3a58bcert",
+    "correctKey": "B",
+    "explanation": "A flat circular coil's field at its center is B = mu0*N*I/(2r): directly proportional to the number of turns N and inversely proportional to the radius r. The straight wire's field has no N, and the solenoid's field B = mu0*n*I depends on turns per unit length n, not simply N and r.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx798eq08jk574ct2hqvmqnww185qsc9",
+    "options": [
+      {
+        "key": "A",
+        "text": "A long, straight wire"
+      },
+      {
+        "key": "B",
+        "text": "A flat circular coil"
+      },
+      {
+        "key": "C",
+        "text": "A solenoid (interior field)"
+      },
+      {
+        "key": "D",
+        "text": "None of the above depend on N"
+      }
+    ],
+    "sectionId": "summary-table",
+    "sectionLabel": "Summary Table",
+    "stem": "Which current-carrying conductor geometry produces a magnetic field whose strength is directly proportional to the number of turns N and inversely proportional to the radius r, evaluated at its center?",
+    "topicId": "ms7ete7q4x6pmg8kkq4f2wktax85q1qp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-due-to-current-in-solenoid",
+    "topicTitle": "12.8 Magnetic Field in a Solenoid",
+    "_id": "k97c43h7frw9yvce30vnh7rj698cdkz1",
+    "correctKey": "A",
+    "explanation": "A ferrous core becomes magnetized by the solenoid's field, adding its own magnetic field and strengthening the total field.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dxs63tr8v8vqhnd68dfzdsd85p2y8",
+    "options": [
+      {
+        "key": "A",
+        "text": "The core becomes magnetized and reinforces the solenoid's field."
+      },
+      {
+        "key": "B",
+        "text": "The core stops all current from flowing."
+      },
+      {
+        "key": "C",
+        "text": "The core removes the solenoid's magnetic field."
+      },
+      {
+        "key": "D",
+        "text": "The core makes the coil have no north pole."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "Why does inserting a ferrous core inside a solenoid increase its magnetic field strength?",
+    "topicId": "ms70yfqbbjafxvgr9p8vcwpca585qvqb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-due-to-current-in-solenoid",
+    "topicTitle": "12.8 Magnetic Field in a Solenoid",
+    "_id": "k979yatctq9jgppwn5cvs96w2s85p0tc",
+    "correctKey": "B",
+    "explanation": "The Right-Hand Grip Rule for solenoids states: curl the fingers in the direction of current flow around the coils; the thumb points toward the North pole. This determines the solenoid's magnetic polarity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dxs63tr8v8vqhnd68dfzdsd85p2y8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fleming's Left-Hand Rule"
+      },
+      {
+        "key": "B",
+        "text": "Right-Hand Grip Rule"
+      },
+      {
+        "key": "C",
+        "text": "Lenz's Law"
+      },
+      {
+        "key": "D",
+        "text": "Fleming's Right-Hand Rule"
+      }
+    ],
+    "sectionId": "direction-of-the-magnetic-field-right-hand-grip-rule",
+    "sectionLabel": "Direction of the Magnetic Field: Right-Hand Grip Rule",
+    "stem": "Which rule is used to determine the polarity (North/South pole) of a current-carrying solenoid?",
+    "topicId": "ms70yfqbbjafxvgr9p8vcwpca585qvqb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-due-to-current-in-solenoid",
+    "topicTitle": "12.8 Magnetic Field in a Solenoid",
+    "_id": "k97bdkp6w1xs5yfpw24zd6ftkd85phj6",
+    "correctKey": "B",
+    "explanation": "For an ideal long solenoid, field lines inside are straight, parallel, and equally spaced along the axis, indicating a uniform field $B = \\mu_0 n I$. The field is approximately zero outside and half-strength at the ends.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dxs63tr8v8vqhnd68dfzdsd85p2y8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero everywhere inside"
+      },
+      {
+        "key": "B",
+        "text": "Uniform and parallel to the axis"
+      },
+      {
+        "key": "C",
+        "text": "Non-uniform and circular around the axis"
+      },
+      {
+        "key": "D",
+        "text": "Strongest at the ends and zero at the center"
+      }
+    ],
+    "sectionId": "magnetic-field-of-an-air-core-solenoid",
+    "sectionLabel": "Magnetic Field of an Air-Core Solenoid",
+    "stem": "Inside a very long solenoid carrying current $I$, the magnetic field $B$ is:",
+    "topicId": "ms70yfqbbjafxvgr9p8vcwpca585qvqb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-due-to-current-in-solenoid",
+    "topicTitle": "12.8 Magnetic Field in a Solenoid",
+    "_id": "k976aw71ef31benttap3bjdnn985qsj0",
+    "correctKey": "C",
+    "explanation": "From $B = \\mu_0 n I$, the field is directly proportional to $n$ (turns per unit length). Doubling $n$ while keeping $I$ constant doubles $B$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dxs63tr8v8vqhnd68dfzdsd85p2y8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Halved"
+      },
+      {
+        "key": "B",
+        "text": "Unchanged"
+      },
+      {
+        "key": "C",
+        "text": "Doubled"
+      },
+      {
+        "key": "D",
+        "text": "Quadrupled"
+      }
+    ],
+    "sectionId": "magnetic-field-of-an-air-core-solenoid",
+    "sectionLabel": "Magnetic Field of an Air-Core Solenoid",
+    "stem": "If the number of turns per unit length of a solenoid is doubled while the current remains constant, the magnetic field strength inside becomes:",
+    "topicId": "ms70yfqbbjafxvgr9p8vcwpca585qvqb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-due-to-current-in-solenoid",
+    "topicTitle": "12.8 Magnetic Field in a Solenoid",
+    "_id": "k97etw0jw521hdcpfv3dfydrj185qsh7",
+    "correctKey": "C",
+    "explanation": "At the ends of a solenoid, only half the turns contribute to the field at any end point compared to an interior point, so the field is approximately $\\frac{1}{2}\\mu_0 n I$, which is half the central value.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dxs63tr8v8vqhnd68dfzdsd85p2y8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Equal to the center field"
+      },
+      {
+        "key": "B",
+        "text": "Twice the center field"
+      },
+      {
+        "key": "C",
+        "text": "Half the center field"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "magnetic-field-of-an-air-core-solenoid",
+    "sectionLabel": "Magnetic Field of an Air-Core Solenoid",
+    "stem": "The magnetic field at the ends of a long solenoid compared to the field at its center is approximately:",
+    "topicId": "ms70yfqbbjafxvgr9p8vcwpca585qvqb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-field-due-to-current-in-solenoid",
+    "topicTitle": "12.8 Magnetic Field in a Solenoid",
+    "_id": "k975thg8p0rep6rvy6nxvw8kfs8bd5et",
+    "correctKey": "A",
+    "explanation": "Soft iron is magnetically soft: it magnetizes easily when current is on but quickly loses its magnetism when current is off, making it ideal for devices that must be switched on and off. Steel is magnetically hard and retains magnetism after current is removed, becoming an unwanted permanent magnet, and it also has lower relative permeability than soft iron.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dxs63tr8v8vqhnd68dfzdsd85p2y8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Soft iron quickly loses its magnetism when the current is switched off, unlike steel which retains it"
+      },
+      {
+        "key": "B",
+        "text": "Soft iron is cheaper than steel regardless of magnetic properties"
+      },
+      {
+        "key": "C",
+        "text": "Steel cannot be magnetized at all"
+      },
+      {
+        "key": "D",
+        "text": "Soft iron has a lower relative permeability than steel"
+      }
+    ],
+    "sectionId": "soft-iron-vs-steel-as-core-material",
+    "sectionLabel": "Soft Iron vs. Steel as Core Material",
+    "stem": "Why is soft iron, not steel, preferred as the core material in switchable electromagnets like cranes and relays?",
+    "topicId": "ms70yfqbbjafxvgr9p8vcwpca585qvqb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-between-current-carrying-conductors",
+    "topicTitle": "12.9 Magnetic Force Between Current-Carrying Conductors",
+    "_id": "k971md4b282vx4etfyye9nrsvd8cc0fe",
+    "correctKey": "A",
+    "explanation": "For equal same-direction currents, the magnetic fields cancel at a point midway between the wires.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx736z5c19ef98q2hzrgz8g49d85pmab",
+    "options": [
+      {
+        "key": "A",
+        "text": "Midway between the wires"
+      },
+      {
+        "key": "B",
+        "text": "At the surface of either wire"
+      },
+      {
+        "key": "C",
+        "text": "Outside both wires only"
+      },
+      {
+        "key": "D",
+        "text": "It does not exist for same-direction currents"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "Where is the neutral point located between two parallel wires carrying equal currents in the same direction?",
+    "topicId": "ms784e5kqq2qjtd7v654akrjw185p057"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-between-current-carrying-conductors",
+    "topicTitle": "12.9 Magnetic Force Between Current-Carrying Conductors",
+    "_id": "k97c7fhyp6nv4j0wbv95d42jtn85p0bf",
+    "correctKey": "B",
+    "explanation": "By the SI definition of the Ampere, two parallel wires each carrying 1 A and separated by 1 m in vacuum produce a force of exactly $2 \\times 10^{-7}\\,\\text{N/m}$ on each other.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx736z5c19ef98q2hzrgz8g49d85pmab",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1 \\times 10^{-7}\\,\\text{N/m}$"
+      },
+      {
+        "key": "B",
+        "text": "$2 \\times 10^{-7}\\,\\text{N/m}$"
+      },
+      {
+        "key": "C",
+        "text": "$4\\pi \\times 10^{-7}\\,\\text{N/m}$"
+      },
+      {
+        "key": "D",
+        "text": "$8.85 \\times 10^{-12}\\,\\text{N/m}$"
+      }
+    ],
+    "sectionId": "definition-of-the-ampere",
+    "sectionLabel": "Definition of the Ampere",
+    "stem": "By the definition of the Ampere, what is the force per metre between two parallel wires each carrying exactly 1 A, placed 1 m apart in vacuum?",
+    "topicId": "ms784e5kqq2qjtd7v654akrjw185p057"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-between-current-carrying-conductors",
+    "topicTitle": "12.9 Magnetic Force Between Current-Carrying Conductors",
+    "_id": "k975p1baseq9z9hmnct5cxdk6x85qrz2",
+    "correctKey": "B",
+    "explanation": "When currents flow in opposite directions, the magnetic fields between the wires reinforce each other, creating a stronger field region between them. The net force pushes the wires apart: a repulsive force.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx736z5c19ef98q2hzrgz8g49d85pmab",
+    "options": [
+      {
+        "key": "A",
+        "text": "Attract each other"
+      },
+      {
+        "key": "B",
+        "text": "Repel each other"
+      },
+      {
+        "key": "C",
+        "text": "Rotate around each other"
+      },
+      {
+        "key": "D",
+        "text": "Have no effect on each other"
+      }
+    ],
+    "sectionId": "direction-of-the-force",
+    "sectionLabel": "Direction of the Force",
+    "stem": "Two long parallel wires carrying currents in opposite directions will:",
+    "topicId": "ms784e5kqq2qjtd7v654akrjw185p057"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-between-current-carrying-conductors",
+    "topicTitle": "12.9 Magnetic Force Between Current-Carrying Conductors",
+    "_id": "k970dchr62hya3gcjhwhv6deyn85qezf",
+    "correctKey": "A",
+    "explanation": "Using $F/L = \\mu_0 I_1 I_2 / (2\\pi d) = (4\\pi \\times 10^{-7} \\times 10 \\times 20)/(2\\pi \\times 0.1) = 4 \\times 10^{-4}\\,\\text{N/m}$. Currents in the same direction → attractive force.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx736z5c19ef98q2hzrgz8g49d85pmab",
+    "options": [
+      {
+        "key": "A",
+        "text": "$4 \\times 10^{-4}\\,\\text{N/m}$ (attractive)"
+      },
+      {
+        "key": "B",
+        "text": "$4 \\times 10^{-4}\\,\\text{N/m}$ (repulsive)"
+      },
+      {
+        "key": "C",
+        "text": "$2 \\times 10^{-5}\\,\\text{N/m}$ (attractive)"
+      },
+      {
+        "key": "D",
+        "text": "$8 \\times 10^{-4}\\,\\text{N/m}$ (repulsive)"
+      }
+    ],
+    "sectionId": "mathematical-expression-for-the-force",
+    "sectionLabel": "Mathematical Expression for the Force",
+    "stem": "Two long parallel wires carry currents of 10 A and 20 A in the same direction, separated by 0.1 m. The force per unit length between them is:",
+    "topicId": "ms784e5kqq2qjtd7v654akrjw185p057"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-force-between-current-carrying-conductors",
+    "topicTitle": "12.9 Magnetic Force Between Current-Carrying Conductors",
+    "_id": "k97fxxj8af90y4f9kpxyk3cn0585pras",
+    "correctKey": "C",
+    "explanation": "The force per unit length $F/L = \\mu_0 I_1 I_2 / (2\\pi d)$ is inversely proportional to $d$. Doubling $d$ reduces the force to $1/2$ of its original value.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx736z5c19ef98q2hzrgz8g49d85pmab",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double"
+      },
+      {
+        "key": "B",
+        "text": "Four times"
+      },
+      {
+        "key": "C",
+        "text": "One-half"
+      },
+      {
+        "key": "D",
+        "text": "One-fourth"
+      }
+    ],
+    "sectionId": "mathematical-expression-for-the-force",
+    "sectionLabel": "Mathematical Expression for the Force",
+    "stem": "If the distance between two parallel current-carrying wires is doubled while currents remain constant, the magnetic force per unit length between them becomes:",
+    "topicId": "ms784e5kqq2qjtd7v654akrjw185p057"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux",
+    "topicTitle": "12.10 Magnetic Flux",
+    "_id": "k972zw5nfdhewvzg514jyfc6r98cc88d",
+    "correctKey": "A",
+    "explanation": "Magnetic flux is measured in webers, abbreviated Wb.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72z5hjjercjy8qq027mwz0jh85pj73",
+    "options": [
+      {
+        "key": "A",
+        "text": "Weber"
+      },
+      {
+        "key": "B",
+        "text": "Tesla"
+      },
+      {
+        "key": "C",
+        "text": "Ampere"
+      },
+      {
+        "key": "D",
+        "text": "Newton"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What is the SI unit of magnetic flux?",
+    "topicId": "ms75z1pqt020rpawczxsxbjbj985pyvc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux",
+    "topicTitle": "12.10 Magnetic Flux",
+    "_id": "k978faqdht3zdfcg76ht5hwjws85qhpd",
+    "correctKey": "B",
+    "explanation": "The formula $\\Phi = BA \\cos(\\theta)$ uses the angle $\\theta$ between $\\vec{B}$ and the normal to the surface. If the field makes $30^\\circ$ with the plane, it makes $90^\\circ - 30^\\circ = 60^\\circ$ with the normal. $\\cos(60^\\circ)$ is equivalent to $\\sin(30^\\circ)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72z5hjjercjy8qq027mwz0jh85pj73",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Phi = BA \\cos(30^\\circ)$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Phi = BA \\sin(30^\\circ)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Phi = BA \\cos(90^\\circ)$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Phi = BA$"
+      }
+    ],
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "stem": "If the angle between the magnetic field $\\vec{B}$ and the plane of the surface is $30^\\circ$, what is the magnetic flux through the surface?",
+    "topicId": "ms75z1pqt020rpawczxsxbjbj985pyvc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux",
+    "topicTitle": "12.10 Magnetic Flux",
+    "_id": "k972qqj5jp31st6kt6d1yfx62585pmvv",
+    "correctKey": "C",
+    "explanation": "When the surface is parallel to the field, the normal to the surface (vector area) is perpendicular to the field ($\\theta = 90^\\circ$). $\\Phi = BA \\cos(90^\\circ) = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72z5hjjercjy8qq027mwz0jh85pj73",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.0 Wb"
+      },
+      {
+        "key": "B",
+        "text": "0.5 Wb"
+      },
+      {
+        "key": "C",
+        "text": "0 Wb"
+      },
+      {
+        "key": "D",
+        "text": "4.0 Wb"
+      }
+    ],
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "stem": "A surface of area $0.5\\text{ m}^2$ is placed parallel to a magnetic field of $2.0\\text{ T}$. The magnetic flux through the surface is:",
+    "topicId": "ms75z1pqt020rpawczxsxbjbj985pyvc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux",
+    "topicTitle": "12.10 Magnetic Flux",
+    "_id": "k974150th2mj9xhcpjyxqjs4ys85pafk",
+    "correctKey": "B",
+    "explanation": "Magnetic flux density ($B$) is frequently referred to as 'magnetic induction' in physics textbooks. Permeability, magnetic moment, and susceptibility are distinct magnetic quantities with different definitions and units.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72z5hjjercjy8qq027mwz0jh85pj73",
+    "options": [
+      {
+        "key": "A",
+        "text": "Magnetic Permeability"
+      },
+      {
+        "key": "B",
+        "text": "Magnetic Induction"
+      },
+      {
+        "key": "C",
+        "text": "Magnetic Moment"
+      },
+      {
+        "key": "D",
+        "text": "Magnetic Susceptibility"
+      }
+    ],
+    "sectionId": "magnetic-flux-density",
+    "sectionLabel": "Magnetic Flux Density",
+    "stem": "Magnetic flux density is also known as:",
+    "topicId": "ms75z1pqt020rpawczxsxbjbj985pyvc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux",
+    "topicTitle": "12.10 Magnetic Flux",
+    "_id": "k97cdktv04arrk1btexhh5d1tn8bda4c",
+    "correctKey": "A",
+    "explanation": "$B=\\frac{\\Phi}{A}=\\frac{6\\,\\mathrm{Wb}}{2\\,\\mathrm{m^2}}=3\\,\\mathrm{T}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72z5hjjercjy8qq027mwz0jh85pj73",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 T"
+      },
+      {
+        "key": "B",
+        "text": "12 T"
+      },
+      {
+        "key": "C",
+        "text": "0.33 T"
+      },
+      {
+        "key": "D",
+        "text": "8 T"
+      }
+    ],
+    "sectionId": "magnetic-flux-density",
+    "sectionLabel": "Magnetic Flux Density",
+    "stem": "A surface of area $2\\,\\mathrm{m^2}$ has a magnetic flux of $6\\,\\mathrm{Wb}$ passing through it perpendicularly. What is the magnetic flux density?",
+    "topicId": "ms75z1pqt020rpawczxsxbjbj985pyvc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux",
+    "topicTitle": "12.10 Magnetic Flux",
+    "_id": "k97a6dqk3yxg76x735qdwb058h85pp60",
+    "correctKey": "A",
+    "explanation": "Since $1\\text{ Wb} = 1\\text{ V} \\cdot \\text{s}$ and $V = J/C = (\\text{kg} \\cdot \\text{m}^2 \\cdot \\text{s}^{-2}) / (A \\cdot s)$, multiplying by seconds gives $\\text{kg} \\cdot \\text{m}^2 \\cdot \\text{s}^{-2} \\cdot \\text{A}^{-1}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72z5hjjercjy8qq027mwz0jh85pj73",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\text{kg} \\cdot \\text{m}^2 \\cdot \\text{s}^{-2} \\cdot \\text{A}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\text{kg} \\cdot \\text{m} \\cdot \\text{s}^{-2} \\cdot \\text{A}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\text{kg} \\cdot \\text{m}^2 \\cdot \\text{s}^{-1} \\cdot \\text{A}^{-2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\text{kg} \\cdot \\text{s}^{-2} \\cdot \\text{A}^{-1}$"
+      }
+    ],
+    "sectionId": "units-of-magnetic-flux",
+    "sectionLabel": "Units of Magnetic Flux",
+    "stem": "The Weber (Wb) is equivalent to which of the following base unit combinations?",
+    "topicId": "ms75z1pqt020rpawczxsxbjbj985pyvc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-linkage",
+    "topicTitle": "12.11 Magnetic Flux Linkage",
+    "_id": "k9757ea3qjd3wf3mbbs5mp34bs8ccmez",
+    "correctKey": "A",
+    "explanation": "Magnetic flux linkage is measured in weber turns (Wb turns).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77hrp5yc4sxcs4e42gbe33fx85pf8m",
+    "options": [
+      {
+        "key": "A",
+        "text": "Weber turn"
+      },
+      {
+        "key": "B",
+        "text": "Tesla per metre"
+      },
+      {
+        "key": "C",
+        "text": "Ampere per second"
+      },
+      {
+        "key": "D",
+        "text": "Newton per coulomb"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What unit is used for magnetic flux linkage?",
+    "topicId": "ms7234gv53f5smjhkgmxkk59gd85q24w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-linkage",
+    "topicTitle": "12.11 Magnetic Flux Linkage",
+    "_id": "k9700pxc41ev8fa6x5a13r3nws85qnsa",
+    "correctKey": "B",
+    "explanation": "Using $\\Phi_N = NBA\\cos\\theta$: $\\Phi_N = 500 \\times 0.4 \\times 2\\times10^{-3} \\times \\cos60^\\circ = 500 \\times 0.4 \\times 2\\times10^{-3} \\times 0.5 = 0.20\\,\\text{Wb turns}$. The $\\cos\\theta$ factor reduces the flux when the field is not along the normal.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77hrp5yc4sxcs4e42gbe33fx85pf8m",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0.40\\,\\text{Wb turns}$"
+      },
+      {
+        "key": "B",
+        "text": "$0.20\\,\\text{Wb turns}$"
+      },
+      {
+        "key": "C",
+        "text": "$0.35\\,\\text{Wb turns}$"
+      },
+      {
+        "key": "D",
+        "text": "$0.69\\,\\text{Wb turns}$"
+      }
+    ],
+    "sectionId": "example-calculations",
+    "sectionLabel": "Example Calculations",
+    "stem": "A coil has 500 turns, each with a cross-sectional area of $2 \\times 10^{-3}\\,\\text{m}^2$. It is placed in a uniform magnetic field of $0.4\\,\\text{T}$ at $60^\\circ$ to the normal of the coil. What is the magnetic flux linkage?",
+    "topicId": "ms7234gv53f5smjhkgmxkk59gd85q24w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-linkage",
+    "topicTitle": "12.11 Magnetic Flux Linkage",
+    "_id": "k97fmh7wgze0sspzbf1d45grnd85qje4",
+    "correctKey": "B",
+    "explanation": "Flux linkage $\\Phi_N = N\\Phi = 200 \\times (5 \\times 10^{-3}\\text{ Wb}) = 1.0$ Wb turns. The flux linkage multiplies the single-turn flux by the total number of turns.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77hrp5yc4sxcs4e42gbe33fx85pf8m",
+    "options": [
+      {
+        "key": "A",
+        "text": "$5 \\times 10^{-3}$ Wb turns"
+      },
+      {
+        "key": "B",
+        "text": "$1.0$ Wb turns"
+      },
+      {
+        "key": "C",
+        "text": "$0.025$ Wb turns"
+      },
+      {
+        "key": "D",
+        "text": "$40$ Wb turns"
+      }
+    ],
+    "sectionId": "example-calculations",
+    "sectionLabel": "Example Calculations",
+    "stem": "If the magnetic flux through a single loop is $5 \\times 10^{-3}$ Wb, what is the flux linkage for a solenoid of 200 turns?",
+    "topicId": "ms7234gv53f5smjhkgmxkk59gd85q24w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-linkage",
+    "topicTitle": "12.11 Magnetic Flux Linkage",
+    "_id": "k978g6ea5j1d0nkg1xw67vkgyd85pzf1",
+    "correctKey": "B",
+    "explanation": "Flux linkage is $N\\Phi = N \\times BA\\cos\\theta$. When the field is parallel to the area normal, $\\theta = 0^\\circ$ and $\\cos(0^\\circ) = 1$, giving $\\Phi_N = NBA$. Option A omits the $N$ turns factor.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77hrp5yc4sxcs4e42gbe33fx85pf8m",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Phi_N = BA$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Phi_N = NBA$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Phi_N = \\frac{BA}{N}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Phi_N = NBA\\sin\\theta$"
+      }
+    ],
+    "sectionId": "magnetic-flux-linkage-formula",
+    "sectionLabel": "Magnetic Flux Linkage Formula",
+    "stem": "A coil of $N$ turns is placed in a uniform magnetic field $B$. If the area of the coil is $A$, what is the magnetic flux linkage when the field is parallel to the normal of the coil?",
+    "topicId": "ms7234gv53f5smjhkgmxkk59gd85q24w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "magnetic-flux-linkage",
+    "topicTitle": "12.11 Magnetic Flux Linkage",
+    "_id": "k9765j4rdg4177sca6z3sgvptx85p0q2",
+    "correctKey": "A",
+    "explanation": "Magnetic flux $\\Phi = BA$ has dimensions $[MT^{-2}A^{-1}][L^2] = [ML^2T^{-2}A^{-1}]$. Since the number of turns $N$ is dimensionless, flux linkage $N\\Phi$ has the same dimensions: $[ML^2T^{-2}A^{-1}]$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77hrp5yc4sxcs4e42gbe33fx85pf8m",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[ML^2T^{-2}A^{-1}]$"
+      },
+      {
+        "key": "B",
+        "text": "$[MLT^{-2}A^{-1}]$"
+      },
+      {
+        "key": "C",
+        "text": "$[ML^2T^{-1}A^{-1}]$"
+      },
+      {
+        "key": "D",
+        "text": "$[ML^2T^{-2}A^{-2}]$"
+      }
+    ],
+    "sectionId": "units-of-magnetic-flux-linkage",
+    "sectionLabel": "Units of Magnetic Flux Linkage",
+    "stem": "Which of the following represents the correct dimensions for magnetic flux linkage?",
+    "topicId": "ms7234gv53f5smjhkgmxkk59gd85q24w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "faraday-s-law",
+    "topicTitle": "12.12 Faraday's Law",
+    "_id": "k974ytcvd1mkv3q21amv3txjts8cd9j0",
+    "correctKey": "A",
+    "explanation": "With no relative motion, the magnetic flux does not change, so no emf or induced current is produced.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76t1wshvsbzb0eqxj5959d6d85p2p9",
+    "options": [
+      {
+        "key": "A",
+        "text": "No induced current"
+      },
+      {
+        "key": "B",
+        "text": "A continuously increasing current"
+      },
+      {
+        "key": "C",
+        "text": "Maximum current in a fixed direction"
+      },
+      {
+        "key": "D",
+        "text": "A current caused by zero flux change"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What does a galvanometer show when a magnet is stationary relative to a nearby coil?",
+    "topicId": "ms75ezx6cbcmzdqse4c8yxnp5x85qhvf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "faraday-s-law",
+    "topicTitle": "12.12 Faraday's Law",
+    "_id": "k97fkhzacq59ghsnpj5ss45q5s85qm0h",
+    "correctKey": "C",
+    "explanation": "Using $|\\varepsilon| = N(\\Delta\\Phi/\\Delta t) = 100 \\times (0.5/0.1) = 100 \\times 5 = 500\\,\\text{V}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76t1wshvsbzb0eqxj5959d6d85p2p9",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 V"
+      },
+      {
+        "key": "B",
+        "text": "50 V"
+      },
+      {
+        "key": "C",
+        "text": "500 V"
+      },
+      {
+        "key": "D",
+        "text": "0.05 V"
+      }
+    ],
+    "sectionId": "factors-affecting-induced-emf",
+    "sectionLabel": "Factors Affecting Induced EMF",
+    "stem": "A coil of 100 turns experiences a flux change of $0.5\\,\\text{Wb}$ in $0.1\\,\\text{s}$. The magnitude of the induced EMF is:",
+    "topicId": "ms75ezx6cbcmzdqse4c8yxnp5x85qhvf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "faraday-s-law",
+    "topicTitle": "12.12 Faraday's Law",
+    "_id": "k9769kqyjcmheeg8b76d9z4qw985phk1",
+    "correctKey": "A",
+    "explanation": "Moving the magnet faster decreases $\\Delta t$, increasing the rate of change of flux $\\Delta\\Phi/\\Delta t$. By Faraday's Law $\\varepsilon = -N\\Delta\\Phi/\\Delta t$, a larger rate of flux change produces a larger induced EMF and hence a larger current.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76t1wshvsbzb0eqxj5959d6d85p2p9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase"
+      },
+      {
+        "key": "B",
+        "text": "Decrease"
+      },
+      {
+        "key": "C",
+        "text": "Remain the same"
+      },
+      {
+        "key": "D",
+        "text": "Become zero"
+      }
+    ],
+    "sectionId": "faradays-key-experiments",
+    "sectionLabel": "Faraday's Key Experiments",
+    "stem": "If a magnet is pushed into a coil faster, the induced current will:",
+    "topicId": "ms75ezx6cbcmzdqse4c8yxnp5x85qhvf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "faraday-s-law",
+    "topicTitle": "12.12 Faraday's Law",
+    "_id": "k974qn7pb6sm4gqk32j8r6kkes85pxmz",
+    "correctKey": "C",
+    "explanation": "From Faraday's Law, $\\varepsilon = -\\Delta\\Phi/\\Delta t$, so the rate of change of flux has the same unit as EMF, which is the Volt (V). Equivalently, 1 V = 1 Wb/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76t1wshvsbzb0eqxj5959d6d85p2p9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tesla (T)"
+      },
+      {
+        "key": "B",
+        "text": "Weber (Wb)"
+      },
+      {
+        "key": "C",
+        "text": "Volt (V)"
+      },
+      {
+        "key": "D",
+        "text": "Ampere (A)"
+      }
+    ],
+    "sectionId": "what-is-faradays-law",
+    "sectionLabel": "What Is Faraday's Law?",
+    "stem": "What are the SI units of the rate of change of magnetic flux ($\\Delta\\Phi/\\Delta t$)?",
+    "topicId": "ms75ezx6cbcmzdqse4c8yxnp5x85qhvf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "faraday-s-law",
+    "topicTitle": "12.12 Faraday's Law",
+    "_id": "k970qefq3fefx85naerhdpdwbh85q8vg",
+    "correctKey": "B",
+    "explanation": "Faraday's Law states $\\varepsilon = -N\\Delta\\Phi/\\Delta t$. The induced EMF is proportional to the *rate* of change of flux, not the flux itself. A steady flux, however large, induces no EMF.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76t1wshvsbzb0eqxj5959d6d85p2p9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Amount of magnetic flux linked with it"
+      },
+      {
+        "key": "B",
+        "text": "Rate of change of magnetic flux"
+      },
+      {
+        "key": "C",
+        "text": "Resistance of the conductor"
+      },
+      {
+        "key": "D",
+        "text": "Permeability of the medium"
+      }
+    ],
+    "sectionId": "what-is-faradays-law",
+    "sectionLabel": "What Is Faraday's Law?",
+    "stem": "According to Faraday's Law, the induced EMF in a conductor depends on the:",
+    "topicId": "ms75ezx6cbcmzdqse4c8yxnp5x85qhvf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "lenz-law",
+    "topicTitle": "12.13 Lenz's Law",
+    "_id": "k97e5mspt2w50ce28zhjj4jvc58cdnc1",
+    "correctKey": "A",
+    "explanation": "The increasing flux caused by the approaching north pole is opposed by the induced magnetic effect, so the coil resists the approach.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75qan5afyq8r7d0hrrcbzdsh85pdm5",
+    "options": [
+      {
+        "key": "A",
+        "text": "It creates a magnetic effect that opposes the approach."
+      },
+      {
+        "key": "B",
+        "text": "It assists the magnet and attracts it more strongly."
+      },
+      {
+        "key": "C",
+        "text": "It flows only if the magnet remains stationary."
+      },
+      {
+        "key": "D",
+        "text": "It eliminates the coil's magnetic field permanently."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "When the north pole of a magnet approaches a coil, what does the induced current do according to Lenz's Law?",
+    "topicId": "ms77a8e97qdzfg0e72ypqz1ngx85qwyc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "lenz-law",
+    "topicTitle": "12.13 Lenz's Law",
+    "_id": "k975525a2nffcyr5jv5xh6v2t185p1nk",
+    "correctKey": "C",
+    "explanation": "As the magnet falls, it induces eddy currents in the copper tube. By Lenz's Law, these currents create a magnetic field opposing the magnet's motion, producing an upward retarding force. The net downward force is less than gravity, so acceleration $a < g$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75qan5afyq8r7d0hrrcbzdsh85pdm5",
+    "options": [
+      {
+        "key": "A",
+        "text": "Equal to $g$"
+      },
+      {
+        "key": "B",
+        "text": "Greater than $g$"
+      },
+      {
+        "key": "C",
+        "text": "Less than $g$"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "explanation-with-an-example",
+    "sectionLabel": "Explanation with an Example",
+    "stem": "A bar magnet is dropped through a long vertical copper tube. Compared to free fall, the acceleration of the magnet will be:",
+    "topicId": "ms77a8e97qdzfg0e72ypqz1ngx85qwyc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "lenz-law",
+    "topicTitle": "12.13 Lenz's Law",
+    "_id": "k973yzazngrnz0m7xh99sppqrd85pgcf",
+    "correctKey": "B",
+    "explanation": "By Lenz's Law, the induced current opposes the decrease in flux caused by the receding North pole. The solenoid develops a South pole on its nearest face to attract the magnet and resist the decrease in flux.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75qan5afyq8r7d0hrrcbzdsh85pdm5",
+    "options": [
+      {
+        "key": "A",
+        "text": "A North pole"
+      },
+      {
+        "key": "B",
+        "text": "A South pole"
+      },
+      {
+        "key": "C",
+        "text": "An unmagnetized material"
+      },
+      {
+        "key": "D",
+        "text": "A positive charge"
+      }
+    ],
+    "sectionId": "flemings-right-hand-rule",
+    "sectionLabel": "Fleming's Right-Hand Rule",
+    "stem": "When the North pole of a magnet is moved away from a solenoid, the nearest end of the solenoid behaves as:",
+    "topicId": "ms77a8e97qdzfg0e72ypqz1ngx85qwyc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "lenz-law",
+    "topicTitle": "12.13 Lenz's Law",
+    "_id": "k97cb2qk9dxebfffzfet496ysn85px0p",
+    "correctKey": "C",
+    "explanation": "If the induced current aided the change, the magnet would accelerate indefinitely without any external work input, generating ever-increasing kinetic energy and current: a perpetual motion machine that violates conservation of energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75qan5afyq8r7d0hrrcbzdsh85pdm5",
+    "options": [
+      {
+        "key": "A",
+        "text": "The system would reach equilibrium quickly"
+      },
+      {
+        "key": "B",
+        "text": "The induced current would eventually become zero"
+      },
+      {
+        "key": "C",
+        "text": "Energy would be created from nothing, violating the law of conservation of energy"
+      },
+      {
+        "key": "D",
+        "text": "The magnetic field would vanish"
+      }
+    ],
+    "sectionId": "lenzs-law-and-the-conservation-of-energy",
+    "sectionLabel": "Lenz's Law and the Conservation of Energy",
+    "stem": "If Lenz's Law did not hold and the induced current aided the change in flux instead of opposing it, what would be the consequence?",
+    "topicId": "ms77a8e97qdzfg0e72ypqz1ngx85qwyc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "lenz-law",
+    "topicTitle": "12.13 Lenz's Law",
+    "_id": "k9706f74rnrejbpkk1ryet1eh585qs20",
+    "correctKey": "B",
+    "explanation": "Faraday's Law gives the magnitude of the induced EMF. Lenz's Law specifically determines the direction of the induced current: it will always oppose the change in magnetic flux that caused it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75qan5afyq8r7d0hrrcbzdsh85pdm5",
+    "options": [
+      {
+        "key": "A",
+        "text": "Magnitude of induced EMF"
+      },
+      {
+        "key": "B",
+        "text": "Direction of induced current"
+      },
+      {
+        "key": "C",
+        "text": "Rate of change of magnetic flux"
+      },
+      {
+        "key": "D",
+        "text": "Magnetic permeability of the core"
+      }
+    ],
+    "sectionId": "statement-of-lenzs-law",
+    "sectionLabel": "Statement of Lenz's Law",
+    "stem": "Lenz's Law provides a method to determine the:",
+    "topicId": "ms77a8e97qdzfg0e72ypqz1ngx85qwyc"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "seismometer",
+    "topicTitle": "12.14 Seismometer",
+    "_id": "k97ct1x4yhr00dbwfz54nyj93d8ccz1w",
+    "correctKey": "A",
+    "explanation": "Stronger shaking increases relative velocity and vibration amplitude, producing a larger induction signal.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74wmspkfgyz7pcj64rjz4rtd85qkpj",
+    "options": [
+      {
+        "key": "A",
+        "text": "The relative motion and induced signal increase."
+      },
+      {
+        "key": "B",
+        "text": "The magnet and coil become permanently fixed."
+      },
+      {
+        "key": "C",
+        "text": "The magnetic flux stops changing completely."
+      },
+      {
+        "key": "D",
+        "text": "The induced current must always become zero."
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What generally happens to the induced signal during stronger earthquake shaking?",
+    "topicId": "ms7b5fzemmvk5tgtnbh1z3723d85ph10"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "seismometer",
+    "topicTitle": "12.14 Seismometer",
+    "_id": "k971vvr0ae4x93dj7cnb7hbc0h85qprp",
+    "correctKey": "B",
+    "explanation": "Inertia is the tendency of a massive object to resist changes in its state of motion. In a seismometer, the heavy suspended mass resists the ground's sudden movement, remaining relatively stationary while the frame moves, creating the relative motion needed to induce a current.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74wmspkfgyz7pcj64rjz4rtd85qkpj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Elasticity"
+      },
+      {
+        "key": "B",
+        "text": "Inertia"
+      },
+      {
+        "key": "C",
+        "text": "Gravitational potential energy"
+      },
+      {
+        "key": "D",
+        "text": "Magnetic flux"
+      }
+    ],
+    "sectionId": "design-and-working-principle",
+    "sectionLabel": "Design and Working Principle",
+    "stem": "Which property of the suspended mass in an electromagnetic seismometer allows it to remain stationary while the Earth moves beneath it?",
+    "topicId": "ms7b5fzemmvk5tgtnbh1z3723d85ph10"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "seismometer",
+    "topicTitle": "12.14 Seismometer",
+    "_id": "k975p312d6npy5qgpv9pt6d6cd8bc623",
+    "correctKey": "A",
+    "explanation": "A carefully calibrated spring system suspends one part of the assembly, typically the coil, from a rigid frame fixed to the ground. This is what allows relative motion between the coil and the magnet when the ground shakes, which is essential for inducing a current via Faradays law.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74wmspkfgyz7pcj64rjz4rtd85qkpj",
+    "options": [
+      {
+        "key": "A",
+        "text": "It suspends one part of the assembly (e.g. the coil) from a frame fixed to the ground, allowing relative motion between coil and magnet when the ground moves"
+      },
+      {
+        "key": "B",
+        "text": "It amplifies the electrical signal produced by the coil"
+      },
+      {
+        "key": "C",
+        "text": "It converts the electrical signal into a digital recording"
+      },
+      {
+        "key": "D",
+        "text": "It shields the magnet from external magnetic interference"
+      }
+    ],
+    "sectionId": "design-and-working-principle",
+    "sectionLabel": "Design and Working Principle",
+    "stem": "What role does the spring system play in an electromagnetic seismometers design?",
+    "topicId": "ms7b5fzemmvk5tgtnbh1z3723d85ph10"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "seismometer",
+    "topicTitle": "12.14 Seismometer",
+    "_id": "k977tyeajdb4ebfge9r1fcxd0n85qzgt",
+    "correctKey": "C",
+    "explanation": "Modern electromagnetic seismometers use a permanent magnet and a coil of wire. Relative motion between them changes the magnetic flux through the coil, inducing an EMF (voltage) proportional to the velocity of ground motion, per Faraday's Law.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74wmspkfgyz7pcj64rjz4rtd85qkpj",
+    "options": [
+      {
+        "key": "A",
+        "text": "By measuring the change in temperature of the coil"
+      },
+      {
+        "key": "B",
+        "text": "By using a mechanical lever and pen system"
+      },
+      {
+        "key": "C",
+        "text": "By generating an electric voltage through electromagnetic induction between a magnet and coil"
+      },
+      {
+        "key": "D",
+        "text": "By measuring the change in gravitational force on the mass"
+      }
+    ],
+    "sectionId": "electromagnetic-induction-in-seismometers",
+    "sectionLabel": "Electromagnetic Induction in Seismometers",
+    "stem": "In a modern electromagnetic seismometer, how is the relative motion between the suspended mass and the frame converted into a measurable signal?",
+    "topicId": "ms7b5fzemmvk5tgtnbh1z3723d85ph10"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "12-electromagnetism",
+    "chapterTitle": "Electromagnetism",
+    "topicSlug": "seismometer",
+    "topicTitle": "12.14 Seismometer",
+    "_id": "k970m9n8f0v0pj3q5nmxgryr4s85qchq",
+    "correctKey": "B",
+    "explanation": "Amplitude on a seismogram represents the magnitude of ground displacement. A high-amplitude wave means the ground moved a large distance during the seismic event, indicating more intense shaking and a higher-magnitude earthquake.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74wmspkfgyz7pcj64rjz4rtd85qkpj",
+    "options": [
+      {
+        "key": "A",
+        "text": "The seismic waves had a very low frequency"
+      },
+      {
+        "key": "B",
+        "text": "The ground displacement during the event was significant"
+      },
+      {
+        "key": "C",
+        "text": "The earthquake originated very deep within the Earth's crust"
+      },
+      {
+        "key": "D",
+        "text": "The seismic waves traveled through a vacuum"
+      }
+    ],
+    "sectionId": "summary",
+    "sectionLabel": "Summary",
+    "stem": "A seismogram shows waves with very high amplitude. What does this indicate about the seismic event?",
+    "topicId": "ms7b5fzemmvk5tgtnbh1z3723d85ph10"
+  }
+]

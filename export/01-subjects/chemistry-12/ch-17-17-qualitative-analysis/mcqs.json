@@ -1,0 +1,530 @@
+[
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-1-how-to-analyse-a-number-of-isotopes-and-their-relative-abundances-of-isotopes",
+    "topicTitle": "17.1 Analysis of Isotopes using Mass Spectrometry",
+    "_id": "k97awgmexb4wm8gc0a1n9eynfn85q8ja",
+    "correctKey": "A",
+    "explanation": "In a mass spectrum, peak height represents relative abundance. The tallest peak corresponds to the most abundant isotope. For neon, $^{20}Ne$ is by far the most naturally abundant isotope (~90.5%).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syj6e3g2kfytzw04abv6ad85p8np",
+    "options": [
+      {
+        "key": "A",
+        "text": "$^{20}Ne$"
+      },
+      {
+        "key": "B",
+        "text": "$^{21}Ne$"
+      },
+      {
+        "key": "C",
+        "text": "$^{22}Ne$"
+      },
+      {
+        "key": "D",
+        "text": "All are equally abundant"
+      }
+    ],
+    "stem": "In a mass spectrum of Neon, three peaks are observed at $m/z$ values of 20, 21, and 22. Which isotope has the greatest relative abundance if its peak is the tallest?",
+    "topicId": "ms7e47ag4ak01f4y07cpwx2wc985q2pn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-1-how-to-analyse-a-number-of-isotopes-and-their-relative-abundances-of-isotopes",
+    "topicTitle": "17.1 Analysis of Isotopes using Mass Spectrometry",
+    "_id": "k97c15gveq7w95pwfr286nvkvs85pas1",
+    "correctKey": "C",
+    "explanation": "Relative atomic mass is the weighted average of the masses of all naturally occurring isotopes, each weighted by its percentage abundance. The formula is $A_r = \\frac{\\sum (m_i \\times a_i)}{100}$ where $m_i$ is isotopic mass and $a_i$ is percentage abundance.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syj6e3g2kfytzw04abv6ad85p8np",
+    "options": [
+      {
+        "key": "A",
+        "text": "By adding the mass numbers of all isotopes."
+      },
+      {
+        "key": "B",
+        "text": "By taking the mass number of the most abundant isotope."
+      },
+      {
+        "key": "C",
+        "text": "By calculating the weighted average: $A_r = \\frac{\\sum (\\text{isotopic mass} \\times \\text{\\% abundance})}{100}$."
+      },
+      {
+        "key": "D",
+        "text": "By dividing the total mass by the number of isotopes."
+      }
+    ],
+    "stem": "How is the relative atomic mass ($A_r$) of an element calculated from its mass spectrum?",
+    "topicId": "ms7e47ag4ak01f4y07cpwx2wc985q2pn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-2-calculation-of-relative-atomic-masses",
+    "topicTitle": "17.2 Calculation of Relative Atomic Masses",
+    "_id": "k975gf1dgjpd7d1d1p7743wst585qfg1",
+    "correctKey": "C",
+    "explanation": "Qualitative data is non-numerical information obtained from observations. Observing that a white precipitate formed is a qualitative observation. The other options all involve numerical measurements, making them quantitative data.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78sayjtyww4w36vfdf1zath585pkpx",
+    "options": [
+      {
+        "key": "A",
+        "text": "The mass of a precipitate is 2.45 g"
+      },
+      {
+        "key": "B",
+        "text": "The temperature of the solution rose by 5.2 °C"
+      },
+      {
+        "key": "C",
+        "text": "A white precipitate formed when the solutions were mixed"
+      },
+      {
+        "key": "D",
+        "text": "The volume of gas collected was 48 cm³"
+      }
+    ],
+    "stem": "Which of the following is an example of qualitative data collected during a chemistry experiment?",
+    "topicId": "ms7cdshe1tkxw76fe7b4gbdjzh85pran"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-2-calculation-of-relative-atomic-masses",
+    "topicTitle": "17.2 Calculation of Relative Atomic Masses",
+    "_id": "k97d6wcn6h9h3700ndje6qrzfd85q2vv",
+    "correctKey": "B",
+    "explanation": "Understanding error propagation is critical because accumulated uncertainties in the final result determine how reliable the data is. This allows scientists to assess whether their conclusions are valid and whether the experimental method is sufficiently precise.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78sayjtyww4w36vfdf1zath585pkpx",
+    "options": [
+      {
+        "key": "A",
+        "text": "It allows scientists to ignore small errors in individual measurements"
+      },
+      {
+        "key": "B",
+        "text": "It helps assess the reliability of results and validity of conclusions"
+      },
+      {
+        "key": "C",
+        "text": "It proves that all experimental results are inaccurate"
+      },
+      {
+        "key": "D",
+        "text": "It eliminates the need for repeated measurements"
+      }
+    ],
+    "stem": "Why is it important to understand error propagation when drawing conclusions from experimental data?",
+    "topicId": "ms7cdshe1tkxw76fe7b4gbdjzh85pran"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-3-determination-of-molecular-mass-by-molecular-ion-peak",
+    "topicTitle": "17.3 Determination of Molecular Mass by Molecular Ion Peak",
+    "_id": "k973r19manz2cc737d57f7ng0585pqrq",
+    "correctKey": "B",
+    "explanation": "The molecular ion ($M^+$) is a radical cation formed when a neutral molecule loses a single electron due to bombardment by high-energy electrons.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78yfc12e8v8126hnrmnfqfc985qqpr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Addition of a proton to the molecule"
+      },
+      {
+        "key": "B",
+        "text": "Loss of an electron from the molecule"
+      },
+      {
+        "key": "C",
+        "text": "Loss of a neutron from the nucleus"
+      },
+      {
+        "key": "D",
+        "text": "Fragmentation of the molecule into radicals"
+      }
+    ],
+    "stem": "In a mass spectrometer, the molecular ion is formed by which of the following processes?",
+    "topicId": "ms70f0fdhm74p7tz7vghnmsp3s85qp35"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-3-determination-of-molecular-mass-by-molecular-ion-peak",
+    "topicTitle": "17.3 Determination of Molecular Mass by Molecular Ion Peak",
+    "_id": "k97bmd8sxmze8qfp5znh3gkq0d85ps0n",
+    "correctKey": "D",
+    "explanation": "Molecular mass of Propanone ($C_3H_6O$) = $(3 \\times 12) + (6 \\times 1) + 16 = 58$. Molecular mass of Butane ($C_4H_{10}$) = $(4 \\times 12) + 10 = 58$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78yfc12e8v8126hnrmnfqfc985qqpr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ethane ($C_2H_6$)"
+      },
+      {
+        "key": "B",
+        "text": "Propanone ($CH_3COCH_3$)"
+      },
+      {
+        "key": "C",
+        "text": "Butane ($C_4H_{10}$)"
+      },
+      {
+        "key": "D",
+        "text": "Both B and C"
+      }
+    ],
+    "stem": "A compound shows a molecular ion peak at $m/z = 58$. Which of the following compounds could it be?",
+    "topicId": "ms70f0fdhm74p7tz7vghnmsp3s85qp35"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-3-determination-of-molecular-mass-by-molecular-ion-peak",
+    "topicTitle": "17.3 Determination of Molecular Mass by Molecular Ion Peak",
+    "_id": "k97anzes9hcjtz5x4zywjg06ah85q9ff",
+    "correctKey": "C",
+    "explanation": "The base peak is the tallest peak in the spectrum, representing the most stable and abundant ion, and is used as the standard for relative intensity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78yfc12e8v8126hnrmnfqfc985qqpr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecular ion peak"
+      },
+      {
+        "key": "B",
+        "text": "M+2 peak"
+      },
+      {
+        "key": "C",
+        "text": "Base peak"
+      },
+      {
+        "key": "D",
+        "text": "Isotope peak"
+      }
+    ],
+    "stem": "Which peak in the mass spectrum is used as a reference with 100% relative abundance?",
+    "topicId": "ms70f0fdhm74p7tz7vghnmsp3s85qp35"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-4-identification-of-a-molecule-by-fragmentation-pattern",
+    "topicTitle": "17.4 Identification of a Molecule by Fragmentation Pattern",
+    "_id": "k97c7t21htnqtybvsfre604sv985peh5",
+    "correctKey": "B",
+    "explanation": "The $M^+$ peak gives the relative molecular mass directly. For $C_5H_{12}$: $M_r = (5 \\times 12) + (12 \\times 1) = 60 + 12 = 72$. The other options have different molecular masses as shown.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70c42pa8s8w02x7myx94rrfd85qsvq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$C_4H_{10}$ ($M_r = 58$)"
+      },
+      {
+        "key": "B",
+        "text": "$C_5H_{12}$ ($M_r = 72$)"
+      },
+      {
+        "key": "C",
+        "text": "$C_6H_{14}$ ($M_r = 86$)"
+      },
+      {
+        "key": "D",
+        "text": "$C_5H_{10}$ ($M_r = 70$)"
+      }
+    ],
+    "stem": "In the mass spectrum of an unknown alkane, the molecular ion peak appears at $m/z = 72$. What is the most likely molecular formula?",
+    "topicId": "ms75x8v6g9weng709yqwk4h9q185qh0v"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-4-identification-of-a-molecule-by-fragmentation-pattern",
+    "topicTitle": "17.4 Identification of a Molecule by Fragmentation Pattern",
+    "_id": "k979q08jhrgqwcgdepmn2pebrn85q19j",
+    "correctKey": "B",
+    "explanation": "$C_2H_5^+$ has mass $(2 \\times 12) + (5 \\times 1) = 29$. While $CHO^+$ also has $m/z = 29$, $C_2H_5^+$ is the more common fragment in simple alkanes. The other options have different masses as labelled.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70c42pa8s8w02x7myx94rrfd85qsvq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$CH_3^+$ ($m/z = 15$)"
+      },
+      {
+        "key": "B",
+        "text": "$C_2H_5^+$ ($m/z = 29$)"
+      },
+      {
+        "key": "C",
+        "text": "$C_3H_7^+$ ($m/z = 43$)"
+      },
+      {
+        "key": "D",
+        "text": "$CHO^+$ ($m/z = 29$)"
+      }
+    ],
+    "stem": "A mass spectrum shows a prominent fragment peak at $m/z = 29$. Which ion most likely corresponds to this fragment?",
+    "topicId": "ms75x8v6g9weng709yqwk4h9q185qh0v"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-4-identification-of-a-molecule-by-fragmentation-pattern",
+    "topicTitle": "17.4 Identification of a Molecule by Fragmentation Pattern",
+    "_id": "k97fp2g4xgr1hvyv1mz1zbmmm585qssn",
+    "correctKey": "A",
+    "explanation": "Propan-2-ol has $M_r = 60$. Loss of a methyl group ($CH_3$, mass 15) from the molecular ion gives the fragment $[CH_3CHOH]^+$ with $m/z = 60 - 15 = 45$. This $\\alpha$-cleavage adjacent to the OH group is favoured because the resulting carbocation is stabilised.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70c42pa8s8w02x7myx94rrfd85qsvq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loss of $CH_3$ (mass 15) giving $[CH_3CHOH]^+$"
+      },
+      {
+        "key": "B",
+        "text": "Loss of $OH$ (mass 17) giving $[C_3H_7]^+$"
+      },
+      {
+        "key": "C",
+        "text": "Loss of $H$ (mass 1) giving $[C_3H_7O]^+$"
+      },
+      {
+        "key": "D",
+        "text": "Loss of $H_2O$ (mass 18) giving $[C_3H_6]^+$"
+      }
+    ],
+    "stem": "The mass spectrum of propan-2-ol ($CH_3CH(OH)CH_3$, $M_r = 60$) shows a significant peak at $m/z = 45$. This results from the loss of which group from the molecular ion?",
+    "topicId": "ms75x8v6g9weng709yqwk4h9q185qh0v"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-4-identification-of-a-molecule-by-fragmentation-pattern",
+    "topicTitle": "17.4 Identification of a Molecule by Fragmentation Pattern",
+    "_id": "k97927nj3d0yprzev8mpfg4rj985qr3t",
+    "correctKey": "C",
+    "explanation": "Mass spectrometers detect only charged particles. Neutral radicals carry no charge and are therefore not accelerated by the electric field or deflected by the magnetic field, they are lost in the vacuum system and go undetected.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70c42pa8s8w02x7myx94rrfd85qsvq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecular ion $M^+$"
+      },
+      {
+        "key": "B",
+        "text": "Fragment cation"
+      },
+      {
+        "key": "C",
+        "text": "Neutral radical"
+      },
+      {
+        "key": "D",
+        "text": "Isotopic ion"
+      }
+    ],
+    "stem": "Which of the following species produced during mass spectrometry fragmentation is NOT detected by the detector?",
+    "topicId": "ms75x8v6g9weng709yqwk4h9q185qh0v"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-4-identification-of-a-molecule-by-fragmentation-pattern",
+    "topicTitle": "17.4 Identification of a Molecule by Fragmentation Pattern",
+    "_id": "k97ffag398p5dr2rwr6eb73m9h85pvmb",
+    "correctKey": "B",
+    "explanation": "Bromine has two isotopes, $^{79}Br$ and $^{81}Br$, in approximately 1:1 natural abundance, producing $M$ and $M+2$ peaks of equal height. Chlorine gives a 3:1 ratio, iodine has only one stable isotope, and nitrogen does not cause an $M+2$ pattern.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70c42pa8s8w02x7myx94rrfd85qsvq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chlorine (3:1 ratio for $M$ and $M+2$)"
+      },
+      {
+        "key": "B",
+        "text": "Bromine (1:1 ratio for $M$ and $M+2$)"
+      },
+      {
+        "key": "C",
+        "text": "Iodine (single $M$ peak only)"
+      },
+      {
+        "key": "D",
+        "text": "Nitrogen (causes odd $M_r$)"
+      }
+    ],
+    "stem": "A compound shows two molecular ion peaks at $m/z$ 156 and 158 with approximately equal intensity (1:1 ratio). Which element is most likely present?",
+    "topicId": "ms75x8v6g9weng709yqwk4h9q185qh0v"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-6-deduction-of-the-presence-of-chlorine-and-bromine-in-a-molecule",
+    "topicTitle": "17.6 Deduction of Chlorine and Bromine in a Molecule by Mass Spectrometry",
+    "_id": "k9784wmcrzx18215er7tehq46n85q82f",
+    "correctKey": "A",
+    "explanation": "Sodium metal reduces the covalently bonded halogen in the organic molecule to ionic sodium halide ($NaX$) during fusion, making it water-soluble and detectable by $AgNO_3$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7195dqv3z38rgazrxkxk4zn985qygn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sodium halide ($NaX$)"
+      },
+      {
+        "key": "B",
+        "text": "Sodium halate ($NaXO_3$)"
+      },
+      {
+        "key": "C",
+        "text": "Free halogen gas ($X_2$)"
+      },
+      {
+        "key": "D",
+        "text": "Sodium hypohalite ($NaOX$)"
+      }
+    ],
+    "stem": "During the sodium fusion test, the halogen present in the organic compound is converted into:",
+    "topicId": "ms70tm9ny3vga6n5nsbwg73fy985p9xn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-6-deduction-of-the-presence-of-chlorine-and-bromine-in-a-molecule",
+    "topicTitle": "17.6 Deduction of Chlorine and Bromine in a Molecule by Mass Spectrometry",
+    "_id": "k972sspx1mb7syeg9mtbjmgfbh85qrbg",
+    "correctKey": "C",
+    "explanation": "Dilute $HNO_3$ is used because it does not introduce halide ions (unlike $HCl$) and effectively decomposes interfering $NaCN$ and $Na_2S$ by converting them to $HCN$ and $H_2S$ gases which are expelled on boiling.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7195dqv3z38rgazrxkxk4zn985qygn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dilute $HCl$"
+      },
+      {
+        "key": "B",
+        "text": "Dilute $H_2SO_4$"
+      },
+      {
+        "key": "C",
+        "text": "Dilute $HNO_3$"
+      },
+      {
+        "key": "D",
+        "text": "Concentrated $CH_3COOH$"
+      }
+    ],
+    "stem": "Which acid is used to acidify the Lassaigne's extract before adding $AgNO_3$ for halogen testing, and why?",
+    "topicId": "ms70tm9ny3vga6n5nsbwg73fy985p9xn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-6-deduction-of-the-presence-of-chlorine-and-bromine-in-a-molecule",
+    "topicTitle": "17.6 Deduction of Chlorine and Bromine in a Molecule by Mass Spectrometry",
+    "_id": "k9792mcqa206emkmkjbp075chn85qwfq",
+    "correctKey": "B",
+    "explanation": "$AgCl$ is white and readily soluble in $NH_4OH$; $AgBr$ is pale yellow and sparingly soluble; $AgI$ is deep yellow and insoluble. A pale yellow precipitate sparingly soluble in $NH_4OH$ confirms bromine.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7195dqv3z38rgazrxkxk4zn985qygn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chlorine"
+      },
+      {
+        "key": "B",
+        "text": "Bromine"
+      },
+      {
+        "key": "C",
+        "text": "Iodine"
+      },
+      {
+        "key": "D",
+        "text": "Fluorine"
+      }
+    ],
+    "stem": "A student adds $AgNO_3$ to an acidified Lassaigne's extract and observes a pale yellow precipitate partially soluble in $NH_4OH$. This indicates the presence of:",
+    "topicId": "ms70tm9ny3vga6n5nsbwg73fy985p9xn"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "17-qualitative-analysis",
+    "chapterTitle": "Qualitative Analysis",
+    "topicSlug": "17-6-deduction-of-the-presence-of-chlorine-and-bromine-in-a-molecule",
+    "topicTitle": "17.6 Deduction of Chlorine and Bromine in a Molecule by Mass Spectrometry",
+    "_id": "k97ag1bb9avv62thxf85t1ywcx85p7fe",
+    "correctKey": "B",
+    "explanation": "Chlorine, being more reactive, displaces bromine from $NaBr$: $Cl_2 + 2NaBr \\rightarrow 2NaCl + Br_2$. The liberated $Br_2$ dissolves in $CCl_4$ giving an orange/brown colour.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7195dqv3z38rgazrxkxk4zn985qygn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chloride ions"
+      },
+      {
+        "key": "B",
+        "text": "Bromide ions"
+      },
+      {
+        "key": "C",
+        "text": "Iodide ions"
+      },
+      {
+        "key": "D",
+        "text": "Sulfide ions"
+      }
+    ],
+    "stem": "In the Layer Test for halogens, the appearance of a brown colour in the $CCl_4$ layer upon adding chlorine water confirms the presence of:",
+    "topicId": "ms70tm9ny3vga6n5nsbwg73fy985p9xn"
+  }
+]

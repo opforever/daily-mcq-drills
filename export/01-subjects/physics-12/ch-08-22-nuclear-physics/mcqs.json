@@ -1,0 +1,2837 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-1-mass-defect",
+    "topicTitle": "22.1 Mass Defect",
+    "_id": "k975e17d45tc7h75a243qtw2cd85qfsm",
+    "correctKey": "A",
+    "explanation": "Applying $\\Delta m = (m_p + m_n) - M_D = (1.007276 + 1.008665) - 2.014102 = 2.015941 - 2.014102 = 0.001839\\text{ u}$. Option B is a common arithmetic error distractor.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh3e9kteq43dnphw8scn6ed85qp6t",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0.001839\\text{ u}$"
+      },
+      {
+        "key": "B",
+        "text": "$0.002389\\text{ u}$"
+      },
+      {
+        "key": "C",
+        "text": "$0.005421\\text{ u}$"
+      },
+      {
+        "key": "D",
+        "text": "$0.014102\\text{ u}$"
+      }
+    ],
+    "sectionId": "worked-example",
+    "sectionLabel": "Worked Example",
+    "stem": "Given $m_p = 1.007276\\text{ u}$, $m_n = 1.008665\\text{ u}$, and the mass of a Deuterium nucleus ($^2_1\\text{H}$) = $2.014102\\text{ u}$, the mass defect $\\Delta m$ is approximately:",
+    "topicId": "ms76mk18b3r4dfds46wpddjhn185pw7v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-1-mass-defect",
+    "topicTitle": "22.1 Mass Defect",
+    "_id": "k97d7h2xhrarcpe9vw7w8c55x585pgkp",
+    "correctKey": "C",
+    "explanation": "Einstein's equation $E = mc^2$ gives the energy equivalent of mass. Binding energy equals the mass defect multiplied by $c^2$: $E_b = \\Delta m \\cdot c^2$. The other options use incorrect mathematical relationships between mass and energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh3e9kteq43dnphw8scn6ed85qp6t",
+    "options": [
+      {
+        "key": "A",
+        "text": "$E_b = \\Delta m / c^2$"
+      },
+      {
+        "key": "B",
+        "text": "$E_b = \\Delta m \\cdot c$"
+      },
+      {
+        "key": "C",
+        "text": "$E_b = \\Delta m \\cdot c^2$"
+      },
+      {
+        "key": "D",
+        "text": "$E_b = \\sqrt{\\Delta m \\cdot c}$"
+      }
+    ],
+    "sectionId": "binding-energy",
+    "sectionLabel": "Binding Energy",
+    "stem": "According to Einstein's mass-energy relation, the binding energy $E_b$ of a nucleus with mass defect $\\Delta m$ is:",
+    "topicId": "ms76mk18b3r4dfds46wpddjhn185pw7v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-1-mass-defect",
+    "topicTitle": "22.1 Mass Defect",
+    "_id": "k974nbkcpta39w4ehg3x42bqzd85qmzp",
+    "correctKey": "B",
+    "explanation": "Using $E_b = \\Delta m \\times 931.5\\text{ MeV/u}$: $E_b = 0.0303 \\times 931.5 \\approx 28.2\\text{ MeV}$. Option C (931 MeV) is the energy equivalent of 1 u, not 0.0303 u.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh3e9kteq43dnphw8scn6ed85qp6t",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.8 MeV"
+      },
+      {
+        "key": "B",
+        "text": "28.2 MeV"
+      },
+      {
+        "key": "C",
+        "text": "931 MeV"
+      },
+      {
+        "key": "D",
+        "text": "0.03 MeV"
+      }
+    ],
+    "sectionId": "binding-energy",
+    "sectionLabel": "Binding Energy",
+    "stem": "If the mass defect of a nucleus is $0.0303\\text{ u}$, its binding energy in MeV is approximately:",
+    "topicId": "ms76mk18b3r4dfds46wpddjhn185pw7v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-1-mass-defect",
+    "topicTitle": "22.1 Mass Defect",
+    "_id": "k9782cfdvb4kfmmz63ffw6a9k985q1bx",
+    "correctKey": "B",
+    "explanation": "Due to the release of binding energy during nucleus formation, some mass is converted into energy, making the nuclear mass less than the sum of individual nucleon masses.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh3e9kteq43dnphw8scn6ed85qp6t",
+    "options": [
+      {
+        "key": "A",
+        "text": "Greater than"
+      },
+      {
+        "key": "B",
+        "text": "Less than"
+      },
+      {
+        "key": "C",
+        "text": "Equal to"
+      },
+      {
+        "key": "D",
+        "text": "Double"
+      }
+    ],
+    "sectionId": "mass-defect-delta-m",
+    "sectionLabel": "Mass Defect ($\\Delta m$)",
+    "stem": "The mass of a nucleus is always ________ the sum of the masses of its constituent nucleons.",
+    "topicId": "ms76mk18b3r4dfds46wpddjhn185pw7v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-1-mass-defect",
+    "topicTitle": "22.1 Mass Defect",
+    "_id": "k97ajq62wc11sqwd3sayz934sx85p00s",
+    "correctKey": "B",
+    "explanation": "By Einstein's mass-energy equivalence, $1 \\text{ u} \\approx 931.5 \\text{ MeV}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh3e9kteq43dnphw8scn6ed85qp6t",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.67 x 10⁻²⁷ kg"
+      },
+      {
+        "key": "B",
+        "text": "1.0 u"
+      },
+      {
+        "key": "C",
+        "text": "9.1 x 10⁻³¹ kg"
+      },
+      {
+        "key": "D",
+        "text": "1.6 x 10⁻¹⁹ kg"
+      }
+    ],
+    "sectionId": "the-unified-atomic-mass-unit-u",
+    "sectionLabel": "The Unified Atomic Mass Unit (u)",
+    "stem": "Mass equivalent of $931 \\text{ MeV}$ energy is:",
+    "topicId": "ms76mk18b3r4dfds46wpddjhn185pw7v"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-2-binding-energy",
+    "topicTitle": "22.2 Binding Energy",
+    "_id": "k9727bnt5j8bzf6580mex0trj58bjend",
+    "correctKey": "B",
+    "explanation": "Medium-mass fission fragments lie closer to the B.E./A peak (around iron) than heavy U-235, so they have higher binding energy per nucleon; the resulting increase in total binding energy is released as kinetic energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dwbjs5hpv1epdfxchbc1nyh85q4sd",
+    "options": [
+      {
+        "key": "A",
+        "text": "The fragments have lower binding energy per nucleon than U-235"
+      },
+      {
+        "key": "B",
+        "text": "The fragments have higher binding energy per nucleon than U-235, closer to the B.E./A peak"
+      },
+      {
+        "key": "C",
+        "text": "Fission always conserves binding energy exactly"
+      },
+      {
+        "key": "D",
+        "text": "Energy is released only because neutrons are absorbed"
+      }
+    ],
+    "sectionId": "relevance-to-fission-and-fusion",
+    "sectionLabel": "Relevance to Fission and Fusion",
+    "stem": "In nuclear fission, a heavy nucleus like U-235 splits into medium-mass fragments. Why does this release energy?",
+    "topicId": "ms79061me2jfdsnffyz7678gks85q5dh"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-2-binding-energy",
+    "topicTitle": "22.2 Binding Energy",
+    "_id": "k9791xcnv7d7se8hsn7scmaqb58bkdth",
+    "correctKey": "C",
+    "explanation": "Iron-56 sits at the peak of the B.E./A curve at about 8.8 MeV/nucleon, making it the most stable nucleus; both lighter and heavier nuclei have lower B.E./A.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dwbjs5hpv1epdfxchbc1nyh85q4sd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hydrogen-1"
+      },
+      {
+        "key": "B",
+        "text": "Helium-4"
+      },
+      {
+        "key": "C",
+        "text": "Iron-56"
+      },
+      {
+        "key": "D",
+        "text": "Uranium-235"
+      }
+    ],
+    "sectionId": "the-bea-vs-nucleon-number-graph",
+    "sectionLabel": "The B.E./A vs. Nucleon Number Graph",
+    "stem": "On the graph of binding energy per nucleon versus mass number, which nucleus sits at (or nearest) the peak, making it the most stable?",
+    "topicId": "ms79061me2jfdsnffyz7678gks85q5dh"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-radioactivity",
+    "topicTitle": "22.3 Radioactivity",
+    "_id": "k97ehv8gdgt009b6jamfb8dxzx85pbsg",
+    "correctKey": "C",
+    "explanation": "Spontaneity in nuclear physics refers to the fact that the decay is independent of external physical or chemical conditions like temperature and pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71r14cjkwn63mzvwjbg1tjm985q1vm",
+    "options": [
+      {
+        "key": "A",
+        "text": "The number of undecayed nuclei present"
+      },
+      {
+        "key": "B",
+        "text": "The type of isotope"
+      },
+      {
+        "key": "C",
+        "text": "Changes in pressure and temperature"
+      },
+      {
+        "key": "D",
+        "text": "The decay constant of the material"
+      }
+    ],
+    "sectionId": "spontaneous-nature-of-decay",
+    "sectionLabel": "Spontaneous Nature of Decay",
+    "stem": "Radioactive decay is a spontaneous process. This implies that the rate of decay is NOT affected by:",
+    "topicId": "ms775ftfc10byjsep4bc6spd8x85qyym"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-radioactivity",
+    "topicTitle": "22.3 Radioactivity",
+    "_id": "k9791m8z0qb1f20xjczjhztj9s85pgzq",
+    "correctKey": "C",
+    "explanation": "Nuclear decay is spontaneous and unaffected by the physical environment, including pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71r14cjkwn63mzvwjbg1tjm985q1vm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase"
+      },
+      {
+        "key": "B",
+        "text": "Decrease"
+      },
+      {
+        "key": "C",
+        "text": "Remain the same"
+      },
+      {
+        "key": "D",
+        "text": "Become zero"
+      }
+    ],
+    "sectionId": "spontaneous-random-and-statistical-nature-of-decay",
+    "sectionLabel": "Spontaneous, Random, and Statistical Nature of Decay",
+    "stem": "If a radioactive sample is moved from a vacuum to a high-pressure chamber, its half-life will:",
+    "topicId": "ms775ftfc10byjsep4bc6spd8x85qyym"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-radioactivity",
+    "topicTitle": "22.3 Radioactivity",
+    "_id": "k97ab6r9ekfhq9xtxg59taw1ed85pqfs",
+    "correctKey": "D",
+    "explanation": "Randomness means that individual decay events are unpredictable and independent of each other.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71r14cjkwn63mzvwjbg1tjm985q1vm",
+    "options": [
+      {
+        "key": "A",
+        "text": "All nuclei in a sample decay at the same time."
+      },
+      {
+        "key": "B",
+        "text": "We can predict which nucleus will decay next if we have a microscope."
+      },
+      {
+        "key": "C",
+        "text": "The decay of a nucleus depends on the decay of its neighbor."
+      },
+      {
+        "key": "D",
+        "text": "It is impossible to predict the exact time of decay for a specific nucleus."
+      }
+    ],
+    "sectionId": "spontaneous-random-and-statistical-nature-of-decay",
+    "sectionLabel": "Spontaneous, Random, and Statistical Nature of Decay",
+    "stem": "Which statement best describes the random nature of radioactivity?",
+    "topicId": "ms775ftfc10byjsep4bc6spd8x85qyym"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-radioactivity",
+    "topicTitle": "22.3 Radioactivity",
+    "_id": "k97941bk9jz6ym6fyqn75z01xd85pvgd",
+    "correctKey": "B",
+    "explanation": "The law of decay is derived from the probability of decay, which is only valid for a large number of nuclei due to its random/statistical nature.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71r14cjkwn63mzvwjbg1tjm985q1vm",
+    "options": [
+      {
+        "key": "A",
+        "text": "A deterministic process"
+      },
+      {
+        "key": "B",
+        "text": "A statistical and random process"
+      },
+      {
+        "key": "C",
+        "text": "A chemical reaction"
+      },
+      {
+        "key": "D",
+        "text": "Influenced by gravitational fields"
+      }
+    ],
+    "sectionId": "spontaneous-random-and-statistical-nature-of-decay",
+    "sectionLabel": "Spontaneous, Random, and Statistical Nature of Decay",
+    "stem": "The mathematical law of radioactive decay ($dN/dt = -\\lambda N$) is based on the assumption that decay is:",
+    "topicId": "ms775ftfc10byjsep4bc6spd8x85qyym"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-1-alpha-decay",
+    "topicTitle": "22.3.1 Alpha Decay",
+    "_id": "k9717y385t6q0x0m895p9dpjnd85qqdf",
+    "correctKey": "A",
+    "explanation": "Mass number: $238 - 4 = 234$. Atomic number: $92 - 2 = 90$. Thorium (Th) has $Z=90$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e97vfeex8pwghste8pwc5ed85p8s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "$_{90}^{234}\\text{Th}$"
+      },
+      {
+        "key": "B",
+        "text": "$_{91}^{234}\\text{Pa}$"
+      },
+      {
+        "key": "C",
+        "text": "$_{93}^{238}\\text{Np}$"
+      },
+      {
+        "key": "D",
+        "text": "$_{88}^{226}\\text{Ra}$"
+      }
+    ],
+    "sectionId": "general-equation-for-alpha-decay",
+    "sectionLabel": "General Equation for Alpha Decay",
+    "stem": "If $_{92}^{238}\\text{U}$ decays by emitting an alpha particle, the resulting nucleus is:",
+    "topicId": "ms75c3r8esk0bqmf34t1371swx85px3n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-1-alpha-decay",
+    "topicTitle": "22.3.1 Alpha Decay",
+    "_id": "k9708vgkkmwahf84namschpxg985qs6v",
+    "correctKey": "B",
+    "explanation": "By conservation of linear momentum, the daughter nucleus must recoil in the opposite direction to the alpha particle. This recoil carries a small fraction of the Q-value as kinetic energy of the daughter, so the alpha particle receives slightly less than the full Q-value.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e97vfeex8pwghste8pwc5ed85p8s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Energy is lost as heat to the surroundings"
+      },
+      {
+        "key": "B",
+        "text": "The daughter nucleus recoils to conserve linear momentum"
+      },
+      {
+        "key": "C",
+        "text": "Neutrinos carry away some energy"
+      },
+      {
+        "key": "D",
+        "text": "The alpha particle loses energy to orbital electrons"
+      }
+    ],
+    "sectionId": "q-value-and-energy-released",
+    "sectionLabel": "Q-Value and Energy Released",
+    "stem": "The kinetic energy of the emitted alpha particle is slightly less than the total Q-value of alpha decay because:",
+    "topicId": "ms75c3r8esk0bqmf34t1371swx85px3n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-1-alpha-decay",
+    "topicTitle": "22.3.1 Alpha Decay",
+    "_id": "k976evdde446tkzsvc81zksx7985q4mr",
+    "correctKey": "C",
+    "explanation": "Spontaneous decay requires a positive Q-value: $Q = [m_{\\text{parent}} - m_{\\text{daughter}} - m_{\\alpha}]c^2 > 0$. This means the parent mass must exceed the combined mass of the products, with the mass difference converted to kinetic energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e97vfeex8pwghste8pwc5ed85p8s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Equal to the sum of masses of the daughter nucleus and alpha particle"
+      },
+      {
+        "key": "B",
+        "text": "Less than the sum of masses of the daughter nucleus and alpha particle"
+      },
+      {
+        "key": "C",
+        "text": "Greater than the sum of masses of the daughter nucleus and alpha particle"
+      },
+      {
+        "key": "D",
+        "text": "Exactly 4 u greater than the daughter nucleus"
+      }
+    ],
+    "sectionId": "q-value-and-energy-released",
+    "sectionLabel": "Q-Value and Energy Released",
+    "stem": "For alpha decay to occur spontaneously, the mass of the parent nucleus must be:",
+    "topicId": "ms75c3r8esk0bqmf34t1371swx85px3n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-1-alpha-decay",
+    "topicTitle": "22.3.1 Alpha Decay",
+    "_id": "k971k1r7eknxzmepjvgjdqr9158bj2xr",
+    "correctKey": "B",
+    "explanation": "Alpha decay is random: no one can predict which specific nucleus decays next or exactly when, only the probability of decay per unit time (the decay constant lambda) is known.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e97vfeex8pwghste8pwc5ed85p8s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Every nucleus in a sample decays at the same predictable time"
+      },
+      {
+        "key": "B",
+        "text": "It is impossible to predict which specific nucleus will decay next, only the probability per unit time can be stated"
+      },
+      {
+        "key": "C",
+        "text": "The decay rate can be controlled by changing pressure"
+      },
+      {
+        "key": "D",
+        "text": "Alpha decay only occurs when triggered by an external particle"
+      }
+    ],
+    "sectionId": "spontaneous-and-random-nature",
+    "sectionLabel": "Spontaneous and Random Nature",
+    "stem": "Which statement correctly describes the random nature of alpha decay?",
+    "topicId": "ms75c3r8esk0bqmf34t1371swx85px3n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-2-beta-decay",
+    "topicTitle": "22.3.2 Beta Decay",
+    "_id": "k970tpsdattf1870ce7r38vmdx85q6s9",
+    "correctKey": "A",
+    "explanation": "At the subatomic level, $\\beta^-$ decay is mediated by the weak nuclear force. A down quark ($d$, charge $-\\frac{1}{3}e$) in a neutron changes into an up quark ($u$, charge $+\\frac{2}{3}e$), converting the neutron ($udd$) into a proton ($uud$), with emission of $e^-$ and $\\bar{\\nu}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fe2d27phcp789xrr0tvvvsh85qtwg",
+    "options": [
+      {
+        "key": "A",
+        "text": "An up quark ($u$)"
+      },
+      {
+        "key": "B",
+        "text": "A strange quark ($s$)"
+      },
+      {
+        "key": "C",
+        "text": "A top quark ($t$)"
+      },
+      {
+        "key": "D",
+        "text": "A lepton"
+      }
+    ],
+    "sectionId": "beta-decay-at-the-quark-level",
+    "sectionLabel": "Beta Decay at the Quark Level",
+    "stem": "In the process of $\\beta^-$ decay at the quark level, a down quark ($d$) changes into:",
+    "topicId": "ms72qk883xmskd3bhe1apmrbdn85prpf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-2-beta-decay",
+    "topicTitle": "22.3.2 Beta Decay",
+    "_id": "k977d0k0136qxrfg31v31vwb7d8bkr73",
+    "correctKey": "C",
+    "explanation": "Beta decay is spontaneous: it is governed by the weak nuclear force acting within the nucleus and is unaffected by external physical or chemical conditions like temperature or pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fe2d27phcp789xrr0tvvvsh85qtwg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, higher temperature always speeds up beta decay"
+      },
+      {
+        "key": "B",
+        "text": "Yes, but only at extremely high pressures"
+      },
+      {
+        "key": "C",
+        "text": "No, beta decay is spontaneous and unaffected by temperature, pressure, or chemical state"
+      },
+      {
+        "key": "D",
+        "text": "No, but a strong external magnetic field can change the rate"
+      }
+    ],
+    "sectionId": "spontaneous-and-random-nature-of-beta-decay",
+    "sectionLabel": "Spontaneous and Random Nature of Beta Decay",
+    "stem": "Can the rate of beta decay of a radioactive sample be changed by increasing its temperature or pressure?",
+    "topicId": "ms72qk883xmskd3bhe1apmrbdn85prpf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-2-beta-decay",
+    "topicTitle": "22.3.2 Beta Decay",
+    "_id": "k976t6kqx7grk2vq7zzxmhyegn85q67d",
+    "correctKey": "C",
+    "explanation": "Beta particles were observed with a continuous range of energies rather than a single discrete value. Pauli postulated the neutrino to account for the 'missing' energy and momentum, thereby satisfying conservation of energy, linear momentum, and angular momentum.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fe2d27phcp789xrr0tvvvsh85qtwg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conservation of Mass only"
+      },
+      {
+        "key": "B",
+        "text": "Conservation of Charge only"
+      },
+      {
+        "key": "C",
+        "text": "Conservation of Energy and Momentum"
+      },
+      {
+        "key": "D",
+        "text": "Conservation of Nucleon Number"
+      }
+    ],
+    "sectionId": "the-role-of-the-neutrino",
+    "sectionLabel": "The Role of the Neutrino",
+    "stem": "The existence of the neutrino was postulated to explain the apparent violation of which conservation law(s) in beta decay?",
+    "topicId": "ms72qk883xmskd3bhe1apmrbdn85prpf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-2-beta-decay",
+    "topicTitle": "22.3.2 Beta Decay",
+    "_id": "k978evt89vyp5617dqkasyhkx585pmjr",
+    "correctKey": "B",
+    "explanation": "In $\\beta^+$ decay, a proton converts to a neutron and emits a positron ($e^+$) and a neutrino ($\\nu$). The neutrino (not antineutrino) is emitted to conserve lepton number: the positron has lepton number $-1$, so the neutrino with lepton number $+1$ balances it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fe2d27phcp789xrr0tvvvsh85qtwg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Antineutrino ($\\bar{\\nu}$)"
+      },
+      {
+        "key": "B",
+        "text": "Neutrino ($\\nu$)"
+      },
+      {
+        "key": "C",
+        "text": "Alpha particle"
+      },
+      {
+        "key": "D",
+        "text": "Gamma photon"
+      }
+    ],
+    "sectionId": "types-of-beta-decay",
+    "sectionLabel": "Types of Beta Decay",
+    "stem": "Which particle is emitted along with a positron in $\\beta^+$ decay?",
+    "topicId": "ms72qk883xmskd3bhe1apmrbdn85prpf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-3-gamma-decay",
+    "topicTitle": "22.3.3 Gamma Decay",
+    "_id": "k97dks2d2fktsbx6f19a7bynq18bk7rf",
+    "correctKey": "C",
+    "explanation": "A gamma photon carries no charge and no mass, so the parent and daughter nuclei are the same nuclide: Delta Z = 0 and Delta A = 0.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecs215zx50r86z9xghdcbvs85q7jr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Delta Z = -2, Delta A = -4"
+      },
+      {
+        "key": "B",
+        "text": "Delta Z = +1, Delta A = 0"
+      },
+      {
+        "key": "C",
+        "text": "Delta Z = 0, Delta A = 0"
+      },
+      {
+        "key": "D",
+        "text": "Delta Z = 0, Delta A = -1"
+      }
+    ],
+    "sectionId": "change-in-atomic-number-and-mass-number",
+    "sectionLabel": "Change in Atomic Number and Mass Number",
+    "stem": "In gamma decay, the changes in atomic number (Delta Z) and mass number (Delta A) are:",
+    "topicId": "ms7ft5wkcpdk60q1hj52x05g6h85p15h"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-3-gamma-decay",
+    "topicTitle": "22.3.3 Gamma Decay",
+    "_id": "k971enfw5g7jq5m9jss19hvccd8bk406",
+    "correctKey": "B",
+    "explanation": "Gamma emission from an excited nucleus is spontaneous and random, like all radioactive decay: it is impossible to predict exactly when a specific excited nucleus will emit its gamma photon, only the probability of decay per unit time (decay constant) can be stated.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecs215zx50r86z9xghdcbvs85q7jr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Immediately, always at a fixed time delay"
+      },
+      {
+        "key": "B",
+        "text": "This cannot be predicted for any individual nucleus, only a probability per unit time is known"
+      },
+      {
+        "key": "C",
+        "text": "Only when triggered by an external photon"
+      },
+      {
+        "key": "D",
+        "text": "Only when the sample is heated"
+      }
+    ],
+    "sectionId": "spontaneous-and-random-nature",
+    "sectionLabel": "Spontaneous and Random Nature",
+    "stem": "After a daughter nucleus is left in an excited state by alpha or beta decay, when will it emit its gamma photon?",
+    "topicId": "ms7ft5wkcpdk60q1hj52x05g6h85p15h"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-3-gamma-decay",
+    "topicTitle": "22.3.3 Gamma Decay",
+    "_id": "k97d5wym2vryrd4nwdk3anc4018bk7fw",
+    "correctKey": "A",
+    "explanation": "After alpha or beta decay, the daughter nucleus is often left in an excited state above its ground state; it releases this excess energy by emitting a gamma photon, without changing its identity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecs215zx50r86z9xghdcbvs85q7jr",
+    "options": [
+      {
+        "key": "A",
+        "text": "The daughter nucleus is often left in an excited state and releases the excess energy as a gamma photon"
+      },
+      {
+        "key": "B",
+        "text": "Gamma decay always occurs before alpha or beta decay"
+      },
+      {
+        "key": "C",
+        "text": "Gamma decay changes the daughter nucleus into a different element"
+      },
+      {
+        "key": "D",
+        "text": "Gamma photons are needed to trigger the alpha or beta decay"
+      }
+    ],
+    "sectionId": "why-does-gamma-decay-occur",
+    "sectionLabel": "Why Does Gamma Decay Occur?",
+    "stem": "Gamma decay typically follows alpha or beta decay because:",
+    "topicId": "ms7ft5wkcpdk60q1hj52x05g6h85p15h"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-4-spontaneous-and-random-nature-of-nuclear-decay",
+    "topicTitle": "22.3.4 Spontaneous and Random Nature of Nuclear Decay",
+    "_id": "k97941bk9jz6ym6fyqn75z01xd85pvgd",
+    "correctKey": "B",
+    "explanation": "The law of decay is derived from the probability of decay, which is only valid for a large number of nuclei due to its random/statistical nature.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72fhmvfqqpkmf9wbj62t3d0185qawm",
+    "options": [
+      {
+        "key": "A",
+        "text": "A deterministic process"
+      },
+      {
+        "key": "B",
+        "text": "A statistical and random process"
+      },
+      {
+        "key": "C",
+        "text": "A chemical reaction"
+      },
+      {
+        "key": "D",
+        "text": "Influenced by gravitational fields"
+      }
+    ],
+    "sectionId": "decay-as-a-statistical-process",
+    "sectionLabel": "Decay as a Statistical Process",
+    "stem": "The mathematical law of radioactive decay ($dN/dt = -\\lambda N$) is based on the assumption that decay is:",
+    "topicId": "ms7ft914yjaf12f436n7xj013x85qwk6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-4-spontaneous-and-random-nature-of-nuclear-decay",
+    "topicTitle": "22.3.4 Spontaneous and Random Nature of Nuclear Decay",
+    "_id": "k97ab6r9ekfhq9xtxg59taw1ed85pqfs",
+    "correctKey": "D",
+    "explanation": "Randomness means that individual decay events are unpredictable and independent of each other.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72fhmvfqqpkmf9wbj62t3d0185qawm",
+    "options": [
+      {
+        "key": "A",
+        "text": "All nuclei in a sample decay at the same time."
+      },
+      {
+        "key": "B",
+        "text": "We can predict which nucleus will decay next if we have a microscope."
+      },
+      {
+        "key": "C",
+        "text": "The decay of a nucleus depends on the decay of its neighbor."
+      },
+      {
+        "key": "D",
+        "text": "It is impossible to predict the exact time of decay for a specific nucleus."
+      }
+    ],
+    "sectionId": "random-nature-of-decay",
+    "sectionLabel": "Random Nature of Decay",
+    "stem": "Which statement best describes the random nature of radioactivity?",
+    "topicId": "ms7ft914yjaf12f436n7xj013x85qwk6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-4-spontaneous-and-random-nature-of-nuclear-decay",
+    "topicTitle": "22.3.4 Spontaneous and Random Nature of Nuclear Decay",
+    "_id": "k97ehv8gdgt009b6jamfb8dxzx85pbsg",
+    "correctKey": "C",
+    "explanation": "Spontaneity in nuclear physics refers to the fact that the decay is independent of external physical or chemical conditions like temperature and pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72fhmvfqqpkmf9wbj62t3d0185qawm",
+    "options": [
+      {
+        "key": "A",
+        "text": "The number of undecayed nuclei present"
+      },
+      {
+        "key": "B",
+        "text": "The type of isotope"
+      },
+      {
+        "key": "C",
+        "text": "Changes in pressure and temperature"
+      },
+      {
+        "key": "D",
+        "text": "The decay constant of the material"
+      }
+    ],
+    "sectionId": "spontaneous-nature-of-decay",
+    "sectionLabel": "Spontaneous Nature of Decay",
+    "stem": "Radioactive decay is a spontaneous process. This implies that the rate of decay is NOT affected by:",
+    "topicId": "ms7ft914yjaf12f436n7xj013x85qwk6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-3-4-spontaneous-and-random-nature-of-nuclear-decay",
+    "topicTitle": "22.3.4 Spontaneous and Random Nature of Nuclear Decay",
+    "_id": "k9791m8z0qb1f20xjczjhztj9s85pgzq",
+    "correctKey": "C",
+    "explanation": "Nuclear decay is spontaneous and unaffected by the physical environment, including pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72fhmvfqqpkmf9wbj62t3d0185qawm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase"
+      },
+      {
+        "key": "B",
+        "text": "Decrease"
+      },
+      {
+        "key": "C",
+        "text": "Remain the same"
+      },
+      {
+        "key": "D",
+        "text": "Become zero"
+      }
+    ],
+    "sectionId": "spontaneous-nature-of-decay",
+    "sectionLabel": "Spontaneous Nature of Decay",
+    "stem": "If a radioactive sample is moved from a vacuum to a high-pressure chamber, its half-life will:",
+    "topicId": "ms7ft914yjaf12f436n7xj013x85qwk6"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-half-life-and-rate-of-decay",
+    "topicTitle": "22.4 Half-Life and Rate of Decay",
+    "_id": "k976hreyawjem9gt3js6nb9y6d85qdcb",
+    "correctKey": "C",
+    "explanation": "Using the formula $N = N_0(1/2)^n$, where $n=3$: $400 \\times (1/2)^3 = 400/8 = 50\\text{ g}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74mabxw5nqqbjrj2b7mjym3185pb2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "200 g"
+      },
+      {
+        "key": "B",
+        "text": "100 g"
+      },
+      {
+        "key": "C",
+        "text": "50 g"
+      },
+      {
+        "key": "D",
+        "text": "25 g"
+      }
+    ],
+    "sectionId": "decay-after-n-half-lives",
+    "sectionLabel": "Decay After $n$ Half-Lives",
+    "stem": "The quantity of uranium is $400\\text{ g}$, the amount of uranium left after three half-lives is:",
+    "topicId": "ms7fbmb4sbdzff2q2w58z0nrh985qv66"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-half-life-and-rate-of-decay",
+    "topicTitle": "22.4 Half-Life and Rate of Decay",
+    "_id": "k97d59wmj89bjt70ktn3nfbmxx85qsv3",
+    "correctKey": "C",
+    "explanation": "After 2 half-lives ($20/10 = 2$), the fraction remaining is $(1/2)^2 = 1/4$ (25%). Therefore, the amount decayed is $100\\% - 25\\% = 75\\%$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74mabxw5nqqbjrj2b7mjym3185pb2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "25%"
+      },
+      {
+        "key": "B",
+        "text": "50%"
+      },
+      {
+        "key": "C",
+        "text": "75%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
+    ],
+    "sectionId": "decay-after-n-half-lives",
+    "sectionLabel": "Decay After $n$ Half-Lives",
+    "stem": "If a radioactive sample has a half-life of 10 minutes, what percentage of the sample will have decayed after 20 minutes?",
+    "topicId": "ms7fbmb4sbdzff2q2w58z0nrh985qv66"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-half-life-and-rate-of-decay",
+    "topicTitle": "22.4 Half-Life and Rate of Decay",
+    "_id": "k9705g4ef3sj9fhvbex6epr7ah85q7ez",
+    "correctKey": "B",
+    "explanation": "Half-life and decay constant are inversely proportional. High $\\lambda$ implies rapid decay and short $T_{1/2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74mabxw5nqqbjrj2b7mjym3185pb2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "Very long half-life"
+      },
+      {
+        "key": "B",
+        "text": "Very short half-life"
+      },
+      {
+        "key": "C",
+        "text": "Zero half-life"
+      },
+      {
+        "key": "D",
+        "text": "Infinite half-life"
+      }
+    ],
+    "sectionId": "half-life-t_12",
+    "sectionLabel": "Half-Life ($T_{1/2}$)",
+    "stem": "A substance with a very large decay constant $\\lambda$ will have a:",
+    "topicId": "ms7fbmb4sbdzff2q2w58z0nrh985qv66"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-half-life-and-rate-of-decay",
+    "topicTitle": "22.4 Half-Life and Rate of Decay",
+    "_id": "k97craf9yeexn96w0bt3zw8w898bpfwr",
+    "correctKey": "B",
+    "explanation": "A constant probability of decay per unit time gives $dN/dt=-\\lambda N$, whose solution is $N=N_0e^{-\\lambda t}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74mabxw5nqqbjrj2b7mjym3185pb2q",
+    "options": [
+      {
+        "key": "A",
+        "text": "$N=N_0+\\lambda t$"
+      },
+      {
+        "key": "B",
+        "text": "$N=N_0e^{-\\lambda t}$"
+      },
+      {
+        "key": "C",
+        "text": "$N=\\lambda N_0t$"
+      },
+      {
+        "key": "D",
+        "text": "$N=N_0(1+e^{-\\lambda t})$"
+      }
+    ],
+    "sectionId": "summary-of-key-equations",
+    "sectionLabel": "Summary of Key Equations",
+    "stem": "Which equation shows that the number of undecayed radioactive nuclei falls exponentially with time?",
+    "topicId": "ms7fbmb4sbdzff2q2w58z0nrh985qv66"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-1-exponential-nature-of-nuclear-decay",
+    "topicTitle": "22.4.1 Exponential Nature of Nuclear Decay",
+    "_id": "k975dz49xtcvem0r06dry6aan58bkaak",
+    "correctKey": "C",
+    "explanation": "Since A = lambda*N and lambda is constant, activity decreases as N (the number of remaining undecayed nuclei) decreases over time.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7akt92hybt1d1j1h0atnyv7x85prkn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increases, since more nuclei have already decayed"
+      },
+      {
+        "key": "B",
+        "text": "Stays constant, since lambda is fixed"
+      },
+      {
+        "key": "C",
+        "text": "Decreases, since N (the number of undecayed nuclei) decreases"
+      },
+      {
+        "key": "D",
+        "text": "Becomes negative"
+      }
+    ],
+    "sectionId": "activity-a",
+    "sectionLabel": "Activity ($A$)",
+    "stem": "As a radioactive sample decays over time, its activity A = lambda*N:",
+    "topicId": "ms74y8tcvra2zzs70vmpypy8hn85qcj1"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-1-exponential-nature-of-nuclear-decay",
+    "topicTitle": "22.4.1 Exponential Nature of Nuclear Decay",
+    "_id": "k973w5jkcc8np0v542kk6yywcd8bk0ss",
+    "correctKey": "B",
+    "explanation": "Solving dN/dt = -lambda*N gives the exponential decay law N = N0 * e^(-lambda*t).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7akt92hybt1d1j1h0atnyv7x85prkn",
+    "options": [
+      {
+        "key": "A",
+        "text": "N = N0 - lambda*t"
+      },
+      {
+        "key": "B",
+        "text": "N = N0 * e^(-lambda*t)"
+      },
+      {
+        "key": "C",
+        "text": "N = N0 * lambda * t"
+      },
+      {
+        "key": "D",
+        "text": "N = N0 / (lambda*t)"
+      }
+    ],
+    "sectionId": "exponential-nature-of-decay",
+    "sectionLabel": "Exponential Nature of Decay",
+    "stem": "The exponential decay equation for the number of undecayed nuclei N at time t is:",
+    "topicId": "ms74y8tcvra2zzs70vmpypy8hn85qcj1"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-1-exponential-nature-of-nuclear-decay",
+    "topicTitle": "22.4.1 Exponential Nature of Nuclear Decay",
+    "_id": "k97182c9rg8gv25q2vh1dfrern8bjp2j",
+    "correctKey": "C",
+    "explanation": "The decay constant lambda is an intrinsic property of the nuclide, representing the probability of decay per unit time; it does not change with external conditions or with the age of the sample.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7akt92hybt1d1j1h0atnyv7x85prkn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increases with temperature"
+      },
+      {
+        "key": "B",
+        "text": "Decreases with pressure"
+      },
+      {
+        "key": "C",
+        "text": "Is a fixed constant, unaffected by temperature, pressure, or chemical state"
+      },
+      {
+        "key": "D",
+        "text": "Changes as the sample ages"
+      }
+    ],
+    "sectionId": "the-decay-constant-lambda",
+    "sectionLabel": "The Decay Constant ($\\lambda$)",
+    "stem": "The decay constant lambda of a given radioactive nuclide:",
+    "topicId": "ms74y8tcvra2zzs70vmpypy8hn85qcj1"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-2-relation-between-decay-constant-and-half-life",
+    "topicTitle": "22.4.2 Decay Constant and Half-Life Relation",
+    "_id": "k9799gs4vrv21tmte7rsh82tc98bjygs",
+    "correctKey": "C",
+    "explanation": "The fraction remaining after n half-lives is ($\\frac{1}{2}$)^n. For n=4, ($\\frac{1}{2}$)^4 = $\\frac{1}{16}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77ay80w0q54qbf1fmmfnkz5n85pvv7",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{8}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{16}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{2}$"
+      }
+    ],
+    "sectionId": "2-half-life-t_12",
+    "sectionLabel": "2. Half-Life ($T_{1/2}$)",
+    "stem": "After 4 half-lives, what fraction of the original number of undecayed nuclei remains?",
+    "topicId": "ms72d4fwstxgk1045bfgst96q185pj33"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-2-relation-between-decay-constant-and-half-life",
+    "topicTitle": "22.4.2 Decay Constant and Half-Life Relation",
+    "_id": "k970hxyvgq1d6zaxtbf2ga4r5n8bk150",
+    "correctKey": "B",
+    "explanation": "From $T_{1}$/2 = ln(2)/lambda, the product lambda * $T_{1}$/2 = ln(2) ~= 0.693 for every radioactive nuclide.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77ay80w0q54qbf1fmmfnkz5n85pvv7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Always equal to 1"
+      },
+      {
+        "key": "B",
+        "text": "Always equal to ln(2) ~= 0.693"
+      },
+      {
+        "key": "C",
+        "text": "Different for every nuclide with no fixed value"
+      },
+      {
+        "key": "D",
+        "text": "Equal to the activity"
+      }
+    ],
+    "sectionId": "3-deriving-the-relationship-between-t_12-and-lambda",
+    "sectionLabel": "3. Deriving the Relationship Between $T_{1/2}$ and $\\lambda$",
+    "stem": "For any radioactive nuclide, the product of its decay constant and half-life (lambda * $T_{1}$/2) is:",
+    "topicId": "ms72d4fwstxgk1045bfgst96q185pj33"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-4-2-relation-between-decay-constant-and-half-life",
+    "topicTitle": "22.4.2 Decay Constant and Half-Life Relation",
+    "_id": "k97fcascqsvwe7fx66cgca9k058bk0fd",
+    "correctKey": "C",
+    "explanation": "$T_{1}$/2 = 0.693/lambda = 0.$\\frac{693}{0}$.0231 ~= 30 s.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77ay80w0q54qbf1fmmfnkz5n85pvv7",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 s"
+      },
+      {
+        "key": "B",
+        "text": "15 s"
+      },
+      {
+        "key": "C",
+        "text": "30 s"
+      },
+      {
+        "key": "D",
+        "text": "60 s"
+      }
+    ],
+    "sectionId": "5-worked-examples",
+    "sectionLabel": "5. Worked Examples",
+    "stem": "A radioactive isotope has a decay constant lambda = 0.0231 /s. Its half-life is approximately:",
+    "topicId": "ms72d4fwstxgk1045bfgst96q185pj33"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-nuclear-reactions",
+    "topicTitle": "22.5 Nuclear Reactions",
+    "_id": "k9722x5qyn7vnzcrxbhnbm65jd85qf4r",
+    "correctKey": "C",
+    "explanation": "The Sun generates energy through the proton-proton chain, a series of fusion reactions that convert Hydrogen into Helium.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx743zbn9x0sd1fdmnrx28mn3d85q70w",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nuclear Fission"
+      },
+      {
+        "key": "B",
+        "text": "Chemical Combustion"
+      },
+      {
+        "key": "C",
+        "text": "Nuclear Fusion"
+      },
+      {
+        "key": "D",
+        "text": "Radioactive Decay"
+      }
+    ],
+    "sectionId": "what-is-nuclear-fusion",
+    "sectionLabel": "What is Nuclear Fusion?",
+    "stem": "Which of the following is the primary energy source of the Sun?",
+    "topicId": "ms7ehywfrventcvyaaxf185zt185qvc3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-nuclear-reactions",
+    "topicTitle": "22.5 Nuclear Reactions",
+    "_id": "k973y5b8mw2eqd6esangn9vb3h8bjwnw",
+    "correctKey": "B",
+    "explanation": "Energy is released whenever the products end up more tightly bound (higher B.E./A) than the reactants, since the excess binding energy appears as released kinetic energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx743zbn9x0sd1fdmnrx28mn3d85q70w",
+    "options": [
+      {
+        "key": "A",
+        "text": "The products have lower binding energy per nucleon than the reactants"
+      },
+      {
+        "key": "B",
+        "text": "The products have higher binding energy per nucleon than the reactants"
+      },
+      {
+        "key": "C",
+        "text": "The mass number is conserved"
+      },
+      {
+        "key": "D",
+        "text": "Momentum is conserved"
+      }
+    ],
+    "sectionId": "binding-energy-and-nuclear-reactions",
+    "sectionLabel": "Binding Energy and Nuclear Reactions",
+    "stem": "A nuclear reaction releases energy whenever:",
+    "topicId": "ms7ehywfrventcvyaaxf185zt185qvc3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-nuclear-reactions",
+    "topicTitle": "22.5 Nuclear Reactions",
+    "_id": "k97arm598amyr2b8d8g7k7h21985pkes",
+    "correctKey": "B",
+    "explanation": "Each fission event of $^{235}_{92}\\text{U}$ yields an average of about 2.47 neutrons, which can trigger further reactions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx743zbn9x0sd1fdmnrx28mn3d85q70w",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2 to 3"
+      },
+      {
+        "key": "C",
+        "text": "Exactly 5"
+      },
+      {
+        "key": "D",
+        "text": "None"
+      }
+    ],
+    "sectionId": "nuclear-fission",
+    "sectionLabel": "Nuclear Fission",
+    "stem": "On average, how many neutrons are released per fission of a $^{235}_{92}\\text{U}$ nucleus?",
+    "topicId": "ms7ehywfrventcvyaaxf185zt185qvc3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-nuclear-reactions",
+    "topicTitle": "22.5 Nuclear Reactions",
+    "_id": "k97241cqwtj205kydbj4ex301d85p0yd",
+    "correctKey": "A",
+    "explanation": "The capture of a neutron ($^1_0n$) by $^{235}_{92}\\text{U}$ increases the mass number by 1, forming the highly unstable $^{236}_{92}\\text{U}^*$ which then undergoes fission.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx743zbn9x0sd1fdmnrx28mn3d85q70w",
+    "options": [
+      {
+        "key": "A",
+        "text": "$^{236}_{92}\\text{U}$"
+      },
+      {
+        "key": "B",
+        "text": "$^{234}_{92}\\text{U}$"
+      },
+      {
+        "key": "C",
+        "text": "$^{239}_{94}\\text{Pu}$"
+      },
+      {
+        "key": "D",
+        "text": "$^{238}_{92}\\text{U}$"
+      }
+    ],
+    "sectionId": "nuclear-fission",
+    "sectionLabel": "Nuclear Fission",
+    "stem": "When a $^{235}_{92}\\text{U}$ nucleus captures a slow neutron, it first becomes an unstable intermediate isotope of:",
+    "topicId": "ms7ehywfrventcvyaaxf185zt185qvc3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-nuclear-reactions",
+    "topicTitle": "22.5 Nuclear Reactions",
+    "_id": "k976xbh67ncw1mb1k9ke9f2y5n85q26r",
+    "correctKey": "C",
+    "explanation": "High kinetic energy is needed for nuclei to get close enough for the strong nuclear force to take over, overcoming electrostatic repulsion.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx743zbn9x0sd1fdmnrx28mn3d85q70w",
+    "options": [
+      {
+        "key": "A",
+        "text": "$10^3$ K"
+      },
+      {
+        "key": "B",
+        "text": "$10^5$ K"
+      },
+      {
+        "key": "C",
+        "text": "$10^7$ K"
+      },
+      {
+        "key": "D",
+        "text": "$10^{12}$ K"
+      }
+    ],
+    "sectionId": "nuclear-fusion",
+    "sectionLabel": "Nuclear Fusion",
+    "stem": "The temperature required for nuclear fusion is in the order of:",
+    "topicId": "ms7ehywfrventcvyaaxf185zt185qvc3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-nuclear-reactions",
+    "topicTitle": "22.5 Nuclear Reactions",
+    "_id": "k97dbhc4snjk120hm5ak5eakrd85q8z7",
+    "correctKey": "C",
+    "explanation": "Neutrons lack charge and thus do not face the Coulomb barrier that repels positively charged particles like protons or alpha particles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx743zbn9x0sd1fdmnrx28mn3d85q70w",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alpha particle"
+      },
+      {
+        "key": "B",
+        "text": "Proton"
+      },
+      {
+        "key": "C",
+        "text": "Neutron"
+      },
+      {
+        "key": "D",
+        "text": "Deuteron"
+      }
+    ],
+    "sectionId": "transmutation",
+    "sectionLabel": "Transmutation",
+    "stem": "Which particle is most likely to be captured by a nucleus to initiate a reaction without needing high kinetic energy to overcome a potential barrier?",
+    "topicId": "ms7ehywfrventcvyaaxf185zt185qvc3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-1-nuclear-fusion",
+    "topicTitle": "22.5.1 Nuclear Fusion",
+    "_id": "k9702r9ykxk8z46rnh8nxv5q1n8bk610",
+    "correctKey": "B",
+    "explanation": "E (MeV) = $Delta_m$ (u) * 931.5 MeV/u = 0.01888 * 931.5 ~= 17.6 MeV.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73f9jwes5yrz9fp53qx1pcv585qjvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.76 MeV"
+      },
+      {
+        "key": "B",
+        "text": "17.6 MeV"
+      },
+      {
+        "key": "C",
+        "text": "176 MeV"
+      },
+      {
+        "key": "D",
+        "text": "0.0189 MeV"
+      }
+    ],
+    "sectionId": "calculating-energy-released",
+    "sectionLabel": "Calculating Energy Released",
+    "stem": "In the D-T fusion reaction, the mass defect is about 0.01888 u. The energy released is approximately:",
+    "topicId": "ms76dgpg0yknfv4axzqvrxd02185qmak"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-1-nuclear-fusion",
+    "topicTitle": "22.5.1 Nuclear Fusion",
+    "_id": "k976xbh67ncw1mb1k9ke9f2y5n85q26r",
+    "correctKey": "C",
+    "explanation": "High kinetic energy is needed for nuclei to get close enough for the strong nuclear force to take over, overcoming electrostatic repulsion.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73f9jwes5yrz9fp53qx1pcv585qjvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "$10^3$ K"
+      },
+      {
+        "key": "B",
+        "text": "$10^5$ K"
+      },
+      {
+        "key": "C",
+        "text": "$10^7$ K"
+      },
+      {
+        "key": "D",
+        "text": "$10^{12}$ K"
+      }
+    ],
+    "sectionId": "conditions-required-for-fusion",
+    "sectionLabel": "Conditions Required for Fusion",
+    "stem": "The temperature required for nuclear fusion is in the order of:",
+    "topicId": "ms76dgpg0yknfv4axzqvrxd02185qmak"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-1-nuclear-fusion",
+    "topicTitle": "22.5.1 Nuclear Fusion",
+    "_id": "k97cns8sbe1mt997qm3zr2tvex8bkkdg",
+    "correctKey": "B",
+    "explanation": "Fusion of light nuclei like deuterium and tritium produces helium, which is non-radioactive, unlike fission's radioactive medium-mass fragments.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73f9jwes5yrz9fp53qx1pcv585qjvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "More radioactive"
+      },
+      {
+        "key": "B",
+        "text": "Non-radioactive (helium)"
+      },
+      {
+        "key": "C",
+        "text": "Identical in radioactivity"
+      },
+      {
+        "key": "D",
+        "text": "Impossible to produce"
+      }
+    ],
+    "sectionId": "fusion-vs-fission-summary",
+    "sectionLabel": "Fusion vs. Fission: Summary",
+    "stem": "Compared to nuclear fission, nuclear fusion produces waste products that are:",
+    "topicId": "ms76dgpg0yknfv4axzqvrxd02185qmak"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-1-nuclear-fusion",
+    "topicTitle": "22.5.1 Nuclear Fusion",
+    "_id": "k9717ns6axaj7r155hmqfwh9jx85pdfv",
+    "correctKey": "B",
+    "explanation": "The reaction is ${}_{1}^{2}\\text{H} + {}_{1}^{3}\\text{H} \\rightarrow {}_{2}^{4}\\text{He} + {}_{0}^{1}\\text{n}$. A neutron is released to conserve nucleon number (2+3=4+1).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73f9jwes5yrz9fp53qx1pcv585qjvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proton"
+      },
+      {
+        "key": "B",
+        "text": "Neutron"
+      },
+      {
+        "key": "C",
+        "text": "Electron"
+      },
+      {
+        "key": "D",
+        "text": "Alpha particle"
+      }
+    ],
+    "sectionId": "the-deuteriumtritium-d-t-reaction",
+    "sectionLabel": "The Deuterium–Tritium (D-T) Reaction",
+    "stem": "When Deuterium (${}_{1}^{2}\\text{H}$) and Tritium (${}_{1}^{3}\\text{H}$) fuse, the products are Helium-4 and a/an:",
+    "topicId": "ms76dgpg0yknfv4axzqvrxd02185qmak"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-1-nuclear-fusion",
+    "topicTitle": "22.5.1 Nuclear Fusion",
+    "_id": "k9722x5qyn7vnzcrxbhnbm65jd85qf4r",
+    "correctKey": "C",
+    "explanation": "The Sun generates energy through the proton-proton chain, a series of fusion reactions that convert Hydrogen into Helium.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73f9jwes5yrz9fp53qx1pcv585qjvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nuclear Fission"
+      },
+      {
+        "key": "B",
+        "text": "Chemical Combustion"
+      },
+      {
+        "key": "C",
+        "text": "Nuclear Fusion"
+      },
+      {
+        "key": "D",
+        "text": "Radioactive Decay"
+      }
+    ],
+    "sectionId": "what-is-nuclear-fusion",
+    "sectionLabel": "What is Nuclear Fusion?",
+    "stem": "Which of the following is the primary energy source of the Sun?",
+    "topicId": "ms76dgpg0yknfv4axzqvrxd02185qmak"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-1-nuclear-fusion",
+    "topicTitle": "22.5.1 Nuclear Fusion",
+    "_id": "k97as903wya4aajjgwkjf8e8vs85pfnx",
+    "correctKey": "B",
+    "explanation": "The mass defect ($\\Delta m$) occurs because some mass is converted into binding energy during the formation of the heavier nucleus.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73f9jwes5yrz9fp53qx1pcv585qjvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Greater than the sum of the masses of reactant nuclei"
+      },
+      {
+        "key": "B",
+        "text": "Less than the sum of the masses of reactant nuclei"
+      },
+      {
+        "key": "C",
+        "text": "Equal to the sum of the masses of reactant nuclei"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "why-does-fusion-release-energy",
+    "sectionLabel": "Why Does Fusion Release Energy?",
+    "stem": "In a nuclear fusion reaction, the mass of the product nucleus is:",
+    "topicId": "ms76dgpg0yknfv4axzqvrxd02185qmak"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-3-nuclear-fission",
+    "topicTitle": "22.5.3 Nuclear Fission",
+    "_id": "k97arm598amyr2b8d8g7k7h21985pkes",
+    "correctKey": "B",
+    "explanation": "Each fission event of $^{235}_{92}\\text{U}$ yields an average of about 2.47 neutrons, which can trigger further reactions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bb3qhw9byq0e8xpp1bn9gj185pz0k",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2 to 3"
+      },
+      {
+        "key": "C",
+        "text": "Exactly 5"
+      },
+      {
+        "key": "D",
+        "text": "None"
+      }
+    ],
+    "sectionId": "definition",
+    "sectionLabel": "Definition",
+    "stem": "On average, how many neutrons are released per fission of a $^{235}_{92}\\text{U}$ nucleus?",
+    "topicId": "ms7b4s9k28wtg1qned5jnrcrm985qpmx"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-3-nuclear-fission",
+    "topicTitle": "22.5.3 Nuclear Fission",
+    "_id": "k97241cqwtj205kydbj4ex301d85p0yd",
+    "correctKey": "A",
+    "explanation": "The capture of a neutron ($^1_0n$) by $^{235}_{92}\\text{U}$ increases the mass number by 1, forming the highly unstable $^{236}_{92}\\text{U}^*$ which then undergoes fission.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bb3qhw9byq0e8xpp1bn9gj185pz0k",
+    "options": [
+      {
+        "key": "A",
+        "text": "$^{236}_{92}\\text{U}$"
+      },
+      {
+        "key": "B",
+        "text": "$^{234}_{92}\\text{U}$"
+      },
+      {
+        "key": "C",
+        "text": "$^{239}_{94}\\text{Pu}$"
+      },
+      {
+        "key": "D",
+        "text": "$^{238}_{92}\\text{U}$"
+      }
+    ],
+    "sectionId": "definition",
+    "sectionLabel": "Definition",
+    "stem": "When a $^{235}_{92}\\text{U}$ nucleus captures a slow neutron, it first becomes an unstable intermediate isotope of:",
+    "topicId": "ms7b4s9k28wtg1qned5jnrcrm985qpmx"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-3-nuclear-fission",
+    "topicTitle": "22.5.3 Nuclear Fission",
+    "_id": "k978jdasjzt0vra3kcd946jyr98bjhfd",
+    "correctKey": "C",
+    "explanation": "A fission event releases ~200 MeV vs ~10 eV for a typical chemical reaction: 200*10^6 eV / 10 eV = 2*10^7, about 20 million times more.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bb3qhw9byq0e8xpp1bn9gj185pz0k",
+    "options": [
+      {
+        "key": "A",
+        "text": "About 20 times more"
+      },
+      {
+        "key": "B",
+        "text": "About 2,000 times more"
+      },
+      {
+        "key": "C",
+        "text": "About 20 million times more"
+      },
+      {
+        "key": "D",
+        "text": "About the same amount"
+      }
+    ],
+    "sectionId": "fission-energy-vs-chemical-energy",
+    "sectionLabel": "Fission Energy vs. Chemical Energy",
+    "stem": "Roughly how much more energy does a single nuclear fission event release compared to a typical chemical reaction (per reaction event)?",
+    "topicId": "ms7b4s9k28wtg1qned5jnrcrm985qpmx"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-5-3-nuclear-fission",
+    "topicTitle": "22.5.3 Nuclear Fission",
+    "_id": "k97bkcnxwyhefndytw5s6q302x85p1ms",
+    "correctKey": "C",
+    "explanation": "A typical fission reaction is: $^{235}_{92}\\text{U} + ^1_0n \\rightarrow ^{141}_{56}\\text{Ba} + ^{92}_{36}\\text{Kr} + 3^1_0n + Q$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bb3qhw9byq0e8xpp1bn9gj185pz0k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hydrogen and Helium"
+      },
+      {
+        "key": "B",
+        "text": "Carbon and Oxygen"
+      },
+      {
+        "key": "C",
+        "text": "Barium and Krypton"
+      },
+      {
+        "key": "D",
+        "text": "Lead and Gold"
+      }
+    ],
+    "sectionId": "fission-products",
+    "sectionLabel": "Fission Products",
+    "stem": "Which of the following pairs are common fission fragments of $^{235}_{92}\\text{U}$?",
+    "topicId": "ms7b4s9k28wtg1qned5jnrcrm985qpmx"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-6-nuclear-reactors",
+    "topicTitle": "22.6 Nuclear Reactors",
+    "_id": "k97bjmybqedt2c1zjsqdc07jeh85p413",
+    "correctKey": "B",
+    "explanation": "Biological shielding, usually several meters of high-density concrete, protects personnel from intense Gamma rays and neutron flux.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cnz5y657fgg9q26ky8bvex585pb9m",
+    "options": [
+      {
+        "key": "A",
+        "text": "To reflect neutrons back into the core"
+      },
+      {
+        "key": "B",
+        "text": "To prevent the escape of Gamma radiation and neutrons"
+      },
+      {
+        "key": "C",
+        "text": "To keep the reactor core cool"
+      },
+      {
+        "key": "D",
+        "text": "To increase the speed of neutrons"
+      }
+    ],
+    "sectionId": "biological-shielding",
+    "sectionLabel": "Biological Shielding",
+    "stem": "What is the main purpose of the 'Shielding' (thick concrete walls) around a reactor core?",
+    "topicId": "ms71v0jermkrnhvzjbrkdgwx0s85pst7"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-6-nuclear-reactors",
+    "topicTitle": "22.6 Nuclear Reactors",
+    "_id": "k97f21hhk6gkrtamevc6yqaf7185q3zf",
+    "correctKey": "C",
+    "explanation": "Inserting control rods fully into the core maximizes neutron absorption, dropping the multiplication factor below 1 and stopping the chain reaction.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cnz5y657fgg9q26ky8bvex585pb9m",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fully withdrawn from the core"
+      },
+      {
+        "key": "B",
+        "text": "Replaced with fuel rods"
+      },
+      {
+        "key": "C",
+        "text": "Fully inserted into the core"
+      },
+      {
+        "key": "D",
+        "text": "Heated to high temperatures"
+      }
+    ],
+    "sectionId": "control-rods",
+    "sectionLabel": "Control Rods",
+    "stem": "To shut down a nuclear reactor immediately (SCRAM), the control rods should be:",
+    "topicId": "ms71v0jermkrnhvzjbrkdgwx0s85pst7"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-6-nuclear-reactors",
+    "topicTitle": "22.6 Nuclear Reactors",
+    "_id": "k97141cz54tsre3strkg543b6h85p8nn",
+    "correctKey": "B",
+    "explanation": "For a steady power output (critical state), each fission event must trigger exactly one subsequent fission, meaning $k=1$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cnz5y657fgg9q26ky8bvex585pb9m",
+    "options": [
+      {
+        "key": "A",
+        "text": "k < 1"
+      },
+      {
+        "key": "B",
+        "text": "k = 1"
+      },
+      {
+        "key": "C",
+        "text": "k > 1"
+      },
+      {
+        "key": "D",
+        "text": "k = 0"
+      }
+    ],
+    "sectionId": "control-rods",
+    "sectionLabel": "Control Rods",
+    "stem": "In a controlled nuclear chain reaction, the multiplication factor ($k$) is maintained at:",
+    "topicId": "ms71v0jermkrnhvzjbrkdgwx0s85pst7"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-6-nuclear-reactors",
+    "topicTitle": "22.6 Nuclear Reactors",
+    "_id": "k977ktvna4fmrvhspyr4kdaxzx85q40j",
+    "correctKey": "B",
+    "explanation": "Heavy water is an excellent moderator because it has a low neutron absorption cross-section and effectively slows down neutrons through elastic collisions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cnz5y657fgg9q26ky8bvex585pb9m",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cadmium"
+      },
+      {
+        "key": "B",
+        "text": "Heavy Water ($D_2O$)"
+      },
+      {
+        "key": "C",
+        "text": "Liquid Sodium"
+      },
+      {
+        "key": "D",
+        "text": "Boron Steel"
+      }
+    ],
+    "sectionId": "moderator",
+    "sectionLabel": "Moderator",
+    "stem": "Which of the following materials is most commonly used as a moderator in a nuclear reactor?",
+    "topicId": "ms71v0jermkrnhvzjbrkdgwx0s85pst7"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-6-nuclear-reactors",
+    "topicTitle": "22.6 Nuclear Reactors",
+    "_id": "k97671k6rrtk2m10gm9hwg5tx58bjx92",
+    "correctKey": "B",
+    "explanation": "Reactor-grade enrichment is about 3-5% U-235, compared to natural uranium's ~0.7% and weapons-grade at >90%.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cnz5y657fgg9q26ky8bvex585pb9m",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.7%"
+      },
+      {
+        "key": "B",
+        "text": "3-5%"
+      },
+      {
+        "key": "C",
+        "text": "20%"
+      },
+      {
+        "key": "D",
+        "text": ">90%"
+      }
+    ],
+    "sectionId": "uranium-enrichment",
+    "sectionLabel": "Uranium Enrichment",
+    "stem": "Typical reactor-grade uranium enrichment (used in power reactors) has a U-235 concentration of approximately:",
+    "topicId": "ms71v0jermkrnhvzjbrkdgwx0s85pst7"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-7-energy-in-annihilation-reactions",
+    "topicTitle": "22.7 Energy in Annihilation Reactions",
+    "_id": "k97466s1ya84sb1x6360r0vg9985q3p4",
+    "correctKey": "C",
+    "explanation": "Since the initial total momentum of the electron-positron pair (at rest) is zero, the two photons must move in opposite directions so their vector sum of momentum remains zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bbwvv9ax53zrj15412agk8s85p1p1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Charge"
+      },
+      {
+        "key": "B",
+        "text": "Mass"
+      },
+      {
+        "key": "C",
+        "text": "Linear Momentum"
+      },
+      {
+        "key": "D",
+        "text": "Angular Momentum"
+      }
+    ],
+    "sectionId": "step-3-electron-positron-annihilation",
+    "sectionLabel": "Step 3: Electron-Positron Annihilation",
+    "stem": "During electron-positron annihilation, the two photons produced must travel in opposite directions to conserve:",
+    "topicId": "ms7f7h83pw9zzjp1skd1yk06j985pnz5"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-7-energy-in-annihilation-reactions",
+    "topicTitle": "22.7 Energy in Annihilation Reactions",
+    "_id": "k97bbsjdvrz6er44js6vv312ad8bkreg",
+    "correctKey": "B",
+    "explanation": "At rest, the total energy 2*m0*$c^{2}$ = 1.022 MeV is shared equally between the two photons, giving 0.511 MeV each. Any kinetic energy of the initial particles would add to this minimum.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bbwvv9ax53zrj15412agk8s85p1p1",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.256 MeV"
+      },
+      {
+        "key": "B",
+        "text": "0.511 MeV"
+      },
+      {
+        "key": "C",
+        "text": "1.022 MeV"
+      },
+      {
+        "key": "D",
+        "text": "1.632 MeV"
+      }
+    ],
+    "sectionId": "calculating-the-energy-of-the-gamma-photons",
+    "sectionLabel": "Calculating the Energy of the Gamma Photons",
+    "stem": "If an electron and positron at rest annihilate, what is the minimum possible energy of each emitted gamma photon?",
+    "topicId": "ms7f7h83pw9zzjp1skd1yk06j985pnz5"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-7-energy-in-annihilation-reactions",
+    "topicTitle": "22.7 Energy in Annihilation Reactions",
+    "_id": "k97032d6ascq50f6nm0eyxccqs8bj16b",
+    "correctKey": "B",
+    "explanation": "A positron has the same mass and rest energy as an electron, but opposite (positive) charge.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bbwvv9ax53zrj15412agk8s85p1p1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mass"
+      },
+      {
+        "key": "B",
+        "text": "Charge"
+      },
+      {
+        "key": "C",
+        "text": "Spin"
+      },
+      {
+        "key": "D",
+        "text": "Rest energy"
+      }
+    ],
+    "sectionId": "the-positron",
+    "sectionLabel": "The Positron",
+    "stem": "A positron differs from an electron in which property?",
+    "topicId": "ms7f7h83pw9zzjp1skd1yk06j985pnz5"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k97466s1ya84sb1x6360r0vg9985q3p4",
+    "correctKey": "C",
+    "explanation": "Since the initial total momentum of the electron-positron pair (at rest) is zero, the two photons must move in opposite directions so their vector sum of momentum remains zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Charge"
+      },
+      {
+        "key": "B",
+        "text": "Mass"
+      },
+      {
+        "key": "C",
+        "text": "Linear Momentum"
+      },
+      {
+        "key": "D",
+        "text": "Angular Momentum"
+      }
+    ],
+    "sectionId": "step-3-electron-positron-annihilation",
+    "sectionLabel": "Step 3: Electron-Positron Annihilation",
+    "stem": "During electron-positron annihilation, the two photons produced must travel in opposite directions to conserve:",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k975e594kdseg95kzt2d1fkyts85pmry",
+    "correctKey": "B",
+    "explanation": "Mass-energy equivalence dictates that the annihilation of an electron-positron pair produces two gamma photons of $0.511\\ \\mathrm{MeV}$ each, emitted back-to-back to conserve momentum.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "A single high-energy X-ray"
+      },
+      {
+        "key": "B",
+        "text": "Two gamma-ray photons moving in opposite directions"
+      },
+      {
+        "key": "C",
+        "text": "A proton and a neutron"
+      },
+      {
+        "key": "D",
+        "text": "A stable helium nucleus"
+      }
+    ],
+    "sectionId": "energy-of-gamma-photons-in-annihilation-p-12-f-41",
+    "sectionLabel": "Energy of Gamma Photons in Annihilation (P-12-F-41)",
+    "stem": "When a positron meets an electron inside the body, they undergo annihilation. What is the result of this process?",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k97djpgt4rzk66j2xz6k5qj6t585qdy8",
+    "correctKey": "C",
+    "explanation": "To act as a tracer, the radiation must penetrate the body tissues to reach external detectors. Gamma radiation is ideal for this purpose.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "It must be a stable isotope."
+      },
+      {
+        "key": "B",
+        "text": "It must have a very long half-life (years)."
+      },
+      {
+        "key": "C",
+        "text": "It must emit radiation that can be detected outside the body."
+      },
+      {
+        "key": "D",
+        "text": "It must be a strong alpha emitter."
+      }
+    ],
+    "sectionId": "medical-tracers",
+    "sectionLabel": "Medical Tracers",
+    "stem": "Which of the following properties is essential for a radioisotope to be used as an effective medical tracer?",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k975rsmk6835694q7p277yst5s85qhba",
+    "correctKey": "A",
+    "explanation": "Tc-99m is ideal because its 6-hour half-life is long enough for imaging but short enough to minimise radiation dose; it emits low-energy gamma rays detectable by external cameras; and it can be chemically attached to various compounds to target specific organs.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "It has a short half-life of 6 hours, emits low-energy gamma rays, and can be bound to many biological molecules."
+      },
+      {
+        "key": "B",
+        "text": "It emits high-energy alpha particles that penetrate tissue easily."
+      },
+      {
+        "key": "C",
+        "text": "It remains in the body for several weeks, allowing repeated imaging."
+      },
+      {
+        "key": "D",
+        "text": "It is a naturally occurring stable element found in the body."
+      }
+    ],
+    "sectionId": "medical-tracers",
+    "sectionLabel": "Medical Tracers",
+    "stem": "Why is Technetium-99m ($^{99m}\\text{Tc}$) the most widely used radioisotope in nuclear medicine imaging?",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k979ttax7cmn3rme3vk82wdchd85pj08",
+    "correctKey": "B",
+    "explanation": "Metastable means the nucleus stays in an excited state for a measurable time before emitting a gamma photon to reach a lower energy state.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Massive"
+      },
+      {
+        "key": "B",
+        "text": "Metastable"
+      },
+      {
+        "key": "C",
+        "text": "Metallic"
+      },
+      {
+        "key": "D",
+        "text": "Molecular"
+      }
+    ],
+    "sectionId": "medical-tracers",
+    "sectionLabel": "Medical Tracers",
+    "stem": "In medical imaging, the 'm' in Technetium-99m stands for:",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k974s3npmbaymbz92bhcjyjs7s85ptj2",
+    "correctKey": "C",
+    "explanation": "Sodium-24 acts as a tracer to monitor blood flow and identify blockages in the circulatory system.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kill cancerous cells in the lungs"
+      },
+      {
+        "key": "B",
+        "text": "Sterilize medical instruments"
+      },
+      {
+        "key": "C",
+        "text": "Locate obstructions or leaks in the circulatory system"
+      },
+      {
+        "key": "D",
+        "text": "Measure the density of bones"
+      }
+    ],
+    "sectionId": "medical-tracers",
+    "sectionLabel": "Medical Tracers",
+    "stem": "Sodium-24 ($^{24}\\text{Na}$) is injected into the bloodstream primarily to:",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k97ewff3xd1dvns4y29dddf31985q85z",
+    "correctKey": "C",
+    "explanation": "PET scanners rely on positron-emitting isotopes. A positron is the antiparticle of an electron.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alpha particles"
+      },
+      {
+        "key": "B",
+        "text": "Beta-minus particles"
+      },
+      {
+        "key": "C",
+        "text": "Positrons (Beta-plus)"
+      },
+      {
+        "key": "D",
+        "text": "Neutrons"
+      }
+    ],
+    "sectionId": "pet-scanner-positron-emission-tomography",
+    "sectionLabel": "PET Scanner (Positron Emission Tomography)",
+    "stem": "In a PET scanner, the tracer injected into the patient's body emits which type of particle?",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k97dwjyjqm3fe67fvs245bhjah85qsrn",
+    "correctKey": "B",
+    "explanation": "Tomography comes from the Greek 'tomos' (slice). It refers to imaging by sections or sectioning through the use of any kind of penetrating wave.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Measure the weight of the organ"
+      },
+      {
+        "key": "B",
+        "text": "Create 3D cross-sectional images of the body"
+      },
+      {
+        "key": "C",
+        "text": "Destroy cancer cells using radiation"
+      },
+      {
+        "key": "D",
+        "text": "Measure the blood pressure of the patient"
+      }
+    ],
+    "sectionId": "pet-scanner-positron-emission-tomography",
+    "sectionLabel": "PET Scanner (Positron Emission Tomography)",
+    "stem": "The 'Tomography' aspect of PET refers to the scanner's ability to:",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k972d2vxjgfv1sc8pjqfhh6xvh8bkhg6",
+    "correctKey": "B",
+    "explanation": "Gamma radiation destroys the DNA of bacteria and microorganisms, killing them without heat or chemicals, and it does not make the instruments themselves radioactive.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "It heats the instruments to kill bacteria; yes it makes them radioactive"
+      },
+      {
+        "key": "B",
+        "text": "It destroys the DNA of bacteria and microorganisms; no, it does not make the instruments radioactive"
+      },
+      {
+        "key": "C",
+        "text": "It coats instruments in a radioactive chemical layer; yes it makes them radioactive"
+      },
+      {
+        "key": "D",
+        "text": "It has no effect on bacteria but disinfects chemically"
+      }
+    ],
+    "sectionId": "sterilisation-of-medical-instruments",
+    "sectionLabel": "Sterilisation of Medical Instruments",
+    "stem": "How does gamma radiation sterilise medical instruments, and does it make the instruments radioactive?",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-medical-uses-of-radiations",
+    "topicTitle": "22.8 Medical Uses of Radiations",
+    "_id": "k972brgexzs62vq4chb5jtkvnd8bjf9j",
+    "correctKey": "B",
+    "explanation": "Rotating the source ensures the beam always intersects the tumour, so the tumour receives a concentrated lethal dose while the dose to any single patch of surrounding healthy tissue stays low.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79s6xx6w6cp0p0q7j80mts8h85pt9x",
+    "options": [
+      {
+        "key": "A",
+        "text": "To reduce the total radiation dose delivered"
+      },
+      {
+        "key": "B",
+        "text": "So the beam always passes through the tumour, concentrating the dose there while sparing surrounding healthy tissue"
+      },
+      {
+        "key": "C",
+        "text": "To make the treatment faster"
+      },
+      {
+        "key": "D",
+        "text": "To convert gamma rays into beta particles"
+      }
+    ],
+    "sectionId": "teletherapy-external-beam-radiotherapy",
+    "sectionLabel": "Teletherapy (External Beam Radiotherapy)",
+    "stem": "In teletherapy (external beam radiotherapy) using Cobalt-60, why is the source rotated around the patient?",
+    "topicId": "ms77ga2k8d2gtzm7g5gwvmn6jh85qszz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-1-medical-tracer",
+    "topicTitle": "22.8.1 Medical Tracer",
+    "_id": "k975rsmk6835694q7p277yst5s85qhba",
+    "correctKey": "A",
+    "explanation": "Tc-99m is ideal because its 6-hour half-life is long enough for imaging but short enough to minimise radiation dose; it emits low-energy gamma rays detectable by external cameras; and it can be chemically attached to various compounds to target specific organs.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d6j6xs4xsj99xefypjqddkn85p3td",
+    "options": [
+      {
+        "key": "A",
+        "text": "It has a short half-life of 6 hours, emits low-energy gamma rays, and can be bound to many biological molecules."
+      },
+      {
+        "key": "B",
+        "text": "It emits high-energy alpha particles that penetrate tissue easily."
+      },
+      {
+        "key": "C",
+        "text": "It remains in the body for several weeks, allowing repeated imaging."
+      },
+      {
+        "key": "D",
+        "text": "It is a naturally occurring stable element found in the body."
+      }
+    ],
+    "sectionId": "common-medical-tracers",
+    "sectionLabel": "Common Medical Tracers",
+    "stem": "Why is Technetium-99m ($^{99m}\\text{Tc}$) the most widely used radioisotope in nuclear medicine imaging?",
+    "topicId": "ms7858j7gfwqwsq030j658kfq985qcra"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-1-medical-tracer",
+    "topicTitle": "22.8.1 Medical Tracer",
+    "_id": "k979ttax7cmn3rme3vk82wdchd85pj08",
+    "correctKey": "B",
+    "explanation": "Metastable means the nucleus stays in an excited state for a measurable time before emitting a gamma photon to reach a lower energy state.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d6j6xs4xsj99xefypjqddkn85p3td",
+    "options": [
+      {
+        "key": "A",
+        "text": "Massive"
+      },
+      {
+        "key": "B",
+        "text": "Metastable"
+      },
+      {
+        "key": "C",
+        "text": "Metallic"
+      },
+      {
+        "key": "D",
+        "text": "Molecular"
+      }
+    ],
+    "sectionId": "common-medical-tracers",
+    "sectionLabel": "Common Medical Tracers",
+    "stem": "In medical imaging, the 'm' in Technetium-99m stands for:",
+    "topicId": "ms7858j7gfwqwsq030j658kfq985qcra"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-1-medical-tracer",
+    "topicTitle": "22.8.1 Medical Tracer",
+    "_id": "k974s3npmbaymbz92bhcjyjs7s85ptj2",
+    "correctKey": "C",
+    "explanation": "Sodium-24 acts as a tracer to monitor blood flow and identify blockages in the circulatory system.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d6j6xs4xsj99xefypjqddkn85p3td",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kill cancerous cells in the lungs"
+      },
+      {
+        "key": "B",
+        "text": "Sterilize medical instruments"
+      },
+      {
+        "key": "C",
+        "text": "Locate obstructions or leaks in the circulatory system"
+      },
+      {
+        "key": "D",
+        "text": "Measure the density of bones"
+      }
+    ],
+    "sectionId": "common-medical-tracers",
+    "sectionLabel": "Common Medical Tracers",
+    "stem": "Sodium-24 ($^{24}\\text{Na}$) is injected into the bloodstream primarily to:",
+    "topicId": "ms7858j7gfwqwsq030j658kfq985qcra"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-1-medical-tracer",
+    "topicTitle": "22.8.1 Medical Tracer",
+    "_id": "k976sqqate14exhm9dyqmng5sd8bkmzq",
+    "correctKey": "C",
+    "explanation": "A cold spot indicates low tracer uptake, suggesting blocked blood flow or reduced organ function in that region.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d6j6xs4xsj99xefypjqddkn85p3td",
+    "options": [
+      {
+        "key": "A",
+        "text": "Very high metabolic activity"
+      },
+      {
+        "key": "B",
+        "text": "Normal, healthy function"
+      },
+      {
+        "key": "C",
+        "text": "Blockage or reduced function"
+      },
+      {
+        "key": "D",
+        "text": "The presence of a moderator"
+      }
+    ],
+    "sectionId": "detection-of-gamma-rays-outside-the-body-slo-p-12-f-42",
+    "sectionLabel": "Detection of Gamma Rays Outside the Body (SLO P-12-F-42)",
+    "stem": "In a gamma camera scintigram, what does a 'cold spot' (an area of low tracer concentration) typically indicate?",
+    "topicId": "ms7858j7gfwqwsq030j658kfq985qcra"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-1-medical-tracer",
+    "topicTitle": "22.8.1 Medical Tracer",
+    "_id": "k97djpgt4rzk66j2xz6k5qj6t585qdy8",
+    "correctKey": "C",
+    "explanation": "To act as a tracer, the radiation must penetrate the body tissues to reach external detectors. Gamma radiation is ideal for this purpose.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7d6j6xs4xsj99xefypjqddkn85p3td",
+    "options": [
+      {
+        "key": "A",
+        "text": "It must be a stable isotope."
+      },
+      {
+        "key": "B",
+        "text": "It must have a very long half-life (years)."
+      },
+      {
+        "key": "C",
+        "text": "It must emit radiation that can be detected outside the body."
+      },
+      {
+        "key": "D",
+        "text": "It must be a strong alpha emitter."
+      }
+    ],
+    "sectionId": "properties-required-of-a-good-medical-tracer",
+    "sectionLabel": "Properties Required of a Good Medical Tracer",
+    "stem": "Which of the following properties is essential for a radioisotope to be used as an effective medical tracer?",
+    "topicId": "ms7858j7gfwqwsq030j658kfq985qcra"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-2-pet-scanner",
+    "topicTitle": "22.8.2 PET Scanner",
+    "_id": "k97ew4d68gm5nt2enewg5dne4n8bk0bp",
+    "correctKey": "B",
+    "explanation": "Every annihilation event produces photons of exactly 0.511 MeV (511 keV) each, a specific energy signature the detectors can use to filter out unrelated background radiation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx774qqn997g92dxzcw0yy7trx85qetf",
+    "options": [
+      {
+        "key": "A",
+        "text": "All background radiation has zero energy"
+      },
+      {
+        "key": "B",
+        "text": "Annihilation photons have a specific, characteristic energy of 511 keV"
+      },
+      {
+        "key": "C",
+        "text": "Background radiation only occurs at night"
+      },
+      {
+        "key": "D",
+        "text": "Annihilation photons travel slower than background radiation"
+      }
+    ],
+    "sectionId": "detection-of-gamma-rays-outside-the-body",
+    "sectionLabel": "Detection of Gamma Rays Outside the Body",
+    "stem": "PET scanner detectors can distinguish true annihilation photons from background radiation because:",
+    "topicId": "ms70wy6k7th6n2w8sx99zpvw2h85q05c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-2-pet-scanner",
+    "topicTitle": "22.8.2 PET Scanner",
+    "_id": "k97ewff3xd1dvns4y29dddf31985q85z",
+    "correctKey": "C",
+    "explanation": "PET scanners rely on positron-emitting isotopes. A positron is the antiparticle of an electron.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx774qqn997g92dxzcw0yy7trx85qetf",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alpha particles"
+      },
+      {
+        "key": "B",
+        "text": "Beta-minus particles"
+      },
+      {
+        "key": "C",
+        "text": "Positrons (Beta-plus)"
+      },
+      {
+        "key": "D",
+        "text": "Neutrons"
+      }
+    ],
+    "sectionId": "step-2-positron-emission-β-decay",
+    "sectionLabel": "Step 2: Positron Emission (β⁺ Decay)",
+    "stem": "In a PET scanner, the tracer injected into the patient's body emits which type of particle?",
+    "topicId": "ms70wy6k7th6n2w8sx99zpvw2h85q05c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-2-pet-scanner",
+    "topicTitle": "22.8.2 PET Scanner",
+    "_id": "k97466s1ya84sb1x6360r0vg9985q3p4",
+    "correctKey": "C",
+    "explanation": "Since the initial total momentum of the electron-positron pair (at rest) is zero, the two photons must move in opposite directions so their vector sum of momentum remains zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx774qqn997g92dxzcw0yy7trx85qetf",
+    "options": [
+      {
+        "key": "A",
+        "text": "Charge"
+      },
+      {
+        "key": "B",
+        "text": "Mass"
+      },
+      {
+        "key": "C",
+        "text": "Linear Momentum"
+      },
+      {
+        "key": "D",
+        "text": "Angular Momentum"
+      }
+    ],
+    "sectionId": "step-3-electron-positron-annihilation",
+    "sectionLabel": "Step 3: Electron-Positron Annihilation",
+    "stem": "During electron-positron annihilation, the two photons produced must travel in opposite directions to conserve:",
+    "topicId": "ms70wy6k7th6n2w8sx99zpvw2h85q05c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-2-pet-scanner",
+    "topicTitle": "22.8.2 PET Scanner",
+    "_id": "k975e594kdseg95kzt2d1fkyts85pmry",
+    "correctKey": "B",
+    "explanation": "Mass-energy equivalence dictates that the annihilation of an electron-positron pair produces two gamma photons of $0.511\\ \\mathrm{MeV}$ each, emitted back-to-back to conserve momentum.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx774qqn997g92dxzcw0yy7trx85qetf",
+    "options": [
+      {
+        "key": "A",
+        "text": "A single high-energy X-ray"
+      },
+      {
+        "key": "B",
+        "text": "Two gamma-ray photons moving in opposite directions"
+      },
+      {
+        "key": "C",
+        "text": "A proton and a neutron"
+      },
+      {
+        "key": "D",
+        "text": "A stable helium nucleus"
+      }
+    ],
+    "sectionId": "step-3-electron-positron-annihilation",
+    "sectionLabel": "Step 3: Electron-Positron Annihilation",
+    "stem": "When a positron meets an electron inside the body, they undergo annihilation. What is the result of this process?",
+    "topicId": "ms70wy6k7th6n2w8sx99zpvw2h85q05c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-2-pet-scanner",
+    "topicTitle": "22.8.2 PET Scanner",
+    "_id": "k97b6ea65n7t6n55f4qykmq8yh8bpz78",
+    "correctKey": "B",
+    "explanation": "Coincident 511 keV photons originate from the same annihilation and travel in opposite directions. The triggered detector pair defines a line of response used for image reconstruction.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx774qqn997g92dxzcw0yy7trx85qetf",
+    "options": [
+      {
+        "key": "A",
+        "text": "To measure the tracer’s chemical mass"
+      },
+      {
+        "key": "B",
+        "text": "To identify a line of response through the annihilation location and reject unrelated background hits"
+      },
+      {
+        "key": "C",
+        "text": "To slow the gamma photons before detection"
+      },
+      {
+        "key": "D",
+        "text": "To convert each gamma photon into a positron"
+      }
+    ],
+    "sectionId": "step-5-coincidence-detection",
+    "sectionLabel": "Step 5: Coincidence Detection",
+    "stem": "Why does a PET scanner accept an annihilation event only when two opposite detectors fire nearly simultaneously?",
+    "topicId": "ms70wy6k7th6n2w8sx99zpvw2h85q05c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "22-nuclear-physics",
+    "chapterTitle": "Nuclear Physics",
+    "topicSlug": "22-8-2-pet-scanner",
+    "topicTitle": "22.8.2 PET Scanner",
+    "_id": "k97dwjyjqm3fe67fvs245bhjah85qsrn",
+    "correctKey": "B",
+    "explanation": "Tomography comes from the Greek 'tomos' (slice). It refers to imaging by sections or sectioning through the use of any kind of penetrating wave.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx774qqn997g92dxzcw0yy7trx85qetf",
+    "options": [
+      {
+        "key": "A",
+        "text": "Measure the weight of the organ"
+      },
+      {
+        "key": "B",
+        "text": "Create 3D cross-sectional images of the body"
+      },
+      {
+        "key": "C",
+        "text": "Destroy cancer cells using radiation"
+      },
+      {
+        "key": "D",
+        "text": "Measure the blood pressure of the patient"
+      }
+    ],
+    "sectionId": "what-is-a-pet-scanner",
+    "sectionLabel": "What is a PET Scanner?",
+    "stem": "The 'Tomography' aspect of PET refers to the scanner's ability to:",
+    "topicId": "ms70wy6k7th6n2w8sx99zpvw2h85q05c"
+  }
+]

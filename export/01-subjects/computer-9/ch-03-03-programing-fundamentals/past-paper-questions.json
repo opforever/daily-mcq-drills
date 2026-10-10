@@ -1,0 +1,1054 @@
+[
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-1-introduction",
+    "topicTitle": "3.1 Introduction",
+    "_id": "m17drt7qaefng3p3htw7hnxkvn8e1680",
+    "exerciseId": "xd7crzzfbrmazpgr5pvvd6yz618e03ny",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A website only shares information and content that a visitor cannot change, while a web application lets users interact with and perform tasks through it, remotely accessing a server (e.g. an online banking or CRM system).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Contrast between website and web application.",
+    "topicId": "ms7c6hh9phk1qw75m4nvr90aqs8bvcfm"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17erqdf1hn3hwyz7zecc6kdmd8e18e3",
+    "correctKey": "C",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Every HTML element is identified and defined using tags, which are enclosed in angle brackets.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Brackets"
+      },
+      {
+        "key": "B",
+        "text": "Title"
+      },
+      {
+        "key": "C",
+        "text": "Tags"
+      },
+      {
+        "key": "D",
+        "text": "Image"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Everything in HTML is identified on the basis of ____.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17e8rpdrv1v3pw7abr1yzhcn18e101m",
+    "correctKey": "C",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "HTML code is written in a text editor but rendered and displayed by a web browser.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Notepad"
+      },
+      {
+        "key": "B",
+        "text": "File"
+      },
+      {
+        "key": "C",
+        "text": "Browser"
+      },
+      {
+        "key": "D",
+        "text": "Spreadsheet"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The output of HTML code is visible in ____.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17f2jnhdamxpvnaapzqp89hm98e14rh",
+    "correctKey": "B",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The <title> tag-pair gives a webpage its name, shown on the browser tab.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Body"
+      },
+      {
+        "key": "B",
+        "text": "Title"
+      },
+      {
+        "key": "C",
+        "text": "Head"
+      },
+      {
+        "key": "D",
+        "text": "Footer"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Name of a web page can be given using ____ tag.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m171zbkahxqw6jjc7tfvk0jb318e09z1",
+    "correctKey": "C",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The <body> tag holds the main visible content of an HTML document.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Head"
+      },
+      {
+        "key": "B",
+        "text": "Title"
+      },
+      {
+        "key": "C",
+        "text": "Body"
+      },
+      {
+        "key": "D",
+        "text": "Line Break"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Main parts of a document are arranged in ____ tag.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17chzy7j739epc916f5k43z118e14t2",
+    "correctKey": "D",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "A correctly formed level-5 heading tag-pair is <h5>...</h5>.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "<h5.. h5>"
+      },
+      {
+        "key": "B",
+        "text": "<h5.. /h5>"
+      },
+      {
+        "key": "C",
+        "text": "h5>.. </h5"
+      },
+      {
+        "key": "D",
+        "text": "<h5>.. </h5>"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The heading tag-pair for 5th level heading is ____.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17afvs0maw8w1cdjvgyfjjjqx8e11zj",
+    "correctKey": "C",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The first row of an HTML table, typically holding column labels, is the header row.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Title row"
+      },
+      {
+        "key": "B",
+        "text": "Top Row"
+      },
+      {
+        "key": "C",
+        "text": "Header Row"
+      },
+      {
+        "key": "D",
+        "text": "Upper Row"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "First row of table in HTML is called ____.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17f9rff67rq96xn8nze3y82nh8e04v8",
+    "correctKey": "D",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The <p> tag-pair defines a paragraph in HTML.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Print"
+      },
+      {
+        "key": "B",
+        "text": "Page align"
+      },
+      {
+        "key": "C",
+        "text": "Page break"
+      },
+      {
+        "key": "D",
+        "text": "Paragraph"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The <p> tag-pair is used for ____.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m177mar0pvssaexvbft2eqa7gs8e15za",
+    "exerciseId": "xd7crzzfbrmazpgr5pvvd6yz618e03ny",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "'href' (hypertext reference) is an attribute of the anchor <a> tag that specifies the destination URL of a hyperlink, e.g. <a href=\"https://example.com\">Visit</a>.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "What does 'href' refer to and how is it used?",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m179f0kx7rq8j0bsjmn36vqgvx8e0mph",
+    "exerciseId": "xd7crzzfbrmazpgr5pvvd6yz618e03ny",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Optional parameters used when opening/linking a webpage include the target window (e.g. _blank to open in a new tab), window size/position, and toolbar/scrollbar display options.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Enlist the optional parameters to open a webpage.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m172y1mcpdv279s9jkfpy11bgh8e144p",
+    "exerciseId": "xd7crzzfbrmazpgr5pvvd6yz618e03ny",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Common text tags: <p> for paragraphs, <h1>-<h6> for headings, <b>/<strong> for bold text, <i>/<em> for italics, and <br> for a line break.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "List out the frequent tags used in text of a webpage and what are they used for?",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m175xbb6fnve3dj1pwx14ks1vd8e1a6g",
+    "exerciseId": "xd7crzzfbrmazpgr5pvvd6yz618e03ny",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The <body> tag-pair contains all the visible content of the webpage, such as headings, paragraphs, images, and lists, that is displayed to the user.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Explain the role of the <body> tag-pair in a document.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m1757s5t4m3tc187cmar8jvwnn8e0qxf",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "The DOM is a tree-structured representation of an HTML document that the browser builds automatically when it reads the file.",
+      "Every element (document, html, head, body, and each tag inside body) becomes a node in this tree.",
+      "Example: for a page with <body><h1>Title</h1><p>Text</p></body>, the DOM tree has 'body' as parent with 'h1' and 'p' as its child nodes."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The Document Object Model (DOM) is the tree-structured representation that a browser creates when it interprets an HTML file. The document is at the top, followed by the html node. The head node contains information such as the title, while the body node contains visible elements such as headings and paragraphs. Each HTML object, component, script, or comment is treated as a node in the DOM tree. For example:\n\n<html>\n<head><title>Example</title></head>\n<body><h1>Title</h1><p>Text</p></body>\n</html>\n\nThe DOM for this page has document as its root, html as its child, head and body below html, and h1 and p as child nodes of body. The browser builds this DOM automatically and uses it to display the page.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "What is Document Object Model? Explain with the help of an example.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17er3nj6z3tdkxmjym4nka3jd8e07ds",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "HTML provides six heading levels, <h1> through <h6>, from largest/most important to smallest/least important.",
+      "Example code: <h1>Main Heading</h1> <h2>Sub Heading</h2> <h3>Smaller Heading</h3>.",
+      "Each level renders in a progressively smaller default font size, used to structure a page's content hierarchy."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "HTML defines six heading levels, from h1 to h6. Level h1 is the largest and most important, while h6 is the smallest. The heading tag-pair has an opening and closing tag. For example:\n\n<html lang=\"en\">\n<head><title>Heading Example</title></head>\n<body>\n  <h1>Welcome to My Website</h1>\n  <h2>About Us</h2>\n  <h3>Our Team</h3>\n  <h4>Team Members</h4>\n  <h5>Details</h5>\n  <h6>Smallest Heading</h6>\n</body>\n</html>\n\nThe browser renders the levels with progressively smaller default heading sizes, allowing the page content to be organised hierarchically.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Write code to differentiate between different types of headings in HTML.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m1704ksf8hscktd5n7zdnq53ks8e0jcz",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Create the table structure with <table>, <tr> and <td>/<th> tags.",
+      "Apply a border using CSS, e.g. table, td, th { border: 1px solid black; }.",
+      "Apply color using CSS, e.g. th { background-color: lightblue; color: black; }."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "First create the table with table, tr, th, and td tag-pairs. Use the first row for headings and the remaining rows for data. Then put a style tag before the table and apply a border to the table, header cells, and data cells. A background colour can also be assigned to the cells. For example:\n\n<style>\n  table, th, td {\n    border: 1px solid black;\n  }\n  th, td {\n    background-color: aqua;\n  }\n</style>\n<table>\n  <tr><th>Student Name</th><th>Class</th><th>Fee Dues</th></tr>\n  <tr><td>Alia</td><td>9</td><td>200</td></tr>\n</table>\n\nThe table tag-pair allocates the table, tr defines rows, th defines the header cells, and td defines ordinary data cells.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Sketch steps and provide code to apply border and color to a table in a webpage.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m17209bm2wdqg2v1mq3n8ra7t98e09z7",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Use the HTML <video> tag with the source file specified via the src attribute or a nested <source> tag.",
+      "Add the autoplay attribute so the video begins playing automatically once the page loads.",
+      "Example: <video src=\"clip.mp4\" autoplay controls></video>."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use the video tag and specify the clip source and type with a nested source tag. Set width and height if a fixed display size is required. To make the clip start when the webpage loads, use autoplay instead of controls. The muted attribute may be added because browsers commonly restrict unmuted automatic playback. For example:\n\n<html>\n<body style=\"text-align: center\">\n  <video width=\"500px\" height=\"500px\" autoplay muted>\n    <source src=\"fifa-win.mp4\" type=\"video/mp4\" />\n  </video>\n</body>\n</html>\n\nThe video tag loads the clip, autoplay starts it as the webpage loads, width and height set its size, and the source tag identifies the MP4 file. When autoplay is used, normal play, pause, and volume controls are not provided unless the design adds a separate control arrangement.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Enlist steps to add a video clip in a website which starts playing as the web page loads.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-2-html",
+    "topicTitle": "3.2 Html",
+    "_id": "m177fyqqfptrtksyss1v64fd298e19k4",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Collect the subject names and marks obtained for each subject.",
+      "Build an HTML table with <table>, using a header row (<th>) for 'Subject' and 'Marks', and a <tr>/<td> row for each subject's result.",
+      "Optionally style the table with CSS borders and colors, then save and open the HTML file in a browser to view the results."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Collect the subjects and marks from the examination result, then create an HTML table. Put the column headings in the first row with th tags and put each subject's result in its own tr row with td tags. Save the file with an .html extension and open it in a browser. For example:\n\n<html>\n<body>\n<table>\n  <tr><th>Subject</th><th>Marks</th></tr>\n  <tr><td>Computer Science</td><td>85</td></tr>\n  <tr><td>Mathematics</td><td>78</td></tr>\n  <tr><td>Science</td><td>82</td></tr>\n</table>\n</body>\n</html>\n\nThe table tag-pair contains the result, tr defines each row, th identifies the header row, and td holds the subject names and marks. CSS can be added in a style tag to give the table borders or background colours.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Cite steps on compiling the result of your last examination in a tabular form and display it in a webpage.",
+    "topicId": "ms7fa5335016pd8gsrjm3aez898bth80"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-3-cascading-style-sheets-css",
+    "topicTitle": "3.3 Cascading Style Sheets (Css)",
+    "_id": "m179sebazd6zak90mh3nky89b98e09wb",
+    "correctKey": "C",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The <span> element is an inline container used to apply style to a portion of text.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Font"
+      },
+      {
+        "key": "B",
+        "text": "Border"
+      },
+      {
+        "key": "C",
+        "text": "Style"
+      },
+      {
+        "key": "D",
+        "text": "Color"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Span is used to provide ____ to a line.",
+    "topicId": "ms7e6zp0grntywgfnk3n381kch8bvzka"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-3-cascading-style-sheets-css",
+    "topicTitle": "3.3 Cascading Style Sheets (Css)",
+    "_id": "m17bxnxd7s7w008vn6hj9cjcpn8e1v2j",
+    "exerciseId": "xd7crzzfbrmazpgr5pvvd6yz618e03ny",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "External CSS is written in a separate .css file and linked to an HTML page with a <link> tag. It is generally used when the same styling needs to be applied consistently across many pages of a website.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Infer about External CSS. Where is External CSS generally used?",
+    "topicId": "ms7e6zp0grntywgfnk3n381kch8bvzka"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-3-cascading-style-sheets-css",
+    "topicTitle": "3.3 Cascading Style Sheets (Css)",
+    "_id": "m177wpd85wemtpr8g9jvb2ds1s8e11f5",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Choose an image file and note its path relative to the HTML file.",
+      "Apply it using CSS: body { background-image: url('image.jpg'); }.",
+      "Optionally control repetition and sizing, e.g. background-repeat: no-repeat; background-size: cover;."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Elaborate steps and provide code to load a background image in a webpage.",
+    "topicId": "ms7e6zp0grntywgfnk3n381kch8bvzka"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-3-cascading-style-sheets-css",
+    "topicTitle": "3.3 Cascading Style Sheets (Css)",
+    "_id": "m17fzkaa683gjqkm5zf61ba0yn8e15zr",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Inline CSS: applied directly on an element, e.g. <p style=\"color:red;\">Text</p>.",
+      "Embedded (internal) CSS: written inside a <style> tag in the document's <head>, e.g. <style>p{color:red;}</style>.",
+      "External CSS: written in a separate .css file and linked with <link rel=\"stylesheet\" href=\"style.css\">."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "CSS can be incorporated in HTML in three ways. Inline CSS is written in an element's style attribute and affects that element. Embedded or internal CSS is written in a style tag, normally in the head, so rules can be reused throughout the page. External CSS is written in a separate file with the .css extension and attached in the head with a link tag. Examples are:\n\n<p style=\"color: red;\">Text</p>\n<style>\np { color: blue; }\n</style>\n<link rel=\"stylesheet\" href=\"styles.css\" />\n\nInline rules have the highest priority, followed by embedded rules, and then external rules when all three apply. External styles are especially useful for large or commercial projects because the presentation rules are kept separate from the HTML.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "With the help of sample code, highlight different methods to incorporate CSS code in a HTML webpage.",
+    "topicId": "ms7e6zp0grntywgfnk3n381kch8bvzka"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m17dfeedd90a1k1pe25p1kx1258c71nx",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Variable n=10;"
+      },
+      {
+        "key": "B",
+        "text": "Variable name=10;"
+      },
+      {
+        "key": "C",
+        "text": "Vary n=10;"
+      },
+      {
+        "key": "D",
+        "text": "var n=10;"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Correct way to declare a variable in JavaScript:",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m171vmnx56ejepray4pw20cr158c700m",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "String"
+      },
+      {
+        "key": "B",
+        "text": "Number"
+      },
+      {
+        "key": "C",
+        "text": "List"
+      },
+      {
+        "key": "D",
+        "text": "Boolean"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "Which of the following datatype does JavaScript use to represent true or false values?",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m179v4betayxap2w1xe9mstcx98c6nr6",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "dim"
+      },
+      {
+        "key": "B",
+        "text": "const"
+      },
+      {
+        "key": "C",
+        "text": "var"
+      },
+      {
+        "key": "D",
+        "text": "variable"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "The keyword used to declare variables in JavaScript:",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m178j8kkzypp44swt3adga60rn8c799v",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Long"
+      },
+      {
+        "key": "B",
+        "text": "String"
+      },
+      {
+        "key": "C",
+        "text": "Number"
+      },
+      {
+        "key": "D",
+        "text": "Boolean"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "Which of the following is not a valid JavaScript data type?",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m174zgkkqpyd7r24cz3rbbc6qh8e1d4r",
+    "correctKey": "B",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "In JavaScript, a variable name cannot begin with a numeral.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Alphabet"
+      },
+      {
+        "key": "B",
+        "text": "Number"
+      },
+      {
+        "key": "C",
+        "text": "Character"
+      },
+      {
+        "key": "D",
+        "text": "String"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "A variable cannot start with a ____.",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m17f18n6tmb5jenq5bdxwsmgns8e04n8",
+    "correctKey": "C",
+    "exerciseId": "xd74yk1et0z54kk6532qxh8v018e14cr",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Assigning a variable's first value right after it is declared is called initialization.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Beginning value"
+      },
+      {
+        "key": "B",
+        "text": "Starting value"
+      },
+      {
+        "key": "C",
+        "text": "Initialization"
+      },
+      {
+        "key": "D",
+        "text": "Substitution"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The first value assigned to a variable after declaration is called ____.",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m17f45e7cg4canf5hqs0wphgcn8e1mw0",
+    "exerciseId": "xd7crzzfbrmazpgr5pvvd6yz618e03ny",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Event-based JavaScript code runs in response to a user action (an event), such as onclick or onload, letting the page react dynamically, e.g. changing content when a button is clicked.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "How is event-based code used in JavaScript?",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m17cv39fy23czbp7pbsdbseh1n8e17eb",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "JavaScript adds interactivity and dynamic behaviour to an otherwise static HTML page.",
+      "It can respond to events, validate form input, and update page content without reloading.",
+      "Example: <button onclick=\"document.getElementById('demo').innerHTML='Clicked!'\">Click me</button> <p id=\"demo\"></p> changes the paragraph text when the button is clicked."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "JavaScript makes an HTML page dynamic and interactive. It is embedded in a script tag and can display output, respond to an event, show an alert, perform calculations, and change page content or styles. An event is an action sensed by the program, and event-based code runs a function in response. For example:\n\n<html>\n<head>\n  <script>\n    function msgSure() {\n      alert(\"Are You Sure???\");\n    }\n  </script>\n</head>\n<body>\n  <input type=\"button\" onclick=\"msgSure()\" value=\"Be Sure\" />\n</body>\n</html>\n\nWhen the button is clicked, the onclick event calls msgSure and displays the alert. Similar JavaScript can use document.write or a style property to update what the user sees.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Discuss the functionality JavaScript can provide in a webpage with the help of a suitable example code.",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m173z8t5fd2yskz9ny0y0y3n8h8e1tje",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Historically the <marquee> tag was used directly, though it is now deprecated in favour of CSS/JS animation.",
+      "Simple deprecated-but-illustrative example: <marquee>This text will scroll across the page.</marquee>.",
+      "A modern approach uses CSS @keyframes to animate a text element's position for the same scrolling effect."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Articulate steps and write code to create a scrolling text on a webpage.",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "03-programing-fundamentals",
+    "chapterTitle": "Programing Fundamentals",
+    "topicSlug": "3-4-java-script",
+    "topicTitle": "3.4 Java Script",
+    "_id": "m173k5zgz4esdndd3npmjmpzc98e0wh6",
+    "exerciseId": "xd7e1bny704mfn2e97906s2y8x8e11kt",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Before changing color/index, store the current values in variables (e.g. previousColor, previousIndex).",
+      "Add a new button element, e.g. <button onclick=\"revert()\">Revert</button>.",
+      "Define a JavaScript function revert() that reassigns the color and index back from the stored previous values and updates the display accordingly."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Keep the current colour and index in previousColor and previousIndex before the existing button changes them. Add a Revert button and define a function that restores those saved values and updates the visible content. For example:\n\n<script>\n  let previousColor = document.body.style.backgroundColor;\n  let previousIndex = currentIndex;\n\n  function revert() {\n    document.body.style.backgroundColor = previousColor;\n    currentIndex = previousIndex;\n    document.getElementById(\"dynamicContent\").textContent = currentIndex;\n  }\n</script>\n<button onclick=\"revert()\">Revert</button>\n\nBefore each forward change, assign the current colour and index to the previous values so Revert restores the immediately preceding state. The chapter's dynamic-page example uses document.body.style.backgroundColor to change the page colour and a button calling descOrder() to change the displayed index order, so the new button can be kept separate and call revert().",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "10",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "In the context of a webpage with a color-and-index-changing button, add another button namely 'Revert' which when pressed, will reverse both the color and index values back to their previous state.",
+    "topicId": "ms7db4v0mqpnb8ejn6x8nq4sm98bt9v4"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "1-1-imaginary-and-complex-numbers",
+    "topicTitle": "1.1 Imaginary and Complex Numbers",
+    "_id": "k97e8z37arssx8ber89jbbjvm18d3abj",
+    "correctKey": "A",
+    "explanation": "The canonical definition is $i=\\sqrt{-1}$, hence $i^{2}=-1$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7crpa5ynb884b66r6f66mas58btk4p",
+    "options": [
+      {
+        "key": "A",
+        "text": "$i^{2}=-1$"
+      },
+      {
+        "key": "B",
+        "text": "$i^{2}=0$"
+      },
+      {
+        "key": "C",
+        "text": "$i^{2}=1$"
+      },
+      {
+        "key": "D",
+        "text": "$i=\\sqrt{1}$"
+      }
+    ],
+    "sectionId": "imaginary-and-complex-numbers",
+    "sectionLabel": "Imaginary and Complex Numbers",
+    "stem": "Which relation defines the imaginary unit $i$?",
+    "topicId": "ms7dewbqrakj2609wt8h6a9x858bv71z"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "1-2-developing-skilled-knowledge",
+    "topicTitle": "1.2 Developing skilled knowledge",
+    "_id": "k97cj8fc27r2beyg90eq49p7gn8d3pac",
+    "correctKey": "A",
+    "explanation": "The canonical properties state both $|\\bar z|=|z|$ and $\\bar z\\cdot z=|z|^{2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77z3w587cy9w3r2zwnb894rn8bvrnp",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\bar{z}z=|z|^{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\bar{z}z=|z|$"
+      },
+      {
+        "key": "C",
+        "text": "$|\\bar{z}|=|z|+1$"
+      },
+      {
+        "key": "D",
+        "text": "$\\bar{z}=z$ for every $z$"
+      }
+    ],
+    "sectionId": "properties-of-modulus",
+    "sectionLabel": "Properties of Modulus",
+    "stem": "Which identity is stated for a complex number $z$?",
+    "topicId": "ms7645rstf8bs75bgn95r597s58btwd2"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "01-complex-numbers",
+    "chapterTitle": "Complex Numbers",
+    "topicSlug": "1-3-applications-of-complex-numbers",
+    "topicTitle": "1.3 Applications of Complex Numbers",
+    "_id": "k977sd02h36fw0drr5jqsax19h8d301h",
+    "correctKey": "A",
+    "explanation": "The canonical circuit example explicitly gives the relation $E=IZ$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7eq9dywc1s3dk5z2c6as2vw18btvjd",
+    "options": [
+      {
+        "key": "A",
+        "text": "$E=IZ$"
+      },
+      {
+        "key": "B",
+        "text": "$E=I+Z$"
+      },
+      {
+        "key": "C",
+        "text": "$E=Z/I$"
+      },
+      {
+        "key": "D",
+        "text": "$E=I-Z$"
+      }
+    ],
+    "sectionId": "applications-of-complex-numbers",
+    "sectionLabel": "Applications of Complex Numbers",
+    "stem": "In the circuit example, which equation relates voltage $E$, current $I$ and impedance $Z$?",
+    "topicId": "ms70z9kbkbma6k4erzcvngd08x8bt8g1"
+  }
+]

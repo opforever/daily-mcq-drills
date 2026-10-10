@@ -1,0 +1,1087 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "coulomb-s-law",
+    "topicTitle": "10.1 Coulomb's Law",
+    "_id": "k97bg6n7heb0kvz8c2ytnz3gsd8ccxnw",
+    "correctKey": "A",
+    "explanation": "The corpus states that the stated SI value of the constant applies when vacuum is between the charges.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7epcbz5r12x56vxt89kzwqgs85pcwt",
+    "options": [
+      {
+        "key": "A",
+        "text": "When vacuum is between the charges"
+      },
+      {
+        "key": "B",
+        "text": "Only when charges are moving at high speed"
+      },
+      {
+        "key": "C",
+        "text": "Only inside a metal conductor"
+      },
+      {
+        "key": "D",
+        "text": "When no charges are present"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "When does the stated SI value of Coulomb’s constant apply?",
+    "topicId": "ms74j5hwxqqmtc6f275yj0fdsd85qr2f"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "coulomb-s-law",
+    "topicTitle": "10.1 Coulomb's Law",
+    "_id": "k976ywn9et81snans5e3jn8npx8bcgxs",
+    "correctKey": "A",
+    "explanation": "Outside a uniformly charged spherical conductor, the entire charge behaves as if it were concentrated at the center of the sphere, so r is measured from the center to the external point.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7epcbz5r12x56vxt89kzwqgs85pcwt",
+    "options": [
+      {
+        "key": "A",
+        "text": "From the center of the sphere to the external point"
+      },
+      {
+        "key": "B",
+        "text": "From the nearest point on the spheres surface to the external point"
+      },
+      {
+        "key": "C",
+        "text": "From the farthest point on the spheres surface to the external point"
+      },
+      {
+        "key": "D",
+        "text": "Coulombs Law cannot be applied to spheres at all"
+      }
+    ],
+    "sectionId": "coulombs-law-and-spherical-conductors",
+    "sectionLabel": "Coulomb's Law and Spherical Conductors",
+    "stem": "For a point located outside a uniformly charged spherical conductor, how should the distance r in Coulombs Law be measured?",
+    "topicId": "ms74j5hwxqqmtc6f275yj0fdsd85qr2f"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "coulomb-s-law",
+    "topicTitle": "10.1 Coulomb's Law",
+    "_id": "k97fjkkkgfpsj5sfrdb2nepz358bdv3y",
+    "correctKey": "A",
+    "explanation": "Since q1*q2 = (+3)*(+5) is positive (both charges have the same sign), the force between them is repulsive.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7epcbz5r12x56vxt89kzwqgs85pcwt",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repulsive, since both charges are positive"
+      },
+      {
+        "key": "B",
+        "text": "Attractive, since both charges are positive"
+      },
+      {
+        "key": "C",
+        "text": "Zero, since the charges are unequal"
+      },
+      {
+        "key": "D",
+        "text": "Impossible to determine without their separation"
+      }
+    ],
+    "sectionId": "direction-of-the-force",
+    "sectionLabel": "Direction of the Force",
+    "stem": "Two point charges of +3 C and +5 C are placed near each other. The force between them is:",
+    "topicId": "ms74j5hwxqqmtc6f275yj0fdsd85qr2f"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "coulomb-s-law",
+    "topicTitle": "10.1 Coulomb's Law",
+    "_id": "k972pqrdn8knsn0w47034hhvy585qk1k",
+    "correctKey": "D",
+    "explanation": "Since $F_{\\text{med}} = F_{\\text{vac}}/\\varepsilon_r$, a higher relative permittivity $\\varepsilon_r$ produces a greater reduction in force. Water has $\\varepsilon_r \\approx 80$, far exceeding air, vacuum, or glass, so it reduces the force the most.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7epcbz5r12x56vxt89kzwqgs85pcwt",
+    "options": [
+      {
+        "key": "A",
+        "text": "Air ($\\varepsilon_r \\approx 1$)"
+      },
+      {
+        "key": "B",
+        "text": "Vacuum ($\\varepsilon_r = 1$)"
+      },
+      {
+        "key": "C",
+        "text": "Glass ($\\varepsilon_r \\approx 5$–$10$)"
+      },
+      {
+        "key": "D",
+        "text": "Water ($\\varepsilon_r \\approx 80$)"
+      }
+    ],
+    "sectionId": "effect-of-medium",
+    "sectionLabel": "Effect of Medium",
+    "stem": "Which material, when placed between two charges, reduces the electrostatic force between them the most?",
+    "topicId": "ms74j5hwxqqmtc6f275yj0fdsd85qr2f"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "coulomb-s-law",
+    "topicTitle": "10.1 Coulomb's Law",
+    "_id": "k975mfmx8xazeg51wxqvygzvad85qrh1",
+    "correctKey": "D",
+    "explanation": "Coulomb's Law states $F \\propto 1/r^2$. If $r$ is replaced by $2r$, the new force is $F' = k q_1 q_2/(2r)^2 = F/4$. The force becomes one-fourth of the original value.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7epcbz5r12x56vxt89kzwqgs85pcwt",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double the original force"
+      },
+      {
+        "key": "B",
+        "text": "Half the original force"
+      },
+      {
+        "key": "C",
+        "text": "Four times the original force"
+      },
+      {
+        "key": "D",
+        "text": "One-fourth the original force"
+      }
+    ],
+    "sectionId": "the-electrostatic-force-law",
+    "sectionLabel": "The Electrostatic Force Law",
+    "stem": "If the distance between two point charges is doubled, the electrostatic force between them becomes:",
+    "topicId": "ms74j5hwxqqmtc6f275yj0fdsd85qr2f"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "coulomb-s-law",
+    "topicTitle": "10.1 Coulomb's Law",
+    "_id": "k970kv817yknmhgd5qtc6y4kjd85q7wq",
+    "correctKey": "C",
+    "explanation": "Coulomb's constant $k = 1/(4\\pi\\varepsilon)$ where $\\varepsilon$ is the permittivity of the medium. Its numerical value also depends on the system of units (e.g., SI gives $k \\approx 9\\times10^9$ N m² C⁻²). It does not depend on the charges or distance.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7epcbz5r12x56vxt89kzwqgs85pcwt",
+    "options": [
+      {
+        "key": "A",
+        "text": "The magnitude of the charges"
+      },
+      {
+        "key": "B",
+        "text": "The distance between the charges"
+      },
+      {
+        "key": "C",
+        "text": "The medium between the charges and the system of units used"
+      },
+      {
+        "key": "D",
+        "text": "The permittivity of the charges themselves"
+      }
+    ],
+    "sectionId": "the-formula-and-constants",
+    "sectionLabel": "The Formula and Constants",
+    "stem": "The value of Coulomb's constant $k = \\frac{1}{4\\pi\\varepsilon}$ depends upon:",
+    "topicId": "ms74j5hwxqqmtc6f275yj0fdsd85qr2f"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "coulomb-s-law",
+    "topicTitle": "10.1 Coulomb's Law",
+    "_id": "k97dq43zpdxrzhgk1qfbqtk6k98bdzn5",
+    "correctKey": "A",
+    "explanation": "The superposition principle requires calculating the force from each other charge individually using Coulomb's Law, then summing these force vectors to get the net force.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7epcbz5r12x56vxt89kzwqgs85pcwt",
+    "options": [
+      {
+        "key": "A",
+        "text": "Calculate each pairwise force separately, then add them as vectors"
+      },
+      {
+        "key": "B",
+        "text": "Add the magnitudes of the charges, then apply Coulomb's Law once"
+      },
+      {
+        "key": "C",
+        "text": "Use only the force from the nearest charge"
+      },
+      {
+        "key": "D",
+        "text": "Average the two individual forces"
+      }
+    ],
+    "sectionId": "the-superposition-principle",
+    "sectionLabel": "The Superposition Principle",
+    "stem": "Three point charges lie on a line. To find the net force on the middle charge due to the other two, you should:",
+    "topicId": "ms74j5hwxqqmtc6f275yj0fdsd85qr2f"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-intensity",
+    "topicTitle": "10.2 Electric Field Intensity",
+    "_id": "k9752337bbqzphb65vp40g0ssh8bc801",
+    "correctKey": "A",
+    "explanation": "E = F/q = 10 N / 2 C = 5 N/C.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tng4165wgtzzbbq3ywy8vx85pxq7",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 N/C"
+      },
+      {
+        "key": "B",
+        "text": "20 N/C"
+      },
+      {
+        "key": "C",
+        "text": "0.2 N/C"
+      },
+      {
+        "key": "D",
+        "text": "12 N/C"
+      }
+    ],
+    "sectionId": "1-the-electric-field-and-force",
+    "sectionLabel": "1. The Electric Field and Force",
+    "stem": "A test charge of +2 C placed at a point experiences a force of 10 N. What is the electric field intensity at that point?",
+    "topicId": "ms78vymd1x57jjzwnw3kt6f4w585q780"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-intensity",
+    "topicTitle": "10.2 Electric Field Intensity",
+    "_id": "k97ecnntw476dabcz9qg7z2fq985ps5h",
+    "correctKey": "B",
+    "explanation": "By definition, electric field intensity is the electrostatic force per unit positive test charge. Dividing force $\\vec{F}$ by the test charge $q_0$ gives $\\vec{E} = \\vec{F}/q_0$. The other options invert or multiply incorrectly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tng4165wgtzzbbq3ywy8vx85pxq7",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\vec{E} = \\vec{F} \\cdot q_0$"
+      },
+      {
+        "key": "B",
+        "text": "$\\vec{E} = \\frac{\\vec{F}}{q_0}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\vec{E} = \\frac{q_0}{\\vec{F}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\vec{E} = \\frac{1}{\\vec{F} \\cdot q_0}$"
+      }
+    ],
+    "sectionId": "2-electric-field-intensity-vece",
+    "sectionLabel": "2. Electric Field Intensity ($\\vec{E}$)",
+    "stem": "Which of the following correctly defines the Electric Field Intensity $\\vec{E}$ at a point?",
+    "topicId": "ms78vymd1x57jjzwnw3kt6f4w585q780"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-intensity",
+    "topicTitle": "10.2 Electric Field Intensity",
+    "_id": "k9720jcx1ek07qb33d6ftzdbf185q4ee",
+    "correctKey": "D",
+    "explanation": "The electric field due to a point charge follows the inverse square law: $E \\propto 1/r^2$. When distance is doubled, $E' = k Q/(2r)^2 = kQ/(4r^2) = E/4$. The field reduces to one-quarter of its original value.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tng4165wgtzzbbq3ywy8vx85pxq7",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2E$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{E}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$4E$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{E}{4}$"
+      }
+    ],
+    "sectionId": "3-electric-field-of-a-point-charge",
+    "sectionLabel": "3. Electric Field of a Point Charge",
+    "stem": "A point charge produces an electric field of intensity $E$ at distance $r$. If the distance is doubled to $2r$, the new electric field intensity becomes:",
+    "topicId": "ms78vymd1x57jjzwnw3kt6f4w585q780"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-intensity",
+    "topicTitle": "10.2 Electric Field Intensity",
+    "_id": "k978aemsjt2t4ccrcjf94emy2s8bckhr",
+    "correctKey": "A",
+    "explanation": "Electric Field Intensity is force per unit charge, so its SI unit is Newton per Coulomb (N/C), which is equivalent to Volt per meter (V/m).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tng4165wgtzzbbq3ywy8vx85pxq7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Newton per Coulomb (N/C)"
+      },
+      {
+        "key": "B",
+        "text": "Coulomb per meter (C/m)"
+      },
+      {
+        "key": "C",
+        "text": "Joule per Coulomb (J/C)"
+      },
+      {
+        "key": "D",
+        "text": "Newton per meter (N/m)"
+      }
+    ],
+    "sectionId": "4-units-of-electric-field-intensity",
+    "sectionLabel": "4. Units of Electric Field Intensity",
+    "stem": "What is the SI unit of Electric Field Intensity?",
+    "topicId": "ms78vymd1x57jjzwnw3kt6f4w585q780"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-intensity",
+    "topicTitle": "10.2 Electric Field Intensity",
+    "_id": "k97e1xs2p0bz3vhc5njbp9f8sd8cdv9m",
+    "correctKey": "B",
+    "explanation": "Electric field intensity is a vector, so it contains both the field strength and the field direction at the point.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tng4165wgtzzbbq3ywy8vx85pxq7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only the charge’s mass"
+      },
+      {
+        "key": "B",
+        "text": "The field strength and its direction"
+      },
+      {
+        "key": "C",
+        "text": "Only the distance from Earth"
+      },
+      {
+        "key": "D",
+        "text": "The temperature of the surrounding medium"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What information does electric field intensity provide at a point?",
+    "topicId": "ms78vymd1x57jjzwnw3kt6f4w585q780"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-intensity",
+    "topicTitle": "10.2 Electric Field Intensity",
+    "_id": "k97acknt60v83p5qxrrw3dsb9x8bc8th",
+    "correctKey": "A",
+    "explanation": "An electric field is the region of space surrounding a charge (or group of charges) within which another charged object placed in that region experiences an electric force.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71tng4165wgtzzbbq3ywy8vx85pxq7",
+    "options": [
+      {
+        "key": "A",
+        "text": "A region of space around a charge in which another charge experiences a force"
+      },
+      {
+        "key": "B",
+        "text": "A type of electric current flowing through a wire"
+      },
+      {
+        "key": "C",
+        "text": "The total charge stored on a conductor"
+      },
+      {
+        "key": "D",
+        "text": "A measure of a material's resistance to electric current"
+      }
+    ],
+    "sectionId": "what-is-an-electric-field",
+    "sectionLabel": "What Is an Electric Field?",
+    "stem": "What is an electric field?",
+    "topicId": "ms78vymd1x57jjzwnw3kt6f4w585q780"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-lines",
+    "topicTitle": "10.3 Electric Field Lines",
+    "_id": "k97338zhwa29tmcpsexkvet4hh8cdyta",
+    "correctKey": "B",
+    "explanation": "Electric field lines are a visual representation of the field’s direction and intensity around charged bodies.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7199jxfc64s57syx72kdrrsd85p5s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only the mass of a charge"
+      },
+      {
+        "key": "B",
+        "text": "The direction and intensity of the electric field"
+      },
+      {
+        "key": "C",
+        "text": "The temperature of the charge"
+      },
+      {
+        "key": "D",
+        "text": "The speed of light in vacuum"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "What do electric field lines represent?",
+    "topicId": "ms70n4pvrykgsab4we64a7x3zs85p49s"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-lines",
+    "topicTitle": "10.3 Electric Field Lines",
+    "_id": "k97bqxnrwftp4hsec6mwkj3d6s85qtaz",
+    "correctKey": "C",
+    "explanation": "Between large parallel plates with opposite charges, the electric field is uniform: constant in both magnitude and direction. This means the field lines are parallel to each other and equally spaced throughout the region (except near the edges).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7199jxfc64s57syx72kdrrsd85p5s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Converging toward the negative plate"
+      },
+      {
+        "key": "B",
+        "text": "Diverging from the positive plate"
+      },
+      {
+        "key": "C",
+        "text": "Parallel and equally spaced (uniform field)"
+      },
+      {
+        "key": "D",
+        "text": "Curved and non-parallel"
+      }
+    ],
+    "sectionId": "common-electric-field-patterns",
+    "sectionLabel": "Common Electric Field Patterns",
+    "stem": "Between two large, oppositely charged parallel plates, the electric field lines are:",
+    "topicId": "ms70n4pvrykgsab4we64a7x3zs85p49s"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-lines",
+    "topicTitle": "10.3 Electric Field Lines",
+    "_id": "k97dk0r06r17sr0wfn2a1vphxh85qatj",
+    "correctKey": "C",
+    "explanation": "By definition, the tangent to an electric field line at any point gives the direction of the electric field vector $\\vec{E}$ at that point. This is the fundamental property used to represent electric fields visually.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7199jxfc64s57syx72kdrrsd85p5s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Electric Potential"
+      },
+      {
+        "key": "B",
+        "text": "Electric Force on a negative test charge"
+      },
+      {
+        "key": "C",
+        "text": "Electric Field Intensity ($\\vec{E}$)"
+      },
+      {
+        "key": "D",
+        "text": "Magnetic Flux Density"
+      }
+    ],
+    "sectionId": "definition-and-representation",
+    "sectionLabel": "Definition and Representation",
+    "stem": "The tangent drawn at any point on an electric field line indicates the direction of:",
+    "topicId": "ms70n4pvrykgsab4we64a7x3zs85p49s"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-lines",
+    "topicTitle": "10.3 Electric Field Lines",
+    "_id": "k979j64s75nhp1nzh283hdkach85pd9t",
+    "correctKey": "B",
+    "explanation": "If two field lines crossed, there would be two tangents at the intersection point, implying two different directions for $\\vec{E}$ at that point. Since $\\vec{E}$ is a unique vector at every point, this is physically impossible.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7199jxfc64s57syx72kdrrsd85p5s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "They are imaginary lines with no physical significance"
+      },
+      {
+        "key": "B",
+        "text": "The electric field $\\vec{E}$ has only one unique direction at any given point"
+      },
+      {
+        "key": "C",
+        "text": "They always form closed loops"
+      },
+      {
+        "key": "D",
+        "text": "They are always parallel to each other"
+      }
+    ],
+    "sectionId": "properties-and-rules-for-drawing-electric-field-lines",
+    "sectionLabel": "Properties and Rules for Drawing Electric Field Lines",
+    "stem": "Electric field lines never cross each other because:",
+    "topicId": "ms70n4pvrykgsab4we64a7x3zs85p49s"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "electric-field-lines",
+    "topicTitle": "10.3 Electric Field Lines",
+    "_id": "k97dpcpe3t9nex4gt8rsvbbt7x85q01s",
+    "correctKey": "B",
+    "explanation": "Electric field lines point from positive to negative (south to north here). A positive test charge would move north, but an electron carries negative charge, so it experiences a force opposite to $\u000bec{E}$, meaning it moves south. This illustrates how field line direction relates to force on charges.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7199jxfc64s57syx72kdrrsd85p5s7",
+    "options": [
+      {
+        "key": "A",
+        "text": "North (along the field direction)"
+      },
+      {
+        "key": "B",
+        "text": "South (opposite to the field direction)"
+      },
+      {
+        "key": "C",
+        "text": "East"
+      },
+      {
+        "key": "D",
+        "text": "West"
+      }
+    ],
+    "sectionId": "properties-and-rules-for-drawing-electric-field-lines",
+    "sectionLabel": "Properties and Rules for Drawing Electric Field Lines",
+    "stem": "An electron is placed in a uniform electric field directed from south to north. In which direction will the electron move?",
+    "topicId": "ms70n4pvrykgsab4we64a7x3zs85p49s"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "ferrofluid",
+    "topicTitle": "10.4 Ferrofluid",
+    "_id": "k970qpkabny8abd5xm5zvrr9d18cdhq7",
+    "correctKey": "A",
+    "explanation": "The corpus lists magnetic resonance imaging among ferrofluid applications in medical physics.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79dv045baprkfg1hmprehr9d85ps51",
+    "options": [
+      {
+        "key": "A",
+        "text": "Magnetic resonance imaging"
+      },
+      {
+        "key": "B",
+        "text": "Measuring the speed of light in vacuum"
+      },
+      {
+        "key": "C",
+        "text": "Producing gravitational waves"
+      },
+      {
+        "key": "D",
+        "text": "Determining the charge of a neutron"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "Which is an application of ferrofluids identified in the Chapter 10 corpus?",
+    "topicId": "ms78kwr1w256q07knsyan1y9d585qwby"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "ferrofluid",
+    "topicTitle": "10.4 Ferrofluid",
+    "_id": "k97ah9eh2npxpp445na8b3g7x98bdjgd",
+    "correctKey": "B",
+    "explanation": "Rotating shaft seals use magnets to hold ferrofluid in place around a spinning shaft, forming a frictionless seal that keeps out dust, debris, and gases, commonly used in computer hard drives and other machinery.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79dv045baprkfg1hmprehr9d85ps51",
+    "options": [
+      {
+        "key": "A",
+        "text": "MRI contrast enhancement"
+      },
+      {
+        "key": "B",
+        "text": "Rotating shaft seals in hard drives"
+      },
+      {
+        "key": "C",
+        "text": "Loudspeaker voice-coil cooling"
+      },
+      {
+        "key": "D",
+        "text": "Targeted drug delivery"
+      }
+    ],
+    "sectionId": "applications-of-ferrofluids",
+    "sectionLabel": "Applications of Ferrofluids",
+    "stem": "Which application relies on ferrofluid being held in place by magnets to form a frictionless barrier around a spinning shaft?",
+    "topicId": "ms78kwr1w256q07knsyan1y9d585qwby"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "ferrofluid",
+    "topicTitle": "10.4 Ferrofluid",
+    "_id": "k97efxq2fadgwvb8dprebn1pqd85p4fg",
+    "correctKey": "B",
+    "explanation": "Nanoparticles must be approximately 10 nm in diameter so that Brownian motion (thermal energy) is sufficient to overcome gravitational sedimentation and magnetic agglomeration, maintaining a stable colloidal suspension.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79dv045baprkfg1hmprehr9d85ps51",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 micrometers ($10 \\times 10^{-6}$ m)"
+      },
+      {
+        "key": "B",
+        "text": "10 nanometers ($10 \\times 10^{-9}$ m)"
+      },
+      {
+        "key": "C",
+        "text": "1 millimeter ($10^{-3}$ m)"
+      },
+      {
+        "key": "D",
+        "text": "100 micrometers ($100 \\times 10^{-6}$ m)"
+      }
+    ],
+    "sectionId": "composition-and-structure",
+    "sectionLabel": "Composition and Structure",
+    "stem": "What is the typical diameter of the magnetic nanoparticles in a stable ferrofluid?",
+    "topicId": "ms78kwr1w256q07knsyan1y9d585qwby"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "ferrofluid",
+    "topicTitle": "10.4 Ferrofluid",
+    "_id": "k9756mq73at58jawvjgxnvhj6d85q43v",
+    "correctKey": "C",
+    "explanation": "Surfactant molecules form a physical coating around each nanoparticle. This coating creates steric hindrance: a spatial barrier that prevents the magnetic cores from approaching close enough to aggregate, keeping the suspension stable.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79dv045baprkfg1hmprehr9d85ps51",
+    "options": [
+      {
+        "key": "A",
+        "text": "The magnetic attraction between nanoparticles."
+      },
+      {
+        "key": "B",
+        "text": "The flow resistance of the carrier fluid."
+      },
+      {
+        "key": "C",
+        "text": "The physical barrier that prevents nanoparticle cores from clumping together."
+      },
+      {
+        "key": "D",
+        "text": "The evaporation of the carrier liquid under heat."
+      }
+    ],
+    "sectionId": "composition-and-structure",
+    "sectionLabel": "Composition and Structure",
+    "stem": "In the context of ferrofluids, what does 'steric hindrance' provided by the surfactant refer to?",
+    "topicId": "ms78kwr1w256q07knsyan1y9d585qwby"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "ferrofluid",
+    "topicTitle": "10.4 Ferrofluid",
+    "_id": "k97fzxq1cdztwqe8d7rhwdhcpn85qb9m",
+    "correctKey": "B",
+    "explanation": "Ferrofluids are superparamagnetic: they exhibit high magnetic susceptibility and align strongly with an applied field, but retain no permanent magnetization once the external field is removed, unlike ferromagnets.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79dv045baprkfg1hmprehr9d85ps51",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is permanently magnetic like a bar magnet."
+      },
+      {
+        "key": "B",
+        "text": "It exhibits superparamagnetism, becoming magnetic only in an external field."
+      },
+      {
+        "key": "C",
+        "text": "It is diamagnetic and repels all magnetic fields."
+      },
+      {
+        "key": "D",
+        "text": "It loses all fluid properties when magnetized."
+      }
+    ],
+    "sectionId": "magnetic-behavior",
+    "sectionLabel": "Magnetic Behavior",
+    "stem": "Which of the following best describes the magnetic behavior of a ferrofluid?",
+    "topicId": "ms78kwr1w256q07knsyan1y9d585qwby"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "ferrofluid",
+    "topicTitle": "10.4 Ferrofluid",
+    "_id": "k974xtrwag2v8ygaf9w50g6sxx85qgzd",
+    "correctKey": "A",
+    "explanation": "The normal-field instability produces spikes where magnetic energy is minimized by elongating along field lines, while surface tension resists increasing surface area and gravity resists upward displacement. The equilibrium of these three effects determines spike height and shape.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79dv045baprkfg1hmprehr9d85ps51",
+    "options": [
+      {
+        "key": "A",
+        "text": "Magnetic force, gravity, and surface tension."
+      },
+      {
+        "key": "B",
+        "text": "Viscosity and fluid density only."
+      },
+      {
+        "key": "C",
+        "text": "Electric field force and magnetic field force."
+      },
+      {
+        "key": "D",
+        "text": "Atmospheric pressure and temperature gradient."
+      }
+    ],
+    "sectionId": "magnetic-behavior",
+    "sectionLabel": "Magnetic Behavior",
+    "stem": "The formation of surface spikes on a ferrofluid in an applied magnetic field results from the balance between which forces?",
+    "topicId": "ms78kwr1w256q07knsyan1y9d585qwby"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "potential-gradient",
+    "topicTitle": "10.5 Potential Gradient",
+    "_id": "k97cz9pf60pantw76d8265ctp985pnhn",
+    "correctKey": "C",
+    "explanation": "The electric field intensity equals the negative of the potential gradient. The negative sign indicates that $\\vec{E}$ points in the direction of decreasing potential. Thus $E = -\\Delta V / \\Delta r$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79jzhhs7rmeqpqg6m71kx9ys85p7ch",
+    "options": [
+      {
+        "key": "A",
+        "text": "$E = \\frac{\\Delta V}{\\Delta r}$"
+      },
+      {
+        "key": "B",
+        "text": "$E = \\Delta V \\cdot \\Delta r$"
+      },
+      {
+        "key": "C",
+        "text": "$E = -\\frac{\\Delta V}{\\Delta r}$"
+      },
+      {
+        "key": "D",
+        "text": "$E = \\frac{\\Delta r}{\\Delta V}$"
+      }
+    ],
+    "sectionId": "1-definition-and-relationship-to-electric-field",
+    "sectionLabel": "1. Definition and Relationship to Electric Field",
+    "stem": "The electric field intensity $E$ at a point is related to the electric potential $V$ and displacement $\\Delta r$ by which expression?",
+    "topicId": "ms75nbfh4dx08jadjx80d4w37s85p3xh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "potential-gradient",
+    "topicTitle": "10.5 Potential Gradient",
+    "_id": "k974gp0s97vzc013nnpzgm8va985pxa3",
+    "correctKey": "B",
+    "explanation": "The relation $E = -\\Delta V / \\Delta r$ contains a negative sign, meaning $\u000bec{E}$ is directed opposite to the increase in potential, meaning it always points toward regions of lower electric potential.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79jzhhs7rmeqpqg6m71kx9ys85p7ch",
+    "options": [
+      {
+        "key": "A",
+        "text": "In the direction of increasing electric potential"
+      },
+      {
+        "key": "B",
+        "text": "In the direction of decreasing electric potential"
+      },
+      {
+        "key": "C",
+        "text": "Perpendicular to the electric field lines"
+      },
+      {
+        "key": "D",
+        "text": "Tangent to the equipotential surface"
+      }
+    ],
+    "sectionId": "1-definition-and-relationship-to-electric-field",
+    "sectionLabel": "1. Definition and Relationship to Electric Field",
+    "stem": "In which direction does the electric field intensity $\\vec{E}$ always point relative to electric potential?",
+    "topicId": "ms75nbfh4dx08jadjx80d4w37s85p3xh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "potential-gradient",
+    "topicTitle": "10.5 Potential Gradient",
+    "_id": "k97am0qshf7dp5f9b5b7jftm998bdjhr",
+    "correctKey": "A",
+    "explanation": "Both $W=F_{\\mathrm{ext}}\\Delta R=(-q_0E)\\Delta R$ and $W=q_0\\Delta V$ are directly proportional to $q_0$, so equating them and dividing through by $q_0$ cancels it, leaving $E=-\\frac{\\Delta V}{\\Delta R}$ independent of the test charge used.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79jzhhs7rmeqpqg6m71kx9ys85p7ch",
+    "options": [
+      {
+        "key": "A",
+        "text": "Both expressions for work done (from force and from potential difference) are proportional to q0"
+      },
+      {
+        "key": "B",
+        "text": "The test charge is assumed to be infinitesimally small"
+      },
+      {
+        "key": "C",
+        "text": "The electric field is assumed to be non-uniform"
+      },
+      {
+        "key": "D",
+        "text": "The test charge is assumed to be negative"
+      }
+    ],
+    "sectionId": "2-derivation-of-the-potential-gradient",
+    "sectionLabel": "2. Derivation of the Potential Gradient",
+    "stem": "In deriving E = -deltaV/deltaR from the work done moving a test charge, which step allows the test charge magnitude q0 to cancel out of the final relationship?",
+    "topicId": "ms75nbfh4dx08jadjx80d4w37s85p3xh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "potential-gradient",
+    "topicTitle": "10.5 Potential Gradient",
+    "_id": "k974pjjd1e72vxbmyqn6zv95p185qd7j",
+    "correctKey": "B",
+    "explanation": "Electric field intensity is measured in N C$^{-1}$, which is equivalent to V m$^{-1}$ since 1 V = 1 J C$^{-1}$ = 1 N m C$^{-1}$, giving V m$^{-1}$ = N C$^{-1}$. Both are correct units.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79jzhhs7rmeqpqg6m71kx9ys85p7ch",
+    "options": [
+      {
+        "key": "A",
+        "text": "Volt-meter (V·m)"
+      },
+      {
+        "key": "B",
+        "text": "Newton per Coulomb (N C$^{-1}$)"
+      },
+      {
+        "key": "C",
+        "text": "Joule per Coulomb (J C$^{-1}$)"
+      },
+      {
+        "key": "D",
+        "text": "Coulomb per Newton (C N$^{-1}$)"
+      }
+    ],
+    "sectionId": "3-units-of-electric-field-intensity",
+    "sectionLabel": "3. Units of Electric Field Intensity",
+    "stem": "Which of the following is a valid SI unit for electric field intensity (potential gradient)?",
+    "topicId": "ms75nbfh4dx08jadjx80d4w37s85p3xh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "potential-gradient",
+    "topicTitle": "10.5 Potential Gradient",
+    "_id": "k97c68jwjhnthb5ev69aqgr8an85p2vz",
+    "correctKey": "D",
+    "explanation": "From $E = -\\Delta V / \\Delta r$: if $V$ is constant, then $\\Delta V = 0$, so $E = 0$. A constant potential means no potential gradient, hence no electric field exists in that region.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79jzhhs7rmeqpqg6m71kx9ys85p7ch",
+    "options": [
+      {
+        "key": "A",
+        "text": "Infinite"
+      },
+      {
+        "key": "B",
+        "text": "Maximum"
+      },
+      {
+        "key": "C",
+        "text": "Negative"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "4-analogy-with-a-hill",
+    "sectionLabel": "4. Analogy with a Hill",
+    "stem": "If the electric potential $V$ is constant throughout a region of space, what is the electric field intensity $E$ in that region?",
+    "topicId": "ms75nbfh4dx08jadjx80d4w37s85p3xh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "potential-gradient",
+    "topicTitle": "10.5 Potential Gradient",
+    "_id": "k970d118h8530x4mep2kecp4j58bc91w",
+    "correctKey": "B",
+    "explanation": "For a point charge, E = V/r, so r = V/E = 20 V / 10 N/C = 2 m.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79jzhhs7rmeqpqg6m71kx9ys85p7ch",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 m"
+      },
+      {
+        "key": "B",
+        "text": "2 m"
+      },
+      {
+        "key": "C",
+        "text": "200 m"
+      },
+      {
+        "key": "D",
+        "text": "10 m"
+      }
+    ],
+    "sectionId": "6-example-calculation",
+    "sectionLabel": "6. Example Calculation",
+    "stem": "At a point due to a single point charge, the electric potential is 20 V and the electric field intensity is 10 N/C. What is the distance from the charge?",
+    "topicId": "ms75nbfh4dx08jadjx80d4w37s85p3xh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "10-electrostatics",
+    "chapterTitle": "Electrostatics",
+    "topicSlug": "potential-gradient",
+    "topicTitle": "10.5 Potential Gradient",
+    "_id": "k97fp2emkerrd56dyc69mhceyx8ccv0z",
+    "correctKey": "A",
+    "explanation": "The potential-gradient relationship gives electric field strength in volt per metre, equivalent to newton per coulomb.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79jzhhs7rmeqpqg6m71kx9ys85p7ch",
+    "options": [
+      {
+        "key": "A",
+        "text": "Volt per metre"
+      },
+      {
+        "key": "B",
+        "text": "Joule per kilogram"
+      },
+      {
+        "key": "C",
+        "text": "Coulomb per second"
+      },
+      {
+        "key": "D",
+        "text": "Metre per second"
+      }
+    ],
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "stem": "Which unit can express electric field strength through the potential-gradient relationship?",
+    "topicId": "ms75nbfh4dx08jadjx80d4w37s85p3xh"
+  }
+]

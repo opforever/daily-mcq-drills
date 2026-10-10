@@ -1,0 +1,68 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "05-kinematics-of-motion-in-a-straight-line",
+    "chapterTitle": "Kinematics Of Motion In A Straight Line",
+    "topicSlug": "exercise-5-1",
+    "topicTitle": "5.1 Displacement-Time and Velocity-Time Graphs",
+    "_id": "k979esar5hhkn72h0r2pzrm4bn85qpqn",
+    "correctKey": "B",
+    "explanation": "The area under a velocity-time graph represents displacement. For motion in one direction, the total displacement equals the sum of the areas of all geometric shapes formed under the graph, here, the triangle plus the rectangle.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76jncnbgq0rxxmwsm1v4v2s185qn6f",
+    "options": [
+      {
+        "key": "A",
+        "text": "Multiply the final velocity by the total time."
+      },
+      {
+        "key": "B",
+        "text": "Calculate the sum of the areas of the triangle and the rectangle."
+      },
+      {
+        "key": "C",
+        "text": "Find the gradient of the rectangular section."
+      },
+      {
+        "key": "D",
+        "text": "Subtract the area of the triangle from the area of the rectangle."
+      }
+    ],
+    "stem": "To find the total distance traveled by an athlete from a velocity-time graph consisting of a triangle (acceleration phase) and a rectangle (constant velocity phase), which method is correct?",
+    "topicId": "ms739166ywgc4de28zx770kfqn85pks7"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "05-kinematics-of-motion-in-a-straight-line",
+    "chapterTitle": "Kinematics Of Motion In A Straight Line",
+    "topicSlug": "exercise-5-3",
+    "topicTitle": "5.3 Vector-Valued Functions: Velocity, Acceleration and Speed",
+    "_id": "k971znn47af1c96r5yjmvm099x85pqx5",
+    "correctKey": "C",
+    "explanation": "Acceleration is the second derivative of the position vector: $\\mathbf{a}(t) = \\mathbf{r}''(t)$. This is computed by differentiating each component $x(t)$, $y(t)$, $z(t)$ individually twice with respect to $t$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79fwstmnqdzj0h4a0fk2w8f585pkjz",
+    "options": [
+      {
+        "key": "A",
+        "text": "Integrating the magnitude of $\\mathbf{r}(t)$ twice"
+      },
+      {
+        "key": "B",
+        "text": "Taking the cross product of $\\mathbf{r}(t)$ and $\\mathbf{r}'(t)$"
+      },
+      {
+        "key": "C",
+        "text": "Differentiating each component of $\\mathbf{r}(t)$ twice with respect to $t$"
+      },
+      {
+        "key": "D",
+        "text": "Dividing the velocity vector by the scalar time $t$"
+      }
+    ],
+    "stem": "To find the acceleration vector $\\mathbf{a}(t)$ from a position vector $\\mathbf{r}(t)$, which operation is performed?",
+    "topicId": "ms7bn3922te0ztsk0kn6xsrk7s85pyt3"
+  }
+]

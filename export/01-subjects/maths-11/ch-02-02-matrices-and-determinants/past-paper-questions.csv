@@ -1,0 +1,276 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,exerciseId,exerciseTitle,keyPoints,lastAttempt,locked,modelAnswer,origin,questionKind,questionNumber,sourceRef,stem,topicId
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m170rfenhqgssft9cmf1n4xzjn8c9dkb","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""C=-(A+B)"",""A+B = [[5,0,9],[0,8,0],[-4,4,-1]]"",""C = [[-5,0,-9],[0,-8,0],[4,-4,1]]""]",,"false","From A+B+C=O, C=-(A+B). First A+B = [[5,0,9],[0,8,0],[-4,4,-1]]. Therefore C = [[-5,0,-9],[0,-8,0],[4,-4,1]].","exercise","unclassified","3","{""blockIndex"":1,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","If $A=\left[\begin{array}{ccc}3 & -1 & 2 \\ 0 & 6 & 1 \\ -1 & 0 & -3\end{array}\right]$ and $B=\left[\begin{array}{ccc}2 & 1 & 7 \\ 0 & 2 & -1 \\ -3 & 4 & 2\end{array}\right]$ then find a matrix $C$ such that:
+$A+B+C=O$","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m17e2b7spa7cxq6vjdqfe0ykfx8c86h7","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""A²=A"",""B²=B"",""A²+B²=A+B""]",,"false","For A², multiply BA=A on the left by A: ABA=A². But AB=B, so ABA=BA=A. Thus A²=A. For B², multiply AB=B on the left by B: BAB=B². Since BA=A, BAB=AB=B. Thus B²=B. Therefore A²+B²=A+B.","exercise","unclassified","9","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","If $A$ and $B$ are two matrices such that $A B=B$ and $B A=A$. Find $A^{2}+B^{2}$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m175cjyjygk17hpp0kamsmp3eh8c8v4f","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""Base case n=1"",""(AᵏA)ᵀ=Aᵀ(Aᵏ)ᵀ"",""Induction completes the proof""]",,"false","Use induction. For n=1, (A¹)ᵀ=Aᵀ. Assume (Aᵏ)ᵀ=(Aᵀ)ᵏ. Then (Aᵏ⁺¹)ᵀ=(AᵏA)ᵀ=Aᵀ(Aᵏ)ᵀ=Aᵀ(Aᵀ)ᵏ=(Aᵀ)ᵏ⁺¹. Hence (Aⁿ)ᵀ=(Aᵀ)ⁿ for every positive integer n.","exercise","unclassified","11","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","For any square matrix $A$; prove that $\left(A^{n}\right)^{t}=\left(A^{t}\right)^{n}$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m17d7yhyjp2jeywnzb55h3sjds8c9aem","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""Y=2X-P"",""7X=Q+3P"",""X=[[1,3,-1],[1,0,3]], Y=[[1,0,1],[0,-1,-1]]""]",,"false","From 2X-Y=P and X+3Y=Q, substitute Y=2X-P into the second equation: 7X=Q+3P. Thus X=[[1,3,-1],[1,0,3]]. Then Y=2X-P=[[1,0,1],[0,-1,-1]]. Substitution verifies both equations.","exercise","unclassified","12","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","Find the matrices $X$ and $Y$ such that $2 X-Y=\left[\begin{array}{ccc}1 & 6 & -3 \\ 2 & 1 & 7\end{array}\right]$ and $X+3 Y=\left[\begin{array}{ccc}4 & 3 & 2 \\ 1 & -3 & 0\end{array}\right]$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m178d2b7d5kxx8ksfqcttw29nd8c9a2x","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""X=(2P-Q)/5"",""Y=P-3X"",""Substitute to verify both equations""]",,"false","Let P=3X+Y and Q=X+2Y. From Y=P-3X, Q=X+2(P-3X)=2P-5X, so X=(2P-Q)/5 and Y=P-3X. Hence X=[[3/5,4/5,3i/5],[(-3+12i)/5,2-i,7/5],[1/5,1/5,(6i-6)/5]] and Y=[[1/5,13/5,6i/5],[(19-i)/5,-1+3i,14/5],[7/5,7/5,(18-3i)/5]]. Substitution gives 3X+Y=P and X+2Y=Q.","exercise","unclassified","13","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","Find the matrices $X$ and $Y$ such that $3 X+Y=\left[\begin{array}{lll}2 & 5 & 3 i \\ 2+7 i & 5 & 7 \\ 2 & 2 & 3 i\end{array}\right]$ and $X+2 Y=\left[\begin{array}{lll}1 & 6 & 3 i \\ 7+2 i & 5 i & 7 \\ 3 & 3 & 6\end{array}\right]$","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m1782e6y1y2frswxkkekdf2sk18c9257","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""A²=[[7,-1],[-3,12]]"",""β=-1 from the off-diagonal"",""α=-9 from the diagonal""]",,"false","A²=[[7,-1],[-3,12]]. Comparing the (1,2) entry of A²+αI=βA gives -1=β. Then the (1,1) entry gives 7+α=-2, so α=-9. The (2,2) entry checks: 12-9=3=(-1)(-3). Thus α=-9 and β=-1.","exercise","unclassified","6","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","If $A=\left[\begin{array}{cc}2 & 1 \\ 3 & -3\end{array}\right]$ then find $\alpha$ and $\beta$ such that, $A^{2}+\alpha I=\beta A$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m177t7gy9qtc6fd5axwfq0zrqx8c99bz","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""X=2J-I"",""J²=3J"",""X²=4X+5I""]",,"false","Let J be the 3×3 all-ones matrix. Then X=2J-I and J²=3J. Hence X²=(2J-I)²=4J²-4J+I=8J+I. Also 4X+5I=4(2J-I)+5I=8J+I. Therefore X²=4X+5I, so X²-4X-5I=O.","exercise","unclassified","5","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","If $X=\left[\begin{array}{lll}1 & 2 & 2 \\ 2 & 1 & 2 \\ 2 & 2 & 1\end{array}\right]$ then prove that $X^{2}-4 X-5 I=0$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m178vyzyz881661gv5b2c4aqsx8c8ya2","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""Choose two 3×3 matrices"",""Transpose their sum"",""It equals the sum of their transposes""]",,"false","Choose A=[[1,2,0],[0,-1,3],[4,0,2]] and B=[[2,0,1],[-3,1,0],[0,5,-2]]. Then A+B=[[3,2,1],[-3,0,3],[4,5,0]], so (A+B)ᵀ=[[3,-3,4],[2,0,5],[1,3,0]]. Also Aᵀ=[[1,0,4],[2,-1,0],[0,3,2]] and Bᵀ=[[2,-3,0],[0,1,5],[1,0,-2]], whose sum is [[3,-3,4],[2,0,5],[1,3,0]]. Thus (A+B)ᵀ=Aᵀ+Bᵀ.","exercise","unclassified","8","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","Consider any two particular matrices $A$ and $B$ of your choice of order $3 \times 3$ and show that $(A+B)^{t}=A^{t}+B^{t}$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m176r49bgv8vm48dv28fp0k8758c9qw9","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""Choose compatible matrices"",""Compute AB then transpose"",""Compute BᵀAᵀ and compare""]",,"false","Choose A=[[1,2,0],[0,1,3]] and B=[[1,0],[2,1],[0,1]]. Then AB=[[5,2],[2,4]], so (AB)ᵀ=[[5,2],[2,4]]. Also Bᵀ=[[1,2,0],[0,1,1]] and Aᵀ=[[1,0],[2,1],[0,3]]. Multiplying gives BᵀAᵀ=[[5,2],[2,4]]. Therefore (AB)ᵀ=BᵀAᵀ.","exercise","unclassified","7","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","Consider any two particular matrices $A$ and $B$ of your choice of order $2 \times 3$ and $3 \times 2$ respectively and show that $(A B)^{t}=B^{t} A^{t}$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m177yagz9s0jzgprchrhfmtmr98c9xwk","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""Use inverse multiplication in the displayed order for the first equation."",""For the matrix equality, equate corresponding entries."",""For the polynomial equation, compare entries after computing A².""]",,"false","(i) A=M⁻¹N⁻¹=[[-5,7/2],[7,-5]], where M=[[2,1],[3,2]] and N=[[1,3],[2,4]]. (ii) X=[[1/2,1,0],[2,4,1]]. (iii) One nonzero choice is C=[[7,0],[1,0]], since [3,7]C=[2,14]C. (iv) z=4, t=0, xy=8 and x+y=6, hence x²+y²=20. (v) A²=[[37,36],[63,64]]; comparison with βA gives β=9 and α=-10.","exercise","unclassified","4","{""blockIndex"":1,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","(i) Find $A,\left[\begin{array}{ll}2 & 1 \\ 3 & 2\end{array}\right] A\left[\begin{array}{ll}1 & 3 \\ 2 & 4\end{array}\right]=\left[\begin{array}{ll}1 & 0 \\ 0 & 1\end{array}\right]$ (ii) Find $X,\left[\begin{array}{ll}3 & 2 \\ 0 & 1 \\ 2 & 0\end{array}\right] X=\left[\begin{array}{ccc}11 / 2 & 11 & 2 \\ 2 & 4 & 1 \\ 1 & 2 & 0\end{array}\right]$
+    (iii) If $A=[3 \quad 7]$ and $B=\left[\begin{array}{ll}2 & 14\end{array}\right]$ then find a non-zero matrix C such that $A C=B C$.
+    (iv) $\left[\begin{array}{cc}x y & 4 \\ 0 & x+y\end{array}\right]=\left[\begin{array}{ll}8 & z \\ t & 6\end{array}\right]$ then find the values of $z, t$ and $x^{2}+y^{2}$,
+    (v) If $A=\left[\begin{array}{ll}3 & 4 \\ 7 & 6\end{array}\right]$ and $I=\left[\begin{array}{ll}1 & 0 \\ 0 & 1\end{array}\right]$ then find $\alpha$ and $\beta$ so that $A^{2}+\alpha I=\beta A$.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m175e8rczwd83rx59hs4ynzrs18c9kmv","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""Use i,j=1,2 for a matrix of order 2×2."",""Evaluate the stated formula for each entry aᵢⱼ.""]",,"false","For i,j=1,2, substitute each pair (i,j): (i) A=[[2,7/2],[5/2,4]]. (ii) A=[[1/2,1],[1,2]]. (iii) A=[[1,1/2],[2,1]]. (iv) A=[[-1/3,-4/3],[1/3,-2/3]].","exercise","unclassified","1","{""blockIndex"":1,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","Construct a matrix $A=\left[a_{i j}\right]$ of order $2 \times 2$ for which:
+(i) $a_{i j}=\frac{i+3 j}{2}$
+(ii) $a_{i j}=\frac{i \times j}{2}$
+(iii) $a_{i j}=\frac{i}{j}$
+(iv) $a_{i j}=\frac{2 i-3 j}{3}$","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m17f3v2sxthjfr2m618vyj5vdh8c9mvr","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""Use i,j=1,2,3 for a matrix of order 3×3."",""Evaluate the given bᵢⱼ formula entry by entry.""]",,"false","For i,j=1,2,3, evaluate each prescribed bᵢⱼ: (i) B=[[0,-1/3,-2/3],[1,2/3,1/3],[8/3,7/3,2]]. (ii) B=[[0,-3/2,-4],[3/4,0,-5/4],[4/3,5/6,0]]. (iii) B=[[2/3,1/2,2/5],[2/5,1/3,2/7],[2/7,1/4,2/9]]. (iv) B=[[1,5/3,5/2],[5/3,2,13/5],[5/2,13/5,3]].","exercise","unclassified","2","{""blockIndex"":1,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","Construct a matrix $B=\left[a_{i j}\right]$ of order $3 \times 3$ for which:
+(i) $b_{i j}=\frac{i^{2}-j}{3}$
+(ii) $b_{i j}=\frac{i^{2}-j^{2}}{2 i}$
+(iii) $b_{i j}=\frac{2}{2 i+j}$
+(iv) $b_{i j}=\frac{i^{2}+j^{2}}{i+j}$","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-2","2.2 Matrix Construction and Operations","m17288n6rh233nhaamq1wwf8318c8efm","xd736t45gdzyq74ymj6drxjq1x8c8z7k","Exercise 2.2","[""aji=-aij"",""aii=0"",""Aᵀ=-A""]",,"false","Here aji = j²-i² = -(i²-j²) = -aij. Also aii=0. Hence Aᵀ=-A, so A is skew-symmetric.","exercise","unclassified","10","{""blockIndex"":2,""chapterNumber"":2,""page"":33,""subjectSlug"":""maths-11""}","If $A=\left[a_{i j}\right]$ is a matrix of order $3 \times 3$ and $a_{i j}=i^{2}-j^{2}$. Check whether $A$ is symmetric or skew-symmetric.","ms721ktdww5ng9abnej8382zyd85pnwq"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-3","2.3 Determinants and Cofactor Expansion","m17ejny6e5sv9m93hxwj8pd5xn8c9at8","xd71whmwbwhnedzf0qptzwwyxn8c8trp","Exercise 2.3","[""For a 3×3 determinant, expand along a convenient row or column."",""Use cos²θ+sin²θ=1 in the rotation matrix.""]",,"false","Using cofactor expansion: (i) det=2((-1)(2)-2(1))-3((1)(2)-2(4))+(1)(1(1)-(-1)(4))=15. (ii) det=(cos²θ+sin²θ)(1)=1. (iii) det=i(6-4)-3(2)+(-2i)(1)=-6. (iv) det=(2+i)(12-1)-3i+i(6i)=16+8i.","exercise","numerical","1","{""blockIndex"":4,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Evaluate the determinant of the following matrices.
+(i) $\left[\begin{array}{ccc}2 & 3 & 1 \\ 1 & -1 & 2 \\ 4 & 1 & 2\end{array}\right]$
+(ii) $\left[\begin{array}{ccc}\cos \theta & -\sin \theta & 0 \\ \sin \theta & \cos \theta & 0 \\ 0 & 0 & 1\end{array}\right]$
+(iii) $\left[\begin{array}{ccc}i & 3 & -2 i \\ 1 & 3 & 4 \\ 0 & 1 & 2\end{array}\right]$
+(iv) $\left[\begin{array}{ccc}2+i & 1 & i \\ 0 & 2 & 1 \\ -3 i & 1 & 6\end{array}\right]$","ms7c3pd94ng9j54znypntrrh8185p841"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-3","2.3 Determinants and Cofactor Expansion","m17b1pycbgr51ee2qvmsebae458c92mc","xd71whmwbwhnedzf0qptzwwyxn8c8trp","Exercise 2.3","[""Use the alternating cofactor signs +, −, + along the first row."",""Retain i²=−1 when simplifying complex-number determinants.""]",,"false","Expand by cofactors along the first row: (i) 3(−1)−2(−2)+3(−6)=−17. (ii) 2(−2)−3(−10)−(−1)(−1)=27. (iii) 2i(1)−6(3i)+1(1)=1−16i. (iv) (1−i)(−5)−2(9)+(1+i)(6)=−17+11i.","exercise","numerical","2","{""blockIndex"":4,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Evaluate the determinants of the following matrices using cofactor method.
+(i) $\left[\begin{array}{lll}3 & 2 & 3 \\ 4 & 5 & 1 \\ 2 & 1 & 0\end{array}\right]$
+(ii) $\left[\begin{array}{ccc}2 & 3 & -1 \\ -1 & 0 & 2 \\ 3 & 1 & 4\end{array}\right]$
+(iii) $\left[\begin{array}{ccc}2 i & 6 & 1 \\ 1 & -i & 2 \\ 0 & 1 & 3 i\end{array}\right]$
+(iv) $\left[\begin{array}{ccc}1-i & 2 & 1+i \\ 3 & 1 & 4 \\ 0 & 2 & 3\end{array}\right]$","ms7c3pd94ng9j54znypntrrh8185p841"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-3","2.3 Determinants and Cofactor Expansion","m1758yq7zh1mqsfhdhrgcb90jn8c9q19","xd71whmwbwhnedzf0qptzwwyxn8c8trp","Exercise 2.3","[""A zero determinant means singular."",""A nonzero determinant means non-singular, including a nonzero complex determinant.""]",,"false","A matrix is singular exactly when its determinant is zero. Cofactor expansion gives: (i) det=0, so singular. (ii) det=8, so non-singular. (iii) det=5i, so non-singular. (iv) det=−5, so non-singular.","exercise","unclassified","3","{""blockIndex"":4,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Determine which of the following matrices are singular and which are non-singular.
+(i) $\left[\begin{array}{ccc}3 & 1 & 2 \\ 2 & 3 & 1 \\ -4 & 1 & -3\end{array}\right]$
+(ii) $\left[\begin{array}{ccc}3 & -1 & 2 \\ 2 & 0 & 1 \\ -1 & 5 & 1\end{array}\right]$
+(iii) $\left[\begin{array}{ccc}3 i & 1 & 2 \\ -4 & 1 & i \\ 2 & 0 & 1\end{array}\right]$
+(iv) $\left[\begin{array}{ccc}2 & -i & 1 \\ i & 3 & -2 \\ -2+i & i+3 & -3\end{array}\right]$","ms7c3pd94ng9j54znypntrrh8185p841"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-3","2.3 Determinants and Cofactor Expansion","m17820nyw83qracns31gcxdpvs8c806h","xd71whmwbwhnedzf0qptzwwyxn8c8trp","Exercise 2.3","[""A matrix is singular exactly when its determinant is zero."",""Use cofactor expansion and solve the resulting linear equation in λ.""]",,"false","Set each determinant to zero. (i) det=−23λ+16, so λ=16/23. (ii) det=λ−4, so λ=4. (iii) det=−λ−1+5i, so λ=−1+5i. (iv) det=3+2i−12λ, so λ=(3+2i)/12.","exercise","numerical","4","{""blockIndex"":5,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Find the value of $\lambda$, so that the given matrices are singular.
+(i) $\left[\begin{array}{ccc}\lambda & 1 & 3 \\ 2 & 1 & 8 \\ 0 & 3 & 1\end{array}\right]$
+(ii) $\left[\begin{array}{lll}\lambda & 2 & 0 \\ 2 & 1 & 3 \\ \lambda & 2 & 1\end{array}\right]$
+(iii) $\left[\begin{array}{lll}\lambda & i & 1 \\ 2 & 1 & 3 \\ 3 & 1 & 2\end{array}\right]$
+(iv) $\left[\begin{array}{ccc}2+i & 1 & 6 \\ 2 & \lambda & 1 \\ 3 & 0 & 2\end{array}\right]$","ms7c3pd94ng9j54znypntrrh8185p841"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-3","2.3 Determinants and Cofactor Expansion","m17919g4fk3v7x8jfc22ehrx6d8c8xmq","xd71whmwbwhnedzf0qptzwwyxn8c8trp","Exercise 2.3","[""For a non-singular matrix, A⁻¹=(1/det A) adj(A)."",""A nonzero complex determinant also guarantees an inverse.""]",,"false","Each determinant is nonzero, so all inverses exist. (i) A⁻¹=[[1/3,1/3,0],[−1/9,2/9,−1/3],[5/9,−1/9,−1/3]]. (ii) B⁻¹=[[−1/3,−4/9,26/9],[−1/3,−1/9,11/9],[1/3,4/9,−17/9]]. (iii) C⁻¹=[[−4i/5,0,1/5],[8/5−i/5,−1,−1/5+2i/5],[1/5,0,−i/5]]. (iv) D⁻¹=[[3/11,2/11+2i/11,−1/11+i/22],[0,1/2−i/2,1/4+i/4],[−2i/11,−1/22+i/22,5/44−i/44]].","exercise","unclassified","5","{""blockIndex"":5,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Find the multiplicative inverse of the following matrices if it exists by adjoint method.
+(i) $\left[\begin{array}{ccc}1 & -1 & 1 \\ 2 & 1 & -1 \\ 1 & -2 & -1\end{array}\right]$
+(ii) $\left[\begin{array}{ccc}3 & -4 & 2 \\ 2 & 3 & 5 \\ 1 & 0 & 1\end{array}\right]$
+(iii) $\left[\begin{array}{ccc}i & 0 & 1 \\ 2 i & -1 & -i \\ 1 & 0 & 4 i\end{array}\right]$
+(iv) $\left[\begin{array}{ccc}3 & -i & i \\ 2 & 1 & -3 i \\ 4 i & 2 & 6\end{array}\right]$","ms7c3pd94ng9j54znypntrrh8185p841"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-3","2.3 Determinants and Cofactor Expansion","m170epjw2k2qv61eb4bgq7s77n8c8pep","xd71whmwbwhnedzf0qptzwwyxn8c8trp","Exercise 2.3","[""A nonzero determinant ensures that the inverse exists."",""Verify both left and right products equal the identity matrix.""]",,"false","det(A)=18≠0, so A is invertible. A⁻¹=[[1/3,−1/2,1/6],[0,1,0],[−1/9,0,1/9]]. Direct multiplication gives AA⁻¹=[[1,0,0],[0,1,0],[0,0,1]] and A⁻¹A=[[1,0,0],[0,1,0],[0,0,1]], hence both products equal I₃.","exercise","unclassified","6","{""blockIndex"":5,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","If $A=\left[\begin{array}{rrr}2 & 1 & -3 \\ 0 & 1 & 0 \\ 2 & 1 & 6\end{array}\right]$ then find $A^{-1}$ and hence show that $A A^{-1}=A^{-1} A=I_{3}$.","ms7c3pd94ng9j54znypntrrh8185p841"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-3","2.3 Determinants and Cofactor Expansion","m171w83j1b6y1tzaddy85ayt9x8c8yv8","xd71whmwbwhnedzf0qptzwwyxn8c8trp","Exercise 2.3","[""Compute AB, invert it, and separately multiply B⁻¹ by A⁻¹."",""The inverse of a product reverses the order of factors.""]",,"false","Direct calculation gives the same matrix for (AB)⁻¹ and B⁻¹A⁻¹ in each case: (i) [[7/6,−1/4],[−1,1/4]]. (ii) [[23/119,−10/119,2/119],[2/17,−1/34,7/34],[−8/119,19/119,20/119]]. (iii) [[531/2650−121i/1325,−23/2650−132i/1325,−374/1325+143i/1325],[217/530−22i/265,−221/530−24i/265,−68/265+26i/265],[−193/530+33i/265,199/530+36i/265,102/265−39i/265]]. (iv) [[−1/9,−1/9,2/9],[2/27,13/27,−1/9],[1/27,−4/27,0]]. Hence (AB)⁻¹=B⁻¹A⁻¹ for all four pairs.","exercise","unclassified","7","{""blockIndex"":5,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Verify that $(A B)^{-1}=B^{-1} A^{-1}$ in each of the following.
+    (i) $A=\left[\begin{array}{ll}2 & 1 \\ 8 & 6\end{array}\right]$ and $B=\left[\begin{array}{ll}3 & 2 \\ 0 & 2\end{array}\right]$
+    (ii) $A=\left[\begin{array}{ccc}1 & 1 & 1 \\ 2 & -1 & 1 \\ 2 & 1 & -3\end{array}\right]$ and $B=\left[\begin{array}{ccc}3 & -2 & 3 \\ 2 & 1 & -1 \\ 4 & -3 & 2\end{array}\right]$
+    (iii) $A=\left[\begin{array}{ccc}2 & -1 & 6 \\ 1 & 2 & 1 \\ -i & 1 & 6\end{array}\right]$ and $B=\left[\begin{array}{lll}3 & 1 & 2 \\ 1 & 0 & 1 \\ 0 & 1 & 1\end{array}\right]$
+    (iv) $A=\left[\begin{array}{ccc}1 & 2 & 5 \\ 1 & -1 & -1 \\ 2 & 3 & -1\end{array}\right]$ and $B=\left[\begin{array}{lll}2 & 3 & 4 \\ 1 & 0 & 2 \\ 0 & 1 & 3\end{array}\right]$","ms7c3pd94ng9j54znypntrrh8185p841"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-4","2.4 Determinants and Special Matrices","m17a08cz3jnf48xvxkmfcqqe7n8c8jzf","xd7a493jrhzxzzctsmmstejfrh8c87hr","Exercise 2.4",,,"false",,"exercise","unclassified","1","{""blockIndex"":7,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Without expansion show that:
+(i) $\left|\begin{array}{ccc}9 & 27 & 36 \\ 18 & 54 & 24 \\ 27 & 81 & 28\end{array}\right|=0$
+(ii) $\quad \left\lvert\, \begin{array}{ll}1 / a & b c \\ 1 / b & a c \\ 1 / c & a b\end{array}\right.$
+(v) $\left|\begin{array}{lll}(a-b)^{3} & a^{3}-b^{3} & a b(a-b) \\ (c-d)^{3} & c^{3}-d^{3} & c d(c-d) \\ (e-f)^{3} & e^{3}-f^{3} & e f(e-f)\end{array}\right|=0$
+(vi) $\left|\begin{array}{ccc}x & -z & 0 \\ 0 & y & -x \\ -y & 0 & z\end{array}\right|=0$
+(vii) $\left|\begin{array}{lll}(a-b)^{2} & (a+b)^{2} & a b \\ (c-d)^{2} & (c+d)^{2} & c d \\ (e-f)^{2} & (e+f)^{2} & e f\end{array}\right|=0$","ms7ec9z5exgs5se4wdq2p0vybn85qzqh"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-4","2.4 Determinants and Special Matrices","m17czz5mhqs0frs3nd4hfh38bs8c98nm","xd7a493jrhzxzzctsmmstejfrh8c87hr","Exercise 2.4","[""Adding a multiple of one row or column to another does not change a determinant."",""Use det(TM)=det(T)det(M) and multilinearity to factor structured determinants.""]",,"false","(i) Apply determinant-preserving row/column operations (for example R₃←R₃−R₁−R₂) and factor the resulting terms; the determinant reduces to −2(x³+y³). (ii) Successive row and column additions reduce the determinant to (a+b+c)(a²+b²+c²). (iii) If M has rows A,B,C, the left matrix is TM with T=[[n,1,0],[0,n,1],[1,0,n]]. Therefore det(TM)=det(T)det(M)=(n³+1)det(M). (iv) By linearity in column 3, D=det[t,t²,1]+αdet[t,t²,t³]. The first determinant is (x−y)(y−z)(z−x), while factoring xyz from the second gives xyz(x−y)(y−z)(z−x). Hence D=(1+αxyz)(x−y)(y−z)(z−x).","exercise","unclassified","2","{""blockIndex"":7,""chapterNumber"":2,""page"":41,""subjectSlug"":""maths-11""}","Using the properties of the determinants prove the following.
+(i) $\left|\begin{array}{ccc}x & y & x+y \\ y & x+y & x \\ x+y & x & y\end{array}\right|=-2\left(x^{3}+y^{3}\right)$
+(ii) $\left|\begin{array}{ccc}a & b-c & b+c \\ a+c & b & c-a \\ a-b & a+b & c\end{array}\right|=(a+b+c)\left(a^{2}+b^{2}+c^{2}\right)$
+(iii) $\left|\begin{array}{lll}n a_{1}+b_{1} & n a_{2}+b_{2} & n a_{3}+b_{3} \\ n b_{1}+c_{1} & n b_{2}+c_{2} & n b_{3}+c_{3} \\ n c_{1}+a_{1} & n c_{2}+a_{2} & n c_{3}+a_{3}\end{array}\right|=\left(n^{3}+1\right)\left|\begin{array}{lll}a_{1} & a_{2} & a_{3} \\ b_{1} & b_{2} & b_{3} \\ c_{1} & c_{2} & c_{3}\end{array}\right|$
+(iv) $\left|\begin{array}{lll}x & x^{2} & 1+\alpha x^{3} \\ y & y^{2} & 1+\alpha y^{3} \\ z & z^{2} & 1+\alpha z^{3}\end{array}\right|=(1+\alpha x y z)(x-y)(y-z)(z-x)$","ms7ec9z5exgs5se4wdq2p0vybn85qzqh"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17bfmkpzm5asae5cqj74vf54x8c8nkt","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""A homogeneous system has a nontrivial solution only when the coefficient matrix is singular."",""Use elimination to express the dependent variables in terms of a free parameter.""]",,"false","Gaussian elimination gives: (i) x₂=2x₃ and x₁=x₃, so (x₁,x₂,x₃)=t(1,2,1), t≠0. (ii) x₃=5x₂/2 and x₁=−7x₂/2, so (x₁,x₂,x₃)=t(−7,2,5), t≠0. (iii) x₂=2x₃ and x₁=x₃, so (x₁,x₂,x₃)=t(1,2,1), t≠0. (iv) the coefficient determinant is −73≠0, so only the trivial solution (0,0,0) exists.","exercise","unclassified","1","{""blockIndex"":10,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Solve the following system of homogeneous linear equations for non-trivial solution if exists.
+(i)
+$$
+\begin{aligned}
+& 2 x_{1}-3 x_{2}+4 x_{3}=0 \\
+& x_{1}-2 x_{2}+3 x_{3}=0 \\
+& 4 x_{1}+x_{2}-6 x_{3}=0
+\end{aligned}
+$$
+(ii)
+$$
+\begin{aligned}
+& 2 x_{1}-3 x_{2}+4 x_{3}=0 \\
+& x_{1}+x_{2}+x_{3}=0 \\
+& x_{1}-4 x_{2}+3 x_{3}=0
+\end{aligned}
+$$
+(iii)
+$$
+\begin{aligned}
+& x_{1}+x_{2}-3 x_{3}=0 \\
+& 3 x_{1}-2 x_{2}+x_{3}=0 \\
+& 4 x_{1}-x_{2}-2 x_{3}=0
+\end{aligned}
+$$
+(iv)
+$$
+\begin{aligned}
+& 5 x_{1}+6 x_{2}-7 x_{3}=0 \\
+& 2 x_{1}-x_{2}+x_{3}=0 \\
+& x_{1}+2 x_{2}+2 x_{3}=0
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17bve3s81rn8jrycwe90y4bmx8c86r1","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""Set the coefficient determinant to zero to obtain possible lambda values."",""For each such value, use elimination to get a nonzero parameter vector.""]",,"false","A nontrivial solution requires determinant zero. (i) det=7+11λ, hence λ=−7/11; elimination gives (x₁,x₂,x₃)=t(−10,11,13), t≠0. (ii) det=λ²+5λ−14=(λ+7)(λ−2). For λ=2, (x₁,x₂,x₃)=t(−2,1,2); for λ=−7, (x₁,x₂,x₃)=t(17,5,1), with t≠0.","exercise","numerical","2","{""blockIndex"":10,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Find the value of $\lambda$ for which the following system of homogeneous linear equations may have non-trivial solution. Also solve the system for value of $\lambda$.
+(i)
+$$
+\begin{aligned}
+& 2 x_{1}-\lambda x_{2}+x_{3}=0 \\
+& 2 x_{1}+3 x_{2}-x_{3}=0 \\
+& 3 x_{1}-2 x_{2}+4 x_{3}=0
+\end{aligned}
+$$
+(ii)
+$$
+\begin{aligned}
+& x_{1}-4 x_{2}+3 x_{3}=0 \\
+& 2 x_{1}+\lambda x_{2}+x_{3}=0 \\
+& x_{1}-2 x_{2}+\lambda x_{3}=0
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m177azdms5z59hrtyx10hdfmc18c8vq5","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""Row-reduce each augmented matrix to echelon form."",""A row [0,0,0|c] with c≠0 means the system is inconsistent.""]",,"false","Gauss elimination yields: (i) (x,y,z)=(46/19,66/19,−63/19). (ii) the augmented matrix reduces to a row [0,0,0|2], so the system is inconsistent and has no solution. (iii) (x,y,z)=(5/4,5/4,−1/2). (iv) (x,y,z)=(−7,−7,5).","exercise","unclassified","3","{""blockIndex"":10,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Solve the following system of linear equations by Gauss elimination method.
+(i)
+$$
+\begin{aligned}
+& 2 x+3 y+4 z=2 \\
+& 2 x+y+z=5 \\
+& 3 x-2 y+z=-3
+\end{aligned}
+$$
+(ii)
+$$
+\begin{aligned}
+& 5 x-2 y+z=2 \\
+& 2 x+2 y+6 z=1 \\
+& 3 x-4 y-5 z=3
+\end{aligned}
+$$
+(iii)
+$$
+\begin{aligned}
+& 2 x+z=2 \\
+& 2 y-z=3 \\
+& x+3 y=5
+\end{aligned}
+$$
+(iv)
+$$
+\begin{aligned}
+& x+2 y+5 z=4 \\
+& 3 x-2 y+2 z=3 \\
+& 5 x-8 y-4 z=1
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17a0hhnb9z8zyzxj92vs912jx8c8v40","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""Use xᵢ=Δᵢ/Δ when the coefficient determinant Δ is nonzero."",""When Δ=0, test consistency before claiming a solution.""]",,"false","Using Cramer’s rule: (i) (x₁,x₂,x₃)=(3,1,2). (ii) (x₁,x₂,x₃)=(−1/7,1/7,0). (iii) the determinant is zero and the augmented equations are inconsistent (equivalently, elimination gives [0,0,0|6]), so there is no solution. (iv) (x₁,x₂,x₃)=(6/11,−7/11,2/11).","exercise","unclassified","4","{""blockIndex"":10,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Solve the following system of linear equations by using Cramer's rule.
+(i)
+$$
+\begin{aligned}
+& x_{1}+x_{2}+2 x_{3}=8 \\
+& -x_{1}-2 x_{2}+3 x_{3}=1 \\
+& 3 x_{1}-7 x_{2}+4 x_{3}=10
+\end{aligned}
+$$
+(ii)
+$$
+\begin{gathered}
+2 x_{1}+2 x_{2}+x_{3}=0 \\
+-2 x_{1}+5 x_{2}+2 x_{3}=1 \\
+8 x_{1}+x_{2}+4 x_{3}=-1
+\end{gathered}
+$$
+(iii)
+$$
+\begin{aligned}
+& -2 x_{2}+3 x_{3}=1 \\
+& 3 x_{1}+6 x_{2}-3 x_{3}=-2 \\
+& 6 x_{1}+6 x_{2}+3 x_{3}=5
+\end{aligned}
+$$
+(iv)
+$$
+\begin{aligned}
+2 x_{1}+x_{2}+3 x_{3} & =1 \\
+x_{1}-2 x_{2}+x_{3} & =2 \\
+3 x_{1}-4 x_{2}-x_{3} & =4
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17b6r9rc18f2tbwg9cdz5670h8c9v7g","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified","5","{""blockIndex"":10,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Solve the following system of linear equations by matrix inversion method.\n(i)\n$$\begin{aligned}\n& 5 x+3 y+z=6 \\\n& 2 x+y+3 z=19 \\\n& x+2 y+4 z=25\n\end{aligned}\n$$\n(ii)\n$$\begin{gathered}\nx+2 y-3 z=5 \\\n2 x-3 y+2 z=1 \\\n-x+2 y-5 z=-3\n\end{gathered}\n$$\n(iii)\n$$\begin{aligned}\n& -x+3 y-5 z=0 \\\n& 2 x+4 y-6 z=1 \\\n& x-2 y+3 z=3\n\end{aligned}\n$$\n(iv)\n$$\begin{aligned}\n& \frac{2}{x}+\frac{3}{y}+\frac{10}{z}=4 \\\n& \frac{4}{x}-\frac{6}{y}+\frac{5}{z}=1 \\\n& \frac{6}{x}+\frac{9}{y}-\frac{20}{z}=2\n\end{aligned}\n$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m177vp3ha6d0jqp7v4v3dp19nx8c9nja","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":11,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{aligned}
+& 5 x+3 y+z=6 \\
+& 2 x+y+3 z=19 \\
+& x+2 y+4 z=25
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m173b5b6ac93ca0xtx0f2yqmhx8c85v4","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":12,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","(ii)","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m179jjz7k2f2q69y8ttbmz8zns8c80zs","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":13,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{gathered}
+x+2 y-3 z=5 \\
+2 x-3 y+2 z=1 \\
+-x+2 y-5 z=-3
+\end{gathered}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17e1c1t4j8gf1bt9hw8qgcp7d8c8t3f","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":14,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","(iii)","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17b44xw96tfgasnr8hyagryt58c9n2c","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":15,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{aligned}
+& -x+3 y-5 z=0 \\
+& 2 x+4 y-6 z=1 \\
+& x-2 y+3 z=3
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m179zfpm0cgqq8cxsycx5ngw898c8zhy","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":16,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","(iv)","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17880ef2jtsf76jtjkd6jj4558c8a03","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":17,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{aligned}
+& \frac{2}{x}+\frac{3}{y}+\frac{10}{z}=4 \\
+& \frac{4}{x}-\frac{6}{y}+\frac{5}{z}=1 \\
+& \frac{6}{x}+\frac{9}{y}-\frac{20}{z}=2
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17ah519fytmtyxd5m0cscsmx18c9p4m","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified","6","{""blockIndex"":18,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","If $A=\left[\begin{array}{ccc}3 & 2 & 1 \\ 4 & -1 & 2 \\ 7 & 3 & -3\end{array}\right]$; find $A^{-1}$ and hence solve the system of equations.\n$$3 x+4 y+7 z=14 ; 2 x-y+3 z=4 ; \quad x+2 y-3 z=0 .$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m1710f18k1j6krzdnt59tez3cd8c80b4","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":19,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+3 x+4 y+7 z=14 ; 2 x-y+3 z=4 ; \quad x+2 y-3 z=0 .
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17dzvw6mr170h1g8say5gm10n8c99vh","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","numerical","7","{""blockIndex"":20,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Determine the value of $\lambda$ for which the following system has no solution, unique solution or infinitely many solutions.\n$$x+2 y-3 z=4 ; 3 x-y+5 z=2 ; 4 x+y+\left(\lambda^{2}-14\right) z=\lambda+2$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m177v6gmxv4ta28ga7ygtwwhj98c94sx","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":21,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+x+2 y-3 z=4 ; 3 x-y+5 z=2 ; 4 x+y+\left(\lambda^{2}-14\right) z=\lambda+2
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m1785c94yfr4gawjfa2ez8r2ex8c8jka","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified","8","{""blockIndex"":22,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Show that the system of equations\n$$2 x-y+3 z=\alpha ; 3 x+y-5 z=\beta ;-5 x-5 y+21 z=\gamma$$\nis inconsistent if $\gamma \neq 2 \alpha-3 \beta$.","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m176gzyx1xcqyk29np73kwnctx8c8atn","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":23,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+2 x-y+3 z=\alpha ; 3 x+y-5 z=\beta ;-5 x-5 y+21 z=\gamma
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17dd4k28q7s99ae9vf90xjghx8c8y7t","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""Choose an invertible coding matrix so decoding by its inverse is possible."",""Pad words with X to complete pairs or triples.""]",,"false","Use A=1,…,Z=26 and X as padding. For pairs, take K₂=[[1,1],[1,2]], K₂⁻¹=[[2,−1],[−1,1]]. K₂ encodes PAKISTAN as (17,18),(20,29),(39,59),(15,29); ISLAMABAD as (28,47),(13,14),(14,15),(3,4),(28,52); and COLLEGE as (18,33),(24,36),(12,19),(29,53). Applying K₂⁻¹ decodes them (discard padding X). For triples, take K₃=[[1,1,0],[0,1,1],[0,0,1]], K₃⁻¹=[[1,−1,1],[0,1,−1],[0,0,1]]. K₃ encodes PAKISTANX as (17,12,11),(28,29,20),(15,38,24); ISLAMABAD as (28,31,12),(14,14,1),(3,5,4); and COLLEGEXX as (18,27,12),(17,12,7),(29,48,24). Applying K₃⁻¹ recovers the original letters.","exercise","unclassified","9","{""blockIndex"":24,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","By making use of matrix of order 2 by 2 and 3 by 3 encode and decode the following words:
+a. PAKISTAN
+b. ISLAMABAD
+c. COLLEGE","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17e3rajbjvy5pkd49pj2dwr2x8c9t35","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""A translation 5 units below maps y to y−5."",""Use the inverse coordinate substitution y=y′+5 in the original equation.""]",,"false","For a downward translation by 5, use homogeneous coordinates: T=[[1,0,0],[0,1,−5],[0,0,1]], so (x′,y′,1)ᵀ=T(x,y,1)ᵀ. Thus x=x′ and y=y′+5. Substituting in x²+y²−9=0 gives x′²+(y′+5)²−9=0.","exercise","unclassified","10","{""blockIndex"":24,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Write the transformation matrix and the transformed equation of the curve $x^{2}+y^{2}-9=0$ when it is moved 5 units below.","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m1741ktev0kvfjxpcpvm3grs198c9p9m","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""A left translation maps x′=x−2."",""Substitute x=x′+2 into the original equation.""]",,"false","For a translation 2 units left, T=[[1,0,−2],[0,1,0],[0,0,1]], so x=x′+2 and y=y′. Substitute into x²+4x−3y=8: x′²+8x′−3y′=−4.","exercise","unclassified","11","{""blockIndex"":24,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Write the transformation matrix and the transformed equation of the curve $x^{2}+4 x-3 y=$ 8 when it is moved to 2 units on the left.","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m171fw2d59aq9znvv238hhk6kh8c9c05","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""A right translation maps x′=x+1."",""Substitute x=x′−1 into the original equation.""]",,"false","For a translation 1 unit right, T=[[1,0,1],[0,1,0],[0,0,1]], so x=x′−1 and y=y′. Substitute into 2x²−5y²=10: 2x′²−4x′−5y′²=8.","exercise","unclassified","12","{""blockIndex"":24,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Write the transformation matrix and the transformed equation of the curve $2 x^{2}-5 y^{2}=10$ when it is moved 1 unit to the right.","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17dq5qc30dvctkn3ejsyh7sgd8c8hms","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6","[""The translation maps (x,y) to (x+3,y+2)."",""Use x=x′−3 and y=y′−2 in the original line equation.""]",,"false","For 3 units right and 2 units above, T=[[1,0,3],[0,1,2],[0,0,1]], so x=x′−3 and y=y′−2. Substitution into 2x=7y−3 gives 2x′−7y′=−11.","exercise","unclassified","13","{""blockIndex"":24,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","Write the transformation matrix and the transformed equation of the line $2 \mathrm{x}=7 \mathrm{y}-3$ when it is moved 2 units above and 3 units to the right.","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m178ykbktem4sh1bajqxyt9zjh8ctbg6","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":11,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{aligned}
+& 5 x+3 y+z=6 \\
+& 2 x+y+3 z=19 \\
+& x+2 y+4 z=25
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m177wp1vj8f7qez4npj5rn16qh8cvj86","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":12,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","(ii)","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m1760wzzhcdrcfn93tmwk8er2s8ct3r8","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":13,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{gathered}
+x+2 y-3 z=5 \\
+2 x-3 y+2 z=1 \\
+-x+2 y-5 z=-3
+\end{gathered}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17dkk6n3jcjch4kjr3y94zqf58cvevh","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":14,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","(iii)","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m177v7amrya7cr08jabp1vg9hn8cvfzx","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":15,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{aligned}
+& -x+3 y-5 z=0 \\
+& 2 x+4 y-6 z=1 \\
+& x-2 y+3 z=3
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m175zqnnx16e8y89km061w93r58cttce","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":16,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","(iv)","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m17fcs9g2e5vg9wxvnhdb9akf58ctddr","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":17,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+\begin{aligned}
+& \frac{2}{x}+\frac{3}{y}+\frac{10}{z}=4 \\
+& \frac{4}{x}-\frac{6}{y}+\frac{5}{z}=1 \\
+& \frac{6}{x}+\frac{9}{y}-\frac{20}{z}=2
+\end{aligned}
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m1732r44e7s80pkj7wq8wrgczd8ctcvq","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":19,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+3 x+4 y+7 z=14 ; 2 x-y+3 z=4 ; \quad x+2 y-3 z=0 .
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m1767as2q7s6defk2g0zcxddgx8cvb6d","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":21,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+x+2 y-3 z=4 ; 3 x-y+5 z=2 ; 4 x+y+\left(\lambda^{2}-14\right) z=\lambda+2
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"
+"maths-11","02-matrices-and-determinants","Matrices And Determinants","exercise-2-6","2.6 Homogeneous Systems of Linear Equations","m179y4zg217m8qy5kcayn40g8h8cvwpy","xd7ew07zw2vq838p0hewmbvh898c8xfy","Exercise 2.6",,,"false",,"exercise","unclassified",,"{""blockIndex"":23,""chapterNumber"":2,""page"":57,""subjectSlug"":""maths-11""}","$$
+2 x-y+3 z=\alpha ; 3 x+y-5 z=\beta ;-5 x-5 y+21 z=\gamma
+$$","ms77xhxssmsam1s8n1mfpr3kdh85qfs3"

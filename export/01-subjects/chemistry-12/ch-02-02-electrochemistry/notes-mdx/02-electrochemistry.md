@@ -1,0 +1,1423 @@
+<!-- note kx7bpf4hv73vm94rxt2qdbv99185pzte | topic ms768vdta49mwdmrfbk1rp2egn85pmdm | status published -->
+# 2.1 Oxidation-Reduction Concepts
+
+## Oxidation and Reduction
+
+Oxidation and reduction always occur simultaneously in a **redox reaction** (short for reduction-oxidation reaction). Neither process can occur without the other.
+
+### Definitions in Terms of Electron Transfer
+
+| Term | Definition |
+|------|------------|
+| **Oxidation** | Loss of electrons by a species. The oxidation state **increases**. |
+| **Reduction** | Gain of electrons by a species. The oxidation state **decreases**. |
+| **Redox reaction** | A reaction in which both oxidation and reduction occur simultaneously. |
+
+**Mnemonic:** OIL RIG, **O**xidation **I**s **L**oss, **R**eduction **I**s **G**ain (of electrons).
+
+### Definitions in Terms of Oxidation Number (Oxidation State)
+
+- **Oxidation** occurs when the oxidation number of an atom **increases**.
+- **Reduction** occurs when the oxidation number of an atom **decreases**.
+
+**Example:** In the reaction $Zn + CuSO_4 \rightarrow ZnSO_4 + Cu$
+
+- $Zn$: oxidation state goes from $0 \rightarrow +2$ → **oxidised**
+- $Cu$: oxidation state goes from $+2 \rightarrow 0$ → **reduced**
+
+## Oxidizing and Reducing Agents
+
+- **Oxidizing agent (oxidant):** The species that causes oxidation of another substance. It **gains electrons** and is itself **reduced** (its oxidation state decreases).
+- **Reducing agent (reductant):** The species that causes reduction of another substance. It **loses electrons** and is itself **oxidised** (its oxidation state increases).
+
+In the example above:
+- $CuSO_4$ is the **oxidizing agent** (Cu²⁺ gains electrons)
+- $Zn$ is the **reducing agent** (Zn loses electrons)
+
+## Disproportionation
+
+**Disproportionation** is a special type of redox reaction in which a **single element in one oxidation state is simultaneously oxidised and reduced** to give two different products.
+
+**Example:** Decomposition of hydrogen peroxide:
+
+$2H_2O_2 \rightarrow 2H_2O + O_2$
+
+In $H_2O_2$, oxygen is in the $-1$ oxidation state.
+- In $H_2O$, oxygen is $-2$ → **reduced**
+- In $O_2$, oxygen is $0$ → **oxidised**
+
+The same element (oxygen) is both oxidised and reduced, so this is a disproportionation reaction.
+
+**Another example:** Reaction of chlorine with cold dilute NaOH:
+
+$Cl_2 + 2NaOH \rightarrow NaCl + NaOCl + H_2O$
+
+- $Cl_2$ starts at oxidation state $0$
+- In $NaCl$, Cl is $-1$ → **reduced**
+- In $NaOCl$, Cl is $+1$ → **oxidised**
+
+## Rules for Assigning Oxidation Numbers
+
+1. The oxidation state of any element in its **free (elemental) state** is **zero** (e.g., $H_2$, $O_2$, $Na$, $S_8$).
+2. The oxidation state of a **monoatomic ion** equals its charge (e.g., $Na^+$ is $+1$, $Cl^-$ is $-1$).
+3. In compounds, **oxygen** is usually $-2$ (except in peroxides where it is $-1$, and in $OF_2$ where it is $+2$).
+4. In compounds, **hydrogen** is usually $+1$ (except in metal hydrides where it is $-1$).
+5. The sum of oxidation states in a **neutral compound** equals **zero**.
+6. The sum of oxidation states in a **polyatomic ion** equals the **charge of the ion**.
+
+**Example, finding oxidation state of Mn in $KMnO_4$:**
+
+$K = +1,\quad O = -2 \times 4 = -8$
+$+1 + x + (-8) = 0 \implies x = +7$
+
+So Mn is in the $+7$ oxidation state in $KMnO_4$.
+
+
+---
+
+<!-- note kx7c008fdswt24fjbwphr00a5985qkrj | topic ms74p2jqk2etjtjhq45gt3301585pakb | status published -->
+# 2.2 Balancing of Redox Equations
+
+Balancing redox (oxidation-reduction) equations requires ensuring both **atom conservation** and **charge conservation**. Two systematic methods are used in FBISE/FSc chemistry.
+
+---
+
+## Why Special Methods Are Needed
+
+Simple inspection balancing fails for redox reactions because electrons are transferred between species. We must explicitly account for electron gain and loss.
+
+**Two fundamental rules:**
+1. Total electrons **lost** by the reducing agent = Total electrons **gained** by the oxidizing agent
+2. Net charge must be equal on both sides
+
+---
+
+## Method 1: Oxidation Number Method
+
+### Steps
+
+1. **Assign oxidation numbers** to all atoms in the equation.
+2. **Identify** which atoms are oxidized (increase in oxidation number) and which are reduced (decrease).
+3. **Calculate** the total increase and total decrease in oxidation numbers.
+4. **Multiply** the oxidized and reduced species by appropriate coefficients so that total increase = total decrease.
+5. **Balance** the remaining atoms (H and O) and charges by inspection.
+
+### Example
+
+Balance: $KMnO_4 + FeSO_4 + H_2SO_4 \rightarrow MnSO_4 + Fe_2(SO_4)_3 + K_2SO_4 + H_2O$
+
+| Species | Oxidation State Change | Change per atom |
+|---------|----------------------|----------------|
+| $Mn$ in $KMnO_4$ | +7 → +2 | decrease of 5 (reduction) |
+| $Fe$ in $FeSO_4$ | +2 → +3 | increase of 1 (oxidation) |
+
+To equalize: multiply Mn species by **1** and Fe species by **5**:
+
+$$2KMnO_4 + 10FeSO_4 + 8H_2SO_4 \rightarrow 2MnSO_4 + 5Fe_2(SO_4)_3 + K_2SO_4 + 8H_2O$$
+
+---
+
+## Method 2: Ion-Electron (Half-Reaction) Method
+
+This method splits the overall reaction into two half-equations, one for oxidation and one for reduction, balances each separately, then combines them.
+
+### Steps for Acidic Medium
+
+1. **Write** the unbalanced ionic equation.
+2. **Separate** into oxidation and reduction half-reactions.
+3. **Balance atoms** other than O and H first.
+4. **Balance O** by adding $H_2O$ to the deficient side.
+5. **Balance H** by adding $H^+$ to the deficient side.
+6. **Balance charge** by adding electrons ($e^-$) to the more positive side.
+7. **Multiply** each half-reaction by a factor so electrons cancel.
+8. **Add** the two half-reactions and simplify.
+
+### Steps for Basic Medium
+
+Follow steps 1–8 for acidic medium, then:
+
+1. For every $H^+$ present, add one $OH^-$ to **both sides**.
+2. Combine $H^+$ + $OH^-$ → $H_2O$ on the same side; simplify.
+
+### Example: Acidic Medium
+
+Balance: $MnO_4^- + Fe^{2+} \rightarrow Mn^{2+} + Fe^{3+}$ (acidic)
+
+**Reduction half-reaction:**
+$$MnO_4^- \rightarrow Mn^{2+}$$
+- Balance Mn: already balanced
+- Balance O: add $4H_2O$ to right
+$$MnO_4^- \rightarrow Mn^{2+} + 4H_2O$$
+- Balance H: add $8H^+$ to left
+$$MnO_4^- + 8H^+ \rightarrow Mn^{2+} + 4H_2O$$
+- Balance charge: left = $-1+8 = +7$; right = $+2$; add $5e^-$ to left
+$$MnO_4^- + 8H^+ + 5e^- \rightarrow Mn^{2+} + 4H_2O$$
+
+**Oxidation half-reaction:**
+$$Fe^{2+} \rightarrow Fe^{3+} + e^-$$
+
+**Multiply** oxidation half by 5:
+$$5Fe^{2+} \rightarrow 5Fe^{3+} + 5e^-$$
+
+**Add** the two half-reactions:
+$$MnO_4^- + 8H^+ + 5Fe^{2+} \rightarrow Mn^{2+} + 4H_2O + 5Fe^{3+}$$
+
+---
+
+## Comparison of Methods
+
+| Feature | Oxidation Number Method | Ion-Electron Method |
+|---------|------------------------|--------------------|
+| Best for | Molecular equations | Ionic equations |
+| Balances charge via | Electron count from oxidation numbers | Explicit $e^-$ in half-equations |
+| Medium adjustment | Less explicit | Explicit $H^+$/$OH^-$/$H_2O$ steps |
+
+---
+
+## Key Points to Remember
+
+- **Oxidizing agent**: gains electrons → oxidation number **decreases** → undergoes **reduction**
+- **Reducing agent**: loses electrons → oxidation number **increases** → undergoes **oxidation**
+- In acidic medium: use $H^+$ and $H_2O$ to balance H and O
+- In basic medium: use $OH^-$ and $H_2O$ to balance H and O
+- Always verify: same number of each atom AND same net charge on both sides
+
+
+---
+
+<!-- note kx76ravw1417nxc67a287kbv0s85peqm | topic ms7d53h49earq5b54qebyxwje985qgzs | status published -->
+# 2.3 Oxidizing and Reducing Agents
+
+## Key Definitions
+
+In every redox reaction, one species **gains** electrons and another **loses** electrons. The two participants are called the **oxidizing agent** and the **reducing agent**.
+
+| Term | Electron Transfer | Change in Oxidation State | What Happens to It |
+|---|---|---|---|
+| **Oxidizing agent** (oxidant) | Gains electrons | Oxidation state **decreases** | Gets **reduced** |
+| **Reducing agent** (reductant) | Loses electrons | Oxidation state **increases** | Gets **oxidized** |
+
+> **Memory aid:** OIL RIG, *Oxidation Is Loss, Reduction Is Gain* (of electrons).
+
+---
+
+## Identifying Oxidizing and Reducing Agents
+
+To identify the oxidizing and reducing agents in a reaction, assign oxidation numbers to every element and track the changes.
+
+**Example:** The reaction of $MnO_4^-$ with $Fe^{2+}$ in acidic solution:
+
+$$MnO_4^{-} + 8H^+ + 5Fe^{2+} \rightarrow Mn^{2+} + 5Fe^{3+} + 4H_2O$$
+
+- Mn: $+7 \rightarrow +2$ (decrease of 5) → **oxidizing agent** (gets reduced)
+- Fe: $+2 \rightarrow +3$ (increase of 1) → **reducing agent** (gets oxidized)
+
+---
+
+## Role of Oxidizing Agents
+
+An oxidizing agent **accepts electrons** from the reducing agent. In doing so:
+- Its own oxidation state **falls** (it is reduced).
+- It enables the oxidation of the other species.
+
+**Common oxidizing agents and their colour changes:**
+
+| Oxidizing Agent | Reduced Form | Colour Change |
+|---|---|---|
+| $KMnO_4$ (acidified) | $Mn^{2+}$ | Deep purple → colourless |
+| $K_2Cr_2O_7$ (acidified) | $Cr^{3+}$ | Orange → green |
+| $Cl_2$ | $Cl^-$ | Yellow-green → colourless |
+
+---
+
+## Role of Reducing Agents
+
+A reducing agent **donates electrons** to the oxidizing agent. In doing so:
+- Its own oxidation state **rises** (it is oxidized).
+- It enables the reduction of the other species.
+
+**Common reducing agents:** $Fe^{2+}$, $I^-$, $SO_2$, $H_2$, metals such as Zn and Mg.
+
+---
+
+## Relative Strength of Oxidizing and Reducing Agents
+
+The **standard electrode potential** ($E^\circ$) is used to compare the strengths of oxidizing and reducing agents:
+
+- **Stronger oxidizing agent** → more **positive** $E^\circ$ (greater tendency to be reduced).
+- **Stronger reducing agent** → more **negative** $E^\circ$ (greater tendency to be oxidized).
+
+### Trend in Halide Ions as Reducing Agents
+
+Among the halide ions $F^-, Cl^-, Br^-, I^-$:
+
+$$\text{Reducing power: } F^- < Cl^- < Br^- < I^-$$
+
+As ionic radius **increases** down the group, the outermost electrons are held less tightly by the nucleus, making them easier to lose. Therefore, $I^-$ is the **strongest reducing agent** among the halides.
+
+Conversely, the halogens themselves follow the opposite trend as oxidizing agents:
+
+$$\text{Oxidizing power: } F_2 > Cl_2 > Br_2 > I_2$$
+
+$F_2$ has the highest $E^\circ$ value ($+2.87\text{ V}$) and is the strongest oxidizing agent.
+
+---
+
+## Worked Example
+
+**Q:** In the reaction $2KMnO_4 + 10FeSO_4 + 8H_2SO_4 \rightarrow 2MnSO_4 + 5Fe_2(SO_4)_3 + K_2SO_4 + 8H_2O$, identify the oxidizing and reducing agents.
+
+**Solution:**
+- Mn: $+7 \rightarrow +2$ (reduced) → $KMnO_4$ is the **oxidizing agent**
+- Fe: $+2 \rightarrow +3$ (oxidized) → $FeSO_4$ is the **reducing agent**
+
+
+---
+
+<!-- note kx70bz7e0nkagqx35y6qs9z6yd85pn0g | topic ms7dmdn1gfmbah70jk7wcme9zd85qmpt | status published -->
+# 2.4 Electrode, Electrode Potential and Electrochemical Series
+
+This section explores the fundamental principles of electrochemistry, focusing on galvanic cells, electrode potentials, and the determination of redox reaction spontaneity.
+
+## 2.4.1 The Galvanic Cell (Daniel Cell)
+
+A galvanic cell, also known as a voltaic cell, is an electrochemical cell that converts chemical energy from spontaneous redox reactions into electrical energy.
+
+**Initial Observation**
+
+When a zinc (Zn) rod is placed directly into a copper(II) sulfate ($\mathrm{CuSO_4}$) solution, a spontaneous redox reaction occurs:
+$$\mathrm{Zn}_{(s)} + \mathrm{Cu^{2+}}_{(aq)} \longrightarrow \mathrm{Zn^{2+}}_{(aq)} + \mathrm{Cu}_{(s)}$$
+
+In this scenario, electrons flow directly from Zn to $\mathrm{Cu^{2+}}$ ions, and copper metal deposits on the zinc rod. No external current is generated.
+
+**Constructing a Galvanic Cell**
+
+To generate an electric current, the electron transfer must be directed through an external circuit.
+
+Two separate containers are used: one with a Zn rod in zinc sulfate solution and another with a copper (Cu) rod in copper(II) sulfate solution. Initially, connecting the electrodes with a copper wire does not produce current because the circuits are not complete.
+
+**Salt Bridge**
+
+A salt bridge is a U-shaped tube filled with a solution of an inert electrolyte (e.g., $\mathrm{KCl}$, $\mathrm{KNO_3}$, $\mathrm{Na_2SO_4}$) that connects the two solutions.
+
+The salt bridge allows the movement of ions between the two half-cells without mixing the solutions. It maintains electrical neutrality in both half-cells by allowing ions to flow, preventing charge buildup that would otherwise stop the reaction and current flow.
+
+<InlineNoteTag label="Types of Electrochemical Cells" notePath="chemistry-12/2.8-types-of-electro-chemical-cells" />
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923172439.webp" alt="A simple Galvanic Cell" caption="Figure 2.1: A simple Galvanic Cell" />
+
+**Half-Cells and Electrodes**
+
+The half-cell where oxidation occurs is called the anode half-cell, and the electrode is called the anode. The half-cell where reduction occurs is called the cathode half-cell, and the electrode is called the cathode.
+
+**Reactions in a Daniel Cell**
+
+Zinc has a greater tendency to lose electrons than copper. Thus, the Zn electrode becomes negatively charged relative to the Cu electrode. Electrons flow from the Zn electrode (anode) through the external circuit to the Cu electrode (cathode).
+
+At the anode (oxidation half-reaction):
+$$\mathrm{Zn}_{(s)} \longrightarrow \mathrm{Zn^{2+}}_{(aq)} + 2\mathrm{e^-}$$
+
+At the cathode (reduction half-reaction):
+$$\mathrm{Cu^{2+}}_{(aq)} + 2\mathrm{e^-} \longrightarrow \mathrm{Cu}_{(s)}$$
+
+Overall cell reaction:
+$$\mathrm{Zn}_{(s)} + \mathrm{Cu^{2+}}_{(aq)} \longrightarrow \mathrm{Zn^{2+}}_{(aq)} + \mathrm{Cu}_{(s)}$$
+
+<InlineNoteTag label="Oxidation Reduction Concepts" notePath="chemistry-12/2.1-oxidation-reduction-concepts" />
+
+## 2.4.2 Cell Potential
+
+**Electromotive Force (emf)**
+
+The electromotive force is the "push" or "force" behind the electrons flowing from the anode to the cathode through the wire. It represents the potential of the cell to do work and is measured in volts (V).
+
+**Cell Potential ($E^\circ_{\text{cell}}$)**
+
+The emf produced by a galvanic cell depends on the difference in the electrode potentials of the two half-cells.
+
+Under standard conditions ($1\, \mathrm{mol\,dm^{-3}}$ concentration for solutions, $1\, \mathrm{atm}$ pressure for gases, and $25^\circ\mathrm{C}$), the cell potential is denoted as $E^\circ_{\text{cell}}$. The electrode with a more negative standard reduction potential acts as the anode (oxidation). The electrode with a more positive standard reduction potential acts as the cathode (reduction).
+
+**Calculation of Standard Cell Potential**
+
+The standard cell potential is the algebraic difference between the standard reduction potentials of the cathode and anode:
+
+$$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$$
+
+For a spontaneous redox reaction, $E^\circ_{\text{cell}}$ must have a positive value.
+
+**Measurement of Half-Cell Potentials**
+
+A single half-cell potential (electrode potential) cannot be measured directly because a half-cell reaction requires a simultaneous reaction in another half-cell. Relative half-cell potentials are determined by coupling the half-cell with a reference electrode, whose potential is arbitrarily set. The Standard Hydrogen Electrode (SHE) is the primary reference electrode.
+
+## 2.4.3 Standard Hydrogen Electrode (SHE)
+
+The SHE serves as the universally accepted reference electrode, with its potential arbitrarily assigned a value of $0.00\,\mathrm{V}$ at all temperatures.
+
+**Construction**
+
+A platinum (Pt) foil, coated with finely divided platinum (to increase surface area), is immersed in a $1\, \mathrm{M}$ hydrochloric acid ($\mathrm{HCl}$) solution. Hydrogen gas ($\mathrm{H_2}$) at $1\, \mathrm{atm}$ pressure is bubbled around the platinum electrode at $298\, \mathrm{K}$ ($25^\circ\mathrm{C}$).
+
+*Figure 2.2: Standard Hydrogen Electrode*
+
+**Half-Reactions (Standard Potential = $0.00\,\mathrm{V}$)**
+
+Reduction (acting as cathode):
+$$2\mathrm{H}^+_{(aq)} + 2\mathrm{e^-} \longrightarrow \mathrm{H}_{2(g)} \quad E^\circ_{\mathrm{H}^+/\mathrm{H}_2} = 0.00\,\mathrm{V}$$
+
+Oxidation (acting as anode):
+$$\mathrm{H}_{2(g)} \longrightarrow 2\mathrm{H}^+_{(aq)} + 2\mathrm{e^-} \quad E^\circ_{\mathrm{H}_2/\mathrm{H}^+} = 0.00\,\mathrm{V}$$
+
+**Flexibility**
+
+The SHE can function as either a cathode or an anode, depending on the other half-cell it is connected to.
+
+**Standard Conditions**
+
+The symbol $E^\circ$ indicates standard conditions: $1\, \mathrm{M}$ concentration for solutions, $1\, \mathrm{atm}$ pressure for gases, and $25^\circ\mathrm{C}$.
+
+## 2.4.4 Method to Measure the Electrode Potentials
+
+The standard electrode potential of a half-cell is determined by coupling it with the SHE.
+
+### Determination of Standard Electrode Potential of $\mathbf{Zn^{2+}/Zn}$ Electrode
+
+1. **Setup:** A half-cell with a zinc rod in $1\, \mathrm{M}$ zinc sulfate solution is connected via a salt bridge to a SHE.
+2. **Electron Flow:** The voltmeter shows a reading of $0.76\,\mathrm{V}$ and indicates electron flow from the zinc electrode to the hydrogen electrode.
+3. **Electrode Roles:**
+   * Since electrons flow from the zinc electrode, zinc is undergoing oxidation and acts as the anode.
+   * The SHE undergoes reduction and acts as the cathode.
+4. **Overall Cell Reaction:**
+$$\mathrm{Zn}_{(s)} + 2\mathrm{H}^+_{(aq)} \longrightarrow \mathrm{Zn^{2+}}_{(aq)} + \mathrm{H}_{2(g)}$$
+5. **Calculations:**
+   * Given $E^\circ_{\text{cell}} = 0.76\,\mathrm{V}$.
+   * Using the formula $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$:
+   $$0.76\,\mathrm{V} = E^\circ_{\mathrm{H}^+/\mathrm{H}_2} - E^\circ_{\mathrm{Zn^{2+}}/\mathrm{Zn}}$$
+   * Since $E^\circ_{\mathrm{H}^+/\mathrm{H}_2} = 0.00\,\mathrm{V}$:
+   $$0.76\,\mathrm{V} = 0.00\,\mathrm{V} - E^\circ_{\mathrm{Zn^{2+}}/\mathrm{Zn}}$$
+   $$E^\circ_{\mathrm{Zn^{2+}}/\mathrm{Zn}} = -0.76\,\mathrm{V}$$
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923172709.webp" alt="Measurement of Standard Electrode Potential of Zn2+/Zn Electrode" caption="Figure 2.3: Measurement of Standard Electrode Potential of Zn2+/Zn Electrode" />
+
+### Determination of Standard Electrode Potential of $\mathbf{Cu^{2+}/Cu}$ Electrode
+
+1. **Setup:** A half-cell with a copper rod in $1\, \mathrm{M}$ copper sulfate solution is connected via a salt bridge to a SHE.
+2. **Electron Flow:** The voltmeter shows a reading of $0.34\,\mathrm{V}$ and indicates electron flow from the hydrogen electrode to the copper electrode.
+3. **Electrode Roles:**
+   * Since electrons flow to the copper electrode, copper ions are undergoing reduction, and copper acts as the cathode.
+   * The SHE undergoes oxidation and acts as the anode.
+4. **Overall Cell Reaction:**
+$$\mathrm{Cu^{2+}}_{(aq)} + \mathrm{H}_{2(g)} \longrightarrow 2\mathrm{H}^+_{(aq)} + \mathrm{Cu}_{(s)}$$
+5. **Calculations:**
+   * Given $E^\circ_{\text{cell}} = 0.34\,\mathrm{V}$.
+   * Using the formula $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$:
+   $$0.34\,\mathrm{V} = E^\circ_{\mathrm{Cu^{2+}}/\mathrm{Cu}} - E^\circ_{\mathrm{H}_2/\mathrm{H}^+}$$
+   * Since $E^\circ_{\mathrm{H}_2/\mathrm{H}^+} = 0.00\,\mathrm{V}$:
+   $$0.34\,\mathrm{V} = E^\circ_{\mathrm{Cu^{2+}}/\mathrm{Cu}} - 0.00\,\mathrm{V}$$
+   $$E^\circ_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = +0.34\,\mathrm{V}$$
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923172631.webp" alt="Measurement of Standard Electrode Potential of Cu2+/Cu Electrode" caption="Figure 2.4: Measurement of Standard Electrode Potential of Cu2+/Cu Electrode" />
+
+### Table 2.1: Reduction Potentials of Some Elements, Ions and Compounds
+
+| Reduction Half-reaction | $E^\circ$ (Volts) |
+| :--- | :--- |
+| $\mathrm{Li^+} + \mathrm{e^-} \rightleftharpoons \mathrm{Li}$ | -3.05 |
+| $\mathrm{K^+} + \mathrm{e^-} \rightleftharpoons \mathrm{K}$ | -2.92 |
+| $\mathrm{Ba^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Ba}$ | -2.90 |
+| $\mathrm{Ca^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Ca}$ | -2.76 |
+| $\mathrm{Na^+} + \mathrm{e^-} \rightleftharpoons \mathrm{Na}$ | -2.71 |
+| $\mathrm{Mg^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Mg}$ | -2.38 |
+| $\mathrm{Al^{3+}} + 3\mathrm{e^-} \rightleftharpoons \mathrm{Al}$ | -1.67 |
+| $\mathrm{Mn^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Mn}$ | -1.03 |
+| $2\mathrm{H_2O} + 2\mathrm{e^-} \rightleftharpoons \mathrm{H_2} + 2\mathrm{OH^-}$ | -0.83 |
+| $\mathrm{Zn^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Zn}$ | -0.76 |
+| $\mathrm{Cr^{3+}} + 3\mathrm{e^-} \rightleftharpoons \mathrm{Cr}$ | -0.74 |
+| $\mathrm{Fe^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Fe}$ | -0.44 |
+| $\mathrm{PbSO_4} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Pb} + \mathrm{SO_4^{2-}}$ | -0.36 |
+| $\mathrm{Ni^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Ni}$ | -0.25 |
+| $\mathrm{Sn^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Sn}$ | -0.14 |
+| $\mathrm{Pb^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Pb}$ | -0.13 |
+| $\mathrm{Fe^{3+}} + 3\mathrm{e^-} \rightleftharpoons \mathrm{Fe}$ | -0.04 |
+| $2\mathrm{H^+} + 2\mathrm{e^-} \rightleftharpoons \mathrm{H_2}$ | 0.00 |
+| $\mathrm{AgCl} + \mathrm{e^-} \rightleftharpoons \mathrm{Ag} + \mathrm{Cl^-}$ | +0.22 |
+| $\mathrm{Hg_2Cl_2} + 2\mathrm{e^-} \rightleftharpoons 2\mathrm{Hg} + 2\mathrm{Cl^-}$ | +0.27 |
+| $\mathrm{Cu^{2+}} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Cu}$ | +0.34 |
+| $\mathrm{Cu^+} + \mathrm{e^-} \rightleftharpoons \mathrm{Cu}$ | +0.52 |
+| $\mathrm{I}_{2(aq)} + 2\mathrm{e^-} \rightleftharpoons 2\mathrm{I^-}$ | +0.54 |
+| $\mathrm{Fe^{3+}} + \mathrm{e^-} \rightleftharpoons \mathrm{Fe^{2+}}$ | +0.77 |
+| $\mathrm{Ag^+} + \mathrm{e^-} \rightleftharpoons \mathrm{Ag}$ | +0.80 |
+| $\mathrm{Br}_{2(aq)} + 2\mathrm{e^-} \rightleftharpoons 2\mathrm{Br^-}$ | +1.09 |
+| $\mathrm{O_2} + 4\mathrm{H^+} + 4\mathrm{e^-} \rightleftharpoons 2\mathrm{H_2O}$ | +1.23 |
+| $\mathrm{MnO_2} + 4\mathrm{H^+} + 2\mathrm{e^-} \rightleftharpoons \mathrm{Mn^{2+}} + 2\mathrm{H_2O}$ | +1.28 |
+| $\mathrm{Cr_2O_7^{2-}} + 14\mathrm{H^+} + 6\mathrm{e^-} \rightleftharpoons 2\mathrm{Cr^{3+}} + 7\mathrm{H_2O}$ | +1.33 |
+| $\mathrm{Cl}_{2(g)} + 2\mathrm{e^-} \rightleftharpoons 2\mathrm{Cl^-}$ | +1.36 |
+| $2\mathrm{ClO_3^-} + 12\mathrm{H^+} + 10\mathrm{e^-} \rightleftharpoons \mathrm{Cl_2} + 6\mathrm{H_2O}$ | +1.47 |
+| $8\mathrm{H^+} + \mathrm{MnO_4^-} + 5\mathrm{e^-} \rightleftharpoons \mathrm{Mn^{2+}} + 4\mathrm{H_2O}$ | +1.49 |
+| $\mathrm{PbO_2} + \mathrm{SO_4^{2-}} + 4\mathrm{H^+} + 4\mathrm{e^-} \rightleftharpoons \mathrm{PbSO_4} + 2\mathrm{H_2O}$ | +1.69 |
+| $\mathrm{H_2O_2} + 2\mathrm{H^+} + 2\mathrm{e^-} \rightleftharpoons 2\mathrm{H_2O}$ | +1.70 |
+| $\mathrm{S_2O_8^{2-}} + 2\mathrm{e^-} \rightleftharpoons 2\mathrm{SO_4^{2-}}$ | +2.00 |
+| $\mathrm{F_2} + 2\mathrm{e^-} \rightleftharpoons 2\mathrm{F^-}$ | +2.87 |
+
+### 2.4.4 Determination of Cell Potential (Revisited)
+
+To determine the cell potential ($E^\circ_{\text{cell}}$) for any galvanic cell:
+
+1. **Identify Half-Reactions:** Write down the two reduction half-reactions and their standard reduction potentials.
+2. **Determine Anode/Cathode:** The half-cell with the more positive reduction potential acts as the cathode. The more negative potential acts as the anode.
+3. **Reverse Oxidation Half-Reaction:** Reverse the anode half-reaction.
+4. **Balance Electrons and Sum:** Sum the two half-reactions. (Do not multiply $E^\circ$ values by coefficients).
+5. **Calculate $E^\circ_{\text{cell}}$:** Use $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$.
+
+## 2.4.5 Feasibility of a Chemical Reaction
+
+The spontaneity (feasibility) of a redox reaction can be predicted from the sign of the standard cell potential ($E^\circ_{\text{cell}}$).
+
+* If $E^\circ_{\text{cell}} > 0$, the reaction is spontaneous.
+* If $E^\circ_{\text{cell}} < 0$, the reaction is non-spontaneous.
+
+## Worked Examples
+
+### Example 2.5: Calculate $E^\circ_{\text{cell}}$ for the Zn-Cu Cell
+
+**1. Given values:**
+* $E^\circ_{\mathrm{Zn^{2+}}/\mathrm{Zn}} = -0.76\,\mathrm{V}$
+* $E^\circ_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = +0.34\,\mathrm{V}$
+
+**2. Determine roles:**
+* Cathode: Copper ($+0.34\,\mathrm{V}$)
+* Anode: Zinc ($-0.76\,\mathrm{V}$)
+
+**3. Calculation:**
+* $E^\circ_{\text{cell}} = (+0.34\,\mathrm{V}) - (-0.76\,\mathrm{V}) = +1.10\,\mathrm{V}$
+
+### Example 2.6: Calculate $E^\circ_{\text{cell}}$ for the Ni-Mg Cell
+
+**1. Given values:**
+* $E^\circ_{\mathrm{Ni^{2+}}/\mathrm{Ni}} = -0.25\,\mathrm{V}$
+* $E^\circ_{\mathrm{Mg^{2+}}/\mathrm{Mg}} = -2.38\,\mathrm{V}$
+
+**2. Determine roles:**
+* Cathode: Nickel ($-0.25\,\mathrm{V}$)
+* Anode: Magnesium ($-2.38\,\mathrm{V}$)
+
+**3. Calculation:**
+* $E^\circ_{\text{cell}} = (-0.25\,\mathrm{V}) - (-2.38\,\mathrm{V}) = +2.13\,\mathrm{V}$
+
+### Example 2.7: Is the Following Reaction Feasible? $\mathbf{Sn + Fe^{2+} \rightarrow Sn^{2+} + Fe}$
+
+**1. Analyze reaction:**
+* Sn is oxidized (Anode), $\mathrm{Fe^{2+}}$ is reduced (Cathode).
+* $E^\circ_{\mathrm{Sn^{2+}}/\mathrm{Sn}} = -0.14\,\mathrm{V}$
+* $E^\circ_{\mathrm{Fe^{2+}}/\mathrm{Fe}} = -0.44\,\mathrm{V}$
+
+**2. Calculation:**
+* $E^\circ_{\text{cell}} = (-0.44\,\mathrm{V}) - (-0.14\,\mathrm{V}) = -0.30\,\mathrm{V}$
+
+**3. Feasibility:**
+* Since $E^\circ_{\text{cell}}$ is negative, the reaction is not feasible.
+
+## Possible Questions/Answers
+
+### CONCEPT ASSESSMENT EXERCISE 2.6
+
+**Q:** Estimate $E^\circ_{\text{cell}}$ for $\mathrm{Cu-F_2}$ cell, write cell reactions, choose cathode and show the direction of electron flow.
+* $E^\circ_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = +0.34\,\mathrm{V}$
+* $E^\circ_{\mathrm{F_2}/\mathrm{F^-}} = +2.87\,\mathrm{V}$
+
+**A:**
+1. **Cathode:** Fluorine ($+2.87\,\mathrm{V}$ is more positive).
+2. **Anode:** Copper.
+3. **Reactions:**
+   * Cathode: $\mathrm{F}_{2(g)} + 2\mathrm{e^-} \longrightarrow 2\mathrm{F^-}$
+   * Anode: $\mathrm{Cu}_{(s)} \longrightarrow \mathrm{Cu^{2+}}_{(aq)} + 2\mathrm{e^-}$
+4. **$E^\circ_{\text{cell}}$:** $(+2.87) - (+0.34) = +2.53\,\mathrm{V}$.
+5. **Electron Flow:** From Cu (anode) to $\mathrm{F_2}$ (cathode).
+
+### CONCEPT ASSESSMENT EXERCISE 2.7
+
+**Q1:** Using emf data, argue on the following:
+(i) Can Mg displace Cu from a solution of Copper(II) sulphate?
+(ii) Can Iodine displace chlorine from an aqueous solution of Potassium chloride?
+
+**A1:**
+(i) $E^\circ_{\text{cell}} = (+0.34) - (-2.38) = +2.72\,\mathrm{V}$. Yes, Mg can displace Cu.
+(ii) For Iodine displacing Chlorine, $E^\circ_{\text{cell}} = (+0.54) - (+1.36) = -0.82\,\mathrm{V}$. No, Iodine cannot displace Chlorine.
+
+
+---
+
+<!-- note kx788fze58yyhzd97y94hcf3mh85q3x8 | topic ms7ansjp383ha0b213bjmqvbj185q080 | status published -->
+# The Nernst Equation
+
+### Introduction to the Nernst Equation
+
+The **Nernst equation** is a fundamental mathematical expression in electrochemistry that quantifies the relationship between the **concentration of ions** involved in a redox reaction and the **actual electrode potential** ($E$) under non-standard conditions. It allows calculation of the electrode potential when ion concentrations deviate from the standard $1\,M$ (or $1\,mol/dm^3$) and the temperature is not necessarily $298\,K$.
+
+The electrode potential is crucially influenced by the concentrations of the species participating in the redox half-reaction. The Nernst equation connects the standard electrode potential ($E^{\circ}$), measured under standard conditions ($1\,M$ concentration for ions, $1\,atm$ pressure for gases, $298\,K$ temperature), to the non-standard potential ($E$).
+
+<InlineNoteTag label="Electrode Potential" notePath="chemistry-12/2.4-electrode--electrode-potential-and-electrochemical-series" />
+
+### Mathematical Formulations
+
+The general form of the Nernst equation is:
+
+$
+E = E^{\circ} + \frac{RT}{nF} \ln \frac{[\text{oxidized species}]}{[\text{reduced species}]}
+$
+
+This equation can also be expressed using the common logarithm ($\log_{10}$):
+
+$
+E = E^{\circ} + \frac{2.303 RT}{nF} \log \frac{[\text{oxidized species}]}{[\text{reduced species}]}
+$
+
+*Remember the conversion: $\ln x = 2.303 \log x$*
+
+At standard temperature ($T = 298\,K$ or $25^{\circ}C$), the term $\frac{2.303 RT}{F}$ simplifies to a constant:
+
+$
+\frac{2.303 \times R \times T}{F} = \frac{2.303 \times 8.314\,J\,K^{-1}\,mol^{-1} \times 298\,K}{9.648 \times 10^{4}\,C\,mol^{-1}} \approx 0.059\,J\,C^{-1} = 0.059\,V
+$
+
+Thus, at $298\,K$, the Nernst equation simplifies to:
+
+$
+E = E^{\circ} + \frac{0.059}{n} \log \frac{[\text{oxidized species}]}{[\text{reduced species}]}
+$
+
+### Components of the Nernst Equation
+
+Define each term in the Nernst equation:
+
+*   $E$: The **actual electrode potential** under non-standard conditions (in volts, V).
+*   $E^{\circ}$: The **standard electrode potential** (in volts, V), measured at $1\,M$ concentrations, $1\,atm$ pressure for gases, and $298\,K$.
+*   $R$: The **universal gas constant**, with a value of $8.314\,J\,mol^{-1}\,K^{-1}$.
+*   $T$: The **absolute temperature** in Kelvin ($K$).
+*   $n$: The **number of electrons transferred** in the balanced half-reaction from the reduced species to the oxidized species.
+*   $F$: **Faraday's constant**, which is the charge of one mole of electrons. Its value is $9.648 \times 10^{4}\,C\,mol^{-1}$ (coulombs per mole).
+*   $[\text{oxidized species}]$: The **concentration of the species with the higher oxidation state** (typically in $mol/L$ or $M$).
+*   $[\text{reduced species}]$: The **concentration of the species with the lower oxidation state** (typically in $mol/L$ or $M$).
+
+*Note:* For pure solids or liquids, their concentrations are considered constant and are omitted from the Nernst equation (effectively treated as 1).
+
+### Electrode Potentials and Concentration
+
+The electrode potential measures how easily a species gains or loses electrons. This ease is directly tied to the availability of the species, hence its concentration.
+
+Consider the standard electrode potential for the copper half-reaction:
+
+$
+\mathrm{Cu^{2+}} + 2\mathrm{e^{-}} \rightarrow \mathrm{Cu} \quad E^{\circ} = +0.34\,V
+$
+
+This $E^{\circ}$ value is valid when the concentration of $\mathrm{Cu^{2+}}$ ions is $1\,mol/dm^3$.
+
+#### Effect of Concentration Changes (Le Chatelier's Principle)
+
+If the concentration of $\mathrm{Cu^{2+}}$ ions is decreased (e.g., by adding water), according to **Le Chatelier's Principle**, the equilibrium position shifts to counteract this change. In this case, the equilibrium will shift to the *left* to increase the $\mathrm{Cu^{2+}}$ concentration again. A shift to the left implies that the reduction process (gaining electrons) becomes *less favorable*.
+
+1.  **Increase in ion concentration**: If the concentration of ions (e.g., $\mathrm{Cu^{2+}}$ ions for copper electrodes) increases, there are *more* ions available to gain electrons. This makes reduction easier, and thus the electrode potential becomes **more positive**.
+2.  **Decrease in ion concentration**: If the concentration of ions decreases, there are *fewer* ions available to accept electrons. This makes reduction harder, and thus the electrode potential becomes **less positive** (or more negative).
+
+The Nernst equation provides a quantitative tool to predict these precise changes in electrode potential.
+
+## Worked Examples
+
+### Example: Calculating Electrode Potential for $\mathrm{Cu^{2+}}/\mathrm{Cu}$ System
+
+**Problem:** The standard electrode potential of the $\mathrm{Cu^{2+}} / \mathrm{Cu}$ system is $+0.34\,V$. What is the electrode potential of a solution containing $0.5\,M$ $\mathrm{Cu^{2+}}$ ions?
+
+**Solution:**
+
+1.  **Write the given values:**
+    *   Half-reaction: $\mathrm{Cu^{2+}} + 2\mathrm{e^{-}} \rightarrow \mathrm{Cu}$
+    *   Standard electrode potential, $E^{\circ} = +0.34\,V$
+    *   Number of electrons transferred, $n = 2$
+    *   Concentration of oxidized species, $[\mathrm{Cu^{2+}}] = 0.5\,M$
+    *   Concentration of reduced species, $[\mathrm{Cu}] = 1$ (for a pure solid, concentration is constant)
+    *   Temperature is assumed to be $298\,K$, allowing use of the simplified Nernst equation.
+
+2.  **Apply the Nernst equation:**
+    The simplified Nernst equation at $298\,K$ is:
+    $
+    E = E^{\circ} + \frac{0.059}{n} \log \frac{[\text{oxidized species}]}{[\text{reduced species}]}
+    $
+    For the $\mathrm{Cu^{2+}}/\mathrm{Cu}$ system, this becomes:
+    $
+    E_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = E^{\circ}_{\mathrm{Cu^{2+}}/\mathrm{Cu}} + \frac{0.059}{n} \log \frac{[\mathrm{Cu^{2+}}]}{[\mathrm{Cu}]}
+    $
+
+3.  **Show calculation with proper formatting:**
+    $
+    E_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = 0.34\,V + \frac{0.059}{2} \log \frac{0.5}{1}
+    $
+    $
+    E_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = 0.34 + 0.0295 \times \log(0.5)
+    $
+    $
+    E_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = 0.34 + 0.0295 \times (-0.301)
+    $
+    $
+    E_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = 0.34 - 0.0089
+    $
+    $
+    E_{\mathrm{Cu^{2+}}/\mathrm{Cu}} = 0.331\,V
+    $
+
+As predicted by Le Chatelier's Principle, decreasing the $\mathrm{Cu^{2+}}$ concentration from $1\,M$ to $0.5\,M$ makes the reduction less favorable, resulting in a less positive electrode potential ($+0.331\,V$ compared to $+0.34\,V$).
+
+### Example: Calculating Electrode Potential for $\mathrm{Fe^{3+}}/\mathrm{Fe^{2+}}$ System
+
+**Problem:** The standard electrode potential of $\mathrm{Fe^{3+}} / \mathrm{Fe^{2+}}$ is $0.77\,V$. What is the electrode potential of the system containing $1.0\,mol/dm^3$ of $\mathrm{Fe^{3+}}$ and $0.2\,mol/dm^3$ of $\mathrm{Fe^{2+}}$ ions?
+
+**Solution:**
+
+1.  **Half-reaction:** $\mathrm{Fe^{3+}} + \mathrm{e^{-}} \rightarrow \mathrm{Fe^{2+}}$
+2.  **Given values:** $E^{\circ} = 0.77\,V$, $n=1$, $[\text{oxidized species}] = [\mathrm{Fe^{3+}}] = 1.0\,M$, $[\text{reduced species}] = [\mathrm{Fe^{2+}}] = 0.2\,M$.
+
+3.  **Apply Nernst equation:**
+    $
+    E = E^{\circ} + \frac{0.059}{n} \log \frac{[\mathrm{Fe^{3+}}]}{[\mathrm{Fe^{2+}}]}
+    $
+    $
+    E = 0.77\,V + \frac{0.059}{1} \log \frac{1.0}{0.2}
+    $
+    $
+    E = 0.77 + 0.059 \times \log(5)
+    $
+    $
+    E = 0.77 + 0.059 \times 0.699
+    $
+    $
+    E = 0.77 + 0.0412
+    $
+    $
+    E = 0.811\,V
+    $
+
+
+---
+
+<!-- note kx79xkyg0n2bq775rzet6q9rx585p7yr | topic ms78ez13h7cb6x401csbywgcps85qzfx | status published -->
+# 2.6 Electrochemical Series
+
+## 2.6 Electrochemical Series
+
+The **Electrochemical Series** (ECS) is a table of half-reactions arranged in order of increasing standard reduction potential ($E^\circ$). It is one of the most powerful tools in electrochemistry for predicting the feasibility of redox reactions and the direction of electron flow.
+
+---
+
+### Standard Electrode Potential ($E^\circ$)
+
+The **standard electrode potential** ($E^\circ$) is the potential (voltage) of a half-cell measured under standard conditions:
+- Temperature: **298 K** (25 °C)
+- Ion concentration: **1 mol dm⁻³**
+- Gas pressure: **100 kPa** (1 atm)
+
+All $E^\circ$ values are measured relative to the **Standard Hydrogen Electrode (SHE)**, which is assigned a potential of exactly **0.00 V**.
+
+By convention, $E^\circ$ values are always quoted as **reduction potentials**:
+$$M^{n+}(aq) + ne^- \rightarrow M(s) \quad E^\circ$$
+
+---
+
+### Standard Cell Potential ($E^\circ_{cell}$)
+
+The **standard cell potential** is the overall voltage produced by an electrochemical cell under standard conditions. It is calculated by combining the standard electrode potentials of the two half-cells:
+
+$$E^\circ_{cell} = E^\circ_{cathode} - E^\circ_{anode}$$
+
+Where:
+- **Cathode** = the electrode where **reduction** occurs (higher $E^\circ$)
+- **Anode** = the electrode where **oxidation** occurs (lower $E^\circ$)
+
+**Example:** For the Daniell cell (Zn–Cu cell):
+- $E^\circ(Cu^{2+}/Cu) = +0.34\text{ V}$ (cathode)
+- $E^\circ(Zn^{2+}/Zn) = -0.76\text{ V}$ (anode)
+
+$$E^\circ_{cell} = +0.34 - (-0.76) = +1.10\text{ V}$$
+
+---
+
+### Arrangement of the Electrochemical Series
+
+The ECS lists half-reactions from the **most negative** $E^\circ$ at the top to the **most positive** $E^\circ$ at the bottom:
+
+| Half-reaction | $E^\circ$ (V) |
+|---|---|
+| $Li^+(aq) + e^- \rightarrow Li(s)$ | $-3.05$ |
+| $K^+(aq) + e^- \rightarrow K(s)$ | $-2.92$ |
+| $Mg^{2+}(aq) + 2e^- \rightarrow Mg(s)$ | $-2.37$ |
+| $Zn^{2+}(aq) + 2e^- \rightarrow Zn(s)$ | $-0.76$ |
+| $Fe^{2+}(aq) + 2e^- \rightarrow Fe(s)$ | $-0.44$ |
+| $2H^+(aq) + 2e^- \rightarrow H_2(g)$ | $0.00$ |
+| $Cu^{2+}(aq) + 2e^- \rightarrow Cu(s)$ | $+0.34$ |
+| $Ag^+(aq) + e^- \rightarrow Ag(s)$ | $+0.80$ |
+| $F_2(g) + 2e^- \rightarrow 2F^-(aq)$ | $+2.87$ |
+
+**Key trends:**
+- Species at the **top** (most negative $E^\circ$) are the **strongest reducing agents**, they readily lose electrons.
+- Species at the **bottom** (most positive $E^\circ$) are the **strongest oxidising agents**, they readily gain electrons.
+
+---
+
+### Predicting Feasibility of a Reaction
+
+A redox reaction is **spontaneous (feasible)** if:
+$$E^\circ_{cell} = E^\circ_{cathode} - E^\circ_{anode} > 0$$
+
+A **positive** $E^\circ_{cell}$ indicates the reaction proceeds spontaneously in the forward direction under standard conditions.
+
+A **negative** $E^\circ_{cell}$ indicates the reaction is **non-spontaneous** in the forward direction.
+
+**Rule:** In the ECS, a species with a **higher** (more positive) $E^\circ$ will oxidise a species with a **lower** (more negative) $E^\circ$.
+
+---
+
+### Direction of Electron Flow
+
+Electrons always flow from the **anode** (lower $E^\circ$, oxidation) to the **cathode** (higher $E^\circ$, reduction) through the external circuit.
+
+**Example:** In the Zn–Cu cell:
+- Zn is oxidised at the anode: $Zn(s) \rightarrow Zn^{2+}(aq) + 2e^-$
+- $Cu^{2+}$ is reduced at the cathode: $Cu^{2+}(aq) + 2e^- \rightarrow Cu(s)$
+- Electrons flow from **Zn → Cu** through the external wire.
+
+---
+
+### Applications of the Electrochemical Series
+
+#### 1. Displacement of Hydrogen from Acids
+Metals with $E^\circ < 0\text{ V}$ (above hydrogen in the ECS) can displace $H_2$ from dilute acids:
+$$Zn(s) + 2HCl(aq) \rightarrow ZnCl_2(aq) + H_2(g)$$
+Copper ($E^\circ = +0.34\text{ V}$) **cannot** displace hydrogen because its $E^\circ$ is more positive than that of $H^+/H_2$.
+
+#### 2. Displacement of Metals from Salt Solutions
+A metal higher in the ECS (more negative $E^\circ$) displaces a metal lower in the ECS (more positive $E^\circ$) from its salt solution:
+$$Cu(s) + 2AgNO_3(aq) \rightarrow Cu(NO_3)_2(aq) + 2Ag(s)$$
+$$E^\circ_{cell} = +0.80 - (+0.34) = +0.46\text{ V} > 0 \quad \checkmark$$
+
+---
+
+### Worked Example
+
+**Question:** Predict whether the reaction between $Fe^{2+}$ and $Br_2$ is spontaneous under standard conditions.
+
+Given:
+- $E^\circ(Br_2/Br^-) = +1.07\text{ V}$
+- $E^\circ(Fe^{3+}/Fe^{2+}) = +0.77\text{ V}$
+
+**Solution:**
+- $Br_2$ has the higher $E^\circ$, so it acts as the oxidising agent (cathode).
+- $Fe^{2+}$ is oxidised to $Fe^{3+}$ (anode).
+
+$$E^\circ_{cell} = +1.07 - (+0.77) = +0.30\text{ V}$$
+
+Since $E^\circ_{cell} > 0$, the reaction **is spontaneous**.
+
+Overall equation: $2Fe^{2+}(aq) + Br_2(aq) \rightarrow 2Fe^{3+}(aq) + 2Br^-(aq)$
+
+---
+
+
+---
+
+<!-- note kx758p27g8vvfaqk9dbkafmn4585prxz | topic ms78ycqhzbxge11vqtgnv124fh85q33w | status published -->
+# 2.7 Relative Reactivity as Oxidizing or Reducing Agents
+
+## 2.7 Relative Reactivity as Oxidizing or Reducing Agents
+
+Standard electrode potentials ($E^\circ$) provide a quantitative basis for comparing the relative reactivity of species as oxidizing or reducing agents.
+
+---
+
+### Standard Hydrogen Electrode (SHE)
+
+Before comparing electrode potentials, a reference point is needed. The **Standard Hydrogen Electrode (SHE)** serves this purpose.
+
+**Construction:**
+- A **platinum** electrode (inert, does not react)
+- Immersed in **1 mol dm$^{-3}$ H$^+$(aq)** solution
+- **H$_2$ gas** bubbled over the electrode at **1 atm pressure**
+- Temperature: **298 K (25°C)**
+
+**Assigned value:** $E^\circ = 0.00\text{ V}$ (by international convention)
+
+The half-reaction at the SHE is:
+$2H^+(aq) + 2e^- \rightleftharpoons H_2(g) \quad E^\circ = 0.00\text{ V}$
+
+**Measuring standard electrode potentials:** To measure the $E^\circ$ of any half-cell, it is connected to the SHE under standard conditions (1 mol dm$^{-3}$ ion concentration, 298 K, 1 atm). The measured cell voltage equals the $E^\circ$ of the half-cell being tested.
+
+---
+
+### Standard Electrode Potential and Reactivity
+
+The **standard reduction potential** ($E^\circ$) measures the tendency of a species to be **reduced** (gain electrons) under standard conditions.
+
+| Relationship | Implication |
+|---|---|
+| More **positive** $E^\circ$ | Stronger **oxidizing agent** (greater tendency to gain electrons) |
+| More **negative** $E^\circ$ | Stronger **reducing agent** (greater tendency to lose electrons) |
+
+---
+
+### Oxidizing Agents
+
+An **oxidizing agent** gains electrons and is itself reduced. The species with the **more positive** $E^\circ$ is the stronger oxidizing agent.
+
+**Example, Halogens as oxidizing agents:**
+
+| Half-reaction | $E^\circ$ (V) |
+|---|---|
+| $F_2 + 2e^- \rightarrow 2F^-$ | $+2.87$ |
+| $Cl_2 + 2e^- \rightarrow 2Cl^-$ | $+1.36$ |
+| $Br_2 + 2e^- \rightarrow 2Br^-$ | $+1.07$ |
+| $I_2 + 2e^- \rightarrow 2I^-$ | $+0.54$ |
+
+**Trend:** Oxidizing power decreases down Group VII:
+$F_2 > Cl_2 > Br_2 > I_2$
+
+$F_2$ is the strongest oxidizing agent because it has the highest electronegativity and smallest atomic radius, giving it the greatest tendency to attract electrons.
+
+---
+
+### Reducing Agents
+
+A **reducing agent** loses electrons and is itself oxidized. The species with the **more negative** $E^\circ$ (for the reduction half-reaction) is the stronger reducing agent.
+
+**Example, Halide ions as reducing agents:**
+
+The reducing power of halide ions is the **reverse** of the oxidizing power of halogens:
+$I^- > Br^- > Cl^- > F^-$
+
+- $I^-$ has the **largest ionic radius** → outermost electron is furthest from nucleus → held least tightly → most easily lost → strongest reducing agent
+- $F^-$ has the **smallest ionic radius** → electron held most tightly → weakest reducing agent
+
+**Note:** $F^-$ is such a weak reducing agent that it cannot be oxidized by any common reagent in aqueous solution.
+
+---
+
+### Predicting Spontaneity of Redox Reactions
+
+Using $E^\circ$ values, we can predict whether a redox reaction will occur spontaneously:
+
+$E^\circ_{cell} = E^\circ_{cathode} - E^\circ_{anode}$
+
+- If $E^\circ_{cell} > 0$: reaction is **spontaneous** (feasible)
+- If $E^\circ_{cell} < 0$: reaction is **non-spontaneous**
+
+**Rule:** A species higher in the electrochemical series (more positive $E^\circ$) will oxidize a species lower in the series (more negative $E^\circ$).
+
+**Example:** Will $Cl_2$ oxidize $Br^-$?
+
+$Cl_2 + 2e^- \rightarrow 2Cl^- \quad E^\circ = +1.36\text{ V (cathode)}$
+$2Br^- \rightarrow Br_2 + 2e^- \quad E^\circ = -1.07\text{ V (anode, reversed)}$
+$E^\circ_{cell} = +1.36 - (+1.07) = +0.29\text{ V} > 0 \quad \checkmark \text{ Spontaneous}$
+
+Yes, $Cl_2$ will displace $Br^-$ from solution.
+
+**Example:** Will $I_2$ oxidize $Cl^-$?
+
+$I_2 + 2e^- \rightarrow 2I^- \quad E^\circ = +0.54\text{ V (cathode)}$
+$2Cl^- \rightarrow Cl_2 + 2e^- \quad E^\circ = -1.36\text{ V (anode, reversed)}$
+$E^\circ_{cell} = +0.54 - (+1.36) = -0.82\text{ V} < 0 \quad \times \text{ Non-spontaneous}$
+
+No, $I_2$ cannot oxidize $Cl^-$.
+
+---
+
+### Summary Table
+
+| Species | $E^\circ$ (V) | Oxidizing strength | Reducing strength |
+|---|---|---|---|
+| $F_2$ | $+2.87$ | Strongest oxidizer |, |
+| $Cl_2$ | $+1.36$ | Strong oxidizer |, |
+| $Br_2$ | $+1.07$ | Moderate oxidizer |, |
+| $I_2$ | $+0.54$ | Weakest oxidizer |, |
+| $I^-$ |, |, | Strongest reducer |
+| $Br^-$ |, |, | Moderate reducer |
+| $Cl^-$ |, |, | Weak reducer |
+| $F^-$ |, |, | Weakest reducer |
+
+
+---
+
+<!-- note kx7ekv4gpyn3fbx0942b7sxns985pjqw | topic ms72rwb2ax5ram5wta8d05b8mx85p9tg | status published -->
+# Electrolytic Cells and Electrolysis
+
+This section describes the principles of electrolytic cells, the process of electrolysis, and the factors that determine the products of an electrolytic reaction.
+
+## Electrochemical Cells
+
+Electrochemical cells are devices that interconvert electrical and chemical energy. They are classified into two types:
+
+1. **Electrolytic Cells:** These cells convert electrical energy into chemical energy by driving non-spontaneous redox reactions.
+2. **Galvanic (Voltaic) Cells:** These cells convert chemical energy into electrical energy from spontaneous redox reactions.
+
+For a detailed explanation of oxidation-reduction concepts, refer to <InlineNoteTag label="Oxidation Reduction Concepts" notePath="chemistry-12/2.1-oxidation-reduction-concepts" />.
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923181016.webp" alt="Electrochemical cells diagram showing electrolytic and galvanic cell types" caption="Figure 2.8.1: Classification of electrochemical cells." />
+
+## Electrolytic Cells
+
+An electrolytic cell is a device that uses an external electrical current to force a non-spontaneous redox reaction to occur. This forced chemical change is known as **electrolysis**.
+
+- **Energy Conversion:** Electrical Energy → Chemical Energy
+- **Reaction Type:** Non-spontaneous (requires external energy input)
+- **Electrodes:**
+  - **Anode:** The positive electrode where oxidation occurs. It is connected to the positive terminal of the power source.
+  - **Cathode:** The negative electrode where reduction occurs. It is connected to the negative terminal of the power source.
+
+The electrochemical series determines the relative reactivity of species as oxidizing or reducing agents. See <InlineNoteTag label="Electrode Electrode Potential And Electrochemical Series" notePath="chemistry-12/2.4-electrode--electrode-potential-and-electrochemical-series" /> for more details.
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923181030.webp" alt="Electrolytic cell setup showing electrode polarity and ion movement" caption="Figure 2.8.2: Electrolytic cell with positive anode and negative cathode." />
+
+## The Process of Electrolysis
+
+Electrolysis is a chemical process initiated by passing a direct electric current through an electrolyte. An electrolyte is a substance in a molten state or aqueous solution that contains free ions. An electrolytic cell typically consists of the electrolyte itself (a molten ionic compound or aqueous solution), two inert electrodes such as graphite or platinum, an external power source such as a battery or DC power supply, and connecting wires to complete the circuit.
+
+Current is carried through the cell by two different mechanisms: **metallic conduction**, in which electrons carry the current through the external wires and electrodes, and **electrolytic conduction**, in which ions carry the current through the electrolyte, with cations moving towards the cathode and anions moving towards the anode. The power source pushes electrons into the cathode, making it negative, and pulls electrons from the anode, making it positive; this electron flow forces the non-spontaneous redox reaction to occur.
+
+## Units in Electrochemistry
+
+- **Coulomb (C):** The SI unit of electric charge. It represents the charge on approximately $6.25 \times 10^{18}$ electrons.
+
+One Faraday (1 F) is equivalent to 96,487 Coulombs per mole. See <InlineNoteTag label="Experimental Determination Of Avogadro Constant By Electrolytic Method" notePath="chemistry-12/2.10-experimental-determination-of-avogadro-constant-by-electrolytic-method" /> for the relationship between these constants.
+
+- **Faraday (F):** A convenient unit for chemists, representing the charge of one mole of electrons.
+
+$ 1\,F = 96,487\,C\,mol^{-1} $
+
+- **Ampere (A):** The SI unit of electric current, defined as the flow of one coulomb per second.
+
+$ 1\,A = 1\,C\,s^{-1} $
+
+## Factors Influencing the Products of Electrolysis
+
+The specific substances liberated at the electrodes during electrolysis depend on three critical factors:
+
+**1. The State of the Electrolyte:**
+
+- **Molten State:** When an ionic compound is molten, only the cations and anions from the electrolyte itself are present and available to be discharged at the electrodes.
+- **Aqueous State:** When an ionic compound is dissolved in water, the solution contains ions from the electrolyte and ions ($\mathrm{H^+}$ and $\mathrm{OH^-}$) formed from the autoionization of water, as well as water molecules ($\mathrm{H_2O}$). Therefore, water can also participate in the redox reactions.
+
+**2. Position in the Electrochemical (Redox) Series:**
+
+- **At the Cathode (Reduction):** If multiple cations are present, the cation that is more easily reduced (that is, less reactive, lower in the electrochemical series) will be preferentially discharged. For example, $\mathrm{Cu^{2+}}$ will be reduced to $\mathrm{Cu}$ before $\mathrm{Na^+}$ ions or water. If the metal cation is more reactive than hydrogen (such as $\mathrm{Na^+}$ or $\mathrm{Mg^{2+}}$), water will be reduced instead to produce $\mathrm{H_2}$ gas.
+- **At the Anode (Oxidation):** If multiple anions or species capable of oxidation are present, the species that is more easily oxidized will be preferentially discharged.
+
+The electrochemical series ranks species by their standard electrode potentials. See <InlineNoteTag label="Electrochemical Series" notePath="chemistry-12/2.6-electrochemical-series" /> for detailed information.
+
+**3. Concentration of the Electrolyte:**
+
+- The relative concentration of ions can significantly influence which species is discharged. A very high concentration of a particular ion can sometimes override the electrochemical series preference. This is particularly relevant when comparing the oxidation of halide ions ($\mathrm{Cl^-}$, $\mathrm{Br^-}$, $\mathrm{I^-}$) with the oxidation of hydroxide ions ($\mathrm{OH^-}$) or water. A high concentration of halide ions often favors their discharge even if $\mathrm{OH^-}$ or $\mathrm{H_2O}$ are thermodynamically easier to oxidize under standard conditions.
+
+## Key Reactions and Formulae
+
+The following examples illustrate how the factors above determine the products of electrolysis in different scenarios.
+
+### Electrolysis of Fused (Molten) Sodium Chloride (NaCl)
+
+In molten NaCl, only $\mathrm{Na^+}$ and $\mathrm{Cl^-}$ ions are present.
+
+- **At Anode (Oxidation):** Chloride ions lose electrons and are oxidized to chlorine gas.
+$ 2\,\mathrm{Cl^{-}}(l) \rightarrow \mathrm{Cl_{2}}(g) + 2\,e^{-} $
+
+- **At Cathode (Reduction):** Sodium ions gain electrons and are reduced to molten sodium metal.
+$ 2\,\mathrm{Na^{+}}(l) + 2\,e^{-} \rightarrow 2\,\mathrm{Na}(l) $
+
+- **Net Reaction:**
+$ 2\,\mathrm{Na^{+}}(l) + 2\,\mathrm{Cl^{-}}(l) \rightarrow 2\,\mathrm{Na}(l) + \mathrm{Cl_{2}}(g) $
+
+### Electrolysis of Concentrated Aqueous Sodium Chloride (Brine)
+
+In concentrated aqueous NaCl, ions present are $\mathrm{Na^+}$, $\mathrm{Cl^-}$, $\mathrm{H^+}$ (from water dissociation), $\mathrm{OH^-}$ (from water dissociation), and $\mathrm{H_2O}$ molecules.
+
+- **At Anode (Oxidation):** Despite $\mathrm{OH^-}$ and $\mathrm{H_2O}$ being easier to oxidize under standard conditions, the very high concentration of $\mathrm{Cl^-}$ ions makes them preferentially oxidized to chlorine gas.
+$ 2\,\mathrm{Cl^{-}}(aq) \rightarrow \mathrm{Cl_{2}}(g) + 2\,e^{-} $
+
+- **At Cathode (Reduction):** $\mathrm{Na^+}$ is a very reactive metal and is more difficult to reduce than water. Therefore, water molecules are reduced to hydrogen gas and hydroxide ions.
+$ 2\,\mathrm{H_2O}(l) + 2\,e^{-} \rightarrow \mathrm{H_{2}}(g) + 2\,\mathrm{OH^{-}}(aq) $
+
+- **Net Reaction:** The overall reaction produces hydrogen gas, chlorine gas, and sodium hydroxide in solution.
+$ 2\,\mathrm{H_2O}(l) + 2\,\mathrm{Cl^{-}}(aq) \rightarrow \mathrm{H_{2}}(g) + \mathrm{Cl_{2}}(g) + 2\,\mathrm{OH^{-}}(aq) $
+
+### Electrolysis of Dilute Aqueous Sodium Chloride
+
+In dilute aqueous NaCl, the ions present are $\mathrm{Na^+}$, $\mathrm{Cl^-}$, $\mathrm{H^+}$, $\mathrm{OH^-}$, and $\mathrm{H_2O}$ molecules, but the concentration of $\mathrm{Cl^-}$ is low.
+
+- **At Anode (Oxidation):** With a low concentration of $\mathrm{Cl^-}$, the oxidation of $\mathrm{Cl^-}$ is less favorable. Instead, hydroxide ions (derived from water) are oxidized, producing oxygen gas and water.
+$ 4\,\mathrm{OH^{-}}(aq) \rightarrow \mathrm{O_{2}}(g) + 2\,\mathrm{H_2O}(l) + 4\,e^{-} $
+
+- **At Cathode (Reduction):** Similar to concentrated NaCl, $\mathrm{Na^+}$ is still harder to reduce than water. Water is reduced to hydrogen gas and hydroxide ions.
+$ 4\,\mathrm{H_2O}(l) + 4\,e^{-} \rightarrow 2\,\mathrm{H_{2}}(g) + 4\,\mathrm{OH^{-}}(aq) $
+
+- **Net Reaction:** The overall reaction is effectively the electrolysis of water.
+$ 2\,\mathrm{H_2O}(l) \rightarrow 2\,\mathrm{H_{2}}(g) + \mathrm{O_{2}}(g) $
+
+## Galvanic (Voltaic) Cells
+
+Unlike electrolytic cells, galvanic cells utilize spontaneous chemical reactions to produce electricity.
+
+## Summary
+
+- **Electrolytic cells** are devices that utilize external electrical energy to drive **non-spontaneous** chemical reactions.
+- During electrolysis, **oxidation** occurs at the **positive anode**, and **reduction** occurs at the **negative cathode**.
+- The identity of the products formed at the electrodes is determined by:
+  1. The physical state of the electrolyte.
+  2. The relative positions of the ions in the electrochemical series.
+  3. The concentration of the ions.
+
+| Electrolyte | Product at Anode (+) | Product at Cathode (-) |
+| :---------- | :-------------------- | :---------------------- |
+| *Molten NaCl* | Chlorine gas ($\mathrm{Cl_{2}}$) | Molten Sodium ($\mathrm{Na}$) |
+| *Conc. Aqueous NaCl* | Chlorine gas ($\mathrm{Cl_{2}}$) | Hydrogen gas ($\mathrm{H_{2}}$) |
+| *Dilute Aqueous NaCl* | Oxygen gas ($\mathrm{O_{2}}$) | Hydrogen gas ($\mathrm{H_{2}}$) |
+
+- **Chemical Significance:** Electrolysis is used for producing sodium, magnesium, and aluminum, and for manufacturing chlorine gas and sodium hydroxide.
+
+
+---
+
+<!-- note kx70eq6nefva4f448qahyf32tn85phra | topic ms755yvr4cj50jyc4p167abyzx85pgm5 | status published -->
+# Relation Between the Faraday Constant, Avogadro Constant, and the Charge on the Electron
+
+This section explores the fundamental relationship between the quantity of electricity, the charge of an electron, and the Avogadro constant, leading to the definition and application of the Faraday constant in electrochemistry.
+
+<InlineNoteTag label="Oxidation Reduction Concepts" notePath="chemistry-12/2.1-oxidation-reduction-concepts" />
+
+### 2.9.1 Quantity of Electric Charge in Electrolysis
+
+During electrolysis, the amount of substance produced at an electrode is directly proportional to the total electric charge that passes through the electrolyte. This charge is related to the current and the time for which it flows.
+
+**Definition:** The quantity of charge ($Q$) is the product of the constant current ($I$) and the time ($t$) for which the current is passed.
+
+**Formula:**
+$$ Q = I \times t $$
+
+Where:
+- $Q$ = Quantity of charge in coulombs (C)
+- $I$ = Current in Amperes (A)
+- $t$ = Time of electrolysis in seconds (s)
+
+### 2.9.2 The Faraday Constant (F)
+
+The Faraday constant is a crucial concept in electrochemistry, representing the amount of electric charge carried by one mole of electrons.
+
+**Calculation:** The Faraday constant can be derived by multiplying the charge on a single electron by the Avogadro constant.
+
+- Charge on one electron ($e$) $= 1.60217662 \times 10^{-19}\,\mathrm{C}$
+- Avogadro's constant ($N_A$) $= 6.022 \times 10^{23}\,\mathrm{mol}^{-1}$
+- Charge on one mole of electrons $= (1.60217662 \times 10^{-19}\,\mathrm{C}) \times (6.022 \times 10^{23}\,\mathrm{mol}^{-1})$
+$$ = 96485.332\,\mathrm{C\,mol}^{-1} $$
+
+**Definition:** This quantity of charge, $96485.332\,\mathrm{C\,mol}^{-1}$, is referred to as **one Faraday (F)**.
+
+**Approximation:** For most calculations, the value of the Faraday constant is approximated as $96500\,\mathrm{C\,mol^{-1}}$.
+
+### 2.9.3 Relationship Between Faraday Constant, Avogadro Constant, and Elementary Charge
+
+The fundamental relationship connecting these three constants is expressed by the equation:
+
+$$ F = N_A \cdot e $$
+
+Where:
+- $F$ = the Faraday constant (charge per mole of electrons, typically $96485.332\,\mathrm{C\,mol}^{-1}$ or $96500\,\mathrm{C\,mol^{-1}}$)
+- $N_A$ = the Avogadro constant (number of entities per mole, approximately $6.022141 \times 10^{23}\,\mathrm{mol}^{-1}$)
+- $e$ = the elementary charge (charge on a single electron, approximately $1.60217662 \times 10^{-19}\,\mathrm{C}$)
+
+### 2.9.4 Stoichiometry of Electrolysis and Faraday's Constant
+
+The Faraday constant provides a direct link between the amount of electricity passed and the moles of substance produced or consumed in an electrochemical reaction.
+
+**Example 1: Deposition of Sodium**
+The reduction of a sodium ion ($Na^+$) to sodium metal ($Na$) involves the transfer of one electron per ion:
+$$ Na^+ + e^- \rightarrow Na $$
+To deposit one mole of $Na$, one mole of electrons is required. Therefore, the amount of electricity needed is $1\,F$ ($96500\,\mathrm{C}$).
+
+**Example 2: Deposition of Copper**
+The reduction of a copper(II) ion ($Cu^{2+}$) to copper metal ($Cu$) involves the transfer of two electrons per ion:
+$$ Cu^{2+} + 2e^- \rightarrow Cu $$
+To deposit one mole of $Cu$, two moles of electrons are required. Therefore, the amount of electricity needed is $2\,F$.
+
+**General Principle:** If an electrochemical reaction requires $n$ electrons to produce or consume one mole of a substance, then $n$ Faradays of charge are needed to complete the reaction for one mole of that substance.
+
+<InlineNoteTag label="Experimental Determination Of Avogadro Constant" notePath="chemistry-12/2.10-experimental-determination-of-avogadro-constant-by-electrolytic-method" />
+
+## Worked Examples
+
+### Example 2.8: Zinc Deposition
+
+In the electrolysis of molten $\mathrm{ZnCl_2}$, how much Zn can be deposited at the cathode by the passage of a $0.01$-ampere current for one hour?
+
+**Solution:**
+
+1. **Given values:**
+   - Current ($I$) = $0.01\,\mathrm{A}$
+   - Time ($t$) = $1\,\text{hour} = 3600\,\text{s}$
+   - Faraday constant ($F$) = $96500\,\mathrm{C}$
+   - Molar mass of Zn ($M_{Zn}$) = $63.37\,\mathrm{g\,mol^{-1}}$ (Textbook value)
+
+2. **Calculate the total charge ($Q$) passed:**
+   $$ Q = 0.01\,\mathrm{A} \times 3600\,\text{s} = 36\,\mathrm{C} $$
+
+3. **Convert charge ($Q$) to Faradays ($F_{total}$):**
+   $$ F_{total} = \frac{36\,\mathrm{C}}{96500\,\mathrm{C/F}} = 3.73 \times 10^{-4}\,F $$
+
+4. **Write the cathode reaction:**
+   $$ Zn^{2+} + 2e^- \rightarrow Zn $$
+   $2\,F$ of charge are required to deposit $1\,\text{mol}$ of $Zn$.
+
+5. **Calculate moles of Zn deposited:**
+   $$ n_{Zn} = 3.73 \times 10^{-4}\,F \times \frac{1}{2} = 1.865 \times 10^{-4}\,\text{mol}\,Zn $$
+
+6. **Calculate the mass of Zn deposited:**
+   $$ \text{Mass} = 1.85 \times 10^{-4}\,\text{mol} \times 63.37\,\mathrm{g\,mol^{-1}} \approx 0.012\,\mathrm{g} $$
+
+### Example 2.9: Gold and Chlorine Production
+
+A constant current was passed through a solution of $\mathrm{AuCl_4^-}$ ions between gold electrodes. After a period of $10.0$ minutes, the cathode increased in weight by $1.314$ grams.
+
+**i) How much charge was passed?**
+**ii) What was the amount of current?**
+**iii) What volume of $\mathrm{Cl_2}$ was collected at the anode at $1\,\text{atm}$ and $25^{\circ}\mathrm{C}$?**
+
+**Solution:**
+
+1. **Cathode reaction:** $AuCl_4^- + 3e^- \rightarrow Au + 4Cl^-$ (3 Faradays per mole of Au)
+2. **Moles of Au:** $n_{Au} = \frac{1.314\,\mathrm{g}}{197\,\mathrm{g\,mol^{-1}}} = 6.67 \times 10^{-3}\,\text{mol}$
+3. **Charge in Faradays:** $F_{total} = 6.67 \times 10^{-3} \times 3 = 2.001 \times 10^{-2}\,F$
+4. **Current ($I$):** $Q = 2 \times 10^{-2} \times 96500 = 1930\,\mathrm{C}$. $I = \frac{1930}{600} = 3.22\,\mathrm{A}$
+5. **Anode reaction:** $2Cl^- \rightarrow Cl_2 + 2e^-$ (2 Faradays per mole of $Cl_2$)
+6. **Moles of $Cl_2$:** $n_{Cl_2} = \frac{2 \times 10^{-2}\,F}{2} = 1 \times 10^{-2}\,\text{mol}$
+7. **Volume of $Cl_2$:** $V = \frac{nRT}{P} = \frac{0.01 \times 0.0821 \times 298}{1} = 0.245\,\text{dm}^3$
+
+
+---
+
+<!-- note kx7fn8wq2vdd7685j9nypw37yh85qr7v | topic ms7canj3wgwvwdk8j4je39x8vx85pejh | status published -->
+# 2.10 Experimental Determination of Avogadro Constant By Electrolytic Method
+
+Electrolysis provides a precise experimental method to determine the Avogadro Constant ($N_A$). This technique involves passing a known quantity of electric current through an electrolytic cell containing a specific electrolyte. By measuring the mass of metal deposited at the cathode over a known period, $N_A$ can be calculated. This process is a practical application of <InlineNoteTag label="Oxidation Reduction Concepts" notePath="chemistry-12/2.1-oxidation-reduction-concepts" />.
+
+#### Principle of the Method
+
+The core principle relies on Faraday's laws of electrolysis, which state that the amount of chemical change produced by electric current is proportional to the quantity of electricity passed.
+
+1. **Measure Quantity of Charge ($Q$):** By passing a known current ($I$) for a known time ($t$), the total charge can be calculated using $Q = I \times t$.
+2. **Measure Mass Deposited:** The mass of the metal deposited at the cathode is accurately measured.
+3. **Relate Charge to Moles:** Using the molar mass of the deposited metal and the stoichiometric relationship from the half-reaction at the cathode, the charge required to deposit one mole of the metal can be determined.
+4. **Calculate Avogadro's Constant:** Since the charge on a single electron is known, dividing the total charge for one mole of electrons (Faraday's constant) by the charge of a single electron yields the number of electrons in one mole, which is Avogadro's Constant.
+
+#### Cathode Reaction for Silver Deposition
+
+In the electrolysis of an aqueous silver nitrate ($\mathrm{AgNO_3}$) solution using silver electrodes, silver ions ($\mathrm{Ag^+}$) from the solution gain electrons at the cathode to form solid silver metal ($\mathrm{Ag_{(s)}}$).
+
+$$\mathrm{Ag^+_{(aq)} + e^- \rightarrow Ag_{(s)}}$$
+
+This reaction indicates that one mole of electrons is required to deposit one mole of silver atoms. For more complex reactions, see <InlineNoteTag label="Balancing Of Equations" notePath="chemistry-12/2.2-balancing-of-equations" />.
+
+## Worked Examples
+
+### Example: Calculating Avogadro Constant from Silver Deposition
+
+Let's use the provided experimental data for the electrolysis of $\mathrm{AgNO_3}$ to calculate the Avogadro Constant.
+
+1. **Given Values:**
+   - Current ($I$) = $0.1\,\text{A}$
+   - Time ($t$) = $30\,\text{min}$
+   - Mass of Ag deposited = $0.201\,\text{g}$
+   - Molar Mass of Ag ($M_{Ag}$) = $107.868\,\text{g/mol}$
+   - Charge on one electron ($e$) = $1.602 \times 10^{-19}\,\text{C}$
+
+2. **Convert Time to Seconds:**
+   $$t = 30\,\text{min} \times \frac{60\,\text{s}}{1\,\text{min}} = 1800\,\text{s}$$
+
+3. **Calculate Total Charge ($Q$) Passed:**
+   $$Q = I \times t$$
+   $$Q = 0.1\,\text{A} \times 1800\,\text{s} = 180\,\text{C}$$
+
+   This means $0.201\,\text{g}$ of Ag is produced by $180\,\text{C}$ of electricity.
+
+4. **Calculate Charge Required for 1 Mole of Ag:**
+   If $0.201\,\text{g}$ of Ag requires $180\,\text{C}$, then $1\,\text{mol}$ (or $107.868\,\text{g}$) of Ag would require:
+   $$\text{Charge per mole of Ag} = \frac{180\,\text{C}}{0.201\,\text{g Ag}} \times 107.868\,\text{g Ag/mol}$$
+   $$\text{Charge per mole of Ag} = 96598.209\,\text{C/mol}$$
+
+   This charge must be present on the electrons responsible for producing $1\,\text{mol}$ of Ag.
+
+5. **Relate Charge to Moles of Electrons (Faraday's Constant):**
+   From the cathode reaction, $\mathrm{Ag^+_{(aq)} + 1e^- \rightarrow Ag_{(s)}}$, we know that $1\,\text{mole}$ of electrons is required to deposit $1\,\text{mole}$ of silver.
+
+   Therefore, the charge on $1\,\text{mole}$ of electrons (Faraday's Constant, $F$) is approximately $96598.209\,\text{C/mol}$.
+
+6. **Calculate Avogadro's Constant ($N_A$):**
+   Since we know the charge on one electron ($e$) and the charge on one mole of electrons ($F$), we can calculate the number of electrons in one mole:
+   $$N_A = \frac{\text{Charge on 1 mole of electrons}}{\text{Charge on one electron}} = \frac{F}{e}$$
+   $$N_A = \frac{96598.209\,\text{C}}{1.602 \times 10^{-19}\,\text{C/electron}}$$
+   $$N_A = 6.0298 \times 10^{23}\,\text{electrons/mol}$$
+
+   This calculated value ($6.0298 \times 10^{23}$) is very close to the accepted value of $6.02214 \times 10^{23}$.
+
+## Possible Questions/Answers
+
+### CONCEPT ASSESSMENT EXERCISE 2.10
+
+- **Q1:** An electrolytic cell is connected to a power source for two hours. If the current flowing through the cell is $0.5\,\text{A}$ during this time, find the mass of the substance liberated during this time interval. (The molar mass of the substance is $107.9\,\text{g/mol}$.)
+
+  **A1:**
+  1. **Given values:**
+     - Time ($t$) = $2\,\text{hours}$
+     - Current ($I$) = $0.5\,\text{A}$
+     - Molar Mass ($M$) = $107.9\,\text{g/mol}$
+     - Faraday's constant ($F$) $\approx 96485\,\text{C/mol of }e^-$ (assuming a 1-electron transfer process).
+
+  2. **Convert time to seconds:**
+     $$t = 2\,\text{hours} \times \frac{3600\,\text{s}}{1\,\text{hour}} = 7200\,\text{s}$$
+
+  3. **Calculate total charge ($Q$):**
+     $$Q = I \times t = 0.5\,\text{A} \times 7200\,\text{s} = 3600\,\text{C}$$
+
+  4. **Calculate moles of electrons transferred:**
+     $$\text{Moles of }e^- = \frac{Q}{F} = \frac{3600\,\text{C}}{96485\,\text{C/mol }e^-} \approx 0.03731\,\text{mol }e^-$$
+
+  5. **Calculate moles of substance liberated (assuming 1 mole of e- per mole of substance):**
+     $$\text{Moles of substance} = \text{Moles of }e^- = 0.03731\,\text{mol}$$
+
+  6. **Calculate mass of substance liberated:**
+     $$\text{Mass} = \text{Moles} \times M = 0.03731\,\text{mol} \times 107.9\,\text{g/mol} \approx 4.026\,\text{g}$$
+
+- **Q2:** Calculate the charge in coulombs when $3\,\text{moles}$ of electrons flow through a circuit.
+
+  **A2:**
+  7. **Given values:**
+     - Moles of electrons ($n_e$) = $3\,\text{mol}$
+     - Faraday's constant ($F$) $\approx 96485\,\text{C/mol }e^-$
+
+  8. **Calculate total charge ($Q$):**
+     $$Q = n_e \times F = 3\,\text{mol} \times 96485\,\text{C/mol }e^- = 289455\,\text{C}$$
+
+- **Q3:** Calculate the mass of silver deposited at the cathode during electrolysis of $\mathrm{AgNO_3}$ solution, if you use a current of $0.1\,\text{A}$ for $20\,\text{minutes}$.
+
+  **A3:**
+  9. **Given values:**
+     - Current ($I$) = $0.1\,\text{A}$
+     - Time ($t$) = $20\,\text{min}$
+     - Molar Mass of Ag ($M_{Ag}$) = $107.868\,\text{g/mol}$
+     - Faraday's constant ($F$) $\approx 96485\,\text{C/mol }e^-$ (for $\mathrm{Ag^+ + e^- \rightarrow Ag}$).
+
+  10. **Convert time to seconds:**
+     $$t = 20\,\text{min} \times \frac{60\,\text{s}}{1\,\text{min}} = 1200\,\text{s}$$
+
+  11. **Calculate total charge ($Q$):**
+     $$Q = I \times t = 0.1\,\text{A} \times 1200\,\text{s} = 120\,\text{C}$$
+
+  12. **Calculate moles of electrons transferred:**
+     $$\text{Moles of }e^- = \frac{Q}{F} = \frac{120\,\text{C}}{96485\,\text{C/mol }e^-} \approx 0.0012437\,\text{mol }e^-$$
+
+  13. **Calculate moles of silver deposited:**
+     From the reaction $\mathrm{Ag^+_{(aq)} + e^- \rightarrow Ag_{(s)}}$, $1\,\text{mol}$ of $e^-$ deposits $1\,\text{mol}$ of Ag.
+     $$\text{Moles of Ag} = \text{Moles of }e^- = 0.0012437\,\text{mol}$$
+
+  14. **Calculate mass of silver deposited:**
+     $$\text{Mass of Ag} = \text{Moles of Ag} \times M_{Ag} = 0.0012437\,\text{mol} \times 107.868\,\text{g/mol} \approx 0.134\,\text{g}$$
+
+
+---
+
+<!-- note kx7azpc86bsq6tc9hk3g3vhsf185p981 | topic ms78d5rwv58hwcdm2p4ct5vt1d85p2ws | status published -->
+# 2.11 Winkler Method for Biological Oxygen Demand
+
+The **Biological Oxygen Demand (BOD)** is a crucial environmental parameter defined as:
+
+*The amount of oxygen used to decompose the organic matter in a sample of water over a specified time period (usually 5 days) at a specified temperature (typically $20^\circ\mathrm{C}$)*.
+
+**Significance of BOD:**
+
+* A **high BOD** indicates a greater quantity of organic waste in the water, which leads to a lower level of dissolved oxygen (DO).
+* **Dissolved oxygen (DO)** is a key indicator of the health of an aquatic ecosystem. Higher DO concentrations are generally correlated with high productivity and minimal pollution, supporting aquatic life.
+
+<InlineNoteTag label="Oxidation Reduction Concepts" notePath="chemistry-12/2.1-oxidation-reduction-concepts" />
+
+## The Winkler Method
+
+The Winkler Method, also known as the Iodometric Method, is a widely used redox technique to measure dissolved oxygen concentrations in freshwater systems.
+
+### Principle of the Winkler Method
+
+The core principle involves a series of redox reactions:
+
+1. **Oxygen Fixation:** Oxygen dissolved in the water sample is *fixed* by reacting with manganese(II) ions ($\mathrm{Mn}^{2+}$) in an alkaline environment to form a manganese(IV) oxide ($\mathrm{MnO}_2$) precipitate.
+2. **Iodine Liberation:** The manganese(IV) oxide precipitate is then reacted with iodide ions ($\mathrm{I}^{-}$) in an acidic medium, which reduces $\mathrm{Mn}(\mathrm{IV})$ back to $\mathrm{Mn}(\mathrm{II})$ and oxidizes iodide ions to molecular iodine ($\mathrm{I}_2$).
+3. **Titration:** The amount of iodine produced, which is stoichiometrically equivalent to the original dissolved oxygen, is determined by titrating with a standard solution of sodium thiosulphate ($\mathrm{Na_2S_2O_3}$).
+4. The amount of oxygen initially present in the water sample is calculated from the volume of thiosulphate solution used in the titration.
+
+## Activity 2.2: Determining Oxygen Present in a Water Sample (Winkler Method Procedure)
+
+#### Materials Required
+
+* $300\,\mathrm{cm}^{3}$ BOD bottle
+* Manganese(II) sulphate solution ($2\,\mathrm{cm}^{3}$)
+* Alkali iodide azide solution ($2\,\mathrm{cm}^{3}$ - an aqueous solution of $32.7\%\,\mathrm{NaOH} + 15\%\,\mathrm{KI} + 1\%\,\mathrm{NaN_3}$)
+* Concentrated $\mathrm{H_2SO_4}$ ($2\,\mathrm{cm}^{3}$)
+* Potassium iodide solution ($2\,\mathrm{cm}^{3}$)
+* Sodium thiosulphate solution ($0.1\,\mathrm{M}$)
+* Starch solution ($2\,\mathrm{cm}^{3}$)
+
+#### Procedure Steps
+
+1. **Sample Collection:** Collect the water sample in a $300\,\mathrm{cm}^{3}$ BOD bottle. This is done by immersing the bottle in the water, removing the cap underwater, filling the bottle completely, and then recapping it underwater to prevent air bubbles (and thus, additional oxygen) from entering.
+
+2. **Oxygen Fixation (Precipitation):**
+   * Add $2\,\mathrm{cm}^{3}$ of alkaline iodide azide solution.
+   * Immediately after, add $2\,\mathrm{cm}^{3}$ of manganese(II) sulphate solution.
+   * Close the bottle with the cap and swirl it a few times.
+   * *Observation:* Oxygen dissolved in the alkaline solution oxidizes the manganese(II) ions to manganese(IV) oxide, which appears as a **brown precipitate**.
+   * **Reaction 1 (Oxygen Fixation):**
+   $$ 2\mathrm{Mn}^{2+}_{(\mathrm{aq})} + 4\mathrm{OH}^{-}_{(\mathrm{aq})} + \mathrm{O}_{2(\mathrm{aq})} \rightarrow 2\mathrm{MnO}_{2(\mathrm{s})} + 2\mathrm{H}_{2}\mathrm{O}_{(\mathrm{l})} $$
+
+3. **Iodine Liberation:**
+   * Add $2\,\mathrm{cm}^{3}$ of concentrated $\mathrm{H_2SO_4}$.
+   * Then, add $2\,\mathrm{cm}^{3}$ of potassium iodide ($\mathrm{KI}$) solution.
+   * *Observation:* The brown precipitate will dissolve into a solution. In this acidic environment, $\mathrm{Mn}(\mathrm{IV})$ is reduced back to $\mathrm{Mn}(\mathrm{II})$, liberating iodine ($\mathrm{I}_2$) in the process.
+   * **Reaction 2 (Iodine Liberation):**
+   $$ \mathrm{MnO}_{2(\mathrm{s})} + 2\mathrm{I}^{-}_{(\mathrm{aq})} + 4\mathrm{H}^{+}_{(\mathrm{aq})} \rightarrow \mathrm{Mn}^{2+}_{(\mathrm{aq})} + \mathrm{I}_{2(\mathrm{aq})} + 2\mathrm{H}_{2}\mathrm{O}_{(\mathrm{l})} $$
+
+4. **Titration:**
+   * Titrate $201\,\mathrm{cm}^{3}$ of the above prepared water sample against a standard sodium thiosulphate solution.
+   * Continue the titration until the solution turns **pale yellow**.
+   * At this point, add $2\,\mathrm{cm}^{3}$ of starch solution as an indicator. The solution will immediately turn **blue** (due to the starch-iodine complex).
+   * Continue adding sodium thiosulphate solution dropwise until the blue colour just **disappears**, indicating the endpoint of the titration.
+   * **Reaction 3 (Iodine Titration):**
+   $$ 2\mathrm{S}_{2}\mathrm{O}_{3}^{2-}\,_{(aq)} + \mathrm{I}_{2(aq)} \rightarrow \mathrm{S}_{4}\mathrm{O}_{6}^{2-}\,_{(aq)} + 2\mathrm{I}^{-}\,_{(aq)} $$
+
+   *(Here, thiosulphate ions are oxidized to tetrathionate ions, and iodine is reduced back to iodide ions.)*
+
+#### Stoichiometry and Calculation
+
+The stoichiometric relationships derived from the above reactions are crucial for calculating the dissolved oxygen:
+
+$$ 1 \text{ mole of } \mathrm{O}_{2} \rightarrow 2 \text{ moles of } \mathrm{MnO}_{2} \rightarrow 2 \text{ moles of } \mathrm{I}_{2} \rightarrow 4 \text{ moles of } \mathrm{S}_{2}\mathrm{O}_{3}^{2-} $$
+
+Therefore:
+* The moles of $\mathrm{O}_2$ in the original sample are equal to $1/4$ the moles of $\mathrm{S}_2\mathrm{O}_3^{2-}$ used in the titration.
+* After determining the number of moles of iodine produced from the titration, you can work out the number of moles of oxygen molecules present in the original water sample using this ratio.
+* The oxygen content is usually presented as **$\mathrm{mg/dm^3}$** (which is equivalent to **ppm**, parts per million) for practical reporting.
+
+## Possible Questions and Answers
+
+* **Q:** What is the primary purpose of the Winkler method?
+  **A:** To measure the concentration of dissolved oxygen in a water sample.
+
+* **Q:** Why is the Winkler method considered a redox technique?
+  **A:** It involves a series of reactions where oxidation and reduction occur, specifically the oxidation of $\mathrm{Mn}^{2+}$ by $\mathrm{O}_2$, followed by the oxidation of $\mathrm{I}^{-}$ by $\mathrm{MnO}_2$, and finally the reduction of $\mathrm{I}_2$ by $\mathrm{S}_2\mathrm{O}_3^{2-}$.
+
+* **Q:** What is the role of starch solution in the Winkler titration?
+  **A:** Starch acts as an indicator, forming a distinct blue complex with iodine ($\mathrm{I}_2$). Its disappearance signals the endpoint of the titration when all $\mathrm{I}_2$ has reacted with thiosulphate.
+
+* **Q:** Why is it important to prevent air bubbles from entering the BOD bottle during sample collection?
+  **A:** Air contains oxygen, which would artificially increase the measured dissolved oxygen concentration, leading to an inaccurate result.
+
+* **Q:** If $0.0125$ moles of sodium thiosulphate were used in the titration, how many moles of $\mathrm{O}_2$ were in the original sample aliquot?
+  **A:** From the stoichiometry, $4 \text{ moles of } \mathrm{S}_2\mathrm{O}_3^{2-}$ react with $1 \text{ mole of } \mathrm{O}_2$.
+  Moles of $\mathrm{O}_2 = \frac{1}{4} \times \text{Moles of } \mathrm{S}_2\mathrm{O}_3^{2-} = \frac{1}{4} \times 0.0125\,\mathrm{mol} = 0.003125\,\mathrm{mol}$.

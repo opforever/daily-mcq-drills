@@ -1,0 +1,200 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "k972d7nawes63x3s4stjbz97358d3ntd",
+    "correctKey": "A",
+    "explanation": "A computational artifact is a human-made object or system created using computational thinking, such as a program, website, simulation, or digital application.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx733s3hj1fv8bbcn9ywhnhcks85qt92",
+    "options": [
+      {
+        "key": "A",
+        "text": "A human-made object or system created using computational thinking"
+      },
+      {
+        "key": "B",
+        "text": "A physical component inside a CPU"
+      },
+      {
+        "key": "C",
+        "text": "A type of network cable"
+      },
+      {
+        "key": "D",
+        "text": "A voltage level in a digital signal"
+      }
+    ],
+    "stem": "What is a computational artifact?",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "k974zvbx7br1mrrg42nhffzcfx85p3w3",
+    "correctKey": "C",
+    "explanation": "Binary Search uses a divide-and-conquer strategy: it compares the target with the middle element and discards half the remaining data. This only works correctly if the data is sorted, so the algorithm knows which half to search next.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78d65f9a8mxzrst3hyhnfg2585p5sh",
+    "options": [
+      {
+        "key": "A",
+        "text": "The dataset must be small"
+      },
+      {
+        "key": "B",
+        "text": "The dataset must be stored in a linked list"
+      },
+      {
+        "key": "C",
+        "text": "The dataset must be sorted"
+      },
+      {
+        "key": "D",
+        "text": "The dataset must contain only integers"
+      }
+    ],
+    "stem": "Which condition is mandatory for performing a Binary Search on a dataset?",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "k979aekg0y4n5a7fkdwc0rkyb585pnx4",
+    "correctKey": "B",
+    "explanation": "Because the books are sorted alphabetically, Binary Search can be applied. It eliminates half the remaining books with each comparison, finding the target in O(log n) steps rather than O(n) for Linear Search.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78d65f9a8mxzrst3hyhnfg2585p5sh",
+    "options": [
+      {
+        "key": "A",
+        "text": "Linear Search"
+      },
+      {
+        "key": "B",
+        "text": "Binary Search"
+      },
+      {
+        "key": "C",
+        "text": "Bubble Sort"
+      },
+      {
+        "key": "D",
+        "text": "Selection Sort"
+      }
+    ],
+    "stem": "A library has 10,000 books arranged alphabetically. Which algorithm would most efficiently find a specific book by title?",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "k9723wzdjqbzfv18sv3vt9sn1d85qh19",
+    "correctKey": "C",
+    "explanation": "During each pass of Bubble Sort, adjacent elements are compared and swapped if out of order. The largest unsorted element 'bubbles up' to the end of the list, so after the first pass the largest element is in its correct final position.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78d65f9a8mxzrst3hyhnfg2585p5sh",
+    "options": [
+      {
+        "key": "A",
+        "text": "The smallest element"
+      },
+      {
+        "key": "B",
+        "text": "The middle element"
+      },
+      {
+        "key": "C",
+        "text": "The largest element"
+      },
+      {
+        "key": "D",
+        "text": "No element is guaranteed to be in its final position"
+      }
+    ],
+    "stem": "In Bubble Sort, after the first complete pass through a list of $n$ elements, which element is guaranteed to be in its final sorted position?",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "k9755q9np1h0qth2yr3sbvh0hd85pjvk",
+    "correctKey": "B",
+    "explanation": "Insertion Sort works by keeping a sorted sub-list and picking one element at a time from the unsorted portion, inserting it into the correct position by shifting larger elements right, similar to sorting playing cards in hand.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78d65f9a8mxzrst3hyhnfg2585p5sh",
+    "options": [
+      {
+        "key": "A",
+        "text": "Selection Sort"
+      },
+      {
+        "key": "B",
+        "text": "Insertion Sort"
+      },
+      {
+        "key": "C",
+        "text": "Bubble Sort"
+      },
+      {
+        "key": "D",
+        "text": "Linear Sort"
+      }
+    ],
+    "stem": "Which sorting algorithm maintains a sorted sub-list and inserts each new element into its correct position within that sub-list?",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "k978hnq3vgk37f6zew7hmk3k7s8d3dzt",
+    "correctKey": "A",
+    "explanation": "Binary search uses divide and conquer: it works on a sorted list and divides the search range into two parts at each step, then continues in the relevant half.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78d65f9a8mxzrst3hyhnfg2585p5sh",
+    "options": [
+      {
+        "key": "A",
+        "text": "It divides the sorted list into two parts"
+      },
+      {
+        "key": "B",
+        "text": "It checks every item from the beginning"
+      },
+      {
+        "key": "C",
+        "text": "It randomly removes unsorted items"
+      },
+      {
+        "key": "D",
+        "text": "It converts the list into a graph"
+      }
+    ],
+    "stem": "How does binary search reduce the search work at each step?",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd"
+  }
+]

@@ -1,0 +1,671 @@
+[
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-internet-of-things-iot",
+    "topicTitle": "5.1 Internet of Things (Iot)",
+    "_id": "m174x6ts94sx4yeyz3dz19zwdh8e1nsw",
+    "correctKey": "A",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "The Internet of Things (IoT) connects sensors/devices across these settings to automate monitoring and control.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "IoT"
+      },
+      {
+        "key": "B",
+        "text": "Blockchain"
+      },
+      {
+        "key": "C",
+        "text": "Cloud Computing"
+      },
+      {
+        "key": "D",
+        "text": "Robotics"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The technology that provides automation in manufacturing industry, healthcare, home, traffic monitoring, etc. is known as:",
+    "topicId": "ms71rmbymy34ycez6bxrh668958bvngk"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-3-applications-of-iot",
+    "topicTitle": "5.3 Applications of Iot",
+    "_id": "m174wryav6zr2e22gzz6qe38ah8e144d",
+    "exerciseId": "xd7atn0dhebp36d6k9ngr46nxd8e06he",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "IoT sensors and cameras placed at roads/intersections collect real-time data on vehicle flow and congestion, which is sent to a central system that can adjust traffic light timing, alert drivers to congestion, and help authorities plan routes and respond quickly to accidents.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe how IoT can help traffic monitoring.",
+    "topicId": "ms736hvek2ss7s9z5zmtrjk5v58btdwt"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-3-applications-of-iot",
+    "topicTitle": "5.3 Applications of Iot",
+    "_id": "m170rknt9kz8t3pev5ehb5x1ch8e1k3x",
+    "exerciseId": "xd7617yyya0hzg68ecrd00cav98e0e2z",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Healthcare: wearable IoT devices monitor vital signs (heart rate, glucose) in real time and alert doctors or patients to abnormalities.",
+      "Hospitality: smart hotel rooms use IoT to let guests control lighting, temperature and entertainment, and to let staff track room occupancy/maintenance needs.",
+      "Smart farming: IoT soil and weather sensors let farmers monitor moisture and conditions remotely and automate irrigation, improving yield and reducing water waste."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In healthcare, IoT wearables and other sensors monitor vital signs in real time and can alert doctors or patients to abnormalities. In hospitality, smart hotel rooms use IoT to control lighting, temperature, and entertainment, while sensors help staff monitor occupancy and maintenance. In smart farming, soil and weather sensors monitor moisture and conditions remotely and can automate irrigation, improving yield and reducing water waste.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Briefly describe the application of IoT in the following areas: (a) Healthcare, (b) Hospitality, (c) Smart farming.",
+    "topicId": "ms736hvek2ss7s9z5zmtrjk5v58btdwt"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-4-blockchain-technology",
+    "topicTitle": "5.4 Blockchain Technology",
+    "_id": "m1728j73ee5gzttmm6mk6ewrhs8e15zw",
+    "correctKey": "B",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Blockchain's tamper-resistant, distributed ledger is widely used to track goods through a supply chain.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "IoT"
+      },
+      {
+        "key": "B",
+        "text": "Blockchain"
+      },
+      {
+        "key": "C",
+        "text": "Cloud Computing"
+      },
+      {
+        "key": "D",
+        "text": "AI Assistant"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The technology used for management of supply chain is known as:",
+    "topicId": "ms7ex9ttqz54kegrsqg8nh8zs58bty5a"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-4-blockchain-technology",
+    "topicTitle": "5.4 Blockchain Technology",
+    "_id": "m17bm4khykb2jj412wkmerysh18e0r5g",
+    "correctKey": "B",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Cryptocurrencies (like Bitcoin) run on blockchain's distributed, tamper-resistant ledger technology.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Cloud Computing"
+      },
+      {
+        "key": "B",
+        "text": "Blockchain"
+      },
+      {
+        "key": "C",
+        "text": "Robotics"
+      },
+      {
+        "key": "D",
+        "text": "IoT"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The technology that enabled the existence of Cryptocurrency is:",
+    "topicId": "ms7ex9ttqz54kegrsqg8nh8zs58bty5a"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-4-blockchain-technology",
+    "topicTitle": "5.4 Blockchain Technology",
+    "_id": "m17fbw92vfh4hjfhhjjmy9nds58e00f5",
+    "exerciseId": "xd7atn0dhebp36d6k9ngr46nxd8e06he",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A blockchain ledger is distributed across many computers, so no single party controls or can secretly alter it; each transaction is cryptographically linked to the previous one, making tampering evident; and its transparency lets all authorized parties verify transaction history, increasing trust without needing a central authority.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe the benefits of using Blockchain technology in maintaining a digital ledger (database) of transactions.",
+    "topicId": "ms7ex9ttqz54kegrsqg8nh8zs58bty5a"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-5-applications-of-blockchain",
+    "topicTitle": "5.5 Applications of Blockchain",
+    "_id": "m177agawtjvjkmvrhq85c3enwd8e19r0",
+    "exerciseId": "xd7617yyya0hzg68ecrd00cav98e0e2z",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Supply chain: each step a product takes is recorded on the blockchain, letting anyone verify its origin and journey and making fraud or counterfeiting easier to detect.",
+      "Voting: a blockchain-based voting record is tamper-resistant and transparent, making votes harder to alter after being cast while still allowing verification.",
+      "Copyright/IP protection: registering a work's creation timestamp on a blockchain gives a verifiable, unchangeable record of ownership and creation date, useful in ownership disputes."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In supply-chain management, blockchain records each step a product takes, making its origin and journey verifiable and fraud or counterfeiting easier to detect. In voting, a blockchain record is tamper-resistant and transparent, making votes harder to alter after they are cast while allowing verification. For copyright and intellectual property, recording a work's creation time on a blockchain provides an unchangeable record of ownership and the creation date.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Briefly describe how Blockchain technology is useful in the following areas: (a) Management of supply chain, (b) Voting, (c) Protection of copyrighted and intellectual property.",
+    "topicId": "ms70mkzs2sa1gjg6qdhv7435z18bvrth"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-6-cloud-computing",
+    "topicTitle": "5.6 Cloud Computing",
+    "_id": "m170my4kpysqs21z2jyev91zvh8e0q20",
+    "correctKey": "C",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Cloud computing lets businesses use remote provider infrastructure instead of running their own on-premises servers.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "AI Computing"
+      },
+      {
+        "key": "B",
+        "text": "Server Computing"
+      },
+      {
+        "key": "C",
+        "text": "Cloud Computing"
+      },
+      {
+        "key": "D",
+        "text": "Network Computing"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The technology that is an alternative to on-premises computing in business is:",
+    "topicId": "ms7e2e8y6hybs4mepsz53j4b8s8bvrva"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-6-cloud-computing",
+    "topicTitle": "5.6 Cloud Computing",
+    "_id": "m178t20w18y0tdz03rf11z89gh8e03v8",
+    "exerciseId": "xd7617yyya0hzg68ecrd00cav98e0e2z",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Cost savings: businesses avoid the upfront cost of buying and maintaining their own servers, paying instead for what they use.",
+      "Scalability: cloud resources can be increased or decreased on demand as a business's needs change.",
+      "Accessibility: data and applications hosted in the cloud can be accessed from anywhere with an internet connection, supporting remote work and collaboration."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Three benefits of cloud computing are cost savings, scalability, and accessibility. Businesses avoid the upfront cost of buying and maintaining their own servers and pay for the resources they use. Cloud resources can be increased or decreased on demand as needs change. Data and applications can be accessed from anywhere with an internet connection, supporting remote work and collaboration.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe any three benefits of cloud computing.",
+    "topicId": "ms7e2e8y6hybs4mepsz53j4b8s8bvrva"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-7-speech-recognition-and-voice-recognition",
+    "topicTitle": "5.7 Speech Recognition and Voice Recognition",
+    "_id": "m17dze72zb4er4dn82m1sh4vt98e0g1n",
+    "correctKey": "A",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Cortana is Microsoft's virtual assistant (Siri is Apple's, Alexa is Amazon's, Bixby is Samsung's).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Cortana"
+      },
+      {
+        "key": "B",
+        "text": "Siri"
+      },
+      {
+        "key": "C",
+        "text": "Alexa"
+      },
+      {
+        "key": "D",
+        "text": "Bixby"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The virtual assistant developed by Microsoft is:",
+    "topicId": "ms753mctjwsxm338sgh2n6zgq18btc5r"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-7-speech-recognition-and-voice-recognition",
+    "topicTitle": "5.7 Speech Recognition and Voice Recognition",
+    "_id": "m17cyh20x91kn8ygw56ashyews8e17vx",
+    "exerciseId": "xd7atn0dhebp36d6k9ngr46nxd8e06he",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Speech recognition converts spoken words into text, focusing on what was said. Voice recognition identifies who is speaking, focusing on the unique characteristics of a person's voice (used for authentication/security).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Differentiate between speech recognition and voice recognition.",
+    "topicId": "ms753mctjwsxm338sgh2n6zgq18btc5r"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-7-speech-recognition-and-voice-recognition",
+    "topicTitle": "5.7 Speech Recognition and Voice Recognition",
+    "_id": "m176bqk28hsn0dhg9gn3kqa9nd8e1c02",
+    "exerciseId": "xd7atn0dhebp36d6k9ngr46nxd8e06he",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Such apps typically use speech recognition to listen to a user's recitation and check it against the correct text, highlighting mistakes; they offer repeat/playback of verses by qualified reciters, progress tracking per verse/surah, and reminders to schedule daily memorization practice.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe the features available in Quran memorization apps that help in the memorization of Quran.",
+    "topicId": "ms753mctjwsxm338sgh2n6zgq18btc5r"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-7-speech-recognition-and-voice-recognition",
+    "topicTitle": "5.7 Speech Recognition and Voice Recognition",
+    "_id": "m1795z5z659ag89c2tzpa60nws8e0c3c",
+    "exerciseId": "xd7617yyya0hzg68ecrd00cav98e0e2z",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Voice recognition can authenticate a person's identity by matching their unique vocal characteristics against a stored voiceprint, used as a security measure for phone banking or device access.",
+      "In criminal investigation, recorded voice samples (e.g. from a ransom call or wiretap) can be compared against a suspect's voice to help establish or rule out identity.",
+      "Because voiceprints are hard to fake convincingly, this adds an extra layer of security beyond passwords alone."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Voice recognition can authenticate a person by matching unique vocal characteristics, such as tone and pitch, with a stored voiceprint. This can secure services such as phone banking or device access. In criminal investigations, a recorded voice from a ransom call or wiretap can be compared with a suspect's voice to help establish or rule out identity. It provides an additional security layer beyond passwords.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe the use of voice recognition for security and criminal investigation.",
+    "topicId": "ms753mctjwsxm338sgh2n6zgq18btc5r"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-natural-language-processing",
+    "topicTitle": "5.8 Natural Language Processing",
+    "_id": "m1778eem1cp588j6k5bawh7ww98e0ma2",
+    "correctKey": "D",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Natural Language Processing (NLP) is the AI field for understanding and generating human language.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Language Translation"
+      },
+      {
+        "key": "B",
+        "text": "Digital Language Processing"
+      },
+      {
+        "key": "C",
+        "text": "Robotics"
+      },
+      {
+        "key": "D",
+        "text": "Natural Language Processing"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Branch of AI that gives computer the ability to understand text and spoken words like humans is known as:",
+    "topicId": "ms75g5te4b188cjbjv2kh0yzdx8bt1s4"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-natural-language-processing",
+    "topicTitle": "5.8 Natural Language Processing",
+    "_id": "m170jfd7dx8dy2rc2d0wymw7fs8e0evk",
+    "correctKey": "C",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "This auto-suggestion feature is called predictive text, driven by NLP language models.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Document Analysis"
+      },
+      {
+        "key": "B",
+        "text": "Sentiment Analysis"
+      },
+      {
+        "key": "C",
+        "text": "Predictive Text"
+      },
+      {
+        "key": "D",
+        "text": "Internet Suggestion"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The probable next words or phrases that are displayed as we type anything in the search bar is called:",
+    "topicId": "ms75g5te4b188cjbjv2kh0yzdx8bt1s4"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-natural-language-processing",
+    "topicTitle": "5.8 Natural Language Processing",
+    "_id": "m17e4yejfswewbrbzwj9262t0x8e15k9",
+    "exerciseId": "xd7atn0dhebp36d6k9ngr46nxd8e06he",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "NLP models analyze common language patterns and a user's typing history to predict the most likely words or phrases as they type, letting them complete a search query faster and often surfacing more relevant search suggestions before the full query is typed.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe how predictive text based on NLP algorithms helps in making online searches.",
+    "topicId": "ms75g5te4b188cjbjv2kh0yzdx8bt1s4"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-natural-language-processing",
+    "topicTitle": "5.8 Natural Language Processing",
+    "_id": "m17bd5b39q46h2srp6xa586ybd8e1wnd",
+    "exerciseId": "xd7617yyya0hzg68ecrd00cav98e0e2z",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Email filtering: NLP analyzes the wording and patterns of incoming emails to classify and automatically sort spam/phishing emails away from a user's inbox.",
+      "Language translation: NLP models learn the grammar, vocabulary and context of two languages to automatically translate text from one to the other while preserving meaning.",
+      "Both rely on the same core NLP capability: understanding the meaning and structure of natural-language text well enough to act on it automatically."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Natural Language Processing helps email filtering by analyzing words and patterns in incoming messages to classify and place unwanted spam or phishing messages in the appropriate folder. In language translation, NLP uses learned grammar, vocabulary, and context to translate written or spoken words from one language to another while preserving meaning. Both applications depend on understanding the structure and meaning of natural-language text.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Briefly describe how NLP helps in email filtering and language translation.",
+    "topicId": "ms75g5te4b188cjbjv2kh0yzdx8bt1s4"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-9-robotics",
+    "topicTitle": "5.9 Robotics",
+    "_id": "m17cgbqa6r2ry435e96ha4mvcs8e092s",
+    "exerciseId": "xd7617yyya0hzg68ecrd00cav98e0e2z",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Surgical robots: assist surgeons with highly precise, minimally invasive procedures, improving accuracy and reducing patient recovery time.",
+      "Warehouse/logistics robots: move and sort packages in large fulfillment centers, speeding up order processing and reducing manual labour needs.",
+      "(Other valid examples include agricultural harvesting robots or search-and-rescue robots used in disaster response.)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe two applications of robots that are not mentioned in this unit.",
+    "topicId": "ms7cky0gevk6xf5c836egzbt0h8bvwvw"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-10-bias-and-unethical-use-of-artificial-intelligence",
+    "topicTitle": "5.10 Bias and Unethical Use of Artificial Intelligence",
+    "_id": "m177zrvjj13y0et7q2y121sf0h8e1tnd",
+    "correctKey": "D",
+    "exerciseId": "xd7epddkxwm5eapfhrebhfkzvx8e08a7",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "AI-generated fake-but-realistic videos are called deepfakes.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Privacy Breach Videos"
+      },
+      {
+        "key": "B",
+        "text": "Social Manipulation Videos"
+      },
+      {
+        "key": "C",
+        "text": "Misinformation Videos"
+      },
+      {
+        "key": "D",
+        "text": "Deepfake Videos"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "AI based realistic videos that are not genuine are known as:",
+    "topicId": "ms7c8767cyp66s4tc7nahjmcy58btnhe"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-10-bias-and-unethical-use-of-artificial-intelligence",
+    "topicTitle": "5.10 Bias and Unethical Use of Artificial Intelligence",
+    "_id": "m178ssqt9ekeb5twkfq22sz5qd8e012c",
+    "exerciseId": "xd7atn0dhebp36d6k9ngr46nxd8e06he",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "If an AI system is trained on biased or unrepresentative historical data, it can learn and repeat that bias, for example unfairly denying loans, jobs, or parole recommendations to certain groups at a higher rate, causing real-world injustice even though the system appears neutral.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Briefly describe how AI-based systems can cause injustice to some people.",
+    "topicId": "ms7c8767cyp66s4tc7nahjmcy58btnhe"
+  }
+]

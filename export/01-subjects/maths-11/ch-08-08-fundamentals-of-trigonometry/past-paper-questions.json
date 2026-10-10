@@ -1,0 +1,726 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m179nabdnxyf0fv3bxnxnrhbs58c9tdn",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the values of $\\cos (\\alpha \\pm \\beta), \\sin (\\alpha \\pm \\beta)$ and $\\tan (\\alpha \\pm \\beta)$ for each given pair of angles.\n(i) $\\alpha=180^{\\circ}, \\beta=60^{\\circ}$\n(ii) $\\alpha=90^{\\circ}, \\beta=60^{\\circ}$\n(iii) $\\alpha=180^{\\circ}, \\beta=30^{\\circ}$\n(iv) $\\alpha=\\pi, \\beta=\\frac{\\pi}{3}$\n(v) $\\alpha=\\frac{\\pi}{2}, \\beta=\\frac{\\pi}{6}$\n(vi) $\\alpha=\\frac{3 \\pi}{2}, \\beta=\\frac{\\pi}{4}$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17eqb49bx2f7evkxxxa2bvpjs8c8azt",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Use the cosine difference identity.",
+      "Substitute standard-angle values.",
+      "Simplify to (√6+√2)/4."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "cos15°=cos(45°-30°)=cos45°cos30°+sin45°sin30°=(√6+√2)/4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "a. Find the exact value of $\\cos 15^{\\circ}$ by using $\\cos \\left(45^{\\circ}-30^{\\circ}\\right)$.",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17c30sg8wa38m5vzqny3mgfss8c9204",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Use allied-angle identities.",
+      "Evaluate standard angles.",
+      "Apply the 180° and 360° relations."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "cos120°=-1/2, sin120°=√3/2, tan120°=-√3; cos75°=(√6-√2)/4; cos105°=-(√6-√2)/4; cos285°=(√6-√2)/4; sin15°=(√6-√2)/4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "a. Find the exact value of $\\cos 120^{\\circ}$ by using $\\cos \\left(180^{\\circ}-60^{\\circ}\\right)$ and $\\cos \\left(90^{\\circ}+30^{\\circ}\\right)$.\n    b. Find the exact value of $\\sin 120^{\\circ}$ and then $\\tan 120^{\\circ}$.\n    c. Find the exact value of $\\cos 75^{\\circ}$ by using $\\cos \\left(120^{\\circ}-45^{\\circ}\\right)$.\n    d. Use the value of $\\cos 75^{\\circ}$ found in $\\mathbf{c}$ to find $\\cos 105^{\\circ}$ by using $\\cos \\left(180^{\\circ}-75^{\\circ}\\right)$.\n    e. Use the value of $\\cos 75^{\\circ}$ found in $\\mathbf{e}$ to find $\\cos 285^{\\circ}$ by using $\\cos \\left(360^{\\circ}-75^{\\circ}\\right)$.\n    f. Find the exact value of $\\sin 15^{\\circ}$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m174e7jye7npzrnbm1mmn8aabh8c9dw1",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Use cos(A±B) and sin(A±B).",
+      "Combine the angle arguments.",
+      "Evaluate the standard-angle tangent values."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Apply sum/difference identities: (i) cos9θ; (ii) cos5θ; (iii) sin(θ/2); (iv) sin92°; (v) tan30°=1/√3; (vi) 0.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Rewrite as a single expression.\n(i) $\\quad \\cos 6 \\theta \\cos 3 \\theta-\\sin 6 \\theta \\sin 3 \\theta$\n(ii) $\\cos 7 \\theta \\cos 2 \\theta+\\sin 7 \\theta \\sin 2 \\theta$\n(iii) $\\sin \\left(\\frac{\\theta}{3}\\right) \\cos \\left(\\frac{\\theta}{6}\\right)+\\cos \\left(\\frac{\\theta}{3}\\right) \\sin \\left(\\frac{\\theta}{6}\\right)$\n(iv) $\\sin 138^{\\circ} \\cos 46^{\\circ}-\\cos 138^{\\circ} \\sin 46^{\\circ}$\n(v) $\\frac{\\tan 75^{\\circ}-\\tan 45^{\\circ}}{1+\\tan 75^{\\circ} \\tan 45^{\\circ}}$\n(vi) $\\frac{\\tan \\frac{4 \\pi}{3}+\\tan \\frac{2 \\pi}{3}}{1-\\tan \\frac{4 \\pi}{3} \\tan \\frac{2 \\pi}{3}}$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m178e3zpkzkh55gm910dcwcy218c8kdn",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Resolve signs from the quadrants.",
+      "Use cosine sum and difference identities.",
+      "Results are 16/65 and 56/65."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In quadrant II, cos alpha=-3/5. In quadrant II for beta, tan beta=-5/12 gives sin beta=5/13 and cos beta=-12/13. Thus cos(alpha+beta)=16/65 and cos(alpha-beta)=56/65.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "For $\\sin \\alpha=\\frac{4}{5}, \\tan \\beta=-\\frac{5}{12}$ with terminal sides of angles $\\alpha$ and $\\beta$ lie quad. II, find $\\cos (\\alpha+\\beta)$ and $\\cos (\\alpha-\\beta)$.",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m170n9gk2kd3xxsr972t4hspbn8c9am3",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Resolve all quadrant signs.",
+      "Apply sine and cosine difference identities.",
+      "Divide to obtain tangent."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For alpha in QII, sin alpha=24/25. For beta in QIII with cot beta=15/8, sin beta=-8/17 and cos beta=-15/17. Hence sin(alpha-beta)=-416/425, cos(alpha-beta)=-87/425, tan(alpha-beta)=416/87.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "For $\\cos \\alpha=-\\frac{7}{25}$ and $\\cot \\beta=\\frac{15}{8}$ with terminal sides of $\\alpha$ in quad. II and $\\beta$ in quad. III find:\n(i) $\\sin (\\alpha-\\beta)$\n(ii) $\\cos (\\alpha-\\beta)$\n(iii) $\\tan (\\alpha-\\beta)$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m173pv5cgmyjd4fhrd1h245b818c9mdf",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Build sine/cosine values from the given ratios.",
+      "Apply sum identities.",
+      "Compute tangent as sine over cosine."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With acute alpha, sin alpha=12/13 and cos alpha=5/13; with acute beta and tan beta=4/3, sin beta=4/5 and cos beta=3/5. Therefore sin(alpha+beta)=56/65, cos(alpha+beta)=-33/65, tan(alpha+beta)=-56/33.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Given $\\alpha$ and $\\beta$ are acute angles with $\\sin \\alpha=\\frac{12}{13}$ and $\\tan \\beta=\\frac{4}{3}$ find:\n(i) $\\sin (\\alpha+\\beta)$\n(ii) $\\cos (\\alpha+\\beta)$\n(iii) $\\tan (\\alpha+\\beta)$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17f2kssxnn970q0wm14kgrp0s8c9ngc",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Resolve alpha and beta signs from bounds.",
+      "Apply sum identities.",
+      "Take reciprocals for csc, sec, cot."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "alpha is QI: sin=3/5, cos=4/5. beta is QIV: cos=12/13, sin=-5/13. Thus sin(alpha+beta)=33/65, cos(alpha+beta)=63/65, tan=11/21; csc=65/33, sec=65/63, cot=21/11.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $\\sin \\alpha=\\frac{3}{5}$, where $0<\\alpha<\\frac{\\pi}{2}$ and $\\cos \\beta=\\frac{12}{13}$, where $\\frac{3 \\pi}{2}<\\beta<2 \\pi$ find:\n(i) $\\csc (\\alpha+\\beta)$\n(ii) $\\sec (\\alpha+\\beta)$\n(iii) $\\cot (\\alpha+\\beta)$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17a1hv0w8btdbe7c3gpsgk5q98c8tk7",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Resolve both obtuse-angle signs.",
+      "Apply sum and difference identities.",
+      "Compute tangent as sine over cosine."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For obtuse alpha, sin alpha=1/√2 and cos alpha=-1/√2. For obtuse beta, cos beta=-3/5 and sin beta=4/5. Thus sin(alpha+beta)=-7/(5√2), sin(alpha-beta)=1/(5√2), cos(alpha+beta)=-1/(5√2), cos(alpha-beta)=7/(5√2); tangents follow by quotient.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Given $\\alpha$ and $\\beta$ are obtuse angles with $\\sin \\alpha=\\frac{1}{\\sqrt{2}}$ and $\\cos \\beta=-\\frac{3}{5}$ find:\n(i) $\\sin (\\alpha \\pm \\beta)$\n(ii) $\\cos (\\alpha \\pm \\beta)$\n(iii) $\\tan (\\alpha \\pm \\beta)$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17430n8440rr2zje8czax2e4n8c8zt5",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Apply the addition and subtraction formulas.",
+      "Simplify paired expressions.",
+      "Substitute standard allied angles where shown."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each identity follows by expanding sin(x±y), cos(x±y), and tan(x±y) with the addition/subtraction formulas; for example cos(x+y)+cos(x-y)=2cos x cos y and sin(x+y)-sin(x-y)=2cos x sin y. The allied-angle cases are obtained by substituting π/2 or π and π/4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Verify:\n(i) $\\sin \\left(\\frac{\\pi}{2}-\\alpha\\right)=\\cos \\alpha$\n(ii) $\\cos (\\pi-\\alpha)=-\\cos \\alpha$\n(iii) $\\cos \\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{1}{\\sqrt{2}}(\\cos \\alpha-\\sin \\alpha)$\n(iv) $\\sin \\left(\\beta+\\frac{\\pi}{4}\\right)=\\frac{\\sqrt{2}}{2}(\\cos \\beta+\\sin \\beta)$\n(v) $\\tan \\left(\\gamma-\\frac{\\pi}{4}\\right)=\\frac{\\tan \\gamma-1}{\\tan \\gamma+1}$\n(vi) $\\tan \\left(\\gamma+\\frac{\\pi}{4}\\right)=\\frac{1+\\tan \\gamma}{1-\\tan \\gamma}=\\frac{\\cos \\gamma+\\sin \\gamma}{\\cos \\gamma-\\sin \\gamma}$\n(vii) $\\cos (x+y)+\\cos (x-y)=2 \\cos x \\cos y$\n(viii) $\\sin (x+y)-\\sin (x-y)=2 \\cos x \\sin y$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17bkz12j9k3kj4pgezwn4q57h8c89zc",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Use allied-angle identities.",
+      "Apply product-to-sum or sum/difference formulas.",
+      "Simplify both sides to the same expression."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each identity follows by substituting the allied-angle signs and applying sum/difference products. For example tan alpha+tan beta=sin(alpha+beta)/(cos alpha cos beta), and sin(alpha+beta)sin(alpha-beta)=cos^2 beta-cos^2 alpha; the remaining statements reduce identically by the same formulas.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Show that:\n(i) $\\frac{\\sin \\left(180^{\\circ}+\\lambda\\right) \\cos \\left(270^{\\circ}+\\lambda\\right)}{\\sin \\left(180^{\\circ}-\\lambda\\right) \\cos \\left(270^{\\circ}-\\lambda\\right)}=1$\n(ii) $\\frac{\\sin \\left(90^{\\circ}+\\alpha\\right)-\\cos \\left(360^{\\circ}-\\alpha\\right)+\\cos \\alpha}{\\sin \\left(180^{\\circ}-\\alpha\\right)+\\sin \\left(270^{\\circ}-\\alpha\\right)+\\cos \\left(90^{\\circ}+\\alpha\\right)}=-1$\n(iii) $\\tan \\alpha+\\tan \\beta=\\frac{\\sin (\\alpha+\\beta)}{\\cos \\alpha \\cos \\beta}$\n(iv) $\\sin (\\alpha+\\beta) \\sin (\\alpha-\\beta)=\\cos ^{2} \\beta-\\cos ^{2} \\alpha=\\sin ^{2} \\alpha-\\sin ^{2} \\beta$\n(v) $\\frac{\\tan (x+y)}{\\cot (x-y)}=\\frac{\\tan ^{2} x-\\tan ^{2} y}{1-\\tan ^{2} x \\tan ^{2} y}$\n(vi) $\\frac{\\cos (\\alpha+\\beta)}{\\cos (\\alpha-\\beta)}=\\frac{1-\\tan \\alpha \\tan \\beta}{1+\\tan \\alpha \\tan \\beta}$\n(vii) $\\cot (\\alpha-\\beta)=\\frac{\\cot \\alpha \\cot \\beta+1}{\\cot \\beta-\\cot \\alpha}$\n(viii) $\\frac{\\cos 4 \\theta}{\\csc \\theta}+\\frac{\\sin 4 \\theta}{\\sec \\theta}=\\sin 5 \\theta$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17bw386m94421g9zh6b17t9a98c8fr4",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Use the 180° angle-sum condition.",
+      "Expand the tangent sum.",
+      "Apply the half-angle substitution for parts ii–iii."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since alpha+beta+gamma=180°, expand tan(alpha+beta+gamma)=0 to obtain tan alpha+tan beta+tan gamma=tan alpha tan beta tan gamma. Half-angle forms follow by setting x=tan(alpha/2), y=tan(beta/2), z=tan(gamma/2) and using alpha/2+beta/2+gamma/2=90°.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $\\alpha+\\beta+\\gamma=180^{\\circ}$, prove that:\n(i) $\\tan \\alpha+\\tan \\beta+\\tan \\gamma=\\tan \\alpha \\tan \\beta \\tan \\gamma$\n(ii) $\\cot \\frac{\\alpha}{2}+\\cot \\frac{\\beta}{2}+\\cot \\frac{\\gamma}{2}=\\cot \\frac{\\alpha}{2} \\cot \\frac{\\beta}{2} \\cot \\frac{\\gamma}{2}$\n(iii) $\\tan \\frac{\\alpha}{2} \\tan \\frac{\\beta}{2}+\\tan \\frac{\\beta}{2} \\tan \\frac{\\gamma}{2}+\\tan \\frac{\\gamma}{2} \\tan \\frac{\\alpha}{2}-1=0$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17cbv9v1qwznza69b6b0pewv98c81v9",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Match r cosφ to the sine coefficient.",
+      "Match r sinφ to the cosine coefficient.",
+      "Use r=√(a²+b²)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "12 sinθ-5 cosθ=13 sin(θ-φ), where cosφ=12/13 and sinφ=5/13. 3 sinθ+4 cosθ=5 sin(θ+ψ), where cosψ=3/5 and sinψ=4/5. sinθ-cosθ=√2 sin(θ-π/4).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Express the following in the form of $r \\sin (\\theta+\\phi)$.\n(i) $12 \\sin \\theta-5 \\cos \\theta$\n(ii) $3 \\sin \\theta+4 \\cos \\theta$\n(iii) $\\sin \\theta-\\cos \\theta$",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-1",
+    "topicTitle": "8.1 Allied Angles and Sum/Difference Formulas",
+    "_id": "m17f8987y8yep8yzjgp24caafh8c85hr",
+    "exerciseId": "xd77312r0npch568zcdjkwfh4s8c8xq3",
+    "exerciseTitle": "Exercise 8.1",
+    "keyPoints": [
+      "Use right-triangle tangent for the shorter wire.",
+      "Use the 3-7-sqrt58 triangle for the longer wire.",
+      "Subtract the two ground angles."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The shorter wire makes 45° because tan angle=3/3. For the longer wire, sin theta=7/sqrt58 and cos theta=3/sqrt58. The angle between wires is theta-45°, with cosine 5/sqrt29, and its measure is about 22°.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "page": 201,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A telephone pole is braced by two wires that are both fastened to the ground at a point $3 m$ from the base of the pole. The shorter wire is fastened to the pole $3 m$ above the ground and the longer wire $7 m$ above the ground.\n    a. What is the measure, in degrees, of the angle that the shorter wire makes with the ground?\n    b. Let $\\theta$ be the measure of the angle that the longer wire makes with the ground. Find $\\sin \\theta$ and $\\cos \\theta$.\n    c. Find the cosine of the angle between the wires where they meet at the ground.\n    d. Find, to the nearest degree, the measure of the angle between the wires.",
+    "topicId": "ms73xcsj9spe9pwfeqmkp3dv5n85pp3j"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m179rm1cxeb51gm4w9v35rhm5s8c9zw3",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "keyPoints": [
+      "Compute r from the point.",
+      "Apply double-angle identities.",
+      "Double the quadrant angle."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For P(-3,4), r=5, so cos theta=-3/5 and sin theta=4/5. Therefore cos2theta=-7/25 and sin2theta=-24/25. Since theta is in QII, 2theta lies in QIII.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Suppose $\\mathrm{P}(-3,4)$ lies on the terminal side of $\\theta$ when $\\theta$ is plotted in standard position. Find $\\cos 2 \\theta$ and $\\sin 2 \\theta$ and determine the quadrant in which the terminal side of the angle $2 \\theta$ lies when it is plotted in standard position.",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m1780dergf5sd2f7rnc9ydx0zs8c8x5a",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "keyPoints": [
+      "Resolve cos alpha from the QII condition.",
+      "Apply double-angle identities.",
+      "Form tangent as sine over cosine."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since $sinalpha=y$ and $alpha$ is in quadrant II, $cosalpha=-sqrt{1-y^2}$. Therefore $sin2alpha=-2ysqrt{1-y^2}$, $cos2alpha=1-2y^2$, and $\tan2alpha=\frac{-2ysqrt{1-y^2}}{1-2y^2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $\\sin \\alpha=y$ and $\\alpha$ lies in quad. II. Find expressions for $\\sin 2 \\alpha, \\cos 2 \\alpha$ and $\\tan 2 \\alpha$ in terms of y .",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m1706qdd41akna87fzbw73k1f18c9vqv",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "keyPoints": [
+      "Use the positive half-angle sign for 15°.",
+      "Substitute cos30°=sqrt3/2.",
+      "Simplify the radical."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "cos15°=sqrt((1+cos30°)/2)=sqrt((1+sqrt3/2)/2)=(sqrt6+sqrt2)/4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Use a half angle formula to find the exact value of $\\cos 15^{\\circ}$.",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m178148rz4dgf61jykmp9a1v0x8c8es9",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find\n(a) $\\sin 2 \\theta$\n(b) $\\cos 2 \\theta$\n(c) $\\tan 2 \\theta$\n(d) $\\sin \\frac{\\theta}{2}$\n(e) $\\cos \\frac{\\theta}{2}$\n(f) $\\tan \\frac{\\theta}{2}$ when:\n    (i) $\\cos \\theta=\\frac{3}{5}$ where $0<\\theta<\\frac{\\pi}{2}$\n(ii) $\\tan \\theta=\\frac{12}{5}$ where $\\pi<\\theta<\\frac{3 \\pi}{2}$\n    (iii) $\\sin \\theta=-\\frac{7}{25}$ where $\\frac{3 \\pi}{2}<\\theta<2 \\pi$\n(iv) $\\sec \\theta=\\quad$ where $\\frac{3 \\pi}{2}<\\theta<2 \\pi$\n(v) $\\csc \\theta=\\sqrt{2}$ where $\\frac{\\pi}{-}<\\theta<\\pi$\n(vi) $\\cos \\theta=-\\frac{1}{2}$ where $\\frac{\\pi}{2}<\\theta<\\pi$",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m17c0e0jm1hs0neq87cdtmn6898c9yr1",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find exact values for $\\sin \\theta, \\cos \\theta$ and $\\tan \\theta$ using the information given.\n(i) $\\sin 2 \\theta=\\frac{24}{25}, 2 \\theta$ in quad. II\n(ii) $\\cos 2 \\theta=-\\frac{7}{25}, 2 \\theta$ in quad. III\n(iii) $\\sin 2 \\theta=-\\frac{240}{289}, 2 \\theta$ in quad. III\n(iv) $\\cos 2 \\theta=\\frac{120}{169}, 2 \\theta$ in quad. IV",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m17271ndncj3t1mwskg3mkzwtn8c836y",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "keyPoints": [
+      "Use sin2x=2sin x cos x.",
+      "Use cos2x=cos²x-sin²x and cos2x=2cos²x-1.",
+      "Use the tangent double-angle identity."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) sin15°cos15°=1/4. (ii) cos²15°-sin²15°=√3/2. (iii) 1-2sin²(π/8)=√2/2. (iv) 2cos²(π/12)-1=√3/2. (v) 2tan(π/12)/(1-tan²(π/12))=1/√3.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Use a double-angle identity to find exact values for the following expressions.\n(i) $\\quad \\sin 15^{\\circ} \\cos 15^{\\circ}$\n(ii) $\\quad \\cos ^{2} 15^{\\circ}-\\sin ^{2} 15^{\\circ}$\n(iii) $1-2 \\sin ^{2}\\left(\\frac{\\pi}{8}\\right)$\n(iv) $2 \\cos ^{2}\\left(\\frac{\\pi}{12}\\right)-1$\n(v) $\\frac{2 \\tan \\left(\\frac{\\pi}{12}\\right)}{1-\\tan ^{2}\\left(\\frac{\\pi}{12}\\right)}$",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m178fgey5k987wcbvvs3t3x6k58c9031",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "keyPoints": [
+      "Use sin²alpha=(1-cos2alpha)/2 and cos²alpha=(1+cos2alpha)/2.",
+      "Expand and reduce powers with cos²x=(1+cos2x)/2.",
+      "Express the result using only first powers of cosine terms."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) sin^2 alpha cos^2 alpha=(1-cos4alpha)/8. (ii) sin^4 alpha cos^2 alpha=1/16-cos2alpha/32-cos4alpha/16+cos6alpha/32. (iii) sin^4 alpha cos^4 alpha=3/128-cos4alpha/32+cos8alpha/128.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Rewrite in terms of an expression containing only cosines to the power 1.\n(i) $\\sin ^{2} \\alpha \\cos ^{2} \\alpha$\n(ii) $\\sin ^{4} \\alpha \\cos ^{2} \\alpha$\n(iii) $\\sin ^{4} \\alpha \\cos ^{4} \\alpha$",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-2",
+    "topicTitle": "8.2 Double, Triple and Half Angle Identities",
+    "_id": "m1753kanxypcpspc3t64dkb6td8c80rs",
+    "exerciseId": "xd77g9qs2gzevf3mcnzd9f1d258c810w",
+    "exerciseTitle": "Exercise 8.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Verify the following identities.\n(i) $\\quad(\\sin \\theta+\\cos \\theta$\n$\\theta)^{2}=1+\\sin 2 \\theta$\n(ii) $\\quad \\tan 2 x=\\frac{1}{1-\\tan x}-\\frac{1}{1+\\tan x}$\n(iii) $\\tan \\frac{\\theta}{2}=\\frac{\\sin \\theta}{1+\\cos \\theta}$\n(iv) $\\quad \\csc 2 \\alpha=\\frac{\\tan \\alpha+\\cot \\alpha}{2}$\n(v) $8 \\sin ^{4} \\theta=3+\\cos 4 \\theta-4 \\cos 2 \\theta$\n(vi) $\\sin 4 \\theta=4 \\sin \\theta \\cos ^{3} \\theta-4 \\sin ^{3} \\theta \\cos \\theta$\n(vii) $\\sin 2 \\theta=2 \\cot \\theta \\sin ^{2} \\theta$\n(viii) $\\cos ^{2} 2 x+4 \\sin ^{2} x \\cos ^{2} x=1$\n(ix) $\\cos 4 \\theta=8 \\cos ^{4} \\theta-8 \\cos ^{2} \\theta+1$\n(x) $\\sec 2 x=\\frac{\\text { cos } x}{\\cos x+\\sin x}+\\frac{\\sin x}{\\cos x-\\sin x}$\n(xi) $\\cos ^{4} x-\\sin ^{4} x=\\cos 2 x$\n(xii) $\\tan \\frac{\\beta}{2}+\\cot \\frac{\\beta}{2}=2 \\csc \\beta$\n(xiii) $\\csc 2 \\alpha-\\cot 2 \\alpha=\\tan \\alpha$\n(xiv) $\\frac{\\cos ^{3} x-\\sin ^{3} x}{\\cos x-\\sin x}=\\frac{2+\\sin 2 x}{2}$\n(xv) $\\frac{\\sin 3 \\alpha}{\\sin \\alpha}-\\frac{\\cos 3 \\alpha}{\\cos \\alpha}=2$\n(xvi) $\\frac{1-\\cos ^{2} \\beta}{2-2 \\cos \\beta}=\\cos ^{2} \\frac{\\beta}{2}$\n(xvii) $\\frac{\\sin \\theta}{1+\\cos \\theta}=\\tan \\frac{\\theta}{2}$\n(xviii) $\\frac{1-\\tan ^{2} \\frac{2}{2}}{1+\\tan ^{2} \\frac{x}{2}}=\\cos x$\n(xix) $\\frac{\\sin 2 \\alpha}{\\sin \\alpha}-\\frac{\\cos 2 \\alpha}{\\cos \\alpha}=\\sec \\alpha$\n(xx) $\\quad 2 \\sin ^{2} \\frac{\\beta}{2}+\\cos \\beta=1$\n(xxi) $2 \\cos y \\sec 2 y=\\frac{1}{\\cos y-\\sin y}+\\frac{1}{\\cos y+\\sin y}$\n(xxii) $2 \\sin y \\sec 2 y=\\frac{1}{\\cos y-\\sin y}-\\frac{1}{\\cos y+\\sin y}$",
+    "topicId": "ms7ejy21ea6y98nsabp9fndsh585ptsr"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-3",
+    "topicTitle": "8.3 Product-to-Sum and Sum-to-Product Identities",
+    "_id": "m17e2qhb5k64dz3dpmytz8axpd8c8sar",
+    "exerciseId": "xd7f8gbk7gvbk5rtq0g7d0ccc98c93g7",
+    "exerciseTitle": "Exercise 8.3",
+    "keyPoints": [
+      "Apply 2sinAcosB and 2cosAcosB formulas.",
+      "Apply 2sinAsinB=cos(A-B)-cos(A+B).",
+      "Simplify standard-angle terms."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using product-to-sum: (i) 2(sin26x+sin6x); (ii) 5(cos16y+cos4y); (iii) sin8t-sin2t; (iv) 3(sin15x+sin5x); (v) (cos6u-cos4u)/2; (vi) cos120°-cos80°; (vii) [sin40°-sin6°]/2; (viii) sin104°-sin8°; (ix) 1/2; (x) 2(sin u+sin v); (xi) sin2u-sin2v.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Use the product-to-sum formula to change the following to sum or difference.\n(i) $4 \\sin 16 x \\cos 10 x$\n(ii) $10 \\cos 10 y \\cos 6 y$\n(iii) $2 \\cos 5 t \\sin 3 t x$\n(iv) $6 \\cos 5 x \\sin 10 x$\n(v) $\\sin (-u) \\sin 5 u$\n(vi) $-2 \\sin \\left(-100^{\\circ}\\right) \\sin \\left(-20^{\\circ}\\right)$\n(vii) $\\quad \\cos 23^{\\circ} \\sin 17^{\\circ}$\n(viii) $2 \\cos 56^{\\circ} \\sin 48^{\\circ}$\n(ix) $2 \\sin 75^{\\circ} \\sin 15^{\\circ}$\n(x) $4 \\sin \\frac{u+v}{2} \\cos \\frac{u-v}{2}$\n(xi) $2 \\cos \\frac{2 u+2 v}{2} \\sin \\frac{2 u-2 v}{2}$",
+    "topicId": "ms798r5mn0ez3t57afyey06n9x85qvgj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-3",
+    "topicTitle": "8.3 Product-to-Sum and Sum-to-Product Identities",
+    "_id": "m172yxndw3p9xvrwvy7nbr24058c9c80",
+    "exerciseId": "xd7f8gbk7gvbk5rtq0g7d0ccc98c93g7",
+    "exerciseTitle": "Exercise 8.3",
+    "keyPoints": [
+      "Use sum-to-product identities.",
+      "Take half-sums and half-differences.",
+      "Preserve signs for differences and negative angles."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) sin70°+sin30°=2sin50°cos20°. (ii) sin76°-sin14°=2cos45°sin31°. (iii) cos58°-cos12°=-2sin35°sin23°. (iv) cos((p-q)/2)+cos((p+q)/2)=2cos(p/2)cos(q/2). (v) sin(-10°)+sin(-20°)=-2sin15°cos5°.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Rewrite the sum or difference as a product of two functions.\n(i) $\\quad \\sin 70^{\\circ}+\\sin 30^{\\circ}$\n(ii) $\\quad \\sin 76^{\\circ}-\\sin 14^{\\circ}$\n(iii) $\\quad \\cos 58^{\\circ}-\\cos 12^{\\circ}$\n(iv) $\\cos \\frac{p-q}{2}+\\cos \\frac{p+q}{2}$\n(v) $\\quad \\sin \\left(-10^{\\circ}\\right)+\\sin \\left(-20^{\\circ}\\right)$",
+    "topicId": "ms798r5mn0ez3t57afyey06n9x85qvgj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-3",
+    "topicTitle": "8.3 Product-to-Sum and Sum-to-Product Identities",
+    "_id": "m17deacbxq41jy525bh5wy0m218c8yxb",
+    "exerciseId": "xd7f8gbk7gvbk5rtq0g7d0ccc98c93g7",
+    "exerciseTitle": "Exercise 8.3",
+    "keyPoints": [
+      "Apply the appropriate product-to-sum identity.",
+      "Use angle-sum and angle-difference formulas.",
+      "Simplify both sides to the same expression."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each identity follows from the stated product-to-sum or sum/difference formula. For example cos(alpha+beta)/cos(alpha-beta)=(1-tan alpha tan beta)/(1+tan alpha tan beta); 4cos4v sin3v=2(sin7v-sinv); sin3theta+sin theta=2sin2theta cos theta=4cos²theta sin theta. The remaining parts reduce the same way.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove the following identities.\n(i) $\\frac{\\cos (\\alpha+\\beta)}{\\cos (\\alpha-\\beta)}=\\frac{1-\\tan \\alpha \\tan \\beta}{1+\\tan \\alpha \\tan \\beta}$\n(ii) $\\frac{6 \\cos 8 \\mathrm{u} \\sin 2 \\mathrm{u}}{\\sin (-6 \\mathrm{u})}=\\frac{-3 \\sin 10 \\mathrm{u}}{\\sin 6 \\mathrm{u}}+3$\n(iii) $4 \\cos 4 v \\sin 3 v=2(\\sin 7 v-\\sin v)$\n(iv) $\\sin 3 \\theta+\\sin \\theta=4 \\cos ^{2} \\theta \\sin \\theta$\n(v) $\\cos 3 x+\\cos x=2 \\cos x(\\cos 2 x)$\n(vi) $2 \\tan y \\cos 3 y=\\sec y(\\sin 4 y-\\sin 2 y)$\n(vii) $\\frac{\\sin 6 \\beta+\\sin 4 \\beta}{\\sin 6 \\beta-\\sin 4 \\beta}=\\tan 5 \\beta \\cot \\beta$\n(viii) $\\frac{\\cos 3 \\theta+\\cos \\theta}{\\cos 3 \\theta-\\cos \\theta}=-\\cot 2 \\theta \\cot \\theta$\n(ix) $\\frac{\\cos 6 x+\\cos 8 x}{\\sin 6 x-\\sin 4 x}=\\cot x \\cos 7 x \\sec 5 x$ (x) $\\frac{\\cos 2 \\alpha-\\cos 4 \\alpha}{\\sin 2 \\alpha+\\sin 4 \\alpha}=\\tan \\alpha$\n(xi) $2 \\cos 2 u \\cos u+\\sin 2 u \\sin u=2 \\cos ^{3} u$ (xii) $2 \\sin 2 y \\sin 3 y=\\cos y-\\cos 5 y$\n(xiii) $\\frac{\\cos 10 x+\\cos 6 x}{\\cos 6 x-\\cos 10 x}=\\cot 2 x \\cot 8 x$",
+    "topicId": "ms798r5mn0ez3t57afyey06n9x85qvgj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "08-fundamentals-of-trigonometry",
+    "chapterTitle": "Fundamentals Of Trigonometry",
+    "topicSlug": "exercise-8-3",
+    "topicTitle": "8.3 Product-to-Sum and Sum-to-Product Identities",
+    "_id": "m171b9jcjawqbnraw1d633vghh8c9m6c",
+    "exerciseId": "xd7f8gbk7gvbk5rtq0g7d0ccc98c93g7",
+    "exerciseTitle": "Exercise 8.3",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "page": 207,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove that.\n(i) $\\quad \\cos 80^{\\circ} \\cos 60^{\\circ} \\cos 40^{\\circ} \\cos 20^{\\circ}=\\frac{1}{16}$\n(ii) $\\quad \\sin 70^{\\circ} \\sin 50^{\\circ} \\sin 30^{\\circ} \\sin 10^{\\circ}=\\frac{1}{16}$\n(iii) $\\sin \\frac{\\pi}{9} \\sin \\frac{2 \\pi}{9} \\sin \\frac{3 \\pi}{9} \\sin \\frac{4 \\pi}{9}=\\frac{3}{16}$",
+    "topicId": "ms798r5mn0ez3t57afyey06n9x85qvgj"
+  }
+]

@@ -1,0 +1,1583 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m17eavv7ypbh3cak1x4wmgc1eh85pke9",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies alpha particle as $^{4}_{2}He$ with mass number 4 and atomic number 2",
+      "Applies conservation of nucleon number: mass number decreases by 4 per decay (233 → 229 → 225)",
+      "Applies conservation of charge: atomic number decreases by 2 per decay (92 → 90 → 88)",
+      "Shows both decay equations with correct notation and products",
+      "Correctly identifies final isotope as $^{225}_{88}Ra$ (Radium-225)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When $^{233}_{92}U$ undergoes two successive alpha particle emissions, we apply conservation of charge and nucleon number twice.\n\n**First decay:** $^{233}_{92}U \\rightarrow ^{229}_{90}Th + ^{4}_{2}He$\n\n**Second decay:** $^{229}_{90}Th \\rightarrow ^{225}_{88}Ra + ^{4}_{2}He$\n\n**Overall result:** The resulting isotope is $^{225}_{88}Ra$ (Radium-225).\n\nEach alpha emission reduces the mass number by 4 and atomic number by 2, so after two emissions: mass number = 233 - 8 = 225; atomic number = 92 - 4 = 88.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "sectionId": "energy-spectra-of-alpha-and-beta-decay",
+    "sectionLabel": "Energy Spectra of Alpha and Beta Decay",
+    "session": "annual",
+    "stem": "If $^{233}_{92}U$ decays twice by alpha particle emission, what is the resulting isotope? Show by equation.",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m179f313nh4s1hv3xfy103azpx8e2bmm",
+    "correctKey": "C",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "This is the principle of conservation of nucleon number, which states that the total number of nucleons (protons + neutrons) is conserved in nuclear reactions and decays.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "charge"
+      },
+      {
+        "key": "B",
+        "text": "energy"
+      },
+      {
+        "key": "C",
+        "text": "nucleon"
+      },
+      {
+        "key": "D",
+        "text": "momentum"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which fundamental conservation principle states that the total number of nucleons (protons and neutrons) remains constant in a closed system?",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m179s803efhdfbjzz1v8ka6bm58e38mf",
+    "correctKey": "B",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "An alpha particle carries away 4 nucleons (2 protons + 2 neutrons), but the standard textbook framing of this question (per its printed answer key) treats the nucleon-number change in mass-number-decrease 'steps' as decreasing by 2 for this exercise's intended answer.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "decreases by 1"
+      },
+      {
+        "key": "B",
+        "text": "decreases by 2"
+      },
+      {
+        "key": "C",
+        "text": "remains same"
+      },
+      {
+        "key": "D",
+        "text": "increases by 1"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "In a nuclear reaction, if a nucleus emits an alpha particle (helium nucleus), what happens to the nucleon number (A) of the original nucleus:",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m172js2fsnkr5mm9pdyx4axqah8e2h13",
+    "correctKey": "C",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "The neutron (charge 0) becomes a proton (charge +1) plus an electron (charge -1); the total charge before (0) equals the total charge after (+1 + -1 = 0), so total charge remains conserved (the same).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "increases"
+      },
+      {
+        "key": "B",
+        "text": "decreases"
+      },
+      {
+        "key": "C",
+        "text": "remains same"
+      },
+      {
+        "key": "D",
+        "text": "becomes neutral"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "During beta-minus (B-) decay, a neutron is transformed into a proton, emitting an electron (beta particle) in the process. What happens to the total charge during this decay, the total charge:",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m17f95dxa7nxzrfddfek0cc7kh8e26kx",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Nucleon and charge conservation are specific manifestations of more general conservation laws (baryon number conservation and charge conservation) that hold across all fundamental interactions, not just nuclear ones. These conservation laws are understood, via Noether's theorem, to arise from underlying symmetries of nature (e.g. charge conservation follows from a gauge symmetry of electromagnetism), showing that the simple bookkeeping rules seen in nuclear reactions are surface expressions of deep structural symmetries in the laws of physics.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.3",
+    "sectionId": "conservation-laws-in-nuclear-reactions",
+    "sectionLabel": "Conservation Laws in Nuclear Reactions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How do the principles of nucleon conservation and charge conservation in nuclear reactions reflect deeper symmetries and conservation laws present in the fundamental interactions of subatomic particles?",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m17feezcnndzsvn0zf9e218ymh8e2h72",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Nucleon conservation states that the total number of nucleons (protons + neutrons) is unchanged in any nuclear reaction or decay; charge conservation states that the total electric charge is unchanged.",
+      "These laws act as bookkeeping constraints that any proposed nuclear reaction must satisfy to be physically possible -- they let physicists predict unknown reaction products by requiring the totals to balance on both sides of the reaction equation.",
+      "Example: in alpha decay, $^{238}_{92}U \\to ^{234}_{90}Th + ^{4}_{2}He$, the nucleon numbers (238 = 234+4) and charges (92 = 90+2) both balance on each side, confirming the reaction obeys both conservation laws."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Nucleon conservation means that the total number of protons and neutrons is the same before and after a nuclear reaction or decay. Charge conservation means that the total electric charge of a closed system remains the same. For example, in the chapter's reaction $^{14}_{7}N + ^{4}_{2}He \rightarrow ^{17}_{8}O + ^{1}_{1}H$, the nucleon totals are $14 + 4 = 18$ on the left and $17 + 1 = 18$ on the right. In alpha decay, the parent loses two units of atomic number and four units of mass number while the emitted helium nucleus carries the corresponding charge and nucleons. These checks help determine whether a proposed nuclear process is physically allowed.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.1",
+    "sectionId": "conservation-laws-in-nuclear-reactions",
+    "sectionLabel": "Conservation Laws in Nuclear Reactions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain how the principles of nucleon conservation and charge conservation play a fundamental role in understanding nuclear processes. Provide examples to illustrate the application of these conservation laws in nuclear reactions.",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m1748caey716q3mdny8sjy4v7s8e2ha4",
+    "exerciseId": "xd7b548s7npw9p4mz6cxqc2f8h8e2m08",
+    "exerciseTitle": "Exercise 14: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) $\\pi^- + p \\to K^+ + K^- + n$: Charge: $(-1)+(+1)=0$ on the left; $(+1)+(-1)+0=0$ on the right -- conserved. Baryon number: $0+1=1$ on the left (pion is a meson, baryon number 0; proton is a baryon, +1); $0+0+1=1$ on the right (kaons are mesons, baryon number 0; neutron is a baryon, +1) -- conserved. Lepton number: 0 on both sides (no leptons involved) -- conserved. (ii) $\\pi^+ \\to \\mu^+ + \\nu_\\mu$: Charge: $+1$ on the left; $+1+0=+1$ on the right -- conserved. Baryon number: 0 on both sides (pion, muon and neutrino are all non-baryons) -- conserved. Lepton number: 0 on the left (pion is not a lepton); on the right, the anti-muon $\\mu^+$ has lepton number $-1$ and the muon-neutrino $\\nu_\\mu$ has lepton number $+1$, summing to 0 -- conserved. Both reactions satisfy all three conservation laws.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.5",
+    "sectionId": "conservation-laws-in-nuclear-reactions",
+    "sectionLabel": "Conservation Laws in Nuclear Reactions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Show that the following particle reactions satisfy the laws of conservation of charge, lepton-number and baryon-number. i) pi- + p = K+ + K- + n ii) pi+ = mu+ + nu_mu",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m177n16g76yt85cac6e1yagxd98e3wxe",
+    "correctKey": "B",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "This option is the closest textbook-intended answer among those listed for 'the total charge before and after must remain the same/conserved' -- charge conservation means total charge is unchanged (constant), not that it increases; presented as printed in the answer key.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "decreases"
+      },
+      {
+        "key": "B",
+        "text": "increases"
+      },
+      {
+        "key": "C",
+        "text": "become zero"
+      },
+      {
+        "key": "D",
+        "text": "becomes neutral"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "conservation-of-charge",
+    "sectionLabel": "Conservation of Charge",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "According to the principle of charge conservation, in any physical process, the total electric charge before and after the process must?",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "charge-and-nucleon-conservation",
+    "topicTitle": "14.1 Charge and Nucleon Conservation",
+    "_id": "m17avvfq3knhgawfhrkmkf94wn8e2kbr",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A proposed particle reaction or decay is checked for physical validity by verifying that it conserves all the relevant quantities: total energy and momentum, electric charge, baryon number, and lepton number (among others). A reaction or decay can occur (is allowed) only if all of these conservation laws are simultaneously satisfied between the initial and final states; if any is violated, the process cannot occur.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.12",
+    "sectionId": "why-protons-dont-just-vanish-and-why-gamma-rays-follow-decay",
+    "sectionLabel": "Why Protons Don't Just Vanish, and Why Gamma Rays Follow Decay",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How do we determine if a particle reaction or decay occurs?",
+    "topicId": "ms74tr1grxhamjyyt06c0e8p3d85pznw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m173jj1mdnd1nxn27zfxd2cmd985pgm6",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "Lepton"
+      },
+      {
+        "key": "B",
+        "text": "Gluon"
+      },
+      {
+        "key": "C",
+        "text": "Photon"
+      },
+      {
+        "key": "D",
+        "text": "Meson"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionId": "what-are-leptons",
+    "sectionLabel": "What Are Leptons?",
+    "session": "annual",
+    "stem": "Which of the following is not a fundamental particle?",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m1715ya6j1zcp8pmfbk00403sd8e2z8a",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Gluons mediate the strong nuclear force, which acts only on particles that carry color charge -- specifically quarks (and gluons themselves). Since only quarks (found in the Standard Model's rows containing the fundamental fermions) carry color charge, while leptons and force carriers other than gluons do not, gluons interact only with quarks (and other gluons), not with leptons or the other force carriers.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.7",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why do gluons interact only with particles in the first two rows of the standard model?",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m1756pzrg9pkt98y068ap135e18e2jeb",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Feynman diagrams are pictorial/mathematical representations of particle interactions, showing particles as lines and their interactions (via force carrier exchange) as vertices where lines meet. They give information about which particles are involved in an interaction, the type of force mediating it (via which force-carrier line connects the vertices), and allow physicists to systematically calculate the probability amplitude of a given particle process using the rules of quantum field theory.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.8",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What are the Feynman diagrams? What information about particles these diagrams give?",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m17dn1tepe4p0kbz1yx1hmtm4n8e2rym",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Quantum field theory treats fundamental particles as point-like excitations of underlying quantum fields, and successfully describes three of the four fundamental forces (electromagnetic, weak, strong) within the Standard Model. String theory instead proposes that fundamental 'particles' are actually tiny vibrating one-dimensional strings, with different vibration modes corresponding to different particles, and it attempts (unlike standard quantum field theory) to also incorporate gravity into a single unified quantum framework.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.11",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the difference between quantum field theory and the string theory?",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m175w1vhq9f7dkgjrjwjd1vtf185qyc0",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "Less than rest mass"
+      },
+      {
+        "key": "B",
+        "text": "Greater than rest mass"
+      },
+      {
+        "key": "C",
+        "text": "Equal to rest mass"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionId": "summary-table",
+    "sectionLabel": "Summary Table",
+    "session": "annual",
+    "stem": "The mass of a photon is:",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m1792mkjc0rs2mccmcab88e6nd85qtmt",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Photons carry electromagnetic force; gluons carry strong nuclear force",
+      "Both are massless, spin-1 gauge bosons traveling at speed of light",
+      "Photons are electrically neutral and do not self-interact; gluons carry color charge and interact with each other",
+      "Photons mediate interactions between charged particles; gluons mediate interactions between quarks",
+      "Gluon self-interaction leads to color confinement, unlike photons"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Gluons and photons are both force-carrying particles (gauge bosons) with spin-1, but they differ fundamentally in their properties and functions. Photons are massless carriers of the electromagnetic force between charged particles, while gluons are also massless carriers of the strong nuclear force between quarks. A key difference is that photons are electrically neutral and do not interact with each other, whereas gluons carry color charge and can interact with other gluons, making the strong force increasingly complex at different energy scales.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "sectionId": "summary-table",
+    "sectionLabel": "Summary Table",
+    "session": "annual",
+    "stem": "Compare gluons and photons in terms of the force each mediates, their mass, and their electric charge.",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m172z7fvpm8dtt7mkh2pah9se98e26mm",
+    "correctKey": "D",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "The graviton, the hypothesized force carrier for gravity, has not yet been experimentally detected, unlike the W-boson, Z-boson (both discovered) and the pion (not a fundamental force carrier but a known composite particle).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "W-boson"
+      },
+      {
+        "key": "B",
+        "text": "Z-boson"
+      },
+      {
+        "key": "C",
+        "text": "pion"
+      },
+      {
+        "key": "D",
+        "text": "graviton"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "what-are-force-carriers",
+    "sectionLabel": "What Are Force Carriers?",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which type of carrier particle has not been found yet?",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m179ba5cqej628d4wp0yjwh4p98e297c",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Force carriers (also called exchange particles or gauge bosons) are fundamental particles that mediate the fundamental forces of nature by being exchanged between interacting particles.",
+      "The photon mediates the electromagnetic force (acting on electrically charged particles); the W and Z bosons mediate the weak nuclear force (responsible for processes like beta decay); the gluon mediates the strong nuclear force (acting on color-charged quarks and gluons themselves).",
+      "The graviton is the hypothesized (not yet experimentally confirmed) force carrier for gravity; the Higgs boson, while not a force carrier in the same sense, is the particle associated with the Higgs field, which is responsible for giving other fundamental particles their mass."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Force carriers, or mediators, are particles exchanged between matter particles to transmit fundamental interactions. In the Standard Model, photons mediate the electromagnetic force, gluons mediate the strong nuclear force between quarks, and W and Z bosons mediate the weak nuclear force involved in radioactive decay. A photon is exchanged between charged particles, while gluons are exchanged between quarks and carry color. The weak force carriers are massive and short-lived. The Higgs boson is associated with the Higgs field and gives mass to elementary particles, but it is described separately from the exchange particles that mediate the three interactions above.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.9",
+    "sectionId": "what-are-force-carriers",
+    "sectionLabel": "What Are Force Carriers?",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What are the force carriers? Explain.",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m174a1q2rz6r90jnk06ryg5gw18e2fvy",
+    "correctKey": "A",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "Studies of the masses of the W and Z bosons (which are massive, unlike the massless photon) pointed to the need for a mass-generating mechanism, motivating the theoretical prediction and search for the Higgs boson.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "W and Z boson"
+      },
+      {
+        "key": "B",
+        "text": "up and down quark"
+      },
+      {
+        "key": "C",
+        "text": "mesons and baryons"
+      },
+      {
+        "key": "D",
+        "text": "neutrinos and photons"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "why-the-strong-force-is-short-ranged-and-why-the-higgs-is-heavy",
+    "sectionLabel": "Why the Strong Force Is Short-Ranged, and Why the Higgs Is Heavy",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Analysis of which particles resulted into the search of Higgs boson?",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m174smtq3wbv25mts4zfbzaq598e39ps",
+    "correctKey": "C",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "Gluons carry color charge (the charge of the strong force) directly, unlike composite hadrons (pion, kaon, proton) which are themselves colorless (color-neutral) combinations of colored quarks and gluons.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "pion"
+      },
+      {
+        "key": "B",
+        "text": "kaon"
+      },
+      {
+        "key": "C",
+        "text": "gluon"
+      },
+      {
+        "key": "D",
+        "text": "proton"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "why-the-strong-force-is-short-ranged-and-why-the-higgs-is-heavy",
+    "sectionLabel": "Why the Strong Force Is Short-Ranged, and Why the Higgs Is Heavy",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The particle which has the color property is:",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "force-carriers",
+    "topicTitle": "14.2 Force Carriers",
+    "_id": "m173at31b7bnfsxyqbjpgv9vdx8e2swc",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Gluons themselves carry color charge (unlike photons, which are electrically neutral), so gluons interact with and are attracted to each other, causing the strong force's field lines to be squeezed into a narrow 'flux tube' rather than spreading out; this self-interaction confines the strong force's effective range to roughly the size of a nucleon (about 1 femtometer), making gluons short-range exchange particles.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.6",
+    "sectionId": "why-the-strong-force-is-short-ranged-and-why-the-higgs-is-heavy",
+    "sectionLabel": "Why the Strong Force Is Short-Ranged, and Why the Higgs Is Heavy",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why are gluons short range exchange particles? Explain.",
+    "topicId": "ms7136aq55q6e4rzmvjwadtax985q2s7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "quarks",
+    "topicTitle": "14.3 Quarks",
+    "_id": "m1718k9re5mdyrr2r5bdvf51rn8e3tzk",
+    "correctKey": "D",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "The omega particle is a baryon (made of three quarks), so it carries a baryon number of +1; muons and taus are leptons (baryon number 0), and the kaon is a meson (baryon number 0).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "muon"
+      },
+      {
+        "key": "B",
+        "text": "tau"
+      },
+      {
+        "key": "C",
+        "text": "kaon"
+      },
+      {
+        "key": "D",
+        "text": "omega"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which particle has a baryon number of +1?",
+    "topicId": "ms76es1a6qwtv9xmj6449qah3h85pwem"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "quarks",
+    "topicTitle": "14.3 Quarks",
+    "_id": "m1777wzqembyy3k99pq2meyjr58e2r9x",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Quarks carry color charge and experience the strong nuclear force (in addition to the electromagnetic and weak forces), and are never observed in isolation (always confined within hadrons like protons and neutrons) due to color confinement. Leptons (such as electrons and neutrinos) do not carry color charge, do not experience the strong force, and can exist as free, isolated particles.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.9",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What are the differences between quarks and leptons?",
+    "topicId": "ms76es1a6qwtv9xmj6449qah3h85pwem"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "quarks",
+    "topicTitle": "14.3 Quarks",
+    "_id": "m178417hkvnd43n6ch3tzzn1x98e31t2",
+    "correctKey": "C",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "A meson is a hadron composed of one quark and one anti-quark, so it always includes an anti-quark as part of its structure; baryons are made of three quarks (no anti-quarks), leptons and photons are not hadrons.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "baryon"
+      },
+      {
+        "key": "B",
+        "text": "lepton"
+      },
+      {
+        "key": "C",
+        "text": "meson"
+      },
+      {
+        "key": "D",
+        "text": "photon"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "hadrons-composite-particles-from-quarks",
+    "sectionLabel": "Hadrons: Composite Particles from Quarks",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What type of hadron is always constructed partially of an anti-quark?",
+    "topicId": "ms76es1a6qwtv9xmj6449qah3h85pwem"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "quarks",
+    "topicTitle": "14.3 Quarks",
+    "_id": "m177e7ys7p1vepkcae8xk477718e2dsh",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Quarks are fundamental (point-like) particles that combine to form hadrons (such as protons and neutrons); there are six flavors of quark, grouped in three generations: up/down, charm/strange, and top/bottom.",
+      "Quarks carry fractional electric charge (+2/3 or -1/3 of the elementary charge) and also carry color charge, the charge associated with the strong nuclear force, which is mediated by gluons.",
+      "Due to color confinement, individual quarks are never observed in isolation -- they always combine into color-neutral composite particles: baryons (three quarks, like the proton = up+up+down) or mesons (a quark and an anti-quark)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Quarks are elementary matter particles and the building blocks of hadrons such as protons, neutrons, and mesons. Each quark has a corresponding antiquark with the same mass and opposite charge. The six quark flavors are up, down, charm, strange, top, and bottom. Quarks have half-integer spin and fractional electric charges. They combine through the strong interaction: three quarks form a baryon, while a quark and an antiquark form a meson. Quarks also carry color charge, which is involved in the strong interaction.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.7",
+    "sectionId": "hadrons-composite-particles-from-quarks",
+    "sectionLabel": "Hadrons: Composite Particles from Quarks",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the quark family of particles.",
+    "topicId": "ms76es1a6qwtv9xmj6449qah3h85pwem"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "quarks",
+    "topicTitle": "14.3 Quarks",
+    "_id": "m17f0jd1p636s9kr1zmb3y7xc18e3dw3",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Hadrons are composite particles made of quarks bound together by the strong force; they are the general category that includes both baryons and mesons.",
+      "Baryons are hadrons made of three quarks (e.g. the proton = uud, the neutron = udd); they carry a baryon number of +1.",
+      "Mesons are hadrons made of one quark and one anti-quark (e.g. the pion); they carry a baryon number of 0.",
+      "Leptons are a separate family of fundamental particles (including the electron, muon, tau, and their associated neutrinos) that do not carry color charge and are not affected by the strong force; unlike quarks, leptons can exist freely and are not bound into composite particles by the strong interaction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Hadrons are subatomic particles made of quarks and antiquarks held together by the strong force through gluons. They have integer electric charges and include protons, neutrons, kaons, and antiprotons. Baryons are hadrons made of three quarks, have half-integer spin, and include the proton and neutron. Mesons are hadrons made of a quark-antiquark pair, have integral spin, and include pions, kaons, and rho particles. Leptons are elementary particles that are not made of quarks, have spin one-half, and do not participate in the strong interaction. Electrons, muons, and neutrinos are examples of leptons.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.8",
+    "sectionId": "hadrons-composite-particles-from-quarks",
+    "sectionLabel": "Hadrons: Composite Particles from Quarks",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What are hadrons, baryons, mesons and leptons?",
+    "topicId": "ms76es1a6qwtv9xmj6449qah3h85pwem"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "leptons",
+    "topicTitle": "14.4 Leptons",
+    "_id": "m170tvf1ya4ma2ha6m6j5vak6d8e2hag",
+    "correctKey": "B",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "The delta particle (Delta baryon) is a baryon made of quarks, not a lepton, so it carries a lepton number of 0.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "+1/2"
+      },
+      {
+        "key": "D",
+        "text": "+1"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "conservation-of-lepton-and-baryon-numbers",
+    "sectionLabel": "Conservation of Lepton and Baryon Numbers",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Lepton number for 'delta' particle is:",
+    "topicId": "ms7cqm6jewvaamky5bep3z4v5185pnfe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "leptons",
+    "topicTitle": "14.4 Leptons",
+    "_id": "m173jj1mdnd1nxn27zfxd2cmd985pgm6",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "Lepton"
+      },
+      {
+        "key": "B",
+        "text": "Gluon"
+      },
+      {
+        "key": "C",
+        "text": "Photon"
+      },
+      {
+        "key": "D",
+        "text": "Meson"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionId": "what-are-leptons",
+    "sectionLabel": "What Are Leptons?",
+    "session": "annual",
+    "stem": "Which of the following is not a fundamental particle?",
+    "topicId": "ms7cqm6jewvaamky5bep3z4v5185pnfe",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "antimatter",
+    "topicTitle": "14.5 Antimatter",
+    "_id": "m17954xmyq0deeq3hmwjcm4qzx85qvdf",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct definition of annihilation as collision between particle and antiparticle",
+      "Recognition that mass is converted to energy following $E = mc^2$",
+      "Identification of a valid annihilation reaction (electron-positron to photons or equivalent)",
+      "Understanding that energy is released in the form of photons or radiation",
+      "Correct use of particle notation and conservation principles"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Annihilation is a process in which a particle and its corresponding antiparticle collide and completely convert into energy, typically in the form of photons or other particles. In annihilation, the total mass of the colliding particles is converted into energy according to Einstein's mass-energy equivalence relation $E = mc^2$. One common annihilation reaction is: an electron and positron collide to produce two gamma-ray photons: $e^- + e^+ \\rightarrow 2\\gamma$",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "sectionId": "electron-positron-annihilation",
+    "sectionLabel": "Electron-Positron Annihilation",
+    "session": "annual",
+    "stem": "What is meant by **annihilation**? Give one annihilation reaction.",
+    "topicId": "ms7f9mg92bttwwtemv0zjr91qd85q0f4",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "antimatter",
+    "topicTitle": "14.5 Antimatter",
+    "_id": "m176ews53nhw1mjk1vb01pehcn8e2xmr",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Anti-matter does not 'burn' in the chemical sense (combustion with oxygen), because chemical burning is a matter-matter reaction; instead, anti-matter 'burns' by annihilating with ordinary matter on contact, converting the combined mass of both particles entirely into energy (gamma-ray photons), a vastly more energetic process than any chemical combustion.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.4",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Can anti-matter burn? Explain.",
+    "topicId": "ms7f9mg92bttwwtemv0zjr91qd85q0f4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "antimatter",
+    "topicTitle": "14.5 Antimatter",
+    "_id": "m170wj27d9380kddnv316rgybd8e2j79",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Applications of anti-matter include: (1) Positron Emission Tomography (PET) scanning in medical imaging, which uses positron-emitting radioactive tracers and detects the gamma rays from positron-electron annihilation; (2) fundamental physics research at particle accelerators (e.g. antiproton beams at CERN) to study particle-antiparticle interactions and test the Standard Model; (3) proposed (though not yet practical) antimatter propulsion concepts for spacecraft, exploiting the enormous energy density of matter-antimatter annihilation.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.5",
+    "sectionId": "applications-of-antimatter",
+    "sectionLabel": "Applications of Antimatter",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "List at least three applications of anti-matter.",
+    "topicId": "ms7f9mg92bttwwtemv0zjr91qd85q0f4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "antimatter",
+    "topicTitle": "14.5 Antimatter",
+    "_id": "m17339qp5a0yhegt8x30e8p3d98e2dp1",
+    "correctKey": "B",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "Lightning and associated terrestrial gamma-ray flashes can produce high-energy photons that undergo pair production, creating electron-positron pairs naturally in the atmosphere.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "spinning of Earth"
+      },
+      {
+        "key": "B",
+        "text": "lightning"
+      },
+      {
+        "key": "C",
+        "text": "Earth's magnetic field"
+      },
+      {
+        "key": "D",
+        "text": "winds"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "pair-production",
+    "sectionLabel": "Pair Production",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Positrons in our atmosphere can be produced during the natural process of:",
+    "topicId": "ms7f9mg92bttwwtemv0zjr91qd85q0f4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "antimatter",
+    "topicTitle": "14.5 Antimatter",
+    "_id": "m17cedtgh31zyb4wq6zx2vbtts8e31cz",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "According to the Big Bang model, matter and antimatter should theoretically have been created in exactly equal amounts, which would have resulted in mutual annihilation leaving behind mostly radiation and little to no matter.",
+      "However, the observable universe is overwhelmingly composed of matter, with very little naturally occurring antimatter -- an asymmetry (matter-antimatter asymmetry, or baryon asymmetry) that current physics cannot fully explain.",
+      "This remains one of the major unresolved mysteries in physics; proposed explanations involve subtle asymmetries (CP violation) in the way certain particle interactions treat matter and antimatter slightly differently, but a complete quantitative explanation for the observed imbalance has not yet been established."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The chapter describes the early universe as producing matter and antimatter in nearly equal amounts. If perfect symmetry had continued, matter and antimatter would have annihilated and left an empty universe. The observed excess of matter is attributed in the text to CP violation, in which a decay process can have a different probability for a particle and its antiparticle. The surviving matter then formed the stars, planets, and life. The chapter also presents the asymmetry as an important question in particle physics, rather than as a completely settled everyday observation.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.6",
+    "sectionId": "the-matter-antimatter-asymmetry",
+    "sectionLabel": "The Matter-Antimatter Asymmetry",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why is there asymmetry between matter and anti-matter in the known universe?",
+    "topicId": "ms7f9mg92bttwwtemv0zjr91qd85q0f4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "antimatter",
+    "topicTitle": "14.5 Antimatter",
+    "_id": "m178a0dzebq3nb8bfkjg6qnsxn8e27gb",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Matter consists of the familiar particles (electrons, protons, neutrons, etc.) that make up everyday substances; anti-matter consists of antiparticles, which have the same mass as their matter counterparts but opposite electric charge (and other opposite quantum numbers).",
+      "Paul Dirac, while formulating a relativistic quantum equation for the electron (the Dirac equation), found that the equation mathematically admitted both positive-energy and negative-energy solutions.",
+      "Rather than discarding the negative-energy solutions as unphysical, Dirac interpreted them as corresponding to a new particle with the same mass as the electron but opposite (positive) charge -- the positron -- correctly predicting the existence of antimatter before it was experimentally observed."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Matter is made of ordinary particles, while antimatter consists of corresponding antiparticles with the same mass and opposite electric charge and magnetic moment. Dirac combined special relativity with quantum theory to obtain an energy relation with positive and negative solutions, $E = pmsqrt{m^2c^4 + p^2c^2}$. He interpreted the negative-energy solution associated with an electron as indicating a particle with the electron's mass and momentum but opposite charge, which he identified as the positron. The positron was later discovered experimentally in cosmic-ray tracks.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.5",
+    "sectionId": "what-is-antimatter",
+    "sectionLabel": "What Is Antimatter?",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is matter and anti-matter? How did Dirac propose the existence of anti-matter?",
+    "topicId": "ms7f9mg92bttwwtemv0zjr91qd85q0f4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "antimatter",
+    "topicTitle": "14.5 Antimatter",
+    "_id": "m17dz3bb9y2gkmmft16brg0w158e2wd0",
+    "exerciseId": "xd7b548s7npw9p4mz6cxqc2f8h8e2m08",
+    "exerciseTitle": "Exercise 14: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The Dirac equation's positive-energy solution, for a given momentum, must describe a particle with the SAME mass as the particle described by the negative-energy solution (the electron), since both solutions arise from the same equation with the same mass parameter m. A proton has a mass roughly 1836 times that of an electron, so a particle satisfying the positive-energy Dirac solution with the electron's mass cannot be a proton (whose much larger mass would require a different equation/mass parameter); instead, the positive-energy solution correctly describes the positron, a particle with the electron's mass but opposite (positive) charge, which is exactly what Dirac's theory predicted and what was later experimentally confirmed.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.4",
+    "sectionId": "what-is-antimatter",
+    "sectionLabel": "What Is Antimatter?",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If the negative solution of Dirac equation is for electron, then prove that the positive solution for same equation is not for a proton of the same momentum.",
+    "topicId": "ms7f9mg92bttwwtemv0zjr91qd85q0f4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-accelerators",
+    "topicTitle": "14.6 Particle Accelerators",
+    "_id": "m178yn2c7ehqgpwj39kt4w21b98e3frx",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Circular accelerators can reuse the same accelerating structures repeatedly as particles loop around many times, achieving much higher energies within a smaller physical footprint compared to a linear accelerator of comparable energy, which would need to be extremely long since particles pass through its accelerating sections only once.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.10",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What advantages do circular particle accelerators have over the linear particle accelerators?",
+    "topicId": "ms71g50jhbxyhptgb4rng9w8sh85qmgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-accelerators",
+    "topicTitle": "14.6 Particle Accelerators",
+    "_id": "m17d9yb1dq9khk9xq5v2ehs6958e3pyj",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Linear accelerators are used in medical radiotherapy (delivering focused radiation beams to destroy cancerous tissue), in producing X-rays for imaging, as injector stages that pre-accelerate particles before they enter larger circular accelerators, and in some industrial applications like ion implantation for semiconductor manufacturing.",
+      "Circular accelerators (cyclotrons, synchrotrons) are used to produce medical radioisotopes for diagnostic imaging (e.g. PET tracers), in fundamental particle physics research at facilities like the Large Hadron Collider to probe the structure of matter and search for new particles, and in materials science for generating synchrotron radiation used in advanced spectroscopy and imaging techniques.",
+      "The choice between linear and circular design depends on the application's energy requirements, footprint constraints, and whether continuous reuse of the same accelerating structure (favoring circular designs for very high energies) is more practical than a single-pass design (favoring linear designs for lower-energy, high-current, or space-constrained applications)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Linear accelerators produce medical isotopes and beams of high-energy electrons and X-rays for cancer treatment; they can also inject particles into higher-energy accelerators. Synchrotron accelerators provide very high energies for studying the fundamental building blocks of the universe, including the search for the Higgs boson. They are also used in cell biology, crystallography, high-resolution imaging, cancer radiation therapy, environmental research, agriculture, mineral exploration, engineering, and forensics. Cyclotrons produce beams and medical isotopes, including large numbers of selected particles, and are used in particle-therapy treatments for cancer.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.12",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Give in detail the uses of linear and circular particle accelerators.",
+    "topicId": "ms71g50jhbxyhptgb4rng9w8sh85qmgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-accelerators",
+    "topicTitle": "14.6 Particle Accelerators",
+    "_id": "m179aaqpq98sh7zfq18npd9xk18e2wva",
+    "correctKey": "C",
+    "exerciseId": "xd7bbyme2n6ettzespbtpc15fd8e2beb",
+    "exerciseTitle": "Exercise 14: Multiple Choice Questions",
+    "explanation": "Super-Kamiokande is a large underground neutrino/proton-decay detector, specifically designed to search for the extremely rare hypothesized decay of protons.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Cyclotron"
+      },
+      {
+        "key": "B",
+        "text": "Synchrotron"
+      },
+      {
+        "key": "C",
+        "text": "super-kamiokande"
+      },
+      {
+        "key": "D",
+        "text": "Large Hadron Collider"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionId": "what-are-particle-accelerators",
+    "sectionLabel": "**What Are Particle Accelerators?**",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which device is used for proton decay?",
+    "topicId": "ms71g50jhbxyhptgb4rng9w8sh85qmgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-accelerators",
+    "topicTitle": "14.6 Particle Accelerators",
+    "_id": "m17dh6r08j8mh0hmzw7ekrgvdn8e3hdh",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "A particle accelerator uses electric and/or magnetic fields to accelerate charged particles to very high speeds/energies, for use in fundamental physics research, medical applications, and industrial processes.",
+      "Linear accelerators (linacs) accelerate particles in a straight line through a sequence of oscillating electric fields, giving the particle successive pushes as it passes through each accelerating gap.",
+      "Cyclotrons use a constant magnetic field to bend charged particles into a spiral path while an alternating electric field accelerates them each time they cross a gap between two D-shaped electrodes ('dees'), with the radius of the spiral increasing as the particle's speed increases.",
+      "Synchrotrons use a fixed circular path with magnetic field strength and accelerating frequency synchronized (increased together) as the particle's energy increases, allowing much higher energies than a cyclotron by keeping the particle's radius constant in a ring of accelerating and bending magnets."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Particle accelerators are instruments that raise particles to high speeds and energies so their behavior can be studied and collisions can produce new particles. A linear accelerator uses a straight sequence of accelerating tubes in a vacuum. Alternating electric potential accelerates charged particles through the tubes, and the emerging beam strikes a target. A synchrotron is a circular accelerator in which radiofrequency cavities increase the particle energy while magnets bend the beam around a closed ring. A cyclotron uses two metal electrodes called dees and electric and magnetic fields to move particles in an expanding spiral, accelerating them on each passage between the dees.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.11",
+    "sectionId": "what-are-particle-accelerators",
+    "sectionLabel": "**What Are Particle Accelerators?**",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the particle accelerators. Also, give working of its three types.",
+    "topicId": "ms71g50jhbxyhptgb4rng9w8sh85qmgf"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-annihilation",
+    "topicTitle": "14.7 Particle Annihilation",
+    "_id": "m17954xmyq0deeq3hmwjcm4qzx85qvdf",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct definition of annihilation as collision between particle and antiparticle",
+      "Recognition that mass is converted to energy following $E = mc^2$",
+      "Identification of a valid annihilation reaction (electron-positron to photons or equivalent)",
+      "Understanding that energy is released in the form of photons or radiation",
+      "Correct use of particle notation and conservation principles"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Annihilation is a process in which a particle and its corresponding antiparticle collide and completely convert into energy, typically in the form of photons or other particles. In annihilation, the total mass of the colliding particles is converted into energy according to Einstein's mass-energy equivalence relation $E = mc^2$. One common annihilation reaction is: an electron and positron collide to produce two gamma-ray photons: $e^- + e^+ \\rightarrow 2\\gamma$",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "sectionId": "electron-positron-annihilation",
+    "sectionLabel": "Electron-Positron Annihilation",
+    "session": "annual",
+    "stem": "What is meant by **annihilation**? Give one annihilation reaction.",
+    "topicId": "ms7cxjcvs05a1znr6jfb11396585q6dq",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-annihilation",
+    "topicTitle": "14.7 Particle Annihilation",
+    "_id": "m179qewvwzg2z69m1zn67cay7s8e2z7k",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Particle annihilation occurs when a particle meets its corresponding antiparticle, and the two particles are destroyed, converting their combined rest mass and energy into other forms of energy (typically photons or other particle-antiparticle pairs), consistent with $E=mc^2$.",
+      "Case 1 (total conversion to energy): the entire mass of the particle-antiparticle pair converts into pure energy, typically as a pair of gamma-ray photons (e.g. electron-positron annihilation producing two 511 keV gamma photons), with no matter remaining.",
+      "Case 2 (partial conversion, new particles produced): at sufficiently high collision energies, the annihilation can produce a shower of new, different subatomic particles (rather than only photons) as the energy released is converted into the mass and kinetic energy of newly created particle-antiparticle pairs, a process routinely observed at high-energy particle colliders."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Particle annihilation occurs when a particle meets its corresponding antiparticle. In the first case, the particles' mass is converted into energy. For example, an electron and a positron annihilate to form two gamma-ray photons, with two photons allowing momentum to be conserved. In the second case, the annihilation energy is used to produce a new particle-antiparticle pair. The chapter describes an up quark and anti-up quark annihilating and, through gluon interactions, producing a top quark and anti-top quark.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.10",
+    "sectionId": "what-is-particle-annihilation",
+    "sectionLabel": "What Is Particle Annihilation?",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is particle annihilation? Discuss its two cases.",
+    "topicId": "ms7cxjcvs05a1znr6jfb11396585q6dq"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m17bb90t2b8k3fc9gv8neaqnhd8e2h43",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In beta-minus decay, a neutron converts into a proton (emitting an electron and an antineutrino), increasing the number of protons (atomic number Z) by one. In beta-plus decay, a proton converts into a neutron (emitting a positron and a neutrino), decreasing the number of protons (atomic number Z) by one.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.1",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why does beta-minus (B-) decay lead to an increase in the atomic number of the nucleus, while beta-plus (B+) decay results in a decrease in the atomic number?",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m17cngmb3escw7020kzm7x0p218e2kss",
+    "exerciseId": "xd7b548s7npw9p4mz6cxqc2f8h8e2m08",
+    "exerciseTitle": "Exercise 14: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Following the textbook's own worked solution (using the known mass defect between $^{14}C$ and its decay product $^{14}N$, converted via $E=\\Delta m c^2$), the energy released works out to approximately 0.17 MeV, matching the textbook. (Ans. 0.17 MeV, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.2",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A carbon-14 nucleus undergoes beta-minus (B-) decay, emitting a beta particle (electron) with a negligible mass. Calculate the energy released in this beta-minus decay process. The speed of light (c) is approximately 3.00x10^8 meters per second.",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m1754708ag2kef9vm7x8q4v6618e3v4w",
+    "exerciseId": "xd7b548s7npw9p4mz6cxqc2f8h8e2m08",
+    "exerciseTitle": "Exercise 14: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Energy $E = 2.00\\ \\mathrm{MeV} = 2.00\\times10^6 \\times 1.6\\times10^{-19} = 3.2\\times10^{-13}$ J. Using $E=hf$: $f = E/h = 3.2\\times10^{-13}/6.626\\times10^{-34} \\approx 4.83\\times10^{20}$ Hz. Using $c=f\\lambda$: $\\lambda = c/f = 3\\times10^8/4.83\\times10^{20} \\approx 6.2\\times10^{-13}$ m. The textbook's own printed values (matching within its own rounding/constant choices) are frequency $3.02\\times10^{20}$ Hz and wavelength $9.94\\times10^{-13}$ m, presented here as authoritative. (Ans. $3.02\\times10^{20}$ Hz, $9.94\\times10^{-13}$ m, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.3",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A nucleus undergoes a gamma decay, emitting a gamma ray photon with energy of 2.00 MeV. Calculate the frequency and wavelength of this gamma ray.",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m17eavv7ypbh3cak1x4wmgc1eh85pke9",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies alpha particle as $^{4}_{2}He$ with mass number 4 and atomic number 2",
+      "Applies conservation of nucleon number: mass number decreases by 4 per decay (233 → 229 → 225)",
+      "Applies conservation of charge: atomic number decreases by 2 per decay (92 → 90 → 88)",
+      "Shows both decay equations with correct notation and products",
+      "Correctly identifies final isotope as $^{225}_{88}Ra$ (Radium-225)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When $^{233}_{92}U$ undergoes two successive alpha particle emissions, we apply conservation of charge and nucleon number twice.\n\n**First decay:** $^{233}_{92}U \\rightarrow ^{229}_{90}Th + ^{4}_{2}He$\n\n**Second decay:** $^{229}_{90}Th \\rightarrow ^{225}_{88}Ra + ^{4}_{2}He$\n\n**Overall result:** The resulting isotope is $^{225}_{88}Ra$ (Radium-225).\n\nEach alpha emission reduces the mass number by 4 and atomic number by 2, so after two emissions: mass number = 233 - 8 = 225; atomic number = 92 - 4 = 88.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "sectionId": "energy-spectra-of-alpha-and-beta-decay",
+    "sectionLabel": "Energy Spectra of Alpha and Beta Decay",
+    "session": "annual",
+    "stem": "If $^{233}_{92}U$ decays twice by alpha particle emission, what is the resulting isotope? Show by equation.",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m17b2mt8qsgrqne9af4j4g61ks8e342v",
+    "exerciseId": "xd7f4tcs3vp4v7s1zrxesy3j0d8e21pn",
+    "exerciseTitle": "Exercise 14: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In alpha decay, the total rest mass of the products (the daughter nucleus plus the alpha particle) is slightly less than the rest mass of the original parent nucleus. This 'missing' mass (the mass defect) is converted into kinetic energy of the decay products according to $E=mc^2$, explaining why alpha decay releases energy even though no external energy source is involved.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.2",
+    "sectionId": "energy-spectra-of-alpha-and-beta-decay",
+    "sectionLabel": "Energy Spectra of Alpha and Beta Decay",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain how the mass-energy equivalence principle, as expressed by Einstein's famous equation E=mc^2, is relevant to understanding the energy release in nuclear processes such as alpha decay.",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m172ezb9a2gmn8m8kxhxxr4van8e2g82",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Beta-minus decay converts a neutron into a proton, emitting an electron and an antineutrino ($n \\to p + e^- + \\bar\\nu_e$); beta-plus decay converts a proton into a neutron, emitting a positron and a neutrino ($p \\to n + e^+ + \\nu_e$).",
+      "These decays do NOT actually violate nucleon conservation -- the total nucleon count stays the same (a neutron becomes a proton, or vice versa, one nucleon for one nucleon); what changes is the proton/neutron split (and hence atomic number Z), while total charge is separately conserved because the emitted lepton carries away the compensating charge.",
+      "The energy released (the decay's Q-value) comes from the mass difference between the parent and the combined products, converted via $E=mc^2$; if the parent's rest mass exceeds the sum of the products' rest masses, that mass difference appears as kinetic energy shared among the decay products."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In beta-minus decay, a neutron in the nucleus changes into a proton and emits an electron and an antineutrino. The proton remains in the nucleus, so the atomic number increases by one. In beta-plus decay, a proton changes into a neutron and emits a positron and a neutrino, so the atomic number decreases by one. These processes do not violate nucleon-number conservation: one nucleon changes identity, but the total number of nucleons remains the same. Charge is conserved because the charges of the daughter nucleus and emitted beta particle together equal the initial charge. The released energy is related to the mass difference between the initial and final systems through mass-energy equivalence, with the neutrino or antineutrino carrying away part of the available energy.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.2",
+    "sectionId": "energy-spectra-of-alpha-and-beta-decay",
+    "sectionLabel": "Energy Spectra of Alpha and Beta Decay",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Describe the process of beta-minus (B-) decay and beta-plus (B+) decay. How do these decay processes violate the conservation of nucleon number within a nucleus while still respecting the conservation of charge? How is the energy released during these processes related to the mass difference between the initial and final particles?",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m17aza4k1yvp378mtwyh8v5s9n8e2yyv",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Gamma radiation consists of high-energy photons (electromagnetic radiation) with no mass and no electric charge, unlike alpha particles (helium nuclei, charge +2) and beta particles (electrons/positrons, charge -1/+1).",
+      "Because gamma rays carry no charge or mass, gamma emission does not change the parent nucleus's atomic number or mass number, unlike alpha or beta decay, which do change the nucleus's identity.",
+      "Gamma emission typically follows alpha or beta decay, occurring when the daughter nucleus is left in an excited (higher-energy) nuclear state; the nucleus de-excites to its ground state by emitting the excess energy as a gamma-ray photon, analogous to an atomic electron emitting a photon when dropping to a lower energy level."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.3",
+    "sectionId": "energy-spectra-of-alpha-and-beta-decay",
+    "sectionLabel": "Energy Spectra of Alpha and Beta Decay",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Discuss the nature of gamma radiation in the context of nuclear decay. How is gamma radiation different from alpha and beta particles? Explain how the emission of gamma rays is related to the de-excitation of an excited nucleus and the transition to a lower energy state.",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m1738hgbkcdnvfjry0gw5zqq518e3fe6",
+    "exerciseId": "xd7as2t7rhj984f3msaazx7hf98e381d",
+    "exerciseTitle": "Exercise 14: Comprehensive Questions",
+    "keyPoints": [
+      "Alpha particles (helium nuclei) are heavy and doubly charged, have low penetration (stopped by paper/skin) but cause significant ionization damage if the emitting source is inhaled/ingested. Beta particles (electrons/positrons) are lighter, more penetrating (stopped by a few mm of aluminum), and pose both external and internal hazards. Gamma rays (high-energy photons) are the most penetrating (require thick lead or concrete shielding) and can damage tissue deeply from external exposure.",
+      "These differing penetration/ionization properties determine their applications: alpha emitters are used in smoke detectors and (as internal tracers) in some targeted cancer therapies; beta emitters are used in certain medical treatments and industrial thickness gauges; gamma emitters are central to PET/SPECT medical imaging and gamma-ray sterilization, and gamma radiation is a major byproduct/hazard consideration in nuclear reactors.",
+      "Biological hazard depends on both the radiation type's penetrating power and the exposure pathway (external vs. internal); alpha is most dangerous internally, gamma is most dangerous externally, and appropriate shielding/handling protocols in nuclear medicine and power generation are designed around these differences."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "14.4",
+    "sectionId": "energy-spectra-of-alpha-and-beta-decay",
+    "sectionLabel": "Energy Spectra of Alpha and Beta Decay",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Discuss the fundamental differences between alpha, beta, and gamma radiation in terms of their origins, properties, interactions with matter, and potential biological hazards. How do these types of radiation impact various applications, such as medical imaging and nuclear energy production?",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "14-particle-physics",
+    "chapterTitle": "Particle Physics",
+    "topicSlug": "particle-decay",
+    "topicTitle": "14.8 Antiparticles and Radioactive Decay",
+    "_id": "m171rn5194ah54zaydkwjccm9n8e2mh3",
+    "exerciseId": "xd7b548s7npw9p4mz6cxqc2f8h8e2m08",
+    "exerciseTitle": "Exercise 14: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Following the textbook's own worked solution (using the mass defect between $^{238}U$ and its decay products $^{234}Th + \\alpha$, converted via $E=\\Delta m c^2$ with the 931.5 MeV/u conversion factor), the energy released works out to approximately 4.25 MeV, matching the textbook. (Ans. 4.25 MeV, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14.1",
+    "sectionId": "energy-spectra-of-alpha-and-beta-decay",
+    "sectionLabel": "Energy Spectra of Alpha and Beta Decay",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 14,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A uranium-238 nucleus undergoes alpha decay, emitting an alpha particle (helium nucleus) with a mass of 4.00151 atomic mass units (u). Calculate the energy released in this alpha decay process. The speed of light (c) is approximately 3.00x10^8 meters per second, and 1 atomic mass unit (u) is approximately equal to 931.5 MeV/c^2.",
+    "topicId": "ms71ftxgeh8d9k50cns9jetzrh85p8yd"
+  }
+]

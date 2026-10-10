@@ -1,0 +1,422 @@
+[
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computing-problems",
+    "topicTitle": "2.1 Computing Problems",
+    "_id": "k97cq7a4346ama3e3t0msrap798d2xj9",
+    "correctKey": "A",
+    "explanation": "A computing problem is solved step-by-step and commonly has a well-defined input and an output with desired properties.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73fvyjg2kzw79y9crw22z7cn8bt1kb",
+    "options": [
+      {
+        "key": "A",
+        "text": "A well-defined input and an output with desired properties"
+      },
+      {
+        "key": "B",
+        "text": "No input and no output"
+      },
+      {
+        "key": "C",
+        "text": "Only a visual design"
+      },
+      {
+        "key": "D",
+        "text": "An answer chosen at random"
+      }
+    ],
+    "sectionId": "computing-problems",
+    "sectionLabel": "computing-problems",
+    "stem": "Which feature is characteristic of a computing problem?",
+    "topicId": "ms7e4yaav4z9aw43pkgjz4b4d98btt2d"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-basics-of-counting-problems",
+    "topicTitle": "2.2 Basics of Counting Problems",
+    "_id": "k971s4anzpzefsvfymnj984hes8d3vk6",
+    "correctKey": "A",
+    "explanation": "Counting problems count the number of possible solutions to a search problem.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx744tp81dcdd3n72en07qhe898bvtkf",
+    "options": [
+      {
+        "key": "A",
+        "text": "The number of possible solutions"
+      },
+      {
+        "key": "B",
+        "text": "The colour of a diagram"
+      },
+      {
+        "key": "C",
+        "text": "The length of a program name"
+      },
+      {
+        "key": "D",
+        "text": "The number of syntax errors"
+      }
+    ],
+    "sectionId": "counting-problems",
+    "sectionLabel": "counting-problems",
+    "stem": "In a counting problem, what is counted?",
+    "topicId": "ms7agvefaenvqgnhpd1k4b81fn8bvs3j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "k97d4dpmmke8515666wpetcgyh8d2kxq",
+    "correctKey": "A",
+    "explanation": "The multiplication principle applies when one option is selected from each event.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ahd4zqvfvrpd9myh0jt2q918bva98",
+    "options": [
+      {
+        "key": "A",
+        "text": "Selecting one option from each of several events"
+      },
+      {
+        "key": "B",
+        "text": "Choosing between mutually exclusive alternatives only"
+      },
+      {
+        "key": "C",
+        "text": "Checking whether a statement is true"
+      },
+      {
+        "key": "D",
+        "text": "Removing irrelevant details"
+      }
+    ],
+    "sectionId": "multiplication-principle",
+    "sectionLabel": "multiplication-principle",
+    "stem": "Which situation calls for the multiplication principle?",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "k9766tagex1r70rfbqb0cbj5ws8d31hh",
+    "correctKey": "A",
+    "explanation": "Finiteness requires an algorithm to have a finite number of steps.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b4e6rqaecd6yf4amfp06gk58btw0z",
+    "options": [
+      {
+        "key": "A",
+        "text": "Finiteness"
+      },
+      {
+        "key": "B",
+        "text": "Input"
+      },
+      {
+        "key": "C",
+        "text": "Output"
+      },
+      {
+        "key": "D",
+        "text": "Abstraction"
+      }
+    ],
+    "sectionId": "algorithm-properties",
+    "sectionLabel": "algorithm-properties",
+    "stem": "Which property requires an algorithm to finish after a finite number of steps?",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-logical-reasoning",
+    "topicTitle": "2.5 Logical Reasoning",
+    "_id": "k970y4kwdjacvvzg6dky20pdb58d3x9j",
+    "correctKey": "A",
+    "explanation": "Boolean expressions evaluate to one of two values: true or false.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75v22pqpmt72kv1pxc0kyp9x8btfj0",
+    "options": [
+      {
+        "key": "A",
+        "text": "True and false"
+      },
+      {
+        "key": "B",
+        "text": "High and low"
+      },
+      {
+        "key": "C",
+        "text": "Input and output"
+      },
+      {
+        "key": "D",
+        "text": "Open and closed file"
+      }
+    ],
+    "sectionId": "boolean-logic",
+    "sectionLabel": "Boolean Logic",
+    "stem": "Which pair gives the two possible Boolean values?",
+    "topicId": "ms706vz992pe5999c0b7qdbtcn8bv18k"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-6-standard-algorithms",
+    "topicTitle": "2.6 Standard Algorithms",
+    "_id": "k97a29ma9fyc26s7n30de1th9s8d32bv",
+    "correctKey": "A",
+    "explanation": "Linear search checks each element sequentially; binary search repeatedly halves a sorted search interval.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bc0r7x7ca9xbhdfvr75gby18bvyt9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Linear search"
+      },
+      {
+        "key": "B",
+        "text": "Binary search"
+      },
+      {
+        "key": "C",
+        "text": "Merge sort"
+      },
+      {
+        "key": "D",
+        "text": "Insertion sort"
+      }
+    ],
+    "sectionId": "searching-algorithms",
+    "sectionLabel": "Searching Algorithms",
+    "stem": "Which algorithm sequentially checks each element until a target is found?",
+    "topicId": "ms7bg5pv8hkvhft65dx7t27hss8bvyr9"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-7-steps-in-algorithm-to-solve-computational-problems",
+    "topicTitle": "2.7 Steps in Algorithm to Solve Computational Problems",
+    "_id": "k978hcrpfakaag5vmkyxaw631x8d3mht",
+    "correctKey": "A",
+    "explanation": "Decomposition makes a complex problem understandable by breaking it into subproblems.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71eqw7nj40szkqhaqgasy5yn8bt2r4",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decomposition"
+      },
+      {
+        "key": "B",
+        "text": "Output formatting"
+      },
+      {
+        "key": "C",
+        "text": "Encryption"
+      },
+      {
+        "key": "D",
+        "text": "File management"
+      }
+    ],
+    "sectionId": "computational-thinking-steps",
+    "sectionLabel": "computational-thinking-steps",
+    "stem": "Which computational-thinking concept breaks a complex problem into smaller subproblems?",
+    "topicId": "ms7edkab9q6782x78eht7mk3w58bvq8y"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-8-abstraction",
+    "topicTitle": "2.8 Abstraction",
+    "_id": "k977dvm6e4ypgngjatbnkkq4sn8d2dgc",
+    "correctKey": "A",
+    "explanation": "Abstraction simplifies complex problems by concentrating on core ideas and unnecessary components less.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx753wqyc37dh74dce0364smkx8btsme",
+    "options": [
+      {
+        "key": "A",
+        "text": "To focus on important information and ignore irrelevant details"
+      },
+      {
+        "key": "B",
+        "text": "To add every possible detail"
+      },
+      {
+        "key": "C",
+        "text": "To repeat every computation"
+      },
+      {
+        "key": "D",
+        "text": "To remove the core idea"
+      }
+    ],
+    "sectionId": "abstraction",
+    "sectionLabel": "abstraction",
+    "stem": "What is the main purpose of abstraction?",
+    "topicId": "ms7ajcc0g2m4y1c65bt7ytqxzx8btr2c"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-9-creating-generalized-solutions",
+    "topicTitle": "2.9 Creating Generalized Solutions",
+    "_id": "k974c120cnx87p6j56c952rsdd8d208k",
+    "correctKey": "A",
+    "explanation": "The corpus contrasts reusable generic solutions with specific solutions that handle only one situation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78gffg2dv6br1ccp5dza13z58btezn",
+    "options": [
+      {
+        "key": "A",
+        "text": "It can handle similar problems and be reused"
+      },
+      {
+        "key": "B",
+        "text": "It works for only one fixed case"
+      },
+      {
+        "key": "C",
+        "text": "It prevents testing with new inputs"
+      },
+      {
+        "key": "D",
+        "text": "It removes all variables"
+      }
+    ],
+    "sectionId": "generalized-solutions",
+    "sectionLabel": "generalized-solutions",
+    "stem": "What is an advantage of a generalized solution?",
+    "topicId": "ms73qkjdmh2rth624wszes4j7h8btnmz"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-10-modular-design",
+    "topicTitle": "2.10 Modular Design",
+    "_id": "k976k1x3atxxh0d92tet93w9sn8d3tv4",
+    "correctKey": "A",
+    "explanation": "Modular design divides a system into smaller interchangeable parts that perform specific tasks.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wk736y6zx5dpcj9yehxmyd8btc4v",
+    "options": [
+      {
+        "key": "A",
+        "text": "Smaller, manageable modules"
+      },
+      {
+        "key": "B",
+        "text": "One indivisible program"
+      },
+      {
+        "key": "C",
+        "text": "Only visual elements"
+      },
+      {
+        "key": "D",
+        "text": "Random outputs"
+      }
+    ],
+    "sectionId": "modular-design",
+    "sectionLabel": "modular-design",
+    "stem": "What does modular design break a system into?",
+    "topicId": "ms75m8ptb70qey5wexy4wpp9a18bvm41"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-11-algorithm-dry-run",
+    "topicTitle": "2.11 Algorithm Dry Run",
+    "_id": "k97avfe1r1m7rqzf8d1ter1vnn8d36wz",
+    "correctKey": "A",
+    "explanation": "A dry run manually executes an algorithm with chosen inputs to check behavior and correctness.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7000eaz01zztkgwzgasq79y58btgnw",
+    "options": [
+      {
+        "key": "A",
+        "text": "To verify an algorithm and identify logical errors"
+      },
+      {
+        "key": "B",
+        "text": "To install an operating system"
+      },
+      {
+        "key": "C",
+        "text": "To increase screen resolution"
+      },
+      {
+        "key": "D",
+        "text": "To replace all inputs"
+      }
+    ],
+    "sectionId": "algorithm-dry-run",
+    "sectionLabel": "algorithm-dry-run",
+    "stem": "Why is a dry run performed?",
+    "topicId": "ms74w75ctytk8t5c8fdraq4hns8bta9f"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-12-errors",
+    "topicTitle": "2.12 Errors",
+    "_id": "k97679dcy103ncwrtgqxg0yp7x8d2seq",
+    "correctKey": "A",
+    "explanation": "Syntax errors concern structure, while logical errors concern reasoning or planning.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dc2vj4bm358857xcz1cjtrx8bv2kf",
+    "options": [
+      {
+        "key": "A",
+        "text": "Syntax error"
+      },
+      {
+        "key": "B",
+        "text": "Logical error"
+      },
+      {
+        "key": "C",
+        "text": "Counting problem"
+      },
+      {
+        "key": "D",
+        "text": "Abstraction"
+      }
+    ],
+    "sectionId": "algorithm-errors",
+    "sectionLabel": "algorithm-errors",
+    "stem": "Which error is caused by a mistake in the structure of an expression or statement?",
+    "topicId": "ms77p4yv8bxns6t0fbfv6y05rs8btb9q"
+  }
+]

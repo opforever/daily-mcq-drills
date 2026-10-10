@@ -1,0 +1,51 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,examBoard,keyPoints,lastAttempt,locked,marks,modelAnswer,partType,questionKind,questionNumber,session,stem,topicId,year,correctKey,correctKeyVerified,explanation,options,origin
+"physics-12","17-simple-harmonic-motion","Simple Harmonic Motion","17-9-resonance","17.9 Resonance","m176zhggfq69v0p6m9eh9g82k585pysg","Federal Board","[""Impedance formula: $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ with correct substitution of reactances"",""Resonance condition: $X_L = X_C$ or $\\omega L = \\frac{1}{\\omega C}$"",""Derivation of resonant frequency: $f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$ from resonance condition"",""Recognition that impedance is minimum and current is maximum at resonance"",""Correct use of phasor addition principle for net reactance""]",,"false","5","**Impedance in Series RLC Circuit:**
+
+For a series RLC circuit, the impedance $Z$ is the vector sum of resistance and net reactance. Since inductive reactance $X_L = \omega L$ leads current by $90°$ and capacitive reactance $X_C = \frac{1}{\omega C}$ lags current by $90°$, they oppose each other. Using phasor addition:
+
+$$Z = \sqrt{R^2 + (X_L - X_C)^2} = \sqrt{R^2 + \left(\omega L - \frac{1}{\omega C}\right)^2}$$
+
+**Resonant Frequency:**
+
+Resonance occurs when the net reactance equals zero, i.e., $X_L = X_C$:
+
+$$\omega L = \frac{1}{\omega C}$$
+
+Solving for angular frequency:
+
+$$\omega^2 = \frac{1}{LC}$$
+
+$$\omega_0 = \frac{1}{\sqrt{LC}}$$
+
+The resonant frequency is:
+
+$$f_0 = \frac{1}{2\pi\sqrt{LC}}$$
+
+At resonance, impedance is minimum ($Z = R$) and current is maximum ($I = \frac{V}{R}$).","C","long","4","annual","Derive a relation for impedance and resonant frequency in an R.L.C series A.C circuit.","ms7cpgw18pmv5td7fwg41xane585qy2m","2022",,,,,
+"physics-12","17-simple-harmonic-motion","Simple Harmonic Motion","17-9-resonance","17.9 Resonance","m17fd491c49tnjdqam0ccbqp5985pj06","Federal Board","[""At resonance: $X_L = X_C$, so net reactance = 0"",""Impedance becomes purely resistive: $Z = R$"",""Phase difference $\\phi = 0°$ (current and voltage in phase)"",""Current reaches maximum value at resonance"",""Power factor = 1 (maximum power transfer)""]",,"false","1","At resonance in an R.L.C series AC circuit, the inductive reactance equals the capacitive reactance ($X_L = X_C$). Therefore, the net reactance is zero, and the impedance is purely resistive. Consequently, the phase difference between current and voltage is **zero** ($\phi = 0°$), meaning current and voltage are in phase.","MCQ","mcq","9","annual","The phase difference between the current and voltage at resonance in R.L.C series A.C circuit is:","ms7cpgw18pmv5td7fwg41xane585qy2m","2022","A","true","At resonance in an RLC series AC circuit, the inductive reactance equals the capacitive reactance (XL = XC), so they cancel. The impedance becomes purely resistive, and current and voltage are in phase with zero phase difference.","[{""key"":""A"",""text"":""0""},{""key"":""B"",""text"":""$-\\frac{\\pi}{2}$""},{""key"":""C"",""text"":""$-\\pi$""},{""key"":""D"",""text"":""$\\frac{\\pi}{2}$""}]",
+"physics-12","17-simple-harmonic-motion","Simple Harmonic Motion","17-9-resonance","17.9 Resonance","m17bmxbjvxv65mh6a24rs0fwjd85pqkg","Federal Board","[""Impedance defined as total opposition to AC current in RLC circuit"",""Derivation uses phasor diagram with voltage components: $V_R = IR$, $V_L = IX_L$, $V_C = IX_C$"",""Final impedance expression: $Z = \\sqrt{R^2 + (X_L - X_C)^2}$ derived using Pythagorean theorem"",""Resonance condition: $X_L = X_C$ or $\\omega L = \\frac{1}{\\omega C}$"",""At resonance: impedance is minimum ($Z = R$) and current is maximum""]",,"false","5","**Definition of Impedance:** Impedance ($Z$) is the total opposition offered by a series RLC circuit to the flow of alternating current. It is the vector sum of resistance and net reactance.
+
+**Derivation for Series RLC Circuit:**
+
+In a series RLC circuit, the current $I$ is the same through all components and serves as the reference phasor. The voltage phasors are:
+- Voltage across resistor: $V_R = IR$ (in phase with current)
+- Voltage across inductor: $V_L = IX_L$ (leads current by $90°$)
+- Voltage across capacitor: $V_C = IX_C$ (lags current by $90°$)
+
+The net reactive voltage is: $V_{net} = V_L - V_C = I(X_L - X_C)$
+
+Using the Pythagorean theorem on the phasor diagram:
+$$V_{total}^2 = V_R^2 + (V_L - V_C)^2$$
+$$V_{total}^2 = (IR)^2 + I^2(X_L - X_C)^2$$
+$$V_{total} = I\sqrt{R^2 + (X_L - X_C)^2}$$
+
+Therefore, impedance is:
+$$Z = \frac{V_{total}}{I} = \sqrt{R^2 + (X_L - X_C)^2}$$
+
+where $X_L = \omega L$ and $X_C = \frac{1}{\omega C}$.
+
+**Condition of Resonance:**
+
+Resonance occurs when the inductive and capacitive reactances are equal: $X_L = X_C$, which gives $\omega L = \frac{1}{\omega C}$. At resonance, impedance is minimum ($Z = R$), current is maximum, and the circuit is purely resistive.","C","long","4","annual","State the term **impedance** for an A.C circuit. Derive an expression for the impedance of R.L.C series A.C circuit. State the condition of resonance.","ms7cpgw18pmv5td7fwg41xane585qy2m","2022",,"true",,,
+"physics-12","17-simple-harmonic-motion","Simple Harmonic Motion","17-9-resonance","17.9 Resonance","m1703cwwqxqs6abmkjs23zqac985p05c","Federal Board","[""Current is maximum at resonance frequency"",""Impedance is minimum and equals resistance: $Z = R$"",""Inductive and capacitive reactances cancel: $X_L = X_C$"",""Current is in phase with applied voltage (phase angle = 0°)"",""Current magnitude: $I_{max} = \\frac{V_0}{R}$""]",,"false","1","At the resonance frequency in an RLC series circuit, the inductive reactance equals the capacitive reactance ($X_L = X_C$), so the impedance is minimum and equals the resistance ($Z = R$). Therefore, the current at resonance is maximum and is given by $I = \frac{V_0}{R}$, where $V_0$ is the peak voltage.","MCQ","mcq","6","annual","In an RLC series circuit, the current at resonance frequency is:","ms7cpgw18pmv5td7fwg41xane585qy2m","2024","C","true","At resonance frequency in an RLC series circuit, impedance Z is minimum (Z = R only, since X_L = X_C cancel). By Ohm's law I = V/Z, when impedance is minimum, current is maximum.","[{""key"":""A"",""text"":""Zero""},{""key"":""B"",""text"":""Infinite""},{""key"":""C"",""text"":""Maximum""},{""key"":""D"",""text"":""Minimum""}]",
+"physics-12","17-simple-harmonic-motion","Simple Harmonic Motion","17-9-resonance","17.9 Resonance","m175regv7a216ewe0g4nxcymk58cdpq0","fbise","[""Radio tuning."",""MRI."",""Microwave heating.""]",,"false","3","Examples of resonance in daily life include: (1) tuning a radio, where the circuit frequency is matched to the station frequency; (2) magnetic resonance imaging (MRI), where nuclei absorb maximum energy at resonance; and (3) heating food in a microwave oven, where molecules absorb energy efficiently near their natural frequency.","B","short","2(iii)","model","Give three everyday examples of resonance.","ms7cpgw18pmv5td7fwg41xane585qy2m","2026",,,,,"exam"

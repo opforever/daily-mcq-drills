@@ -1,0 +1,980 @@
+[
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-website-development",
+    "topicTitle": "3.1 Website Development",
+    "_id": "m17dkg2bz93dmwnc89yj5t1chx8f5m7e",
+    "correctKey": "C",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Front end covers everything seen and used on a page and its design, built with HTML, CSS and JavaScript. Server management is back end work with servers and data, so it is not correct.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Server management"
+      },
+      {
+        "key": "B",
+        "text": "Database design"
+      },
+      {
+        "key": "C",
+        "text": "User interface and design"
+      },
+      {
+        "key": "D",
+        "text": "Memory Management"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 1",
+    "sectionId": "website-development-front-end-and-back-end",
+    "sectionLabel": "Website Development: front-end and back-end",
+    "stem": "Which of the following is primarily associated with front-end development?",
+    "topicId": "ms7317cdf2x0x4q8hjbx6eqbbd8bv2xr"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-website-development",
+    "topicTitle": "3.1 Website Development",
+    "_id": "m17b3v87faq11prsyk8qtpeyyn8f4vs7",
+    "correctKey": "B",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Front end is also called client side because it runs for the user in the browser. Server refers to back end where data resides, so it is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Label"
+      },
+      {
+        "key": "B",
+        "text": "Client-side"
+      },
+      {
+        "key": "C",
+        "text": "Server"
+      },
+      {
+        "key": "D",
+        "text": "Database"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 7",
+    "sectionId": "website-development-front-end-and-back-end",
+    "sectionLabel": "Website Development: front-end and back-end",
+    "stem": "Front end development is also called__________.",
+    "topicId": "ms7317cdf2x0x4q8hjbx6eqbbd8bv2xr"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-website-development",
+    "topicTitle": "3.1 Website Development",
+    "_id": "m17aw3884kpscnpkceetm803t58f4rdt",
+    "exerciseId": "xd7f3d22ws9rbw1v5ythj92med8e08c6",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "keyPoints": [
+      "States front end only case with no database or server logic",
+      "Gives concrete example such as static notice page or portfolio",
+      "Links example to HTML and CSS with optional JavaScript interaction"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A basic informative website needs no back end. A school notice page, personal portfolio or club introduction shows the same fixed text, images and links to every visitor and stores no orders or user data.\n\nIt can be built with HTML and CSS, with JavaScript only for menus or validation. No database, login or server processing is required.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Q2. Give short answers to the following Short Response Questions (SRQs) 1",
+    "sectionId": "website-development-front-end-and-back-end",
+    "sectionLabel": "Website Development: front-end and back-end",
+    "stem": "Give an example where back-end development may not be required and all of the functionalities are handled by front-end.",
+    "topicId": "ms7317cdf2x0x4q8hjbx6eqbbd8bv2xr"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m17dqyncqpk49mtdc261kda9t98f4kcb",
+    "correctKey": "A",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The textbook states that style during animation is specified by @keyframes. @style frame is not a CSS animation rule, so it is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "@key frame"
+      },
+      {
+        "key": "B",
+        "text": "@style frame"
+      },
+      {
+        "key": "C",
+        "text": "@highlighted frame"
+      },
+      {
+        "key": "D",
+        "text": "@anchor frame"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Multiple Choice Questions (continued) 12",
+    "sectionId": "animations-in-css",
+    "sectionLabel": "Animations in CSS",
+    "stem": "An element style during animation is specified by _______.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m17fyyzhgn59s5vrnb4a10qmzs8f56st",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Defines blink keyframes with opacity change",
+      "Defines spin keyframes with 360 degree rotation",
+      "Applies infinite animation with timing",
+      "Keeps style tag and div or img container"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Blinking text and rotating image\n\nTwo CSS animations are used. One changes opacity for blinking, one rotates for spinning.\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>Blinking Text and Rotating Image</title>\n<style>\n#blink {\n color: blue;\n font-size: 20px;\n animation: blink 2s infinite;\n}\n@keyframes blink {\n 0% { opacity: 1; }\n 50% { opacity: 0; }\n 100% { opacity: 1; }\n}\n#spin {\n width: 100px;\n height: 100px;\n background-color: blue;\n color: white;\n animation: spin 3s infinite linear;\n}\n@keyframes spin {\n from { transform: rotate(0deg); }\n to { transform: rotate(360deg); }\n}\n</style>\n</head>\n<body>\n<p id=\"blink\">This text blinks blue!</p>\n<div id=\"spin\">Blue text in an image</div>\n</body>\n</html>\n```\n\n## How it works\n\n1. Blink moves opacity from visible to vanished and back every two seconds.\n2. Spin moves rotation from 0 to 360 degrees, waits through timing and repeats.\n3. Style holds the rules and keyframes defines each stage.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Exercise (continued) 4",
+    "sectionId": "animations-in-css",
+    "sectionLabel": "Animations in CSS",
+    "stem": "Write code for:\nA colored text which repeatedly vanishes for a second and appears in the next second, giving the impression of a “blinking text”\nAn image, which spins a whole circle, waits for one second and spins again, in an iterative manner.",
+    "stemIllustration": {
+      "caption": "Blinking text and rotating image output",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "storageId": "kg2bhjp8759tf3r4sy0nxgfzhx8f7w36",
+      "tier": 2
+    },
+    "stemImageStorageId": "kg2bhjp8759tf3r4sy0nxgfzhx8f7w36",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m179acjvbvj4x5famqghbyxeg58f49g3",
+    "correctKey": "C",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Email input uses type email, which matches the textbook mapping of email addresses to that type. Type url is for web addresses, so it is wrong for email.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "type=\"url\""
+      },
+      {
+        "key": "B",
+        "text": "type=\"text\""
+      },
+      {
+        "key": "C",
+        "text": "type=\"email\""
+      },
+      {
+        "key": "D",
+        "text": "type=\"password\""
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 2",
+    "sectionId": "forms-in-html",
+    "sectionLabel": "Forms in HTML",
+    "stem": "Which of the following HTML attributes is required in the <input> element for email ?",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m172z3sym2xmsnnp0g5stpcgm58f55ct",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Includes radio group for delivery choice",
+      "Includes select dropdown for three cake sizes",
+      "Includes checkboxes for extras",
+      "Includes submit with alert and order number",
+      "Uses label for binding and form action method"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Bakery order form\n\nThis form uses radio buttons for one delivery choice, a dropdown for cake size, checkboxes for extras, and a submit button that shows an order number.\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>Bakery Order</title>\n</head>\n<body>\n<h1>Bakery Order</h1>\n<form action=\"submit_order.html\" method=\"post\" onsubmit=\"placeOrder(event)\">\n<label>Order type:</label>\n<input type=\"radio\" id=\"home\" name=\"orderType\" value=\"Home delivery\" required>\n<label for=\"home\">Home delivery</label>\n<input type=\"radio\" id=\"pickup\" name=\"orderType\" value=\"Self-collection\">\n<label for=\"pickup\">Self-collection</label>\n<br><br>\n<label for=\"size\">Cake size:</label>\n<select id=\"size\" name=\"size\">\n<option value=\"small\">Small</option>\n<option value=\"medium\">Medium</option>\n<option value=\"large\">Large</option>\n</select>\n<br><br>\n<label>Extras:</label>\n<input type=\"checkbox\" id=\"candles\" name=\"extras\" value=\"Candles\">\n<label for=\"candles\">Candles</label>\n<input type=\"checkbox\" id=\"balloons\" name=\"extras\" value=\"Balloons\">\n<label for=\"balloons\">Balloons</label>\n<input type=\"checkbox\" id=\"card\" name=\"extras\" value=\"Card\">\n<label for=\"card\">Greeting card</label>\n<br><br>\n<input type=\"submit\" value=\"Place Order\">\n</form>\n<script>\nfunction placeOrder(event) {\n event.preventDefault();\n const orderNo = Math.floor(10000 + Math.random() * 90000);\n alert(\"Order placed. Your order number is \" + orderNo);\n}\n</script>\n</body>\n</html>\n```\n\n## How it works\n\n1. Radio buttons share one name so only one order type can be selected.\n2. Select limits size to three fixed choices.\n3. Checkboxes allow zero, one or many extras.\n4. Submit calls JavaScript which blocks normal submit, creates a random order number and shows it in an alert.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Q3 1",
+    "sectionId": "forms-in-html",
+    "sectionLabel": "Forms in HTML",
+    "stem": "For a Bakery, design a simple HTML form to take order online, which includes:\nradio buttons for the option of home delivery or self-collection,\ndrop down list for 3 sizes of the cake,\ncheck boxes for candles, balloons, etc.\nLastly, add a submit button which generates either an alert or redirects to another form; and responds with an order number.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m175ds56z9jmzbzfhhya57ce218f4gf9",
+    "correctKey": "C",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Tables organize information on webpages in readable ordered form. Rows and columns are parts inside a table, not the place where tables organize information.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "columns"
+      },
+      {
+        "key": "B",
+        "text": "rows"
+      },
+      {
+        "key": "C",
+        "text": "webpages"
+      },
+      {
+        "key": "D",
+        "text": "list"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 8",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "Table is an easy way to organize information in__________.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m1721pqf85rbhq5bgaf75ks5zs8f53cf",
+    "correctKey": "A",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Th defines a header cell with bold centered content. Td holds ordinary data cells, so it is not the header tag.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "<th>"
+      },
+      {
+        "key": "B",
+        "text": "<td>"
+      },
+      {
+        "key": "C",
+        "text": "<caption>"
+      },
+      {
+        "key": "D",
+        "text": "<tr>"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 9",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "Table's header cell and content is referred in __________ tag.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m17175csj7xg9x4m17xzyvn4hn8f4aye",
+    "correctKey": "B",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Border collapse determines whether neighboring cell borders combine into one line or stay distinct. Border separate is a value for distinct borders, not the controlling property.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Link border"
+      },
+      {
+        "key": "B",
+        "text": "border collapse"
+      },
+      {
+        "key": "C",
+        "text": "border separate"
+      },
+      {
+        "key": "D",
+        "text": "border"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 10",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "Link between the borders of neighboring table cell is determined by __________.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m179g7dghmdcfb8r95j4m1kv7x8f4zz2",
+    "correctKey": "C",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Padding is the distance between a cell border and its content on four sides. Style is a general term and does not define that spacing, so it is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Cell"
+      },
+      {
+        "key": "B",
+        "text": "Output"
+      },
+      {
+        "key": "C",
+        "text": "Padding"
+      },
+      {
+        "key": "D",
+        "text": "Style"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Multiple Choice Questions (continued) 11",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "Distance between the cell's border and its content is called _______.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m174y4cdhpth03cbypmbzdjemh8f42yb",
+    "correctKey": "C",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Td marks an ordinary table cell holding real data. Th marks a header cell, so it is not the ordinary single cell.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "<tc>"
+      },
+      {
+        "key": "B",
+        "text": "<tf>"
+      },
+      {
+        "key": "C",
+        "text": "<td>"
+      },
+      {
+        "key": "D",
+        "text": "<th>"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Multiple Choice Questions (continued) 13",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "A single table cell is indicated by a _______ tag.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m173v49g1rmn85a6qvhph4qtyd8f5755",
+    "exerciseId": "xd7f3d22ws9rbw1v5ythj92med8e08c6",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "keyPoints": [
+      "Defines tr as row container",
+      "Defines th as bold centered header cell",
+      "Defines td as ordinary data cell",
+      "Gives short table example using all three"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The tr tag creates one row in a table. The th tag creates a header cell with bold centered text for column titles. The td tag creates an ordinary cell holding real data.\n\n```html\n<table>\n<tr>\n<th>Patient Name</th>\n<th>Date</th>\n</tr>\n<tr>\n<td>Adil</td>\n<td>2024-05-10</td>\n</tr>\n</table>\n```",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Q2. Give short answers to the following Short Response Questions (SRQs) 2",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "What are the 'td', 'th' and 'tr' tags used for? Explain with the help of an example.",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m17crpwb0vkkdw240ky5dwyf7n8f53n1",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Includes title My Weekly Evening Schedule",
+      "Uses table with Day and Activity headers",
+      "Includes five correct day rows",
+      "Uses thead tbody th td and caption or h1"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Weekly schedule table\n\nThe page shows five evening activities in a two column table with headers.\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>My Weekly Evening Schedule</title>\n<style>\ntable { border-collapse: collapse; width: 100%; }\nth, td { padding: 10px; text-align: left; border: 1px solid lightgray; }\nth { background-color: gray; }\n</style>\n</head>\n<body>\n<h1>My Weekly Evening Schedule</h1>\n<table>\n<caption>Evening activities</caption>\n<thead>\n<tr>\n<th>Day</th>\n<th>Activity</th>\n</tr>\n</thead>\n<tbody>\n<tr><td>Monday</td><td>Karate Class</td></tr>\n<tr><td>Tuesday</td><td>Calligraphy Lessons</td></tr>\n<tr><td>Wednesday</td><td>Math Test</td></tr>\n<tr><td>Thursday</td><td>Gardening</td></tr>\n<tr><td>Friday</td><td>Programming Practice</td></tr>\n</tbody>\n</table>\n</body>\n</html>\n```\n\n## Structure\n\n1. Head holds title and basic CSS for borders and padding.\n2. Thead holds Day and Activity headers with th.\n3. Tbody holds five rows, each with tr and two td cells.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Exercise 2",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "Design a website titled \"My Weekly Evening Schedule\", as follows:",
+    "stemIllustration": {
+      "caption": "My Weekly Evening Schedule table",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "storageId": "kg2ds0szzqv1mwvtt49zzdwjjh8f6ewk",
+      "tier": 2
+    },
+    "stemImageStorageId": "kg2ds0szzqv1mwvtt49zzdwjjh8f6ewk",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m174w7jx0amn6gr3erpfjfc75s8f5jms",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Includes title My Favorite Fruits",
+      "Uses table thead tbody structure",
+      "Includes Apple Banana Orange rows with colors",
+      "Uses th for headers and td for data"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Favorite fruits table\n\nThis code displays fruit names and colors in a plain table.\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>My Favorite Fruits</title>\n</head>\n<body>\n<h1>My Favorite Fruits</h1>\n<table>\n<thead>\n<tr>\n<th>Fruit Name</th>\n<th>Color</th>\n</tr>\n</thead>\n<tbody>\n<tr><td>Apple</td><td>Red</td></tr>\n<tr><td>Banana</td><td>Yellow</td></tr>\n<tr><td>Orange</td><td>Orange</td></tr>\n</tbody>\n</table>\n</body>\n</html>\n```\n\n## Parts used\n\n1. Table encloses all rows.\n2. Tr creates each row.\n3. Th creates bold centered headers.\n4. Td holds Apple, Banana, Orange and their colors.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Exercise 3",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "Write code to display the following table:",
+    "stemIllustration": {
+      "caption": "My Favorite Fruits table",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "storageId": "kg23qp6axsr4cbpx2e1q012dyx8f7f8p",
+      "tier": 2
+    },
+    "stemImageStorageId": "kg23qp6axsr4cbpx2e1q012dyx8f7f8p",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-additional-features-of-html-css",
+    "topicTitle": "3.2 Additional Features of Html / Css",
+    "_id": "m177c6adshg9w9vdqk4n080ggs8f5xdz",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Keeps same fruit rows and headers",
+      "Adds border collapse and full width",
+      "Adds padding alignment and borders",
+      "Adds header background and caption"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Styled fruits table\n\nThe same fruit data is shown with cleaner CSS styling for borders, spacing and headers.\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>My Favorite Fruits</title>\n<style>\ntable { border-collapse: collapse; width: 100%; }\nth, td { padding: 10px; text-align: left; border: 1px solid lightgray; }\nth { background-color: gray; }\n</style>\n</head>\n<body>\n<h1>My Favorite Fruits</h1>\n<table>\n<caption>My Favorite Fruits</caption>\n<thead>\n<tr>\n<th>Fruit Name</th>\n<th>Color</th>\n</tr>\n</thead>\n<tbody>\n<tr><td>Apple</td><td>Red</td></tr>\n<tr><td>Banana</td><td>Yellow</td></tr>\n<tr><td>Orange</td><td>Orange</td></tr>\n</tbody>\n</table>\n</body>\n</html>\n```\n\n## Changes made\n\n1. Border collapse joins neighboring borders into single lines.\n2. Padding and left alignment make cell text easy to read.\n3. Borders and full width make each cell stand out.\n4. Gray headers and caption give an overview of the data.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Exercise (continued) 3",
+    "sectionId": "tables-in-html-and-basic-css-styling",
+    "sectionLabel": "Tables in HTML and basic CSS styling",
+    "stem": "Now change the table appearance as follows:",
+    "stemIllustration": {
+      "caption": "My Favorite Fruits table",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "storageId": "kg2cqedky8pqhf2xsj85bc60nh8f75rd",
+      "tier": 2
+    },
+    "stemImageStorageId": "kg2cqedky8pqhf2xsj85bc60nh8f75rd",
+    "topicId": "ms76bk6ky483w2dhcpxjrrvsz58bt7ta"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-advanced-programming-constructs-in-javascript",
+    "topicTitle": "3.3 Advanced Programming Constructs in Javascript",
+    "_id": "m177z2w4j37p77aam8s1jew0m98f5caz",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Uses ol instead of ul for numbered bullets",
+      "Creates li items from array with loop",
+      "Keeps calculateSum push and display logic",
+      "Uses function keyword with parameters and braces"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Sum program with ordered list\n\nThe numbers are shown as a numbered list by using ol and li created from the array.\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<title>Sum of First 10 Integers</title>\n</head>\n<body>\n<button onclick=\"calculateSum()\">Calculate Sum</button>\n<ol id=\"numberList\"></ol>\n<p id=\"sumDisplay\"></p>\n<script>\nfunction calculateSum() {\n let sum = 0;\n let numbers = [];\n for (let i = 1; i <= 10; i++) {\n  sum += i;\n  numbers.push(i);\n }\n const list = document.getElementById(\"numberList\");\n list.innerHTML = \"\";\n for (let i = 0; i < numbers.length; i++) {\n  const li = document.createElement(\"li\");\n  li.textContent = numbers[i];\n  list.appendChild(li);\n }\n document.getElementById(\"sumDisplay\").textContent = \"The sum is \" + sum;\n}\n</script>\n</body>\n</html>\n```\n\n## Change explained\n\n1. Ul is replaced by ol so bullets become numbers 1, 2, 3.\n2. Each array value becomes one li through the loop.\n3. Push still appends each integer, and sum still adds each value.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Exercise (continued) 5",
+    "sectionId": "bullet-points-as-values-from-arrays",
+    "sectionLabel": "Bullet points as values from arrays",
+    "stem": "Write code to change the bullets into ordered list for the program ‘Sum of first 10 integers’.",
+    "topicId": "ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-advanced-programming-constructs-in-javascript",
+    "topicTitle": "3.3 Advanced Programming Constructs in Javascript",
+    "_id": "m176kaz675dpn90w8vbc2v0v918f551m",
+    "correctKey": "A",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Push adds a value at the end of an array and appends to existing values. Add is not the JavaScript array method for this purpose, so it is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "push()"
+      },
+      {
+        "key": "B",
+        "text": "add()"
+      },
+      {
+        "key": "C",
+        "text": "leftshift()"
+      },
+      {
+        "key": "D",
+        "text": "rightshift()"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 3",
+    "sectionId": "javascript-arrays-loops-and-functions-for-dynamic-pages",
+    "sectionLabel": "JavaScript arrays, loops and functions for dynamic pages",
+    "stem": "In JavaScript, which method would you use to add a new item to the end of a list?",
+    "topicId": "ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-advanced-programming-constructs-in-javascript",
+    "topicTitle": "3.3 Advanced Programming Constructs in Javascript",
+    "_id": "m17e3b9190k3s4mrrgyfdk38hh8f4tes",
+    "correctKey": "B",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Array index starts at 0, so first is 0, second is 1 and third is 2. MyArray[3] would access the fourth element, so it is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "myArray[3]"
+      },
+      {
+        "key": "B",
+        "text": "myArray[2]"
+      },
+      {
+        "key": "C",
+        "text": "myArray[1]"
+      },
+      {
+        "key": "D",
+        "text": "myArray[0]"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 4",
+    "sectionId": "javascript-arrays-loops-and-functions-for-dynamic-pages",
+    "sectionLabel": "JavaScript arrays, loops and functions for dynamic pages",
+    "stem": "In JavaScript, how do you access the third element in an array called myArray?",
+    "topicId": "ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-advanced-programming-constructs-in-javascript",
+    "topicTitle": "3.3 Advanced Programming Constructs in Javascript",
+    "_id": "m1789b4sq9f0n3hpcw4dfp3wmh8f47ft",
+    "exerciseId": "xd7f3d22ws9rbw1v5ythj92med8e08c6",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "keyPoints": [
+      "Identifies bracket errors in (a) and (b)",
+      "Identifies undeclared i and off by one condition in (c)",
+      "Identifies wrong start, wrong condition and undeclared i in (d)",
+      "States correct array syntax and loop bounds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The errors are in array creation and loop bounds:\n\n1. (a) uses parentheses: `const myArray = (\"apple\", 3.14, true, \"orange\");` It must use square brackets `[]`.\n2. (b) has no brackets: `const myArray = \"apple\", 3.14, true, \"orange\";` It must be `[\"apple\", 3.14, true, \"orange\"]`.\n3. (c) uses `for (i = 0; i <= numbers.length; i ++)` with undeclared `i` and `<=` which reads one past the end. Use `for (let i = 0; i < numbers.length; i++)`.\n4. (d) uses `for (i = numbers.length; i < 0; i--)` which never runs. Use `for (let i = numbers.length - 1; i >= 0; i--)` or forward loop from 0.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Q2. Give short answers to the following Short Response Questions (SRQs) 3",
+    "sectionId": "javascript-arrays-loops-and-functions-for-dynamic-pages",
+    "sectionLabel": "JavaScript arrays, loops and functions for dynamic pages",
+    "stem": "Find error(s) in the following codes.",
+    "topicId": "ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-advanced-programming-constructs-in-javascript",
+    "topicTitle": "3.3 Advanced Programming Constructs in Javascript",
+    "_id": "m173c480x365qa03f1r4y0wzxx8f5yad",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Creates array with square brackets",
+      "Includes string number boolean and name values",
+      "Uses zero based indexing correctly",
+      "Prints exact My_Mix_Array line"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Mixed array program\n\nJavaScript allows words, numbers and boolean values in one array.\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n<title>Mixed Array</title>\n</head>\n<body>\n<p id=\"output\"></p>\n<script>\nconst My_Mix_Array = [\"apple\", 3.14, true, \"Ali\", 25];\nlet text = \"My_Mix_Array : [ \";\nfor (let i = 0; i < My_Mix_Array.length; i++) {\n text += My_Mix_Array[i];\n if (i < My_Mix_Array.length - 1) {\n  text += \", \";\n }\n}\ntext += \" ]\";\ndocument.getElementById(\"output\").textContent = text;\n</script>\n</body>\n</html>\n```\n\n## Result\n\nThe page shows: My_Mix_Array : [ apple, 3.14, true, Ali, 25 ]. Apple is at index 0 and 25 is at index 4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Exercise (continued) 6",
+    "sectionId": "javascript-arrays-loops-and-functions-for-dynamic-pages",
+    "sectionLabel": "JavaScript arrays, loops and functions for dynamic pages",
+    "stem": "Create an array with the following values and print it as follows:\nMy_Mix_Array : [ apple, 3.14, true, Ali, 25 ]",
+    "topicId": "ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-4-complex-algorithms-in-javascript",
+    "topicTitle": "3.4 Complex Algorithms in Javascript",
+    "_id": "m176g88p1wnx08nas3eacsn6d58f4s51",
+    "correctKey": "C",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Arrays and lists can hold words, numbers or a combination of both, which is alphanumeric. Numbers alone is incomplete because text is also allowed.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Alphabets"
+      },
+      {
+        "key": "B",
+        "text": "Numbers"
+      },
+      {
+        "key": "C",
+        "text": "Alphanumeric"
+      },
+      {
+        "key": "D",
+        "text": "Checkboxes"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Multiple Choice Questions (continued) 14",
+    "sectionId": "array-and-list-similarities-and-differences",
+    "sectionLabel": "Array and list similarities and differences",
+    "stem": "Arrays and list can contain data types containing _______.",
+    "topicId": "ms77gwqt3c0j1cdkzdyah9ddp98bva20"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-4-complex-algorithms-in-javascript",
+    "topicTitle": "3.4 Complex Algorithms in Javascript",
+    "_id": "m1744xn62gpp8jmzt8dwe9ajpx8f5zh2",
+    "correctKey": "A",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "ADT means Abstract Data Type, defined as a type with defined operations only, as used for list. Abstract document type is not a data structure term, so it is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Abstract Data type"
+      },
+      {
+        "key": "B",
+        "text": "Abstract document type"
+      },
+      {
+        "key": "C",
+        "text": "All Data type"
+      },
+      {
+        "key": "D",
+        "text": "Any Data type"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Multiple Choice Questions (continued) 15",
+    "sectionId": "array-and-list-similarities-and-differences",
+    "sectionLabel": "Array and list similarities and differences",
+    "stem": "ADT stands for _______.",
+    "topicId": "ms77gwqt3c0j1cdkzdyah9ddp98bva20"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-4-complex-algorithms-in-javascript",
+    "topicTitle": "3.4 Complex Algorithms in Javascript",
+    "_id": "m17fbh9q0pjznxv5tbaezfsmpd8f4q35",
+    "exerciseId": "xd7f3d22ws9rbw1v5ythj92med8e08c6",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "keyPoints": [
+      "States contiguous versus non contiguous storage",
+      "States built in bracket syntax versus constructed list",
+      "States fixed rearrangement versus easier resizing or new operations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An array stores items in contiguous memory, while a list uses locations that are not necessarily contiguous.\n\nAn array is built in JavaScript with square brackets `[]`, while a list is not built in and is often constructed using arrays.\n\nAn array has fixed arrangement so insertion or deletion may need rearrangement, while a list can be resized more easily and can define new operations such as `getElement()`.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sectionId": "array-and-list-similarities-and-differences",
+    "sectionLabel": "Array and list similarities and differences",
+    "stem": "Enlist 3 key differences between array and list.",
+    "topicId": "ms77gwqt3c0j1cdkzdyah9ddp98bva20"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-4-complex-algorithms-in-javascript",
+    "topicTitle": "3.4 Complex Algorithms in Javascript",
+    "_id": "m177v013ebxmfh2da5jqn8wq0n8f517k",
+    "exerciseId": "xd71hpmp5h21kz6qnk83dbmxz58e0gxd",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Builds 10 item list array",
+      "Uses linear search loop through entire list",
+      "Counts iterations for found case",
+      "Counts full length for not found case"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "## Search with iteration count\n\nThe list is searched from start to end and a counter records how many checks were made.\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<title>Search Count</title>\n</head>\n<body>\n<p id=\"list\"></p>\n<p id=\"result\"></p>\n<script>\nconst shoppingList = [\"milk\", \"bread\", \"eggs\", \"apples\", \"cheese\", \"butter\", \"sugar\", \"tea\", \"rice\", \"salt\"];\nfunction findWithCount(itemName) {\n let count = 0;\n for (let i = 0; i < shoppingList.length; i++) {\n  count++;\n  if (shoppingList[i] === itemName) {\n   return itemName + \" found after \" + count + \" iterations.\";\n  }\n }\n return itemName + \" not found after \" + count + \" iterations.\";\n}\ndocument.getElementById(\"list\").textContent = \"List: \" + shoppingList.toString();\ndocument.getElementById(\"result\").textContent = findWithCount(\"milk\") + \" \" + findWithCount(\"honey\");\n</script>\n</body>\n</html>\n```\n\n## How count works\n\n1. Loop checks each item in order until a match is found.\n2. If found early, count equals its position plus one.\n3. If absent, the loop finishes all 10 checks, so count is 10.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "Exercise (continued) 7",
+    "sectionId": "find-an-element-in-a-list",
+    "sectionLabel": "Find an element in a list",
+    "stem": "A list contains 10 entries and we want to search a particular value in the list. Write code, to determine how many iterations it took:\nIf the list is found in the list\nIf the list is not found in the list",
+    "topicId": "ms77gwqt3c0j1cdkzdyah9ddp98bva20"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-5-advanced-techniques-for-testing-and-debugging",
+    "topicTitle": "3.5 Advanced Techniques for Testing and Debugging",
+    "_id": "m17csjmkvpxapgeev4193j5sn18f4fxj",
+    "correctKey": "D",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The debugger statement pauses execution at that point for inspection of variables and flow. Console.log only prints values and does not stop execution, so it is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "console.log()"
+      },
+      {
+        "key": "B",
+        "text": "stop"
+      },
+      {
+        "key": "C",
+        "text": "break"
+      },
+      {
+        "key": "D",
+        "text": "debugger"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 5",
+    "sectionId": "debugging-with-breakpoints-and-watchpoints",
+    "sectionLabel": "Debugging with breakpoints and watchpoints",
+    "stem": "To manually stop JavaScript code execution at a certain point, you can use:",
+    "topicId": "ms76deewmz54d0tsqcvzezmd498bv9ex"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-5-advanced-techniques-for-testing-and-debugging",
+    "topicTitle": "3.5 Advanced Techniques for Testing and Debugging",
+    "_id": "m177hjj4mc49j7txkjx4t97a198f4c81",
+    "exerciseId": "xd7f3d22ws9rbw1v5ythj92med8e08c6",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "keyPoints": [
+      "Defines breakpoint pause for inspection",
+      "Contrasts with watchpoint rule on variables",
+      "Gives sum loop example with i starting at 10 and fix to 1"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A breakpoint pauses the program at a doubtful line so variable values and data flow can be examined step by step with Step-Over in Visual Studio.NET.\n\nIn the sum of first 10 integers, the loop wrongly started with `i = 10`. The pause showed `i` as 10 and `sum` as 10, so the fault was found and fixed to `for (let i = 1; i <= 10; i++)`.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sectionId": "debugging-with-breakpoints-and-watchpoints",
+    "sectionLabel": "Debugging with breakpoints and watchpoints",
+    "stem": "How are breakpoints useful in debugging? Elaborate with help of an example.",
+    "topicId": "ms76deewmz54d0tsqcvzezmd498bv9ex"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-5-advanced-techniques-for-testing-and-debugging",
+    "topicTitle": "3.5 Advanced Techniques for Testing and Debugging",
+    "_id": "m176n3xxkq7jtytyz42wpg953n8f597c",
+    "correctKey": "B",
+    "exerciseId": "xd7dty4m07pk23tvy3tdder0gh8e1n4m",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Unit tests check each module, function or line for correct behavior and catch errors early. Validating syntax alone is a parser task, so that distractor is wrong.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "To validate code syntax"
+      },
+      {
+        "key": "B",
+        "text": "To test individual parts of the code for correctness"
+      },
+      {
+        "key": "C",
+        "text": "To style the user interface"
+      },
+      {
+        "key": "D",
+        "text": "To deploy code to production"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "Q1 6",
+    "sectionId": "unit-test",
+    "sectionLabel": "Unit test",
+    "stem": "What is the primary purpose of unit tests?",
+    "topicId": "ms76deewmz54d0tsqcvzezmd498bv9ex"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-5-advanced-techniques-for-testing-and-debugging",
+    "topicTitle": "3.5 Advanced Techniques for Testing and Debugging",
+    "_id": "m17e7s7s607y5nj7xvtx1exh7x8f530a",
+    "exerciseId": "xd7f3d22ws9rbw1v5ythj92med8e08c6",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "keyPoints": [
+      "States existing tests guard old behavior",
+      "States new function gets its own true and false tests",
+      "States failing test signals regression before release"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "When a new function is added, existing unit tests are run to confirm the old behavior still passes. New small tests are then written for the added function, for example one present item expecting true and one absent item expecting false.\n\nIf all tests pass, the programmer gains confidence that the change did not break primary functionality and that errors were caught early.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sectionId": "unit-test",
+    "sectionLabel": "Unit test",
+    "stem": "How is unit testing used when adding a function to an already written program?",
+    "topicId": "ms76deewmz54d0tsqcvzezmd498bv9ex"
+  }
+]

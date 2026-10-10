@@ -1,0 +1,915 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-1-introduction-to-internet-of-things",
+    "topicTitle": "5.1 Introduction to Internet of Things (IoT)",
+    "_id": "m17cmrpne6kzhnpw5ktdfkg2sn85qw29",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines IoT as a network of physical objects with embedded sensors, software, and connectivity that collect and exchange data over the internet",
+      "Identifies and explains the four main IoT system components: sensors/devices, connectivity, data processing, and user interface",
+      "Describes four distinct IoT applications with specific examples and benefits (smart homes, healthcare, industrial, smart cities)",
+      "Explains how sensors and actuators function within IoT systems to collect data and perform physical actions",
+      "Demonstrates understanding of IoT's role in automating processes and enabling data-driven decision-making"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "The **Internet of Things (IoT)** is a network of physical objects embedded with sensors, software, and connectivity technologies that collect and exchange data with other devices and systems over the internet, often without direct human intervention. IoT systems comprise four main components: sensors/devices that collect environmental data, connectivity technologies (Wi-Fi, Bluetooth, 4G/5G) that transmit data, data processing software that analyzes information and makes decisions, and user interfaces that present information to users.\n\n**Four Applications of IoT Technology:**\n\n**1. Smart Home Systems:** IoT devices such as smart thermostats, connected lighting systems, and smart door locks enable automated control of home environments. Sensors detect temperature and occupancy, while actuators adjust heating/cooling and lighting based on user preferences, improving energy efficiency and convenience.\n\n**2. Healthcare Monitoring:** Wearable IoT devices like fitness trackers and medical sensors continuously monitor vital signs such as heart rate, blood pressure, and glucose levels. This data is transmitted to healthcare providers in real-time, enabling early detection of health issues and personalized medical interventions.\n\n**3. Industrial IoT (IIoT):** Manufacturing facilities use IoT sensors to monitor equipment performance, temperature, pressure, and production metrics. This enables predictive maintenance, reduces downtime, optimizes production processes, and improves workplace safety through real-time monitoring.\n\n**4. Smart Cities:** IoT technology manages urban infrastructure including traffic lights, parking systems, waste management, and environmental monitoring. Sensors collect data on air quality, traffic flow, and energy consumption, allowing city administrators to optimize resource allocation and improve quality of life for residents.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "What is meant by **Internet of Things (IoT)**? Describe any four applications of IoT technology.",
+    "topicId": "ms7b3cwcwrqc25rjx58h4wtqjx85peqy",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-1-introduction-to-internet-of-things",
+    "topicTitle": "5.1 Introduction to Internet of Things (IoT)",
+    "_id": "m1701099jv7tcwejz4ckphap9185qger",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Half-duplex: bidirectional communication but alternating (one direction at a time)",
+      "Full-duplex: simultaneous two-way communication in both directions at the same time",
+      "Half-duplex is economical and simpler; Full-duplex requires more bandwidth and complex hardware",
+      "Half-duplex has lower speed due to turn-taking; Full-duplex provides faster, more efficient communication",
+      "Examples: Half-duplex (walkie-talkies, CB radio); Full-duplex (telephone calls, modern network connections)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Half-duplex and full-duplex are two communication modes that differ in data transmission direction and simultaneity. Half-duplex allows data transmission in both directions but only one direction at a time, requiring devices to take turns sending and receiving data. Full-duplex enables simultaneous two-way communication, allowing devices to send and receive data at the same time. Half-duplex is simpler and more economical but slower, while full-duplex is faster and more efficient but requires more complex hardware and bandwidth.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "session": "annual",
+    "stem": "Compare **Half-duplex** and **Full-duplex** communication modes. (Any three points)",
+    "topicId": "ms7b3cwcwrqc25rjx58h4wtqjx85peqy",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-1-introduction-to-internet-of-things",
+    "topicTitle": "5.1 Introduction to Internet of Things (IoT)",
+    "_id": "m17f6tjf1m8dne44qy1tm0ptd985qaqn",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies WML as Wireless Markup Language",
+      "States Feature 1: Optimized for low-bandwidth/limited bandwidth environments",
+      "States Feature 2: Designed for small screens/limited display capabilities",
+      "Explains how features relate to wireless device constraints",
+      "Uses appropriate technical terminology"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "WML stands for Wireless Markup Language. It is a markup language designed for creating content on wireless devices with limited bandwidth and small screens. The two key features of WML are: (1) It is optimized for low-bandwidth environments, allowing efficient data transmission over wireless networks, and (2) It supports limited formatting and navigation suited to small display screens of mobile and wireless devices.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "session": "annual",
+    "stem": "What is **WML**? Write down its two features.",
+    "topicId": "ms7b3cwcwrqc25rjx58h4wtqjx85peqy",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17cmrpne6kzhnpw5ktdfkg2sn85qw29",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines IoT as a network of physical objects with embedded sensors, software, and connectivity that collect and exchange data over the internet",
+      "Identifies and explains the four main IoT system components: sensors/devices, connectivity, data processing, and user interface",
+      "Describes four distinct IoT applications with specific examples and benefits (smart homes, healthcare, industrial, smart cities)",
+      "Explains how sensors and actuators function within IoT systems to collect data and perform physical actions",
+      "Demonstrates understanding of IoT's role in automating processes and enabling data-driven decision-making"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "The **Internet of Things (IoT)** is a network of physical objects embedded with sensors, software, and connectivity technologies that collect and exchange data with other devices and systems over the internet, often without direct human intervention. IoT systems comprise four main components: sensors/devices that collect environmental data, connectivity technologies (Wi-Fi, Bluetooth, 4G/5G) that transmit data, data processing software that analyzes information and makes decisions, and user interfaces that present information to users.\n\n**Four Applications of IoT Technology:**\n\n**1. Smart Home Systems:** IoT devices such as smart thermostats, connected lighting systems, and smart door locks enable automated control of home environments. Sensors detect temperature and occupancy, while actuators adjust heating/cooling and lighting based on user preferences, improving energy efficiency and convenience.\n\n**2. Healthcare Monitoring:** Wearable IoT devices like fitness trackers and medical sensors continuously monitor vital signs such as heart rate, blood pressure, and glucose levels. This data is transmitted to healthcare providers in real-time, enabling early detection of health issues and personalized medical interventions.\n\n**3. Industrial IoT (IIoT):** Manufacturing facilities use IoT sensors to monitor equipment performance, temperature, pressure, and production metrics. This enables predictive maintenance, reduces downtime, optimizes production processes, and improves workplace safety through real-time monitoring.\n\n**4. Smart Cities:** IoT technology manages urban infrastructure including traffic lights, parking systems, waste management, and environmental monitoring. Sensors collect data on air quality, traffic flow, and energy consumption, allowing city administrators to optimize resource allocation and improve quality of life for residents.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "What is meant by **Internet of Things (IoT)**? Describe any four applications of IoT technology.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17fwyfn81ahenwfctccq1xfvd85pwbp",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are transport layer protocols, also known as Layer 4 of the OSI model. They operate at the Transport Layer, which is responsible for end-to-end communication, reliability, and data flow between applications on different hosts.",
+    "keyPoints": [
+      "TCP and UDP operate at the Transport Layer (Layer 4 of OSI model)",
+      "Transport Layer is responsible for end-to-end communication between applications",
+      "TCP provides reliable, connection-oriented delivery",
+      "UDP provides unreliable, connectionless delivery",
+      "Both protocols use port numbers to identify services and applications"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are transport layer protocols, also known as Layer 4 of the OSI model. They operate at the Transport Layer, which is responsible for end-to-end communication, reliability, and data flow between applications on different hosts.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Session layer"
+      },
+      {
+        "key": "B",
+        "text": "Application layer"
+      },
+      {
+        "key": "C",
+        "text": "Network layer"
+      },
+      {
+        "key": "D",
+        "text": "Transport layer"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "**TCP** and **UDP** protocols are used at the following layer:",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m1748rggnv1dzsgbavpqg9cc1985p19b",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A Radio Frequency (RF) communication system consists of two main components: (1) Transmitter - which converts information signals into RF signals and transmits them through an antenna, and (2) Receiver - which receives RF signals through an antenna and converts them back into the original information signals. These two components work together to enable wireless communication over distances.",
+    "keyPoints": [
+      "Transmitter converts information into RF signals",
+      "Receiver converts RF signals back to information",
+      "Both use antennas for signal transmission and reception",
+      "Together they form a complete RF communication system",
+      "The transmitter sends and the receiver receives wireless signals"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A Radio Frequency (RF) communication system consists of two main components: (1) Transmitter - which converts information signals into RF signals and transmits them through an antenna, and (2) Receiver - which receives RF signals through an antenna and converts them back into the original information signals. These two components work together to enable wireless communication over distances.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transmitter and receiver"
+      },
+      {
+        "key": "B",
+        "text": "Transmitter and medium"
+      },
+      {
+        "key": "C",
+        "text": "Transmitter and antenna"
+      },
+      {
+        "key": "D",
+        "text": "Receiver and medium"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "A **Radio Frequency (RF)** communication system consists of two components known as:",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m171h12w51sz41b4vfv46twx1d85qbg5",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies one valid advantage of wireless communication (e.g., no cables needed, flexibility, ease of installation)",
+      "Identifies first disadvantage related to signal obstruction/interference by physical barriers",
+      "Identifies second disadvantage related to security vulnerabilities and susceptibility to interception/hacking",
+      "Explanations are clear and relevant to IoT/connectivity context",
+      "Appropriate use of technical terminology"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Advantage:** Wireless communication eliminates the need for physical cables and wiring, allowing devices to connect and communicate freely over distances, making installation easier and more flexible for IoT systems and mobile devices.\n\n**Disadvantages:** (1) Wireless signals can be interrupted by physical obstacles such as walls, buildings, and terrain, leading to reduced signal strength and unreliable connectivity. (2) Wireless communication is more vulnerable to security threats and unauthorized access compared to wired connections, as signals can be intercepted and hacked more easily by malicious users.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Write down one advantage and two disadvantages of **wireless communication**.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17ak25w4ta5bwbtqpzw7rfzcx85q1nv",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition of Infrared as electromagnetic radiation with wavelengths beyond visible light spectrum",
+      "Line-of-sight transmission capability without RF interference",
+      "Cost-effectiveness and low power consumption for IoT devices",
+      "Security advantage due to directional transmission properties",
+      "Applications in remote controls and short-range wireless communication"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Infrared (IR) is a form of electromagnetic radiation with wavelengths longer than visible light, used for wireless communication in short-range applications. In wireless communication, IR is important because it enables line-of-sight data transmission without radio frequency interference, making it ideal for remote controls, mobile device communication, and IoT applications. IR technology is cost-effective, secure due to its directional nature, and consumes minimal power, making it valuable for battery-operated devices in IoT systems where connectivity technologies are essential for data exchange.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "What is **Infrared (IR)**? Write its importance in wireless communication.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17d2desjd9e8dby423j1vd3c585qb6e",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Line of sight communication refers to wireless communication where the transmitter and receiver must be in direct line of sight with each other, with no obstructions between them. Examples include: microwave communication, satellite communication, infrared communication, and laser communication. These systems require a clear, unobstructed path between the sender and receiver for effective signal transmission.",
+    "keyPoints": [
+      "Line of sight communication requires direct, unobstructed path between transmitter and receiver",
+      "Microwave communication is a common example",
+      "Satellite communication operates on line of sight principle",
+      "Infrared and laser communications are also examples",
+      "Obstacles like buildings or terrain can block the signal",
+      "Used in wireless networks, remote controls, and telecommunications"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Line of sight communication refers to wireless communication where the transmitter and receiver must be in direct line of sight with each other, with no obstructions between them. Examples include: microwave communication, satellite communication, infrared communication, and laser communication. These systems require a clear, unobstructed path between the sender and receiver for effective signal transmission.",
+    "options": [
+      {
+        "key": "A",
+        "text": "WiMAX"
+      },
+      {
+        "key": "B",
+        "text": "WiFi"
+      },
+      {
+        "key": "C",
+        "text": "Infrared"
+      },
+      {
+        "key": "D",
+        "text": "Bluetooth"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "It is an example of line of sight communication:",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m1777qmxjj3qg2709mnq2jfzxd85p7p6",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Wireless Application Protocol (WAP) is used to enable access to internet services and web content on mobile devices and wireless networks. It provides a standardized framework for delivering web-based information and services to mobile phones and other wireless devices with limited bandwidth and processing capabilities. WAP acts as a bridge between mobile devices and internet servers, optimizing data transmission for wireless communication.",
+    "keyPoints": [
+      "WAP enables internet access on mobile and wireless devices",
+      "It optimizes web content for devices with limited bandwidth",
+      "WAP provides a standardized protocol for wireless communication",
+      "It allows delivery of web services to mobile phones",
+      "WAP compresses and adapts data for efficient wireless transmission",
+      "It bridges mobile devices and internet servers"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Wireless Application Protocol (WAP) is used to enable access to internet services and web content on mobile devices and wireless networks. It provides a standardized framework for delivering web-based information and services to mobile phones and other wireless devices with limited bandwidth and processing capabilities. WAP acts as a bridge between mobile devices and internet servers, optimizing data transmission for wireless communication.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide internet access to wireless devices"
+      },
+      {
+        "key": "B",
+        "text": "Modify signal frequency"
+      },
+      {
+        "key": "C",
+        "text": "Convert messages from text to electronic signal"
+      },
+      {
+        "key": "D",
+        "text": "Increase signal strength"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Wireless application protocol (**WAP**) is used to:",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m178dvhggbz8mpx7xgqr6777rd85qbb4",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "GPS is a satellite-based navigation system providing location and timing information",
+      "Enables location-based services and geolocation tracking in wireless networks",
+      "Synchronizes timing for accurate wireless data transmission and network coordination",
+      "Supports emergency response and mobile device tracking applications",
+      "Enhances IoT and wireless system performance through precise positioning data"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "GPS (Global Positioning System) is a satellite-based navigation system that provides precise location and timing information to receivers anywhere on Earth. In wireless communication, GPS is important because it enables location-based services, synchronizes network timing for accurate data transmission, supports emergency response systems, and allows tracking of mobile devices and IoT systems. GPS enhances wireless networks by providing geolocation data that improves service delivery, enables location-aware applications, and ensures reliable coordination between distributed wireless devices and systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "What is **GPS**? Write its importance in wireless communication.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17cxjfm5se7e577dd6jv6w65h85pmhp",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A memory card is an example of secondary storage (or external storage/removable storage). It is a non-volatile storage device used to store data permanently outside the computer system. Memory cards are portable, rewritable storage media commonly used in digital cameras, mobile phones, and other portable devices.",
+    "keyPoints": [
+      "Memory cards are secondary/external storage devices",
+      "They provide non-volatile storage (data persists without power)",
+      "They are removable and portable",
+      "Commonly used in cameras, phones, and portable devices",
+      "Examples include SD cards, microSD cards, and CompactFlash cards",
+      "They store data permanently until deliberately erased"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A memory card is an example of secondary storage (or external storage/removable storage). It is a non-volatile storage device used to store data permanently outside the computer system. Memory cards are portable, rewritable storage media commonly used in digital cameras, mobile phones, and other portable devices.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cache memory"
+      },
+      {
+        "key": "B",
+        "text": "Chip memory"
+      },
+      {
+        "key": "C",
+        "text": "Magnetic memory"
+      },
+      {
+        "key": "D",
+        "text": "Optical memory"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "A memory card is an example of:",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17av0enne1qnkrte16j6a1zq585pbev",
+    "correctKey": "C",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The Session layer (Layer 5) of the OSI model uses protocols such as **NetBIOS**, **PPTP** (Point-to-Point Tunneling Protocol), **RPC** (Remote Procedure Call), and **SMTP** (Simple Mail Transfer Protocol) for establishing, maintaining, and terminating communication sessions between applications. Common session layer protocols include NetBIOS, PPTP, and RPC. These protocols manage dialogue control, synchronization, and session establishment between end-user applications.",
+    "keyPoints": [
+      "Session layer is Layer 5 of the OSI model",
+      "NetBIOS is a primary session layer protocol",
+      "PPTP (Point-to-Point Tunneling Protocol) operates at session layer",
+      "RPC (Remote Procedure Call) is used for session management",
+      "Session layer protocols handle session establishment, maintenance, and termination",
+      "These protocols manage dialogue control and synchronization between applications"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The Session layer (Layer 5) of the OSI model uses protocols such as **NetBIOS**, **PPTP** (Point-to-Point Tunneling Protocol), **RPC** (Remote Procedure Call), and **SMTP** (Simple Mail Transfer Protocol) for establishing, maintaining, and terminating communication sessions between applications. Common session layer protocols include NetBIOS, PPTP, and RPC. These protocols manage dialogue control, synchronization, and session establishment between end-user applications.",
+    "options": [
+      {
+        "key": "A",
+        "text": "X.25"
+      },
+      {
+        "key": "B",
+        "text": "TCP"
+      },
+      {
+        "key": "C",
+        "text": "NetBIOS"
+      },
+      {
+        "key": "D",
+        "text": "HTTP"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Which of the following protocols is used at the **Session layer** of the OSI model?",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17arpwrxd1jp9rsmcdb1a8krh85qfqm",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A TV remote is an example of wireless communication. It uses infrared (IR) signals to transmit commands from the remote to the television receiver without requiring physical wired connections. The remote acts as a transmitter sending encoded digital signals through the air, which the TV's receiver decodes to perform actions like changing channels or adjusting volume.",
+    "keyPoints": [
+      "Identifies wireless communication as the type",
+      "Mentions infrared (IR) technology used in TV remotes",
+      "Explains signal transmission from remote to TV receiver",
+      "Notes absence of physical wired connection requirement",
+      "Describes function of encoding/decoding signals"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A TV remote is an example of wireless communication. It uses infrared (IR) signals to transmit commands from the remote to the television receiver without requiring physical wired connections. The remote acts as a transmitter sending encoded digital signals through the air, which the TV's receiver decodes to perform actions like changing channels or adjusting volume.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Infrared"
+      },
+      {
+        "key": "B",
+        "text": "Wi-Fi"
+      },
+      {
+        "key": "C",
+        "text": "Wi-Max"
+      },
+      {
+        "key": "D",
+        "text": "Bluetooth"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "TV remote is an example of following communication:",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17dja59ptrwqd9qx2nnhc4hbs85qtwy",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines Bluetooth as wireless communication technology using 2.4 GHz radio frequency",
+      "Mentions short-range connectivity without cables (typically up to 100 meters)",
+      "Identifies wireless audio devices (headphones/earbuds) as first application",
+      "Identifies smart home/wearable devices as second application",
+      "Explains how each application uses Bluetooth for data exchange or control"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Bluetooth is a wireless communication technology that enables short-range data exchange between devices using radio waves in the 2.4 GHz frequency band. It allows devices to connect and communicate without physical cables over distances typically up to 100 meters. Two applications of Bluetooth are: (1) Wireless headphones and earbuds that connect to smartphones and audio devices for hands-free communication and music streaming, and (2) Smart home devices such as fitness trackers, smartwatches, and smart locks that connect to mobile phones or central hubs for data synchronization and remote control.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is **Bluetooth**? Enlist any two applications of Bluetooth.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17eva8sqgjyfcnxmx6snyz5k985q1w4",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: Expansion slot is a motherboard connector for adding expansion cards to enhance computer functionality",
+      "Purpose: Allows installation of additional hardware components without replacing the motherboard",
+      "PCIe identified as most efficient due to high-speed data transfer capabilities",
+      "PCIe advantages: supports multiple lane configurations (x1, x4, x8, x16) for different devices",
+      "PCIe is modern standard that replaced older technologies like PCI and AGP"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An expansion slot is a connector on the motherboard that allows users to insert expansion cards (such as graphics cards, sound cards, or network cards) to add new functionality to a computer. The most efficient expansion slot is **PCIe (PCI Express)**, which offers high-speed data transfer rates, scalability through different lane configurations (x1, x4, x8, x16), and has become the industry standard for modern computers, replacing older standards like PCI and AGP.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "What is the purpose of an **expansion slot**? Identify the most efficient expansion slot as well.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m17cgypa17jrgjypgwqsgskve985qqf9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Network Interface Card (NIC) is required to connect to the internet",
+      "Can be Ethernet card (wired) or Wireless Network Adapter (WiFi)",
+      "Provides physical interface between computer and network",
+      "Converts data into appropriate signals for transmission",
+      "Manages data packets for proper communication",
+      "Enables connection to ISP and other network devices",
+      "Essential hardware component for internet connectivity"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A Network Interface Card (NIC) or Network Adapter is the expansion card required to connect to the internet. It can be either an Ethernet card (for wired connection) or a Wireless Network Adapter (for WiFi connection). Reasons for using this card: (1) It provides the physical interface between the computer and the network/internet connection. (2) It converts data into signals suitable for transmission over network cables or wireless frequencies. (3) It enables communication with other devices on the network and the internet service provider. (4) It manages data packets and ensures proper data transmission and reception. (5) Without a NIC, the computer cannot establish any network connection.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Which **expansion card** is required to connect to the internet? Give reasons of using this card.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-2-technologies-that-enabled-internet-of-things",
+    "topicTitle": "5.2 Technologies Enabling IoT",
+    "_id": "m173kdpj9qfsxq5f7kx34gdfzn85p16z",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies mobility/flexibility as key advantage of wireless communication",
+      "Explains cost-effectiveness and reduced infrastructure requirements",
+      "Discusses easy installation, maintenance, and scalability benefits",
+      "Connects wireless communication to IoT connectivity component",
+      "Mentions specific wireless technologies (Wi-Fi, Bluetooth, 4G/5G) used in IoT systems"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "Wireless communication is more popular than wired communication for five key reasons: **(1) Mobility and Flexibility**, wireless devices can be used anywhere within range without physical cables, enabling users to move freely; **(2) Cost-Effectiveness**, wireless systems eliminate expensive infrastructure costs associated with laying cables and physical installation; **(3) Easy Installation and Maintenance**, wireless networks require minimal setup time and reduce maintenance complexity compared to wired systems; **(4) Scalability**, wireless networks can easily accommodate additional devices without rewiring, making expansion simpler; **(5) Convenience in IoT Applications**, wireless connectivity (Wi-Fi, Bluetooth, 4G/5G) is essential for IoT devices that need to transmit data to cloud systems and processing centres without physical connections. In the context of IoT systems, wireless communication serves as the critical **connectivity component** that enables sensors and actuators to exchange data with cloud-based software for data processing and user interface interaction. This flexibility and ease of deployment have made wireless communication the preferred choice for modern connected devices and smart systems.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Why is **wireless communication** more popular? Give five reasons.",
+    "topicId": "ms736xf64wr8pq230hbvtq4xgx85phjz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-3-blockchain",
+    "topicTitle": "5.3 Blockchain",
+    "_id": "m178jgvbq4sdyzj1cy1w2614yn85pdc1",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Permissioned blockchain restricts access to authorized users only",
+      "Central authority or consortium controls who can participate",
+      "Only approved participants can read, write, or validate transactions",
+      "Provides better privacy and control compared to public blockchains",
+      "Examples: Hyperledger Fabric, Corda",
+      "Supply Chain Management application for tracking products",
+      "Healthcare Records application for secure patient data sharing",
+      "Ensures confidentiality among authorized network members"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A Permissioned Blockchain is a type of blockchain network where access and participation are restricted to authorized users only. In this network, not everyone can join, validate transactions, or add blocks. Access is controlled through permissions granted by a central authority or consortium. Only pre-approved participants can read, write, or validate data on the network. Examples include Hyperledger Fabric and Corda.\n\nApplications of Permissioned Blockchain:\n1. Enterprise Supply Chain Management: Organizations use permissioned blockchains to track products from manufacture to delivery, ensuring transparency and authenticity while maintaining confidentiality among authorized partners.\n2. Healthcare Records: Hospitals and healthcare providers use permissioned blockchains to securely store and share patient medical records among authorized medical professionals, ensuring privacy and data integrity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "What is **Permissioned Blockchain** network? Also list down its applications (any two).",
+    "topicId": "ms79wcacmpat8ajwg1c6w4a1k185pkh2",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-3-blockchain",
+    "topicTitle": "5.3 Blockchain",
+    "_id": "m179f9dzzqdyh4fw13pj2rbckx85prw4",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "DML (Data Manipulation Language) is used to insert, update, and delete data in a database. Specifically, DML includes commands such as INSERT, UPDATE, and DELETE that allow users to manipulate the actual data stored in database tables.",
+    "keyPoints": [
+      "DML stands for Data Manipulation Language",
+      "INSERT command adds new records to a table",
+      "UPDATE command modifies existing records",
+      "DELETE command removes records from a table",
+      "DML is distinct from DDL (Data Definition Language) which defines database structure"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "DML (Data Manipulation Language) is used to insert, update, and delete data in a database. Specifically, DML includes commands such as INSERT, UPDATE, and DELETE that allow users to manipulate the actual data stored in database tables.",
+    "options": [
+      {
+        "key": "A",
+        "text": "DDL"
+      },
+      {
+        "key": "B",
+        "text": "DML"
+      },
+      {
+        "key": "C",
+        "text": "DCL"
+      },
+      {
+        "key": "D",
+        "text": "DXL"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Which of the following database languages is used to insert, update and delete data in a database?",
+    "topicId": "ms79wcacmpat8ajwg1c6w4a1k185pkh2",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-3-blockchain",
+    "topicTitle": "5.3 Blockchain",
+    "_id": "m17eanyv9v5fhdgf175sbe66bd85qhws",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The maximum number of instances of one entity associated with each instance of a related entity is called **cardinality**. Cardinality defines the relationship constraints between entities in a database, specifying whether the relationship is one-to-one, one-to-many, or many-to-many.",
+    "keyPoints": [
+      "Cardinality defines the maximum number of entity instances in a relationship",
+      "Expresses relationship constraints between entities (1:1, 1:N, M:N)",
+      "Essential for database design and entity-relationship modeling",
+      "Determines how data is organized and linked in relational databases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The maximum number of instances of one entity associated with each instance of a related entity is called **cardinality**. Cardinality defines the relationship constraints between entities in a database, specifying whether the relationship is one-to-one, one-to-many, or many-to-many.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modality"
+      },
+      {
+        "key": "B",
+        "text": "Cardinality"
+      },
+      {
+        "key": "C",
+        "text": "Relational schema"
+      },
+      {
+        "key": "D",
+        "text": "Relationship degree"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "The maximum number of instances of one entity associated with each instance of a related entity is called:",
+    "topicId": "ms79wcacmpat8ajwg1c6w4a1k185pkh2",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-3-blockchain",
+    "topicTitle": "5.3 Blockchain",
+    "_id": "m17epep8rhkqpd1c681mv91xrd85qcqr",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Database design and schema maintenance",
+      "User security and access control management",
+      "Backup and disaster recovery planning",
+      "Performance monitoring and optimization",
+      "Database troubleshooting and support"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three main roles of a Database Administrator are:\n\n1. **Database Design and Maintenance**: The DBA is responsible for designing database schemas, creating tables, defining relationships, and maintaining the overall structure of the database to ensure efficient data organization and retrieval.\n\n2. **Security and Access Control**: The DBA manages user accounts, assigns permissions, implements authentication mechanisms, and ensures data security by controlling who can access, modify, or delete data in the database.\n\n3. **Backup and Recovery**: The DBA performs regular backups of the database, creates recovery plans, and ensures that data can be restored in case of system failures, data corruption, or disasters to maintain data integrity and business continuity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "Enlist any three roles of **Database administrator**.",
+    "topicId": "ms79wcacmpat8ajwg1c6w4a1k185pkh2",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-3-blockchain",
+    "topicTitle": "5.3 Blockchain",
+    "_id": "m17eg03d4dkmznsxmjjnpqhdv185qrj1",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Client-Server has centralized server; P2P has distributed equal peers",
+      "Client-Server uses centralized resource management; P2P uses distributed management",
+      "Client-Server is costly to scale; P2P is more cost-effective and scalable",
+      "Client-Server has single point of failure; P2P is more reliable",
+      "Client-Server has better centralized security; P2P has distributed security challenges"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Client-Server and Peer-to-Peer are two fundamental network architectures that differ in structure and functionality:\n\n1. **Structure and Roles**: In Client-Server architecture, there is a centralized server that provides resources and services to multiple clients. In Peer-to-Peer (P2P) architecture, all computers (peers) have equal status and can act as both clients and servers simultaneously.\n\n2. **Resource Management**: Client-Server uses centralized resource management where the server controls and manages all resources, data, and services. P2P uses distributed resource management where each peer maintains its own resources and shares them directly with other peers.\n\n3. **Scalability and Cost**: Client-Server requires powerful, expensive servers to handle multiple client requests, making it costly to scale. P2P is more scalable as new peers can join without requiring additional central infrastructure, making it more cost-effective.\n\n4. **Reliability and Failure**: Client-Server has a single point of failure; if the server goes down, the entire network becomes non-functional. P2P is more reliable as the network continues to function even if individual peers fail, since there is no central dependency.\n\n5. **Security**: Client-Server provides centralized security control and monitoring. P2P has distributed security, making it harder to implement uniform security policies and more vulnerable to attacks.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "22",
+    "session": "annual",
+    "stem": "Differentiate between **Client-Server** and **Peer-to-Peer** network architectures. (Any three points)",
+    "topicId": "ms79wcacmpat8ajwg1c6w4a1k185pkh2",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-3-blockchain",
+    "topicTitle": "5.3 Blockchain",
+    "_id": "m17bjc68n2dsge7defrkwt5kj185q5xs",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Database model is a logical framework defining data organization and access methods",
+      "Hierarchical model uses tree structure with one-to-many relationships",
+      "Network model uses graph structure with many-to-many relationships",
+      "Hierarchical model requires sequential traversal from root node",
+      "Network model provides flexible multiple access paths",
+      "Hierarchical model is simpler but less flexible",
+      "Network model handles complex relationships more efficiently",
+      "Hierarchical model may have data redundancy",
+      "Network model reduces redundancy through multiple links"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "A database model is a logical structure or framework that defines how data is organized, stored, and accessed in a database system. It provides rules and methods for representing relationships between data entities.\n\nDifferences between Hierarchical and Network Database Models:\n\n1. **Structure**: Hierarchical model organizes data in a tree-like structure with parent-child relationships in a one-to-many format, while Network model allows multiple parent-child relationships (many-to-many), forming a graph-like structure.\n\n2. **Data Relationships**: Hierarchical model supports only one-to-many relationships between parent and child nodes, whereas Network model supports many-to-many relationships, allowing a child node to have multiple parents.\n\n3. **Data Access**: Hierarchical model requires traversing from root to access data in a sequential manner following the tree path, while Network model provides more flexible access paths through multiple pointers and links.\n\n4. **Complexity**: Hierarchical model is simpler to understand and implement but less flexible for complex relationships, while Network model is more complex but handles complex data relationships more efficiently.\n\n5. **Data Redundancy**: Hierarchical model may require data duplication to represent multiple relationships, whereas Network model reduces redundancy by allowing direct links between related records.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "What is **database model**? How is **Hierarchical database model** different from **Network database model**? Give at least four reasons.",
+    "topicId": "ms79wcacmpat8ajwg1c6w4a1k185pkh2",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-5-integration-of-blockchain-and-iot",
+    "topicTitle": "5.5 Blockchain and IoT Integration",
+    "_id": "m178jgvbq4sdyzj1cy1w2614yn85pdc1",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Permissioned blockchain restricts access to authorized users only",
+      "Central authority or consortium controls who can participate",
+      "Only approved participants can read, write, or validate transactions",
+      "Provides better privacy and control compared to public blockchains",
+      "Examples: Hyperledger Fabric, Corda",
+      "Supply Chain Management application for tracking products",
+      "Healthcare Records application for secure patient data sharing",
+      "Ensures confidentiality among authorized network members"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A Permissioned Blockchain is a type of blockchain network where access and participation are restricted to authorized users only. In this network, not everyone can join, validate transactions, or add blocks. Access is controlled through permissions granted by a central authority or consortium. Only pre-approved participants can read, write, or validate data on the network. Examples include Hyperledger Fabric and Corda.\n\nApplications of Permissioned Blockchain:\n1. Enterprise Supply Chain Management: Organizations use permissioned blockchains to track products from manufacture to delivery, ensuring transparency and authenticity while maintaining confidentiality among authorized partners.\n2. Healthcare Records: Hospitals and healthcare providers use permissioned blockchains to securely store and share patient medical records among authorized medical professionals, ensuring privacy and data integrity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "What is **Permissioned Blockchain** network? Also list down its applications (any two).",
+    "topicId": "ms74k8h24ndn4261y8jfjsefzx85q28q",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "05-application-of-computer-science",
+    "chapterTitle": "Application Of Computer Science",
+    "topicSlug": "5-6-stakeholders-interests-in-ai-systems",
+    "topicTitle": "5.6 Stakeholder Interests in AI Systems",
+    "_id": "m175zy0t5znpep2g59ajdpbgp985qmzv",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies three distinct positive impacts of AI systems",
+      "Explains how each impact benefits stakeholders (organizations, individuals, or society)",
+      "Demonstrates understanding of practical applications in real-world contexts",
+      "Uses appropriate terminology related to AI system deployment and outcomes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three positive impacts of AI systems include: (1) **Improved Efficiency and Productivity**, AI automates repetitive tasks, reducing time and costs for organizations while allowing workers to focus on higher-value activities. (2) **Enhanced Decision-Making**, AI systems analyze large datasets to provide data-driven insights, enabling better informed decisions in healthcare, business, and public policy. (3) **Accessibility and Inclusivity**, AI technologies such as voice recognition, language translation, and adaptive interfaces make services more accessible to people with disabilities and diverse linguistic backgrounds, promoting equal opportunity and social inclusion.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Write down three positive impacts of **AI systems**.",
+    "topicId": "ms7byyjaf0pqb44bhyvmd01ztd85pxe7",
+    "year": 2025
+  }
+]

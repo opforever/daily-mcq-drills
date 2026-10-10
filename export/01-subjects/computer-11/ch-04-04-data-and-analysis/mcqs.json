@@ -1,0 +1,305 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-statistical-modeling",
+    "topicTitle": "4.1 Statistical Modeling",
+    "_id": "k979987edqa3gnr3wvdf0ahjc18d2tqs",
+    "correctKey": "A",
+    "explanation": "The corpus defines a statistical model as a collection of probability distributions on the set of all possible outcomes of an experiment.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70jy7bhgktaed6z3cj84byy985qcca",
+    "options": [
+      {
+        "key": "A",
+        "text": "A collection of probability distributions on all possible outcomes of an experiment"
+      },
+      {
+        "key": "B",
+        "text": "A printer's queue of jobs"
+      },
+      {
+        "key": "C",
+        "text": "A fixed drawing made by turtle graphics"
+      },
+      {
+        "key": "D",
+        "text": "A list that can contain only one value"
+      }
+    ],
+    "sectionId": "statistical-modeling",
+    "sectionLabel": "statistical-modeling",
+    "stem": "What is a statistical model described as in the corpus?",
+    "topicId": "ms74jpnqnzv167e2t532vz6b9n85qt2w"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "k97b059g58ywj706vsmt0z9pbd85qkxg",
+    "correctKey": "B",
+    "explanation": "Experimental design is specifically structured to determine if changes in one variable cause changes in another, moving beyond mere correlation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73nyztb10pyajev724gzejmn85p83z",
+    "options": [
+      {
+        "key": "A",
+        "text": "To collect as much data as possible without a plan"
+      },
+      {
+        "key": "B",
+        "text": "To establish causal relationships between variables"
+      },
+      {
+        "key": "C",
+        "text": "To prove that correlation always implies causation"
+      },
+      {
+        "key": "D",
+        "text": "To eliminate the need for a hypothesis"
+      }
+    ],
+    "stem": "Which of the following is the primary goal of experimental design?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "k97ezm3h75nrven9sn27bwte6n85pmrg",
+    "correctKey": "C",
+    "explanation": "The layout is the factor being manipulated by the researcher, making it the independent variable.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73nyztb10pyajev724gzejmn85p83z",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dependent Variable"
+      },
+      {
+        "key": "B",
+        "text": "Control Variable"
+      },
+      {
+        "key": "C",
+        "text": "Independent Variable"
+      },
+      {
+        "key": "D",
+        "text": "Extraneous Variable"
+      }
+    ],
+    "stem": "In a study testing a new website layout's effect on user clicks, the 'layout' is the:",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "k9781e76c2w88nq7bhhg81nj8h85pjaz",
+    "correctKey": "B",
+    "explanation": "Without a control group, it is impossible to know if the observed changes were caused by the treatment or by external factors.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73nyztb10pyajev724gzejmn85p83z",
+    "options": [
+      {
+        "key": "A",
+        "text": "To ensure the experiment is expensive"
+      },
+      {
+        "key": "B",
+        "text": "To provide a baseline to measure the effect of the treatment"
+      },
+      {
+        "key": "C",
+        "text": "To increase the sample size of the experimental group"
+      },
+      {
+        "key": "D",
+        "text": "To ensure all participants receive the treatment"
+      }
+    ],
+    "stem": "Why is a 'Control Group' essential in a valid experiment?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "k970vhbkab0xvktr08sza4tq4h85q9yz",
+    "correctKey": "B",
+    "explanation": "Randomization helps eliminate bias by ensuring that the experimental and control groups are statistically similar before the experiment begins.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73nyztb10pyajev724gzejmn85p83z",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stratification"
+      },
+      {
+        "key": "B",
+        "text": "Randomization"
+      },
+      {
+        "key": "C",
+        "text": "Selection Bias"
+      },
+      {
+        "key": "D",
+        "text": "Correlation"
+      }
+    ],
+    "stem": "What technique is used to ensure that every participant has an equal chance of being placed in any group?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "k9796f47pn7nhwej7bsy1kzvph85q4tm",
+    "correctKey": "B",
+    "explanation": "Surveys are a primary data-collection approach used to gather original data directly from respondents. A Likert-scale survey is a classic example of this method, aligning with CS-11-G-01.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73nyztb10pyajev724gzejmn85p83z",
+    "options": [
+      {
+        "key": "A",
+        "text": "A/B Testing with two website layouts"
+      },
+      {
+        "key": "B",
+        "text": "A Likert-scale satisfaction survey sent to customers"
+      },
+      {
+        "key": "C",
+        "text": "Downloading a pre-existing government dataset"
+      },
+      {
+        "key": "D",
+        "text": "Running a regression model on historical sales data"
+      }
+    ],
+    "stem": "Which of the following is a data-collection method used to gather original qualitative or quantitative data from a sample population?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "k974gw0ptety7w3vck5zdmm61985qfn9",
+    "correctKey": "C",
+    "explanation": "Qualitative interviews are a primary data-collection method used to gather original, in-depth data directly from participants. This aligns with CS-11-G-01 which requires designing data-collection approaches for original data.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73nyztb10pyajev724gzejmn85p83z",
+    "options": [
+      {
+        "key": "A",
+        "text": "Downloading a pre-existing dataset from a government website"
+      },
+      {
+        "key": "B",
+        "text": "Running a K-means clustering algorithm on historical data"
+      },
+      {
+        "key": "C",
+        "text": "Conducting qualitative interviews with a sample of students"
+      },
+      {
+        "key": "D",
+        "text": "Performing a regression analysis on past exam scores"
+      }
+    ],
+    "stem": "A researcher wants to gather original data about student opinions on online learning. Which data-collection approach is most appropriate?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-experimental-design-in-data-science",
+    "topicTitle": "4.2 Experimental Design in Data Science",
+    "_id": "k97bafg94ac03f3891zbfhmmqn8d2y19",
+    "correctKey": "A",
+    "explanation": "The corpus says the fixed variables are called independent variables, while values that change according to them are dependent variables.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73nyztb10pyajev724gzejmn85p83z",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variables that are fixed while the dependent values change"
+      },
+      {
+        "key": "B",
+        "text": "The outcomes that are measured after treatment"
+      },
+      {
+        "key": "C",
+        "text": "A group that receives no treatment"
+      },
+      {
+        "key": "D",
+        "text": "Random errors that are never considered"
+      }
+    ],
+    "sectionId": "experimental-design",
+    "sectionLabel": "experimental-design",
+    "stem": "In the chapter's experimental-design steps, what are independent variables?",
+    "topicId": "ms7a7e49v8wmh6gc3tzfhee01985qpsy"
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-analyze-pre-existing-datasets-to-create-summary-statistics-and-data-visuals-bar-charts-pie-charts-line-graphs-etc",
+    "topicTitle": "4.3 Data Visualization and Summary Statistics",
+    "_id": "k970v8n7h85qn3rmkhtwhdw82x8d2g5c",
+    "correctKey": "A",
+    "explanation": "The corpus summary states that a line chart represents a relationship between two data values X and Y on a different axis.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72awassw6bd0en77qewdewdn85p09e",
+    "options": [
+      {
+        "key": "A",
+        "text": "A relationship between two data values X and Y on different axes"
+      },
+      {
+        "key": "B",
+        "text": "Only the frequency of one category"
+      },
+      {
+        "key": "C",
+        "text": "The percentage of a whole in one slice"
+      },
+      {
+        "key": "D",
+        "text": "A list of code segments"
+      }
+    ],
+    "sectionId": "data-visualization-summary-statistics",
+    "sectionLabel": "data-visualization-summary-statistics",
+    "stem": "What does a line chart represent according to the corpus summary?",
+    "topicId": "ms75pk36wb4h9ygs001bfet4md85qpfc"
+  }
+]

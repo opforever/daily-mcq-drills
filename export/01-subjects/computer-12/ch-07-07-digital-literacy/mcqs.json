@@ -1,0 +1,134 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "07-digital-literacy",
+    "chapterTitle": "Digital Literacy",
+    "topicSlug": "7-1-performing-advanced-searches-to-locate-information",
+    "topicTitle": "7.1 Performing Advanced Searches to Locate Information",
+    "_id": "k973bb4ynage3yjr4vmw6zdfbh85qt8g",
+    "correctKey": "B",
+    "explanation": "The OR operator broadens a search to include pages that contain any of the specified keywords.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a9b4jgp9vr17c8jnqd3089d85q0h2",
+    "options": [
+      {
+        "key": "A",
+        "text": "AND"
+      },
+      {
+        "key": "B",
+        "text": "OR"
+      },
+      {
+        "key": "C",
+        "text": "NOT"
+      },
+      {
+        "key": "D",
+        "text": "BUT"
+      }
+    ],
+    "stem": "Which Boolean operator should be used to find results that contain either of two terms but not necessarily both?",
+    "topicId": "ms77ys8wmxsz6g3fmthrkrvxph85pga9"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "07-digital-literacy",
+    "chapterTitle": "Digital Literacy",
+    "topicSlug": "7-1-performing-advanced-searches-to-locate-information",
+    "topicTitle": "7.1 Performing Advanced Searches to Locate Information",
+    "_id": "k97c522d9z1jdz5ats3td6r5n585p541",
+    "correctKey": "C",
+    "explanation": "Double quotation marks are used for exact match searching.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a9b4jgp9vr17c8jnqd3089d85q0h2",
+    "options": [
+      {
+        "key": "A",
+        "text": "[Artificial Intelligence in Pakistan]"
+      },
+      {
+        "key": "B",
+        "text": "(Artificial Intelligence in Pakistan)"
+      },
+      {
+        "key": "C",
+        "text": "\"Artificial Intelligence in Pakistan\""
+      },
+      {
+        "key": "D",
+        "text": "site: Artificial Intelligence in Pakistan"
+      }
+    ],
+    "stem": "To find the exact phrase 'Artificial Intelligence in Pakistan', which syntax is correct?",
+    "topicId": "ms77ys8wmxsz6g3fmthrkrvxph85pga9"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "07-digital-literacy",
+    "chapterTitle": "Digital Literacy",
+    "topicSlug": "7-1-performing-advanced-searches-to-locate-information",
+    "topicTitle": "7.1 Performing Advanced Searches to Locate Information",
+    "_id": "k97fzn8a9qypc9hy61bmzn4xr185q32r",
+    "correctKey": "B",
+    "explanation": "The 'site:' operator followed by a TLD like .gov restricts results to that domain type.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a9b4jgp9vr17c8jnqd3089d85q0h2",
+    "options": [
+      {
+        "key": "A",
+        "text": "search .gov"
+      },
+      {
+        "key": "B",
+        "text": "keyword site:.gov"
+      },
+      {
+        "key": "C",
+        "text": "keyword filetype:gov"
+      },
+      {
+        "key": "D",
+        "text": "keyword AND gov"
+      }
+    ],
+    "stem": "Which query will return results only from government websites?",
+    "topicId": "ms77ys8wmxsz6g3fmthrkrvxph85pga9"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "07-digital-literacy",
+    "chapterTitle": "Digital Literacy",
+    "topicSlug": "7-1-performing-advanced-searches-to-locate-information",
+    "topicTitle": "7.1 Performing Advanced Searches to Locate Information",
+    "_id": "k976w3as39ef0b9syh906xxfv985pz60",
+    "correctKey": "C",
+    "explanation": "The 'filetype:' operator is specifically designed to filter results by their extension.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7a9b4jgp9vr17c8jnqd3089d85q0h2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cybersecurity .ppt"
+      },
+      {
+        "key": "B",
+        "text": "Cybersecurity site:ppt"
+      },
+      {
+        "key": "C",
+        "text": "Cybersecurity filetype:ppt"
+      },
+      {
+        "key": "D",
+        "text": "Cybersecurity NOT pdf"
+      }
+    ],
+    "stem": "If a student wants to find a PowerPoint presentation on 'Cybersecurity', which query is most effective?",
+    "topicId": "ms77ys8wmxsz6g3fmthrkrvxph85pga9"
+  }
+]

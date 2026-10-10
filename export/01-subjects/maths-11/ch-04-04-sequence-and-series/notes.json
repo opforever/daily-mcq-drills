@@ -1,0 +1,178 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-1",
+    "topicTitle": "4.1 Sequences and Their Terms",
+    "_creationTime": 1777383975332.5105,
+    "_id": "kx73g5ee3fyv5hrrmsay7q7p9d85pnxf",
+    "createdAt": 1777383975332,
+    "mdxBody": "# 4.1 Sequences and Their Terms\n\nA **sequence** is a function whose domain is the set of positive integers $\\{1, 2, 3, \\ldots\\}$. Each value $a_n$ is called the **$n^{th}$ term** or **general term** of the sequence.\n\n$$a_1, a_2, a_3, \\ldots, a_n, \\ldots$$\n\n---\n\n## Finding Terms from a General Formula\n\nTo find the $k^{th}$ term, **substitute $n = k$** into the formula $a_n$.\n\n**Example:** If $a_n = \\dfrac{n^2 - 1}{n^2 + 1}$, find $a_1, a_2, a_3$.\n\n$$a_1 = \\frac{1-1}{1+1} = 0, \\quad a_2 = \\frac{4-1}{4+1} = \\frac{3}{5}, \\quad a_3 = \\frac{9-1}{9+1} = \\frac{8}{10} = \\frac{4}{5}$$\n\n---\n\n## Arithmetic Sequences\n\nA sequence $a_1, a_2, a_3, \\ldots$ is **arithmetic** if there is a constant **common difference** $d$ such that:\n\n$$a_{n+1} - a_n = d \\quad \\text{for all } n$$\n\nThe **general term** of an arithmetic sequence is:\n\n$$a_n = a_1 + (n-1)d$$\n\n**Example:** The sequence $5, 8, 11, 14, \\ldots$ has $a_1 = 5$ and $d = 3$.\n$$a_n = 5 + (n-1)(3) = 3n + 2$$\n\n---\n\n## Geometric Sequences\n\nA sequence is **geometric** if there is a constant **common ratio** $r$ such that:\n\n$$\\frac{a_{n+1}}{a_n} = r \\quad \\text{for all } n$$\n\nThe **general term** of a geometric sequence is:\n\n$$a_n = a_1 \\cdot r^{n-1}$$\n\n**Example:** The sequence $3, 9, 27, 81, \\ldots$ has $a_1 = 3$ and $r = 3$.\n$$a_n = 3 \\cdot 3^{n-1} = 3^n$$\n\n---\n\n## Identifying Arithmetic vs Geometric Sequences\n\n| Property | Arithmetic | Geometric |\n|---|---|---|\n| Test | $a_{n+1} - a_n = \\text{const}$ | $\\dfrac{a_{n+1}}{a_n} = \\text{const}$ |\n| General term | $a_1 + (n-1)d$ | $a_1 \\cdot r^{n-1}$ |\n| Example | $2, 5, 8, 11, \\ldots$ | $2, 6, 18, 54, \\ldots$ |\n\n---\n\n## Alternating Sequences\n\nAn **alternating sequence** changes sign between consecutive terms. This is achieved using $(-1)^n$ or $(-1)^{n+1}$:\n\n- $(-1)^n$: first term is **negative** (since $(-1)^1 = -1$)\n- $(-1)^{n+1}$: first term is **positive** (since $(-1)^2 = +1$)\n\n**Example:** $a_n = (-1)^{n+1} \\cdot n$ gives $1, -2, 3, -4, 5, \\ldots$\n\n---\n\n## Finding the General Term from a Pattern\n\nWhen given the first few terms, identify the pattern and express it as a function of $n$.\n\n**Example 1:** $1\\cdot2,\\ 2\\cdot3,\\ 3\\cdot4,\\ \\ldots$\n- First factor: $1, 2, 3, \\ldots = n$\n- Second factor: $2, 3, 4, \\ldots = n+1$\n- General term: $a_n = n(n+1)$\n\n**Example 2:** $\\sqrt{2},\\ \\sqrt{4},\\ \\sqrt{6},\\ \\sqrt{8},\\ \\ldots$\n- Numbers under root: $2, 4, 6, 8, \\ldots = 2n$\n- General term: $a_n = \\sqrt{2n}$",
+    "publishedAt": 1777383975332,
+    "slug": "exercise-4-1",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.1 Sequences and Their Terms",
+    "topicId": "ms7ed5tc45k6qhv23y6pg54x8n85q3b6",
+    "updatedAt": 1787224356275
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_creationTime": 1777383976145.3926,
+    "_id": "kx75dmvkydredfscxetggdcp3985qx83",
+    "createdAt": 1777383976145,
+    "mdxBody": "# 4.2 Arithmetic Sequence and General Term\n\n## Definition\n\nAn **arithmetic sequence** (or arithmetic progression, A.P.) is a sequence in which each term after the first is obtained by adding a fixed constant called the **common difference** $d$ to the preceding term.\n\n$$a_1,\\ a_1+d,\\ a_1+2d,\\ a_1+3d,\\ \\ldots$$\n\nThe common difference is found by:\n$$d = a_{n+1} - a_n \\quad \\text{(constant for all } n\\text{)}$$\n\n---\n\n## General Term (nth Term)\n\nThe **general term** (or $n$th term) of an arithmetic sequence is:\n\n$$a_n = a_1 + (n-1)d$$\n\nwhere:\n- $a_1$ = first term\n- $d$ = common difference\n- $n$ = position of the term\n\n**Example:** Find the 15th term of $4, 9, 14, 19, \\ldots$\n\n$$a_1 = 4,\\quad d = 9 - 4 = 5$$\n$$a_{15} = 4 + (15-1)(5) = 4 + 70 = 74$$\n\n---\n\n## Finding $a_1$ and $d$ from Two Non-Consecutive Terms\n\nIf two terms $a_m$ and $a_n$ are known, set up a system of equations:\n\n$$a_m = a_1 + (m-1)d$$\n$$a_n = a_1 + (n-1)d$$\n\nSubtract one equation from the other to find $d$, then substitute back to find $a_1$.\n\n**Example:** If $a_3 = 7$ and $a_9 = 25$, find $a_1$ and $d$.\n\n$$a_3 = a_1 + 2d = 7 \\quad \\cdots (1)$$\n$$a_9 = a_1 + 8d = 25 \\quad \\cdots (2)$$\n\nSubtracting (1) from (2): $6d = 18 \\Rightarrow d = 3$\n\nSubstituting into (1): $a_1 = 7 - 2(3) = 1$\n\n---\n\n## Three Consecutive Terms in A.P.\n\nIf $x$, $y$, $z$ are three consecutive terms of an A.P., then:\n\n$$y - x = z - y \\implies 2y = x + z$$\n\nThis means the **middle term is the arithmetic mean** of the outer two terms.\n\n**Tip:** When three numbers in A.P. are unknown, let them be $a-d$, $a$, $a+d$ to simplify calculations.\n\n---\n\n## Arithmetic Mean\n\nThe **arithmetic mean** $A$ between two numbers $a$ and $b$ is:\n\n$$A = \\frac{a + b}{2}$$\n\nThis works because $a$, $A$, $b$ must form an A.P., so $A - a = b - A$, giving $2A = a + b$.\n\n**Example:** The arithmetic mean between $\\sqrt{2}$ and $3\\sqrt{2}$ is:\n$$A = \\frac{\\sqrt{2} + 3\\sqrt{2}}{2} = \\frac{4\\sqrt{2}}{2} = 2\\sqrt{2}$$\n\n---\n\n## Finding the Position of a Term\n\nTo find which position $n$ a value $X$ occupies in an A.P.:\n\n1. Set $a_n = X$: $\\quad a_1 + (n-1)d = X$\n2. Solve for $n$\n3. **Check:** $n$ must be a **positive integer**; if not, $X$ is not a term of the sequence.\n\n**Example:** Is $101$ a term of $5, 8, 11, 14, \\ldots$?\n\n$$5 + (n-1)(3) = 101 \\implies 3(n-1) = 96 \\implies n-1 = 32 \\implies n = 33$$\n\nSince $n = 33$ is a positive integer, $101$ is the **33rd term**.\n\n---\n\n## Key Formulas Summary\n\n| Formula | Description |\n|---|---|\n| $a_n = a_1 + (n-1)d$ | General (nth) term |\n| $d = a_{n+1} - a_n$ | Common difference |\n| $A = \\dfrac{a+b}{2}$ | Arithmetic mean |\n| $2y = x + z$ | Condition for $x, y, z$ in A.P. |\n\n---",
+    "publishedAt": 1777383976145,
+    "slug": "exercise-4-2",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.2 Arithmetic Sequence and General Term",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj",
+    "updatedAt": 1787224356448
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_creationTime": 1777383977102.767,
+    "_id": "kx79z41997snq1y4gffzwthe8185p2pg",
+    "createdAt": 1777383977102,
+    "mdxBody": "# 4.3 Arithmetic Series and Sum\n\nAn **arithmetic series** is the sum of the terms of an arithmetic sequence. If the sequence is $a_1, a_2, a_3, \\dots, a_n$ with common difference $d$, the corresponding series is:\n\n$$a_1 + a_2 + a_3 + \\dots + a_n$$\n\n---\n\n## Key Formulas\n\n### Formula 1 — When $a_1$, $a_n$, and $n$ are known:\n\n$$S_n = \\frac{n}{2}(a_1 + a_n)$$\n\nThis is the most efficient formula when the first and last terms are both known.\n\n### Formula 2 — When $a_1$, $d$, and $n$ are known:\n\n$$S_n = \\frac{n}{2}[2a_1 + (n-1)d]$$\n\nThis is derived by substituting $a_n = a_1 + (n-1)d$ into Formula 1.\n\n---\n\n## Derivation of the Sum Formula\n\nWrite the sum forwards and backwards:\n\n$$S_n = a_1 + (a_1+d) + (a_1+2d) + \\dots + a_n$$\n$$S_n = a_n + (a_n-d) + (a_n-2d) + \\dots + a_1$$\n\nAdding both rows term by term:\n\n$$2S_n = n(a_1 + a_n) \\implies S_n = \\frac{n}{2}(a_1 + a_n)$$\n\n---\n\n## Finding $n$ When It Is Unknown\n\nIf the first term $a_1$, last term $a_n$, and common difference $d$ are known but $n$ is not, use:\n\n$$n = \\frac{a_n - a_1}{d} + 1$$\n\n**Example:** Find the number of terms in $5 + 8 + 11 + \\dots + 50$.\n\n$$n = \\frac{50 - 5}{3} + 1 = 15 + 1 = 16$$\n\n---\n\n## Finding $n$ When $S_n$, $a_1$, and $d$ Are Given\n\nSubstitute into $S_n = \\frac{n}{2}[2a_1 + (n-1)d]$ and solve the resulting **quadratic equation** in $n$:\n\n$$dn^2 + (2a_1 - d)n - 2S_n = 0$$\n\n---\n\n## Finding the First Three Terms Given $n$, $a_n$, and $S_n$\n\n**Step 1:** Use $S_n = \\frac{n}{2}(a_1 + a_n)$ to find $a_1$.\n\n**Step 2:** Use $a_n = a_1 + (n-1)d$ to find $d$.\n\n**Step 3:** The first three terms are $a_1,\\ a_1 + d,\\ a_1 + 2d$.\n\n**Example:** Given $n = 10$, $a_{10} = 30$, $S_{10} = 165$, find the first three terms.\n\n- $165 = \\frac{10}{2}(a_1 + 30) \\Rightarrow 33 = a_1 + 30 \\Rightarrow a_1 = 3$\n- $30 = 3 + 9d \\Rightarrow d = 3$\n- First three terms: $3, 6, 9$\n\n---\n\n## Sum of Multiples Between Two Bounds\n\nTo find the sum of all multiples of $k$ between $L$ and $U$:\n\n1. Find $a_1$ = smallest multiple of $k$ that is $\\geq L$.\n2. Find $a_n$ = largest multiple of $k$ that is $\\leq U$.\n3. Find $n = \\frac{a_n - a_1}{k} + 1$.\n4. Apply $S_n = \\frac{n}{2}(a_1 + a_n)$.\n\n**Example:** Sum of multiples of 4 between 14 and 523.\n\n- $a_1 = 16$, $a_n = 520$, $d = 4$\n- $n = \\frac{520 - 16}{4} + 1 = 127$\n- $S_{127} = \\frac{127}{2}(16 + 520) = \\frac{127 \\times 536}{2} = 34036$\n\n---\n\n## Real-World Applications\n\nIn word problems where a quantity **increases by a fixed amount** each period (e.g., daily savings, monthly salary increments):\n\n- The **total number of periods** = $n$ (number of terms)\n- The **fixed increase per period** = $d$ (common difference)\n- The **initial value** = $a_1$ (first term)\n\n**Example:** A person saves Rs. 100 on day 1 and increases savings by Rs. 20 each day. Total savings in 30 days:\n\n$$S_{30} = \\frac{30}{2}[2(100) + (30-1)(20)] = 15[200 + 580] = 15 \\times 780 = 11700$$\n\n---",
+    "publishedAt": 1777383977102,
+    "slug": "exercise-4-3",
+    "sourceRef": {
+      "blockIndex": 78,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.3 Arithmetic Series and Sum",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e",
+    "updatedAt": 1787224356593
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_creationTime": 1777383977910.9263,
+    "_id": "kx7236hc5j8e4smbrkvy69b5qs85qx10",
+    "createdAt": 1777383977911,
+    "mdxBody": "# 4.4 Geometric Sequence and Common Ratio\n\n## Geometric Sequence\n\nA **geometric sequence** (also called a geometric progression, G.P.) is a sequence in which each term after the first is obtained by multiplying the preceding term by a fixed non-zero number called the **common ratio** $r$.\n\n### Definition\n\nA sequence $a_1, a_2, a_3, \\ldots, a_n$ is geometric if:\n$$\\frac{a_{n+1}}{a_n} = r \\quad \\text{(constant for all } n \\geq 1\\text{)}$$\n\n### General Term\n\nThe $n$-th term of a geometric sequence is:\n$$a_n = a_1 \\cdot r^{n-1}$$\nwhere $a_1$ is the first term and $r$ is the common ratio.\n\n**Example:** Find the 6th term of the geometric sequence $2, 6, 18, 54, \\ldots$\n\n- $a_1 = 2$, $r = \\frac{6}{2} = 3$\n- $a_6 = 2 \\cdot 3^{6-1} = 2 \\cdot 243 = 486$\n\n---\n\n## Finding the Common Ratio\n\nFor any geometric sequence, the common ratio is found by dividing any term by its preceding term:\n$$r = \\frac{a_2}{a_1} = \\frac{a_3}{a_2} = \\cdots = \\frac{a_n}{a_{n-1}}$$\n\n**Example:** Find the common ratio of $5, 15, 45, 135, \\ldots$\n$$r = \\frac{15}{5} = 3$$\n\n---\n\n## Harmonic Sequence\n\nA **harmonic sequence** is a sequence whose reciprocals form an arithmetic sequence.\n\nIf $a_1, a_2, a_3, \\ldots$ is an arithmetic sequence with common difference $d$, then:\n$$\\frac{1}{a_1},\\ \\frac{1}{a_2},\\ \\frac{1}{a_3},\\ \\ldots$$\nis a harmonic sequence.\n\n### General Term of a Harmonic Sequence\n\nThe $n$-th term of a harmonic sequence is:\n$$H_n = \\frac{1}{a_1 + (n-1)d}$$\nwhere $a_1$ is the first term of the corresponding arithmetic sequence and $d$ is the common difference.\n\n**Example:** Find the 5th term of the harmonic sequence $1,\\ \\frac{1}{3},\\ \\frac{1}{5},\\ \\frac{1}{7},\\ \\ldots$\n\n- Corresponding A.P.: $1, 3, 5, 7, \\ldots$ with $a_1 = 1$, $d = 2$\n- $H_5 = \\frac{1}{1 + (5-1)(2)} = \\frac{1}{1 + 8} = \\frac{1}{9}$\n\n---\n\n## Harmonic Mean\n\nThe **harmonic mean** $H$ between two numbers $a$ and $b$ is:\n$$H = \\frac{2ab}{a + b}$$\n\nThis is the middle term of a harmonic sequence with $a$ and $b$ as the first and third terms.\n\n**Example:** Find the harmonic mean between $3$ and $6$.\n$$H = \\frac{2(3)(6)}{3 + 6} = \\frac{36}{9} = 4$$\n\n---\n\n## Harmonic Series\n\nThe **harmonic series** is the sum of terms of a harmonic sequence:\n$$\\sum_{n=1}^{N} \\frac{1}{a_1 + (n-1)d}$$\n\nUnlike geometric series, the harmonic series does **not** have a simple closed-form sum formula. Problems involving harmonic series are typically solved by converting to the corresponding arithmetic sequence.\n\n**Example:** Find the sum of the first 4 terms of the harmonic sequence $\\frac{1}{2},\\ \\frac{1}{5},\\ \\frac{1}{8},\\ \\frac{1}{11},\\ \\ldots$\n\n$$S_4 = \\frac{1}{2} + \\frac{1}{5} + \\frac{1}{8} + \\frac{1}{11}$$\n$$= \\frac{220 + 88 + 55 + 40}{440} = \\frac{403}{440}$$\n\n---\n\n## Relationship Between A.M., G.M., and H.M.\n\nFor two positive numbers $a$ and $b$:\n- **Arithmetic Mean:** $A = \\frac{a+b}{2}$\n- **Geometric Mean:** $G = \\sqrt{ab}$\n- **Harmonic Mean:** $H = \\frac{2ab}{a+b}$\n\nImportant inequality:\n$$A \\geq G \\geq H$$\n\nAlso: $G^2 = A \\cdot H$, i.e., the geometric mean is the geometric mean of the arithmetic and harmonic means.\n\n**Example:** For $a = 4$ and $b = 9$:\n- $A = \\frac{4+9}{2} = 6.5$\n- $G = \\sqrt{36} = 6$\n- $H = \\frac{2(4)(9)}{13} = \\frac{72}{13} \\approx 5.54$\n- Check: $G^2 = 36 = A \\cdot H = 6.5 \\times \\frac{72}{13} = 36$ ✓",
+    "publishedAt": 1777383977911,
+    "slug": "exercise-4-4",
+    "sourceRef": {
+      "blockIndex": 113,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.4 Geometric Sequence and Common Ratio",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd",
+    "updatedAt": 1787224356734
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_creationTime": 1777383978933.1611,
+    "_id": "kx78x5t0r1k7mfnn6f05ny6fhh85pc6b",
+    "createdAt": 1777383978933,
+    "mdxBody": "A **geometric series** is the sum of the terms of a geometric sequence. This section covers the sum of a finite geometric series, the conditions for an infinite geometric series to converge, and real-world applications.\n\n---\n\n## 4.5.1 Sum of a Finite Geometric Series\n\nFor a geometric sequence with first term $a_1$, common ratio $r$, and $n$ terms, the sum is:\n\n$$S_n = \\frac{a_1(1 - r^n)}{1 - r}, \\quad r \\neq 1$$\n\nAn equivalent form (useful when $r > 1$) is:\n\n$$S_n = \\frac{a_1(r^n - 1)}{r - 1}, \\quad r \\neq 1$$\n\nWhen $r = 1$, all terms are equal to $a_1$, so $S_n = n \\cdot a_1$.\n\n### Useful Variant\n\nIf the **last term** $a_n$ is known, the sum can be written as:\n\n$$S_n = \\frac{a_1 - r\\,a_n}{1 - r}$$\n\nThis avoids computing $r^n$ when $a_n$ is already given.\n\n### Example 1\nFind the sum of the first 6 terms of the geometric series $2 + 6 + 18 + \\dots$\n\n**Solution:** $a_1 = 2$, $r = 3$, $n = 6$\n\n$$S_6 = \\frac{2(3^6 - 1)}{3 - 1} = \\frac{2(729 - 1)}{2} = 728$$\n\n---\n\n## 4.5.2 Infinite Geometric Series\n\nAn **infinite geometric series** is $a_1 + a_1 r + a_1 r^2 + \\dots$\n\n### Convergence Condition\n\nThe series converges to a finite sum **if and only if** $|r| < 1$.\n\nIf $|r| \\geq 1$, the terms do not approach zero and the series **diverges** (no finite sum).\n\n### Formula for Infinite Sum\n\n$$S_\\infty = \\frac{a_1}{1 - r}, \\quad |r| < 1$$\n\n### Example 2\nFind $S_\\infty$ for the series $12 + 4 + \\frac{4}{3} + \\dots$\n\n**Solution:** $a_1 = 12$, $r = \\frac{1}{3}$, $|r| < 1$ ✓\n\n$$S_\\infty = \\frac{12}{1 - \\frac{1}{3}} = \\frac{12}{\\frac{2}{3}} = 18$$\n\n---\n\n## 4.5.3 Repeating Decimals as Infinite Geometric Series\n\nEvery repeating decimal can be expressed as an infinite geometric series and converted to a fraction.\n\n### Example 3\nConvert $0.\\overline{15} = 0.151515\\dots$ to a fraction.\n\n**Solution:**\n$$0.151515\\dots = 0.15 + 0.0015 + 0.000015 + \\dots$$\n\nHere $a_1 = 0.15$ and $r = 0.01$, so $|r| < 1$ ✓\n\n$$S_\\infty = \\frac{0.15}{1 - 0.01} = \\frac{0.15}{0.99} = \\frac{15}{99} = \\frac{5}{33}$$\n\n### Example 4\nConvert $0.\\overline{4} = 0.444\\dots$ to a fraction.\n\n$$0.444\\dots = 0.4 + 0.04 + 0.004 + \\dots, \\quad a_1 = 0.4,\\; r = 0.1$$\n\n$$S_\\infty = \\frac{0.4}{1 - 0.1} = \\frac{0.4}{0.9} = \\frac{4}{9}$$\n\n---\n\n## 4.5.4 Real-World Applications\n\n### Bouncing Ball Problem\n\nA ball is dropped from height $H$ and rebounds to a fraction $r$ of its previous height each time ($0 < r < 1$).\n\n- **Initial drop:** $H$ (downward only)\n- **Each subsequent bounce:** the ball travels the rebound height **twice** (up then down)\n\n$$\\text{Total distance} = H + 2(rH + r^2H + r^3H + \\dots) = H + \\frac{2rH}{1-r} = H\\cdot\\frac{1+r}{1-r}$$\n\n> **Common mistake:** Using $\\frac{H}{1-r}$ ignores the fact that each rebound (except the first drop) is traveled twice.\n\n### Example 5\nA ball is dropped from $10$ m and rebounds to $60\\%$ of its previous height. Find the total distance.\n\n**Solution:** $H = 10$, $r = 0.6$\n\n$$\\text{Total distance} = 10 \\cdot \\frac{1 + 0.6}{1 - 0.6} = 10 \\cdot \\frac{1.6}{0.4} = 40 \\text{ m}$$\n\n### Rising Balloon / Investment Growth\n\nWhen a quantity increases by a fixed fraction each period, the total accumulation over infinite periods is modeled by $S_\\infty = \\frac{a_1}{1-r}$, provided $|r| < 1$.\n\n---\n\n## Summary of Key Formulas\n\n| Series | Formula | Condition |\n|--------|---------|----------|\n| Finite geometric sum | $S_n = \\dfrac{a_1(1-r^n)}{1-r}$ | $r \\neq 1$ |\n| Finite sum (last term known) | $S_n = \\dfrac{a_1 - r\\,a_n}{1-r}$ | $r \\neq 1$ |\n| Infinite geometric sum | $S_\\infty = \\dfrac{a_1}{1-r}$ | $\\vert r\\vert  < 1$ |\n| Bouncing ball total distance | $H\\cdot\\dfrac{1+r}{1-r}$ | $0 < r < 1$ |\n\n---",
+    "publishedAt": 1777383978933,
+    "slug": "exercise-4-5",
+    "sourceRef": {
+      "blockIndex": 149,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.5 Finite and Infinite Series",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125",
+    "updatedAt": 1789034344328
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_creationTime": 1777383979991.6921,
+    "_id": "kx78w5c989cckq0r58ffx8kq4985q77z",
+    "createdAt": 1777383979991,
+    "mdxBody": "# 4.6 Harmonic Progression\n\n## Definition\n\nA **Harmonic Progression (HP)** is a sequence of numbers whose **reciprocals form an Arithmetic Progression (AP)**.\n\nIf $a_1, a_2, a_3, \\ldots, a_n$ is a harmonic progression, then $\\dfrac{1}{a_1}, \\dfrac{1}{a_2}, \\dfrac{1}{a_3}, \\ldots, \\dfrac{1}{a_n}$ is an arithmetic progression.\n\n**Example:** $1, \\dfrac{1}{2}, \\dfrac{1}{3}, \\dfrac{1}{4}, \\ldots$ is an HP because $1, 2, 3, 4, \\ldots$ is an AP.\n\n---\n\n## General Term (nth Term) of an HP\n\nSince the reciprocals of an HP form an AP, let the corresponding AP have first term $a$ and common difference $d$.\n\nThe $n$th term of the AP is:\n$$T_n^{\\text{AP}} = a + (n-1)d$$\n\nTherefore, the $n$th term of the HP is:\n$$T_n = \\frac{1}{a + (n-1)d}$$\n\n**Example:** Find the 8th term of the HP $1, \\dfrac{1}{3}, \\dfrac{1}{5}, \\ldots$\n\nThe reciprocals form the AP: $1, 3, 5, \\ldots$ with $a = 1$, $d = 2$.\n\n$$T_8^{\\text{AP}} = 1 + (8-1)(2) = 1 + 14 = 15$$\n\n$$T_8^{\\text{HP}} = \\frac{1}{15}$$\n\n---\n\n## Harmonic Mean\n\nThe **Harmonic Mean (HM)** of two numbers $a$ and $b$ is:\n$$H = \\frac{2ab}{a + b}$$\n\nThis is derived from the condition that $a, H, b$ are in HP, which means $\\dfrac{1}{a}, \\dfrac{1}{H}, \\dfrac{1}{b}$ are in AP:\n$$\\frac{1}{H} - \\frac{1}{a} = \\frac{1}{b} - \\frac{1}{H} \\implies \\frac{2}{H} = \\frac{1}{a} + \\frac{1}{b} = \\frac{a+b}{ab}$$\n$$\\therefore H = \\frac{2ab}{a+b}$$\n\n**Example:** Find the harmonic mean between $3$ and $6$.\n$$H = \\frac{2(3)(6)}{3 + 6} = \\frac{36}{9} = 4$$\n\n---\n\n## Inserting $n$ Harmonic Means Between Two Numbers\n\nTo insert $n$ harmonic means between $a$ and $b$:\n\n1. Take reciprocals: insert $n$ arithmetic means between $\\dfrac{1}{a}$ and $\\dfrac{1}{b}$.\n2. The common difference of the resulting AP is:\n$$d = \\frac{\\frac{1}{b} - \\frac{1}{a}}{n + 1} = \\frac{a - b}{ab(n+1)}$$\n3. The $k$th harmonic mean ($k = 1, 2, \\ldots, n$) is:\n$$H_k = \\frac{1}{\\frac{1}{a} + k \\cdot d}$$\n\n**Example:** Insert 2 harmonic means between $\\dfrac{1}{2}$ and $\\dfrac{1}{8}$.\n\nReciprocals: insert 2 arithmetic means between $2$ and $8$.\n$$d = \\frac{8 - 2}{2 + 1} = \\frac{6}{3} = 2$$\nAP: $2, 4, 6, 8$ → HP: $\\dfrac{1}{2}, \\dfrac{1}{4}, \\dfrac{1}{6}, \\dfrac{1}{8}$\n\nThe two harmonic means are $\\dfrac{1}{4}$ and $\\dfrac{1}{6}$.\n\n---\n\n## Relationship Between AM, GM, and HM\n\nFor two positive numbers $a$ and $b$:\n- **Arithmetic Mean:** $A = \\dfrac{a+b}{2}$\n- **Geometric Mean:** $G = \\sqrt{ab}$\n- **Harmonic Mean:** $H = \\dfrac{2ab}{a+b}$\n\n**Key relationship:**\n$$A \\geq G \\geq H \\quad \\text{(for positive } a, b\\text{)}$$\n\nAlso: $G^2 = A \\cdot H$, i.e., $G$ is the geometric mean of $A$ and $H$.\n\n**Proof:** $A \\cdot H = \\dfrac{a+b}{2} \\cdot \\dfrac{2ab}{a+b} = ab = G^2$ ✓\n\n---\n\n## Key Points to Remember\n\n| Property | Formula |\n|---|---|\n| $n$th term of HP | $T_n = \\dfrac{1}{a+(n-1)d}$ |\n| Harmonic Mean of $a, b$ | $H = \\dfrac{2ab}{a+b}$ |\n| Relation AM, GM, HM | $G^2 = A \\cdot H$ |\n| Condition for HP | Reciprocals form an AP |",
+    "publishedAt": 1777383979991,
+    "slug": "exercise-4-6",
+    "sourceRef": {
+      "blockIndex": 208,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.6 Harmonic Progression",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2",
+    "updatedAt": 1787224357048
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_creationTime": 1777383980835.3418,
+    "_id": "kx7em9tv6c119x1g29vfb4h9k585pgpe",
+    "createdAt": 1777383980835,
+    "mdxBody": "# 4.7 Sigma Notation and Summation\n\n## Sigma Notation\n\nSigma notation (summation notation) provides a compact way to write the sum of a sequence of terms. The Greek capital letter $\\Sigma$ (sigma) is used:\n\n$$\\sum_{k=1}^{n} a_k = a_1 + a_2 + a_3 + \\cdots + a_n$$\n\nHere:\n- $k$ is the **index of summation** (dummy variable)\n- $1$ is the **lower limit**\n- $n$ is the **upper limit**\n- $a_k$ is the **general term**\n\n### Examples of Sigma Notation\n\n| Expanded Form | Sigma Form |\n|---|---|\n| $1 + 2 + 3 + \\cdots + n$ | $\\displaystyle\\sum_{k=1}^{n} k$ |\n| $1^2 + 2^2 + 3^2 + \\cdots + n^2$ | $\\displaystyle\\sum_{k=1}^{n} k^2$ |\n| $a + ar + ar^2 + \\cdots + ar^{n-1}$ | $\\displaystyle\\sum_{k=0}^{n-1} ar^k$ |\n\n---\n\n## Arithmetic-Geometric Sequence (AGS)\n\nAn **arithmetic-geometric sequence** is formed by multiplying corresponding terms of an arithmetic sequence and a geometric sequence.\n\nIf $\\{a_k\\}$ is an arithmetic sequence with first term $a$ and common difference $d$, and $\\{r^{k-1}\\}$ is a geometric sequence with common ratio $r$, then the arithmetic-geometric sequence is:\n\n$$a,\\; (a+d)r,\\; (a+2d)r^2,\\; (a+3d)r^3,\\; \\ldots$$\n\n### General Term\n\nThe $n$-th term (general term) of an arithmetic-geometric sequence is:\n\n$$T_n = [a + (n-1)d]\\, r^{n-1}$$\n\nwhere:\n- $a$ = first term of the arithmetic part\n- $d$ = common difference\n- $r$ = common ratio of the geometric part\n\n---\n\n## Sum to $n$ Terms\n\nLet $S_n = \\displaystyle\\sum_{k=1}^{n} [a + (k-1)d]\\, r^{k-1}$.\n\nUsing the **multiply-and-subtract method**:\n\n$$S_n = a + (a+d)r + (a+2d)r^2 + \\cdots + [a+(n-1)d]r^{n-1}$$\n\nMultiply both sides by $r$:\n\n$$rS_n = ar + (a+d)r^2 + (a+2d)r^3 + \\cdots + [a+(n-1)d]r^{n}$$\n\nSubtracting:\n\n$$(1-r)S_n = a + d\\,r + d\\,r^2 + \\cdots + d\\,r^{n-1} - [a+(n-1)d]\\,r^n$$\n\n$$(1-r)S_n = a + d\\cdot\\frac{r(1-r^{n-1})}{1-r} - [a+(n-1)d]\\,r^n$$\n\n$$\\boxed{S_n = \\frac{a}{1-r} + \\frac{dr(1-r^{n-1})}{(1-r)^2} - \\frac{[a+(n-1)d]\\,r^n}{1-r}}, \\quad r \\neq 1$$\n\n---\n\n## Sum to Infinity\n\nWhen $|r| < 1$, as $n \\to \\infty$, the terms $r^n \\to 0$ and $r^{n-1} \\to 0$, so:\n\n$$S_\\infty = \\frac{a}{1-r} + \\frac{dr}{(1-r)^2}, \\quad |r| < 1$$\n\n> **Note:** If $|r| \\geq 1$, the series diverges and has no finite sum.\n\n---\n\n## Worked Example\n\n**Find the sum to infinity of the arithmetic-geometric series:**\n$$1 + 2\\cdot\\tfrac{1}{2} + 3\\cdot\\left(\\tfrac{1}{2}\\right)^2 + 4\\cdot\\left(\\tfrac{1}{2}\\right)^3 + \\cdots$$\n\nHere $a = 1$, $d = 1$, $r = \\dfrac{1}{2}$.\n\nSince $|r| = \\dfrac{1}{2} < 1$:\n\n$$S_\\infty = \\frac{1}{1 - \\frac{1}{2}} + \\frac{1 \\cdot \\frac{1}{2}}{\\left(1 - \\frac{1}{2}\\right)^2} = \\frac{1}{\\frac{1}{2}} + \\frac{\\frac{1}{2}}{\\frac{1}{4}} = 2 + 2 = 4$$\n\n---\n\n## Standard Summation Formulas (Sigma)\n\n$$\\sum_{k=1}^{n} k = \\frac{n(n+1)}{2}$$\n\n$$\\sum_{k=1}^{n} k^2 = \\frac{n(n+1)(2n+1)}{6}$$\n\n$$\\sum_{k=1}^{n} k^3 = \\left[\\frac{n(n+1)}{2}\\right]^2$$\n\n$$\\sum_{k=1}^{n} c = cn \\quad (c \\text{ is a constant})$$",
+    "publishedAt": 1777383980835,
+    "slug": "exercise-4-7",
+    "sourceRef": {
+      "blockIndex": 264,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.7 Sigma Notation and Summation",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8",
+    "updatedAt": 1787224357175
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_creationTime": 1777383981649.8892,
+    "_id": "kx7e5nre60qrrsh8bv8nq7zsjx85q4bd",
+    "createdAt": 1777383981649,
+    "mdxBody": "# 4.8 Arithmetic Progression\n\n## Arithmetic Sequence\n\nA sequence $a_1, a_2, a_3, \\ldots$ is called an **arithmetic sequence** (or arithmetic progression, AP) if the difference between any two consecutive terms is constant.\n\nThis constant difference is called the **common difference** $d$:\n$$d = a_{n+1} - a_n \\quad \\text{for all } n \\geq 1$$\n\n### General Term (nth Term)\n\nThe general term of an arithmetic sequence is:\n$$a_n = a_1 + (n-1)d$$\n\nwhere:\n- $a_1$ = first term\n- $d$ = common difference\n- $n$ = term number\n\n**Example:** Find the 10th term of the AP: $3, 7, 11, 15, \\ldots$\n\nHere $a_1 = 3$, $d = 4$.\n$$a_{10} = 3 + (10-1)(4) = 3 + 36 = 39$$\n\n## Sum to n Terms of an Arithmetic Series\n\nThe sum of the first $n$ terms of an arithmetic series is:\n$$S_n = \\frac{n}{2}\\bigl[2a_1 + (n-1)d\\bigr]$$\n\nAlternatively, if the last term $a_n = l$ is known:\n$$S_n = \\frac{n}{2}(a_1 + l)$$\n\n**Example:** Find the sum of the first 20 terms of $2 + 5 + 8 + 11 + \\cdots$\n\nHere $a_1 = 2$, $d = 3$, $n = 20$.\n$$S_{20} = \\frac{20}{2}\\bigl[2(2) + (20-1)(3)\\bigr] = 10\\bigl[4 + 57\\bigr] = 10 \\times 61 = 610$$\n\n## Sigma Notation\n\nSigma notation $\\displaystyle\\sum$ is used to write series compactly.\n\n$$\\sum_{k=1}^{n} a_k = a_1 + a_2 + a_3 + \\cdots + a_n$$\n\nFor an arithmetic series with first term $a_1$ and common difference $d$:\n$$\\sum_{k=1}^{n} \\bigl[a_1 + (k-1)d\\bigr] = \\frac{n}{2}\\bigl[2a_1 + (n-1)d\\bigr]$$\n\n**Example:** Evaluate $\\displaystyle\\sum_{k=1}^{5}(3k - 1)$\n\n$$= 2 + 5 + 8 + 11 + 14 = 40$$\n\nUsing the formula: $a_1 = 2$, $d = 3$, $n = 5$:\n$$S_5 = \\frac{5}{2}[2(2) + 4(3)] = \\frac{5}{2}[4 + 12] = \\frac{5}{2}(16) = 40 \\checkmark$$\n\n## Standard Summation Formulas\n\nThese are essential formulas for evaluating series using sigma notation.\n\n### Sum of First n Natural Numbers\n$$\\sum_{k=1}^{n} k = 1 + 2 + 3 + \\cdots + n = \\frac{n(n+1)}{2}$$\n\n**Example:** $\\displaystyle\\sum_{k=1}^{10} k = \\frac{10 \\times 11}{2} = 55$\n\n### Sum of Squares of First n Natural Numbers\n$$\\sum_{k=1}^{n} k^2 = 1^2 + 2^2 + 3^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}$$\n\n**Example:** $\\displaystyle\\sum_{k=1}^{5} k^2 = \\frac{5 \\times 6 \\times 11}{6} = 55$\n\n### Sum of Cubes of First n Natural Numbers\n$$\\sum_{k=1}^{n} k^3 = 1^3 + 2^3 + 3^3 + \\cdots + n^3 = \\left[\\frac{n(n+1)}{2}\\right]^2$$\n\n**Example:** $\\displaystyle\\sum_{k=1}^{4} k^3 = \\left[\\frac{4 \\times 5}{2}\\right]^2 = 10^2 = 100$\n\n> **Note:** Observe that $\\displaystyle\\sum_{k=1}^{n} k^3 = \\left(\\sum_{k=1}^{n} k\\right)^2$, a beautiful identity!\n\n## Useful Properties of Sigma Notation\n\n$$\\sum_{k=1}^{n} c = nc \\quad (c \\text{ is a constant})$$\n\n$$\\sum_{k=1}^{n} c\\,a_k = c\\sum_{k=1}^{n} a_k$$\n\n$$\\sum_{k=1}^{n} (a_k \\pm b_k) = \\sum_{k=1}^{n} a_k \\pm \\sum_{k=1}^{n} b_k$$\n\n**Example:** Evaluate $\\displaystyle\\sum_{k=1}^{n}(2k^2 + 3k + 1)$\n\n$$= 2\\sum_{k=1}^{n}k^2 + 3\\sum_{k=1}^{n}k + \\sum_{k=1}^{n}1$$\n\n$$= 2 \\cdot \\frac{n(n+1)(2n+1)}{6} + 3 \\cdot \\frac{n(n+1)}{2} + n$$\n\n$$= \\frac{n(n+1)(2n+1)}{3} + \\frac{3n(n+1)}{2} + n$$",
+    "publishedAt": 1777383981649,
+    "slug": "exercise-4-8",
+    "sourceRef": {
+      "blockIndex": 41,
+      "chapterNumber": 4,
+      "subjectSlug": "maths-11"
+    },
+    "status": "published",
+    "title": "4.8 Arithmetic Progression",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay",
+    "updatedAt": 1787224357292
+  }
+]

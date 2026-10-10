@@ -1,0 +1,1210 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "m17chk2q43sfxjzwnj016myyn985pxdj",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "State work-energy theorem: net work equals change in kinetic energy ($W_{net} = \\Delta K.E.$)",
+      "Identify resistive forces as non-conservative forces doing negative work",
+      "Explain that negative work by resistance reduces kinetic energy of the object",
+      "Describe energy conversion: mechanical energy transforms to heat/thermal energy in resistive medium",
+      "Apply theorem to show deceleration occurs when resistance work exceeds applied work"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Work-Energy Theorem**: The net work done on an object by all forces equals the change in its kinetic energy, expressed as $W_{net} = \\Delta K.E. = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2$.\n\n**In Resistive Medium**: When an object moves through a resistive medium (such as air or water), resistive forces like friction and air resistance act opposite to the direction of motion. These are non-conservative forces that dissipate mechanical energy. The work done by resistive forces is negative, reducing the object's kinetic energy. Applying the work-energy theorem: $W_{applied} + W_{resistance} = \\Delta K.E.$, where $W_{resistance} < 0$. This means the net work is less than the applied work, resulting in a smaller increase in kinetic energy or a greater decrease. If only resistive forces act (no applied force), the object decelerates as its kinetic energy is converted into heat and other forms of energy. The theorem still holds: the negative work done by resistance equals the loss in kinetic energy. For example, a moving car experiencing friction will slow down because the work done by friction (negative) reduces its kinetic energy until it stops. This demonstrates energy conservation, the lost mechanical energy is transferred to thermal energy in the resistive medium.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "State **work-energy theorem**. Explain this theorem for resistive medium.",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "m178vj1sa7j0gvy9jpqhs9f55585qbzw",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Using the principle of conservation of mechanical energy, the loss in kinetic energy equals the gain in potential energy. Initial K.E. = $\\frac{1}{2}mv^2 = \\frac{1}{2}(0.1)(25)^2 = 31.25$ J. At maximum height, all K.E. converts to P.E.: $mgh = 31.25$ J, so $h = \\frac{31.25}{0.1 \\times 10} = 31.25$ m (using $g = 10\\text{ ms}^{-2}$).",
+    "keyPoints": [
+      "Correctly identifies that loss in K.E. equals gain in P.E. (conservation of energy)",
+      "Calculates initial kinetic energy using $K.E. = \\frac{1}{2}mv^2$",
+      "Applies potential energy formula $P.E. = mgh$ at maximum height",
+      "Correctly substitutes values and solves for height $h$",
+      "Appropriate use of given mass and velocity with standard $g$ value"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Using the principle of conservation of mechanical energy, the loss in kinetic energy equals the gain in potential energy. Initial K.E. = $\\frac{1}{2}mv^2 = \\frac{1}{2}(0.1)(25)^2 = 31.25$ J. At maximum height, all K.E. converts to P.E.: $mgh = 31.25$ J, so $h = \\frac{31.25}{0.1 \\times 10} = 31.25$ m (using $g = 10\\text{ ms}^{-2}$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "$31.9\\text{ m}$"
+      },
+      {
+        "key": "B",
+        "text": "$1.28\\text{ m}$"
+      },
+      {
+        "key": "C",
+        "text": "$63.78\\text{ m}$"
+      },
+      {
+        "key": "D",
+        "text": "$321.5\\text{ m}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "the-principle-of-conservation-of-mechanical-energy",
+    "sectionLabel": "The Principle of Conservation of Mechanical Energy",
+    "session": "annual",
+    "stem": "A ball of mass $100\\text{ g}$ is thrown vertically upward at a speed of $25\\text{ ms}^{-1}$. If no energy is lost, determine the **height** it would reach. (Loss in K.E = Gain in P.E)",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "m1701nadd6f66dba2xfvbt0wd185ppx3",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Initial kinetic energy is $E = \\frac{1}{2}mv^2$. When mass is doubled to $2m$ and speed is reduced to $\\frac{v}{2}$, the new kinetic energy is $E' = \\frac{1}{2}(2m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{2}(2m)\\frac{v^2}{4} = \\frac{1}{4}mv^2 = \\frac{E}{2}$. Therefore, the kinetic energy becomes half of the original value.",
+    "keyPoints": [
+      "Correctly applies kinetic energy formula $K.E. = \\frac{1}{2}mv^2$",
+      "Substitutes new mass $2m$ and new speed $\\frac{v}{2}$ into formula",
+      "Simplifies algebraic expression to obtain $\\frac{E}{2}$",
+      "Recognizes that kinetic energy is proportional to square of speed, so halving speed reduces K.E. by factor of 4, while doubling mass increases it by factor of 2"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Initial kinetic energy is $E = \\frac{1}{2}mv^2$. When mass is doubled to $2m$ and speed is reduced to $\\frac{v}{2}$, the new kinetic energy is $E' = \\frac{1}{2}(2m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{2}(2m)\\frac{v^2}{4} = \\frac{1}{4}mv^2 = \\frac{E}{2}$. Therefore, the kinetic energy becomes half of the original value.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2E$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{E}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$4E$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{E}{4}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "kinetic-energy-ke",
+    "sectionLabel": "Kinetic Energy (K.E.)",
+    "session": "annual",
+    "stem": "The mass of a body is $m$, its speed is $v$ and K.E is $E$. When mass is doubled and its speed is reduced to half, then K.E will be:",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "m17cfp3xrpmhjypzwe0vmx7bkh85qbnh",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies that work done equals force multiplied by displacement: $W = F \\times d$",
+      "Calculates weight force as $F = mg = 100\\text{ N}$ using appropriate value of $g$",
+      "Applies displacement as vertical height $h = 10\\text{ m}$",
+      "Obtains correct numerical answer: $W = 1000\\text{ J} = 1\\text{ kJ}$",
+      "Recognizes that steady velocity means no change in kinetic energy, so work increases only potential energy"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To calculate work done in lifting a mass at steady velocity, we use the work formula: $W = F \\times d$, where the force equals the weight of the object. Given: mass $m = 10\\text{ kg}$, height $h = 10\\text{ m}$, and $g = 10\\text{ m/s}^2$ (or $9.8\\text{ m/s}^2$). The force required is $F = mg = 10 \\times 10 = 100\\text{ N}$. Therefore, work done is $W = F \\times h = 100 \\times 10 = 1000\\text{ J} = 1\\text{ kJ}$. Since the velocity is steady (constant), there is no change in kinetic energy, so all work goes into increasing gravitational potential energy.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "session": "annual",
+    "stem": "Calculate the **work done** in kilojoules in lifting a mass of $10\\text{ kg}$ at a steady velocity through a vertical height of $10\\text{ m}$?",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "m17cxqr22k4y5yne12gx2f5fnd85qfzm",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Work done is calculated using $W = mgh$, where $m = 2$ kg, $g = 10$ m/s² (or 9.8 m/s²), and $h = 3$ m. Therefore, $W = 2 × 10 × 3 = 60$ J (or 58.8 J using $g = 9.8$ m/s²). The work done against gravity is positive and equals the change in gravitational potential energy.",
+    "keyPoints": [
+      "Correctly identifies work formula for vertical displacement: $W = mgh$",
+      "Substitutes given values: mass = 2 kg, height = 3 m, acceleration due to gravity = 10 m/s² (or 9.8 m/s²)",
+      "Calculates final answer: 60 J (or 58.8 J)",
+      "Recognizes work done equals change in gravitational potential energy",
+      "Includes appropriate SI unit (Joules) in final answer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Work done is calculated using $W = mgh$, where $m = 2$ kg, $g = 10$ m/s² (or 9.8 m/s²), and $h = 3$ m. Therefore, $W = 2 × 10 × 3 = 60$ J (or 58.8 J using $g = 9.8$ m/s²). The work done against gravity is positive and equals the change in gravitational potential energy.",
+    "options": [
+      {
+        "key": "A",
+        "text": "58.8 J"
+      },
+      {
+        "key": "B",
+        "text": "50 J"
+      },
+      {
+        "key": "C",
+        "text": "6 J"
+      },
+      {
+        "key": "D",
+        "text": "50.8 J"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "session": "annual",
+    "stem": "If the body of mass $2\\text{ kg}$ is raised vertically through $3\\text{ m}$, then work done will be:",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "m178eta25yp031nrz3m550pzy985ptne",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The dimensions [ML²T⁻²] represent energy or work. This dimensional formula is derived from the product of mass [M], length squared [L²], and inverse time squared [T⁻²], which corresponds to quantities like kinetic energy, potential energy, or work done by a force.",
+    "keyPoints": [
+      "Identifies [ML²T⁻²] as dimensions of energy/work",
+      "Recognizes M represents mass, L² represents length squared, T⁻² represents inverse time squared",
+      "Connects to physical quantities: kinetic energy, potential energy, or work",
+      "Understands dimensional analysis application to derived quantities"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The dimensions [ML²T⁻²] represent energy or work. This dimensional formula is derived from the product of mass [M], length squared [L²], and inverse time squared [T⁻²], which corresponds to quantities like kinetic energy, potential energy, or work done by a force.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Power"
+      },
+      {
+        "key": "B",
+        "text": "Work"
+      },
+      {
+        "key": "C",
+        "text": "Velocity"
+      },
+      {
+        "key": "D",
+        "text": "Acceleration"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "The dimensions [ML²T⁻²] show:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "m17a1bwn0kepnp5symkg7n0jts85pd4r",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When a mass-spring system is pulled slowly from the mean position to displacement $x_o$, the work done equals the elastic potential energy stored in the spring. Using Hooke's Law, the work done is $W = \\frac{1}{2}kx_o^2$, where $k$ is the spring constant. This work is stored as elastic potential energy in the deformed spring.",
+    "keyPoints": [
+      "Work done equals elastic potential energy stored: $W = \\frac{1}{2}kx_o^2$",
+      "Force varies linearly with displacement according to Hooke's Law ($F = kx$)",
+      "Work calculated from area under force-extension graph (triangular area)",
+      "Slow pulling ensures quasi-static process with negligible kinetic energy",
+      "All work done is converted to elastic potential energy in the spring"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When a mass-spring system is pulled slowly from the mean position to displacement $x_o$, the work done equals the elastic potential energy stored in the spring. Using Hooke's Law, the work done is $W = \\frac{1}{2}kx_o^2$, where $k$ is the spring constant. This work is stored as elastic potential energy in the deformed spring.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$Kx_o$"
+      },
+      {
+        "key": "B",
+        "text": "$Kx_o^2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{2} Kx_o$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{2} Kx_o^2$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "formulas-for-elastic-potential-energy",
+    "sectionLabel": "Formulas for Elastic Potential Energy",
+    "session": "annual",
+    "stem": "A mass spring system is pulled slowly from mean position to ($x_o$) then the amount of work done will be:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "m176t3ty0pgx5r6wccavjtw74585qts4",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified useful work output using W = mgh = 150 J",
+      "Correctly applied efficiency formula: (Useful Output/Total Input) × 100%",
+      "Accurate calculation: 150/500 × 100% = 30%",
+      "Recognized that 70% of energy is lost to resistive forces (friction)",
+      "Expressed answer as percentage with appropriate units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Efficiency of the Machine:**\n\nEfficiency is the ratio of useful work output to total energy input, expressed as a percentage.\n\n**Given Data:**\n- Total energy input = 500 J\n- Mass of block (m) = 5 kg\n- Distance raised (h) = 3.0 m\n- g = 10 m/s² (standard)\n\n**Solution:**\n\nUseful work output (to raise the block) = mgh = 5 × 10 × 3.0 = 150 J\n\nEfficiency is calculated as:\n$$\\text{Efficiency} = \\frac{\\text{Useful Work Output}}{\\text{Total Energy Input}} × 100\\%$$\n\n$$\\text{Efficiency} = \\frac{150}{500} × 100\\% = 30\\%$$\n\n**Answer:** The efficiency of the machine is **30%**. This means that only 30% of the input energy is converted to useful work (raising the block), while the remaining 70% (350 J) is lost due to friction and other resistive forces in the machine.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "efficiency",
+    "sectionLabel": "Efficiency",
+    "session": "annual",
+    "stem": "A machine needs $500\\text{ J}$ of energy to raise a $5\\text{ kg}$ block at a distance of $3.0\\text{ m}$. Find the **efficiency** of the machine.",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "m17cfp3xrpmhjypzwe0vmx7bkh85qbnh",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies that work done equals force multiplied by displacement: $W = F \\times d$",
+      "Calculates weight force as $F = mg = 100\\text{ N}$ using appropriate value of $g$",
+      "Applies displacement as vertical height $h = 10\\text{ m}$",
+      "Obtains correct numerical answer: $W = 1000\\text{ J} = 1\\text{ kJ}$",
+      "Recognizes that steady velocity means no change in kinetic energy, so work increases only potential energy"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To calculate work done in lifting a mass at steady velocity, we use the work formula: $W = F \\times d$, where the force equals the weight of the object. Given: mass $m = 10\\text{ kg}$, height $h = 10\\text{ m}$, and $g = 10\\text{ m/s}^2$ (or $9.8\\text{ m/s}^2$). The force required is $F = mg = 10 \\times 10 = 100\\text{ N}$. Therefore, work done is $W = F \\times h = 100 \\times 10 = 1000\\text{ J} = 1\\text{ kJ}$. Since the velocity is steady (constant), there is no change in kinetic energy, so all work goes into increasing gravitational potential energy.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "session": "annual",
+    "stem": "Calculate the **work done** in kilojoules in lifting a mass of $10\\text{ kg}$ at a steady velocity through a vertical height of $10\\text{ m}$?",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "m1728ns6s2sgcb3h667m73snrn85qs26",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Work done by gravity is $W = mgd\\cos\\theta$, where $\\theta$ is the angle between the gravitational force (always vertical, downward) and the displacement. Work is zero when $\\cos\\theta = 0$, i.e. $\\theta = 90^\\circ$, which happens when the body moves horizontally (perpendicular to gravity).",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vertically"
+      },
+      {
+        "key": "B",
+        "text": "At an angle of $30^{\\circ}$"
+      },
+      {
+        "key": "C",
+        "text": "At an angle of $60^{\\circ}$"
+      },
+      {
+        "key": "D",
+        "text": "Horizontally"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "session": "annual",
+    "stem": "Gravity performs zero work when a body moves:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "m17cxqr22k4y5yne12gx2f5fnd85qfzm",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Work done is calculated using $W = mgh$, where $m = 2$ kg, $g = 10$ m/s² (or 9.8 m/s²), and $h = 3$ m. Therefore, $W = 2 × 10 × 3 = 60$ J (or 58.8 J using $g = 9.8$ m/s²). The work done against gravity is positive and equals the change in gravitational potential energy.",
+    "keyPoints": [
+      "Correctly identifies work formula for vertical displacement: $W = mgh$",
+      "Substitutes given values: mass = 2 kg, height = 3 m, acceleration due to gravity = 10 m/s² (or 9.8 m/s²)",
+      "Calculates final answer: 60 J (or 58.8 J)",
+      "Recognizes work done equals change in gravitational potential energy",
+      "Includes appropriate SI unit (Joules) in final answer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Work done is calculated using $W = mgh$, where $m = 2$ kg, $g = 10$ m/s² (or 9.8 m/s²), and $h = 3$ m. Therefore, $W = 2 × 10 × 3 = 60$ J (or 58.8 J using $g = 9.8$ m/s²). The work done against gravity is positive and equals the change in gravitational potential energy.",
+    "options": [
+      {
+        "key": "A",
+        "text": "58.8 J"
+      },
+      {
+        "key": "B",
+        "text": "50 J"
+      },
+      {
+        "key": "C",
+        "text": "6 J"
+      },
+      {
+        "key": "D",
+        "text": "50.8 J"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "session": "annual",
+    "stem": "If the body of mass $2\\text{ kg}$ is raised vertically through $3\\text{ m}$, then work done will be:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "m17fh1y9jq1ypdx92ah5dvszn185qs2p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies that kinetic energy gained equals work done by electric field: $KE = qV$",
+      "Calculates energy in electron volts: $KE = 2$ eV (charge of electron × potential difference)",
+      "Converts to joules using electron charge $e = 1.6 \\times 10^{-19}$ C: $KE = 3.2 \\times 10^{-19}$ J",
+      "Shows proper use of units and conversion between eV and joules",
+      "Demonstrates understanding that potential difference directly determines kinetic energy gained by charged particle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When an electron moves through a potential difference of 2 volts, it gains kinetic energy equal to the work done by the electric field. Using the relationship between potential difference and energy: $KE = qV$, where $q = 1.6 \\times 10^{-19}$ C (electron charge) and $V = 2$ V. In electron volts: $KE = 2$ eV. In joules: $KE = 1.6 \\times 10^{-19} \\times 2 = 3.2 \\times 10^{-19}$ J.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionId": "the-electron-volt-ev",
+    "sectionLabel": "The Electron-Volt (eV)",
+    "session": "annual",
+    "stem": "Calculate KE in electron volt and joules gained by an electron moving through a potential difference of $2 \\text{ volts}$.",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "m175cv9p393gk63jp91gpc3k6585qpgh",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Since kinetic energy is given by $K.E. = \\frac{1}{2}mv^2$, and both bodies have equal mass, the kinetic energies depend on the square of their velocities. With velocity ratio $v_A : v_B = 2:1$, the kinetic energy ratio is $K.E._A : K.E._B = (2)^2 : (1)^2 = 4:1$.",
+    "keyPoints": [
+      "Correctly identifies kinetic energy formula $K.E. = \\frac{1}{2}mv^2$",
+      "Recognizes that kinetic energy is proportional to the square of velocity",
+      "Applies the velocity ratio 2:1 to find the squared ratio",
+      "Arrives at the correct kinetic energy ratio of 4:1"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Since kinetic energy is given by $K.E. = \\frac{1}{2}mv^2$, and both bodies have equal mass, the kinetic energies depend on the square of their velocities. With velocity ratio $v_A : v_B = 2:1$, the kinetic energy ratio is $K.E._A : K.E._B = (2)^2 : (1)^2 = 4:1$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2:1"
+      },
+      {
+        "key": "B",
+        "text": "1:2"
+      },
+      {
+        "key": "C",
+        "text": "4:1"
+      },
+      {
+        "key": "D",
+        "text": "1:4"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "kinetic-energy-ke",
+    "sectionLabel": "Kinetic Energy (K.E.)",
+    "session": "annual",
+    "stem": "Two bodies A and B of same masses have velocities in the ratio $2:1$, their kinetic energies are in the ratio:",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "m1701nadd6f66dba2xfvbt0wd185ppx3",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Initial kinetic energy is $E = \\frac{1}{2}mv^2$. When mass is doubled to $2m$ and speed is reduced to $\\frac{v}{2}$, the new kinetic energy is $E' = \\frac{1}{2}(2m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{2}(2m)\\frac{v^2}{4} = \\frac{1}{4}mv^2 = \\frac{E}{2}$. Therefore, the kinetic energy becomes half of the original value.",
+    "keyPoints": [
+      "Correctly applies kinetic energy formula $K.E. = \\frac{1}{2}mv^2$",
+      "Substitutes new mass $2m$ and new speed $\\frac{v}{2}$ into formula",
+      "Simplifies algebraic expression to obtain $\\frac{E}{2}$",
+      "Recognizes that kinetic energy is proportional to square of speed, so halving speed reduces K.E. by factor of 4, while doubling mass increases it by factor of 2"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Initial kinetic energy is $E = \\frac{1}{2}mv^2$. When mass is doubled to $2m$ and speed is reduced to $\\frac{v}{2}$, the new kinetic energy is $E' = \\frac{1}{2}(2m)\\left(\\frac{v}{2}\\right)^2 = \\frac{1}{2}(2m)\\frac{v^2}{4} = \\frac{1}{4}mv^2 = \\frac{E}{2}$. Therefore, the kinetic energy becomes half of the original value.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2E$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{E}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$4E$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{E}{4}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "kinetic-energy-ke",
+    "sectionLabel": "Kinetic Energy (K.E.)",
+    "session": "annual",
+    "stem": "The mass of a body is $m$, its speed is $v$ and K.E is $E$. When mass is doubled and its speed is reduced to half, then K.E will be:",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "absolute-potential-energy",
+    "topicTitle": "5.5 Absolute Gravitational Potential Energy",
+    "_id": "m17e124pq9crch6jkyhbcx1p9h85pcx9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Gravitational potential defined as work done per unit mass from infinity to the point",
+      "Gravitational force on unit mass at distance x is $F = -\\frac{GM}{x^2}$",
+      "Work done calculated using integration: $W = \\int_{\\infty}^{r} \\frac{GM}{x^2} dx = -\\frac{GM}{r}$",
+      "Potential V = W/m, so for unit mass (m=1), V equals work done",
+      "Negative sign indicates attractive nature of gravitational force and that work is done by external agent"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Gravitational Potential and Work Done**\n\n**Definition of Gravitational Potential:**\nGravitational potential at a point is defined as the work done per unit mass in bringing a test mass from infinity to that point against the gravitational field.\n\n**Mathematical Derivation:**\nConsider bringing a unit mass (m = 1 kg) from infinity to a point at distance r from a mass M. The gravitational force on the unit mass at distance x is:\n$$F = -\\frac{GM}{x^2}$$\n\nThe negative sign indicates the force is attractive (opposing the motion from infinity). The work done against this force in bringing the unit mass from infinity (x = ∞) to point r is:\n$$W = -\\int_{\\infty}^{r} F \\, dx = -\\int_{\\infty}^{r} \\left(-\\frac{GM}{x^2}\\right) dx$$\n\n$$W = \\int_{\\infty}^{r} \\frac{GM}{x^2} dx = GM\\left[-\\frac{1}{x}\\right]_{\\infty}^{r}$$\n\n$$W = GM\\left(-\\frac{1}{r} + 0\\right) = -\\frac{GM}{r}$$\n\n**Definition of Potential:**\nGravitational potential (V) at a point is defined as:\n$$V = \\frac{W}{m} = \\frac{-GM/r}{1} = -\\frac{GM}{r}$$\n\nTherefore, the potential at a point equals the work done in bringing a unit mass from infinity to that point. This relationship holds because potential is work per unit mass, and for a unit mass, the numerical value of work done equals the potential at that point.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionId": "definition",
+    "sectionLabel": "Definition",
+    "session": "annual",
+    "stem": "Show that the potential at a point is equal to work done in bringing a unit mass from infinity to that point.",
+    "topicId": "ms740az2azmkcc6drqe0e046t985pqtr",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "absolute-potential-energy",
+    "topicTitle": "5.5 Absolute Gravitational Potential Energy",
+    "_id": "m178ve0bc85hs74e69ar8vxx6n85p20w",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: Absolute potential energy is energy stored due to an object's position in a gravitational field relative to a reference point",
+      "Derivation: Work done against gravity = Force × displacement = $mg × h = mgh$",
+      "Mathematical relation: $P.E. = mgh$ where m is mass, g is gravitational acceleration, h is height",
+      "Units: Joules (J); it is a scalar quantity and depends on choice of reference level",
+      "Physical significance: Represents capacity to do work when object falls from height h to reference point"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "Absolute Potential Energy is the total mechanical energy stored in an object due to its position in a gravitational field, measured relative to a reference point (usually Earth's surface or infinity). It is derived from the work done against gravity to bring an object from the reference point to its current position. The mathematical relation is: $P.E. = mgh$, where $m$ is mass (kg), $g$ is gravitational acceleration (9.8 m/s²), and $h$ is height above the reference point (m). This represents the energy an object possesses by virtue of its position in the gravitational field.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionId": "mathematical-derivation",
+    "sectionLabel": "Mathematical Derivation",
+    "session": "annual",
+    "stem": "Explain and derive a mathematical relation for **Absolute Potential Energy**.",
+    "topicId": "ms740az2azmkcc6drqe0e046t985pqtr",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "m172j8h3j5r3yx3ys83954wm3x85qrcv",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines conservative force: work depends only on initial and final positions, not path",
+      "Explains conservative forces are associated with potential energy",
+      "Provides gravitational force as correct example of conservative force",
+      "Defines non-conservative force: work depends on path taken, energy is dissipated",
+      "Provides friction as correct example of non-conservative force"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **conservative force** is one where the work done on an object depends only on its initial and final positions, not on the path taken. The work done by a conservative force is recoverable as potential energy. Example: **Gravitational force**, work done lifting an object depends only on the height difference, regardless of the path. A **non-conservative force** is one where work done depends on the path taken and energy is dissipated. Example: **Friction**, work done against friction depends on the distance traveled, and energy is lost as heat.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionId": "conservative-fields-and-conservative-forces",
+    "sectionLabel": "Conservative Fields and Conservative Forces",
+    "session": "annual",
+    "stem": "What is meant by **'conservative'** and **'non-conservative'** forces? Give one example each.",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "m17e2eyr02t27e122fgpacpgj585pagv",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Conservative forces: work is path-independent, depends only on initial and final positions",
+      "Non-conservative forces: work is path-dependent, varies with different paths taken",
+      "Conservative forces allow potential energy definition and mechanical energy conservation",
+      "Non-conservative forces dissipate mechanical energy (e.g., friction converts to heat)",
+      "Examples: gravity and elastic forces are conservative; friction and air resistance are non-conservative"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Conservative Forces** are forces where the work done is independent of the path taken between two points; the work depends only on initial and final positions. Examples include gravitational and elastic forces. The work done by conservative forces can be stored as potential energy, and mechanical energy is conserved in systems with only conservative forces. **Non-conservative Forces** are forces where the work done depends on the path taken; different paths result in different amounts of work. Examples include friction and air resistance. These forces dissipate mechanical energy into other forms (like heat), so mechanical energy is not conserved when non-conservative forces act on a system.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionId": "conservative-fields-and-conservative-forces",
+    "sectionLabel": "Conservative Fields and Conservative Forces",
+    "session": "annual",
+    "stem": "Differentiate between **conservative** and **non-conservative forces**.",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "m1725t83c89y9nnypzy6szmngd85qj85",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Work done by gravity depends only on initial and final positions, not on the path taken between them",
+      "Gravitational force can be expressed as the negative gradient of potential energy: $\\vec{F}_g = -\\nabla(P.E.)$",
+      "Total mechanical energy is conserved in a gravitational field: $E_{total} = K.E. + P.E. = \\text{constant}$",
+      "Work done by gravity equals the negative change in gravitational potential energy: $W_g = -\\Delta P.E. = -(P.E._f - P.E._i)$",
+      "The gravitational field is path-independent, meaning the work done is independent of the route taken between two points"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "Earth's gravitational field is a conservative field because the work done by gravity on an object depends only on its initial and final positions, not on the path taken. When an object moves in Earth's gravitational field, the work done by gravity is $W = mg(h_i - h_f)$, which depends solely on the height difference. Additionally, the total mechanical energy (kinetic plus potential) remains constant in the absence of non-conservative forces, and the work done by gravity equals the negative change in gravitational potential energy: $W_g = -\\Delta P.E.$. These properties, path independence and the existence of a potential energy function, are defining characteristics of conservative fields.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionId": "proofs-of-the-conservative-nature-of-gravity",
+    "sectionLabel": "Proofs of the Conservative Nature of Gravity",
+    "session": "annual",
+    "stem": "Show that earth's gravitational field is a conservative field.",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "m17817bnc0c717bbp39dzxr7zn85pxrn",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Gravitational field is a conservative field where work depends only on initial and final positions",
+      "Work done by gravity: $W = mg(h_A - h_B)$ depends only on height difference, not path",
+      "For any closed path in a gravitational field, net work done is zero: $\\oint \\vec{F} \\cdot d\\vec{s} = 0$",
+      "Gravitational force is central and derives from potential energy function $P.E. = mgh$",
+      "Path independence is characteristic of conservative forces where mechanical energy is conserved"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "The work done in a gravitational field is independent of the path followed because the gravitational field is a conservative field. This means the work done depends only on the initial and final positions, not on the trajectory taken between them. Mathematically, for any path from point A to point B, the work done by gravity is $W = mg(h_A - h_B)$, which depends only on the height difference. This property arises because gravitational force is central and derives from a potential energy function, making the line integral of the force path-independent.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionId": "proofs-of-the-conservative-nature-of-gravity",
+    "sectionLabel": "Proofs of the Conservative Nature of Gravity",
+    "session": "annual",
+    "stem": "Show that the work done in a gravitational field is independent of the path followed.",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "topicTitle": "5.7 Interconversion of Kinetic and Potential Energy",
+    "_id": "m178vj1sa7j0gvy9jpqhs9f55585qbzw",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Using the principle of conservation of mechanical energy, the loss in kinetic energy equals the gain in potential energy. Initial K.E. = $\\frac{1}{2}mv^2 = \\frac{1}{2}(0.1)(25)^2 = 31.25$ J. At maximum height, all K.E. converts to P.E.: $mgh = 31.25$ J, so $h = \\frac{31.25}{0.1 \\times 10} = 31.25$ m (using $g = 10\\text{ ms}^{-2}$).",
+    "keyPoints": [
+      "Correctly identifies that loss in K.E. equals gain in P.E. (conservation of energy)",
+      "Calculates initial kinetic energy using $K.E. = \\frac{1}{2}mv^2$",
+      "Applies potential energy formula $P.E. = mgh$ at maximum height",
+      "Correctly substitutes values and solves for height $h$",
+      "Appropriate use of given mass and velocity with standard $g$ value"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Using the principle of conservation of mechanical energy, the loss in kinetic energy equals the gain in potential energy. Initial K.E. = $\\frac{1}{2}mv^2 = \\frac{1}{2}(0.1)(25)^2 = 31.25$ J. At maximum height, all K.E. converts to P.E.: $mgh = 31.25$ J, so $h = \\frac{31.25}{0.1 \\times 10} = 31.25$ m (using $g = 10\\text{ ms}^{-2}$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "$31.9\\text{ m}$"
+      },
+      {
+        "key": "B",
+        "text": "$1.28\\text{ m}$"
+      },
+      {
+        "key": "C",
+        "text": "$63.78\\text{ m}$"
+      },
+      {
+        "key": "D",
+        "text": "$321.5\\text{ m}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "the-principle-of-conservation-of-mechanical-energy",
+    "sectionLabel": "The Principle of Conservation of Mechanical Energy",
+    "session": "annual",
+    "stem": "A ball of mass $100\\text{ g}$ is thrown vertically upward at a speed of $25\\text{ ms}^{-1}$. If no energy is lost, determine the **height** it would reach. (Loss in K.E = Gain in P.E)",
+    "topicId": "ms7f207hsq5qrt5wc6zqm530xs85qdeb",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "m17chk2q43sfxjzwnj016myyn985pxdj",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "State work-energy theorem: net work equals change in kinetic energy ($W_{net} = \\Delta K.E.$)",
+      "Identify resistive forces as non-conservative forces doing negative work",
+      "Explain that negative work by resistance reduces kinetic energy of the object",
+      "Describe energy conversion: mechanical energy transforms to heat/thermal energy in resistive medium",
+      "Apply theorem to show deceleration occurs when resistance work exceeds applied work"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Work-Energy Theorem**: The net work done on an object by all forces equals the change in its kinetic energy, expressed as $W_{net} = \\Delta K.E. = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2$.\n\n**In Resistive Medium**: When an object moves through a resistive medium (such as air or water), resistive forces like friction and air resistance act opposite to the direction of motion. These are non-conservative forces that dissipate mechanical energy. The work done by resistive forces is negative, reducing the object's kinetic energy. Applying the work-energy theorem: $W_{applied} + W_{resistance} = \\Delta K.E.$, where $W_{resistance} < 0$. This means the net work is less than the applied work, resulting in a smaller increase in kinetic energy or a greater decrease. If only resistive forces act (no applied force), the object decelerates as its kinetic energy is converted into heat and other forms of energy. The theorem still holds: the negative work done by resistance equals the loss in kinetic energy. For example, a moving car experiencing friction will slow down because the work done by friction (negative) reduces its kinetic energy until it stops. This demonstrates energy conservation, the lost mechanical energy is transferred to thermal energy in the resistive medium.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "State **work-energy theorem**. Explain this theorem for resistive medium.",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "m17az7nrt1pr66jfmcrtgjxc9d85q19a",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies gravitational potential energy decreases as rocket descends ($P.E. = mgh$)",
+      "Explains conversion of potential energy to kinetic energy during descent",
+      "Recognizes air resistance/friction as non-conservative force converting mechanical energy to heat",
+      "States that thermal energy from friction causes nose cone heating",
+      "References conservation of mechanical energy principle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When a rocket re-enters the atmosphere, the heat energy in the nose cone comes from the conversion of gravitational potential energy and kinetic energy. As the rocket descends through the gravitational field, its gravitational potential energy ($P.E. = mgh$) decreases. According to the principle of conservation of mechanical energy, this lost potential energy is converted into kinetic energy. However, atmospheric friction and air resistance act as non-conservative forces, converting a significant portion of the rocket's mechanical energy (both kinetic and potential) into thermal energy through friction with air molecules. This thermal energy causes the nose cone to become extremely hot.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionId": "connection-to-conservation-of-energy",
+    "sectionLabel": "Connection to Conservation of Energy",
+    "session": "annual",
+    "stem": "When a rocket re-enters the atmosphere, its nose cone becomes very hot. Where does this heat energy come from?",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "power",
+    "topicTitle": "5.9 Power",
+    "_id": "m17cy0rs5b53amwr0k29gvhp3185qd5d",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Power is the dot product: $P = \\vec{F} \\cdot \\vec{v}$",
+      "Formula: $P = |\\vec{F}||\\vec{v}|\\cos(\\theta)$ where $\\theta$ is angle between vectors",
+      "Power is a scalar quantity with SI unit watts (W)",
+      "Maximum power when force and velocity are parallel; zero when perpendicular",
+      "Represents rate of work done by force on the object"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Power is defined as the scalar product of force and velocity vectors. Mathematically, $P = \\vec{F} \\cdot \\vec{v} = |\\vec{F}||\\vec{v}|\\cos(\\theta)$, where $\\theta$ is the angle between force and velocity vectors. This represents the rate at which force does work on an object. When force and velocity are parallel ($\\theta = 0°$), power is maximum; when perpendicular ($\\theta = 90°$), power is zero.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionId": "applications",
+    "sectionLabel": "Applications",
+    "session": "annual",
+    "stem": "Express power ($P$) as scalar product of force ($\\vec{F}$) and velocity ($\\vec{v}$).",
+    "topicId": "ms76y3knad1a4exz0h30c09ecd85q92v",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "m17974k3ng4da10spdt6vk5qvs85qf51",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a Carnot engine operating between ice point (273 K) and steam point (373 K), the efficiency is calculated using $\\eta = 1 - \\frac{T_C}{T_H} = 1 - \\frac{273}{373} = 0.268$ or approximately **26.8%**. This represents the maximum theoretical efficiency possible between these two temperatures.",
+    "keyPoints": [
+      "Correct identification of ice point as 273 K (cold reservoir) and steam point as 373 K (hot reservoir)",
+      "Correct application of Carnot efficiency formula: $\\eta = 1 - \\frac{T_C}{T_H}$",
+      "Accurate numerical calculation: $\\eta = \\frac{100}{373} \\approx 0.268$ or 26.8%",
+      "Recognition that absolute temperature (Kelvin) must be used, not Celsius",
+      "Understanding that this is the maximum theoretical efficiency for any heat engine between these temperatures"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a Carnot engine operating between ice point (273 K) and steam point (373 K), the efficiency is calculated using $\\eta = 1 - \\frac{T_C}{T_H} = 1 - \\frac{273}{373} = 0.268$ or approximately **26.8%**. This represents the maximum theoretical efficiency possible between these two temperatures.",
+    "options": [
+      {
+        "key": "A",
+        "text": "26.81%"
+      },
+      {
+        "key": "B",
+        "text": "53.36%"
+      },
+      {
+        "key": "C",
+        "text": "62.46%"
+      },
+      {
+        "key": "D",
+        "text": "71.23%"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "session": "annual",
+    "stem": "A Carnot engine works between ice point and steam point. Its efficiency will be:",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "m176ffcfq8as27e5n8vyx7qx4s85p7jq",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "Convert to Kelvin: $T_{source} = 227 + 273 = 500$ K, $T_{sink} = 127 + 273 = 400$ K.\n\n**Efficiency**: $\\eta = 1 - \\dfrac{T_{sink}}{T_{source}} = 1 - \\dfrac{400}{500} = 0.2 = 20\\%$.\n\n**Heat input from source ($Q_H$)**: Since $\\eta = W/Q_H$, $Q_H = W/\\eta = 10000/0.2 = 50000$ J.\n\n**Heat rejected to sink ($Q_C$)**: $Q_C = Q_H - W = 50000 - 10000 = 40000$ J.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "session": "annual",
+    "stem": "A **Carnot engine** utilizes an ideal gas. The source temperature is $227^{\\circ}\\text{C}$ and sink temperature is $127^{\\circ}\\text{C}$. Find the efficiency of the engine. Also find heat input from the source and heat rejected to the sink when $10000\\text{ J}$ of work is done?",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "m172zbvqc167pr75cantyvrr2185qb9m",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The efficiency of a Carnot engine is given by $\\eta = 1 - \\frac{T_2}{T_1}$, where $T_1$ is the source temperature and $T_2$ is the sink temperature. When both temperatures are increased by 200 K, the ratio $\\frac{T_2 + 200}{T_1 + 200}$ becomes smaller than $\\frac{T_2}{T_1}$, making $\\eta_2 > \\eta_1$. Therefore, the efficiency increases.",
+    "keyPoints": [
+      "Carnot efficiency formula: $\\eta = 1 - \\frac{T_2}{T_1}$",
+      "Both temperatures increased by same amount (200 K)",
+      "Ratio of absolute temperatures decreases when equal amount added to both",
+      "$\\eta_2 > \\eta_1$ (efficiency increases)",
+      "Efficiency depends on absolute temperature ratio, not temperature difference"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The efficiency of a Carnot engine is given by $\\eta = 1 - \\frac{T_2}{T_1}$, where $T_1$ is the source temperature and $T_2$ is the sink temperature. When both temperatures are increased by 200 K, the ratio $\\frac{T_2 + 200}{T_1 + 200}$ becomes smaller than $\\frac{T_2}{T_1}$, making $\\eta_2 > \\eta_1$. Therefore, the efficiency increases.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decrease"
+      },
+      {
+        "key": "B",
+        "text": "Become 1"
+      },
+      {
+        "key": "C",
+        "text": "Remain unaffected"
+      },
+      {
+        "key": "D",
+        "text": "Increase"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "session": "annual",
+    "stem": "If the temperatures of source and sink of a Carnot engine (having efficiency $\\eta_1$) are each increased by $200 K$, then the efficiency $\\eta_2$ will:",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "m176t3ty0pgx5r6wccavjtw74585qts4",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified useful work output using W = mgh = 150 J",
+      "Correctly applied efficiency formula: (Useful Output/Total Input) × 100%",
+      "Accurate calculation: 150/500 × 100% = 30%",
+      "Recognized that 70% of energy is lost to resistive forces (friction)",
+      "Expressed answer as percentage with appropriate units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Efficiency of the Machine:**\n\nEfficiency is the ratio of useful work output to total energy input, expressed as a percentage.\n\n**Given Data:**\n- Total energy input = 500 J\n- Mass of block (m) = 5 kg\n- Distance raised (h) = 3.0 m\n- g = 10 m/s² (standard)\n\n**Solution:**\n\nUseful work output (to raise the block) = mgh = 5 × 10 × 3.0 = 150 J\n\nEfficiency is calculated as:\n$$\\text{Efficiency} = \\frac{\\text{Useful Work Output}}{\\text{Total Energy Input}} × 100\\%$$\n\n$$\\text{Efficiency} = \\frac{150}{500} × 100\\% = 30\\%$$\n\n**Answer:** The efficiency of the machine is **30%**. This means that only 30% of the input energy is converted to useful work (raising the block), while the remaining 70% (350 J) is lost due to friction and other resistive forces in the machine.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "efficiency",
+    "sectionLabel": "Efficiency",
+    "session": "annual",
+    "stem": "A machine needs $500\\text{ J}$ of energy to raise a $5\\text{ kg}$ block at a distance of $3.0\\text{ m}$. Find the **efficiency** of the machine.",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "m177ge9g5x31nfd747bttvsd1585qdyv",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies escape velocity formula: $v_e = \\sqrt{2gR}$",
+      "Substitutes given ratios: $g_m = \\frac{1}{5}g_e$ and $R_m = \\frac{1}{6}R_e$",
+      "Performs algebraic simplification to obtain $v_e^{moon} = \\frac{v_e^{earth}}{\\sqrt{15}}$",
+      "Calculates numerical value using Earth's escape velocity (11.2 km/s) to get approximately 2.9 km/s",
+      "Shows clear mathematical steps and dimensional consistency throughout"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The escape velocity at the surface of a celestial body is given by $v_e = \\sqrt{2gR}$, where $g$ is surface gravity and $R$ is the radius. For the Moon, with $g_m = \\frac{1}{5}g_e$ and $R_m = \\frac{1}{6}R_e$, we have: $v_e^{moon} = \\sqrt{2 \\times \\frac{1}{5}g_e \\times \\frac{1}{6}R_e} = \\sqrt{\\frac{2g_eR_e}{30}} = \\frac{1}{\\sqrt{15}}\\sqrt{2g_eR_e} = \\frac{v_e^{earth}}{\\sqrt{15}}$. Since Earth's escape velocity is approximately 11.2 km/s, the Moon's escape velocity is $\\frac{11.2}{\\sqrt{15}} \\approx 2.89$ km/s or approximately 2.9 km/s.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionId": "alternative-formula-using-surface-gravity-g",
+    "sectionLabel": "Alternative Formula using Surface Gravity (g)",
+    "session": "annual",
+    "stem": "If radius of moon is $\\frac{1}{6}$ times radius of earth and gravity on moon is $\\frac{1}{5}$ times gravity on earth, then find the **escape velocity** at the surface of moon?",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "m17384jkgdb75wjh3375z7jnp985qahz",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Escape velocity is minimum velocity to escape gravitational field and reach infinity with zero velocity",
+      "Application of conservation of mechanical energy: kinetic energy at surface equals gravitational potential energy",
+      "Equating $\\frac{1}{2}mv_{esc}^2 = \\frac{GMm}{R_e}$ and simplifying",
+      "Substitution of $g = \\frac{GM}{R_e^2}$ to obtain final expression $v_{esc} = \\sqrt{2gR_e}$",
+      "Numerical result: approximately 11.2 km/s for Earth"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Escape velocity** ($v_{esc}$) is the minimum velocity required for an object to escape from the gravitational field of a celestial body (such as Earth) and reach infinity with zero velocity. It is the speed needed to overcome the gravitational potential energy and break free from orbital motion.\n\n**Derivation of** $v_{esc} = \\sqrt{2gR_e}$:\n\nUsing energy conservation, the total mechanical energy at Earth's surface must equal the total mechanical energy at infinity. At Earth's surface, an object has kinetic energy and gravitational potential energy. At infinity, both are zero.\n\n$$\\frac{1}{2}mv_{esc}^2 - \\frac{GMm}{R_e} = 0$$\n\nRearranging:\n$$\\frac{1}{2}mv_{esc}^2 = \\frac{GMm}{R_e}$$\n\n$$v_{esc}^2 = \\frac{2GM}{R_e}$$\n\nSince surface gravitational acceleration is $g = \\frac{GM}{R_e^2}$, we have $GM = gR_e^2$. Substituting:\n\n$$v_{esc}^2 = \\frac{2gR_e^2}{R_e} = 2gR_e$$\n\nTherefore: $$v_{esc} = \\sqrt{2gR_e}$$\n\nFor Earth, this equals approximately 11.2 km/s.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionId": "alternative-formula-using-surface-gravity-g",
+    "sectionLabel": "Alternative Formula using Surface Gravity (g)",
+    "session": "annual",
+    "stem": "What is **escape velocity** ($v_{esc}$)? Derive the expression $v_{esc} = \\sqrt{2gR_e}$.",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "m17avrh4e17a6885yqf8h78d3s85qxp8",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The escape velocity from the surface of the Earth is approximately 11.2 km/s or 11,200 m/s. It is derived from the condition that the kinetic energy of an object equals the gravitational potential energy: $v_e = \\sqrt{\\frac{2GM}{R}}$, where $G$ is the gravitational constant, $M$ is Earth's mass, and $R$ is Earth's radius.",
+    "keyPoints": [
+      "Correct numerical value: 11.2 km/s (or 11,200 m/s)",
+      "Correct formula: $v_e = \\sqrt{\\frac{2GM}{R}}$",
+      "Understanding that escape velocity is independent of the object's mass",
+      "Recognition that this is the minimum velocity needed to escape Earth's gravitational field",
+      "Ability to relate escape velocity to gravitational potential energy and kinetic energy"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The escape velocity from the surface of the Earth is approximately 11.2 km/s or 11,200 m/s. It is derived from the condition that the kinetic energy of an object equals the gravitational potential energy: $v_e = \\sqrt{\\frac{2GM}{R}}$, where $G$ is the gravitational constant, $M$ is Earth's mass, and $R$ is Earth's radius.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$11\\text{ km/s}$"
+      },
+      {
+        "key": "B",
+        "text": "$1100\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$1800\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$11.2\\text{ ms}^{-1}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "numerical-value-for-earth",
+    "sectionLabel": "Numerical Value for Earth",
+    "session": "annual",
+    "stem": "The escape velocity from the surface of the earth is approximately:",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "non-conventional-energy-sources",
+    "topicTitle": "5.12 Non-Conventional Energy Sources",
+    "_id": "m172rykdtpywnq653rz2341va985pgsz",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A nonrenewable source of energy is one that cannot be replenished naturally within a human timescale and has finite reserves. Examples include fossil fuels (coal, oil, natural gas) and nuclear fuels (uranium). These sources are depleted as they are used and take millions of years to form, making them nonrenewable unlike solar, wind, or hydroelectric energy.",
+    "keyPoints": [
+      "Identifies nonrenewable energy as finite resources that cannot be naturally replenished on human timescale",
+      "Provides examples such as fossil fuels (coal, oil, natural gas) or nuclear fuel (uranium)",
+      "Contrasts with renewable sources to demonstrate understanding",
+      "Explains that nonrenewable sources are depleted through use"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A nonrenewable source of energy is one that cannot be replenished naturally within a human timescale and has finite reserves. Examples include fossil fuels (coal, oil, natural gas) and nuclear fuels (uranium). These sources are depleted as they are used and take millions of years to form, making them nonrenewable unlike solar, wind, or hydroelectric energy.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coal"
+      },
+      {
+        "key": "B",
+        "text": "Sunlight"
+      },
+      {
+        "key": "C",
+        "text": "Wind"
+      },
+      {
+        "key": "D",
+        "text": "Biomass"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionId": "renewable-alternatives-to-fossil-fuels",
+    "sectionLabel": "Renewable Alternatives to Fossil Fuels",
+    "session": "annual",
+    "stem": "Which one of the following is a nonrenewable source of energy?",
+    "topicId": "ms7b7zk3zaens9zs3rfmm7eph185pj50",
+    "year": 2024
+  }
+]

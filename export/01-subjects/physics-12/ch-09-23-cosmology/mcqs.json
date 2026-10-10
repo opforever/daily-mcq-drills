@@ -1,0 +1,457 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-1-black-body-radiation",
+    "topicTitle": "23.1 Blackbody Radiation",
+    "_id": "k971732b1j1bptc4j7xr9zbyzs8bq75p",
+    "correctKey": "D",
+    "explanation": "The Stefan-Boltzmann law gives power per unit area proportional to T⁴. Doubling T multiplies the power by 2⁴ = 16.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx766g9mbghxk47ht7tbqwejnd85pdvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "sectionId": "stefan-boltzmann-law-slo-p-12-f-47",
+    "sectionLabel": "Stefan-Boltzmann Law (SLO P-12-F-47)",
+    "stem": "If the absolute temperature of a black body is doubled, by what factor does its total radiated power per unit area increase?",
+    "topicId": "ms7933b2g56r1t1h2c2p9cvc5585pjnk"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-1-black-body-radiation",
+    "topicTitle": "23.1 Blackbody Radiation",
+    "_id": "k979rch91jshp3eechefj1skfx85qcdr",
+    "correctKey": "C",
+    "explanation": "Classical theory (Rayleigh-Jeans law) predicted infinite energy at short wavelengths (UV region), which contradicted experimental data.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx766g9mbghxk47ht7tbqwejnd85pdvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Photoelectric effect"
+      },
+      {
+        "key": "B",
+        "text": "Compton effect"
+      },
+      {
+        "key": "C",
+        "text": "Ultraviolet catastrophe"
+      },
+      {
+        "key": "D",
+        "text": "Uncertainty principle"
+      }
+    ],
+    "sectionId": "the-ultraviolet-catastrophe",
+    "sectionLabel": "The Ultraviolet Catastrophe",
+    "stem": "The failure of classical physics to explain the energy distribution of a black body at short wavelengths is known as:",
+    "topicId": "ms7933b2g56r1t1h2c2p9cvc5585pjnk"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-1-black-body-radiation",
+    "topicTitle": "23.1 Blackbody Radiation",
+    "_id": "k97ddkktxzzxdtje8q9a1545j185p3cm",
+    "correctKey": "C",
+    "explanation": "A perfect black body absorbs 100% of incident radiation, meaning its absorptivity is 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx766g9mbghxk47ht7tbqwejnd85pdvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "0.5"
+      },
+      {
+        "key": "C",
+        "text": "Unity (1)"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "what-is-a-black-body",
+    "sectionLabel": "What is a Black Body?",
+    "stem": "Which of the following best describes the absorption power of a perfect black body?",
+    "topicId": "ms7933b2g56r1t1h2c2p9cvc5585pjnk"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-1-black-body-radiation",
+    "topicTitle": "23.1 Blackbody Radiation",
+    "_id": "k97c2tw0dpkmbpp0xp066r7d5h85pysw",
+    "correctKey": "B",
+    "explanation": "According to Wien's Law, $\\lambda_{max} \\propto 1/T$. If $T$ is doubled, $\\lambda_{max}$ becomes half.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx766g9mbghxk47ht7tbqwejnd85pdvy",
+    "options": [
+      {
+        "key": "A",
+        "text": "Be doubled"
+      },
+      {
+        "key": "B",
+        "text": "Be halved"
+      },
+      {
+        "key": "C",
+        "text": "Increase four times"
+      },
+      {
+        "key": "D",
+        "text": "Remain the same"
+      }
+    ],
+    "sectionId": "wiens-displacement-law-slo-p-12-f-46",
+    "sectionLabel": "Wien's Displacement Law (SLO P-12-F-46)",
+    "stem": "If the absolute temperature of a black body is doubled, the wavelength corresponding to maximum energy emission will:",
+    "topicId": "ms7933b2g56r1t1h2c2p9cvc5585pjnk"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-2-luminosity-and-radiant-fluxintensity",
+    "topicTitle": "23.2 Luminosity and Radiant Flux Intensity",
+    "_id": "k97cm28mxe135bsssc8wck9bdh85q1s4",
+    "correctKey": "C",
+    "explanation": "By the inverse square law $F = \\frac{L}{4\\pi d^2}$, if $d$ becomes $2d$, $F$ becomes $F/4$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7es1v340ad5rjtcn5kfjm8jn85pzje",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain the same"
+      },
+      {
+        "key": "B",
+        "text": "Decrease by a factor of 2"
+      },
+      {
+        "key": "C",
+        "text": "Decrease by a factor of 4"
+      },
+      {
+        "key": "D",
+        "text": "Increase by a factor of 4"
+      }
+    ],
+    "sectionId": "inverse-square-law",
+    "sectionLabel": "Inverse Square Law",
+    "stem": "If the distance to a star is doubled, its radiant flux intensity observed from Earth will:",
+    "topicId": "ms7dyz4nb94rp6fe7d8s9m2m3x85p9y2"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-2-luminosity-and-radiant-fluxintensity",
+    "topicTitle": "23.2 Luminosity and Radiant Flux Intensity",
+    "_id": "k97frjg9aj3gzvcn7ke4v7hp818bj98b",
+    "correctKey": "D",
+    "explanation": "L = 4*pi*$r^{2}$*sigma*$T^{4}$, and with equal radius, luminosity scales as $T^{4}$. Doubling T multiplies L by 2^4 = 16.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7es1v340ad5rjtcn5kfjm8jn85pzje",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 times"
+      },
+      {
+        "key": "B",
+        "text": "4 times"
+      },
+      {
+        "key": "C",
+        "text": "8 times"
+      },
+      {
+        "key": "D",
+        "text": "16 times"
+      }
+    ],
+    "sectionId": "stefan-boltzmann-law-and-luminosity",
+    "sectionLabel": "Stefan-Boltzmann Law and Luminosity",
+    "stem": "Two stars have the same radius, but star A's surface temperature is twice that of star B. How many times more luminous is star A?",
+    "topicId": "ms7dyz4nb94rp6fe7d8s9m2m3x85p9y2"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-3-standard-candles-a-distance-indicator",
+    "topicTitle": "23.3 Standard Candles as Distance Indicators",
+    "_id": "k975596zdz9etmsfb039d8ppzn8bkqxz",
+    "correctKey": "B",
+    "explanation": "By Wien's law, T is inversely proportional to $lambda_max$, so a shorter peak wavelength (bluer) means a higher surface temperature.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx752w6rbh6q4dpyvtjz3v4ybd85qe8x",
+    "options": [
+      {
+        "key": "B",
+        "text": "A higher surface temperature"
+      },
+      {
+        "key": "A",
+        "text": "A lower surface temperature"
+      },
+      {
+        "key": "C",
+        "text": "The same surface temperature"
+      },
+      {
+        "key": "D",
+        "text": "No relation between colour and temperature"
+      }
+    ],
+    "sectionId": "blackbody-radiation-and-wiens-displacement-law",
+    "sectionLabel": "Blackbody Radiation and Wien's Displacement Law",
+    "stem": "A star with a shorter peak wavelength (bluer colour) compared to another star must have:",
+    "topicId": "ms75hz71553q9swzescn5xhy2h85q9vp"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-3-standard-candles-a-distance-indicator",
+    "topicTitle": "23.3 Standard Candles as Distance Indicators",
+    "_id": "k97d0x1ethp24qhqt1pp8brew18bj616",
+    "correctKey": "B",
+    "explanation": "Wien's law (from the peak wavelength) gives the temperature T, and the Stefan-Boltzmann luminosity formula L=4*pi*$R^{2}$*sigma*$T^{4}$ rearranged for R (using L found from apparent brightness and distance) gives the radius.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx752w6rbh6q4dpyvtjz3v4ybd85qe8x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hubble's law and the inverse square law"
+      },
+      {
+        "key": "D",
+        "text": "Kepler's laws and Wien's law"
+      },
+      {
+        "key": "B",
+        "text": "Wien's displacement law and the Stefan-Boltzmann law"
+      },
+      {
+        "key": "C",
+        "text": "Planck's law and Newton's law of gravitation"
+      }
+    ],
+    "sectionId": "estimating-the-radius-of-a-star",
+    "sectionLabel": "Estimating the Radius of a Star",
+    "stem": "To estimate a star's radius from its spectrum and apparent brightness, which two laws are combined?",
+    "topicId": "ms75hz71553q9swzescn5xhy2h85q9vp"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-3-standard-candles-a-distance-indicator",
+    "topicTitle": "23.3 Standard Candles as Distance Indicators",
+    "_id": "k9771gczkyfj4pssvknwj5030h8bjr37",
+    "correctKey": "B",
+    "explanation": "A Type Ia supernova is triggered when a white dwarf accretes mass up to the Chandrasekhar limit (~1.4 solar masses) and explodes, so nearly every Type Ia supernova reaches the same peak luminosity, making them reliable standard candles even at extreme distances.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx752w6rbh6q4dpyvtjz3v4ybd85qe8x",
+    "options": [
+      {
+        "key": "C",
+        "text": "They are visible with the naked eye from any galaxy"
+      },
+      {
+        "key": "B",
+        "text": "They always explode at the same triggering mass (the Chandrasekhar limit), giving nearly the same peak luminosity every time"
+      },
+      {
+        "key": "A",
+        "text": "They all have the same color regardless of distance"
+      },
+      {
+        "key": "D",
+        "text": "Their period of pulsation directly gives their luminosity"
+      }
+    ],
+    "sectionId": "standard-candles",
+    "sectionLabel": "Standard Candles",
+    "stem": "Why can Type Ia supernovae be used as reliable standard candles across billions of light-years?",
+    "topicId": "ms75hz71553q9swzescn5xhy2h85q9vp"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-4-spectra-of-light",
+    "topicTitle": "23.4 Spectra of Light",
+    "_id": "k978htt9ekp0ttx1v94rs0xg4n8bjbed",
+    "correctKey": "C",
+    "explanation": "z = (491-486)/486 ~= 0.0103. v = z*c = 0.0103 * 3e8 ~= 3.1e6 m/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx716862dg0hqmse617w772fv585p74y",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.1 x 10^4 m/s"
+      },
+      {
+        "key": "B",
+        "text": "3.1 x 10^5 m/s"
+      },
+      {
+        "key": "C",
+        "text": "3.1 x 10^6 m/s"
+      },
+      {
+        "key": "D",
+        "text": "3.1 x 10^7 m/s"
+      }
+    ],
+    "sectionId": "redshift",
+    "sectionLabel": "Redshift",
+    "stem": "A galaxy's hydrogen absorption line normally at 486 nm is observed at 491 nm. Approximately how fast is the galaxy receding?",
+    "topicId": "ms72j06dy7t6gw7ajgh85hw53585qp9p"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-4-spectra-of-light",
+    "topicTitle": "23.4 Spectra of Light",
+    "_id": "k97a4fhhzmc4bk5qrpxwnpwaqs8bjk6c",
+    "correctKey": "B",
+    "explanation": "Since electron energy levels are quantised (discrete), an electron transition between two levels always releases a photon of one specific energy (and hence wavelength), giving a line spectrum rather than a continuous one.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx716862dg0hqmse617w772fv585p74y",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because gas atoms only absorb visible light"
+      },
+      {
+        "key": "B",
+        "text": "Because electron energy levels in atoms are discrete (quantised), so only specific energy-difference photons can be emitted"
+      },
+      {
+        "key": "C",
+        "text": "Because the gas is under high pressure"
+      },
+      {
+        "key": "D",
+        "text": "Because the prism only refracts certain colors"
+      }
+    ],
+    "sectionId": "types-of-spectra",
+    "sectionLabel": "Types of Spectra",
+    "stem": "Why does an excited gas emit only specific, discrete wavelengths rather than a continuous range?",
+    "topicId": "ms72j06dy7t6gw7ajgh85hw53585qp9p"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-5-hubble-s-law",
+    "topicTitle": "23.5 Hubble's Law",
+    "_id": "k97ba22c0ksx1q19409c9f3e5x8bj5f3",
+    "correctKey": "C",
+    "explanation": "v = H0*d = 70 * 20 = 1400 km/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7crtx2nvqkcyyvc54j00sv1185qaqf",
+    "options": [
+      {
+        "key": "A",
+        "text": "70 km/s"
+      },
+      {
+        "key": "B",
+        "text": "700 km/s"
+      },
+      {
+        "key": "C",
+        "text": "1400 km/s"
+      },
+      {
+        "key": "D",
+        "text": "14000 km/s"
+      }
+    ],
+    "sectionId": "hubbles-law",
+    "sectionLabel": "Hubble's Law",
+    "stem": "Using Hubble's Law with H0 = 70 km/s/Mpc, what is the recessional velocity of a galaxy at a distance of 20 Mpc?",
+    "topicId": "ms736rff4za1sj8fahygpmtytn85pws9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "23-cosmology",
+    "chapterTitle": "Cosmology",
+    "topicSlug": "23-5-hubble-s-law",
+    "topicTitle": "23.5 Hubble's Law",
+    "_id": "k97ct1rn02bg7e63jrhc36dzvh8bk75b",
+    "correctKey": "B",
+    "explanation": "If galaxies moved randomly, redshifts and blueshifts would be roughly equally common with no distance dependence. Instead, virtually all galaxies show redshift that increases systematically with distance, exactly the pattern predicted by uniformly expanding space carrying galaxies apart.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7crtx2nvqkcyyvc54j00sv1185qaqf",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because only nearby galaxies are redshifted"
+      },
+      {
+        "key": "B",
+        "text": "Because the Doppler shift shows nearly all galaxies receding, and the systematic increase of redshift with distance is exactly what uniform space expansion predicts"
+      },
+      {
+        "key": "C",
+        "text": "Because redshift only happens to galaxies moving toward us"
+      },
+      {
+        "key": "D",
+        "text": "Because Doppler shift only applies to sound, not light"
+      }
+    ],
+    "sectionId": "the-expanding-universe",
+    "sectionLabel": "The Expanding Universe",
+    "stem": "Why does the observation that almost all distant galaxies are redshifted, with greater redshift for greater distance, support the idea of an expanding universe rather than galaxies simply moving randomly?",
+    "topicId": "ms736rff4za1sj8fahygpmtytn85pws9"
+  }
+]

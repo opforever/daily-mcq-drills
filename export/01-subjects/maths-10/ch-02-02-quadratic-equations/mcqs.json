@@ -1,0 +1,177 @@
+[
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "02-quadratic-equations",
+    "chapterTitle": "Quadratic Equations",
+    "topicSlug": "2-1-quadratic-equations",
+    "topicTitle": "2.1 Quadratic Equations",
+    "_id": "k974rpf7548p57wk811t5ec6m98d2te0",
+    "correctKey": "A",
+    "explanation": "The corpus defines ax² + bx + c = 0 with a ≠ 0 as the standard form.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79vtgtk9y7y6d5s2e2q3wcj18bta5t",
+    "options": [
+      {
+        "key": "A",
+        "text": "ax² + bx + c = 0, a ≠ 0"
+      },
+      {
+        "key": "B",
+        "text": "ax + b = 0"
+      },
+      {
+        "key": "C",
+        "text": "ax³ + bx² + c = 0"
+      },
+      {
+        "key": "D",
+        "text": "a/x + b = 0"
+      }
+    ],
+    "sectionId": "quadratic-equations",
+    "sectionLabel": "Quadratic Equations",
+    "stem": "Which equation is in standard quadratic form?",
+    "topicId": "ms74j6t6srkkcev13as2bh6fds8bts39"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "02-quadratic-equations",
+    "chapterTitle": "Quadratic Equations",
+    "topicSlug": "2-2-equation-reducible-to-quadratic-form",
+    "topicTitle": "2.2 Equation Reducible to Quadratic Form",
+    "_id": "k97crya1gavdgw4k9v3dy7awgx8d35bq",
+    "correctKey": "A",
+    "explanation": "The corpus says some equations are not quadratic but can be reduced to quadratic form by solving the quadratic part.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e3ymbgk4yxn4njzg4wng8qx8bvsmz",
+    "options": [
+      {
+        "key": "A",
+        "text": "To rewrite it as a quadratic equation"
+      },
+      {
+        "key": "B",
+        "text": "To remove every variable"
+      },
+      {
+        "key": "C",
+        "text": "To make the equation linear only"
+      },
+      {
+        "key": "D",
+        "text": "To change the subject of the equation"
+      }
+    ],
+    "sectionId": "equation-reducible-to-quadratic-form",
+    "sectionLabel": "Equation Reducible to Quadratic Form",
+    "stem": "What is the main purpose of a substitution in an equation reducible to quadratic form?",
+    "topicId": "ms7bb1hwh45j7z4exrgd6efg8h8bt1v4"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "02-quadratic-equations",
+    "chapterTitle": "Quadratic Equations",
+    "topicSlug": "2-3-nature-of-roots-of-a-quadratic-equation",
+    "topicTitle": "2.3 Nature of Roots of a Quadratic Equation",
+    "_id": "k97eycvjbbbs6tkdbfm6csmr818d27sy",
+    "correctKey": "A",
+    "explanation": "The corpus explicitly identifies b² − 4ac as the discriminant and says it tells the nature of the roots.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78j12hkem9wa40w26rdwavqn8btqf3",
+    "options": [
+      {
+        "key": "A",
+        "text": "b² − 4ac"
+      },
+      {
+        "key": "B",
+        "text": "b² + 4ac"
+      },
+      {
+        "key": "C",
+        "text": "2a + b + c"
+      },
+      {
+        "key": "D",
+        "text": "a² − bc"
+      }
+    ],
+    "sectionId": "nature-of-roots-of-a-quadratic-equation",
+    "sectionLabel": "Nature of Roots of a Quadratic Equation",
+    "stem": "Which expression is the discriminant of ax² + bx + c = 0?",
+    "topicId": "ms74d625xhjq9sbffsbnfqwxvh8bvgcg"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "02-quadratic-equations",
+    "chapterTitle": "Quadratic Equations",
+    "topicSlug": "2-4-roots-and-coefficients-of-the-quadratic-equation",
+    "topicTitle": "2.4 Roots and Coefficients of the Quadratic Equation",
+    "_id": "k97e92s3kyp5pdk0acfzy2qc058d2fwt",
+    "correctKey": "A",
+    "explanation": "The corpus states that the product of the roots is c/a, the constant term divided by the coefficient of x².",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cwkk7aez8env95w4vsav9g98btqvg",
+    "options": [
+      {
+        "key": "A",
+        "text": "c/a"
+      },
+      {
+        "key": "B",
+        "text": "−b/a"
+      },
+      {
+        "key": "C",
+        "text": "a/c"
+      },
+      {
+        "key": "D",
+        "text": "b/c"
+      }
+    ],
+    "sectionId": "roots-and-coefficients-of-the-quadratic-equation",
+    "sectionLabel": "Roots and Coefficients of the Quadratic Equation",
+    "stem": "For ax² + bx + c = 0, what is the product of the roots?",
+    "topicId": "ms7237gg03nsn67h6mn9mnxc2s8bvw43"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "02-quadratic-equations",
+    "chapterTitle": "Quadratic Equations",
+    "topicSlug": "2-5-simultaneous-equations",
+    "topicTitle": "2.5 Simultaneous Equations",
+    "_id": "k976c02wrdd17f0gsk72h3f0cd8d2p8f",
+    "correctKey": "A",
+    "explanation": "The corpus defines the solution set as the ordered pairs that satisfy the system of equations.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx753a5tq6j3zvz8rdg6713cmh8btejf",
+    "options": [
+      {
+        "key": "A",
+        "text": "It satisfies every equation in the system"
+      },
+      {
+        "key": "B",
+        "text": "It satisfies only the first equation"
+      },
+      {
+        "key": "C",
+        "text": "It has equal coordinates"
+      },
+      {
+        "key": "D",
+        "text": "It contains no variables"
+      }
+    ],
+    "sectionId": "simultaneous-equations",
+    "sectionLabel": "Simultaneous Equations",
+    "stem": "What makes an ordered pair a solution of simultaneous equations?",
+    "topicId": "ms7d6jeagfn1yg8zg09g4hwa998bv0t9"
+  }
+]

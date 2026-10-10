@@ -1,0 +1,863 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,exerciseId,exerciseTitle,keyPoints,lastAttempt,locked,modelAnswer,origin,questionKind,questionNumber,sectionId,sectionLabel,stem,topicId
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m174qrx6kgp02df72v69b2wrks8cvz6q","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Each part follows from a core matrix-chapter fact: transpose, identity matrix structure, additive inverse, singular matrices, symmetric-matrix definition, matrix-multiplication order rules, and the |adj A| = |A|^(n-1) relation for n=2.""]",,"false","i. $\begin{bmatrix}5&3\\2&9\end{bmatrix}^t=\begin{bmatrix}5&2\\3&9\end{bmatrix}$, set equal to $\begin{bmatrix}5&x/2\\3&9\end{bmatrix}$: $x/2=2\Rightarrow x=4$: (b) 4
+
+ii. $I_3=\begin{bmatrix}y&0&x\\0&z&0\\x&0&1\end{bmatrix}$ must be the identity matrix (diagonal 1's, off-diagonal 0's): $y=1,z=1,x=0$: (d) $y=z=1,x=0$
+
+iii. Additive inverse of $I_2=\begin{bmatrix}1&0\\0&1\end{bmatrix}$ is $\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$: (b)
+
+iv. A null matrix is singular (determinant 0), so its multiplicative inverse does not exist: (d) impossible
+
+v. A matrix is symmetric when $A=A^t$; since $(A^t)^t=A$ always, writing this as $(A^t)^t=A^t$ is exactly the condition $A=A^t$: (d)
+
+vi. A $1\times1$ matrix $\left[\frac12\right]$ and a $2\times1$ matrix $\begin{bmatrix}0\\0\end{bmatrix}$ have different orders and cannot be added: (d) impossible
+
+vii. $A$ is $1\times2$, $B$ is $2\times3$: $AB$ has order (rows of A) x (cols of B) = $1\times3$: (a)
+
+viii. $AB=B$ (for square, invertible-context matrices) means $A$ acts as the identity: (a) I
+
+ix. $\begin{bmatrix}15\\25\end{bmatrix}\times[3\ \ 2]=\begin{bmatrix}45&30\\75&50\end{bmatrix}$: (d)
+
+x. $|T|=-1$: $T^{-1}=\dfrac{\operatorname{adj}T}{|T|}=\dfrac{\operatorname{adj}T}{-1}=-\operatorname{adj}T$: (c)
+
+xi. $y+x=144+y\Rightarrow x=144$ (i.e. $1x+0y=144$); $x+2y=x+13\Rightarrow2y=13$ (i.e. $0x+2y=13$). Matrix form $\begin{bmatrix}1&0\\0&2\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}144\\13\end{bmatrix}$: (c)
+
+xii. Coefficient matrix for $x-y=3$: $[1\ \ {-1}]$: (b)
+
+xiii. A $1\times1$ matrix like $[3]$ multiplies any matrix as a scalar (this textbook's convention, seen again in the Q9 product list): $3\times[1\ \ 2]=[3\ \ 6]$: (a)
+
+xiv. $(AB)^t=B^tA^t$: (c)
+
+xv. $\begin{bmatrix}-3&5\\-3&x-1\end{bmatrix}$ singular: $\det=-3(x-1)-5(-3)=-3x+3+15=0\Rightarrow x=6$: (b)
+
+xvi. For a $2\times2$ matrix, $|\operatorname{adj}A|=|A|$ (since $|\operatorname{adj}A|=|A|^{n-1}$ with $n=2$), and also $|A^t|=|A|$ and $|-A|=(-1)^2|A|=|A|$ always: all three equal $|A|$: (d) all a, b, c","exercise","unclassified","1","determinant-of-a-matrix","Matrix Fundamentals (MCQ)","Encircle the correct option in the following.
+i. If $\left[\begin{array}{ll}5 & 3 \\ 2 & 9\end{array}\right]^{t}=\left[\begin{array}{ll}5 & \frac{x}{2} \\ 3 & 9\end{array}\right]$, then $\mathrm{x}=$
+(a) 6
+(b) 4
+(c) -6
+(d) $\quad-4$
+ii. If $I_{3}=\left[\begin{array}{ccc}y & 0 & x \\ 0 & z & 0 \\ x & 0 & 1\end{array}\right]$ then
+(a) $y=x=1$
+(b) $\quad x=\mathrm{z}=0$
+(c) $x=\mathrm{z}=1$
+(d) $y=\mathrm{z}=1, x=0$
+iii. Additive inverse of unit matrix of order 2 , is
+(a) $\left[\begin{array}{ll}0 & 0 \\ 0 & 0\end{array}\right]$
+(b) $\quad\left[\begin{array}{rr}-1 & 0 \\ 0 & -1\end{array}\right]$
+(c) $\left[\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right]$
+(d) $\quad\left[\begin{array}{rr}1 & 0 \\ 0 & -1\end{array}\right]$
+iv. Multiplicative inverse of a null matrix of order 2, is
+(a) $\left[\begin{array}{ll}0 & 0 \\ 0 & 0\end{array}\right]$
+(b) $\quad\left[\begin{array}{l}0 \\ 0\end{array}\right]$
+(c) $\quad[0 \quad 0]$
+(d) impossible
+v. A is a symmetric matrix if
+(a) $A^{t} \neq A$
+(b) $\left(A^{t}\right)^{t} \neq-\mathrm{A}$
+(c) $\left(A^{t}\right)^{t}=-\mathrm{A}$
+(d) $\left(A^{t}\right)^{t}=A^{t}$
+vi. $\left[\frac{1}{2}\right]+\left[\begin{array}{l}0 \\ 0\end{array}\right]=$
+(a) $\left[\frac{1}{2}\right]$
+(b) $\quad\left[\begin{array}{l}1 \\ 2\end{array}\right]$
+(c) $\quad\left[\begin{array}{ll}\frac{1}{2} & 0 \\ 0\end{array}\right]$
+(d) impossible
+vii. Order of matrix $A$ is 1-by-2 and order of matrix $B$ is 2-by-3 then order of $A B$ is
+(a) 1-by-3
+(b) 3-by-1
+(c) 2-by-2
+(d) 3-by-2
+viii. If $A B=B$, then $A=\ldots \ldots$
+(a) I
+(b) $\mathrm{A}^{-1}$
+(c) B
+(d) $\mathrm{B}^{-1}$
+ix. $\left[\begin{array}{l}15 \\ 25\end{array}\right] \times\left[\begin{array}{ll}3 & 2\end{array}\right]=$
+(a) $[95]$
+(b) $\left[\begin{array}{l}45 \\ 50\end{array}\right]$
+(c) $\left[\begin{array}{ll}45 & 50\end{array}\right]$
+(d) $\left[\begin{array}{ll}45 & 30 \\ 75 & 50\end{array}\right]$
+x. If $|\mathrm{T}|=-1$ then $\mathrm{T}^{-1}=$
+(a) -T
+(b) $\quad \operatorname{adj} \mathrm{T}$
+(c) $-\operatorname{adj} \mathrm{T}$
+(d) T
+xi. Matrix equation for $y+x=144+y$ and $x+2 y=x+13$ is
+(a) $\left[\begin{array}{ll}1 & 1 \\ 1 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(b) $\quad\left[\begin{array}{ll}1 & 0 \\ 1 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(c) $\left[\begin{array}{ll}1 & 0 \\ 0 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(d) $\left[\begin{array}{ll}1 & 0 \\ 0 & 2\end{array}\right] \times\left[\begin{array}{l}y \\ x\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+xii. The matrix of coefficients for $x-y=3$, is
+(a) $[3]$
+(b) $\left[\begin{array}{ll}1 & -1\end{array}\right]$
+(c) $\left[\begin{array}{l}x \\ y\end{array}\right]$
+(d) $\left[\begin{array}{l}1 \\ 1\end{array}\right]$
+xiii.[ll 2 ] $[3]=$
+(a) $\left[\begin{array}{ll}3 & 6\end{array}\right]$
+(b) $\left[\begin{array}{l}3 \\ 6\end{array}\right]$
+(c) $[5]$
+(d) impossible
+xiv. If $A$ and $B$ are two matrices, conformable for the product $A B$ then $(A B)^{t}=$
+(a) $A^{t} B^{t}$
+(b) $(B A)^{t}$
+(c) $\mathrm{B}^{\mathrm{t}} \mathrm{A}^{\mathrm{t}}$
+(d) AB
+xv. If $\left[\begin{array}{cc}-3 & 5 \\ -3 & x-1\end{array}\right]$ is singular matrix, then $x=$
+(a) 4
+(b) 6
+(c) -6
+(d) -4
+xvi. If $\operatorname{adj} \mathrm{A}=\left[\begin{array}{ll}5 & 6 \\ 2 & 3\end{array}\right]$ then $|\mathrm{A}|=$
+(a) $|\operatorname{adj} \mathrm{A}|$
+(b) $\left|\mathrm{A}^{\mathrm{t}}\right|$
+(c) $|-\mathrm{A}|$
+(d) all a, b, c","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m172j0g3y7cr5xbnnwmnj5b4ph8ctk93","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Matrix equality requires identical order and every corresponding entry equal; mismatched orders make equality impossible regardless of variable values.""]",,"false","Two matrices are equal only if they have the same order AND every corresponding entry matches.
+
+(a) $[x\ \ 9]=[2\ \ y]$: $x=2,\ y=9$
+
+(b) $\begin{bmatrix}6&3\\4&x\end{bmatrix}=\begin{bmatrix}7&3\\4&0\end{bmatrix}$: **not possible** -- the (1,1) entries $6\neq7$ already conflict, regardless of $x$.
+
+(c) $\begin{bmatrix}5x\\2y\end{bmatrix}$ (order $2\times1$) $=[-10\ \ 20]$ (order $1\times2$): **not possible** -- the orders differ.
+
+(d) $-\begin{bmatrix}2x&3y\\4z&10\end{bmatrix}=\begin{bmatrix}8&6\\32&-10\end{bmatrix} \Rightarrow \begin{bmatrix}-2x&-3y\\-4z&-10\end{bmatrix}=\begin{bmatrix}8&6\\32&-10\end{bmatrix}$: the $(2,2)$ entries match ($-10=-10$); $-2x=8\Rightarrow x=-4$; $-3y=6\Rightarrow y=-2$; $-4z=32\Rightarrow z=-8$.
+
+(e) $\begin{bmatrix}x&-2y\\6&x+y\end{bmatrix}=\begin{bmatrix}3&-6\\6&z\end{bmatrix}$: $x=3$; $-2y=-6\Rightarrow y=3$; $x+y=z\Rightarrow z=6$.
+
+(f) $\begin{bmatrix}5\\6\\7\end{bmatrix}$ (order $3\times1$) $=\begin{bmatrix}5&0\\x&0\\7&0\end{bmatrix}$ (order $3\times2$): **not possible** -- the orders differ regardless of $x$.
+
+(g) $\begin{bmatrix}x+y\\x-y\end{bmatrix}=\begin{bmatrix}11\\1\end{bmatrix}$: $x+y=11,\ x-y=1 \Rightarrow x=6,\ y=5$.
+
+(h) $\begin{bmatrix}5&10\\15&x\end{bmatrix}+\begin{bmatrix}5&y\\15&5\end{bmatrix}=\begin{bmatrix}z&15\\30&7\end{bmatrix} \Rightarrow \begin{bmatrix}10&10+y\\30&x+5\end{bmatrix}=\begin{bmatrix}z&15\\30&7\end{bmatrix}$: $z=10$; $10+y=15\Rightarrow y=5$; $x+5=7\Rightarrow x=2$.
+
+(i) $5\begin{bmatrix}x\\3y\end{bmatrix}-\begin{bmatrix}36\\26\end{bmatrix}=2\begin{bmatrix}-2x\\y\end{bmatrix} \Rightarrow \begin{bmatrix}5x-36\\15y-26\end{bmatrix}=\begin{bmatrix}-4x\\2y\end{bmatrix}$: $5x-36=-4x\Rightarrow x=4$; $15y-26=2y\Rightarrow y=2$.
+
+(j) $\begin{bmatrix}x&y&z\\-2&-4&5\end{bmatrix}+2\begin{bmatrix}5&3&2\\1&6&3\end{bmatrix}=\begin{bmatrix}0&0&0\\0&8&11\end{bmatrix}$: second row automatically checks out ($-2+2=0,-4+12=8,5+6=11$). First row: $x+10=0\Rightarrow x=-10$; $y+6=0\Rightarrow y=-6$; $z+4=0\Rightarrow z=-4$.","exercise","unclassified","1","equal-matrices","Equal Matrices","Find $x, y, z$, from the followings, if possible. Mention the reason if not possible.
+(a) $\left[\begin{array}{ll}x & 9\end{array}\right]=\left[\begin{array}{ll}2 & y\end{array}\right]$
+(b) $\left[\begin{array}{ll}6 & 3 \\ 4 & x\end{array}\right]=\left[\begin{array}{ll}7 & 3 \\ 4 & 0\end{array}\right]$
+(c) $\left[\begin{array}{l}5 x \\ 2 y\end{array}\right]=\left[\begin{array}{ll}-10 & 20\end{array}\right]$
+(d) $-\left[\begin{array}{ll}2 x & 3 y \\ 4 z & 10\end{array}\right]=\left[\begin{array}{cc}8 & 6 \\ 32 & -10\end{array}\right]$
+(e) $\left[\begin{array}{cc}x & -2 y \\ 6 & x+y\end{array}\right]=\left[\begin{array}{cc}3 & -6 \\ 6 & z\end{array}\right]$
+(f) $\left[\begin{array}{l}5 \\ 6 \\ 7\end{array}\right]=\left[\begin{array}{ll}5 & 0 \\ x & 0 \\ 7 & 0\end{array}\right]$
+(g) $\left[\begin{array}{l}x+y \\ x-y\end{array}\right]=\left[\begin{array}{c}11 \\ 1\end{array}\right]$
+(h) $\left[\begin{array}{cc}5 & 10 \\ 15 & x\end{array}\right]+\left[\begin{array}{cc}5 & y \\ 15 & 5\end{array}\right]=\left[\begin{array}{cc}z & 15 \\ 30 & 7\end{array}\right]$
+(i) $5\left[\begin{array}{c}x \\ 3 y\end{array}\right]-\left[\begin{array}{l}36 \\ 26\end{array}\right]=2\left[\begin{array}{c}-2 x \\ y\end{array}\right]$
+(j) $\left[\begin{array}{ccc}x & y & z \\ -2 & -4 & 5\end{array}\right]+2 \times\left[\begin{array}{lll}5 & 3 & 2 \\ 1 & 6 & 3\end{array}\right]=\left[\begin{array}{ccc}0 & 0 & 0 \\ 0 & 8 & 11\end{array}\right]$","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m17cds5ah0b4f3bp8yk3bste398cve4h","xd70qspkz20ez3z8h1wr8bb4618dym1a","Exercise 3.1","[""Simplify every entry (including nested arithmetic/radicals) before comparing, and check that orders match first -- mismatched order alone rules out equality.""]",,"false","(a) $\begin{bmatrix}1&0\\0&1\end{bmatrix}$ vs $\begin{bmatrix}\sqrt{25}-\sqrt{25}&\sqrt{25}/5\\\sqrt{16}/4&\sqrt{16-16}\end{bmatrix}=\begin{bmatrix}0&1\\1&0\end{bmatrix}$: **not equal** (the 0s and 1s are swapped).
+
+(b) $[1\ \ 2\ \ 3]$ (order $1\times3$) vs $[1+2+3]=[6]$ (order $1\times1$): **not equal** (different orders).
+
+(c) $\left[\dfrac12\right]$ (order $1\times1$) vs $\begin{bmatrix}1\\2\end{bmatrix}$ (order $2\times1$): **not equal** (different orders).
+
+(d) $\begin{bmatrix}1+0&0+0\\0\times0&1-0\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$ vs $\begin{bmatrix}\frac{5\times5}{25}&\frac{3\times0}7\\2-17+15&17\times\frac1{17}\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$: **equal**.","exercise","unclassified","2","equal-matrices","Equal Matrices","Check whether the following pairs of matrices are equal or not.
+(a) $\left[\begin{array}{ll}1 & 0 \\ 0 & 1\end{array}\right],\left[\begin{array}{cc}\sqrt{25}-\sqrt{25} & \frac{\sqrt{25}}{5} \\ \frac{\sqrt{16}}{4} & \sqrt{16-16}\end{array}\right]$
+(b) $\left[\begin{array}{lll}1 & 2 & 3\end{array}\right],[1+2+3]$
+(c) $\left[\frac{1}{2}\right],\left[\begin{array}{l}1 \\ 2\end{array}\right]$
+(d) $\left[\begin{array}{l}1+0 \\ 0 \times 0\end{array}\right.$
+$\left.\begin{array}{l}0+0 \\ 1-0\end{array}\right],\left[\begin{array}{cc}\frac{5 \times 5}{25} & \frac{3 \times 0}{7} \\ 2-17+15 & 17 \times \frac{1}{17}\end{array}\right]$","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m170e5pv4qy27gwfeajx3b1nw58ctgsj","xd70qspkz20ez3z8h1wr8bb4618dym1a","Exercise 3.1","[""Order of a matrix is (number of rows) x (number of columns), read directly from how the elements are arranged in brackets.""]",,"false","(a) $[1+2\ \ 4+5]=[3\ \ 9]$: 1 row, 2 columns, order $1\times2$
+
+(b) $\begin{bmatrix}a+s&0\\0&d+s\end{bmatrix}$: 2 rows, 2 columns, order $2\times2$
+
+(c) $\left[\dfrac57\right]$: 1 row, 1 column, order $1\times1$
+
+(d) $[4+2\times1+5]=[11]$ (evaluating $4+(2\times1)+5=11$): 1 row, 1 column, order $1\times1$","exercise","unclassified","1","order-of-matrix","Order of Matrix","Write the number of rows, columns and order of the given matrices.
+(a) $\left[\begin{array}{ll}1+2 & 4+5\end{array}\right]$
+(b) $\left[\begin{array}{cc}a+s & 0 \\ 0 & d+s\end{array}\right]$
+(c) $\left[\frac{5}{7}\right]$
+(d) $[4+2 \times 1+5]$","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m17a5210t2a6f4n1crr4enjvy98cvmrq","xd70qspkz20ez3z8h1wr8bb4618dym1a","Exercise 3.1","[""A row matrix has all elements in a single row (order 1xn); a column matrix has all elements in a single column (order nx1).""]",,"false","Row matrix (order $1\times3$): $R=[7\ \ 11\ \ 10]$.
+
+Column matrix (order $3\times1$): $C=\begin{bmatrix}7\\11\\10\end{bmatrix}$.","exercise","unclassified","3","row-and-column-matrices","Row and Column Matrices","Hyder, Hassan and Ahmed scored 7 points, 11 points and 10 points respectively in a mathematical quiz. Display the data in a row matrix $(\mathrm{R})$ and a column matrix $(\mathrm{C})$.","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m179jxby88stb2wqaa5fk5a3v18ctp35","xd70qspkz20ez3z8h1wr8bb4618dym1a","Exercise 3.1","[""Symmetric: A^t = A (mirror across the diagonal). Skew-symmetric: A^t = -A (diagonal must be 0, and mirrored entries are opposite in sign)."",""A matrix with equal (not opposite) off-diagonal entries is symmetric, not skew-symmetric, even if it superficially looks similar.""]",,"false","(a) $\begin{bmatrix}5&2&3\\2&9&6\\3&6&3\end{bmatrix}$: transpose equals the same matrix (each off-diagonal pair matches: $2=2, 3=3, 6=6$). **Symmetric**.
+
+(b) $\begin{bmatrix}0&9\\-9&0\end{bmatrix}$: diagonal is zero and $9=-(-9)$. **Skew-symmetric**.
+
+(c) $\begin{bmatrix}0&-2&-4\\2&0&-2\\4&2&0\end{bmatrix}$: diagonal zero, and $-2=-(2)$, $-4=-(4)$, $-2=-(2)$. **Skew-symmetric**.
+
+(d) $\begin{bmatrix}0&-7\\7&0\end{bmatrix}$: diagonal zero and $-7=-(7)$. **Skew-symmetric**.
+
+(e) $\begin{bmatrix}0&-5\\-5&0\end{bmatrix}$: transpose equals the same matrix ($-5=-5$, not $-5=-(-5)$). **Symmetric** (not skew-symmetric, since the off-diagonal pair is equal rather than opposite in sign).","exercise","unclassified","5","symmetric-matrices-and-skew-symmetric-matrices","Symmetric Matrices and Skew Symmetric Matrices","Check for symmetric and skew symmetric matrices from the following.
+(a) $\quad\left[\begin{array}{lll}5 & 2 & 3 \\ 2 & 9 & 6 \\ 3 & 6 & 3\end{array}\right]$
+(b) $\quad\left[\begin{array}{cc}0 & 9 \\ -9 & 0\end{array}\right]$
+(c) $\left[\begin{array}{ccc}0 & -2 & -4 \\ 2 & 0 & -2 \\ 4 & 2 & 0\end{array}\right]$
+(d) $\left[\begin{array}{cc}0 & -7 \\ 7 & 0\end{array}\right]$
+(e) $\left[\begin{array}{cc}0 & -5 \\ -5 & 0\end{array}\right]$","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m1728sdwh1n83nxc069v865bsh8ct7fr","xd70qspkz20ez3z8h1wr8bb4618dym1a","Exercise 3.1","[""Symmetric: A^t = A, so entry (i,j) equals entry (j,i)."",""Skew-symmetric: A^t = -A, which forces every diagonal entry to be 0 and entry (i,j) = -entry (j,i).""]",,"false","A symmetric matrix of order 3 (satisfies $A^t=A$, so off-diagonal pairs match):
+
+$A=\begin{bmatrix}1&2&3\\2&4&5\\3&5&6\end{bmatrix}$
+
+A skew-symmetric matrix of order 3 (satisfies $A^t=-A$, so the diagonal is 0 and off-diagonal pairs are opposite in sign):
+
+$B=\begin{bmatrix}0&2&-3\\-2&0&4\\3&-4&0\end{bmatrix}$","exercise","unclassified","6","symmetric-matrices-and-skew-symmetric-matrices","Symmetric Matrices and Skew Symmetric Matrices","Write a symmetric and a skew symmetric matrix of order 3 .","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m17cq30pnmf98rb81cnfgkknq18ctj62","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Transpose of a matrix swaps rows and columns; an m-by-n matrix's transpose is n-by-m."",""Transpose distributes over addition: A^t + B^t = (A+B)^t.""]",,"false","From Q.4: $A=\begin{bmatrix}1&2\\3&-3\end{bmatrix}, B=\begin{bmatrix}1&-2\\3&3\end{bmatrix}$
+
+$A^t=\begin{bmatrix}1&3\\2&-3\end{bmatrix}$, $B^t=\begin{bmatrix}1&3\\-2&3\end{bmatrix}$
+
+$A^t+B^t=\begin{bmatrix}2&6\\0&0\end{bmatrix}$
+
+$A+B=\begin{bmatrix}2&0\\6&0\end{bmatrix}$, so $(A+B)^t=\begin{bmatrix}2&6\\0&0\end{bmatrix}$
+
+Since $A^t+B^t=(A+B)^t$, the identity is verified.","exercise","unclassified","7","transpose-of-a-matrix","Transpose of a Matrix","Taking matrices $A$ and $B$ from $Q .4$, verify that $A^{t}+B^{t}=(A+B)^{t}$.","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-1-introduction-of-matrices","3.1 Introduction of Matrices","m173tdt0rhkk49ny48cwj561pd8cv33j","xd70qspkz20ez3z8h1wr8bb4618dym1a","Exercise 3.1","[""Simplify all entries first, then classify: a scalar matrix has equal diagonal entries and zero elsewhere; a diagonal matrix only requires zero off-diagonal entries; the identity matrix is the special scalar matrix with diagonal entries all 1.""]",,"false","(a) $\begin{bmatrix}5&0\\0&5\end{bmatrix}$: **scalar matrix** (diagonal matrix with all diagonal entries equal).
+
+(b) $\begin{bmatrix}0&0\\0&3+0\end{bmatrix}=\begin{bmatrix}0&0\\0&3\end{bmatrix}$: **diagonal matrix** (off-diagonal entries zero, diagonal entries not all equal).
+
+(c) $\left[\dfrac{15\times3}{9\times5}\right]=\left[\dfrac{45}{45}\right]=[1]$: a $1\times1$ matrix equal to $[1]$, i.e. the **identity (unit) matrix of order 1**.
+
+(d) $\begin{bmatrix}\sqrt{625}/25&18-19+1\\17+15-32&3/\sqrt9\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$: **unit (identity) matrix** of order 2.
+
+(e) $\begin{bmatrix}6+2&0\\-3+3&8\end{bmatrix}=\begin{bmatrix}8&0\\0&8\end{bmatrix}$: **scalar matrix**.","exercise","unclassified","4","types-of-matrices","Types of Matrices","Write the most appropriate type of the following matrices.
+(a) $\quad\left[\begin{array}{ll}5 & 0 \\ 0 & 5\end{array}\right]$
+(b) $\quad\left[\begin{array}{cc}0 & 0 \\ 0 & 3+0\end{array}\right]$
+(c) $\left[\frac{15 \times 3}{9 \times 5}\right]$
+(d) $\left[\begin{array}{c}\frac{\sqrt{625}}{25} \\ 18-19+1\end{array}\right.$
+$\left.\begin{array}{c}17+15-32 \\ \frac{3}{\sqrt{9}}\end{array}\right]$
+(e) $\left[\begin{array}{rr}6+2 & 0 \\ -3+3 & 8\end{array}\right]$","ms7ab12f00eesw68c3kfxagvdn8bvbxm"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m17cds5ah0b4f3bp8yk3bste398cve4h","xd70qspkz20ez3z8h1wr8bb4618dym1a","Exercise 3.1","[""Simplify every entry (including nested arithmetic/radicals) before comparing, and check that orders match first -- mismatched order alone rules out equality.""]",,"false","(a) $\begin{bmatrix}1&0\\0&1\end{bmatrix}$ vs $\begin{bmatrix}\sqrt{25}-\sqrt{25}&\sqrt{25}/5\\\sqrt{16}/4&\sqrt{16-16}\end{bmatrix}=\begin{bmatrix}0&1\\1&0\end{bmatrix}$: **not equal** (the 0s and 1s are swapped).
+
+(b) $[1\ \ 2\ \ 3]$ (order $1\times3$) vs $[1+2+3]=[6]$ (order $1\times1$): **not equal** (different orders).
+
+(c) $\left[\dfrac12\right]$ (order $1\times1$) vs $\begin{bmatrix}1\\2\end{bmatrix}$ (order $2\times1$): **not equal** (different orders).
+
+(d) $\begin{bmatrix}1+0&0+0\\0\times0&1-0\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$ vs $\begin{bmatrix}\frac{5\times5}{25}&\frac{3\times0}7\\2-17+15&17\times\frac1{17}\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$: **equal**.","exercise","unclassified","2","equal-matrices","Equality of Matrices","Check whether the following pairs of matrices are equal or not.
+(a) $\left[\begin{array}{ll}1 & 0 \\ 0 & 1\end{array}\right],\left[\begin{array}{cc}\sqrt{25}-\sqrt{25} & \frac{\sqrt{25}}{5} \\ \frac{\sqrt{16}}{4} & \sqrt{16-16}\end{array}\right]$
+(b) $\left[\begin{array}{lll}1 & 2 & 3\end{array}\right],[1+2+3]$
+(c) $\left[\frac{1}{2}\right],\left[\begin{array}{l}1 \\ 2\end{array}\right]$
+(d) $\left[\begin{array}{l}1+0 \\ 0 \times 0\end{array}\right.$
+$\left.\begin{array}{l}0+0 \\ 1-0\end{array}\right],\left[\begin{array}{cc}\frac{5 \times 5}{25} & \frac{3 \times 0}{7} \\ 2-17+15 & 17 \times \frac{1}{17}\end{array}\right]$","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m172j0g3y7cr5xbnnwmnj5b4ph8ctk93","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Matrix equality requires identical order and every corresponding entry equal; mismatched orders make equality impossible regardless of variable values.""]",,"false","Two matrices are equal only if they have the same order AND every corresponding entry matches.
+
+(a) $[x\ \ 9]=[2\ \ y]$: $x=2,\ y=9$
+
+(b) $\begin{bmatrix}6&3\\4&x\end{bmatrix}=\begin{bmatrix}7&3\\4&0\end{bmatrix}$: **not possible** -- the (1,1) entries $6\neq7$ already conflict, regardless of $x$.
+
+(c) $\begin{bmatrix}5x\\2y\end{bmatrix}$ (order $2\times1$) $=[-10\ \ 20]$ (order $1\times2$): **not possible** -- the orders differ.
+
+(d) $-\begin{bmatrix}2x&3y\\4z&10\end{bmatrix}=\begin{bmatrix}8&6\\32&-10\end{bmatrix} \Rightarrow \begin{bmatrix}-2x&-3y\\-4z&-10\end{bmatrix}=\begin{bmatrix}8&6\\32&-10\end{bmatrix}$: the $(2,2)$ entries match ($-10=-10$); $-2x=8\Rightarrow x=-4$; $-3y=6\Rightarrow y=-2$; $-4z=32\Rightarrow z=-8$.
+
+(e) $\begin{bmatrix}x&-2y\\6&x+y\end{bmatrix}=\begin{bmatrix}3&-6\\6&z\end{bmatrix}$: $x=3$; $-2y=-6\Rightarrow y=3$; $x+y=z\Rightarrow z=6$.
+
+(f) $\begin{bmatrix}5\\6\\7\end{bmatrix}$ (order $3\times1$) $=\begin{bmatrix}5&0\\x&0\\7&0\end{bmatrix}$ (order $3\times2$): **not possible** -- the orders differ regardless of $x$.
+
+(g) $\begin{bmatrix}x+y\\x-y\end{bmatrix}=\begin{bmatrix}11\\1\end{bmatrix}$: $x+y=11,\ x-y=1 \Rightarrow x=6,\ y=5$.
+
+(h) $\begin{bmatrix}5&10\\15&x\end{bmatrix}+\begin{bmatrix}5&y\\15&5\end{bmatrix}=\begin{bmatrix}z&15\\30&7\end{bmatrix} \Rightarrow \begin{bmatrix}10&10+y\\30&x+5\end{bmatrix}=\begin{bmatrix}z&15\\30&7\end{bmatrix}$: $z=10$; $10+y=15\Rightarrow y=5$; $x+5=7\Rightarrow x=2$.
+
+(i) $5\begin{bmatrix}x\\3y\end{bmatrix}-\begin{bmatrix}36\\26\end{bmatrix}=2\begin{bmatrix}-2x\\y\end{bmatrix} \Rightarrow \begin{bmatrix}5x-36\\15y-26\end{bmatrix}=\begin{bmatrix}-4x\\2y\end{bmatrix}$: $5x-36=-4x\Rightarrow x=4$; $15y-26=2y\Rightarrow y=2$.
+
+(j) $\begin{bmatrix}x&y&z\\-2&-4&5\end{bmatrix}+2\begin{bmatrix}5&3&2\\1&6&3\end{bmatrix}=\begin{bmatrix}0&0&0\\0&8&11\end{bmatrix}$: second row automatically checks out ($-2+2=0,-4+12=8,5+6=11$). First row: $x+10=0\Rightarrow x=-10$; $y+6=0\Rightarrow y=-6$; $z+4=0\Rightarrow z=-4$.","exercise","unclassified","1","equal-matrices","Equal Matrices","Find $x, y, z$, from the followings, if possible. Mention the reason if not possible.
+(a) $\left[\begin{array}{ll}x & 9\end{array}\right]=\left[\begin{array}{ll}2 & y\end{array}\right]$
+(b) $\left[\begin{array}{ll}6 & 3 \\ 4 & x\end{array}\right]=\left[\begin{array}{ll}7 & 3 \\ 4 & 0\end{array}\right]$
+(c) $\left[\begin{array}{l}5 x \\ 2 y\end{array}\right]=\left[\begin{array}{ll}-10 & 20\end{array}\right]$
+(d) $-\left[\begin{array}{ll}2 x & 3 y \\ 4 z & 10\end{array}\right]=\left[\begin{array}{cc}8 & 6 \\ 32 & -10\end{array}\right]$
+(e) $\left[\begin{array}{cc}x & -2 y \\ 6 & x+y\end{array}\right]=\left[\begin{array}{cc}3 & -6 \\ 6 & z\end{array}\right]$
+(f) $\left[\begin{array}{l}5 \\ 6 \\ 7\end{array}\right]=\left[\begin{array}{ll}5 & 0 \\ x & 0 \\ 7 & 0\end{array}\right]$
+(g) $\left[\begin{array}{l}x+y \\ x-y\end{array}\right]=\left[\begin{array}{c}11 \\ 1\end{array}\right]$
+(h) $\left[\begin{array}{cc}5 & 10 \\ 15 & x\end{array}\right]+\left[\begin{array}{cc}5 & y \\ 15 & 5\end{array}\right]=\left[\begin{array}{cc}z & 15 \\ 30 & 7\end{array}\right]$
+(i) $5\left[\begin{array}{c}x \\ 3 y\end{array}\right]-\left[\begin{array}{l}36 \\ 26\end{array}\right]=2\left[\begin{array}{c}-2 x \\ y\end{array}\right]$
+(j) $\left[\begin{array}{ccc}x & y & z \\ -2 & -4 & 5\end{array}\right]+2 \times\left[\begin{array}{lll}5 & 3 & 2 \\ 1 & 6 & 3\end{array}\right]=\left[\begin{array}{ccc}0 & 0 & 0 \\ 0 & 8 & 11\end{array}\right]$","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m177s0zb0hy56a2t7h4c2f47s58ct6vj","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2",,,"false","The additive inverse negates every entry. $-R=\left[\begin{array}{ccc}-5 & 0 & -3\\-7 & 9 & 1\\8 & -5 & -6\end{array}\right]$, $-S=\left[\begin{array}{cc}5 & -2\\-3 & 6\\9 & -4\end{array}\right]$, $-T=\left[\begin{array}{ccc}-5 & 6 & -1\end{array}\right]$. Each matrix plus its inverse gives the zero matrix of the same order.","exercise","unclassified","2",,,"Find the additive inverses of the following.","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m17cq30pnmf98rb81cnfgkknq18ctj62","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Transpose of a matrix swaps rows and columns; an m-by-n matrix's transpose is n-by-m."",""Transpose distributes over addition: A^t + B^t = (A+B)^t.""]",,"false","From Q.4: $A=\begin{bmatrix}1&2\\3&-3\end{bmatrix}, B=\begin{bmatrix}1&-2\\3&3\end{bmatrix}$
+
+$A^t=\begin{bmatrix}1&3\\2&-3\end{bmatrix}$, $B^t=\begin{bmatrix}1&3\\-2&3\end{bmatrix}$
+
+$A^t+B^t=\begin{bmatrix}2&6\\0&0\end{bmatrix}$
+
+$A+B=\begin{bmatrix}2&0\\6&0\end{bmatrix}$, so $(A+B)^t=\begin{bmatrix}2&6\\0&0\end{bmatrix}$
+
+Since $A^t+B^t=(A+B)^t$, the identity is verified.","exercise","unclassified","7","transpose-of-a-matrix","Transpose of a Matrix","Taking matrices $A$ and $B$ from $Q .4$, verify that $A^{t}+B^{t}=(A+B)^{t}$.","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m177ax3mxmb0bjfp3d2cpnav4x8ctc0q","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Addition and subtraction of matrices require matching order; a mismatched-order operation is simply not possible, regardless of the entries."",""Only compare entries once the orders are confirmed equal.""]",,"false","$A=\begin{bmatrix}1&2\\3&-3\end{bmatrix}, B=\begin{bmatrix}1&-2\\3&3\end{bmatrix}, C=\begin{bmatrix}2&0\\6&0\end{bmatrix}, D=\begin{bmatrix}2\\6\end{bmatrix}, E=\begin{bmatrix}2&2\\6&6\end{bmatrix}$
+
+(i) $A+B=\begin{bmatrix}2&0\\6&0\end{bmatrix}=C$. **True**.
+
+(ii) $C$ is 2-by-2 but $D$ is 2-by-1; matrices of different order cannot be added, so $C+D$ is **not possible** and the claim $C+D=E$ is false.
+
+(iii) $D+D=\begin{bmatrix}4\\12\end{bmatrix}$ (order 2-by-1), while $E$ is 2-by-2. Different orders, so $D+D=E$ is **not possible** (false).
+
+(iv) $E$ is 2-by-2 and $D$ is 2-by-1; subtraction is **not possible** since the orders differ, so $E-D=C$ is false.","exercise","unclassified","4","addition-and-subtraction-of-matrices","Addition and Subtraction of Matrices","If $A=\left[\begin{array}{cc}1 & 2 \\ 3 & -3\end{array}\right], B=\left[\begin{array}{cc}1 & -2 \\ 3 & 3\end{array}\right], C=\left[\begin{array}{ll}2 & 0 \\ 6 & 0\end{array}\right], D=\left[\begin{array}{l}2 \\ 6\end{array}\right], E=\left[\begin{array}{ll}2 & 2 \\ 6 & 6\end{array}\right]$ Then check whether: (i) $\mathrm{A}+\mathrm{B}=\mathrm{C}$ (ii) $\mathrm{C}+\mathrm{D}=\mathrm{E} \quad$ (iii) $\mathrm{D}+\mathrm{D}=\mathrm{E}$ (iv) $\mathrm{E}-\mathrm{D}=\mathrm{C}$","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m17dztgzkzpsfgjbtqs7z4yp318cvtpn","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Associative property: (A+B)+C = A+(B+C) for matrices of the same order."",""Because matrix addition reduces to entrywise real-number addition, it inherits associativity from ordinary addition.""]",,"false","From Q.3: $A=\begin{bmatrix}5&3\\-2&6\end{bmatrix}, B=\begin{bmatrix}10&8\\-8&6\end{bmatrix}, C=\begin{bmatrix}15&6\\0&-12\end{bmatrix}$
+
+$A+B=\begin{bmatrix}15&11\\-10&12\end{bmatrix}$, so $(A+B)+C=\begin{bmatrix}30&17\\-10&0\end{bmatrix}$
+
+$B+C=\begin{bmatrix}25&14\\-8&-6\end{bmatrix}$, so $A+(B+C)=\begin{bmatrix}30&17\\-10&0\end{bmatrix}$
+
+Since $(A+B)+C=A+(B+C)$, the associative property of matrix addition is verified.","exercise","unclassified","6","associative-property-of-matrix-addition","Associative Property of Matrix Addition","Taking matrices $\mathrm{A}, \mathrm{B}$ and C from Q . 3, verify associative property of matrix addition.","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m17ahqtmd0kfh4vrh1abkcp3gx8ct25f","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Commutative property: A + B = B + A for matrices of the same order."",""Addition of matrices reduces to ordinary addition of corresponding real-number entries, which is always commutative.""]",,"false","From Q.3: $A=\begin{bmatrix}5&3\\-2&6\end{bmatrix}, B=\begin{bmatrix}10&8\\-8&6\end{bmatrix}$.
+
+$A+B=\begin{bmatrix}15&11\\-10&12\end{bmatrix}$
+
+$B+A=\begin{bmatrix}15&11\\-10&12\end{bmatrix}$
+
+Since $A+B=B+A$, the commutative property of matrix addition is verified.","exercise","unclassified","5","commutative-property-of-matrix-addition","Commutative Property of Matrix Addition","Taking matrices A and B from Q .3, verify commutative property of matrix addition.","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m173t6ha9pqmwa7dg4nzq5m2ts8cv038","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Matrix multiplication is not commutative in general (AB != BA), so identities like (A+B)(A-B) = A^2-B^2 that rely on commutativity fail for matrices even though they hold for numbers."",""The transpose-of-a-product rule is (AB)^t = B^t A^t (order reverses).""]",,"false","$A=\begin{bmatrix}1&0\\2&3\end{bmatrix}$, $B=\begin{bmatrix}2&1\\0&-3\end{bmatrix}$, $C=\begin{bmatrix}3&0\\-2&1\end{bmatrix}$
+
+(i) $AB=\begin{bmatrix}2&1\\4&-7\end{bmatrix}$, $BA=\begin{bmatrix}4&3\\-6&-9\end{bmatrix}$. $AB\neq BA$ (matrix multiplication is not commutative).
+
+(ii) $AC=\begin{bmatrix}3&0\\0&3\end{bmatrix}$, $CA=\begin{bmatrix}3&0\\0&3\end{bmatrix}$. $AC=CA$ (this particular pair happens to commute).
+
+(iii) $A(B+C)=\begin{bmatrix}5&1\\4&-4\end{bmatrix}$; $AB+AC=\begin{bmatrix}2&1\\4&-7\end{bmatrix}+\begin{bmatrix}3&0\\0&3\end{bmatrix}=\begin{bmatrix}5&1\\4&-4\end{bmatrix}$. Verified equal.
+
+(iv) $(A-B)C=\begin{bmatrix}-1&-1\\-6&6\end{bmatrix}$; $AC-BC=\begin{bmatrix}3&0\\0&3\end{bmatrix}-\begin{bmatrix}4&1\\6&-3\end{bmatrix}=\begin{bmatrix}-1&-1\\-6&6\end{bmatrix}$. Verified equal.
+
+(v) Associative property: $(AB)C=\begin{bmatrix}4&1\\26&-7\end{bmatrix}$ and $A(BC)=\begin{bmatrix}4&1\\26&-7\end{bmatrix}$. Equal, so $(AB)C=A(BC)$ is verified.
+
+(vi) $A^2=\begin{bmatrix}1&0\\8&9\end{bmatrix}$, $B^2=\begin{bmatrix}4&-1\\0&9\end{bmatrix}$, $A+B=\begin{bmatrix}3&1\\2&0\end{bmatrix}$, $A-B=\begin{bmatrix}-1&-1\\2&6\end{bmatrix}$, $(A+B)(A-B)=\begin{bmatrix}-1&3\\-2&-2\end{bmatrix}$, $A^2-B^2=\begin{bmatrix}-3&1\\8&0\end{bmatrix}$.
+
+(vii) $(A+B)(A-B)\stackrel?=A^2-B^2$: $\begin{bmatrix}-1&3\\-2&-2\end{bmatrix}\neq\begin{bmatrix}-3&1\\8&0\end{bmatrix}$. **Not equal** -- this algebraic identity requires $AB=BA$, which fails here.
+
+(viii) $(A-B)(A+B)=\begin{bmatrix}-5&-1\\18&2\end{bmatrix}$, also **not equal** to $A^2-B^2$.
+
+(ix) $(A+B)(A-B)\stackrel?=(A-B)(A+B)$: $\begin{bmatrix}-1&3\\-2&-2\end{bmatrix}\neq\begin{bmatrix}-5&-1\\18&2\end{bmatrix}$. **Not equal**, confirming matrix multiplication is not commutative in general.
+
+(x) $(AB)^t=\begin{bmatrix}2&4\\1&-7\end{bmatrix}$; $B^tA^t=\begin{bmatrix}2&0\\1&-3\end{bmatrix}\begin{bmatrix}1&2\\0&3\end{bmatrix}=\begin{bmatrix}2&4\\1&-7\end{bmatrix}$. Equal, verifying $(AB)^t=B^tA^t$. Also $(A^t)^t=\begin{bmatrix}1&0\\2&3\end{bmatrix}=A$, verified.","exercise","unclassified","10","multiplication-of-matrices","Multiplication of Matrices","If $\mathrm{A}=\left[\begin{array}{ll}1 & 0 \\ 2 & 3\end{array}\right], \mathrm{B}=\left[\begin{array}{cc}2 & 1 \\ 0 & -3\end{array}\right]$ and $\mathrm{C}=\left[\begin{array}{cc}3 & 0 \\ -2 & 1\end{array}\right]$ then
+(i) Find AB and BA , check whether $\mathrm{AB}=\mathrm{BA}$ or not?
+(ii) Find AC and CA , check whether $\mathrm{AC}=\mathrm{CA}$ or not?
+(iii) Verify $\mathrm{A}(\mathrm{B}+\mathrm{C})=\mathrm{AB}+\mathrm{AC}$
+(iv) Verify (A-B) $\mathrm{C}=\mathrm{AC}-\mathrm{BC}$
+(v) Verify the associative property of matrix multiplication.
+(vi) Find $\mathrm{A}^{2}, \mathrm{~B}^{2}, \mathrm{~A}+\mathrm{B}, \mathrm{A}-\mathrm{B},(\mathrm{A}+\mathrm{B})(\mathrm{A}-\mathrm{B}), \mathrm{A}^{2}-\mathrm{B}^{2}$.
+(vii) Check, whether $(A+B) \times(A-B)=A^{2}-B^{2}$ or not?
+(viii) Check whether $(A-B) \times(A+B)=A^{2}-B^{2}$ or not?
+(ix) Check whether $(\mathrm{A}+\mathrm{B}) \times(\mathrm{A}-\mathrm{B})=(\mathrm{A}-\mathrm{B}) \times(\mathrm{A}+\mathrm{B})$ or not?.
+(x) Verify that $(A B)^{t}=B^{t} A^{t}$ and $\left(A^{t}\right)^{t}=A$","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m1765qj8dxbphqykhtc72dh2218ctwj1","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Two matrices are conformable for a product AB only if the number of columns of A equals the number of rows of B."",""When conformable, the product's order is (rows of A)-by-(columns of B); compute entrywise as sums of products.""]",,"false","(a)/(b) Order of the product where possible, and the computed product:
+
+i. $\begin{bmatrix}1&0\\0&1\end{bmatrix}$(2-by-2) $\times[5\ \ 3]$(1-by-2): columns of first (2) ≠ rows of second (1). **Not possible**.
+
+ii. $[5\ \ 3]$(1-by-2) $\times\begin{bmatrix}1&0\\1&0\end{bmatrix}$(2-by-2): possible, order **1-by-2**. Product $=[5(1)+3(1)\ \ 5(0)+3(0)]=[8\ \ 0]$.
+
+iii. $\begin{bmatrix}1&1\\0&0\end{bmatrix}$(2-by-2) $\times\begin{bmatrix}5\\3\end{bmatrix}$(2-by-1): possible, order **2-by-1**. Product $=\begin{bmatrix}5+3\\0\end{bmatrix}=\begin{bmatrix}8\\0\end{bmatrix}$.
+
+iv. $\begin{bmatrix}5\\3\end{bmatrix}$(2-by-1) $\times\begin{bmatrix}0&0\\1&0\end{bmatrix}$(2-by-2): columns of first (1) ≠ rows of second (2). **Not possible**.
+
+v. $[5]$(1-by-1) $\times\begin{bmatrix}1&0\\1&0\end{bmatrix}$(2-by-2): columns of first (1) ≠ rows of second (2). **Not possible**.
+
+vi. $\begin{bmatrix}1&-2\\3&4\end{bmatrix}$(2-by-2) $\times[5]$(1-by-1): columns of first (2) ≠ rows of second (1). **Not possible**.
+
+vii. $\begin{bmatrix}1\\3\end{bmatrix}$(2-by-1) $\times[5]$(1-by-1): possible, order **2-by-1**. Product $=\begin{bmatrix}5\\15\end{bmatrix}$.
+
+viii. $[5]$(1-by-1) $\times\begin{bmatrix}1\\3\end{bmatrix}$(2-by-1): columns of first (1) ≠ rows of second (2). **Not possible**.
+
+ix. $[5]$(1-by-1) $\times[9\ \ 3]$(1-by-2): possible, order **1-by-2**. Product $=[45\ \ 15]$.
+
+x. $[9\ \ {-3}]$(1-by-2) $\times[5]$(1-by-1): columns of first (2) ≠ rows of second (1). **Not possible**.
+
+xi. $[5]$(1-by-1) $\times[10]$(1-by-1): possible, order **1-by-1**. Product $=[50]$.
+
+xii. $[5\ \ 10]$(1-by-2) $\times\begin{bmatrix}-2\\3\end{bmatrix}$(2-by-1): possible, order **1-by-1**. Product $=[5(-2)+10(3)]=[20]$.
+
+xiii. $\begin{bmatrix}2\\3\end{bmatrix}$(2-by-1) $\times[5\ \ 10]$(1-by-2): possible, order **2-by-2**. Product $=\begin{bmatrix}10&20\\15&30\end{bmatrix}$.
+
+xiv. $\begin{bmatrix}5&2\\3&4\end{bmatrix}\times\begin{bmatrix}0&1\\1&0\end{bmatrix}$: possible, order **2-by-2**. Product $=\begin{bmatrix}2&5\\4&3\end{bmatrix}$.
+
+xv. $\begin{bmatrix}5&3\\2&6\end{bmatrix}\times[5\ \ {-2}]^t=\begin{bmatrix}5\\-2\end{bmatrix}$: possible, order **2-by-1**. Product $=\begin{bmatrix}5(5)+3(-2)\\2(5)+6(-2)\end{bmatrix}=\begin{bmatrix}19\\-2\end{bmatrix}$.","exercise","unclassified","9","multiplication-of-matrices","Multiplication of Matrices","(a) Mention the order of the indicated products where possible.
+(i) $\left[\begin{array}{ll}1 & 0 \\ 0 & 1\end{array}\right] \times\left[\begin{array}{ll}5 & 3\end{array}\right]$
+(ii) $\left[\begin{array}{ll}5 & 3\end{array}\right] \times\left[\begin{array}{ll}1 & 0 \\ 1 & 0\end{array}\right]$
+(iii) $\left[\begin{array}{ll}1 & 1 \\ 0 & 0\end{array}\right] \times\left[\begin{array}{l}5 \\ 3\end{array}\right]$
+(iv) $\left[\begin{array}{l}5 \\ 3\end{array}\right] \times\left[\begin{array}{ll}0 & 0 \\ 1 & 0\end{array}\right]$
+(v) $[5] \times\left[\begin{array}{ll}1 & 0 \\ 1 & 0\end{array}\right]$
+(vi) $\left[\begin{array}{cc}1 & -2 \\ 3 & 4\end{array}\right] \times[5]$
+(vii) $\left[\begin{array}{l}1 \\ 3\end{array}\right] \times[5]$
+(viii) $[5] \times\left[\begin{array}{l}1 \\ 3\end{array}\right]$
+(ix) $[5] \times[9,3]$
+(x) $[9-3] \times[5]$
+(xi) $[5] \times[10]$
+(xii) $\left[\begin{array}{ll}5 & 10\end{array}\right] \times\left[\begin{array}{c}-2 \\ 3\end{array}\right]$
+(xiii) $\left[\begin{array}{l}2 \\ 3\end{array}\right] \times\left[\begin{array}{ll}5 & 10\end{array}\right]$
+(xiv) $\left[\begin{array}{ll}5 & 2 \\ 3 & 4\end{array}\right] \times\left[\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right]$
+(xv) $\left[\begin{array}{ll}5 & 3 \\ 2 & 6\end{array}\right] \times\left[\begin{array}{ll}5 & -2\end{array}\right]^{t}$
+(b) Perform the indicated products in part (a) where possible.","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m17c6jfby8waascah7r533q6cd8ctr9y","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Scalar multiplication multiplies every entry; matrix addition/subtraction combines corresponding entries.""]",,"false","$A=\begin{bmatrix}5&3\\-2&6\end{bmatrix}$, $B=\begin{bmatrix}10&8\\-8&6\end{bmatrix}$, $C=\begin{bmatrix}15&6\\0&-12\end{bmatrix}$
+
+(i) $2A+\tfrac12B-\tfrac13C$: $2A=\begin{bmatrix}10&6\\-4&12\end{bmatrix}$, $\tfrac12B=\begin{bmatrix}5&4\\-4&3\end{bmatrix}$, $\tfrac13C=\begin{bmatrix}5&2\\0&-4\end{bmatrix}$. Sum: $\begin{bmatrix}10+5-5&6+4-2\\-4-4-0&12+3+4\end{bmatrix}=\begin{bmatrix}10&8\\-8&19\end{bmatrix}$
+
+(ii) $A-\tfrac12B=\begin{bmatrix}5-5&3-4\\-2+4&6-3\end{bmatrix}=\begin{bmatrix}0&-1\\2&3\end{bmatrix}$","exercise","unclassified","3","scalar-multiplication-of-a-matrix","Scalar Multiplication of a Matrix","If $A=\left[\begin{array}{cc}5 & 3 \\ -2 & 6\end{array}\right], B=\left[\begin{array}{cc}10 & 8 \\ -8 & 6\end{array}\right], C=\left[\begin{array}{cc}15 & 6 \\ 0 & -12\end{array}\right]$, then find
+(i) $2 \mathrm{~A}+\frac{1}{2} B-\frac{1}{3} C$
+(ii) $\mathrm{A}-\frac{1}{2} B$","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-2-addition-subtraction-and-scalar-multiplication-of-matrices","3.2 Addition, Subtraction and Scalar Multiplication of Matrices","m17ektvgtncpyesrthrqp3t5hx8ct0qx","xd710b9rxy6dadmwz7y2qftggs8dzd4k","Exercise 3.2","[""Scalar multiplication scales every entry of a matrix by the constant; collect all Z terms on one side before dividing."",""Simplify surds (like sqrt5 x sqrt45 = sqrt225 = 15) before solving the matrix equation.""]",,"false","(i) $4\begin{bmatrix}5\\10\end{bmatrix}-5Z=\sqrt5\begin{bmatrix}\sqrt{45}\\\sqrt5\end{bmatrix}$. LHS constant: $4\begin{bmatrix}5\\10\end{bmatrix}=\begin{bmatrix}20\\40\end{bmatrix}$. RHS: $\sqrt5\times\sqrt{45}=\sqrt{225}=15$, $\sqrt5\times\sqrt5=5$, so RHS$=\begin{bmatrix}15\\5\end{bmatrix}$.
+
+$\begin{bmatrix}20\\40\end{bmatrix}-5Z=\begin{bmatrix}15\\5\end{bmatrix} \Rightarrow 5Z=\begin{bmatrix}5\\35\end{bmatrix} \Rightarrow Z=\begin{bmatrix}1\\7\end{bmatrix}$
+
+(ii) $Z+\begin{bmatrix}5\\-7\end{bmatrix}=3Z-\begin{bmatrix}5\\3\end{bmatrix} \Rightarrow \begin{bmatrix}5\\-7\end{bmatrix}+\begin{bmatrix}5\\3\end{bmatrix}=3Z-Z \Rightarrow \begin{bmatrix}10\\-4\end{bmatrix}=2Z \Rightarrow Z=\begin{bmatrix}5\\-2\end{bmatrix}$","exercise","unclassified","8","scalar-multiplication-of-a-matrix","Scalar Multiplication of a Matrix","Find the matrix ' $Z$ ' from these equations.
+(i) $4\left[\begin{array}{c}5 \\ 10\end{array}\right]-5 Z=\sqrt{5}\left[\begin{array}{c}\sqrt{45} \\ \sqrt{5}\end{array}\right]$
+(ii) $Z+\left[\begin{array}{c}5 \\ -7\end{array}\right]=3 Z-\left[\begin{array}{l}5 \\ 3\end{array}\right]$.","ms7eesdvszwgrptn7hb4hw45218bvtz8"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m176hpgwex39aywxqt1wmvxjms8cv9ew","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3",,,"false","A matrix is singular when its determinant is zero. $|A|=6(3)-4(2)=10$, nonzero, so A is nonsingular. $|B|=(-5)(4)-7(-9)=-20+63=43$, nonzero, so B is nonsingular. $|C|=9(4)-18(2)=36-36=0$, so C is singular. $|D|=ab-a(b+1/a)=-1$, nonzero, so D is nonsingular. $|E|=a(d+c)-a(b+c)=a(d-b)=0$ since $b=d$, so E is singular. Singular: C and E. Nonsingular: A, B and D.","exercise","unclassified","1",,,"(a) Mention singular and nonsingular matrices from the followings.","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m17ezxbn8x7mq0v1cebczzwyeh8ct0kp","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3",,,"false","Only a nonsingular square matrix has an inverse. $R=\left[\begin{array}{cc}4 & -1\\-6 & 2\end{array}\right]$: $|R|=8-6=2$, nonzero, so $R^{-1}=\frac{1}{2}\left[\begin{array}{cc}2 & 1\\6 & 4\end{array}\right]=\left[\begin{array}{cc}1 & 1/2\\3 & 2\end{array}\right]$. S is 2 by 1, not square, so it has no multiplicative inverse. $T=\left[\begin{array}{cc}25 & 2\\50 & 4\end{array}\right]$: $|T|=100-100=0$, singular, so no inverse. U with $x=y$: $|U|=x(y+1)-y(x+1)=x-y=0$, singular, so no inverse.","exercise","unclassified","2",,,"(a) Find the multiplicative inverses of these matrices if possible.","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m17276t4ne7zh1wabnj05gjqt98cvzjf","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""Matrix Inversion Method and Cramer's rule both require a non-singular coefficient matrix (determinant ≠ 0)."",""When both given equations reduce to the same line, the determinant is 0 and the system has infinitely many solutions rather than a unique pair.""]",,"false","**(a) Matrix Inversion Method**
+
+(i) $4x+3y=-6,\ x+2y=1$. $A=\begin{bmatrix}4&3\\1&2\end{bmatrix}$, $|A|=8-3=5$. $A^{-1}=\frac{1}{5}\begin{bmatrix}2&-3\\-1&4\end{bmatrix}$. $\begin{bmatrix}x\\y\end{bmatrix}=\frac{1}{5}\begin{bmatrix}2&-3\\-1&4\end{bmatrix}\begin{bmatrix}-6\\1\end{bmatrix}=\frac{1}{5}\begin{bmatrix}-15\\10\end{bmatrix}=\begin{bmatrix}-3\\2\end{bmatrix}$. So $x=-3,\ y=2$.
+
+(ii) $-x+2y=1.5,\ 5x+4y=3$. $A=\begin{bmatrix}-1&2\\5&4\end{bmatrix}$, $|A|=-4-10=-14$. $A^{-1}=\frac{1}{-14}\begin{bmatrix}4&-2\\-5&-1\end{bmatrix}$. $\begin{bmatrix}x\\y\end{bmatrix}=\frac{1}{-14}\begin{bmatrix}4&-2\\-5&-1\end{bmatrix}\begin{bmatrix}1.5\\3\end{bmatrix}=\frac{1}{-14}\begin{bmatrix}0\\-10.5\end{bmatrix}=\begin{bmatrix}0\\0.75\end{bmatrix}$. So $x=0,\ y=0.75$.
+
+(iii) $2y=10-16x,\ 24x=15-3y$. Rearranged: $16x+2y=10$ (divide by 2: $8x+y=5$) and $24x+3y=15$ (divide by 3: $8x+y=5$). Both reduce to the **same equation**, so the coefficient matrix $\begin{bmatrix}16&2\\24&3\end{bmatrix}$ has determinant $48-48=0$: singular. Matrix inversion is **not possible**; the system has infinitely many solutions along $8x+y=5$.
+
+(iv) $9-x=7y,\ 14y+2x=18$. Rearranged: $x+7y=9$ and $2x+14y=18$ (divide by 2: $x+7y=9$). Again the **same equation** twice, so $\begin{bmatrix}-1&-7\\2&14\end{bmatrix}$ has determinant $-14-(-14)=0$: singular. Matrix inversion is **not possible**; infinitely many solutions along $x+7y=9$.
+
+**(b) Cramer's Rule**
+
+(i) $2x+3y=5,\ 5x+10y=10$. $D=\begin{vmatrix}2&3\\5&10\end{vmatrix}=20-15=5$. $D_x=\begin{vmatrix}5&3\\10&10\end{vmatrix}=50-30=20$. $D_y=\begin{vmatrix}2&5\\5&10\end{vmatrix}=20-25=-5$. $x=20/5=4,\ y=-5/5=-1$.
+
+(ii) $x=\frac{2}{3}-2y \Rightarrow x+2y=\frac{2}{3}$; $4y=3-3x \Rightarrow 3x+4y=3$. $D=\begin{vmatrix}1&2\\3&4\end{vmatrix}=4-6=-2$. $D_x=\begin{vmatrix}2/3&2\\3&4\end{vmatrix}=8/3-6=-10/3$. $D_y=\begin{vmatrix}1&2/3\\3&3\end{vmatrix}=3-2=1$. $x=\frac{-10/3}{-2}=\frac{5}{3},\ y=\frac{1}{-2}=-\frac{1}{2}$.
+
+(iii) $\frac{6}{10}x+\frac{8}{10}y=20 \Rightarrow 0.6x+0.8y=20$; $\frac{8}{10}x-\frac{6}{10}y=10 \Rightarrow 0.8x-0.6y=10$. $D=\begin{vmatrix}0.6&0.8\\0.8&-0.6\end{vmatrix}=-0.36-0.64=-1$. $D_x=\begin{vmatrix}20&0.8\\10&-0.6\end{vmatrix}=-12-8=-20$. $D_y=\begin{vmatrix}0.6&20\\0.8&10\end{vmatrix}=6-16=-10$. $x=-20/-1=20,\ y=-10/-1=10$.
+
+(iv) $16x-10+2y=0 \Rightarrow 16x+2y=10$; $15-3y-24x=0 \Rightarrow 24x+3y=15$. Dividing gives $8x+y=5$ in both cases: the **same equation**, so $D=\begin{vmatrix}16&2\\24&3\end{vmatrix}=48-48=0$. Cramer's rule **fails** (D = 0); infinitely many solutions along $8x+y=5$.","exercise","unclassified","7","matrix-inversion-method","Matrix Inversion Method","(a) Use Matrix Inversion Method to solve the following systems of linear equations if possible.
+(i) $4 x+3 y=-6$
+(ii) $-x+2 y=1.5$
+$x+2 y=1$
+$5 x+4 y=3$
+(iii) $2 y=10-16 x$
+(iv) $9-x=7 y$
+$24 x=15-3 y$
+$14 y+2 x=18$
+(b) Use Cramer's rule to solve following systems of linear equations if possible.
+(i) $2 x+3 y=5$
+(ii) $x=\frac{2}{3}-2 y$
+$5 x+10 y=10$
+$4 y=3-3 x$
+(iii) $\frac{6}{10} x+\frac{8}{10} y=20$
+(iv) $16 x-10+2 y=0$
+$\frac{8}{10} x-\frac{6}{10} y=10$
+$15-3 y-24 x=0$","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m17b35mpk89f465nn5qg9dvmz98cv500","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""|A^-1| = 1/|A| always, and for a 2x2 matrix |adj A| = |A|^(n-1) = |A|."",""When |A| = 1, |A|, |adj A| and |A^-1| all equal 1.""]",,"false","$A=\begin{bmatrix}5&7\\2&3\end{bmatrix}$. $|A|=5(3)-7(2)=15-14=1$.
+
+$\text{adj}\,A=\begin{bmatrix}3&-7\\-2&5\end{bmatrix}$, so $|\text{adj}\,A|=3(5)-(-7)(-2)=15-14=1$.
+
+$A^{-1}=\dfrac{1}{1}\begin{bmatrix}3&-7\\-2&5\end{bmatrix}=\begin{bmatrix}3&-7\\-2&5\end{bmatrix}$, so $|A^{-1}|=1$ as well.
+
+Here $|A|=|\text{adj}\,A|=|A^{-1}|=1$. In general, $|A^{-1}|=\dfrac{1}{|A|}$ and $|\text{adj}\,A|=|A|^{n-1}$ (here $n=2$, so $|\text{adj}\,A|=|A|$); all three coincide at 1 only because $|A|=1$ in this particular matrix.","exercise","unclassified","4","adjoint-of-a-matrix","Adjoint of a Matrix","What is relation among $|\mathrm{A}|,\left|\mathrm{A}^{-1}\right|$ and $|\operatorname{adj} \mathrm{A}|$ if $A=\left[\begin{array}{ll}5 & 7 \\ 2 & 3\end{array}\right]$ ?","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m173pg3p58fd7hm2dyq0vt6xvs8ctb66","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""A matrix equation AX = B converts to a linear system by multiplying out and comparing corresponding entries."",""Check conformability (columns of first = rows of second) before assuming a product converts to equations at all.""]",,"false","(i) $\begin{bmatrix}4&2\\3&1\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}6\\4\end{bmatrix} \Rightarrow 4x+2y=6,\ 3x+y=4$
+
+(ii) $\begin{bmatrix}5&0\\0&4\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}10\\20\end{bmatrix} \Rightarrow 5x=10,\ 4y=20$
+
+(iii) $\begin{bmatrix}0\\3\end{bmatrix}\times\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}12\\24\end{bmatrix}$: both factors are 2-by-1, so the number of columns of the first (1) does not equal the number of rows of the second (2). This product is **not possible**.
+
+(iv) $[x\ \ y]\begin{bmatrix}5\\3\end{bmatrix}=[2]$ (a 1-by-2 times a 2-by-1 gives a 1-by-1) $\Rightarrow 5x+3y=2$","exercise","unclassified","5","conversion-of-matrix-equation-into-system-of-linear-equations","Conversion of Matrix Equation into System of Linear Equations","Write these matrix equations into system of linear equations if possible.
+(i) $\left[\begin{array}{ll}4 & 2 \\ 3 & 1\end{array}\right]\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{l}6 \\ 4\end{array}\right]$
+(ii) $\left[\begin{array}{ll}5 & 0 \\ 0 & 4\end{array}\right]\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{l}10 \\ 20\end{array}\right]$
+(iii) $\left[\begin{array}{l}0 \\ 3\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{l}12 \\ 24\end{array}\right]$
+(iv) $\left[\begin{array}{ll}x & y\end{array}\right]\left[\begin{array}{l}5 \\ 3\end{array}\right]=[2]$","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m1751betaqg2959j1xpx7cs0358ctfca","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""A linear system's coefficients, unknowns, and constants form a matrix equation AX = B."",""A coefficient matrix is singular exactly when its determinant is zero; solving that condition gives any unknown parameter making it singular.""]",,"false","(a)(i) $x+y=2,\ x-y=4 \Rightarrow \begin{bmatrix}1&1\\1&-1\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}2\\4\end{bmatrix}$
+
+(ii) $2x+y=90,\ 5y-x=10$ i.e. $-x+5y=10 \Rightarrow \begin{bmatrix}2&1\\-1&5\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}90\\10\end{bmatrix}$
+
+(iii) $y=3,\ x=4 \Rightarrow \begin{bmatrix}0&1\\1&0\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}3\\4\end{bmatrix}$
+
+(iv) $\frac{5}{2}x-3y=1,\ -4x+\frac{1}{2}y=2 \Rightarrow \begin{bmatrix}\frac{5}{2}&-3\\-4&\frac{1}{2}\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}1\\2\end{bmatrix}$
+
+(b) Coefficient matrix for $5x-4y=30,\ 10x-ky=60$ is $\begin{bmatrix}5&-4\\10&-k\end{bmatrix}$. Singular means determinant $=0$: $5(-k)-(-4)(10)=0 \Rightarrow -5k+40=0 \Rightarrow k=8$.","exercise","unclassified","6","conversion-of-system-of-linear-equations-into-matrix-equations","Conversion of System of Linear Equations into Matrix Equations","(a) Write the systems of linear equations in matrix form.
+(i) $x+y=2$
+(ii) $2 x+y=90$
+(iii) $y=3$
+$x-y=4$
+$5 y-x=10$
+$x=4$
+(iv) $\frac{5}{2} x-3 y=1, \quad \frac{1}{2} y-4 x=2$
+(b) If matrix of coefficients of $5 x-4 y=30,10 x-\mathrm{k} y=60$ is singular then find k .","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m174qrx6kgp02df72v69b2wrks8cvz6q","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Each part follows from a core matrix-chapter fact: transpose, identity matrix structure, additive inverse, singular matrices, symmetric-matrix definition, matrix-multiplication order rules, and the |adj A| = |A|^(n-1) relation for n=2.""]",,"false","i. $\begin{bmatrix}5&3\\2&9\end{bmatrix}^t=\begin{bmatrix}5&2\\3&9\end{bmatrix}$, set equal to $\begin{bmatrix}5&x/2\\3&9\end{bmatrix}$: $x/2=2\Rightarrow x=4$: (b) 4
+
+ii. $I_3=\begin{bmatrix}y&0&x\\0&z&0\\x&0&1\end{bmatrix}$ must be the identity matrix (diagonal 1's, off-diagonal 0's): $y=1,z=1,x=0$: (d) $y=z=1,x=0$
+
+iii. Additive inverse of $I_2=\begin{bmatrix}1&0\\0&1\end{bmatrix}$ is $\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$: (b)
+
+iv. A null matrix is singular (determinant 0), so its multiplicative inverse does not exist: (d) impossible
+
+v. A matrix is symmetric when $A=A^t$; since $(A^t)^t=A$ always, writing this as $(A^t)^t=A^t$ is exactly the condition $A=A^t$: (d)
+
+vi. A $1\times1$ matrix $\left[\frac12\right]$ and a $2\times1$ matrix $\begin{bmatrix}0\\0\end{bmatrix}$ have different orders and cannot be added: (d) impossible
+
+vii. $A$ is $1\times2$, $B$ is $2\times3$: $AB$ has order (rows of A) x (cols of B) = $1\times3$: (a)
+
+viii. $AB=B$ (for square, invertible-context matrices) means $A$ acts as the identity: (a) I
+
+ix. $\begin{bmatrix}15\\25\end{bmatrix}\times[3\ \ 2]=\begin{bmatrix}45&30\\75&50\end{bmatrix}$: (d)
+
+x. $|T|=-1$: $T^{-1}=\dfrac{\operatorname{adj}T}{|T|}=\dfrac{\operatorname{adj}T}{-1}=-\operatorname{adj}T$: (c)
+
+xi. $y+x=144+y\Rightarrow x=144$ (i.e. $1x+0y=144$); $x+2y=x+13\Rightarrow2y=13$ (i.e. $0x+2y=13$). Matrix form $\begin{bmatrix}1&0\\0&2\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}144\\13\end{bmatrix}$: (c)
+
+xii. Coefficient matrix for $x-y=3$: $[1\ \ {-1}]$: (b)
+
+xiii. A $1\times1$ matrix like $[3]$ multiplies any matrix as a scalar (this textbook's convention, seen again in the Q9 product list): $3\times[1\ \ 2]=[3\ \ 6]$: (a)
+
+xiv. $(AB)^t=B^tA^t$: (c)
+
+xv. $\begin{bmatrix}-3&5\\-3&x-1\end{bmatrix}$ singular: $\det=-3(x-1)-5(-3)=-3x+3+15=0\Rightarrow x=6$: (b)
+
+xvi. For a $2\times2$ matrix, $|\operatorname{adj}A|=|A|$ (since $|\operatorname{adj}A|=|A|^{n-1}$ with $n=2$), and also $|A^t|=|A|$ and $|-A|=(-1)^2|A|=|A|$ always: all three equal $|A|$: (d) all a, b, c","exercise","unclassified","1","determinant-of-a-matrix","Determinant of a Matrix","Encircle the correct option in the following.
+i. If $\left[\begin{array}{ll}5 & 3 \\ 2 & 9\end{array}\right]^{t}=\left[\begin{array}{ll}5 & \frac{x}{2} \\ 3 & 9\end{array}\right]$, then $\mathrm{x}=$
+(a) 6
+(b) 4
+(c) -6
+(d) $\quad-4$
+ii. If $I_{3}=\left[\begin{array}{ccc}y & 0 & x \\ 0 & z & 0 \\ x & 0 & 1\end{array}\right]$ then
+(a) $y=x=1$
+(b) $\quad x=\mathrm{z}=0$
+(c) $x=\mathrm{z}=1$
+(d) $y=\mathrm{z}=1, x=0$
+iii. Additive inverse of unit matrix of order 2 , is
+(a) $\left[\begin{array}{ll}0 & 0 \\ 0 & 0\end{array}\right]$
+(b) $\quad\left[\begin{array}{rr}-1 & 0 \\ 0 & -1\end{array}\right]$
+(c) $\left[\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right]$
+(d) $\quad\left[\begin{array}{rr}1 & 0 \\ 0 & -1\end{array}\right]$
+iv. Multiplicative inverse of a null matrix of order 2, is
+(a) $\left[\begin{array}{ll}0 & 0 \\ 0 & 0\end{array}\right]$
+(b) $\quad\left[\begin{array}{l}0 \\ 0\end{array}\right]$
+(c) $\quad[0 \quad 0]$
+(d) impossible
+v. A is a symmetric matrix if
+(a) $A^{t} \neq A$
+(b) $\left(A^{t}\right)^{t} \neq-\mathrm{A}$
+(c) $\left(A^{t}\right)^{t}=-\mathrm{A}$
+(d) $\left(A^{t}\right)^{t}=A^{t}$
+vi. $\left[\frac{1}{2}\right]+\left[\begin{array}{l}0 \\ 0\end{array}\right]=$
+(a) $\left[\frac{1}{2}\right]$
+(b) $\quad\left[\begin{array}{l}1 \\ 2\end{array}\right]$
+(c) $\quad\left[\begin{array}{ll}\frac{1}{2} & 0 \\ 0\end{array}\right]$
+(d) impossible
+vii. Order of matrix $A$ is 1-by-2 and order of matrix $B$ is 2-by-3 then order of $A B$ is
+(a) 1-by-3
+(b) 3-by-1
+(c) 2-by-2
+(d) 3-by-2
+viii. If $A B=B$, then $A=\ldots \ldots$
+(a) I
+(b) $\mathrm{A}^{-1}$
+(c) B
+(d) $\mathrm{B}^{-1}$
+ix. $\left[\begin{array}{l}15 \\ 25\end{array}\right] \times\left[\begin{array}{ll}3 & 2\end{array}\right]=$
+(a) $[95]$
+(b) $\left[\begin{array}{l}45 \\ 50\end{array}\right]$
+(c) $\left[\begin{array}{ll}45 & 50\end{array}\right]$
+(d) $\left[\begin{array}{ll}45 & 30 \\ 75 & 50\end{array}\right]$
+x. If $|\mathrm{T}|=-1$ then $\mathrm{T}^{-1}=$
+(a) -T
+(b) $\quad \operatorname{adj} \mathrm{T}$
+(c) $-\operatorname{adj} \mathrm{T}$
+(d) T
+xi. Matrix equation for $y+x=144+y$ and $x+2 y=x+13$ is
+(a) $\left[\begin{array}{ll}1 & 1 \\ 1 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(b) $\quad\left[\begin{array}{ll}1 & 0 \\ 1 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(c) $\left[\begin{array}{ll}1 & 0 \\ 0 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(d) $\left[\begin{array}{ll}1 & 0 \\ 0 & 2\end{array}\right] \times\left[\begin{array}{l}y \\ x\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+xii. The matrix of coefficients for $x-y=3$, is
+(a) $[3]$
+(b) $\left[\begin{array}{ll}1 & -1\end{array}\right]$
+(c) $\left[\begin{array}{l}x \\ y\end{array}\right]$
+(d) $\left[\begin{array}{l}1 \\ 1\end{array}\right]$
+xiii.[ll 2 ] $[3]=$
+(a) $\left[\begin{array}{ll}3 & 6\end{array}\right]$
+(b) $\left[\begin{array}{l}3 \\ 6\end{array}\right]$
+(c) $[5]$
+(d) impossible
+xiv. If $A$ and $B$ are two matrices, conformable for the product $A B$ then $(A B)^{t}=$
+(a) $A^{t} B^{t}$
+(b) $(B A)^{t}$
+(c) $\mathrm{B}^{\mathrm{t}} \mathrm{A}^{\mathrm{t}}$
+(d) AB
+xv. If $\left[\begin{array}{cc}-3 & 5 \\ -3 & x-1\end{array}\right]$ is singular matrix, then $x=$
+(a) 4
+(b) 6
+(c) -6
+(d) -4
+xvi. If $\operatorname{adj} \mathrm{A}=\left[\begin{array}{ll}5 & 6 \\ 2 & 3\end{array}\right]$ then $|\mathrm{A}|=$
+(a) $|\operatorname{adj} \mathrm{A}|$
+(b) $\left|\mathrm{A}^{\mathrm{t}}\right|$
+(c) $|-\mathrm{A}|$
+(d) all a, b, c","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m17cwavb6cydve7a5p1fx6ctwn8ct8k8","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""The inverse of a product reverses order: (YZ)^-1 = Z^-1 Y^-1, mirroring the transpose-of-a-product rule.""]",,"false","$Y=\begin{bmatrix}1&2\\2&3\end{bmatrix}$, $Z=\begin{bmatrix}2&3\\1&2\end{bmatrix}$.
+
+$YZ=\begin{bmatrix}1(2)+2(1)&1(3)+2(2)\\2(2)+3(1)&2(3)+3(2)\end{bmatrix}=\begin{bmatrix}4&7\\7&12\end{bmatrix}$, $|YZ|=48-49=-1$, $(YZ)^{-1}=\dfrac1{-1}\begin{bmatrix}12&-7\\-7&4\end{bmatrix}=\begin{bmatrix}-12&7\\7&-4\end{bmatrix}$.
+
+$|Y|=3-4=-1 \Rightarrow Y^{-1}=\begin{bmatrix}-3&2\\2&-1\end{bmatrix}$. $|Z|=4-3=1 \Rightarrow Z^{-1}=\begin{bmatrix}2&-3\\-1&2\end{bmatrix}$.
+
+$Z^{-1}Y^{-1}=\begin{bmatrix}2(-3)+(-3)(2)&2(2)+(-3)(-1)\\-1(-3)+2(2)&-1(2)+2(-1)\end{bmatrix}=\begin{bmatrix}-12&7\\7&-4\end{bmatrix}$
+
+This equals $(YZ)^{-1}$, verifying $(YZ)^{-1}=Z^{-1}Y^{-1}$.","exercise","unclassified","3","finding-multiplicative-inverse-of-a-matrix","Finding Multiplicative Inverse of a Matrix","If $Y=\left[\begin{array}{ll}1 & 2 \\ 2 & 3\end{array}\right]$ and $Z=\left[\begin{array}{ll}2 & 3 \\ 1 & 2\end{array}\right]$, then verify that $(Y Z)^{-1}=Z^{-1} Y^{-1}$.","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-3-multiplicative-inverse-of-a-matrix","3.3 Multiplicative Inverse of a Matrix","m173dgnqzbzj4z412qy4v008js8ctkpm","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Find P^-1 via (1/|P|) * adj(P), then multiply both PP^-1 and P^-1P by direct matrix multiplication to confirm both equal the identity matrix.""]",,"false","$P=\begin{bmatrix}5&-1\\2&-4\end{bmatrix}$: $|P|=5(-4)-(-1)(2)=-20+2=-18$.
+
+$\operatorname{adj}P=\begin{bmatrix}-4&1\\-2&5\end{bmatrix}$, so $P^{-1}=\dfrac1{-18}\begin{bmatrix}-4&1\\-2&5\end{bmatrix}=\begin{bmatrix}2/9&-1/18\\1/9&-5/18\end{bmatrix}$.
+
+$PP^{-1}$: row1: $[5(2/9)+(-1)(1/9),\ 5(-1/18)+(-1)(-5/18)]=[10/9-1/9,\ -5/18+5/18]=[1,0]$. row2: $[2(2/9)+(-4)(1/9),\ 2(-1/18)+(-4)(-5/18)]=[4/9-4/9,\ -2/18+20/18]=[0,1]$. So $PP^{-1}=\begin{bmatrix}1&0\\0&1\end{bmatrix}=I$.
+
+$P^{-1}P$: row1: $[2/9(5)+(-1/18)(2),\ 2/9(-1)+(-1/18)(-4)]=[10/9-1/9,\ -2/9+4/18]=[1,0]$. row2: $[1/9(5)+(-5/18)(2),\ 1/9(-1)+(-5/18)(-4)]=[5/9-5/9,\ -1/9+10/18]=[0,1]$. So $P^{-1}P=I$ too.
+
+Hence $PP^{-1}=P^{-1}P=I$, verified.","exercise","unclassified","2","multiplicative-inverse-of-a-matrix","Multiplicative Inverse of a Matrix","If $\mathrm{P}=\left[\begin{array}{ll}5 & -1 \\ 2 & -4\end{array}\right]$, then show that $\mathrm{PP}^{-1}=\mathrm{P}^{-1} \mathrm{P}=\mathrm{I}$.","ms743cdde84s5b749rae60dht58bt1ey"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m172pfja7zgfwh93acp12sh7hx8cvvsw","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Set up two linear equations from the word problem, write them as a matrix equation, then use Cramer's rule x = Dx/D, y = Dy/D.""]",,"false","Let the two acute angles be $x$ and $y$ (with $y$ the larger). Since they are the acute angles of a right triangle: $x+y=90$. One angle is $10°$ less than the other: $x=y-10$, i.e. $-x+y=10$.
+
+Matrix form: $\begin{bmatrix}1&1\\-1&1\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}90\\10\end{bmatrix}$.
+
+$D=\begin{vmatrix}1&1\\-1&1\end{vmatrix}=1-(-1)=2$. $D_x=\begin{vmatrix}90&1\\10&1\end{vmatrix}=90-10=80 \Rightarrow x=80/2=40$. $D_y=\begin{vmatrix}1&90\\-1&10\end{vmatrix}=10-(-90)=100 \Rightarrow y=100/2=50$.
+
+The two acute angles are $40°$ and $50°$ (check: $40+50=90$, and $50$ is $10°$ more than $40$).","exercise","unclassified","1","cramers-rule","Cramer's Rule","From the two acute angles of a right triangle, one angle is 10 (degrees) less than the other. Find both the acute angles by using Cramer's rule.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m173hr8sr12k7xvryght5jtx798cvzvd","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Translate the word problem into two linear equations, write as a matrix equation, and solve via A^-1 (matrix inversion method).""]",,"false","Let $x$ = correct literature replies, $y$ = correct science replies. $x+y=20$ (total correct), $5x+10y=125$ (rupees earned).
+
+Matrix form: $\begin{bmatrix}1&1\\5&10\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}20\\125\end{bmatrix}$.
+
+$|A|=1(10)-1(5)=5\neq0$ (nonsingular), so $A^{-1}=\dfrac15\begin{bmatrix}10&-1\\-5&1\end{bmatrix}$.
+
+$\begin{bmatrix}x\\y\end{bmatrix}=A^{-1}\begin{bmatrix}20\\125\end{bmatrix}=\dfrac15\begin{bmatrix}10(20)-1(125)\\-5(20)+1(125)\end{bmatrix}=\dfrac15\begin{bmatrix}75\\25\end{bmatrix}=\begin{bmatrix}15\\5\end{bmatrix}$
+
+So Abdullah answered 15 literature questions and 5 science questions correctly. Check: $15+5=20$ ✓, $5(15)+10(5)=75+50=125$ ✓.","exercise","unclassified","2","matrix-inversion-method","Matrix Inversion Method","In a quiz, Abdullah correctly replied 15 out of 20 questions from literature and science, getting Rs.125. If every correct literature reply is credited Rs. 5 and every correct science reply is credited Rs. 10, then find the number of correct replies of literature and science separately.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m173dgnqzbzj4z412qy4v008js8ctkpm","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Find P^-1 via (1/|P|) * adj(P), then multiply both PP^-1 and P^-1P by direct matrix multiplication to confirm both equal the identity matrix.""]",,"false","$P=\begin{bmatrix}5&-1\\2&-4\end{bmatrix}$: $|P|=5(-4)-(-1)(2)=-20+2=-18$.
+
+$\operatorname{adj}P=\begin{bmatrix}-4&1\\-2&5\end{bmatrix}$, so $P^{-1}=\dfrac1{-18}\begin{bmatrix}-4&1\\-2&5\end{bmatrix}=\begin{bmatrix}2/9&-1/18\\1/9&-5/18\end{bmatrix}$.
+
+$PP^{-1}$: row1: $[5(2/9)+(-1)(1/9),\ 5(-1/18)+(-1)(-5/18)]=[10/9-1/9,\ -5/18+5/18]=[1,0]$. row2: $[2(2/9)+(-4)(1/9),\ 2(-1/18)+(-4)(-5/18)]=[4/9-4/9,\ -2/18+20/18]=[0,1]$. So $PP^{-1}=\begin{bmatrix}1&0\\0&1\end{bmatrix}=I$.
+
+$P^{-1}P$: row1: $[2/9(5)+(-1/18)(2),\ 2/9(-1)+(-1/18)(-4)]=[10/9-1/9,\ -2/9+4/18]=[1,0]$. row2: $[1/9(5)+(-5/18)(2),\ 1/9(-1)+(-5/18)(-4)]=[5/9-5/9,\ -1/9+10/18]=[0,1]$. So $P^{-1}P=I$ too.
+
+Hence $PP^{-1}=P^{-1}P=I$, verified.","exercise","unclassified","2","multiplicative-inverse","Finding Multiplicative Inverse of a Matrix","If $\mathrm{P}=\left[\begin{array}{ll}5 & -1 \\ 2 & -4\end{array}\right]$, then show that $\mathrm{PP}^{-1}=\mathrm{P}^{-1} \mathrm{P}=\mathrm{I}$.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m176akra90nqfa8t7ew11mp8as8ctt91","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Translate to two linear equations, then apply Cramer's rule x = Dx/D, y = Dy/D.""]",,"false","Let $x$ = cost of one notebook, $y$ = cost of one book. $3x+2y=600$ (Asad), $4x+y=550$ (Iman).
+
+$D=\begin{vmatrix}3&2\\4&1\end{vmatrix}=3-8=-5$. $D_x=\begin{vmatrix}600&2\\550&1\end{vmatrix}=600-1100=-500 \Rightarrow x=-500/-5=100$. $D_y=\begin{vmatrix}3&600\\4&550\end{vmatrix}=1650-2400=-750 \Rightarrow y=-750/-5=150$.
+
+Each notebook costs Rs. 100 and each book costs Rs. 150. Check: $3(100)+2(150)=600$ ✓, $4(100)+150=550$ ✓.","exercise","unclassified","3","cramers-rule","Cramer's Rule","If Asad bought 3 notebooks and 2 books paying Rs. 600 and Iman bought 4 notebooks and 1 book paying Rs. 550, find the cost of each notebook and book? (Use Cramer's rule).","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m176vj4s3p8x94dq0c8w739shn8cvkd8","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""When the coefficient matrix's determinant is 0, the Matrix Inversion Method (and Cramer's rule) cannot produce a unique solution -- check whether the system is dependent (same line, infinite solutions) or inconsistent (parallel lines, no solution).""]",,"false","Rearranging: $5x-4=y \Rightarrow 5x-y=4$; $2y+8=10x \Rightarrow -10x+2y=-8$.
+
+Matrix form: $\begin{bmatrix}5&-1\\-10&2\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}4\\-8\end{bmatrix}$.
+
+$|A|=5(2)-(-1)(-10)=10-10=0$: the coefficient matrix is **singular**, so its inverse does not exist and the Matrix Inversion Method cannot be used.
+
+In fact, the second equation $-10x+2y=-8$ simplifies (dividing by $-2$) to $5x-y=4$ -- exactly the first equation. So the system is dependent (both equations describe the same line), giving infinitely many solutions rather than a unique one.","exercise","unclassified","3","matrix-inversion-method","Matrix Inversion Method","Solve: $5 x-4=y ; 2 y+8=10 x$, by Matrix Inversion Method if possible.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m1724mn7rxa75zkthhjtbk7k7x8cvfwr","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Translate the word problem's two relationships into two linear equations, then solve AX = B via X = A^-1 B."",""Verify the solution satisfies both original conditions.""]",,"false","Let $s$ = Sundas's age, $z$ = Zenab's age.
+
+$s+z=22$. Sundas is 1 year older than twice Zenab's age: $s=2z+1 \Rightarrow s-2z=1$.
+
+Matrix form: $\begin{bmatrix}1&1\\1&-2\end{bmatrix}\begin{bmatrix}s\\z\end{bmatrix}=\begin{bmatrix}22\\1\end{bmatrix}$. $|A|=-2-1=-3$.
+
+$A^{-1}=\dfrac{1}{-3}\begin{bmatrix}-2&-1\\-1&1\end{bmatrix}$
+
+$\begin{bmatrix}s\\z\end{bmatrix}=\dfrac{1}{-3}\begin{bmatrix}-2&-1\\-1&1\end{bmatrix}\begin{bmatrix}22\\1\end{bmatrix}=\dfrac{1}{-3}\begin{bmatrix}-44-1\\-22+1\end{bmatrix}=\dfrac{1}{-3}\begin{bmatrix}-45\\-21\end{bmatrix}=\begin{bmatrix}15\\7\end{bmatrix}$
+
+Sundas is **15 years old** and Zenab is **7 years old** (check: $15+7=22$, $15=2(7)+1$).","exercise","unclassified","4","matrix-inversion-method","Matrix Inversion Method","Sum of ages of two sisters Sundas and Zenab is 22 years. If Sundas is 1 year older than twice the age of Zenab. Find the ages of both the sisters by using matrix inversion method.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m172capxj3gsncqjwwxb1awf9x8ctg95","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Cramer's rule requires D ≠ 0; when D = 0 the rule cannot produce a unique solution."",""If one equation is a scalar multiple of the other, the system is dependent with infinitely many solutions.""]",,"false","$5x+2y=19$, $10x+4y=38$.
+
+$D=\begin{vmatrix}5&2\\10&4\end{vmatrix}=20-20=0$
+
+Since $D=0$, Cramer's rule does not give a unique solution. In fact the second equation is exactly twice the first ($10=2\times5$, $4=2\times2$, $38=2\times19$), so the two equations are dependent: every point on $5x+2y=19$ satisfies both, and the system has **infinitely many solutions**, not a single unique pair found by Cramer's rule.","exercise","unclassified","4","cramers-rule","Cramer's Rule","Use Cramer's rule for solution of $5 x+2 y=19$ and $10 x+4 y=38$, if possible.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m173pg3p58fd7hm2dyq0vt6xvs8ctb66","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""A matrix equation AX = B converts to a linear system by multiplying out and comparing corresponding entries."",""Check conformability (columns of first = rows of second) before assuming a product converts to equations at all.""]",,"false","(i) $\begin{bmatrix}4&2\\3&1\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}6\\4\end{bmatrix} \Rightarrow 4x+2y=6,\ 3x+y=4$
+
+(ii) $\begin{bmatrix}5&0\\0&4\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}10\\20\end{bmatrix} \Rightarrow 5x=10,\ 4y=20$
+
+(iii) $\begin{bmatrix}0\\3\end{bmatrix}\times\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}12\\24\end{bmatrix}$: both factors are 2-by-1, so the number of columns of the first (1) does not equal the number of rows of the second (2). This product is **not possible**.
+
+(iv) $[x\ \ y]\begin{bmatrix}5\\3\end{bmatrix}=[2]$ (a 1-by-2 times a 2-by-1 gives a 1-by-1) $\Rightarrow 5x+3y=2$","exercise","unclassified","5","matrix-equation-conversion","Conversion of Matrix Equation into System of Linear Equations","Write these matrix equations into system of linear equations if possible.
+(i) $\left[\begin{array}{ll}4 & 2 \\ 3 & 1\end{array}\right]\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{l}6 \\ 4\end{array}\right]$
+(ii) $\left[\begin{array}{ll}5 & 0 \\ 0 & 4\end{array}\right]\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{l}10 \\ 20\end{array}\right]$
+(iii) $\left[\begin{array}{l}0 \\ 3\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{l}12 \\ 24\end{array}\right]$
+(iv) $\left[\begin{array}{ll}x & y\end{array}\right]\left[\begin{array}{l}5 \\ 3\end{array}\right]=[2]$","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m17259d087b9v25z7v1q1hyp9x8cvjme","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Matrices are widely used to solve simultaneous linear equations arising from real-world word problems."",""Set up two equations from the two given totals, then solve X = A^-1 B.""]",,"false","Let $a$ = number of round trips by the 10-ton truck, $b$ = number of round trips by the 12-ton truck.
+
+$a+b=20$, $10a+12b=226$.
+
+Matrix form: $\begin{bmatrix}1&1\\10&12\end{bmatrix}\begin{bmatrix}a\\b\end{bmatrix}=\begin{bmatrix}20\\226\end{bmatrix}$. $|A|=12-10=2$.
+
+$A^{-1}=\dfrac{1}{2}\begin{bmatrix}12&-1\\-10&1\end{bmatrix}$
+
+$\begin{bmatrix}a\\b\end{bmatrix}=\dfrac{1}{2}\begin{bmatrix}12&-1\\-10&1\end{bmatrix}\begin{bmatrix}20\\226\end{bmatrix}=\dfrac{1}{2}\begin{bmatrix}240-226\\-200+226\end{bmatrix}=\dfrac{1}{2}\begin{bmatrix}14\\26\end{bmatrix}=\begin{bmatrix}7\\13\end{bmatrix}$
+
+The 10-ton truck made **7 round trips** and the 12-ton truck made **13 round trips** (check: $7+13=20$, $10(7)+12(13)=70+156=226$).","exercise","unclassified","5","simultaneous-linear-equations","Solution of Simultaneous Linear Equations","Two trucks have capacities of 10 tons and 12 tons. They made a total of 20 round trips to haul 226 tons of sand to the community park. How many round trips did each truck make?","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m174qnkwnegn7jbg7cb2pk865d8ctyg1","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""A singular coefficient matrix (determinant zero) with proportional equations means the system is dependent, not solvable uniquely."",""Check whether one equation is a scalar multiple of the other before assuming a unique matrix solution exists.""]",,"false","Let $l$ = labour cost rate per worker, $m$ = material cost rate per item (same rates for both industries).
+
+Haani's: 6 workers, 80 items, total Rs. 20,000: $6l+80m=20000$.
+
+Massab's: 12 workers, 160 items, total Rs. 40,000: $12l+160m=40000$.
+
+Notice the second equation is exactly **twice** the first ($12=2\times6$, $160=2\times80$, $40000=2\times20000$). The coefficient matrix $\begin{bmatrix}6&80\\12&160\end{bmatrix}$ has determinant $6(160)-80(12)=960-960=0$, so it is singular.
+
+The two equations are dependent (the same relationship scaled up), so the labour rate $l$ and material rate $m$ **cannot be uniquely determined** from this data alone; only their combination $6l+80m=20000$ is fixed, with infinitely many $(l,m)$ pairs satisfying it.","exercise","unclassified","5","simultaneous-linear-equations","Solution of Simultaneous Linear Equations","The daily sum of labour and the material costs of Haani's and Massab's Home Industries are Rs. 20,000 and Rs. 40,000 respectively. If labour and the material rate, for both the Home Industries is same but Haani's Home Industry has 6 workers who make 80 items and Massab's Home Industry has 12 workers who make 160 items, find the labour and the material cost.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m1751betaqg2959j1xpx7cs0358ctfca","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""A linear system's coefficients, unknowns, and constants form a matrix equation AX = B."",""A coefficient matrix is singular exactly when its determinant is zero; solving that condition gives any unknown parameter making it singular.""]",,"false","(a)(i) $x+y=2,\ x-y=4 \Rightarrow \begin{bmatrix}1&1\\1&-1\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}2\\4\end{bmatrix}$
+
+(ii) $2x+y=90,\ 5y-x=10$ i.e. $-x+5y=10 \Rightarrow \begin{bmatrix}2&1\\-1&5\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}90\\10\end{bmatrix}$
+
+(iii) $y=3,\ x=4 \Rightarrow \begin{bmatrix}0&1\\1&0\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}3\\4\end{bmatrix}$
+
+(iv) $\frac{5}{2}x-3y=1,\ -4x+\frac{1}{2}y=2 \Rightarrow \begin{bmatrix}\frac{5}{2}&-3\\-4&\frac{1}{2}\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}1\\2\end{bmatrix}$
+
+(b) Coefficient matrix for $5x-4y=30,\ 10x-ky=60$ is $\begin{bmatrix}5&-4\\10&-k\end{bmatrix}$. Singular means determinant $=0$: $5(-k)-(-4)(10)=0 \Rightarrow -5k+40=0 \Rightarrow k=8$.","exercise","unclassified","6","matrix-equation-conversion","Conversion of System of Linear Equations into Matrix Equations","(a) Write the systems of linear equations in matrix form.
+(i) $x+y=2$
+(ii) $2 x+y=90$
+(iii) $y=3$
+$x-y=4$
+$5 y-x=10$
+$x=4$
+(iv) $\frac{5}{2} x-3 y=1, \quad \frac{1}{2} y-4 x=2$
+(b) If matrix of coefficients of $5 x-4 y=30,10 x-\mathrm{k} y=60$ is singular then find k .","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m17ebctvvrqa2dm2zj9pdcmzm18ctje8","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Mixture word problems translate to two linear equations: total amount, and total weighted content."",""Solve AX = B with A^-1 to get each unknown quantity.""]",,"false","Let $x$ = kg of the 55% aluminum metal, $y$ = kg of the 80% aluminum metal.
+
+$x+y=20$ (total 20 kg), $0.55x+0.80y=0.70(20)=14$ (70% aluminum content).
+
+Matrix form: $\begin{bmatrix}1&1\\0.55&0.80\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}20\\14\end{bmatrix}$. $|A|=0.80-0.55=0.25$.
+
+$A^{-1}=\dfrac{1}{0.25}\begin{bmatrix}0.80&-1\\-0.55&1\end{bmatrix}$
+
+$\begin{bmatrix}x\\y\end{bmatrix}=\dfrac{1}{0.25}\begin{bmatrix}0.80&-1\\-0.55&1\end{bmatrix}\begin{bmatrix}20\\14\end{bmatrix}=\dfrac{1}{0.25}\begin{bmatrix}16-14\\-11+14\end{bmatrix}=\dfrac{1}{0.25}\begin{bmatrix}2\\3\end{bmatrix}=\begin{bmatrix}8\\12\end{bmatrix}$
+
+He should use **8 kg of the 55% metal** and **12 kg of the 80% metal** (check: $8+12=20$, $0.55(8)+0.80(12)=4.4+9.6=14$).","exercise","unclassified","6","simultaneous-linear-equations","Solution of Simultaneous Linear Equations","To make 20 kg of aluminum alloy with $70 \%$ aluminum, a metallurgist wants to use two metals with $55 \%$ and $80 \%$ aluminum content. How much of each metal should he use.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m17276t4ne7zh1wabnj05gjqt98cvzjf","xd78k9r3mwpbvy484b7dazs9dh8dz17b","Exercise 3.3","[""Matrix Inversion Method and Cramer's rule both require a non-singular coefficient matrix (determinant ≠ 0)."",""When both given equations reduce to the same line, the determinant is 0 and the system has infinitely many solutions rather than a unique pair.""]",,"false","**(a) Matrix Inversion Method**
+
+(i) $4x+3y=-6,\ x+2y=1$. $A=\begin{bmatrix}4&3\\1&2\end{bmatrix}$, $|A|=8-3=5$. $A^{-1}=\frac{1}{5}\begin{bmatrix}2&-3\\-1&4\end{bmatrix}$. $\begin{bmatrix}x\\y\end{bmatrix}=\frac{1}{5}\begin{bmatrix}2&-3\\-1&4\end{bmatrix}\begin{bmatrix}-6\\1\end{bmatrix}=\frac{1}{5}\begin{bmatrix}-15\\10\end{bmatrix}=\begin{bmatrix}-3\\2\end{bmatrix}$. So $x=-3,\ y=2$.
+
+(ii) $-x+2y=1.5,\ 5x+4y=3$. $A=\begin{bmatrix}-1&2\\5&4\end{bmatrix}$, $|A|=-4-10=-14$. $A^{-1}=\frac{1}{-14}\begin{bmatrix}4&-2\\-5&-1\end{bmatrix}$. $\begin{bmatrix}x\\y\end{bmatrix}=\frac{1}{-14}\begin{bmatrix}4&-2\\-5&-1\end{bmatrix}\begin{bmatrix}1.5\\3\end{bmatrix}=\frac{1}{-14}\begin{bmatrix}0\\-10.5\end{bmatrix}=\begin{bmatrix}0\\0.75\end{bmatrix}$. So $x=0,\ y=0.75$.
+
+(iii) $2y=10-16x,\ 24x=15-3y$. Rearranged: $16x+2y=10$ (divide by 2: $8x+y=5$) and $24x+3y=15$ (divide by 3: $8x+y=5$). Both reduce to the **same equation**, so the coefficient matrix $\begin{bmatrix}16&2\\24&3\end{bmatrix}$ has determinant $48-48=0$: singular. Matrix inversion is **not possible**; the system has infinitely many solutions along $8x+y=5$.
+
+(iv) $9-x=7y,\ 14y+2x=18$. Rearranged: $x+7y=9$ and $2x+14y=18$ (divide by 2: $x+7y=9$). Again the **same equation** twice, so $\begin{bmatrix}-1&-7\\2&14\end{bmatrix}$ has determinant $-14-(-14)=0$: singular. Matrix inversion is **not possible**; infinitely many solutions along $x+7y=9$.
+
+**(b) Cramer's Rule**
+
+(i) $2x+3y=5,\ 5x+10y=10$. $D=\begin{vmatrix}2&3\\5&10\end{vmatrix}=20-15=5$. $D_x=\begin{vmatrix}5&3\\10&10\end{vmatrix}=50-30=20$. $D_y=\begin{vmatrix}2&5\\5&10\end{vmatrix}=20-25=-5$. $x=20/5=4,\ y=-5/5=-1$.
+
+(ii) $x=\frac{2}{3}-2y \Rightarrow x+2y=\frac{2}{3}$; $4y=3-3x \Rightarrow 3x+4y=3$. $D=\begin{vmatrix}1&2\\3&4\end{vmatrix}=4-6=-2$. $D_x=\begin{vmatrix}2/3&2\\3&4\end{vmatrix}=8/3-6=-10/3$. $D_y=\begin{vmatrix}1&2/3\\3&3\end{vmatrix}=3-2=1$. $x=\frac{-10/3}{-2}=\frac{5}{3},\ y=\frac{1}{-2}=-\frac{1}{2}$.
+
+(iii) $\frac{6}{10}x+\frac{8}{10}y=20 \Rightarrow 0.6x+0.8y=20$; $\frac{8}{10}x-\frac{6}{10}y=10 \Rightarrow 0.8x-0.6y=10$. $D=\begin{vmatrix}0.6&0.8\\0.8&-0.6\end{vmatrix}=-0.36-0.64=-1$. $D_x=\begin{vmatrix}20&0.8\\10&-0.6\end{vmatrix}=-12-8=-20$. $D_y=\begin{vmatrix}0.6&20\\0.8&10\end{vmatrix}=6-16=-10$. $x=-20/-1=20,\ y=-10/-1=10$.
+
+(iv) $16x-10+2y=0 \Rightarrow 16x+2y=10$; $15-3y-24x=0 \Rightarrow 24x+3y=15$. Dividing gives $8x+y=5$ in both cases: the **same equation**, so $D=\begin{vmatrix}16&2\\24&3\end{vmatrix}=48-48=0$. Cramer's rule **fails** (D = 0); infinitely many solutions along $8x+y=5$.","exercise","unclassified","7","matrix-inversion-method","Matrix Inversion Method","(a) Use Matrix Inversion Method to solve the following systems of linear equations if possible.
+(i) $4 x+3 y=-6$
+(ii) $-x+2 y=1.5$
+$x+2 y=1$
+$5 x+4 y=3$
+(iii) $2 y=10-16 x$
+(iv) $9-x=7 y$
+$24 x=15-3 y$
+$14 y+2 x=18$
+(b) Use Cramer's rule to solve following systems of linear equations if possible.
+(i) $2 x+3 y=5$
+(ii) $x=\frac{2}{3}-2 y$
+$5 x+10 y=10$
+$4 y=3-3 x$
+(iii) $\frac{6}{10} x+\frac{8}{10} y=20$
+(iv) $16 x-10+2 y=0$
+$\frac{8}{10} x-\frac{6}{10} y=10$
+$15-3 y-24 x=0$","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m178191zyxwx2sfcsagqkp3q218ctgsa","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Mixture word problems become two linear equations: total weight, and total weighted protein content."",""Solve AX = B using the matrix inverse.""]",,"false","Let $s$ = lb of soybean meal (16% protein), $c$ = lb of corn meal (9% protein).
+
+$s+c=350$, $0.16s+0.09c=0.12(350)=42$.
+
+Matrix form: $\begin{bmatrix}1&1\\0.16&0.09\end{bmatrix}\begin{bmatrix}s\\c\end{bmatrix}=\begin{bmatrix}350\\42\end{bmatrix}$. $|A|=0.09-0.16=-0.07$.
+
+$A^{-1}=\dfrac{1}{-0.07}\begin{bmatrix}0.09&-1\\-0.16&1\end{bmatrix}$
+
+$\begin{bmatrix}s\\c\end{bmatrix}=\dfrac{1}{-0.07}\begin{bmatrix}0.09&-1\\-0.16&1\end{bmatrix}\begin{bmatrix}350\\42\end{bmatrix}=\dfrac{1}{-0.07}\begin{bmatrix}31.5-42\\-56+42\end{bmatrix}=\dfrac{1}{-0.07}\begin{bmatrix}-10.5\\-14\end{bmatrix}=\begin{bmatrix}150\\200\end{bmatrix}$
+
+**150 lb of soybean meal** and **200 lb of corn meal** should be mixed (check: $150+200=350$, $0.16(150)+0.09(200)=24+18=42$).","exercise","unclassified","7","simultaneous-linear-equations","Solution of Simultaneous Linear Equations","Soybean meal contains $16 \%$ protein and corn meal contains $9 \%$ protein. How many pounds of each should be mixed together in order to get a $350-\mathrm{lb}$ mixture that is $12 \%$ protein?","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m17bm73akrbwm13abzqc4r3p498ctfxs","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""A perimeter/ratio word problem yields two linear equations even without matrices being named explicitly in the stem."",""Solve using the matrix inversion method consistent with the chapter's applications section.""]",,"false","Let $L$ = length, $W$ = width. Perimeter: $2(L+W)=190 \Rightarrow L+W=95$. Width is one fourth of length: $W=\frac{L}{4} \Rightarrow L-4W=0$.
+
+Matrix form: $\begin{bmatrix}1&1\\1&-4\end{bmatrix}\begin{bmatrix}L\\W\end{bmatrix}=\begin{bmatrix}95\\0\end{bmatrix}$. $|A|=-4-1=-5$.
+
+$A^{-1}=\dfrac{1}{-5}\begin{bmatrix}-4&-1\\-1&1\end{bmatrix}$
+
+$\begin{bmatrix}L\\W\end{bmatrix}=\dfrac{1}{-5}\begin{bmatrix}-4&-1\\-1&1\end{bmatrix}\begin{bmatrix}95\\0\end{bmatrix}=\dfrac{1}{-5}\begin{bmatrix}-380\\-95\end{bmatrix}=\begin{bmatrix}76\\19\end{bmatrix}$
+
+The lot's length is **76 m** and width is **19 m** (check: $2(76+19)=190$, $19=76/4$).","exercise","unclassified","8","simultaneous-linear-equations","Solution of Simultaneous Linear Equations","The perimeter of a lot is 190 m . The width is one fourth of the length. Find the dimensions.","ms782rc9fpd8qhqwgay3kmhbt18bt52p"
+"maths-10","03-matrices-and-determinants","Matrices and Determinants","3-4-applications-of-matrices","3.4 Applications of Matrices","m174qrx6kgp02df72v69b2wrks8cvz6q","xd72cb0f0w1j8qj9j2613ena118dydtx","Exercise 3.4","[""Each part follows from a core matrix-chapter fact: transpose, identity matrix structure, additive inverse, singular matrices, symmetric-matrix definition, matrix-multiplication order rules, and the |adj A| = |A|^(n-1) relation for n=2.""]",,"false","i. $\begin{bmatrix}5&3\\2&9\end{bmatrix}^t=\begin{bmatrix}5&2\\3&9\end{bmatrix}$, set equal to $\begin{bmatrix}5&x/2\\3&9\end{bmatrix}$: $x/2=2\Rightarrow x=4$: (b) 4
+
+ii. $I_3=\begin{bmatrix}y&0&x\\0&z&0\\x&0&1\end{bmatrix}$ must be the identity matrix (diagonal 1's, off-diagonal 0's): $y=1,z=1,x=0$: (d) $y=z=1,x=0$
+
+iii. Additive inverse of $I_2=\begin{bmatrix}1&0\\0&1\end{bmatrix}$ is $\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$: (b)
+
+iv. A null matrix is singular (determinant 0), so its multiplicative inverse does not exist: (d) impossible
+
+v. A matrix is symmetric when $A=A^t$; since $(A^t)^t=A$ always, writing this as $(A^t)^t=A^t$ is exactly the condition $A=A^t$: (d)
+
+vi. A $1\times1$ matrix $\left[\frac12\right]$ and a $2\times1$ matrix $\begin{bmatrix}0\\0\end{bmatrix}$ have different orders and cannot be added: (d) impossible
+
+vii. $A$ is $1\times2$, $B$ is $2\times3$: $AB$ has order (rows of A) x (cols of B) = $1\times3$: (a)
+
+viii. $AB=B$ (for square, invertible-context matrices) means $A$ acts as the identity: (a) I
+
+ix. $\begin{bmatrix}15\\25\end{bmatrix}\times[3\ \ 2]=\begin{bmatrix}45&30\\75&50\end{bmatrix}$: (d)
+
+x. $|T|=-1$: $T^{-1}=\dfrac{\operatorname{adj}T}{|T|}=\dfrac{\operatorname{adj}T}{-1}=-\operatorname{adj}T$: (c)
+
+xi. $y+x=144+y\Rightarrow x=144$ (i.e. $1x+0y=144$); $x+2y=x+13\Rightarrow2y=13$ (i.e. $0x+2y=13$). Matrix form $\begin{bmatrix}1&0\\0&2\end{bmatrix}\begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}144\\13\end{bmatrix}$: (c)
+
+xii. Coefficient matrix for $x-y=3$: $[1\ \ {-1}]$: (b)
+
+xiii. A $1\times1$ matrix like $[3]$ multiplies any matrix as a scalar (this textbook's convention, seen again in the Q9 product list): $3\times[1\ \ 2]=[3\ \ 6]$: (a)
+
+xiv. $(AB)^t=B^tA^t$: (c)
+
+xv. $\begin{bmatrix}-3&5\\-3&x-1\end{bmatrix}$ singular: $\det=-3(x-1)-5(-3)=-3x+3+15=0\Rightarrow x=6$: (b)
+
+xvi. For a $2\times2$ matrix, $|\operatorname{adj}A|=|A|$ (since $|\operatorname{adj}A|=|A|^{n-1}$ with $n=2$), and also $|A^t|=|A|$ and $|-A|=(-1)^2|A|=|A|$ always: all three equal $|A|$: (d) all a, b, c","exercise","unclassified","1","determinant-of-a-matrix","Determinant of a Matrix","Encircle the correct option in the following.
+i. If $\left[\begin{array}{ll}5 & 3 \\ 2 & 9\end{array}\right]^{t}=\left[\begin{array}{ll}5 & \frac{x}{2} \\ 3 & 9\end{array}\right]$, then $\mathrm{x}=$
+(a) 6
+(b) 4
+(c) -6
+(d) $\quad-4$
+ii. If $I_{3}=\left[\begin{array}{ccc}y & 0 & x \\ 0 & z & 0 \\ x & 0 & 1\end{array}\right]$ then
+(a) $y=x=1$
+(b) $\quad x=\mathrm{z}=0$
+(c) $x=\mathrm{z}=1$
+(d) $y=\mathrm{z}=1, x=0$
+iii. Additive inverse of unit matrix of order 2 , is
+(a) $\left[\begin{array}{ll}0 & 0 \\ 0 & 0\end{array}\right]$
+(b) $\quad\left[\begin{array}{rr}-1 & 0 \\ 0 & -1\end{array}\right]$
+(c) $\left[\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right]$
+(d) $\quad\left[\begin{array}{rr}1 & 0 \\ 0 & -1\end{array}\right]$
+iv. Multiplicative inverse of a null matrix of order 2, is
+(a) $\left[\begin{array}{ll}0 & 0 \\ 0 & 0\end{array}\right]$
+(b) $\quad\left[\begin{array}{l}0 \\ 0\end{array}\right]$
+(c) $\quad[0 \quad 0]$
+(d) impossible
+v. A is a symmetric matrix if
+(a) $A^{t} \neq A$
+(b) $\left(A^{t}\right)^{t} \neq-\mathrm{A}$
+(c) $\left(A^{t}\right)^{t}=-\mathrm{A}$
+(d) $\left(A^{t}\right)^{t}=A^{t}$
+vi. $\left[\frac{1}{2}\right]+\left[\begin{array}{l}0 \\ 0\end{array}\right]=$
+(a) $\left[\frac{1}{2}\right]$
+(b) $\quad\left[\begin{array}{l}1 \\ 2\end{array}\right]$
+(c) $\quad\left[\begin{array}{ll}\frac{1}{2} & 0 \\ 0\end{array}\right]$
+(d) impossible
+vii. Order of matrix $A$ is 1-by-2 and order of matrix $B$ is 2-by-3 then order of $A B$ is
+(a) 1-by-3
+(b) 3-by-1
+(c) 2-by-2
+(d) 3-by-2
+viii. If $A B=B$, then $A=\ldots \ldots$
+(a) I
+(b) $\mathrm{A}^{-1}$
+(c) B
+(d) $\mathrm{B}^{-1}$
+ix. $\left[\begin{array}{l}15 \\ 25\end{array}\right] \times\left[\begin{array}{ll}3 & 2\end{array}\right]=$
+(a) $[95]$
+(b) $\left[\begin{array}{l}45 \\ 50\end{array}\right]$
+(c) $\left[\begin{array}{ll}45 & 50\end{array}\right]$
+(d) $\left[\begin{array}{ll}45 & 30 \\ 75 & 50\end{array}\right]$
+x. If $|\mathrm{T}|=-1$ then $\mathrm{T}^{-1}=$
+(a) -T
+(b) $\quad \operatorname{adj} \mathrm{T}$
+(c) $-\operatorname{adj} \mathrm{T}$
+(d) T
+xi. Matrix equation for $y+x=144+y$ and $x+2 y=x+13$ is
+(a) $\left[\begin{array}{ll}1 & 1 \\ 1 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(b) $\quad\left[\begin{array}{ll}1 & 0 \\ 1 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(c) $\left[\begin{array}{ll}1 & 0 \\ 0 & 2\end{array}\right] \times\left[\begin{array}{l}x \\ y\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+(d) $\left[\begin{array}{ll}1 & 0 \\ 0 & 2\end{array}\right] \times\left[\begin{array}{l}y \\ x\end{array}\right]=\left[\begin{array}{c}144 \\ 13\end{array}\right]$
+xii. The matrix of coefficients for $x-y=3$, is
+(a) $[3]$
+(b) $\left[\begin{array}{ll}1 & -1\end{array}\right]$
+(c) $\left[\begin{array}{l}x \\ y\end{array}\right]$
+(d) $\left[\begin{array}{l}1 \\ 1\end{array}\right]$
+xiii.[ll 2 ] $[3]=$
+(a) $\left[\begin{array}{ll}3 & 6\end{array}\right]$
+(b) $\left[\begin{array}{l}3 \\ 6\end{array}\right]$
+(c) $[5]$
+(d) impossible
+xiv. If $A$ and $B$ are two matrices, conformable for the product $A B$ then $(A B)^{t}=$
+(a) $A^{t} B^{t}$
+(b) $(B A)^{t}$
+(c) $\mathrm{B}^{\mathrm{t}} \mathrm{A}^{\mathrm{t}}$
+(d) AB
+xv. If $\left[\begin{array}{cc}-3 & 5 \\ -3 & x-1\end{array}\right]$ is singular matrix, then $x=$
+(a) 4
+(b) 6
+(c) -6
+(d) -4
+xvi. If $\operatorname{adj} \mathrm{A}=\left[\begin{array}{ll}5 & 6 \\ 2 & 3\end{array}\right]$ then $|\mathrm{A}|=$
+(a) $|\operatorname{adj} \mathrm{A}|$
+(b) $\left|\mathrm{A}^{\mathrm{t}}\right|$
+(c) $|-\mathrm{A}|$
+(d) all a, b, c","ms782rc9fpd8qhqwgay3kmhbt18bt52p"

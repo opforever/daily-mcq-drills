@@ -1,0 +1,870 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m1761tz3epbz5bgnh3mpv04myx85pwbe",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "EMF is energy per unit charge provided by non-conservative forces in a source; PD is work per unit charge by electric field between two points",
+      "EMF is independent of internal resistance and constant; PD depends on current and load resistance",
+      "EMF measured at open circuit (no current); terminal PD measured when current flows and is less than EMF",
+      "Relationship: Terminal PD = EMF - (current × internal resistance), or $V = \\varepsilon - Ir$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Distinction between EMF and Potential Difference:**\n\n1. **Source and Origin**: EMF (electromotive force) is the energy per unit charge provided by a source (battery, cell) due to non-conservative forces, while potential difference is the work done per unit charge by the electric field between two points in a circuit.\n\n2. **Internal Resistance**: EMF is independent of internal resistance and remains constant for a given source, whereas potential difference across a load depends on the current flowing through the circuit and the resistance of the load.\n\n3. **Measurement**: EMF is measured when no current flows (open circuit), giving the maximum potential difference, while terminal potential difference is measured when current is flowing through the circuit and is always less than EMF due to voltage drop across internal resistance.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "session": "annual",
+    "stem": "Distinguish between **emf** and **potential difference**. (Any three points)",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m179arav70vcr8k0t9mdgcdw7s85qrth",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Using E = kQ/r² with k = 9×10⁹ N·m²/C², Q = 4×10⁻⁶ C, r = 0.2 m: E = (9×10⁹ × 4×10⁻⁶)/(0.04) = 9×10⁵ N/C.",
+    "keyPoints": [
+      "Correctly identifies the formula for electric field: $E = k\\frac{q}{r^2}$",
+      "Converts distance to SI units (20 cm = 0.2 m)",
+      "Substitutes values correctly: $q = 4 \\times 10^{-6}$ C and $r = 0.2$ m",
+      "Performs calculation accurately to obtain $E = 9 \\times 10^5$ N C$^{-1}$",
+      "Expresses answer in appropriate units (N C$^{-1}$ or MN C$^{-1}$)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The electric field at a distance of 20 cm from a 4 μC charge is calculated using $E = \\frac{1}{4\\pi\\epsilon_0} \\frac{q}{r^2} = k\\frac{q}{r^2}$. Substituting values: $E = 9 \\times 10^9 \\times \\frac{4 \\times 10^{-6}}{(0.2)^2} = 9 \\times 10^9 \\times \\frac{4 \\times 10^{-6}}{0.04} = 9 \\times 10^5 \\text{ N C}^{-1}$ or $0.9 \\text{ MN C}^{-1}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$9 \\times 10^{5} \\text{ N/C}$"
+      },
+      {
+        "key": "B",
+        "text": "$4.5 \\times 10^{5} \\text{ N/C}$"
+      },
+      {
+        "key": "C",
+        "text": "$3 \\times 10^{3} \\text{ N/C}$"
+      },
+      {
+        "key": "D",
+        "text": "$9 \\times 10^{3} \\text{ N/C}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "The electric field at a distance of $20 \\text{ cm}$ from $4 \\mu C$ charge is:",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m17etr98c1egxa7spjmwr43xsh85qzfe",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a closed circuit with internal resistance r, the EMF E equals the terminal voltage V_t plus the voltage drop across internal resistance: E = V_t + Ir, or equivalently E = V_t - I(-r) when accounting for direction.",
+    "keyPoints": [
+      "States Kirchhoff's voltage law for closed circuits",
+      "Recognizes that sum of EMFs equals sum of potential drops ($\\sum \\mathcal{E} = \\sum IR$)",
+      "Explains energy conservation principle in closed loops",
+      "Identifies that algebraic sum of potential differences around closed loop equals zero"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a closed circuit, the sum of the electromotive forces (EMFs) equals the sum of the potential drops across all resistances. This is expressed by Kirchhoff's voltage law: $\\sum \\mathcal{E} = \\sum IR$, where the algebraic sum of potential differences around any closed loop is zero. This principle ensures energy conservation in the circuit.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$E = V_{t} - Ir$"
+      },
+      {
+        "key": "B",
+        "text": "$E = V_{t}$"
+      },
+      {
+        "key": "C",
+        "text": "$E > V_{t}$"
+      },
+      {
+        "key": "D",
+        "text": "$E < V_{t}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "For a closed circuit:",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m17c1aa8fxedrr7n85r4pw8sh185ps6z",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognizes electric field as negative gradient of potential",
+      "Relates work done by field to change in potential energy",
+      "Correctly applies sign convention (negative indicates field opposes potential increase)",
+      "Derives relationship from fundamental definitions of E and V",
+      "Expresses result as rate of change: $E = -\\frac{\\Delta V}{\\Delta r}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The electric field is defined as the negative gradient of electric potential. Consider two points separated by a small distance $\\Delta r$ along the field direction with potential difference $\\Delta V$. The work done by the field on a unit positive charge moving through this distance is $W = E \\cdot \\Delta r$. Since this work equals the decrease in potential energy, we have $E \\cdot \\Delta r = -\\Delta V$. Therefore, $E = -\\frac{\\Delta V}{\\Delta r}$, showing that electric field is the negative rate of change of potential with distance.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "electric-field-as-negative-potential-gradient",
+    "sectionLabel": "Electric Field as Negative Potential Gradient",
+    "session": "annual",
+    "stem": "Prove that $E = -\\frac{\\Delta V}{\\Delta r}$.",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m173ftaa520jy2e3j0fh8hmrd985qcn7",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: Device for measuring potential difference by comparing with standard EMF using principle that potential difference is proportional to wire length",
+      "Principle: Potential difference across uniform wire is directly proportional to its length (V ∝ L)",
+      "Construction: Long uniform wire on board, standard cell, jockey, rheostat, galvanometer, and unknown EMF source",
+      "Working: Balance standard EMF against wire length, then balance unknown EMF against different length; ratio of lengths equals ratio of EMFs",
+      "Uses: Measuring EMF of cells, comparing EMFs, determining internal resistance, precise potential difference measurements"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "A potentiometer is a device used to measure electric potential difference (EMF) between two points by comparing them with a known standard EMF. It operates on the principle that the potential difference across a uniform wire is directly proportional to its length. The potentiometer consists of a long uniform wire (typically nichrome or constantan) of length 1-2 meters stretched on a wooden board, a standard cell, a jockey, a rheostat, and a galvanometer. In operation, a standard EMF is balanced against a length of wire, establishing a potential gradient. An unknown EMF is then balanced against another length of wire, and the ratio of lengths gives the ratio of EMFs. The potentiometer is used to measure EMF of cells, compare EMFs of different cells, determine internal resistance of a cell, and measure potential differences with high accuracy and sensitivity.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "What is a potentiometer? Explain its principle, construction and working. Also give some uses.",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m175pmf86fb1z7txjs7j67t3m185pps9",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Potential difference V = W/Q, where W is work done and Q is charge. V = 10 J / 6 C = 1.67 V ≈ 1.66 V. This directly applies SLO P-12-E-01 (define and calculate electric potential).",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "60 V"
+      },
+      {
+        "key": "B",
+        "text": "6 V"
+      },
+      {
+        "key": "C",
+        "text": "0.6 V"
+      },
+      {
+        "key": "D",
+        "text": "1.66 V"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "electric-potential-v",
+    "sectionLabel": "Electric Potential ($V$)",
+    "session": "annual",
+    "stem": "Work done in moving a charge of $6\\text{ C}$ between two points is $10\\text{ J}$. What is the potential difference between two points?",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m17588gncx748sher5me5ybqjx85qgz0",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Energy gained by electron accelerated through potential V is E = qV = e × 1000 V = 1.6 × 10⁻¹⁹ C × 1000 V = 1.6 × 10⁻¹⁶ J. This directly applies the work-energy theorem for charged particles.",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$1.6 \\times 10^{-22} \\text{ J}$"
+      },
+      {
+        "key": "B",
+        "text": "$1.6 \\times 10^{-19} \\text{ J}$"
+      },
+      {
+        "key": "C",
+        "text": "$1.6 \\times 10^{-16} \\text{ J}$"
+      },
+      {
+        "key": "D",
+        "text": "$1.6 \\times 10^{-13} \\text{ J}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "electron-volt-ev",
+    "sectionLabel": "Electron-Volt (eV)",
+    "session": "annual",
+    "stem": "The energy of an electron which accelerates through a potential difference of $1000 \\text{ V}$ is:",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m17c7wxhvpjmkkfgnwvg11fzrs85qe7e",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines electron volt as energy gained by electron accelerated through 1 V potential difference",
+      "States conversion factor: 1 eV = 1.6 × 10⁻¹⁹ J",
+      "Shows mathematical relationship between eV and joule",
+      "Explains practical use of eV in atomic/nuclear physics",
+      "Demonstrates understanding of energy scales in microscopic systems"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An **electron volt (eV)** is the energy acquired by an electron when it is accelerated through a potential difference of one volt. It is defined as: $1 \\text{ eV} = 1.6 \\times 10^{-19} \\text{ J}$. The relationship with joule is: $E(\\text{in J}) = E(\\text{in eV}) \\times 1.6 \\times 10^{-19}$. Electron volts are commonly used in atomic and nuclear physics because energies at the atomic scale are conveniently expressed in eV rather than joules.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionId": "electron-volt-ev",
+    "sectionLabel": "Electron-Volt (eV)",
+    "session": "annual",
+    "stem": "What is **\"electron volt\"**? Show its relationship with joule.",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m17f42pkjv5zj7q04y0t8m8fw985pkmr",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: Energy acquired by electron accelerated through 1 V potential difference",
+      "Work done formula: $W = eV$ where $e$ is elementary charge",
+      "Elementary charge value: $e = 1.6 \\times 10^{-19}$ C",
+      "Conversion relation: $1\\text{ eV} = 1.6 \\times 10^{-19}\\text{ J}$",
+      "Practical utility in atomic/nuclear physics calculations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An **electron volt (eV)** is the energy acquired by an electron when accelerated through a potential difference of 1 volt. It is defined as the work done by the electric field on a single electron: $E = eV$, where $e$ is the elementary charge.\n\n**Derivation of relation with SI unit (Joule):**\n\nWhen an electron is accelerated through a potential difference of 1 V, the work done equals the charge times the potential:\n$$W = q \\times V = e \\times 1\\text{ V}$$\n\nSince the elementary charge $e = 1.6 \\times 10^{-19}$ C, we have:\n$$1\\text{ eV} = 1.6 \\times 10^{-19}\\text{ C} \\times 1\\text{ V} = 1.6 \\times 10^{-19}\\text{ J}$$\n\nTherefore: $$\\boxed{1\\text{ eV} = 1.6 \\times 10^{-19}\\text{ J}}$$\n\nThis conversion factor allows energy in atomic and nuclear physics to be expressed in the convenient unit of eV rather than joules.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "sectionId": "electron-volt-ev",
+    "sectionLabel": "Electron-Volt (eV)",
+    "session": "annual",
+    "stem": "What is **electron volt (eV)**? Derive its relation with SI unit of energy.",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-1-electric-potential-energy-and-electric-potential",
+    "topicTitle": "19.1 Electric Potential Energy and Electric Potential",
+    "_id": "m17ad97ds4bt8zktdzg9mh6nq985p27g",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines potential difference $\\Delta V$ between two points separated by distance $d$",
+      "Relates work done by field ($W = Ed$) to potential difference",
+      "Shows that potential difference equals work per unit charge",
+      "Derives $E = \\frac{\\Delta V}{d}$ as the definition of electric field as potential gradient",
+      "Explains that electric field represents rate of change of potential with distance"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Electric field is the potential gradient. Consider two points separated by distance $d$ in a uniform electric field. The potential difference between them is $\\Delta V = V_2 - V_1$. The work done by the field on a unit positive charge moving through distance $d$ is $W = Ed$. Since potential difference equals work done per unit charge, $\\Delta V = Ed$. Therefore, the electric field is defined as $E = \\frac{\\Delta V}{d}$, showing that electric field represents the rate of change of potential with distance.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionId": "relationship-between-electric-field-and-potential-gradient",
+    "sectionLabel": "Relationship Between Electric Field and Potential Gradient",
+    "session": "annual",
+    "stem": "Show that **electric field** is **potential gradient** ($E = \\frac{\\Delta V}{d}$).",
+    "topicId": "ms76wc8szjf96q0qjmdsmkrr2185qe7t",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-2-electric-potential-due-to-a-point-charge",
+    "topicTitle": "19.2 Electric Potential Due to a Point Charge",
+    "_id": "m172twtp0atkt85y33vxxv609985ph7w",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Coulomb's law states F ∝ 1/r². When distance is doubled, force becomes F/4 = 120/4 = 30 N. This applies Coulomb's law directly.",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$15\\text{ N}$"
+      },
+      {
+        "key": "B",
+        "text": "$30\\text{ N}$"
+      },
+      {
+        "key": "C",
+        "text": "$60\\text{ N}$"
+      },
+      {
+        "key": "D",
+        "text": "$40\\text{ N}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "Coulomb force between two electric charges is $120\\text{ N}$. If the distance between the charges is doubled, the coulomb force will be:",
+    "topicId": "ms7dw2kqsgv43aenc4hjqawmax85p11y",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-2-electric-potential-due-to-a-point-charge",
+    "topicTitle": "19.2 Electric Potential Due to a Point Charge",
+    "_id": "m17c1aa8fxedrr7n85r4pw8sh185ps6z",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognizes electric field as negative gradient of potential",
+      "Relates work done by field to change in potential energy",
+      "Correctly applies sign convention (negative indicates field opposes potential increase)",
+      "Derives relationship from fundamental definitions of E and V",
+      "Expresses result as rate of change: $E = -\\frac{\\Delta V}{\\Delta r}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The electric field is defined as the negative gradient of electric potential. Consider two points separated by a small distance $\\Delta r$ along the field direction with potential difference $\\Delta V$. The work done by the field on a unit positive charge moving through this distance is $W = E \\cdot \\Delta r$. Since this work equals the decrease in potential energy, we have $E \\cdot \\Delta r = -\\Delta V$. Therefore, $E = -\\frac{\\Delta V}{\\Delta r}$, showing that electric field is the negative rate of change of potential with distance.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "electric-field-as-negative-potential-gradient",
+    "sectionLabel": "Electric Field as Negative Potential Gradient",
+    "session": "annual",
+    "stem": "Prove that $E = -\\frac{\\Delta V}{\\Delta r}$.",
+    "topicId": "ms7dw2kqsgv43aenc4hjqawmax85p11y",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-2-electric-potential-due-to-a-point-charge",
+    "topicTitle": "19.2 Electric Potential Due to a Point Charge",
+    "_id": "m17brqd9prms77qvqyfbfpdkxs85qx5v",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies principle that total potential is zero when algebraic sum of individual potentials equals zero",
+      "Uses formula $V = \\frac{kq}{r}$ for potential due to point charge",
+      "Sets up equation with correct signs (positive charge contributes positive potential, negative charge contributes negative potential)",
+      "Solves algebraic equation correctly to find position 10 cm from positive charge",
+      "Verifies answer lies between the two charges (physically reasonable for unlike charges)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Let the point where potential is zero be at distance $x$ from the charge $+5 \\times 10^{-8}$ C. The total potential at this point is the algebraic sum of potentials due to both charges. Setting $V_{\\text{total}} = 0$:\n\n$$\\frac{k(5 \\times 10^{-8})}{x} + \\frac{k(-3 \\times 10^{-8})}{16-x} = 0$$\n\nSimplifying: $\\frac{5 \\times 10^{-8}}{x} = \\frac{3 \\times 10^{-8}}{16-x}$\n\nCross-multiplying: $5(16-x) = 3x$, which gives $80 - 5x = 3x$, so $x = 10$ cm from the positive charge (or 6 cm from the negative charge).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionId": "electric-potential-energy-of-two-point-charges",
+    "sectionLabel": "Electric Potential Energy of Two Point Charges",
+    "session": "annual",
+    "stem": "Two charges $5 \\times 10^{-8}\\text{ C}$ and $-3 \\times 10^{-8}\\text{ C}$ are located $16\\text{ cm}$ apart. At what point on the line joining the two charges is electric potential zero? Take the potential at infinity to be zero.",
+    "topicId": "ms7dw2kqsgv43aenc4hjqawmax85p11y",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-2-electric-potential-due-to-a-point-charge",
+    "topicTitle": "19.2 Electric Potential Due to a Point Charge",
+    "_id": "m179g5gydbnx31asgy8xqxrj3n85q0je",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "By symmetry, the four charges (+Q, -Q, +Q, -Q) at square corners create electric fields that cancel at the center (E=0). However, electric potential is a scalar; the potentials from opposite charges do not cancel: V = kQ/r - kQ/r + kQ/r - kQ/r = 0 only if all distances are equal, but here opposite charges contribute with same sign to potential, yielding V≠0.",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$E=0, V=0$"
+      },
+      {
+        "key": "B",
+        "text": "$E=0, V \\neq 0$"
+      },
+      {
+        "key": "C",
+        "text": "$E \\neq 0, V=0$"
+      },
+      {
+        "key": "D",
+        "text": "$E \\neq 0, V \\neq 0$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "superposition-of-potentials",
+    "sectionLabel": "Superposition of Potentials",
+    "session": "annual",
+    "stem": "Four charges $+Q, -Q, +Q, -Q$ are placed at the corners of a square taken in order. At the centre of the square:",
+    "topicId": "ms7dw2kqsgv43aenc4hjqawmax85p11y",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-3-capacitors",
+    "topicTitle": "19.3 Capacitors",
+    "_id": "m172jphq9nfgva1zzc86rsrxm585q3ry",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When a dielectric is polarized, it reduces the electric field inside the capacitor, allowing more charge to be stored at the same voltage. Therefore, capacitance increases (C = ε₀εᵣA/d, where εᵣ > 1 for dielectrics). This aligns with SLO P-12-E-04.",
+    "keyPoints": [
+      "Dielectric polarization reduces the net electric field between plates",
+      "Reduced field allows more charge storage at same voltage",
+      "Capacitance increases by factor $\\kappa$ (dielectric constant): $C = \\kappa C_0$",
+      "Relationship: $C = \\frac{\\kappa \\epsilon_0 A}{d}$ shows direct dependence on dielectric constant"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Due to electric polarization of the dielectric, the charge storing capacity (capacitance) of a capacitor **increases**. When a dielectric material is placed between the plates, its molecules become polarized by the external electric field, creating an opposing internal field that reduces the net field between the plates. This reduction in electric field allows a greater charge to be stored at the same potential difference, thereby increasing the capacitance by a factor equal to the dielectric constant $\\kappa$ of the material.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remains the same"
+      },
+      {
+        "key": "B",
+        "text": "Becomes zero"
+      },
+      {
+        "key": "C",
+        "text": "Decreases"
+      },
+      {
+        "key": "D",
+        "text": "Increases"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "effect-of-a-dielectric",
+    "sectionLabel": "Effect of a Dielectric",
+    "session": "annual",
+    "stem": "Due to electric polarization of dielectric, the charge storing capacity of capacitor:",
+    "topicId": "ms7bzk7306s44m80cnmxgsveyd85qg9k",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-3-capacitors",
+    "topicTitle": "19.3 Capacitors",
+    "_id": "m179trk7zapg6k2201npwd6awn85qwse",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Dielectric material becomes polarized in the electric field",
+      "Induced electric field opposes the original field, reducing net field strength",
+      "Potential difference decreases while charge remains constant",
+      "Capacitance increases by factor of dielectric constant: $C = \\kappa C_{\\text{vac}}$",
+      "Capacitance is inversely related to potential difference: $C = Q/V$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When a dielectric slab is placed between the plates of a parallel plate capacitor, the capacitance increases because the dielectric material becomes polarized by the electric field. The polarization creates an induced electric field that opposes the original field, reducing the net electric field between the plates. Since the potential difference $V$ decreases while the charge $Q$ remains constant, and capacitance is defined as $C = \\frac{Q}{V}$, the capacitance increases. Mathematically, the capacitance with a dielectric is $C = \\kappa \\epsilon_0 \\frac{A}{d}$, where $\\kappa > 1$ is the dielectric constant, showing that $C$ is directly proportional to the dielectric constant.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionId": "effect-of-a-dielectric",
+    "sectionLabel": "Effect of a Dielectric",
+    "session": "annual",
+    "stem": "Explain why the capacitance of a parallel plate capacitor increases when a dielectric slab is placed between its plates?",
+    "topicId": "ms7bzk7306s44m80cnmxgsveyd85qg9k",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-3-capacitors",
+    "topicTitle": "19.3 Capacitors",
+    "_id": "m17c7j43p0d8p6hmmrdres2bn185qtd3",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When one plate is removed, the electric field between the plates becomes zero (no closed capacitor structure). Since F = qE, the force on the charged particle becomes F/2 of the original, as the field is halved due to loss of one plate's contribution.",
+    "keyPoints": [
+      "Recognizes that force on charged particle depends on electric field between plates",
+      "Understands that electric field is proportional to potential difference and inversely proportional to plate separation",
+      "Correctly identifies that removing one plate reduces the electric field to half its original value",
+      "Concludes that force becomes F/2 when one plate is removed"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When a charged particle is kept between the plates of a charged capacitor, it experiences a force $F$ due to the electric field between the plates. The electric field between two parallel plates is $E = \\frac{V}{d}$, where $V$ is the potential difference and $d$ is the separation. When one plate is removed, the electric field becomes half its original value (since the potential difference remains the same but the effective field configuration changes), so the force on the particle becomes $\\frac{F}{2}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{F}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "Zero"
+      },
+      {
+        "key": "C",
+        "text": "F"
+      },
+      {
+        "key": "D",
+        "text": "2F"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "parallel-plate-capacitor",
+    "sectionLabel": "Parallel Plate Capacitor",
+    "session": "annual",
+    "stem": "The force acting on a charged particle kept between the plates of a charged capacitor is $F$. If one of the plates of the capacitor is removed, the force on the particle becomes:",
+    "topicId": "ms7bzk7306s44m80cnmxgsveyd85qg9k",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-4-combinations-of-capacitors",
+    "topicTitle": "19.4 Combinations of Capacitors",
+    "_id": "m1702wy0vwh27385f0yxdbrb8185p24q",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Parallel: all capacitors at same voltage $V$, total energy $U = \\frac{1}{2}(C_1 + C_2 + \\cdots)V^2$ is maximum",
+      "Series: same charge $Q$ on all capacitors, voltage divides, equivalent capacitance is reduced",
+      "Energy in series: $U = \\frac{1}{2}\\frac{Q^2}{C_{eq}}$ is less than parallel for same applied voltage",
+      "Parallel combination has larger equivalent capacitance, storing more energy at given voltage",
+      "Practical justification: parallel arrangement maximizes total capacitance and energy storage capability"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Energy stored is **maximum in parallel combination**. In parallel, all capacitors experience the same voltage $V$ from the source, so total energy is $U_{total} = \\frac{1}{2}(C_1 + C_2 + \\cdots)V^2$. In series, the same charge $Q$ distributes across capacitors with different capacitances, resulting in voltage division and lower total energy $U_{total} = \\frac{1}{2}\\frac{Q^2}{C_{eq}}$ where $C_{eq}$ is smaller than any individual capacitor. Therefore, parallel combination stores more energy.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "comparison-series-vs-parallel",
+    "sectionLabel": "Comparison: Series vs Parallel",
+    "session": "annual",
+    "stem": "In which combination of capacitors the **energy stored** is maximum, parallel or series? Justify.",
+    "topicId": "ms7bx30gsgfdb2zr4ht6qj8p8n85prnw",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-5-energy-stored-in-a-capacitor",
+    "topicTitle": "19.5 Energy Stored in a Capacitor",
+    "_id": "m17asqk9p5hhv9fmy8gzhxm6dx85pk29",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Explains capacitor discharge mechanism through primary coil producing magnetic flux change",
+      "Describes electromagnetic induction in secondary coil generating high voltage for spark plugs",
+      "Mentions exponential discharge behaviour and time constant $\\tau = RC$ for timing control",
+      "Lists practical applications: automotive ignition, camera flash units, electronic timing circuits",
+      "Connects to fuel ignition in engines demonstrating practical application"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A capacitor discharge ignition system works by rapidly discharging a charged capacitor through the primary coil of an ignition transformer. When the capacitor discharges, it produces a sudden change in magnetic flux through the primary coil, inducing a high voltage in the secondary coil via electromagnetic induction. This high voltage is then directed to the spark plugs to ignite the fuel-air mixture in an engine. The discharge follows exponential behaviour governed by the time constant $\\tau = RC$, allowing precise control of ignition timing. Uses include: automotive ignition systems in internal combustion engines, electronic flash units in cameras, and precision timing circuits in electronic devices.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "discharging-of-a-capacitor",
+    "sectionLabel": "Discharging of a Capacitor",
+    "session": "annual",
+    "stem": "How does a capacitor discharge ignition system work? Enlist some of its uses.",
+    "topicId": "ms78mv7vxs3na6kmveanewybsn85pykk",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-5-energy-stored-in-a-capacitor",
+    "topicTitle": "19.5 Energy Stored in a Capacitor",
+    "_id": "m1702wy0vwh27385f0yxdbrb8185p24q",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Parallel: all capacitors at same voltage $V$, total energy $U = \\frac{1}{2}(C_1 + C_2 + \\cdots)V^2$ is maximum",
+      "Series: same charge $Q$ on all capacitors, voltage divides, equivalent capacitance is reduced",
+      "Energy in series: $U = \\frac{1}{2}\\frac{Q^2}{C_{eq}}$ is less than parallel for same applied voltage",
+      "Parallel combination has larger equivalent capacitance, storing more energy at given voltage",
+      "Practical justification: parallel arrangement maximizes total capacitance and energy storage capability"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Energy stored is **maximum in parallel combination**. In parallel, all capacitors experience the same voltage $V$ from the source, so total energy is $U_{total} = \\frac{1}{2}(C_1 + C_2 + \\cdots)V^2$. In series, the same charge $Q$ distributes across capacitors with different capacitances, resulting in voltage division and lower total energy $U_{total} = \\frac{1}{2}\\frac{Q^2}{C_{eq}}$ where $C_{eq}$ is smaller than any individual capacitor. Therefore, parallel combination stores more energy.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "derivation-of-energy-stored",
+    "sectionLabel": "Derivation of Energy Stored",
+    "session": "annual",
+    "stem": "In which combination of capacitors the **energy stored** is maximum, parallel or series? Justify.",
+    "topicId": "ms78mv7vxs3na6kmveanewybsn85pykk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-5-energy-stored-in-a-capacitor",
+    "topicTitle": "19.5 Energy Stored in a Capacitor",
+    "_id": "m17aet6xh849bcva8eqbkx42rs85qbyp",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognizes that work is required to transfer charge against increasing potential difference",
+      "Correctly sets up differential work element: $dW = v \\, dq = \\frac{q}{C} \\, dq$",
+      "Performs integration from 0 to Q to obtain $U = \\frac{Q^2}{2C}$",
+      "Derives alternative forms using $Q = CV$: $U = \\frac{1}{2}CV^2$ and $U = \\frac{1}{2}QV$",
+      "Explains physical meaning: energy stored in electric field between plates"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Derivation of Energy Stored in a Capacitor**\n\n**Introduction:** When a capacitor is charged, work must be done against the electric field to transfer charge from the negative to the positive plate. This work is stored as electric potential energy in the capacitor.\n\n**Derivation:** At any instant during charging, if charge $q$ is on the capacitor and potential difference is $v = q/C$, the work done to transfer additional charge $dq$ is:\n$$dW = v \\, dq = \\frac{q}{C} \\, dq$$\n\nIntegrating from $q = 0$ to final charge $Q$:\n$$U = \\int_0^Q \\frac{q}{C} \\, dq = \\frac{1}{C} \\int_0^Q q \\, dq = \\frac{1}{C} \\cdot \\frac{Q^2}{2}$$\n\n$$\\boxed{U = \\frac{Q^2}{2C}}$$\n\n**Alternative Forms:** Using $Q = CV$:\n$$\\boxed{U = \\frac{1}{2}CV^2}$$\n\nUsing $Q = CV$ and $U = Q^2/2C$:\n$$\\boxed{U = \\frac{1}{2}QV}$$\n\n**Physical Significance:** The energy is stored in the electric field between the plates. The factor of $1/2$ arises because the average potential difference during charging is $V/2$. All three expressions are equivalent and can be used depending on which quantities are known.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionId": "derivation-of-energy-stored",
+    "sectionLabel": "Derivation of Energy Stored",
+    "session": "annual",
+    "stem": "Derive an expression for energy stored in a capacitor.",
+    "topicId": "ms78mv7vxs3na6kmveanewybsn85pykk",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-6-charging-and-discharging-of-a-capacitor",
+    "topicTitle": "19.6 Charging and Discharging of a Capacitor",
+    "_id": "m17ep13tzd29xdrppfb11ye0eh85pwnh",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Charging equation: $q = q_0(1 - e^{-t/RC})$ showing exponential approach to maximum charge $q_0 = C\\mathcal{E}$",
+      "Discharging equation: $q = q_0 e^{-t/RC}$ showing exponential decay of charge",
+      "Time constant $\\tau = RC$ determines rate of charging/discharging; after $5RC$, capacitor is ~99.3% charged or discharged",
+      "Q-t graphs: charging curve asymptotically approaches $q_0$; discharging curve exponentially decays from $q_0$ to zero",
+      "Current during charging: $I = I_0 e^{-t/RC}$ (decreases); during discharging: $I = I_0 e^{-t/RC}$ (decreases from initial value)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Charging and Discharging of a Capacitor Through Resistance**\n\n**Charging Process:**\nWhen a capacitor is connected to a DC source through a resistor, charge accumulates exponentially according to $q = q_0(1 - e^{-t/RC})$, where $q_0 = C\\mathcal{E}$ is the maximum charge. The time constant $\\tau = RC$ determines the rate of charging. Initially, current is maximum ($I_0 = \\mathcal{E}/R$), but as charge builds up, the potential difference across the capacitor increases, reducing the current exponentially: $I = I_0 e^{-t/RC}$. After time $t = 5RC$, the capacitor is approximately fully charged (99.3% of $q_0$).\n\n**Discharging Process:**\nWhen a charged capacitor discharges through a resistor, the charge decreases exponentially: $q = q_0 e^{-t/RC}$. The initial discharge current is $I_0 = V_0/R$ (where $V_0$ is initial voltage), and it decays as $I = I_0 e^{-t/RC}$. The capacitor loses approximately 63% of its charge in time $\\tau = RC$.\n\n**Q-t Graphs:**\nThe charging curve shows an asymptotic approach to $q_0$, starting steeply then flattening. The discharging curve is a mirror image, starting at $q_0$ and exponentially decaying toward zero. Both curves demonstrate the characteristic exponential behaviour governed by the RC time constant, with the rate of change proportional to the instantaneous charge remaining.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Demonstrate **charging and discharging** of a capacitor through a resistance. Elaborate your answer with the help of Q-t graphs.",
+    "topicId": "ms7ak2aanmxrkrbsapahn799vx85q3ww",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-6-charging-and-discharging-of-a-capacitor",
+    "topicTitle": "19.6 Charging and Discharging of a Capacitor",
+    "_id": "m17ca0n6pdca5j4tbyxtst4bfh85qjmq",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Charging equation $q = q_0(1 - e^{-t/RC})$ showing exponential growth from zero to maximum charge $q_0 = C\\mathcal{E}$",
+      "Discharging equation $q = q_0 e^{-t/RC}$ showing exponential decay from initial charge to zero",
+      "Time constant $\\tau = RC$ determines rate of both processes; charge reaches 63% of maximum after one $\\tau$ during charging and 37% during discharging",
+      "Correct sketching of charging curve (concave downward, asymptotic to $q_0$) and discharging curve (concave upward, asymptotic to zero)",
+      "Both processes follow exponential behaviour; charging and discharging curves are mirror images reflected about the maximum charge value"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Charging and Discharging of a Capacitor**\n\n**Charging Process:**\nWhen a capacitor is connected to a DC source through a resistor, charge accumulates exponentially according to $q = q_0(1 - e^{-t/RC})$, where $q_0 = C\\mathcal{E}$ is the maximum charge. The charge starts at zero and asymptotically approaches $q_0$. The time constant $\\tau = RC$ determines the rate of charging; after time $\\tau$, the charge reaches approximately 63% of $q_0$. The charging graph is a curve that rises steeply initially then flattens as it approaches the maximum charge asymptotically.\n\n**Discharging Process:**\nWhen a charged capacitor is disconnected from the source and allowed to discharge through a resistor, the charge decays exponentially as $q = q_0 e^{-t/RC}$. The charge starts at maximum value $q_0$ and decreases exponentially toward zero. After one time constant $\\tau = RC$, the charge reduces to approximately 37% of its initial value. The discharging graph shows a steep initial decline that gradually levels off as the charge approaches zero asymptotically.\n\n**Graphical Representation:**\nThe charging curve is concave downward (approaching $q_0$ from below), while the discharging curve is concave upward (approaching zero from above). Both curves are smooth exponential functions. The steepness of both curves depends on the time constant $RC$: smaller $RC$ values produce faster charging/discharging, while larger $RC$ values produce slower processes. Both processes are governed by the same time constant, making $RC$ the characteristic parameter of the circuit.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Describe the process of charging and discharging of a capacitor by sketching the graphs for the growth and decay of charge on the capacitor.",
+    "topicId": "ms7ak2aanmxrkrbsapahn799vx85q3ww",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-6-charging-and-discharging-of-a-capacitor",
+    "topicTitle": "19.6 Charging and Discharging of a Capacitor",
+    "_id": "m17d3sy2wm4nbmaww36gpdtjrd85q1ss",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "During RC circuit charging, at time t = τ (one time constant), the charge stored is q = q₀(1 - e⁻¹) = q₀(1 - 0.368) ≈ 0.632q₀ ≈ 0.63q₀.",
+    "keyPoints": [
+      "Recognizes that at $t = \\tau$, the exponent becomes $-t/RC = -1$",
+      "Correctly substitutes $e^{-1} \\approx 0.368$ into the charging equation",
+      "Calculates that charge stored is $q_0(1 - e^{-1}) \\approx 0.632q_0$ or 63.2% of maximum charge",
+      "Understands that time constant represents the characteristic time scale for charging process"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "At time $t = \\tau = RC$, the charge stored on the capacitor is $q = q_0(1 - e^{-1}) = q_0(1 - 0.368) = 0.632q_0$, which is approximately 63.2% of the maximum charge $q_0$. This means that in one time constant, the capacitor charges to about 63% of its final maximum charge.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0.90 q_{o}$"
+      },
+      {
+        "key": "B",
+        "text": "$0.37 q_{o}$"
+      },
+      {
+        "key": "C",
+        "text": "$0.51 q_{o}$"
+      },
+      {
+        "key": "D",
+        "text": "$0.63 q_{o}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "charging-of-a-capacitor",
+    "sectionLabel": "Charging of a Capacitor",
+    "session": "annual",
+    "stem": "In the time constant of RC circuit, how much charge is stored, out of maximum charge $q_{o}$?",
+    "topicId": "ms7ak2aanmxrkrbsapahn799vx85q3ww",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "19-electric-potential-and-capacitor",
+    "chapterTitle": "Electric Potential And Capacitor",
+    "topicSlug": "19-6-charging-and-discharging-of-a-capacitor",
+    "topicTitle": "19.6 Charging and Discharging of a Capacitor",
+    "_id": "m17asqk9p5hhv9fmy8gzhxm6dx85pk29",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Explains capacitor discharge mechanism through primary coil producing magnetic flux change",
+      "Describes electromagnetic induction in secondary coil generating high voltage for spark plugs",
+      "Mentions exponential discharge behaviour and time constant $\\tau = RC$ for timing control",
+      "Lists practical applications: automotive ignition, camera flash units, electronic timing circuits",
+      "Connects to fuel ignition in engines demonstrating practical application"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A capacitor discharge ignition system works by rapidly discharging a charged capacitor through the primary coil of an ignition transformer. When the capacitor discharges, it produces a sudden change in magnetic flux through the primary coil, inducing a high voltage in the secondary coil via electromagnetic induction. This high voltage is then directed to the spark plugs to ignite the fuel-air mixture in an engine. The discharge follows exponential behaviour governed by the time constant $\\tau = RC$, allowing precise control of ignition timing. Uses include: automotive ignition systems in internal combustion engines, electronic flash units in cameras, and precision timing circuits in electronic devices.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionId": "discharging-of-a-capacitor",
+    "sectionLabel": "Discharging of a Capacitor",
+    "session": "annual",
+    "stem": "How does a capacitor discharge ignition system work? Enlist some of its uses.",
+    "topicId": "ms7ak2aanmxrkrbsapahn799vx85q3ww",
+    "year": 2024
+  }
+]

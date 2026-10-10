@@ -1,0 +1,401 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,exerciseId,exerciseTitle,lastAttempt,locked,modelAnswer,origin,questionKind,questionNumber,sectionId,sectionLabel,stem,topicId,options,correctKey,correctKeyVerified,keyPoints
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m170w33zpd5h90kk9mdbcqf5ax8ctre3","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","The additive inverse of $a+bi$ is $-a-bi$.
+a. $-4+5i \to 4-5i$
+b. $-3-3i \to 3+3i$
+c. $5-5i \to -5+5i$
+d. $4i \to -4i$","exercise","unclassified","1","additive-inverse","Additive Inverse of Complex Numbers","Find the additive inverse of each complex number.
+a. $-4+5 i$
+b. $-3-3 i$
+c. $5-5 i$
+d. $4 i$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m179w8tb3tdzweq1aja4ceve298cvmh8","xd768hy0889ncg3wr5xqprtfxh8dz3ry","Exercise 1.1",,"false","i. $(4-i)+(5+5i)=9+4i$
+ii. $(7-6i)-(5-6i)=2$
+iii. $(-2+8i)-(7+3i)=-9+5i$
+iv. $(4-2i)-(5-2i)=-1$
+v. $(2+4i)(1+2i)=2+4i+4i+8i^2=-6+8i$
+vi. $(1-4i)(2-3i)=2-3i-8i+12i^2=-10-11i$
+vii. $-8i(2-2i)=-16i+16i^2=-16-16i$
+viii. $(3+2i)^2=9+12i+4i^2=5+12i$
+ix. $(3-6i)(3+6i)=9-36i^2=45$
+x. $(-5-3i)^2=25+30i+9i^2=16+30i$
+xi. $(1+\sqrt2\,i)(1-\sqrt3\,i)=1+\sqrt6+(\sqrt2-\sqrt3)i$
+xii. $(\sqrt2+i)(\sqrt2-i)=2-i^2=3$","exercise","unclassified","2","arithmetic-of-complex-numbers","Addition, Subtraction and Multiplication of Complex Numbers","Simplify:
+i. $\quad(4-i)+(5+5 i)$
+ii. $(7-6 i)-(5-6 i)$
+iii. $\quad(-2+8 i)-(7+3 i)$
+iv. $\quad(4-2 i)-(5-2 i)$
+v. $(2+4 i)(1+2 i)$
+vi. $\quad(1-4 i)(2-3 i)$
+vii. $-8 i(2-2 i)$
+viii. $(3+2 i)^{2}$
+ix. $\quad(3-6 i)(3+6 i)$
+x. $(-5-3 i)^{2}$
+xi. $\quad(1+\sqrt{2} i)(1-\sqrt{3} i)$
+xii. $\quad(\sqrt{2}+i)(\sqrt{2}-i)$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17csp7tvkdzf8jamq7jfve1rx8ctmwz","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Two complex numbers are multiplicative inverses of each other exactly when their product is 1.
+a. $(2+3i)\cdot\dfrac{2-3i}{13}=\dfrac{(2)^2-(3i)^2}{13}=\dfrac{4+9}{13}=1$
+b. $(5-4i)\cdot\dfrac{5+4i}{41}=\dfrac{25-(4i)^2}{41}=\dfrac{25+16}{41}=1$
+c. $(6+8i)\cdot\dfrac{3-4i}{50}=\dfrac{18-24i+24i-32i^2}{50}=\dfrac{18+32}{50}=1$
+In each case the product is 1, confirming the pairs are multiplicative inverses.","exercise","unclassified","2","multiplicative-inverse","Multiplicative Inverse of Complex Numbers","Show that each pair of complex numbers are multiplicative inverse of each other.
+a. $2+3 i, \frac{2-3 i}{13}$
+b. $5-4 i, \frac{5+4 i}{41}$
+c. $6+8 i, \frac{3-4 i}{50}$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m1718d6q940h53xknk5ycxyw2x8cv3xa","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","A. $(-2+4i)-(8-5i)=-2+4i-8+5i=-10+9i$
+B. $(-3+4i)+(-7i+4)=-3+4i-7i+4=1-3i$","exercise","unclassified","2","arithmetic-of-complex-numbers","Addition, Subtraction and Multiplication of Complex Numbers","Simplify:","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$(-2+4 i)-(8-5 i)$""},{""key"":""B"",""text"":""$(-3+4 i)+(-7 i+4)$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17e0gjgpb099jjsechz5vam698cv8a4","xd768hy0889ncg3wr5xqprtfxh8dz3ry","Exercise 1.1",,"false","Using $i^4=1$ and the 4-cycle $i,-1,-i,1$:
+i. $i^9=(i^4)^2\cdot i=i$
+ii. $i^{13}=(i^4)^3\cdot i=i$
+iii. $i^{28}=(i^4)^7=1$
+iv. $(-i)^{21}=-i^{21}=-(i^4)^5\cdot i=-i$
+v. $(3i)^3=27i^3=27(-i)=-27i$
+vi. $(-2i)^4=16i^4=16$","exercise","unclassified","3","powers-of-i","Powers of i","Simplify:
+i. $\quad i^{9}$
+ii. $\quad i^{13}$
+iii. $\quad \boldsymbol{i}^{\mathbf{2 8}}$
+iv. $(-i)^{21}$
+v. $(3 i)^{3}$
+vi. $(-2 i)^{4}$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17b0j67w0xhm39x999ezba7qn8cv1dt","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","The multiplicative inverse of $z$ is $\dfrac{1}{z}$, found by multiplying by the conjugate over itself.
+a. $\dfrac{1}{1+i}=\dfrac{1-i}{2}$
+b. $\dfrac{1}{7-3i}=\dfrac{7+3i}{58}$
+c. $\dfrac{1}{10-12i}=\dfrac{10+12i}{244}=\dfrac{5+6i}{122}$
+d. Inverse of $\dfrac{2}{5-i}$ is $\dfrac{5-i}{2}$
+e. Inverse of $\dfrac{-i}{2-3i}$ is $\dfrac{2-3i}{-i}=3+2i$
+f. $\dfrac{1}{a-bi}=\dfrac{a+bi}{a^2+b^2}$","exercise","unclassified","3","multiplicative-inverse","Multiplicative Inverse of Complex Numbers","Find the multiplicative inverse of each complex number.
+a. $1+i$
+b. $7-3 i$
+c. $10-12 i$
+d. $\frac{2}{5-i}$
+e. $\frac{-i}{2-3 i}$
+f. $a-b i$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m176g5rkq9yj4r4ncrtbsghnp58cvt9m","xd768hy0889ncg3wr5xqprtfxh8dz3ry","Exercise 1.1",,"false","Using $i^2=-1, i^4=1$ and the 4-cycle:
+i. $9+i^6=9+(i^4\cdot i^2)=9-1=8+0i$
+ii. $-17+i^5=-17+i$
+iii. $i^4-13i=1-13i$
+iv. $i^5+21i=i+21i=0+22i$
+v. $i^5+i^7=i+(-i)=0+0i$
+vi. $i^{74}-i^{100}=i^2-1=-1-1=-2+0i$","exercise","unclassified","4","powers-of-i","Powers of i","Simplify in the form of $a+b i$.
+i. $\quad 9+i^{6}$
+ii. $-17+i^{5}$
+iii. $\quad i^{4}-13 i$
+iv. $\quad i^{5}+21 i$
+v. $i^{5}+i^{7}$
+vi. $i^{74}-i^{100}$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m178tkk5nh4cnzcpwhp9mgr4g18ctka4","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","$z_1=1-2i$, $z_2=2+i$.
+a.i. $z_1z_2=(1-2i)(2+i)=4-3i$, so $\overline{z_1z_2}=4+3i$. Also $\bar z_1\bar z_2=(1+2i)(2-i)=4+3i$. Equal, as required.
+a.ii. $z_1/z_2=-i$, so $\overline{z_1/z_2}=i$. Also $\bar z_1/\bar z_2=(1+2i)/(2-i)=i$. Equal.
+a.iii. $|z_1|=|-z_1|=|\bar z_1|=|-\bar z_1|=\sqrt{1^2+2^2}=\sqrt5$: all four have the same real/imaginary magnitudes, only signs differ.
+a.iv. $z_2\bar z_2=(2+i)(2-i)=5=|z_2|^2$.
+b.i. $|z_1+z_2|=|3-i|=\sqrt{10}$
+b.ii. $|z_1z_2|=|4-3i|=5$
+b.iii. $|z_1/z_2|=|-i|=1$","exercise","unclassified","5","properties-of-conjugate","Properties of Conjugate of Complex Number","If $z_{1}=1-2 i$ and $z_{2}=2+i$ :
+a. Show that:
+i. $\overline{z_{1} \cdot z_{2}}=\overline{z_{1}} \cdot \overline{z_{2}}$
+ii. $\overline{\left(\frac{z_{1}}{z_{2}}\right)}=\frac{\overline{z_{1}}}{\overline{z_{2}}}$
+iii, $\quad\left|z_{1}\right|=\left|-z_{1}\right|=\left|\overline{z_{1}}\right|=\left|-\overline{z_{1}}\right|$
+iv. $z_{2} \cdot \overline{z_{2}}=\left|z_{2}\right|^{2}$
+b. Find:
+i. $\left|z_{1}+z_{2}\right|$
+ii. $\left|z_{1} z_{2}\right|$
+iii. $\quad\left|\frac{z_{1}}{z_{2}}\right|$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17fe36f1ts4qtn6hz59g4ah058cvk5w","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $z=a+bi$, $z\bar z=a^2+b^2$:
+A. $z=-\tfrac12+i \Rightarrow z\bar z=(-\tfrac12)^2+1^2=\tfrac14+1=\tfrac54$
+B. $z=14-7i \Rightarrow z\bar z=14^2+7^2=196+49=245$","exercise","unclassified","5","properties-of-conjugate","Properties of Conjugate of Complex Number","Find $z . \bar{z}$ :","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$z=\\frac{-1}{2}+i$""},{""key"":""B"",""text"":""$z=14-7 i$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m1773g60kvq0t7jemqa9rpaxw98cvbp5","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Each $a+bi$ is the Argand-plane point $(a,b)$ (x-axis = real part, y-axis = imaginary part):
+a. $-1-3i \to (-1,-3)$, quadrant III
+b. $2+4i \to (2,4)$, quadrant I
+c. $-3+2i \to (-3,2)$, quadrant II
+d. $2-3i \to (2,-3)$, quadrant IV
+e. $2i \to (0,2)$, on the positive imaginary axis
+f. $-3i \to (0,-3)$, on the negative imaginary axis
+g. $2 \to (2,0)$, on the positive real axis","exercise","unclassified","6","graphical-representation","Graphical Representation of Complex Number","Represent the numbers in the complex plane.
+a. $-1-3 i$
+b. $2+4 i$
+c. $-3+2 i$
+d. 2-3i
+e. $2 i$
+f. $-3 i$
+g. 2","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m176v7eygbk7ecmmz2m050y5sd8ctk8h","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Let $z=a+bi$, so $\bar z=a-bi$.
+a. $z\bar z=(a+bi)(a-bi)=a^2+b^2$, a real number.
+b. $z^2+\bar z^2=(a+bi)^2+(a-bi)^2=2(a^2-b^2)$, a real number.
+c. $(z-\bar z)^2=(2bi)^2=-4b^2$, a real number.
+d. $|z|=\sqrt{a^2+b^2}$ and $|\bar z|=\sqrt{a^2+b^2}$: both are real numbers (moduli are always real and non-negative).
+e. $z^2-\bar z^2=(a+bi)^2-(a-bi)^2=4abi$, which has zero real part, so it is a (pure) imaginary number.","exercise","unclassified","8","properties-of-conjugate","Properties of Conjugate of Complex Number","Taking any complex number and show that:
+a. $z . \bar{z}$ is a real number.
+b. $z^{2}+(\bar{z})^{2}$ is a real number.
+c. $(z-\bar{z})^{2}$ is a real number.
+d. $|z|$ and $|\bar{z}|$ are real numbers.
+e. $z^{2}-(\bar{z})^{2}$ is an imaginary number.","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m177mas3yzwvkahxtfk4ejzn7d8cvqk5","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Plot each complex number as the point/vector $(a,b)$ for $a+bi$, then add/subtract by the parallelogram (vector) rule: $z_1+z_2$ is the diagonal of the parallelogram formed by the $z_1$ and $z_2$ vectors, and $z_1-z_2$ is found by adding $z_1$ to the vector $-z_2$.
+(i) $z_1=5+3i=(5,3)$, $z_2=2-3i=(2,-3)$: $z_1+z_2=7+0i=(7,0)$; $z_1-z_2=3+6i=(3,6)$.
+(ii) $z_1=-3+2i=(-3,2)$, $z_2=4+3i=(4,3)$: $z_1+z_2=1+5i=(1,5)$; $z_1-z_2=-7-1i=(-7,-1)$.","exercise","unclassified","9","geometrical-representation-addition-subtraction","Geometrical Representation of Addition and Subtraction","Represent sum and difference of complex numbers graphically.
+(i) $\mathrm{z}_{1}=5+3 i$ and $\mathrm{z}_{2}=2-3 i$
+(ii) $\mathrm{z}_{1}=-3+2 i$ and $\mathrm{z}_{2}=4+3 i$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17btz75acredfn3xh9r9gv8558ct2mw","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Compute the product, then plot the resultant complex number as a point in the complex plane, as the chapter's worked example does for $z_1z_2$:
+(i) $z_1=4+2i$, $z_2=-2+3i$: $z_1z_2=-8+12i-4i+6i^2=-14+8i=(-14,8)$.
+(ii) $z_1=-2+4i$, $z_2=3-i$: $z_1z_2=-6+2i+12i-4i^2=-2+14i=(-2,14)$.","exercise","unclassified","10","geometrical-representation-multiplication-division","Geometrical Representation of Multiplication and Division","Represent product of complex numbers graphically.
+(i) $\mathrm{z}_{1}=4+2 i$ and $\mathrm{z}_{2}=-2+3 i$
+(ii) $\mathrm{z}_{1}=-2+4 i$ and $\mathrm{z}_{2}=3-i$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17cjwt5ja6pbex3bhd1fxbga58cvwdg","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Compute the quotient, then plot it as a point, as the chapter's worked example does for $z_1\div z_2$:
+(i) $z_1=6-4i$, $z_2=3$: $z_1\div z_2=2-\tfrac{4}{3}i=(2,-\tfrac43)$.
+(ii) $z_1=-4-6i$, $z_2=1+i$: $z_1\div z_2=\dfrac{(-4-6i)(1-i)}{2}=\dfrac{-10-2i}{2}=-5-i=(-5,-1)$.","exercise","unclassified","11","geometrical-representation-multiplication-division","Geometrical Representation of Multiplication and Division","Represent $\mathrm{z}_{1} \div \mathrm{z}_{2}$ graphically when:
+(i) $\mathrm{z}_{1}=6-4 i$ and $\mathrm{z}_{2}=3$
+(ii) $\mathrm{z}_{1}=-4-6 i$ and $\mathrm{z}_{2}=1+i$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17b29fcj0w6makepvmnb5mga58ct0hc","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","For $z=a+bi$, $z\bar z=a^2+b^2$ (real):
+a. $4\cdot 4=16$
+b. $(1-i)(1+i)=1+1=2$
+c. $(7i)(-7i)=49$
+d. $(6-2i)(6+2i)=36+4=40$
+e. $(10+9i)(10-9i)=100+81=181$
+f. $(-4-11i)(-4+11i)=16+121=137$","exercise","unclassified","4","properties-of-conjugate","Properties of Conjugate of Complex Number","Find the product of each complex number and its conjugate.
+a. 4
+b. $1-i$
+c. $7 i$
+d. $6-2 i$
+e. $10+9 i$
+f. $-4-11 i$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m179t29tyrkakzeg36zz080a458cv475","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","a. $(\sqrt2-\sqrt3\,i)^2=2-2\sqrt6\,i+3i^2=-1-2\sqrt6\,i$. Real $=-1$, Imaginary $=-2\sqrt6$
+b. $(\sqrt2+i)^2=2+2\sqrt2\,i+i^2=1+2\sqrt2\,i$. Real $=1$, Imaginary $=2\sqrt2$
+c. $\dfrac{(2+3i)^2}{1-3i}=\dfrac{-5+12i}{1-3i}=\dfrac{-41-3i}{10}$. Real $=-\tfrac{41}{10}$, Imaginary $=-\tfrac{3}{10}$
+d. $\left[\tfrac12+\tfrac{\sqrt3}{2}i\right]^2=\tfrac14+\tfrac{\sqrt3}{2}i-\tfrac34=-\tfrac12+\tfrac{\sqrt3}{2}i$. Real $=-\tfrac12$, Imaginary $=\tfrac{\sqrt3}{2}$
+e. $\dfrac{1-i}{i^2}=\dfrac{1-i}{-1}=-1+i$. Real $=-1$, Imaginary $=1$
+f. $\dfrac{1}{i(1-i)^2}=\dfrac{1}{i(-2i)}=\dfrac{1}{2}$. Real $=\tfrac12$, Imaginary $=0$
+g. $\dfrac{(1+i)^2}{(1-2i)^2}=\dfrac{2i}{-3-4i}=\dfrac{-8-6i}{25}$. Real $=-\tfrac{8}{25}$, Imaginary $=-\tfrac{6}{25}$","exercise","unclassified","7","arithmetic-of-complex-numbers","Multiplication and Division of Complex Numbers","Separate into real and imaginary parts of each complex number.
+a. $(\sqrt{2}-\sqrt{3} i)^{2}$
+b. $(\sqrt{2}+\mathrm{i})^{2}$
+c. $\frac{(2+3 i)^{2}}{1-3 i}$
+d. $\left[\frac{1}{2}+\frac{\sqrt{3}}{2} i\right]^{2}$
+e. $\frac{1-i}{(i)^{2}}$.
+f. $\frac{1}{i(1-i)^{2}}$
+g. $\frac{(1+i)^{2}}{(1-2 i)^{2}}$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17dvc16hfa6dnjjbc9fz1x8tn8ct6y0","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","From $x^2=-1$ we get $x=\pm\sqrt{-1}=\pm i$, so $\sqrt{-1}=i$. Answer: (C) $i$.","exercise","mcq","1.i",,,"$\sqrt{-1}$ is equal to:","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""1""},{""key"":""B"",""text"":""-1""},{""key"":""C"",""text"":""$i$""},{""key"":""D"",""text"":""$-i$""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17695pvcr431qjfs5r6faanq58ct0ky","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $x<0$, $\sqrt{x}$ is a pure imaginary number of the form $bi$ ($b \neq 0$), and per the chapter's classification table pure imaginary numbers are a category of complex numbers ($a+bi$, $a=0$, $b\neq0$). Since ""Imaginary"" is not offered as an option, the best fit is (B) Complex.","exercise","mcq","1.ii",,,"If $x<0$, then $\sqrt{x}$ is :","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""Real""},{""key"":""B"",""text"":""Complex""},{""key"":""C"",""text"":""Irrational""},{""key"":""D"",""text"":""Rational""}]","B","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m178txzd6n03csgm3tgj3nrgnh8cv571","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$\sqrt{-25}=\sqrt{-1\times25}=i\sqrt{25}=5i$, and $\sqrt[3]{8}=2$. So $\sqrt{-25}+\sqrt[3]{8}=2+5i$. Answer: (B).","exercise","mcq","1.v",,,"$\sqrt{-25}+\sqrt[3]{8}$ is equal to:","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$.-5+\\sqrt{8}$""},{""key"":""B"",""text"":""$2+5 i$""},{""key"":""C"",""text"":""$-5+2 i$""},{""key"":""D"",""text"":""$2 \\sqrt{2}+5 i$""}]","B","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m170nm0g820my76bkg3n3zp2an8cvxbb","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$i^9=(i^2)^4\cdot i=(-1)^4\cdot i=i$, so $(-i)^9=-i^9=-i$. Then $1+(-i)^9=1-i$. Answer: (C).","exercise","mcq","1.vi",,,"$\quad 1+(-i)^{9}=$ ?","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$1+i$""},{""key"":""B"",""text"":""$1+\\sqrt{-1}$""},{""key"":""C"",""text"":""$1-i$""},{""key"":""D"",""text"":""$-i$""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17fk1qpr296tjgs45f5jqg8dh8ctk5f","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Multiply numerator and denominator by the conjugate $1+i$: $\dfrac{2}{1-i}\times\dfrac{1+i}{1+i}=\dfrac{2(1+i)}{1-i^2}=\dfrac{2(1+i)}{2}=1+i$. Answer: (D).","exercise","mcq","1.vii",,,"$\frac{2}{1-i}=$ ?","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$\\frac{1+i}{2}$""},{""key"":""B"",""text"":""$\\frac{(1+i)^{2}}{2}$""},{""key"":""C"",""text"":""$1-i$""},{""key"":""D"",""text"":""$1+i$""}]","D","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m1795bzs23mwv8khz7ds1rtr258cvkps","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$(-xi)^{19}=(-1)^{19}x^{19}i^{19}=-x^{19}i^{19}$. Since $i^{19}=i^{16}\cdot i^{3}=1\cdot(-i)=-i$, this gives $-x^{19}(-i)=x^{19}i$. Answer: (B).","exercise","mcq","1.viii",,,"$\quad(-x i)^{19}=$ ?","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$-x^{19} i$""},{""key"":""B"",""text"":""$x^{19} i$""},{""key"":""C"",""text"":""$-i^{19}$""},{""key"":""D"",""text"":""$-x^{19}$""}]","B","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17bc7f24sggsvwcks036b2ems8cvzvj","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","A. $3\sqrt2-\sqrt{-7}=3\sqrt2-\sqrt7\,i$; conjugate $=3\sqrt2+\sqrt7\,i$
+B. $\sqrt{-2}=\sqrt2\,i=0+\sqrt2\,i$; conjugate $=-\sqrt2\,i$","exercise","unclassified","4","conjugates-of-complex-numbers","Conjugates of Complex Numbers","Write in the form of $a+b i$, then find its conjugate:","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$3 \\sqrt{2}-\\sqrt{-7}$""},{""key"":""B"",""text"":""$\\sqrt{-2}$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17b5nqwgetm5hq9crywkjzmmn8cv23t","xd768hy0889ncg3wr5xqprtfxh8dz3ry","Exercise 1.1",,"false","Multiply numerator and denominator by the conjugate of the denominator each time:
+i. $\dfrac{3}{4-i}=\dfrac{12+3i}{17}$
+ii. $\dfrac{3i}{6+5i}=\dfrac{15+18i}{61}$
+iii. $\dfrac{3-i\sqrt5}{3+i\sqrt5}=\dfrac{4-6\sqrt5\,i}{14}=\dfrac{2-3\sqrt5\,i}{7}$
+iv. $\dfrac{2+7i}{5i}=\dfrac{7-2i}{5}$
+v. $\dfrac{4+5i}{4-5i}=\dfrac{-9+40i}{41}$
+vi. $\dfrac{3+2i}{2+i}=\dfrac{8+i}{5}$
+vii. $\dfrac{5+i}{1+2i}=\dfrac{7-9i}{5}$
+viii. $\dfrac{a+ib}{a-ib}=\dfrac{a^2-b^2+2abi}{a^2+b^2}$
+ix. $\dfrac{1+i}{(1-i)^2}=\dfrac{1+i}{-2i}=\dfrac{-1+i}{2}$
+x. $\dfrac{(2+2i)^2}{(1+i)^2}=\dfrac{4(1+i)^2}{(1+i)^2}=4$","exercise","unclassified","5","division-of-complex-numbers","Division of Complex Numbers","Divide and simplify in the form of $a+b i$.
+i. $\frac{3}{4-i}$
+ii. $\quad \frac{3 i}{6+5 i}$
+iii. $\quad \frac{3-i \sqrt{5}}{3+i \sqrt{5}}$
+iv. $\frac{2+7 i}{5 i}$
+v. $\frac{4+5 i}{4-5 i}$
+vi. $\frac{3+2 i}{2+i}$
+vii. $\frac{5+i}{1+2 i}$
+viii. $\frac{a+i b}{a-i b}$
+ix. $\frac{1+i}{(1-i)^{2}}$
+x. $\frac{(2+2 i)^{2}}{(1+i)^{2}}$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17d6ajre80jyykm315rbwywtn8ctz4x","xd768hy0889ncg3wr5xqprtfxh8dz3ry","Exercise 1.1",,"false","Using $\sqrt{-n}=i\sqrt{n}$ for $n>0$:
+i. $\sqrt{-3}=\sqrt{3}\,i$
+ii. $6\sqrt{-4}=6(2i)=12i$
+iii. $\sqrt{-\tfrac{4}{9}}=\tfrac{2}{3}i$
+iv. $-\sqrt{-20}=-(2\sqrt{5}\,i)=-2\sqrt{5}\,i$
+v. $4-\sqrt{-60}=4-2\sqrt{15}\,i$
+vi. $\sqrt{-8}\sqrt{-2}=(2\sqrt2\,i)(\sqrt2\,i)=2\cdot2\cdot i^2=-4$ (note: $\sqrt{-8}\sqrt{-2}\neq\sqrt{16}$; each root must be converted to $i\sqrt{\cdot}$ form before multiplying).","exercise","unclassified","1","imaginary-and-complex-numbers","Imaginary and Complex Numbers","Simplify and express in terms of iy .
+i. $\sqrt{-3}$
+ii. $\quad 6 \sqrt{-4}$
+iii. $\sqrt{-\frac{4}{9}}$
+iv. $-\sqrt{-20}$
+v. $4-\sqrt{-60}$
+vi. $\sqrt{-8} \sqrt{-2}$","ms7dewbqrakj2609wt8h6a9x858bv71z",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-1-imaginary-and-complex-numbers","1.1 Imaginary and Complex Numbers","m17d2ts9j32hjc1mqhttq9d0rs8ctaf1","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","A. $(x+iy)(2+3i)=2x+3xi+2yi+3yi^2=(2x-3y)+(3x+2y)i$
+B. $(-3+6i)(-6+3i)=18-9i-36i+18i^2=18-45i-18=-45i$","exercise","unclassified","3","multiplication-of-complex-numbers","Multiplication of Complex Numbers","Find the product:","ms7dewbqrakj2609wt8h6a9x858bv71z","[{""key"":""A"",""text"":""$\\quad(x+i y)(2+3 i)$""},{""key"":""B"",""text"":""$(-3+6 i)(-6+3 i)$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m175wg1kw3kb8vsmyqh7zf8xk18cvg8g","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","The conjugate of a complex number is obtained by changing the sign of its imaginary part. For $\sqrt{x}-i\sqrt{y}$, changing the sign of the imaginary part gives $\sqrt{x}+i\sqrt{y}$. Answer: (D).","exercise","mcq","1.iii",,,"Conjugate of $\sqrt{x}-i \sqrt{y}$ is:","ms7645rstf8bs75bgn95r597s58btwd2","[{""key"":""A"",""text"":""$\\sqrt{x}+i \\sqrt{y}$""},{""key"":""B"",""text"":""$x-i y$""},{""key"":""C"",""text"":""$x-y$""},{""key"":""D"",""text"":""$x+i y$""}]","D","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m17bbss7v81rwk0rhdnm8j8dgs8cvcr6","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $z=x+iy$, $z\bar z=(x+iy)(x-iy)=x^2+y^2$, which is always $\ge 0$ (real and non-negative). Answer: (C) Non-negative number.","exercise","mcq","1.iv",,,"If $z=x+i y$, then $z \bar{z}$ is:","ms7645rstf8bs75bgn95r597s58btwd2","[{""key"":""A"",""text"":""Imaginary""},{""key"":""B"",""text"":""Complex""},{""key"":""C"",""text"":""Non-negative number""},{""key"":""D"",""text"":""Negative number""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m17a665s9wkf3zbxsck5gqptm18cv04e","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $z=3+4i$, $|z|=\sqrt{3^2+4^2}=\sqrt{25}=5$, so $|z|^2=25$. Answer: (C) 25.","exercise","mcq","1.ix",,,"If $z=3+4 i$, then $|z|^{2}$ is:","ms7645rstf8bs75bgn95r597s58btwd2","[{""key"":""A"",""text"":""5""},{""key"":""B"",""text"":""$\\sqrt{5}$""},{""key"":""C"",""text"":""$\\mathbf{2 5}$""},{""key"":""D"",""text"":""16""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m179t29tyrkakzeg36zz080a458cv475","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","a. $(\sqrt2-\sqrt3\,i)^2=2-2\sqrt6\,i+3i^2=-1-2\sqrt6\,i$. Real $=-1$, Imaginary $=-2\sqrt6$
+b. $(\sqrt2+i)^2=2+2\sqrt2\,i+i^2=1+2\sqrt2\,i$. Real $=1$, Imaginary $=2\sqrt2$
+c. $\dfrac{(2+3i)^2}{1-3i}=\dfrac{-5+12i}{1-3i}=\dfrac{-41-3i}{10}$. Real $=-\tfrac{41}{10}$, Imaginary $=-\tfrac{3}{10}$
+d. $\left[\tfrac12+\tfrac{\sqrt3}{2}i\right]^2=\tfrac14+\tfrac{\sqrt3}{2}i-\tfrac34=-\tfrac12+\tfrac{\sqrt3}{2}i$. Real $=-\tfrac12$, Imaginary $=\tfrac{\sqrt3}{2}$
+e. $\dfrac{1-i}{i^2}=\dfrac{1-i}{-1}=-1+i$. Real $=-1$, Imaginary $=1$
+f. $\dfrac{1}{i(1-i)^2}=\dfrac{1}{i(-2i)}=\dfrac{1}{2}$. Real $=\tfrac12$, Imaginary $=0$
+g. $\dfrac{(1+i)^2}{(1-2i)^2}=\dfrac{2i}{-3-4i}=\dfrac{-8-6i}{25}$. Real $=-\tfrac{8}{25}$, Imaginary $=-\tfrac{6}{25}$","exercise","unclassified","7","arithmetic-of-complex-numbers","Multiplication and Division of Complex Numbers","Separate into real and imaginary parts of each complex number.
+a. $(\sqrt{2}-\sqrt{3} i)^{2}$
+b. $(\sqrt{2}+\mathrm{i})^{2}$
+c. $\frac{(2+3 i)^{2}}{1-3 i}$
+d. $\left[\frac{1}{2}+\frac{\sqrt{3}}{2} i\right]^{2}$
+e. $\frac{1-i}{(i)^{2}}$.
+f. $\frac{1}{i(1-i)^{2}}$
+g. $\frac{(1+i)^{2}}{(1-2 i)^{2}}$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m177mas3yzwvkahxtfk4ejzn7d8cvqk5","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Plot each complex number as the point/vector $(a,b)$ for $a+bi$, then add/subtract by the parallelogram (vector) rule: $z_1+z_2$ is the diagonal of the parallelogram formed by the $z_1$ and $z_2$ vectors, and $z_1-z_2$ is found by adding $z_1$ to the vector $-z_2$.
+(i) $z_1=5+3i=(5,3)$, $z_2=2-3i=(2,-3)$: $z_1+z_2=7+0i=(7,0)$; $z_1-z_2=3+6i=(3,6)$.
+(ii) $z_1=-3+2i=(-3,2)$, $z_2=4+3i=(4,3)$: $z_1+z_2=1+5i=(1,5)$; $z_1-z_2=-7-1i=(-7,-1)$.","exercise","unclassified","9","geometrical-representation-addition-subtraction","Geometrical Representation of Addition and Subtraction","Represent sum and difference of complex numbers graphically.
+(i) $\mathrm{z}_{1}=5+3 i$ and $\mathrm{z}_{2}=2-3 i$
+(ii) $\mathrm{z}_{1}=-3+2 i$ and $\mathrm{z}_{2}=4+3 i$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m17btz75acredfn3xh9r9gv8558ct2mw","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Compute the product, then plot the resultant complex number as a point in the complex plane, as the chapter's worked example does for $z_1z_2$:
+(i) $z_1=4+2i$, $z_2=-2+3i$: $z_1z_2=-8+12i-4i+6i^2=-14+8i=(-14,8)$.
+(ii) $z_1=-2+4i$, $z_2=3-i$: $z_1z_2=-6+2i+12i-4i^2=-2+14i=(-2,14)$.","exercise","unclassified","10","geometrical-representation-multiplication-division","Geometrical Representation of Multiplication and Division","Represent product of complex numbers graphically.
+(i) $\mathrm{z}_{1}=4+2 i$ and $\mathrm{z}_{2}=-2+3 i$
+(ii) $\mathrm{z}_{1}=-2+4 i$ and $\mathrm{z}_{2}=3-i$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m17cjwt5ja6pbex3bhd1fxbga58cvwdg","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Compute the quotient, then plot it as a point, as the chapter's worked example does for $z_1\div z_2$:
+(i) $z_1=6-4i$, $z_2=3$: $z_1\div z_2=2-\tfrac{4}{3}i=(2,-\tfrac43)$.
+(ii) $z_1=-4-6i$, $z_2=1+i$: $z_1\div z_2=\dfrac{(-4-6i)(1-i)}{2}=\dfrac{-10-2i}{2}=-5-i=(-5,-1)$.","exercise","unclassified","11","geometrical-representation-multiplication-division","Geometrical Representation of Multiplication and Division","Represent $\mathrm{z}_{1} \div \mathrm{z}_{2}$ graphically when:
+(i) $\mathrm{z}_{1}=6-4 i$ and $\mathrm{z}_{2}=3$
+(ii) $\mathrm{z}_{1}=-4-6 i$ and $\mathrm{z}_{2}=1+i$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m170w33zpd5h90kk9mdbcqf5ax8ctre3","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","The additive inverse of $a+bi$ is $-a-bi$.
+a. $-4+5i \to 4-5i$
+b. $-3-3i \to 3+3i$
+c. $5-5i \to -5+5i$
+d. $4i \to -4i$","exercise","unclassified","1","additive-inverse-of-complex-numbers","Additive Inverse of Complex Numbers","Find the additive inverse of each complex number.
+a. $-4+5 i$
+b. $-3-3 i$
+c. $5-5 i$
+d. $4 i$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m1773g60kvq0t7jemqa9rpaxw98cvbp5","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Each $a+bi$ is the Argand-plane point $(a,b)$ (x-axis = real part, y-axis = imaginary part):
+a. $-1-3i \to (-1,-3)$, quadrant III
+b. $2+4i \to (2,4)$, quadrant I
+c. $-3+2i \to (-3,2)$, quadrant II
+d. $2-3i \to (2,-3)$, quadrant IV
+e. $2i \to (0,2)$, on the positive imaginary axis
+f. $-3i \to (0,-3)$, on the negative imaginary axis
+g. $2 \to (2,0)$, on the positive real axis","exercise","unclassified","6","graphical-representation-of-complex-number","Graphical Representation of Complex Number","Represent the numbers in the complex plane.
+a. $-1-3 i$
+b. $2+4 i$
+c. $-3+2 i$
+d. 2-3i
+e. $2 i$
+f. $-3 i$
+g. 2","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m17csp7tvkdzf8jamq7jfve1rx8ctmwz","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Two complex numbers are multiplicative inverses of each other exactly when their product is 1.
+a. $(2+3i)\cdot\dfrac{2-3i}{13}=\dfrac{(2)^2-(3i)^2}{13}=\dfrac{4+9}{13}=1$
+b. $(5-4i)\cdot\dfrac{5+4i}{41}=\dfrac{25-(4i)^2}{41}=\dfrac{25+16}{41}=1$
+c. $(6+8i)\cdot\dfrac{3-4i}{50}=\dfrac{18-24i+24i-32i^2}{50}=\dfrac{18+32}{50}=1$
+In each case the product is 1, confirming the pairs are multiplicative inverses.","exercise","unclassified","2","multiplicative-inverse-of-complex-numbers","Multiplicative Inverse of Complex Numbers","Show that each pair of complex numbers are multiplicative inverse of each other.
+a. $2+3 i, \frac{2-3 i}{13}$
+b. $5-4 i, \frac{5+4 i}{41}$
+c. $6+8 i, \frac{3-4 i}{50}$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m17b0j67w0xhm39x999ezba7qn8cv1dt","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","The multiplicative inverse of $z$ is $\dfrac{1}{z}$, found by multiplying by the conjugate over itself.
+a. $\dfrac{1}{1+i}=\dfrac{1-i}{2}$
+b. $\dfrac{1}{7-3i}=\dfrac{7+3i}{58}$
+c. $\dfrac{1}{10-12i}=\dfrac{10+12i}{244}=\dfrac{5+6i}{122}$
+d. Inverse of $\dfrac{2}{5-i}$ is $\dfrac{5-i}{2}$
+e. Inverse of $\dfrac{-i}{2-3i}$ is $\dfrac{2-3i}{-i}=3+2i$
+f. $\dfrac{1}{a-bi}=\dfrac{a+bi}{a^2+b^2}$","exercise","unclassified","3","multiplicative-inverse-of-complex-numbers","Multiplicative Inverse of Complex Numbers","Find the multiplicative inverse of each complex number.
+a. $1+i$
+b. $7-3 i$
+c. $10-12 i$
+d. $\frac{2}{5-i}$
+e. $\frac{-i}{2-3 i}$
+f. $a-b i$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m17b29fcj0w6makepvmnb5mga58ct0hc","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","For $z=a+bi$, $z\bar z=a^2+b^2$ (real):
+a. $4\cdot 4=16$
+b. $(1-i)(1+i)=1+1=2$
+c. $(7i)(-7i)=49$
+d. $(6-2i)(6+2i)=36+4=40$
+e. $(10+9i)(10-9i)=100+81=181$
+f. $(-4-11i)(-4+11i)=16+121=137$","exercise","unclassified","4","properties-of-conjugate-of-complex-number","Properties of Conjugate of Complex Number","Find the product of each complex number and its conjugate.
+a. 4
+b. $1-i$
+c. $7 i$
+d. $6-2 i$
+e. $10+9 i$
+f. $-4-11 i$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m178tkk5nh4cnzcpwhp9mgr4g18ctka4","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","$z_1=1-2i$, $z_2=2+i$.
+a.i. $z_1z_2=(1-2i)(2+i)=4-3i$, so $\overline{z_1z_2}=4+3i$. Also $\bar z_1\bar z_2=(1+2i)(2-i)=4+3i$. Equal, as required.
+a.ii. $z_1/z_2=-i$, so $\overline{z_1/z_2}=i$. Also $\bar z_1/\bar z_2=(1+2i)/(2-i)=i$. Equal.
+a.iii. $|z_1|=|-z_1|=|\bar z_1|=|-\bar z_1|=\sqrt{1^2+2^2}=\sqrt5$: all four have the same real/imaginary magnitudes, only signs differ.
+a.iv. $z_2\bar z_2=(2+i)(2-i)=5=|z_2|^2$.
+b.i. $|z_1+z_2|=|3-i|=\sqrt{10}$
+b.ii. $|z_1z_2|=|4-3i|=5$
+b.iii. $|z_1/z_2|=|-i|=1$","exercise","unclassified","5","properties-of-conjugate-of-complex-number","Properties of Conjugate of Complex Number","If $z_{1}=1-2 i$ and $z_{2}=2+i$ :
+a. Show that:
+i. $\overline{z_{1} \cdot z_{2}}=\overline{z_{1}} \cdot \overline{z_{2}}$
+ii. $\overline{\left(\frac{z_{1}}{z_{2}}\right)}=\frac{\overline{z_{1}}}{\overline{z_{2}}}$
+iii, $\quad\left|z_{1}\right|=\left|-z_{1}\right|=\left|\overline{z_{1}}\right|=\left|-\overline{z_{1}}\right|$
+iv. $z_{2} \cdot \overline{z_{2}}=\left|z_{2}\right|^{2}$
+b. Find:
+i. $\left|z_{1}+z_{2}\right|$
+ii. $\left|z_{1} z_{2}\right|$
+iii. $\quad\left|\frac{z_{1}}{z_{2}}\right|$","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-2-developing-skilled-knowledge","1.2 Developing skilled knowledge","m176v7eygbk7ecmmz2m050y5sd8ctk8h","xd7582jhzbg25560ezf700fzxh8dy66p","Exercise 1.2",,"false","Let $z=a+bi$, so $\bar z=a-bi$.
+a. $z\bar z=(a+bi)(a-bi)=a^2+b^2$, a real number.
+b. $z^2+\bar z^2=(a+bi)^2+(a-bi)^2=2(a^2-b^2)$, a real number.
+c. $(z-\bar z)^2=(2bi)^2=-4b^2$, a real number.
+d. $|z|=\sqrt{a^2+b^2}$ and $|\bar z|=\sqrt{a^2+b^2}$: both are real numbers (moduli are always real and non-negative).
+e. $z^2-\bar z^2=(a+bi)^2-(a-bi)^2=4abi$, which has zero real part, so it is a (pure) imaginary number.","exercise","unclassified","8","properties-of-conjugate-of-complex-number","Properties of Conjugate of Complex Number","Taking any complex number and show that:
+a. $z . \bar{z}$ is a real number.
+b. $z^{2}+(\bar{z})^{2}$ is a real number.
+c. $(z-\bar{z})^{2}$ is a real number.
+d. $|z|$ and $|\bar{z}|$ are real numbers.
+e. $z^{2}-(\bar{z})^{2}$ is an imaginary number.","ms7645rstf8bs75bgn95r597s58btwd2",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m170ayvggyvqtr9spqxe1f8rrs8ctyht","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Put $x = 1 - i$ in $x^{2} + 2x + 2$. First compute $(1 - i)^{2} = 1 - 2i + i^{2} = 1 - 2i - 1 = -2i$. Then $2x = 2(1 - i) = 2 - 2i$. So $x^{2} + 2x + 2 = (-2i) + (2 - 2i) + 2 = 4 - 4i$. This is not zero, so $1 - i$ is not a solution. In fact the solutions are $-1 + i$ and $-1 - i$, since $(x+1)^{2} = -1$ gives $x = -1 \pm i$. Hence the given value does not satisfy the equation.","exercise","unclassified","6",,,"$1-i, x^{2}+2 x+2=0$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,"[""Substitute $1 - i$ and expand $(1 - i)^{2}$ as $-2i$"",""Sum gives $4 - 4i$ not zero, so not a root"",""True roots are $-1 \\pm i$""]"
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m172bmkx5rkwkywevcaxgbshbh8cvah6","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$x^2+4=0 \Rightarrow x^2=-4 \Rightarrow x=\pm\sqrt{-4}=\pm\sqrt{-1\times4}=\pm2i$, following the same method as the chapter's worked example for $x^2+5=0$. Answer: (D) $\pm 2i$.","exercise","mcq","1.x",,,"The solution of $x^{2}+4=0$ is:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$\\quad 2 i$""},{""key"":""B"",""text"":""$-2 i$""},{""key"":""C"",""text"":""$\\pm 2$""},{""key"":""D"",""text"":""$\\pm 2 i$""}]","D","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17dvc16hfa6dnjjbc9fz1x8tn8ct6y0","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","From $x^2=-1$ we get $x=\pm\sqrt{-1}=\pm i$, so $\sqrt{-1}=i$. Answer: (C) $i$.","exercise","mcq","1.i",,,"$\sqrt{-1}$ is equal to:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""1""},{""key"":""B"",""text"":""-1""},{""key"":""C"",""text"":""$i$""},{""key"":""D"",""text"":""$-i$""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17695pvcr431qjfs5r6faanq58ct0ky","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $x<0$, $\sqrt{x}$ is a pure imaginary number of the form $bi$ ($b \neq 0$), and per the chapter's classification table pure imaginary numbers are a category of complex numbers ($a+bi$, $a=0$, $b\neq0$). Since ""Imaginary"" is not offered as an option, the best fit is (B) Complex.","exercise","mcq","1.ii",,,"If $x<0$, then $\sqrt{x}$ is :","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""Real""},{""key"":""B"",""text"":""Complex""},{""key"":""C"",""text"":""Irrational""},{""key"":""D"",""text"":""Rational""}]","B","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m175wg1kw3kb8vsmyqh7zf8xk18cvg8g","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","The conjugate of a complex number is obtained by changing the sign of its imaginary part. For $\sqrt{x}-i\sqrt{y}$, changing the sign of the imaginary part gives $\sqrt{x}+i\sqrt{y}$. Answer: (D).","exercise","mcq","1.iii",,,"Conjugate of $\sqrt{x}-i \sqrt{y}$ is:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$\\sqrt{x}+i \\sqrt{y}$""},{""key"":""B"",""text"":""$x-i y$""},{""key"":""C"",""text"":""$x-y$""},{""key"":""D"",""text"":""$x+i y$""}]","D","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17bbss7v81rwk0rhdnm8j8dgs8cvcr6","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $z=x+iy$, $z\bar z=(x+iy)(x-iy)=x^2+y^2$, which is always $\ge 0$ (real and non-negative). Answer: (C) Non-negative number.","exercise","mcq","1.iv",,,"If $z=x+i y$, then $z \bar{z}$ is:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""Imaginary""},{""key"":""B"",""text"":""Complex""},{""key"":""C"",""text"":""Non-negative number""},{""key"":""D"",""text"":""Negative number""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m178txzd6n03csgm3tgj3nrgnh8cv571","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$\sqrt{-25}=\sqrt{-1\times25}=i\sqrt{25}=5i$, and $\sqrt[3]{8}=2$. So $\sqrt{-25}+\sqrt[3]{8}=2+5i$. Answer: (B).","exercise","mcq","1.v",,,"$\sqrt{-25}+\sqrt[3]{8}$ is equal to:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$.-5+\\sqrt{8}$""},{""key"":""B"",""text"":""$2+5 i$""},{""key"":""C"",""text"":""$-5+2 i$""},{""key"":""D"",""text"":""$2 \\sqrt{2}+5 i$""}]","B","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m170nm0g820my76bkg3n3zp2an8cvxbb","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$i^9=(i^2)^4\cdot i=(-1)^4\cdot i=i$, so $(-i)^9=-i^9=-i$. Then $1+(-i)^9=1-i$. Answer: (C).","exercise","mcq","1.vi",,,"$\quad 1+(-i)^{9}=$ ?","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$1+i$""},{""key"":""B"",""text"":""$1+\\sqrt{-1}$""},{""key"":""C"",""text"":""$1-i$""},{""key"":""D"",""text"":""$-i$""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17fk1qpr296tjgs45f5jqg8dh8ctk5f","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Multiply numerator and denominator by the conjugate $1+i$: $\dfrac{2}{1-i}\times\dfrac{1+i}{1+i}=\dfrac{2(1+i)}{1-i^2}=\dfrac{2(1+i)}{2}=1+i$. Answer: (D).","exercise","mcq","1.vii",,,"$\frac{2}{1-i}=$ ?","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$\\frac{1+i}{2}$""},{""key"":""B"",""text"":""$\\frac{(1+i)^{2}}{2}$""},{""key"":""C"",""text"":""$1-i$""},{""key"":""D"",""text"":""$1+i$""}]","D","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m1795bzs23mwv8khz7ds1rtr258cvkps","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$(-xi)^{19}=(-1)^{19}x^{19}i^{19}=-x^{19}i^{19}$. Since $i^{19}=i^{16}\cdot i^{3}=1\cdot(-i)=-i$, this gives $-x^{19}(-i)=x^{19}i$. Answer: (B).","exercise","mcq","1.viii",,,"$\quad(-x i)^{19}=$ ?","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$-x^{19} i$""},{""key"":""B"",""text"":""$x^{19} i$""},{""key"":""C"",""text"":""$-i^{19}$""},{""key"":""D"",""text"":""$-x^{19}$""}]","B","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17a665s9wkf3zbxsck5gqptm18cv04e","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $z=3+4i$, $|z|=\sqrt{3^2+4^2}=\sqrt{25}=5$, so $|z|^2=25$. Answer: (C) 25.","exercise","mcq","1.ix",,,"If $z=3+4 i$, then $|z|^{2}$ is:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""5""},{""key"":""B"",""text"":""$\\sqrt{5}$""},{""key"":""C"",""text"":""$\\mathbf{2 5}$""},{""key"":""D"",""text"":""16""}]","C","true",
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m1718d6q940h53xknk5ycxyw2x8cv3xa","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","A. $(-2+4i)-(8-5i)=-2+4i-8+5i=-10+9i$
+B. $(-3+4i)+(-7i+4)=-3+4i-7i+4=1-3i$","exercise","unclassified","2","arithmetic-of-complex-numbers","Addition, Subtraction and Multiplication of Complex Numbers","Simplify:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$(-2+4 i)-(8-5 i)$""},{""key"":""B"",""text"":""$(-3+4 i)+(-7 i+4)$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17d2ts9j32hjc1mqhttq9d0rs8ctaf1","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","A. $(x+iy)(2+3i)=2x+3xi+2yi+3yi^2=(2x-3y)+(3x+2y)i$
+B. $(-3+6i)(-6+3i)=18-9i-36i+18i^2=18-45i-18=-45i$","exercise","unclassified","3","multiplication-of-complex-numbers","Multiplication of Complex Numbers","Find the product:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$\\quad(x+i y)(2+3 i)$""},{""key"":""B"",""text"":""$(-3+6 i)(-6+3 i)$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17bc7f24sggsvwcks036b2ems8cvzvj","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","A. $3\sqrt2-\sqrt{-7}=3\sqrt2-\sqrt7\,i$; conjugate $=3\sqrt2+\sqrt7\,i$
+B. $\sqrt{-2}=\sqrt2\,i=0+\sqrt2\,i$; conjugate $=-\sqrt2\,i$","exercise","unclassified","4","conjugates-of-complex-numbers","Conjugates of Complex Numbers","Write in the form of $a+b i$, then find its conjugate:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$3 \\sqrt{2}-\\sqrt{-7}$""},{""key"":""B"",""text"":""$\\sqrt{-2}$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17fe36f1ts4qtn6hz59g4ah058cvk5w","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","For $z=a+bi$, $z\bar z=a^2+b^2$:
+A. $z=-\tfrac12+i \Rightarrow z\bar z=(-\tfrac12)^2+1^2=\tfrac14+1=\tfrac54$
+B. $z=14-7i \Rightarrow z\bar z=14^2+7^2=196+49=245$","exercise","unclassified","5","properties-of-conjugate","Properties of Conjugate of Complex Number","Find $z . \bar{z}$ :","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$z=\\frac{-1}{2}+i$""},{""key"":""B"",""text"":""$z=14-7 i$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m172rae4gct7vzh0mazm8y86fd8ct583","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false",,"exercise","unclassified","6",,,"Simplify:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$\\frac{-3-i}{-3+i}$""},{""key"":""B"",""text"":""$\\frac{1+3 i}{i \\sqrt{5}}$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17cfkeys5banzbkp0df3xqn3d8ctxxs","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$x^2+7=0 \Rightarrow x^2=-7 \Rightarrow x=\pm\sqrt{-7}=\pm\sqrt{-1\times7}=\pm\sqrt{7}\,i$, by the same method as the chapter's worked example for $x^2+5=0$.","exercise","unclassified","1","applications-of-complex-numbers","Applications of Complex Numbers","$x^{2}+7=0$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m178c7bszqr649hhbqxc0at9wh8ctf7n","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$x^2+9=0 \Rightarrow x^2=-9 \Rightarrow x=\pm\sqrt{-9}=\pm\sqrt{-1\times9}=\pm3i$, by the same method as the chapter's worked example for $x^2+5=0$.","exercise","unclassified","2","applications-of-complex-numbers","Applications of Complex Numbers","$x^{2}+9=0$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17emamzg806648atwevgff5t58ctqcd","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$x^2+100=0 \Rightarrow x^2=-100 \Rightarrow x=\pm\sqrt{-100}=\pm\sqrt{-1\times100}=\pm10i$, by the same method as the chapter's worked example for $x^2+5=0$.","exercise","unclassified","3","applications-of-complex-numbers","Applications of Complex Numbers","$x^{2}+100=0$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17dmrw111dn7aamxf2y84jpq18ctc0e","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Verify $x=1+2i$ is a root of $x^2-2x+5=0$:
+$x^2=(1+2i)^2=1+4i+4i^2=1+4i-4=-3+4i$
+$-2x=-2-4i$
+$x^2-2x+5=(-3+4i)+(-2-4i)+5=(-3-2+5)+(4-4)i=0+0i=0$.
+Since the equation holds, $x=1+2i$ is indeed a root.","exercise","unclassified","4","applications-of-complex-numbers","Applications of Complex Numbers","$1+2 i, x^{2}-2 x+5=0$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17bpx4r2ny208ywmtfbqx7j118ctvwa","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Verify $x=1-2i$ is a root of $x^2-2x+5=0$:
+$x^2=(1-2i)^2=1-4i+4i^2=-3-4i$
+$-2x=-2+4i$
+$x^2-2x+5=(-3-4i)+(-2+4i)+5=0+0i=0$.
+Since the equation holds, $x=1-2i$ is indeed a root.","exercise","unclassified","5","applications-of-complex-numbers","Applications of Complex Numbers","$1-2 i, x^{2}-2 x+5=0$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m170qztwdxhjhts13e0m7j7k3n8ctbpp","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Verify $x=i$ is a root of $x^2+1=0$: $x^2+1=i^2+1=-1+1=0$. Since the equation holds, $x=i$ is indeed a root.","exercise","unclassified","7","applications-of-complex-numbers","Applications of Complex Numbers","$i, x^{2}+1=0$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m177khr6b2tz1zmkrcsf30he2x8cv336","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Using $a^2+b^2=a^2-(bi)^2=(a-bi)(a+bi)$:
+A. $2x^2+18=2(x^2+9)=2(x-3i)(x+3i)$
+B. $-x^2-25y^4=-(x^2+25y^4)=-(x-5y^2i)(x+5y^2i)$","exercise","unclassified","7","applications-of-complex-numbers","Applications of Complex Numbers","Factorize:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$2 x^{2}+18$""},{""key"":""B"",""text"":""$-x^{2}-25 y^{4}$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17a8s4e05trdb4cra4zfb0w918ct9z7","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$x^2+16=x^2-16i^2=x^2-(4i)^2=(x-4i)(x+4i)$.","exercise","unclassified","8","applications-of-complex-numbers","Applications of Complex Numbers","$x^{2}+16$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17f5f5kf8869przrs2rt216sn8cvssm","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","A. $3x^2+15=0 \Rightarrow x^2=-5 \Rightarrow x=\pm\sqrt5\,i$
+B. $6y^2+36=0 \Rightarrow y^2=-6 \Rightarrow y=\pm\sqrt6\,i$","exercise","unclassified","8","applications-of-complex-numbers","Applications of Complex Numbers","Solve:","ms70z9kbkbma6k4erzcvngd08x8bt8g1","[{""key"":""A"",""text"":""$3 x^{2}+15=0$""},{""key"":""B"",""text"":""$6 y^{2}+36=0$""}]",,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17agew09m37gzgkqzpc5zjc918cvjdp","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$a^2+b^2=a^2-(bi)^2=(a-bi)(a+bi)$.","exercise","unclassified","9","applications-of-complex-numbers","Applications of Complex Numbers","$a^{2}+b^{2}$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m174fe74jxg2v8831bf9zkczax8ct058","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","$x^2+25y^2=x^2-(5yi)^2=(x-5yi)(x+5yi)$.","exercise","unclassified","10","applications-of-complex-numbers","Applications of Complex Numbers","$x^{2}+25 y^{2}$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m171f54mp223vdef9wtk9h5gnh8ct5z2","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Using $E=IZ$, so $I=E/Z$ and $Z=E/I$, following the chapter's worked circuit example:
+a.i. $I=\dfrac{70+220J}{16+8J}=\dfrac{(70+220J)(16-8J)}{320}=\dfrac{2880+2960J}{320}=9+9.25J$
+a.ii. $I=\dfrac{85+110J}{3-4J}=\dfrac{(85+110J)(3+4J)}{25}=\dfrac{-185+670J}{25}=-7.4+26.8J$
+b.i. $Z=\dfrac{-50+100J}{-6-2J}=\dfrac{(-50+100J)(-6+2J)}{40}=\dfrac{100-700J}{40}=2.5-17.5J$
+b.ii. $Z=\dfrac{100+10J}{-8+3J}=\dfrac{(100+10J)(-8-3J)}{73}=\dfrac{-770-380J}{73}\approx-10.55-5.21J$
+c. For $z=\dfrac{1-i}{10}$: $z^2=\dfrac{(1-i)^2}{100}=\dfrac{-2i}{100}=-\dfrac{i}{50}$, so $z-z^2=\dfrac{1-i}{10}+\dfrac{i}{50}=\dfrac{5-4i}{50}$. Thus $\dfrac{1}{z-z^2}=\dfrac{50}{5-4i}=\dfrac{50(5+4i)}{41}=\dfrac{250+200i}{41}$.","exercise","numerical","13","applications-of-complex-numbers","Applications of Complex Numbers","In an electrical circuit, the flow of the electric current I , the impedance Z and the voltage E , are related by the formula $E=I Z$.
+a. Find I, given the values:
+i. $\mathrm{E}=(70+220 J)$ volts, $Z=(16+8 J)$ ohms
+ii. $\mathrm{E}=(85+110 J)$ volts, $Z=(3-4 J)$ ohms
+b. Find Z given the value:
+i. $\mathrm{E}=(-50+100 J)$ volts, $I=(-6-2 J)$ amp
+ii. $\mathrm{E}=(100+10 J)$ volts, $I=(-8+3 J) \mathrm{amp}$
+c. Evaluate $\frac{1}{z-z^{2}}$ when $z=\frac{1-i}{10}$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m17cxpy8wpjqym6jy3a1jpcf158ctxea","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Given $z-4w=3i$ (i) and $2z+3w=11-5i$ (ii).
+From (i): $z=3i+4w$. Substitute into (ii): $2(3i+4w)+3w=11-5i \Rightarrow 11w=11-11i \Rightarrow w=1-i$.
+Then $z=3i+4(1-i)=4-i$.
+Check: $z-4w=(4-i)-4(1-i)=3i$ ✓; $2z+3w=2(4-i)+3(1-i)=11-5i$ ✓.
+Solution: $z=4-i$, $w=1-i$.","exercise","unclassified","11","solution-of-system-of-equations-with-complex-coefficients","Solution of System of Equations with Complex Coefficients","$z-4 w=3 i$
+$2 z+3 w=11-5 i$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,
+"maths-10","01-complex-numbers","Complex Numbers","1-3-applications-of-complex-numbers","1.3 Applications of Complex Numbers","m1703b4c018w7s3pchdq1pxdj98cvyyg","xd76syhn352tspbynn4p6ekdz98dyqp9","Exercise 1.3",,"false","Given $3z+(2+i)w=11-i$ (i) and $(2-i)z-w=-1+i$ (ii).
+From (ii): $w=(2-i)z+1-i$. Substitute into (i): $3z+(2+i)[(2-i)z+1-i]=11-i$. Since $(2+i)(2-i)=5$ and $(2+i)(1-i)=3-i$: $3z+5z+3-i=11-i \Rightarrow 8z=8 \Rightarrow z=1$.
+Then $w=(2-i)(1)+1-i=3-2i$.
+Check: $3(1)+(2+i)(3-2i)=3+8-i=11-i$ ✓; $(2-i)(1)-(3-2i)=-1+i$ ✓.
+Solution: $z=1$, $w=3-2i$.","exercise","unclassified","12","solution-of-system-of-equations-with-complex-coefficients","Solution of System of Equations with Complex Coefficients","$3 z+(2+i) w=11-i$
+$(2-i) z-w=-1+i$","ms70z9kbkbma6k4erzcvngd08x8bt8g1",,,,

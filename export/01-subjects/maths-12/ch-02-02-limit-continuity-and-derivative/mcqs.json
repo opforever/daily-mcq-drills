@@ -1,0 +1,266 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-1",
+    "topicTitle": "2.1 Evaluating Limits Graphically and Algebraically",
+    "_id": "k97entzhtwppyaffsnsjdq41s585pw3s",
+    "correctKey": "C",
+    "explanation": "The difference of cubes identity $a^3-b^3=(a-b)(a^2+ab+b^2)$ factors the numerator, allowing cancellation of the $(y-1)$ term that causes the $0/0$ indeterminate form.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74b10f9dwg40z8j6g5njht5985qpk8",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(a-b)^2 = a^2 - 2ab + b^2$"
+      },
+      {
+        "key": "B",
+        "text": "$(a+b)(a-b) = a^2 - b^2$"
+      },
+      {
+        "key": "C",
+        "text": "$a^3 - b^3 = (a-b)(a^2 + ab + b^2)$"
+      },
+      {
+        "key": "D",
+        "text": "$a^3 + b^3 = (a+b)(a^2 - ab + b^2)$"
+      }
+    ],
+    "stem": "Which identity is most useful for simplifying $\\lim_{y \\rightarrow 1} \\frac{y^3-1}{y-1}$?",
+    "topicId": "ms790m7z6r7g2hvbet2d2hq5j985qzjq"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-1",
+    "topicTitle": "2.1 Evaluating Limits Graphically and Algebraically",
+    "_id": "k9761ymkgwq78yk5hrh3hds60n85pmq5",
+    "correctKey": "A",
+    "explanation": "Rewrite as $\\frac{1}{3} \\cdot \\frac{3x}{\\sin 3x}$. Since $\\lim_{x\\to 0}\\frac{\\sin 3x}{3x}=1$, the reciprocal also equals $1$, giving a final limit of $\\frac{1}{3}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74b10f9dwg40z8j6g5njht5985qpk8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Multiply and divide by $3$"
+      },
+      {
+        "key": "B",
+        "text": "Square the entire function"
+      },
+      {
+        "key": "C",
+        "text": "Substitute $x = \\pi$"
+      },
+      {
+        "key": "D",
+        "text": "The identity cannot be applied here"
+      }
+    ],
+    "stem": "When evaluating $\\lim_{x \\rightarrow 0} \\frac{x}{\\sin 3x}$, what adjustment is needed to apply $\\lim_{\\theta \\rightarrow 0} \\frac{\\sin\\theta}{\\theta} = 1$?",
+    "topicId": "ms790m7z6r7g2hvbet2d2hq5j985qzjq"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-2",
+    "topicTitle": "2.2 Continuity and Types of Discontinuities",
+    "_id": "k97738ck139mhhtp590nn88j0x85qxvb",
+    "correctKey": "B",
+    "explanation": "Discontinuities occur where $\\sin(2x) = 0$. This happens when $2x = n\\pi$, so $x = n\\pi/2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76w7evjdssrtsa1yxdm29tnn85qj71",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x = n\\pi$"
+      },
+      {
+        "key": "B",
+        "text": "$x = \\frac{n\\pi}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$x = 2n\\pi$"
+      },
+      {
+        "key": "D",
+        "text": "$x = n\\pi + \\frac{\\pi}{2}$"
+      }
+    ],
+    "stem": "Where are the discontinuities located for the function $f(x) = \\frac{1}{\\sin(2x)}$?",
+    "topicId": "ms72esb9ay8yqkytejgfmc63k185qacy"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-4",
+    "topicTitle": "2.4 Basic Differentiation Rules",
+    "_id": "k979mz5g11xkbxt6j8v6d2r66x85ph7j",
+    "correctKey": "B",
+    "explanation": "$\\sqrt{5}$ is a fixed numerical constant with no $x$ dependence. By the Constant Rule, $\\frac{d}{dx}(c) = 0$ for any constant $c$, so $f'(x) = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75cafdcetrevdtzr1z7qfb6185qdkm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because the power rule $nx^{n-1}$ always gives zero for square roots."
+      },
+      {
+        "key": "B",
+        "text": "Because $\\sqrt{5}$ is a constant, and the derivative of any constant is zero."
+      },
+      {
+        "key": "C",
+        "text": "Because the square root function is not differentiable."
+      },
+      {
+        "key": "D",
+        "text": "Because $x$ has an implied exponent of $1$ which cancels."
+      }
+    ],
+    "stem": "Why is the derivative of $f(x) = \\sqrt{5}$ equal to $0$?",
+    "topicId": "ms7046a5x8p50jgn5ey94vvjrn85qrtz"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-7",
+    "topicTitle": "2.7 Implicit and Parametric Differentiation",
+    "_id": "k97dzvmttbv73fj1qpvhrymhph85q0b0",
+    "correctKey": "B",
+    "explanation": "The denominator is $10 + \\cos 3t$. The derivative of the constant 10 is 0, and $\\frac{d}{dt}(\\cos 3t) = -3\\sin 3t$ by the Chain Rule.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73pz6aars26bjxbqfhh0ccws85q5mq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-\\sin 3t$"
+      },
+      {
+        "key": "B",
+        "text": "$-3\\sin 3t$"
+      },
+      {
+        "key": "C",
+        "text": "$3\\cos 3t$"
+      },
+      {
+        "key": "D",
+        "text": "$10 - 3\\sin 3t$"
+      }
+    ],
+    "stem": "In the Quotient Rule for $h(t) = \\frac{t + \\sin 4t}{10 + \\cos 3t}$, what is the derivative of the denominator?",
+    "topicId": "ms78ez5snj0q6qz58b2wdm5a3s85q92c"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-8",
+    "topicTitle": "2.8 Higher-Order Derivatives and the Leibniz Rule",
+    "_id": "k973av1nh1f8cgcv3hdy43pkgs85pwb3",
+    "correctKey": "B",
+    "explanation": "Each application of the Chain Rule to $e^{2x}$ multiplies by the inner derivative $2$. After $n$ differentiations the accumulated factor is $2^n$, giving $\\frac{d^n}{dx^n}(e^{2x}) = 2^n e^{2x}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70b0m3j4vk0d2wx8rvq19sf185pdn2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because of the Power Rule"
+      },
+      {
+        "key": "B",
+        "text": "Because the Chain Rule multiplies by 2 at each differentiation step"
+      },
+      {
+        "key": "C",
+        "text": "Because $e$ is a constant base"
+      },
+      {
+        "key": "D",
+        "text": "Because the derivative of $2x$ is $x^2$"
+      }
+    ],
+    "stem": "Why does the $n$-th derivative of $e^{2x}$ always contain the factor $2^n$?",
+    "topicId": "ms7a3dwd4cnp805q6bz3yz6nps85prxr"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-9",
+    "topicTitle": "2.9 Critical Points, Concavity and Inflection",
+    "_id": "k97amy88bbkvsjhsnhmrk6ahbh85q8jd",
+    "correctKey": "D",
+    "explanation": "Absolute extrema on a closed interval can occur at critical points where $f'=0$, at points where $f'$ is undefined, or at the endpoints. All three cases must be checked.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76ba42b5sm0kw820wat83jch85qxec",
+    "options": [
+      {
+        "key": "A",
+        "text": "The derivative might be zero at a maximum instead"
+      },
+      {
+        "key": "B",
+        "text": "The minimum could occur at the endpoints $x=1$ or $x=4$"
+      },
+      {
+        "key": "C",
+        "text": "The function might not have a derivative at all points"
+      },
+      {
+        "key": "D",
+        "text": "All of the above"
+      }
+    ],
+    "stem": "When searching for the absolute minimum of a continuous function on $[1, 4]$, why is it insufficient to only check where $f'(x) = 0$?",
+    "topicId": "ms7c3assxkm1kb9atppxzz1xg985p91p"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-10",
+    "topicTitle": "2.10 Applications of Differentiation",
+    "_id": "k970q7xjpmnq6zdexy9qp5bbps85q83p",
+    "correctKey": "C",
+    "explanation": "$D = x\\sqrt{3}$. Differentiating with respect to $t$ gives $\\frac{dD}{dt} = \\sqrt{3}\\frac{dx}{dt} = k\\sqrt{3}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7azjxqkf6wawx060qy4jtydh85pqw6",
+    "options": [
+      {
+        "key": "A",
+        "text": "$k$"
+      },
+      {
+        "key": "B",
+        "text": "$k\\sqrt{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$k\\sqrt{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$3k^2$"
+      }
+    ],
+    "stem": "If the side of a cube $x$ increases at a rate $k$, what is the rate of increase of its space diagonal $D$?",
+    "topicId": "ms7dfdrn50kj7eh5wn9gx4x48185pm02"
+  }
+]

@@ -1,0 +1,233 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,correctKey,correctKeyVerified,examBoard,lastAttempt,locked,options,origin,partType,questionKind,questionNumber,session,stem,topicId,year,exerciseId,exerciseTitle,keyPoints,modelAnswer,sourceRef,sectionLabel
+"maths-9","11-basic-statistics","Basic Statistics","11-2-measures-of-central-tendency","11.2 Measures of Central Tendency","m174j37db1v1xhfjb5pea3x0a98c74b4","B","true","fbise",,"false","[{""key"":""A"",""text"":""79""},{""key"":""B"",""text"":""82""},{""key"":""C"",""text"":""86""},{""key"":""D"",""text"":""88""}]","exam","MCQ","mcq","13","annual","The median of the data 77,79,82,86,90,92,93 is:","ms721gkcpfwrffm7h11af8gpgn8btxa1","2025",,,,,,
+"maths-9","11-basic-statistics","Basic Statistics","11-2-measures-of-central-tendency","11.2 Measures of Central Tendency","m17c8t1kgaa9vretxwywv08dyn8c6jhs","C","true","fbise",,"false","[{""key"":""A"",""text"":""3""},{""key"":""B"",""text"":""4""},{""key"":""C"",""text"":""5""},{""key"":""D"",""text"":""6""}]","exam","MCQ","mcq","13","annual","A company surveyed products purchased in a month: {2,3,3,2,4,5,3,6}. What is the mode?","ms721gkcpfwrffm7h11af8gpgn8btxa1","2025",,,,,,
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m17afq0srf141wbn8fhm4vft098cv8xv",,,,,"false",,"exercise",,"unclassified","1",,"A letter is chosen randomly from the word 'ALLAH'. Now find the probability of getting
+(i) a vowel
+(ii) an H
+(iii) an L
+(iv) a consonant","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""Probability equals favourable outcomes over total outcomes""]","ALLAH has five letters: A, L, L, A, H.
+i. Vowels (A, A): $P=\frac{2}{5}$
+ii. H: $P=\frac{1}{5}$
+iii. L: $P=\frac{2}{5}$
+iv. Consonants (L, L, H): $P=\frac{3}{5}$","{""blockIndex"":1,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m178xf7r1shy4kgyswr669tdvd8cvf8v",,,,,"false",,"exercise",,"unclassified","2",,"A garment factory shipped an order which contained 7000 jackets, 2000 sweaters, and 3000 trousers in which 7 trousers, 5 jackets and 9 sweaters are faulty. If the quality inspector unpacked one item at random, find the probability that it is
+(i) a trouser
+(ii) not a jacket
+(iii) a faulty item","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""Count favourable items before reducing the fraction"",""Reduce each fraction fully""]","Total items $=7000+2000+3000=12000$.
+i. Trouser: $\frac{3000}{12000}=\frac{1}{4}$
+ii. Not a jacket: $\frac{12000-7000}{12000}=\frac{5}{12}$
+iii. Faulty item: $\frac{7+5+9}{12000}=\frac{21}{12000}=\frac{7}{4000}$","{""blockIndex"":1,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m173j01qtjfrznfzhhckrmsf458ct588",,,,,"false",,"exercise",,"unclassified","3",,"A number wheel is divided into 8 equal sectors labelled as pansy, lily, orchid, tulip, jasmine, rose, marigold and sunflower. Maazz spins the wheel once. Find the probability that pointer:
+(i) Stops at rose
+(ii) stops at a 4 letter flower name
+(iii) Does not stop at marigold
+(iv) stops at a 3 letter flower name
+(vi) stops at a flower name","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""Impossible events carry probability zero""]","Eight equal sectors give probability $\frac{\text{favourable}}{8}$ per spin.
+i. Rose: $\frac{1}{8}$
+ii. Four-letter names (lily, rose): $\frac{2}{8}=\frac{1}{4}$
+iii. Not marigold: $1-\frac{1}{8}=\frac{7}{8}$
+iv. Three-letter flower name: none exists here, so $\frac{0}{8}=0$.","{""blockIndex"":1,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m171k3xjc806qwh088815mc6wd8cvrkh",,,,,"false",,"exercise",,"unclassified","4",,"A decagonal die labelled 4,4,4,4,5,5,6,7,8,8 is rolled once. Find the probability of getting:
+(i) a 4
+(ii) an even number
+(iii) a multiple of 4
+(iv) not a 7
+(v) an odd number
+(vi) a prime number
+(vii) LCM of 4 and 8
+(viii) HCF of 4 and 8
+(ix) factor of 12","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""List the ten faces first, then count""]","Outcomes on the decagonal die: $4,4,4,4,5,5,6,7,8,8$ (ten equally likely faces).
+i. A four: $\frac{4}{10}=\frac{2}{5}$
+ii. Even number: $\frac{7}{10}$
+iii. Multiple of four (the fours): $\frac{2}{5}$
+iv. Not a seven: $\frac{9}{10}$
+v. Odd number: $\frac{3}{10}$
+vi. Prime number ($5,5,7$): $\frac{3}{10}$
+vii. LCM of $4$ and $8$ is $8$: $\frac{2}{10}=\frac{1}{5}$
+viii. HCF of $4$ and $8$ is $4$: $\frac{2}{5}$
+ix. Factor of twelve ($4$ and $6$): $\frac{5}{10}=\frac{1}{2}$","{""blockIndex"":1,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m175t0vjjrc65m4wzkwygpp3r58ct56m",,,,,"false",,"exercise",,"unclassified","5",,"A one digit whole number is chosen at random. Find the probability that it is:
+(i) less than 5
+(ii) greater than 10
+(iii) not the largest 1 digit number
+(iv) additive identity of whole numbers
+(v) HCF of 3 and 5
+(vi) multiplicative identity of real numbers
+(vii) not a prime number
+(viii) factor of 9","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""Zero counts as a one-digit whole number here""]","One-digit whole numbers run from $0$ to $9$, ten values in all.
+i. Less than five: $\frac{5}{10}=\frac{1}{2}$
+ii. Greater than ten: $\frac{0}{10}=0$
+iii. Not the largest one-digit number: $\frac{9}{10}$
+iv. Additive identity of whole numbers is $0$: $\frac{1}{10}$
+v. HCF of $3$ and $5$ is $1$: $\frac{1}{10}$
+vi. Multiplicative identity of real numbers is $1$: $\frac{1}{10}$
+vii. Not a prime number: six of ten values, $\frac{3}{5}$
+viii. Factor of nine ($1,3,9$): $\frac{3}{10}$","{""blockIndex"":1,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m175a3f4k36ad2r9hb70t7396h8ct3cv",,,,,"false",,"exercise",,"unclassified","6",,"A coin is tossed 10 times. Complete the given table and answer the questions below the table.
+| Event | frequency | Relative frequency |
+| :--- | :--- | :--- |
+| head | 6 |  |
+| tail | 4 |  |
+(i) What is the expected frequency of getting head, if it was tossed 520 times?
+(ii) What is the expected frequency of getting tail, if it was tossed 305 times?","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""Expected frequency multiplies relative frequency by trials"",""Reduce fractions to lowest terms""]","Relative frequencies: head $\frac{6}{10}=0.6$, tail $\frac{4}{10}=0.4$.
+i. Expected heads in $520$ tosses $=0.6\times520=312$.
+ii. Expected tails in $305$ tosses $=0.4\times305=122$.","{""blockIndex"":1,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m172nx0fs8xxw9kspbxj7v2jyn8cvff8",,,,,"false",,"exercise",,"unclassified","7",,"Complete the table and give answers, if a die is rolled 120 times.
+| Number | Frequency | Relative frequency |
+| :--- | :--- | :--- |
+| 1 | 15 | ... |
+| 2 | 25 | ... |
+| 3 | 15 | ... |
+| 4 | 20 | ... |
+| 5 | 30 | ... |
+| 6 | 15 | ... |
+(i) if it was rolled 6000 times, how many times occurrence of a 6 is expected?
+(ii) if it was rolled 3000 times, how many times occurrence of a 1 is expected?
+(iii) if it was rolled 400 times, how many times occurrence of a 2 is expected?","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""Each expectation uses its own relative frequency"",""Reduce fractions to lowest terms""]","Relative frequencies: $\frac{15}{120}=0.125$, $\frac{25}{120}\approx0.2083$, $0.125$, $\approx0.1667$, $0.25$, $0.125$.
+i. Six expected in $6000$ rolls: $\frac{15}{120}\times6000=750$.
+ii. One expected in $3000$ rolls: $0.125\times3000=375$.
+iii. Two expected in $400$ rolls: $\frac{25}{120}\times400\approx83.33$, about $83$ times.","{""blockIndex"":4,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m179qcmaqsfr2j6eap5ma00jdd8cte6m",,,,,"false",,"exercise",,"unclassified","8",,"There are 6 girls sections of class 9 in a public school, namely Teal, orchid, mauve, hazel, zaffre and denim. Only one girl is to be chosen randomly from all sections for national science olympiad.
+(a) Find the probability of selecting a girl from hazel section.
+(b) Find the probability of not selecting a girl from hazel section.
+(c) Verify that answers of both parts a and b add up to unity.
+(d) If 6 girls are to be selected, find expected frequency of selecting from orchid section.
+(e) If 60 girls are to be selected, what number of girls is expected to be chosen from Teal.","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd793xqfhxjx4vkcaew78jzvyd8ct92y","Exercise 11.3","[""Complementary probabilities sum to one"",""Reduce fractions to lowest terms""]","Six sections make each selection probability $\frac{1}{6}$.
+a. Hazel: $\frac{1}{6}$
+b. Not hazel: $1-\frac{1}{6}=\frac{5}{6}$
+c. $\frac{1}{6}+\frac{5}{6}=1$, verifying unity.
+d. Orchid among six selections: expected frequency $=6\times\frac{1}{6}=1$ girl.
+e. Teal among sixty selections: $60\times\frac{1}{6}=10$ girls.","{""blockIndex"":6,""chapterNumber"":11,""subjectSlug"":""maths-9""}",
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m179aggst7m5grtygjgs7p8qz98c6sae","B","true","fbise",,"false","[{""key"":""A"",""text"":""0""},{""key"":""B"",""text"":""1/2""},{""key"":""C"",""text"":""1""},{""key"":""D"",""text"":""2""}]","exam","MCQ","mcq","14","annual","What is the probability of getting Tail, if a fair coin is tossed once?","ms7c1vry2jz8sxfsb4evw6jq698bvwct","2025",,,,,,
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m17fccq84ra8tb2mab85060nv58c7m6z","B","true","fbise",,"false","[{""key"":""A"",""text"":""0.15""},{""key"":""B"",""text"":""0.30""},{""key"":""C"",""text"":""0.20""},{""key"":""D"",""text"":""0.25""}]","exam","MCQ","mcq","15","annual","A die was rolled 50 times and number 4 appeared 15 times. What is the relative frequency of rolling a 4?","ms7c1vry2jz8sxfsb4evw6jq698bvwct","2025",,,,,,
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m1707r9zd8bwq1p8jx4mnevdb18c6t7b","C","true","fbise",,"false","[{""key"":""A"",""text"":""2/5""},{""key"":""B"",""text"":""3/5""},{""key"":""C"",""text"":""4/5""},{""key"":""D"",""text"":""6/5""}]","exam","MCQ","mcq","14","annual","A bag contains 4 blue and 6 red balls. Probability that a randomly drawn ball is NOT blue:","ms7c1vry2jz8sxfsb4evw6jq698bvwct","2025",,,,,,
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m17d6e4sv9p44m54eam96j0v6n8c6smg","A","true","fbise",,"false","[{""key"":""A"",""text"":""1/5""},{""key"":""B"",""text"":""1/10""},{""key"":""C"",""text"":""1/2""},{""key"":""D"",""text"":""1/50""}]","exam","MCQ","mcq","15","annual","In 50 trials, an event occurs 10 times. Relative frequency is:","ms7c1vry2jz8sxfsb4evw6jq698bvwct","2025",,,,,,
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m172wbpapppta6gehzfg06aa2d8e0nz1",,,,,"false",,"exercise",,"short","9",,"1. Encircle the correct option in the following.
+i. Which of the following is a class mark of the interval (10-15)?
+(a) 10
+(b) 12.5
+(c) 15
+(d) 16
+ii. What is size of class interval $(4-7)$ ?
+(a) 4
+(b) 5
+(c) 6
+(d) 7
+iii. Which of the following is chart of adjacent rectangles?
+(a) bar graph
+(b) Frequency polygon
+(c) histogram
+(d) ogive
+iv. Which of the following is measure of central tendency?
+(a) variance
+(b) standard deviation
+(c) range
+(d) arithmetic mean
+v. Which of the following is a formula of arithmetic mean for grouped data?
+(a) $\frac{\sum x}{n}$
+(b) $l+\frac{h}{f}\left(\frac{n}{2}-c\right)$
+(c) $\frac{\sum f x}{\Sigma f}$
+(d) $l+\frac{\left(f_{m}-f_{1}\right) \times h}{2 f_{m}-f_{1}-f_{2}}$
+vi. If arithmetic mean of 25 values is 10 , then what is sum of values?
+(a) 250
+(b) 125
+(c) 25
+(d) 2.5
+vii. What is median of the data $4,3,0,2,1$ ?
+(a) 0
+(b) 2
+(c) 3
+(d) 4
+viii. Which measure of central tendency can have more than one value?
+(a) weighted mean
+(b) median
+(c) mode
+(d) arithmetic mean
+ix. The probability of getting M in 'MUHAMMAD' is
+(a) $\frac{1}{8}$
+(b) $\frac{3}{8}$
+(c) $\frac{3}{5}$
+(d) none of these
+x. Probability of picking an ace from a well shuffled pack of 52 playing cards is
+(a) $\frac{1}{52}$
+(b) $\frac{1}{13}$
+(c) $\frac{4}{13}$
+(d) none of these
+xi. A normal fair die is rolled 6000 times. The expected number of 5 is
+(a) 100
+(b) 5000
+(c) 1000
+(d) none of these
+xii. A fair coin is tossed 500 times. Expected number of tails is
+(a) 100
+(b) 250
+(c) 1000
+(d) none of these
+xiii. in a group of 5 people, 4 like peach juice. The expected no. of people in a population of 1200 who like peach juice is
+(a) 240
+(b) 600
+(c) 960
+(d) none of these
+
+xiv. How many times Haani should toss a fair coin if he expects to get 100 tails
+(a) 100
+(b) 200
+(c) 1000
+(d) none of these
+xv. An event which can never happen is called
+(a) sure event
+(b) certain event
+(c) possible event
+(d) impossible event
+xvi. Two such events whose probabilities are $\frac{1}{2}$ each are called
+(a) likely
+(b) equally likely
+(c) unlikely
+(d) none of these
+xvii. The probability of a certain event is
+(a) 0
+(b) $\frac{1}{2}$
+(c) $\frac{3}{4}$
+(d) 1
+xviii. The probability of an event can take the value
+(a) 0
+(b) 1
+(c) $\frac{1}{2}$
+(d) all of these
+xix. The probability of an event cannot take the value
+(a) 0
+(b) 1
+(c) 2
+(d) all of these
+xx. The probability of an impossible event is
+(a) 0
+(b) 1
+(c) 1/2
+(d) all of these
+2. For the following data, find mean, mode and median.","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd7fskyt01gn5fgbxhytdhs5sh8e0mbc","Chapter 11: Miscellaneous Review Exercise",,,"{""blockIndex"":7,""blockKind"":""exercise"",""chapterNumber"":11,""subjectSlug"":""maths-9""}","Review / Encircle the Correct Option"
+"maths-9","11-basic-statistics","Basic Statistics","11-3-probability","11.3 Probability","m17e4c73ear8wx1dgks12v73c58e16vr",,,,,"false",,"exercise",,"short","10",,"| $x$ | 5 | 10 | 15 | 20 | 25 | 30 | 35 | 40 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| f | 2 | 4 | 6 | 8 | 10 | 7 | 5 | 3 |
+
+3. Find the median for the following frequency distribution.
+
+| Marks | 30-39 | 40-40 | $50-59$ | 60-69 | 70-79 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Frequency | 3 | 8 | 11 | 5 | 4 |
+
+4. The arithmetic mean of 10 values is 35.5. If nine values are 20, 23, 37, 48, 29, 33, 45, 40, 45, find the tenth value
+5. Find mean, median and mode for the following frequency distribution.
+
+| Classes | 0-10 | 10-20 | 20-30 | 30-40 | 40-50 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| $f$ | 1 | 5 | 7 | 5 | 1 |
+
+6. Affan is learning to play dart. He plays it 20 times each day and probability of hitting bull's eye is $1 / 10$. Find:
+(a) expected number of hits in 25 days.
+(b) expected number of misses in 25 days.
+7. Shifaa usually gets late for her school 2 days out of 6 working days of a week. What is the expected no. of days of her late arrival in 4 weeks.
+8. As'ha tries her best to score 100\% in each maths assessment, but the probability of getting this is 0.8 . Find the expected number of assessments in which she will score $100 \%$ out of total 20 assessments.
+9. In a lab shelf there are 50 repoorts of covid 19. Among these 13 are females and 2 of the females are covid positive. If a report is picked at random, find:
+a) The probability of getting a female report
+b) The probability of getting a male report
+c) The probability of getting a female covid negative report.","ms7c1vry2jz8sxfsb4evw6jq698bvwct",,"xd7fskyt01gn5fgbxhytdhs5sh8e0mbc","Chapter 11: Miscellaneous Review Exercise",,,"{""blockIndex"":9,""blockKind"":""exercise"",""chapterNumber"":11,""subjectSlug"":""maths-9""}","Review / Encircle the Correct Option"

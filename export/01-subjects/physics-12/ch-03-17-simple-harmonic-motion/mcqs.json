@@ -1,0 +1,1192 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-1-oscillations",
+    "topicTitle": "17.1 Oscillations",
+    "_id": "k97bt176cbtsk69mfbnbdt5jgh85pbya",
+    "correctKey": "A",
+    "explanation": "Using the reciprocal relationship $T = \\frac{1}{f}$, we get $T = \\frac{1}{50} = 0.02\\text{ s}$. Frequency and time period are always reciprocals of each other in oscillatory motion.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79navdg723p9fpe0mhdwjvj985pwtf",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0.02\\text{ s}$"
+      },
+      {
+        "key": "B",
+        "text": "$0.2\\text{ s}$"
+      },
+      {
+        "key": "C",
+        "text": "$50\\text{ s}$"
+      },
+      {
+        "key": "D",
+        "text": "$2\\text{ s}$"
+      }
+    ],
+    "sectionId": "key-terms",
+    "sectionLabel": "Key Terms",
+    "stem": "If the frequency of an oscillator is $50\\text{ Hz}$, what is its time period?",
+    "topicId": "ms7cgqdr1t1k00dsk4t776arm985qjkp"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-1-oscillations",
+    "topicTitle": "17.1 Oscillations",
+    "_id": "k97fadp32hnpkpayfc9fyv9v1185qq79",
+    "correctKey": "C",
+    "explanation": "By definition, $a = -\\omega^2 x$. The negative sign indicates it is directed towards the mean position, and it is linearly proportional to displacement $x$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79navdg723p9fpe0mhdwjvj985pwtf",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is constant in magnitude and direction."
+      },
+      {
+        "key": "B",
+        "text": "It is maximum at the mean position."
+      },
+      {
+        "key": "C",
+        "text": "It is proportional to the displacement and directed towards the mean position."
+      },
+      {
+        "key": "D",
+        "text": "It is proportional to the square of the displacement."
+      }
+    ],
+    "sectionId": "simple-harmonic-motion-shm",
+    "sectionLabel": "Simple Harmonic Motion (SHM)",
+    "stem": "For a body executing Simple Harmonic Motion, which of the following must be true regarding its acceleration?",
+    "topicId": "ms7cgqdr1t1k00dsk4t776arm985qjkp"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-1-oscillations",
+    "topicTitle": "17.1 Oscillations",
+    "_id": "k97a19229h4xw2a7m5akvrf6fx85pn93",
+    "correctKey": "B",
+    "explanation": "Since $T = 2\\pi \\sqrt{m/k}$, if mass becomes $4m$, then $T' = 2\\pi \\sqrt{4m/k} = 2 \\times 2\\pi \\sqrt{m/k} = 2T$. The period doubles because $T$ is proportional to $\\sqrt{m}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79navdg723p9fpe0mhdwjvj985pwtf",
+    "options": [
+      {
+        "key": "A",
+        "text": "Half the original"
+      },
+      {
+        "key": "B",
+        "text": "Double the original"
+      },
+      {
+        "key": "C",
+        "text": "Four times the original"
+      },
+      {
+        "key": "D",
+        "text": "Remains the same"
+      }
+    ],
+    "sectionId": "time-period-of-shm",
+    "sectionLabel": "Time Period of SHM",
+    "stem": "If the mass attached to a spring is quadrupled, the time period of oscillation becomes:",
+    "topicId": "ms7cgqdr1t1k00dsk4t776arm985qjkp"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-2-simple-harmonic-motion",
+    "topicTitle": "17.2 Simple Harmonic Motion",
+    "_id": "k97a19229h4xw2a7m5akvrf6fx85pn93",
+    "correctKey": "B",
+    "explanation": "Since $T = 2\\pi \\sqrt{m/k}$, if mass becomes $4m$, then $T' = 2\\pi \\sqrt{4m/k} = 2 \\times 2\\pi \\sqrt{m/k} = 2T$. The period doubles because $T$ is proportional to $\\sqrt{m}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7481sw3872chx9rpnmrnyrps85qzkd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Half the original"
+      },
+      {
+        "key": "B",
+        "text": "Double the original"
+      },
+      {
+        "key": "C",
+        "text": "Four times the original"
+      },
+      {
+        "key": "D",
+        "text": "Remains the same"
+      }
+    ],
+    "sectionId": "period-of-shm",
+    "sectionLabel": "Period of SHM",
+    "stem": "If the mass attached to a spring is quadrupled, the time period of oscillation becomes:",
+    "topicId": "ms716crma0whvn48a5q2va8f8n85qs0n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-2-simple-harmonic-motion",
+    "topicTitle": "17.2 Simple Harmonic Motion",
+    "_id": "k977vevr6m1jbwrw1q2cstbz9n85p09m",
+    "correctKey": "C",
+    "explanation": "The time period is $T = 2\\pi\\sqrt{m/k}$. If $m$ becomes $2m$, then $T' = 2\\pi\\sqrt{2m/k} = \\sqrt{2}\\,T$. So the period increases by a factor of $\\sqrt{2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7481sw3872chx9rpnmrnyrps85qzkd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Double"
+      },
+      {
+        "key": "B",
+        "text": "Half"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{2}$ times the original"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{\\sqrt{2}}$ times the original"
+      }
+    ],
+    "sectionId": "period-of-shm",
+    "sectionLabel": "Period of SHM",
+    "stem": "A mass $m$ is attached to a spring of constant $k$. If the mass is doubled, the time period of oscillation $T$ becomes:",
+    "topicId": "ms716crma0whvn48a5q2va8f8n85qs0n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-2-simple-harmonic-motion",
+    "topicTitle": "17.2 Simple Harmonic Motion",
+    "_id": "k97fadp32hnpkpayfc9fyv9v1185qq79",
+    "correctKey": "C",
+    "explanation": "By definition, $a = -\\omega^2 x$. The negative sign indicates it is directed towards the mean position, and it is linearly proportional to displacement $x$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7481sw3872chx9rpnmrnyrps85qzkd",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is constant in magnitude and direction."
+      },
+      {
+        "key": "B",
+        "text": "It is maximum at the mean position."
+      },
+      {
+        "key": "C",
+        "text": "It is proportional to the displacement and directed towards the mean position."
+      },
+      {
+        "key": "D",
+        "text": "It is proportional to the square of the displacement."
+      }
+    ],
+    "sectionId": "what-is-simple-harmonic-motion",
+    "sectionLabel": "What is Simple Harmonic Motion?",
+    "stem": "For a body executing Simple Harmonic Motion, which of the following must be true regarding its acceleration?",
+    "topicId": "ms716crma0whvn48a5q2va8f8n85qs0n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-3-uniform-circular-motion-and-shm",
+    "topicTitle": "17.3 Uniform Circular Motion and SHM",
+    "_id": "k9718bzj6s56shxyf65tjvmcps8bfwq7",
+    "correctKey": "A",
+    "explanation": "The negative proportionality between acceleration and displacement is the defining condition for SHM.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79hv6qyhh8yxj4w22bfca48985qs5z",
+    "options": [
+      {
+        "key": "A",
+        "text": "$a=-\\omega^2x$"
+      },
+      {
+        "key": "D",
+        "text": "$F=0$"
+      },
+      {
+        "key": "B",
+        "text": "$a=\\omega x$"
+      },
+      {
+        "key": "C",
+        "text": "$v=\\omega x$"
+      }
+    ],
+    "sectionId": "acceleration",
+    "sectionLabel": "Acceleration",
+    "stem": "Which relation proves that a circular-motion projection executes SHM?",
+    "topicId": "ms702gy2mz473hv2sm8qh888k585phgv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-3-uniform-circular-motion-and-shm",
+    "topicTitle": "17.3 Uniform Circular Motion and SHM",
+    "_id": "k971bh56n9bf2msghehv292fn58bfq8a",
+    "correctKey": "A",
+    "explanation": "Since $T=2\\pi/\\omega$, period is inversely proportional to angular frequency.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79hv6qyhh8yxj4w22bfca48985qs5z",
+    "options": [
+      {
+        "key": "B",
+        "text": "It doubles"
+      },
+      {
+        "key": "A",
+        "text": "It halves"
+      },
+      {
+        "key": "C",
+        "text": "It quadruples"
+      },
+      {
+        "key": "D",
+        "text": "It stays constant"
+      }
+    ],
+    "sectionId": "the-reference-circle",
+    "sectionLabel": "The Reference Circle",
+    "stem": "If the angular frequency doubles, what happens to the SHM period?",
+    "topicId": "ms702gy2mz473hv2sm8qh888k585phgv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-3-uniform-circular-motion-and-shm",
+    "topicTitle": "17.3 Uniform Circular Motion and SHM",
+    "_id": "k971j8hgxewgaz4a725p2rxy098bem6b",
+    "correctKey": "A",
+    "explanation": "At equilibrium $x=0$, so $|v|=\\omega A$, its maximum value.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79hv6qyhh8yxj4w22bfca48985qs5z",
+    "options": [
+      {
+        "key": "B",
+        "text": "At either extreme"
+      },
+      {
+        "key": "D",
+        "text": "Only after one period"
+      },
+      {
+        "key": "A",
+        "text": "At equilibrium"
+      },
+      {
+        "key": "C",
+        "text": "At every point equally"
+      }
+    ],
+    "sectionId": "velocity",
+    "sectionLabel": "Velocity",
+    "stem": "Where is the speed of an SHM particle maximum?",
+    "topicId": "ms702gy2mz473hv2sm8qh888k585phgv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-4-phase",
+    "topicTitle": "17.4 Phase",
+    "_id": "k97fwes27cmj92gh333yqjcs6585pvhs",
+    "correctKey": "C",
+    "explanation": "The phase is the entire argument of the sine function, $\\theta = \\omega t + \\phi$. At $t=0$, $\\theta = 0 + \\pi/4 = \\pi/4$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73gbqgy8kyd5zp8pnns2m38185p4xg",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 radians"
+      },
+      {
+        "key": "B",
+        "text": "$\\pi/2$ radians"
+      },
+      {
+        "key": "C",
+        "text": "$\\pi/4$ radians"
+      },
+      {
+        "key": "D",
+        "text": "$\\pi$ radians"
+      }
+    ],
+    "sectionId": "initial-phase-phase-constant",
+    "sectionLabel": "Initial Phase (Phase Constant)",
+    "stem": "If the instantaneous value of an AC voltage is given by $V = V_0 \\sin(\\omega t + \\frac{\\pi}{4})$, what is its phase at $t = 0$?",
+    "topicId": "ms703ea1bwtvtpshxn4hfak0sx85q79f"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-4-phase",
+    "topicTitle": "17.4 Phase",
+    "_id": "k97dj8rmy3q91gh7gh24t6v1sx85ppkf",
+    "correctKey": "A",
+    "explanation": "The negative sign in $I_2$ indicates a phase lag. Therefore, $I_1$ reaches its peak $90^\\circ$ (or $\\pi/2$) before $I_2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73gbqgy8kyd5zp8pnns2m38185p4xg",
+    "options": [
+      {
+        "key": "A",
+        "text": "$I_1$ leads $I_2$ by $90^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$I_2$ leads $I_1$ by $90^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$I_1$ and $I_2$ are in phase"
+      },
+      {
+        "key": "D",
+        "text": "$I_1$ lags $I_2$ by $180^\\circ$"
+      }
+    ],
+    "sectionId": "phase-difference",
+    "sectionLabel": "Phase Difference",
+    "stem": "Two AC signals are represented by $I_1 = I_0 \\sin(\\omega t)$ and $I_2 = I_0 \\sin(\\omega t - \\frac{\\pi}{2})$. Which statement is correct?",
+    "topicId": "ms703ea1bwtvtpshxn4hfak0sx85q79f"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-4-phase",
+    "topicTitle": "17.4 Phase",
+    "_id": "k97ced1dx2cwzkwwdgy2zxmrvn85qe1x",
+    "correctKey": "C",
+    "explanation": "In phase means both quantities reach their respective zero and peak values at the same time, implying $\\phi = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73gbqgy8kyd5zp8pnns2m38185p4xg",
+    "options": [
+      {
+        "key": "A",
+        "text": "$90^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$180^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$0^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$270^\\circ$"
+      }
+    ],
+    "sectionId": "phase-difference",
+    "sectionLabel": "Phase Difference",
+    "stem": "When two alternating quantities are 'in phase', their phase difference is:",
+    "topicId": "ms703ea1bwtvtpshxn4hfak0sx85q79f"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-4-phase",
+    "topicTitle": "17.4 Phase",
+    "_id": "k97646h6977ee4dn04rhp1r3kx85qvrn",
+    "correctKey": "B",
+    "explanation": "If voltage leads current by $\\pi/2$, then current lags voltage by $\\pi/2$. Thus, the phase of current is $(\\omega t - \\pi/2)$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73gbqgy8kyd5zp8pnns2m38185p4xg",
+    "options": [
+      {
+        "key": "A",
+        "text": "$I = I_0 \\sin(\\omega t + \\pi/2)$"
+      },
+      {
+        "key": "B",
+        "text": "$I = I_0 \\sin(\\omega t - \\pi/2)$"
+      },
+      {
+        "key": "C",
+        "text": "$I = I_0 \\sin(\\omega t)$"
+      },
+      {
+        "key": "D",
+        "text": "$I = I_0 \\cos(\\omega t + \\pi/2)$"
+      }
+    ],
+    "sectionId": "phase-lead-and-phase-lag",
+    "sectionLabel": "Phase Lead and Phase Lag",
+    "stem": "If the phase difference between voltage and current is $\\pi/2$ and voltage leads, the equation for current $I$ (given $V = V_0 \\sin \\omega t$) is:",
+    "topicId": "ms703ea1bwtvtpshxn4hfak0sx85q79f"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-4-phase",
+    "topicTitle": "17.4 Phase",
+    "_id": "k979g8dcxaj8d3tztnfwt6fg2n85p6d0",
+    "correctKey": "B",
+    "explanation": "By standard mathematical convention, angles are measured counter-clockwise (anti-clockwise) from the positive x-axis. Phasors follow this convention, rotating counter-clockwise with angular velocity ω. This ensures the projection onto the vertical axis gives the instantaneous value as a sine or cosine function consistent with positive angle measurement.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73gbqgy8kyd5zp8pnns2m38185p4xg",
+    "options": [
+      {
+        "key": "A",
+        "text": "Clockwise"
+      },
+      {
+        "key": "B",
+        "text": "Counter-clockwise (anti-clockwise)"
+      },
+      {
+        "key": "C",
+        "text": "They remain stationary"
+      },
+      {
+        "key": "D",
+        "text": "The direction depends on the frequency"
+      }
+    ],
+    "sectionId": "phasors",
+    "sectionLabel": "Phasors",
+    "stem": "In a phasor diagram for AC circuit analysis, phasors rotate in which direction by convention?",
+    "topicId": "ms703ea1bwtvtpshxn4hfak0sx85q79f"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-5-graphical-representations-of-displacement-velocity-and-acceleration-for-shm",
+    "topicTitle": "17.5 SHM Graphs: Displacement, Velocity, and Acceleration",
+    "_id": "k972enmnqgkrn56hrdc5hp7f018be3fc",
+    "correctKey": "A",
+    "explanation": "The slope equals $-\\omega^2$, so $\\omega=\\sqrt{25}=5\\,\\mathrm{rad\\,s^{-1}}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73ctx24xgtm9x63504t1enh585qrv7",
+    "options": [
+      {
+        "key": "D",
+        "text": "$0.2\\,\\mathrm{rad\\,s^{-1}}$"
+      },
+      {
+        "key": "A",
+        "text": "$5\\,\\mathrm{rad\\,s^{-1}}$"
+      },
+      {
+        "key": "C",
+        "text": "$625\\,\\mathrm{rad\\,s^{-1}}$"
+      },
+      {
+        "key": "B",
+        "text": "$25\\,\\mathrm{rad\\,s^{-1}}$"
+      }
+    ],
+    "sectionId": "acceleration-using-a---omega2-x",
+    "sectionLabel": "Acceleration Using $a = -\\omega^2 x$",
+    "stem": "An $a$-$x$ graph has slope $-25\\,\\mathrm{s^{-2}}$. What is $\\omega$?",
+    "topicId": "ms71mbag8mn0rg24cef1mf0vbs85p18h"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-5-graphical-representations-of-displacement-velocity-and-acceleration-for-shm",
+    "topicTitle": "17.5 SHM Graphs: Displacement, Velocity, and Acceleration",
+    "_id": "k975yq5vftajeedyg5pne20n958bggj3",
+    "correctKey": "A",
+    "explanation": "Starting from the mean position, x = x0 sin(omega t), so the displacement-time graph is a sine curve.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73ctx24xgtm9x63504t1enh585qrv7",
+    "options": [
+      {
+        "key": "D",
+        "text": "A parabola"
+      },
+      {
+        "key": "C",
+        "text": "A straight line"
+      },
+      {
+        "key": "A",
+        "text": "A sine curve"
+      },
+      {
+        "key": "B",
+        "text": "A cosine curve"
+      }
+    ],
+    "sectionId": "graphical-representations",
+    "sectionLabel": "Graphical Representations",
+    "stem": "If an SHM particle starts at the mean position at t=0, what shape does its displacement-time graph take?",
+    "topicId": "ms71mbag8mn0rg24cef1mf0vbs85p18h"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-5-graphical-representations-of-displacement-velocity-and-acceleration-for-shm",
+    "topicTitle": "17.5 SHM Graphs: Displacement, Velocity, and Acceleration",
+    "_id": "k975w58p7505049thc6qs9yq5s8bek3n",
+    "correctKey": "A",
+    "explanation": "At an extreme the particle momentarily stops, while acceleration points most strongly toward equilibrium.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73ctx24xgtm9x63504t1enh585qrv7",
+    "options": [
+      {
+        "key": "C",
+        "text": "Velocity is maximum and acceleration is zero"
+      },
+      {
+        "key": "D",
+        "text": "Both are maximally positive"
+      },
+      {
+        "key": "B",
+        "text": "Both are zero"
+      },
+      {
+        "key": "A",
+        "text": "$v=0$ and acceleration is maximally negative"
+      }
+    ],
+    "sectionId": "key-values-at-special-positions",
+    "sectionLabel": "Key Values at Special Positions",
+    "stem": "When displacement is at its positive maximum, what are velocity and acceleration?",
+    "topicId": "ms71mbag8mn0rg24cef1mf0vbs85p18h"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-5-graphical-representations-of-displacement-velocity-and-acceleration-for-shm",
+    "topicTitle": "17.5 SHM Graphs: Displacement, Velocity, and Acceleration",
+    "_id": "k9754kxfy0acgzs6avj6cw17618be5tw",
+    "correctKey": "A",
+    "explanation": "Substitution into $|v|=\\omega\\sqrt{A^2-x^2}$ gives $\\omega A\\sqrt{3/4}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73ctx24xgtm9x63504t1enh585qrv7",
+    "options": [
+      {
+        "key": "D",
+        "text": "Zero"
+      },
+      {
+        "key": "A",
+        "text": "$\\frac{\\sqrt3}{2}\\omega A$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac12\\omega A$"
+      },
+      {
+        "key": "C",
+        "text": "$\\omega A$"
+      }
+    ],
+    "sectionId": "velocity-as-a-function-of-displacement",
+    "sectionLabel": "Velocity as a Function of Displacement",
+    "stem": "For amplitude $A$, what is the speed at $x=A/2$?",
+    "topicId": "ms71mbag8mn0rg24cef1mf0vbs85p18h"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-6-simple-pendulum",
+    "topicTitle": "17.6 Simple Pendulum",
+    "_id": "k97a750d0fwm4cfdvxess5rzfd85pf42",
+    "correctKey": "B",
+    "explanation": "SHM requires the restoring force to be proportional to displacement. For a pendulum, $F = -mg\\sin\\theta$. Only when $\\theta$ is small (less than ~10°) does $\\sin\\theta \\approx \\theta$, making $F \\propto -\\theta$, which satisfies the SHM condition.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx702f7exhhetg5mgnj58g5mbn85q049",
+    "options": [
+      {
+        "key": "A",
+        "text": "The angle must be large (greater than 90°)"
+      },
+      {
+        "key": "B",
+        "text": "The angle must be small (typically less than 10°)"
+      },
+      {
+        "key": "C",
+        "text": "The angle must be exactly 45°"
+      },
+      {
+        "key": "D",
+        "text": "The angle does not affect whether SHM occurs"
+      }
+    ],
+    "sectionId": "restoring-force-and-shm-condition",
+    "sectionLabel": "Restoring Force and SHM Condition",
+    "stem": "For a simple pendulum to execute Simple Harmonic Motion (SHM), what condition must be met regarding the displacement angle $\\theta$?",
+    "topicId": "ms7aj7tah6d0qqqvxaryas8qhd85pfz2"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-6-simple-pendulum",
+    "topicTitle": "17.6 Simple Pendulum",
+    "_id": "k97835ryjfkxcnx3pkjc6cwar985qv83",
+    "correctKey": "C",
+    "explanation": "A seconds pendulum has $T = 2$ s. Using $T = 2\\pi\\sqrt{l/g}$, we get $l = gT^2/(4\\pi^2) = (9.8 \\times 4)/(4\\pi^2) \\approx 0.99$ m. This is approximately 1 metre.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx702f7exhhetg5mgnj58g5mbn85q049",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 m"
+      },
+      {
+        "key": "B",
+        "text": "2.0 m"
+      },
+      {
+        "key": "C",
+        "text": "0.99 m"
+      },
+      {
+        "key": "D",
+        "text": "1.5 m"
+      }
+    ],
+    "sectionId": "seconds-pendulum",
+    "sectionLabel": "Seconds Pendulum",
+    "stem": "What is the approximate length of a seconds pendulum on Earth where $g = 9.8 \\text{ m/s}^2$?",
+    "topicId": "ms7aj7tah6d0qqqvxaryas8qhd85pfz2"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-6-simple-pendulum",
+    "topicTitle": "17.6 Simple Pendulum",
+    "_id": "k978a4q18tc513nh3xjd46bz7185q7ad",
+    "correctKey": "B",
+    "explanation": "Since $T = 2\\pi\\sqrt{l/g}$, the period is proportional to $\\sqrt{l}$. If $l$ becomes $4l$, then $T$ becomes $\\sqrt{4} = 2$ times the original period. The period doubles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx702f7exhhetg5mgnj58g5mbn85q049",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain the same"
+      },
+      {
+        "key": "B",
+        "text": "Be doubled"
+      },
+      {
+        "key": "C",
+        "text": "Be quadrupled"
+      },
+      {
+        "key": "D",
+        "text": "Be halved"
+      }
+    ],
+    "sectionId": "time-period-of-a-simple-pendulum",
+    "sectionLabel": "Time Period of a Simple Pendulum",
+    "stem": "If the length of a simple pendulum is quadrupled to $4l$, its time period will:",
+    "topicId": "ms7aj7tah6d0qqqvxaryas8qhd85pfz2"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-6-simple-pendulum",
+    "topicTitle": "17.6 Simple Pendulum",
+    "_id": "k979k2xk177mzkq0rxy8qc374h85pj2c",
+    "correctKey": "A",
+    "explanation": "The time period of a simple pendulum is $T = 2\\pi\\sqrt{l/g}$, so $T \\propto 1/\\sqrt{g}$. A lower value of $g$ on the Moon means a larger value of $T$, so the pendulum oscillates more slowly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx702f7exhhetg5mgnj58g5mbn85q049",
+    "options": [
+      {
+        "key": "A",
+        "text": "It increases"
+      },
+      {
+        "key": "B",
+        "text": "It decreases"
+      },
+      {
+        "key": "C",
+        "text": "It remains the same"
+      },
+      {
+        "key": "D",
+        "text": "It becomes zero"
+      }
+    ],
+    "sectionId": "time-period-of-a-simple-pendulum",
+    "sectionLabel": "Time Period of a Simple Pendulum",
+    "stem": "A simple pendulum is moved from Earth to the Moon where gravitational acceleration $g$ is lower. What happens to its time period?",
+    "topicId": "ms7aj7tah6d0qqqvxaryas8qhd85pfz2"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-7-energy-conservation-in-shm",
+    "topicTitle": "17.7 Energy Conservation in SHM",
+    "_id": "k97cy3ckbd41jpg7ej5h45b11185qbkd",
+    "correctKey": "B",
+    "explanation": "Setting $P.E. = K.E.$: $\\frac{1}{2}kx^2 = \\frac{1}{2}k(x_0^2 - x^2)$. This gives $2x^2 = x_0^2$, so $x = x_0/\\sqrt{2}$. At this point each energy equals half the total energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79chxbc41kjypz6q5t6gh1dn85q2bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "$x = x_0 / 2$"
+      },
+      {
+        "key": "B",
+        "text": "$x = x_0 / \\sqrt{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$x = x_0$"
+      },
+      {
+        "key": "D",
+        "text": "$x = 0$"
+      }
+    ],
+    "sectionId": "energy-interchange-during-shm",
+    "sectionLabel": "Energy Interchange During SHM",
+    "stem": "At what displacement from the mean position is the Potential Energy equal to the Kinetic Energy in SHM?",
+    "topicId": "ms72h7b0zce1h6kbah4ewra76x85prbr"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-7-energy-conservation-in-shm",
+    "topicTitle": "17.7 Energy Conservation in SHM",
+    "_id": "k97665q136nbka5bwh1c2gz72585qqgt",
+    "correctKey": "B",
+    "explanation": "At the extreme position ($x = x_0$), velocity is zero so $K.E. = 0$. All mechanical energy is stored as elastic Potential Energy: $P.E. = \\frac{1}{2}kx_0^2 = E_{total}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79chxbc41kjypz6q5t6gh1dn85q2bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Entirely Kinetic"
+      },
+      {
+        "key": "B",
+        "text": "Entirely Potential"
+      },
+      {
+        "key": "C",
+        "text": "Half Kinetic and Half Potential"
+      },
+      {
+        "key": "D",
+        "text": "Zero"
+      }
+    ],
+    "sectionId": "energy-interchange-during-shm",
+    "sectionLabel": "Energy Interchange During SHM",
+    "stem": "When a particle performing SHM is at its extreme position ($x = x_0$), its mechanical energy is:",
+    "topicId": "ms72h7b0zce1h6kbah4ewra76x85prbr"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-7-energy-conservation-in-shm",
+    "topicTitle": "17.7 Energy Conservation in SHM",
+    "_id": "k97ag5pdyprfdr5hnyqv645r4585ph1z",
+    "correctKey": "C",
+    "explanation": "$K.E. = \\frac{1}{2}k(x_0^2 - x^2)$ is a quadratic function of $x$ with a negative leading coefficient, representing a downward-opening parabola with its maximum at $x = 0$ (mean position).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79chxbc41kjypz6q5t6gh1dn85q2bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Straight line passing through the origin"
+      },
+      {
+        "key": "B",
+        "text": "Hyperbola"
+      },
+      {
+        "key": "C",
+        "text": "Parabola opening downwards"
+      },
+      {
+        "key": "D",
+        "text": "Circle"
+      }
+    ],
+    "sectionId": "kinetic-energy-in-shm",
+    "sectionLabel": "Kinetic Energy in SHM",
+    "stem": "The graph of Kinetic Energy versus displacement ($x$) for a mass-spring system executing SHM is a:",
+    "topicId": "ms72h7b0zce1h6kbah4ewra76x85prbr"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-7-energy-conservation-in-shm",
+    "topicTitle": "17.7 Energy Conservation in SHM",
+    "_id": "k97btajp8g165e06vfwpvbx90s85qnbn",
+    "correctKey": "B",
+    "explanation": "Total energy $E = \\frac{1}{2} k x_0^2$. Since $E \\propto x_0^2$, doubling the amplitude to $2x_0$ gives $E' = \\frac{1}{2}k(2x_0)^2 = 4 \\times \\frac{1}{2}kx_0^2$, which is four times the original energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79chxbc41kjypz6q5t6gh1dn85q2bn",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two times the original"
+      },
+      {
+        "key": "B",
+        "text": "Four times the original"
+      },
+      {
+        "key": "C",
+        "text": "Half the original"
+      },
+      {
+        "key": "D",
+        "text": "Remains the same"
+      }
+    ],
+    "sectionId": "total-mechanical-energy",
+    "sectionLabel": "Total Mechanical Energy",
+    "stem": "In a simple harmonic oscillator, if the amplitude is doubled, the total energy of the system becomes:",
+    "topicId": "ms72h7b0zce1h6kbah4ewra76x85prbr"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-8-free-forced-and-damped-oscillations",
+    "topicTitle": "17.8 Free, Forced and Damped Oscillations",
+    "_id": "k9724mnj3z8f38b4pppgj0xwm585ptcy",
+    "correctKey": "B",
+    "explanation": "Damped oscillations are characterised by a progressive decrease in amplitude caused by resistive forces (friction, air resistance) that dissipate the system's mechanical energy as heat. The frequency remains approximately equal to the natural frequency; it is the amplitude that falls.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73vaj9tnnjmffjesywcwff4185q6nj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oscillations at constant amplitude driven by an external periodic force"
+      },
+      {
+        "key": "B",
+        "text": "Oscillations in which amplitude decreases over time due to resistive forces"
+      },
+      {
+        "key": "C",
+        "text": "Oscillations at the natural frequency with no energy loss"
+      },
+      {
+        "key": "D",
+        "text": "Oscillations in which frequency increases as amplitude decreases"
+      }
+    ],
+    "sectionId": "damped-oscillations",
+    "sectionLabel": "Damped Oscillations",
+    "stem": "Which of the following correctly describes damped oscillations?",
+    "topicId": "ms78je1qnxfp51tpby5vxfj4zx85q3c4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-8-free-forced-and-damped-oscillations",
+    "topicTitle": "17.8 Free, Forced and Damped Oscillations",
+    "_id": "k9789gvrm5d2vk6a55gj64263x85pch6",
+    "correctKey": "C",
+    "explanation": "Heavy damping occurs when the resistive force is very large, causing the object to return to equilibrium very slowly without completing even one oscillation. A mass in a thick viscous liquid is the classic textbook example of heavy damping.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73vaj9tnnjmffjesywcwff4185q6nj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Light damping"
+      },
+      {
+        "key": "B",
+        "text": "Critical damping"
+      },
+      {
+        "key": "C",
+        "text": "Heavy damping"
+      },
+      {
+        "key": "D",
+        "text": "Forced oscillation"
+      }
+    ],
+    "sectionId": "damped-oscillations",
+    "sectionLabel": "Damped Oscillations",
+    "stem": "A mass on a spring is placed in a thick viscous liquid and displaced from equilibrium. It returns slowly to rest without completing a single oscillation. This is an example of:",
+    "topicId": "ms78je1qnxfp51tpby5vxfj4zx85q3c4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-8-free-forced-and-damped-oscillations",
+    "topicTitle": "17.8 Free, Forced and Damped Oscillations",
+    "_id": "k974rbp6vstkr36qqwmxhzk84n85q46c",
+    "correctKey": "C",
+    "explanation": "Critical damping is defined as the condition in which the system returns to equilibrium in the minimum possible time without undergoing any oscillation. It is the boundary case between light damping (oscillatory) and heavy damping (slow, non-oscillatory return).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73vaj9tnnjmffjesywcwff4185q6nj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Light damping"
+      },
+      {
+        "key": "B",
+        "text": "Heavy damping"
+      },
+      {
+        "key": "C",
+        "text": "Critical damping"
+      },
+      {
+        "key": "D",
+        "text": "Resonant damping"
+      }
+    ],
+    "sectionId": "damped-oscillations",
+    "sectionLabel": "Damped Oscillations",
+    "stem": "Which type of damping causes a system to return to its equilibrium position in the shortest possible time without oscillating?",
+    "topicId": "ms78je1qnxfp51tpby5vxfj4zx85q3c4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-8-free-forced-and-damped-oscillations",
+    "topicTitle": "17.8 Free, Forced and Damped Oscillations",
+    "_id": "k97dncrm8qtt00h05raecn5agh85qpkv",
+    "correctKey": "C",
+    "explanation": "Shock absorbers are fluid-filled devices that provide critical damping. This ensures the car's suspension returns to equilibrium in the shortest time without repeated oscillation (bouncing), giving a smooth and controlled ride. Light damping would allow bouncing; heavy damping would make the ride very stiff.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73vaj9tnnjmffjesywcwff4185q6nj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Light damping, so the car bounces gently after a bump"
+      },
+      {
+        "key": "B",
+        "text": "Heavy damping, so the car returns very slowly to its normal height"
+      },
+      {
+        "key": "C",
+        "text": "Critical damping, so the car returns to normal height quickly without bouncing"
+      },
+      {
+        "key": "D",
+        "text": "No damping, so the springs oscillate freely"
+      }
+    ],
+    "sectionId": "practical-examples-of-damped-oscillations",
+    "sectionLabel": "Practical Examples of Damped Oscillations",
+    "stem": "The shock absorbers in a car are designed to provide which type of damping to the spring suspension system?",
+    "topicId": "ms78je1qnxfp51tpby5vxfj4zx85q3c4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-8-free-forced-and-damped-oscillations",
+    "topicTitle": "17.8 Free, Forced and Damped Oscillations",
+    "_id": "k97dn8vnvjx0nfs7x20twyf2vh85pp8b",
+    "correctKey": "C",
+    "explanation": "A swing that continues oscillating while its amplitude decreases slowly is lightly damped.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73vaj9tnnjmffjesywcwff4185q6nj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Heavy damping"
+      },
+      {
+        "key": "B",
+        "text": "Critical damping"
+      },
+      {
+        "key": "C",
+        "text": "Light damping"
+      },
+      {
+        "key": "D",
+        "text": "Forced oscillation"
+      }
+    ],
+    "sectionId": "practical-examples-of-damped-oscillations",
+    "sectionLabel": "Practical Examples of Damped Oscillations",
+    "stem": "A playground swing, after being pushed once, gradually comes to rest over several minutes. This behaviour is an example of:",
+    "topicId": "ms78je1qnxfp51tpby5vxfj4zx85q3c4"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-9-resonance",
+    "topicTitle": "17.9 Resonance",
+    "_id": "k97bca774nwgrehjxt5wpck7nh8bemv3",
+    "correctKey": "A",
+    "explanation": "Resonance occurs when the external driving frequency matches the system's natural frequency.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx708j7rb1waarkkemsdvbmg3585p0cj",
+    "options": [
+      {
+        "key": "D",
+        "text": "Amplitude must be zero"
+      },
+      {
+        "key": "B",
+        "text": "$f_{drive}=0$"
+      },
+      {
+        "key": "A",
+        "text": "$f_{drive}=f_0$"
+      },
+      {
+        "key": "C",
+        "text": "$f_{drive}=2f_0$ always"
+      }
+    ],
+    "sectionId": "condition-for-resonance",
+    "sectionLabel": "Condition for Resonance",
+    "stem": "What is the condition for resonance?",
+    "topicId": "ms7cpgw18pmv5td7fwg41xane585qy2m"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-9-resonance",
+    "topicTitle": "17.9 Resonance",
+    "_id": "k9720a4wgkb1wmhddm0bdc5egx8bfmkh",
+    "correctKey": "A",
+    "explanation": "A periodic force near a structural natural frequency can transfer energy efficiently and build a dangerous amplitude.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx708j7rb1waarkkemsdvbmg3585p0cj",
+    "options": [
+      {
+        "key": "A",
+        "text": "They can drive destructive resonance"
+      },
+      {
+        "key": "D",
+        "text": "They remove the bridge's mass"
+      },
+      {
+        "key": "C",
+        "text": "They make damping infinite"
+      },
+      {
+        "key": "B",
+        "text": "They always eliminate vibration"
+      }
+    ],
+    "sectionId": "practical-examples-of-resonance",
+    "sectionLabel": "Practical Examples of Resonance",
+    "stem": "Why must periodic forces on a bridge be checked against its natural frequencies?",
+    "topicId": "ms7cpgw18pmv5td7fwg41xane585qy2m"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "17-simple-harmonic-motion",
+    "chapterTitle": "Simple Harmonic Motion",
+    "topicSlug": "17-9-resonance",
+    "topicTitle": "17.9 Resonance",
+    "_id": "k978tneznd3zh0ptjy40ta3fs58bf0jw",
+    "correctKey": "A",
+    "explanation": "Weak damping removes less energy per cycle, producing a narrower and higher frequency-response peak.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx708j7rb1waarkkemsdvbmg3585p0cj",
+    "options": [
+      {
+        "key": "B",
+        "text": "A strongly damped oscillator"
+      },
+      {
+        "key": "A",
+        "text": "A weakly damped oscillator"
+      },
+      {
+        "key": "D",
+        "text": "A system with no natural frequency"
+      },
+      {
+        "key": "C",
+        "text": "A non-oscillating system"
+      }
+    ],
+    "sectionId": "sharpness-of-resonance-frequency-response",
+    "sectionLabel": "Sharpness of Resonance (Frequency Response)",
+    "stem": "Which system has the sharpest resonance?",
+    "topicId": "ms7cpgw18pmv5td7fwg41xane585qy2m"
+  }
+]

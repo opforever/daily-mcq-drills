@@ -1,0 +1,68 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "06-analytical-geometry",
+    "chapterTitle": "Analytical Geometry",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Concurrency of Lines in a Triangle",
+    "_creationTime": 1777384386912.563,
+    "_id": "kx79pjz35ddw118jwkjmnnvbcs85qycd",
+    "createdAt": 1777384386912,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Concurrency of three or more lines (intersection at a single point)\n- Point of concurrency and its coordinates\n\n- Altitudes of a triangle and the orthocenter\n- Right bisectors (perpendicular bisectors) of triangle sides and the circumcenter\n\n- Medians of a triangle and the centroid\n\n- Area of a triangle using coordinate geometry (shoelace formula)\n- Collinearity condition for three points (zero area)\n- Determinant method for testing concurrency of lines\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Area of Triangle:**\n$$\\Delta = \\frac{1}{2} |x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$$\n\nOr in determinant form:\n$$\\Delta = \\frac{1}{2} \\left| \\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} \\right|$$\n\n**Condition for Collinearity:**\n$$\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = 0$$\n\n**Condition for Concurrency of Three Lines** ($a_1x + b_1y + c_1 = 0$, etc.):\n$$\\begin{vmatrix} a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\\\ a_3 & b_3 & c_3 \\end{vmatrix} = 0$$\n\n**Midpoint Formula** (for medians and right bisectors):\n$$\\left( \\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2} \\right)$$\n\n**Perpendicularity Condition** (for altitudes and right bisectors):\n$$m_1 \\cdot m_2 = -1$$\n\n---\n\n# **Summary**\n\nThis exercise covers coordinate geometry applications involving concurrency and area. The first part (Q1-Q8) examines concurrent lines in triangles, requiring you to find equations of altitudes (orthocenter), right bisectors (circumcenter), and medians (centroid), then verify their concurrency. The second part (Q9-Q14) focuses on calculating triangular areas using the determinant/shoelace method and applying the zero-area condition to prove collinearity or find unknown coordinates. Key strategies include: solving simultaneous equations for intersection points, using slope conditions for perpendicular lines, and recognizing that three points are collinear if and only if the triangle they form has zero area.",
+    "publishedAt": 1777384386912,
+    "slug": "exercise-6-1",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "6.1 Exercise 6.1",
+    "topicId": "ms7bwq2hjabhsd3jf23j91hcn585qwyn",
+    "updatedAt": 1787554866101
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "06-analytical-geometry",
+    "chapterTitle": "Analytical Geometry",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Homogeneous Second-Degree Equations and Pairs of Lines",
+    "_creationTime": 1777384387719.8005,
+    "_id": "kx72yynedf4fsz7sqnbaxq35hs85q8rd",
+    "createdAt": 1777384387719,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on **homogeneous second-degree equations** representing pairs of straight lines through the origin.\n\n## Homogeneous Second-Degree Equation\n\nA **homogeneous equation of degree 2** in $x$ and $y$ has the form:\n$$ax^2 + 2hxy + by^2 = 0$$\n\nEvery such equation (with real coefficients) represents **two straight lines passing through the origin**.\n\n## Decomposing into Separate Line Equations\n\nTo find the individual lines, treat the equation as a quadratic in $m = \\frac{y}{x}$:\n$$bm^2 + 2hm + a = 0$$\nSolve for $m$ using the quadratic formula. Each value of $m$ gives a line $y = mx$ through the origin. Alternatively, factor the expression directly.\n\n## Nature of the Lines\n\nThe **discriminant** $h^2 - ab$ determines the nature of the two lines:\n\n| Condition | Nature of Lines |\n| :--- | :--- |\n| $h^2 > ab$ | Two distinct real lines |\n| $h^2 = ab$ | Two coincident (equal) lines |\n| $h^2 < ab$ | Two imaginary lines (no real slopes) |\n\n## Angle Between the Pair of Lines\n\nThe acute angle $\\theta$ between the two lines is given by:\n$$\\tan\\theta = \\left|\\frac{2\\sqrt{h^2 - ab}}{a + b}\\right|$$\n\n- If $a + b = 0$: the denominator is zero, so $\\theta = 90^\\circ$ (lines are **perpendicular**).\n- If $h^2 = ab$: the numerator is zero, so $\\theta = 0^\\circ$ (lines are **coincident**).\n\n## Condition for Perpendicular Lines\n\nThe two lines represented by $ax^2 + 2hxy + by^2 = 0$ are **perpendicular** if and only if:\n$$a + b = 0$$\n\n---\n\n# **Important Formulas**\n\n**General Form of Joint Equation:**\n$$ax^2 + 2hxy + by^2 = 0$$\n\n**Angle Between Lines:**\n$$\\tan \\theta = \\left| \\frac{2\\sqrt{h^2 - ab}}{a + b} \\right|$$\n\n**Conditions for Nature of Lines:**\n\n| Condition | Nature of Lines |\n| :--- | :--- |\n| $h^2 > ab$ | Two distinct real lines |\n| $h^2 = ab$ | Coincident lines |\n| $h^2 < ab$ | Imaginary lines (no real slope) |\n\n**Perpendicularity Condition:**\n$$a + b = 0$$\n\n**Joint Equation of Perpendicular Lines:**\n\nIf $ax^2 + 2hxy + by^2 = 0$ represents a pair of lines, the joint equation of lines through the origin **perpendicular** to them is obtained by substituting $x \\to y$, $y \\to -x$:\n$$bx^2 - 2hxy + ay^2 = 0$$\n\n---\n\n# **Worked Strategy**\n\n**Step 1 — Identify $a$, $h$, $b$:** Compare the given equation with $ax^2 + 2hxy + by^2 = 0$. Remember the coefficient of $xy$ is $2h$, not $h$.\n\n**Step 2 — Check the discriminant $h^2 - ab$:** Determine whether the lines are real/distinct, coincident, or imaginary.\n\n**Step 3 — Find individual lines:** Divide by $x^2$ and solve $b\\left(\\frac{y}{x}\\right)^2 + 2h\\left(\\frac{y}{x}\\right) + a = 0$ for $m = y/x$.\n\n**Step 4 — Find the angle:** Apply $\\tan\\theta = \\left|\\frac{2\\sqrt{h^2-ab}}{a+b}\\right|$.\n\n**Step 5 — Perpendicular joint equation:** Swap $a \\leftrightarrow b$ and negate $h$ to get $bx^2 - 2hxy + ay^2 = 0$.\n\n---\n\n# **Summary**\n\nThis exercise explores homogeneous second-degree equations $ax^2 + 2hxy + by^2 = 0$ representing pairs of straight lines through the origin. The discriminant $h^2 - ab$ classifies the lines as real/distinct, coincident, or imaginary. The angle between the lines uses the formula involving $\\sqrt{h^2-ab}$ and $a+b$. Perpendicularity is confirmed by $a+b=0$. The joint equation of perpendicular lines is found by swapping the $x^2$ and $y^2$ coefficients and reversing the sign of the $xy$ term.",
+    "publishedAt": 1777384387719,
+    "slug": "exercise-6-2",
+    "sourceRef": {
+      "blockIndex": 157,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "6.2 Exercise 6.2",
+    "topicId": "ms74hy951ytzpsaagx2xk8537h85q5rq",
+    "updatedAt": 1787554866862
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "06-analytical-geometry",
+    "chapterTitle": "Analytical Geometry",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Triangles in Coordinate Geometry",
+    "_creationTime": 1777384388518.788,
+    "_id": "kx73fa8kea66rv3xbkbkmj1ba585p3vq",
+    "createdAt": 1777384388518,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Coordinate geometry of straight lines\n- Intersection points of linear equations\n- Area of triangles using vertex coordinates\n- Centroid of a triangle (intersection of medians)\n- Circumcenter and perpendicular bisectors\n- Distance from a point to a line\n- Angle between two intersecting lines\n- Applications of linear geometry to engineering and design problems\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Area of Triangle (Coordinate Geometry):**\n$$\\text{Area} = \\frac{1}{2}\\left| x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2) \\right|$$\n\n**Distance from Point to Line:**\n$$d = \\frac{|ax_0 + by_0 + c|}{\\sqrt{a^2 + b^2}}$$\nwhere $(x_0, y_0)$ is the point and $ax + by + c = 0$ is the line.\n\n**Centroid of Triangle:**\n$$G = \\left( \\frac{x_1+x_2+x_3}{3}, \\frac{y_1+y_2+y_3}{3} \\right)$$\n\n**Angle Between Two Lines:**\n$$\\tan \\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|$$\nwhere $m_1$ and $m_2$ are the slopes of the lines.\n\n**Slope of Line:**\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$\n\n**Concurrency of Three Lines:**\nThree lines $a_1x + b_1y + c_1 = 0$, $a_2x + b_2y + c_2 = 0$, and $a_3x + b_3y + c_3 = 0$ are concurrent if the determinant of their coefficients is zero.\n\n**Homogeneous Equations and Joint Lines:**\nA homogeneous equation of degree $n$ in $x$ and $y$ always represents $n$ straight lines passing through the origin.\n\nFor the second-degree equation $ax^2 + 2hxy + by^2 = 0$:\n\nThe lines are real and distinct if $h^2 - ab > 0$.\n\nIndividual lines can be extracted by factoring or using the quadratic formula.\n\n---\n\n# **Summary**\n\nThis exercise applies coordinate geometry to solve practical problems involving triangular configurations and linear paths. Key strategies include using the determinant formula for triangular area, solving systems of linear equations to find intersection points (vertices), and calculating special points like the centroid (center of mass) and circumcenter (equidistant point). The problems emphasize converting real-world scenarios (flight paths, land boundaries, structural supports) into algebraic representations and using distance and angle formulas to verify geometric properties. Mastery of simultaneous equations and the point-to-line distance formula is essential for solving optimization and positioning problems.",
+    "publishedAt": 1777384388518,
+    "slug": "exercise-6-3",
+    "sourceRef": {
+      "blockIndex": 48,
+      "chapterNumber": 6,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "6.3 Exercise 6.3",
+    "topicId": "ms7383pr9z5ry65qk1sgcdsnph85prpe",
+    "updatedAt": 1787554867560
+  }
+]

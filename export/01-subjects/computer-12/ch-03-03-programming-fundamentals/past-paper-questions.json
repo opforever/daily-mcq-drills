@@ -1,0 +1,3848 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m170b3nc8hgss1jqf1r4v09f8n85p810",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The exponentiation operator (^) or power operator has the highest precedence among arithmetic operators in most programming languages and mathematical expressions. In some contexts, unary operators (like unary minus or logical NOT) may have equal or higher precedence depending on the language specification. However, among binary operators, exponentiation has the highest precedence, followed by multiplication and division, then addition and subtraction.",
+    "keyPoints": [
+      "Exponentiation (^) operator has the highest precedence among arithmetic operators",
+      "Unary operators may have equal or higher precedence in some languages",
+      "Operator precedence determines the order of evaluation in expressions",
+      "Precedence rules ensure consistent and predictable expression evaluation",
+      "Different programming languages may have slightly different precedence rules"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The exponentiation operator (^) or power operator has the highest precedence among arithmetic operators in most programming languages and mathematical expressions. In some contexts, unary operators (like unary minus or logical NOT) may have equal or higher precedence depending on the language specification. However, among binary operators, exponentiation has the highest precedence, followed by multiplication and division, then addition and subtraction.",
+    "options": [
+      {
+        "key": "A",
+        "text": "!"
+      },
+      {
+        "key": "B",
+        "text": "++"
+      },
+      {
+        "key": "C",
+        "text": "*"
+      },
+      {
+        "key": "D",
+        "text": "&&"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Which of the following operators has highest precedence?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m170cajdqcp485c0x7fy7hv5gn85pcqv",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "A valid case in a switch structure must be a constant value (literal or named constant) that matches the data type of the switch expression. Valid cases include integer constants, character constants, or enumeration constants. Each case must be followed by a colon (:) and can contain one or more statements. For example: case 1:, case 'A':, or case MONDAY: are valid cases. The case value must be unique within the switch statement, and a break statement is typically used to exit the case.",
+    "keyPoints": [
+      "Case must contain a constant value (not a variable)",
+      "Case value must match the switch expression's data type",
+      "Each case is followed by a colon (:)",
+      "Case statements are executed sequentially until a break is encountered",
+      "Multiple statements can follow a case",
+      "Each case value must be unique within the switch structure",
+      "Common valid cases: integer literals, character literals, and named constants"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A valid case in a switch structure must be a constant value (literal or named constant) that matches the data type of the switch expression. Valid cases include integer constants, character constants, or enumeration constants. Each case must be followed by a colon (:) and can contain one or more statements. For example: case 1:, case 'A':, or case MONDAY: are valid cases. The case value must be unique within the switch statement, and a break statement is typically used to exit the case.",
+    "options": [
+      {
+        "key": "A",
+        "text": "case 'ab' :"
+      },
+      {
+        "key": "B",
+        "text": "case $x > 10$ :"
+      },
+      {
+        "key": "C",
+        "text": "case 30:"
+      },
+      {
+        "key": "D",
+        "text": "case 2.5:"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Which of the following is a valid case in switch structure?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m171v6bn205ypdac9smcwcr3s585qkj3",
+    "correctKey": "B",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "a++; can also be written as: a = a + 1; or a += 1;",
+    "keyPoints": [
+      "a++ is the post-increment operator",
+      "a = a + 1 is the explicit assignment form that adds 1 to the variable",
+      "a += 1 is the compound assignment operator form",
+      "All three forms increment the value of variable 'a' by 1",
+      "In standalone statements, a++; and a = a + 1; produce the same result"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "a++; can also be written as: a = a + 1; or a += 1;",
+    "options": [
+      {
+        "key": "A",
+        "text": "$a=+1$;"
+      },
+      {
+        "key": "B",
+        "text": "$a+=1$;"
+      },
+      {
+        "key": "C",
+        "text": "$1+=a$;"
+      },
+      {
+        "key": "D",
+        "text": "$1=+a$;"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "$a++;$ can also be written as:",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m1763dfamtxwj0vw9bdx28qq1n85pqgf",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The element `st(){}` is a default constructor of the class `st`. It is a special member function that is automatically called when an object of the class is created. The empty braces `{}` indicate that this constructor has no parameters and performs no initialization operations (empty body). If no constructor is explicitly defined in a class, the compiler generates a default constructor automatically.",
+    "keyPoints": [
+      "A constructor is a special member function with the same name as the class",
+      "The default constructor takes no parameters",
+      "It is called automatically when an object of the class is instantiated",
+      "The empty body `{}` means no explicit initialization is performed",
+      "If not explicitly defined, the compiler generates a default constructor automatically",
+      "Constructors are used to initialize object members and allocate resources"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The element `st(){}` is a default constructor of the class `st`. It is a special member function that is automatically called when an object of the class is created. The empty braces `{}` indicate that this constructor has no parameters and performs no initialization operations (empty body). If no constructor is explicitly defined in a class, the compiler generates a default constructor automatically.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Object"
+      },
+      {
+        "key": "B",
+        "text": "Access specifier"
+      },
+      {
+        "key": "C",
+        "text": "Constructor"
+      },
+      {
+        "key": "D",
+        "text": "Destructor"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "In the given C++ code `Class st { ... };`, the element `st(){}` is:",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m176n3vfn39eabzany125yp73n85qaqa",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Function overloading allows multiple functions with the same name but different parameter lists",
+      "The compiler distinguishes functions based on their signatures (number, type, or order of parameters)",
+      "Advantage 1: Improved code readability and intuitive interface",
+      "Advantage 2: Enhanced code reusability and reduced duplication",
+      "Overloaded functions must differ in their parameter specifications"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Function overloading is a feature that allows a programmer to define multiple functions with the same name but different parameter lists (different number, type, or order of parameters) within the same scope. The compiler distinguishes between overloaded functions based on their signatures. When an overloaded function is called, the compiler selects the appropriate function version based on the arguments provided.\n\nTwo advantages of function overloading are:\n1. **Improved Code Readability**: Using the same function name for similar operations makes the code more intuitive and easier to understand, as related operations share a common name.\n2. **Enhanced Code Reusability**: Programmers can use the same function name for different data types or parameter combinations, reducing code duplication and making the codebase more maintainable.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "What is meant by **function overloading**? Enlist two advantages.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m170pj0z5c4hhehnsrcq5p0b4585q8ts",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Variable names cannot start with a digit; they must begin with a letter (a-z, A-Z) or underscore (_)",
+      "Reserved keywords (like void, int, if, while) are protected words and cannot be used as variable names",
+      "Variable names cannot contain special characters such as parentheses, spaces, operators, or punctuation marks",
+      "Valid variable names can only include letters, digits, and underscores after the first character"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "These are invalid variable names because: (1) `3xy` starts with a digit (3), and variable names must begin with a letter or underscore, not a number. (2) `void` is a reserved keyword in programming languages like C/C++ and Java, used to declare functions with no return type or parameters with no type, so it cannot be used as a variable name. (3) `your(age)` contains parentheses, which are special characters not allowed in variable names. Variable names can only contain letters, digits, and underscores, with no spaces or special symbols like parentheses, brackets, or operators.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Why are `3xy`, `void` and `your(age)` invalid variable names?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m179zm2gznfawwk3h6xyc9kmns85qa7m",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Private members are accessible only within the same class; public members are accessible from anywhere",
+      "Private provides data encapsulation and protects internal implementation details",
+      "Public members form the interface of a class for external access",
+      "Private members cannot be directly accessed by derived classes; public members are inherited",
+      "Private enhances security and data integrity; public enables necessary functionality exposure",
+      "Private is used for helper methods and sensitive data; public is used for main operations and properties"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Private and public are access specifiers that control the visibility of class members. Private members can only be accessed within the same class, providing data encapsulation and security. Public members can be accessed from anywhere, including outside the class and by derived classes. Private is used to hide implementation details and protect data integrity, while public is used for interface methods that external code needs to access. Private members cannot be inherited directly by derived classes, whereas public members are inherited and accessible in derived classes. Using private enhances security and maintainability, while public provides necessary accessibility for class functionality.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "Compare **private** and **public** access specifiers.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m1790j8ypxtdcfytwq8c0kryn185pd5m",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Constructor initializes objects; destructor cleans up and deallocates resources",
+      "Constructor called at object creation; destructor called at object destruction",
+      "Constructor can be overloaded with parameters; destructor cannot be overloaded and takes no parameters",
+      "Constructor allocates memory; destructor releases memory and performs cleanup",
+      "Only one destructor allowed per class; multiple constructors possible through overloading"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A constructor is a special member function that initializes an object when it is created, while a destructor is a special member function that deallocates memory and cleans up resources when an object is destroyed. Key differences include: (1) Constructor is called automatically when an object is instantiated, whereas destructor is called automatically when an object goes out of scope or is explicitly deleted. (2) Constructor can have parameters to initialize member variables with different values, while destructor takes no parameters. (3) A class can have multiple constructors (overloading), but only one destructor is allowed per class. (4) Constructor allocates memory and initializes data members, while destructor releases dynamically allocated memory and performs cleanup operations.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "session": "annual",
+    "stem": "How does **constructor** differ from **destructor**? (any three differences)",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m176whbvats8rrtxmwvt39kt9h85p1km",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Formal parameters are declared in function definition; actual parameters are passed during function call",
+      "Formal parameters are local to function; actual parameters maintain their original scope",
+      "Formal parameters create new memory locations; actual parameters use existing values or references",
+      "Data types and number must match between formal and actual parameters",
+      "Formal parameters are placeholders; actual parameters are concrete values or variables"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Formal parameters are variables declared in the function definition that act as placeholders, while actual parameters are the real values or variables passed to the function when it is called. Formal parameters exist only during function execution and are local to the function, whereas actual parameters retain their original scope and values. The number and data types of formal parameters must match the actual parameters, but formal parameters create new memory locations while actual parameters use existing memory locations or values.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "Write down three differences between **formal** and **actual** parameters.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m174vzwn08n6mmck0wh36ra1j585q0ss",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "cin stops reading at whitespace characters",
+      "cin.get() reads the entire line including spaces",
+      "cin.get() continues until newline character is encountered",
+      "cin is suitable for single words only",
+      "cin.get() is necessary for multi-word string input",
+      "Using cin for strings with spaces results in incomplete input"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "cin.get() is used instead of cin when working with strings because cin stops reading input at the first whitespace character (space, tab, or newline), whereas cin.get() reads the entire line including spaces until it encounters a newline character. This makes cin.get() suitable for reading complete strings with spaces, while cin is only appropriate for reading single words without spaces.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "session": "annual",
+    "stem": "Why is `cin.get()` used instead of `cin` when working with strings?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m177n8b26zgk7npj8s28n2x4ps85p0pb",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Loop executes 3 times (i=1, 2, 3)",
+      "Each element is double the previous element",
+      "Only a[i] values are printed, not a[0]",
+      "Output appears on separate lines due to endl",
+      "Array stores: a[0]=2, a[1]=4, a[2]=8, a[3]=16"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The output will be:\n4\n8\n16\n\nExplanation: The loop runs from i=1 to i=3 (i<4). At each iteration, a[i] is calculated as a[i-1]*2 and printed:\n- i=1: a[1] = a[0]*2 = 2*2 = 4 (printed)\n- i=2: a[2] = a[1]*2 = 4*2 = 8 (printed)\n- i=3: a[3] = a[2]*2 = 8*2 = 16 (printed)",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "23",
+    "session": "annual",
+    "stem": "Predict the output: \n`int a[5], i;`\n`a[0]=2;`\n`for(i=1; i<4; i++) {`\n`a[i]=a[i-1]*2;`\n`cout << a[i] << endl;`\n}",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m179fx961e79sarfyr1mh1ez7d85p6n3",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Five process states: New, Ready, Running, Waiting/Blocked, Terminated",
+      "New state: process created but not admitted to ready queue",
+      "Ready state: process waiting for CPU allocation",
+      "Running state: process executing on CPU",
+      "Waiting state: process waiting for I/O or events",
+      "Terminated state: process completed or terminated",
+      "Threads share memory space with parent process",
+      "Threads are lightweight compared to processes",
+      "Faster context switching between threads than processes",
+      "Threads communicate efficiently through shared memory",
+      "Multiple threads execute concurrently within single process"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "A process is a program in execution. The five states of a process are: (1) New State - when a process is created but not yet admitted to the ready queue; (2) Ready State - when a process is waiting in the ready queue for CPU allocation; (3) Running State - when a process is currently executing on the CPU; (4) Waiting/Blocked State - when a process is waiting for I/O operations or other events to complete; (5) Terminated State - when a process has completed execution or been terminated. A thread is a lightweight unit of execution within a process. Five features of threads with respect to processes are: (1) Threads share the same memory space and resources of a parent process, unlike processes which have separate memory spaces; (2) Threads are lighter in weight and require less overhead to create and manage compared to processes; (3) Context switching between threads is faster than between processes because threads share the same address space; (4) Threads within the same process can communicate more easily and efficiently through shared memory without requiring inter-process communication mechanisms; (5) Multiple threads can run concurrently within a single process, allowing parallel execution while maintaining a single process context.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Explain five states of a **process**. Also discuss five features of **thread** with respect to process.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17cz5y6p1a7crs3pg75xxdwas85qv02",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Inheritance allows derived classes to reuse code from base classes without duplication",
+      "Child classes can override methods to provide specialized behavior while maintaining core functionality",
+      "Polymorphism enables multiple forms of the same method across different classes",
+      "Method overriding (runtime) and method overloading (compile-time) provide different ways to use functionality",
+      "These features reduce code redundancy and improve code maintainability",
+      "Generic code can work with multiple class types through polymorphic behavior",
+      "Both features support the DRY (Don't Repeat Yourself) principle in programming"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "Two key features of OOP that enable code reusability and provide multiple ways of functionality usage are:\n\n1. **Inheritance**: Inheritance allows a derived class to inherit properties and methods from a base class. This enables code reusability by allowing multiple classes to share common functionality without rewriting the same code. Child classes can extend or override inherited methods to provide specialized behavior while maintaining the core functionality.\n\n2. **Polymorphism**: Polymorphism means 'many forms' and allows objects of different classes to be treated through a common interface. It provides multiple ways of using functionality through method overriding (runtime polymorphism) and method overloading (compile-time polymorphism). This enables the same method name to perform different operations in different classes, promoting code flexibility and reusability.\n\nTogether, these features reduce code duplication, improve maintainability, and allow developers to write generic code that works with multiple class types, making applications more scalable and easier to extend.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Discuss two features of **OOP (Object Oriented Programming)** that enables code reusability in different classes and provides multiple ways of functionality usage.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17cv4rftgq39kc60m7w91vhe185qmb8",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Program reads a single character using cin",
+      "Uses if-else conditions to check vowels (a, e, i, o, u) and consonants",
+      "Checks for lowercase letters using ASCII range 'a' to 'z'",
+      "Checks for uppercase letters using ASCII range 'A' to 'Z'",
+      "Outputs appropriate classification for both vowel/consonant and case type",
+      "Includes necessary headers (iostream) and uses std namespace",
+      "Returns 0 to indicate successful program execution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    char ch;\n    \n    cout << \"Enter an alphabet: \";\n    cin >> ch;\n    \n    // Check if vowel or consonant\n    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||\n        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {\n        cout << \"Vowel\" << endl;\n    } else {\n        cout << \"Consonant\" << endl;\n    }\n    \n    // Check if lowercase or uppercase\n    if (ch >= 'a' && ch <= 'z') {\n        cout << \"Lowercase\" << endl;\n    } else if (ch >= 'A' && ch <= 'Z') {\n        cout << \"Uppercase\" << endl;\n    }\n    \n    return 0;\n}\n```",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Write a C++ program that reads an alphabet and prints whether it is:\na. Vowel or consonant\nb. Lowercase or uppercase",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17a3f3rb9p61dxyme6ejaemkh85qeqp",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Use 'inline' keyword before function definition to request compiler to replace function call with function body",
+      "Inline functions reduce function call overhead by substituting code at compile time",
+      "The greater() function uses ternary operator (a > b) ? a : b to return the larger value",
+      "Input two numbers using cin from user",
+      "Display the result using cout",
+      "Inline functions are suitable for small, frequently called functions",
+      "The function returns an integer value representing the greater number"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "#include <iostream>\nusing namespace std;\n\ninline int greater(int a, int b) {\n    return (a > b) ? a : b;\n}\n\nint main() {\n    int num1, num2;\n    \n    cout << \"Enter first number: \";\n    cin >> num1;\n    \n    cout << \"Enter second number: \";\n    cin >> num2;\n    \n    cout << \"Greater number is: \" << greater(num1, num2) << endl;\n    \n    return 0;\n}\n\n/* OUTPUT:\nEnter first number: 15\nEnter second number: 23\nGreater number is: 23\n*/",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Write a program to input two numbers and display the greater number using **inline function**.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m1759ngv06x5qa9skexq0gn1t185pky9",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The technique that reuses an existing class to build a new class is known as Inheritance. Inheritance is a fundamental concept in Object-Oriented Programming (OOP) where a new class (called a derived class or subclass) inherits properties and methods from an existing class (called a base class or superclass). This allows code reuse and establishes a hierarchical relationship between classes.",
+    "keyPoints": [
+      "Inheritance is the OOP technique for class reuse",
+      "A new class (subclass/derived class) inherits from an existing class (superclass/base class)",
+      "It promotes code reuse and reduces redundancy",
+      "It establishes an 'is-a' relationship between classes",
+      "The subclass can override or extend the functionality of the superclass"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The technique that reuses an existing class to build a new class is known as Inheritance. Inheritance is a fundamental concept in Object-Oriented Programming (OOP) where a new class (called a derived class or subclass) inherits properties and methods from an existing class (called a base class or superclass). This allows code reuse and establishes a hierarchical relationship between classes.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Polymorphism"
+      },
+      {
+        "key": "B",
+        "text": "Inheritance"
+      },
+      {
+        "key": "C",
+        "text": "Data hiding"
+      },
+      {
+        "key": "D",
+        "text": "Function overloading"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "The technique that reuses an existing class to build a new class is known as:",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m173t7g52db713jj23m6669vcs85qht3",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The program in execution is called a **process**. A process is an instance of a program that is currently running in the computer's memory. It includes the program code, data, and the current state of execution. Each process has its own memory space, registers, and other resources allocated by the operating system.",
+    "keyPoints": [
+      "A process is a running instance of a program",
+      "It exists in the computer's memory during execution",
+      "Each process has its own allocated resources and memory space",
+      "The operating system manages and schedules processes",
+      "A process is different from a program (which is static code on disk)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The program in execution is called a **process**. A process is an instance of a program that is currently running in the computer's memory. It includes the program code, data, and the current state of execution. Each process has its own memory space, registers, and other resources allocated by the operating system.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Web browser"
+      },
+      {
+        "key": "B",
+        "text": "File"
+      },
+      {
+        "key": "C",
+        "text": "Kernel"
+      },
+      {
+        "key": "D",
+        "text": "Process"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "The program in execution is called:",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m177sv5h0mpbyzt3ymtky05be585qt8p",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A member function preceded by a tilde sign (~) is called a destructor. A destructor is a special member function in C++ that is automatically called when an object is destroyed or goes out of scope. It is used to deallocate memory and clean up resources that were allocated by the constructor or during the object's lifetime.",
+    "keyPoints": [
+      "Destructor is denoted by tilde (~) symbol followed by class name",
+      "It is automatically invoked when an object is destroyed or goes out of scope",
+      "Used for cleanup and deallocation of dynamically allocated memory",
+      "Each class can have only one destructor",
+      "Destructors do not take any parameters and do not return any value"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A member function preceded by a tilde sign (~) is called a destructor. A destructor is a special member function in C++ that is automatically called when an object is destroyed or goes out of scope. It is used to deallocate memory and clean up resources that were allocated by the constructor or during the object's lifetime.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Polymorphism"
+      },
+      {
+        "key": "B",
+        "text": "Destructor"
+      },
+      {
+        "key": "C",
+        "text": "Object"
+      },
+      {
+        "key": "D",
+        "text": "Constructor"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "A type of member function that is preceded by tilde sign `~` is called:",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m1709w2cyjssg82kvfwrdd70kd85p57w",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The parameters used in function call are called arguments (or actual parameters). These are the actual values passed to a function when it is called, as opposed to the formal parameters which are the variable names defined in the function definition.",
+    "keyPoints": [
+      "Arguments are the actual values passed during function call",
+      "Also known as actual parameters",
+      "Different from formal parameters which are defined in function definition",
+      "Arguments provide specific data to the function for processing",
+      "The number and type of arguments should match the function's formal parameters"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The parameters used in function call are called arguments (or actual parameters). These are the actual values passed to a function when it is called, as opposed to the formal parameters which are the variable names defined in the function definition.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Local parameters"
+      },
+      {
+        "key": "B",
+        "text": "Formal parameters"
+      },
+      {
+        "key": "C",
+        "text": "Global parameters"
+      },
+      {
+        "key": "D",
+        "text": "Actual parameters"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "The parameters used in function call are called:",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m174n6q570j4apx73g7pfdctn985q413",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The ability to use an operator or function in multiple ways is called **Polymorphism**. Polymorphism is a core concept in object-oriented programming that allows objects or functions to take multiple forms. It enables the same operator or function name to perform different operations depending on the context, such as the data types of operands or the number of arguments passed.",
+    "keyPoints": [
+      "Polymorphism means 'many forms'",
+      "Allows operators/functions to work with different data types",
+      "Two main types: compile-time (operator overloading) and runtime (method overriding)",
+      "Enables code reusability and flexibility",
+      "Core feature of object-oriented programming"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The ability to use an operator or function in multiple ways is called **Polymorphism**. Polymorphism is a core concept in object-oriented programming that allows objects or functions to take multiple forms. It enables the same operator or function name to perform different operations depending on the context, such as the data types of operands or the number of arguments passed.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Virtual function"
+      },
+      {
+        "key": "B",
+        "text": "Inheritance"
+      },
+      {
+        "key": "C",
+        "text": "Polymorphism"
+      },
+      {
+        "key": "D",
+        "text": "Data hiding"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "The ability to use an operator or function in multiple ways is called:",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m174h593tz1r3f1e7dhsa6dv9x85qx3z",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Process has separate memory space; thread shares memory with other threads",
+      "Process creation is slower and more resource-intensive; thread creation is faster",
+      "Processes need IPC for communication; threads communicate via shared memory",
+      "Threads are lightweight; processes are heavyweight",
+      "Failure of one thread can crash entire process; process failure is isolated"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three key differences between process and thread are:\n\n1. **Memory Space**: Each process has its own independent memory space (code, data, heap, stack), while threads within the same process share the same memory space and resources.\n\n2. **Creation and Overhead**: Creating a new process is more time-consuming and resource-intensive, whereas creating a thread is faster and requires fewer resources since threads share the parent process's resources.\n\n3. **Communication**: Processes require inter-process communication (IPC) mechanisms like pipes, sockets, or message queues to communicate with each other. Threads can communicate directly through shared memory and variables within the same process, making communication simpler and faster.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Write down any three differences between process and thread.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17ed2sajh78mmygsf38m1pwtd85q4z7",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Public members are accessible from same class, derived classes, and outside the class",
+      "Private members are accessible only within the same class",
+      "Private members cannot be accessed by derived classes or code outside the class",
+      "Public provides unrestricted access while Private provides restricted access",
+      "This is fundamental to encapsulation and data hiding in OOP"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Access Specifiers Table:\n\n| Access Level | Same Class | Derived Class | Outside Class |\n|---|---|---|---|\n| Public | Yes | Yes | Yes |\n| Private | Yes | No | No |\n\nExplanation:\n- Public members: Accessible everywhere (same class, derived class, and outside the class)\n- Private members: Accessible only within the same class where they are declared",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "session": "annual",
+    "stem": "Fill in the following table with Yes/No regarding Access Specifiers:\n1. Access of members in same class (Public/Private)\n2. Access of members in derived class (Public/Private)\n3. Access of members outside the class (Public/Private)",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17fw46t9zv3gbweyx5pqf93ex85qfyn",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Local variables: scope limited to function/block, created and destroyed with each call, stored on stack",
+      "Static variables: retain value between function calls, initialized only once, stored in data segment",
+      "Local variables: new instance created each time function is called",
+      "Static variables: single persistent copy throughout program execution",
+      "Local variables: automatic storage duration, static variables: static storage duration",
+      "Memory allocation differs: stack vs data segment"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Local variables are declared inside a function or block and exist only during the execution of that function or block. They are created when the function is called and destroyed when it returns. Static variables are declared with the 'static' keyword and retain their value between function calls. They are initialized only once and persist throughout the program's execution. Local variables are stored on the stack, while static variables are stored in the data segment of memory. Each function call creates new local variables, but static variables maintain a single copy in memory.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "Differentiate between local and static variables.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m172tc86cbc8khjqjbpzj34nfh85pwgs",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Data hiding uses access modifiers (private, public) to control access to class attributes",
+      "Private attributes cannot be accessed directly from outside the class",
+      "Public methods (getters/setters) provide controlled access to private data",
+      "Protects data integrity by validating changes before they occur",
+      "Prevents unauthorized or accidental modification of sensitive data",
+      "Example: BankAccount with private balance and public deposit/withdraw methods",
+      "Also known as encapsulation in OOP"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Data hiding is a fundamental concept of object-oriented programming that restricts direct access to an object's internal data by making attributes private. Only authorized methods (getters and setters) can access or modify these attributes. This protects data integrity and prevents unauthorized or incorrect modifications. Example: In a BankAccount class, the balance attribute is declared private. Users cannot directly change the balance; instead, they must use public methods like deposit() and withdraw() which validate the transaction before modifying the balance. This ensures that invalid operations (like withdrawing more than available balance) cannot occur.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "24",
+    "session": "annual",
+    "stem": "Briefly explain the concept of data hiding in classes using an example.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17awezy4t3294qby082mded1n85p1nb",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Function overloading improves readability by using same function name for similar operations",
+      "Reduces code duplication and enhances reusability across different data types",
+      "Overloading increases code complexity and can cause confusion about which version is invoked",
+      "Debugging becomes more difficult with multiple overloaded versions",
+      "Compiler error messages may be ambiguous when dealing with overloaded functions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Advantages of Function Overloading:\n1. Improved Code Readability: Functions with the same name performing similar operations make code more intuitive and easier to understand. Programmers can use the same function name for related operations without memorizing different names.\n2. Enhanced Code Reusability: Overloading allows the same function name to be used for different data types or parameter counts, reducing code duplication and making the codebase more maintainable.\n\nDisadvantage of Function Overloading:\n1. Increased Complexity: Function overloading can make the code more complex and harder to debug. It may confuse programmers about which overloaded version is being called, and compiler errors can be difficult to interpret.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "session": "annual",
+    "stem": "Write down any two advantages and one disadvantage of function overloading.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m1712bnr7jrzz7kqm2v46701ed85qejr",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Include necessary header files (iostream)",
+      "Use namespace std for standard library",
+      "Declare variables for side, area, and perimeter as float",
+      "Accept side length as input from user using cin",
+      "Calculate area using formula: side × side",
+      "Calculate perimeter using formula: 4 × side",
+      "Display results using cout",
+      "Use endl for line breaks",
+      "Return 0 to indicate successful program execution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "#include <iostream>\nusing namespace std;\n\nint main() {\n    float side;\n    float area, perimeter;\n    \n    cout << \"Enter the side of square: \";\n    cin >> side;\n    \n    area = side * side;\n    perimeter = 4 * side;\n    \n    cout << \"Area of square: \" << area << endl;\n    cout << \"Perimeter of square: \" << perimeter << endl;\n    \n    return 0;\n}\n\nOutput:\nEnter the side of square: 5\nArea of square: 25\nPerimeter of square: 20",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Write down a C++ program that finds the area and perimeter of a square.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m1703eem3qvesrkgbyqfjk0ymd85q2sy",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Class with two private integer data members (num1, num2)",
+      "Constructor initializes both members to 100",
+      "Member function avg() calculates and displays the average of the two data members",
+      "Average of 100 and 100 is 100",
+      "Object created in main() and avg() function called to display result",
+      "Program uses iostream for input/output operations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "```cpp\n#include <iostream>\nusing namespace std;\n\nclass Average {\nprivate:\n    int num1;\n    int num2;\n\npublic:\n    Average() {\n        num1 = 100;\n        num2 = 100;\n    }\n    \n    void avg() {\n        int average = (num1 + num2) / 2;\n        cout << \"Average: \" << average << endl;\n    }\n};\n\nint main() {\n    Average obj;\n    obj.avg();\n    return 0;\n}\n```\n\nOutput:\nAverage: 100",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Write a C++ program that contains two integer data members which are initialized to 100 when an object is created. It has a member function `avg()` that displays the average of data members.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17esn9s45d2mrb7bkbbaq5bkd85q28z",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Constant: value cannot be changed after initialization; Variable: value can be changed during execution",
+      "Constants are declared using 'const' keyword in C++",
+      "Variables are declared without 'const' keyword",
+      "Constants provide data protection and prevent accidental modification",
+      "Variables provide flexibility to store changing data",
+      "Example: const int MAX = 100; vs int count = 0;",
+      "Constants are useful for fixed values like PI, gravity, or maximum limits",
+      "Both require declaration with data type before use"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "A constant is a named memory location that stores a value which cannot be changed after initialization, while a variable is a named memory location that stores a value which can be changed during program execution. Example of constant: const int PI = 3.14; (in C++) - once assigned, PI cannot be modified. Example of variable: int age = 20; age = 25; (in C++) - the value of age can be changed from 20 to 25. Another example: const float GRAVITY = 9.8; cannot be altered, but float temperature = 30; temperature = 35; can be altered. Constants are used for values that should remain fixed throughout the program, while variables are used for values that need to change.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Explain the difference between constant and variable with the help of programming examples.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m179myt0xzbehzgc6am4nkjjx185qm93",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Continue statement skips remaining code in current loop iteration and moves to next iteration",
+      "Continue is used within loops (for, while, do-while)",
+      "Exit function terminates entire program execution",
+      "Exit() requires cstdlib header file",
+      "Exit(0) indicates successful termination, exit(1) or other non-zero values indicate error",
+      "Continue affects only the current loop, while exit() terminates the entire program",
+      "Both are control flow statements used for different purposes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "The continue statement and exit function are control flow mechanisms in C++:\n\n**Continue Statement:**\nThe continue statement skips the remaining iterations of the current loop and jumps to the next iteration. It is used to bypass certain conditions within a loop.\n\nExample:\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    for(int i = 1; i <= 5; i++) {\n        if(i == 3) {\n            continue;  // Skip when i equals 3\n        }\n        cout << i << \" \";\n    }\n    return 0;\n}\n```\nOutput: 1 2 4 5\n\n**Exit Function:**\nThe exit() function terminates the program immediately and returns control to the operating system. It accepts an integer argument (0 for success, non-zero for error).\n\nExample:\n```cpp\n#include <iostream>\n#include <cstdlib>\nusing namespace std;\nint main() {\n    int num;\n    cout << \"Enter a number: \";\n    cin >> num;\n    if(num < 0) {\n        cout << \"Negative number not allowed!\" << endl;\n        exit(1);  // Exit with error code 1\n    }\n    cout << \"Number is: \" << num << endl;\n    return 0;\n}\n```\nIf negative number is entered, the program terminates immediately.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Explain the use of following in C++ by using examples:\n- Continue statement\n- Exit function",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m176hpj77wc405sktbd16d89zx85qzvq",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Functions promote code reusability and reduce redundancy",
+      "Functions improve program modularity and organization",
+      "Functions enhance code maintainability and debugging",
+      "Function definition includes return type, name, parameters, and body with statements",
+      "Function definition specifies the implementation of what the function does",
+      "Function call executes the function by using its name with arguments",
+      "Function call transfers control to the function and returns after execution",
+      "Parameters in definition receive values from arguments in function call"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "Functions are reusable blocks of code that perform specific tasks. Their importance includes: (1) Code reusability - functions can be called multiple times without rewriting code; (2) Modularity - programs become organized and easier to manage; (3) Maintainability - changes need to be made in only one place; (4) Readability - code becomes clearer and easier to understand; (5) Debugging - errors are easier to locate and fix; (6) Abstraction - complex operations are hidden behind simple function names.\n\nFunction Definition: A function definition specifies what the function does. It includes the return type, function name, parameters (if any) in parentheses, and the function body enclosed in curly braces. Syntax: returnType functionName(parameterList) { statements; return value; }\n\nFunction Call: A function call is the statement that executes the function. It consists of the function name followed by parentheses containing arguments (if any). When a function is called, control transfers to the function, executes its statements, and returns to the calling point. Syntax: functionName(arguments);",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Write down the importance of using functions in C++. Also explain the following components of function:\n- Function definition\n- Function call",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m173tjga48qz99bc8j1g8enzhs85qmjr",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Program takes a positive integer as input using cin",
+      "Boolean variable isPrime initialized to true",
+      "Special case handled: numbers <= 1 are neither prime nor composite",
+      "Loop runs from 2 to square root of the number (i*i <= num optimization)",
+      "If number is divisible by any i, it is composite and loop breaks",
+      "Output displays whether number is prime or composite",
+      "Time complexity is O(√n) which is efficient"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int num;\n    bool isPrime = true;\n    \n    cout << \"Enter a positive integer: \";\n    cin >> num;\n    \n    if (num <= 1) {\n        cout << num << \" is neither prime nor composite.\" << endl;\n        return 0;\n    }\n    \n    for (int i = 2; i * i <= num; i++) {\n        if (num % i == 0) {\n            isPrime = false;\n            break;\n        }\n    }\n    \n    if (isPrime) {\n        cout << num << \" is a prime number.\" << endl;\n    } else {\n        cout << num << \" is a composite number.\" << endl;\n    }\n    \n    return 0;\n}",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Write a C++ program that inputs a positive integer and prints whether it is prime or composite.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m170tcvf6bp03hhvb60jb0cga585qjd1",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Function signature includes return type, function name, and parameter list",
+      "Signature helps compiler verify function calls match definition",
+      "Modularity breaks complex programs into manageable pieces",
+      "Reusability allows functions to be called multiple times",
+      "Abstraction hides implementation details",
+      "Easier debugging by isolating errors within functions",
+      "Functions reduce code duplication and improve maintainability"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "A function signature is the declaration of a function that includes its return type, function name, and parameter list (types and names). It defines how a function can be called and what it returns. For example, in 'int add(int a, int b);', the signature consists of the return type 'int', the name 'add', and parameters 'int a, int b'. The signature helps the compiler verify that function calls match the function definition.\n\nFour advantages of using functions in C++ are:\n\n1. Modularity: Functions break down complex programs into smaller, manageable pieces, making code easier to understand and maintain.\n\n2. Reusability: Once a function is written, it can be called multiple times from different parts of the program, avoiding code duplication.\n\n3. Abstraction: Functions hide implementation details and allow programmers to focus on what a function does rather than how it does it.\n\n4. Easier Debugging: Since functions are independent units, errors can be isolated and fixed more easily within specific functions rather than searching through entire programs.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Explain the concept of function signature. Also write down any four advantages of using functions in C++.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17913gd5q2q5gews27297njah8e2tbw",
+    "correctKey": "B",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "A programming paradigm's main purpose is reducing complexity by structuring code into styles/methodologies.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase code length"
+      },
+      {
+        "key": "B",
+        "text": "Complexity reduction"
+      },
+      {
+        "key": "C",
+        "text": "Eliminate bugs"
+      },
+      {
+        "key": "D",
+        "text": "Improve hardware performance"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Main purpose of the programming paradigm is ____.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m173m67t6hq4t8qzhdtpzf5yb98e3fq0",
+    "correctKey": "B",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Functional programming emphasizes functions that avoid changing state.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Procedural"
+      },
+      {
+        "key": "B",
+        "text": "Functional"
+      },
+      {
+        "key": "C",
+        "text": "Object-oriented"
+      },
+      {
+        "key": "D",
+        "text": "Structural"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "____ programming paradigm emphasizes the use of functions without changing state.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17ezbdc93k7c3tn28qx4m0eyn8e3nfb",
+    "correctKey": "C",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "OOP revolves around objects and classes representing real-world entities.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Data structures"
+      },
+      {
+        "key": "B",
+        "text": "Functions"
+      },
+      {
+        "key": "C",
+        "text": "Objects"
+      },
+      {
+        "key": "D",
+        "text": "Variables"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Object-Oriented Programming primarily revolves around ____ of the following.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m175t3t7yhk2s1bgrcx0hs0c2h8e2nkj",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A programming paradigm is a style/methodology for structuring code (e.g. procedural, functional, OOP). It matters because choosing the right paradigm makes software easier to design, understand, and maintain.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Elaborate programming language paradigm and why is it important for software development?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17cz2se2pw4cn6s4bbc1ktjm98e2rp7",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Complexity reduction means breaking a hard problem into smaller, manageable pieces. Dividing code into modules lets each module be developed, tested, and understood independently, making the whole program easier to manage.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "How do you interpret the concept of complexity reduction in programming? How does dividing code into modules help manage complexity?",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-1-the-programming-paradigm",
+    "topicTitle": "3.1 The Programming Paradigm",
+    "_id": "m17fsz2p89ry23z9qqb0agncmx8e29ge",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Functional programming builds programs from functions that avoid changing state, favoring immutability. OOP organizes code around objects and classes that bundle data and behavior together, and typically allows mutable state.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Compare Functional Programming and Object-Oriented Programming (OOP) paradigms. Enlist main differences in their approach to problem-solving.",
+    "topicId": "ms7fyavmc701jsk0kbsg30xgbd85ppes"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1745fy2d6ktcedk8s49qjrfex85py48",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The escape sequence used to play a beep sound during execution is \\a (backslash followed by the letter 'a'). This is known as the alert or bell character. When this escape sequence is encountered in a program, it produces an audible beep sound on the system speaker.",
+    "keyPoints": [
+      "\\a is the escape sequence for beep/alert sound",
+      "It is also called the bell character",
+      "When executed, it produces an audible sound from the system speaker",
+      "It is commonly used in C++ and other programming languages to alert the user"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The escape sequence used to play a beep sound during execution is \\a (backslash followed by the letter 'a'). This is known as the alert or bell character. When this escape sequence is encountered in a program, it produces an audible beep sound on the system speaker.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$'\\b'$"
+      },
+      {
+        "key": "B",
+        "text": "$'\\r'$"
+      },
+      {
+        "key": "C",
+        "text": "$'\\n'$"
+      },
+      {
+        "key": "D",
+        "text": "$'\\a'$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Which of the following escape sequences is used to play a beep sound during execution?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m172v9km5pfpzeh0se6184tgvd85q7g5",
+    "correctKey": "C",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The statement `for(int i = 0; i < 10; i++)` will cause the loop body to execute ten times. The loop initializes i to 0, continues while i is less than 10, and increments i by 1 after each iteration. This results in exactly 10 executions (i = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9).",
+    "keyPoints": [
+      "for loop with condition i < 10 executes exactly 10 times",
+      "Loop counter starts at 0 and increments by 1 each iteration",
+      "The condition i < 10 allows iterations when i equals 0 through 9",
+      "Alternative forms like for(int i = 1; i <= 10; i++) also execute 10 times",
+      "while(i < 10) with proper initialization and increment also works"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The statement `for(int i = 0; i < 10; i++)` will cause the loop body to execute ten times. The loop initializes i to 0, continues while i is less than 10, and increments i by 1 after each iteration. This results in exactly 10 executions (i = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9).",
+    "options": [
+      {
+        "key": "A",
+        "text": "for ($a=1$; $a<=10$; $a++$)"
+      },
+      {
+        "key": "B",
+        "text": "for ($a=1$; $a<=10$; $a+=3$)"
+      },
+      {
+        "key": "C",
+        "text": "for ($a=10$; $a>1$; $a--$)"
+      },
+      {
+        "key": "D",
+        "text": "for ($a=1$; $a<10$; $a++$)"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Which C++ statement will cause the body of a loop to execute ten times?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m179c29mm35m3y17008vtxprhn85qr70",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The null character in strings is represented by the symbol '\\0' (backslash zero). This is an escape sequence that marks the end of a string in programming languages like C and C++. It is a non-printing character with ASCII value 0 that terminates a string and indicates where the string ends in memory.",
+    "keyPoints": [
+      "Null character is represented by \\0",
+      "It is an escape sequence",
+      "ASCII value is 0",
+      "Used to mark the end of strings",
+      "Non-printing character",
+      "Essential in C and C++ for string termination"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The null character in strings is represented by the symbol '\\0' (backslash zero). This is an escape sequence that marks the end of a string in programming languages like C and C++. It is a non-printing character with ASCII value 0 that terminates a string and indicates where the string ends in memory.",
+    "options": [
+      {
+        "key": "A",
+        "text": "'\\c'"
+      },
+      {
+        "key": "B",
+        "text": "'\\*'"
+      },
+      {
+        "key": "C",
+        "text": "'\\n'"
+      },
+      {
+        "key": "D",
+        "text": "'\\0'"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Null character in strings is represented by the following symbol:",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17edkd40kzhnsj7hsh3w5bybd85pnm9",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The fgetc() function is used to read one character at a time from a file in C programming. It reads a single character from the specified file stream and returns it as an integer. If the end of file is reached, it returns EOF (End of File).",
+    "keyPoints": [
+      "fgetc() function reads one character at a time from a file",
+      "It takes a FILE pointer as parameter",
+      "Returns the character as an integer value",
+      "Returns EOF when end of file is reached",
+      "Syntax: int fgetc(FILE *stream)",
+      "Alternative function: getc() can also be used for the same purpose"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The fgetc() function is used to read one character at a time from a file in C programming. It reads a single character from the specified file stream and returns it as an integer. If the end of file is reached, it returns EOF (End of File).",
+    "options": [
+      {
+        "key": "A",
+        "text": "fputs()"
+      },
+      {
+        "key": "B",
+        "text": "fgets()"
+      },
+      {
+        "key": "C",
+        "text": "put()"
+      },
+      {
+        "key": "D",
+        "text": "get()"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "When reading one character at a time from a file, which of the following functions is used?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m172a2mcjascv6ee7x9xmys96n85p4e3",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Use modulus operator (%) to check divisibility",
+      "If number % 7 == 0, the number is divisible by 7",
+      "Use if-else statement for conditional logic",
+      "Include necessary headers (iostream) and namespace (std)",
+      "Use cin for input and cout for output",
+      "Return 0 to indicate successful program execution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int number;\n    \n    cout << \"Enter a number: \";\n    cin >> number;\n    \n    if (number % 7 == 0) {\n        cout << number << \" is divisible by 7\" << endl;\n    } else {\n        cout << number << \" is not divisible by 7\" << endl;\n    }\n    \n    return 0;\n}",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Write a C++ program to determine whether the given number is divisible by 7 or not.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m174kjfvwfr5mc8yxedf5jrmzh85px4c",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Use #include <iostream> and using namespace std;",
+      "Declare float variables for km and meters",
+      "Use cin to input distance in kilometres",
+      "Multiply input by 1000 to convert to meters",
+      "Use cout to display the result",
+      "Include return 0; at the end of main()"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Here is a C++ program to convert distance from kilometres to meters:\n\n```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    float km, meters;\n    \n    cout << \"Enter distance in kilometres: \";\n    cin >> km;\n    \n    meters = km * 1000;\n    \n    cout << km << \" km = \" << meters << \" meters\" << endl;\n    \n    return 0;\n}\n```\n\n**Explanation:**\n- Include the iostream header for input/output operations\n- Declare two float variables: km (for input) and meters (for output)\n- Use cout to prompt the user to enter distance in kilometres\n- Use cin to read the input value into the km variable\n- Multiply km by 1000 to convert to meters\n- Display the result using cout\n- Return 0 to indicate successful program execution",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Write a C++ program to input distance in kilometres and display in meters. ($1 \\text{ km} = 1000 \\text{ m}$).",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1757j9fb0vhqewyh1ag20h51h85qy2y",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Use escape sequence \\n to represent newline characters",
+      "The entire string is printed using a single cout statement",
+      "\\n moves the cursor to the next line",
+      "The program demonstrates string output with embedded newline characters",
+      "No loops or multiple statements are needed for this task"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"I\\ncan\\nwait\";\n    return 0;\n}\n\nOutput:\nI\ncan\nwait",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Write a C++ program to print the following output using a single statement:\n\"I\ncan\nwait\"",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1719yjnz8ec0yh52x4npmwnyx85p2zs",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "The sequence 2, 5, 8, 11 has a common difference of 3",
+      "Start with initial value 2 and increment by 3 in each iteration",
+      "Use for loop or while loop to generate the sequence",
+      "Output each number with appropriate formatting",
+      "The loop condition should be num <= 11 to include all four numbers"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "#include <iostream>\nusing namespace std;\n\nint main() {\n    for (int i = 2; i <= 11; i += 3) {\n        cout << i << \", \";\n    }\n    return 0;\n}\n\nAlternatively, using while loop:\n\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = 2;\n    while (num <= 11) {\n        cout << num << \", \";\n        num += 3;\n    }\n    return 0;\n}",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Write a C++ program to print the following sequence using any loop: 2, 5, 8, 11.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m178sp20wxssf1q5b2cyke8yfn85qhs7",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "The series 1, 1, 2, 3, 5, 8 is the Fibonacci sequence",
+      "The cout statement must print 'a' before the values of a and b are updated",
+      "The loop condition 'a <= 8' correctly generates all required values",
+      "Formatting with comma and space (cout << a << \", \") produces the required output format",
+      "The variable 'a' holds the current Fibonacci number to be printed",
+      "After printing, a takes the value of b, and b takes the value of c (the next Fibonacci number)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "int a=0, b=1, c;\nwhile(a <= 8) {\n  cout << a << \", \";\n  c = a + b;\n  a = b;\n  b = c;\n}\nAlternatively, the condition can be modified to while(a < 8) or the output statement can include comma and space formatting. The key is to print 'a' before updating its value, and ensure the loop prints values up to 8.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Complete the given code to print following series: 1, 1, 2, 3, 5, 8\n\n```\nint a=0, b=1, c;\nwhile(a <= 8) {\n  c = a + b;\n  cout << a;\n  a = b;\n  b = c;\n}\n```",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17eqq5rq5w5kptwf77tr14f5585q2fk",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Initialize counter variable before the do-while loop",
+      "Place the loop body (cout statement) inside the do block",
+      "Increment the counter variable (i++) inside the do block",
+      "Specify the condition (i <= 10) in the while clause",
+      "The do-while loop executes the body at least once before checking the condition",
+      "Both loops produce identical output: 12345678910"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "int i = 1;\ndo {\n    cout << i;\n    i++;\n} while (i <= 10);",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Rewrite the following code using **do-while** loop:\n```\nfor (i=1; i<=10; i++)\n    cout << i;\n```",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m177gn5gtp8wnx3vzpkk10xk0185qfmf",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Control statements direct program flow execution",
+      "They make decisions or repeat code blocks based on conditions",
+      "if-else executes different code based on true/false conditions",
+      "for loop repeats code a predetermined number of times",
+      "Control statements are fundamental to structured programming",
+      "They allow programmers to control statement execution order"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A control statement is a programming construct that directs the flow of execution of a program by making decisions or repeating code blocks based on specified conditions. It allows programmers to control which statements execute and in what order.\n\nTwo examples and their purposes:\n\n1. **if-else statement**: Its purpose is to execute different blocks of code based on whether a condition is true or false. It allows conditional execution where one set of statements runs if the condition is true, and another set runs if it is false.\n\n2. **for loop**: Its purpose is to repeat a block of code a specific number of times. It is used when the number of iterations is known in advance, making it ideal for processing arrays or performing repetitive tasks with a counter.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "session": "annual",
+    "stem": "What is **control statement**? Write down the purpose of any two examples.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m177x6na9fqyhyc3s7bk006dgh85p6qm",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "'r' mode opens file for reading only; file must exist; pointer at beginning",
+      "'w' mode opens file for writing; overwrites existing content or creates new file",
+      "'a' mode opens file for appending; adds data at end without overwriting; creates file if not exists",
+      "Each mode determines access permissions and file pointer position",
+      "Correct mode selection prevents data loss and ensures proper file handling"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "File opening modes determine how a file is accessed and manipulated. **'r' (read mode)** opens a file for reading only; the file must exist and the pointer starts at the beginning. **'w' (write mode)** opens a file for writing; if the file exists, its contents are overwritten, or a new file is created if it doesn't exist. **'a' (append mode)** opens a file for adding data at the end without overwriting existing content; if the file doesn't exist, it is created. These modes control whether data can be read, written, or appended to files.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "Briefly explain the use of any three **file opening modes**.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1733ygyag4ekjcp2bgjxkhac185qzs3",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Use float data type for floating point numbers",
+      "2D array declaration syntax: dataType arrayName[rows][columns]",
+      "First location in array is indexed as [0][0]",
+      "Last location in 3×3 matrix is indexed as [2][2]",
+      "Use cout for displaying output in C++",
+      "Array indices start from 0 in C++"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "a. Declare an array to store floating point numbers in 3×3 matrix:\n   float matrix[3][3];\n\nb. Store 10.5 at first location:\n   matrix[0][0] = 10.5;\n\nc. Display the element present at last location:\n   cout << matrix[2][2];",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "session": "annual",
+    "stem": "Write C++ statements for the following:\na. Declare an array to store floating point numbers in $3 \\times 3$ matrix\nb. Store $10.5$ at first location\nc. Display the element present at last location",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17enqtkhfrx3x87xvy7828ww985prrt",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Pre-test loop checks condition before execution; post-test loop checks after execution",
+      "While loop is pre-test; do-while loop is post-test",
+      "Pre-test loop body may not execute if condition is initially false",
+      "Post-test loop body always executes minimum once",
+      "Pre-test used for validation; post-test used for menu systems and guaranteed execution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A pre-test loop (while loop) checks the condition before executing the loop body, whereas a post-test loop (do-while loop) checks the condition after executing the loop body at least once.\n\nPre-test Loop (while):\n- Condition is evaluated first\n- Loop body may not execute if condition is false initially\n- Example: while(x < 10) { x++; }\n- Used when you need to validate input before processing\n\nPost-test Loop (do-while):\n- Loop body executes first, then condition is checked\n- Loop body executes at least once regardless of condition\n- Example: do { x++; } while(x < 10);\n- Used when you need at least one execution (e.g., menu-driven programs)\n\nKey Difference: A pre-test loop may never execute, but a post-test loop always executes at least once.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "session": "annual",
+    "stem": "Differentiate between **pre-test** and **post-test** loops with examples.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m174jmd16c9kxg0zc7ek0gqty985qmvx",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "The loop runs 5 times with i values: 1, 2, 3, 4, 5",
+      "The condition (i % 2 == 0) checks if i is even",
+      "When i is even (2, 4), continue skips the cout statement",
+      "When i is odd (1, 3, 5), cout << i executes and prints the number",
+      "Output displays only odd numbers without spaces: 1 3 5"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The output will be: 1 3 5\n\nExplanation: The loop iterates from i=1 to i=5. The if condition checks if i is even (i % 2 == 0). When i is even, the continue statement skips the cout statement for that iteration. When i is odd, cout << i executes and prints the value. Therefore, only odd numbers (1, 3, and 5) are printed.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "session": "annual",
+    "stem": "Predict output of following code segment:\n`int i;`\n`for(i=1; i<=5; i++) {`\n`if (i % 2 == 0)`\n`continue;`\n`cout << i; }`",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m172fxbnvc0ggjpjq7aswpksb185q0b0",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "The ternary operator (? :) is converted to an if-else statement",
+      "The condition (a > 0) becomes the if condition",
+      "The true expression (a * a) is placed in the if block",
+      "The false expression (a * a * a) is placed in the else block",
+      "Both statements assign the result to variable s",
+      "The if-else statement is functionally equivalent to the ternary operator"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "if (a > 0)\n    s = a * a;\nelse\n    s = a * a * a;",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "28",
+    "session": "annual",
+    "stem": "Rewrite using **if-else** statement: \n$s = (a > 0) ? a * a : a * a * a;$",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1792qfbqa8czeb1t6brxz5xqd85p3we",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "File handling is the process of creating, reading, writing, and closing files in a program",
+      "Text files store data in human-readable ASCII/Unicode format",
+      "Binary files store data in binary format (0s and 1s) as it exists in memory",
+      "Text files are edited using text editors; binary files require specific programs",
+      "Binary files are more compact and faster than text files",
+      "In C++, ifstream/ofstream are used for text files, with ios::binary flag for binary files",
+      "Binary files use read() and write() functions for data transfer",
+      "Text files are platform-independent while binary files may have platform-specific considerations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "File handling refers to the process of working with files in a program, including creating, reading, writing, and closing files. It allows programs to store data persistently and retrieve it later.\n\nIn C++, there are two main types of files:\n\n**Text Files:**\nText files store data in human-readable format using ASCII or Unicode characters. Each character is stored as its ASCII value. Text files can be easily read and edited using text editors. In C++, text files are handled using ifstream (input) and ofstream (output) classes. Data is read/written character by character or line by line.\n\n**Binary Files:**\nBinary files store data in binary format (0s and 1s) exactly as it is in memory. They are not human-readable and are more compact and faster to process. Binary files preserve the exact representation of data structures. In C++, binary files are handled using ifstream and ofstream with the ios::binary flag. Data is read/written using read() and write() functions.\n\n**Key Differences:**\n- Text files are human-readable; binary files are not\n- Text files use character encoding; binary files store raw bytes\n- Binary files are more efficient for storing complex data structures\n- Text files are platform-independent; binary files may have platform-specific issues",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is meant by **file handling**? Explain binary and text files in C++.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17cv4rftgq39kc60m7w91vhe185qmb8",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Program reads a single character using cin",
+      "Uses if-else conditions to check vowels (a, e, i, o, u) and consonants",
+      "Checks for lowercase letters using ASCII range 'a' to 'z'",
+      "Checks for uppercase letters using ASCII range 'A' to 'Z'",
+      "Outputs appropriate classification for both vowel/consonant and case type",
+      "Includes necessary headers (iostream) and uses std namespace",
+      "Returns 0 to indicate successful program execution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    char ch;\n    \n    cout << \"Enter an alphabet: \";\n    cin >> ch;\n    \n    // Check if vowel or consonant\n    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||\n        ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {\n        cout << \"Vowel\" << endl;\n    } else {\n        cout << \"Consonant\" << endl;\n    }\n    \n    // Check if lowercase or uppercase\n    if (ch >= 'a' && ch <= 'z') {\n        cout << \"Lowercase\" << endl;\n    } else if (ch >= 'A' && ch <= 'Z') {\n        cout << \"Uppercase\" << endl;\n    }\n    \n    return 0;\n}\n```",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Write a C++ program that reads an alphabet and prints whether it is:\na. Vowel or consonant\nb. Lowercase or uppercase",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17d7yaafv1m8hkzy6qnp9vrn985pffs",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Array declaration and initialization with correct size (5 elements)",
+      "Input loop correctly reads five numbers and accumulates sum",
+      "Reverse display loop uses correct index range (4 to 0) with decrement",
+      "Average calculation uses floating-point division (sum/5.0) for accuracy",
+      "Program includes proper input/output statements and logical flow"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int arr[5];\n    int sum = 0;\n    \n    // Input five numbers\n    cout << \"Enter five numbers:\\n\";\n    for (int i = 0; i < 5; i++) {\n        cout << \"Number \" << i + 1 << \": \";\n        cin >> arr[i];\n        sum += arr[i];\n    }\n    \n    // Display in reverse order\n    cout << \"\\nNumbers in reverse order: \";\n    for (int i = 4; i >= 0; i--) {\n        cout << arr[i] << \" \";\n    }\n    \n    // Calculate and display average\n    double average = sum / 5.0;\n    cout << \"\\nAverage: \" << average << endl;\n    \n    return 0;\n}\n```\n\n**Program Explanation:**\nThe program declares an array of size 5 to store integers. A loop inputs five numbers from the user while simultaneously calculating their sum. A second loop displays the array elements in reverse order by iterating from index 4 to 0. Finally, the average is calculated by dividing the sum by 5.0 (using floating-point division) and displayed to the user. The program demonstrates fundamental array operations: input, traversal, and mathematical computation.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Write a C++ program to input five numbers in array, display these numbers in reverse order, also display their average.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17dy4zhepnaew6xftv3vkxv8n85qkzx",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "In file handling, a stream is a sequence of bytes or characters that flows between a program and an input/output device (such as a file, keyboard, or monitor). It represents a connection through which data is transferred in a sequential manner, either for reading data from a source or writing data to a destination.",
+    "keyPoints": [
+      "Stream is a sequence of bytes/characters",
+      "Represents a connection between program and I/O device",
+      "Data flows sequentially through a stream",
+      "Used for reading from or writing to files",
+      "Acts as an abstraction layer for file operations",
+      "Can be associated with files, keyboard, monitor, or other I/O devices"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "In file handling, a stream is a sequence of bytes or characters that flows between a program and an input/output device (such as a file, keyboard, or monitor). It represents a connection through which data is transferred in a sequential manner, either for reading data from a source or writing data to a destination.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Series of variable address"
+      },
+      {
+        "key": "B",
+        "text": "Series of variables"
+      },
+      {
+        "key": "C",
+        "text": "Series of bytes"
+      },
+      {
+        "key": "D",
+        "text": "Series of constants"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "In file handling **stream** is a:",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m178qdr3rqq97ryhc0p1vyfhe585qq43",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The output will be: 2\n\nExplanation: The modulus operator (%) returns the remainder after division. When 20 is divided by 3, the quotient is 6 and the remainder is 2. Therefore, x % y = 20 % 3 = 2.",
+    "keyPoints": [
+      "The modulus operator (%) calculates the remainder of division",
+      "20 ÷ 3 = 6 with remainder 2",
+      "x % y where x=20 and y=3 evaluates to 2",
+      "The output displayed will be: 2"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The output will be: 2\n\nExplanation: The modulus operator (%) returns the remainder after division. When 20 is divided by 3, the quotient is 6 and the remainder is 2. Therefore, x % y = 20 % 3 = 2.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "What will be the output of the following expression? <br> `int x = 20, y = 3; cout << x % y;`",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m174xe93pwvxn0xzbn7xq2cjw585pm77",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The **do-while loop** is called a posttest loop. In a do-while loop, the condition is tested after the loop body executes at least once. This means the loop body always runs at least one time before the condition is evaluated, unlike a pretest loop (such as while or for) where the condition is checked before execution.",
+    "keyPoints": [
+      "A posttest loop tests the condition after executing the loop body",
+      "The do-while loop is the primary example of a posttest loop",
+      "The loop body executes at least once regardless of the condition",
+      "In contrast, while and for loops are pretest loops that check conditions before execution",
+      "Syntax: do { statements; } while(condition);"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The **do-while loop** is called a posttest loop. In a do-while loop, the condition is tested after the loop body executes at least once. This means the loop body always runs at least one time before the condition is evaluated, unlike a pretest loop (such as while or for) where the condition is checked before execution.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nested for loop"
+      },
+      {
+        "key": "B",
+        "text": "For loop"
+      },
+      {
+        "key": "C",
+        "text": "While loop"
+      },
+      {
+        "key": "D",
+        "text": "Do-while loop"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "Which of the following loops is called **posttest loop**?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m174nkemfpbytrj1dz0hxesdm985p00h",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The EOF() function is used to find if the control has reached the end of file or not. It returns TRUE if the end of file has been reached, and FALSE otherwise. In programming, EOF stands for End Of File and is commonly used in file handling operations to detect when all data from a file has been read.",
+    "keyPoints": [
+      "EOF() is the function used to detect end of file",
+      "Returns TRUE when end of file is reached",
+      "Returns FALSE when end of file is not reached",
+      "Commonly used in file handling and input operations",
+      "EOF stands for End Of File"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The EOF() function is used to find if the control has reached the end of file or not. It returns TRUE if the end of file has been reached, and FALSE otherwise. In programming, EOF stands for End Of File and is commonly used in file handling operations to detect when all data from a file has been read.",
+    "options": [
+      {
+        "key": "A",
+        "text": "eof( )"
+      },
+      {
+        "key": "B",
+        "text": "bof( )"
+      },
+      {
+        "key": "C",
+        "text": "gets ( )"
+      },
+      {
+        "key": "D",
+        "text": "puts ( )"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Which of the following functions is used to find if the control has reached the end of file or not?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17dx0retwnjbgw497af8e6dr585pkex",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "if-else-if evaluates boolean expressions; switch evaluates discrete values",
+      "if-else-if checks conditions sequentially; switch uses case matching with break statements",
+      "switch is more efficient for multiple fixed value comparisons; if-else-if is better for complex conditions",
+      "switch typically works with int, char, or string; if-else-if works with any boolean expression"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three differences between if-else-if and switch statements are:\n\n1. **Condition Type**: if-else-if can evaluate any boolean expression or condition, while switch statements can only evaluate a single expression that results in a discrete value (typically integer, character, or string).\n\n2. **Execution Flow**: if-else-if evaluates conditions sequentially from top to bottom and stops at the first true condition, whereas switch compares the expression value against multiple cases and uses break statements to control flow.\n\n3. **Readability and Efficiency**: switch statements are more readable and efficient when comparing a single variable against multiple fixed values, while if-else-if is more flexible for complex or range-based conditions.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Write down any three differences between `if-else-if` and `switch` statements.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m177fjwzhxqyet8972rd5hq4bn85q4j0",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "The element 19 is located at row index 1 and column index 2 in the 2D array",
+      "Array indexing in C/C++ starts from 0",
+      "Row 0 contains {12, 0, 5, 10}, Row 1 contains {7, 8, 19, 30}, Row 2 contains {33, 1, 2, 22}",
+      "The value 19 is at position [1][2] (second row, third column)",
+      "Direct assignment using array subscript notation replaces the value"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "arr[1][2] = 50;",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "int arr[3][4] = {{12, 0, 5, 10}, {7, 8, 19, 30}, {33, 1, 2, 22}};\nWrite down a statement that replaces 19 with 50.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m174fbesyaahsnb3spx1j8smdh85q97r",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Use getline() to input entire string including spaces",
+      "Use .length() or .size() method to count characters",
+      "Include necessary headers: iostream and string",
+      "Display the count using cout",
+      "The length includes all characters including spaces and special characters"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string str;\n    cout << \"Enter a string: \";\n    getline(cin, str);\n    \n    int count = str.length();\n    \n    cout << \"Number of characters: \" << count << endl;\n    \n    return 0;\n}\n\nOutput:\nEnter a string: Hello World\nNumber of characters: 11",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "Write a program that inputs a string and displays the number of characters in it.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17ajq69rdmscr8kkde0qdtsah85p0x6",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition of string as a sequence of characters",
+      "Use of `string` keyword for declaration",
+      "Syntax: `string variableName = \"value\";`",
+      "Example of declaration with initialization",
+      "Alternative declaration without initialization"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Strings are sequences of characters (letters, digits, symbols, spaces) treated as a single data type in programming. To declare a string, you use the `string` keyword followed by a variable name and optional initialization. For example: `string name = \"Ali\";` declares a string variable called 'name' with the value \"Ali\". Alternatively, you can declare without initialization: `string message;` and assign a value later using the assignment operator.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "session": "annual",
+    "stem": "What are strings? Briefly explain how to declare a string.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1732q7j00fa5g7he9b93r19g185ptt4",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "ios::in mode is used for reading from existing files",
+      "ios::out mode creates new file or truncates existing file for writing",
+      "ios::app mode adds data at end of file without removing existing content",
+      "These modes are used with ifstream, ofstream, or fstream objects",
+      "File must exist for input mode but is created if needed for output and append modes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Three common modes of file opening in C++ are: (1) Input mode (ios::in) - opens a file for reading data from it. The file must exist. (2) Output mode (ios::out) - opens a file for writing data to it. If the file exists, it is truncated; if it doesn't exist, a new file is created. (3) Append mode (ios::app) - opens a file for appending data at the end without truncating existing content. If the file doesn't exist, it is created.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "session": "annual",
+    "stem": "Briefly describe any three modes of file opening in C++.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m178ze287yzrn80r00kc9y56yx85qssn",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "eof() is a member function of file stream classes (ifstream, ofstream, fstream)",
+      "Returns true when end-of-file marker is reached",
+      "Returns false when not at end of file",
+      "Typically used with the NOT operator (!) in while loop condition",
+      "Syntax: while(!infile.eof()) continues loop until EOF",
+      "Used to read data from file until no more data is available",
+      "Common in C++ file handling operations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The syntax of the eof() function in file handling is:\n\nifstream infile(\"filename\");\nwhile(!infile.eof())\n{\n    // read data from file\n}\n\nOr:\n\nwhile(!infile.eof())\n{\n    infile >> variable;\n    // process data\n}\n\nThe eof() function returns true (non-zero) when the end of file is reached, and false (zero) otherwise. The NOT operator (!) is used to check if the end of file has NOT been reached, allowing the loop to continue reading until EOF is encountered.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "23",
+    "session": "annual",
+    "stem": "Write down the syntax of using the `eof()` function in file handling.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17868c3c382n4sn9m63bftm2185q4zg",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Terminates loops (for, while, do-while) and switch statements",
+      "Transfers control immediately after the loop or switch block",
+      "Prevents execution of remaining iterations or cases",
+      "Used when a specific condition is satisfied",
+      "Helps avoid unnecessary iterations and improves program efficiency"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The break statement in C++ is used to terminate or exit a loop (for, while, do-while) or a switch statement prematurely. When a break statement is encountered, the control of the program immediately jumps out of the current loop or switch block and continues execution with the statement following the loop or switch. It is commonly used to exit a loop when a certain condition is met, or to terminate a case in a switch statement before executing the next case.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "28",
+    "session": "annual",
+    "stem": "What is the use of break statement in C++?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m179myt0xzbehzgc6am4nkjjx185qm93",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Continue statement skips remaining code in current loop iteration and moves to next iteration",
+      "Continue is used within loops (for, while, do-while)",
+      "Exit function terminates entire program execution",
+      "Exit() requires cstdlib header file",
+      "Exit(0) indicates successful termination, exit(1) or other non-zero values indicate error",
+      "Continue affects only the current loop, while exit() terminates the entire program",
+      "Both are control flow statements used for different purposes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "The continue statement and exit function are control flow mechanisms in C++:\n\n**Continue Statement:**\nThe continue statement skips the remaining iterations of the current loop and jumps to the next iteration. It is used to bypass certain conditions within a loop.\n\nExample:\n```cpp\n#include <iostream>\nusing namespace std;\nint main() {\n    for(int i = 1; i <= 5; i++) {\n        if(i == 3) {\n            continue;  // Skip when i equals 3\n        }\n        cout << i << \" \";\n    }\n    return 0;\n}\n```\nOutput: 1 2 4 5\n\n**Exit Function:**\nThe exit() function terminates the program immediately and returns control to the operating system. It accepts an integer argument (0 for success, non-zero for error).\n\nExample:\n```cpp\n#include <iostream>\n#include <cstdlib>\nusing namespace std;\nint main() {\n    int num;\n    cout << \"Enter a number: \";\n    cin >> num;\n    if(num < 0) {\n        cout << \"Negative number not allowed!\" << endl;\n        exit(1);  // Exit with error code 1\n    }\n    cout << \"Number is: \" << num << endl;\n    return 0;\n}\n```\nIf negative number is entered, the program terminates immediately.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Explain the use of following in C++ by using examples:\n- Continue statement\n- Exit function",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m173tjga48qz99bc8j1g8enzhs85qmjr",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Program takes a positive integer as input using cin",
+      "Boolean variable isPrime initialized to true",
+      "Special case handled: numbers <= 1 are neither prime nor composite",
+      "Loop runs from 2 to square root of the number (i*i <= num optimization)",
+      "If number is divisible by any i, it is composite and loop breaks",
+      "Output displays whether number is prime or composite",
+      "Time complexity is O(√n) which is efficient"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int num;\n    bool isPrime = true;\n    \n    cout << \"Enter a positive integer: \";\n    cin >> num;\n    \n    if (num <= 1) {\n        cout << num << \" is neither prime nor composite.\" << endl;\n        return 0;\n    }\n    \n    for (int i = 2; i * i <= num; i++) {\n        if (num % i == 0) {\n            isPrime = false;\n            break;\n        }\n    }\n    \n    if (isPrime) {\n        cout << num << \" is a prime number.\" << endl;\n    } else {\n        cout << num << \" is a composite number.\" << endl;\n    }\n    \n    return 0;\n}",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Write a C++ program that inputs a positive integer and prints whether it is prime or composite.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m177sv56fajp2h921ekwas16ah8e2td3",
+    "correctKey": "A",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "A list stores an ordered collection of items in Python.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "List"
+      },
+      {
+        "key": "B",
+        "text": "Dictionary"
+      },
+      {
+        "key": "C",
+        "text": "Tuple"
+      },
+      {
+        "key": "D",
+        "text": "Set"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "In Python ____ data structure is used to store a collection of items.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m175vhjq7mxfa8amcd0bnq14zx8e3nny",
+    "correctKey": "B",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Disk I/O refers to operations like reading a file from the hard disk.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Storing a variable in memory"
+      },
+      {
+        "key": "B",
+        "text": "Reading a file from the hard disk"
+      },
+      {
+        "key": "C",
+        "text": "Defining a function"
+      },
+      {
+        "key": "D",
+        "text": "Looping through a list"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "An example of disk I/O ____.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17d5js6vmmxkn48k0c5p983d18e3e0q",
+    "correctKey": "A",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "file.write() writes content to a file in Python.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "file.write()"
+      },
+      {
+        "key": "B",
+        "text": "file.insert()"
+      },
+      {
+        "key": "C",
+        "text": "file.add()"
+      },
+      {
+        "key": "D",
+        "text": "file.modify()"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "To write content to a file in Python ____ method is used.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m175gny416vxvebtwjz067x2yx8e3fxr",
+    "correctKey": "B",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "A primary key uniquely identifies each record in a database table.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "A key that has a default value"
+      },
+      {
+        "key": "B",
+        "text": "A unique identifier for records"
+      },
+      {
+        "key": "C",
+        "text": "A key for linking multiple databases"
+      },
+      {
+        "key": "D",
+        "text": "A key used for temporary tables"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "A primary key in a database is ____.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m172njvf78d363b0ysj24zkkyh8e3p0s",
+    "correctKey": "A",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Normalization aims to reduce data redundancy.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Reducing redundancy"
+      },
+      {
+        "key": "B",
+        "text": "Maximizing data size"
+      },
+      {
+        "key": "C",
+        "text": "Increasing the number of tables"
+      },
+      {
+        "key": "D",
+        "text": "Storing duplicate records"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "A common database normalization goal is ____.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1702q6mbyjkpnh6h6z06vkzmx8e3tb8",
+    "correctKey": "C",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "A foreign key links to a unique identifier (primary key) in a related table.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Primary"
+      },
+      {
+        "key": "B",
+        "text": "Secondary"
+      },
+      {
+        "key": "C",
+        "text": "Foreign"
+      },
+      {
+        "key": "D",
+        "text": "Unique"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "____ key is used to uniquely identify a record in a related table.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17avpx6zpwmz712pwhp1sm4f98e2bp5",
+    "correctKey": "A",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Pygame is commonly used to build simple GUIs/games in Python.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Pygame"
+      },
+      {
+        "key": "B",
+        "text": "OS"
+      },
+      {
+        "key": "C",
+        "text": "Sys"
+      },
+      {
+        "key": "D",
+        "text": "math"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "To create a simple GUI in Python, ____ library is used.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m178pd5xjdx7s12vvnr3brcwnn8e3bzh",
+    "correctKey": "B",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "my_dict[\"a\"] is [1, 2]; index 1 of that list is 2.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "[1, 2]"
+      },
+      {
+        "key": "D",
+        "text": "[3, 4]"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Output of the following code will be:\n```\nmy_dict = {\"a\": [1, 2], \"b\": [3, 4]}\nprint(my_dict[\"a\"][1])\n```",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m171sv989pgwx1k51wft0e34xn8e2kjt",
+    "correctKey": "D",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The outer loop runs 3 times and the inner loop 2 times each, so print runs 3*2=6 times.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "The code will print \"Inner\" ____ times.\n```\nfor i in range(3):\n    for j in range(2):\n        print(\"Inner\")\n```",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m1770cjfa9dkkc4hvx6mx4k6618e3pfj",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Disk I/O is reading data from or writing data to a storage disk. It matters for performance because disk operations are far slower than memory operations, so minimizing unnecessary disk I/O improves program speed.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "What is Disk I/O and why is it important for system performance?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17ezxkmdnrea9zb654tvn8gm18e3y78",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Python file modes include 'r' (read), 'w' (write, overwrites), 'a' (append, adds to end), and 'r+'/'w+' variants for reading and writing together.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Describe the difference modes in file handling in Python.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m175sgg8jm4pb48gqgwrm9h6k98e2kpt",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The 'with' keyword automatically closes the file when the block ends, even if an error occurs, avoiding resource leaks from forgetting file.close().",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "What is the benefit of using the 'with' keyword while working with files in Python?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m175b78n87d8e3qscgnx7aeqf98e2awd",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Steps: import pygame and initialize it, create a display window/surface, run a main event loop that handles user input events, draw/update graphics each frame, and call pygame.display.update() to refresh the screen.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "How can you create a simple GUI application using Pygame? Enlist the steps involved.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17a3jatbpyztttjv6m97bw8bx8e2rdg",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A nested list is a list containing other lists as elements. It can represent a matrix by making each inner list a row, so element [i][j] gives the value at row i, column j.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Describe the use of a nested list in Python and how can it be used to represent a matrix?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17bd4jt3y019vdhc1kgc4jb8h8e307t",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Data normalization organizes database fields and tables to reduce redundancy and dependency, improving data integrity and storage efficiency.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "What is data normalization and why is it used in database management?",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m178a8tztdqt63m2057eve9s2h8e3qfx",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The code raises a TypeError: list.append() takes exactly one argument, but two (4 and 5) were given, so it does not execute successfully.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Final value of my_list after the following lines would be:\n1 own_list = [1, 2, 3]\n2 own_list.append(4, 5)",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17b13v45nacvcef92mrdhr57s8e24dn",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using Pygame: spawn falling shapes at random x-positions at the top of the screen, move them down each frame, let the player move a catcher left/right with arrow keys, increase the score when a falling object's rectangle collides with the catcher, and end the game when an object reaches the bottom without being caught.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Design a game where multiple objects are falling from the top. The objective is to \"Catch The Falling Objects\" using arrow keys. For every catch, a score increases by 1 point. The game ends whenever an object is missed.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m172sgs2vn28hhr8taxas1kgbd8e2cb4",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using a GUI library (e.g. Tkinter/Pygame widgets): create an editable input textbox bound to a key/text-change event, and a second read-only textbox; on every keystroke in the first box, update the second box's content with input_text.upper().",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Design two textboxes such that the first is for entering text while the second shows the text converted to uppercase. The user can click on the first textbox and type a sentence. As the user types, the second textbox automatically displays the uppercase version. The second textbox is not editable.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m176ye9w5m2twsassxe2kx343d8e2t17",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Define a function factorial(n) that returns 1 if n is 0, otherwise multiplies n by factorial(n-1), or uses an iterative loop.",
+      "Call the function with 5 different input values (e.g. 0, 1, 5, 7, 10) and print each result.",
+      "The function correctly handles the base case (0! = 1) and scales to larger inputs."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\ndef factorial(n):\n    if n < 0:\n        raise ValueError(\"n must be non-negative\")\n    result = 1\n    for value in range(2, n + 1):\n        result *= value\n    return result\n\nfor value in [0, 1, 2, 5, 7]:\n    print(value, factorial(value))\n```\nThe five tests print 1, 1, 2, 120, and 5040.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Write a Python function that calculates the factorial of a given number. Test the function with 5 different inputs.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m175t8b8r4jhvjs4a684md83118e2rns",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Define class Rectangle with __init__(self, length, width) storing both dimensions.",
+      "Add an area() method returning length*width and a perimeter() method returning 2*(length+width).",
+      "Create one or more Rectangle instances and print the perimeter using the perimeter() method."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nclass Rectangle:\n    def __init__(self, length, width):\n        self.length = length\n        self.width = width\n    def area(self):\n        return self.length * self.width\n    def perimeter(self):\n        return 2 * (self.length + self.width)\n\nr = Rectangle(8, 3)\nprint(r.area())\nprint(r.perimeter())\n```\nThe class stores the dimensions and its methods calculate area and perimeter.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Implement a Python class 'Rectangle' with methods to calculate the area and perimeter of a rectangle. Create instances of the class and print the perimeter of rectangle.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17e63zbdee49c893znq593ken8e229g",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Write a sum_numbers(list) function to add all numbers.",
+      "Write a find_duplicates(list) function to mark/identify repeated values.",
+      "Write average(list) functions that compute the mean both including and excluding duplicate values, showing how splitting logic into functions simplifies the overall program."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\ndef add_values(values):\n    return sum(values)\n\ndef remove_repeated(values):\n    return list(dict.fromkeys(values))\n\ndef average(values):\n    return add_values(values) / len(values)\n\nvalues = [2, 4, 4, 6]\nprint(average(values))\nprint(average(remove_repeated(values)))\n```\nSeparate functions make each operation easier to test and reuse.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Write a Python program highlighting the use of functions to simplify a problem. For example, create a program that calculates the average of a list of numbers using separate functions to add all numbers, mark repeated values, and calculate the average with and without repeating values.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m173fvvd8we7c5t4pj3k60z0xn8e293p",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Initialize a dictionary such as students = {'Ali': 'A', 'Sara': 'B'}.",
+      "Add a new student with students['NewName'] = grade, and update an existing grade the same way.",
+      "Remove a student using del students['Name'] or students.pop('Name')."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\ngrades = {\"Ali\": 78, \"Sara\": 91}\ngrades[\"Hamza\"] = 84      # add\ngrades[\"Ali\"] = 82       # update\ndel grades[\"Sara\"]       # remove\nprint(grades)\n```\nA dictionary stores each student's name as a key and grade as its value.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Create a Python dictionary to store student names as keys and their grades as values. Write a program to add new students, update existing students' grades, and remove students from the dictionary.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17da1zwp3g4fasp25ze94f1z18e330m",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Open data.txt in write mode ('w') and write a string to it, then close (or use 'with').",
+      "Reopen the same file in read mode ('r') and read its content.",
+      "Print the read content to display the output, confirming the write succeeded."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nwith open(\"data.txt\", \"w\") as file:\n    file.write(\"Computer science\")\n\nwith open(\"data.txt\", \"r\") as file:\n    content = file.read()\nprint(content)\n```\nThe write mode creates the file if needed, and read mode retrieves its content.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Write a Python program to create a file named data.txt, write a string to it and then read the content of the file and display the output.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17b173jzc8c5hsv8xj1sseqdx8e37nv",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Open the target file in append mode ('a'), which creates the file automatically if it does not already exist.",
+      "Write the new line of text, ending it with a newline character.",
+      "Close the file (or use a 'with' block) so the append is saved."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nwith open(\"data.txt\", \"a\") as file:\n    file.write(\"\\nA new line\")\n```\nAppend mode adds text at the end and creates the file if it does not already exist.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Create a Python program that appends a new line of text to an existing file. If the file does not exist, it should create a new file.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17ekkkfsp7n3r9z3n7x5sd13d8e3wc7",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Initialize Pygame and create a display window/surface.",
+      "Draw a rectangle representing the button and detect mouse clicks within its bounds using the event loop.",
+      "When a click inside the button is detected, render and display a text message on the window."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nimport pygame\npygame.init()\nscreen = pygame.display.set_mode((500, 300))\nbutton = pygame.Rect(180, 120, 140, 50)\nfont = pygame.font.Font(None, 28)\nrunning = True\nwhile running:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            running = False\n        if event.type == pygame.MOUSEBUTTONDOWN and button.collidepoint(event.pos):\n            print(\"Button clicked\")\n    screen.fill((255, 255, 255))\n    pygame.draw.rect(screen, (80, 140, 220), button)\n    screen.blit(font.render(\"Click\", True, (0, 0, 0)), (220, 135))\n    pygame.display.flip()\npygame.quit()\n```",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Write Python code using Pygame that creates a simple window with a button. When the button is clicked, it should display a message on the window.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17b07htzaesdh24d7g2xw6q1n8e39rr",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Represent the 3x3 matrix as a nested list, e.g. matrix = [[1,2,3],[4,5,6],[7,8,9]].",
+      "Compute the transpose by swapping rows and columns: transpose[j][i] = matrix[i][j].",
+      "Print the resulting transposed nested list row by row."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nmatrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\ntranspose = [[matrix[row][col] for row in range(3)] for col in range(3)]\nfor row in transpose:\n    print(row)\n```\nThe transpose changes rows into columns, producing [1, 4, 7], [2, 5, 8], and [3, 6, 9].",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Develop a Python program that calculates and prints the transpose of a 3x3 matrix represented using a nested list.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m17c8n2y48shh3g6k39188qeqd8e3qxg",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Open and read the text file's content.",
+      "Use a dictionary to count each letter's occurrences by iterating over the characters.",
+      "Print the dictionary, showing each letter and its count."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nfrom collections import Counter\n\ndef letter_counts(filename):\n    with open(filename, \"r\") as file:\n        text = file.read().lower()\n    counts = Counter(ch for ch in text if ch.isalpha())\n    for letter, count in sorted(counts.items()):\n        print(letter, count)\n\nletter_counts(\"data.txt\")\n```\nThe function reads the file, counts alphabetic characters, and prints the counts.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Write a Python function that counts the number of occurrences of each letter in a text file and prints the results.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m179e0pwqxb0jx86n5wrcq7khx8e3cvb",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Use a library such as sqlite3 to connect to a database and create a cursor.",
+      "Demonstrate INSERT, UPDATE, and SELECT (retrieve) SQL statements executed through the cursor, committing changes.",
+      "Database connectivity matters because it lets Python programs persist and manage structured data reliably instead of only in-memory."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nimport sqlite3\nconnection = sqlite3.connect(\"school.db\")\ncur = connection.cursor()\ncur.execute(\"CREATE TABLE IF NOT EXISTS students (name TEXT, grade INTEGER)\")\ncur.execute(\"INSERT INTO students VALUES (?, ?)\", (\"Ali\", 80))\ncur.execute(\"UPDATE students SET grade=? WHERE name=?\", (85, \"Ali\"))\nfor row in cur.execute(\"SELECT * FROM students\"):\n    print(row)\nconnection.commit()\nconnection.close()\n```\nDatabase connectivity lets a Python application persist, update, and retrieve structured data.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "10",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Write a Python program to connect to a database and demonstrate how to insert, update and retrieve data from the database. Explain the importance of database connectivity in Python applications.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m172xgt5gnqdgnp61kra4kng9x8e29vm",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Use random.randint(1, 10) to pick the secret number, then loop up to 5 guesses.",
+      "After each guess, compare it to the secret number and print a hint ('higher' or 'lower') if incorrect.",
+      "If guessed correctly within 5 tries, print a congratulations message with the attempt count; otherwise reveal the number after the 5th try."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "```python\nimport random\nsecret = random.randint(1, 10)\nfor attempt in range(1, 6):\n    guess = int(input(\"Guess 1-10: \"))\n    if guess == secret:\n        print(f\"Correct in {attempt} attempts\")\n        break\n    print(\"Try a higher number\" if guess < secret else \"Try a lower number\")\nelse:\n    print(f\"The chosen number was {secret}\")\n```\nThe loop limits the player to five attempts and gives a directional hint after an incorrect guess.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "12",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Write a Python code that selects a number between 1 and 10 and the player will try to guess the number in 5 tries. For every incorrect guess, the program provides a hint whether the last guess was higher or lower. If the number is guessed correctly, a congratulating message is displayed along with the number of attempts; otherwise a message is displayed along with the chosen number.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m176crrkq5wtjkkr4h850nfjw18e31zz",
+    "correctKey": "C",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "A Python dictionary stores key-value pairs.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Keys only"
+      },
+      {
+        "key": "B",
+        "text": "Values only"
+      },
+      {
+        "key": "C",
+        "text": "Key-value pairs"
+      },
+      {
+        "key": "D",
+        "text": "Sequential data"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "A dictionary stores ____ in Python.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-2-programming-constructs-in-python",
+    "topicTitle": "3.2 Programming Constructs in Python",
+    "_id": "m173r2aztptjsj1ara7sf0r9sh8e3avx",
+    "correctKey": "A",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "A nested list is a list that contains another list as an element.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "A list containing another list"
+      },
+      {
+        "key": "B",
+        "text": "A list of dictionaries"
+      },
+      {
+        "key": "C",
+        "text": "A dictionary of lists"
+      },
+      {
+        "key": "D",
+        "text": "A set containing multiple lists"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "A nested list in Python is referred as ____.",
+    "topicId": "ms78p90xtnph5gaqvnrd73hzms85pth1"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m177r13vk4q2cbh7csfs90275n85p8sx",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Array indices must be integer values, not floating-point numbers",
+      "Array indices must be non-negative and within valid range (0 to size-1)",
+      "For array a[10], valid indices are 0 through 9 only",
+      "Floating-point indices should be cast to int or replaced with integer values",
+      "Negative indices cause out-of-bounds access and undefined behavior",
+      "Proper array indexing prevents runtime errors and memory corruption"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The code segment contains the following errors:\n\n1. **a[10.2]=30;** - Array indices must be integers, not floating-point numbers. The index 10.2 should be converted to an integer. Correction: a[10]=30; or a[(int)10.2]=30;\n\n2. **a[-1]=20;** - Array indices cannot be negative. Valid indices for array a[10] range from 0 to 9. Accessing a[-1] is out of bounds and causes undefined behavior. Correction: a[0]=20; (or any valid index from 0-9)\n\nCorrected code:\nint a[10];\na[10]=30;  // or use appropriate index within 0-9\na[0]=20;   // or use appropriate index within 0-9",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "Identify and correct the errors in the following code segment:\n`int a[10];`\n`a[10.2]=30;`\n`a[-1]=20;`",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m17387r2xn4br1njx1ds7hwd2x85qp0w",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "strcmp() performs case-sensitive comparison and returns negative value if first string is lexicographically smaller",
+      "strlen() counts characters excluding null terminator",
+      "strcat() concatenates strings and modifies the first string",
+      "Output appears on same line: -13NBCnbc (since no newline between outputs)",
+      "Uppercase letters have smaller ASCII values than lowercase letters"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The output will be:\n-1\n3\nNBCnbc\n\nExplanation:\n1. strcmp(S1, S2) compares \"NBC\" with \"nbc\". Since 'N' (ASCII 78) is less than 'n' (ASCII 110), strcmp returns -1.\n2. strlen(S2) returns 3 (length of \"nbc\").\n3. strcat(S1, S2) concatenates S2 to S1, making S1 = \"NBCnbc\".\n4. cout << S1 outputs \"NBCnbc\".",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Predict output of the following code segment:\n`char S1[10]=\"NBC\", S2[10]=\"nbc\", S3[10];`\n`cout << strcmp(S1, S2) << strlen(S2);`\n`strcat(S1, S2);`\n`cout << S1;`",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m179g8jzvqar3ssk58bvzfbzk585qn4d",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "(=) is assignment operator, (==) is comparison operator",
+      "(=) modifies variable value, (==) returns boolean without modification",
+      "(=) has lower precedence than (==)",
+      "Assignment returns the assigned value which can be used in expressions",
+      "Comparison returns true (1) or false (0)",
+      "Common mistake: using (=) in if conditions instead of (==)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "In C++, (=) is the assignment operator while (==) is the equality comparison operator. The assignment operator (=) assigns a value to a variable, modifying its contents. The equality operator (==) compares two values and returns a boolean result (true or false) without changing either value. Example: int x = 5; assigns 5 to x. int y = (x == 5); compares x with 5, returns true, and assigns 1 to y. Another example: if (a = b) assigns b to a and uses the result in condition, while if (a == b) only compares a and b without assignment.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "22",
+    "session": "annual",
+    "stem": "Differentiate between `(=)` and `(==)` in C++ with examples.",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m170kjmsgz2wh2g2295wycyjcn85pesz",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Use integer division (/) to extract hours by dividing total seconds by 3600",
+      "Use modulus operator (%) to get remainder after extracting hours",
+      "Divide remainder by 60 to get minutes",
+      "Use modulus again to get remaining seconds",
+      "Display output in required format with hours, minutes and seconds",
+      "Include necessary headers (iostream) and use cout/cin for input/output"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "```cpp\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int totalSeconds, hours, minutes, seconds;\n    \n    cout << \"Enter time in seconds: \";\n    cin >> totalSeconds;\n    \n    hours = totalSeconds / 3600;\n    totalSeconds = totalSeconds % 3600;\n    \n    minutes = totalSeconds / 60;\n    seconds = totalSeconds % 60;\n    \n    cout << hours << \" hour(s) \" << minutes << \" minute(s) and \" \n         << seconds << \" second(s)\" << endl;\n    \n    return 0;\n}\n```",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Write a C++ code to input time in seconds and display time in seconds, minutes and hours. e.g., 5466 seconds = 1 hour 31 minutes and 6 seconds.",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m17ek310qvr68b7sybkdw19xnx85p360",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Post-increment (i++) returns the value before incrementing",
+      "Pre-increment (++i) increments first, then returns the new value",
+      "After i++, i becomes 4 and j receives 3",
+      "After ++i, i becomes 5 and k receives 5",
+      "Final output: 5 3 5"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The output will be: 5 3 5\n\nExplanation:\n1. int i = 3; → i is initialized to 3\n2. int j = i++; → j gets the current value of i (3), then i is incremented to 4. So j = 3\n3. int k = ++i; → i is incremented first to 5, then k gets the new value of i. So k = 5\n4. cout << i << \" \" << j << \" \" << k; → prints the values: 5 3 5",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "What will be the output of following code segment? <br> `int i = 3;` <br> `int j = i++;` <br> `int k = ++i;` <br> `cout << i << \" \" << j << \" \" << k;`",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m175hre9jygw69xc88k846eetd85p3cm",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Loop executes 3 times with i values 0, 1, and 2",
+      "String \"Enter a character\" is printed three times",
+      "cin >> ch reads one character from input in each iteration",
+      "out.put(ch) writes each character to output stream 'out'",
+      "The characters are stored in the output stream, not displayed on console",
+      "out is typically a file output stream object"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The output of this code segment will be:\n\nEnter a character\nEnter a character\nEnter a character\n\nThe loop executes 3 times (i = 0, 1, 2). In each iteration:\n1. The message \"Enter a character\" is displayed\n2. A character is read from input and stored in variable 'ch'\n3. The character is written to the output stream 'out' using the put() function\n\nNote: The actual characters entered by the user will be written to the output stream 'out' (typically a file stream), not displayed on the console. The only visible output on screen will be the three repetitions of \"Enter a character\".",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "What will be the output of the following code segment?\n```\nfor (int i=0; i<3; i++)\n{\n  cout << \"Enter a character\";\n  cin >> ch;\n  out.put(ch);\n}\n```",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m17czrypzd72vk25exsq6c7grx85qv59",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Initial values: m = 5, c = 0",
+      "Loop condition: c < 100 means loop runs while c is less than 100",
+      "Loop executes exactly 100 times (c goes from 0 to 99)",
+      "In each iteration: m increases by 1 and c increases by 1",
+      "Final value of m: 5 + 100 = 105",
+      "Output: 105"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The output will be 105. The while loop executes 100 times (from c = 0 to c = 99). In each iteration, m is incremented by 1. Starting with m = 5, after 100 iterations, m becomes 5 + 100 = 105. The cout statement then prints 105.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "What will be the output of the following code? <br> `int m = 5, c = 0;` <br> `while(c < 100)` <br> `{ m = m + 1; c = c + 1; }` <br> `cout << m;`",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m172zq3m29h108nzzjnymssk4585qj8d",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Parameter m is passed by value (int m) - changes to m inside function do not affect a",
+      "Parameter n is passed by reference (int &n) - changes to n affect the original variable b",
+      "Inside fun(): n becomes 12 - 2(7) = -2, and m becomes 2(7) = 14",
+      "After function call: a = 7 (unchanged), b = -2 (changed)",
+      "Output: 7 -2"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The output is: 7 -2\n\nExplanation: The function fun() is called with a passed by value and b passed by reference. Inside fun(), n (reference to b) is modified to n - 2*m = 12 - 2(7) = 12 - 14 = -2. The variable m is modified to 2*m = 14, but since m is passed by value, this change does not affect a. After the function returns, a remains 7 and b becomes -2. Therefore, the output prints: 7 -2",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Write down the output of the following code segment:\n```\nint a = 7, b = 12;\nfun(a, b);\ncout << a << \" \" << b;\n\nvoid fun(int m, int &n)\n{ n = n - 2 * m; m = 2 * m; }\n```",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m172wy7d2fwtdmjtf3xqewkxdd8e3n66",
+    "correctKey": "A",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Unit testing verifies individual units (functions/methods) of code in isolation.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Test individual units of code"
+      },
+      {
+        "key": "B",
+        "text": "Test the entire program"
+      },
+      {
+        "key": "C",
+        "text": "Debug the entire program"
+      },
+      {
+        "key": "D",
+        "text": "Optimize the code for speed"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "The purpose of unit testing in Python is ____.",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m17fsg0b44q72c3x1twnzyqjhd8e3w42",
+    "correctKey": "B",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Debugging is the process of finding and fixing errors in code.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Writing new code"
+      },
+      {
+        "key": "B",
+        "text": "Fixing errors in the code"
+      },
+      {
+        "key": "C",
+        "text": "Increasing program speed"
+      },
+      {
+        "key": "D",
+        "text": "Creating a graphical interface"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "The primary goal of debugging is ____.",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m17f291nkzfn53bpw7mq7zdsph8e3ry0",
+    "correctKey": "A",
+    "exerciseId": "xd71tr65w4779z91z7wqaz8kx58e23am",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "print() is used to output debugging messages to the console in Python.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "print()"
+      },
+      {
+        "key": "B",
+        "text": "debug()"
+      },
+      {
+        "key": "C",
+        "text": "trace()"
+      },
+      {
+        "key": "D",
+        "text": "log()"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Python function used to print debugging messages to the console ____.",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m17e9qvmm7170k8jbnvgq6bge18e3r69",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Debugging is the process of finding and fixing errors in code. It is important because it ensures the program behaves correctly and reliably before it is used or released.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "What is debugging and why is it important in software development?",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m171anx99d6hvbw0qdbh374r1n8e2z68",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Two problems: the variable name 'sample_dict' does not match the defined 'Sample_dict' (case-sensitivity), and even if that were fixed, key 'c' does not exist in the dictionary, which would raise a KeyError.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "What seems to be the problem in:\n```\nSample_dict = {\"a\": 1, \"b\": 2}\nprint(sample_dict[\"c\"])\n```",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m17axjttnkb4v90v1ntfx220z98e3g9c",
+    "exerciseId": "xd7947sq6nvh97ecw6wysjm08h8e33zm",
+    "exerciseTitle": "Exercise 3: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Bugs: target_letter is 'S' (uppercase) but the text is compared in lowercase, so no matches are ever found; 'file.close' is missing parentheses (should be file.close()); and the comparison 'if char = target_letter' uses assignment (=) instead of equality (==), which is invalid Python syntax. Fixing the case, adding parentheses to close(), and using == resolves the bug.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "The following code is supposed to open a file 'abc.txt' and count the number of occurrences of the character 's' and display the result. However, the code does not execute. Debug and remove any bug(s) from the code.",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "03-programming-fundamentals",
+    "chapterTitle": "Programming Fundamentals",
+    "topicSlug": "3-3-techniques-for-testing-debugging",
+    "topicTitle": "3.3 Techniques for Testing and Debugging",
+    "_id": "m1752zp21m3k8sbj63msvn8by18e2new",
+    "exerciseId": "xd75w5z56n23agt2hr1pja611d8e3sfm",
+    "exerciseTitle": "Exercise 3: Extended Response Questions",
+    "keyPoints": [
+      "Unit testing verifies that individual functions/units behave correctly in isolation, using a framework such as unittest.",
+      "It catches errors early by running automated checks every time code changes, before bugs reach later development stages.",
+      "Example: for def add(a,b): return a+b, a unit test would assert add(2,3) == 5."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Unit testing checks a small unit of code, such as a function, against expected results. It catches errors early, before components are combined, and makes later changes safer. For example: ```python\nimport unittest\ndef add(a, b): return a + b\nclass TestAdd(unittest.TestCase):\n    def test_add(self): self.assertEqual(add(2, 3), 5)\nunittest.main()\n```",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "11",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 3,
+      "subjectSlug": "computer-12"
+    },
+    "stem": "Explain unit testing and its importance in Python programming. How does it help in catching errors early during the development process? Include an example of a unit test for a simple Python function.",
+    "topicId": "ms7930sxyhrenfrcrwz0c6d3xs85qfjx"
+  }
+]

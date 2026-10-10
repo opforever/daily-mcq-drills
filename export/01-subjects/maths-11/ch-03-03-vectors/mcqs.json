@@ -1,0 +1,1332 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Vector Addition and Components",
+    "_id": "k975y13ajbrwk03md33ge8nq558ctjng",
+    "correctKey": "A",
+    "explanation": "A vector with the same magnitude and opposite direction",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70vpw31nxe96qfgy8dxk5q6585q845",
+    "options": [
+      {
+        "key": "D",
+        "text": "A determinant"
+      },
+      {
+        "key": "C",
+        "text": "A scalar multiple with no direction"
+      },
+      {
+        "key": "B",
+        "text": "A vector with zero magnitude only"
+      },
+      {
+        "key": "A",
+        "text": "A vector with the same magnitude and opposite direction"
+      }
+    ],
+    "sectionId": "magnitude-of-a-vector",
+    "sectionLabel": "Magnitude of a Vector",
+    "stem": "What is the negative of a vector?",
+    "topicId": "ms794bbdddmkc7b2mj3s0s6neh85qf54"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Vector Addition and Components",
+    "_id": "k979pvmptg8abt945csy9mf15h8ctpqg",
+    "correctKey": "A",
+    "explanation": "Normalize a: divide it by its magnitude, a/|a|.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70vpw31nxe96qfgy8dxk5q6585q845",
+    "options": [
+      {
+        "key": "B",
+        "text": "|a|a"
+      },
+      {
+        "key": "A",
+        "text": "a/|a|"
+      },
+      {
+        "key": "D",
+        "text": "a×a"
+      },
+      {
+        "key": "C",
+        "text": "a+|a|"
+      }
+    ],
+    "sectionId": "magnitude-of-a-vector",
+    "sectionLabel": "Magnitude of a Vector",
+    "stem": "How is a unit vector obtained from a nonzero vector a?",
+    "topicId": "ms794bbdddmkc7b2mj3s0s6neh85qf54"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Vector Addition and Components",
+    "_id": "k978tapehqjvrqvac871279c4x8ctwqg",
+    "correctKey": "A",
+    "explanation": "The magnitude is the Euclidean length in three dimensions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70vpw31nxe96qfgy8dxk5q6585q845",
+    "options": [
+      {
+        "key": "D",
+        "text": "|v₁−v₂|"
+      },
+      {
+        "key": "B",
+        "text": "v₁+v₂+v₃"
+      },
+      {
+        "key": "A",
+        "text": "√(v₁²+v₂²+v₃²)"
+      },
+      {
+        "key": "C",
+        "text": "v₁v₂v₃"
+      }
+    ],
+    "sectionId": "magnitude-of-a-vector",
+    "sectionLabel": "Magnitude of a Vector",
+    "stem": "What is the magnitude of v=(v₁,v₂,v₃)?",
+    "topicId": "ms794bbdddmkc7b2mj3s0s6neh85qf54"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Vector Addition and Components",
+    "_id": "k97bz7d1wqq59trpcp3k26dd8s8ctmxv",
+    "correctKey": "A",
+    "explanation": "Commutativity allows the order of vector addition to be exchanged.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70vpw31nxe96qfgy8dxk5q6585q845",
+    "options": [
+      {
+        "key": "A",
+        "text": "Commutative law"
+      },
+      {
+        "key": "D",
+        "text": "Distributive law"
+      },
+      {
+        "key": "B",
+        "text": "Associative law"
+      },
+      {
+        "key": "C",
+        "text": "Inverse law"
+      }
+    ],
+    "sectionId": "properties-of-vector-addition",
+    "sectionLabel": "Properties of Vector Addition",
+    "stem": "Which law states a+b=b+a?",
+    "topicId": "ms794bbdddmkc7b2mj3s0s6neh85qf54"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Vector Addition and Components",
+    "_id": "k9773qfp78c7z1h0ywthrgcxa58ctdt8",
+    "correctKey": "A",
+    "explanation": "Space is described by three mutually perpendicular coordinate axes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70vpw31nxe96qfgy8dxk5q6585q845",
+    "options": [
+      {
+        "key": "A",
+        "text": "Three perpendicular axes x,y,z"
+      },
+      {
+        "key": "D",
+        "text": "Angles only"
+      },
+      {
+        "key": "B",
+        "text": "One axis only"
+      },
+      {
+        "key": "C",
+        "text": "Two parallel axes"
+      }
+    ],
+    "sectionId": "rectangular-coordinate-system-in-space",
+    "sectionLabel": "Rectangular Coordinate System in Space",
+    "stem": "What does a rectangular coordinate system in space use?",
+    "topicId": "ms794bbdddmkc7b2mj3s0s6neh85qf54"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-1",
+    "topicTitle": "3.1 Vector Addition and Components",
+    "_id": "k97djpcf13sj2x8k9p5azyk3c58cvbjn",
+    "correctKey": "A",
+    "explanation": "The fundamental vector operations apply componentwise in space.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70vpw31nxe96qfgy8dxk5q6585q845",
+    "options": [
+      {
+        "key": "A",
+        "text": "Addition, subtraction, scalar multiplication"
+      },
+      {
+        "key": "C",
+        "text": "Only determinants"
+      },
+      {
+        "key": "D",
+        "text": "Only angles"
+      },
+      {
+        "key": "B",
+        "text": "Only division"
+      }
+    ],
+    "sectionId": "vector-operations-in-space",
+    "sectionLabel": "Vector Operations in Space",
+    "stem": "Which operations extend from plane vectors to vectors in space?",
+    "topicId": "ms794bbdddmkc7b2mj3s0s6neh85qf54"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k97edpjcfret8cepnhytkxy1wx85pnpp",
+    "correctKey": "C",
+    "explanation": "Squaring both sides: $|\\vec{a}|^2+2\\vec{a}\\cdot\\vec{b}+|\\vec{b}|^2 = |\\vec{a}|^2-2\\vec{a}\\cdot\\vec{b}+|\\vec{b}|^2$, giving $4\\vec{a}\\cdot\\vec{b}=0$, so $\\vec{a}\\cdot\\vec{b}=0$ and the vectors are perpendicular ($90^\\circ$).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$90^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$180^\\circ$"
+      }
+    ],
+    "sectionId": "angle-between-two-vectors",
+    "sectionLabel": "Angle Between Two Vectors",
+    "stem": "If $|\\vec{a} + \\vec{b}| = |\\vec{a} - \\vec{b}|$ for non-zero vectors $\\vec{a}$ and $\\vec{b}$, what is the angle between them?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k9768xzkak1n3w52mcv08egkph8cvarv",
+    "correctKey": "A",
+    "explanation": "The dot-product formula determines the included angle.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "u·v=|u||v|cosθ"
+      },
+      {
+        "key": "B",
+        "text": "u·v=|u|+|v|"
+      },
+      {
+        "key": "C",
+        "text": "u·v=sinθ"
+      },
+      {
+        "key": "D",
+        "text": "u·v=|u|−|v|"
+      }
+    ],
+    "sectionId": "angle-between-two-vectors",
+    "sectionLabel": "Angle Between Two Vectors",
+    "stem": "How is the angle θ between u and v related to their dot product?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k975gpb93k3qv66cxb1r19j2nd8cv8rb",
+    "correctKey": "A",
+    "explanation": "A zero dot product means perpendicular vectors.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "u·v=0"
+      },
+      {
+        "key": "B",
+        "text": "u×v=0"
+      },
+      {
+        "key": "C",
+        "text": "|u|=|v|"
+      },
+      {
+        "key": "D",
+        "text": "u=v"
+      }
+    ],
+    "sectionId": "condition-for-orthogonality",
+    "sectionLabel": "Condition for Orthogonality",
+    "stem": "When are two nonzero vectors orthogonal?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k9709ceaghm8pn2yvatbagp3618ct98x",
+    "correctKey": "A",
+    "explanation": "Direction cosines are cosines of the coordinate-axis angles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Angles a vector makes with coordinate axes"
+      },
+      {
+        "key": "B",
+        "text": "Its determinant"
+      },
+      {
+        "key": "C",
+        "text": "Its area only"
+      },
+      {
+        "key": "D",
+        "text": "Its scalar triple product"
+      }
+    ],
+    "sectionId": "direction-cosines",
+    "sectionLabel": "Direction Cosines",
+    "stem": "What do direction cosines specify?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k973qq9jwtn7vk02nc2wqe6b7h85qwh0",
+    "correctKey": "B",
+    "explanation": "Work done $W = \\vec{F}\\cdot\\vec{d} = (5)(4)+(3)(2) = 20+6 = 26$ J. Work is the dot product of force and displacement vectors, giving a scalar result in joules.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "$20$ J"
+      },
+      {
+        "key": "B",
+        "text": "$26$ J"
+      },
+      {
+        "key": "C",
+        "text": "$34$ J"
+      },
+      {
+        "key": "D",
+        "text": "$15$ J"
+      }
+    ],
+    "sectionId": "dot-scalar-product--definition",
+    "sectionLabel": "Dot (Scalar) Product — Definition",
+    "stem": "A force $\\vec{F} = 5\\hat{i}+3\\hat{j}$ N moves an object through displacement $\\vec{d} = 4\\hat{i}+2\\hat{j}$ m. What is the work done?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k977pcwdcvw12q4qcgkxhrrph58cv1z5",
+    "correctKey": "A",
+    "explanation": "Their dot product is zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "a·b=0"
+      },
+      {
+        "key": "B",
+        "text": "a×b=0 always"
+      },
+      {
+        "key": "C",
+        "text": "|a|=|b|"
+      },
+      {
+        "key": "D",
+        "text": "a+b=0 always"
+      }
+    ],
+    "sectionId": "dot-scalar-product--definition",
+    "sectionLabel": "Dot (Scalar) Product — Definition",
+    "stem": "What condition makes two vectors perpendicular?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k97a0a7ss2nx3d0ftc55kys1398ctee8",
+    "correctKey": "A",
+    "explanation": "The dot product is scalar-valued.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "A scalar"
+      },
+      {
+        "key": "B",
+        "text": "A vector"
+      },
+      {
+        "key": "C",
+        "text": "A matrix"
+      },
+      {
+        "key": "D",
+        "text": "A point"
+      }
+    ],
+    "sectionId": "dot-scalar-product--definition",
+    "sectionLabel": "Dot (Scalar) Product — Definition",
+    "stem": "What kind of quantity is the dot product of two vectors?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k977724ye80pr71y21xxj5vmfn85qm9p",
+    "correctKey": "C",
+    "explanation": "$|\\vec{u}+\\vec{v}|^2 = |\\vec{u}|^2+2\\vec{u}\\cdot\\vec{v}+|\\vec{v}|^2 = 1+2\\vec{u}\\cdot\\vec{v}+1$. Setting this equal to $1$ (unit vector): $1=2+2\\vec{u}\\cdot\\vec{v}$, so $\\vec{u}\\cdot\\vec{v}=-\\frac{1}{2}=-0.5$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1$"
+      },
+      {
+        "key": "B",
+        "text": "$0.5$"
+      },
+      {
+        "key": "C",
+        "text": "$-0.5$"
+      },
+      {
+        "key": "D",
+        "text": "$0$"
+      }
+    ],
+    "sectionId": "key-identity-sum-of-three-vectors-equal-to-zero",
+    "sectionLabel": "Key Identity: Sum of Three Vectors Equal to Zero",
+    "stem": "If $\\vec{u}$ and $\\vec{v}$ are unit vectors and $|\\vec{u} + \\vec{v}|$ is also a unit vector, what is $\\vec{u} \\cdot \\vec{v}$?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k97bhwcx2asy4bnhmgwg71ftb98cv2qx",
+    "correctKey": "A",
+    "explanation": "Rearranging gives c=−(a+b).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "c=−a−b"
+      },
+      {
+        "key": "B",
+        "text": "c=a+b"
+      },
+      {
+        "key": "C",
+        "text": "c=0 always"
+      },
+      {
+        "key": "D",
+        "text": "c=ab"
+      }
+    ],
+    "sectionId": "key-identity-sum-of-three-vectors-equal-to-zero",
+    "sectionLabel": "Key Identity: Sum of Three Vectors Equal to Zero",
+    "stem": "If a+b+c=0, what follows for c?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k977esp1ywstmbnynj0yzg0bxn8ctdtj",
+    "correctKey": "A",
+    "explanation": "The scalar component along v divides the dot product by |v|.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "(u·v)/|v|"
+      },
+      {
+        "key": "B",
+        "text": "u×v"
+      },
+      {
+        "key": "C",
+        "text": "|u|+|v|"
+      },
+      {
+        "key": "D",
+        "text": "u·v|v|"
+      }
+    ],
+    "sectionId": "projection-of-a-vector-along-another",
+    "sectionLabel": "Projection of a Vector Along Another",
+    "stem": "What is the scalar projection of u along v?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k970kg4frykwmy5fyayf5vp96n8ctj2e",
+    "correctKey": "A",
+    "explanation": "The dot product of force and displacement",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "The dot product of force and displacement"
+      },
+      {
+        "key": "B",
+        "text": "The cross product only"
+      },
+      {
+        "key": "C",
+        "text": "Matrix inversion"
+      },
+      {
+        "key": "D",
+        "text": "A determinant expansion"
+      }
+    ],
+    "sectionId": "work-done-by-a-constant-force",
+    "sectionLabel": "Work Done by a Constant Force",
+    "stem": "Which vector operation is used to calculate work done by a constant force?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-2",
+    "topicTitle": "3.2 Dot Product and Vector Projections",
+    "_id": "k973x4qkr2xsjvsqf7tne4dtbx8ctwb2",
+    "correctKey": "A",
+    "explanation": "Work is the scalar product of force and displacement.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72wac0z2fpcd9tdtdzstn8m585p4yj",
+    "options": [
+      {
+        "key": "A",
+        "text": "F·d"
+      },
+      {
+        "key": "B",
+        "text": "F×d"
+      },
+      {
+        "key": "C",
+        "text": "|F|+|d|"
+      },
+      {
+        "key": "D",
+        "text": "F/d"
+      }
+    ],
+    "sectionId": "work-done-by-a-constant-force",
+    "sectionLabel": "Work Done by a Constant Force",
+    "stem": "How is work by constant force F over displacement d calculated?",
+    "topicId": "ms781h3fyesp4kr9qmqkdanzhh85qj92"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k978tk7hm020w4sbnmevgd1rhd85qhn2",
+    "correctKey": "A",
+    "explanation": "Expanding $(\\mathbf{a}-\\mathbf{d})\\times(\\mathbf{b}-\\mathbf{c}) = \\mathbf{a}\\times\\mathbf{b} - \\mathbf{a}\\times\\mathbf{c} - \\mathbf{d}\\times\\mathbf{b} + \\mathbf{d}\\times\\mathbf{c}$ uses the distributive law. Substituting the given conditions yields $\\mathbf{0}$, proving $(\\mathbf{a}-\\mathbf{d})$ is parallel to $(\\mathbf{b}-\\mathbf{c})$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Distributive property of cross product over vector subtraction."
+      },
+      {
+        "key": "B",
+        "text": "Commutative property of dot product."
+      },
+      {
+        "key": "C",
+        "text": "The fact that $\\hat{i} \\times \\hat{i} = \\mathbf{0}$."
+      },
+      {
+        "key": "D",
+        "text": "The definition of a unit vector."
+      }
+    ],
+    "sectionId": "coplanar-vectors",
+    "sectionLabel": "Coplanar Vectors",
+    "stem": "If $\\mathbf{a} \\times \\mathbf{b} = \\mathbf{c} \\times \\mathbf{d}$ and $\\mathbf{a} \\times \\mathbf{c} = \\mathbf{b} \\times \\mathbf{d}$, which property is used to show $(\\mathbf{a}-\\mathbf{d}) \\times (\\mathbf{b}-\\mathbf{c}) = \\mathbf{0}$?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k977e448jtckqbqg4tq3ck133n8cvck3",
+    "correctKey": "A",
+    "explanation": "Zero scalar triple product means zero volume and coplanarity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "u·(v×w)=0"
+      },
+      {
+        "key": "B",
+        "text": "u·v=1"
+      },
+      {
+        "key": "C",
+        "text": "u×v=0 always"
+      },
+      {
+        "key": "D",
+        "text": "|u|=|v|"
+      }
+    ],
+    "sectionId": "coplanar-vectors",
+    "sectionLabel": "Coplanar Vectors",
+    "stem": "When are three vectors coplanar?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k977zr3949mmb8w338w6jmtvbh85p5je",
+    "correctKey": "B",
+    "explanation": "Since $|\\mathbf{a} \\times \\mathbf{b}| = |\\mathbf{a}||\\mathbf{b}|\\sin\\theta$, a zero cross product means $\\sin\\theta = 0$, so $\\theta = 0°$ or $180°$, meaning the vectors are parallel or collinear.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "They are perpendicular."
+      },
+      {
+        "key": "B",
+        "text": "They are parallel (or collinear)."
+      },
+      {
+        "key": "C",
+        "text": "They are unit vectors."
+      },
+      {
+        "key": "D",
+        "text": "Their dot product is zero."
+      }
+    ],
+    "sectionId": "cross-product-vector-product",
+    "sectionLabel": "Cross Product (Vector Product)",
+    "stem": "For two non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$, if $\\mathbf{a} \\times \\mathbf{b} = \\mathbf{0}$, what can be concluded?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k97ce7ranvhqhhkez6gkmew7rn8cv3cn",
+    "correctKey": "A",
+    "explanation": "It is perpendicular to both a and b by the right-hand rule.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Perpendicular to both"
+      },
+      {
+        "key": "B",
+        "text": "Parallel to a only"
+      },
+      {
+        "key": "C",
+        "text": "Parallel to b only"
+      },
+      {
+        "key": "D",
+        "text": "Always zero"
+      }
+    ],
+    "sectionId": "cross-product-vector-product",
+    "sectionLabel": "Cross Product (Vector Product)",
+    "stem": "What is the direction of a×b?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k976nad3jshs6762w7ns5cmx3985pyg8",
+    "correctKey": "B",
+    "explanation": "The Lagrange Identity states $|\\mathbf{a} \\times \\mathbf{b}|^2 = |\\mathbf{a}|^2|\\mathbf{b}|^2 - (\\mathbf{a}\\cdot\\mathbf{b})^2$, which directly gives $|\\mathbf{a} \\times \\mathbf{b}|$ from the given quantities without needing $\\theta$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pythagorean Theorem"
+      },
+      {
+        "key": "B",
+        "text": "Lagrange Identity"
+      },
+      {
+        "key": "C",
+        "text": "Law of Cosines"
+      },
+      {
+        "key": "D",
+        "text": "De Moivre's Theorem"
+      }
+    ],
+    "sectionId": "finding-the-angle-between-two-vectors",
+    "sectionLabel": "Finding the Angle Between Two Vectors",
+    "stem": "Which identity allows you to compute $|\\mathbf{a} \\times \\mathbf{b}|$ directly from $|\\mathbf{a}|$, $|\\mathbf{b}|$, and $\\mathbf{a} \\cdot \\mathbf{b}$ without finding angle $\\theta$?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k9729t4sgwrn46bdaemcc25rbh8ct5rh",
+    "correctKey": "A",
+    "explanation": "π/4",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "π/4"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "π/2"
+      },
+      {
+        "key": "D",
+        "text": "π"
+      }
+    ],
+    "sectionId": "finding-the-angle-between-two-vectors",
+    "sectionLabel": "Finding the Angle Between Two Vectors",
+    "stem": "If |a×b|=|a·b| for nonzero vectors, what is θ?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k9788k0c88rqzx7m24tjpwa31d8cvtv1",
+    "correctKey": "A",
+    "explanation": "The cross-product magnitude gives the sine relation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "|u×v|=|u||v|sinθ"
+      },
+      {
+        "key": "B",
+        "text": "u×v=|u|+|v|"
+      },
+      {
+        "key": "C",
+        "text": "u×v=cosθ"
+      },
+      {
+        "key": "D",
+        "text": "|u×v|=|u|−|v|"
+      }
+    ],
+    "sectionId": "finding-the-angle-between-two-vectors",
+    "sectionLabel": "Finding the Angle Between Two Vectors",
+    "stem": "Which relation uses the cross product to find θ?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k97c1fh2x1vsx1qk82rx6sya0s8ct5k0",
+    "correctKey": "A",
+    "explanation": "Its magnitude is the parallelogram area.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Area of the parallelogram"
+      },
+      {
+        "key": "B",
+        "text": "A length only"
+      },
+      {
+        "key": "C",
+        "text": "The dot product"
+      },
+      {
+        "key": "D",
+        "text": "A determinant entry"
+      }
+    ],
+    "sectionId": "geometric-interpretation",
+    "sectionLabel": "Geometric Interpretation",
+    "stem": "What does |u×v| represent?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k977a101w7y8bt1m2g9jg73h4h8cvzdj",
+    "correctKey": "A",
+    "explanation": "The cross product is anti-commutative.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "u×v=−v×u"
+      },
+      {
+        "key": "B",
+        "text": "u×v=v×u"
+      },
+      {
+        "key": "C",
+        "text": "u×v is always zero"
+      },
+      {
+        "key": "D",
+        "text": "u×v is scalar"
+      }
+    ],
+    "sectionId": "key-properties-of-cross-product",
+    "sectionLabel": "Key Properties of Cross Product",
+    "stem": "Which statement is true for the cross product?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k975q419wtrp7ga1jwp1tem07h8cvttb",
+    "correctKey": "A",
+    "explanation": "It links cross and dot products.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "|u×v|² and |u|²|v|²−(u·v)²"
+      },
+      {
+        "key": "B",
+        "text": "Only determinants"
+      },
+      {
+        "key": "C",
+        "text": "Only angles"
+      },
+      {
+        "key": "D",
+        "text": "Only sums"
+      }
+    ],
+    "sectionId": "lagrange-identity",
+    "sectionLabel": "Lagrange Identity",
+    "stem": "What does Lagrange’s identity relate?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k977s9ynn6fcxh2xzxd3nvk9ex8cv56v",
+    "correctKey": "A",
+    "explanation": "Substitute c=−a−b and expand the cross products.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "a×b=b×c=c×a"
+      },
+      {
+        "key": "B",
+        "text": "a×b=a+b"
+      },
+      {
+        "key": "C",
+        "text": "a×b=0 always"
+      },
+      {
+        "key": "D",
+        "text": "a=b=c"
+      }
+    ],
+    "sectionId": "result-cross-products-when-mathbfa--mathbfb--mathbfc--mathbf0",
+    "sectionLabel": "Result: Cross Products When $\\mathbf{a} + \\mathbf{b} + \\mathbf{c} = \\mathbf{0}$",
+    "stem": "If a+b+c=0, which vector relation follows?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k97b23anfb80s80p995mtrr9zd8ctvck",
+    "correctKey": "A",
+    "explanation": "Dotting one vector with the cross product of two gives a scalar.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "u·(v×w)"
+      },
+      {
+        "key": "B",
+        "text": "u×(v×w)"
+      },
+      {
+        "key": "C",
+        "text": "u+v+w"
+      },
+      {
+        "key": "D",
+        "text": "|u|+|v|"
+      }
+    ],
+    "sectionId": "scalar-triple-product",
+    "sectionLabel": "Scalar Triple Product",
+    "stem": "What is the scalar triple product?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-3",
+    "topicTitle": "3.3 Cross Product and Vector Direction",
+    "_id": "k97bwjwrxy8ygsmg8hhfdwmv8n8ctwky",
+    "correctKey": "A",
+    "explanation": "The absolute scalar triple product is volume.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70syn5j40n5ndcs6msf7qans85qst9",
+    "options": [
+      {
+        "key": "A",
+        "text": "|u·(v×w)|"
+      },
+      {
+        "key": "B",
+        "text": "u·v+w"
+      },
+      {
+        "key": "C",
+        "text": "|u×v|"
+      },
+      {
+        "key": "D",
+        "text": "u+v+w"
+      }
+    ],
+    "sectionId": "volume-of-a-parallelepiped",
+    "sectionLabel": "Volume of a Parallelepiped",
+    "stem": "What is the volume of the parallelepiped formed by u,v,w?",
+    "topicId": "ms7bcg9rrtz6d184mea08rwcm585p300"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Scalar and Vector Triple Products",
+    "_id": "k97c92166mhef97zw08ywnqjhn8ct33r",
+    "correctKey": "A",
+    "explanation": "Zero scalar triple product means zero volume.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fp6d9babjez5z7a97bf8q8h85p083",
+    "options": [
+      {
+        "key": "B",
+        "text": "a+b+c=1"
+      },
+      {
+        "key": "A",
+        "text": "a·(b×c)=0"
+      },
+      {
+        "key": "C",
+        "text": "a·b=1"
+      },
+      {
+        "key": "D",
+        "text": "|a|=0"
+      }
+    ],
+    "sectionId": "coplanar-vectors",
+    "sectionLabel": "Coplanar Vectors",
+    "stem": "What condition indicates coplanarity?",
+    "topicId": "ms7bm566jbvr9vzc0z49r2setd85q4m1"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Scalar and Vector Triple Products",
+    "_id": "k97fhyhet8mekccq9t8cnm1ebs8ctn6x",
+    "correctKey": "A",
+    "explanation": "The absolute value is the volume.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fp6d9babjez5z7a97bf8q8h85p083",
+    "options": [
+      {
+        "key": "C",
+        "text": "Vector magnitude only"
+      },
+      {
+        "key": "A",
+        "text": "Parallelepiped volume"
+      },
+      {
+        "key": "B",
+        "text": "Triangle angle"
+      },
+      {
+        "key": "D",
+        "text": "A determinant sign"
+      }
+    ],
+    "sectionId": "geometric-interpretation-volume-of-a-parallelepiped",
+    "sectionLabel": "Geometric Interpretation: Volume of a Parallelepiped",
+    "stem": "What geometric quantity does |a·(b×c)| give?",
+    "topicId": "ms7bm566jbvr9vzc0z49r2setd85q4m1"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Scalar and Vector Triple Products",
+    "_id": "k973pacc1abwfyta7kkx71bs1s8cv943",
+    "correctKey": "A",
+    "explanation": "Cyclic permutations preserve the scalar triple product.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fp6d9babjez5z7a97bf8q8h85p083",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is invariant under cyclic permutation"
+      },
+      {
+        "key": "C",
+        "text": "It is a vector"
+      },
+      {
+        "key": "D",
+        "text": "It ignores order entirely"
+      },
+      {
+        "key": "B",
+        "text": "It is always positive"
+      }
+    ],
+    "sectionId": "properties-of-scalar-triple-product",
+    "sectionLabel": "Properties of Scalar Triple Product",
+    "stem": "Which is true for a scalar triple product?",
+    "topicId": "ms7bm566jbvr9vzc0z49r2setd85q4m1"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Scalar and Vector Triple Products",
+    "_id": "k977skkvrqq0z5znx4z2evnynx8ctgav",
+    "correctKey": "A",
+    "explanation": "a·(b×c)",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fp6d9babjez5z7a97bf8q8h85p083",
+    "options": [
+      {
+        "key": "D",
+        "text": "|a|+|b|+|c|"
+      },
+      {
+        "key": "C",
+        "text": "a×b×c as a vector only"
+      },
+      {
+        "key": "B",
+        "text": "a+b+c"
+      },
+      {
+        "key": "A",
+        "text": "a·(b×c)"
+      }
+    ],
+    "sectionId": "scalar-triple-product",
+    "sectionLabel": "Scalar Triple Product",
+    "stem": "What is the scalar triple product of a, b, and c?",
+    "topicId": "ms7bm566jbvr9vzc0z49r2setd85q4m1"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Scalar and Vector Triple Products",
+    "_id": "k973k6jr3t2na7x0v9y4jfddfh8cvv2q",
+    "correctKey": "A",
+    "explanation": "As a·(b×c), also denoted [abc].",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fp6d9babjez5z7a97bf8q8h85p083",
+    "options": [
+      {
+        "key": "B",
+        "text": "a+b+c"
+      },
+      {
+        "key": "C",
+        "text": "a×b as a vector"
+      },
+      {
+        "key": "A",
+        "text": "a·(b×c)"
+      },
+      {
+        "key": "D",
+        "text": "|a|+|b|+|c|"
+      }
+    ],
+    "sectionId": "scalar-triple-product",
+    "sectionLabel": "Scalar Triple Product",
+    "stem": "How is the scalar triple product written?",
+    "topicId": "ms7bm566jbvr9vzc0z49r2setd85q4m1"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Scalar and Vector Triple Products",
+    "_id": "k975g3m093p8g51xvz66xsvy2s8cv30v",
+    "correctKey": "A",
+    "explanation": "A cross product produces a vector.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fp6d9babjez5z7a97bf8q8h85p083",
+    "options": [
+      {
+        "key": "C",
+        "text": "A matrix"
+      },
+      {
+        "key": "A",
+        "text": "A vector"
+      },
+      {
+        "key": "D",
+        "text": "A point"
+      },
+      {
+        "key": "B",
+        "text": "A scalar"
+      }
+    ],
+    "sectionId": "vector-triple-product",
+    "sectionLabel": "Vector Triple Product",
+    "stem": "What type of object is a×(b×c)?",
+    "topicId": "ms7bm566jbvr9vzc0z49r2setd85q4m1"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "03-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "exercise-3-4",
+    "topicTitle": "3.4 Scalar and Vector Triple Products",
+    "_id": "k97abbv1wh6g1nd9rjz68k7bah8cvpmf",
+    "correctKey": "A",
+    "explanation": "The component calculation starts with a determinant or cross product.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fp6d9babjez5z7a97bf8q8h85p083",
+    "options": [
+      {
+        "key": "B",
+        "text": "Add all magnitudes"
+      },
+      {
+        "key": "D",
+        "text": "Take only x-components"
+      },
+      {
+        "key": "A",
+        "text": "Form the determinant or cross product"
+      },
+      {
+        "key": "C",
+        "text": "Square each vector"
+      }
+    ],
+    "sectionId": "worked-example",
+    "sectionLabel": "Worked Example",
+    "stem": "What is the first step in evaluating a scalar triple product in components?",
+    "topicId": "ms7bm566jbvr9vzc0z49r2setd85q4m1"
+  }
+]

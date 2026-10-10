@@ -1,0 +1,384 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,correctKey,exerciseId,exerciseTitle,explanation,lastAttempt,locked,options,origin,questionKind,questionNumber,sectionId,sectionLabel,stem,topicId,keyPoints,modelAnswer,stemIllustration,stemImageStorageId
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-1-website-development","3.1 Website Development","m17dkg2bz93dmwnc89yj5t1chx8f5m7e","C","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Front end covers everything seen and used on a page and its design, built with HTML, CSS and JavaScript. Server management is back end work with servers and data, so it is not correct.",,"false","[{""key"":""A"",""text"":""Server management""},{""key"":""B"",""text"":""Database design""},{""key"":""C"",""text"":""User interface and design""},{""key"":""D"",""text"":""Memory Management""}]","exercise","mcq","Q1 1","website-development-front-end-and-back-end","Website Development: front-end and back-end","Which of the following is primarily associated with front-end development?","ms7317cdf2x0x4q8hjbx6eqbbd8bv2xr",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-1-website-development","3.1 Website Development","m17b3v87faq11prsyk8qtpeyyn8f4vs7","B","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Front end is also called client side because it runs for the user in the browser. Server refers to back end where data resides, so it is wrong.",,"false","[{""key"":""A"",""text"":""Label""},{""key"":""B"",""text"":""Client-side""},{""key"":""C"",""text"":""Server""},{""key"":""D"",""text"":""Database""}]","exercise","mcq","Q1 7","website-development-front-end-and-back-end","Website Development: front-end and back-end","Front end development is also called__________.","ms7317cdf2x0x4q8hjbx6eqbbd8bv2xr",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-1-website-development","3.1 Website Development","m17aw3884kpscnpkceetm803t58f4rdt",,"xd7f3d22ws9rbw1v5ythj92med8e08c6","Exercise 3: Short Response Questions",,,"false",,"exercise","unclassified","Q2. Give short answers to the following Short Response Questions (SRQs) 1","website-development-front-end-and-back-end","Website Development: front-end and back-end","Give an example where back-end development may not be required and all of the functionalities are handled by front-end.","ms7317cdf2x0x4q8hjbx6eqbbd8bv2xr","[""States front end only case with no database or server logic"",""Gives concrete example such as static notice page or portfolio"",""Links example to HTML and CSS with optional JavaScript interaction""]","A basic informative website needs no back end. A school notice page, personal portfolio or club introduction shows the same fixed text, images and links to every visitor and stores no orders or user data.
+
+It can be built with HTML and CSS, with JavaScript only for menus or validation. No database, login or server processing is required.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m17dqyncqpk49mtdc261kda9t98f4kcb","A","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","The textbook states that style during animation is specified by @keyframes. @style frame is not a CSS animation rule, so it is wrong.",,"false","[{""key"":""A"",""text"":""@key frame""},{""key"":""B"",""text"":""@style frame""},{""key"":""C"",""text"":""@highlighted frame""},{""key"":""D"",""text"":""@anchor frame""}]","exercise","mcq","Multiple Choice Questions (continued) 12","animations-in-css","Animations in CSS","An element style during animation is specified by _______.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m17fyyzhgn59s5vrnb4a10qmzs8f56st",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Exercise (continued) 4","animations-in-css","Animations in CSS","Write code for:
+A colored text which repeatedly vanishes for a second and appears in the next second, giving the impression of a “blinking text”
+An image, which spins a whole circle, waits for one second and spins again, in an iterative manner.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta","[""Defines blink keyframes with opacity change"",""Defines spin keyframes with 360 degree rotation"",""Applies infinite animation with timing"",""Keeps style tag and div or img container""]","## Blinking text and rotating image
+
+Two CSS animations are used. One changes opacity for blinking, one rotates for spinning.
+
+```html
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<title>Blinking Text and Rotating Image</title>
+<style>
+#blink {
+ color: blue;
+ font-size: 20px;
+ animation: blink 2s infinite;
+}
+@keyframes blink {
+ 0% { opacity: 1; }
+ 50% { opacity: 0; }
+ 100% { opacity: 1; }
+}
+#spin {
+ width: 100px;
+ height: 100px;
+ background-color: blue;
+ color: white;
+ animation: spin 3s infinite linear;
+}
+@keyframes spin {
+ from { transform: rotate(0deg); }
+ to { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body>
+<p id=""blink"">This text blinks blue!</p>
+<div id=""spin"">Blue text in an image</div>
+</body>
+</html>
+```
+
+## How it works
+
+1. Blink moves opacity from visible to vanished and back every two seconds.
+2. Spin moves rotation from 0 to 360 degrees, waits through timing and repeats.
+3. Style holds the rules and keyframes defines each stage.","{""caption"":""Blinking text and rotating image output"",""kind"":""image"",""mimeType"":""image/svg+xml"",""storageId"":""kg2bhjp8759tf3r4sy0nxgfzhx8f7w36"",""tier"":2}","kg2bhjp8759tf3r4sy0nxgfzhx8f7w36"
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m179acjvbvj4x5famqghbyxeg58f49g3","C","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Email input uses type email, which matches the textbook mapping of email addresses to that type. Type url is for web addresses, so it is wrong for email.",,"false","[{""key"":""A"",""text"":""type=\""url\""""},{""key"":""B"",""text"":""type=\""text\""""},{""key"":""C"",""text"":""type=\""email\""""},{""key"":""D"",""text"":""type=\""password\""""}]","exercise","mcq","Q1 2","forms-in-html","Forms in HTML","Which of the following HTML attributes is required in the <input> element for email ?","ms76bk6ky483w2dhcpxjrrvsz58bt7ta",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m172z3sym2xmsnnp0g5stpcgm58f55ct",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Q3 1","forms-in-html","Forms in HTML","For a Bakery, design a simple HTML form to take order online, which includes:
+radio buttons for the option of home delivery or self-collection,
+drop down list for 3 sizes of the cake,
+check boxes for candles, balloons, etc.
+Lastly, add a submit button which generates either an alert or redirects to another form; and responds with an order number.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta","[""Includes radio group for delivery choice"",""Includes select dropdown for three cake sizes"",""Includes checkboxes for extras"",""Includes submit with alert and order number"",""Uses label for binding and form action method""]","## Bakery order form
+
+This form uses radio buttons for one delivery choice, a dropdown for cake size, checkboxes for extras, and a submit button that shows an order number.
+
+```html
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<title>Bakery Order</title>
+</head>
+<body>
+<h1>Bakery Order</h1>
+<form action=""submit_order.html"" method=""post"" onsubmit=""placeOrder(event)"">
+<label>Order type:</label>
+<input type=""radio"" id=""home"" name=""orderType"" value=""Home delivery"" required>
+<label for=""home"">Home delivery</label>
+<input type=""radio"" id=""pickup"" name=""orderType"" value=""Self-collection"">
+<label for=""pickup"">Self-collection</label>
+<br><br>
+<label for=""size"">Cake size:</label>
+<select id=""size"" name=""size"">
+<option value=""small"">Small</option>
+<option value=""medium"">Medium</option>
+<option value=""large"">Large</option>
+</select>
+<br><br>
+<label>Extras:</label>
+<input type=""checkbox"" id=""candles"" name=""extras"" value=""Candles"">
+<label for=""candles"">Candles</label>
+<input type=""checkbox"" id=""balloons"" name=""extras"" value=""Balloons"">
+<label for=""balloons"">Balloons</label>
+<input type=""checkbox"" id=""card"" name=""extras"" value=""Card"">
+<label for=""card"">Greeting card</label>
+<br><br>
+<input type=""submit"" value=""Place Order"">
+</form>
+<script>
+function placeOrder(event) {
+ event.preventDefault();
+ const orderNo = Math.floor(10000 + Math.random() * 90000);
+ alert(""Order placed. Your order number is "" + orderNo);
+}
+</script>
+</body>
+</html>
+```
+
+## How it works
+
+1. Radio buttons share one name so only one order type can be selected.
+2. Select limits size to three fixed choices.
+3. Checkboxes allow zero, one or many extras.
+4. Submit calls JavaScript which blocks normal submit, creates a random order number and shows it in an alert.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m175ds56z9jmzbzfhhya57ce218f4gf9","C","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Tables organize information on webpages in readable ordered form. Rows and columns are parts inside a table, not the place where tables organize information.",,"false","[{""key"":""A"",""text"":""columns""},{""key"":""B"",""text"":""rows""},{""key"":""C"",""text"":""webpages""},{""key"":""D"",""text"":""list""}]","exercise","mcq","Q1 8","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","Table is an easy way to organize information in__________.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m1721pqf85rbhq5bgaf75ks5zs8f53cf","A","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Th defines a header cell with bold centered content. Td holds ordinary data cells, so it is not the header tag.",,"false","[{""key"":""A"",""text"":""<th>""},{""key"":""B"",""text"":""<td>""},{""key"":""C"",""text"":""<caption>""},{""key"":""D"",""text"":""<tr>""}]","exercise","mcq","Q1 9","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","Table's header cell and content is referred in __________ tag.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m17175csj7xg9x4m17xzyvn4hn8f4aye","B","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Border collapse determines whether neighboring cell borders combine into one line or stay distinct. Border separate is a value for distinct borders, not the controlling property.",,"false","[{""key"":""A"",""text"":""Link border""},{""key"":""B"",""text"":""border collapse""},{""key"":""C"",""text"":""border separate""},{""key"":""D"",""text"":""border""}]","exercise","mcq","Q1 10","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","Link between the borders of neighboring table cell is determined by __________.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m179g7dghmdcfb8r95j4m1kv7x8f4zz2","C","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Padding is the distance between a cell border and its content on four sides. Style is a general term and does not define that spacing, so it is wrong.",,"false","[{""key"":""A"",""text"":""Cell""},{""key"":""B"",""text"":""Output""},{""key"":""C"",""text"":""Padding""},{""key"":""D"",""text"":""Style""}]","exercise","mcq","Multiple Choice Questions (continued) 11","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","Distance between the cell's border and its content is called _______.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m174y4cdhpth03cbypmbzdjemh8f42yb","C","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Td marks an ordinary table cell holding real data. Th marks a header cell, so it is not the ordinary single cell.",,"false","[{""key"":""A"",""text"":""<tc>""},{""key"":""B"",""text"":""<tf>""},{""key"":""C"",""text"":""<td>""},{""key"":""D"",""text"":""<th>""}]","exercise","mcq","Multiple Choice Questions (continued) 13","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","A single table cell is indicated by a _______ tag.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m173v49g1rmn85a6qvhph4qtyd8f5755",,"xd7f3d22ws9rbw1v5ythj92med8e08c6","Exercise 3: Short Response Questions",,,"false",,"exercise","unclassified","Q2. Give short answers to the following Short Response Questions (SRQs) 2","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","What are the 'td', 'th' and 'tr' tags used for? Explain with the help of an example.","ms76bk6ky483w2dhcpxjrrvsz58bt7ta","[""Defines tr as row container"",""Defines th as bold centered header cell"",""Defines td as ordinary data cell"",""Gives short table example using all three""]","The tr tag creates one row in a table. The th tag creates a header cell with bold centered text for column titles. The td tag creates an ordinary cell holding real data.
+
+```html
+<table>
+<tr>
+<th>Patient Name</th>
+<th>Date</th>
+</tr>
+<tr>
+<td>Adil</td>
+<td>2024-05-10</td>
+</tr>
+</table>
+```",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m17crpwb0vkkdw240ky5dwyf7n8f53n1",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Exercise 2","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","Design a website titled ""My Weekly Evening Schedule"", as follows:","ms76bk6ky483w2dhcpxjrrvsz58bt7ta","[""Includes title My Weekly Evening Schedule"",""Uses table with Day and Activity headers"",""Includes five correct day rows"",""Uses thead tbody th td and caption or h1""]","## Weekly schedule table
+
+The page shows five evening activities in a two column table with headers.
+
+```html
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<title>My Weekly Evening Schedule</title>
+<style>
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 10px; text-align: left; border: 1px solid lightgray; }
+th { background-color: gray; }
+</style>
+</head>
+<body>
+<h1>My Weekly Evening Schedule</h1>
+<table>
+<caption>Evening activities</caption>
+<thead>
+<tr>
+<th>Day</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Monday</td><td>Karate Class</td></tr>
+<tr><td>Tuesday</td><td>Calligraphy Lessons</td></tr>
+<tr><td>Wednesday</td><td>Math Test</td></tr>
+<tr><td>Thursday</td><td>Gardening</td></tr>
+<tr><td>Friday</td><td>Programming Practice</td></tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+## Structure
+
+1. Head holds title and basic CSS for borders and padding.
+2. Thead holds Day and Activity headers with th.
+3. Tbody holds five rows, each with tr and two td cells.","{""caption"":""My Weekly Evening Schedule table"",""kind"":""image"",""mimeType"":""image/svg+xml"",""storageId"":""kg2ds0szzqv1mwvtt49zzdwjjh8f6ewk"",""tier"":2}","kg2ds0szzqv1mwvtt49zzdwjjh8f6ewk"
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m174w7jx0amn6gr3erpfjfc75s8f5jms",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Exercise 3","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","Write code to display the following table:","ms76bk6ky483w2dhcpxjrrvsz58bt7ta","[""Includes title My Favorite Fruits"",""Uses table thead tbody structure"",""Includes Apple Banana Orange rows with colors"",""Uses th for headers and td for data""]","## Favorite fruits table
+
+This code displays fruit names and colors in a plain table.
+
+```html
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<title>My Favorite Fruits</title>
+</head>
+<body>
+<h1>My Favorite Fruits</h1>
+<table>
+<thead>
+<tr>
+<th>Fruit Name</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Apple</td><td>Red</td></tr>
+<tr><td>Banana</td><td>Yellow</td></tr>
+<tr><td>Orange</td><td>Orange</td></tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+## Parts used
+
+1. Table encloses all rows.
+2. Tr creates each row.
+3. Th creates bold centered headers.
+4. Td holds Apple, Banana, Orange and their colors.","{""caption"":""My Favorite Fruits table"",""kind"":""image"",""mimeType"":""image/svg+xml"",""storageId"":""kg23qp6axsr4cbpx2e1q012dyx8f7f8p"",""tier"":2}","kg23qp6axsr4cbpx2e1q012dyx8f7f8p"
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-2-additional-features-of-html-css","3.2 Additional Features of Html / Css","m177c6adshg9w9vdqk4n080ggs8f5xdz",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Exercise (continued) 3","tables-in-html-and-basic-css-styling","Tables in HTML and basic CSS styling","Now change the table appearance as follows:","ms76bk6ky483w2dhcpxjrrvsz58bt7ta","[""Keeps same fruit rows and headers"",""Adds border collapse and full width"",""Adds padding alignment and borders"",""Adds header background and caption""]","## Styled fruits table
+
+The same fruit data is shown with cleaner CSS styling for borders, spacing and headers.
+
+```html
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<title>My Favorite Fruits</title>
+<style>
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 10px; text-align: left; border: 1px solid lightgray; }
+th { background-color: gray; }
+</style>
+</head>
+<body>
+<h1>My Favorite Fruits</h1>
+<table>
+<caption>My Favorite Fruits</caption>
+<thead>
+<tr>
+<th>Fruit Name</th>
+<th>Color</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Apple</td><td>Red</td></tr>
+<tr><td>Banana</td><td>Yellow</td></tr>
+<tr><td>Orange</td><td>Orange</td></tr>
+</tbody>
+</table>
+</body>
+</html>
+```
+
+## Changes made
+
+1. Border collapse joins neighboring borders into single lines.
+2. Padding and left alignment make cell text easy to read.
+3. Borders and full width make each cell stand out.
+4. Gray headers and caption give an overview of the data.","{""caption"":""My Favorite Fruits table"",""kind"":""image"",""mimeType"":""image/svg+xml"",""storageId"":""kg2cqedky8pqhf2xsj85bc60nh8f75rd"",""tier"":2}","kg2cqedky8pqhf2xsj85bc60nh8f75rd"
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-3-advanced-programming-constructs-in-javascript","3.3 Advanced Programming Constructs in Javascript","m177z2w4j37p77aam8s1jew0m98f5caz",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Exercise (continued) 5","bullet-points-as-values-from-arrays","Bullet points as values from arrays","Write code to change the bullets into ordered list for the program ‘Sum of first 10 integers’.","ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q","[""Uses ol instead of ul for numbered bullets"",""Creates li items from array with loop"",""Keeps calculateSum push and display logic"",""Uses function keyword with parameters and braces""]","## Sum program with ordered list
+
+The numbers are shown as a numbered list by using ol and li created from the array.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sum of First 10 Integers</title>
+</head>
+<body>
+<button onclick=""calculateSum()"">Calculate Sum</button>
+<ol id=""numberList""></ol>
+<p id=""sumDisplay""></p>
+<script>
+function calculateSum() {
+ let sum = 0;
+ let numbers = [];
+ for (let i = 1; i <= 10; i++) {
+  sum += i;
+  numbers.push(i);
+ }
+ const list = document.getElementById(""numberList"");
+ list.innerHTML = """";
+ for (let i = 0; i < numbers.length; i++) {
+  const li = document.createElement(""li"");
+  li.textContent = numbers[i];
+  list.appendChild(li);
+ }
+ document.getElementById(""sumDisplay"").textContent = ""The sum is "" + sum;
+}
+</script>
+</body>
+</html>
+```
+
+## Change explained
+
+1. Ul is replaced by ol so bullets become numbers 1, 2, 3.
+2. Each array value becomes one li through the loop.
+3. Push still appends each integer, and sum still adds each value.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-3-advanced-programming-constructs-in-javascript","3.3 Advanced Programming Constructs in Javascript","m176kaz675dpn90w8vbc2v0v918f551m","A","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Push adds a value at the end of an array and appends to existing values. Add is not the JavaScript array method for this purpose, so it is wrong.",,"false","[{""key"":""A"",""text"":""push()""},{""key"":""B"",""text"":""add()""},{""key"":""C"",""text"":""leftshift()""},{""key"":""D"",""text"":""rightshift()""}]","exercise","mcq","Q1 3","javascript-arrays-loops-and-functions-for-dynamic-pages","JavaScript arrays, loops and functions for dynamic pages","In JavaScript, which method would you use to add a new item to the end of a list?","ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-3-advanced-programming-constructs-in-javascript","3.3 Advanced Programming Constructs in Javascript","m17e3b9190k3s4mrrgyfdk38hh8f4tes","B","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Array index starts at 0, so first is 0, second is 1 and third is 2. MyArray[3] would access the fourth element, so it is wrong.",,"false","[{""key"":""A"",""text"":""myArray[3]""},{""key"":""B"",""text"":""myArray[2]""},{""key"":""C"",""text"":""myArray[1]""},{""key"":""D"",""text"":""myArray[0]""}]","exercise","mcq","Q1 4","javascript-arrays-loops-and-functions-for-dynamic-pages","JavaScript arrays, loops and functions for dynamic pages","In JavaScript, how do you access the third element in an array called myArray?","ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-3-advanced-programming-constructs-in-javascript","3.3 Advanced Programming Constructs in Javascript","m1789b4sq9f0n3hpcw4dfp3wmh8f47ft",,"xd7f3d22ws9rbw1v5ythj92med8e08c6","Exercise 3: Short Response Questions",,,"false",,"exercise","unclassified","Q2. Give short answers to the following Short Response Questions (SRQs) 3","javascript-arrays-loops-and-functions-for-dynamic-pages","JavaScript arrays, loops and functions for dynamic pages","Find error(s) in the following codes.","ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q","[""Identifies bracket errors in (a) and (b)"",""Identifies undeclared i and off by one condition in (c)"",""Identifies wrong start, wrong condition and undeclared i in (d)"",""States correct array syntax and loop bounds""]","The errors are in array creation and loop bounds:
+
+1. (a) uses parentheses: `const myArray = (""apple"", 3.14, true, ""orange"");` It must use square brackets `[]`.
+2. (b) has no brackets: `const myArray = ""apple"", 3.14, true, ""orange"";` It must be `[""apple"", 3.14, true, ""orange""]`.
+3. (c) uses `for (i = 0; i <= numbers.length; i ++)` with undeclared `i` and `<=` which reads one past the end. Use `for (let i = 0; i < numbers.length; i++)`.
+4. (d) uses `for (i = numbers.length; i < 0; i--)` which never runs. Use `for (let i = numbers.length - 1; i >= 0; i--)` or forward loop from 0.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-3-advanced-programming-constructs-in-javascript","3.3 Advanced Programming Constructs in Javascript","m173c480x365qa03f1r4y0wzxx8f5yad",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Exercise (continued) 6","javascript-arrays-loops-and-functions-for-dynamic-pages","JavaScript arrays, loops and functions for dynamic pages","Create an array with the following values and print it as follows:
+My_Mix_Array : [ apple, 3.14, true, Ali, 25 ]","ms7c7fvn9bjgznzkmnk9c1mt0d8bth0q","[""Creates array with square brackets"",""Includes string number boolean and name values"",""Uses zero based indexing correctly"",""Prints exact My_Mix_Array line""]","## Mixed array program
+
+JavaScript allows words, numbers and boolean values in one array.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mixed Array</title>
+</head>
+<body>
+<p id=""output""></p>
+<script>
+const My_Mix_Array = [""apple"", 3.14, true, ""Ali"", 25];
+let text = ""My_Mix_Array : [ "";
+for (let i = 0; i < My_Mix_Array.length; i++) {
+ text += My_Mix_Array[i];
+ if (i < My_Mix_Array.length - 1) {
+  text += "", "";
+ }
+}
+text += "" ]"";
+document.getElementById(""output"").textContent = text;
+</script>
+</body>
+</html>
+```
+
+## Result
+
+The page shows: My_Mix_Array : [ apple, 3.14, true, Ali, 25 ]. Apple is at index 0 and 25 is at index 4.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-4-complex-algorithms-in-javascript","3.4 Complex Algorithms in Javascript","m176g88p1wnx08nas3eacsn6d58f4s51","C","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Arrays and lists can hold words, numbers or a combination of both, which is alphanumeric. Numbers alone is incomplete because text is also allowed.",,"false","[{""key"":""A"",""text"":""Alphabets""},{""key"":""B"",""text"":""Numbers""},{""key"":""C"",""text"":""Alphanumeric""},{""key"":""D"",""text"":""Checkboxes""}]","exercise","mcq","Multiple Choice Questions (continued) 14","array-and-list-similarities-and-differences","Array and list similarities and differences","Arrays and list can contain data types containing _______.","ms77gwqt3c0j1cdkzdyah9ddp98bva20",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-4-complex-algorithms-in-javascript","3.4 Complex Algorithms in Javascript","m1744xn62gpp8jmzt8dwe9ajpx8f5zh2","A","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","ADT means Abstract Data Type, defined as a type with defined operations only, as used for list. Abstract document type is not a data structure term, so it is wrong.",,"false","[{""key"":""A"",""text"":""Abstract Data type""},{""key"":""B"",""text"":""Abstract document type""},{""key"":""C"",""text"":""All Data type""},{""key"":""D"",""text"":""Any Data type""}]","exercise","mcq","Multiple Choice Questions (continued) 15","array-and-list-similarities-and-differences","Array and list similarities and differences","ADT stands for _______.","ms77gwqt3c0j1cdkzdyah9ddp98bva20",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-4-complex-algorithms-in-javascript","3.4 Complex Algorithms in Javascript","m17fbh9q0pjznxv5tbaezfsmpd8f4q35",,"xd7f3d22ws9rbw1v5ythj92med8e08c6","Exercise 3: Short Response Questions",,,"false",,"exercise","unclassified","5","array-and-list-similarities-and-differences","Array and list similarities and differences","Enlist 3 key differences between array and list.","ms77gwqt3c0j1cdkzdyah9ddp98bva20","[""States contiguous versus non contiguous storage"",""States built in bracket syntax versus constructed list"",""States fixed rearrangement versus easier resizing or new operations""]","An array stores items in contiguous memory, while a list uses locations that are not necessarily contiguous.
+
+An array is built in JavaScript with square brackets `[]`, while a list is not built in and is often constructed using arrays.
+
+An array has fixed arrangement so insertion or deletion may need rearrangement, while a list can be resized more easily and can define new operations such as `getElement()`.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-4-complex-algorithms-in-javascript","3.4 Complex Algorithms in Javascript","m177v013ebxmfh2da5jqn8wq0n8f517k",,"xd71hpmp5h21kz6qnk83dbmxz58e0gxd","Exercise 3: Extended Response Questions",,,"false",,"exercise","unclassified","Exercise (continued) 7","find-an-element-in-a-list","Find an element in a list","A list contains 10 entries and we want to search a particular value in the list. Write code, to determine how many iterations it took:
+If the list is found in the list
+If the list is not found in the list","ms77gwqt3c0j1cdkzdyah9ddp98bva20","[""Builds 10 item list array"",""Uses linear search loop through entire list"",""Counts iterations for found case"",""Counts full length for not found case""]","## Search with iteration count
+
+The list is searched from start to end and a counter records how many checks were made.
+
+```html
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+<title>Search Count</title>
+</head>
+<body>
+<p id=""list""></p>
+<p id=""result""></p>
+<script>
+const shoppingList = [""milk"", ""bread"", ""eggs"", ""apples"", ""cheese"", ""butter"", ""sugar"", ""tea"", ""rice"", ""salt""];
+function findWithCount(itemName) {
+ let count = 0;
+ for (let i = 0; i < shoppingList.length; i++) {
+  count++;
+  if (shoppingList[i] === itemName) {
+   return itemName + "" found after "" + count + "" iterations."";
+  }
+ }
+ return itemName + "" not found after "" + count + "" iterations."";
+}
+document.getElementById(""list"").textContent = ""List: "" + shoppingList.toString();
+document.getElementById(""result"").textContent = findWithCount(""milk"") + "" "" + findWithCount(""honey"");
+</script>
+</body>
+</html>
+```
+
+## How count works
+
+1. Loop checks each item in order until a match is found.
+2. If found early, count equals its position plus one.
+3. If absent, the loop finishes all 10 checks, so count is 10.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-5-advanced-techniques-for-testing-and-debugging","3.5 Advanced Techniques for Testing and Debugging","m17csjmkvpxapgeev4193j5sn18f4fxj","D","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","The debugger statement pauses execution at that point for inspection of variables and flow. Console.log only prints values and does not stop execution, so it is wrong.",,"false","[{""key"":""A"",""text"":""console.log()""},{""key"":""B"",""text"":""stop""},{""key"":""C"",""text"":""break""},{""key"":""D"",""text"":""debugger""}]","exercise","mcq","Q1 5","debugging-with-breakpoints-and-watchpoints","Debugging with breakpoints and watchpoints","To manually stop JavaScript code execution at a certain point, you can use:","ms76deewmz54d0tsqcvzezmd498bv9ex",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-5-advanced-techniques-for-testing-and-debugging","3.5 Advanced Techniques for Testing and Debugging","m177hjj4mc49j7txkjx4t97a198f4c81",,"xd7f3d22ws9rbw1v5ythj92med8e08c6","Exercise 3: Short Response Questions",,,"false",,"exercise","unclassified","6","debugging-with-breakpoints-and-watchpoints","Debugging with breakpoints and watchpoints","How are breakpoints useful in debugging? Elaborate with help of an example.","ms76deewmz54d0tsqcvzezmd498bv9ex","[""Defines breakpoint pause for inspection"",""Contrasts with watchpoint rule on variables"",""Gives sum loop example with i starting at 10 and fix to 1""]","A breakpoint pauses the program at a doubtful line so variable values and data flow can be examined step by step with Step-Over in Visual Studio.NET.
+
+In the sum of first 10 integers, the loop wrongly started with `i = 10`. The pause showed `i` as 10 and `sum` as 10, so the fault was found and fixed to `for (let i = 1; i <= 10; i++)`.",,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-5-advanced-techniques-for-testing-and-debugging","3.5 Advanced Techniques for Testing and Debugging","m176n3xxkq7jtytyz42wpg953n8f597c","B","xd7dty4m07pk23tvy3tdder0gh8e1n4m","Exercise 3: Multiple Choice Questions","Unit tests check each module, function or line for correct behavior and catch errors early. Validating syntax alone is a parser task, so that distractor is wrong.",,"false","[{""key"":""A"",""text"":""To validate code syntax""},{""key"":""B"",""text"":""To test individual parts of the code for correctness""},{""key"":""C"",""text"":""To style the user interface""},{""key"":""D"",""text"":""To deploy code to production""}]","exercise","mcq","Q1 6","unit-test","Unit test","What is the primary purpose of unit tests?","ms76deewmz54d0tsqcvzezmd498bv9ex",,,,
+"computer-10","03-programming-fundamentals","Programming Fundamentals","3-5-advanced-techniques-for-testing-and-debugging","3.5 Advanced Techniques for Testing and Debugging","m17e7s7s607y5nj7xvtx1exh7x8f530a",,"xd7f3d22ws9rbw1v5ythj92med8e08c6","Exercise 3: Short Response Questions",,,"false",,"exercise","unclassified","4","unit-test","Unit test","How is unit testing used when adding a function to an already written program?","ms76deewmz54d0tsqcvzezmd498bv9ex","[""States existing tests guard old behavior"",""States new function gets its own true and false tests"",""States failing test signals regression before release""]","When a new function is added, existing unit tests are run to confirm the old behavior still passes. New small tests are then written for the added function, for example one present item expecting true and one absent item expecting false.
+
+If all tests pass, the programmer gains confidence that the change did not break primary functionality and that errors were caught early.",,

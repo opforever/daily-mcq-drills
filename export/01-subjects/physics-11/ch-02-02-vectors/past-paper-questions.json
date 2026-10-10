@@ -1,0 +1,2018 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "equilibrium",
+    "topicTitle": "2.1 Equilibrium",
+    "_id": "m173n2e2efghkkh85rfsfajqj185qxp7",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Torque balance: torque from load equals torque from counterweight",
+      "Torque formula $\\tau = rF\\sin\\theta$ applied to both sides of pivot",
+      "Load positioned close to mast (small moment arm) reduces its torque effect",
+      "Counterweight positioned far from pivot (large moment arm) increases its torque",
+      "Equilibrium of torques prevents angular acceleration and toppling"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Cranes can lift heavy loads without toppling by maximizing their stability through torque balance. The crane's design ensures that the torque produced by the load (acting downward at a distance from the pivot) is balanced by the torque from the crane's counterweight. Using the torque formula $\\tau = rF\\sin\\theta$, the crane operator positions the load close to the mast (reducing the moment arm $r$) while the counterweight is placed far from the pivot, creating equal and opposite torques. This equilibrium prevents the crane from rotating and toppling over.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionId": "torque-in-rotational-dynamics",
+    "sectionLabel": "Torque in Rotational Dynamics",
+    "session": "annual",
+    "stem": "How are cranes able to lift heavy load without toppling? Explain briefly.",
+    "topicId": "ms733yh4kj2sepecdqb4k7tbs185p2b5",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "equilibrium",
+    "topicTitle": "2.1 Equilibrium",
+    "_id": "m170m1g5wknkjk2khdcegw8k6d85qnz1",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "First condition: Net force equals zero ($\\sum \\vec{F} = 0$); components satisfy $\\sum F_x = 0$ and $\\sum F_y = 0$",
+      "Second condition: Net torque equals zero ($\\sum \\tau = 0$); clockwise torques equal counterclockwise torques",
+      "First condition prevents translational motion (linear acceleration)",
+      "Second condition prevents rotational motion (angular acceleration)",
+      "Both conditions must be satisfied simultaneously for complete mechanical equilibrium"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "The two conditions of equilibrium are: (1) **First Condition of Equilibrium (Translational Equilibrium)**: The net force acting on a body must be zero, expressed as $\\sum \\vec{F} = 0$. This means the vector sum of all forces in both x and y directions must equal zero: $\\sum F_x = 0$ and $\\sum F_y = 0$. This condition ensures the body does not accelerate linearly. (2) **Second Condition of Equilibrium (Rotational Equilibrium)**: The net torque acting on a body about any point must be zero, expressed as $\\sum \\tau = 0$. This means the algebraic sum of all clockwise and counterclockwise torques must be equal, ensuring the body does not rotate. When both conditions are satisfied simultaneously, the body is in complete mechanical equilibrium and remains at rest or moves with constant velocity.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionId": "conditions-for-equilibrium",
+    "sectionLabel": "Conditions for Equilibrium",
+    "session": "annual",
+    "stem": "Describe two conditions of equilibrium.",
+    "topicId": "ms733yh4kj2sepecdqb4k7tbs185p2b5",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m17717wcwczrw8tgga52qmkvys85qmf5",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "If $A_x = A_y$, then using the relationship $\\tan\\theta = \\frac{A_y}{A_x}$, we get $\\tan\\theta = 1$. Therefore, $\\theta = 45°$. The angle between vector $\\vec{A}$ and the x-axis is **45°**.",
+    "keyPoints": [
+      "Correctly identifies the relationship $\\tan\\theta = \\frac{A_y}{A_x}$",
+      "Substitutes the condition $A_x = A_y$ to get $\\tan\\theta = 1$",
+      "Correctly calculates $\\theta = 45°$ from the tangent ratio",
+      "States the final answer clearly as the angle with the x-axis"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "If $A_x = A_y$, then using the relationship $\\tan\\theta = \\frac{A_y}{A_x}$, we get $\\tan\\theta = 1$. Therefore, $\\theta = 45°$. The angle between vector $\\vec{A}$ and the x-axis is **45°**.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "reconstructing-the-original-vector-vector-composition",
+    "sectionLabel": "Reconstructing the Original Vector (Vector Composition)",
+    "session": "annual",
+    "stem": "If $A_x = A_y$, then the angle between vector $\\vec{A}$ and x-axis is:",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m1765bxytw6y7v4yj191g590z985qrk1",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly resolved both forces into x and y components using trigonometric functions",
+      "Accurately summed the respective components to find resultant components ($R_x = 10$ N, $R_y = 34.64$ N)",
+      "Applied the Pythagorean theorem to calculate magnitude of resultant ($R ≈ 36.05$ N)",
+      "Used inverse tangent function to determine direction of resultant ($θ ≈ 73.9°$)",
+      "Showed complete working with proper units and mathematical steps throughout"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "To find the resultant of two forces, we resolve each force into rectangular components, sum the components, and then find the magnitude and direction of the resultant.\n\n**Step 1: Resolve forces into components**\n\nForce 1: $F_1 = 30$ N at $0°$\n- $F_{1x} = 30 \\cos(0°) = 30$ N\n- $F_{1y} = 30 \\sin(0°) = 0$ N\n\nForce 2: $F_2 = 40$ N at $120°$\n- $F_{2x} = 40 \\cos(120°) = 40 × (-0.5) = -20$ N\n- $F_{2y} = 40 \\sin(120°) = 40 × (0.866) = 34.64$ N\n\n**Step 2: Find resultant components**\n\n$R_x = F_{1x} + F_{2x} = 30 + (-20) = 10$ N\n\n$R_y = F_{1y} + F_{2y} = 0 + 34.64 = 34.64$ N\n\n**Step 3: Calculate magnitude of resultant**\n\n$R = \\sqrt{R_x^2 + R_y^2} = \\sqrt{(10)^2 + (34.64)^2} = \\sqrt{100 + 1199.93} = \\sqrt{1299.93} ≈ 36.05$ N\n\n**Step 4: Find direction**\n\n$\\theta = \\tan^{-1}\\left(\\frac{R_y}{R_x}\\right) = \\tan^{-1}\\left(\\frac{34.64}{10}\\right) = \\tan^{-1}(3.464) ≈ 73.9°$ with the x-axis\n\n**Answer:** The resultant force is approximately **36.05 N** at an angle of **73.9°** with the x-axis.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Calculate the resultant of two forces of $30 N$ and $40 N$ acting at a point making angles of $0^{\\circ}$ and $120^{\\circ}$ with x-axis respectively.",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m178yz86h05z14frernfd2498x85q9as",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Vector components are equal in magnitude when the vector makes 45° angle with both coordinate axes",
+      "Mathematically: $A_x = A_y$ occurs when $A\\cos(\\theta) = A\\sin(\\theta)$, giving $\\theta = 45°$",
+      "Graphically represented as isosceles right-angled triangle with equal perpendicular legs",
+      "The resultant vector is the hypotenuse of this isosceles triangle",
+      "This condition applies to vectors in any quadrant (45°, 135°, 225°, 315°)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A vector has components equal in magnitude when it makes a 45° angle with both the x and y axes. In this case, if a vector $\\vec{A}$ has magnitude $A$ and makes 45° with the x-axis, then $A_x = A\\cos(45°) = A_y = A\\sin(45°) = \\frac{A}{\\sqrt{2}}$. Graphically, the vector appears as the hypotenuse of an isosceles right-angled triangle, where the two perpendicular legs (components) are equal in length.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionId": "reconstructing-the-original-vector-vector-composition",
+    "sectionLabel": "Reconstructing the Original Vector (Vector Composition)",
+    "session": "annual",
+    "stem": "Under what circumstances would a vector have components that are equal in magnitude? Explain graphically.",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m1786z6hks924g3cqxb3q6hans85qtak",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When two forces $F_1$ and $F_2$ act at right angles to each other, their resultant can be found using vector composition. Since the forces are perpendicular, they form the two legs of a right-angled triangle. Using the Pythagorean theorem, the magnitude of the resultant is $R = \\sqrt{F_1^2 + F_2^2}$.",
+    "keyPoints": [
+      "Identifies that forces are perpendicular components",
+      "Applies Pythagorean theorem for vector composition",
+      "Correctly derives resultant formula $R = \\sqrt{F_1^2 + F_2^2}$",
+      "Recognizes this as vector composition of rectangular components"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When two forces $F_1$ and $F_2$ act at right angles to each other, their resultant can be found using vector composition. Since the forces are perpendicular, they form the two legs of a right-angled triangle. Using the Pythagorean theorem, the magnitude of the resultant is $R = \\sqrt{F_1^2 + F_2^2}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{F_{1}+F_{2}}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$F_{1}^{2}+F_{2}^{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{F_{1}^{2}+F_{2}^{2}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{F_{1}^{2}+F_{2}^{2}}{2}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "calculating-the-magnitude-of-the-vector",
+    "sectionLabel": "Calculating the Magnitude of the Vector",
+    "session": "annual",
+    "stem": "Two forces of magnitudes $F_{1}$ and $F_{2}$ acting at right angle to each other have a resultant of magnitude:",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m17apngsxv9f5726sndy4h4h5585pkx7",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies that $A_x$ and $A_y$ are perpendicular components forming a right-angled triangle",
+      "Recognizes the vector $\\vec{A}$ as the hypotenuse of the triangle",
+      "Correctly applies Pythagorean theorem: $|\\vec{A}|^2 = A_x^2 + A_y^2$",
+      "Takes square root to obtain final expression $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2}$",
+      "Shows clear mathematical derivation with proper notation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Consider a vector $\\vec{A}$ with rectangular components $A_x$ and $A_y$ along the x and y axes respectively. These perpendicular components form the legs of a right-angled triangle, with the vector $\\vec{A}$ as the hypotenuse. Applying the Pythagorean theorem to this right triangle: $|\\vec{A}|^2 = A_x^2 + A_y^2$. Taking the square root of both sides gives $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2}$, which represents the magnitude of the vector in terms of its rectangular components.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionId": "calculating-the-magnitude-of-the-vector",
+    "sectionLabel": "Calculating the Magnitude of the Vector",
+    "session": "annual",
+    "stem": "For vector $\\vec{A}$ show that $|\\vec{A}|=\\sqrt{A_{x}^{2}+A_{y}^{2}}$.",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m17brjwszfc8x6bx23n9h4c3bs85qd5n",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The magnitude of vector $\\vec{A} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ is found using the formula $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2 + A_z^2}$. Substituting the components: $|\\vec{A}| = \\sqrt{(2)^2 + (-1)^2 + (3)^2} = \\sqrt{4 + 1 + 9} = \\sqrt{14}$ units.",
+    "keyPoints": [
+      "Correctly identified components: $A_x = 2$, $A_y = -1$, $A_z = 3$",
+      "Applied magnitude formula for three-dimensional vector: $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2 + A_z^2}$",
+      "Accurate arithmetic: $4 + 1 + 9 = 14$",
+      "Final answer: $|\\vec{A}| = \\sqrt{14}$ units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The magnitude of vector $\\vec{A} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ is found using the formula $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2 + A_z^2}$. Substituting the components: $|\\vec{A}| = \\sqrt{(2)^2 + (-1)^2 + (3)^2} = \\sqrt{4 + 1 + 9} = \\sqrt{14}$ units.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sqrt{14}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{18}$"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionId": "calculating-the-magnitude-of-the-vector",
+    "sectionLabel": "Calculating the Magnitude of the Vector",
+    "session": "annual",
+    "stem": "If $\\vec{A} = 2 \\hat{i} - \\hat{j} + 3 \\hat{k}$ then magnitude of $\\vec{A}$ is:",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m17f82t5y7kn4awrznkm7tkdax8e196c",
+    "correctKey": "B",
+    "exerciseId": "xd72wrkat02cbpc3acc5m5nwyx8e1sm9",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "For perpendicular forces, resultant = sqrt(3^2+4^2) = sqrt(9+16) = sqrt(25) = 5 N.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "7 N"
+      },
+      {
+        "key": "B",
+        "text": "5 N"
+      },
+      {
+        "key": "C",
+        "text": "1 N"
+      },
+      {
+        "key": "D",
+        "text": "Null vector"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "calculating-the-magnitude-of-the-vector",
+    "sectionLabel": "Calculating the Magnitude of the Vector",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If two forces of magnitude 3 N and 4 N are acting at right angle to each other than their resultant force will be:",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "finding-vector-from-its-components",
+    "topicTitle": "2.2 Finding a Vector from its Components (Vector Composition)",
+    "_id": "m17ayah4z47m7c5612295j0yxs85pa99",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Given $A_x = -2$ and $A_y = -2$, both components are negative, placing the resultant vector in the third quadrant. The angle with the positive x-axis is $\theta = 180° + \tan^{-1}rac{|A_y|}{|A_x|} = 180° + \tan^{-1}(1) = 180° + 45° = 225°$, or equivalently $45°$ below the negative x-axis.",
+    "keyPoints": [
+      "Both components are negative, placing the vector in quadrant III",
+      "Reference angle is 45 degrees",
+      "Direction from the positive x-axis is 225 degrees"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Both components are negative, so the vector lies in quadrant III. The reference angle is $\\phi = \\tan^{-1}\\left(\\left|A_y/A_x\\right|\\right)=\\tan^{-1}(1)=45^\\circ$. Hence its direction measured counter-clockwise from the positive x-axis is $\\theta=180^\\circ+45^\\circ=225^\\circ$. Therefore option B is correct.",
+    "options": [
+      {
+        "key": "A",
+        "text": "180°"
+      },
+      {
+        "key": "B",
+        "text": "225°"
+      },
+      {
+        "key": "C",
+        "text": "45°"
+      },
+      {
+        "key": "D",
+        "text": "90°"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "determining-the-direction-of-the-vector",
+    "sectionLabel": "Determining the Direction of the Vector",
+    "session": "annual",
+    "stem": "If $A_x = -2, A_y = -2$ then resultant vector will make angle:",
+    "topicId": "ms72z9h7ejb4jha7n4ssmjs8s185paws",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m1786z6hks924g3cqxb3q6hans85qtak",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When two forces $F_1$ and $F_2$ act at right angles to each other, their resultant can be found using vector composition. Since the forces are perpendicular, they form the two legs of a right-angled triangle. Using the Pythagorean theorem, the magnitude of the resultant is $R = \\sqrt{F_1^2 + F_2^2}$.",
+    "keyPoints": [
+      "Identifies that forces are perpendicular components",
+      "Applies Pythagorean theorem for vector composition",
+      "Correctly derives resultant formula $R = \\sqrt{F_1^2 + F_2^2}$",
+      "Recognizes this as vector composition of rectangular components"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When two forces $F_1$ and $F_2$ act at right angles to each other, their resultant can be found using vector composition. Since the forces are perpendicular, they form the two legs of a right-angled triangle. Using the Pythagorean theorem, the magnitude of the resultant is $R = \\sqrt{F_1^2 + F_2^2}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{F_{1}+F_{2}}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$F_{1}^{2}+F_{2}^{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{F_{1}^{2}+F_{2}^{2}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{F_{1}^{2}+F_{2}^{2}}{2}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "calculating-the-magnitude-of-the-vector",
+    "sectionLabel": "Calculating the Magnitude of the Vector",
+    "session": "annual",
+    "stem": "Two forces of magnitudes $F_{1}$ and $F_{2}$ acting at right angle to each other have a resultant of magnitude:",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m1765bxytw6y7v4yj191g590z985qrk1",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly resolved both forces into x and y components using trigonometric functions",
+      "Accurately summed the respective components to find resultant components ($R_x = 10$ N, $R_y = 34.64$ N)",
+      "Applied the Pythagorean theorem to calculate magnitude of resultant ($R ≈ 36.05$ N)",
+      "Used inverse tangent function to determine direction of resultant ($θ ≈ 73.9°$)",
+      "Showed complete working with proper units and mathematical steps throughout"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "To find the resultant of two forces, we resolve each force into rectangular components, sum the components, and then find the magnitude and direction of the resultant.\n\n**Step 1: Resolve forces into components**\n\nForce 1: $F_1 = 30$ N at $0°$\n- $F_{1x} = 30 \\cos(0°) = 30$ N\n- $F_{1y} = 30 \\sin(0°) = 0$ N\n\nForce 2: $F_2 = 40$ N at $120°$\n- $F_{2x} = 40 \\cos(120°) = 40 × (-0.5) = -20$ N\n- $F_{2y} = 40 \\sin(120°) = 40 × (0.866) = 34.64$ N\n\n**Step 2: Find resultant components**\n\n$R_x = F_{1x} + F_{2x} = 30 + (-20) = 10$ N\n\n$R_y = F_{1y} + F_{2y} = 0 + 34.64 = 34.64$ N\n\n**Step 3: Calculate magnitude of resultant**\n\n$R = \\sqrt{R_x^2 + R_y^2} = \\sqrt{(10)^2 + (34.64)^2} = \\sqrt{100 + 1199.93} = \\sqrt{1299.93} ≈ 36.05$ N\n\n**Step 4: Find direction**\n\n$\\theta = \\tan^{-1}\\left(\\frac{R_y}{R_x}\\right) = \\tan^{-1}\\left(\\frac{34.64}{10}\\right) = \\tan^{-1}(3.464) ≈ 73.9°$ with the x-axis\n\n**Answer:** The resultant force is approximately **36.05 N** at an angle of **73.9°** with the x-axis.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Calculate the resultant of two forces of $30 N$ and $40 N$ acting at a point making angles of $0^{\\circ}$ and $120^{\\circ}$ with x-axis respectively.",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m17ayah4z47m7c5612295j0yxs85pa99",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Given $A_x = -2$ and $A_y = -2$, both components are negative, placing the resultant vector in the third quadrant. The angle with the positive x-axis is $\theta = 180° + \tan^{-1}rac{|A_y|}{|A_x|} = 180° + \tan^{-1}(1) = 180° + 45° = 225°$, or equivalently $45°$ below the negative x-axis.",
+    "keyPoints": [
+      "Both components are negative, placing the vector in quadrant III",
+      "Reference angle is 45 degrees",
+      "Direction from the positive x-axis is 225 degrees"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Both components are negative, so the vector lies in quadrant III. The reference angle is $\\phi = \\tan^{-1}\\left(\\left|A_y/A_x\\right|\\right)=\\tan^{-1}(1)=45^\\circ$. Hence its direction measured counter-clockwise from the positive x-axis is $\\theta=180^\\circ+45^\\circ=225^\\circ$. Therefore option B is correct.",
+    "options": [
+      {
+        "key": "A",
+        "text": "180°"
+      },
+      {
+        "key": "B",
+        "text": "225°"
+      },
+      {
+        "key": "C",
+        "text": "45°"
+      },
+      {
+        "key": "D",
+        "text": "90°"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "determining-the-direction-of-the-vector",
+    "sectionLabel": "Determining the Direction of the Vector",
+    "session": "annual",
+    "stem": "If $A_x = -2, A_y = -2$ then resultant vector will make angle:",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m178vpqyzsgr54mew9g5cmz9pn8e039r",
+    "correctKey": "B",
+    "exerciseId": "xd72wrkat02cbpc3acc5m5nwyx8e1sm9",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "In two dimensions, any force can be resolved into exactly two mutually perpendicular (x and y) components.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The number of perpendicular components of a force (in 2-D) are:",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m176sc2bxkmb97jxrzydds3r2n8e04pm",
+    "correctKey": "D",
+    "exerciseId": "xd72wrkat02cbpc3acc5m5nwyx8e1sm9",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "x-component = F cos(theta) = 10 x cos(30°) = 10 x 0.866 ~= 8.7 N.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "4 N"
+      },
+      {
+        "key": "B",
+        "text": "5 N"
+      },
+      {
+        "key": "C",
+        "text": "7 N"
+      },
+      {
+        "key": "D",
+        "text": "8.7 N"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A force of 10 N is making an angle of 30° with the horizontal. Its x-component will be:",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m17ffq4j6x760x5sy9brk1xnbn8e004f",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Rectangular components are the projections of a vector along two (or three) mutually perpendicular axes (e.g. x and y), such that their vector sum reconstructs the original vector. They are found using trigonometry: for a vector of magnitude A at angle theta to the x-axis, Ax = A cos(theta) and Ay = A sin(theta).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.6",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What are rectangular components of a vector? How they can be found?",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m176r6fbwd7tst5301fbsfcr398e1062",
+    "exerciseId": "xd74qtq54rqr2vq4429m26gced8e0e5k",
+    "exerciseTitle": "Exercise 2: Comprehensive Questions",
+    "keyPoints": [
+      "Any vector in a 2-D plane can be resolved into two perpendicular components, typically along the x-axis and y-axis.",
+      "For a vector of magnitude A at angle theta from the x-axis: horizontal component Ax = A cos(theta), vertical component Ay = A sin(theta).",
+      "The original vector can be reconstructed as the vector sum of these two components, and its magnitude recovered via A = sqrt(Ax^2 + Ay^2)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In two dimensions, a vector is resolved into two mutually perpendicular rectangular components: a horizontal component along the x-axis and a vertical component along the y-axis. If a vector $mathbf{A}$ has magnitude $A$ and makes an angle $\theta$ with the horizontal, its components are $A_x=Acos\theta$ and $A_y=Asin\theta$. The vector can then be written as $mathbf{A}=A_xhat{i}+A_yhat{j}$, and its magnitude and direction can be recovered from $A=sqrt{A_x^2+A_y^2}$ and $\theta=\tan^{-1}(A_y/A_x)$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the resolution of a vector in 2-D as two rectangular components.",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m17anvn281vfmacs9wym3hvn5s8e00e7",
+    "exerciseId": "xd78r92tbzydb80dmw353q504n8e1vzy",
+    "exerciseTitle": "Exercise 2: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Horizontal component = 200 x cos(30°) = 200 x 0.866 ~= 173.2 N. Vertical component = 200 x sin(30°) = 200 x 0.5 = 100 N. (Ans. 173.2 N and 100 N, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A force of 200 N is making an angle of 30° with the x-axis. Find the horizontal and vertical components of this force.",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m17717wcwczrw8tgga52qmkvys85qmf5",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "If $A_x = A_y$, then using the relationship $\\tan\\theta = \\frac{A_y}{A_x}$, we get $\\tan\\theta = 1$. Therefore, $\\theta = 45°$. The angle between vector $\\vec{A}$ and the x-axis is **45°**.",
+    "keyPoints": [
+      "Correctly identifies the relationship $\\tan\\theta = \\frac{A_y}{A_x}$",
+      "Substitutes the condition $A_x = A_y$ to get $\\tan\\theta = 1$",
+      "Correctly calculates $\\theta = 45°$ from the tangent ratio",
+      "States the final answer clearly as the angle with the x-axis"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "If $A_x = A_y$, then using the relationship $\\tan\\theta = \\frac{A_y}{A_x}$, we get $\\tan\\theta = 1$. Therefore, $\\theta = 45°$. The angle between vector $\\vec{A}$ and the x-axis is **45°**.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "reconstructing-the-original-vector-vector-composition",
+    "sectionLabel": "Reconstructing the Original Vector (Vector Composition)",
+    "session": "annual",
+    "stem": "If $A_x = A_y$, then the angle between vector $\\vec{A}$ and x-axis is:",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m178yz86h05z14frernfd2498x85q9as",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Vector components are equal in magnitude when the vector makes 45° angle with both coordinate axes",
+      "Mathematically: $A_x = A_y$ occurs when $A\\cos(\\theta) = A\\sin(\\theta)$, giving $\\theta = 45°$",
+      "Graphically represented as isosceles right-angled triangle with equal perpendicular legs",
+      "The resultant vector is the hypotenuse of this isosceles triangle",
+      "This condition applies to vectors in any quadrant (45°, 135°, 225°, 315°)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A vector has components equal in magnitude when it makes a 45° angle with both the x and y axes. In this case, if a vector $\\vec{A}$ has magnitude $A$ and makes 45° with the x-axis, then $A_x = A\\cos(45°) = A_y = A\\sin(45°) = \\frac{A}{\\sqrt{2}}$. Graphically, the vector appears as the hypotenuse of an isosceles right-angled triangle, where the two perpendicular legs (components) are equal in length.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionId": "reconstructing-the-original-vector-vector-composition",
+    "sectionLabel": "Reconstructing the Original Vector (Vector Composition)",
+    "session": "annual",
+    "stem": "Under what circumstances would a vector have components that are equal in magnitude? Explain graphically.",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "rectangular-components-of-a-vector",
+    "topicTitle": "2.3 Resolution of Vectors into Rectangular Components",
+    "_id": "m178eyf74e7bhpent7sb7q1scs8e038z",
+    "exerciseId": "xd78r92tbzydb80dmw353q504n8e1vzy",
+    "exerciseTitle": "Exercise 2: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Horizontal component = F cos(theta), so F = 20/cos(30°) = 20/0.866 ~= 23.1 N. (Ans. 23.1 N, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionId": "representing-a-vector-in-component-form",
+    "sectionLabel": "Representing a Vector in Component Form",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A force is acting on a body making an angle of 30° with the horizontal. The horizontal component of the force is 20 N. Find the force.",
+    "topicId": "ms7fwpgwdkyf7qva0zd8568k9x85p590"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17462gwzb8h062ert8ep62gdn85pp9m",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "To find $\\hat{j} \\cdot (\\hat{i} \\times \\hat{k})$, first evaluate the cross product: $\\hat{i} \\times \\hat{k} = -\\hat{j}$ (using the right-hand rule). Then apply the dot product: $\\hat{j} \\cdot (-\\hat{j}) = -1$.",
+    "keyPoints": [
+      "Correctly evaluates cross product $\\hat{i} \\times \\hat{k} = -\\hat{j}$ using right-hand rule",
+      "Applies dot product formula between parallel/antiparallel unit vectors",
+      "Recognizes that $\\hat{j} \\cdot (-\\hat{j}) = -1$ (magnitude 1, angle 180°)",
+      "Final answer: $-1$ (scalar quantity)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "To find $\\hat{j} \\cdot (\\hat{i} \\times \\hat{k})$, first evaluate the cross product: $\\hat{i} \\times \\hat{k} = -\\hat{j}$ (using the right-hand rule). Then apply the dot product: $\\hat{j} \\cdot (-\\hat{j}) = -1$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "-1"
+      },
+      {
+        "key": "C",
+        "text": "i"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "vector-product-using-rectangular-components",
+    "sectionLabel": "Vector Product using Rectangular Components",
+    "session": "annual",
+    "stem": "$\\hat{j} \\cdot (\\hat{i} \\times \\hat{k}) =$",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m171c7mhp828cyv02a9rh5y4cd85pr4m",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies dot product formula: $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$",
+      "Correctly applies cross product magnitude formula: $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$",
+      "Squares both expressions appropriately",
+      "Uses trigonometric identity $\\cos^2\\theta + \\sin^2\\theta = 1$",
+      "Arrives at correct final result $(AB)^2$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To verify $(\\vec{A} \\cdot \\vec{B})^2 + (\\vec{A} \\times \\vec{B})^2 = (AB)^2$, we use the definitions of dot and cross products. The dot product is $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$, so $(\\vec{A} \\cdot \\vec{B})^2 = A^2B^2\\cos^2\\theta$. The cross product magnitude is $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$, so $(\\vec{A} \\times \\vec{B})^2 = A^2B^2\\sin^2\\theta$. Adding these: $(\\vec{A} \\cdot \\vec{B})^2 + (\\vec{A} \\times \\vec{B})^2 = A^2B^2\\cos^2\\theta + A^2B^2\\sin^2\\theta = A^2B^2(\\cos^2\\theta + \\sin^2\\theta) = A^2B^2 = (AB)^2$. Hence verified.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Verify that: $(\\vec{A} \\cdot \\vec{B})^2 + (\\vec{A} \\times \\vec{B})^2 = (AB)^2$",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m174j3bn5pc5g0kme5mpa1ktk585pkrh",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition of scalar product: $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$ yields scalar quantity",
+      "Definition of vector product: $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$ yields vector perpendicular to both",
+      "Geometric interpretation: scalar product shows projection; vector product shows perpendicular resultant using right-hand rule",
+      "Key differences: scalar product commutative and depends on cosine; vector product anti-commutative and depends on sine",
+      "Physical applications: scalar product for work calculation; vector product for torque and angular momentum"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Vector and Scalar Products of Two Vectors**\n\n**Scalar Product (Dot Product):** The scalar product of two vectors $\\vec{A}$ and $\\vec{B}$ is defined as $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$, where $\\theta$ is the angle between them. This operation yields a scalar quantity representing the projection of one vector onto another. Geometrically, it measures how much one vector \"points in the direction\" of the other. The dot product is maximum when vectors are parallel ($\\theta = 0°$) and zero when perpendicular ($\\theta = 90°$). Physical applications include calculating work: $W = \\vec{F} \\cdot \\vec{d}$.\n\n**Vector Product (Cross Product):** The vector product of two vectors $\\vec{A}$ and $\\vec{B}$ is defined as $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$, where $\\hat{n}$ is the unit vector perpendicular to both vectors (determined by the right-hand rule). This operation yields a vector quantity perpendicular to the plane containing both vectors. The magnitude is maximum when vectors are perpendicular ($\\theta = 90°$) and zero when parallel ($\\theta = 0°$). Physical applications include torque: $\\vec{\\tau} = \\vec{r} \\times \\vec{F}$, and angular momentum.\n\n**Key Differences:** Scalar product produces a scalar result and depends on $\\cos(\\theta)$, while vector product produces a vector result and depends on $\\sin(\\theta)$. The scalar product is commutative ($\\vec{A} \\cdot \\vec{B} = \\vec{B} \\cdot \\vec{A}$), while the vector product is anti-commutative ($\\vec{A} \\times \\vec{B} = -\\vec{B} \\times \\vec{A}$).\n\n**Diagrams:** [Scalar Product: Two vectors with angle $\\theta$ between them, showing projection of $\\vec{B}$ onto $\\vec{A}$] [Vector Product: Two vectors in a plane with resultant vector $\\vec{C}$ perpendicular to the plane, using right-hand rule orientation]\", ",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Explain **vector and scalar products** of two vectors with neat diagrams.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m177wssyfsrtwhctsnq6ah040n85p99s",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies dot product formula with magnitudes and cosine of angle",
+      "Correctly applies cross product formula with magnitudes and sine of angle",
+      "Accurate substitution of given values: $|\\vec{A}| = 3.2$, $|\\vec{B}| = 5.1$, $\\theta = 60°$",
+      "Correct trigonometric values: $\\cos(60°) = 0.5$ and $\\sin(60°) = 0.866$",
+      "Final answers: $|\\vec{A} \\cdot \\vec{B}| = 8.16$ and $|\\vec{A} \\times \\vec{B}| = 14.14$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Using the dot product formula $\\vec{A} \\cdot \\vec{B} = |\\vec{A}| |\\vec{B}| \\cos(\\theta)$:\n\n$|\\vec{A} \\cdot \\vec{B}| = 3.2 \\times 5.1 \\times \\cos(60°) = 3.2 \\times 5.1 \\times 0.5 = 8.16$\n\nUsing the cross product formula $|\\vec{A} \\times \\vec{B}| = |\\vec{A}| |\\vec{B}| \\sin(\\theta)$:\n\n$|\\vec{A} \\times \\vec{B}| = 3.2 \\times 5.1 \\times \\sin(60°) = 3.2 \\times 5.1 \\times 0.866 = 14.14$",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Given $|\\vec{A}| = 3.2$, $|\\vec{B}| = 5.1$ and $\\theta = 60^\\circ$ between $\\vec{A}$ and $\\vec{B}$. Find $|\\vec{A} \\cdot \\vec{B}|$ and $|\\vec{A} \\times \\vec{B}|$.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17bvc2zzqg93nhhqypy740c3185qqdh",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Scalar product formula: $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$ yields scalar quantity",
+      "Vector product formula: $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$ yields vector perpendicular to both",
+      "Scalar product represents projection; vector product represents area of parallelogram",
+      "Right-hand rule determines direction of cross product vector",
+      "Correct diagrams showing angle between vectors and resultant directions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Scalar Product (Dot Product):** The scalar product of two vectors $\\vec{A}$ and $\\vec{B}$ is defined as $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$, where $\\theta$ is the angle between them. It yields a scalar quantity representing the projection of one vector onto another. Geometrically, it measures how much one vector \"points in the direction\" of the other. **Vector Product (Cross Product):** The vector product is defined as $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$, producing a vector perpendicular to both original vectors. The magnitude represents the area of the parallelogram formed by the two vectors, and direction follows the right-hand rule. **Key Differences:** Scalar product depends on $\\cos(\\theta)$ and gives a scalar result, while vector product depends on $\\sin(\\theta)$ and gives a vector result perpendicular to the plane containing both vectors.\n\n**Scalar Product Diagram:** Two vectors $\\vec{A}$ and $\\vec{B}$ placed tail-to-tail with angle $\\theta$ between them. The projection of $\\vec{B}$ onto $\\vec{A}$ is shown as $|\\vec{B}|\\cos(\\theta)$.\n\n**Vector Product Diagram:** Two vectors $\\vec{A}$ and $\\vec{B}$ in a plane with resultant vector $\\vec{C} = \\vec{A} \\times \\vec{B}$ pointing perpendicular to the plane (upward by right-hand rule). The magnitude equals the area of the parallelogram formed by $\\vec{A}$ and $\\vec{B}$.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Explain vector and scalar products of two vectors with neat diagrams.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m175ycwepydyr8rgrav1dcwrkh85q7zw",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly apply dot product formula: $\\vec{A} \\cdot \\vec{B} = AB\\cos(\\theta)$ and square it to get $A^2B^2\\cos^2(\\theta)$",
+      "Correctly apply cross product magnitude formula: $\\|\\vec{A} \\times \\vec{B}\\| = AB\\sin(\\theta)$ and square it to get $A^2B^2\\sin^2(\\theta)$",
+      "Add both squared terms and factor out $A^2B^2$",
+      "Apply fundamental trigonometric identity: $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$",
+      "Conclude that the sum equals $A^2B^2$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To prove $\\|\\vec{A} \\times \\vec{B}\\|^2 + \\|\\vec{A} \\cdot \\vec{B}\\|^2 = A^2 B^2$, we use the definitions of dot and cross products. The dot product is $\\vec{A} \\cdot \\vec{B} = AB\\cos(\\theta)$, so $\\|\\vec{A} \\cdot \\vec{B}\\|^2 = A^2B^2\\cos^2(\\theta)$. The cross product magnitude is $\\|\\vec{A} \\times \\vec{B}\\| = AB\\sin(\\theta)$, so $\\|\\vec{A} \\times \\vec{B}\\|^2 = A^2B^2\\sin^2(\\theta)$. Adding these: $A^2B^2\\sin^2(\\theta) + A^2B^2\\cos^2(\\theta) = A^2B^2(\\sin^2(\\theta) + \\cos^2(\\theta)) = A^2B^2(1) = A^2B^2$. Hence proved.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Show that: $\\|\\vec{A} \\times \\vec{B}\\|^2 + \\|\\vec{A} \\cdot \\vec{B}\\|^2 = A^2 B^2$",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m1776jwd1jkf3km6yvqhdzax958e1znq",
+    "correctKey": "B",
+    "exerciseId": "xd72wrkat02cbpc3acc5m5nwyx8e1sm9",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "|A.B| = |A||B|cos(theta) and |AxB| = |A||B|sin(theta); these are equal when cos(theta)=sin(theta), i.e. theta = 45°.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "30°"
+      },
+      {
+        "key": "B",
+        "text": "45°"
+      },
+      {
+        "key": "C",
+        "text": "60°"
+      },
+      {
+        "key": "D",
+        "text": "90°"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "For which angle the equation |A.B| = |A x B| is correct?",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17etaexfgje8dxrwzbadnzrgd8e0e9k",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Writing A = Ax*i + Ay*j + Az*k and B = Bx*i + By*j + Bz*k, and distributing the dot product: A.B = AxBx(i.i) + AxBy(i.j) + AxBz(i.k) + ... Since i.i=j.j=k.k=1 and all mixed terms (i.j, i.k, j.k, etc.) are zero (unit vectors are mutually perpendicular), only the matching-axis terms survive, giving A.B = AxBx + AyBy + AzBz.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.8",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Show that A.B = Ax*Bx + Ay*By + Az*Bz.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17cy0rs5b53amwr0k29gvhp3185qd5d",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Power is the dot product: $P = \\vec{F} \\cdot \\vec{v}$",
+      "Formula: $P = |\\vec{F}||\\vec{v}|\\cos(\\theta)$ where $\\theta$ is angle between vectors",
+      "Power is a scalar quantity with SI unit watts (W)",
+      "Maximum power when force and velocity are parallel; zero when perpendicular",
+      "Represents rate of work done by force on the object"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Power is defined as the scalar product of force and velocity vectors. Mathematically, $P = \\vec{F} \\cdot \\vec{v} = |\\vec{F}||\\vec{v}|\\cos(\\theta)$, where $\\theta$ is the angle between force and velocity vectors. This represents the rate at which force does work on an object. When force and velocity are parallel ($\\theta = 0°$), power is maximum; when perpendicular ($\\theta = 90°$), power is zero.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionId": "applications",
+    "sectionLabel": "Applications",
+    "session": "annual",
+    "stem": "Express power ($P$) as scalar product of force ($\\vec{F}$) and velocity ($\\vec{v}$).",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m171vt9x36b333td2vwjgeq97185pap6",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Given that the magnitudes of dot and cross products are equal: $|\\vec{A} \\cdot \\vec{B}| = |\\vec{A} \\times \\vec{B}|$. Using the formulas $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$ and $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$, we have $AB\\cos\\theta = AB\\sin\\theta$, which gives $\\cos\\theta = \\sin\\theta$. Therefore, $\\tan\\theta = 1$, so $\\theta = 45°$.",
+    "keyPoints": [
+      "Correctly applies dot product formula: $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$",
+      "Correctly applies cross product magnitude formula: $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$",
+      "Sets magnitudes equal and simplifies to $\\cos\\theta = \\sin\\theta$",
+      "Solves to find $\\theta = 45°$ or $\\pi/4$ radians"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Given that the magnitudes of dot and cross products are equal: $|\\vec{A} \\cdot \\vec{B}| = |\\vec{A} \\times \\vec{B}|$. Using the formulas $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$ and $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$, we have $AB\\cos\\theta = AB\\sin\\theta$, which gives $\\cos\\theta = \\sin\\theta$. Therefore, $\\tan\\theta = 1$, so $\\theta = 45°$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "characteristics-and-properties",
+    "sectionLabel": "Characteristics and Properties",
+    "session": "annual",
+    "stem": "If the magnitudes of dot and cross products of two vectors $\\vec{A}$ and $\\vec{B}$ are same, then angle between them will be:",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17dhfvsjqq00t9y7yb4rcwbes85pa10",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Using the dot product formula $\\vec{A} \\cdot \\vec{B} = AB\\cos(\\theta)$, we set this equal to $\\frac{1}{2}AB$. Therefore, $AB\\cos(\\theta) = \\frac{1}{2}AB$, which simplifies to $\\cos(\\theta) = \\frac{1}{2}$. Thus, $\\theta = 60°$ or $\\frac{\\pi}{3}$ radians.",
+    "keyPoints": [
+      "Correctly applies dot product formula $\\vec{A} \\cdot \\vec{B} = AB\\cos(\\theta)$",
+      "Sets up equation: $AB\\cos(\\theta) = \\frac{1}{2}AB$",
+      "Simplifies to find $\\cos(\\theta) = \\frac{1}{2}$",
+      "Identifies angle as $\\theta = 60°$ (or $\\frac{\\pi}{3}$ rad)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Using the dot product formula $\\vec{A} \\cdot \\vec{B} = AB\\cos(\\theta)$, we set this equal to $\\frac{1}{2}AB$. Therefore, $AB\\cos(\\theta) = \\frac{1}{2}AB$, which simplifies to $\\cos(\\theta) = \\frac{1}{2}$. Thus, $\\theta = 60°$ or $\\frac{\\pi}{3}$ radians.",
+    "options": [
+      {
+        "key": "A",
+        "text": "60°"
+      },
+      {
+        "key": "B",
+        "text": "90°"
+      },
+      {
+        "key": "C",
+        "text": "30°"
+      },
+      {
+        "key": "D",
+        "text": "45°"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sectionId": "definition",
+    "sectionLabel": "Definition",
+    "session": "annual",
+    "stem": "If the magnitude of $\\vec{A} \\cdot \\vec{B} = \\frac{1}{2}AB$, then the angle between $\\vec{A}$ and $\\vec{B}$ is:",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m177e2gta7prm4xbe80cr2stm58e0rx2",
+    "correctKey": "A",
+    "exerciseId": "xd72wrkat02cbpc3acc5m5nwyx8e1sm9",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "The dot product formula A.B = |A||B|cos(theta) directly gives the angle theta between two vectors.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "dot product"
+      },
+      {
+        "key": "B",
+        "text": "cross product"
+      },
+      {
+        "key": "C",
+        "text": "head to tail rule"
+      },
+      {
+        "key": "D",
+        "text": "right hand rule"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Angle between two vectors A and B can be easily determined by:",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m1747kd6edsdc6hw83nd7zmp718e1bg4",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) At 0° (same direction, e.g. i.i): dot product = |1||1|cos(0°) = 1. (b) At 90° (perpendicular, e.g. i.j): dot product = |1||1|cos(90°) = 0.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.2",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Find the dot product of unit vectors with each other at (a) 0° and (b) 90°.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m179z2vwv1da6xekw001zbktsd8e1mv2",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A.B = |A||B|cos(theta) and B.A = |B||A|cos(theta); since ordinary multiplication of magnitudes is commutative and the angle theta between the vectors is the same either way, A.B = B.A, so the scalar (dot) product is commutative.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.3",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Show that scalar product obeys commutative property.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17dfxr33n5mb001a6rm4g1gd58e0eh4",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "If both A.B = 0 and AxB = 0, at least one of the vectors must be a zero (null) vector, since a nonzero angle cannot simultaneously make both cos(theta) and sin(theta) zero.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.5",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If both the dot product and the cross product of two vectors are zero. What would you conclude about the individual vectors?",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m179w9zhw3b5x4thb7v7t036g98e106w",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Scalar (dot) product examples: work done (W = F.d) and power (P = F.v). Vector (cross) product examples: torque (tau = r x F) and angular momentum (L = r x p).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.7",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Give two examples for each of the scalar and vector product.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17f2qfasg445we4w6jyvh4amx8e1297",
+    "exerciseId": "xd74qtq54rqr2vq4429m26gced8e0e5k",
+    "exerciseTitle": "Exercise 2: Comprehensive Questions",
+    "keyPoints": [
+      "The dot (scalar) product of two vectors A and B is defined as A.B = |A||B|cos(theta), where theta is the angle between them, and the result is a scalar.",
+      "Properties: it is commutative (A.B = B.A), distributive over addition (A.(B+C) = A.B + A.C), and the dot product of two perpendicular vectors is zero while that of two parallel vectors equals the product of their magnitudes.",
+      "Physical applications include calculating work done (W = F.d) and power (P = F.v)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The dot product of two vectors is the scalar $mathbf{A}cdotmathbf{B}=ABcos\theta$. It equals the magnitude of one vector times the component of the other in its direction. It is commutative, so $mathbf{A}cdotmathbf{B}=mathbf{B}cdotmathbf{A}$. For perpendicular vectors it is zero, for parallel vectors it has maximum value $AB$, and for antiparallel vectors it is $-AB$. In rectangular components, $mathbf{A}cdotmathbf{B}=A_xB_x+A_yB_y+A_zB_z$. Work, power, and electric flux are examples of scalar products.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Describe the dot product of two vectors along with their properties.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m17abqy94xb87jch7d9x7393td8e1ads",
+    "exerciseId": "xd78r92tbzydb80dmw353q504n8e1vzy",
+    "exerciseTitle": "Exercise 2: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Angle between the vectors = 80° - 10° = 70°. Dot product = |F||r|cos(70°) = 5.5x4.3x0.342 ~= 8.1 N m. Cross product = |F||r|sin(70°) = 5.5x4.3x0.940 ~= 22.2 N m. (Ans. 8.1 N m and 22.2 N m, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A vector F having magnitude 5.5 N makes 10° with x-axis and a vector r with magnitude 4.3 m makes 80° with x-axis. What is the magnitude of their dot and cross products?",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "scalar-product",
+    "topicTitle": "2.4 Scalar Product (Dot Product) of Two Vectors",
+    "_id": "m179wj6wc1narahn1dx9vkd5zx8e0j5s",
+    "exerciseId": "xd78r92tbzydb80dmw353q504n8e1vzy",
+    "exerciseTitle": "Exercise 2: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "tan(theta) = |AxB|/(A.B) = 6/(6*sqrt(3)) = 1/sqrt(3), so theta = 30°. (Ans. theta = 30°, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "dot-product-using-rectangular-components",
+    "sectionLabel": "Dot Product using Rectangular Components",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The magnitude of dot and cross product of two vectors are 6*sqrt(3) and 6, respectively. Find the angle between the vectors.",
+    "topicId": "ms72a4zr15fjvv649qvhss825n85q24z"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "torque",
+    "topicTitle": "2.6 Torque (Moment of Force)",
+    "_id": "m173n2e2efghkkh85rfsfajqj185qxp7",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Torque balance: torque from load equals torque from counterweight",
+      "Torque formula $\\tau = rF\\sin\\theta$ applied to both sides of pivot",
+      "Load positioned close to mast (small moment arm) reduces its torque effect",
+      "Counterweight positioned far from pivot (large moment arm) increases its torque",
+      "Equilibrium of torques prevents angular acceleration and toppling"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Cranes can lift heavy loads without toppling by maximizing their stability through torque balance. The crane's design ensures that the torque produced by the load (acting downward at a distance from the pivot) is balanced by the torque from the crane's counterweight. Using the torque formula $\\tau = rF\\sin\\theta$, the crane operator positions the load close to the mast (reducing the moment arm $r$) while the counterweight is placed far from the pivot, creating equal and opposite torques. This equilibrium prevents the crane from rotating and toppling over.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionId": "torque-in-rotational-dynamics",
+    "sectionLabel": "Torque in Rotational Dynamics",
+    "session": "annual",
+    "stem": "How are cranes able to lift heavy load without toppling? Explain briefly.",
+    "topicId": "ms7c8b4p8pe1hyrc37wg0kf4s185pc7g",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "torque",
+    "topicTitle": "2.6 Torque (Moment of Force)",
+    "_id": "m177w1n6ddvt9hqwcb7n2h1eb585pp0m",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Torque defined as vector product: $\\vec{\\tau} = \\vec{r} \\times \\vec{F}$",
+      "Magnitude formula: $\\tau = rF\\sin\\theta$ where $r$ is lever arm, $F$ is force, $\\theta$ is angle between vectors",
+      "Direction determined by right-hand rule, perpendicular to plane of $\\vec{r}$ and $\\vec{F}$",
+      "Torque is rotational equivalent of force; causes angular acceleration",
+      "SI unit: Newton-meter (N·m)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Torque is the rotational effect of a force about a fixed axis or pivot point. It is defined as the vector product (cross product) of the position vector $\\vec{r}$ and the force vector $\\vec{F}$, expressed as: $$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$$ The magnitude of torque is given by $\\tau = rF\\sin\\theta$, where $r$ is the perpendicular distance from the axis of rotation to the point of force application, $F$ is the force magnitude, and $\\theta$ is the angle between $\\vec{r}$ and $\\vec{F}$. The direction of torque is perpendicular to the plane containing both vectors, determined by the right-hand rule. Torque is the rotational equivalent of force and causes angular acceleration of objects.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionId": "vector-nature-of-torque-cross-product",
+    "sectionLabel": "Vector Nature of Torque (Cross Product)",
+    "session": "annual",
+    "stem": "What is **torque**? Define torque as vector product of $\\vec{r}$ and $\\vec{F}$.",
+    "topicId": "ms7c8b4p8pe1hyrc37wg0kf4s185pc7g",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m171c7mhp828cyv02a9rh5y4cd85pr4m",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies dot product formula: $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$",
+      "Correctly applies cross product magnitude formula: $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$",
+      "Squares both expressions appropriately",
+      "Uses trigonometric identity $\\cos^2\\theta + \\sin^2\\theta = 1$",
+      "Arrives at correct final result $(AB)^2$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To verify $(\\vec{A} \\cdot \\vec{B})^2 + (\\vec{A} \\times \\vec{B})^2 = (AB)^2$, we use the definitions of dot and cross products. The dot product is $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$, so $(\\vec{A} \\cdot \\vec{B})^2 = A^2B^2\\cos^2\\theta$. The cross product magnitude is $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$, so $(\\vec{A} \\times \\vec{B})^2 = A^2B^2\\sin^2\\theta$. Adding these: $(\\vec{A} \\cdot \\vec{B})^2 + (\\vec{A} \\times \\vec{B})^2 = A^2B^2\\cos^2\\theta + A^2B^2\\sin^2\\theta = A^2B^2(\\cos^2\\theta + \\sin^2\\theta) = A^2B^2 = (AB)^2$. Hence verified.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Verify that: $(\\vec{A} \\cdot \\vec{B})^2 + (\\vec{A} \\times \\vec{B})^2 = (AB)^2$",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m177w1n6ddvt9hqwcb7n2h1eb585pp0m",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Torque defined as vector product: $\\vec{\\tau} = \\vec{r} \\times \\vec{F}$",
+      "Magnitude formula: $\\tau = rF\\sin\\theta$ where $r$ is lever arm, $F$ is force, $\\theta$ is angle between vectors",
+      "Direction determined by right-hand rule, perpendicular to plane of $\\vec{r}$ and $\\vec{F}$",
+      "Torque is rotational equivalent of force; causes angular acceleration",
+      "SI unit: Newton-meter (N·m)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Torque is the rotational effect of a force about a fixed axis or pivot point. It is defined as the vector product (cross product) of the position vector $\\vec{r}$ and the force vector $\\vec{F}$, expressed as: $$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$$ The magnitude of torque is given by $\\tau = rF\\sin\\theta$, where $r$ is the perpendicular distance from the axis of rotation to the point of force application, $F$ is the force magnitude, and $\\theta$ is the angle between $\\vec{r}$ and $\\vec{F}$. The direction of torque is perpendicular to the plane containing both vectors, determined by the right-hand rule. Torque is the rotational equivalent of force and causes angular acceleration of objects.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionId": "vector-nature-of-torque-cross-product",
+    "sectionLabel": "Vector Nature of Torque (Cross Product)",
+    "session": "annual",
+    "stem": "What is **torque**? Define torque as vector product of $\\vec{r}$ and $\\vec{F}$.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m174j3bn5pc5g0kme5mpa1ktk585pkrh",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition of scalar product: $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$ yields scalar quantity",
+      "Definition of vector product: $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$ yields vector perpendicular to both",
+      "Geometric interpretation: scalar product shows projection; vector product shows perpendicular resultant using right-hand rule",
+      "Key differences: scalar product commutative and depends on cosine; vector product anti-commutative and depends on sine",
+      "Physical applications: scalar product for work calculation; vector product for torque and angular momentum"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Vector and Scalar Products of Two Vectors**\n\n**Scalar Product (Dot Product):** The scalar product of two vectors $\\vec{A}$ and $\\vec{B}$ is defined as $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$, where $\\theta$ is the angle between them. This operation yields a scalar quantity representing the projection of one vector onto another. Geometrically, it measures how much one vector \"points in the direction\" of the other. The dot product is maximum when vectors are parallel ($\\theta = 0°$) and zero when perpendicular ($\\theta = 90°$). Physical applications include calculating work: $W = \\vec{F} \\cdot \\vec{d}$.\n\n**Vector Product (Cross Product):** The vector product of two vectors $\\vec{A}$ and $\\vec{B}$ is defined as $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$, where $\\hat{n}$ is the unit vector perpendicular to both vectors (determined by the right-hand rule). This operation yields a vector quantity perpendicular to the plane containing both vectors. The magnitude is maximum when vectors are perpendicular ($\\theta = 90°$) and zero when parallel ($\\theta = 0°$). Physical applications include torque: $\\vec{\\tau} = \\vec{r} \\times \\vec{F}$, and angular momentum.\n\n**Key Differences:** Scalar product produces a scalar result and depends on $\\cos(\\theta)$, while vector product produces a vector result and depends on $\\sin(\\theta)$. The scalar product is commutative ($\\vec{A} \\cdot \\vec{B} = \\vec{B} \\cdot \\vec{A}$), while the vector product is anti-commutative ($\\vec{A} \\times \\vec{B} = -\\vec{B} \\times \\vec{A}$).\n\n**Diagrams:** [Scalar Product: Two vectors with angle $\\theta$ between them, showing projection of $\\vec{B}$ onto $\\vec{A}$] [Vector Product: Two vectors in a plane with resultant vector $\\vec{C}$ perpendicular to the plane, using right-hand rule orientation]\", ",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Explain **vector and scalar products** of two vectors with neat diagrams.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m177wssyfsrtwhctsnq6ah040n85p99s",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies dot product formula with magnitudes and cosine of angle",
+      "Correctly applies cross product formula with magnitudes and sine of angle",
+      "Accurate substitution of given values: $|\\vec{A}| = 3.2$, $|\\vec{B}| = 5.1$, $\\theta = 60°$",
+      "Correct trigonometric values: $\\cos(60°) = 0.5$ and $\\sin(60°) = 0.866$",
+      "Final answers: $|\\vec{A} \\cdot \\vec{B}| = 8.16$ and $|\\vec{A} \\times \\vec{B}| = 14.14$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Using the dot product formula $\\vec{A} \\cdot \\vec{B} = |\\vec{A}| |\\vec{B}| \\cos(\\theta)$:\n\n$|\\vec{A} \\cdot \\vec{B}| = 3.2 \\times 5.1 \\times \\cos(60°) = 3.2 \\times 5.1 \\times 0.5 = 8.16$\n\nUsing the cross product formula $|\\vec{A} \\times \\vec{B}| = |\\vec{A}| |\\vec{B}| \\sin(\\theta)$:\n\n$|\\vec{A} \\times \\vec{B}| = 3.2 \\times 5.1 \\times \\sin(60°) = 3.2 \\times 5.1 \\times 0.866 = 14.14$",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Given $|\\vec{A}| = 3.2$, $|\\vec{B}| = 5.1$ and $\\theta = 60^\\circ$ between $\\vec{A}$ and $\\vec{B}$. Find $|\\vec{A} \\cdot \\vec{B}|$ and $|\\vec{A} \\times \\vec{B}|$.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m17bvc2zzqg93nhhqypy740c3185qqdh",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Scalar product formula: $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$ yields scalar quantity",
+      "Vector product formula: $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$ yields vector perpendicular to both",
+      "Scalar product represents projection; vector product represents area of parallelogram",
+      "Right-hand rule determines direction of cross product vector",
+      "Correct diagrams showing angle between vectors and resultant directions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Scalar Product (Dot Product):** The scalar product of two vectors $\\vec{A}$ and $\\vec{B}$ is defined as $\\vec{A} \\cdot \\vec{B} = |\\vec{A}||\\vec{B}|\\cos(\\theta)$, where $\\theta$ is the angle between them. It yields a scalar quantity representing the projection of one vector onto another. Geometrically, it measures how much one vector \"points in the direction\" of the other. **Vector Product (Cross Product):** The vector product is defined as $\\vec{A} \\times \\vec{B} = |\\vec{A}||\\vec{B}|\\sin(\\theta)\\hat{n}$, producing a vector perpendicular to both original vectors. The magnitude represents the area of the parallelogram formed by the two vectors, and direction follows the right-hand rule. **Key Differences:** Scalar product depends on $\\cos(\\theta)$ and gives a scalar result, while vector product depends on $\\sin(\\theta)$ and gives a vector result perpendicular to the plane containing both vectors.\n\n**Scalar Product Diagram:** Two vectors $\\vec{A}$ and $\\vec{B}$ placed tail-to-tail with angle $\\theta$ between them. The projection of $\\vec{B}$ onto $\\vec{A}$ is shown as $|\\vec{B}|\\cos(\\theta)$.\n\n**Vector Product Diagram:** Two vectors $\\vec{A}$ and $\\vec{B}$ in a plane with resultant vector $\\vec{C} = \\vec{A} \\times \\vec{B}$ pointing perpendicular to the plane (upward by right-hand rule). The magnitude equals the area of the parallelogram formed by $\\vec{A}$ and $\\vec{B}$.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Explain vector and scalar products of two vectors with neat diagrams.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m175ycwepydyr8rgrav1dcwrkh85q7zw",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly apply dot product formula: $\\vec{A} \\cdot \\vec{B} = AB\\cos(\\theta)$ and square it to get $A^2B^2\\cos^2(\\theta)$",
+      "Correctly apply cross product magnitude formula: $\\|\\vec{A} \\times \\vec{B}\\| = AB\\sin(\\theta)$ and square it to get $A^2B^2\\sin^2(\\theta)$",
+      "Add both squared terms and factor out $A^2B^2$",
+      "Apply fundamental trigonometric identity: $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$",
+      "Conclude that the sum equals $A^2B^2$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To prove $\\|\\vec{A} \\times \\vec{B}\\|^2 + \\|\\vec{A} \\cdot \\vec{B}\\|^2 = A^2 B^2$, we use the definitions of dot and cross products. The dot product is $\\vec{A} \\cdot \\vec{B} = AB\\cos(\\theta)$, so $\\|\\vec{A} \\cdot \\vec{B}\\|^2 = A^2B^2\\cos^2(\\theta)$. The cross product magnitude is $\\|\\vec{A} \\times \\vec{B}\\| = AB\\sin(\\theta)$, so $\\|\\vec{A} \\times \\vec{B}\\|^2 = A^2B^2\\sin^2(\\theta)$. Adding these: $A^2B^2\\sin^2(\\theta) + A^2B^2\\cos^2(\\theta) = A^2B^2(\\sin^2(\\theta) + \\cos^2(\\theta)) = A^2B^2(1) = A^2B^2$. Hence proved.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Show that: $\\|\\vec{A} \\times \\vec{B}\\|^2 + \\|\\vec{A} \\cdot \\vec{B}\\|^2 = A^2 B^2$",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m17esbzp96rwkh285tx01wvmb985q8pn",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: $\\bar{A} \\times \\bar{B} = |\\bar{A}||\\bar{B}|\\sin(\\theta)\\hat{n}$ with resultant perpendicular to both vectors",
+      "Right-hand rule application: fingers curl from $\\bar{A}$ to $\\bar{B}$, thumb points in direction of resultant",
+      "Example with directional vectors (e.g., east × north = upward)",
+      "Proof of non-commutativity: $\\bar{B} \\times \\bar{A} = -\\bar{A} \\times \\bar{B}$ (anti-commutative property)",
+      "Physical significance in torque and angular momentum calculations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "The **vector product** (cross product) of two vectors $\\bar{A}$ and $\\bar{B}$ is defined as: $\\bar{A} \\times \\bar{B} = |\\bar{A}||\\bar{B}|\\sin(\\theta)\\hat{n}$, where $\\theta$ is the angle between them and $\\hat{n}$ is the unit vector perpendicular to both, determined by the right-hand rule. The result is a vector perpendicular to the plane containing both vectors. **Example**: If $\\bar{A}$ points east and $\\bar{B}$ points north, then $\\bar{A} \\times \\bar{B}$ points vertically upward. **Non-commutativity**: $\\bar{A} \\times \\bar{B} \\neq \\bar{B} \\times \\bar{A}$ because reversing the order reverses the direction of the resultant vector. Using the right-hand rule: $\\bar{A} \\times \\bar{B}$ points upward, while $\\bar{B} \\times \\bar{A}$ points downward. Mathematically: $\\bar{B} \\times \\bar{A} = -\\bar{A} \\times \\bar{B}$ (anti-commutative property). This property is crucial in physics applications like torque ($\\bar{\\tau} = \\bar{r} \\times \\bar{F}$) and angular momentum, where direction matters significantly.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionId": "characteristics-and-properties",
+    "sectionLabel": "Characteristics and Properties",
+    "session": "annual",
+    "stem": "State and explain **vector product** with an example. Also show that $\\bar{A} \\times \\bar{B} \\neq \\bar{B} \\times \\bar{A}$.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m171vt9x36b333td2vwjgeq97185pap6",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Given that the magnitudes of dot and cross products are equal: $|\\vec{A} \\cdot \\vec{B}| = |\\vec{A} \\times \\vec{B}|$. Using the formulas $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$ and $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$, we have $AB\\cos\\theta = AB\\sin\\theta$, which gives $\\cos\\theta = \\sin\\theta$. Therefore, $\\tan\\theta = 1$, so $\\theta = 45°$.",
+    "keyPoints": [
+      "Correctly applies dot product formula: $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$",
+      "Correctly applies cross product magnitude formula: $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$",
+      "Sets magnitudes equal and simplifies to $\\cos\\theta = \\sin\\theta$",
+      "Solves to find $\\theta = 45°$ or $\\pi/4$ radians"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Given that the magnitudes of dot and cross products are equal: $|\\vec{A} \\cdot \\vec{B}| = |\\vec{A} \\times \\vec{B}|$. Using the formulas $\\vec{A} \\cdot \\vec{B} = AB\\cos\\theta$ and $|\\vec{A} \\times \\vec{B}| = AB\\sin\\theta$, we have $AB\\cos\\theta = AB\\sin\\theta$, which gives $\\cos\\theta = \\sin\\theta$. Therefore, $\\tan\\theta = 1$, so $\\theta = 45°$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^\\circ$"
+      },
+      {
+        "key": "B",
+        "text": "$45^\\circ$"
+      },
+      {
+        "key": "C",
+        "text": "$60^\\circ$"
+      },
+      {
+        "key": "D",
+        "text": "$90^\\circ$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "characteristics-and-properties",
+    "sectionLabel": "Characteristics and Properties",
+    "session": "annual",
+    "stem": "If the magnitudes of dot and cross products of two vectors $\\vec{A}$ and $\\vec{B}$ are same, then angle between them will be:",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m1754w3kxap36a0zh6jb82c3858e04da",
+    "correctKey": "D",
+    "exerciseId": "xd72wrkat02cbpc3acc5m5nwyx8e1sm9",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "Using the right-hand rule / cyclic property of unit vectors, i x j = k, j x k = i, k x i = j, and reversing the order flips the sign, so j x i = -k.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "k-hat"
+      },
+      {
+        "key": "D",
+        "text": "-k-hat"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "cross-product-vs-dot-product",
+    "sectionLabel": "Cross Product vs. Dot Product",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "j-hat cross i-hat equals ____.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m17582ph0ea3ap8dbjghfvd0118e0a49",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "If the cross product of two vectors is zero, they must be parallel or anti-parallel (i.e. the angle between them is 0° or 180°), since |AxB| = |A||B|sin(theta) is zero only when sin(theta)=0.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.1",
+    "sectionId": "cross-product-vs-dot-product",
+    "sectionLabel": "Cross Product vs. Dot Product",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If the cross product of two vectors vanishes, what will you say about their orientation?",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m174wr7ae13nmnqy2bxzg3668h8e0dp3",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) j-hat x k-hat = i-hat, so i-hat . (j-hat x k-hat) = i-hat . i-hat = 1. (b) j-hat x k-hat = i-hat, so j-hat x (j-hat x k-hat) = j-hat x i-hat = -k-hat.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.4",
+    "sectionId": "cross-product-vs-dot-product",
+    "sectionLabel": "Cross Product vs. Dot Product",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Solve by using the properties of dot and cross product: (a) i-hat . (j-hat x k-hat) (b) j-hat x (j-hat x k-hat)?",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m170hp54n3n928h3sgyzcxnwzd8e0djp",
+    "exerciseId": "xd74qtq54rqr2vq4429m26gced8e0e5k",
+    "exerciseTitle": "Exercise 2: Comprehensive Questions",
+    "keyPoints": [
+      "The cross (vector) product of two vectors A and B is defined as AxB = |A||B|sin(theta) n-hat, where n-hat is a unit vector perpendicular to both A and B (direction given by the right-hand rule), and the result is a vector.",
+      "Properties: it is anti-commutative (AxB = -BxA), distributive over addition, and the cross product of two parallel vectors is zero while that of two perpendicular vectors has magnitude equal to the product of their magnitudes.",
+      "Physical applications include torque (tau = r x F) and angular momentum (L = r x p)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The cross product of two vectors is a vector defined by $mathbf{A}\timesmathbf{B}=ABsin\theta,hat{n}$, where $hat{n}$ is perpendicular to the plane of the two vectors. Its direction is found by the right-hand rule. It is anti-commutative: $mathbf{A}\timesmathbf{B}=-mathbf{B}\timesmathbf{A}$. The cross product is zero for parallel or antiparallel vectors and has maximum magnitude $AB$ for perpendicular vectors. Unit-vector identities include $hat{i}\timeshat{j}=hat{k}$, $hat{j}\timeshat{k}=hat{i}$, and $hat{k}\timeshat{i}=hat{j}$. Examples include torque and angular momentum.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionId": "cross-product-vs-dot-product",
+    "sectionLabel": "Cross Product vs. Dot Product",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Describe the cross product of two vectors along with their properties.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m17byng0v2yyex9m2v60w4ab5n8e1mdf",
+    "exerciseId": "xd74qtq54rqr2vq4429m26gced8e0e5k",
+    "exerciseTitle": "Exercise 2: Comprehensive Questions",
+    "keyPoints": [
+      "Geometrically, the magnitude of the cross product AxB equals the area of the parallelogram formed by vectors A and B as its adjacent sides.",
+      "The direction of the resulting vector is perpendicular to the plane containing A and B, determined by the right-hand rule (curl fingers from A to B, thumb points in the direction of AxB).",
+      "Diagram: drawing A and B tail-to-tail forms a parallelogram; AxB is a vector normal to this parallelogram's plane with magnitude equal to its area."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Geometrically, the magnitude of the cross product gives the area of the parallelogram formed by two vectors used as adjacent sides: $\text{Area}=|mathbf{A}\timesmathbf{B}|$. Since $|mathbf{A}\timesmathbf{B}|=ABsin\theta$, the same result is $ABsin\theta$. The unit vector $hat{n}$ gives the direction normal to the plane of the parallelogram, determined by the right-hand rule. If the vectors are parallel, the area is zero; if they are perpendicular, the area is maximum and equals $AB$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionId": "cross-product-vs-dot-product",
+    "sectionLabel": "Cross Product vs. Dot Product",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What geometric interpretation does the cross product have? Explain with the help of a diagram.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m173a8qtxh8xrvgh1regzfrvdn8e120c",
+    "exerciseId": "xd78r92tbzydb80dmw353q504n8e1vzy",
+    "exerciseTitle": "Exercise 2: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "|AxB| = sqrt(3) x A.B, so |A||B|sin(theta) = sqrt(3) x |A||B|cos(theta), giving tan(theta) = sqrt(3), so theta = 60°. (Ans. 60°, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionId": "cross-product-vs-dot-product",
+    "sectionLabel": "Cross Product vs. Dot Product",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If the magnitude of cross product between two vectors is sqrt(3) times the dot product, find angle between them.",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vector-product",
+    "topicTitle": "2.7 Vector Product (Cross Product) of Two Vectors",
+    "_id": "m17462gwzb8h062ert8ep62gdn85pp9m",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "To find $\\hat{j} \\cdot (\\hat{i} \\times \\hat{k})$, first evaluate the cross product: $\\hat{i} \\times \\hat{k} = -\\hat{j}$ (using the right-hand rule). Then apply the dot product: $\\hat{j} \\cdot (-\\hat{j}) = -1$.",
+    "keyPoints": [
+      "Correctly evaluates cross product $\\hat{i} \\times \\hat{k} = -\\hat{j}$ using right-hand rule",
+      "Applies dot product formula between parallel/antiparallel unit vectors",
+      "Recognizes that $\\hat{j} \\cdot (-\\hat{j}) = -1$ (magnitude 1, angle 180°)",
+      "Final answer: $-1$ (scalar quantity)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "To find $\\hat{j} \\cdot (\\hat{i} \\times \\hat{k})$, first evaluate the cross product: $\\hat{i} \\times \\hat{k} = -\\hat{j}$ (using the right-hand rule). Then apply the dot product: $\\hat{j} \\cdot (-\\hat{j}) = -1$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "-1"
+      },
+      {
+        "key": "C",
+        "text": "i"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "vector-product-using-rectangular-components",
+    "sectionLabel": "Vector Product using Rectangular Components",
+    "session": "annual",
+    "stem": "$\\hat{j} \\cdot (\\hat{i} \\times \\hat{k}) =$",
+    "topicId": "ms704n92kbh7vzhyjga21a337d85pps0",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vectors-in-the-cartesian-coordinate-system",
+    "topicTitle": "2.8 Vectors in the Cartesian Coordinate System",
+    "_id": "m17apngsxv9f5726sndy4h4h5585pkx7",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies that $A_x$ and $A_y$ are perpendicular components forming a right-angled triangle",
+      "Recognizes the vector $\\vec{A}$ as the hypotenuse of the triangle",
+      "Correctly applies Pythagorean theorem: $|\\vec{A}|^2 = A_x^2 + A_y^2$",
+      "Takes square root to obtain final expression $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2}$",
+      "Shows clear mathematical derivation with proper notation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Consider a vector $\\vec{A}$ with rectangular components $A_x$ and $A_y$ along the x and y axes respectively. These perpendicular components form the legs of a right-angled triangle, with the vector $\\vec{A}$ as the hypotenuse. Applying the Pythagorean theorem to this right triangle: $|\\vec{A}|^2 = A_x^2 + A_y^2$. Taking the square root of both sides gives $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2}$, which represents the magnitude of the vector in terms of its rectangular components.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionId": "calculating-the-magnitude-of-the-vector",
+    "sectionLabel": "Calculating the Magnitude of the Vector",
+    "session": "annual",
+    "stem": "For vector $\\vec{A}$ show that $|\\vec{A}|=\\sqrt{A_{x}^{2}+A_{y}^{2}}$.",
+    "topicId": "ms76hs8h2hg3b7z0sqt4f5eej185p80y",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vectors-in-the-cartesian-coordinate-system",
+    "topicTitle": "2.8 Vectors in the Cartesian Coordinate System",
+    "_id": "m17brjwszfc8x6bx23n9h4c3bs85qd5n",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The magnitude of vector $\\vec{A} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ is found using the formula $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2 + A_z^2}$. Substituting the components: $|\\vec{A}| = \\sqrt{(2)^2 + (-1)^2 + (3)^2} = \\sqrt{4 + 1 + 9} = \\sqrt{14}$ units.",
+    "keyPoints": [
+      "Correctly identified components: $A_x = 2$, $A_y = -1$, $A_z = 3$",
+      "Applied magnitude formula for three-dimensional vector: $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2 + A_z^2}$",
+      "Accurate arithmetic: $4 + 1 + 9 = 14$",
+      "Final answer: $|\\vec{A}| = \\sqrt{14}$ units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The magnitude of vector $\\vec{A} = 2\\hat{i} - \\hat{j} + 3\\hat{k}$ is found using the formula $|\\vec{A}| = \\sqrt{A_x^2 + A_y^2 + A_z^2}$. Substituting the components: $|\\vec{A}| = \\sqrt{(2)^2 + (-1)^2 + (3)^2} = \\sqrt{4 + 1 + 9} = \\sqrt{14}$ units.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sqrt{14}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{18}$"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionId": "calculating-the-magnitude-of-the-vector",
+    "sectionLabel": "Calculating the Magnitude of the Vector",
+    "session": "annual",
+    "stem": "If $\\vec{A} = 2 \\hat{i} - \\hat{j} + 3 \\hat{k}$ then magnitude of $\\vec{A}$ is:",
+    "topicId": "ms76hs8h2hg3b7z0sqt4f5eej185p80y",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "02-vectors",
+    "chapterTitle": "Vectors",
+    "topicSlug": "vectors-in-the-cartesian-coordinate-system",
+    "topicTitle": "2.8 Vectors in the Cartesian Coordinate System",
+    "_id": "m17cw8qabrn3te20tx5fzbz5ys8e1qzy",
+    "exerciseId": "xd71d531fs8nh0mh17k1hbtm2n8e1keh",
+    "exerciseTitle": "Exercise 2: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Unit vectors i-hat, j-hat and k-hat are dimensionless and unitless; they have magnitude exactly 1 and serve only to indicate direction along the x, y and z axes respectively. Any physical units belong to the scalar magnitude multiplying the unit vector, not the unit vector itself.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2.9",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 2,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What units are associated with the unit vectors i-hat, j-hat, and k-hat?",
+    "topicId": "ms76hs8h2hg3b7z0sqt4f5eej185p80y"
+  }
+]

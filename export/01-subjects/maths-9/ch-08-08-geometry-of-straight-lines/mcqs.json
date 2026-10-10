@@ -1,0 +1,282 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "inclination-of-straight-line",
+    "topicTitle": "8.1 Inclination of a Straight Line",
+    "_id": "k978tr3rb2fpcrrmn9t1n1c2mn8d29qv",
+    "correctKey": "A",
+    "explanation": "The corpus defines inclination as the angle the line makes with the positive x-axis, measured anti-clockwise.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72mq1dchvvef9zhxrmaa8jmx8cbtmg",
+    "options": [
+      {
+        "key": "A",
+        "text": "As the anti-clockwise angle from the positive x-axis"
+      },
+      {
+        "key": "B",
+        "text": "As the clockwise angle from the negative x-axis"
+      },
+      {
+        "key": "C",
+        "text": "As the angle from the positive y-axis only"
+      },
+      {
+        "key": "D",
+        "text": "As the angle between the line and the origin"
+      }
+    ],
+    "sectionId": "inclination-of-straight-line",
+    "sectionLabel": "inclination-of-straight-line",
+    "stem": "How is the inclination of a straight line measured?",
+    "topicId": "ms70zj60102w8s42ypx5k6py6s8ca3f1"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "gradient-of-straight-line",
+    "topicTitle": "8.2 Gradient of a Straight Line",
+    "_id": "k974w1q6ez0q217t7kzcv5p05s8d2x9x",
+    "correctKey": "A",
+    "explanation": "The corpus states that gradient is the tangent of inclination; for a horizontal line, $m=\\tan 0^\\circ=0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7esjcr1fj2th3a9mj220q0jn8ca8mv",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "C",
+        "text": "Undefined"
+      },
+      {
+        "key": "D",
+        "text": "$-1$"
+      },
+      {
+        "key": "B",
+        "text": "$1$"
+      }
+    ],
+    "sectionId": "gradient-of-straight-line",
+    "sectionLabel": "Gradient of Straight Line",
+    "stem": "A horizontal line has inclination $0^\\circ$. What is its gradient?",
+    "topicId": "ms79jyt2e3g1g1tbp8ymm25a2x8ca6yd"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "gradient-of-straight-line",
+    "topicTitle": "8.2 Gradient of a Straight Line",
+    "_id": "k97d0qrpy4gjxmqbb5fr9qnpfn8ds8wv",
+    "correctKey": "A",
+    "explanation": "The note defines a line that is neither horizontal nor vertical as an oblique line.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7esjcr1fj2th3a9mj220q0jn8ca8mv",
+    "options": [
+      {
+        "key": "B",
+        "text": "Parallel line"
+      },
+      {
+        "key": "A",
+        "text": "Oblique line"
+      },
+      {
+        "key": "C",
+        "text": "Normal line"
+      },
+      {
+        "key": "D",
+        "text": "Quadrantal line"
+      }
+    ],
+    "sectionId": "gradient-of-straight-line",
+    "sectionLabel": "Gradient of Straight Line",
+    "stem": "A line which is neither horizontal nor vertical is called a(n):",
+    "topicId": "ms79jyt2e3g1g1tbp8ymm25a2x8ca6yd"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "gradient-of-straight-line",
+    "topicTitle": "8.2 Gradient of a Straight Line",
+    "_id": "k97eckcdbg9h1kbb6ar83jj9098dr0wy",
+    "correctKey": "A",
+    "explanation": "The note states that a line perpendicular to the x-axis has $\\theta = 90^{\\circ}$, and $\\tan 90^{\\circ}$ is undefined, so its gradient is undefined.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7esjcr1fj2th3a9mj220q0jn8ca8mv",
+    "options": [
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "A",
+        "text": "Undefined"
+      },
+      {
+        "key": "D",
+        "text": "$-1$"
+      }
+    ],
+    "sectionId": "gradient-of-straight-line",
+    "sectionLabel": "Gradient of Straight Line",
+    "stem": "What is the gradient of a line perpendicular to the x-axis?",
+    "topicId": "ms79jyt2e3g1g1tbp8ymm25a2x8ca6yd"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "formula-of-gradient",
+    "topicTitle": "8.3 Formula for the Gradient of a Line",
+    "_id": "k97c9s0m0nbd8n41x9dn07z3xd8d2jzj",
+    "correctKey": "A",
+    "explanation": "Using the two-point gradient formula, $m=(9-3)/(5-2)=6/3=2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75zndeqqen0mv1aneys71bgs8cave1",
+    "options": [
+      {
+        "key": "C",
+        "text": "$-2$"
+      },
+      {
+        "key": "A",
+        "text": "$2$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$3$"
+      }
+    ],
+    "sectionId": "formula-of-gradient",
+    "sectionLabel": "formula-of-gradient",
+    "stem": "What is the gradient of the line through $A(2,3)$ and $B(5,9)$?",
+    "topicId": "ms720xt5x0e0smr3kvw0xqsnad8cbnh7"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "formula-of-gradient",
+    "topicTitle": "8.3 Formula for the Gradient of a Line",
+    "_id": "k9712g76hf839b6jexp9pcprn98ds2nd",
+    "correctKey": "A",
+    "explanation": "The note states $m_{1} \\times m_{2} = -1$ for perpendicular lines, so the perpendicular gradient is $\\frac{-1}{-4} = \\frac{1}{4}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75zndeqqen0mv1aneys71bgs8cave1",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "$-\\frac{1}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$-4$"
+      }
+    ],
+    "sectionId": "formula-of-gradient",
+    "sectionLabel": "formula-of-gradient",
+    "stem": "A line has gradient $-4$. What is the gradient of a line perpendicular to it?",
+    "topicId": "ms720xt5x0e0smr3kvw0xqsnad8cbnh7"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "formula-of-gradient",
+    "topicTitle": "8.3 Formula for the Gradient of a Line",
+    "_id": "k979mb24cxjxnv1fqx0ehm4tr98dswm4",
+    "correctKey": "A",
+    "explanation": "The note explains that for an angle between $90^{\\circ}$ and $180^{\\circ}$ the tangent is negative in the second quadrant, so the gradient is negative.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75zndeqqen0mv1aneys71bgs8cave1",
+    "options": [
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Undefined"
+      },
+      {
+        "key": "B",
+        "text": "Positive"
+      },
+      {
+        "key": "A",
+        "text": "Negative"
+      }
+    ],
+    "sectionId": "formula-of-gradient",
+    "sectionLabel": "formula-of-gradient",
+    "stem": "A line makes an angle of $120^{\\circ}$ with the positive x-axis. Its gradient is:",
+    "topicId": "ms720xt5x0e0smr3kvw0xqsnad8cbnh7"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "formula-of-gradient",
+    "topicTitle": "8.3 Formula for the Gradient of a Line",
+    "_id": "k97dehaz7ceh5y4xeykcb4wbk98dra1t",
+    "correctKey": "A",
+    "explanation": "The note's key fact defines the median as the line segment joining the midpoint of any side of a triangle with the opposite vertex.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75zndeqqen0mv1aneys71bgs8cave1",
+    "options": [
+      {
+        "key": "C",
+        "text": "Angle bisector"
+      },
+      {
+        "key": "A",
+        "text": "Median"
+      },
+      {
+        "key": "B",
+        "text": "Altitude"
+      },
+      {
+        "key": "D",
+        "text": "Perpendicular bisector"
+      }
+    ],
+    "sectionId": "formula-of-gradient",
+    "sectionLabel": "formula-of-gradient",
+    "stem": "A line segment joining the midpoint of a side of a triangle to the opposite vertex is called a:",
+    "topicId": "ms720xt5x0e0smr3kvw0xqsnad8cbnh7"
+  }
+]

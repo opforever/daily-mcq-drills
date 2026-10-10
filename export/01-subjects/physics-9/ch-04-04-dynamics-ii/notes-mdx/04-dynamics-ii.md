@@ -1,0 +1,485 @@
+<!-- note kx79m8qzc3dph4h8fn9x4mstjh8bvnax | topic ms759bpg2wmhwa5r7pzqnh2nq98btpp5 | status published -->
+# 4.1 Forces on Bodies
+
+## Dynamics II
+
+In Dynamics I, we learnt about the force and Newton's laws of motion. Here in Dynamics II, we will study different effects of force on a body including its resistive nature, turning effect and its ability to rotate a body in a circle. We will also know about the stability of different bodies and the role of centre of mass and centre of gravity.
+
+Some times we need to extend the direction in which the force acts. The line along which a force acts is called the line of action of the force as shown in figure 4.1.
+
+Multiple forces may act on bodies at same time, under such condition we have to determine the net force ' $F$ ner'. However in such situations the line of action of these forces become important. Suppose you are trying to move a heavy piece of furniture, if a friend helps and you both push together, now the ease at which the furniture will depend on the line of action of both forces on the object.
+
+If the directions of forces are parallel to each other, even if they are in opposite direction, those forces are called parallel forces. If they are in the same direction they are called 'Like parallel forces'. If they are in the opposite direction they will be known as 'Unlike parallel forces'. For example, when we push a cart with both hands, we are applying like parallel forces from each support as shown in the figure 4.2 (a) and when we apply force with our both hands on handle of a bike to turn it the force from one hand may be greater or equal, we are applying unlike parallel forces as shown in the figure 4.2 (b).
+
+## Figure 4.1: Line of Action of Force
+<CaptionedImage src="kg2fre183tbmznv48hsc6tqdhn8bv9fq" alt="" caption="" />
+
+## Figure 4.2: Parallel Forces
+<CaptionedImage src="kg2exejw1t1ybbq6va2m5f7hjx8bv81e" alt="" caption="" />
+
+
+---
+
+<!-- note kx7b1hz3nrg4w0jztct7gdr53h8bva1p | topic ms76m5p2ga63vrm0b70rvy3cyh8bvvwv | status published -->
+# 4.2 Moment of a Force
+
+
+Force can be used to produce rotation in an object, for example in opening a door or tightening a nut with spanner or wrench.
+Turning effect produced in a body about a fixed point due to applied force is called moment of force (or torque).
+Moment of force or torque is a vector quantity and have the SI unit as N m .
+
+Just like force causes change in motion, moment of force causes change in rotation. This means that moment of force play the same role in rotational motion as force in translational motion. It implies that an object at rest tends to remain at rest, and an object that is rotating (or spinning) tends to spin with a constant angular velocity, unless it is acted on by a nonzero net external moment of force. Similarly, the moment of force tend to produce acceleration in rotational (or spinning) motion.
+
+<SideActivity kind="info" title="For Your Information">
+AXIS OF ROTATION
+Rotational motion is the turning or spinning motion of an object about an axis that passes through it. Axis of rotation is a line about which rotation takes place. This line remain fixed during rotational motion, while the other points of the body move in circles about it. it may be a pivot, hinges or any other support. The axis of rotation for earth and helicopter rotor spinning is shown in figure.
+<CaptionedImage src="kg206ywfshx9c58hsf8vnwab218btqhx" alt="" caption="" />
+The moment of force or torque $\vec{\tau}^{\prime}$ is equal to the magnitude of the force ' $F$ ' multiplied by the perpendicular distance from the axis of rotation to the line of action of force ' $d$ '. mathematically
+
+$$
+\vec{\tau}=F \times d \longrightarrow+41 \rightarrow
+$$
+
+Here the perpendicular distance from the axis of rotation ' $d$ ' is termed as moment arm. So we can redefine moment of force as the product of force and moment arm.
+Moment of force can cause rotation in a wrench to tighten a nut, for a wrench the axis of rotation is at the center of the nut as shown in the figure 4.3 (a). Similarly moment of force can cause the rotation in a door, for door the axis of rotation is at its hinges as shown in the figure 4.3 (b).
+
+FIGURE 4.3 MOMENT OF FORCE OR TORQUE 'T'
+<CaptionedImage src="kg20epwrwpzzn5cgsm3x0k3cd18btbp0" alt="" caption="" />
+
+Increasing the magnitude of applied force ' $F$ ' or the moment arm ' $d$ ' increases the moment of force and vice versa. Thus for same force we can use a long handle wrench to produce more moment of force or torque.
+<SideActivity kind="check-point" title="Can You Tell?">
+Why does applying force along the hinges not produce rotation in a door?
+</SideActivity>
+<CaptionedImage src="kg20n2gvq63qdf34zyryx0jehx8btbt2" alt="" caption="" />
+
+Moment arm is key to the operation of the lever, pulley, gear, and many other simple machines. There are two senses of rotation. If the force is capable of rotating the body in clockwise direction, the moment is known as clockwise moment. Similarly, the force is capable of producing rotation in the anti-clockwise direction, the torque is known as anti-clockwise moment.
+
+Conventionally, clockwise moment is taken as negative, whereas anticlockwise moment is taken as positive.
+Newton's laws when applied to rotating bodies we see that moment of force is rotational analogue for force. It implies that an object at rest tends to remain at rest, and an object that is rotating (or spinning) tends to spin with a constant angular velocity, unless it is acted on by a nonzero net external moment of force. Similarly the torque tend to produce acceleration in rotation (or spinning).
+</SideActivity>## Example 4.1: Torque
+
+A Physics teacher was explaining the role of moment arm in torque by performing an experiment. The teacher applied a force of 60 N to open a door. The force is applied at three different points perpendicularly and their distances from the axis of rotation are: (a) $\mathrm{d}_{\mathrm{A}}=0.40 \mathrm{~m}$, (b) $\mathrm{d}_{\mathrm{s}}=0.20 \mathrm{~m}$ and $(\mathrm{c}) \mathrm{d}_{\mathrm{c}}=0.0 \mathrm{~m}$. Find the torque produced in each case.
+
+GIVEN
+Force ' $F$ ' $=60 \mathrm{~N}$
+REQUIRED
+Moment arm ' $d_{A}$ ' $=0.40 \mathrm{~m}$
+
+(a) Torque ${ }^{\prime} \boldsymbol{\tau}_{\mathbf{A}}{ }^{\prime}=$ ?
+
+Moment arm ' $d_{s}$ ' $=0.20 \mathrm{~m}$
+
+(b) Torque ' ${ }_{t}{ }^{\prime}=$ ?
+
+Moment arm ' $d_{c}$ ' $=0.0 \mathrm{~m}$
+
+(c) Torque ' $\tau_{c}{ }^{\prime}=$ ?
+
+SOLUTION
+In each case the moment arm is the perpendicular distance between the axis of rotation and the line of action of force.
+
+(a) . Using the definition of torque $\tau_{A}=d_{A} \times F$
+Putting values $\quad \tau_{\lambda}=0.40 \mathrm{~m} \times 60 \mathrm{~N}$
+Therefore $\tau_{A}=24.0 \mathrm{Nm}$ Answer
+(b) . Using the definition of torque $\tau_{s}=d_{s} \times F$
+Putting values $\quad \tau_{B}=0.20 \mathrm{~m} \times 60 \mathrm{~N}$
+Therefore $\tau_{B}=12.0 \mathrm{Nm}$ Answer
+
+<CaptionedImage src="kg20tsy8z48a68yp9bwc1sv0qx8bv5m4" alt="" caption="" />
+(c). Using the definition of torque $T_{c}=d_{c} \times F$ Putting values $T_{c}=0 \mathrm{~m} \times 60 \mathrm{~N}$
+
+Therefore □
+
+In parts a and b , the torques are positive since the forces tend to produce an anti-clockwise rotation of the door. In part c the line of action of force passes through the axis of rotation (the hinge). Hence the moment arm is zero, and the torque is zero.
+
+
+---
+
+<!-- note kx77wc6ttkbh4kery12m2v0h158btr7h | topic ms769y0wmah4cr57h337fpagns8bv9qn | status published -->
+# 4.3 Center of Mass
+
+
+A rigid body (a body that does not deform or change shape) is made of large number of small interconnected particles. The center of mass (abbreviated CM) of a rigid body is the point about which mass is equally distributed .
+If the line of action of force pass through the center of mass of a body it will not produce any rotation in it. As an example, consider the motion of the center of mass of the hammer as shown in Figure 4.4. When the hammer is thrown from handle the center of mass follows a smooth parabolic path while other points in the rotating hammer travel along more complicated paths.
+
+FIGURE 4.4 MOTION OF CENTER OF MASS
+<CaptionedImage src="kg2dvcap2aeyt4whs9pqmfr9ex8btgdk" alt="" caption="" />
+
+The center of mass can be considered as a point at which all the mass of an object is concentrated. In physics we often deal with weight (the force of gravity). Therefore we can assume that the entire force of gravity (weight) is concentrated at one point. The center of gravity (abbreviated 'CG') is the point where whole weight of the body appear to act.
+The center of mass and center of gravity (CM/CG) are same for small objects. But since the value of acceleration due to gravity decrease with altitude, therefore for tall objects (like mountains and building) there is a slight difference.
+The CM/CG of a homogeneous cube or sphere is at its geometric center, whereas the CM/CG of a right circular cylinder or cone is on the axis of symmetry, and so on as shown in the figure 4.5. Similarly the CM/CG of a uniform wooden rod is at its mid-point, and therefore it can balanced from its center.
+
+## Figure 4.5 Center of Mass of Symmetrical Objects
+
+<CaptionedImage src="kg2ecrqa2nekq88efxbc39adh58btk11" alt="" caption="" />
+
+For irregular objects one way to determine the center of gravity is to hang it randomly from at least three different points, and then connecting vertical lines drawn with the help of plumb line. These line will meet each other at a common point which will be the center of gravity CG of the irregular object (sheet) as shown in figure 4.6.
+
+FIGURE 4.6 CENTER OF GRAVITY OF IRREGULAR OBJECT
+<CaptionedImage src="kg26yhndp7evt52vpnv0syp3xn8bvakb" alt="" caption="" />
+
+The CM/CG doesn't always lie inside the mass and may change its location depending upon the orientation of the object. For example the arm is stretched out the CM/CG lies inside the mass distribution, but when the arm is bent, the CM/CG shifts to the new location outside the mass distribution as shown in figure 4.7.
+<SideActivity kind="check-point" title="Can You Tell?">
+Is there any difference between centre of mass and centre of gravity? When would an object's centre of mass differ from its centre of gravity?
+</SideActivity>
+<CaptionedImage src="kg2ae1ewecw5jzzrv9xnsxh1th8btk3q" alt="" caption="" />
+
+
+---
+
+<!-- note kx71bbdrs85anksj8h1g89m3vn8bt14a | topic ms74bn9vrvdt9sp7j8hnbt5mqd8bvad1 | status published -->
+# 4.4 Equilibrium
+
+
+Forces produce change in translational motion, therefore, when the net force on the object is zero the object will either be at rest or move with uniform velocity in a straight line. The same is also true for the moment of force which produces change in rotational motion, therefore, when the net torque on the object is zero the object will not rotate or will rotate with uniform velocity. The effect of force is to produce change in translational motion and effect of moment of force or torque is to produce change in rotational motion.
+Equilibrium is the state in which all the individual forces and moment of forces or torques exerted upon an object are balanced. This means that net force and torque on the object are zero the object is said to be in equilibrium.
+
+## Condition of Equilibrium
+Therefore for complete equilibrium two conditions must be met.
+A. First Condition of Equilibrium: When the vector sum of all the forces acting on the body is ZERO then the first condition of equilibrium is satisfied. Mathematically if $\vec{F}_{\text {et }}$ is the sum of forces $\vec{F}_{1}, \vec{F}_{2}, \vec{F}_{3}, \ldots ., \vec{F}_{n}$ then
+
+$$
+\begin{equation*}
+\vec{F}_{n e t}=\vec{F}_{1}+\vec{F}_{2}+\vec{F}_{3}+\ldots \ldots+\vec{F}_{n}=0 \tag{4.2}
+\end{equation*}
+$$
+
+FIGURE 4.8 FIRST CONDITION OF EQUILIBRIUM
+<CaptionedImage src="kg2d6fe61fn21099vj5vkcdh6n8bvybd" alt="" caption="" />
+
+For an object to satisfy the first condition of equilibrium the force polygon must close.
+For example if there are four forces on the object and their vector sum is zero as shown in the figure 4.8, the first condition of equilibrium will be satisfied and the object will either be at rest or will move with uniform velocity. Mathematically if $\vec{F}_{\text {net }}$ is the sum of forces $\vec{F}_{1}, \vec{F}_{2}, F_{1}$, and $F_{4}$ by head to tail rule it must be ZERO.
+
+$$
+\vec{F}_{\text {net }}=\vec{F}_{1}+\vec{F}_{2}+\vec{F}_{3}+\vec{F}_{4}=0
+$$
+
+B. Second Condition of equilibrium: When the vector sum of all the torques acting on the body is ZERO then the second condition of equilibrium is satisfied. If $\vec{\tau}_{\text {net }}$ is the sum of torques $\vec{\tau}_{p}, \vec{\tau}_{2}, \vec{\tau}_{3}, \ldots$. $\overrightarrow{,} \overrightarrow{\tau_{n}}$ then mathematically
+
+$$
+\begin{equation*}
+\vec{\tau}_{n e t}=\vec{\tau}_{1}+\vec{\tau}_{2}+\vec{\tau}_{3}+\ldots \ldots+\vec{\tau}_{n}=0 \tag{4.3}
+\end{equation*}
+$$
+
+For complete equilibrium both the first and second conditions of equilibrium must be satisfied.
+
+## Principle of Moments
+Second condition of equilibrium is also called the principle of moments, which states that 'For an object in equilibrium, the sum of the clockwise moments taken about the pivot must be equal to the sum of anti-clockwise moments taken about the same pivot'.
+To balance torques or moment of force, the perpendicular distance from the axis of rotation play an important role.
+By convention the anticlockwise torques are taken as positive while clockwise torques are taken as negative, which leads to second condition of equilibrium that the sum of both these torques must be zero.
+For example, Let a uniform meter stick is balanced from center. Now if we suspend weight of 4 N at 0.1 m from the pivot, it exerts the same torque as 2 N weight at 0.4 m from the fulcrum. A uniform meter stick will balance on pivot under these conditions as shown in the figure 4.9.
+
+FIGURE 4.9 VERIFICATION OF PRINCIPLE OF MOMENTS
+<CaptionedImage src="kg2eny40ctfxpvepkzf5q5x5ch8bvakk" alt="" caption="" />
+
+Similarly three or more torques around a pivot (as axis of rotation) can also balance each other.
+
+## Example 4.2: Seesaw Balance
+
+Kamil and Bilal are sitting on a seesaw at F9 Park Islamabad. Kamil, weighing 250 N, is sitting at a distance of 0.6 m from the pivot. At what distance from the pivot should Bilal, weighing 200 N sit in order to balance the seesaw?
+
+GIVEN
+Weight of Kamil ' $W_{i}$ ' $=250 \mathrm{~N}$ Moment arm of Kamil ' $d_{k}$ ' $=0.6 \mathrm{~m}$ Weight of Bilal ' $W_{\mathrm{a}}$ ' $=200 \mathrm{~N}$
+
+REQUIRED
+Moment arm of Bilal ' $d_{g}$ ' = ?
+
+SOLUTION
+Kamil's weight is producing anticlockwise moment, while Bilal's weight is producing clockwise moment, Therefore, by principle of moments:
+<CaptionedImage src="kg2d3azb9199djnzbse36rtekx8bt2nz" alt="" caption="" />
+This means that having less weight (or force), the moment arm should be greater in order to produce same torque as produced by a greater weight and small moment arm.
+
+## Types of Equilibrium
+The equilibrium is divided into two types
+
+A. Static equilibrium: When a body is at rest under the action of several forces acting together and several torques acting the body is said to be in static equilibrium. For example a book resting on the table is in static equilibrium, the weight mg of the book is balanced by a normal reaction force from the table surface.
+B. Dynamic equilibrium: When a body is moving at uniform velocity under the action of several forces acting together the body is said to be in dynamic equilibrium. It is further divided in to two types.
+I. Dynamic Translational Equilibrium: When a body is moving with uniform linear velocity the body is said to be in dynamic translational equilibrium. For example a paratrooper falling down with constant velocity is in dynamic translational equilibrium as shown in figure 4.10 (a).
+
+<CaptionedImage src="kg2a3a75nep9we3a2frarrgebd8bvv6x" alt="" caption="" />
+II. Dynamic Rotational Equilibrium: When a body is moving with uniform rotation the body is said to be in dynamic rotational equilibrium. For example when the ceiling fan is rotating with unchanging speed as shown in figure 4.10 (b).
+
+
+---
+
+<!-- note kx74de43n7t8kj97x7g47tn4d98bv5c6 | topic ms72c578xhc1jpxs423stfe6118bvrvh | status published -->
+# 4.5 Stability
+
+'A measure of the ability of an object to return to its original position when the force that changed its position is removed is called stability'. Stable objects are very difficult to topple over, while unstable objects topple over very easily.
+The position of the Center of gravity or center of mass ( $\mathrm{CG} / \mathrm{CM}$ ) of a body affects whether or not it topples over easily. This is important in the design of such things as tall vehicles (which tend to overturn when rounding a corner), racing cars, reading lamps and even drinking glasses.
+
+## Figure 4.11: Stability of Vehicles
+<CaptionedImage src="kg25eg0vpc8phgdft159w86sxn8dzevp" alt="" caption="FIGURE 4.11 STABILITY OF VEHICALS" />
+
+
+## Stable Equilibrium
+A body is in stable equilibrium if when slightly tilt and after releasing it returns to its original position. Its centre of mass rises when it is displaced. It regain its position back because its weight has a moment of force about the point of contact that acts to reduce the displacement. For example consider a book lying on the table. Tilt the book slightly about its one edge by lifting it from the opposite side. It returns to its previous position when sets free. Such a state of the body is called a stable equilibrium.
+
+## Unstable Equilibrium
+A body is in unstable equilibrium if it moves further away from its previous position when slightly displaced and released. Its centre of mass falls when it is displaced, because there is a moment which increases the displacement. for example Take a pencil and try to keep it in the vertical position on its tip. Whenever you leave it, the pencil topples over about its tip and falls down. This is called an unstable equilibrium.
+
+## Neutral Equilibrium
+A body is in neutral equilibrium if it stays in its new position when displaced. Its center of mass does not rise or fall because there is no moment to increase or decrease the displacement.
+For example take a ball and place it on a horizontal surface. Roll the ball over the surface and leave it after displacing from its previous position. It remains in its new position and does not return to its previous position. This is called a neutral equilibrium.
+The illustrations in figure 4.12 shows the three states of equilibrium for the cone and ball and bowl.
+
+## Figure 4.12: Stable, Unstable and Neutral Equilibrium
+<CaptionedImage src="kg26jmcpvn8retta0dw3q1v50d8bt35r" alt="" caption="" />
+
+An object's stability can be improved by:
+
+(a) lowering the center of mass; or
+(b) increasing the area of support; or
+(c) by both.
+
+When the object's center of mass is directly beneath the point of support, it is in a stable equilibrium state. The center of mass represents the average position of the mass distribution within the object. In simple terms, "vertically below" means that the center of mass is aligned vertically beneath the point of support.
+When an object is in stable equilibrium, it means that if it is slightly disturbed or tilted, it has a tendency to return to its original position. This is because the gravitational force acting on the object causes it to rotate around the point of support, and the object's weight acts through its center of mass. As a result, the object naturally realigns itself to maintain its stable equilibrium state.
+Various toys and equipment use the principle of stable equilibrium to regain their balance after being disturbed. These objects are often called "self-righting" or "self-balancing" toys. They are designed with their center of mass below the support point and have a specific weight distribution that helps them restore their original position. These objects might include balancing birds, wobbling dolls, or weighted-bottom drinking cups, all of which exhibit the stable equilibrium principle as shown in figure 4.13.
+
+## Figure 4.13: Self-Balancing Toys
+Once such toy is of shape of an egg, when it is tilted, the position of the pivot changes because of its round bottom. In figure $14.14(\mathrm{a})$, when tilted to the left, the weight ' $W$ ' from the center of gravity (CG) is to the right of the pivot with moment arm (perpendicular distance) ' $d$ '. This creates a clockwise moment that makes the toy turn clockwise. Due to inertia, the toy will go past the vertical position and tilt to the right, as shown in the figure 14.14 (b). Similarly, since the weight is to the left of the pivot, it creates an anti-clockwise moment.
+
+## Figure 4.14: Egg-Shaped Self-Balancing Toy
+<CaptionedImage src="kg269bp1vv9abybhpqm8zqn5tx8bvhaa" alt="" caption="" />
+
+Therefore, this toy always has a restoring mechanism that brings it back to its vertical position, where the weight is directly above the pivot. In this position, the weight passing through the pivot does not create any moment (no perpendicular distance). Hence, the toy will be at rest.
+
+
+---
+
+<!-- note kx79t19vra8d2277z82f7r322s8btcpt | topic ms7czxszjsmtcvbrqpsh0y598x8bty1p | status published -->
+# 4.6 Friction
+
+
+Friction (denoted by letter ' $f$ ') is the resistance to relative motion that occurs whenever two materials are in contact with each other, whether they are solids, liquids, or gases. Since it is a force therefore it is a vector quantity and has unit as newton (N).
+Friction always acts in a direction to oppose motion. If you push a solid block along a floor to the right, the force of friction on the block will be to the left. When an object falls downward through the air, the force of friction, air resistance, acts upward.
+
+## Microscopic description of friction
+
+Every surface is rough, even surfaces that appear to be highly polished can actually look quite rough when examined under a microscope as shown in figure 4.15. There is no such thing as a perfectly flat surface. As a result the two surfaces that are touching are not really touching across the entire area that appears to be touching.
+<CaptionedImage src="kg2cd5pycma61s967cth8ns3498dy3fa" alt="" caption="Microscopic Contact points producing friction." />
+
+Thus roughness of both surfaces interlock which makes friction.
+
+Sliding friction is the resistance created by any two objects when sliding against each other. It is the sliding friction between the brake pads and our bike rims, that slows the rolling wheels so we can stop our bike in time.
+
+Rim brakes, are the most effective and most popular bicycle brakes, as they provide adequate braking power without too much maintenance. They are controlled by hand levers which are attached to the actual brake by a cable. When the rider pulls on the brake lever the cable attached to it moves the two pads, one on each side of rim. These pads attached to break leather press against the rim, causing the wheel to slow down due to friction as shown in figure 4.16.
+<CaptionedImage src="kg2axnt95hx3ddwbtkmmnsjbn98dz7f4" alt="" caption="Figure from 4.6 Friction" />
+## ADVANTAGES AND DISADVANTAGES OF FRICTION
+
+Friction is required in many situations, for example
+
+- Friction between the soles of our shoes (or feet) and the ground help us walk.
+- Friction between tyre and road helps to drive cars.
+- Friction holds the screw and nails in wood.
+
+Friction can sometime be a hindrance, for example
+
+- It slows down moving objects and causes heating of moving parts in machinery.
+- Energy is wasted to overcome friction in machinery.
+- Produce wear and tear.
+
+## METHODS OF REDUCING FRICTION
+
+There are many ways to reduce unwanted friction, few are discussed below.
+
+- By polishing: If we polish the rough surfaces, they become smooth and friction is reduced.
+- By using Ball Bearing: This method converts the sliding friction is conyerted into rolling friction by use of ball bearings.
+- By applying Lubricants (oil or Grease) to surfaces: Friction of certain liquids is less than that of solid surfaces, therefore, oil or grease is applied between the parts of machinery.
+
+## ROLLING FRICTION
+
+If we set a heavy spherical ball, ring or cylinder rolling, it experiences an opposing force called rolling friction. When a body rolls over a surface, the force of friction is called rolling friction. For the same weight, rolling friction is much smaller (even by 2 or 3 orders of magnitude) than static or sliding friction.
+
+FIGURE 4.18 ROLLING FRICTION
+<CaptionedImage src="kg29knac2xwnqvstnqw1b9fsr98dzdrz" alt="" caption="FIGURE 4.18 ROLLING FRICTION" />
+
+This is the reason why discovery of the wheel has been a major milestone in human history. It is rolling friction that helps a heavy deep freezer with wheels to easily move as shown in figure 4.18.
+## FLUID FRIC ION
+
+A fluid is a collection of molecules that are held together by weak cohesive forces and the forces exerted by the walls of container. Both liquids and gases are fluids as they can flow and can exert force on the walls of their container.
+When an object moves through a fluid, the fluid exerts a retarding force that tends to reduce the speed of the object. The moving body exerts a force on the fluid to push it out of the way. By Newton's third law, the fluid pushes back on the body with an equal and opposite force. This retarding force experienced by an object moving through a fluid is called the drag force, which is the result of fluid friction.
+
+<SideActivity kind="prompt" title="Point To Ponder">
+Does wider tyres increase friction and thus road grip of our car?
+<CaptionedImage src="kg249dwczffzd8parbrtp75wrh8bttpy" alt="" caption="" />
+
+It seems intuitive that wider tyres will provide more friction, however, the friction is same for narrow and wide tyres of same weight. It is because friction does not depend on the area of contact. The wider tyre simply spreads the weight of the car over more surface area thereby reducing heat and wear.
+Similarly treads (traction) on tyres also does not increase friction. These treads are much larger compared to microscopic roghness which lock the contact surfaces together and produce friction white sliding. The treads are made in the tyre only to displace water from the road to avoid skidding. Many racing cars use tires without treads because they race on dry days.
+
+<CaptionedImage src="kg2a8a229aw6yhacg8rpg9ec7x8bt26f" alt="" caption="" />
+Friction resists sliding
+
+<CaptionedImage src="kg220s75sp0chrryrsw5k1ccqs8bv4ks" alt="" caption="" />
+
+For example when you extend your hand out of the window in a moving vehicle as shown in figure 4.19. If you set the palm of your hand in the direction of motion you can observe the fluid friction and the drag force it exerts on your palm. You can also see variation in the drag force by changing its orientations.
+The drag force depends upon the
+
+- Size, shape and orientation of the object
+- Type (Properties) of the fluid
+
+<CaptionedImage src="kg2a6b90ep1xf96fa0d1d3wz9d8bvp0f" alt="" caption="" />
+
+- Speed of the object relative to the fluid
+
+Skydivers and swimmers change their effective size and orientation by bending, twisting and starching their body parts. This allow them to manipulate drag and thereby allowing them to control speed and direction of motion.
+During free fall the objects does not speed up indefinitely. The speed of free falling object initially increases because of weight of the object, but as the speed increases the drag force also increase, slowing the object down.
+A point reaches where both the weight and drag force become equal and dynamic translational equilibrium is achieved. The object has now attained its maximum velocity termed as terminal velocity. At terminal speed, the diver's acceleration is zero; in other words, the speed remains constant.
+
+The constant maximum velocity that is attained and maintained by an object while falling through air (or any other resistive medium) is called terminal velocity.
+For humans, terminal speed in air is about $53 \mathrm{~m} / \mathrm{s}$ or $190 \mathrm{~km} / \mathrm{h}$. After the parachute opens, the terminal speed is reduced to between $5 \mathrm{~m} / \mathrm{s}$ and $10 \mathrm{~m} / \mathrm{s}$, as shown in figure 4.20.
+
+FIGURE 4.20 SPEED TIME GRAPH OF PARACHUTE JUMP
+<CaptionedImage src="kg21yahn0wwhsfx1xvba99pqgd8btkw4" alt="" caption="" />
+
+4.6.6 FRICTIONAL DISSIPATION
+
+Dissipative force decreases the mechanical energy in a system. Dissipative forces acting on an object always oppose the motion of the object. For example in case of the sky diver, when the parachute opened some energy is dissipated into the air thereby increasing its temperature. The sky diver safety depends on air resistance as a dissipative force.
+<CaptionedImage src="kg2bmn5mg62f2bs93sfchc5d9s8bvb4w" alt="" caption="" />
+
+In winter when we rub our hands together we feel the sensation of warmth as shown in figure 4.21 (a). It is because friction causes the increase in the temperature our hands, which makes our
+hands warm. Similarly you would have noticed shooting stars ( a small piece of rock or dust that hits Earth's atmosphere from space) as shown in figure 4.21 (b). When they plow through the atmosphere, meteors are heated, and they glow. A meteor compresses air in front of it. The air heats up, in turn heating the meteor. The intense heat vaporizes most meteors, creating what we call shooting stars.
+</SideActivity>
+
+---
+
+<!-- note kx78bgedmmjpp33r2eh4eyctps8bv2wb | topic ms79b80mx64h3e4s6sfghpcypd8bvsek | status published -->
+# 4.7 Centripetal Force
+
+When the speed of the moving object does not change as it travels in the circular path is called uniform circular motion.
+
+The speed of the object may remain constant however the direction is continuously changing, giving rise to a change in velocity and an acceleration as shown in figure 3.22. This acceleration is perpendicular (or at a right angle) to the velocity. In uniform circular motion, it is towards the center of the circle called centripetal acceleration.
+Now there must be some unbalanced force acting on the object which is pulling it towards the center.
+The force that pulls an object out of its straight-line path and into a circular path is called centripetal (center-seeking) force.
+Consider a communications satellite that is moving at a uniform speed around Earth in a circular orbit as shown in figure 4.23. According to the first law of motion there must be some unbalanced force acting on the satellite that is pulling it out of a straight-line path. This unbalanced force is termed as centripetal force.
+The magnitude of the centripetal force ' $F_{\mathrm{c}}$ 'of an object with a mass ' $m$ ' that is moving with a velocity ' $v$ ' in a circular orbit of a radius ' $r$ ' is:
+
+$$
+F_{c}=-\frac{m v^{2}}{r} \longrightarrow 4.4
+$$
+
+Equation 4.4 gives the magnitude of centripetal force, where negative sign indicates that force is directed towards the center of the circular path.
+
+FIGURE 4.22 CIRCULAR MOTION
+<CaptionedImage src="kg20vr8jd2ffvv3cdhgc5z3jp18bvd3q" alt="" caption="" />
+
+FIGURE 4.23 SATELLITE
+<InteractiveFigure componentKey="satelliteOrbitDiagram" props="{}" caption="A satellite stays in orbit because gravity pulls it toward Earth's center as centripetal force, while its own motion keeps it moving forward along the circular path." />
+
+Perhaps you have swung a ball on the end of a string in a circle over your head. Once you have the ball moving, the tension on the string keeps it moving in a circular path as you twirl it. That tension is centripetal force, which pulls the ball from its natural straight-line path into a circular path as shown in figure 4.24 (a). The force that keeps a planets in orbit around sun is centripetal force, which, in this case is the 'gravitational force'. This center is exactly where the Sun is located. In the case of the Moon, the centripetal force acting on it is directed towards the center of the Earth as shown in figure 4.24 (b).
+
+FIGURE 4.24 CENTRIPETAL FORCE EXAMPLES
+<CaptionedImage src="kg265633yr2afktjaat0dte3n18btb0f" alt="" caption="" />
+## Example 4.3: Hammer Throw
+Bilal is performing in hammer throw game as shown in the figure. Mass of the metal ball is 5 kg and length of the string is 1.5 m . What centripetal force must Bilal apply to get a speed of $25 \mathrm{~m} / \mathrm{s}$ ?
+
+GIVEN
+Mass of metal ball attached by a steel wire ' m ' $=5 \mathrm{~kg}$
+Radius ' r ' $=1.5 \mathrm{~m}$
+speed ' v ' $=25 \mathrm{~m} / \mathrm{s}$
+SOLUTION
+The centripetal force acting on a body of mass " m " is given by: $\quad F_{c}=\frac{m v^{2}}{r}$
+Putting values $F_{c}=\frac{5 \mathrm{~kg} \times(25 \mathrm{~m} / \mathrm{s})^{2}}{1.5 \mathrm{~m}}$
+therefore □
+This means that Bilal's hand must apply a centripetal force of 2083.3 N on the metal in order to give a velocity of 25 m/s to the ball.
+
+An orbit is a regular, repeating path that one object in space takes around another one. An object in an orbit is termed as a satellite. A satellite can be natural, like Earth or the moon. Objects orbit each other because of gravity. Many planets have moons that orbit them, and many stars have planets, comets, asteroids and other objects that orbit them. A satellite can also be manmade, like the International Space Station. Such man-made satellites are termed as artificial satellites.
+To put an artificial satellite into orbit, first we move it to high altitude and then accelerate it to a required tangential speed using rockets, as shown in Figure. 4.25. If the speed is too high, the spacecraft either move in elliptical orbit or will escape, never to return. If the speed is too low, it will fall back to Earth. Satellites are typically put into circular (or nearly circular) orbits.
+
+FIGURE 4.25 MOTION OF ARTIFICIAL SATELLITE
+<CaptionedImage src="kg2dr5qrwtzvy6tysmkq2kxn7d8bt64n" alt="" caption="" />
+
+## Average Orbital Speed of Satellite
+The orbital speed of the body is the speed at which it orbits around the center of the system. This system is usually around a massive body.
+The relationship between speed, distance and time is:
+
+$$
+\text { Average speed }=\frac{\text { distance }}{\text { time }}
+$$
+
+This means that in one orbit, a satellite travels a distance equal to the circumference of a circle (the shape of the orbit). This is equal to ' $2 \pi r$ ' where ' $r$ ' is the radius a circle, thus:
+
+$$
+\text { Distance }=2 \pi \mathrm{r}
+$$
+
+FIGURE 4.26 SPEED IN ORBIT
+<CaptionedImage src="kg2654k409q5zn747vnzkbxtgd8bv6kh" alt="" caption="" />
+
+## Unit 4 Dynamics - Ii
+The time it takes for an object to orbit around another object is called its orbital period ' $T$ '. Earth completes its orbital period around the sun every 365 days. The further away a planet is from the sun, the longer its orbital period. The planet Neptune, for example, takes almost 165 years to orbit the sun.
+time = Orbital period = T
+putting equation 2 and equation 3 in equation 1 , the average orbital speed ' $v_{\text {vec }}$ ' is:
+
+$$
+v_{\text {ave }}=\frac{2 \pi r}{T}
+$$
+
+Which means that for particular distance from the center of earth, all the satellite should have the same orbital speed irrespective of the size of satellite.
+<CaptionedImage src="kg259ddnxqc0h8rspe8tbn0v2s8bvrjs" alt="" caption="" />
+
+## Quiz
+Two satellites are following one another in the same circular orbit. If one satellite tries to catch another (leading one) satellite, can it be done by increasing its speed?
+No, if the speed of the satellite is somehow increased, its radius will also increase and it will be unable to catch up the leading satellite.
+
+## Example 4.4: Orbital Speed of Earth
+Earth completes one revolution around the sun in 365.25 days. Find the orbital speed of Earth around the sun if it is 150 million km away from the sun.
+
+GIVEN
+Orbital period ' $T$ ' $=365.25$ days $=365.25 \times 24 \times 60 \times 60 \mathrm{~s}=3.16 \times 10^{7} \mathrm{~s}$
+Radius ' $r$ ' $=150$ million $\mathrm{km}=150 \times 10^{8} \times 10^{3} \mathrm{~m}=1.5 \times 10^{11} \mathrm{~m}$
+REQUIRED
+Orbital speed of Earth around sun $\mathrm{v}=$ ?
+SOLUTION
+The relation for average orbital speed is given by: $\quad v_{\text {ave }}=\frac{2 \pi r}{T}$
+putting values $\quad v_{\text {mer }}=\frac{2 \times 3.14 \times 1.5 \times 10^{11} \mathrm{~m}}{3.16 \times 10^{7} \mathrm{~s}}$
+therefore
+
+$$
+v=2.9810^{4} \mathrm{~m} / \mathrm{s}
+$$
+
+or $\mathrm{v}=29.8 \mathrm{~km} / \mathrm{s} \quad$ or $\quad \mathrm{v}=107,280 \mathrm{~km} / \mathrm{h}$
+
+This is a huge speed as compared to the speeds of our daily life objects. The reason we do not feel it is that we are relatively at rest i.e. we also move with the earth.
+
+
+---
+
+<!-- note kx74rr3pvza9yz88aa05n8j2jh8bv5z9 | topic ms72vxze12y7qccmny3fkkn7798btx3b | status published -->
+# 4.9 Planetary Data
+
+
+An astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its gravity, is termed as planet. There are more planets in our galaxy than stars.
+Our solar system consists of our star, the Sun, and everything bound to it by gravity - the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune; dwarf planets such as Pluto; dozens of moons; and millions of asteroids, comets, and meteoroids. Table 4.1, summarizes the physical parameters of the planets in solar system.
+
+TABLE 4.1: SELECTED DATA FOR THE SOLAR SYSTEM
+| Planet | Distance from Sun (Gm) | Mass ( $10^{24} \mathrm{~kg}$ ) | g (N/kg) | Orbital Period (yr) | Density ( $\mathrm{kg} / \mathrm{m}^{3)}$ | Average Surface temperature (°C) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Mercury | 57.9 | 0.330 | 3.7 | 0.241 | 5429 | 167 |
+| Venus | 108.2 | 4.87 | 8.9 | 0.615 | 5243 | 464 |
+| Earth | 149.6 | 5.97 | 9.8 | 1 | 5514 | 15 |
+| Mars | 228.0 | 0.642 | 3.7 | 1.88 | 3934 | -65 |
+| Jupiter | 778.5 | 1898 | 24.7 | 11.9 | 1326 | - 110 |
+| Saturn | 1432.0 | 568 | 9.0 | 29.4 | 687 | - 140 |
+| Uranus | 2867.0 | 86.8 | 8.7 | 83.8 | 1270 | - 195 |
+| Neptune | 4515.0 | 102 | 11.0 | 164 | 1638 | -200 |
+| Sun | 5906.4 | 1,990,000 | 274 | - | 1408 | 5,600 |
+
+<SideActivity kind="info" title="For Your Information">
+INFORMATION: GLOBAL POSITIONING SYSTEM (GPS)
+Many applications of satellite technology affect our lives. An increasingly important application is the network of 24 satellites called the Global Positioning System (GPS), which can be used to determine the position of an object. Figure illustrates how the system works, by locating position of enemy tank. A measurement using a single satellite locates the tank somewhere on a green circle, as Figure (a) shows, while a measurement using a second satellite locates the tank on another circle. The intersection of the circles reveals two possible positions for the tank, as in Figure (b). With the aid of a third satellite, a third circle can be established, which intersects the other two and identifies the tank's exact position, as in Figure (c).
+</SideActivity>## Cont.... FOR YOUR INFORMATION
+
+## Summary
+
+Moment of a force or Torque is the measure of an object tendency to rotate about some point 0 . Moment of a force = force × perpendicular distance of the force to the point.
+Principle of moments states that for an object in equilibrium, the sum of the clockwise moments taken about the pivot must be equal to the sum of the anti-clockwise moments taken about the same pivot.
+Centre of mass of the body is the point about which mass is equally distributed in all directions.
+Centre of gravity is a single point where the whole weight of an object appears to act.
+Stability of an object refers to the ability of the object to return to its original position when the force that changed its orientation is removed.
+Frictional force is the force that resists motion of objects on a surface.
+Terminal velocity is the maximum constant velocity that a body can achieve while passing through a resistive (viscous) medium.
+Centripetal force is the force that compels a body to travel a circular path. It may be electric, gravitational, or any other force.
+Orbital velocity is the speed of a an object revolving around another heavy object in an orbit.

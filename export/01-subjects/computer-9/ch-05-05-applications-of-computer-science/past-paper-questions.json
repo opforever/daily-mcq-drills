@@ -1,0 +1,915 @@
+[
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-artificial-intelligence-and-machine-learning",
+    "topicTitle": "5.1 Artificial Intelligence and Machine Learning",
+    "_id": "m17dwd4tet4pmanke3ptkbk1fs8e18w2",
+    "correctKey": "C",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Supervised machine learning trains a model on a known (labeled) dataset to make predictions.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Natural Language Processing"
+      },
+      {
+        "key": "B",
+        "text": "Expert system"
+      },
+      {
+        "key": "C",
+        "text": "Supervised Machine Learning"
+      },
+      {
+        "key": "D",
+        "text": "Unsupervised Machine Learning"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "I",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The process of taking a known data set as input to train the algorithm to create a model for prediction is known as:",
+    "topicId": "ms77r6bddvjamvn6nzracgc3yd8bt3sg"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-artificial-intelligence-and-machine-learning",
+    "topicTitle": "5.1 Artificial Intelligence and Machine Learning",
+    "_id": "m173x8863wq4cq49nv1v2kr65d8e07e6",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "AI simplifies daily tasks through virtual assistants, personalized recommendations, faster medical diagnosis, and automation of repetitive work, saving time and improving efficiency.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Briefly describe the positive impact of AI in our daily life.",
+    "topicId": "ms77r6bddvjamvn6nzracgc3yd8bt3sg"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-artificial-intelligence-and-machine-learning",
+    "topicTitle": "5.1 Artificial Intelligence and Machine Learning",
+    "_id": "m177h55kb426k5g3py81dxhhjd8e0mwa",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Supervised machine learning trains a model on labeled data (known input-output pairs) to make predictions, while unsupervised machine learning finds hidden patterns or groupings in unlabeled data without predefined outputs.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Differentiate between supervised and unsupervised machine learning.",
+    "topicId": "ms77r6bddvjamvn6nzracgc3yd8bt3sg"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-artificial-intelligence-and-machine-learning",
+    "topicTitle": "5.1 Artificial Intelligence and Machine Learning",
+    "_id": "m17e5zm54ta3d7642k4dgh77dd8e07dv",
+    "exerciseId": "xd70w90w6cmkf70snfrvpc5sy58e0c49",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "In education, AI personalizes learning paths, automates grading, and provides instant tutoring support to students.",
+      "In business, AI automates customer service through chatbots, analyzes data for better decisions, and improves efficiency in operations.",
+      "Both fields benefit from AI's ability to process large amounts of data quickly and act on patterns humans might miss."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In education, AI systems adapt learning to each student's needs, help teachers grade assignments and examinations, and help administrators schedule courses, analyse student data, and review applications. In business, AI supports day-to-day operations, customer service, marketing and e-commerce; it improves efficiency and productivity, supports accurate decisions, cybersecurity, smart pricing and automated recruitment, and can grow revenue.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Relate how AI can be beneficial in education and business.",
+    "topicId": "ms77r6bddvjamvn6nzracgc3yd8bt3sg"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-artificial-intelligence-and-machine-learning",
+    "topicTitle": "5.1 Artificial Intelligence and Machine Learning",
+    "_id": "m174bstaebgdnykz81t1mmgwq58e0bnk",
+    "exerciseId": "xd70w90w6cmkf70snfrvpc5sy58e0c49",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "In healthcare, AI helps diagnose diseases earlier from medical images and predicts patient risk from historical records.",
+      "In agriculture, AI-powered sensors and computer vision monitor soil, weather and crop health to guide irrigation and pest control decisions.",
+      "Both applications rely on machine learning to find patterns in large datasets that improve outcomes and efficiency."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In healthcare, AI assists diagnosis: microscopes can scan blood samples for harmful substances and bacteria, while ICU monitoring systems measure real-time heartbeat, blood pressure and temperature for doctors. Personalised AI interaction can also help patients manage care and reduce hospital visits. In agriculture, AI helps farmers use land efficiently, scan crop and livestock images for disease, monitor livestock with drones and computer vision, spray pesticides efficiently, and use driverless tractors and smart fertilisation to increase production.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Articulate how AI-based technology can improve healthcare and assist farmers increase crop production.",
+    "topicId": "ms77r6bddvjamvn6nzracgc3yd8bt3sg"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-artificial-intelligence-and-machine-learning",
+    "topicTitle": "5.1 Artificial Intelligence and Machine Learning",
+    "_id": "m1792yvk62q2b5nar4efjed9ys8e13p7",
+    "exerciseId": "xd70w90w6cmkf70snfrvpc5sy58e0c49",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Traditional algorithms follow fixed, explicitly programmed rules and always produce the same output for the same input.",
+      "AI-based (machine learning) algorithms learn patterns from data and can generalize to new situations, but their behavior depends on the training data's quality.",
+      "Criticism: if the training data is biased, incomplete, or unrepresentative, the AI algorithm can produce wrong or unfair results, unlike a correctly specified traditional algorithm."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A traditional algorithm follows an explicitly designed sequence of rules or a formula, so its operations can usually be inspected and reproduced. A machine-learning algorithm is trained from data to build a model and may be difficult to explain because it does not provide a proper breakdown of its decisions. It can therefore be inaccurate or biased when data or training is poor. Wrong outputs can lead to discrimination, accidents, harmful medical recommendations, cyberattacks, job losses, or people being wrongly detained; models require testing, monitoring, transparency and human oversight.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Compare traditional algorithms with AI-based algorithms that use machine learning. Criticize AI-based algorithms for producing wrong results, at times.",
+    "topicId": "ms77r6bddvjamvn6nzracgc3yd8bt3sg"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-artificial-intelligence-and-machine-learning",
+    "topicTitle": "5.1 Artificial Intelligence and Machine Learning",
+    "_id": "m174pnsrg828myxjq89x3httcd8e0nsy",
+    "exerciseId": "xd70w90w6cmkf70snfrvpc5sy58e0c49",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "AI can automate jobs, raising concerns about unemployment in certain industries.",
+      "Biased AI algorithms can reinforce unfair treatment of particular groups in hiring, lending, or law enforcement.",
+      "Widespread AI adoption also raises questions about privacy, surveillance and over-reliance on automated decision-making."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "AI algorithms can create social harms when they are biased, opaque or misused. They may discriminate by ethnicity, gender or age, make inaccurate healthcare or legal decisions, cause accidents, enable cyberattacks, replace jobs, reduce human creativity, and behave unpredictably. Personal data and automated decisions can also threaten privacy and trust. Developers should test for bias, provide transparency, protect data, retain human oversight, and design systems around moral values and public benefit.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Describe the social implications that AI algorithms may create in society.",
+    "topicId": "ms77r6bddvjamvn6nzracgc3yd8bt3sg"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m17b0m88dh9ym3pfdaajnzq2x98c70yw",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Microwave"
+      },
+      {
+        "key": "B",
+        "text": "Refrigerator"
+      },
+      {
+        "key": "C",
+        "text": "Bicycle"
+      },
+      {
+        "key": "D",
+        "text": "Chat bot"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Which is an example of AI very common?",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m17fvf83mfb6n2exb73px3ejd58c6qfb",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Speech recognition"
+      },
+      {
+        "key": "B",
+        "text": "Computer vision"
+      },
+      {
+        "key": "C",
+        "text": "NLP"
+      },
+      {
+        "key": "D",
+        "text": "Expert system"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "In which area of AI, facial recognition technology is commonly used?",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m17eg91snyfn5qc76evggcrs458e1hkn",
+    "correctKey": "D",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Computer Vision is the AI technology that extracts meaningful information from images and videos.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Image Recognition"
+      },
+      {
+        "key": "B",
+        "text": "Speech Recognition"
+      },
+      {
+        "key": "C",
+        "text": "Scanner"
+      },
+      {
+        "key": "D",
+        "text": "Computer Vision"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "ii",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The AI technology that enables computer systems to obtain meaningful information from digital images or videos is called:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m17d9q5109jqs8jjjkss4cqnt58e0nsj",
+    "correctKey": "B",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "A chatbot provides instant text/voice answers to website visitors' questions.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Robot"
+      },
+      {
+        "key": "B",
+        "text": "Chatbot"
+      },
+      {
+        "key": "C",
+        "text": "Cloud Computing"
+      },
+      {
+        "key": "D",
+        "text": "Expert System"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "iii",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Instant answers to website visitors' questions through text or voice interaction are provided by:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m174abn5pch8jwnyhpv644szwd8e17jw",
+    "correctKey": "C",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Grammarly is an AI tool specifically used to correct spelling and grammar mistakes.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "ChatGPT"
+      },
+      {
+        "key": "B",
+        "text": "Lovo ai"
+      },
+      {
+        "key": "C",
+        "text": "Grammarly"
+      },
+      {
+        "key": "D",
+        "text": "Virtual Assistant"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "v",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The AI tool used for correcting spelling and grammar mistakes is:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m178hmbfdj4npaxp0r3zz2h30x8e1ntj",
+    "correctKey": "A",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Siri is Apple's virtual assistant.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Siri"
+      },
+      {
+        "key": "B",
+        "text": "Alexa"
+      },
+      {
+        "key": "C",
+        "text": "Google Assistant"
+      },
+      {
+        "key": "D",
+        "text": "Cortana"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "vi",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Virtual assistant that belongs to Apple Inc. is:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m170vp0xxy0nq6wjnnnhq743g58e1typ",
+    "correctKey": "D",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Lovo ai is an AI tool used to convert text into speech.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "ChatGPT"
+      },
+      {
+        "key": "B",
+        "text": "Grammarly"
+      },
+      {
+        "key": "C",
+        "text": "Alexa"
+      },
+      {
+        "key": "D",
+        "text": "Lovo ai"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "vii",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The AI tool that converts text to speech is:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m170nnpwxesbdr2nj5pwy6vfch8e07e2",
+    "correctKey": "C",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Self-driving cars rely on Computer Vision to interpret their surroundings.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Natural Language Processing"
+      },
+      {
+        "key": "B",
+        "text": "Chatbot"
+      },
+      {
+        "key": "C",
+        "text": "Computer Vision"
+      },
+      {
+        "key": "D",
+        "text": "Virtual Assistant"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "viii",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The technology used in self-driving cars is called:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m178fp5480332gq8kprzg2gnqd8e1rn3",
+    "correctKey": "B",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Natural Language Processing (NLP) trains computers to understand and act on spoken/written language.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Virtual Assistant"
+      },
+      {
+        "key": "B",
+        "text": "Natural Language Processing"
+      },
+      {
+        "key": "C",
+        "text": "Language analysis"
+      },
+      {
+        "key": "D",
+        "text": "Virtual training"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "ix",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The technology concerned with training the computer to understand spoken and written words and to take action is known as:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m17cmhzp8s34bseq6hhzygw1m18e1b7v",
+    "correctKey": "C",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "Robotics uses computer-controlled machines to perform tasks with little or no human intervention.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Computer vision"
+      },
+      {
+        "key": "B",
+        "text": "Computer intelligence"
+      },
+      {
+        "key": "C",
+        "text": "Robotics"
+      },
+      {
+        "key": "D",
+        "text": "Virtual technology"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "x",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "The technology concerned with performing specific tasks with little or no human intervention using computer controlled machine is called:",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m173qn5w31rv8tknq9bevgr8x58e1dhn",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Computer vision lets machines interpret images and video, enabling automated tasks like quality inspection on factory lines, facial recognition for access control, and object detection in self-driving cars.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Describe how computer vision applications help in automation of tasks.",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m17d0hd5sdx1r4288fyrpzcwgd8e1y0h",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "NLP lets users interact with computers using natural, everyday human language (spoken or typed), while traditional computer/programming languages require precise, structured syntax that only follows strict rules the machine understands.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Compare the use of Natural Language Processing (NLP) with computer languages for interaction with computer.",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m17d72db3f3fs1ty04hz1dbspx8e1r5x",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A robot is a computer-controlled machine that performs physical tasks automatically with little or no human intervention. Four areas: warehouse package sorting, deep-sea exploration, space exploration, and household cleaning.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "What is a robot? Mention four areas where robots can replace humans that are not mentioned in this unit.",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m178nmk09k2f3yr7n15kq7c3nd8e1njx",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "No. Grammarly catches many spelling and grammar errors well, but it can miss context-specific meaning, tone, and factual errors that a human proofreader would catch, so it is a helpful aid rather than a perfect replacement.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Is the use of Grammarly AI tool a perfect replacement of manual proofreading?",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m1718etqmac6ys6atdb17cgd458e1dzv",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A wrong facial-recognition match can lead to innocent people being wrongly suspected, investigated, or even arrested, causing serious harm to their reputation, freedom, and trust in the justice system.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "What harm can be caused to people due to wrong identifications of AI-based facial recognition system during criminal investigation?",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m174dkx6kr4mrm9rytrxzryb4s8e1bs9",
+    "exerciseId": "xd78jn2c367sgkdbs4rr115wk58e07ac",
+    "exerciseTitle": "Exercise 5: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Misused personal data from virtual assistants can lead to privacy violations, identity theft, targeted manipulation through advertising, and a general erosion of public trust in AI-powered technology.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Describe the social implications that can arise due to misuse of personal information about people stored in computer systems who use Virtual Assistants.",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m172xtqj3jj2xgen8kysysyxjd8e0ryj",
+    "exerciseId": "xd70w90w6cmkf70snfrvpc5sy58e0c49",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "a) ChatGPT: risk of generating misinformation, enabling plagiarism/academic dishonesty, and reflecting biases present in its training data.",
+      "b) Lovo AI: risk of voice cloning misuse for impersonation or fraud, and unclear consent when synthesizing someone's voice.",
+      "c) Virtual Assistants: privacy concerns from constantly listening/collecting personal data, and potential misuse of that stored information."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "ChatGPT can produce misinformation, enable cheating and plagiarism, and raise bias, discrimination, privacy and security concerns. Lovo AI and other content-generating tools must protect personal data, use unbiased training data, explain their algorithms, and avoid copyright infringement or harmful generated content. Virtual assistants collect and process personal information and voice commands, so privacy, unauthorised access, secure data handling, transparency and responsible use must be ensured.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Describe the ethical issues in using the following AI tools: a) ChatGPT b) Lovo AI c) Virtual Assistants",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-2-different-areas-of-ai",
+    "topicTitle": "5.2 . Different Areas of Ai",
+    "_id": "m177nhfkc5kexp78vh97rga9vh8e1nfd",
+    "exerciseId": "xd70w90w6cmkf70snfrvpc5sy58e0c49",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "An expert system is an AI program that mimics the decision-making ability of a human expert in a specific domain, using a knowledge base and inference rules.",
+      "Development steps: identify the problem domain, acquire expert knowledge, represent that knowledge as rules/facts in a knowledge base, build the inference engine, and test/refine the system against real cases.",
+      "The result is a system that can answer questions or make recommendations the way a human expert would, within its specific domain."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An expert system is an interactive AI program designed to solve complex problems using knowledge and reasoning like a human expert in a specific area. Development starts by collecting sufficient knowledge from experts and building a knowledge database. When a user asks a question, the system gathers required information through a questionnaire. It then applies rules and reasoning to the knowledge base to interpret the information and find a solution, and finally provides that solution to the user.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "What are expert systems? Describe the steps required in the development of expert systems.",
+    "topicId": "ms70qmwemm0r2agx0qhwp7f5qn8btk94"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-4-cloud-computing",
+    "topicTitle": "5.4 Cloud Computing",
+    "_id": "m17byr31658wtzcw8k8py86sz98e0zd5",
+    "correctKey": "A",
+    "exerciseId": "xd77pfcw0vkd54hcgqzna02py98e0pn8",
+    "exerciseTitle": "Exercise 5: Multiple Choice Questions",
+    "explanation": "A private cloud's resources are owned by and dedicated to a single organization.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Private Cloud"
+      },
+      {
+        "key": "B",
+        "text": "Public Cloud"
+      },
+      {
+        "key": "C",
+        "text": "Hybrid Cloud"
+      },
+      {
+        "key": "D",
+        "text": "Remote Cloud"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "iv",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Cloud computing model in which resources are owned by and used inside a single organization is called:",
+    "topicId": "ms73dg8ye4y70cr07vg7e7fcgs8bv2mj"
+  },
+  {
+    "subjectSlug": "computer-9",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-4-cloud-computing",
+    "topicTitle": "5.4 Cloud Computing",
+    "_id": "m17azrnqkevk99kyjaprhj05fx8e08xb",
+    "exerciseId": "xd70w90w6cmkf70snfrvpc5sy58e0c49",
+    "exerciseTitle": "Exercise 5: Extended Response Questions",
+    "keyPoints": [
+      "Benefits: on-demand scalability, reduced hardware cost, remote access to data and applications from anywhere.",
+      "Public cloud: resources are shared and owned by a third-party provider, available to multiple organizations over the internet.",
+      "Private cloud: resources are owned by and dedicated exclusively to a single organization, offering more control and security."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Cloud computing delivers servers, storage, databases, networking and software over the Internet. It lets organisations access cloud applications and data from remote servers with any connected device, reducing the need for in-house processing. In a public cloud, a provider owns, operates and maintains shared resources delivered over the Internet. In a private cloud, resources are owned and used by one organisation, which operates and maintains the infrastructure and gains more control over its network and servers.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 5,
+      "subjectSlug": "computer-9"
+    },
+    "stem": "Describe the benefits of cloud computing. Differentiate between public and private clouds.",
+    "topicId": "ms73dg8ye4y70cr07vg7e7fcgs8bv2mj"
+  }
+]

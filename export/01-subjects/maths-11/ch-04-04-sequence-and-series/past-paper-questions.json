@@ -1,0 +1,4320 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-1",
+    "topicTitle": "4.1 Sequences and Their Terms",
+    "_id": "m176k4z9m43473f0hzknx3d7mn8c9txy",
+    "exerciseId": "xd7bfw9bk3mhv549y29zw79j618c9pyz",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Substitute the requested indices into each given nth-term formula.",
+      "Keep alternating signs consistent with the exponent.",
+      "Report first four terms, a10, and a15 for all ten sequences."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) 4, 7, 10, 13; a10 = 31, a15 = 46. (ii) 2, 5, 8, 11; a10 = 29, a15 = 44. (iii) 1/2, 2/3, 3/4, 4/5; a10 = 10/11, a15 = 15/16. (iv) 2, 5, 10, 17; a10 = 101, a15 = 226. (v) −1, 0, 3, 8; a10 = 80, a15 = 195. (vi) 0, 3/5, 1/2, 15/17; a10 = 99/101, a15 = 112/113. (vii) 1, −1/2, 1/4, −1/8; a10 = −1/512, a15 = 1/16384. (viii) −1, 4, −9, 16; a10 = −100, a15 = −225. (ix) −4, 5, −6, 7; a10 = −13, a15 = −18. (x) −2, −1, 4, −7; a10 = −25, a15 = 40.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "page": 118,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "In each of the following, the nth term of the sequence is given. In each case find the first 4 terms; the 10 th term, $a_{10}$ and the 15 th term, $a_{15}$.\n(i) $a_{n}=3 n+1$\n(ii) $a_{n}=3 n-1$\n(iii) $a_{n}=\\frac{n}{n+1}$\n(iv) $a_{n}=n^{2}+1$\n(v) $a_{n}=n^{2}-2 n$\n(vi) $a_{n}=\\frac{n^{2}-1}{n^{2}+1}$\n(vii) $a_{n}=\\left(\\frac{-1}{2}\\right)^{n-1}$\n(viii) $a_{n}=(-1)^{n} n^{2}$\n(ix) $a_{n}=(-1)^{n}(n+3)$\n(x) $\\quad a_{n}=(-1)^{n+1}(3 n-5)$",
+    "topicId": "ms7ed5tc45k6qhv23y6pg54x8n85q3b6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-1",
+    "topicTitle": "4.1 Sequences and Their Terms",
+    "_id": "m1711vtzrb1exq4qmr52erqwqh8c8dm6",
+    "exerciseId": "xd7bfw9bk3mhv549y29zw79j618c9pyz",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "(i) a8=29; (ii) a9=56; (iii) a7=225; (iv) a12=-23.5; (v) a22=528528; (vi) a20=441/400; (vii) a43=43; (viii) a67=67."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$(i) a_8=29$; $(ii) a_9=56$; $(iii) a_7=225$; $(iv) a_{12}=-23.5$; $(v) a_{22}=528528$; $(vi) a_{20}=441/400$; $(vii) log(10^{43})=43$; $(viii) ln(e^{67})=67$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "page": 118,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the indicated term of the sequence\n(i) $a_{n}=4 n-3 ; a_{8}$\n(ii) $a_{n}=5 n+11 ; a_{9}$\n(iii) $a_{n}=(3 n+4)(2 n-5) ; a_{7}$\n(iv) $a_{n}=(-1)^{n-1}(3.4 n-17.3) ; a_{12}$\n(v) $a_{n}=4 n^{2}(11 n+31) ; a_{22}$\n(vi) $a_{n}=\\left(1+\\frac{1}{n}\\right)^{2} ; a_{20}$\n(vii) $a_{n}=\\log 10^{n} ; a_{43}$\n(viii) $a_{n}=\\ln e^{n} ; a_{67}$",
+    "topicId": "ms7ed5tc45k6qhv23y6pg54x8n85q3b6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-1",
+    "topicTitle": "4.1 Sequences and Their Terms",
+    "_id": "m17dtfrcseh11z4gjdpddnpxs18c90r4",
+    "exerciseId": "xd7bfw9bk3mhv549y29zw79j618c9pyz",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "(i) a_n=2n-1; (ii) a_n=3^n; (iii) a_n=√(2n); (iv) a_n=n+0.2."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Identify each pattern: (i) odd positive integers gives $a_n=2n-1$. (ii) powers of 3 gives $a_n=3^n$. (iii) square roots of successive even integers gives $a_n=sqrt{2n}$. (iv) $1.2,2.3,3.4,4.5$ gives $a_n=n+0.2$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "page": 118,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Predict the general term or nth term, $a_{n}$, of the sequence.\n(i) $1,3,5,7,9, \\ldots$\n(ii) $3,9,27,81,243, \\ldots$\n(iii) $\\sqrt{2}, \\sqrt{4}, \\sqrt{6}, \\sqrt{8}, \\sqrt{10}, \\ldots$\n(iv) 1.2, 2.3, 3.4, 4.5,...",
+    "topicId": "ms7ed5tc45k6qhv23y6pg54x8n85q3b6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m17f6mcdqtbkgphngvr5wqbsq58c8mpe",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The first four terms are: (i) $4,7,10,13$; (ii) $7,12,17,22$; (iii) $16,14,12,10$; (iv) $38,34,30,26$; (v) $\\frac34,1,\\frac54,\\frac32$; (vi) $\\frac38,1,\\frac{13}{8},\\frac94$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the first four terms of each arithmetic sequence.\n(i) $a_{1}=4, d=3$\n(ii) $a_{1}=7, d=5$\n(iii) $a_{1}=16, d=-2$\n(iv) $a_{1}=38, d=-4$\n(v) $a_{1}=\\frac{3}{4}, d=\\frac{1}{4}$\n(vi) $a_{1}=\\frac{3}{8}, d=\\frac{5}{8}$",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m1722r5jvzpcjmkp55pej9xjc98c8jg1",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "The arithmetic series sums to 116."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This is an arithmetic series with n=8, first term a1=4, and last term a8=25. Therefore S8=n(a1+an)/2=8(4+25)/2=116.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the next three terms of each arithmetic sequence.\n(i) $5,9,13, \\ldots$\n(ii) $11,14,17, \\ldots$\n(iii) $\\frac{1}{2}, \\frac{3}{2}, \\frac{5}{2}, \\ldots$\n(iv) $0.07,0.12,0.17, \\ldots$",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m17dw0spg4b7993vq7r2q1ft798c9m58",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "With a_1=2, a_n=200, and n=100, d=(200-2)/99=2."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "S100 = 10100.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the 11th term of the arithmetic sequence $0.07,0.12,0.17, \\ldots$",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m17428ygbqhq6ecqdh7s6g8v6s8c96bm",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "d=(a_n-a_1)/(n-1)=(100-5)/199=95/199."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "S200 = 10500.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "The third term of an arithmetic sequence is 14 and the ninth term is -1 . Find the first four terms of the sequence.",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m177sz6hzrb17y5ym3dge858fn8c9vxz",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "a_n=a_1+(n-1)d=4+14(3)=46."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The last term is a15=4+14(3)=46. Hence S15=15(4+46)/2=375.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find an arithmetic sequence for $a_{17}=-40$ and $a_{28}=-73$, find $a_{1}$ and $d$. Write first five terms of the sequence.",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m17dj4wkk21mbm39d388a55bj58c89zy",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "a_n=a_1+(n-1)d=50+19(-4)=-26."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The last term is a20=50+19(−4)=−26. Therefore S20=20(50−26)/2=240.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "The fifth term of an arithmetic sequence is 19 and 11th term is 43. Find the first term and 87th term.",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m17756yce68ne80c4g6es0g5058c815y",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "The series has a_1=-3, d=-4, and n=10, so a_10=-39 and S_10=10(-3-39)/2=-210."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This arithmetic series has a1=−3, d=−4, and a10=−3+9(−4)=−39. Hence S10=10(−3−39)/2=−210.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Which term of the sequence $-6,-2,2, \\ldots$ is $70 ? \\cdot 8$. Which term of the sequence $\\frac{5}{2}, \\frac{3}{2}, \\frac{1}{2}$ is $-\\frac{105}{2}$ ?",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m1724y9hvxdpc3kmrx2606b3s58c9808",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "The arithmetic sequence has n=12 and last term 31, so S_12=12(9+31)/2=240."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This arithmetic series has a1=9, d=2, n=12, so a12=9+11·2=31. Hence S12=12(9+31)/2=240.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If $\\frac{1}{a}, b, \\frac{1}{c}$ are in A.P. Show that the common difference is $\\frac{a-c}{2 a c}$.",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m1783fks74f66rrdmr72kekkds8c8q63",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "The even numbers from 2 to 100 form 50 terms; their sum is 50(2+100)/2=2550."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The even numbers from 2 to 100 form an arithmetic series with n=50, a1=2, and a50=100. Thus S50=50(2+100)/2=2550.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "During a free fall, a sky diver falls 16 feet in the first second, 48 feet in the 2nd second and 80 feet in the third second. If he continues to fall at this rate, how many feet will he fall during the 8th second?",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m1762tcpb40q2mqvm733dmyt0s8c9jqz",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "The odd numbers from 1 to 99 form 50 terms; their sum is 50(1+99)/2=2500."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The odd numbers from 1 to 99 form an arithmetic series with n=50, a1=1, and a50=99. Thus S50=50(1+99)/2=2500.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "If Rs. 1000 is saved on August 1, Rs. 3000 on August 2, Rs. 5000 on August 3 and so on. How much is saved till August 20?",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m17cty4e7vyd4895jcskmz30rx8c9jmv",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "The multiples are 16 through 520, giving 127 terms. Their sum is 127(16+520)/2 = 34,036."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The multiples are 16,20,…,520. There are n=(520−16)/4+1=127 terms, so their sum is 127(16+520)/2=34036.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A gardener is making a triangular planting, with 35 plants in the first row, 31 in the second row, 27 in the third row and so on. If the pattern is consistent, how many plants will there be in the eighth row?",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m178xca94cxyv1jkq7r5dvz3th8c8mzz",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "For a1=3, an=−38, n=8, the arithmetic-series sum is Sn=n(a1+an)/2=8(3−38)/2=−140."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "S8 = −140.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find A.M. between\n(i) 7 and 17\n(ii) $3+3 \\sqrt{2}$ and $7-3 \\sqrt{2}$\n(iii) $7 \\sqrt{5}$ and $\\sqrt{5}$\n(iv) $2 y+5$ and $5 y+3$",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m173ffmxc2d6savkwt6jbghkc18c818e",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "For a1=85, an=25, n=21, the arithmetic-series sum is Sn=21(85+25)/2=1155."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "S21 = 1155.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find ' $b$ ' if 10 is A.M between $b$ and 20.",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m170gc2qnjrvrt5d3pxxgv0e7h8c89a2",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "keyPoints": [
+      "For a1=34, an=2, n=9, the arithmetic-series sum is Sn=9(34+2)/2=162."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "S9 = 162.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find $x$ and $y$ if 2 and 13 are two arithmetic means between $x$ and $y$.",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-2",
+    "topicTitle": "4.2 Arithmetic Sequence and General Term",
+    "_id": "m17686zrrfen6zhr367587xmjs8c91ny",
+    "exerciseId": "xd7ek4pbf7p8xpeq6ypa8g2h318ctvy1",
+    "exerciseTitle": "Exercise 4.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For 5 and 17, the common difference is $(17-5)/3=4$, so the two arithmetic means are $9$ and $13$. For 2 and $-18$, the common difference is $(-18-2)/4=-5$, so the three arithmetic means are $-3,-8,-13$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the two arithmetic means between 5 and 17. 17. Find three arithmetic means between 2 and -18 .",
+    "topicId": "ms70f43qcwkwyp7n7m98w8bkmn85pvaj"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m171tjzg4kjep1e2zcmkgzxey18c938j",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Arithmetic-series formula applied to items 1-26",
+      "Item 14 is explicitly held for source verification",
+      "Item 25 preserves the literal Rs.70,000 wording and flags the likely source ambiguity",
+      "Existing partial item-15 answer is expanded to the full exercise set"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Use $S_n=n(a_1+a_n)/2$ and $a_n=a_1+(n-1)d$.\n\n1-10: 116, 10100, 10500, 375, 240, -210, 240, 2550, 2500, and 34036 respectively.\n\n11-16: $S_8=-140$; $S_{21}=1155$; $S_9=162$; item 14 is source-ambiguous because the printed data reads $n-13$ without an equality or complete value, so no unique sum is asserted; item 15 gives $n=20$ and $S_n=1060$; item 16 gives $a_1=59$ and $S_9=387$.\n\n17-19: 816, 162, and -220 respectively.\n\n20-22 first three terms: (7,19,31), (1,5,9), and (6,36,66) respectively.\n\n23: last row 62 marchers and total 950. 24: 1260 poles. 25: taking the printed second-year saving literally as Rs.70,000 gives $d=Rs.64,000$ and total Rs.12,280,000; verify the source because a typographical Rs.7,000 would produce a different result. 26: 38,750 rupees.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the sum of each series (1-7).\n\n1. $4+7+10+13+16+19+22+25$\n2. $a_{1}=2, a_{n}=200, n=100$\n3. $a_{1}=5, a_{n}=100, n=200$\n4. $a_{1}=4, n=15, d=3$\n5. $a_{1}=50, n=20, d=-4$\n6. $-3+(-7)+(-11)+\\ldots \\ldots . .+a_{10}$\n7. $9+11+13+15+\\ldots \\ldots \\ldots$. for $n=12$\n8. Find the sum of the even numbers from 2 to 100.\n9. Find the sum of the odd numbers from 1 to 99.\n10. Find the sum of all multiples of 4 that are between 14 and 523.\n\nFind $\\boldsymbol{S}_{\\boldsymbol{n}}$ for each arithmetic series.\n11. $a_{1}=3, a_{n}=-38, n=8$\n12. $a_{1}=85, n=21, a_{n}=25$\n13. $a_{1}=34, n=9, a_{n}=2$\n14. $a_{1}=5, d=\\frac{1}{2}, n-13$\n15. $a_{1}=91, d=-4, a_{n}=15$\n16. $d=-4, n=9, a_{n}=27$\n\nFind sum of the arithmetic series.\n17. $6+12+18+\\ldots+96$\n18. $34+30+26+\\ldots+2$\n19. $10+4+(-2)+\\ldots+(-50)$\n\nFind the first three terms of each arithmetic series.\n20. $a_{1}=7, a_{n}=139, S_{n}=876$\n21. $n=14, a_{n}=53, S_{n}=378$\n22. $a_{1}=6, a_{n}=306, S_{n}=1716$\n\n23. A formation of a marching band has 14 marches in the front row, 16 in the second row, 18 in the third row and so on, for 25 rows. How many marchers are in the last row? How many marchers are there altogether?\n\n24. How many poles will be in a pile of telephone poles if there are 50 in the first layer, 49 in the second and so on, until there are 6 in the last layer?\n25. A family saves money in an arithmetic sequence: Rs. 6000 in the first year, Rs. 70,000 in second year and so on, for 20 years. How much do they save in all?\n26. Mr. Saleem saves Rs. 500 on October 1, Rs. 550 on October 2, and Rs. 600 on October 3 and so on. How much is saved during October? (October has 31 days)",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17a4f56ccwyh91me5srmn68gs8c9wng",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "For d=−4, n=9, an=27, the first term is a1=59 and the arithmetic-series sum is Sn=9(59+27)/2=387."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This is an arithmetic series with $n=8$, first term $4$, and last term $25$. Therefore $S_8=\\frac{8(4+25)}2=116$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$4+7+10+13+16+19+22+25$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17cchpk1qmbhwyw9xtkpec0398c8bzs",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The arithmetic-series sum is 816."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common difference is $6$ and the last term is $96$, so there are $16$ terms. Thus $S_{16}=\\frac{16}{2}(6+96)=816$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=2, a_{n}=200, n=100$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m170rfjr54w4fjttfsccxrzfmd8c92gy",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The arithmetic-series sum is 162."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common difference is $-4$ and the last term is $2$, so there are $9$ terms. Thus $S_9=\\frac{9}{2}(34+2)=162$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=5, a_{n}=100, n=200$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17ek1qkx0fmgxj34s8bt65f4s8c9325",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The arithmetic-series sum is −220."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common difference is $-6$ and the last term is $-50$, so there are $11$ terms. Thus $S_{11}=\\frac{11}{2}(10-50)=-220$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=4, n=15, d=3$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m175d5k1925hcj6ny3rcmhsk958c9gmb",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "n=12, d=12; first three terms 7, 19, 31"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $S_n=\\frac{n}{2}(a_1+a_n)$ gives $876=\\frac{n}{2}(7+139)=73n$, so $n=12$. Then $d=\\frac{139-7}{12-1}=12$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=50, n=20, d=-4$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17eem8195rhqf3a72hg8c7ryx8c8d2d",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "a1=1, d=4; first three terms 1, 5, 9"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $S_n=\\frac{n}{2}(a_1+a_n)$ gives $378=7(a_1+53)$, so $a_1=1$. Therefore $d=\\frac{53-1}{13}=4$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$-3+(-7)+(-11)+\\ldots \\ldots . .+a_{10}$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m179evc7pn9hjt2q3tp0c0dzms8c98r9",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "n=11, d=30; first three terms 6, 36, 66"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $S_n=\\frac{n}{2}(a_1+a_n)$ gives $1716=156n$, so $n=11$. Therefore $d=\\frac{306-6}{10}=30$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$9+11+13+15+\\ldots \\ldots \\ldots$. for $n=12$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m1778y4174xvb0cx45fkhhtass8c8kcd",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The last row has 62 marchers: 14+(25−1)·2=62. The total is 25(14+62)/2=950 marchers."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The even numbers from 2 to 100 form an arithmetic series with 50 terms, so S=50(2+100)/2=2550.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the sum of the even numbers from 2 to 100.",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17b3afm9kcp7v2w3hmg8p9dq58c9t2h",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The layers form 50,49,…,6: there are 45 layers and the total is 45(50+6)/2=1260 poles."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The odd numbers from 1 to 99 form an arithmetic series with 50 terms, so S=50(1+99)/2=2500.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the sum of the odd numbers from 1 to 99.",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m172ykzzj1bv9r8breyxsm5n158c9w0c",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The multiples of 4 between 14 and 523 are 16,20,…,520: 127 terms, sum=127(16+520)/2=34036.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the sum of all multiples of 4 that are between 14 and 523.",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17636crnka5mpv87tjk1p0jt98c803j",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The daily savings form an arithmetic sequence with a1=500, d=50, n=31; the last day is 2000 and the October total is 31(500+2000)/2 = Rs. 38,750."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Here a₁=3, a₈=−38, n=8, so S₈=8(3−38)/2=−140.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=3, a_{n}=-38, n=8$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17a1agxxjytxck2xz9nf0p3a58c90z6",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Here a₁=85, a₂₁=25, n=21, so S₂₁=21(85+25)/2=1155.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=85, n=21, a_{n}=25$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m176s7x71d5htyta3ywf588t618c9848",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Each term is multiplied by 4, so the sequence is geometric with common ratio r=4."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each term is multiplied by 4, so this is geometric with first term 5 and common ratio 4. Hence $a_n=5cdot4^{n-1}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=34, n=9, a_{n}=2$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17fb6s72ewe3mpz3cvk57bb0n8c99zq",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Identify common difference 2.",
+      "Use a_n=a_1+(n−1)d.",
+      "Obtain a_n=2n."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$a_n=2n$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=5, d=\\frac{1}{2}, n-13$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17case2hefaracxy6309z6y158c9svc",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Compute the common ratio 3/2.",
+      "Apply a_n=ar^{n−1}.",
+      "Simplify to (3/2)^n."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$a_n=(3/2)^n$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=91, d=-4, a_{n}=15$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17b280f3v9vs9qvkg134hdmc18c8pe4",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Identify a1=7 and d=7.",
+      "Apply a_n=a1+(n−1)d.",
+      "Simplify to a_n=7n."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$a_n=7n$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$d=-4, n=9, a_{n}=27$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m175tm9p4b4mybjtp5egxzre3h8c9ve4",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The series has a₁=6, d=6, a₁₆=96, so S₁₆=16(6+96)/2=816.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "17",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$6+12+18+\\ldots+96$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m177jjct4yprw29160q4wmqjph8c93px",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The series has a₁=34, d=−4, a₉=2, so S₉=9(34+2)/2=162.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "18",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$34+30+26+\\ldots+2$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m1785vxb6d0n6pbtr20gf56nmh8c838t",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The series has a₁=10, d=−6, a₁₁=−50, so S₁₁=11(10−50)/2=−220.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "19",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$10+4+(-2)+\\ldots+(-50)$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m179vxaas8ym8xx2rdjf6f1eah8c86ph",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The sequence is geometric.",
+      "Its common ratio is $\\frac{1}{3}$.",
+      "The next two terms are $\\frac{10}{3}$ and $\\frac{10}{9}$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common ratio is $\\frac{1}{3}$. The next two terms are $\\frac{10}{3}$ and $\\frac{10}{9}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "20",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=7, a_{n}=139, S_{n}=876$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17fa7yhqg49mzj6cazds0evns8c83xj",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The sequence is geometric.",
+      "Its common ratio is $3$.",
+      "The next two terms are $54$ and $162$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common ratio is $3$. The next two terms are $54$ and $162$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "21",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$n=14, a_{n}=53, S_{n}=378$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17360m1zpq41wqexkcvec3rz98c988r",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "30/20=45/30=3/2, so the sequence is geometric with common ratio r=3/2."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common ratio is $\\frac{3}{2}$. The next two terms are $\\frac{135}{2}$ and $\\frac{405}{4}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "22",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=6, a_{n}=306, S_{n}=1716$",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m178s94swxea1jkrykwzqadgtn8c81kg",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "243/729=81/243=1/3, so the sequence is geometric with common ratio r=1/3."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common ratio is $\\frac{1}{3}$. The next two terms are $27$ and $9$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "23",
+    "sourceRef": {
+      "blockIndex": 10,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A formation of a marching band has 14 marches in the front row, 16 in the second row, 18 in the third row and so on, for 25 rows. How many marchers are in the last row? How many marchers are there altogether?",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m17awvq1b0aebrym0h1qb8nqkd8c9dwd",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "(1/9)/(1/27)=3 and (1/3)/(1/9)=3, so the sequence is geometric with common ratio r=3."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common ratio is $3$. The next two terms are $1$ and $3$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "24",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "How many poles will be in a pile of telephone poles if there are 50 in the first layer, 49 in the second and so on, until there are 6 in the last layer?",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m1778wzqtc2550hgn4djv6gtch8c9h1b",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "The ratios are 2, so the sequence is geometric with r=2."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common ratio is $2$. The next two terms are $2$ and $4$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "25",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A family saves money in an arithmetic sequence: Rs. 6000 in the first year, Rs. 70,000 in second year and so on, for 20 years. How much do they save in all?",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-3",
+    "topicTitle": "4.3 Arithmetic Series and Sum",
+    "_id": "m175887gv1k91x3jppz3f6gvkx8c967v",
+    "exerciseId": "xd73h28k91nsgaaz4kfdv1nhk58c98tv",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "a_3=a_1 r^2=4(5^2)=100."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $a_n=a_1r^{n-1}$, $a_3=4(5)^2=100$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "26",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Mr. Saleem saves Rs. 500 on October 1, Rs. 550 on October 2, and Rs. 600 on October 3 and so on. How much is saved during October? (October has 31 days)",
+    "topicId": "ms7abjvwmq02jpp67hkzs2tfrs85py2e"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m173rp212mnt1xvv4rvypnzcfs8c8cj6",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "a_5=a_1 r^4=2(2^4)=32."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $a_n=a_1r^{n-1}$, $a_5=2(2)^4=32$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Determine whether each sequence is geometric. If so, find the common ratio.",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17fn6jh9w6f20awqhyprv5k6x8c92vt",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "a_4=a_1 r^3=7(2^3)=56."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $a_n=a_1r^{n-1}$, $a_4=7(2)^3=56$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$5,20,100,500, \\ldots$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m178se7p23p9zan7tap6d31eyx8c9f87",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "a_5=a_1 r^4=243(-1/3)^4=3."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $a_n=a_1r^{n-1}$, $a_5=243(-\\frac{1}{3})^4=3$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$2,4,6,8, \\ldots$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17ffggzahxsn1qhsqtw9be6p18c8rz9",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The geometric-term formula is $a_n=a_1r^{n-1}$.",
+      "The odd exponent makes the result negative.",
+      "The sixth term is $-1$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $a_n=a_1r^{n-1}$, $a_6=32(-\\frac{1}{2})^5=-1$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{3}{2}, \\frac{9}{4}, \\frac{27}{8}, \\frac{81}{16}, \\ldots$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m178m7bbzb2vffhr0bh6ch2h5x8c93qn",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The geometric-term formula is $a_n=a_1r^{n-1}$.",
+      "Substituting the printed values gives $a_8=\\frac{1}{8}$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $a_n=a_1r^{n-1}$, $a_8=16(\\frac{1}{2})^7=\\frac{1}{8}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "7, 14, 21, 28,...",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17bbn1p5f3zsqbm1qrv7eqvps8c873g",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The common ratio is $2$.",
+      "The sequence is $3,6,12,24,48$.",
+      "The missing terms are $6$, $12$, and $24$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking the positive common ratio, $3r^4=48$ gives $r=2$. The missing geometric means are $6$, $12$, and $24$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=3, r=-2$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17bb4ma03334prqz3gbbhg9n98c8gs5",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The common ratio is $2$.",
+      "The sequence is $1,2,4,8$.",
+      "The missing terms are $2$ and $4$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since $r^3=8$, the positive common ratio is $r=2$. The missing terms are $2$ and $4$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=27, r=-\\frac{1}{3}$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m175k95krn7775m8bgsvvqwk0d8c85v9",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "12, 6, 3, 3/2.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 15,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=12, r=\\frac{1}{2}$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17fzna9qw3xpt5ahq0v8qascd8c9vft",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The common ratio is $5$.",
+      "The sequence is $3,15,75$.",
+      "The missing term is $15$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For three terms, $3r^2=75$, so the positive common ratio is $r=5$. The missing geometric mean is $15$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "90, 30, 10...",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m176aa88j0a13kmfbw56gg5pex8c9t1j",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The common ratio is $2$.",
+      "The sequence is $5,10,20,40,80$.",
+      "The missing terms are $10$, $20$, and $40$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since $5r^4=80$, the positive common ratio is $r=2$. The missing terms are $10$, $20$, and $40$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "2, 6, 18...",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17fq3trtrggyzjxe1b1v5yya18c8vep",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The common ratio is $2$.",
+      "The sequence is $7,14,28,56,112$.",
+      "The missing terms are $14$, $28$, and $56$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Since $7r^4=112$, the positive common ratio is $r=2$. The missing terms are $14$, $28$, and $56$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "20, 30, 45...",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m1796kx8fejxsjrw8gzwb56gws8c80bs",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The rebound ratio is $\\frac{1}{4}$.",
+      "The initial height is $16$ ft.",
+      "The sixth rebound height is $\\frac{1}{256}$ ft."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each rebound height is one-fourth of the preceding height. Starting from $16$ ft, the sixth rebound is $16(\\frac{1}{4})^6=\\frac{1}{256}$ ft.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "729, 243, 81...",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m175yx5t6rq0a4jexnfj7296ns8c893b",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The population after 15 years is 100,000(1.03)^15 = 155,796.7417, approximately 155,797 people."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The population follows a geometric sequence with initial population $100000$ and growth factor $1.03$. After $15$ years, the population is $100000(1.03)^{15}approx 155796$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{27}, \\frac{1}{9}, \\frac{1}{3} \\ldots$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17dqwe8thpxjc7sxpzh7367f98c8sdy",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The sixth ground impact occurs after the initial 556-ft fall and five rebound cycles. Total travel is 556+2[556(3/4)+556(3/4)^2+…+556(3/4)^5] = 3100.3515625 ft, approximately 3100.35 ft."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The common ratio is 2, so the next two terms are 2 and 4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{4}, \\frac{1}{2}, 1 \\ldots$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m170ssb12bwsgfg4kzx6qry35x8c84jh",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The staff count is 1+2+4+8+16+32+64=127 people, counting the principal and six rounds of calls."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The numbers informed in the successive rounds are $2,2^2,ldots,2^6$. Including the principal, the total staff is $1+2+4+8+16+32+64=127$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=4, n=3, r=5$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17adk3bwsbzcj9y6s6qk02ngx8c9wb6",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The daily rises are 1, 3, 9, 27, and 81 inches; the total rise after 5 days is 121 inches."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The daily rises form a geometric series with first term $1$ inch, common ratio $3$, and $5$ terms. Therefore, the total rise is $S_5=\\frac{1(3^5-1)}{3-1}=\\frac{242}{2}=121$ inches.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=2, n=5, r=2$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17c6k65scke086z7fswb44mh18c8hex",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=7, n=4, r=2$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m177pbqx4tr321ya1ymk9pyp318c8df9",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Recognize the constant-term series.",
+      "Count 11 terms.",
+      "The sum is 176."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "All 11 terms are 16, so the sum is S11=11·16=176.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "17",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=243, n=5, r=-\\frac{1}{3}$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m1766mmxzs6e1cmkrwkzfj5jys8c8620",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Identify ratio 1/5.",
+      "Apply the finite geometric-series sum formula.",
+      "The ten-term sum is approximately 93.75."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This is geometric with a=75, r=1/5, n=10. Thus S10=75[1−(1/5)^10]/(1−1/5)=93.7499904, approximately 93.75.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "18",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=32, n=6, r=-\\frac{1}{2}$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m177yjv8pnt264kynwy1y5gt318c8rgf",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "For a_1=5, r=3, n=12, S_12=a_1(r^n-1)/(r-1)=5(3^12-1)/2=1,328,600."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a=5, r=3, n=12, S12=a(r^n−1)/(r−1)=5(3^12−1)/2=1328600.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "19",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=16, n=8, r=\\frac{1}{2}$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m1748zh6hgh1ja2k36pkgdkgbn8c8bc2",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "For a_1=256, r=0.75=3/4, n=9, S_9=256(1-(3/4)^9)/(1-3/4)=242461/256=947.11328125."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a=256, r=0.75, n=9, S9=256[1−(0.75)^9]/(1−0.75)=947.11328125, approximately 947.1133.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "20",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "3, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, 48",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17dr1krkzxmtqzssyj5ddrs5x8c8rwn",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Use the finite geometric-series formula.",
+      "Substitute a=7, r=2, n=14.",
+      "The sum is 114681."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a=7, r=2, n=14, S14=7(2^14−1)/(2−1)=114681.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "21",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "1, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, 8",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17d06zh7bgs7jjmb4a470ccfh8c9rtb",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Use n=5 from the supplied fifth term.",
+      "Apply the finite geometric-series formula with r=−3.",
+      "The sum is 732."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With a1=12, r=−3, and n=5, the finite geometric sum is S5=12[1−(−3)^5]/[1−(−3)]=12(244)/4=732. (Indeed a5=12(−3)^4=972.)",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "22",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "8, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$,$\\frac{1}{4}$",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m176hnwz6v60kgy6707fv9y6dh8c944h",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Use the finite geometric-series formula.",
+      "Track the even-power sign in r^10.",
+      "The sum is 10.65625."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a=16, r=−1/2, n=10, S10=16[1−(−1/2)^10]/[1−(−1/2)]=10.65625.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "23",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "3, $\\_\\_\\_\\_$, 75",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m1796yfjc6ez7adw7wrtkvp6ad8c8xj1",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Use the finite geometric-series formula.",
+      "Track the odd-power negative sign.",
+      "The sum is 165."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a=243, r=−2/3, n=5, S5=243[1−(−2/3)^5]/[1+2/3]=165.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "24",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "5, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, 80",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m1797thgza1erhhe1ah1z977fn8c8qjz",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Use the supplied ratio and fourth term.",
+      "List the four terms to verify the data.",
+      "The sum is 300."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The fourth term confirms 343(−1/7)^3=−1. The four-term sum is S4=343[1−(−1/7)^4]/[1+1/7]=343−49+7−1=300.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "25",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "7, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, $\\_\\_\\_\\_$, 112",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17efx657xp6230r2y0c9dvjqd8c84be",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "Use a6/a3=r^3 to determine the real ratio.",
+      "Take r=1/2 for the real geometric sequence.",
+      "Back-substitute to obtain a1=3."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$a_1=3$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "26",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A Ping-Pong ball is dropped from a height of $16 f t$ and always rebounds one-fourth of the distance fallen. How high does it rebound the 6th time?",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m172thpj2fmz6fk2sc7vphqr7d8c9s3w",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "a_1=S_n(r-1)/(r^n-1)=244(-4)/((-3)^5-1)=4."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "a1 = 4.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "27",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A city has a current population of 100,000 and the population is increasing by $3 \\%$ each year. What will the population be in $15^{\\text {th }}$ years?",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m176x7nbwaca5y2nkdxgb1tt9n8c8tyg",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "S_6=a_1(2^6-1)/(2-1), so a_1=32/63."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "a1 = 32/63.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "28",
+    "sourceRef": {
+      "blockIndex": 20,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A super ball dropped from the top of the tower ( $556 f t$ high) always rebounds three-fourths of the distance fallen. How far (up and down) will the ball have travelled when it hits the ground for the 6th time?",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m176g0jhr5ww0j7htf1aag8h2n8c94bc",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "With r=3 and a_n=324, the sum S_n=484 is satisfied by n=5 and a_1=4: a_5=4(3^4)=324 and S_5=4(3^5-1)/(3-1)=484."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "From $a_n=a_1r^{n-1}$ and $S_n=a_1(r^n-1)/(r-1)$, $a_1=4$ and $n=5$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "29",
+    "sourceRef": {
+      "blockIndex": 20,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "The teaching staff of high school informs its members of school cancellation by telephone. The principal calls 2 teachers, each of whom in turn calls 2 other teachers, and so on. In order to inform the entire staff, 6 rounds of calls are made. Counting the principal, find how many people are in staff at high school?",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-4",
+    "topicTitle": "4.4 Geometric Sequence and Common Ratio",
+    "_id": "m17ap5k1p29sg31enfk7jvae7n8c8erm",
+    "exerciseId": "xd77rh7zgd1qrba4ed8wt3cfth8c9g51",
+    "exerciseTitle": "Exercise 4.4",
+    "keyPoints": [
+      "The repeating decimals convert to fractions as follows: (i) 0.444...=4/9; (ii) 9.999...=10; (iii) 0.555...=5/9; (iv) 0.666...=2/3; (v) 0.151515...=15/99=5/33; (vi) 0.121212...=12/99=4/33."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The daily rises are $1,3,9,27,81$ inches, a geometric series. Total rise after 5 days is $1+3+9+27+81=121$ inches.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "30",
+    "sourceRef": {
+      "blockIndex": 20,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A 5-day rain caused the river to rise. After the first day, the river rose one inch. Each day the rise in the river tripled. How much had the river risen after 5 days?",
+    "topicId": "ms72kg74wpre4ff6fea9r49dch85pmzd"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m17etcd13p87r9nyh5xbweda7x85pj1h",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For an infinite geometric series with sum $S = 10$ and common ratio $r = 0.6$, we use the formula $S = \\frac{a}{1-r}$ where $a$ is the first term. Substituting: $10 = \\frac{a}{1-0.6} = \\frac{a}{0.4}$, so $a = 10 \\times 0.4 = 4$. The first term is $4$.",
+    "keyPoints": [
+      "Correctly identifies the infinite geometric series sum formula $S = \\frac{a}{1-r}$",
+      "Substitutes given values: $S = 10$ and $r = 0.6$",
+      "Solves for first term: $a = S(1-r) = 10(0.4) = 4$",
+      "Arrives at correct answer: first term is $4$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For an infinite geometric series with sum $S = 10$ and common ratio $r = 0.6$, we use the formula $S = \\frac{a}{1-r}$ where $a$ is the first term. Substituting: $10 = \\frac{a}{1-0.6} = \\frac{a}{0.4}$, so $a = 10 \\times 0.4 = 4$. The first term is $4$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "What is the first term of an infinite geometric series whose sum is $10$, and common ratio $0.6$?",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m171eazhjmb9srttn4xkak8zbn8c96w1",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "The initial downward travel is 30 ft and subsequent bounce heights form 30(2/5),30(2/5)^2,... . Total travel=30+2[30(2/5)/(1-2/5)]=70 ft."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The initial drop is 30 ft. Subsequent up-and-down travel is 2 times the geometric bounce sum 30(2/5)/(1-2/5)=20 ft, so total distance is 30+20=50 ft.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 22,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the sum of each geometric series.",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m1740dppw3xnx4k3xmp8skqphx8c8x3w",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "The rises form an infinite geometric series with first term 80 ft and ratio 0.9, so maximum altitude=80/(1-0.9)=800 ft."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The rises form an infinite geometric series with first term 80 ft and ratio 0.9. Its sum is 80/(1-0.9)=800 ft, the maximum altitude.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$16+16+16+$ $\\_\\_\\_\\_$ to 11 terms",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m1776bh3y754f2zzw4mehr90nn8c9wa1",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$S_{10}=75\\frac{1-(1/5)^{10}}{1-1/5}=\\frac{375}{4}(1-5^{-10})$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$75+15+3+\\ldots .$. to 10 terms",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m177xv26ze8m64gzvxjxwdv4zn8c8v0t",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Use the reciprocal arithmetic progression.",
+      "The seventh denominator is 27.",
+      "Term is 1/27."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The reciprocals are in arithmetic progression with denominator 9+3(n-1), so the 7th term is 1/27.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=5, r=3, n=12$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m174wmxbvwxfd66qaggw4ec9s58c93nm",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Take reciprocals to get an arithmetic denominator sequence.",
+      "The tenth denominator is -7.",
+      "Term is -1/7."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The denominator sequence is 11-2(n-1), so the 10th denominator is -7 and the term is -1/7.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=256, r=0.75, n=9$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m17byz7t7k3wrzss74xhn8yxq18c914s",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Use the arithmetic denominator sequence.",
+      "The twentieth denominator is -77.",
+      "Term is -1/77."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The denominator sequence is 18-5(n-1), so at n=20 the denominator is -77 and the term is -1/77.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=7, r=2, n=14$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m17c1z6anv88y20ysmwmdb02wh8c96b6",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Denominators form an arithmetic sequence.",
+      "The nth denominator is 5n-1.",
+      "Term is 1/(5n-1)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking reciprocals gives denominators 4,9,14,..., so the nth term is 1/(5n-1).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=12, a_{5}=972, r=-3$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m177gf9z1e5tbzkfqncg7saqsh8c9fzp",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Denominators form an arithmetic sequence.",
+      "The nth denominator is 34-7n.",
+      "Term is 1/(34-7n)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking reciprocals gives denominators 27,20,13,..., so the nth term is 1/(34-7n).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=16, r=-\\frac{1}{2}, n=10$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m1704nd7dg7cnfw9apf9vqfqd58c8p9r",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Take reciprocals.",
+      "Denominators have first term 2 and common difference 1/2.",
+      "The nth term is 2/(n+3)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The denominators are 2, 5/2, 3, 7/2, so they form an arithmetic progression with nth denominator (n+3)/2. Hence the nth term is 2/(n+3).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=243, r=-\\frac{2}{3}, n=5$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m172esecg740qax1ahv6f658vx8c8jmb",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Reciprocals form an arithmetic progression.",
+      "The nth denominator is 3n+1.",
+      "The 14th term is 1/43."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking reciprocals gives denominators 4,7,10,... with nth denominator 3n+1. At n=14 the denominator is 43, so the term is 1/43.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{1}=343, a_{4}=-1, r=-\\frac{1}{7}$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m17a3qb1d0be32ahdypgbwj6bx8c9mmh",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Use the given arithmetic denominator sequence.",
+      "The nth denominator is 10-3n.",
+      "The 17th term is -1/41."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The arithmetic denominator sequence is 7,4,1,..., so its nth term is 10-3n. At n=17 this is -41, giving the 17th harmonic-progression term -1/41.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{3}=\\frac{3}{4}, a_{6}=\\frac{3}{32}, n=6$\nFind $\\boldsymbol{a}_{\\mathbf{1}}$ for each geometric series:",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m17e2592ewvp8yrqvjrypvqqzx8c96ns",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For $S_n=a(1-r^n)/(1-r)$, $244=a(1-(-3)^5)/4=61a$, so $a=4$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$S_{n}=244, r=-3, n=5$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m172fewwtxv92pq1xdzss5x43h8c9xha",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Take reciprocals of the negative terms.",
+      "The denominator sequence has common difference 3.",
+      "The eighth term is -1/23."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The reciprocals 2,5,8,... form an arithmetic progression, so the eighth reciprocal is 23. Therefore the 8th harmonic-progression term is -1/23.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$S_{n}=32, r=2, n=6$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m174d36n8mdspjrrwh8qx6te2x8c9egf",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "H=2ab/(a+b).",
+      "A=10 and G=sqrt(99).",
+      "AH=G^2=99."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For 9 and 11, $H=\frac{2ab}{a+b}=\frac{99}{10}$. Also $A=10$ and $G=sqrt{99}=3sqrt{11}$, so $AH=10left(\frac{99}{10}\right)=99=G^2$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$a_{n}=324, . r=3, S_{n}=484$",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m17e6rvajg6rc9d1pfjje6wawx8c9tp1",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Use H=2ab/(a+b).",
+      "Substitute 2/3 and 4/7.",
+      "The harmonic mean is 8/13."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "H=2ab/(a+b)=2(2/3)(4/7)/((2/3)+(4/7))=8/13.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find fractional notation for the infinite geometric series.\n(i) $0.444 \\ldots$\n(ii) $9.99999 \\ldots$\n(iii) 0.5555...\n(iv) 0.6666...\n(v) $0.15151515 \\ldots$\n(vi) 0.12121212...",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m173qqc3dgb7qe47vdasg144j98c9ezg",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Reciprocals form an arithmetic progression.",
+      "The common difference is 8/5.",
+      "The four means are 5/23, 5/31, 5/39, 5/47."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Take reciprocals: 3, 23/5, 31/5, 39/5, 47/5, 11 form an arithmetic progression. Therefore the four harmonic means are 5/23, 5/31, 5/39, and 5/47.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "To test its elasticity, a rubber ball is dropped into a $30 f t$ hollow tube that is calibrated so that the scientist can measure the height of each subsequent bounce. The scientist found that on each bounce, the ball rises to a height $\\frac{2}{5}$ the height of the previous bounce. How far will the ball travel before it stops bouncing?",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-5",
+    "topicTitle": "4.5 Finite and Infinite Series",
+    "_id": "m177tchqffkc9gwtdj3w3a354s8c8mfj",
+    "exerciseId": "xd7f95wzgxmxsf123zrywqdhy98c87sp",
+    "exerciseTitle": "Exercise 4.5",
+    "keyPoints": [
+      "Identify the arithmetic pattern 20,60,100,….",
+      "Use a_n=a1+(n−1)d with d=40.",
+      "The twentieth-second rise is 780 feet."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The distances form an arithmetic sequence with a1=20 and d=40. Thus the twentieth-second rise is a20=20+19·40=780 feet.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 4,
+      "page": 119,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A hot-air balloon rises $80 f t$ in the first minute of flight. If in each succeeding minutes the balloon rises only $90 \\%$ as far as in the previous minute, what will be its maximum altitude if it is allowed to rise without limit?",
+    "topicId": "ms76x8wxydfj09rf8gab11t67985p125"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m174xs5kb3qve99h9bmv9jb9h985px9s",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "If $b$ is the harmonic mean between $-2$ and $4$, then $b$ is the reciprocal of the arithmetic mean of the reciprocals of $-2$ and $4$. Thus: $\\frac{1}{b} = \\frac{1}{2}\\left(\\frac{1}{-2} + \\frac{1}{4}\\right) = \\frac{1}{2}\\left(-\\frac{1}{2} + \\frac{1}{4}\\right) = \\frac{1}{2}\\left(-\\frac{1}{4}\\right) = -\\frac{1}{8}$. Therefore, $b = -8$.",
+    "keyPoints": [
+      "Harmonic mean is the reciprocal of the arithmetic mean of reciprocals",
+      "Correctly calculates $\\frac{1}{2}\\left(\\frac{1}{-2} + \\frac{1}{4}\\right)$",
+      "Simplifies to $\\frac{1}{b} = -\\frac{1}{8}$",
+      "Correctly inverts to find $b = -8$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "If $b$ is the harmonic mean between $-2$ and $4$, then $b$ is the reciprocal of the arithmetic mean of the reciprocals of $-2$ and $4$. Thus: $\\frac{1}{b} = \\frac{1}{2}\\left(\\frac{1}{-2} + \\frac{1}{4}\\right) = \\frac{1}{2}\\left(-\\frac{1}{2} + \\frac{1}{4}\\right) = \\frac{1}{2}\\left(-\\frac{1}{4}\\right) = -\\frac{1}{8}$. Therefore, $b = -8$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "-8"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "If $b$ is a harmonic mean between $-2$ and $4$, then $b = \\dots$",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m17e7g0gw5q81saahf3ws9fgcd8c9jbp",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Model row capacities as an arithmetic sequence.",
+      "Compute the 30-row sum as 1080.",
+      "Compare 1080 with the expected 1200 people."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The row capacities form an arithmetic sequence with a1=21, d=1, n=30. Total seats S30=30(21+51)/2=1080. Since 1080<1200, there will not be a seat for everyone; 120 seats are missing.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 25,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the indicated term of the harmonic progression (Q. 1-6).",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m174a3nhd6rj1tkjb2gnffepfs8c9zbx",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Model annual salaries as an arithmetic sequence.",
+      "Use the arithmetic-series sum formula.",
+      "The 30-year total is Rs.491700."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Annual salaries form an arithmetic sequence with a1=4500, d=820, n=30. The total is S30=30/2[2(4500)+29(820)]=15(32780)=Rs.491700.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{9}, \\frac{1}{12}, \\frac{1}{15}, \\ldots$ 7th term",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m1752er9zptptb4b74hec69qks8c9761",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Identify the geometric ratio 2.",
+      "Use a_n=ar^{n−1}.",
+      "The twentieth-day saving is Rs.524288."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Daily savings form a geometric sequence with a1=Rs.1 and r=2. The twentieth-day amount is a20=1·2^{19}=Rs.524288.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{11}, \\frac{1}{9}, \\frac{1}{7}, \\ldots$\n10th term",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m1755xmp1vdhwt6gbnrdr3yeqx8c8s0m",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "The remaining ratio per stroke is 4/5.",
+      "Compound the ratio for five strokes.",
+      "Convert 1024/3125 to 32.768%."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each stroke leaves 4/5 of the air, so after five strokes the fraction remaining is (4/5)^5=1024/3125=0.32768. Thus 32.768% of the air remains.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{18}, \\frac{1}{13}, \\frac{1}{8}, \\ldots \\quad 20$ th term",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m1731j7m39z7tb87q6xxdre2ws8c82m4",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Use compound amount A=P(1+r)^n.",
+      "Substitute P=20000, r=0.11, n=4.",
+      "The payoff is approximately Rs.30361.41."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For annual compounding, A=P(1+r)^n=20000(1.11)^4=Rs.30361.4082, approximately Rs.30361.41.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{4}, \\frac{1}{9}, \\frac{1}{14}, \\ldots$ nth term",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m1789yjp8rwdjy7e8xc788jgjx8c9br2",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Use A=P(1+r)^n.",
+      "Substitute P=450000, r=0.10, n=8.",
+      "The value after eight years is approximately Rs.964615."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The value follows compound growth: A=450000(1.10)^8=Rs.964614.96, approximately Rs.964615.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{27}, \\frac{1}{20}, \\frac{1}{13}, \\ldots \\quad$ nth term",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m17fmv7sfvamp4zxywawgesz6h8c94aw",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Identify a=2000, r=2, n=5.",
+      "Use S_n=a(r^n−1)/(r−1).",
+      "The total deposited is Rs.62000."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Deposits form a geometric series with first term Rs.2000 and ratio 2. The five-year total is S5=2000(2^5−1)/(2−1)=Rs.62000.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{2}, \\frac{1}{2 \\frac{1}{2}}, \\frac{1}{3}, \\frac{1}{3 \\frac{1}{2}}, \\ldots$ nth term",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m17862gsgcm7b1gg8eka21rr3n8c894j",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Model the five-day change geometrically.",
+      "Solve r^5=1215000/16000.",
+      "Convert the multiplier to a percentage increase."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let r be the daily multiplier. Then 16000r^5=1215000, so r=(1215000/16000)^{1/5}≈2.37734. The daily rate of increase is (r−1)·100%≈137.734% per day.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the 14th term of H.P. $\\frac{1}{4}, \\frac{1}{7}, \\frac{1}{10}, \\frac{1}{13}, \\ldots$",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m17f2h87sqvmtqmanjw932aqz98c81z6",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Use A=P(1+r)^n.",
+      "Substitute P=600000, r=0.09, n=10.",
+      "The payoff is approximately Rs.1420418.20."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The amount after annual compounding is A=600000(1.09)^10=Rs.1420418.20, approximately Rs.1420418.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$7,4,1, \\ldots$ is arithmetic sequence, find the 17th term of H.P.",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m173j5zf304pnca49cgf6hnkex8c93y6",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Identify the common increment 1125.",
+      "Use the arithmetic-series sum formula.",
+      "The ten-year total is Rs.100625."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Payments form an arithmetic series: a1=5000, d=1125, n=10. Total S10=10/2[2(5000)+9(1125)]=5(20125)=Rs.100625.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the 8th term of H.P.",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m179zb01p28mfxab8g0rhft7718c88dr",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Identify the monthly increment 150.",
+      "Use the arithmetic-series sum for 24 months.",
+      "The two-year total is Rs.353400."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Monthly deposits form an arithmetic sequence with a1=13000, d=150, and n=24 months. The total is S24=24/2[2(13000)+23(150)]=12(29450)=Rs.353400.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 27,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$$\n-\\frac{1}{2},-\\frac{1}{5},-\\frac{1}{8}, \\ldots\n$$",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m173cvvv95e3enengj47cdxeq58c8j1g",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Model installments as an arithmetic sequence.",
+      "Substitute n=20, d=−2000 into the sum formula.",
+      "Solve for the first installment Rs.69000."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Installments form an arithmetic sequence with n=20, d=−2000, and total 1000000. Thus 1000000=20/2[2a1+19(−2000)], so 1000000=10(2a1−38000), giving a1=Rs.69000.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find H.M. between 9 and 11. Also find $A, H, G$ and show that $A H=G^{2}$.",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m174ckea6ersthwv56w6qnv21n8c8n2g",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "keyPoints": [
+      "Use geometric-series sum with ratio 1.05.",
+      "Substitute 24 installments and first payment Rs.8000.",
+      "The total is approximately Rs.356016."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Installments form a geometric series with a=Rs.8000, r=1.05, n=24. The total is S24=8000[(1.05)^24−1]/(1.05−1)=Rs.356015.99, approximately Rs.356016.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find H.M. between $\\frac{2}{3}$ and $\\frac{4}{7}$.",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-6",
+    "topicTitle": "4.6 Harmonic Progression",
+    "_id": "m175rwq88z4g27w2jcrcktsdkh8c9am7",
+    "exerciseId": "xd7dypdcmm1bv4a85aaypf1vhd8c86gf",
+    "exerciseTitle": "Exercise 4.6",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The four harmonic means are $\\frac{5}{23},\\frac{5}{31},\\frac{5}{39},\\frac{1}{11}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 28,
+      "chapterNumber": 4,
+      "page": 135,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find four H.Ms. between $\\frac{1}{3}$ and $\\frac{1}{11}$.",
+    "topicId": "ms70v1ebj3eapv0hvwea2t9gjn85ppk2"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17ajsksw2tk0e9evqrwstadcx85q14j",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognizes that reciprocals of harmonic sequence terms form an arithmetic sequence",
+      "Correctly identifies the A.P. terms: $a_2 = 6$ and $a_4 = 12$",
+      "Sets up and solves the system of equations using $a_n = a_1 + (n-1)d$ to find $a_1 = 3$ and $d = 3$",
+      "Derives the A.P. general term as $a_n = 3n$",
+      "Correctly states the harmonic sequence general term as $H_n = \\frac{1}{3n}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "A harmonic sequence is one whose reciprocals form an arithmetic sequence. Let the corresponding arithmetic sequence have first term $a_1$ and common difference $d$. Since the 2nd term of the harmonic sequence is $\\frac{1}{6}$, the 2nd term of the A.P. is $6$. Since the 4th term of the harmonic sequence is $\\frac{1}{12}$, the 4th term of the A.P. is $12$. Using $a_n = a_1 + (n-1)d$: from $a_2 = 6$, we get $a_1 + d = 6$; from $a_4 = 12$, we get $a_1 + 3d = 12$. Subtracting: $2d = 6$, so $d = 3$ and $a_1 = 3$. The general term of the A.P. is $a_n = 3 + (n-1)(3) = 3n$. Therefore, the general term of the harmonic sequence is $H_n = \\frac{1}{3n}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "A harmonic sequence has $2^{\\text{nd}}$ term $\\frac{1}{6}$ and $4^{\\text{th}}$ term $\\frac{1}{12}$. Find general term of the sequence.",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17ct489fjj81b2h2srcr93zh585q6wp",
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 8,
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "For an arithmetic-geometric series: $1+5\\left(\\frac{1}{2}\\right)^{1}+9\\left(\\frac{1}{2}\\right)^{2}+13\\left(\\frac{1}{2}\\right)^{3}+\\dots$\n(a) Find general term of the series.\n(b) Sum the series upto $n$ terms.\n(c) Sum the series upto infinite terms.",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m171s1cv20p6661bav6qhftehx85qvnx",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies the general term of the series as $\\frac{k(k+1)}{2}$ (sum of first $k$ natural numbers)",
+      "Expresses the required sum as $\\sum_{k=1}^{n}\\frac{k(k+1)}{2}$ and separates into two standard summations",
+      "Applies standard formulas for $\\sum k$ and $\\sum k^2$ correctly",
+      "Simplifies algebraically to obtain final answer $S_n = \\frac{n(n+1)(n+2)}{6}$",
+      "Verification by substituting specific values (e.g., $n=1,2,3$) confirms the formula"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 8,
+    "modelAnswer": "To find the sum of the series $1 + (1+2) + (1+2+3) + \\dots$ to $n$ terms, we first identify the general term. The $k^{th}$ term is $1+2+3+\\dots+k = \\frac{k(k+1)}{2}$. Therefore, the sum to $n$ terms is:\n\n$$S_n = \\sum_{k=1}^{n} \\frac{k(k+1)}{2} = \\frac{1}{2}\\sum_{k=1}^{n}(k^2 + k) = \\frac{1}{2}\\left[\\sum_{k=1}^{n}k^2 + \\sum_{k=1}^{n}k\\right]$$\n\nUsing the standard formulas $\\sum_{k=1}^{n}k = \\frac{n(n+1)}{2}$ and $\\sum_{k=1}^{n}k^2 = \\frac{n(n+1)(2n+1)}{6}$:\n\n$$S_n = \\frac{1}{2}\\left[\\frac{n(n+1)(2n+1)}{6} + \\frac{n(n+1)}{2}\\right]$$\n\nFactoring out $\\frac{n(n+1)}{2}$:\n\n$$S_n = \\frac{n(n+1)}{2}\\left[\\frac{2n+1}{6} + \\frac{1}{2}\\right] = \\frac{n(n+1)}{2} \\cdot \\frac{2n+1+3}{6} = \\frac{n(n+1)(2n+4)}{12}$$\n\nSimplifying:\n\n$$S_n = \\frac{n(n+1) \\cdot 2(n+2)}{12} = \\frac{n(n+1)(n+2)}{6}$$",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Find the sum of the following series to $n$-terms: $1 + (1+2) + (1+2+3) + \\dots",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17e99k03e1fnhgz50k98g8j4x8c9h6r",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\\frac12(1+\\frac12+\\frac13+\\frac14+\\frac15)=\\frac{137}{120}.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=1}^{5} \\frac{1}{2 k}$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m170nay8q1d3sqq26h7dpgbfzs8c9608",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\\frac13+\\frac15+\\frac17+\\frac19+\\frac1{11}+\\frac1{13}.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=1}^{6} \\frac{1}{2 k+1}$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m177rb86k3dvpbk5edwtrvkw2s8c82he",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\\sum_{k=0}^{5}2^k=63.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=0}^{5} 2^{k}$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17f1fn8p5gjkq77szy35ee4118c9p3m",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\\pi\\sum_{k=0}^{9}k=45\\pi.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=0}^{9} \\pi k$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m178mk04pns6pfq1cx8hzgrks18c80hh",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=1}^{8} \\frac{k}{k+1}$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17cz13fq3m2zgqfxj50d81mr98c8nj8",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\\sum_{k=1}^{7}(-1)^k4^{k+1}=-52432.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=1}^{7}(-1)^{k} 4^{k+1}$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m174aqydcfxa69cxa3aegwqxbs8c83n4",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=0}^{5}\\left(k^{2}-2 k+3\\right)$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m179xdw4d9eqw5ne0apesjcz918c8bjj",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\\sum_{k=1}^{10}\\frac1{k(k+1)}=1-\\frac1{11}=\\frac{10}{11}.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 30,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\sum_{k=1}^{10} \\frac{1}{k(k+1)}$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17ecnyn6jzyjj17tdwy026j1n8c8wks",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 31,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Rewrite the sum using sigma notation:",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17eygbs86652wfbaa43cdfz5x8c962j",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 32,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{2}+\\frac{2}{3}+\\frac{3}{4}+\\frac{4}{5}+\\frac{5}{6}+\\ldots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m179eqn4ex9fwjg65tn5wky8d58c8t6k",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "3+6+9+12+15=45.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 32,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$3+6+9+12+15$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m173nwv6p0k3sgsy1gymgzq4398cvfkk",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 32,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$-2+4-8+16-32+64$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17c57sk8fr12tjkmz42b7gm958ctbtp",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 32,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$\\frac{1}{1 \\cdot 2}+\\frac{1}{2 \\cdot 3}+\\frac{1}{3 \\cdot 4}+\\frac{1}{4 \\cdot 5}+\\ldots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17eafdj043y3zfeek1t2mm6zh8ctqs7",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 32,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Prove that $\\sum_{k=1}^{n} k^{3}=\\left[\\frac{n(n+1)}{2}\\right]^{2}$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17d0d1cs4n31r2mvmcq6t0d3s8cv3gz",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 33,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find the sum to $\\boldsymbol{n}$ terms of the series whose $\\boldsymbol{n}$ th terms are given:",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m171x33ezmwb2ezh8vr3mxtsnd8ct852",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 34,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$n+1$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m1719tgakkp6r888pnbjb5e6b98ct5m5",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 34,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$n^{2}+2 n$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17f3vnddkpmvskysseck1mw818cvxgw",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 34,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$3 n^{2}+2 n+1$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m179kz01a4s3vmgq0zcsny7zdh8ct9sf",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 35,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Sum the following series up to $\\boldsymbol{n}$ terms:",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m1726q14w2fsbpr3by468zsecx8cvzxv",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "17",
+    "sourceRef": {
+      "blockIndex": 36,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$2^{2}+5^{2}+8^{2}+\\ldots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17ej4gqx20c8j9qcvvh6dqrfd8cvrkt",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "18",
+    "sourceRef": {
+      "blockIndex": 36,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$2^{2}+4^{2}+6^{2}+\\ldots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m171k9ag78e4rqcxa1fetfc0rn8cvmj3",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "19",
+    "sourceRef": {
+      "blockIndex": 36,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1^{3}+3^{3}+5^{3}+\\ldots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17fwqerzrnbn6x6mzkzmkr0xs8ct9kr",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "20",
+    "sourceRef": {
+      "blockIndex": 36,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$2+5+10+17+\\cdots$ to $n$ terms",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17bkfvahq82ea63z6h1r4mxdn8ctbtw",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "21",
+    "sourceRef": {
+      "blockIndex": 36,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1 \\times 4+2 \\times 7+3 \\times 10+\\cdots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17fnpw544vf0rwxzp44hq5an58cva5x",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "22",
+    "sourceRef": {
+      "blockIndex": 36,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1 \\times 3 \\times 5+3 \\times 5 \\times 7+5 \\times 7 \\times 9+\\ldots$ to $n$ terms",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17556e2fhzn3tvnv3p3k0xa3n8cvaxc",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 37,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Sum to $\\boldsymbol{n}$ terms of the following series (arithmetico-geometric series):",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17e3qx8sfn7j59aya7sc4za858ctdds",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "23",
+    "sourceRef": {
+      "blockIndex": 38,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+2 \\times 2+3 \\times 2^{2}+4 \\times 2^{3}+\\cdots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17bw2d6m1jzg9aevp4mtcncjx8ct47e",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "24",
+    "sourceRef": {
+      "blockIndex": 38,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+4 y+7 y^{2}+10 y^{3}+\\cdots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m178943mcvxp8d6tnb4rdm8q6d8ctypg",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "25",
+    "sourceRef": {
+      "blockIndex": 39,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+\\frac{4}{7}+\\frac{7}{7^{2}}+\\frac{10}{7^{3}}+\\cdots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17eq8vfqcyc1h6jfsn8w4hax18cvvx7",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "26",
+    "sourceRef": {
+      "blockIndex": 39,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+\\frac{7}{2}+\\frac{13}{4}+\\frac{19}{8}+\\frac{25}{16}+\\ldots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17cees7hsybkrpsryj1v8kbm18cvsv8",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "sourceRef": {
+      "blockIndex": 40,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Find sum to infinity of the following series:",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17d4ha2nb2ccwt8ts4zv4spy58cta93",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "27",
+    "sourceRef": {
+      "blockIndex": 41,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$5+\\frac{7}{3}+\\frac{9}{9}+\\frac{11}{27}+\\ldots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17d54p1t2m5ygydgc1ws2jg2x8ctpmv",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "28",
+    "sourceRef": {
+      "blockIndex": 41,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+\\frac{2}{5}+\\frac{3}{25}+\\frac{4}{125}+\\cdots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m1704v6s1hne85jcv00h00mcmn8ctak5",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "29",
+    "sourceRef": {
+      "blockIndex": 41,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$1+4 x+7 x^{2}+10 x^{3}+\\cdots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-7",
+    "topicTitle": "4.7 Sigma Notation and Summation",
+    "_id": "m17c1s6s03k6tehcx78sw9tsfd8cv557",
+    "exerciseId": "xd77ha93tf5ee4vpapngz1x47n8ct7gb",
+    "exerciseTitle": "Exercise 4.7",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "30",
+    "sourceRef": {
+      "blockIndex": 41,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "$3+\\frac{6}{10}+\\frac{9}{100}+\\frac{12}{1000}+\\cdots$",
+    "topicId": "ms7dcbshhg663g3vgxyxw3zg5185p4n8"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17epfzy47y065vk24ma91gtgd85ptt4",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "If $\\frac{1}{2}, \\frac{1}{5}, \\frac{1}{x}$ are in harmonic progression, then $2, 5, x$ are in arithmetic progression. Using the arithmetic progression property, the common difference must be constant: $5 - 2 = x - 5$, which gives $3 = x - 5$, so $x = 8$.",
+    "keyPoints": [
+      "Recognizes that if terms are in H.P., their reciprocals are in A.P.",
+      "Correctly identifies the reciprocals as $2, 5, x$",
+      "Applies the A.P. condition: common difference is constant ($d = a_{n+1} - a_n$)",
+      "Sets up equation $5 - 2 = x - 5$ and solves correctly",
+      "Obtains $x = 8$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "If $\\frac{1}{2}, \\frac{1}{5}, \\frac{1}{x}$ are in harmonic progression, then $2, 5, x$ are in arithmetic progression. Using the arithmetic progression property, the common difference must be constant: $5 - 2 = x - 5$, which gives $3 = x - 5$, so $x = 8$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "-10"
+      },
+      {
+        "key": "B",
+        "text": "-8"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "For what value of $x$, the numbers $\\frac{1}{2}, \\frac{1}{5}, \\frac{1}{x}$ are in harmonic progression?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17a1qhz2n7std7d89gpz5hq8x85q7ne",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Recognize that if HP has terms $h_n$, then AP has terms $\\frac{1}{h_n}$",
+      "Set up two equations using $a_n = a_1 + (n-1)d$ for the AP's 4th and 10th terms",
+      "Solve the system to find common difference $d = \\frac{3}{2}$ and first term $a_1 = 3$",
+      "Calculate the 23rd term of AP: $a_{23} = 36$",
+      "Find the 23rd term of HP as the reciprocal: $h_{23} = \\frac{1}{36}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "Since the 4th and 10th terms of a HP are $\\frac{2}{15}$ and $\\frac{2}{33}$ respectively, the corresponding AP has terms $\\frac{15}{2}$ and $\\frac{33}{2}$. Using $a_n = a_1 + (n-1)d$: $a_4 = a_1 + 3d = \\frac{15}{2}$ and $a_{10} = a_1 + 9d = \\frac{33}{2}$. Subtracting gives $6d = 9$, so $d = \\frac{3}{2}$. Then $a_1 = \\frac{15}{2} - 3(\\frac{3}{2}) = 3$. The 23rd term of the AP is $a_{23} = 3 + 22(\\frac{3}{2}) = 36$. Therefore, the 23rd term of the HP is $\\frac{1}{36}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "If $4^{\\text{th}}$ and $10^{\\text{th}}$ terms of a HP are $\\frac{2}{15}$ and $\\frac{2}{33}$ respectively, then find its $23^{\\text{rd}}$ term.",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17emak41ezfszc6yhrk8adhnh8cvtpg",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A rocket rises 20 feet in the first second, 60 feet in the 2nd second and 100 feet in the third second. If it continues at this rate, how many feet will it rise in the $20^{\\text {th }}$ second?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m176mafasq58kbzswkp6zmjrs58cv0gc",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "On the results declaration day, the school wants to invite parents as well as students. Auditorium has 21 seats in the first row and each of the other rows has one more seat than the one in front of it. There are 30 rows of seats in total. If they anticipate that 1200 people will come that day, will there be a seat for everyone? Justify your answer.",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m173hmwr8f2ar10zfnf0g8fk3n8cv65m",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Majid retired after 30 years of employment. If his salary was Rs. 4500 in the first year and he received as increment of Rs. 820 at the end of each year of service. What was his total salary after 30 years?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17891fcq001qk9b0pwjk9b2h98ctgv0",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "You save Rs. 1 in the first day. Then each day thereafter, save double the amount you saved the day before. Find the amount you should save in the $20^{\\text {th }}$ day of your plan.",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17ayxwkbe2n0gv5x1dsqzyh9d8cv5e3",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A vacuum pump removes $1 / 5$ of the air from a sealed container on each stroke of its piston. What percent of the air remains after five strokes of the piston?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m177pww52qwn5r9m88fwz2n6b18cvaw4",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Aslam borrows Rs. 20000 at 11\\% interest compounded annually. If he pays off the loan in full at the end of four years, how much does he pay?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17c33xtayxj5yc1y9ak27dht58cvphh",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A property dealer estimates that a piece of land will increase its value at a rate of $10 \\%$ each year. If the original value of land is Rs. 450000 , what will be its value in 8 years?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17dq34e9gz12kq2g3jj0xqaax8ct1zy",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A man deposits in a bank Rs. 2000 in the first year, Rs. 4000 in the second year, Rs. 8000 in the third year and so on. Find the amount he will have deposited in the bank by the fifth year.",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17610rvyjygkygskjz1y33pd58ctek5",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "The number of bacteria in a culture increased geometrically from 16000 to 1215000 in 5 days. Find the daily rate of increase assuming the rate to be constant.",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m1708ppehpjdv1vezmd595e7w18cvraw",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A car loan is in the amount of Rs. 600000 from the bank. Interest is $9 \\%$ compounded annually and the entire amount is to be paid after 10 years. How much is to be paid back?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m179x51krz6yx3x33c4ng91tnh8cvaht",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Zain bought a new car and got policy from insurance company. He will pay 5000 the first year, 6125 the second year, 7250 the third year and so on, for 10 years. How much he will pay to insurance company for vehicle?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m175cz2vqf32n16qs3dtwtwf7n8cvhh0",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Naveed takes a vehicle from bank after paying down payment. He deposits Rs. 13000 in a bank in first month, Rs. 14500 in the second month, Rs. 16000 in the third month and so on. Find how much total amount he has to deposit in the bank at the end of two years.",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m171fcc86z4zp7v9tq9fk87r9x8cts9a",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "A man borrows a loan Rs. 1000000 for leasing a car and agrees to repay with a total 20 installments. Each installment is less than the preceding by Rs. 2000 . What is his first installment?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "04-sequence-and-series",
+    "chapterTitle": "Sequence And Series",
+    "topicSlug": "exercise-4-8",
+    "topicTitle": "4.8 Arithmetic Progression",
+    "_id": "m17bhjn0832wvgmrct7cajtaxx8cv5j4",
+    "exerciseId": "xd7d1w342vwa19tngtqnbs43w98c9vpy",
+    "exerciseTitle": "Exercise 4.8",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 43,
+      "chapterNumber": 4,
+      "page": 139,
+      "subjectSlug": "maths-11"
+    },
+    "stem": "Sara pays her first installment Rs. 8000 to insurance company for the vehicle. Each installment will increase by 5\\%. What total amount she will pay in 24 installments?",
+    "topicId": "ms7bzvq1a7gxwzb9mt6f9sgb1x85pjay"
+  }
+]

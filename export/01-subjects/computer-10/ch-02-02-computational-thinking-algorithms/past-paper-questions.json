@@ -1,0 +1,829 @@
+[
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-basics-of-counting-problems",
+    "topicTitle": "2.2 Basics of Counting Problems",
+    "_id": "m173n0jxmevk2a42sk14fny4gx8d2n3v",
+    "exerciseId": "xd71tassvrn05e5vx206ke1ck58cd6zd",
+    "exerciseTitle": "Exercise",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "short-response-block-172",
+    "sourceRef": {
+      "blockIndex": 172,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "1. Consider 3 boys and 3 girls want to team up as pair for the 14th August related student performance at the school. Find the total no. of ways these pairs could be formed using Counting Principle Problems. 2. Suppose you have selected black pant to attend school function and have three options of shirt to choose. Find the total no. of ways you can dress up using Counting Principle Problems. 3. You are sitting at a study table doing homework. The penholder on the table contains 2 blue pens, 1 black pen, and 2 lead pencils. How many options do you have for writing? 4. For a race on sports day activities, a group of 20 students are given a race lane at random. There are six students selected for the first race. How many different orders of the six lanes for students may be chosen?",
+    "topicId": "ms7agvefaenvqgnhpd1k4b81fn8bvs3j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-basics-of-counting-problems",
+    "topicTitle": "2.2 Basics of Counting Problems",
+    "_id": "m175at2t6avest0z2n69zpx6kd8e0b65",
+    "correctKey": "B",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "By the counting principle, 5 x 4 = 20 outfits.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "You have 5 different shirts and 4 different pants. How many different outfits can you make by choosing one shirt and one pair of pants?",
+    "topicId": "ms7agvefaenvqgnhpd1k4b81fn8bvs3j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-basics-of-counting-problems",
+    "topicTitle": "2.2 Basics of Counting Problems",
+    "_id": "m175sfh69dbg6dw55swbgd4kt98e1dm9",
+    "exerciseId": "xd7961xdkjrzj9cakgp82qznjh8e1nqz",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Pairing each of the 3 boys with one of the 3 girls, the total number of ways is 3 x 3 = 9 pairs.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Consider 3 boys and 3 girls want to team up as pair for the 14th August related student performance at the school. Find the total no. of ways these pairs could be formed using Counting Principle Problems.",
+    "topicId": "ms7agvefaenvqgnhpd1k4b81fn8bvs3j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-basics-of-counting-problems",
+    "topicTitle": "2.2 Basics of Counting Problems",
+    "_id": "m17591ctr975rw6h2y8yn0papn8e1mcg",
+    "exerciseId": "xd7961xdkjrzj9cakgp82qznjh8e1nqz",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With 1 fixed pant and 3 shirt choices, the counting principle gives 1 x 3 = 3 ways to dress up.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Suppose you have selected black pant to attend school function and have three options of shirt to choose. Find the total no. of ways you can dress up using Counting Principle Problems.",
+    "topicId": "ms7agvefaenvqgnhpd1k4b81fn8bvs3j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-basics-of-counting-problems",
+    "topicTitle": "2.2 Basics of Counting Problems",
+    "_id": "m17avwj97nx1my6kpbyf1a5mr98e1qk6",
+    "exerciseId": "xd7961xdkjrzj9cakgp82qznjh8e1nqz",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "There are 2 + 1 + 2 = 5 writing instruments in total, so 5 options for writing.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "You are sitting at a study table doing homework. The penholder on the table contains 2 blue pens, 1 black pen, and 2 lead pencils. How many options do you have for writing?",
+    "topicId": "ms7agvefaenvqgnhpd1k4b81fn8bvs3j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "m17f02dwk0ykfyrghvbvnb9zv18e1kcy",
+    "correctKey": "B",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "A tree diagram visually branches out every combination of choices, making counting-principle problems easy to follow.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Graph representation"
+      },
+      {
+        "key": "B",
+        "text": "Tree representation"
+      },
+      {
+        "key": "C",
+        "text": "Clock representation"
+      },
+      {
+        "key": "D",
+        "text": "Map representation"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Counting Principle Problems could easily be understood by the use of",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "m17f49qv29wrgqeb8h5kff19dn8e1123",
+    "correctKey": "A",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "This is a combination: C(5,2) = 10.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "In how many ways can you choose 2 out of 5 different books to take on a trip? (Order does not matter)",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "m174rpb8p54paj3veqjgzrp8px8e05vc",
+    "correctKey": "A",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "This is a combination: C(8,3) = 56.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "56"
+      },
+      {
+        "key": "B",
+        "text": "84"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "120"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "A committee of 3 members is to be selected from a group of 8 people. How many different committees can be formed?",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "m174m62khykvavf0ew5hn2t7w58e0pmq",
+    "correctKey": "A",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "This is a combination: C(7,3) = 35.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "35"
+      },
+      {
+        "key": "B",
+        "text": "21"
+      },
+      {
+        "key": "C",
+        "text": "56"
+      },
+      {
+        "key": "D",
+        "text": "84"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "In how many ways can you select 3 different fruits from a basket of 7 different fruits? (Order does not matter)",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "m17cr9dfxdbxvgng8tzqz9gzad8e1ty7",
+    "correctKey": "B",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "The Pigeonhole Principle guarantees at least one container holds more than one item when items outnumber containers.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Some containers must be empty"
+      },
+      {
+        "key": "B",
+        "text": "At least one container must hold more than one item"
+      },
+      {
+        "key": "C",
+        "text": "All containers will be full"
+      },
+      {
+        "key": "D",
+        "text": "Each item will be placed in a different container"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The Pigeonhole Principle states that if more items are placed into containers than the number of containers, then:",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "m175zx680b6wv9n2dmyneqe9n58e1vet",
+    "correctKey": "B",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "By inclusion-exclusion: 30 + 25 - 15 = 40 students have completed at least one project.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "35"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "50"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "In a set of 50 students, 30 have completed a math project, 25 have completed a science project, and 15 have completed both. How many students have completed at least one project?",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-3-basic-counting-principles",
+    "topicTitle": "2.3 Basic Counting Principles",
+    "_id": "m17em4183d9y5bqjfs80hqnk658e1j7t",
+    "exerciseId": "xd7961xdkjrzj9cakgp82qznjh8e1nqz",
+    "exerciseTitle": "Exercise 2: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This is a permutation of 6 selected students into 6 ordered lanes: 6! = 720 different orders.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "For a race on sports day activities, a group of 20 students are given a race lane at random. There are six students selected for the first race. How many different orders of the six lanes for students may be chosen?",
+    "topicId": "ms78s3pvd5387xfjfp691t718x8bve4j"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "m1744nhe0z2qyt8xs71phgde018c7ysm",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Flowchart"
+      },
+      {
+        "key": "B",
+        "text": "Planning"
+      },
+      {
+        "key": "C",
+        "text": "Analysis"
+      },
+      {
+        "key": "D",
+        "text": "Algorithm"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Which one of the following is a step by step problem solving method?",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "m171s2w3m8mr5csckbtkfntgsx8c64yk",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Code"
+      },
+      {
+        "key": "B",
+        "text": "Algorithm"
+      },
+      {
+        "key": "C",
+        "text": "Data"
+      },
+      {
+        "key": "D",
+        "text": "Execution"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Step-by-step problem-solving method is:",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "m179kftes391mza4a5v8ce2shd8c719x",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Table"
+      },
+      {
+        "key": "B",
+        "text": "K-Map"
+      },
+      {
+        "key": "C",
+        "text": "Flow chart"
+      },
+      {
+        "key": "D",
+        "text": "Class map"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Picture representation of algorithm is:",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "m17de90t353drg9kgh9vmxr7ks8e13t6",
+    "correctKey": "B",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "Deciding what to eat for dinner depends on subjective preference, not a fixed step-by-step logical procedure.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Sorting numbers in a list."
+      },
+      {
+        "key": "B",
+        "text": "Deciding what to eat for dinner."
+      },
+      {
+        "key": "C",
+        "text": "Determining if a number is a prime number."
+      },
+      {
+        "key": "D",
+        "text": "Calculating the square root of a number."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Identify the activity that is based on personal preferences rather than algorithmic logic.",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "m1757s12rpyd77et6bckmwt5sn8e034s",
+    "correctKey": "B",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "The Output property requires an algorithm to produce at least one result.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Input"
+      },
+      {
+        "key": "B",
+        "text": "Output"
+      },
+      {
+        "key": "C",
+        "text": "Definiteness"
+      },
+      {
+        "key": "D",
+        "text": "Finiteness"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which property of an algorithm ensures that it produces at least one output after the calculations?",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "m17bwkakctq8gd98a309fwnwr18e12nq",
+    "correctKey": "B",
+    "exerciseId": "xd7abp4ser80a5tdhgy0ceazg58e0nay",
+    "exerciseTitle": "Exercise 2: Multiple Choice Questions",
+    "explanation": "Finiteness requires an algorithm to terminate after a finite number of steps.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Input"
+      },
+      {
+        "key": "B",
+        "text": "Finiteness"
+      },
+      {
+        "key": "C",
+        "text": "Effectiveness"
+      },
+      {
+        "key": "D",
+        "text": "Generality"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which property ensures that an algorithm will eventually end after a finite number of steps?",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-4-algorithms-and-their-characteristics",
+    "topicTitle": "2.4 Algorithms and Their Characteristics",
+    "_id": "m173e3jwapbpveyhww5mk2j1298e1f0t",
+    "exerciseId": "xd73079khejy8y3rze2sex2xbx8e0d0a",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "Common HTML form input syntax errors include: unquoted or mismatched attribute quotes, a missing closing '>' or self-closing slash, an incorrect or missing 'type' attribute value, and a missing 'name'/'id' attribute needed for the input to be usable.",
+      "Correcting such errors means matching every opening quote with its closing quote, ensuring every tag is properly closed, and using a valid 'type' value (e.g. text, email, password, checkbox).",
+      "This item's exact printed markup could not be reliably recovered from the OCR export; flagged for a reviewer with access to the physical/PDF textbook to fill in the literal input snippet if a verbatim answer is required."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Given a set of web form input elements (as printed in the textbook, the exact input markup accompanying this prompt did not extract cleanly from the raw OCR), identify any syntax errors and correct them.",
+    "topicId": "ms795enyh9k8sm9ffz71bkpcyn8bty3d"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-logical-reasoning",
+    "topicTitle": "2.5 Logical Reasoning",
+    "_id": "m177z56fhhhfjn2qvvv4s3m2rd8catg8",
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Boolean Reasoning"
+      },
+      {
+        "key": "B",
+        "text": "Verbal Logical Reasoning"
+      },
+      {
+        "key": "C",
+        "text": "Nonverbal Logical Reasoning"
+      },
+      {
+        "key": "D",
+        "text": "Analytical Reasoning"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "session": "model",
+    "stem": "Which logical reasoning type requires solving patterns and shapes?",
+    "topicId": "ms706vz992pe5999c0b7qdbtcn8bv18k",
+    "year": 2026
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-5-logical-reasoning",
+    "topicTitle": "2.5 Logical Reasoning",
+    "_id": "m17agmd700dv2wvmtqyjqj8bm98e1s2m",
+    "exerciseId": "xd73079khejy8y3rze2sex2xbx8e0d0a",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "Zainab is fixed at position 1 (clue d).",
+      "Liaqat cannot be at either end (clue c), and cannot be adjacent to Zainab at position 1 (clue b), which together only leave position 3 for Liaqat.",
+      "Clue (a) then requires Javeria to sit directly behind Ejaz among the two remaining positions (2 and 4), but 2 and 4 are not adjacent, so no assignment of Ejaz/Javeria to the remaining slots satisfies all four clues simultaneously.",
+      "This item's clue set, as extracted from the raw OCR, is internally inconsistent; flagged for a reviewer with access to the original textbook to check whether a clue was mis-OCR'd (e.g. a fifth line/person dropped, or 'not at the end' meaning only one specific end) before publishing a definitive answer."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Ejaz, Javeria, Liaqat, and Zainab are standing in a line. Clues: (a) Javeria is standing directly behind Ejaz. (b) Zainab is not next to Liaqat. (c) Liaqat is not at the end of the line. (d) Zainab is standing in the first position. In which order are they standing?",
+    "topicId": "ms706vz992pe5999c0b7qdbtcn8bv18k"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-8-abstraction",
+    "topicTitle": "2.8 Abstraction",
+    "_id": "m17eprqk7tmc40jf8p4968k6x18e09s9",
+    "exerciseId": "xd73079khejy8y3rze2sex2xbx8e0d0a",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "Abstraction means removing unnecessary detail while keeping only the information relevant to the task.",
+      "An abstract school map would keep the main buildings (classrooms, office, library) and pathways connecting them, while dropping fine details like individual trees, benches or exact building shapes.",
+      "This mirrors how software abstraction hides implementation detail behind a simplified, purpose-relevant view."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Abstraction removes unnecessary detail while keeping the information relevant to the task. An abstract school map would retain the main buildings, such as classrooms, the office, and the library, together with the pathways connecting them, while omitting details such as individual trees, benches, or exact building shapes. This mirrors software abstraction, which hides implementation detail behind a simplified view suited to the task.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Provide students with a detailed map of their school. Ask them to create an abstract version, highlighting only the main buildings and pathways.",
+    "topicId": "ms7ajcc0g2m4y1c65bt7ytqxzx8btr2c"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-10-modular-design",
+    "topicTitle": "2.10 Modular Design",
+    "_id": "m17fczf0agmvdd6nd5s7qpmtrd8e1en3",
+    "exerciseId": "xd73079khejy8y3rze2sex2xbx8e0d0a",
+    "exerciseTitle": "Exercise 2: Extended Response Questions",
+    "keyPoints": [
+      "Breaking a program into functions is an example of modular design: each function handles one well-defined sub-task.",
+      "Example: a grade-calculator program could have separate functions to read scores, compute the average, and print the final grade.",
+      "This makes the overall problem easier to understand, test and reuse, since each function abstracts away the detail of how its own sub-task is solved."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Breaking a program into functions is an example of modular design. Each function handles one well-defined sub-task. For example, a grade-calculator program can use separate functions to read scores, compute the average, and print the final grade. This makes the overall problem easier to understand, test, and reuse because each function hides the detail of its own sub-task.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Give students a problem that can be solved with a simple program. Encourage them to write functions to handle different parts of the problem, abstracting complex operations into manageable pieces.",
+    "topicId": "ms75m8ptb70qey5wexy4wpp9a18bvm41"
+  }
+]

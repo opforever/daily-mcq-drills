@@ -1,0 +1,177 @@
+[
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-1-machine-level-representation-of-data",
+    "topicTitle": "1.1 Machine Level Representation of Data",
+    "_id": "k97bv1kw4q9fsavdb29arwypf98d2b60",
+    "correctKey": "A",
+    "explanation": "A bit has one of two states, 0 or 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e30rf120s5v73p36a4gcmrx8bt4fz",
+    "options": [
+      {
+        "key": "A",
+        "text": "It represents 0 or 1"
+      },
+      {
+        "key": "B",
+        "text": "It represents 0 through 9"
+      },
+      {
+        "key": "C",
+        "text": "It always represents a letter"
+      },
+      {
+        "key": "D",
+        "text": "It represents only negative numbers"
+      }
+    ],
+    "sectionId": "machine-level-representation-of-data",
+    "sectionLabel": "machine-level-representation-of-data",
+    "stem": "Which statement about a binary digit (bit) is correct?",
+    "topicId": "ms7fa8zxs45wjagbmxewcx9wwx8btjh2"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-2-numbering-systems",
+    "topicTitle": "1.2 Numbering Systems",
+    "_id": "k97f07msdde9cdaz6rz02kwdph8d39kg",
+    "correctKey": "D",
+    "explanation": "The Chapter 1 corpus identifies hexadecimal as a base-16 number system.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70jrbjzsz9zsqc370cnhwcah8bt3fj",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      }
+    ],
+    "sectionId": "types-of-number-systems",
+    "sectionLabel": "Types of Number Systems",
+    "stem": "Which base is used by the hexadecimal number system?",
+    "topicId": "ms720rhk83kdy81dckyzypv2zh8bt8bs"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-3-common-coding-schemes-ascii-and-unicode",
+    "topicTitle": "1.3 Common Coding Schemes (Ascii and Unicode)",
+    "_id": "k972e0cse3s702566q48js12j98d3t6p",
+    "correctKey": "B",
+    "explanation": "Unicode is an international character-encoding system that supports written texts from diverse languages and symbols.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx71wkpexv2x6dzb83mf5dvr158btbpd",
+    "options": [
+      {
+        "key": "A",
+        "text": "ASCII"
+      },
+      {
+        "key": "B",
+        "text": "Unicode"
+      },
+      {
+        "key": "C",
+        "text": "Decimal"
+      },
+      {
+        "key": "D",
+        "text": "Octal"
+      }
+    ],
+    "sectionId": "ascii-and-unicode",
+    "sectionLabel": "ascii-and-unicode",
+    "stem": "Which coding standard is designed to support written languages worldwide, including many symbols?",
+    "topicId": "ms77007rebd7b20me7xgevfjeh8bt358"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-4-operating-system",
+    "topicTitle": "1.4 Operating System",
+    "_id": "k975qh6gd737qet6ce25469xw18d24jt",
+    "correctKey": "A",
+    "explanation": "Operating systems manage memory, processes, hardware, and software.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx733atgvt2br02xn699e5nf218btj17",
+    "options": [
+      {
+        "key": "A",
+        "text": "Managing memory"
+      },
+      {
+        "key": "B",
+        "text": "Writing news articles"
+      },
+      {
+        "key": "C",
+        "text": "Designing posters"
+      },
+      {
+        "key": "D",
+        "text": "Sending social invitations"
+      }
+    ],
+    "sectionId": "main-tasks-functions-of-an-operating-system",
+    "sectionLabel": "main-tasks-functions-of-an-operating-system",
+    "stem": "Which task is performed by an operating system?",
+    "topicId": "ms70jqjj5vbew0dffsxym62qnh8btphf"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "01-computer-systems",
+    "chapterTitle": "Computer Systems",
+    "topicSlug": "1-5-computer-software",
+    "topicTitle": "1.5 Computer Software",
+    "_id": "k970kxeeznmr8zthxagj61cym98d30q2",
+    "correctKey": "A",
+    "explanation": "System software controls overall operations and provides a platform for applications.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ass9nrs0a8rwanx3e8bkr1s8bvs26",
+    "options": [
+      {
+        "key": "A",
+        "text": "System software"
+      },
+      {
+        "key": "B",
+        "text": "Application software"
+      },
+      {
+        "key": "C",
+        "text": "Driver software"
+      },
+      {
+        "key": "D",
+        "text": "A spreadsheet file"
+      }
+    ],
+    "sectionId": "comparing-different-software-types",
+    "sectionLabel": "comparing-different-software-types",
+    "stem": "Which software type provides a platform for applications to run?",
+    "topicId": "ms76c7q7yfenwrkvfav45r5jr58btf50"
+  }
+]

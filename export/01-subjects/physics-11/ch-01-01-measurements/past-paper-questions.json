@@ -1,0 +1,1911 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "derived-units",
+    "topicTitle": "1.1 Derived Units",
+    "_id": "m1719cfp5dzk5h783pwh0b9by985p32f",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Dimensions of $G$ are $[M^{-1}L^3T^{-2}]$ derived from dimensional analysis of $F=\\frac{Gm_1m_2}{r^2}$",
+      "SI units of $G$ are $\\text{m}^3\\text{·kg}^{-1}\\text{·s}^{-2}$ or $\\text{N·m}^2\\text{·kg}^{-2}$",
+      "Derivation: rearrange formula to $G=\\frac{Fr^2}{m_1m_2}$ and substitute dimensions of each quantity",
+      "Numerical value approximately $6.67 \\times 10^{-11}$ in SI units",
+      "Dimensions confirm $G$ is a universal constant independent of the masses or separation distance involved"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "The gravitational constant $G$ has dimensions $[M^{-1}L^3T^{-2}]$ and SI units of $\\text{N·m}^2\\text{·kg}^{-2}$ or equivalently $\\text{m}^3\\text{·kg}^{-1}\\text{·s}^{-2}$. These dimensions are derived by rearranging Newton's law of universal gravitation $F=\\frac{Gm_1m_2}{r^2}$ to solve for $G$, giving $G=\\frac{Fr^2}{m_1m_2}$. Since force has dimensions $[MLT^{-2}]$, distance squared has $[L^2]$, and mass has $[M]$, the dimensions of $G$ become $\\frac{[MLT^{-2}][L^2]}{[M][M]} = [M^{-1}L^3T^{-2}]$. The numerical value of $G$ is approximately $6.67 \\times 10^{-11}$ in SI units, reflecting the extremely weak nature of gravitational interactions compared to other fundamental forces.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "What are the dimensions and units of **gravitational constant** $G$ in the formula $F=\\frac{G m_{1} m_{2}}{r^{2}}$?",
+    "topicId": "ms7800wznq3gexrmb27m2g3wk985phd5",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "derived-units",
+    "topicTitle": "1.1 Derived Units",
+    "_id": "m171zxb2ee8dn44grz4jewegch8e1vbw",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) Force: $\\mathrm{kg\\,m/s^2}$ (newton, N). (b) Work: $\\mathrm{kg\\,m^2/s^2}$ (joule, J). (c) Power: $\\mathrm{kg\\,m^2/s^3}$ (watt, W). (d) Pressure: $\\mathrm{kg\\,m^{-1}\\,s^{-2}}$ (pascal, Pa). (e) Electric charge: A s (coulomb, C).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.2",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Express the units of the following derived quantities in terms of base units. (a) Force (b) Work (c) Power (d) Pressure (e) Electric charge.",
+    "topicId": "ms7800wznq3gexrmb27m2g3wk985phd5"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "derived-units",
+    "topicTitle": "1.1 Derived Units",
+    "_id": "m1731y32ncntw7q0gm6ehfwqjd85p1t2",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Pressure is a derived unit, not a base unit. The SI base unit of pressure is the Pascal (Pa), which is derived from base units as $\\text{Pa} = \\text{N/m}^2 = \\text{kg}\\cdot\\text{m}^{-1}\\cdot\\text{s}^{-2}$. Pressure is formed by combining the base units of mass (kg), length (m), and time (s).",
+    "keyPoints": [
+      "Identifies that pressure is a derived unit, not a base unit",
+      "States the Pascal (Pa) as the SI unit of pressure",
+      "Shows the derivation: Pa = N/m² = kg·m⁻¹·s⁻²",
+      "Explains pressure is formed from base units (mass, length, time)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Pressure is a derived unit, not a base unit. The SI base unit of pressure is the Pascal (Pa), which is derived from base units as $\\text{Pa} = \\text{N/m}^2 = \\text{kg}\\cdot\\text{m}^{-1}\\cdot\\text{s}^{-2}$. Pressure is formed by combining the base units of mass (kg), length (m), and time (s).",
+    "options": [
+      {
+        "key": "A",
+        "text": "$kg \\cdot m \\cdot s^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$kg \\cdot m^2 \\cdot s^{-2}$"
+      },
+      {
+        "key": "C",
+        "text": "$kg \\cdot m^{-2} \\cdot s^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$kg \\cdot m^{-1} \\cdot s^{-2}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "examples-of-derived-units",
+    "sectionLabel": "Examples of Derived Units",
+    "session": "annual",
+    "stem": "Which of the following is the base unit of pressure?",
+    "topicId": "ms7800wznq3gexrmb27m2g3wk985phd5",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m1731y32ncntw7q0gm6ehfwqjd85p1t2",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Pressure is a derived unit, not a base unit. The SI base unit of pressure is the Pascal (Pa), which is derived from base units as $\\text{Pa} = \\text{N/m}^2 = \\text{kg}\\cdot\\text{m}^{-1}\\cdot\\text{s}^{-2}$. Pressure is formed by combining the base units of mass (kg), length (m), and time (s).",
+    "keyPoints": [
+      "Identifies that pressure is a derived unit, not a base unit",
+      "States the Pascal (Pa) as the SI unit of pressure",
+      "Shows the derivation: Pa = N/m² = kg·m⁻¹·s⁻²",
+      "Explains pressure is formed from base units (mass, length, time)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Pressure is a derived unit, not a base unit. The SI base unit of pressure is the Pascal (Pa), which is derived from base units as $\\text{Pa} = \\text{N/m}^2 = \\text{kg}\\cdot\\text{m}^{-1}\\cdot\\text{s}^{-2}$. Pressure is formed by combining the base units of mass (kg), length (m), and time (s).",
+    "options": [
+      {
+        "key": "A",
+        "text": "$kg \\cdot m \\cdot s^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$kg \\cdot m^2 \\cdot s^{-2}$"
+      },
+      {
+        "key": "C",
+        "text": "$kg \\cdot m^{-2} \\cdot s^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$kg \\cdot m^{-1} \\cdot s^{-2}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "examples-of-derived-units",
+    "sectionLabel": "Examples of Derived Units",
+    "session": "annual",
+    "stem": "Which of the following is the base unit of pressure?",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m177n9608xra1vvpz576923vdd8e1mfr",
+    "correctKey": "C",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "From $F = GMm/r^2$, $G = Fr^2/(Mm)$, giving dimensions $[M^{-1} L^3 T^{-2}]$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "[M^-2 L^3 T^-2]"
+      },
+      {
+        "key": "B",
+        "text": "[M^3 L^-1 T^-2]"
+      },
+      {
+        "key": "C",
+        "text": "[M^-1 L^3 T^-2]"
+      },
+      {
+        "key": "D",
+        "text": "[M^-3 L^3 T^-2]"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Dimension of universal gravitational constant (G) is:",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m172bbzdw0wmx5jm0w02gnd1sn8e08k7",
+    "correctKey": "C",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Force, weight and tension all have dimensions $[MLT^{-2}]$; modulus of elasticity has dimensions of pressure, $[ML^{-1}T^{-2}]$, which is different.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "force"
+      },
+      {
+        "key": "B",
+        "text": "weight"
+      },
+      {
+        "key": "C",
+        "text": "modulus of elasticity"
+      },
+      {
+        "key": "D",
+        "text": "tension"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which of the following quantity has a different dimension?",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17ba1sn18mew0dmrpehyj8r8n8e02tg",
+    "correctKey": "B",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Pressure has dimensions $[M L^{-1} T^{-2}]$, matching a=-1, b=1, c=-2.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "force, if a=-1, b=0, c=-2"
+      },
+      {
+        "key": "B",
+        "text": "pressure, if a=-1, b=1, c=-2"
+      },
+      {
+        "key": "C",
+        "text": "velocity, if a=1, b=0, c=1"
+      },
+      {
+        "key": "D",
+        "text": "acceleration, if a=1, b=1, c=-2"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If the dimensions of a physical quantity are given by [L^a M^b T^c], then the physical quantity will be:",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m175weappb8w1rjqpzm5a112fd8e077d",
+    "correctKey": "A",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Checking dimensions: $\\sqrt{\\lambda g}$ has dimensions $\\sqrt{L \\times L/T^2} = \\sqrt{L^2/T^2} = L/T$, matching speed; the other options do not dimensionally reduce to L/T.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "v = sqrt(lambda*g)"
+      },
+      {
+        "key": "B",
+        "text": "v = rho*g*h"
+      },
+      {
+        "key": "C",
+        "text": "v = g*h/lambda"
+      },
+      {
+        "key": "D",
+        "text": "v = lambda*g*h"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which of the following may be used as a valid formula to calculate the speed of ocean waves? [v=speed, g=acceleration due to gravity, lambda=wavelength, rho=density, h=depth].",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m173s6svztbs3b7gw08n4df8gd8e1nff",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The principle of homogeneity of dimensions states that in any physically correct equation, the dimensions of every term on both sides must be identical; terms with different dimensions cannot be added, subtracted, or equated. This principle can be used to check the correctness of an equation and to derive relationships between quantities.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.6",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the principle of homogeneity of dimensions?",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17f4cyqy49sqcgch4s0pr59218e0nmk",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$h = E/f$. Energy E has dimensions $[ML^2T^{-2}]$, and frequency f has dimensions $[T^{-1}]$. So $h = [ML^2T^{-2}]/[T^{-1}] = [ML^2T^{-1}]$.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.8",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The energy of a photon is given by E=hf, where f is frequency. Find the dimensions of Planck's constant h.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17bkk0drv31xvp7j9hfp4wq8n8e1vdx",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) $v^2/(ax)$ has dimensions $[LT^{-1}]^2 / ([LT^{-2}][L]) = [L^2T^{-2}]/[L^2T^{-2}]$ = dimensionless (no dimension). (b) $(at^2)/2$ has dimensions $[LT^{-2}][T^2] = [L]$. (Ans. (a) No dimension, (b) [L], as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.2",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Determine the dimensions of each of the following quantities. (a) v^2/(a*x) (b) (a*t^2)/2, where v is velocity, a is acceleration, x is distance, t is time.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17en87rsr90pstse39c5h1hah85p4t5",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identified dimensions of pressure P as $[ML^{-1}T^{-2}]$",
+      "Determined dimensions of density $\\rho$ as $[ML^{-3}]$, acceleration $g$ as $[LT^{-2}]$, and height $h$ as $[L]$",
+      "Multiplied dimensions on right side: $[ML^{-3}][LT^{-2}][L] = [ML^{-1}T^{-2}]$",
+      "Compared both sides and confirmed dimensional equality",
+      "Concluded equation is dimensionally homogeneous and physically valid"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To prove that $P = \\rho gh$ is dimensionally homogeneous, we must show that both sides have identical dimensions. **Left side:** Pressure $P$ has dimensions $[ML^{-1}T^{-2}]$. **Right side:** $\\rho$ has dimensions $[ML^{-3}]$, $g$ has dimensions $[LT^{-2}]$, and $h$ has dimensions $[L]$. Therefore, $[\\rho gh] = [ML^{-3}][LT^{-2}][L] = [ML^{-1}T^{-2}]$. Since both sides possess identical dimensions, the equation is dimensionally homogeneous and therefore valid.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "25",
+    "sectionId": "applications-of-dimensional-analysis",
+    "sectionLabel": "Applications of Dimensional Analysis",
+    "session": "annual",
+    "stem": "Use dimensional analysis to prove the equation $P = \\rho gh$ is dimensionally homogeneous.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m1795j69pdwm630by6jjf9aa0185qvgm",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identified that displacement $S$ has dimension $[L]$",
+      "Determined dimension of first term $v_i t$: $[LT^{-1}][T] = [L]$",
+      "Determined dimension of second term $at^2$: $[LT^{-2}][T^2] = [L]$",
+      "Verified all terms have identical dimensions $[L]$",
+      "Concluded equation is dimensionally homogeneous and correct"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To show that $S = v_i t + \\frac{1}{2} a t^2$ is dimensionally correct, we analyze each term separately. The dimension of displacement $S$ is $[L]$. For the first term: $[v_i t] = [LT^{-1}][T] = [L]$. For the second term: $[\\frac{1}{2} a t^2] = [LT^{-2}][T^2] = [L]$. Since both terms have dimension $[L]$ and equal the dimension of $S$, the equation is dimensionally correct.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionId": "applications-of-dimensional-analysis",
+    "sectionLabel": "Applications of Dimensional Analysis",
+    "session": "annual",
+    "stem": "Show that $S = v_i t + \\frac{1}{2} a t^2$ is dimensionally correct.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m1783qj5fwjr2144m48md0cn4h85p71f",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified dimension of energy as $[ML^2T^{-2}]$",
+      "Correctly identified dimension of Planck's constant as $[ML^2T^{-1}]$",
+      "Correctly identified dimension of frequency as $[T^{-1}]$",
+      "Performed dimensional multiplication: $[ML^2T^{-1}] \\times [T^{-1}] = [ML^2T^{-2}]$",
+      "Concluded that both sides have identical dimensions, proving dimensional correctness"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To prove $E = hf$ is dimensionally correct, we examine both sides of the equation. The left side has dimension of energy: $[E] = [ML^2T^{-2}]$. The right side: $h$ (Planck's constant) has dimensions $[ML^2T^{-1}]$ and $f$ (frequency) has dimensions $[T^{-1}]$. Therefore, $[hf] = [ML^2T^{-1}][T^{-1}] = [ML^2T^{-2}]$. Since both sides have identical dimensions, the equation is dimensionally correct.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionId": "applications-of-dimensional-analysis",
+    "sectionLabel": "Applications of Dimensional Analysis",
+    "session": "annual",
+    "stem": "Prove that the equation $E = hf$ is dimensionally correct. (Where $E = $ energy and $f = $ frequency)",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17fywn4d098gbtg0yjy3s139d85p3kz",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identified dimensions of acceleration: $[a] = [LT^{-2}]$",
+      "Identified dimensions of displacement: $[s] = [L]$",
+      "Identified dimensions of velocity: $[v] = [LT^{-1}]$",
+      "Calculated left side dimensions: $[L^2T^{-2}]$",
+      "Calculated right side dimensions: $[L^2T^{-2}]$ and confirmed equality"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To verify dimensional consistency of $2as = v_f^2 - v_i^2$, we analyze both sides using base dimensions. Left side: $[a][s] = [LT^{-2}][L] = [L^2T^{-2}]$. Right side: $[v_f^2] - [v_i^2] = [LT^{-1}]^2 - [LT^{-1}]^2 = [L^2T^{-2}] - [L^2T^{-2}] = [L^2T^{-2}]$. Since both sides have identical dimensions $[L^2T^{-2}]$, the equation is dimensionally consistent.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionId": "applications-of-dimensional-analysis",
+    "sectionLabel": "Applications of Dimensional Analysis",
+    "session": "annual",
+    "stem": "Show that the given equation is dimensionally consistent: $2as = v_f^2 - v_i^2$",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17a2q0g70dr25p261rmc2xg498e16sf",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Left side, pressure P has dimensions $[ML^{-1}T^{-2}]$. Right side: rho $[ML^{-3}]$ x g $[LT^{-2}]$ x h $[L]$ = $[ML^{-3}][LT^{-2}][L] = [ML^{-1}T^{-2}]$. Both sides match, so the equation is dimensionally homogeneous (and therefore possibly correct).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.5",
+    "sectionId": "applications-of-dimensional-analysis",
+    "sectionLabel": "Applications of Dimensional Analysis",
+    "sourceRef": {
+      "blockIndex": 16,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The pressure (P) at a depth (h) in an incompressible fluid of density (rho) is given by P = rho*g*h, where g is acceleration due to gravity. Check the homogeneity of this equation.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m175ary12x0sj2f0t168mamd9d8e06am",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "F has dimensions $[MLT^{-2}]$. r has dimensions $[L]$, v has dimensions $[LT^{-1}]$. So $c = F/(rv)$ has dimensions $[MLT^{-2}]/([L][LT^{-1}]) = [MLT^{-2}]/[L^2T^{-1}] = [ML^{-1}T^{-1}]$, i.e. SI base units $\\mathrm{kg\\,m^{-1}\\,s^{-1}}$. (Ans. kg m^-1 s^-1, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.4",
+    "sectionId": "base-quantities-and-their-dimensions",
+    "sectionLabel": "Base Quantities and Their Dimensions",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A spherical ball of radius r experiences a resistive force F due to the air as it moves through it at speed v. The resistive force F is given by the expression F = c*r*v, where c is a constant. By using dimensions, derive the SI base unit of the constant c.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m178eta25yp031nrz3m550pzy985ptne",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The dimensions [ML²T⁻²] represent energy or work. This dimensional formula is derived from the product of mass [M], length squared [L²], and inverse time squared [T⁻²], which corresponds to quantities like kinetic energy, potential energy, or work done by a force.",
+    "keyPoints": [
+      "Identifies [ML²T⁻²] as dimensions of energy/work",
+      "Recognizes M represents mass, L² represents length squared, T⁻² represents inverse time squared",
+      "Connects to physical quantities: kinetic energy, potential energy, or work",
+      "Understands dimensional analysis application to derived quantities"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The dimensions [ML²T⁻²] represent energy or work. This dimensional formula is derived from the product of mass [M], length squared [L²], and inverse time squared [T⁻²], which corresponds to quantities like kinetic energy, potential energy, or work done by a force.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Power"
+      },
+      {
+        "key": "B",
+        "text": "Work"
+      },
+      {
+        "key": "C",
+        "text": "Velocity"
+      },
+      {
+        "key": "D",
+        "text": "Acceleration"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "The dimensions [ML²T⁻²] show:",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m178071j9qcfpd8z8chkfjman985pxhk",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "To determine which pairs have the same dimension, we must express each quantity in terms of base dimensions $[M]$, $[L]$, $[T]$, etc. For example, torque has dimension $[ML^2T^{-2}]$ while acceleration has dimension $[LT^{-2}]$. Two quantities have the same dimension if their dimensional formulas are identical. Without the specific answer options provided, compare the dimensional formulas of each pair systematically using the base quantities.",
+    "keyPoints": [
+      "Identify the dimensional formula of each quantity in the pair using base dimensions $[M]$, $[L]$, $[T]$, $[A]$, $[K]$, etc.",
+      "Express derived quantities by combining base dimensions according to their definitions",
+      "Two quantities have the same dimension only if their complete dimensional formulas are identical",
+      "Use dimensional analysis to verify that all exponents of base dimensions match between the pair"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "To determine which pairs have the same dimension, we must express each quantity in terms of base dimensions $[M]$, $[L]$, $[T]$, etc. For example, torque has dimension $[ML^2T^{-2}]$ while acceleration has dimension $[LT^{-2}]$. Two quantities have the same dimension if their dimensional formulas are identical. Without the specific answer options provided, compare the dimensional formulas of each pair systematically using the base quantities.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure, Density"
+      },
+      {
+        "key": "B",
+        "text": "Impulse, Momentum"
+      },
+      {
+        "key": "C",
+        "text": "Stress, Strain"
+      },
+      {
+        "key": "D",
+        "text": "Momentum, Inertia"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "Which of the following pairs has the same dimension?",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m1719cfp5dzk5h783pwh0b9by985p32f",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Dimensions of $G$ are $[M^{-1}L^3T^{-2}]$ derived from dimensional analysis of $F=\\frac{Gm_1m_2}{r^2}$",
+      "SI units of $G$ are $\\text{m}^3\\text{·kg}^{-1}\\text{·s}^{-2}$ or $\\text{N·m}^2\\text{·kg}^{-2}$",
+      "Derivation: rearrange formula to $G=\\frac{Fr^2}{m_1m_2}$ and substitute dimensions of each quantity",
+      "Numerical value approximately $6.67 \\times 10^{-11}$ in SI units",
+      "Dimensions confirm $G$ is a universal constant independent of the masses or separation distance involved"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "The gravitational constant $G$ has dimensions $[M^{-1}L^3T^{-2}]$ and SI units of $\\text{N·m}^2\\text{·kg}^{-2}$ or equivalently $\\text{m}^3\\text{·kg}^{-1}\\text{·s}^{-2}$. These dimensions are derived by rearranging Newton's law of universal gravitation $F=\\frac{Gm_1m_2}{r^2}$ to solve for $G$, giving $G=\\frac{Fr^2}{m_1m_2}$. Since force has dimensions $[MLT^{-2}]$, distance squared has $[L^2]$, and mass has $[M]$, the dimensions of $G$ become $\\frac{[MLT^{-2}][L^2]}{[M][M]} = [M^{-1}L^3T^{-2}]$. The numerical value of $G$ is approximately $6.67 \\times 10^{-11}$ in SI units, reflecting the extremely weak nature of gravitational interactions compared to other fundamental forces.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "What are the dimensions and units of **gravitational constant** $G$ in the formula $F=\\frac{G m_{1} m_{2}}{r^{2}}$?",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m171afvztts51ycrr6p9p9weg985p57k",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Rearrange Stokes' law to isolate $\\eta$: $\\eta = \\frac{F_D}{rv}$",
+      "Substitute dimensions: drag force $[F_D] = MLT^{-2}$, radius $[r] = L$, velocity $[v] = LT^{-1}$",
+      "Simplify dimensional expression: $\\frac{MLT^{-2}}{L \\cdot LT^{-1}} = ML^{-1}T^{-1}$",
+      "Final answer: $[\\eta] = ML^{-1}T^{-1}$ (mass per unit length per unit time)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To find the dimensions of coefficient of viscosity $\\eta$ from Stokes' law $F_D = 6\\pi\\eta r v$, we rearrange to get $\\eta = \\frac{F_D}{6\\pi r v}$. The dimensions are: $[\\eta] = \\frac{[F_D]}{[r][v]} = \\frac{MLT^{-2}}{L \\cdot LT^{-1}} = \\frac{MLT^{-2}}{L^2T^{-1}} = ML^{-1}T^{-1}$. Therefore, the coefficient of viscosity has dimensions $[\\eta] = ML^{-1}T^{-1}$ or $[M][L]^{-1}[T]^{-1}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "From Stokes' law, the drag force can be expressed as $F_D = 6\\pi\\eta r v$, then find the dimensions of coefficient of viscosity $\\eta$?",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17a8xhwyjevd5k3ew50wq7eb585prd5",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A spring constant is force per unit displacement, so the length dimension cancels from force divided by displacement.",
+    "keyPoints": [
+      "Use $F = Kx$.",
+      "Divide the dimensions of force by displacement.",
+      "$[K] = [MT^{-2}]$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Using Hooke’s law, $F = Kx$. Therefore $K = F/x$. Since $[F] = [MLT^{-2}]$ and $[x] = [L]$, $[K] = [MLT^{-2}]/[L] = [MT^{-2}]$. The correct option is A.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[M T^{-2}]$"
+      },
+      {
+        "key": "B",
+        "text": "$[M L^{-2}]$"
+      },
+      {
+        "key": "C",
+        "text": "$[M L T^{-1}]$"
+      },
+      {
+        "key": "D",
+        "text": "$[M L T^2]$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "The dimension of spring constant $K$ is:",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m170m2dk2pt76jv2c7g7zxz59185pb4d",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Cannot determine dimensionless constants or numerical coefficients in equations",
+      "Cannot distinguish between different physical quantities with identical dimensions (e.g., torque and energy)",
+      "Cannot be applied to transcendental functions (trigonometric, logarithmic, exponential)",
+      "Can only check dimensional consistency, not physical correctness or validity of equations",
+      "Limited to establishing relationships between quantities, not deriving complete physical laws"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Dimensional analysis has several important limitations. First, it cannot determine dimensionless constants or numerical coefficients in equations, so equations like $v = k\\sqrt{gh}$ (where $k$ is a dimensionless constant) cannot be fully derived using dimensions alone. Second, dimensional analysis cannot distinguish between physically different quantities that have the same dimensions, such as torque and energy, both having dimensions $[ML^2T^{-2}]$. Third, it cannot be applied to transcendental functions like trigonometric, logarithmic, or exponential functions since their arguments must be dimensionless. Finally, dimensional analysis cannot verify the correctness of equations involving multiple terms with different dimensions or identify which physical principles govern a phenomenon.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionId": "limitations-of-dimensional-analysis",
+    "sectionLabel": "Limitations of Dimensional Analysis",
+    "session": "annual",
+    "stem": "Describe the limitations of dimensional analysis.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m17a25e0pq43hha7sd5qwck1398e15g8",
+    "exerciseId": "xd78545ngsn6xpna3pjw0erdsx8e1atv",
+    "exerciseTitle": "Exercise 1: Comprehensive Questions",
+    "keyPoints": [
+      "The dimension of a physical quantity expresses it in terms of the base quantities (mass M, length L, time T, etc.) raised to appropriate powers, e.g. velocity has dimension $[LT^{-1}]$.",
+      "Advantages: dimensions let us check the homogeneity/correctness of equations, derive relationships between physical quantities, and convert units between systems.",
+      "Example: force = mass x acceleration has dimension $[M][LT^{-2}] = [MLT^{-2}]$; any equation claiming to equal a force must have this same dimension on both sides."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The dimension of a physical quantity describes its qualitative nature in terms of base quantities such as mass, length, and time. Dimensions are written in square brackets, and the dimensions of derived quantities are obtained by multiplying or dividing the dimensions of the base quantities from which they are formed. Dimensional analysis is useful for checking the homogeneity of an equation, deriving a possible form of a formula, and determining the units of a quantity. Every term added in an equation must have the same dimensions, and both sides must match. Its limitations are that it cannot distinguish quantities with the same dimensions, determine dimensionless constants, or derive relations involving trigonometric, exponential, or logarithmic functions.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionId": "meaning-of-dimension",
+    "sectionLabel": "Meaning of Dimension",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What does the dimension of a physical quantity mean? What are its advantages? Explain with examples.",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "dimensions",
+    "topicTitle": "1.2 Dimensions of Physical Quantities",
+    "_id": "m1752x065k0deeejtprxzdzsj185qnwe",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A dimensionless quantity is one that has no dimensions, meaning it cannot be expressed in terms of the base quantities [M], [L], [T], [A], [K], [cd], or [mol]. Examples include ratios, angles (in radians), refractive index, and relative density, which are formed by dividing quantities of the same dimension.",
+    "keyPoints": [
+      "Dimensionless quantities have no base dimension symbols",
+      "They result from ratios of quantities with identical dimensions",
+      "Common examples: angles (radians), refractive index, strain, relative density",
+      "Dimensionless quantities are pure numbers without units",
+      "They are useful in physics for comparing similar physical quantities"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A dimensionless quantity is one that has no dimensions, meaning it cannot be expressed in terms of the base quantities [M], [L], [T], [A], [K], [cd], or [mol]. Examples include ratios, angles (in radians), refractive index, and relative density, which are formed by dividing quantities of the same dimension.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Strain"
+      },
+      {
+        "key": "B",
+        "text": "Spring constant 'K'"
+      },
+      {
+        "key": "C",
+        "text": "Young's constant 'Y'"
+      },
+      {
+        "key": "D",
+        "text": "Stress"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "types-of-physical-quantities",
+    "sectionLabel": "Types of Physical Quantities",
+    "session": "annual",
+    "stem": "Which one of the following is a **dimensionless quantity**?",
+    "topicId": "ms7192nfwc7retd7jf5qnh8hxd85p3mx",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "errors",
+    "topicTitle": "1.3 Errors and Uncertainties in Measurement",
+    "_id": "m17407zs1hxdmnde2zzt32n4vs85p5td",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Since volume depends on the cube of radius, the percentage uncertainty in volume is three times the percentage uncertainty in radius. Therefore, the error in the calculated volume is $3 \\times 1\\% = 3\\%$.",
+    "keyPoints": [
+      "Identifies the volume formula for a sphere: $V = \\frac{4}{3}\\pi r^3$",
+      "Applies the rule for uncertainty in products/powers: percentage uncertainty multiplies by the power exponent",
+      "Correctly calculates: percentage uncertainty in volume = 3 × percentage uncertainty in radius",
+      "Arrives at final answer: 3% error in volume",
+      "Shows understanding that uncertainty propagates through mathematical operations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Since volume depends on the cube of radius, the percentage uncertainty in volume is three times the percentage uncertainty in radius. Therefore, the error in the calculated volume is $3 \\times 1\\% = 3\\%$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1\\%$"
+      },
+      {
+        "key": "B",
+        "text": "$2\\%$"
+      },
+      {
+        "key": "C",
+        "text": "$3\\%$"
+      },
+      {
+        "key": "D",
+        "text": "$4\\%$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "3-uncertainty-in-a-power",
+    "sectionLabel": "3. Uncertainty in a Power",
+    "session": "annual",
+    "stem": "The percentage uncertainty in the measurement of radius of a sphere is $1\\%$. The error in the calculated value of its volume is:",
+    "topicId": "ms79j96jaqjgz1765sb53j26c585p9e0",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "errors",
+    "topicTitle": "1.3 Errors and Uncertainties in Measurement",
+    "_id": "m1764k98m5g3tp601q7wgyfvhs8e1wfh",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking more readings and averaging them reduces the effect of random errors, giving a mean value that is statistically closer to the true value and reducing the overall uncertainty in the result.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.4",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the importance of increasing the number of readings in an experiment?",
+    "topicId": "ms79j96jaqjgz1765sb53j26c585p9e0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "errors",
+    "topicTitle": "1.3 Errors and Uncertainties in Measurement",
+    "_id": "m17cs5wchazv8xfd54pxvf664d8e0h56",
+    "correctKey": "D",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Percent error = |expected-actual|/expected x 100 = (171.9-154.8)/171.9 x 100 = 17.1/171.9 x 100 ~= 9.9%.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "17.1%"
+      },
+      {
+        "key": "B",
+        "text": "90.1%"
+      },
+      {
+        "key": "C",
+        "text": "111.0%"
+      },
+      {
+        "key": "D",
+        "text": "9.9%"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "errors-in-measurement",
+    "sectionLabel": "Errors in Measurement",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A reaction takes place that is expected to yield 171.9 g of product, but it only yields 154.8 g. What is the percent error for this experiment?",
+    "topicId": "ms79j96jaqjgz1765sb53j26c585p9e0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "errors",
+    "topicTitle": "1.3 Errors and Uncertainties in Measurement",
+    "_id": "m17afwc7pd6xy1s5d4k1adf5n98e1c15",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An instrument with the smallest resolution can detect smaller changes in the quantity being measured, giving a more precise reading and reducing the uncertainty in the measurement, which is important for accurate scientific results.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.3",
+    "sectionId": "errors-in-measurement",
+    "sectionLabel": "Errors in Measurement",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why is it important to use an instrument with the smallest resolution?",
+    "topicId": "ms79j96jaqjgz1765sb53j26c585p9e0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "errors",
+    "topicTitle": "1.3 Errors and Uncertainties in Measurement",
+    "_id": "m171wyem22qhe15rba5m8xkt798e0vhq",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Every measurement is limited by the resolution/precision of the measuring instrument, the skill and reaction time of the observer, and environmental/random variations during the measurement process, so no measurement can be taken as perfectly exact; there is always some associated uncertainty.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.9",
+    "sectionId": "sources-of-measurement-uncertainty",
+    "sectionLabel": "Sources of Measurement Uncertainty",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Justify why all measurements contain some uncertainty.",
+    "topicId": "ms79j96jaqjgz1765sb53j26c585p9e0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "errors",
+    "topicTitle": "1.3 Errors and Uncertainties in Measurement",
+    "_id": "m174wjvvewdjq6bprzzj36zbvn8e0j3p",
+    "exerciseId": "xd78545ngsn6xpna3pjw0erdsx8e1atv",
+    "exerciseTitle": "Exercise 1: Comprehensive Questions",
+    "keyPoints": [
+      "Uncertainty is the range within which the true value of a measured quantity is expected to lie, reflecting the limitations of the measuring instrument and process.",
+      "It is typically expressed as a plus-or-minus value alongside the measured quantity, e.g. (5.0 ± 0.1) cm.",
+      "Uncertainty arises from instrument resolution, random variations between repeated readings, and systematic effects, and is an unavoidable part of any physical measurement."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Uncertainty is the range of possible values within which the true value of a measurement is expected to lie. For example, a result written as $(3.06pm0.02) mathrm{mm}$ indicates that the actual value is expected to be between $3.04 mathrm{mm}$ and $3.08 mathrm{mm}$. Uncertainty arises from limitations of the measuring instrument and from the experimenter's skill or method.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionId": "sources-of-measurement-uncertainty",
+    "sectionLabel": "Sources of Measurement Uncertainty",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Define and explain the term uncertainty.",
+    "topicId": "ms79j96jaqjgz1765sb53j26c585p9e0"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "estimation-of-physical-quantities",
+    "topicTitle": "1.4 Estimation of Physical Quantities",
+    "_id": "m17bdetrgncmq6cnz5n7hsxeth8e10n5",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking an average heart rate of about 70-75 beats/minute and 60 years converted to minutes (60 x 365 x 24 x 60 ~= 3.15x10^7 minutes/year x 60 ~= 3.15x10^9 minutes over 60 years... more precisely: 60 years x 365 days x 24 hours x 60 min x ~75 beats/min gives an order of magnitude of 10^9 heartbeats. (Ans. 10^9, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.1",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Estimate the number of heartbeats in a lifetime of 60 years.",
+    "topicId": "ms7ehfj65g23wggwvgx1z0fnms85qa3c"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "estimation-of-physical-quantities",
+    "topicTitle": "1.4 Estimation of Physical Quantities",
+    "_id": "m17b3zy3etzh7cm51bv7sz1m318e1n7k",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Number of protons ~= mass of bacterium / mass of proton = 10^-15 / 10^-27 = 10^12. (Ans. 10^12 protons, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.6",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Estimate how many protons are there in a bacterium. Take mass of bacterium as 10^-15 kg and mass of proton 10^-27 kg.",
+    "topicId": "ms7ehfj65g23wggwvgx1z0fnms85qa3c"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "estimation-of-physical-quantities",
+    "topicTitle": "1.4 Estimation of Physical Quantities",
+    "_id": "m1724jdegr4jnp3rfa5meg99918e0fmh",
+    "correctKey": "C",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "10^6 + 10^3 is dominated by the much larger term 10^6, so its order of magnitude is 10^6.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "10^18"
+      },
+      {
+        "key": "B",
+        "text": "10^9"
+      },
+      {
+        "key": "C",
+        "text": "10^6"
+      },
+      {
+        "key": "D",
+        "text": "10^3"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionId": "order-of-magnitude-estimation",
+    "sectionLabel": "Order of Magnitude Estimation",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Order of magnitude of (10^6 + 10^3) is:",
+    "topicId": "ms7ehfj65g23wggwvgx1z0fnms85qa3c"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "estimation-of-physical-quantities",
+    "topicTitle": "1.4 Estimation of Physical Quantities",
+    "_id": "m17cb7ae9kjpvcra0bfhj7qjpn8e1t4g",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Number of atoms ~= diameter of Sun / diameter of proton = 10^5 / 10^-14 = 10^19. (Ans. 10^19 hydrogen atoms, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.7",
+    "sectionId": "order-of-magnitude-estimation",
+    "sectionLabel": "Order of Magnitude Estimation",
+    "sourceRef": {
+      "blockIndex": 17,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Estimate how many hydrogen atoms does it take to stretch across the diameter of the Sun. Take diameter of the Sun as 10^5 km and diameter of a proton (hydrogen atom) 10^-14 km.",
+    "topicId": "ms7ehfj65g23wggwvgx1z0fnms85qa3c"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "estimation-of-physical-quantities",
+    "topicTitle": "1.4 Estimation of Physical Quantities",
+    "_id": "m17dt9xn774kn1354fbw8njevh8e0ekw",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A reasonable-estimate table lists everyday physical quantities alongside their approximate order-of-magnitude values, e.g.: mass of a person ~ 70 kg, length of a football pitch ~ 100 m, diameter of a human hair ~ 10^-5 m, age of the universe ~ 10^17 s, mass of the Earth ~ 10^24 kg. Such estimates are useful for sanity-checking calculated results.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.1",
+    "sectionId": "purpose-of-physical-estimation",
+    "sectionLabel": "Purpose of Physical Estimation",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Draw a table to show a reasonable estimate of some physical quantities.",
+    "topicId": "ms7ehfj65g23wggwvgx1z0fnms85qa3c"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "estimation-of-physical-quantities",
+    "topicTitle": "1.4 Estimation of Physical Quantities",
+    "_id": "m170k5mnf5vh4mhax02agkqxas8e01b3",
+    "exerciseId": "xd78545ngsn6xpna3pjw0erdsx8e1atv",
+    "exerciseTitle": "Exercise 1: Comprehensive Questions",
+    "keyPoints": [
+      "Estimation means making a reasonable, order-of-magnitude approximation of a physical quantity's value without precise measurement, often using known reference values and simple reasoning.",
+      "It is used when an exact measurement is impractical, to sanity-check a calculated result, or to quickly assess feasibility.",
+      "Example: estimating the number of heartbeats in a lifetime by assuming an average heart rate and multiplying by the number of seconds in a typical lifespan, giving an order-of-magnitude answer like 10^9."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An estimation is a rough educated value of a physical quantity obtained from prior experience and sound physical reasoning. It is not a random guess. A good estimate identifies the relevant physical principles and variables, then uses reasonable approximate values. For example, the height of a building can be estimated by multiplying the number of floors by an estimated floor height. The mass of an object can be estimated by first estimating its volume and then multiplying by an estimated average density.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionId": "purpose-of-physical-estimation",
+    "sectionLabel": "Purpose of Physical Estimation",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is meant by estimation of a physical quantity? Explain with examples.",
+    "topicId": "ms7ehfj65g23wggwvgx1z0fnms85qa3c"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "precision-and-accuracy",
+    "topicTitle": "1.5 Precision vs. Accuracy in Measurement",
+    "_id": "m172xtzzq5zrzcxdcm5hp4sqpx8e1tcd",
+    "correctKey": "C",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Repeatability of a measurement (consistent results on repetition) is the definition of precision.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "accurate"
+      },
+      {
+        "key": "B",
+        "text": "average"
+      },
+      {
+        "key": "C",
+        "text": "precise"
+      },
+      {
+        "key": "D",
+        "text": "estimated"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A measurement, which on repetition gives same or nearly same result is called:",
+    "topicId": "ms7ccf71d4fk9nxsafnky7c6wd85qme4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "precision-and-accuracy",
+    "topicTitle": "1.5 Precision vs. Accuracy in Measurement",
+    "_id": "m175a705s8s78wb42varct42858e0x96",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Precision refers to how close repeated measurements are to each other (consistency/reproducibility), while accuracy refers to how close a measurement is to the true or accepted value. A measurement can be precise without being accurate (consistently wrong) or accurate without being precise (correct on average but scattered).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.5",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the difference between precision and accuracy?",
+    "topicId": "ms7ccf71d4fk9nxsafnky7c6wd85qme4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "precision-and-accuracy",
+    "topicTitle": "1.5 Precision vs. Accuracy in Measurement",
+    "_id": "m176s550k3p0gzvehpbj17yxtn85phz0",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Precision = consistency/reproducibility of repeated measurements; determined by instrument's least count",
+      "Accuracy = closeness to true/accepted value; indicates low systematic error",
+      "High precision means low random error (measurements clustered together)",
+      "High accuracy means low systematic error (measurements near true value)",
+      "A measurement can be precise but inaccurate, or accurate but imprecise"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Precision refers to the consistency and reproducibility of measurements, meaning how close repeated measurements are to one another. It indicates low random error and is determined by the instrument's least count. Accuracy, conversely, refers to how close a measurement is to the true or accepted value, indicating low systematic error. A measurement can be precise without being accurate, and vice versa.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionId": "precision-vs-accuracy-error-types",
+    "sectionLabel": "Precision vs. Accuracy: Error Types",
+    "session": "annual",
+    "stem": "Differentiate between **'precision'** and **'accuracy'**.",
+    "topicId": "ms7ccf71d4fk9nxsafnky7c6wd85qme4",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "precision-and-accuracy",
+    "topicTitle": "1.5 Precision vs. Accuracy in Measurement",
+    "_id": "m17a25phxyzkv336r4prcntdes85q355",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Precision = consistency/reproducibility of repeated measurements; determined by instrument's least count",
+      "Accuracy = closeness of measurement to true/accepted value; indicates low systematic error",
+      "Precision reflects random error; accuracy reflects systematic error",
+      "A set of measurements can be precise without being accurate, or vice versa",
+      "High-quality measurements require both high precision and high accuracy"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Precision refers to the consistency and reproducibility of measurements, meaning how close repeated measurements are to one another. It indicates low random error and is determined by the instrument's least count. Accuracy, conversely, refers to how close a measurement is to the true or accepted value, indicating low systematic error. A measurement can be precise but inaccurate, or accurate but imprecise; ideally, measurements should be both precise and accurate.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionId": "precision-vs-accuracy-error-types",
+    "sectionLabel": "Precision vs. Accuracy: Error Types",
+    "session": "annual",
+    "stem": "Differentiate between **precision** and **accuracy**.",
+    "topicId": "ms7ccf71d4fk9nxsafnky7c6wd85qme4",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "precision-and-accuracy",
+    "topicTitle": "1.5 Precision vs. Accuracy in Measurement",
+    "_id": "m175g7k4rs1zpg5t10dv9r5wvs8e0hyc",
+    "correctKey": "D",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "All three readings agree closely (precise) but disagree with the true value of 2.00 g (not accurate), so the balance is precise but not accurate.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "both accurate and precise"
+      },
+      {
+        "key": "B",
+        "text": "neither accurate nor precise"
+      },
+      {
+        "key": "C",
+        "text": "accurate but not precise"
+      },
+      {
+        "key": "D",
+        "text": "precise but not accurate."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "precision-vs-accuracy-error-types",
+    "sectionLabel": "Precision vs. Accuracy: Error Types",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Three different people weigh a standard mass of 2.00 g on the same balance. Each person obtains a reading of exactly 7.32 g for the mass of the standard. These results imply that the balance is:",
+    "topicId": "ms7ccf71d4fk9nxsafnky7c6wd85qme4"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "significant-figures",
+    "topicTitle": "1.6 Significant Figures",
+    "_id": "m175p68v17d2r52ckghypmpr8s85qc9j",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The number of significant figures in 0.000125010 is **6**. The leading zeros (0.000) are not significant as they are placeholders. The significant figures are 1, 2, 5, 0, 1, and the final 0, which is significant because it is a trailing zero after a decimal point.",
+    "keyPoints": [
+      "Leading zeros (0.000) are not significant - they are placeholders only",
+      "Non-zero digits (1, 2, 5, 1) are always significant",
+      "Captive zeros between non-zero digits are significant (the 0 between 5 and 1)",
+      "Trailing zeros after a decimal point are significant (final 0)",
+      "Total count: 6 significant figures (1, 2, 5, 0, 1, 0)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The number of significant figures in 0.000125010 is **6**. The leading zeros (0.000) are not significant as they are placeholders. The significant figures are 1, 2, 5, 0, 1, and the final 0, which is significant because it is a trailing zero after a decimal point.",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "rules-for-identifying-significant-figures",
+    "sectionLabel": "Rules for Identifying Significant Figures",
+    "session": "annual",
+    "stem": "The number of **significant figures** in $0.000125010$ are:",
+    "topicId": "ms781cx68qsfztfvtq2g5662cd85qtv1",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "supplementary-units",
+    "topicTitle": "1.7 Supplementary Units in the SI System",
+    "_id": "m177evt361dmrk9fghpavb15tn85pp1p",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The angle subtended at the center of a circle by an arc equal to its radius is **1 radian**. This is derived from the relationship $\\theta = \\frac{s}{r}$, where $s$ is the arc length and $r$ is the radius. When $s = r$, we get $\\theta = 1$ radian, which is the definition of the radian as a supplementary (dimensionless derived) unit in the SI system.",
+    "keyPoints": [
+      "Correctly identifies the angle as 1 radian",
+      "Applies the formula $\\theta = \\frac{s}{r}$ with $s = r$",
+      "Recognizes radian as the SI unit for angular displacement",
+      "Shows understanding of the relationship between arc length and radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The angle subtended at the center of a circle by an arc equal to its radius is **1 radian**. This is derived from the relationship $\\theta = \\frac{s}{r}$, where $s$ is the arc length and $r$ is the radius. When $s = r$, we get $\\theta = 1$ radian, which is the definition of the radian as a supplementary (dimensionless derived) unit in the SI system.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\pi}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$1\\text{ radian}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "units-of-angular-displacement",
+    "sectionLabel": "Units of Angular Displacement",
+    "session": "annual",
+    "stem": "The angle subtended at the center of a circle by an arc equal to its radius is:",
+    "topicId": "ms79z5r4trgny7d8n5hk12jpx985qyj4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "supplementary-units",
+    "topicTitle": "1.7 Supplementary Units in the SI System",
+    "_id": "m171fmkdmpfwjhdnwbveky7an985pgv2",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "3.14 Sr"
+      },
+      {
+        "key": "B",
+        "text": "57.3 Sr"
+      },
+      {
+        "key": "C",
+        "text": "12.57 Sr"
+      },
+      {
+        "key": "D",
+        "text": "6.28 Sr"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "the-si-supplementary-units",
+    "sectionLabel": "The SI Supplementary Units",
+    "session": "annual",
+    "stem": "Solid angle subtended at the center of a sphere of radius ($r$) is equal to:",
+    "topicId": "ms79z5r4trgny7d8n5hk12jpx985qyj4",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "supplementary-units",
+    "topicTitle": "1.7 Supplementary Units in the SI System",
+    "_id": "m17c8vs69r1wzj7rsczwhh5eq185qkht",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Radian measures plane angles as arc length divided by radius",
+      "Steradian measures solid angles as surface area divided by radius squared",
+      "Complete sphere has surface area $4\\pi r^2$",
+      "Substituting into steradian formula gives $\\Omega = \\frac{4\\pi r^2}{r^2} = 4\\pi$ Sr",
+      "Both are dimensionless derived units in SI system"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Radian** is a derived unit measuring plane angles, defined as the angle subtended by an arc equal in length to the radius of a circle. **Steradian** is a derived unit measuring solid angles in three dimensions, defined as the solid angle subtended by a surface area equal to the square of the radius of a sphere.\n\n**Derivation of steradians in a sphere:**\nFor a plane angle in radians: $\\theta = \\frac{\\text{arc length}}{\\text{radius}} = \\frac{s}{r}$\n\nFor a solid angle in steradians: $\\Omega = \\frac{\\text{surface area}}{\\text{radius}^2} = \\frac{A}{r^2}$\n\nFor a complete sphere, the total surface area is $A = 4\\pi r^2$\n\nTherefore: $\\Omega_{\\text{total}} = \\frac{4\\pi r^2}{r^2} = 4\\pi \\text{ Sr}$\n\nThus, the number of steradians in a complete sphere equals $4\\pi$ steradians.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionId": "the-si-supplementary-units",
+    "sectionLabel": "The SI Supplementary Units",
+    "session": "annual",
+    "stem": "Differentiate between **radian** and **steradians**. Show that number of steradians in sphere are equal to $4\\pi\\text{ Sr}$.",
+    "topicId": "ms79z5r4trgny7d8n5hk12jpx985qyj4",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m17fq3jceftj08qqm6hzvnvcts8e1vmy",
+    "correctKey": "B",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Percentage uncertainty = (0.02/0.50) x 100 = 4%.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "2%"
+      },
+      {
+        "key": "B",
+        "text": "4%"
+      },
+      {
+        "key": "C",
+        "text": "6%"
+      },
+      {
+        "key": "D",
+        "text": "8%"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The mean diameter of a wire is found to be (0.50 ± 0.02) mm. The percentage uncertainty in the diameter is:",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m1791q4dkat3qer7js4dagha018e10br",
+    "correctKey": "A",
+    "exerciseId": "xd71z6766qcvevbdzw84jq4t918e0ewv",
+    "exerciseTitle": "Exercise 1: Multiple Choice Questions",
+    "explanation": "Uncertainty is estimated as half the range: (3.4-2.8)/2 = 0.6/2 = 0.3 s.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "±0.3 s"
+      },
+      {
+        "key": "B",
+        "text": "±0.6 s"
+      },
+      {
+        "key": "C",
+        "text": "±3.1 s"
+      },
+      {
+        "key": "D",
+        "text": "±7.75 s"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A student is measuring the time of an event by using stopwatch. He takes 5 measurements as: 3.0 s, 3.2 s, 3.4 s, 2.8 s, 3.1 s. What is the uncertainty in the results?",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m1774zky4j2xcawpq2q64b7yqh8e0yk0",
+    "exerciseId": "xd74etht6j273wwfzmqzzxxf958e06ef",
+    "exerciseTitle": "Exercise 1: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) Mean = (6.2+6.0+6.4+6.1+5.8)/5 = 30.5/5 = 6.1 s. Uncertainty is estimated as half the range: (6.4-5.8)/2 = 0.6/2 = 0.3 s. (ii) The result should be expressed as (6.1 ± 0.3) s.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.7",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A ball is thrown in the air and 5 different students are individually measuring the time it takes to fall back down using stopwatches. The times obtained by each student are: 6.2 s, 6.0 s, 6.4 s, 6.1 s, 5.8 s. (i) What is the uncertainty of the results? (ii) How should the resulting time be expressed?",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m17fzb1r3zp4awczrtcwwh71r98e0xfe",
+    "exerciseId": "xd78545ngsn6xpna3pjw0erdsx8e1atv",
+    "exerciseTitle": "Exercise 1: Comprehensive Questions",
+    "keyPoints": [
+      "Addition/subtraction: absolute uncertainties are added, regardless of whether the quantities themselves are added or subtracted.",
+      "Multiplication/division: percentage (relative) uncertainties are added to get the percentage uncertainty of the result.",
+      "Powers: the percentage uncertainty of a quantity raised to a power n is multiplied by n (e.g. for $x^2$, the percentage uncertainty doubles)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For addition or subtraction, add the absolute uncertainties: if $z=x+y$ or $z=x-y$, then $Delta z=pm(Delta x+Delta y)$. For multiplication or division, add the percentage uncertainties: the percentage uncertainty in $z=xy$ or $z=x/y$ is the sum of the percentage uncertainties in $x$ and $y$. For a power, multiply the percentage uncertainty in the base by the power. For example, if $z=x^3$, its percentage uncertainty is three times the percentage uncertainty in $x$. For an average of several readings, first calculate the average, find each deviation from that average, and use the mean deviation as the uncertainty in the average. The type of uncertainty must be chosen consistently with the operation.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Discuss the rules for calculating uncertainty propagation in the final results in different cases.",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m179cyw2d5jaex0xp8w7gt1yx98e1a04",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Percentage uncertainty in A = 2x(uncertainty in X) + 2x(uncertainty in Y) + 1x(uncertainty in Z) = 2(1%) + 2(1%) + 2% = 2+2+2 = 6%. (Ans. 6%, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.3",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If A = X^2/(Y^2 Z), then find the percentage uncertainty in A. The percentage uncertainties in X, Y and Z are 1%, 1% and 2% respectively.",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m1796zkc0se5sxmg3wb1w8me5x85q36p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The percentage uncertainty in $r$ is calculated using the formula: Percentage uncertainty $= \\frac{\\Delta r}{r} \\times 100\\%$. Given $r = 2.25 \\pm 0.01$ cm, we have $\\Delta r = 0.01$ cm. Therefore, percentage uncertainty $= \\frac{0.01}{2.25} \\times 100\\% = 0.44\\%$ (or approximately $0.4\\%$).",
+    "keyPoints": [
+      "Identifies absolute uncertainty $\\Delta r = 0.01$ cm from the given measurement",
+      "Applies correct formula: Percentage uncertainty $= \\frac{\\Delta r}{r} \\times 100\\%$",
+      "Substitutes values correctly: $\\frac{0.01}{2.25} \\times 100\\%$",
+      "Calculates final answer as $0.44\\%$ or $0.4\\%$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The percentage uncertainty in $r$ is calculated using the formula: Percentage uncertainty $= \\frac{\\Delta r}{r} \\times 100\\%$. Given $r = 2.25 \\pm 0.01$ cm, we have $\\Delta r = 0.01$ cm. Therefore, percentage uncertainty $= \\frac{0.01}{2.25} \\times 100\\% = 0.44\\%$ (or approximately $0.4\\%$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.2%"
+      },
+      {
+        "key": "B",
+        "text": "0.3%"
+      },
+      {
+        "key": "C",
+        "text": "0.4%"
+      },
+      {
+        "key": "D",
+        "text": "0.5%"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "3-uncertainty-in-a-power",
+    "sectionLabel": "3. Uncertainty in a Power",
+    "session": "annual",
+    "stem": "If $r = 2.25 \\pm 0.01 \\text{ cm}$ then percentage uncertainty in \"$r$\" will be:",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m17f94s0bdbda917cxb3mqm1z985qrah",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies volume formula $V = \\frac{4}{3}\\pi r^3$ and substitutes given radius value",
+      "Calculates numerical volume value accurately (47.71 cm³)",
+      "Applies uncertainty propagation rule for powers: $\\frac{\\Delta V}{V} = 3\\frac{\\Delta r}{r}$",
+      "Determines absolute uncertainty in volume ($\\Delta V \\approx 0.64$ cm³)",
+      "Expresses final answer in correct form with both value and uncertainty: $(47.7 \\pm 0.6)$ cm³"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. With $r = 2.25$ cm, $V = \\frac{4}{3}\\pi (2.25)^3 = \\frac{4}{3}\\pi (11.391) = 47.71$ cm³. For uncertainty, using the power rule: $\\frac{\\Delta V}{V} = 3\\frac{\\Delta r}{r} = 3 \\times \\frac{0.01}{2.25} = 0.0133$, so $\\Delta V = 0.0133 \\times 47.71 = 0.64$ cm³. Therefore, **$V = (47.71 \\pm 0.64)$ cm³** or approximately **$(47.7 \\pm 0.6)$ cm³**.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sectionId": "3-uncertainty-in-a-power",
+    "sectionLabel": "3. Uncertainty in a Power",
+    "session": "annual",
+    "stem": "The radius of sphere '$r$' is measured with a Vernier Callipers as $(r \\pm \\Delta r) = (2.25 \\pm 0.01)\\text{ cm}$. Calculate the **volume of sphere**.",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m17407zs1hxdmnde2zzt32n4vs85p5td",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Since volume depends on the cube of radius, the percentage uncertainty in volume is three times the percentage uncertainty in radius. Therefore, the error in the calculated volume is $3 \\times 1\\% = 3\\%$.",
+    "keyPoints": [
+      "Identifies the volume formula for a sphere: $V = \\frac{4}{3}\\pi r^3$",
+      "Applies the rule for uncertainty in products/powers: percentage uncertainty multiplies by the power exponent",
+      "Correctly calculates: percentage uncertainty in volume = 3 × percentage uncertainty in radius",
+      "Arrives at final answer: 3% error in volume",
+      "Shows understanding that uncertainty propagates through mathematical operations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Since volume depends on the cube of radius, the percentage uncertainty in volume is three times the percentage uncertainty in radius. Therefore, the error in the calculated volume is $3 \\times 1\\% = 3\\%$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1\\%$"
+      },
+      {
+        "key": "B",
+        "text": "$2\\%$"
+      },
+      {
+        "key": "C",
+        "text": "$3\\%$"
+      },
+      {
+        "key": "D",
+        "text": "$4\\%$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "3-uncertainty-in-a-power",
+    "sectionLabel": "3. Uncertainty in a Power",
+    "session": "annual",
+    "stem": "The percentage uncertainty in the measurement of radius of a sphere is $1\\%$. The error in the calculated value of its volume is:",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "01-measurements",
+    "chapterTitle": "Measurements",
+    "topicSlug": "uncertainties-in-final-result",
+    "topicTitle": "1.8 Assessment of Total Uncertainty in the Final Result",
+    "_id": "m170nf176awwbpqf7333gy1a6d8e13tz",
+    "exerciseId": "xd74w1extjxn4y9f7akb10jg458e19cb",
+    "exerciseTitle": "Exercise 1: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) Power $P = I^2 R = 3^2 \\times 13 = 9 \\times 13 = 117$ W (to 1 sig. fig., 100 W by strict rounding, but the textbook's own printed value 117 W is used here). (b) Percentage uncertainty in I $= (0.1/3) \\times 100 \\approx 3\\%$. (c) Percentage uncertainty in R $= (0.5/13) \\times 100 \\approx 3.84\\%$. (d) Percentage uncertainty in P $= 2\\times3\\% + 3.84\\% \\approx 9.84\\%$, so absolute uncertainty $= 0.0984 \\times 117 \\approx 11.7$ W. (Ans. 117 W, 3%, 3.84%, 11.7 W, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1.8",
+    "sectionId": "3-uncertainty-in-a-power",
+    "sectionLabel": "3. Uncertainty in a Power",
+    "sourceRef": {
+      "blockIndex": 19,
+      "chapterNumber": 1,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The current passing through a resistor R = (13 ± 0.5) ohm is I = (3 ± 0.1) A. (a) Calculate the power consumed (correct to one significant figure). (b) Find the percentage uncertainty of the current passing through the resistor. (c) Find the percentage uncertainty of the resistance. (d) Find the absolute uncertainty of the electrical power.",
+    "topicId": "ms7csq1hz3th69rp0qzq3qge7185pkjn"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "09-solution-of-trigonometric-equations",
+    "chapterTitle": "Solution Of Trigonometric Equations",
+    "topicSlug": "exercise-9-1",
+    "topicTitle": "9.1 General Solutions of Trigonometric Equations",
+    "_creationTime": 1777384400148.427,
+    "_id": "kx70rbyje51cyb6ntdxtnyvxbd85qws0",
+    "createdAt": 1777384400148,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n*   Solving basic and multi-step trigonometric equations.\n*   Working with specific domains in both radians ($[0, 2\\pi]$) and degrees ($[0^\\circ, 360^\\circ]$).\n*   Finding general solutions for sine, cosine, and tangent functions.\n*   Applying the property of periodicity to find multiple solutions.\n\n*   Understanding the difference between inclusive and exclusive intervals (e.g., $[0, 2\\pi]$ vs $[0, 2\\pi)$).\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**General Solutions (where $n \\in \\mathbb{Z}$):**\n\n| Equation | General Solution (Radians) |\n| :--- | :--- |\n| $\\sin \\theta = a$ | $\\theta = n\\pi + (-1)^n \\arcsin(a)$ |\n\n| $\\cos \\theta = a$ | $\\theta = 2n\\pi \\pm \\arccos(a)$ |\n\n| $\\tan \\theta = a$ | $\\theta = n\\pi + \\arctan(a)$ |\n\n**Periodicity Identities:**\n*   $\\sin(\\theta + 2\\pi k) = \\sin \\theta$\n*   $\\cos(\\theta + 2\\pi k) = \\cos \\theta$\n*   $\\tan(\\theta + \\pi k) = \\tan \\theta$\n\n---\n\n# **Summary**\n\nThis exercise covers the fundamental techniques for solving trigonometric equations. Key learnings include identifying all possible solutions within a restricted interval by considering the unit circle or the function's graph, and expressing the infinite set of solutions using general solution formulas. Strategies involve isolating the trigonometric term, determining the reference angle, and adjusting for the specific period of the function (especially when the argument is modified, such as $2\\theta$ or $\\theta + \\phi$).",
+    "publishedAt": 1777384400148,
+    "slug": "exercise-9-1",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "9.1 Exercise 9.1",
+    "topicId": "ms7cfj2zcpbv4j0ay2ensdja2d85q28p",
+    "updatedAt": 1787554998396
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "09-solution-of-trigonometric-equations",
+    "chapterTitle": "Solution Of Trigonometric Equations",
+    "topicSlug": "exercise-9-2",
+    "topicTitle": "9.2 Graphical Solution of Trigonometric Equations",
+    "_creationTime": 1777384400926.212,
+    "_id": "kx76tvk3zav2frevnjwkfxh4nn85qk45",
+    "createdAt": 1777384400926,
+    "mdxBody": "# **Exercise Questions**\n\n<ExerciseQuestionList questions=\"[{&quot;num&quot;:1,&quot;path&quot;:&quot;exercises/class-12/maths/09_Solution of Trigonometric Equations/9.2 Q&A/9.2 Q-1.md&quot;,&quot;statement&quot;:&quot;Solve the following trigonometric equations graphically:&quot;}]\"></ExerciseQuestionList>\n\n---\n---\n\n# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- **Graphical Solutions:** Finding the roots of an equation by identifying where two functions intersect on a coordinate plane.\n\n- **Trigonometric Functions:** Understanding the periodic behavior and wave patterns of sine, cosine, and tangent functions.\n\n- **Points of Intersection:** Determining the $x$-values where $f(x) = g(x)$ visually.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Function Type | Standard Form |\n| :--- | :--- |\n| Sine Function | $y = \\sin(x)$ |\n| Cosine Function | $y = \\cos(x)$ |\n| Tangent Function | $y = \\tan(x)$ |\n| Intersection Method | $f(x) = g(x)$ |\n\n---\n\n# **Summary**\n\nThis exercise focuses on solving trigonometric equations using graphical methods. The primary strategy involves plotting the trigonometric functions involved and identifying their intersection points within a specified domain. This approach provides a visual understanding of the number of solutions and their approximate values based on the periodicity of the functions.",
+    "publishedAt": 1777384400926,
+    "slug": "exercise-9-2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "9.2 Exercise 9.2",
+    "topicId": "ms76j6jg19nwx99h6jhvpev0nx85psr1",
+    "updatedAt": 1787554998669
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "09-solution-of-trigonometric-equations",
+    "chapterTitle": "Solution Of Trigonometric Equations",
+    "topicSlug": "exercise-9-3",
+    "topicTitle": "9.3 Angles of Elevation and Depression",
+    "_creationTime": 1777384401887.4094,
+    "_id": "kx792mvrz1bxqfqq3t4rqset6s85qykr",
+    "createdAt": 1777384401887,
+    "mdxBody": "# **Key Concepts**\n\n## Angles of Elevation and Depression\n\n- The **angle of elevation** is the angle measured **upward** from the horizontal to the line of sight toward an object above.\n- The **angle of depression** is the angle measured **downward** from the horizontal to the line of sight toward an object below.\n- These two angles are **equal** when measured from two ends of the same line of sight, because they are **alternate interior angles** between parallel horizontal lines.\n\n## Right-Angled Trigonometry (SOH CAH TOA)\n\nFor a right triangle with angle $\\theta$:\n\n| Ratio | Formula |\n| :--- | :--- |\n| **Sine** | $\\sin(\\theta) = \\dfrac{\\text{Opposite}}{\\text{Hypotenuse}}$ |\n| **Cosine** | $\\cos(\\theta) = \\dfrac{\\text{Adjacent}}{\\text{Hypotenuse}}$ |\n| **Tangent** | $\\tan(\\theta) = \\dfrac{\\text{Opposite}}{\\text{Adjacent}}$ |\n| **Pythagorean Theorem** | $a^2 + b^2 = c^2$ |\n\n## Inverse Trigonometric Functions\n\nWhen side lengths are known and an angle must be found, use the inverse functions:\n\n$$\\theta = \\sin^{-1}\\!\\left(\\frac{\\text{Opp}}{\\text{Hyp}}\\right), \\quad \\theta = \\cos^{-1}\\!\\left(\\frac{\\text{Adj}}{\\text{Hyp}}\\right), \\quad \\theta = \\tan^{-1}\\!\\left(\\frac{\\text{Opp}}{\\text{Adj}}\\right)$$\n\n## Proportional Reasoning with Shadows\n\nAt the same time of day, the sun's angle of elevation $\\theta$ is constant. If a flagpole of height $h_1$ casts a shadow $s_1$, and a building casts a shadow $s_2$, then:\n\n$$\\frac{h_1}{s_1} = \\tan(\\theta) = \\frac{h_2}{s_2} \\implies h_2 = \\frac{h_1 \\cdot s_2}{s_1}$$\n\n---\n\n# **Worked Examples**\n\n## Example 1: Finding Height Using Angle of Elevation\n\n**Problem:** A person stands 50 m from the base of a building and measures the angle of elevation to the top as $32°$. Find the height of the building.\n\n**Solution:**\n$$\\tan(32°) = \\frac{h}{50} \\implies h = 50 \\times \\tan(32°) \\approx 50 \\times 0.6249 \\approx 31.2 \\text{ m}$$\n\n## Example 2: Finding an Angle Using Inverse Trig\n\n**Problem:** A ramp rises 1.2 m over a horizontal distance of 6 m. Find the angle of inclination.\n\n**Solution:**\n$$\\tan(\\theta) = \\frac{1.2}{6} = 0.2 \\implies \\theta = \\tan^{-1}(0.2) \\approx 11.3°$$\n\n## Example 3: Angle of Depression\n\n**Problem:** From the top of a 40 m cliff, the angle of depression to a boat is $25°$. How far is the boat from the base of the cliff?\n\n**Solution:** The angle of depression equals the angle of elevation from the boat, so:\n$$\\tan(25°) = \\frac{40}{d} \\implies d = \\frac{40}{\\tan(25°)} \\approx \\frac{40}{0.4663} \\approx 85.8 \\text{ m}$$\n\n---\n\n# **Summary**\n\nThis exercise applies basic trigonometric principles to practical engineering, architecture, and surveying problems. The primary strategy involves:\n1. Identifying the right-angled triangle within the word problem.\n2. Labelling the known components (angles or sides).\n3. Selecting the appropriate trigonometric ratio (SOH CAH TOA) to solve for the unknown.\n4. Using inverse trig functions ($\\sin^{-1}$, $\\cos^{-1}$, $\\tan^{-1}$) when an angle must be found from side lengths.\n5. Applying similar-triangle proportions for shadow problems.",
+    "publishedAt": 1777384401887,
+    "slug": "exercise-9-3",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 9,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "9.3 Exercise 9.3",
+    "topicId": "ms7b97k9jtt2h324t4f5f08gpx85pag5",
+    "updatedAt": 1787554998826
+  }
+]

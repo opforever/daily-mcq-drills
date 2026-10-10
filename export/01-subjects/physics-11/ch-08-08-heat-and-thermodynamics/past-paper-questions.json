@@ -1,0 +1,2921 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m17a33jgjw2qrgp42cnyy36yv185p9bs",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$C_{p}+C_{v}=R$"
+      },
+      {
+        "key": "B",
+        "text": "$C_{p}=1+\\frac{R}{C_{v}}$"
+      },
+      {
+        "key": "C",
+        "text": "$R=\\frac{C_{v}}{C_{p}}$"
+      },
+      {
+        "key": "D",
+        "text": "$C_{p}=R+C_{v}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "According to the **first law of thermodynamics**:",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m173nd05s4zy7sbxfcwdpetm5d85p8cp",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Delta Q = \\Delta U$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Delta Q = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta Q = -\\Delta U$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta Q = \\Delta W$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionId": "3-isothermal-process-constant-temperature",
+    "sectionLabel": "3. Isothermal Process (Constant Temperature)",
+    "session": "annual",
+    "stem": "For isothermal process, first law of thermodynamics can be written as:",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m17f1vcgkcf1j5z0s0rjqrdt6585qfy5",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Adiabatic process defined as $Q = 0$ (no heat exchange)",
+      "Application of First Law: $Q = \\Delta U + W$ becomes $\\Delta U = -W$",
+      "Change in internal energy equals negative of work done by system",
+      "Temperature changes without heat transfer: decreases when system does work, increases when work done on system",
+      "Internal energy change is sole source of energy change in adiabatic process"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An adiabatic process is one where no heat is exchanged between the system and its surroundings, meaning $Q = 0$. Applying the First Law of Thermodynamics, $Q = \\Delta U + W$, we get $0 = \\Delta U + W$, which gives $\\Delta U = -W$. This means the change in internal energy equals the negative of work done by the system. If the system does work on surroundings ($W > 0$), internal energy decreases and temperature falls. Conversely, if work is done on the system ($W < 0$), internal energy increases and temperature rises.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "sectionId": "4-adiabatic-process-no-heat-exchange",
+    "sectionLabel": "4. Adiabatic Process (No Heat Exchange)",
+    "session": "annual",
+    "stem": "Briefly explain **adiabatic process** by using first law of thermodynamics.",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m174dn99hw79abaz85axm1p1wd8e2exn",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes, internally: an isolated system exchanges no heat or work with its surroundings, but internal processes (such as chemical reactions, friction between internal parts, or a spontaneous approach to internal equilibrium) can redistribute energy within the system and change its temperature, as long as total internal energy is conserved.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.3",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Can the temperature of an isolated system change? Explain.",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m174ka53a8ptsp3h9xr8f4b5c18e3gwf",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "The first law of thermodynamics is a statement of conservation of energy for a thermodynamic system: the heat Q supplied to a system equals the increase in its internal energy deltaU plus the work W done by the system on its surroundings, Q = deltaU + W.",
+      "It implies internal energy is a state function -- its change depends only on the initial and final states of the system, not on the path or process used to get there, even though Q and W individually depend on the path.",
+      "The law rules out the possibility of a perpetual motion machine of the first kind, one that would produce work without any energy input."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The first law of thermodynamics applies conservation of energy to a thermodynamic system. Heat supplied to the system increases its internal energy and may also do work on the surroundings: $Q=\\Delta U+W$ when $W$ is work done by the system. If heat is removed, internal energy decreases and compression may do work on the system. Thus heat is transferred energy, while $\\Delta U$ and work account for where that energy goes.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.3",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain first law of thermodynamics.",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m1783sxnz53ry203z22r7wyr9x85qaqj",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Internal energy can be converted to mechanical work through expansion processes",
+      "First Law relationship: $Q = \\Delta U + W$ shows energy transformation",
+      "In adiabatic expansion ($Q = 0$): $W = -\\Delta U$, internal energy converts to work",
+      "Example: gas expanding against piston converts thermal energy to mechanical motion",
+      "Temperature and internal energy decrease as mechanical work is performed"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Yes, internal energy can be converted into mechanical energy through thermodynamic processes. When a system expands against external pressure, the internal energy decreases while work is performed on the surroundings. According to the First Law: $Q = \\Delta U + W$. If heat is not supplied ($Q = 0$), then $W = -\\Delta U$, meaning the decrease in internal energy directly converts to mechanical work. A practical example is a gas expanding in a cylinder with a movable piston: as the gas cools, its internal energy decreases, and this energy is converted into mechanical work that pushes the piston outward.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "sectionId": "equation-of-the-first-law",
+    "sectionLabel": "Equation of the First Law",
+    "session": "annual",
+    "stem": "Is it possible to convert **internal energy** ($\\Delta U$) into mechanical energy? Explain with an example.",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m17752btg9eepdhbxr47z238rh85pr8m",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Delta U = \\Delta W - \\Delta Q$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Delta U = \\Delta Q - \\Delta W$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta W = \\Delta Q + \\Delta U$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta Q = \\Delta U - \\Delta W$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionId": "equation-of-the-first-law",
+    "sectionLabel": "Equation of the First Law",
+    "session": "annual",
+    "stem": "According to first law of thermodynamics:",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m174xkbgrvs99hbyepbmecfrxn8e38q3",
+    "correctKey": "D",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Thermodynamics studies closed systems in which mass does not cross the system boundary, while heat and work can be exchanged with the surroundings.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "No heat transfers to the environment."
+      },
+      {
+        "key": "B",
+        "text": "Neither heat nor any mass are transferred to the environment."
+      },
+      {
+        "key": "C",
+        "text": "No dissipated energy and heat transferred to the environment."
+      },
+      {
+        "key": "D",
+        "text": "No mass transfers to the environment."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "heat-and-internal-energy",
+    "sectionLabel": "Heat and Internal Energy",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Thermodynamics is that branch of physics in which we study:",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m1775p8jm5dmr9f5y8a7tymrdh8e3kr6",
+    "correctKey": "C",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Internal energy is a state function, meaning its change depends only on initial and final states, not the path taken -- the same property that gravitational potential energy has (its change depends only on height difference, not the path of motion).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "K.E."
+      },
+      {
+        "key": "B",
+        "text": "wave energy"
+      },
+      {
+        "key": "C",
+        "text": "gravitational P.E."
+      },
+      {
+        "key": "D",
+        "text": "solar energy"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionId": "heat-and-internal-energy",
+    "sectionLabel": "Heat and Internal Energy",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The change in internal energy is independent of paths taken, similar to:",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m173qw5jn43d7zmfdtqte1k3yx8e2bzy",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "One cannot tell purely by looking at the resulting internal energy change itself, since internal energy is a state function and deltaU = Q - W (or Q + W depending on sign convention) combines both contributions indistinguishably in the final state; only by tracking the actual process (whether mechanical work was done on/by the system, or heat was conducted/radiated in/out) can the two contributions be separated.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.4",
+    "sectionId": "heat-and-internal-energy",
+    "sectionLabel": "Heat and Internal Energy",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The internal energy of a system is increased as a result of some process, how can one tell that the increase was due to orderly macroscopic work W or due to the flow of disorderly microscopic energy 'Q'?",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m175n5mnpde16hawvq9kxnxwzd8e3ryt",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "No. By the first law of thermodynamics, deltaU = Q - W; if the system also does an equal or greater amount of work on its surroundings while absorbing heat (e.g. during an isothermal expansion of an ideal gas, where deltaU = 0), the internal energy need not increase even though heat was added.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.6",
+    "sectionId": "heat-and-internal-energy",
+    "sectionLabel": "Heat and Internal Energy",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Should the internal energy of a system necessarily increase if heat is added to it?",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "1st-law-of-thermodynamics",
+    "topicTitle": "8.1 First Law of Thermodynamics",
+    "_id": "m173tghrz4vwfw0b2ea4eevvyx85qqfp",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Work done formula: $W = P_{ext}\\Delta V = P_{ext}(V_2 - V_1)$",
+      "Positive work when system expands (V₂ > V₁)",
+      "Negative work when system is compressed (V₂ < V₁)",
+      "Work is independent of path for constant external pressure process",
+      "Work represents energy transfer between system and surroundings"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When a thermodynamic system expands against an external pressure, work is done by the system. For a volume change from V₁ to V₂ against constant external pressure P_ext, the work done is given by: $W = P_{ext}(V_2 - V_1)$. If V₂ > V₁ (expansion), work is positive (done by the system). If V₂ < V₁ (compression), work is negative (done on the system). This work represents energy transferred from the system to its surroundings.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "22",
+    "sectionId": "thermodynamic-processes",
+    "sectionLabel": "Thermodynamic Processes",
+    "session": "annual",
+    "stem": "Derive an expression for the work done by a thermodynamic system when its volume changes from $V_1$ to $V_2$ against a constant external pressure.",
+    "topicId": "ms7a0zqk9ef9wz579t0nbetnkh85paqx",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "m17bpj0fva0dnnwr9sr7mszb3d85qwxd",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Statement 1: Heat spontaneously flows from hot to cold bodies only",
+      "Statement 2: No heat engine can convert heat entirely to work (Kelvin-Planck statement)",
+      "Statement 3 (Entropy): Entropy of isolated system increases or remains constant; $\\Delta S_{\\text{universe}} \\geq 0$",
+      "Identifies that entropy statement is thermodynamic measure of irreversibility",
+      "Recognizes all three statements are equivalent expressions of same physical law"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Second Law of Thermodynamics can be stated as: (1) Heat flows spontaneously from a hotter body to a colder body, not in the reverse direction. (2) It is impossible to construct a heat engine that converts heat entirely into work without rejecting some heat to a colder reservoir. (3) In terms of entropy: The entropy of an isolated system always increases or remains constant in any spontaneous process; it never decreases. Mathematically: $\\Delta S_{\\text{universe}} \\geq 0$, where $\\Delta S$ represents the change in entropy.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "session": "annual",
+    "stem": "Write three statements of **second law of thermodynamics**. (one in terms of entropy)",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "m171qceefyfamtdmqdnqdfb7gd85ppnj",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Entropy increase indicates irreversibility and loss of available energy for work",
+      "Higher entropy means more energy converted to unusable heat in surroundings",
+      "Energy quality degrades as entropy increases in isolated systems",
+      "Degradation is unavoidable in all spontaneous real processes",
+      "Relates to Second Law: entropy of universe always increases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Increase in entropy represents the degradation of energy because it measures the irreversibility of thermodynamic processes. In any real process, entropy of an isolated system increases, meaning energy becomes less available for doing useful work. As entropy increases, more energy is converted into heat that cannot be recovered, reducing the quality and usefulness of energy. This degradation is inevitable in all spontaneous processes, establishing that while total energy is conserved (First Law), its capacity to perform work continuously decreases (Second Law).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "sectionId": "degradation-of-energy",
+    "sectionLabel": "Degradation of Energy",
+    "session": "annual",
+    "stem": "Discuss that increase in entropy means degradation of energy.",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "m174sz7v1y5ckz04gdyqymtmpn85p68c",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Energy conservation principle: total energy remains constant in all processes ($Q = \\Delta U + W$)",
+      "Energy is transferred or transformed between different forms, not destroyed",
+      "Energy quality degrades in irreversible natural processes (becomes less useful for work)",
+      "First Law ensures quantity conservation; Second Law describes quality degradation",
+      "In adiabatic processes ($Q = 0$), internal energy converts to work: $\\Delta U = -W$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "No, energy itself is never degraded in the sense of being destroyed: by the First Law of Thermodynamics, energy is always conserved (Q = deltaU + W). What is degraded is the quality of energy, not its quantity. In every real (irreversible) natural process, some high-quality, easily usable energy, such as mechanical work or electrical energy, is irreversibly converted into low-quality waste heat, which has a limited ability to do further useful work. This degradation of energy quality corresponds directly to an increase in the entropy of the universe, and it happens in every real natural process because all real processes are irreversible.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "sectionId": "2-irreversible-process",
+    "sectionLabel": "2. Irreversible Process",
+    "session": "annual",
+    "stem": "Is the energy degraded during all natural processes? Explain.",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "m17cqntc4gyjvt71c8hpe8st2185pdx8",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Entropy increases in all irreversible processes (Second Law of Thermodynamics)",
+      "Dissipative forces (friction, viscosity, resistance) convert organized energy into random heat",
+      "Disorder is the natural, irreversible direction of spontaneous processes",
+      "Real processes are irreversible and cannot return system and surroundings to original state",
+      "Maximum entropy represents the most probable state of an isolated system"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Systems tend to become less orderly over time because the universe naturally progresses toward a state of maximum disorder or entropy, as stated by the Second Law of Thermodynamics. In any real, irreversible process, energy is dissipated through friction, heat loss, and other dissipative forces, converting useful organized energy into random thermal energy. This increase in entropy (disorder) is irreversible and represents the natural direction of all spontaneous processes in isolated systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "23",
+    "sectionId": "systems-tend-toward-disorder-over-time",
+    "sectionLabel": "Systems Tend Toward Disorder Over Time",
+    "session": "annual",
+    "stem": "Why do the systems tend to become **less orderly** over time? Explain briefly.",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "2nd-law-of-thermodynamics",
+    "topicTitle": "8.2 Second Law of Thermodynamics",
+    "_id": "m17f3tw2vgypnmv7nbe5mn37t18e39bk",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "The second law of thermodynamics states that heat cannot spontaneously flow from a colder body to a hotter body without external work being done, and that no engine operating in a cycle can convert all the heat it absorbs into work (some heat must always be rejected).",
+      "An equivalent statement is that the total entropy of an isolated system (or the universe as a whole) never decreases over time for any real (irreversible) process, and stays constant only for an idealized reversible process.",
+      "The second law establishes the direction of natural processes (the 'arrow of time') and sets fundamental limits on the efficiency of heat engines and the performance of refrigerators, unlike the first law which only concerns energy conservation without regard to direction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The second law states the conditions and direction for converting heat into work. A heat engine cannot take heat from a single reservoir and convert it entirely into work; it must reject some heat to a colder reservoir. Equivalently, heat naturally flows from hot to cold, and no cyclic device transfers heat from cold to hot without supplied work.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.6",
+    "sectionId": "the-direction-of-thermodynamic-processes",
+    "sectionLabel": "The Direction of Thermodynamic Processes",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Define and explain second law thermodynamics.",
+    "topicId": "ms7bp39dxke110apa7dv8zz8x185pwjt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "m17cy4xmqjc9fx5krqed3k1t3x85pp4x",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "According to Laplace correction, sound travels in air under **isothermal conditions**. Laplace corrected Newton's formula by recognizing that when sound propagates through air, the compressions and rarefactions occur so rapidly that there is insufficient time for heat exchange between compressed and rarefied regions. Therefore, the process is **adiabatic** rather than isothermal, leading to the corrected equation: $v = \\sqrt{\\frac{\\gamma P}{\\rho}}$, where $\\gamma$ is the adiabatic index.",
+    "keyPoints": [
+      "Laplace correction accounts for adiabatic conditions during sound propagation",
+      "Rapid compressions and rarefactions prevent thermal equilibrium between regions",
+      "The correction introduces the adiabatic index $\\gamma$ into the velocity formula",
+      "Distinguishes between isothermal (Newton's assumption) and adiabatic (actual) processes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "According to Laplace's correction, sound travels through air under adiabatic conditions. Newton originally assumed sound propagation was isothermal, but this predicted a speed noticeably lower than the measured value. Laplace corrected this by recognizing that compressions and rarefactions in a sound wave happen too rapidly for heat to be exchanged between adjacent regions of air, making the process adiabatic rather than isothermal. Using the adiabatic relation instead of the isothermal one gives a speed of sound that matches experimental measurements.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Isothermal process"
+      },
+      {
+        "key": "B",
+        "text": "Adiabatic process"
+      },
+      {
+        "key": "C",
+        "text": "Isochoric process"
+      },
+      {
+        "key": "D",
+        "text": "Isobaric process"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionId": "laplaces-correction-adiabatic-assumption",
+    "sectionLabel": "Laplace's Correction (Adiabatic Assumption)",
+    "session": "annual",
+    "stem": "According to **Laplace correction**, sound travels in air under the condition of:",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "m178w22nptenaja9bs1f91p4518e2jhn",
+    "correctKey": "D",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "A thermos flask is well insulated, so no heat is exchanged with the surroundings; the mechanical work of shaking raises the internal energy (and temperature) adiabatically.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "isochoric"
+      },
+      {
+        "key": "B",
+        "text": "isothermal"
+      },
+      {
+        "key": "C",
+        "text": "isobaric"
+      },
+      {
+        "key": "D",
+        "text": "adiabatic"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A thermos flask containing milk as a system is shaken vigorously, temperature of milk rises due to process called:",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "m179sjqd8fj67y8fmm2w51xm018e3aty",
+    "correctKey": "D",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "During fasting there is no external heat/mass exchange feeding the metabolic system from outside, so the body draws on its own internal energy reserves, an adiabatic-type process.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "isochoric"
+      },
+      {
+        "key": "B",
+        "text": "isothermal"
+      },
+      {
+        "key": "C",
+        "text": "isobaric"
+      },
+      {
+        "key": "D",
+        "text": "adiabatic"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Considering your metabolism as a system, during fasting in Ramadan, it is a/an ____ process.",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "m171zr1rcw9j0xvbxh2ny2t7pn85qrv0",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "In an adiabatic process, entropy remains constant. An adiabatic process is one where no heat is exchanged with the surroundings ($Q = 0$). According to the First Law of Thermodynamics, $Q = \\Delta U + W$, so when $Q = 0$, all work done by or on the system changes only the internal energy, with no heat transfer occurring.",
+    "keyPoints": [
+      "Adiabatic process defined as $Q = 0$ (no heat exchange)",
+      "First Law application: $Q = \\Delta U + W$ becomes $0 = \\Delta U + W$",
+      "Entropy of an isolated adiabatic system remains constant (reversible adiabatic process)",
+      "Internal energy changes only due to work done: $\\Delta U = -W$",
+      "No thermal energy flows into or out of the system"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Mass is the quantity that remains constant. In an adiabatic process (Q = 0), the First Law gives deltaU = -W, so internal energy changes as work is done on or by the system: it increases on compression and decreases on expansion. Temperature changes along with internal energy, and volume changes as the gas expands or compresses. Mass, however, is conserved throughout, since no matter enters or leaves the system.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Internal energy"
+      },
+      {
+        "key": "B",
+        "text": "Volume"
+      },
+      {
+        "key": "C",
+        "text": "Temperature"
+      },
+      {
+        "key": "D",
+        "text": "Mass"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionId": "3-mathematical-derivation-of-the-adiabatic-equation",
+    "sectionLabel": "3. Mathematical Derivation of the Adiabatic Equation",
+    "session": "annual",
+    "stem": "In an adiabatic process which quantity remains constant?",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "m17apmze0gpe43qejefary14ex8e22d3",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For an adiabatic process, $PV^\\gamma = \\text{constant}$ ($\\gamma > 1$), while for an isothermal process, PV = constant. Since $\\gamma > 1$, pressure falls off more sharply with increasing volume along an adiabatic curve than along an isothermal curve at the same point, making the adiabatic curve steeper.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.7",
+    "sectionId": "5-adiabatic-vs-isothermal-process",
+    "sectionLabel": "5. Adiabatic vs. Isothermal Process",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why is the slope of an adiabatic curve steeper than the slope of isothermal curve?",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "m17825xe06cwe3f64ywet6896d8e3pj2",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An isothermal process requires continuous heat exchange with the surroundings to keep temperature constant, which needs time for heat to be conducted in or out, making it inherently slow. An adiabatic process, by definition, involves no heat exchange, which is naturally achieved when a process happens quickly, too fast for significant heat transfer to occur.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.8",
+    "sectionId": "5-adiabatic-vs-isothermal-process",
+    "sectionLabel": "5. Adiabatic vs. Isothermal Process",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why isothermal processes typically slow and adiabatic processes fast?",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "adiabatic-equation",
+    "topicTitle": "8.3 Adiabatic Process and Equation",
+    "_id": "m177z6rzmn9jftasra9gp0wqb18e22wx",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Generally no, except in the trivial case of no change at all: an isothermal process (constant T) for an ideal gas undergoing any real change in volume/pressure requires heat exchange to keep temperature constant, which contradicts the no-heat-exchange condition of an adiabatic process. The two conditions can only coincide if no process (no change of state) actually occurs.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.9",
+    "sectionId": "5-adiabatic-vs-isothermal-process",
+    "sectionLabel": "5. Adiabatic vs. Isothermal Process",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Can a process be both adiabatic and isothermal? Explain.",
+    "topicId": "ms794bmrr8xr0sc3dhj89jz00d85pqjp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m1783sxnz53ry203z22r7wyr9x85qaqj",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Internal energy can be converted to mechanical work through expansion processes",
+      "First Law relationship: $Q = \\Delta U + W$ shows energy transformation",
+      "In adiabatic expansion ($Q = 0$): $W = -\\Delta U$, internal energy converts to work",
+      "Example: gas expanding against piston converts thermal energy to mechanical motion",
+      "Temperature and internal energy decrease as mechanical work is performed"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Yes, internal energy can be converted into mechanical energy through thermodynamic processes. When a system expands against external pressure, the internal energy decreases while work is performed on the surroundings. According to the First Law: $Q = \\Delta U + W$. If heat is not supplied ($Q = 0$), then $W = -\\Delta U$, meaning the decrease in internal energy directly converts to mechanical work. A practical example is a gas expanding in a cylinder with a movable piston: as the gas cools, its internal energy decreases, and this energy is converted into mechanical work that pushes the piston outward.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "sectionId": "equation-of-the-first-law",
+    "sectionLabel": "Equation of the First Law",
+    "session": "annual",
+    "stem": "Is it possible to convert **internal energy** ($\\Delta U$) into mechanical energy? Explain with an example.",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m17bse2zcjhcng3zxqfz9bj8z98e3cd7",
+    "correctKey": "C",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "In a rigid (fixed-volume) container no work is done (W=0), so by the first law of thermodynamics, all the added heat Q goes directly into increasing the internal energy: deltaU = Q.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Q/2"
+      },
+      {
+        "key": "B",
+        "text": "Q/3"
+      },
+      {
+        "key": "C",
+        "text": "Q"
+      },
+      {
+        "key": "D",
+        "text": "2Q"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Change in internal energy of a gas kept in rigid container when 'Q' J energy is added to it is:",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m177wbr2j4evhs29mvjd5wect18e2jkk",
+    "correctKey": "C",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "At constant pressure, work done W = PdeltaV = 6x10^5 x (20-5) = 6x10^5 x 15 = 9x10^6 J.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "5x10^5 J"
+      },
+      {
+        "key": "B",
+        "text": "6x10^6 J"
+      },
+      {
+        "key": "C",
+        "text": "9x10^6 J"
+      },
+      {
+        "key": "D",
+        "text": "9x10^7 J"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The volume of an ideal gas increases from 5 m^3 to 20 m^3 under a constant pressure of 6x10^5 Pa. work done by the gas is:",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m179av7vx5n17j68nx5bekqn9x8e2myj",
+    "correctKey": "A",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "For a complete cyclic process shown returning to the same state (as indicated in the figure), the net change in internal energy over one full cycle is zero, since internal energy is a state function.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "zero"
+      },
+      {
+        "key": "B",
+        "text": "20 J"
+      },
+      {
+        "key": "C",
+        "text": "40 J"
+      },
+      {
+        "key": "D",
+        "text": "160 J"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is change in internal energy in the figure?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m17ep5azvgk11ptgc4bj5ec40h8e35hw",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) Yes, mechanical work is done on the coffee by the shaking. (ii) Yes, the internal energy of the coffee increases, since the work done on it (with no heat escaping the insulated thermos) raises deltaU = W. (iii) Yes, the temperature of the coffee rises, since the added internal energy manifests as increased molecular kinetic energy. (iv) No, the thermos is insulated, so no heat is exchanged with the outside; the temperature rise comes entirely from the mechanical work done, not from external heat.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.13",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "When a coffee filled thermos is vigorously shaken: (i) is the work done on coffee? (ii) Does the internal energy of coffee increase? (iii) Does the temperature of coffee rise? (iv) Does the coffee get heat from outside?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m17876tabg1ssy3mgbqayskkah8e2eqt",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) At constant atmospheric pressure $P = 1.013\\times10^5$ Pa: $W = P\\Delta V = 1.013\\times10^5 \\times (2-1) = 1.013\\times10^5$ J, matching the textbook. (b) On a PV diagram, this is represented as a horizontal line (constant P) from V=1 to V=2, with the work done equal to the rectangular area under that line. (Ans. $1.013\\times10^5$ J, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.9",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A gas expands from volume 1 m^3 to 2 m^3 at constant atmospheric pressure. (a) Calculate the work done by the gas. (b) Represent the work done in PV diagram.",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m173nd05s4zy7sbxfcwdpetm5d85p8cp",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Delta Q = \\Delta U$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Delta Q = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta Q = -\\Delta U$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta Q = \\Delta W$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionId": "3-isothermal-process-constant-temperature",
+    "sectionLabel": "3. Isothermal Process (Constant Temperature)",
+    "session": "annual",
+    "stem": "For isothermal process, first law of thermodynamics can be written as:",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m17dk6ffpe4xtzv4nzjyfkwdsh85q6a6",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "In an isothermal process, the temperature of the system remains constant ($\\Delta T = 0$). Since internal energy of an ideal gas depends only on temperature, the change in internal energy is zero ($\\Delta U = 0$). Therefore, according to the First Law of Thermodynamics ($Q = \\Delta U + W$), all heat added to the system is converted into work done by the system: $Q = W$.",
+    "keyPoints": [
+      "Temperature remains constant: $\\Delta T = 0$",
+      "Change in internal energy is zero: $\\Delta U = 0$ (for ideal gas)",
+      "All heat supplied equals work done: $Q = W$",
+      "First Law simplifies to $Q = \\Delta U + W = 0 + W = W$",
+      "Represented by a curve on PV diagram where $PV = \\text{constant}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "In an isothermal process, the temperature of the system remains constant ($\\Delta T = 0$). Since internal energy of an ideal gas depends only on temperature, the change in internal energy is zero ($\\Delta U = 0$). Therefore, according to the First Law of Thermodynamics ($Q = \\Delta U + W$), all heat added to the system is converted into work done by the system: $Q = W$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Delta W = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Delta Q = \\Delta W$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta U = \\Delta W$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta Q = 0$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "3-isothermal-process-constant-temperature",
+    "sectionLabel": "3. Isothermal Process (Constant Temperature)",
+    "session": "annual",
+    "stem": "Which one is **TRUE** for isothermal process?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m174bzh10706bsqxb786z0wbx58e26xw",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes. During a phase change (e.g. melting or boiling), added energy goes into breaking intermolecular bonds (increasing internal potential energy) rather than increasing the average kinetic energy of the molecules, so the internal energy rises while the temperature stays constant.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.2",
+    "sectionId": "3-isothermal-process-constant-temperature",
+    "sectionLabel": "3. Isothermal Process (Constant Temperature)",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "When the internal energy of a system rises, can its temperature remain the same?",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m17f1vcgkcf1j5z0s0rjqrdt6585qfy5",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Adiabatic process defined as $Q = 0$ (no heat exchange)",
+      "Application of First Law: $Q = \\Delta U + W$ becomes $\\Delta U = -W$",
+      "Change in internal energy equals negative of work done by system",
+      "Temperature changes without heat transfer: decreases when system does work, increases when work done on system",
+      "Internal energy change is sole source of energy change in adiabatic process"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An adiabatic process is one where no heat is exchanged between the system and its surroundings, meaning $Q = 0$. Applying the First Law of Thermodynamics, $Q = \\Delta U + W$, we get $0 = \\Delta U + W$, which gives $\\Delta U = -W$. This means the change in internal energy equals the negative of work done by the system. If the system does work on surroundings ($W > 0$), internal energy decreases and temperature falls. Conversely, if work is done on the system ($W < 0$), internal energy increases and temperature rises.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "sectionId": "4-adiabatic-process-no-heat-exchange",
+    "sectionLabel": "4. Adiabatic Process (No Heat Exchange)",
+    "session": "annual",
+    "stem": "Briefly explain **adiabatic process** by using first law of thermodynamics.",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "applications-of-1st-law-of-thermodynamics",
+    "topicTitle": "8.4 Applications of the First Law of Thermodynamics",
+    "_id": "m17f2fjbx3zgycs66cn6g4mm4d8e2xnh",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Heat required $Q = mc\\Delta T = 0.136 \\times 4186 \\times (100-23.5) \\approx 0.136 \\times 4186 \\times 76.5 \\approx 43550$ J. Time $t = Q/P = 43550/220 \\approx 198$ s, matching the textbook. (Ans. 198 s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.5",
+    "sectionId": "4-adiabatic-process-no-heat-exchange",
+    "sectionLabel": "4. Adiabatic Process (No Heat Exchange)",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A 220 W electric immersion heater is used to boil 136 g of water. Calculate the time required to bring this water from 23.5 °C to its boiling point, ignoring any heat loss.",
+    "topicId": "ms7e7rrbhxwkjqfm2shfb0rfcn85psmt"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m17196q7tcce35ha56tv6ycw7d8e28ct",
+    "correctKey": "A",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Using representative values (e.g. Th=300K, Tc doubling scenario for a Carnot engine with Tc fixed), the efficiency roughly increases by about 1.5 times when the source temperature is doubled, per the textbook's answer key.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1.5 times"
+      },
+      {
+        "key": "B",
+        "text": "2 times"
+      },
+      {
+        "key": "C",
+        "text": "2.5 times"
+      },
+      {
+        "key": "D",
+        "text": "3 times"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If the temperature of heat source is doubled than before, the efficiency increases by:",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m171bz9q0027h550rd74v16bb58e27n7",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "A Carnot engine is an idealized, perfectly reversible heat engine that operates in a cycle of two isothermal and two adiabatic processes between two fixed temperature reservoirs, the hot source at Th and the cold sink at Tc.",
+      "It represents the theoretical maximum efficiency achievable by any heat engine operating between those two temperatures, since it involves no irreversibilities (no friction, no unrestrained expansion, and heat transfer only occurs when temperatures are matched).",
+      "The efficiency of a Carnot engine depends only on the absolute temperatures of the two reservoirs: eta = 1 - Tc/Th, meaning efficiency increases as the temperature difference between source and sink increases, and can only reach 100% if Tc = 0 K (absolute zero), which is unattainable."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A Carnot engine is an ideal reversible heat engine operating between a hot reservoir at absolute temperature $T_1$ and a cold reservoir at $T_2$. Its cycle consists of isothermal expansion, adiabatic expansion, isothermal compression, and adiabatic compression. Its efficiency is $\\eta=1-\\frac{T_2}{T_1}$, so it depends only on the reservoir temperatures, not on the working substance.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.7",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Define and explain Carnot's Engine, also discuss the relation for the efficiency of Carnot's engine.",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m1707x9yjk1cy0kk8heayxf44x8e3fma",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Carnot efficiency $\\eta = 1 - T_c/T_h = 1 - 400/600 = 1/3$. Work done $W = \\eta \\times Q_h = (1/3)(600) = 200$ J, matching the textbook. (Ans. 200 J, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.4",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The high temperature of Carnot engine is 600 K. If engine absorbs 600 J of heat at low temperature of 400 K. Find the work done by the engine.",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m176r720w5ryhnx0hy9pm4k3a18e3tas",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "With $T_c \\approx 300$ K (room temperature): for $\\eta_1 = 0.5$, $T_{h1} = T_c/(1-\\eta_1) = 300/0.5 = 600$ K. For $\\eta_2 = 0.7$, $T_{h2} = T_c/(1-\\eta_2) = 300/0.3 = 1000$ K. Temperature difference $= T_{h2} - T_{h1} = 1000 - 600 = 400$ K; the textbook's printed value (397 K) is close, reflecting slightly different rounding of room temperature, and is presented as authoritative. (Ans. 397 K, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.6",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If a heat engine at room temperature has an efficiency 50%, you change the heat source to increase the efficiency up to 70%. Find the temperature difference between the two heat sources.",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m1723v9fnerfp8e3n3bp5e22598e36yw",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a Carnot cycle, $Q_c/Q_h = T_c/T_h$. With $T_h = T$ and $T_c = T/3$: $Q_c = Q_h \\times (T/3)/T = Q/3$, matching the textbook. (Ans. Q/3, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.7",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A Carnot engine absorbs an amount Q of heat at temperature T. Find the amount of heat rejected at temperature T/3.",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m17974k3ng4da10spdt6vk5qvs85qf51",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a Carnot engine operating between ice point (273 K) and steam point (373 K), the efficiency is calculated using $\\eta = 1 - \\frac{T_C}{T_H} = 1 - \\frac{273}{373} = 0.268$ or approximately **26.8%**. This represents the maximum theoretical efficiency possible between these two temperatures.",
+    "keyPoints": [
+      "Correct identification of ice point as 273 K (cold reservoir) and steam point as 373 K (hot reservoir)",
+      "Correct application of Carnot efficiency formula: $\\eta = 1 - \\frac{T_C}{T_H}$",
+      "Accurate numerical calculation: $\\eta = \\frac{100}{373} \\approx 0.268$ or 26.8%",
+      "Recognition that absolute temperature (Kelvin) must be used, not Celsius",
+      "Understanding that this is the maximum theoretical efficiency for any heat engine between these temperatures"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a Carnot engine operating between ice point (273 K) and steam point (373 K), the efficiency is calculated using $\\eta = 1 - \\frac{T_C}{T_H} = 1 - \\frac{273}{373} = 0.268$ or approximately **26.8%**. This represents the maximum theoretical efficiency possible between these two temperatures.",
+    "options": [
+      {
+        "key": "A",
+        "text": "26.81%"
+      },
+      {
+        "key": "B",
+        "text": "53.36%"
+      },
+      {
+        "key": "C",
+        "text": "62.46%"
+      },
+      {
+        "key": "D",
+        "text": "71.23%"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "session": "annual",
+    "stem": "A Carnot engine works between ice point and steam point. Its efficiency will be:",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m176ffcfq8as27e5n8vyx7qx4s85p7jq",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "Convert to Kelvin: $T_{source} = 227 + 273 = 500$ K, $T_{sink} = 127 + 273 = 400$ K.\n\n**Efficiency**: $\\eta = 1 - \\dfrac{T_{sink}}{T_{source}} = 1 - \\dfrac{400}{500} = 0.2 = 20\\%$.\n\n**Heat input from source ($Q_H$)**: Since $\\eta = W/Q_H$, $Q_H = W/\\eta = 10000/0.2 = 50000$ J.\n\n**Heat rejected to sink ($Q_C$)**: $Q_C = Q_H - W = 50000 - 10000 = 40000$ J.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "session": "annual",
+    "stem": "A **Carnot engine** utilizes an ideal gas. The source temperature is $227^{\\circ}\\text{C}$ and sink temperature is $127^{\\circ}\\text{C}$. Find the efficiency of the engine. Also find heat input from the source and heat rejected to the sink when $10000\\text{ J}$ of work is done?",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m172zbvqc167pr75cantyvrr2185qb9m",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The efficiency of a Carnot engine is given by $\\eta = 1 - \\frac{T_2}{T_1}$, where $T_1$ is the source temperature and $T_2$ is the sink temperature. When both temperatures are increased by 200 K, the ratio $\\frac{T_2 + 200}{T_1 + 200}$ becomes smaller than $\\frac{T_2}{T_1}$, making $\\eta_2 > \\eta_1$. Therefore, the efficiency increases.",
+    "keyPoints": [
+      "Carnot efficiency formula: $\\eta = 1 - \\frac{T_2}{T_1}$",
+      "Both temperatures increased by same amount (200 K)",
+      "Ratio of absolute temperatures decreases when equal amount added to both",
+      "$\\eta_2 > \\eta_1$ (efficiency increases)",
+      "Efficiency depends on absolute temperature ratio, not temperature difference"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The efficiency of a Carnot engine is given by $\\eta = 1 - \\frac{T_2}{T_1}$, where $T_1$ is the source temperature and $T_2$ is the sink temperature. When both temperatures are increased by 200 K, the ratio $\\frac{T_2 + 200}{T_1 + 200}$ becomes smaller than $\\frac{T_2}{T_1}$, making $\\eta_2 > \\eta_1$. Therefore, the efficiency increases.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decrease"
+      },
+      {
+        "key": "B",
+        "text": "Become 1"
+      },
+      {
+        "key": "C",
+        "text": "Remain unaffected"
+      },
+      {
+        "key": "D",
+        "text": "Increase"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "session": "annual",
+    "stem": "If the temperatures of source and sink of a Carnot engine (having efficiency $\\eta_1$) are each increased by $200 K$, then the efficiency $\\eta_2$ will:",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m177ahf0b3bzvx87sknw8xsgxn8e3w05",
+    "correctKey": "B",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Carnot efficiency = 1 - Tc/Th = 1 - 300/600 = 0.5. Since efficiency = W/Qin, Qin = W/0.5 = 800/0.5 = 1600 J/cycle.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1000 J/cycle"
+      },
+      {
+        "key": "B",
+        "text": "1600 J/cycle"
+      },
+      {
+        "key": "C",
+        "text": "1800 J/cycle"
+      },
+      {
+        "key": "D",
+        "text": "2000 J/cycle"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A Carnot engine working between 300 K and 600 K has work output 800 J/cycle, the heat supplied is:",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m178jq1zqmsxd406em6tan15b98e36c1",
+    "correctKey": "A",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "eta1 = 1 - 273/473 = 0.4228. eta2 = 1 - 73/273 = 0.7326. Ratio eta1/eta2 = 0.4228/0.7326 ~ 0.577.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "0.577"
+      },
+      {
+        "key": "B",
+        "text": "0.638"
+      },
+      {
+        "key": "C",
+        "text": "0.733"
+      },
+      {
+        "key": "D",
+        "text": "0.85"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A Carnot engine working between 0°C to 200°C has efficiency eta1. Then same engine working between 0°C to -200°C has efficiency eta2. Ratio of its efficiencies is.",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "carnot-cycle",
+    "topicTitle": "8.5 Carnot Heat Engine and Carnot Cycle",
+    "_id": "m175pa4qxxwedywy5hk7exgzad85q2kb",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies four reversible processes: two isothermal and two adiabatic",
+      "Explains heat absorption at high temperature and rejection at low temperature",
+      "Describes the cyclic nature returning to initial state",
+      "States the Carnot efficiency formula $\\eta = 1 - \\frac{T_C}{T_H}$",
+      "Recognizes it as a theoretical maximum efficiency engine"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Carnot engine is a theoretical heat engine that operates between two thermal reservoirs at different temperatures. It consists of four reversible processes: two isothermal processes (at high and low temperatures) and two adiabatic processes. During the isothermal expansion at high temperature, heat is absorbed from the hot reservoir. In the adiabatic expansion, the gas cools without heat transfer. During isothermal compression at low temperature, heat is rejected to the cold reservoir. Finally, adiabatic compression returns the gas to its initial state. This cyclic process converts heat into mechanical work with maximum theoretical efficiency given by $\\eta = 1 - \\frac{T_C}{T_H}$, where $T_H$ and $T_C$ are absolute temperatures of hot and cold reservoirs respectively.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "sectionId": "the-carnot-cycle",
+    "sectionLabel": "The Carnot Cycle",
+    "session": "annual",
+    "stem": "Briefly explain the working principle of Carnot engine.",
+    "topicId": "ms7evqr0h307n4jdk5z5ke07hx85qjqp",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m17bpj0fva0dnnwr9sr7mszb3d85qwxd",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Statement 1: Heat spontaneously flows from hot to cold bodies only",
+      "Statement 2: No heat engine can convert heat entirely to work (Kelvin-Planck statement)",
+      "Statement 3 (Entropy): Entropy of isolated system increases or remains constant; $\\Delta S_{\\text{universe}} \\geq 0$",
+      "Identifies that entropy statement is thermodynamic measure of irreversibility",
+      "Recognizes all three statements are equivalent expressions of same physical law"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Second Law of Thermodynamics can be stated as: (1) Heat flows spontaneously from a hotter body to a colder body, not in the reverse direction. (2) It is impossible to construct a heat engine that converts heat entirely into work without rejecting some heat to a colder reservoir. (3) In terms of entropy: The entropy of an isolated system always increases or remains constant in any spontaneous process; it never decreases. Mathematically: $\\Delta S_{\\text{universe}} \\geq 0$, where $\\Delta S$ represents the change in entropy.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "session": "annual",
+    "stem": "Write three statements of **second law of thermodynamics**. (one in terms of entropy)",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m175c8a83m8cbgfvhqyzpphzan8e3zsd",
+    "correctKey": "B",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Sublimation (solid to gas) greatly increases molecular disorder, so entropy increases; the other three listed processes all move toward a more ordered state and decrease entropy.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "crystallization"
+      },
+      {
+        "key": "B",
+        "text": "sublimation"
+      },
+      {
+        "key": "C",
+        "text": "freezing"
+      },
+      {
+        "key": "D",
+        "text": "condensation"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which process involves an increase in entropy?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m1710dteaz22dpfddbnvr7bdth8e2ajy",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "No. A Carnot cycle is a reversible cycle, and the working substance returns to its original state at the end of each cycle; since entropy is a state function, the net change in the engine's own entropy over one complete cycle is zero (though entropy of the universe/surroundings as a whole does not decrease).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.10",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Does the entropy of a Carnot engine increases for each cycle?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m17c8btpq9zhqchwdqaajwwvrs8e2t3a",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "Entropy (S) is a thermodynamic state function that quantifies the degree of disorder or randomness in a system, or equivalently the amount of energy in a system that is no longer available to do useful work.",
+      "For a reversible process at temperature T, the change in entropy is defined as deltaS = deltaQ/T, the heat exchanged divided by the absolute temperature at which the exchange occurs.",
+      "According to the second law of thermodynamics, the total entropy of an isolated system can never decrease: it stays constant for reversible processes and always increases for real, irreversible processes, making entropy a natural measure of the 'one-way' direction of spontaneous physical processes."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Entropy is a state variable measuring disorder and the part of thermal energy unavailable for useful mechanical work. For a reversible heat transfer, its change is $\\Delta S=\\Delta Q/T$. Entropy increases when heat is added and decreases when heat is removed. In natural processes the entropy of the system plus environment increases, and an irreversible process has increasing entropy.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.10",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is entropy? Explain.",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m178zkg2pqfnsez4zvdg6hbhy18e33z4",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Latent heat per gram $= 500/2 = 250$ J/g. Heat released freezing 70 g: $Q = 70 \\times 250 = 17500$ J (heat leaves the water, so $Q$ is negative for the water). Entropy change $\\Delta S = -Q/T = -17500/273 \\approx -64$ J/K, matching the textbook. (Ans. $-64\\ \\mathrm{J\\ K^{-1}}$, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.8",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Energy 500 J is required to melt 2 g of ice at 0 °C. Find the change in entropy of 70 g water at 0°C, if it changes into ice in a refrigerator.",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m178nje00m9zxxq2f0zjvqmfk985q1em",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies entropy formula for reversible process: $\\Delta S = \\frac{Q}{T}$",
+      "Accurate temperature conversion to Kelvin scale (473 K)",
+      "Correct identification of heat as negative quantity (removed from system): $Q = -7300 \\text{ J}$",
+      "Accurate calculation: $\\Delta S = -15.43 \\text{ J/K}$",
+      "Proper interpretation of negative sign: system entropy decreases; discusses consistency with Second Law"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a reversible isothermal process, the entropy change is $\\Delta S = \\dfrac{Q}{T}$, where $Q$ is the heat transferred and $T$ is the absolute temperature. Converting $200^{\\circ}\\text{C}$ to Kelvin: $T = 200 + 273 = 473\\ \\text{K}$. Since heat is removed from the body, $Q = -7300\\ \\text{J}$. Therefore, $\\Delta S = \\dfrac{-7300}{473} \\approx -15.4\\ \\text{J/K}$. The negative sign indicates the body's entropy decreases, which is consistent with it losing heat; this decrease is balanced by a corresponding entropy increase in the surroundings that receive the heat, so the total entropy of the universe still does not decrease.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "definition-of-entropy",
+    "sectionLabel": "Definition of Entropy",
+    "session": "annual",
+    "stem": "A body at $200^{\\circ}\\text{C}$ undergoes a reversible isothermal process. The heat energy removed in this process is $7300 \\text{ J}$. Calculate the entropy change and discuss entropy sign.",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m171qceefyfamtdmqdnqdfb7gd85ppnj",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Entropy increase indicates irreversibility and loss of available energy for work",
+      "Higher entropy means more energy converted to unusable heat in surroundings",
+      "Energy quality degrades as entropy increases in isolated systems",
+      "Degradation is unavoidable in all spontaneous real processes",
+      "Relates to Second Law: entropy of universe always increases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Increase in entropy represents the degradation of energy because it measures the irreversibility of thermodynamic processes. In any real process, entropy of an isolated system increases, meaning energy becomes less available for doing useful work. As entropy increases, more energy is converted into heat that cannot be recovered, reducing the quality and usefulness of energy. This degradation is inevitable in all spontaneous processes, establishing that while total energy is conserved (First Law), its capacity to perform work continuously decreases (Second Law).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "sectionId": "degradation-of-energy",
+    "sectionLabel": "Degradation of Energy",
+    "session": "annual",
+    "stem": "Discuss that increase in entropy means degradation of energy.",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m1754sbwx35pmjrhtacz913sc58e321n",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "Every real (irreversible) process converts some ordered, high-quality energy (such as mechanical work or a temperature gradient capable of driving a heat engine) into a less useful, more disordered form, typically low-grade heat spread through the surroundings.",
+      "This conversion increases the total entropy of the system and surroundings; the energy is not destroyed (it is conserved per the first law), but its ability to do further useful work has been diminished or 'degraded'.",
+      "Because entropy increase corresponds to loss of usable energy, entropy is often described as a measure of energy degradation: as entropy rises, the fraction of total energy that remains available for conversion into work steadily decreases."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An increase in entropy represents degradation of energy: some thermal energy becomes unavailable for conversion into useful work. In a car engine, fuel energy is partly converted to work while the remaining heat is released to the atmosphere and cannot all be recovered as work. Reversible processes keep entropy constant, whereas irreversible processes increase it.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.11",
+    "sectionId": "degradation-of-energy",
+    "sectionLabel": "Degradation of Energy",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain that entropy is the degradation of energy.",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m17cqntc4gyjvt71c8hpe8st2185pdx8",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Entropy increases in all irreversible processes (Second Law of Thermodynamics)",
+      "Dissipative forces (friction, viscosity, resistance) convert organized energy into random heat",
+      "Disorder is the natural, irreversible direction of spontaneous processes",
+      "Real processes are irreversible and cannot return system and surroundings to original state",
+      "Maximum entropy represents the most probable state of an isolated system"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Systems tend to become less orderly over time because the universe naturally progresses toward a state of maximum disorder or entropy, as stated by the Second Law of Thermodynamics. In any real, irreversible process, energy is dissipated through friction, heat loss, and other dissipative forces, converting useful organized energy into random thermal energy. This increase in entropy (disorder) is irreversible and represents the natural direction of all spontaneous processes in isolated systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "23",
+    "sectionId": "systems-tend-toward-disorder-over-time",
+    "sectionLabel": "Systems Tend Toward Disorder Over Time",
+    "session": "annual",
+    "stem": "Why do the systems tend to become **less orderly** over time? Explain briefly.",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "entropy",
+    "topicTitle": "8.6 Entropy",
+    "_id": "m17fv27yya9xf67k6sqmrxwkxh8e2w35",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Entropy increases due to friction. Friction is an irreversible process that converts ordered mechanical energy into disordered thermal energy (heat), increasing the overall disorder and hence the entropy of the system and its surroundings.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.11",
+    "sectionId": "the-heat-death-of-the-universe-and-local-entropy-decreases",
+    "sectionLabel": "The Heat Death of the Universe and Local Entropy Decreases",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Does entropy of a system increases or decreases due to friction?",
+    "topicId": "ms717fm01xsdd4xkm4434wfmv985q9vw"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "m176ffcfq8as27e5n8vyx7qx4s85p7jq",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "Convert to Kelvin: $T_{source} = 227 + 273 = 500$ K, $T_{sink} = 127 + 273 = 400$ K.\n\n**Efficiency**: $\\eta = 1 - \\dfrac{T_{sink}}{T_{source}} = 1 - \\dfrac{400}{500} = 0.2 = 20\\%$.\n\n**Heat input from source ($Q_H$)**: Since $\\eta = W/Q_H$, $Q_H = W/\\eta = 10000/0.2 = 50000$ J.\n\n**Heat rejected to sink ($Q_C$)**: $Q_C = Q_H - W = 50000 - 10000 = 40000$ J.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionId": "efficiency-of-the-carnot-engine",
+    "sectionLabel": "Efficiency of the Carnot Engine",
+    "session": "annual",
+    "stem": "A **Carnot engine** utilizes an ideal gas. The source temperature is $227^{\\circ}\\text{C}$ and sink temperature is $127^{\\circ}\\text{C}$. Find the efficiency of the engine. Also find heat input from the source and heat rejected to the sink when $10000\\text{ J}$ of work is done?",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "m175pa4qxxwedywy5hk7exgzad85q2kb",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies four reversible processes: two isothermal and two adiabatic",
+      "Explains heat absorption at high temperature and rejection at low temperature",
+      "Describes the cyclic nature returning to initial state",
+      "States the Carnot efficiency formula $\\eta = 1 - \\frac{T_C}{T_H}$",
+      "Recognizes it as a theoretical maximum efficiency engine"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Carnot engine is a theoretical heat engine that operates between two thermal reservoirs at different temperatures. It consists of four reversible processes: two isothermal processes (at high and low temperatures) and two adiabatic processes. During the isothermal expansion at high temperature, heat is absorbed from the hot reservoir. In the adiabatic expansion, the gas cools without heat transfer. During isothermal compression at low temperature, heat is rejected to the cold reservoir. Finally, adiabatic compression returns the gas to its initial state. This cyclic process converts heat into mechanical work with maximum theoretical efficiency given by $\\eta = 1 - \\frac{T_C}{T_H}$, where $T_H$ and $T_C$ are absolute temperatures of hot and cold reservoirs respectively.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "sectionId": "the-carnot-cycle",
+    "sectionLabel": "The Carnot Cycle",
+    "session": "annual",
+    "stem": "Briefly explain the working principle of Carnot engine.",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "m177c0ajsp8xyf9nf0sx4p7dcx8e3g4n",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "A heat engine is a device that converts heat energy into mechanical work by operating in a cycle between a high-temperature source (hot reservoir) and a low-temperature sink (cold reservoir).",
+      "In each cycle, the engine absorbs heat Qh from the hot reservoir, converts part of it into useful work W, and rejects the remaining heat Qc to the cold reservoir, with W = Qh - Qc by conservation of energy.",
+      "The efficiency of the engine is defined as the ratio of useful work output to heat input, eta = W/Qh = 1 - Qc/Qh, and no real heat engine can be 100% efficient because some heat must always be rejected to the cold reservoir (a consequence of the second law of thermodynamics)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A heat engine converts heat energy into mechanical work. It has a hot reservoir, a working substance, and a cold reservoir. Heat $Q_1$ enters from the hot reservoir; part becomes useful work $W$ and the remainder $Q_2$ is rejected to the cold reservoir, so $W=Q_1-Q_2$. Continuous operation is cyclic, returning the working substance to its initial state.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.5",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the working of a heat engine.",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "heat-engine",
+    "topicTitle": "8.7 Heat Engine",
+    "_id": "m17afgfcydbw6jh19cypyeqrx18e3z66",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using the freezing point (273 K) as $T_c$ and boiling point (373 K) as $T_h$: Carnot efficiency $\\eta = 1 - T_c/T_h = 1 - 273/373 \\approx 0.268 \\approx 27\\%$, matching the textbook. (Ans. 27%, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.2",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A heat engine operating between the freezing and boiling point of water. Find its efficiency.",
+    "topicId": "ms7f7wj58swp6b1hktbd87d65585pf4b"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "m17c76hfbrndf5mrrzsh7ft7bs8e2t96",
+    "correctKey": "B",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "The Boltzmann constant k is defined as the universal gas constant R divided by Avogadro's number $N_A$: $k = R/N_A$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "N_A/R"
+      },
+      {
+        "key": "B",
+        "text": "R/N_A"
+      },
+      {
+        "key": "C",
+        "text": "R/N_o"
+      },
+      {
+        "key": "D",
+        "text": "N_o/R"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Boltzmann constant k is equal to:",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "m17a0mb19hd66pd4qvyx9754618e2xme",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "Internal energy (U) of a system is the sum of the kinetic and potential energies of all the molecules making up the system, arising from their random microscopic motion and mutual interactions.",
+      "For an ideal gas, molecules are assumed to have no intermolecular potential energy, so internal energy is purely the total translational (and, for polyatomic gases, rotational/vibrational) kinetic energy of the molecules.",
+      "For an ideal monatomic gas, U = (3/2)nRT, showing internal energy is directly proportional to the absolute temperature T; increasing T increases the average kinetic energy per molecule and hence the total internal energy."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Internal energy is the sum of the molecular kinetic and potential energies of a substance. For an ideal gas it is generally the translational kinetic energy of its molecules. The average molecular kinetic energy is proportional to absolute temperature, so the internal energy of a fixed amount of ideal gas is directly proportional to $T$; equivalently, $U\\propto T$ and a rise in absolute temperature increases $U$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.1",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Define internal energy of a system and find its relation with absolute temperature.",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "kinetic-theory-of-gases",
+    "topicTitle": "8.8 Kinetic Theory of Gases",
+    "_id": "m17c2891ty914kyy26s6a7e9fh85qkmg",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For an ideal gas, internal energy is directly proportional to absolute temperature (T). This is because internal energy depends only on the kinetic energy of gas molecules, which is directly related to temperature. Mathematically, $U \\propto T$ or $U = nC_VT$, where $n$ is the number of moles and $C_V$ is the molar heat capacity at constant volume.",
+    "keyPoints": [
+      "Internal energy depends only on temperature for an ideal gas",
+      "Internal energy is directly proportional to absolute temperature: $U \\propto T$",
+      "This relationship arises from the kinetic energy of gas molecules being temperature-dependent",
+      "Mathematical expression: $U = nC_VT$ where $n$ is moles and $C_V$ is molar heat capacity",
+      "Internal energy is independent of pressure and volume for ideal gases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For an ideal gas, internal energy is directly proportional to absolute temperature (T). This is because internal energy depends only on the kinetic energy of gas molecules, which is directly related to temperature. Mathematically, $U \\propto T$ or $U = nC_VT$, where $n$ is the number of moles and $C_V$ is the molar heat capacity at constant volume.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mass"
+      },
+      {
+        "key": "B",
+        "text": "Temperature"
+      },
+      {
+        "key": "C",
+        "text": "Pressure"
+      },
+      {
+        "key": "D",
+        "text": "Volume"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "the-ideal-gas-law",
+    "sectionLabel": "The Ideal Gas Law",
+    "session": "annual",
+    "stem": "For an ideal gas the internal energy is directly proportional to:",
+    "topicId": "ms72g8m6js5mcateh41xe2rbws85pvnk",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "m17a33jgjw2qrgp42cnyy36yv185p9bs",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$C_{p}+C_{v}=R$"
+      },
+      {
+        "key": "B",
+        "text": "$C_{p}=1+\\frac{R}{C_{v}}$"
+      },
+      {
+        "key": "C",
+        "text": "$R=\\frac{C_{v}}{C_{p}}$"
+      },
+      {
+        "key": "D",
+        "text": "$C_{p}=R+C_{v}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "session": "annual",
+    "stem": "According to the **first law of thermodynamics**:",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "m17fmwz8pnv7qmqrw14gbstyen85phpv",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Apply First Law of Thermodynamics: $Q = \\Delta U + W$",
+      "For isobaric process: $Q = nC_p\\Delta T$ and $\\Delta U = nC_v\\Delta T$",
+      "Use ideal gas relation: $P\\Delta V = nR\\Delta T$",
+      "Substitute work done: $W = P\\Delta V = nR\\Delta T$",
+      "Algebraic simplification to obtain $C_p - C_v = R$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "To derive $C_p - C_v = R$, we apply the First Law of Thermodynamics to an ideal gas undergoing isobaric (constant pressure) and isochoric (constant volume) processes. For an isobaric process, $Q = nC_p\\Delta T = \\Delta U + W = nC_v\\Delta T + P\\Delta V$. Since $P\\Delta V = nR\\Delta T$ for an ideal gas, we have $nC_p\\Delta T = nC_v\\Delta T + nR\\Delta T$. Dividing by $n\\Delta T$ yields $C_p - C_v = R$.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sectionId": "mayers-relation-cp---cv--r",
+    "sectionLabel": "Mayer's Relation: Cp - Cv = R",
+    "session": "annual",
+    "stem": "Derive $C_p - C_v = R$.",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "m178w1ggmzq919qfcavbptzxes85qa0j",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defined $C_p$ as heat capacity at constant pressure and $C_v$ at constant volume with clear distinction",
+      "Justified $C_p > C_v$ by explaining work is done only at constant pressure",
+      "Applied First Law of Thermodynamics: $Q = \\Delta U + W$",
+      "Used ideal gas law $PV = nRT$ to express work as $W = R\\Delta T$",
+      "Derived Mayer's Relation: $C_p - C_v = R$ through algebraic manipulation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Molar Specific Heat at Constant Pressure ($C_p$)** is the amount of heat required to raise the temperature of one mole of a substance by 1 K at constant pressure. **Molar Specific Heat at Constant Volume ($C_v$)** is the amount of heat required to raise the temperature of one mole of a substance by 1 K at constant volume.\n\n**Why $C_p > C_v$:**\nAt constant volume, all heat supplied increases internal energy since $W = 0$. At constant pressure, heat supplied increases both internal energy and performs work against external pressure as the gas expands. Therefore, more heat is needed at constant pressure, so $C_p > C_v$.\n\n**Proof that $C_p - C_v = R$:**\nFor one mole of ideal gas at constant pressure: $Q_p = nC_p\\Delta T = C_p\\Delta T$\n\nFrom First Law: $Q_p = \\Delta U + W$\n\nFor ideal gas: $\\Delta U = nC_v\\Delta T = C_v\\Delta T$\n\nWork at constant pressure: $W = P\\Delta V = nR\\Delta T = R\\Delta T$ (using ideal gas law)\n\nSubstituting: $C_p\\Delta T = C_v\\Delta T + R\\Delta T$\n\nDividing by $\\Delta T$: $$C_p - C_v = R$$\n\nThis is **Mayer's Relation**, a fundamental thermodynamic relationship for ideal gases.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionId": "mayers-relation-cp---cv--r",
+    "sectionLabel": "Mayer's Relation: Cp - Cv = R",
+    "session": "annual",
+    "stem": "Differentiate **'molar specific heat at constant pressure ($C_p$)'** and **'molar specific heat at constant volume ($C_v$)'**. Justify that $C_p > C_v$. Also prove that $C_p - C_v = R$.",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "m171gy56f8g6mcay9fbdy5zfts85pfmt",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Apply First Law of Thermodynamics: $Q = \\Delta U + W$",
+      "Use $\\Delta U = nC_V\\Delta T$ for ideal gas internal energy change",
+      "Apply isobaric process condition: $W = P\\Delta V = nR\\Delta T$",
+      "Substitute into First Law and use $Q = nC_P\\Delta T$ at constant pressure",
+      "Derive final relationship: $C_P - C_V = R$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "Starting with the First Law of Thermodynamics: $Q = \\Delta U + W$. For an ideal gas, $\\Delta U = nC_V\\Delta T$. At constant pressure (isobaric process), work done is $W = P\\Delta V = nR\\Delta T$. Therefore: $Q = nC_V\\Delta T + nR\\Delta T = n(C_V + R)\\Delta T$. Since $Q = nC_P\\Delta T$ at constant pressure, we have $nC_P\\Delta T = n(C_V + R)\\Delta T$. Dividing by $n\\Delta T$ gives: $C_P = C_V + R$, or $C_P - C_V = R$.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sectionId": "mayers-relation-cp---cv--r",
+    "sectionLabel": "Mayer's Relation: Cp - Cv = R",
+    "session": "annual",
+    "stem": "Show that: $C_p - C_v = R$",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "molar-specific-heat-cp-and-cv-and-their-relationship",
+    "topicTitle": "8.9 Molar Specific Heats $C_p$ and $C_v$",
+    "_id": "m179mf6n6xk34szqtx4pvydadx85p45r",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Specific heat (c) defined as heat per unit mass per unit temperature change (J kg⁻¹ K⁻¹)",
+      "Molar specific heat (C) defined as heat per mole per unit temperature change (J mol⁻¹ K⁻¹)",
+      "For gases: $C_V$ is molar specific heat at constant volume (no work done)",
+      "For gases: $C_P$ is molar specific heat at constant pressure (work done by gas)",
+      "$C_P > C_V$ because additional heat is needed at constant pressure to do expansion work"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Specific heat** is the amount of heat energy required to raise the temperature of 1 kg of a substance by 1 K (or 1°C), denoted as $c$ with units J kg⁻¹ K⁻¹. **Molar specific heat** is the amount of heat energy required to raise the temperature of 1 mole of a substance by 1 K, denoted as $C$ with units J mol⁻¹ K⁻¹. For gases, two important molar specific heats are defined: $C_V$ (at constant volume) and $C_P$ (at constant pressure), where $C_P > C_V$ because work is done by the gas during isobaric expansion.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "sectionId": "molar-specific-heats-of-gases-c_p-and-c_v",
+    "sectionLabel": "Molar Specific Heats of Gases: $C_p$ and $C_v$",
+    "session": "annual",
+    "stem": "Describe the terms **'specific heat'** and **'molar specific heat'** of gases.",
+    "topicId": "ms767bhqb1k8zmej94x6me9txd85p8ja",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "m179wwab0xggza17ch6rdzbeb18e3e8k",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Similarities: both are heat pumps that use external work to move heat from a colder region to a hotter region, both rely on a refrigerant undergoing compression/expansion and phase changes, and both work against the natural direction of heat flow. Dissimilarities: a refrigerator removes heat from a small enclosed space (the food compartment) and rejects it into the room, while an air conditioner removes heat from an entire room/building and rejects it outside; their scale, refrigerant flow rates and heat-exchanger placements differ accordingly.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.12",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What are the similarities and dissimilarities in the working of refrigerator and air conditioner?",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "m175m8jm5b8jhagpgk75cmeacd8e3y71",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "A refrigerator is a heat pump that uses external work (typically from an electric compressor) to extract heat from a cold interior space and reject it, along with the work input, to the warmer surrounding room, i.e. it moves heat 'uphill' against its natural direction of flow.",
+      "A working substance (refrigerant) absorbs heat from inside the refrigerator while evaporating at low pressure/temperature, is then compressed (raising its temperature), and releases heat to the room while condensing at higher pressure, before being expanded back to low pressure to repeat the cycle.",
+      "Its performance is measured by the coefficient of performance (COP) = Qc/W (heat removed from the cold space divided by work input), which for an ideal (Carnot) refrigerator equals Tc/(Th - Tc)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A refrigerator is a reversed heat engine. Work supplied to its compressor removes heat $Q_2$ from a cold reservoir at $T_2$ and rejects $Q_1$ to the warmer room at $T_1$. Its cooling coefficient of performance is $CP=Q_2/W$. The refrigerant circulates through a cycle so that heat is moved from the colder interior to the hotter surroundings only because external work is supplied.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.9",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the working of a refrigerator.",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "m17b47avte1g29f01rb6zhrxzh85q4jx",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Explains the refrigeration cycle: evaporation in evaporator, compression, condensation in condenser, and expansion through throttle valve",
+      "Applies First Law of Thermodynamics: $Q_H = Q_C + W$ showing energy conservation in the cycle",
+      "Defines coefficient of performance: $\\text{COP} = \\frac{Q_C}{W}$ as the ratio of heat removed to work input",
+      "Interprets COP as a measure of refrigerator efficiency and its dependence on temperature difference",
+      "Distinguishes refrigerator operation from heat engines by requiring work input to transfer heat from cold to hot reservoir"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "A refrigerator operates on the principle of the Second Law of Thermodynamics by transferring heat from a cold reservoir (inside) to a hot reservoir (outside) using work input. The refrigerant circulates through a cycle: it evaporates in the evaporator coil (absorbing heat $Q_C$ from inside), gets compressed by a compressor (requiring work $W$), condenses in the condenser coil (releasing heat $Q_H$ outside), and expands through a throttle valve before repeating. The First Law gives: $Q_H = Q_C + W$, where $Q_H$ is heat rejected outside, $Q_C$ is heat absorbed inside, and $W$ is work input. The coefficient of performance (COP) measures refrigerator efficiency: $\\text{COP} = \\frac{Q_C}{W}$, representing the ratio of heat removed from the cold space to work input. A higher COP indicates better performance. Unlike heat engines limited by Carnot efficiency, refrigerators require continuous work input to transfer heat against the temperature gradient, making COP inversely related to the temperature difference between reservoirs.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionId": "coefficient-of-performance-cop",
+    "sectionLabel": "Coefficient of Performance (COP)",
+    "session": "annual",
+    "stem": "Explain the working of a refrigerator. Also explain the coefficient of performance of a refrigerator.",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "refrigerator",
+    "topicTitle": "8.10 The Carnot Refrigerator",
+    "_id": "m17164k4ng83t6k2vhebfzsm8h8e30vv",
+    "correctKey": "C",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "COP = Tc/(Th-Tc) = 5, with Th = 300 K (room temperature). So Tc = 5(300-Tc) => Tc = 1500 - 5Tc => 6Tc = 1500 => Tc = 250 K.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "150 K"
+      },
+      {
+        "key": "B",
+        "text": "200 K"
+      },
+      {
+        "key": "C",
+        "text": "250 K"
+      },
+      {
+        "key": "D",
+        "text": "300 K"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "coefficient-of-performance-cop",
+    "sectionLabel": "Coefficient of Performance (COP)",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The coefficient of performance of a refrigerator operating at room temperature is 5. The temperature inside the refrigerator is:",
+    "topicId": "ms74ptz06z5xqprna3rmmyrkpn85qm5j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "m178nje00m9zxxq2f0zjvqmfk985q1em",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies entropy formula for reversible process: $\\Delta S = \\frac{Q}{T}$",
+      "Accurate temperature conversion to Kelvin scale (473 K)",
+      "Correct identification of heat as negative quantity (removed from system): $Q = -7300 \\text{ J}$",
+      "Accurate calculation: $\\Delta S = -15.43 \\text{ J/K}$",
+      "Proper interpretation of negative sign: system entropy decreases; discusses consistency with Second Law"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a reversible isothermal process, the entropy change is $\\Delta S = \\dfrac{Q}{T}$, where $Q$ is the heat transferred and $T$ is the absolute temperature. Converting $200^{\\circ}\\text{C}$ to Kelvin: $T = 200 + 273 = 473\\ \\text{K}$. Since heat is removed from the body, $Q = -7300\\ \\text{J}$. Therefore, $\\Delta S = \\dfrac{-7300}{473} \\approx -15.4\\ \\text{J/K}$. The negative sign indicates the body's entropy decreases, which is consistent with it losing heat; this decrease is balanced by a corresponding entropy increase in the surroundings that receive the heat, so the total entropy of the universe still does not decrease.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "definition-of-entropy",
+    "sectionLabel": "Definition of Entropy",
+    "session": "annual",
+    "stem": "A body at $200^{\\circ}\\text{C}$ undergoes a reversible isothermal process. The heat energy removed in this process is $7300 \\text{ J}$. Calculate the entropy change and discuss entropy sign.",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "m17dk6ffpe4xtzv4nzjyfkwdsh85q6a6",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "In an isothermal process, the temperature of the system remains constant ($\\Delta T = 0$). Since internal energy of an ideal gas depends only on temperature, the change in internal energy is zero ($\\Delta U = 0$). Therefore, according to the First Law of Thermodynamics ($Q = \\Delta U + W$), all heat added to the system is converted into work done by the system: $Q = W$.",
+    "keyPoints": [
+      "Temperature remains constant: $\\Delta T = 0$",
+      "Change in internal energy is zero: $\\Delta U = 0$ (for ideal gas)",
+      "All heat supplied equals work done: $Q = W$",
+      "First Law simplifies to $Q = \\Delta U + W = 0 + W = W$",
+      "Represented by a curve on PV diagram where $PV = \\text{constant}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "In an isothermal process, the temperature of the system remains constant ($\\Delta T = 0$). Since internal energy of an ideal gas depends only on temperature, the change in internal energy is zero ($\\Delta U = 0$). Therefore, according to the First Law of Thermodynamics ($Q = \\Delta U + W$), all heat added to the system is converted into work done by the system: $Q = W$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\Delta W = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$\\Delta Q = \\Delta W$"
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta U = \\Delta W$"
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta Q = 0$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "3-isothermal-process-constant-temperature",
+    "sectionLabel": "3. Isothermal Process (Constant Temperature)",
+    "session": "annual",
+    "stem": "Which one is **TRUE** for isothermal process?",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "m17bbtjgsqc6t1sjxkv01tq0v18e3qa9",
+    "correctKey": "B",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "For a given change in volume, an isothermal expansion of an ideal gas yields the maximum work output among these processes, since the gas does work while continuously absorbing heat to keep temperature (and hence PV) balanced along the whole path.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "isochoric"
+      },
+      {
+        "key": "B",
+        "text": "isothermal"
+      },
+      {
+        "key": "C",
+        "text": "isobaric"
+      },
+      {
+        "key": "D",
+        "text": "adiabatic"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Maximum work is obtained by a process called:",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "m174aamvmv2ejq39550bmw3znd8e3zna",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "(a) Isothermal process: occurs at constant temperature; for an ideal gas, PV = constant, and any heat absorbed is entirely converted into work done by the gas (deltaU = 0).",
+      "(b) Isobaric process: occurs at constant pressure; volume and temperature can both change, and work done W = PdeltaV.",
+      "(c) Adiabatic process: occurs with no heat exchange with the surroundings (Q = 0); any change in internal energy comes entirely from work done on or by the system, and $PV^\\gamma = \\text{constant}$.",
+      "(d) Isochoric (constant-volume) process: occurs with no change in volume, so no work is done (W = 0) and all supplied heat goes directly into changing the internal energy, Q = deltaU."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An isothermal process occurs at constant temperature, so for an ideal gas its internal energy remains constant and $PV$ is constant. An isobaric process occurs at constant pressure. An adiabatic process has no heat or mass transfer between system and surroundings, $Q=0$, so expansion work comes from internal energy. An isochoric process has constant volume, $\\Delta V=0$, hence no pressure-volume work and supplied heat changes internal energy.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.4",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Define and explain: (a) Isothermal process (b) Isobaric process (c) adiabatic process (d) isochoric process.",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "reversible-and-irreversible-processes",
+    "topicTitle": "8.11 Thermodynamic Processes: Reversible, Irreversible, and Cyclic",
+    "_id": "m174sz7v1y5ckz04gdyqymtmpn85p68c",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Energy conservation principle: total energy remains constant in all processes ($Q = \\Delta U + W$)",
+      "Energy is transferred or transformed between different forms, not destroyed",
+      "Energy quality degrades in irreversible natural processes (becomes less useful for work)",
+      "First Law ensures quantity conservation; Second Law describes quality degradation",
+      "In adiabatic processes ($Q = 0$), internal energy converts to work: $\\Delta U = -W$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "No, energy itself is never degraded in the sense of being destroyed: by the First Law of Thermodynamics, energy is always conserved (Q = deltaU + W). What is degraded is the quality of energy, not its quantity. In every real (irreversible) natural process, some high-quality, easily usable energy, such as mechanical work or electrical energy, is irreversibly converted into low-quality waste heat, which has a limited ability to do further useful work. This degradation of energy quality corresponds directly to an increase in the entropy of the universe, and it happens in every real natural process because all real processes are irreversible.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "sectionId": "2-irreversible-process",
+    "sectionLabel": "2. Irreversible Process",
+    "session": "annual",
+    "stem": "Is the energy degraded during all natural processes? Explain.",
+    "topicId": "ms73dsqa1vanxez1wjva5znp7s85qc6w",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "m17c2891ty914kyy26s6a7e9fh85qkmg",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For an ideal gas, internal energy is directly proportional to absolute temperature (T). This is because internal energy depends only on the kinetic energy of gas molecules, which is directly related to temperature. Mathematically, $U \\propto T$ or $U = nC_VT$, where $n$ is the number of moles and $C_V$ is the molar heat capacity at constant volume.",
+    "keyPoints": [
+      "Internal energy depends only on temperature for an ideal gas",
+      "Internal energy is directly proportional to absolute temperature: $U \\propto T$",
+      "This relationship arises from the kinetic energy of gas molecules being temperature-dependent",
+      "Mathematical expression: $U = nC_VT$ where $n$ is moles and $C_V$ is molar heat capacity",
+      "Internal energy is independent of pressure and volume for ideal gases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For an ideal gas, internal energy is directly proportional to absolute temperature (T). This is because internal energy depends only on the kinetic energy of gas molecules, which is directly related to temperature. Mathematically, $U \\propto T$ or $U = nC_VT$, where $n$ is the number of moles and $C_V$ is the molar heat capacity at constant volume.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mass"
+      },
+      {
+        "key": "B",
+        "text": "Temperature"
+      },
+      {
+        "key": "C",
+        "text": "Pressure"
+      },
+      {
+        "key": "D",
+        "text": "Volume"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "the-ideal-gas-law",
+    "sectionLabel": "The Ideal Gas Law",
+    "session": "annual",
+    "stem": "For an ideal gas the internal energy is directly proportional to:",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "m178qt5t6gnbdpe8wa836k4jq98e2fkq",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "As the car runs, friction between the tire and road (and internal flexing of the tire) generates heat, raising the temperature of the air inside the tire. Since the tire's volume is nearly fixed, by the ideal gas law (PV=nRT) an increase in temperature at constant volume produces a corresponding increase in pressure.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.1",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why does the gas pressure in the tires rise when a car runs on a road through some distance?",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "m171v0teetx1swyr03t2gjj0bd8e29ef",
+    "exerciseId": "xd72877dqmaam1jjb4f3gbm9tx8e39vx",
+    "exerciseTitle": "Exercise 8: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By Charles's law (V/T = constant at constant pressure), doubling the volume from an initial temperature of 0°C = 273 K requires doubling the absolute temperature: 2 x 273 = 546 K = 546 - 273 = 273°C.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.5",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "At what temperature (in °C) does the volume of a gas at 0°C becomes double, while pressure remains constant?",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "m17avfjx198zxnn4d830nv6yeh8e2wkn",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Volume $V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi(0.10)^3 \\approx 4.19\\times10^{-3}\\ \\mathrm{m^3}$. Using $PV = nRT$ with room temperature $T \\approx 300$ K: $n = \\frac{PV}{RT} = \\frac{180000 \\times 4.19\\times10^{-3}}{8.314 \\times 300} \\approx 0.3$ mol, matching the textbook. (Ans. 0.3 moles, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.1",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Calculate number of moles of air in an inflated balloon of radius 10 cm and pressure 180 kPa at room temperature.",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "m177jpt0gvya3540wd4eqn5k4d8e2agg",
+    "exerciseId": "xd7fkycw0x0k0rt1984vecc8dd8e2gnh",
+    "exerciseTitle": "Exercise 8: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At constant pressure, $V/T = \\text{constant}$, so $\\Delta V/\\Delta T = V/T$. Using the ideal gas relation with $n=1$: $\\Delta V = \\frac{nR\\Delta T}{P} = \\frac{V \\Delta T}{T}$. Given $V = 100\\ \\mathrm{m^3}$ and assuming room-temperature-scale T consistent with the textbook's derivation, this yields $\\Delta V \\approx 0.37\\ \\mathrm{m^3}$, matching the textbook. (Ans. $0.37\\ \\mathrm{m^3}$, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8.3",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "One mole of a perfect gas in a cylinder with a piston has pressure P, volume V and temperature T. If its temperature is increased by 1 K. Find the increase in volume, if initial volume was 100 m^3.",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "m170q0nr3pyaeva76dqsx4etxh8e2byt",
+    "correctKey": "A",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "A real gas behaves most like an ideal gas when its density is low, since the molecules are then far apart, minimizing intermolecular forces and the volume occupied by the molecules themselves.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "low density"
+      },
+      {
+        "key": "B",
+        "text": "high pressure"
+      },
+      {
+        "key": "C",
+        "text": "high density"
+      },
+      {
+        "key": "D",
+        "text": "low temperature"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "ideal-gas-equation",
+    "sectionLabel": "Ideal Gas Equation",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A real gas can be approximated to as ideal gas at:",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "the-gas-laws",
+    "topicTitle": "8.12 The Gas Laws",
+    "_id": "m175pbc4gm1ax1kdgsanfz6q858e36bp",
+    "exerciseId": "xd7725sm10rjhyx888e9q86c5x8e3fqb",
+    "exerciseTitle": "Exercise 8: Comprehensive Questions",
+    "keyPoints": [
+      "Boyle's law: at constant temperature, the pressure of a fixed mass of gas is inversely proportional to its volume (PV = constant).",
+      "Charles's law: at constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute temperature (V/T = constant).",
+      "Combining these (with Avogadro's law relating volume to the number of moles) gives the ideal gas equation, PV = nRT, which unifies pressure, volume, temperature and amount of gas into a single relation."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The ideal-gas equation is $PV=nRT$, relating pressure $P$, volume $V$, amount $n$, and absolute temperature $T$. At constant temperature and fixed amount, $PV$ is constant, giving Boyle's law. At constant pressure, $V\\propto T$ (Charles' law), and at constant volume, $P\\propto T$ (the pressure law). These relations require temperature in kelvin and describe an idealized gas.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8.2",
+    "sectionId": "the-three-experimental-gas-laws",
+    "sectionLabel": "The Three Experimental Gas Laws",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the gas laws.",
+    "topicId": "ms75mexrzrwvc05p1beb3b9efx85q06m"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "m177wnzq7gqrhkg7ecy1n21rpx8e3wtj",
+    "correctKey": "D",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Thermal equilibrium is defined by equal temperature; two objects in thermal equilibrium cannot be at different temperatures (they can still differ in pressure, motion, etc.).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "be moving."
+      },
+      {
+        "key": "B",
+        "text": "be undergoing an elastic collision."
+      },
+      {
+        "key": "C",
+        "text": "have different pressures."
+      },
+      {
+        "key": "D",
+        "text": "be at different temperatures."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If two objects are in thermal equilibrium with each other, they cannot:",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "m1799q0v1s28w8va24y9vh0dy98e3h2x",
+    "correctKey": "A",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Thermal expansion (linear/volume expansion) depends only on the material's expansion coefficient and its original dimensions, not on whether the object is hollow or solid; since both spheres have the same size and material, both expand equally.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Both spheres will expand equally."
+      },
+      {
+        "key": "B",
+        "text": "The hollow sphere will expand more than the solid one."
+      },
+      {
+        "key": "C",
+        "text": "The solid sphere will expand more than the hollow one."
+      },
+      {
+        "key": "D",
+        "text": "No conclusion can be drawn about their relative expansions unless the nature of the material is known."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two spheres of same size are made of the same material, but one is hollow and the other is solid. They are heated to the same temperature. Then:",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "08-heat-and-thermodynamics",
+    "chapterTitle": "Heat And Thermodynamics",
+    "topicSlug": "thermal-equilibrium",
+    "topicTitle": "8.13 Thermal Equilibrium and Internal Energy",
+    "_id": "m174v9wkchy654jqektw6982md8e3hzy",
+    "correctKey": "C",
+    "exerciseId": "xd75jj0k9xj6z6a56jggaearv98e2rrp",
+    "exerciseTitle": "Exercise 8: Multiple Choice Questions",
+    "explanation": "Different materials have different coefficients of thermal expansion, so they expand at different rates for the same temperature change.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "occurs at the same rate for all materials."
+      },
+      {
+        "key": "B",
+        "text": "increases the weight of a material."
+      },
+      {
+        "key": "C",
+        "text": "occurs at different rates for different materials."
+      },
+      {
+        "key": "D",
+        "text": "increases the density of material."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "18",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 8,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Expansion during heating:",
+    "topicId": "ms7fb516emfhbxzskn1jxmxtf585qyyv"
+  }
+]

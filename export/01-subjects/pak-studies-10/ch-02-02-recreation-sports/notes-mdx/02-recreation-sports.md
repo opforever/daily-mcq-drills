@@ -1,0 +1,196 @@
+<!-- note kx7fwrfm3cz7tddk72962kbp1d8bt111 | topic ms7ap3d7psdkp226s7ndkx9yc58bt6j5 | status published -->
+# 2.1 Leisure Activities and Their Importance
+
+
+Leisure activities are a broad category of interests that people pursue for enjoyment, self-actualization, and relaxation in their spare time. Sports, pastimes, gettogethers with friends, cultural events, and leisure trips can all be considered among these activities.
+Leisure time is an integral part of everyday life in Pakistan, representing the nation's vast cultural diversity and shared values. Common recreational activities like football, hockey, and cricket unite people and promote a feeling of national and community pride. Classical sports like kabaddi and malakhra as well as
+colourful celebrations like Jashn e Baharan Festival, showcase cultural legacy and offer happy opportunities for social interaction.
+In addition, leisure pursuits such as attending local theater, going on family picnics, and going to dine out present chances for rest and renewal of the mind. People who participate in leisure activities can enhance their physical and mental health, establish stronger social relationships within their communities, and attain a healthy balance in their lives.
+
+## Importance of Leisure Activities
+
+Recreational activities are essential to a community's social cohesion and general well-being. They enhance people's quality of life by offering chances for amusement, leisure, and physical fitness. Following are some of the important benefits of leisure activities:
+
+## Physical Fitness
+
+Leisure activities are essential for maintaining physical fitness and overall health. Engaging in activities such as sports, hiking, and swimming helps improve cardiovascular health, strengthen muscles, and enhance flexibility and endurance.
+Regular participation in physical leisure activities also aids in weight management, reduces the risk of chronic diseases such as heart disease, diabetes, and obesity, and promotes overall health. By incorporating a variety of enjoyable physical activities into daily routines, individuals can improve their physical health while also experiencing the social and psychological benefits of active leisure pursuits.
+
+## Psychological Strength
+
+Leisure activities offer numerous psychological benefits that contribute to overall mental wellbeing. Engaging in activities such as sports, jogging, walk, picnics, arts \& crafts, and social gatherings helps reduce stress and anxiety levels by providing a mental break from daily pressures and allowing individuals to unwind and relax. These activities also promote the release of endorphins, the body's natural "feel-good" hormones, which enhance mood and foster a sense of happiness and contentment.
+Furthermore, leisure activities can improve cognitive functions such as memory, attention, and problem-solving skills by stimulating the brain in enjoyable and meaningful ways. Social leisure activities, in particular, help build and strengthen relationships, providing emotional support and
+a sense of belonging. By incorporating leisure activities into daily routines, individuals can achieve a balanced and fulfilling life, enhancing their overall psychological health and resilience.
+
+## Community Cohesion
+
+Leisure activities play a crucial role in fostering community cohesion and building stronger social networks. Engaging in group activities such as sports, community events, festivals, and volunteer work provides opportunities for individuals to connect, interact, and develop meaningful relationships. These shared experiences help build trust and mutual respect among community members, creating a sense of belonging and collective identity.
+Participating in leisure activities also encourages teamwork and cooperation, which are essential for a harmonious community. Moreover, community-based leisure activities can bridge cultural and generational gaps, promoting inclusivity and understanding among diverse groups. By bringing people together in positive and enjoyable settings, leisure activities contribute to a more connected, supportive, and resilient community.
+
+## Cultural Preservation
+
+Leisure activities play a vital role in preserving and promoting cultural heritage. Traditional games, festivals, music, dance, and crafts are integral parts of a community's cultural identity, and engaging in these activities helps keep these traditions alive. Through leisure activities, cultural knowledge and practices are passed down from one generation to the next, ensuring that younger generations remain connected to their heritage.
+Festivals and communal celebrations like Lok Virsa Mela in Islamabad provide opportunities for people to experience and participate in cultural rituals and
+customs, fostering a sense of pride and belonging.
+Additionally, leisure activities can highlight the uniqueness of a culture to the broader community and to visitors, thereby promoting cultural diversity and understanding. By actively engaging in and supporting these activities, communities can maintain their cultural vitality and richness amidst a rapidly changing world.
+
+<SideActivity kind="tidbit" title="Do You Know?">
+Storytelling in rural Pakistan is not just a form of entertainment, but also a vital means of preserving history, culture, and moral values. In many rural communities, elders and storytellers, known as "Dastan Go," gather people around in the evenings to narrate tales of folklore, historical events, and moral lessons.
+</SideActivity>
+
+## Leisure Activities in Pakistani Society
+
+## Activities Common in Rural Areas
+
+In rural Pakistan, leisure activities are often shaped by the natural environment, cultural traditions, and limited access to modern amenities. Here are some common leisure activities in rural areas:
+
+- Outdoor games like kabaddi, Malakhra, volleyball and other traditional games are popular in rural areas, played in open fields and streets.
+- Social gatherings like weddings, Eid celebrations, cultural and religious festivals are an essential part of rural life, bringing people together and strengthening community bonds. A regular place for such gatherings is chopal culture in rural areas of Pakistan.
+- Traditions of storytelling and folk music are alive in rural Pakistan, where villagers sharing tales of history, mythology, and cultural heritage through songs and narratives.
+- Traditional crafts are preserved by rural communities. These include pottery, weaving, and embroidery, often passed down through generations. While they are profession for many people, there are people who adopt them as a hobby.
+- Hunting and fishing are also favourite pastime hobbies as abundant wildlife and water resources are available in those areas. These activities also provide a source of food and recreation.
+- Village Fairs locally called melas are periodic events that bring together people from surrounding areas, featuring music, dance, food, and games. Many a times such fairs are conducted at the start of spring season or to enjoy a healthy harvest.
+- Community service is also a common leisure activity in many rural communities. The activities like cleaning water channels, maintaining public spaces, and helping neighbours, foster a sense of community and social responsibility.
+
+## Activities Common in Urban Pakistan
+
+In urban areas of Pakistan, leisure activities are often different from what they are in rural areas. The following are some common leisure activities in urban areas:
+
+| Activity | What it looks like |
+| --- | --- |
+| Cricket | Cricket is the most popular sport in Pakistan, with a huge following and a rich history of producing world-class players. Many Pakistanis enjoy playing cricket in streets, parks, and stadiums, while others watch international matches and domestic tournaments with great enthusiasm. |
+| Food and dining out | Food is an integral part of Pakistani culture, and many people enjoy trying different cuisines, cooking, and dining out with family and friends. Pakistani cuisine offers a diverse range of dishes, from spicy curries and biryanis to mouth-watering kebabs and haleem. Restaurants, food streets, and street food vendors are popular destinations for foodies. |
+| Social gatherings (weddings, birthdays, festivals) | Social gatherings like weddings, birthdays, expos, and different kinds of festivals are an essential part of Pakistani urban culture. These events bring people together, strengthen family bonds, and promote social harmony. |
+| Outdoor picnic spots | Outdoor activities are also common among the people living in urban areas. In order to take a break from their busy routines, Pakistani people in urban areas visit nearby picnic spots including mountains, riverside spots, beaches and other such attractions. |
+| Sports and fitness | Sports and fitness are also common leisure activities especially for young Pakistanis. Apart from cricket, many Pakistanis enjoy other sports like football, basketball, tennis, and squash. Fitness enthusiasts visit gyms and jogging tracks to stay healthy and active. |
+| Travel and tourism | Travel has become one of the favourite leisure activities for Pakistanis. Internal tourism has increased a lot as Pakistan offers many exciting travel destinations, from the ancient Indus Valley Civilization ruins to the beautiful valleys in the north. Many people enjoy exploring new places, experiencing different cultures, and learning about the country's history and heritage. |
+| Reading and writing | Reading and writing hobbies have been affected by the invent of internet but still they are popular leisure activities in Pakistan, with many people enjoying Urdu, English and regional literature, poetry, and blogging. |
+| Video games and esports | Video games have become increasingly popular in Pakistan, with many people enjoying online gaming with friends and family. Gaming tournaments and esports events are also gaining popularity, with many young gamers competing at national and international levels. |
+| Television and social media | Television and social media are also favourite leisure activities for many Pakistanis. With the arrival of multiple web channels, video streaming sites, and social media platforms, many people, especially elderly, spend most of their time in front of the TV screens to watch programs of their liking. |
+
+These leisure activities bring people together, promote social bonding, and contribute to the rich cultural tapestry of Pakistani society. They provide a much-needed break from daily routines, foster creativity and innovation, and promote physical and mental well-being.
+
+## Tourism Spending in Pakistan
+
+According to World Travel \& Tourism Council 2023 Annual Research, local tourists of Pakistan spent Rs. 3.8 trillion. The figure is expected to cross the figure of 4 trillion in 2024
+
+
+---
+
+<!-- note kx7atcp1a73wrhd8mzxhm8zn5x8btvmn | topic ms7fw7v4t9jk65k3b6x8tkrvvn8btk08 | status published -->
+# 2.2 Sports in Pakistan: Traditional, National and International Games
+
+
+Sports are a vital recreational pursuit that significantly contributes to the physical, mental, and social well-being of individuals and communities. Engaging in sports improves physical fitness, coordination, and flexibility, which are essential for daily tasks and preventing injuries. It also reduces the risk of chronic diseases like heart disease, diabetes, and obesity. Sports also provide stress relief, boost self-esteem and confidence, and teach resilience and perseverance.
+Socially, sports foster community building, teamwork, and cooperation, which are transferable to other areas of life. They also instill character building skills, such as dedication, hard work, and fair play. Physical activity also improves cognitive function, including memory, concentration, and problem-solving skills.
+Economically, sports industries contribute to economic growth through job creation, tourism, and the sale of sports-related goods and services. Hosting sports events can boost local economies and promote international recognition. International sports competitions promote
+cultural exchange and understanding, breaking down cultural barriers and fostering inclusivity and global unity.
+
+## Sports in Pakistan
+
+Here we will examine the prevalence of sports in Pakistan:
+
+## Traditional Sports in Pakistan
+
+Traditional sports in Pakistan have a rich history and cultural significance, with many games passed down through generations. These sports promote physical fitness, strength, and agility, while also fostering community engagement and social bonding.
+Kabaddi is a popular contact team sport with roots in rural Pakistan. It combines elements of wrestling and rugby. It involves two teams, with players taking turns to raid the opponent's half of the field and tag the defenders before returning to their own half. The defenders try to stop the raider by wrestling them to the ground. This game is played across the country, with national and international competitions. Kabaddi promotes strength, speed, and strategy, making it a beloved sport in Pakistan.
+Kushti or pehlwani is a form of traditional wrestling. Common in rural areas of Pakistan. Wrestlers, known as Pehlwans,
+compete in a circular arena called an Akhara. Matches are characterized by grappling techniques and displays of strength and skill. Training for Pehlwani involves rigorous physical conditioning and adherence to a specific diet known as "Khuraak." In Pakistan, Gujranwala is called the city of Pehlwans. Trained from these rural centres, Pakistani wrestlers like Gama Pehlwan who was given title of Rustam e Zaman and Jhara Pehlwan raised Pakistani flag in the international arenas.
+Malakhra is a traditional form of wrestling in Sindh, where wrestlers wear colorful belts tied around their waists. The objective is to unbalance the opponent by gripping the belt and throwing them to the ground. Matches are usually held in open fields during cultural festivals and celebrations.
+Rasa Kashi also known as tug of war, is a traditional game in rural Pakistan, particularly in the Sindh region. It is a popular sport that requires strength, endurance, and teamwork. The objective of Rasa Kashi is for two teams to compete against each other, pulling a rope in opposite directions, with the goal of pulling the rope a certain distance or making the opposing team fall.
+Other than these games, Kho kho, kokla chapaki, pithu garam and many such games are common in Pakistan.
+
+## National and International Sports in Pakistan
+
+Other than traditional games, national and international sports in Pakistan are highly revered, with many sports enjoying wridespread popularity and international recognition.
+
+## Hockey, the National Game
+
+Hockey is Pakistan's national game, and the country has a rich history of excellence in the sport. Pakistan's hockey team has won numerous international titles, including three Olympic gold medals, four World Cup titles, and several Asian Games gold medals.
+Hockey was introduced to Pakistan during the British colonial era, and the country quickly embraced the sport. Pakistan's hockey team made its international debut in 1948, and since then, the team has become a force to be reckoned with in the hockey world.
+The 1960s to the early 1990s are considered the golden era of Pakistan hockey. During this period, the team won several international titles, including three Olympic gold medals $(1960,1968$, and 1984) and four World Cup titles (1971, 1978, 1982, and 1994). During these years Pakistan's hockey team produced some of the greatest players in the history of the sport.
+Sohail Abbas was a Penalty Corner specialist who has the world record for most goals in international hockey. Shahbaz Ahmed often referred to as the "Maradona of Hockey," was renowned for his exceptional dribbling skills, speed, and playmaking abilities. Hasan Sardar was a prolific striker who was instrumental in Pakistan's victories in the 1982 World Cup and the 1984 Los Angeles Olympics. Islahuddin, was the former captain and coach of the Pakistani hockey team, who led Pakistan to win the 1978 World Cup and the 1982 Asian Games. Samiullah was nicknamed the "Flying Horse" for his
+
+Sohail Abbas
+
+incredible speed and stamina. Kaleemullah was another legendary center forward who was known for his powerful shots and goal-scoring abilities. Hanif Khan was a versatile forward, who was known for his skillful play and strategic thinking on the field. Akhtar Rasool was a legendary center-half, known for his exceptional ball control and game management. Shahid Ali Khan and Mansoor Ahmed remained the best goalkeepers of Pakistan hockey.
+
+## Current State of Hockey in Pakistan
+
+Pakistan's hockey team has faced challenges in recent years and the team could not qualify for world cups. Still, the sport remains popular in the country. The Pakistan Hockey Federation is working to revitalize the sport, and there are efforts underway to develop grassroots hockey programs and improve infrastructure.
+
+## Squash, the National Pride
+
+Squash is a popular sport in Pakistan, with a rich history of producing world-class players. Pakistan has a strong squash tradition, and the sport is widely played and followed in the country.
+Squash was introduced to Pakistan during the British colonial era. Pakistan's squash players made their international debut in the 1950s, and since then, the players have become a force to be reckoned with in the squash world.
+Pakistan has produced some of the greatest squash players of all time, including legends like Hashim Khan, Jahangir Khan, Jansher Khan, and Qamar Zaman. These players have won numerous international titles, including British Open and World Championship titles.
+
+Jahangir Khan is widely regarded as one of the greatest squash players of all time. He won a record 10 British Open titles and 8 World Championship titles, and was ranked number one in the world for a record 12 years. Jansher Khan is another Pakistani squash legend, who won 6 British Open titles and 4 World Championship titles. He was ranked number one in the world for 5 years and was known for his aggressive playing style.
+Pakistan has several world-class squash courts, including the Pakistan Squash Complex in Islamabad, which hosts international tournaments. The country needs many more courts and academies and training centers that can provide coaching and training to young players so that the lost legacy of Pakistan in world squash may be regained.
+
+Jahangir Khan
+
+## Cricket, the National Obsession
+
+Pakistan's most popular and fervently watched sport is cricket, which is frequently referred to as a national obsession. Since its introduction to the area during the British colonial era, the sport has grown to be an important aspect of Pakistani identity and culture.
+After Pakistan attained independence in 1947, the game took off there. In 1952, the Pakistan national cricket team took on India in their inaugural Test match, which launched a legendary cricket career. Pakistan has produced some of the world's most gifted and renowned cricket players over the years, adding to the sport's appeal on a worldwide scale.
+Some of the most notable cricket players include Fazal Mahmood, the hero of Oval who was the first Pakistani player to pass 100 wickets, a feat he achieved in his 22nd match. Imran Khan who was renowned for his leadership and all-round capabilities and the captain of Pakistan during the 1992 World Cup. Zaheer Abbas was a stylish batsman who was called the Asian Breadman and Runs Machine by the spectators of the game. Wasim Akram, a great left-arm bowler known as the "Sultan of Swing," is considered one of the best fast bowlers in the history of cricket. Waqar Younis was a fast-bowling
+
+<CaptionedImage src="kg27458zd3yj986mtgmap2yr318dp461" alt="Two Ws: Waseem Akram and Waqar Yunis" caption="Two Ws: Waseem Akram and Waqar Yunis" />
+
+Two Ws: Waseem Akram and Waqar Yunis
+
+legend who was known for his deadly Yorkers and reverse swing bowling. Javed Miandad was a prolific batsman, famous for his consistency and match-winning performances. Fast Bowling sensation Shoaib Akhtar holds the world record for the fastest bowl in world history when he crossed the 100 miles per hour target. Shahid Afridi is known for his explosive batting and legspin bowling, known as "Boom Boom" by the cricket fans around the world.
+Pakistani female Cricket players are also famous in world arena. These include Sana Mir, known for her exceptional leadership skills and her ability as an all-rounder, excelling in both batting and bowling. She was the first Pakistani woman to take 100 wickets in ODIs. Bismah Maroof, a toporder batter known for her consistency and technical proficiency. Nida Dar, who has consistently been a match-winner for Pakistan, contributing significantly in both batting and bowling
+departments. Top order batter Javeria Khan and fast bowler Diana Baig are also among the famous women cricketers for Pakistan.
+In addition to famous wins in bilateral series against all the teams of the world, Pakistan also won many international titles including the One Day World Cup in 1992, ICC T20 World Cup in 2009 and the ICC Champions Trophy in 2017.
+Pakistan Super League (PSL) has become a big brand that attracts the cricketers from across the world. The league has given Pakistan many new sensations.
+In Pakistan, cricket serves as more than simply a recreational activity; it is a social glue that binds people from all backgrounds and places together. Pakistan's love affair with cricket is still going strong because of the country's passion, talent, and dedication to the game, which inspires and produces world-class players.
+## International Sports in Pakistan
+
+International sports in Pakistan have gained popularity in recent years, offering a diverse range of recreational pursuits for Pakistanis. These sports promote physical fitness, mental well-being, and social interaction, while also providing opportunities for international competition.
+
+<SideActivity kind="tidbit" title="Do You Know?">
+Pakistan beat Japan in football during the 1960s. The historic victory occurred in the 1960's Merdeka Cup in Malaysia where Pakistan's national football team defeated Japan 3-1. This win remains one of the notable achievements in the history of Pakistani football, showcasing the team's potential on an international platform.
+</SideActivity>
+
+## Football
+
+Football in Pakistan has a rich history and a dedicated following in different parts of Pakistan. The sport was introduced during the British colonial era and gained popularity in regions where British bases were established.
+The Pakistan Football Federation (PFF) was established in 1948 to govern and promote the sport across the country. The Pakistan Premier League (PPL) is the top-tier professional football league in Pakistan, featuring clubs from across the country competing for the national championship.
+
+During the 1950s, 60s and 70s Pakistani football players left indelible marks on the international arena.
+Qayyum,Changezi, Ghafoor Majna, Taj Muhammad Senior and Junior, and many other such heroes came to the football circles of Pakistan making Pakistan proud.
+In recent years, the Pakistan football team has shown marked improvement on the international arena. Still, it is far behind the top-tier teams of the world and even in Asia.
+Despite facing challenges such as limited funding, lack of infrastructure, and political and administrative issues, there is significant potential for the growth of football in Pakistan. Collaborations with international football organizations, foreign clubs, and coaches can provide valuable support and expertise.
+
+## Boxing
+
+Boxing is a well-regarded sport in Pakistan, with a history of producing talented fighters who have achieved national and international recognition. The sport has grown steadily over the years, supported by a strong grassroots movement and dedicated training programs.
+Although Pakistani boxers have faced stiff competition at the Olympic level, they have represented the country with pride. Participation in the Olympics has provided valuable experience and exposure to the international boxing scene.
+
+<CaptionedImage src="kg297t9cb9dmarwpsnf5z0htgs8dpcgz" alt="Muhammad Waseem, the Falcon" caption="Muhammad Waseem, the Falcon" />
+
+Muhammad Waseem, the Falcon
+
+Hussain Shah is arguably the most famous boxer in Pakistani history. He won a bronze medal in the middleweight category at the 1988 Seoul Olympics, making him the only Pakistani boxer to achieve this feat. Abrar Hussain, a three-time Olympian and a gold medalist in the South Asian Games has been a significant figure in Pakistani boxing. Muhammad Waseem, also known as "Falcon," is a contemporary boxing star from Pakistan. He has also won several titles for Pakistan.
+## Tennis
+
+Tennis is gaining popularity in Pakistan, with Pakistani players like Aisam-ul-Haq Qureshi and Aqeel Khan achieving international success. Tennis promotes physical fitness, mental focus, and strategy, making it a highly respected sport in Pakistan.
+
+## Badminton
+
+A growing sport in Pakistan, badminton has produced national champions and international players. Badminton promotes physical fitness, speed, and agility, making it a popular choice for Pakistanis.
+
+## Non-Traditional Sports in Pakistan
+
+Non-traditional sports in Pakistan have gained popularity in recent years, offering a diverse range of recreational pursuits for Pakistanis. These sports promote physical fitness, mental well-being, and social interaction, while also providing opportunities for international competition.
+Martial Arts with disciplines like karate, taekwondo, and judo have gained popularity in Pakistan, emphasizing self-defense 'and physical fitness. Martial arts promote discipline, focus, and physical skill, making them a popular choice for Pakistanis.
+
+Gymnastics are becoming increasingly popular in Pakistan, with Pakistani gymnasts competing internationally. Gymnastics promote strength, flexibility, and coordination, making it a highly respected sport in Pakistan. Other sports include Javelin throw where Arshad Nadeem has performed sensationally well and brought Pakistan success. In Snooker, players like Muhammad Yusuf who became the world amateur snooker champion in 1994, Muhammad Asif became the World Amateur Snooker Champion in 2012 and
+
+<CaptionedImage src="kg29askzv2s5pc7twv6wzk8c3s8dqk86" alt="Pride of Pakistan: Arshad Nadeem" caption="Pride of Pakistan: Arshad Nadeem" />
+
+Pride of Pakistan: Arshad Nadeem
+
+2019 and Ahsan Ramzan who became the World Champion in 2022. Sports play a vital role in Pakistani society, offering a diverse range of recreational pursuits that cater to different interests and age groups. From traditional games to international disciplines, sports promote physical fitness, social interaction, and national pride, making them an essential part of Pakistani culture. With more investment in sports and by making it a priority for the country, Pakistan has the potential to become a world power in sports.

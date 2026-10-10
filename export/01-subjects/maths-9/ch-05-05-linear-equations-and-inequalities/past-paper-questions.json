@@ -1,0 +1,891 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-1-linear-equations-in-one-variable",
+    "topicTitle": "5.1 Linear Equations in One Variable",
+    "_id": "m172mfzpr9ngxhkphzbgn08y6d8c668v",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "x≥20"
+      },
+      {
+        "key": "B",
+        "text": "x≤10"
+      },
+      {
+        "key": "C",
+        "text": "x<10"
+      },
+      {
+        "key": "D",
+        "text": "x>10"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "If x is smaller than 10, then which statement is TRUE?",
+    "topicId": "ms7dj1s04v3jd04zw0yq0qs8vh8bt8y5",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m1795ncjppqa7pps72cqskw2rh8ct7s7",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Isolate the radical",
+      "Square both sides",
+      "Check the candidate in the original equation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Squaring: $2x=16$, so $x=8$. Check: $\\sqrt{16}=4$. Solution set $\\{8\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{2 x}=4$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m177w12chtwx4nbj03zs2g2qk58cty91",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Square, solve, then verify"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x-3=4$, so $x=7$. Check: $\\sqrt{4}=2$. Solution set $\\{7\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{x-3}=2$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m176nxdsxap2ks0acaxvj685cx8ctasm",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Verify the root satisfies the original equation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x-5=9$, so $x=14$. Solution set $\\{14\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{x-5}=3$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m174sxcbhwtgk4hjxs44cr97qs8ctaqf",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "$9^{2}=81$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$2x+1=81$, so $2x=80$ and $x=40$. Solution set $\\{40\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{2 x+1}=9$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m1756shd45yw5mtt3yxks11ys98ct819",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "$14^{2}=196$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$5x-4=196$, so $5x=200$ and $x=40$. Solution set $\\{40\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{5 x-4}=14$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m17amyrd4s706nkxqqx08rs80n8cvmjj",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "A square root is never negative"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A principal square root can never be negative, so $\\sqrt{3x-5}=-10$ has no solution.\nSolution set $\\phi$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{3 x-5}=-10$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m17dsmqmh1xz7wxysabrkv0me18cvbkd",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Move the constant across before squaring"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\sqrt{y+4}=5$, so $y+4=25$ and $y=21$. Solution set $\\{21\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{y+4}-3=2$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m1702tz0ddgev3z4vzfq818bm18cts0p",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Check gives $\\sqrt{25}=5$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\sqrt{2x-1}=5$, so $2x-1=25$ and $x=13$. Solution set $\\{13\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$5-\\sqrt{2 x-1}=0$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m17f3anm1y8d2nmc2465yhv0bs8ctbcj",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Simple linear form follows directly on squaring"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\sqrt{y+1}=2$, so $y+1=4$ and $y=3$. Solution set $\\{3\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{y+1}-12=-10$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m1732s6vat4774sx166kebhnbn8ctach",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Equal radicals square away completely"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Squaring both sides removes both radicals: $5t-2=3t+4$, so $t=3$.\nCheck: both radicals equal $\\sqrt{13}$. Solution set $\\{3\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{5 t-2}=\\sqrt{3 t+4}$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m175der3ynnk9wan7p96xkwtqs8ctqcs",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Both sides remain non-negative here, so the root survives checking"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$9-2x=5x-12$, so $21=7x$ and $x=3$.\nCheck: $\\sqrt{9-6}=\\sqrt{3}$ and $\\sqrt{15-12}=\\sqrt{3}$. Solution set $\\{3\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{9-2 x}=\\sqrt{5 x-12}$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m173bkmpr7qe3zrchrrfzgrzz58cvnv3",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Isolate the radical before judging solvability",
+      "A negative right side means no solution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Rearranged: $\\sqrt{y+1}=14-12=2$, wait carefully: $12-\\sqrt{y+1}=14$ gives $\\sqrt{y+1}=-2$, which is impossible since square roots are non-negative.\nSolution set $\\phi$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$12-\\sqrt{y+1}=14$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m179st7ejhkancn7y6tw7cm9y58ct3s2",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Divide off the coefficient first"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$4\\sqrt{z}=32$, so $\\sqrt{z}=8$ and $z=64$. Solution set $\\{64\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$4 \\sqrt{z}+8=40$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m179ksstcftn1yxxx266qrejv58cv42m",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Cross-multiply after squaring equal square roots",
+      "Reject values that empty any denominator"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Squaring removes the radicals: $\\frac{a+6}{a+2}=\\frac{a+2}{a-1}$.\nCross-multiplying: $(a+6)(a-1)=(a+2)^{2}$, so $a^{2}+5a-6=a^{2}+4a+4$, giving $a=10$.\nChecking $a \\neq -2, 1$: valid. Solution set $\\{10\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{\\frac{a+6}{a+2}}=\\sqrt{\\frac{a+2}{a-1}}$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m17brbbzh7mefsct6j30xfzshs8ctp1n",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "Quadratic terms cancel to a linear equation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\frac{z}{z+3}=\\frac{z+2}{z+6}$ after squaring.\nCross-multiplying: $z(z+6)=(z+2)(z+3)$, so $z^{2}+6z=z^{2}+5z+6$, giving $z=6$.\nSolution set $\\{6\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{\\frac{z}{z+3}}=\\sqrt{\\frac{z+2}{z+6}}$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-2-linear-equations-involving-radicals",
+    "topicTitle": "5.2 Linear Equations Involving Radicals",
+    "_id": "m179x8d958jvr3d83p0c39wy598cv07b",
+    "exerciseId": "xd71602de6js9pdv51vxszt59s8ct08b",
+    "exerciseTitle": "Exercise 5.2",
+    "keyPoints": [
+      "A negative radicand invalidates the candidate",
+      "Extraneous roots are discarded after checking"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Squaring: $5x-4=7x+2$, so $-2x=6$ and $x=-3$.\nCheck: $\\sqrt{5(-3)-4}=\\sqrt{-19}$ is not real, so $x=-3$ is an extraneous root.\nSolution set $\\phi$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Reduce the following radical equation into a simple linear equation then find its solution. In case of extraneous solution, write $\\phi$ for the solution set.\n$\\sqrt{5 x-4}=\\sqrt{7 x+2}$",
+    "topicId": "ms730270khr0btb84qc4mrj6rn8btbsh"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m1721fkhj7g6xyz57jqj3wwbqd8ctqh8",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Absolute value measures distance from zero",
+      "Distance works equally in both directions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|x|=\\frac{5}{3}$ has two solutions, $x=\\frac{5}{3}$ and $x=-\\frac{5}{3}$.\nSolution set $\\left\\{\\frac{5}{3},-\\frac{5}{3}\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|x|=\\frac{5}{3}$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m17cygkr1gws26thx7gnpzsjmd8ctkv0",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Split into plus and minus cases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x+2=\\pm 6$ gives $x=4$ or $x=-8$. Solution set $\\{4,-8\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|x+2|=6$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m179dspe6cvfx3dkjbhb9e68fn8ct8fm",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Handle the coefficient after opening the cases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$5y-1=\\pm 9$ gives $5y=10$ or $5y=-8$.\nSolution set $\\left\\{2,-\\frac{8}{5}\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|5 y-1|=9$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m171j2bkc9q6hhqj7yh6wbvd4x8cv8h2",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Two symmetric solutions around the shift point"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x+1=\\pm 2$ gives $x=1$ or $x=-3$. Solution set $\\{1,-3\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|x+1|=2$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m17d5mrnj52dyp9ycmz59kbwd98cvej9",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Zero distance has a single solution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|6-3y|=0$ forces $6-3y=0$, so $y=2$.\nOnly one solution exists when the absolute value equals zero. Solution set $\\{2\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|6-3 y|=0$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m173v7n0z8p1nt3m90j2r3xgrx8ctg2n",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Isolate the absolute value expression first"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$3|z-2|-4=-2$ gives $|z-2|=\\frac{2}{3}$.\nSo $z-2=\\pm\\frac{2}{3}$ and $z \\in\\left\\{\\frac{8}{3}, \\frac{4}{3}\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$3|z-2|-4=-2$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m17253qtym8wn3hhbpdnhppnts8ct6bp",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Solve each resulting linear equation separately"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$2x-1=\\pm 5$ gives $x=3$ or $x=-2$. Solution set $\\{3,-2\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|2 x-1|=5$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m17ahty7h0r53fj0924513fknn8cvedx",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Keep the coefficient attached while splitting cases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$3x+2=\\pm 7$ gives $x=\\frac{5}{3}$ or $x=-3$. Solution set $\\left\\{\\frac{5}{3},-3\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|3 x+2|=7$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m171pb9mb9cdkmfeqe6wv855a58ctz5v",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Clear fractions before opening cases"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\frac{|4x|}{3}=12$ gives $|4x|=36$, so $|x|=9$ and $x=\\pm 9$.\nSolution set $\\{9,-9\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$\\frac{|4 x|}{3}=12$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m17eeq2ztfbjfj9b2hqnntmtkn8ctw2c",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "An absolute value never equals a negative number"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|5x|+10=5$ would require $|5x|=-5$, impossible.\nSolution set $\\phi$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|5 x|+10=5$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m170ndhjmwm0e70cejasfeydvd8cvznp",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Both signs produce valid roots here"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|1-2y|=12$ gives $1-2y=\\pm 12$.\nFor $+12$: $y=-\\frac{11}{2}$; for $-12$: $y=\\frac{13}{2}$.\nSolution set $\\left\\{-\\frac{11}{2}, \\frac{13}{2}\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$\\frac{|1-2 y|}{4}=3$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m174008rfjehkbehxs770xhtb98cvjm6",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Equal absolute values mean the insides are equal or opposite",
+      "Test every candidate against the unsquared equation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Cross-multiply: $3|x+1|=2|2x-1|$.\nCase 1: $3(x+1)=2(2x-1)$ gives $x=5$.\nCase 2: $3(x+1)=-2(2x-1)$ gives $x=-\\frac{1}{7}$.\nBoth check in the original equation. Solution set $\\left\\{5,-\\frac{1}{7}\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$\\frac{|x+1|}{2}=\\frac{|2 x-1|}{3}$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m172jrcme6y553kdkhaqf3b8hx8cv3xh",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Opposite-inside case needs the minus sign distributed"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$5x-3=x+7$ gives $x=\\frac{5}{2}$;\n$5x-3=-(x+7)$ gives $6x=-4$, so $x=-\\frac{2}{3}$.\nSolution set $\\left\\{\\frac{5}{2},-\\frac{2}{3}\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|5 x-3|=|x+7|$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m1730e84y6vzcqbf13sfw682fn8ctwh4",
+    "exerciseId": "xd75q0y7abjmraygxa5vcxvje18cvzam",
+    "exerciseTitle": "Exercise 5.3",
+    "keyPoints": [
+      "Gather the absolute value terms on one side first"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Collecting like terms: $2|z+3|=8$, so $|z+3|=4$.\nThen $z+3=\\pm 4$ and $z \\in\\{1,-7\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Solve the following absolute value equation, where $x, y, \\mathrm{z} \\in \\mathrm{R}$.\n$|z+3|-3=5-|z+3|$",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m178w0ezj1wajrqhvb5x2mctzd8c7kx3",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "−26"
+      },
+      {
+        "key": "B",
+        "text": "23"
+      },
+      {
+        "key": "C",
+        "text": "−29"
+      },
+      {
+        "key": "D",
+        "text": "\\phi"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "What is the solution set of |x+3|=−30?",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "05-linear-equations-and-inequalities",
+    "chapterTitle": "Linear Equations And Inequalities",
+    "topicSlug": "5-3-equations-involving-absolute-value",
+    "topicTitle": "5.3 Equations Involving Absolute Value",
+    "_id": "m1773495aptmw3xmj4btranjj58e088j",
+    "exerciseId": "xd75z4tegmfvknrykbda1hgq358e01dc",
+    "exerciseTitle": "Chapter 5: Miscellaneous Review Exercise",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "sectionLabel": "Review / Encircle the Correct Option",
+    "sourceRef": {
+      "blockIndex": 17,
+      "blockKind": "exercise",
+      "chapterNumber": 5,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "1. Encircle the correct option in the following. absolutely correct.\n(i) . Which one is the standard form of linear equation?\n(a) $a x^{2}+b=0$\n(b) $\\mathrm{ax}+\\mathrm{b}=-\\mathrm{c}$\n(c) $\\quad a x+b>0$\n(d) $a x+b=0$\n(ii) . The exponent of the variable in linear equation is?\n(a) 1\n(b) 2\n(c) -1\n(d) 0\n(iii) . Which one is the linear equation in one variable?\n(a) $\\mathrm{a} x+y=0$\n(b) $x y+3=0$\n(c) $2 x+3=0$\n(d) $2 x^{2}+3=0$\n(iv) . Which one is the solution of $12 x+17=65$ ?\n(a) 48\n(b) $\\frac{82}{12}$\n(c) 4\n(d) $\\frac{65}{12}$\n(v) . What number must be subtracted from the right side of $7 x=30$ so that 4 is a solution of the resulting equation?\n(a) 7\n(b) 2\n(c) 4\n(d) -2\n(vi) . Which property of equality will be applied to solve the equation $-2 x=\\frac{2}{5}$ ?\n(a) Addition\n(b) Subtraction\n(c) Division\n(d) Addition and subtraction\n(vii) . Which one is the solution set of $5|x|=25$ ?\n(a) $\\{-25,25\\}$\n(b) $\\{-25\\}$\n(c) $\\{5\\}$\n(d) $\\{-5,5\\}$\n(viii) . Which is the solution set of $|x|+7=3$ ?\n(a) $\\{-4\\}$\n(b) $\\{4,-4\\}$\n(c) \\{ \\}\n(d) $\\{-7,-3\\}$\n(ix) Which one is the solution set of $\\sqrt{5 x}=-10$ ?\n(a) $\\}$\n(b) $\\{-20\\}$\n(c) $\\{20\\}$ (d) $\\{-2\\}$\n(x) . Which one is the solution set of $\\sqrt{3 x+1}=5$ ?\n(a) 25\n(b) 8\n(c) 24\n(d) $\\frac{26}{3}$\n\n(xi) . Which one is the solution of $\\frac{4}{x}-\\frac{2}{x}=5$ ?\n(a) -1\n(b) $\\frac{2}{5}$\n(c) $\\frac{5}{2}$\n(d) zero\n(xii) . Which one is a strict inequality?\n(a) $x+3 \\neq 0$\n(b) $12 x>5$\n(c) $2 y-3 \\leq 0$\n(d) $4 x+5 \\geq 0$\n(xiii) . What should be value of 'k' if $x<y$ shows $\\mathrm{k} x>\\mathrm{k} y$ ?\n(a) $\\mathrm{k}=0$\n(b) $\\mathrm{k}>0$\n(c) $\\mathrm{k}<0$\n(d) $\\mathrm{k} \\geq 0$\n(xiv) . Which one is the compound relation?\n(a) $1+2 x<4+x$\n(b) $4 x+3>5 \\frac{3}{5}$\n(c) $x+y>5 \\frac{1}{2}$\n(d) $x \\leq 0$\n(xv) . Which one is the solution of $3-\\frac{1}{2} x \\geq 0$ ?\n(a) $x \\geq-6$\n(b) $x \\leq 6$\n(c) $x \\geq 6$\n(d) $x \\leq-6$\n(xvi) . Which one is the solution of $2(x+6) \\leq 3(x+4)$ ?\n(a) $x \\leq 0$\n(b) $x \\geq 0$\n(c) $x \\leq 24$\n(d) $x \\geq 24$\n\nSolve the following.\n2. $\\frac{2 x-11}{12}=\\frac{2 x+10}{12}-\\left(\\frac{28-2 x}{4}-\\frac{1}{4}\\right)$\n3. $\\sqrt{a-\\frac{1}{2}}=\\sqrt{\\frac{2 a}{5}+\\frac{2}{5}}$\n4. $\\frac{\\sqrt{5 x-4}-4}{10}=-1$\n5. $5-|5 \\mathrm{y}+1|=-9$\n6. $\\frac{3}{4} x-1 \\geq x+1, x \\in R$\n7. $4(2 y+3)-(6 y-1)>10, y \\in R$\n8. $\\frac{3}{2} x \\leq-3$ or $\\frac{2}{3} x \\geq 4, x \\in \\mathrm{R}$\n\n9. The difference between three times a number $y$ and 18 is less than 12 or greater than 39 . What real numbers do y represent?",
+    "topicId": "ms72w7s3380c4x78xkdrrbv2x18btxft"
+  }
+]

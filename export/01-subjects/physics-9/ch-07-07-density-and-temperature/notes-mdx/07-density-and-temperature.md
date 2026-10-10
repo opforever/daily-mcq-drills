@@ -1,0 +1,463 @@
+<!-- note kx72rzwwzmp56x07enje2n6k698btjz3 | topic ms7cx4338gmc0y0cf3tr1wjgb58bvygs | status published -->
+# 7.1 Density
+
+Density of a material tells us how much matter a substance has in its unit volume. The substance, which has more closely packed atoms, has more matter in a fix volume. Therefore, it is denser substance. Solids like metals; rocks etc. are denser materials because they have closely packed atoms in the given volume. Substances in which atoms are far from each other, they have small amount of matter in a fix volume, so they are less dense. It is the reason why liquids and gases have less density than solids. Density of solids is greater than liquids and density of liquids is greater than gases.
+
+Solids have more atoms per unit volume than liquids and gases, so solids are denser than liquids and gases
+
+FIGURE 7.1 STATES OF MATTER
+<CaptionedImage src="kg2824t6gmvby0857ygwtxfsp18dswer" alt="" caption="FIGURE 7.1 STATES OF MATTER" />
+
+We define density of a material as:
+"Mass per unit volume of the substance is called its density".
+
+$$
+\text { Density }=\frac{\text { Mass }}{\text { Volume }}
+$$
+
+Its symbol is so: $\rho=\frac{\mathrm{m}}{\mathrm{V}}$ 7.1
+
+Osmium metal is the most dense material at room temperature and pressure. Its density is $22.59 \mathrm{~g} / \mathrm{cm}^{\prime}$. It is harder than diamond. ts SI unit is kilogram per cubic metre $\mathrm{kg} / \mathrm{m}^{3}$ ). Smaller unit to measure density is gram per cubic centimetre ( $\mathrm{g} / \mathrm{cm}^{3}$ ). Density of liquids is usually measured in gram per millilitre (g/mL). It is a scalar
+quantity.
+Density of small amount of a substance is the same as the density of its bulk because density is calculated by the amount of matter in its unit volume. Density of a material changes with the temperature. Can you explain why?
+
+| Material | Density ( $\mathbf{\mathrm { kg }} \boldsymbol{/} \mathbf{m}^{\mathbf{3}}$ ) |
+| :--- | :--- |
+| Iron | 7900 |
+| Gold | 19300 |
+| Ice | 920 |
+| Plythene | 900 |
+| Petrol | 800 |
+| Pure water | 1000 |
+| Mercury | 13600 |
+| Air | 1.3 |
+| Carbon dioxice | 2.0 |
+
+CAN YOU TELL?
+Write the followings in increasing order of densities:
+Hydrogen, milk, mercury, gold
+
+EXAMPLE 7.1: DENSITY OF REGULAR SHAPE
+You find a material in the shape of cube of side length 5 centimetre. Mass of this cube is 500 grams. Find the density of this material?
+
+| Given: | Mass of the material $=500 \mathrm{~g}$ Side length of the cube of the given material $=5 \mathrm{~cm}$ |
+| :--- | :--- |
+| Required: | Density of the material $\rho=$ ? |
+| Solution: | Volume of a cubic shape object is given by: Volume $=(\text { side } \text { length })^{3}$ |
+| Putting values | Volume $=(5 \mathrm{~cm})^{3}=125 \mathrm{~cm}^{3}$ |
+
+Now, we will find density of cube shaped object is:
+
+$$
+\text { Density of cube shaped object }=\frac{\text { Mass of cube }}{\text { Volume of cube }}
+$$
+
+Putting values $\rho=\frac{500 \mathrm{~g}}{125 \mathrm{~cm}^{3}}$
+Therefore, $\quad \rho=4 \mathrm{~g} / \mathrm{cm}^{3}$
+
+
+---
+
+<!-- note kx7b3bhhekgbm0z31hm1baek7d8bvfh4 | topic ms70vqvqcc1z24297at137gmch8bta85 | status published -->
+# 7.2 Measuring Densities of Different Substances
+
+
+To measure the densities of liquids, solids (regular shaped or irregular shape), we will follow some steps in each case, which we will explain below:
+Density of Liquids
+To measure density of liquids, we need a graduated measuring cylinder to measure volume of liquid, a balance to measure mass of liquids. We will measure density of liquid using following steps:
+
+1. Place the empty measuring cylinder on balance and measure its mass.
+2. Add liquid in the measuring cylinder and measure its volume.
+3. Subtract mass of empty cylinder from the mass of cylinder and liquid (measured in step-2). Mass of liquid = Mass of measuring cylinder and liquid - Mass of empty cylinder
+4. Measure volume of liquid from the measuring cylinder.
+5. To calculate the density of liquid, divide mass of liquid by its volume.
+$$
+\text { Density of liquid }=\frac{\text { Mass of liquid }}{\text { Volume of liquid }}
+$$
+7.2
+
+## Figure 7.2 Finding Volume of Liquid
+<CaptionedImage src="kg264kbfba73gzfc56mjfprp058btfwh" alt="" caption="" />
+
+Let us calculate density of liquid using this method
+
+Mass of empty measuring cylinder is 145 g. We add a 60 mL liquid in it. Now, its mass becomes 205 g. Find density of the liquid?
+Given: Mass of empty cylinder = 145 g
+Mass of measuring cylinder and added liquid $=205 \mathrm{~g}$
+Volume of liquid $=60 \mathrm{~mL}$
+Required: Density of the liquid $\rho=$ ?
+Solution: Mass of liquid is calculated
+Mass of liquid = Mass of measuring cylinder and liquid - Mass of empty cylinder
+Putting values Mass of liquid $=205 g-145 g$
+Mass of liquid $=60 \mathrm{~g}$
+Density of liquid is calculated by: $\rho=\frac{\text { Mass of liquid }}{\text { Volume of liquid }}$
+Putting values $\quad \rho=\frac{60 g}{60 m L}$
+Therefore, $\quad \rho=1 g / m L$
+Density of liquid is 1 gram per milliliter. As this is the density of water (at 4 oC ). So, our liquid in the measuring cylinder is water.
+
+## Density of Regularly Shaped Sqlids
+To find density of regularly shaped solids (like solid cubes, solid cuboids, solid sphere etc.), we will follow these steps:
+
+1. Find mass of the solid regular shaped object using balance.
+2. Calculate the volume of object using formula according to shape of the object.
+For example, Volume of cuboid = Length × Width × Height
+Volume of cube $=(\text { side length })^{3}$
+$$
+\text { Volume of Sphere }=\frac{4}{3} \pi r^{3}
+$$
+3. Finally calculate its density by using the formula:
+$$
+\text { Density of Solid }=\frac{\text { Mass of Solid }}{\text { Volume of Solid }}
+$$
+
+## Example 7.3: Density of Brick
+Find the density of a solid brick of mass 3.30 kg as shown in the figure.
+Given: Mass of brick $=3.30 \mathrm{~kg}$
+Length of brick $=21.6 \mathrm{~cm}=0.216 \mathrm{~m}$
+Width of brick $=10.2 \mathrm{~cm}=0.102 \mathrm{~m}$
+Height of brick $=6.35 \mathrm{~cm}=0.0635 \mathrm{~m}$
+<CaptionedImage src="kg2ey7zv3a8kj1xe8n5v8em2ad8bv8ms" alt="" caption="" />
+
+Required: Density of the solid object $\rho=$ ?
+Solution: First, we calculate the volume of regular brick by:
+
+Putting values:
+
+$$
+\text { Volume }=0.216 \mathrm{~m} \times 0.102 \mathrm{~m} \times 0.0635 \mathrm{~m}=0.00140 \mathrm{~m}^{3}
+$$
+
+Now, we will find density of the brick using formula:
+
+$$
+\text { Density of brick }=\frac{\text { Mass of brick }}{\text { Volume of brick }}
+$$
+
+Putting values
+
+$$
+\rho=\frac{3.3 \mathrm{~kg}}{0.00140 \mathrm{~m}^{3}}
+$$
+
+Therefore,
+
+$$
+\rho=2358.773 \mathrm{~kg} / \mathrm{m}^{3}=2360 \mathrm{~kg} / \mathrm{m}^{3}
+$$
+
+## Density of Irregular Shaped Object (Displacement Method)
+We can find the density of irregular shaped solid objects like stones which can sink in the water. We need graduated measuring cylinder to measure volume and balance to measure mass of object. We will follow these steps to find its density:
+
+1. Find the mass of the irregular shaped stone
+2. Add some water in measuring cylinder and measure its initial volume (Vi).
+3. Tie thread with the irregular shaped object e.g. stone and lower it in the measuring cylinder.
+4. Water will rise (i.e. displace) in the measuring cylinder and measure final volume $\left(\mathrm{V}_{\mathrm{t}}\right)$. This final volume reading is the sum of volume of water and volume of object.
+5. Subtract initial volume ( $\mathrm{Vi}_{1}$ ) from final volume ( $\mathrm{V}_{\mathrm{f}}$ ) to get volume of object.
+
+Volume of object $=\mathrm{V}_{\mathrm{f}}-\mathrm{Vi}$
+
+6. To find density of objects divide mass of object with its volume.
+$$
+\text { Density of Solid }=\frac{\text { Mass of Solid }}{\text { Volume of Solid }}
+$$
+
+We can find this method to find volume and density of any insoluble irregular shaped object.
+
+## Figure 7.3 Finding Volume of Irregular Shaped Stone
+<CaptionedImage src="kg26926g357pa1404wc4artrv98dswn3" alt="" caption="Figure from 7.2 Measuring Densities of Different Substances" />
+## Example 7.4: Volume and Density of Irregular Shape
+Mass of a rock is 80.52 grams. It was immersed in a measuring cylinder containing water. From the figure, find the initial and final volumes of water. Use this data to find volume of water and density.
+
+Solution:
+
+Given:
+
+$$
+\begin{aligned}
+& \text { Mass of rock }=80.52 \mathrm{~g} \\
+& \text { Initial volume of water }=18 \mathrm{~mL} \\
+& \text { Final volume of water }=46 \mathrm{~mL}
+\end{aligned}
+$$
+
+Required:
+Volume of object = final volume - Initial volume
+Volume of object $=46 \mathrm{~mL}-18 \mathrm{~mL}$
+
+$$
+=28 \mathrm{~mL}=28 \mathrm{~cm}^{3}
+$$
+
+Density of irregular shaped stone is:
+<CaptionedImage src="kg29hv7qgxhcm84raj1ww1gm918dsecp" alt="" caption="Figure from 7.2 Measuring Densities of Different Substances using water displacement" />
+Density of object $=\frac{\text { Mass of object }}{\text { Volume of object }}$
+Putting values
+
+$$
+\rho=\frac{80.52 \mathrm{~g}}{25 \mathrm{~cm}^{3}}
+$$
+
+Therefore,
+
+$$
+\rho=3.22 \mathrm{~g} / \mathrm{cm}^{3}
+$$
+
+
+---
+
+<!-- note kx75azm84skptpbsrqjse5tp358bvt0j | topic ms72664sp54wzf1gdxm2wnvd7n8bv405 | status published -->
+# 7.3 States of Matter
+
+Matter exists in three fundamental states; solid, liquid and gas. Matter consists of particles (atoms and molecules). Gaps between these particles is the main reason that divides the matter in three states. Particles of matter apply an attractive force on each other. The difference in strength of this force is the reason for smaller or large gaps between particles. Therefore, Their densities and patterns of particle motion are also impacted by varying strength of this attractive force. Now, we will see properties of each of the three states:
+
+a) Particles vibration about their mean position in solids
+b) Particles move freely relative to each other in liquid
+c) Particles move freely and quickly in gases
+
+FIGURE 7.4 MOTION OF PARTICLES IN DIFFERENT STATES
+<CaptionedImage src="kg2dpyvaveepxz6xwabnfm79as8drahc" alt="" caption="FIGURE 7.4 MOTION OF PARTICLES IN DIFFERENT STATES" />
+## Solids:
+1. Solids are made up of particles (atoms or molecules).
+2. There is strong attractive force between particles.
+3. Due to strong attractive force, particles of solids are closely packed and they have fixed lattice pattern.
+4. Solid particles cannot freely move like gas particles or slide past one another like liquid particles due to their fixed location. Solids' particles can only vibrate about their mean positions.
+5. Solids have fix shape.
+6. Solids have high density.
+
+LIQUIDS:
+
+1. Liquids are also made up of particles (molecules).
+2. The attractive force between particles is stronger than that of gases but weaker than that of solids.
+
+FIGURE 7.5 PARTICLES
+<CaptionedImage src="kg27xh6jheqdkwaa1x6jsdns3x8drgw8" alt="" caption="FIGURE 7.5 PARTICLES" />
+
+Different states of matter and arrangement of particles in each state
+
+3. The distance between particles in liquids is greater than that in solids due to an intermediate attractive force, yet they are still close together.
+
+4． Liquid particles flow and glide over each other．Liquid particles keep changing their position．
+5． Due to flowing particles，a liquid has no fix shape and can adopt the shape of the container．
+6． A liquid has intermediate density（smaller than a solid and higher than a gas）．
+
+GASES：
+
+1． Gas is also composed of particles（atoms and molecules）．
+2． There is negligibly weak attractive force between gas particles．
+3． Due to weak attractive force，distance between particles is larger as compared to the size of the particles．
+4． Particles are in constant random motion and they constantly colliding with each other and with the walls of the container．
+
+<Callout type="info" title="For Your Information">
+5． Forces between molecules are negligible， except during collisions．
+6． Gas has no fix shape and volume．Gas spread out in the container and fill it，therefore its volume is equal to the volume of the container．
+
+Particles in liquids move freely but stay at the bottom of the container due to a relatively strong attractive force，while in gases，particles spread， fill the container and move freely in it．
+
+7． Gases are less dense than liquids and solids．
+
+</Callout>
+
+TABLE 7．2 STATES OF MATTER
+| State | Solid | Liquid | Gas |
+| :--- | :--- | :--- | :--- |
+| Density | High | Medium | Low |
+| Arrangement of particles | Regular pattern | Randomly arranged | Randomly arranged |
+| Movement of particles | Vibrate around a fixed position | Move around each other | Move quickly in all directions |
+| Energy of particles | Low energy | Greater energy | Highest energy |
+| 2D diagram | <CaptionedImage src="kg2ehb2m4pbx8n61r3g256r8hh8btawy" alt="" caption="" /> | <CaptionedImage src="kg28nxfgjf3k6xenps4ar3zkp58btm4s" alt="" caption="" /> | <CaptionedImage src="kg27849wwv1j7zegmpzq0ze7vd8bvyp4" alt="" caption="" /> |
+
+Because liquids and gases do not maintain a fixed shape, they both have the ability to flow. Thus, they are collectively referred to as fluids.
+
+
+---
+
+<!-- note kx7cc7xaqyk0rkajnhq6d7y5nn8btagn | topic ms7c8z22mc0ey57v1wk756fks98bt8ek | status published -->
+# 7.4 Plasma as a Fourth State of Matter
+
+
+Plasma consists of positive ions, free electrons (negatively charged particles) and neutral atoms in gaseous state. Usually, plasma exists at very high temperature or at high pressure or at both. By using a high electric and magnetic field, a substance can also be transformed into plasma.
+There is lot of plasma in the universe. Plasma exists in the Sun; stars glow because of plasma; nebulas and auroras at the south and north poles are due to plasma; neon light glows because of plasma; lightening in the sky forms plasma; etc. Plasma is gas that hot, bright and highly ionized. These characteristics together makes it different from the gas. 99\% of visible universe is made up of plasma. That is why plasma is often called "the fourth state of matter," along with solid, liquid, and gas.
+When a gas heated continuously K.E of gas molecules also continuously increases. Due to it, attractive molecules forces keep on decreasing as molecules go away from each other. The molecules and atoms start colliding with each other powerfully. Due to it, electrons of the atoms are removed and atoms become positive ion. This ionic state of matter is called plasma. It can highly conduct current because it has free electrons and moving ions.
+
+FIGURE 7.6 EXAMPLES OF PLASMA FROM DAILY LIFE
+<CaptionedImage src="kg2cm88z16tyt6a8ss272wexj98bt9pd" alt="" caption="" />
+
+## Figure 7.7 Examples of Plasma in Nature
+
+<CaptionedImage src="kg297pj41664rraepyyj2614z58bve5m" alt="" caption="" />
+
+<SideActivity kind="info" title="For Your Information">
+AURORAS: It is a solar phenomenon where coloured lights appear in the sky as a result of charged particles from the Sun striking the upper atmosphere. It is also called polar lights.
+NEBULAE: It is a massive cloud of dust and gas that fills the space between stars. It is a Latin word, meaning "mist, fog etc". Nebulae are made up of dust, fundamental elements such as hydrogen and other ionized gases (i.e. plasma). Hot stars inside of the nebula heats these elements which emit radiation of reds, blues and greens.
+</SideActivity>
+
+---
+
+<!-- note kx71zag9h2v0nswwehgcp9zk2n8btsad | topic ms77mk9k8tbsh1f0jg5mdhr9hd8bt5cs | status published -->
+# 7.5 Relationship Between the Motion of Particles and Temperature
+
+
+Even though the water molecules in a pot are constantly moving, the movement is not powerful enough for us to notice it with our naked eyes. However, we observe water currents, or water molecules in motion at a higher temperature, when we place this pot on a stove that is burning. There is certain relationship between motion of molecules of a material and its temperature. In this section, we will understand this relationship.
+When a material is heated, one of the two things may happen: (1) Strength of attractive force between particles can decrease and bonds between particles may break (as it happens during melting and boiling processes of a material) (2) it can speed up the particles and hence increase K.E. of the particles.
+"The temperature of a substance is the measure of its hotness or coldness, and the temperature of a substance is directly proportional to the average K.E. of its particles."
+When we heat a substance (at room temperature), the speed and kinetic energy of its particles increase. That is why the temperature of the substance will also increase. Conversely, when we remove heat from a substance (for example, by placing hot water on ice or in a refrigerator), the speed and kinetic energy of the particles will become slower and slower. Therefore, the temperature of the substance will also decrease.
+
+## Density and Temperature
+
+If we keep on removing the heat energy from a substance, its particles will keep on slowing down and hence keep on losing kinetic energy. By doing so, a stage will come when molecules will no longer be moving and they have least or no kinetic energy. Particles cannot collide with each other or with the container, therefore they cannot exert pressure ( $\mathrm{P}=0 \mathrm{~Pa}$ ). At this point, temperature of the substance is called absolute zero.
+"Absolute zero is the lowest possible temperature of a substance at which its particles have least kinetic energy".
+
+FIGURE 7.8 TEMPERATURE GRAPHS
+<CaptionedImage src="kg2bpzmtfd77k9e9fjw3vn4wa98ds0nk" alt="FIGURE 7.8 TEMPERATURE GRAPHS" caption="FIGURE 7.8 TEMPERATURE GRAPHS" />
+
+Its value is zero kelvin (0K) while on the Celsius scale, it is -273.15°C. At absolute zero, there is no heat energy available to move the particles of the substance.
+
+
+
+---
+
+<!-- note kx71srzv50eh68m0s4x6pvjc4h8btenb | topic ms78dxx985pg3880kmctemmft58bv1pp | status published -->
+# 7.6 Internal Energy and Temperature of a Substance
+
+
+Internal energy of a substance is the total energy possessed by the particles of the substance. Internal energy is the total kinetic and potential energy of the particles of a substance. Potential energy of the particles of a substance is due to attractive force between them. These particles can have three forms of kinetic energies i.e. translational K.E., rotational K.E. and vibrational K.E. In case of ideal gas, it has only translational kinetic energy of particles. Therefore, its internal energy is only due to kinetic energy of particles.
+In the previous topic, we have studied that temperature is directly proportional to average kinetic energy of the particles of a substance. When we heat a substance, it speeds up the particles and increases the kinetic energy of its particles. Hence, we can say that internal energy of the substance also increases. By increasing the temperature of a substance, its internal energy also increases.
+
+A change in internal energy gives important information about the substance. For example, an increase in internal energy indicates an increase in temperature of the substance, which can be the result of energy given to particles by adding heat or by some other method. Can you name any method that can increase the internal energy of a substance without adding heat to it?
+
+
+---
+
+<!-- note kx7bw5ata62ab0xtrmkppfmrq98bvhab | topic ms7an82a385nrhwjtst3dn5kgd8btyce | status published -->
+# 7.8 Variation in Physical Properties as a Tool for Measuring Temperature of a Substance
+
+
+Now we know that when the temperature of a body increases, it increases the kinetic energy of its particles. These fast-moving particles can cause variations in different physical properties (volume, pressure, change in colour, electrical resistance etc.) in a predictable way. Variations in these physical properties may be used to measure the temperature of a body. These physical properties on the basis of which a thermometre works is called its thermometric property. Let us explain the concept in more detail.
+
+## Expansion Ofliquids:
+Most liquids expand upon heating. Liquids that expand on heating uniformly can be used as thermometric materials. We use this property for liquids in glass thermometres, which use mercury or alcohol as thermometric materials. When this thermometre is touched by a hot body, it absorbs heat from the body and causes the mercury to expand. This uniform expansion of mercury varies linearly with temperature when absorbing heat. The position of the mercury in the thermometre gives a reading of the temperature on the thermometre scale as in figure 7.9 (a).
+
+## Variation of Volume and Pressure:
+When a gas is heated, its volume as well as pressure may change. These variations in volume and pressure are used in gas thermometres to measure temperature. There are two types of gas thermometres, constant pressure gas thermometre and constant volume gas thermometre.
+
+FIGURE 7.9 THERMOMETERS
+<CaptionedImage src="kg2bkqwt6sbg7ct9ws15ypq60s8bte6c" alt="" caption="" />
+
+A constant volume gas thermometre, as shown in figure 7.9 (b) uses the principle that the pressure of a gas is directly proportional to the temperature, while the volume of the gas is kept constant (Gay-Lussac's law). We touch the thermometre bulb with the body whose temperature is to be measured. When the temperature of the thermometre bulb increases, the K.E. of gas particles increases.
+They collide with each other and the walls of the container more vigorously. This causes an increase in pressure. This variation in pressure is used to measure temperature. A constantpressure gas thermometre uses the principle that the volume of a gas is inversely proportional to the temperature, while the pressure of the gas is kept constant (Charle's law). In this thermometre, the gas in its bulb expands and pushes a piston according to the increase in volume of the gas. This change in volume of the gas is used to measure its temperature.
+
+## Variation in Colour of Crystals:
+Liquid crystals are those materials that change colour with a change in temperature. Liquid crystals are packed inside a plastic strip. Liquid crystals are substances that change colour with a change in temperature. In these thermometers, a liquid crystal material is sealed in a plastic strip or patch. We touch it with the body whose temperature is to be measured. When its temperature changes, it also changes colour. By matching the colour to a temperature scale, we can determine the temperature of a body. These thermometers are often used as fever thermometers and for aquariums and baby bottles.
+There are also other thermometres for example resistance thermometers, bimetallic thermometres, thermocouple etc.
+
+## Resistance Thermometers Orthermistors
+It can measure temperature due to change in its resistance (change in opposition to flow of current through it) due to variation of its temperature.
+
+## Bimetallic Strip Thermometres
+It can measure temperature by variation in volume expansion of Thermocouple: It can measure temperature due to change in its emf produced due to variation in its temperature:
+
+| TABLE 7.3 DIFFERENT TYPES OF THERMOMETRE AND THEIR THERMOMETIC PROPERTIES |  |
+| :--- | :--- |
+| Volume expansion of a gas | Constant pressure gas thermometer |
+| Volume expansion of a liquid | Laboratory or clinical thermometer |
+| Volume expansion of a solid | Bi-metalic strip thermometer |
+| Pressure change of a fixed mass of gas | Constant - volume gas thermometer |
+| Changes in e.m.f | Thermocouple |
+| Changes in electrical resistance | Resistance thermometer or thermistor |
+
+FIGURE 7．10 TYPES OF THERMOMETERS
+<CaptionedImage src="kg24crmnct65abgwzqn8te3rah8bvwwt" alt="" caption="" />
+
+## 7．9 Fixed Points in Calibration of Thermometre
+
+When a thermometer is used to determine the temperature of a body， we measure its reading from the calibrated scale made on it．Without a temperature scale，a thermometer is valueless．We can measure the temperature accurately from thermometre if it is properly calibrated．To make a proper scale on thermometre，we need two fixed points．These two fixed points should be accessible and reproducible．These two fixed points are also called the reference points；lower reference points and upper reference points． Gap between these two points is divided into equal divisions．So，we cannot measure temperature accurately without deciding about these fixed points．
+A fixed point is a standard degree of hotness or coldness．In general，we have three scales；Celsius scale，Fahrenheit scale and Kelvin scale．
+
+For these scales, lower reference point is a standard degree of coldness. Melting point of ice is taken as lower reference points for these scales which is $0^{\circ} \mathrm{C}$ on Celsius scale, 32°F on Fahrenheit scale and 273 K for kelvin scale. Similarly, upper reference point is standard degree of hotness. Boiling point of water is taken as their upper reference point which is 100°C on Celsius scale, 212°F on Fahrenheit scale and 373 K for Kelvin scale.
+
+Number of divisions on temperature scale is calculated by taking the difference between upper reference point and lower reference point values on the scale. That's why, there are 100 divisions on Celsius and Kelvin scales while there are 180 divisions on Fahrenheit scale.
+
+
+---
+
+<!-- note kx727gt5qamvxkjxjeexg8mwzx8btdqz | topic ms76j33fzn17tdkawtpgabzy2n8bt6yy | status published -->
+# 7.10 Sensitivity, Range and Linearity of Thermometres
+
+
+## Sensitivity of a Thermometer:
+It is ability of a thermometre to detect small changes in temperature. We can say that it is smallest variation in temperature which a thermometre can measure. For example, a thermometer with a sensitivity of $0.1^{\circ} \mathrm{C}$ can detect changes in temperature as small as $0.1^{\circ} \mathrm{C}$. A thermometer with a sensitivity of $1^{\circ} \mathrm{C}$ can only detect changes in temperature as large as $1^{\circ} \mathrm{C}$. It cannot measure change in temperature less than $1^{\circ} \mathrm{C}$. We can say that sensitivity is analogous to least count of a measuring instrument.
+Mercury thermometre is a sensitive thermometre. To illustrate sensitivity of a thermometre; place it in a glass of water at room temperature and let it to set at room temperature. Then, add a few drops of hot water to the glass. We will see that mercury in thermometre will rise quickly to show change in temperature of water.
+
+## Range of a Thermometer:
+The range of a thermometer is the range of temperatures that it can measure. It is measured by the lowest and highest temperatures that the thermometer can measure. For example, clinical mercury thermometre can measure the temperature from 35°C to 42°C on Celsius scale. So, this is its range on Celsius scale while its range on Fahrenheit scale its range is from $94^{\circ} \mathrm{F}$ to $108^{\circ} \mathrm{F}$.
+<CaptionedImage src="kg263bxpncsv0z65zkpa7g1rvh8dsg5z" alt="" caption="Figure 7.12: Range" />
+
+Digital thermometers have a wide range and can measure temperatures from very cold to very hot. So, we use it to illustrate range of thermometre by measuring lowest and highest temperatures. For example, place a digital thermometer in a glass containing ice. It will accurately show melting point of ice (0°C). Then, place the digital thermometer in a pot of boiling water. It will accurately show boiling point of water $\left(100^{\circ} \mathrm{C}\right)$. This method can be used to measure range of thermometres.
+## Linearity of a Thermometer:
+Linearity tells us how equally and uniformly a thermometer shows the temperature variations. Thermometres scales have equally spaced marks on its scale.
+
+If temperature changes and thermometre shows an increase of some divisions then it should same increase in divisions for same change in temperature at higher temperatures. For example, a linear thermometer will measure an increase in temperature from 0°C to 50°C with the same accuracy as an increase of temperature from 50°C temperature of 100°C.
+Bimetallic thermometers are linear thermometers and measure temperature equally accurately across their range. To illustrate this, place a bimetallic thermometer in a glass of water at room temperature. Then, gradually heat the water. The bimetallic thermometer will gradually respond to the change in temperature and the pointer on the thermometer will move.
+
+
+---
+
+<!-- note kx71btx4btaawvfkt061zeazfs8btbz4 | topic ms7djwecr44k74qt60ss25jhrh8bvfxz | status published -->
+# 7.11 Structures and Function of Liquid-in-glass and Thermocouple Thermometres
+
+
+Liquid-in-glass thermometers and thermocouple thermometers are two different types of thermometers that are used to measure temperature.
+
+## Liquid-in-Glass Thermometers
+A glass thermometer usually has a long, thin glass tube with a bulb at the end. The bulb contains mercury or alcohol as a liquid. The liquid expands as it warms and contracts as it cools.
+Liquid-in-glass thermometers work by measuring the expansion and contraction of the liquid in the bulb. When the thermometer is placed in a warm atmosphere or touched with hot body, the liquid (mercury or alcohol) in the bulb expands and rises up the glass tube. When the thermometer is placed in a cold environment or touched with cold body, the liquid in the bulb contracts and falls down the glass tube.
+Reading of temperature on the thermometre scale is measured. The scale is calibrated so that a certain temperature is represented by the height or position of the liquid inside the thermometre tube.
+In homes, schools, and laboratories, liquid-in-glass thermometers are frequently used to measure temperature. They are also used in a few industrial applications.
+## Thermocouple Thermometers
+Thermocouple thermometers have two wires made of different metals that are joined at one end. This junction is called the hot junction. The other ends of the wires, called the cold junctions, are connected to a measuring device, such as a voltmeter.
+
+Thermocouple thermometers work by measuring the voltage difference between the hot junction and the cold junctions. When the hot junction is heated, it causes free electrons in metals to flow across the junction and it creates voltage between hot and cold junctions. If we keep on heating hot junction then voltage difference between the hot junction and the cold junction increases.
+
+FIGURE 7.13 THERMOCOUPLE THERMOMETERS
+<CaptionedImage src="kg25pqxme63hhjepm37p41yzrh8drs1a" alt="" caption="FIGURE 7.13 THERMOCOUPLE THERMOMETERS" />
+
+When the hot junction is cooled, the voltage difference between the hot junction and the cold junctions decreases. This shows the change in temperature in thermocouple is linearly proportional to change in voltage between hot and cold junctions. Thus, we can measure temperature by measuring this voltage. The voltmeter is calibrated so that the voltage difference between the hot junction and the cold junctions corresponds to a specific temperature.
+Thermocouple thermometres are used to measure the temperature of furnaces, kilns, engines, and other industrial equipment. These are also used in the agriculture industry to measure the temperature of soil and water.
+
+
+---
+
+<!-- note kx708rc3rgkyp3mrk9v1q1btvh8bts2r | topic ms79a6pc5bsy3a5729xfxg7n5n8btdea | status published -->
+# 7.12 Effect of Structure of a Liquid-in-glass Thermometre on Its Sensitivity, Range and Linearity
+
+
+The structure of a liquid-in-glass thermometer affects its sensitivity, range, and linearity in the following ways:
+
+## Effect of Diameter of Tube on Sensitivity of Thermometer:
+Sensitivity of a thermometre is its ability to detect the smallest change in temperature. Liquid in glass thermometre has a long capillary tube of small diameter filled with liquid mercury or alcohol. The sensitivity of a liquid-in-glass thermometer is affected by the diameter of this tube. A thermometre with small diameter capillary tube can detect smaller change in temperature than the thermometer with large diameter of the tube. Narrower diameter tube will have smaller volume of liquid in it, which will react quickly to the absorbed heat and will rise quickly.
+
+## Effect of Nature of Liquid Used in Thermometer on Its Sensitivity:
+Liquids like mercury and alcohol expand more than others when heated as compared to liquids like water. Therefore, we can say that thermometres having mercury or alcohol are more sensitive.
+
+## Effect of Size of Bulb of Thermometer on Its Range:
+The range of a liquid-in-glass thermometer is affected by the volume of the bulb. If bulb has large size then it will contain more amount of liquid in it. So, this thermometre has large amount of liquid available to expand. Therefore, it can cover large range.
+
+## Effect of Nature of Liquid Used in Thermometer on Its Range:
+We use mercury in thermometer because of its smaller melting point and higher boiling point. Liquids with a wider boiling point range will have a wider range than liquids with a narrower boiling point range.
+
+## Effect of Type of Glass Used in Thermometer on Its Linearity:
+The nature of the glass used in a thermometer can impact its linearity by affecting its expansion and contraction with temperature changes, transparency, chemical stability, uniformity, durability, and thermal conductivity.
+Some types of glass, such as borosilicate glass, have a more linear expansion coefficient than others. Liquid-in-glass thermometer made with borosilicate glass will be more linear than a liquid-in-glass thermometer made with another type of glass, such as soda lime glass.
+
+FIGURE 7.14 PARTS OF GLASS THERMOMETER
+<CaptionedImage src="kg2cwd3tp3a456rg09dn8wvdhs8dqny5" alt="" caption="Figure 7.14: Parts of Glass/Digital Thermometer" />
+## Summary
+
+Density is mass per unit volume
+States of matter are four, which are named as Solids, Liquids, Gases and Plasma.
+Plasma is called fourth state of matter which is the ionized state of matter.
+Thermometry is the branch of physics, which deals with the measurements of temperature.
+Temperature is the measure of degree of hotness or coldness of a body.
+Thermometer is a device which is used to measure temperature.
+Heat is the form of energy which is transferred from one body to another body due to the difference in temperature.

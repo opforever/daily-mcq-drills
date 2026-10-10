@@ -1,0 +1,457 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-1-piezoelectric-effect-and-ultrasonic-waves",
+    "topicTitle": "25.1 Piezoelectric Effect and Ultrasonic Waves",
+    "_id": "k97cx4qcx2y33273jxzd1pfvvx85qds1",
+    "correctKey": "B",
+    "explanation": "An alternating voltage (AC) causes the crystal to expand and contract periodically (Inverse Piezoelectric Effect), creating pressure waves in the medium.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79083ywf726cfsnxeex877rn85p28h",
+    "options": [
+      {
+        "key": "A",
+        "text": "A constant DC voltage"
+      },
+      {
+        "key": "B",
+        "text": "A high-frequency AC voltage"
+      },
+      {
+        "key": "C",
+        "text": "A magnetic field"
+      },
+      {
+        "key": "D",
+        "text": "A steady mechanical pressure"
+      }
+    ],
+    "sectionId": "generating-ultrasound-the-ultrasonic-transducer",
+    "sectionLabel": "Generating Ultrasound: The Ultrasonic Transducer",
+    "stem": "To produce ultrasonic waves using a piezoelectric crystal, we must apply:",
+    "topicId": "ms79p0pjrkh0nwb70shchmxd0d85qjcc"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-1-piezoelectric-effect-and-ultrasonic-waves",
+    "topicTitle": "25.1 Piezoelectric Effect and Ultrasonic Waves",
+    "_id": "k97ae2yh092g57j1v8yzxty6qh85qg5k",
+    "correctKey": "B",
+    "explanation": "The piezoelectric effect describes the generation of an electric charge (and hence voltage) in certain crystals such as quartz when mechanical stress is applied. This is distinct from the photoelectric effect (light ejecting electrons), Compton effect (photon-electron scattering), and Doppler effect (frequency shift due to motion).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79083ywf726cfsnxeex877rn85p28h",
+    "options": [
+      {
+        "key": "A",
+        "text": "Photoelectric effect"
+      },
+      {
+        "key": "B",
+        "text": "Piezoelectric effect"
+      },
+      {
+        "key": "C",
+        "text": "Compton effect"
+      },
+      {
+        "key": "D",
+        "text": "Doppler effect"
+      }
+    ],
+    "sectionId": "piezoelectric-effect",
+    "sectionLabel": "Piezoelectric Effect",
+    "stem": "When a mechanical stress is applied to a quartz crystal, it generates an electric field. This is known as:",
+    "topicId": "ms79p0pjrkh0nwb70shchmxd0d85qjcc"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-1-piezoelectric-effect-and-ultrasonic-waves",
+    "topicTitle": "25.1 Piezoelectric Effect and Ultrasonic Waves",
+    "_id": "k97ccss4yz014cm7meevy51v2585qhe2",
+    "correctKey": "B",
+    "explanation": "The pulse travels to the bottom and back, covering a total distance of $2d$. Therefore, $2d = v \\times t$, or $d = \\frac{vt}{2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79083ywf726cfsnxeex877rn85p28h",
+    "options": [
+      {
+        "key": "A",
+        "text": "$d = v \\times t$"
+      },
+      {
+        "key": "B",
+        "text": "$d = \\frac{v \\times t}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$d = \\frac{2v}{t}$"
+      },
+      {
+        "key": "D",
+        "text": "$d = v^2 \\times t$"
+      }
+    ],
+    "sectionId": "sonar-an-application-of-ultrasound",
+    "sectionLabel": "SONAR: An Application of Ultrasound",
+    "stem": "In SONAR, if the time delay between transmission and reception of an ultrasonic pulse is $t$ and the speed of sound in water is $v$, the depth $d$ is given by:",
+    "topicId": "ms79p0pjrkh0nwb70shchmxd0d85qjcc"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-1-piezoelectric-effect-and-ultrasonic-waves",
+    "topicTitle": "25.1 Piezoelectric Effect and Ultrasonic Waves",
+    "_id": "k977ghqe98ntvy7mnv6p81xs7585p999",
+    "correctKey": "D",
+    "explanation": "Ultrasound is defined as sound with a frequency greater than $20,000\\text{ Hz}$. Only $50,000\\text{ Hz}$ exceeds this limit.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79083ywf726cfsnxeex877rn85p28h",
+    "options": [
+      {
+        "key": "A",
+        "text": "$15\\text{ Hz}$"
+      },
+      {
+        "key": "B",
+        "text": "$150\\text{ Hz}$"
+      },
+      {
+        "key": "C",
+        "text": "$15,000\\text{ Hz}$"
+      },
+      {
+        "key": "D",
+        "text": "$50,000\\text{ Hz}$"
+      }
+    ],
+    "sectionId": "ultrasonic-waves",
+    "sectionLabel": "Ultrasonic Waves",
+    "stem": "Which of the following frequencies falls within the ultrasonic range?",
+    "topicId": "ms79p0pjrkh0nwb70shchmxd0d85qjcc"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-1-piezoelectric-effect-and-ultrasonic-waves",
+    "topicTitle": "25.1 Piezoelectric Effect and Ultrasonic Waves",
+    "_id": "k97b4vsr08ek22e2jrvmjb1t3n85q83d",
+    "correctKey": "C",
+    "explanation": "High-frequency ultrasonic waves have short wavelengths, enabling them to reflect off small defects or fine structures that longer-wavelength waves would simply diffract around, making them useful in both industrial testing and medical imaging.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79083ywf726cfsnxeex877rn85p28h",
+    "options": [
+      {
+        "key": "A",
+        "text": "Long wavelength and low frequency"
+      },
+      {
+        "key": "B",
+        "text": "Low energy and high amplitude"
+      },
+      {
+        "key": "C",
+        "text": "Short wavelength and high frequency"
+      },
+      {
+        "key": "D",
+        "text": "Ability to travel through a vacuum"
+      }
+    ],
+    "sectionId": "ultrasonic-waves",
+    "sectionLabel": "Ultrasonic Waves",
+    "stem": "Which property of ultrasonic waves allows them to detect small flaws in metals and distinguish fine tissue structures?",
+    "topicId": "ms79p0pjrkh0nwb70shchmxd0d85qjcc"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-2-x-rays",
+    "topicTitle": "25.2 X-rays",
+    "_id": "k972zqjhyzg6yje12tgszh557185pe5h",
+    "correctKey": "B",
+    "explanation": "Since $\\lambda_{min} \\propto 1/V$, doubling the voltage $V$ reduces the minimum wavelength to half.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74e47x2bj90zwvgvgf5696a585qx24",
+    "options": [
+      {
+        "key": "A",
+        "text": "Be doubled"
+      },
+      {
+        "key": "B",
+        "text": "Be halved"
+      },
+      {
+        "key": "C",
+        "text": "Remain the same"
+      },
+      {
+        "key": "D",
+        "text": "Increase four times"
+      }
+    ],
+    "sectionId": "minimum-wavelength-cutoff-wavelength",
+    "sectionLabel": "Minimum Wavelength (Cutoff Wavelength)",
+    "stem": "If the accelerating voltage in an X-ray tube is doubled, the minimum wavelength $\\lambda_{min}$ will:",
+    "topicId": "ms74pf28a55fpdbce790p4863d85p9bv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-2-x-rays",
+    "topicTitle": "25.2 X-rays",
+    "_id": "k975a0k0ncsew72assg70ysjy585qdtg",
+    "correctKey": "A",
+    "explanation": "The $K_{\\alpha}$ line corresponds to a transition from the $n=2$ (L-shell) to the $n=1$ (K-shell).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74e47x2bj90zwvgvgf5696a585qx24",
+    "options": [
+      {
+        "key": "A",
+        "text": "L-shell to K-shell"
+      },
+      {
+        "key": "B",
+        "text": "M-shell to K-shell"
+      },
+      {
+        "key": "C",
+        "text": "M-shell to L-shell"
+      },
+      {
+        "key": "D",
+        "text": "Valence shell to K-shell"
+      }
+    ],
+    "sectionId": "types-of-x-rays-produced",
+    "sectionLabel": "Types of X-rays Produced",
+    "stem": "The characteristic $K_{\\alpha}$ X-ray is emitted when an electron jumps from:",
+    "topicId": "ms74pf28a55fpdbce790p4863d85p9bv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-2-x-rays",
+    "topicTitle": "25.2 X-rays",
+    "_id": "k97ekqxx8r2w5jy5sfyysg8nqs85qz8d",
+    "correctKey": "B",
+    "explanation": "Bremsstrahlung (braking radiation) occurs when high-speed electrons lose kinetic energy as they are deflected/slowed by the target nuclei.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74e47x2bj90zwvgvgf5696a585qx24",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inner shell transitions"
+      },
+      {
+        "key": "B",
+        "text": "Deceleration of electrons by the electric field of the nucleus"
+      },
+      {
+        "key": "C",
+        "text": "Nuclear fission"
+      },
+      {
+        "key": "D",
+        "text": "Photoelectric effect"
+      }
+    ],
+    "sectionId": "types-of-x-rays-produced",
+    "sectionLabel": "Types of X-rays Produced",
+    "stem": "The 'Bremsstrahlung' or continuous X-ray spectrum is caused by:",
+    "topicId": "ms74pf28a55fpdbce790p4863d85p9bv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-2-x-rays",
+    "topicTitle": "25.2 X-rays",
+    "_id": "k97fwnmjqq8ddgdy280xnmgfmx85qm54",
+    "correctKey": "C",
+    "explanation": "Differential absorption is the key principle: calcium-rich bone tissue absorbs X-rays far more than soft tissue, so fewer X-rays reach the film behind bone, leaving that region unexposed (white). This contrast allows fractures and dense structures to be visualised.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74e47x2bj90zwvgvgf5696a585qx24",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bones emit their own X-rays"
+      },
+      {
+        "key": "B",
+        "text": "Bones have lower density than soft tissue"
+      },
+      {
+        "key": "C",
+        "text": "Bones absorb X-rays more strongly due to their high calcium content"
+      },
+      {
+        "key": "D",
+        "text": "X-rays are reflected by bone surfaces"
+      }
+    ],
+    "sectionId": "x-rays-in-medical-imaging",
+    "sectionLabel": "X-rays in Medical Imaging",
+    "stem": "Why do bones appear white (opaque) on a conventional X-ray radiograph while soft tissues appear darker?",
+    "topicId": "ms74pf28a55fpdbce790p4863d85p9bv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-3-ct-scan",
+    "topicTitle": "25.3 Computed Tomography (CT) Scan",
+    "_id": "k972j4mt98grg3p16h9hv9fcb985qe8c",
+    "correctKey": "C",
+    "explanation": "Because a CT scan involves taking hundreds of X-ray exposures from many angles around the body, the total ionizing radiation dose to the patient is significantly higher than a single conventional 2D X-ray.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79nx33s4v2y0svwdj7nsqdbh85qscp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower image resolution"
+      },
+      {
+        "key": "B",
+        "text": "Longer processing time"
+      },
+      {
+        "key": "C",
+        "text": "Higher dose of ionizing radiation"
+      },
+      {
+        "key": "D",
+        "text": "Inability to image bone"
+      }
+    ],
+    "sectionId": "disadvantages",
+    "sectionLabel": "Disadvantages",
+    "stem": "Which of the following is a disadvantage of CT scans compared to conventional X-rays?",
+    "topicId": "ms7049v0q688erswef2zb9jp5d85qtst"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-3-ct-scan",
+    "topicTitle": "25.3 Computed Tomography (CT) Scan",
+    "_id": "k97eeq3g1zgwbad3hqdzzxxyzh85pqsa",
+    "correctKey": "B",
+    "explanation": "Modern CT scanners use a fan-shaped X-ray beam to cover the full width of the detector array as the source rotates around the patient, enabling efficient data collection from multiple angles simultaneously.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79nx33s4v2y0svwdj7nsqdbh85qscp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pencil beam"
+      },
+      {
+        "key": "B",
+        "text": "Fan-shaped beam"
+      },
+      {
+        "key": "C",
+        "text": "Spherical wave"
+      },
+      {
+        "key": "D",
+        "text": "Stationary point source"
+      }
+    ],
+    "sectionId": "how-a-ct-scanner-works",
+    "sectionLabel": "How a CT Scanner Works",
+    "stem": "In a CT scanner, the X-ray beam is typically shaped as a:",
+    "topicId": "ms7049v0q688erswef2zb9jp5d85qtst"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-3-ct-scan",
+    "topicTitle": "25.3 Computed Tomography (CT) Scan",
+    "_id": "k97bbmn0xphczqacjt5sq1cf8585pmq6",
+    "correctKey": "B",
+    "explanation": "Image reconstruction (often via filtered back projection) is the computational method used to synthesize a cross-sectional image from raw X-ray attenuation data collected at multiple angles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79nx33s4v2y0svwdj7nsqdbh85qscp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Photoelectric effect"
+      },
+      {
+        "key": "B",
+        "text": "Back projection or Reconstruction"
+      },
+      {
+        "key": "C",
+        "text": "Diffraction"
+      },
+      {
+        "key": "D",
+        "text": "Thermionic emission"
+      }
+    ],
+    "sectionId": "how-a-ct-scanner-works",
+    "sectionLabel": "How a CT Scanner Works",
+    "stem": "The mathematical process used by the computer to convert X-ray projection data into a CT image is called:",
+    "topicId": "ms7049v0q688erswef2zb9jp5d85qtst"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "25-medical-imaging",
+    "chapterTitle": "Medical Imaging",
+    "topicSlug": "25-3-ct-scan",
+    "topicTitle": "25.3 Computed Tomography (CT) Scan",
+    "_id": "k97bq72yaet07yhr7ggh5sn6sn85pk19",
+    "correctKey": "A",
+    "explanation": "Hounsfield Units (HU) quantify the radiodensity of tissue in CT imaging, with distilled water defined as 0 HU and air as −1000 HU, allowing standardized comparison of tissue densities.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79nx33s4v2y0svwdj7nsqdbh85qscp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hounsfield Units (HU)"
+      },
+      {
+        "key": "B",
+        "text": "Teslas (T)"
+      },
+      {
+        "key": "C",
+        "text": "Becquerels (Bq)"
+      },
+      {
+        "key": "D",
+        "text": "Newtons (N)"
+      }
+    ],
+    "sectionId": "voxels-and-hounsfield-units",
+    "sectionLabel": "Voxels and Hounsfield Units",
+    "stem": "The radiodensity of tissues in a CT image is measured in units called:",
+    "topicId": "ms7049v0q688erswef2zb9jp5d85qtst"
+  }
+]

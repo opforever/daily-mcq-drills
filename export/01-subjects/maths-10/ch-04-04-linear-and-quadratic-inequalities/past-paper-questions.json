@@ -1,0 +1,1407 @@
+[
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17faet1hnendmmpwt9b466vb98cv6sb",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|x - 3| = 11 splits into two linear equations: x - 3 = 11 and x - 3 = -11."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$8|x-3|=88\\Rightarrow|x-3|=11\\Rightarrow x-3=11$ or $x-3=-11\\Rightarrow x=14$ or $x=-8$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "absolute-value-equations",
+    "sectionLabel": "Equations with Absolute Value",
+    "stem": "$8|x-3|=88$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17d8cefv4cwyc10jac57353kd8ctds5",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|x| < a implies -a < x < a; solve the resulting compound inequality."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|2x-7|<1\\Rightarrow-1<2x-7<1\\Rightarrow6<2x<8\\Rightarrow3<x<4$. Solution set: $\\{x\\mid3<x<4\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sectionId": "inequalities-with-absolute-value",
+    "sectionLabel": "Inequalities With Absolute Value",
+    "stem": "$|2 x-7|<1$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m179c1c84jc0994h7qhqrzn6z98cvqcr",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|x| > a implies x > a or x < -a; divide out the leading constant first."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$5\\left|\\frac{1}{2}x+3\\right|>5\\Rightarrow\\left|\\frac{1}{2}x+3\\right|>1\\Rightarrow\\frac{1}{2}x+3>1$ or $\\frac{1}{2}x+3<-1\\Rightarrow x>-4$ or $x<-8$. Solution set: $\\{x\\mid x>-4 \\text{ or } x<-8\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sectionId": "inequalities-with-absolute-value",
+    "sectionLabel": "Inequalities With Absolute Value",
+    "stem": "$5\\left|\\frac{1}{2} x+3\\right|>5$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17ak01kqcy3wntyf0j7tecq1d8cthd6",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|x| > a implies x > a or x < -a, applied to the expression inside the absolute value."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$3|14-x|>6\\Rightarrow|14-x|>2\\Rightarrow14-x>2$ or $14-x<-2\\Rightarrow x<12$ or $x>16$. Solution set: $\\{x\\mid x<12 \\text{ or } x>16\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sectionId": "inequalities-with-absolute-value",
+    "sectionLabel": "Inequalities With Absolute Value",
+    "stem": "$3|14-x|>6$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m173xg4pbaf9xt2dsjt3yt6fdd8cvjr3",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|x| ≤ a implies -a ≤ x ≤ a; clear the fraction by multiplying through by the denominator first."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\left|\\frac{3x-2}{5}\\right|\\leq2\\Rightarrow-2\\leq\\frac{3x-2}{5}\\leq2\\Rightarrow-10\\leq3x-2\\leq10\\Rightarrow-8\\leq3x\\leq12\\Rightarrow-\\frac{8}{3}\\leq x\\leq4$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sectionId": "inequalities-with-absolute-value",
+    "sectionLabel": "Inequalities With Absolute Value",
+    "stem": "$\\left|\\frac{3 x-2}{5}\\right| \\leq 2$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m174fsz28n21e3hdm9cs5f0x058ctq8d",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|x| ≥ a implies x ≥ a or x ≤ -a; solve each resulting linear inequality separately."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\left|\\frac{2-5x}{4}\\right|\\geq\\frac{2}{3}\\Rightarrow\\frac{2-5x}{4}\\geq\\frac{2}{3}$ or $\\frac{2-5x}{4}\\leq-\\frac{2}{3}$. First: $2-5x\\geq\\frac{8}{3}\\Rightarrow-5x\\geq\\frac{2}{3}\\Rightarrow x\\leq-\\frac{2}{15}$. Second: $2-5x\\leq-\\frac{8}{3}\\Rightarrow-5x\\leq-\\frac{14}{3}\\Rightarrow x\\geq\\frac{14}{15}$. Solution set: $\\{x\\mid x\\leq-\\frac{2}{15} \\text{ or } x\\geq\\frac{14}{15}\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sectionId": "inequalities-with-absolute-value",
+    "sectionLabel": "Inequalities With Absolute Value",
+    "stem": "$\\left|\\frac{2-5 x}{4}\\right| \\geq \\frac{2}{3}$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m170h6baj73v0kxyvwr8a7fphh8ctqmp",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "'Absolute deviation of at most k from a target value m' translates to |x - m| ≤ k, which unfolds to m - k ≤ x ≤ m + k."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let $x$ = number of words. An absolute deviation of at most 30 words from 500 is $|x-500|\\leq30\\Rightarrow-30\\leq x-500\\leq30\\Rightarrow470\\leq x\\leq530$. The essay can have **between 470 and 530 words**.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sectionId": "inequalities-with-absolute-value",
+    "sectionLabel": "Inequalities With Absolute Value",
+    "stem": "An essay contest requires that essay entries consists of 500 words with an absolute deviation of at most 30 words. What are the possible number of words that the essay can have?",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17dse7wwjvxmeh1q8svvbq77d8cvsbm",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|expression| = k (k > 0) splits into two linear equations, one for each sign."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|2x+9|=30\\Rightarrow2x+9=30$ or $2x+9=-30\\Rightarrow x=10.5$ or $x=-19.5$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "absolute-value-equations",
+    "sectionLabel": "Equations with Absolute Value",
+    "stem": "$|2 x+9|=30$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17dp5tyj9fb6crfdpkm9zkytd8cvsr8",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|expression| = (negative number) always has no solution, since absolute value is never negative."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|x-3|=-26$: an absolute value can never be negative, so this equation has **no solution**. Solution set: $\\emptyset$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "absolute-value-equations",
+    "sectionLabel": "Equations with Absolute Value",
+    "stem": "$|x-3|=-26$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17f31szetmswz3pax86tmn7pn8ctcy3",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Solving |expression| = (linear expression) requires both the piecewise case split for the absolute value AND checking that the right side is non-negative."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$3|x+6|=9x-6$. Since the left side is $\\geq0$, we need $9x-6\\geq0\\Rightarrow x\\geq\\frac{2}{3}$. Case $x\\geq-6$: $3(x+6)=9x-6\\Rightarrow3x+18=9x-6\\Rightarrow24=6x\\Rightarrow x=4$ (satisfies both conditions). Case $x<-6$: $3(-x-6)=9x-6\\Rightarrow-3x-18=9x-6\\Rightarrow-12=12x\\Rightarrow x=-1$, but this fails $x<-6$, so it is rejected. Solution: $x=4$ (check: $3|10|=30=9(4)-6=30$).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sectionId": "absolute-value-equations",
+    "sectionLabel": "Equations with Absolute Value",
+    "stem": "$3|x+6|=9 x-6$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m173bm9eamfzda7fr2t2c6x9x98cv27n",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|expression| = (linear expression) needs both the piecewise case split and a check that the right side stays non-negative."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|x-3|=2x$: since the right side must be $\\geq0$, we need $x\\geq0$. Case $x\\geq3$: $x-3=2x\\Rightarrow-3=x$, rejected (contradicts $x\\geq3$). Case $x<3$: $-(x-3)=2x\\Rightarrow3-x=2x\\Rightarrow3=3x\\Rightarrow x=1$ (satisfies $0\\leq x<3$). Solution: $x=1$ (check: $|1-3|=2=2(1)$).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sectionId": "absolute-value-equations",
+    "sectionLabel": "Equations with Absolute Value",
+    "stem": "$|x-3|=2 x$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m174mvwjngxzm5nvybbwx89p0s8ctz7s",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|expression| = k (k > 0) splits into two linear equations, one for each sign; clear the denominator first."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\left|\\frac{4-5x}{6}\\right|=7\\Rightarrow4-5x=42$ or $4-5x=-42\\Rightarrow-5x=38\\Rightarrow x=-7.6$, or $-5x=-46\\Rightarrow x=9.2$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sectionId": "absolute-value-equations",
+    "sectionLabel": "Equations with Absolute Value",
+    "stem": "$\\left|\\frac{4-5 x}{6}\\right|=7$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17fzcymnjvsznvf5209f7ntv18ctj12",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Isolating the absolute value expression and finding it must equal a negative number immediately shows there is no solution."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|3x-6|+7=4\\Rightarrow|3x-6|=4-7=-3$. Since an absolute value can never be negative, no value of $x$ can make $|3x-6|=-3$ true, so the equation has **no solution**.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sectionId": "absolute-value-equations",
+    "sectionLabel": "Equations with Absolute Value",
+    "stem": "Explain, why the equation $|3 x-6|+7=4$ has no solution.",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1737sg6vz5nvn19m686mwn6wx8cvj33",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "|x| ≤ a implies -a ≤ x ≤ a; solve the compound inequality by isolating x across all three parts."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|9x-1|\\leq10\\Rightarrow-10\\leq9x-1\\leq10\\Rightarrow-9\\leq9x\\leq11\\Rightarrow-1\\leq x\\leq\\frac{11}{9}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sectionId": "inequalities-with-absolute-value",
+    "sectionLabel": "Inequalities With Absolute Value",
+    "stem": "$|9 x-1| \\leq 10$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1735cftx1r54sv0wgzfhny03n8ct9s6",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "stem": "Area $>81$ square feet",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17d0tz8b1acdn45f9f5nr7z9x8ctpbp",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "stem": "Area $\\leq 44$ square centimeters\n![](./images/841b8744-c0fe-4939-bfaf-937e2be63b06-083_232_397_1321_296.jpg)",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17eqe2j24d1y11ev3z30p1zcd8ctz5e",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$x<6$"
+      },
+      {
+        "key": "B",
+        "text": "$x \\leq 6$"
+      },
+      {
+        "key": "C",
+        "text": "$x>6$"
+      },
+      {
+        "key": "D",
+        "text": "$x \\geq 6$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.i",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "The solution of the inequality $6 x-7 \\geq 2 x+17$ is:",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m175weegje8sszdz4dwjrmw62s8cv9ba",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\{0,1,2\\}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\{-2,-2,0,1,2\\}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\{1,2\\}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\{1\\}$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.ii",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "The solution of the inequality $x<3$ for $x \\in \\mathrm{~N}$ is:",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m177khw5avy6v0nemtwcswsxjn8cvbpv",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$x<2$"
+      },
+      {
+        "key": "B",
+        "text": "$x<6$"
+      },
+      {
+        "key": "C",
+        "text": "$x>2$"
+      },
+      {
+        "key": "D",
+        "text": "$x<-2$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.iv",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "The solution of the $\\frac{x}{-2}<3-x$ is:",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1761t216cztx9r8tvav0k91gx8cvcrh",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\{x \\mid x<16\\}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\{x \\mid x \\leq 16\\}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\{x \\mid x>16\\}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\{x \\mid x \\geq 16\\}$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.vii",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "The solution for $-5 x \\geq-80$ is:",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17911jbdttfqxefy4yztmkdc58cv609",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Collect variable terms on one side and constants on the other, then divide (dividing by a positive number keeps the inequality direction)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$5x-12\\leq3x-4\\Rightarrow2x\\leq8\\Rightarrow x\\leq4$. Solution set: $\\{x\\mid x\\leq4\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$5 x-12 \\leq 3 x-4$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1747cd79y0vhbcq2c5h3xg3w18ctyjs",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "When the variable cancels and the remaining statement is a true numeric fact, the inequality is an identity true for every real number."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$1-8x\\leq-4(2x-1)\\Rightarrow1-8x\\leq-8x+4\\Rightarrow1\\leq4$ (the $x$ terms cancel). This is always true, so the inequality holds for **all real numbers** $x$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$1-8 x \\leq-4(2 x-1)$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m171tky3tcnkg7vevh9azzs1t58cvjtq",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Isolate the variable term, then multiply by the reciprocal of its coefficient (positive, so the inequality direction is unchanged)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\frac{2}{3}x-4\\geq1\\Rightarrow\\frac{2}{3}x\\geq5\\Rightarrow x\\geq7.5$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$\\frac{2}{3} x-4 \\geq 1$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17fyeyf2h7fnb9xk2ncw08y258cv6pd",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Express both dimensions in terms of one variable using the given ratio, then apply the perimeter constraint as an inequality."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let length $=L$, width $=2L$. Fence length is the perimeter: $2(L+2L)\\leq60\\Rightarrow6L\\leq60\\Rightarrow L\\leq10$. So length can be **up to 10 m** (with $L>0$), and width $=2L$ up to **20 m**, always keeping width equal to twice the length.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "20",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "A rectangular garden is to be enclosed with a fence. The total length of the fence is at most 60 meters and the width $x$ of the garden is twice its length. Find the possible dimensions of the garden.",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17ahr3zvf6dr3xg4csg2an6f58cvx5e",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Dividing (or multiplying) an inequality by a negative number reverses its direction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\frac{-2}{3}x-2<\\frac{1}{3}x+8$. Multiply by 3: $-2x-6<x+24\\Rightarrow-3x<30\\Rightarrow x>-10$ (dividing by $-3$ flips the inequality).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$\\frac{-2}{3} x-2<\\frac{1}{3} x+8$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17bxxzdq66b591qjzfycbrhas8ctwc2",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Move all variable terms to one side and constants to the other before dividing."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$1-3x\\leq-14+2x\\Rightarrow1+14\\leq2x+3x\\Rightarrow15\\leq5x\\Rightarrow x\\geq3$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$1-3 x \\leq-14+2 x$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m170t0c299b7fr49143pz2tfj58ct187",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Clear fractions by multiplying through by the common denominator before isolating the variable."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$8-\\frac{4}{5}x>-14+2x$. Multiply by 5: $40-4x>-70+10x\\Rightarrow110>14x\\Rightarrow x<\\frac{110}{14}=\\frac{55}{7}\\approx7.86$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$8-\\frac{4}{5} x>-14+2 x$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17fdypfwkr9sjfw37majhc0mh8ct4pc",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "When the variable cancels leaving a true numeric statement, the inequality is an identity satisfied by every real number."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$7(x-1)>-8+7x\\Rightarrow7x-7>-8+7x\\Rightarrow-7>-8$ (the $x$ terms cancel). This is always true, so the inequality holds for **all real numbers** $x$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$7(x-1)>-8+7 x$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1735rgng9nev3zw5nn35p69c58ctrwb",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Dividing an inequality by a negative number reverses its direction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$-0.6(x-5)\\leq15\\Rightarrow-0.6x+3\\leq15\\Rightarrow-0.6x\\leq12\\Rightarrow x\\geq-20$ (dividing by $-0.6$ flips the inequality).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$-0.6(x-5) \\leq 15$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17bggmdawjj77jyp4q5zc0v6s8ctv4k",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Distribute first, then collect variable terms on one side (here the coefficient stays positive, so the inequality direction is unchanged)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$-3(2x-1)\\geq1-8x\\Rightarrow-6x+3\\geq1-8x\\Rightarrow2x\\geq-2\\Rightarrow x\\geq-1$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$-3(2 x-1) \\geq 1-8 x$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m177vhs8ex89pfas4fc3cz8zt18ct30w",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Multiplying an inequality by a negative number reverses its direction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\frac{-1}{4}(x-12)>-2$. Multiply by $-4$ (flip): $x-12<8\\Rightarrow x<20$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "$\\frac{-1}{4}(x-12)>-2$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1755z6fq91hqbe8t6b7szj55n8ct25n",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Translate the verbal phrase into an algebraic inequality piece by piece before solving."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\"Four more than the product of 3 and $x$\" is $3x+4$. \"Is less than 40\": $3x+4<40\\Rightarrow3x<36\\Rightarrow x<12$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "Four more than the product of 3 and $x$ is less than 40 .",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17ahrdktfkeqbegr2cdeh1dw18cvt6r",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Translate the phrase into an algebraic expression first, then solve the resulting inequality."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "\"Twice the sum of $x$ and 8\" is $2(x+8)$. \"Appears less than or equal to $-2$\": $2(x+8)\\leq-2\\Rightarrow2x+16\\leq-2\\Rightarrow2x\\leq-18\\Rightarrow x\\leq-9$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sectionId": "inequalities-in-one-variable",
+    "sectionLabel": "Inequalities in One Variable",
+    "stem": "Twice the sum of $x$ and 8 appears less than or equal to -2 .",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m175fnyyqmxn5mq2ymebysj4px8cthha",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Find critical points from each factor, then test a value from each region against the factored inequality."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$(x+1)(x-3)>0$: critical points $x=-1,3$. Testing the three regions, the product is positive when $x<-1$ or $x>3$. Solution set: $\\{x\\mid x<-1 \\text{ or } x>3\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "$(x+1)(x-3)>0$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17175vxc356seksfb80m3znr18ct4tp",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "A product of two linear factors is negative strictly between its two roots (when the leading coefficient is positive)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$(x-9)(x+1)<0$: critical points $x=-1,9$. The product is negative between the roots. Solution set: $\\{x\\mid-1<x<9\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "$(x-9)(x+1)<0$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1718wz6qcbsjm44dra5thra1s8cvx9n",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Factor the quadratic first, then apply the sign rule for a product outside vs. between its roots."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x^{2}-x-90>0\\Rightarrow(x-10)(x+9)>0$. Critical points $x=-9,10$. Product positive outside the roots. Solution set: $\\{x\\mid x<-9 \\text{ or } x>10\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "$x^{2}-x-90>0$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17bvbgbbx4hqqdypv1ska5q398ctthw",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Factor first, then use the sign rule: a product of two linear factors is negative strictly between its roots."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x^{2}+4x-21<0\\Rightarrow(x+7)(x-3)<0$. Critical points $x=-7,3$. Product negative between the roots. Solution set: $\\{x\\mid-7<x<3\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "$x^{2}+4 x-21<0$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m1767qaaz5388keprd2n56cbzh8cvx9f",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "A perfect square (x + a)^2 is always ≥ 0, so an inequality reducing to that form is true for all real x."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x^{2}+8x+16\\geq0\\Rightarrow(x+4)^{2}\\geq0$. A perfect square is never negative, so this holds for **every real number** $x$. Solution set: $\\mathbb{R}$ (all real numbers).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "$x^{2}+8 x+16 \\geq 0$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17c3k73q5pska8d0ev1ng50hn8cvc01",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "A perfect square ≤ 0 has exactly one solution: where the square equals zero."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$9x^{2}-6x+1\\leq0\\Rightarrow(3x-1)^{2}\\leq0$. A perfect square is never negative, so it can only equal 0, at $3x-1=0\\Rightarrow x=\\frac{1}{3}$. Solution set: $\\left\\{\\frac{1}{3}\\right\\}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "16",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "$9 x^{2}-6 x+1 \\leq 0$",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m178gjcjhwbbf7967mnths7jcd8cvnn8",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Express one dimension in terms of the other from the perimeter, then substitute into the area inequality to get a quadratic inequality."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let length $=l$, width $=w$. Perimeter: $2(l+w)=68\\Rightarrow w=34-l$. Area: $l(34-l)\\geq240\\Rightarrow34l-l^{2}\\geq240\\Rightarrow l^{2}-34l+240\\leq0$. Roots: $l=\\frac{34\\pm\\sqrt{1156-960}}{2}=\\frac{34\\pm14}{2}=24 \\text{ or } 10$, so $10\\leq l\\leq24$. Since $w=34-l$, the width also ranges over $10\\leq w\\leq24$ (matching $l$ from the opposite end).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "17",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "Mr. Khalid has a field and want to make a rectangular garden with perimeter of 68 ft . He would like the area of a garden to be at least 240 square feet. What would the width of the garden be?",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17dnmxznnh3mh7crxf82tp99s8ct5rd",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Direct substitution can check candidate values, but factoring the quadratic gives the full solution interval for comparison."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Testing each value in $2x^{2}+3x+1\\leq0$: $x=-2$: $8-6+1=3$, no. $x=-1$: $2-3+1=0$, **yes**. $x=0$: $1$, no. $x=1$: $6$, no. $x=2$: $15$, no. Factoring confirms this: $2x^{2}+3x+1=(2x+1)(x+1)\\leq0\\Rightarrow-1\\leq x\\leq-\\frac{1}{2}$, and only $x=-1$ among the given values falls in that range.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "18",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "Are $-2,-1,0,1,2$ solution of the inequality $2 x^{2}+3 x+1 \\leq 0$.",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-1-inequalities-in-one-variable",
+    "topicTitle": "4.1 Inequalities in One Variable",
+    "_id": "m17bpynwhswz9fz5bz0p8xqn8n8cvkv2",
+    "exerciseId": "xd78jvf6vy8h5n054m3smrqe1n8dzgpj",
+    "exerciseTitle": "Exercise 4.1",
+    "keyPoints": [
+      "Set the model ≤ the limit, clear decimals, solve the resulting quadratic inequality via its roots, and discard the physically impossible negative branch."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$d(x)=0.05x^{2}+0.2x\\leq35\\Rightarrow0.05x^{2}+0.2x-35\\leq0$. Multiply by 20: $x^{2}+4x-700\\leq0$. Roots: $x=\\frac{-4\\pm\\sqrt{16+2800}}{2}=\\frac{-4\\pm\\sqrt{2816}}{2}\\approx\\frac{-4\\pm53.06}{2}$, giving $x\\approx24.53$ or $x\\approx-28.53$. Since speed $x\\geq0$, the valid range is $0\\leq x\\lesssim24.5$ km/h to keep the stopping distance within 35 meters.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "19",
+    "sectionId": "solving-quadratic-inequalities",
+    "sectionLabel": "Solving Quadratic Inequalities",
+    "stem": "The stopping distance $d(x)$ (in meters) of a car traveling at $x \\mathrm{~km} / \\mathrm{h}$ is modeled by $d(x)=0.05 x^{2}+0.2 x$. If the maximum stopping distance allowed in a school zone is 35 meters, find the speed range that ensures the stopping distance does not exceed this limit.",
+    "topicId": "ms7aq2syv5xkxv062dscggmsyd8bt51y"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m17fdmshzeajmbrm241j11xrjx8ct37y",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$(-1,-1)$"
+      },
+      {
+        "key": "B",
+        "text": "$(0,0)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2,2)$"
+      },
+      {
+        "key": "D",
+        "text": "$(-3,-3)$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.iii",
+    "sectionId": "graphing-linear-inequality-two-variables",
+    "sectionLabel": "Graphing a Linear Inequality in Two Variables",
+    "stem": "In general, we use a test point when graphing the inequality:",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m17ezxgj9mfg5w17bwch6da08h8cvjth",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$(0,0)$"
+      },
+      {
+        "key": "B",
+        "text": "$(-1,2)$"
+      },
+      {
+        "key": "C",
+        "text": "$(1,1)$"
+      },
+      {
+        "key": "D",
+        "text": "$(0,-2)$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.v",
+    "sectionId": "graphing-linear-inequality-two-variables",
+    "sectionLabel": "Graphing a Linear Inequality in Two Variables",
+    "stem": "Which ordered pair is a solution of the inequality $4 x-y \\geq 3$ ??",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m175jjfxyamy2kyys4qbsszt198cvwe8",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$(1,-1)$"
+      },
+      {
+        "key": "B",
+        "text": "$(4,1)$"
+      },
+      {
+        "key": "C",
+        "text": "$(2,0)$"
+      },
+      {
+        "key": "D",
+        "text": "$(3,2)$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.vi",
+    "sectionId": "solving-systems-of-linear-inequalities",
+    "sectionLabel": "Solving Systems of Linear Inequalities",
+    "stem": "Which ordered pair is a solution of the system $2 x-y \\leq 5$ and $x+2 y>2$ ?",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m179pfhg5e3n1hmkm7qms1cz758cva60",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$x-y<-4$."
+      },
+      {
+        "key": "B",
+        "text": "$2 x+y<10$"
+      },
+      {
+        "key": "C",
+        "text": "$x+10 y<1$"
+      },
+      {
+        "key": "D",
+        "text": "$-x-y>-3$"
+      }
+    ],
+    "origin": "exercise",
+    "questionKind": "mcq",
+    "questionNumber": "1.viii",
+    "sectionId": "graphing-linear-inequality-two-variables",
+    "sectionLabel": "Graphing a Linear Inequality in Two Variables",
+    "stem": "$(7,-2)$ is a solution of the inequality;",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m17cqxamvve1f5pw5cg401na718cvnef",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Graph each boundary line, test a point (usually the origin) to decide which side to shade, then take the overlap of both shaded regions."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$3x+4y\\geq12$ and $5x+6y\\leq30$: graph $3x+4y=12$ (intercepts $(4,0),(0,3)$) as a solid line and shade the side containing points where $3x+4y>12$ (away from the origin, since $(0,0)$ gives $0\\geq12$, false); graph $5x+6y=30$ (intercepts $(6,0),(0,5)$) as a solid line and shade the side containing $(0,0)$ (since $0\\leq30$ is true). The solution of the system is the overlapping (doubly-shaded) region between the two solid boundary lines.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sectionId": "solving-systems-of-linear-inequalities",
+    "sectionLabel": "Solving Systems of Linear Inequalities",
+    "stem": "$3 x+4 y \\geq 12$\n$5 x+6 y \\leq 30$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m174hsfgh41959hxgz82adcr858cvcpc",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Rewrite each inequality in y = ... form to see which half-plane (above or below the line) satisfies it."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$y-x\\geq1$ (i.e. $y\\geq x+1$) and $y-4\\leq4$ (i.e. $y\\leq8$): graph $y=x+1$ as a solid line and shade above it; graph $y=8$ as a solid horizontal line and shade below it. The solution is the overlapping band between $y=x+1$ and $y=8$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sectionId": "solving-systems-of-linear-inequalities",
+    "sectionLabel": "Solving Systems of Linear Inequalities",
+    "stem": "$y-x \\geq 1$\n$y-4 \\leq 4$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m17f6gkn9cnvhfk399gqvtnych8cte4c",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "x ≥ 0 restricts the region to the right half-plane; combine that with the shaded half of the other boundary line."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$8x+5y\\leq40$ and $x\\geq0$: graph $8x+5y=40$ (intercepts $(5,0),(0,8)$) as a solid line and shade the side containing the origin ($0\\leq40$, true); combine with the right half-plane $x\\geq0$ (also solid boundary). The solution is the region on/below the line and on/to the right of the y-axis.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sectionId": "solving-systems-of-linear-inequalities",
+    "sectionLabel": "Solving Systems of Linear Inequalities",
+    "stem": "$8 x+5 y \\leq 40$\n$x \\geq 0$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m1764je2yt5hj89mqzz6tr1b818ctq6n",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "y ≥ 0 restricts the region to the upper half-plane; the overlap with the other shaded half-plane gives the feasible region."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$2x+y\\leq12$ and $y\\geq0$: graph $2x+y=12$ (intercepts $(6,0),(0,12)$) as a solid line and shade the side containing the origin ($0\\leq12$, true); combine with the upper half-plane $y\\geq0$. The solution is the triangular region bounded below by the x-axis and above/left by the line.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sectionId": "solving-systems-of-linear-inequalities",
+    "sectionLabel": "Solving Systems of Linear Inequalities",
+    "stem": "$2 x+y \\leq 12$\n$y \\geq 0$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m176zcyzf43cmwrxmnd87rg1q98ct134",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "A rectangle aligned with the axes is described by two compound inequalities, one bounding x between the vertical sides and one bounding y between the horizontal sides."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The rectangle with vertices $(2,1),(2,4),(6,4),(6,1)$ has vertical sides at $x=2$ and $x=6$, and horizontal sides at $y=1$ and $y=4$. The shaded (interior, including boundary) region is described by the system: $2\\leq x\\leq6$ and $1\\leq y\\leq4$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sectionId": "solving-systems-of-linear-inequalities",
+    "sectionLabel": "Solving Systems of Linear Inequalities",
+    "stem": "The shaded region is a rectangle with vertices $(2,1),(2,4),(6,4)$ and $(6,1)$.",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m179zh2v9ekv9yy37774y7ywt98ctm0e",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "For a shaded polygon, write the line through each pair of adjacent vertices, then test the remaining vertex to pick the correct inequality direction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Triangle vertices $(3,0),(3,2),(0,-2)$. Side $x=3$ (from $(3,0)$-$(3,2)$): the third vertex $(0,-2)$ has $x=0<3$, so $x\\leq3$. Side through $(3,2)$ and $(0,-2)$: slope $=\\frac{4}{3}$, line $y=\\frac{4}{3}x-2$; testing $(3,0)$ gives $0\\leq\\frac{4}{3}(3)-2=2$, true, so $y\\leq\\frac{4}{3}x-2$. Side through $(3,0)$ and $(0,-2)$: slope $=\\frac{2}{3}$, line $y=\\frac{2}{3}x-2$; testing $(3,2)$ gives $2\\geq\\frac{2}{3}(3)-2=0$, true, so $y\\geq\\frac{2}{3}x-2$. System: $x\\leq3,\\ y\\leq\\frac{4}{3}x-2,\\ y\\geq\\frac{2}{3}x-2$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sectionId": "solving-systems-of-linear-inequalities",
+    "sectionLabel": "Solving Systems of Linear Inequalities",
+    "stem": "The shaded region is a triangle with vertices at $(3,0),(3,2)$ and $(0,-2)$.",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m1777ddc098601bp4enr88qt7n8cvdw6",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Strict inequalities (<, >) use a dashed boundary line; non-strict (≤, ≥) use a solid line.",
+      "Test a point not on the line to decide which side to shade."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$y>2x$: graph the boundary line $y=2x$ as a **dashed** line (strict inequality, boundary not included). Test $(0,1)$: $1>2(0)=0$, true, so shade the half-plane containing $(0,1)$ (above the line).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sectionId": "graphing-linear-inequality-two-variables",
+    "sectionLabel": "Graphing a Linear Inequality in Two Variables",
+    "stem": "$y>2 x$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m1745w5z1vv1g49tre7a782an18cvtc3",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Strict inequality (<) uses a dashed boundary; the test point decides which side to shade."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$y<3x$: graph the boundary line $y=3x$ as a **dashed** line. Test $(1,0)$: $0<3(1)=3$, true, so shade the half-plane containing $(1,0)$ (below the line).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sectionId": "graphing-linear-inequality-two-variables",
+    "sectionLabel": "Graphing a Linear Inequality in Two Variables",
+    "stem": "$y<3 x$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m1724np4n4qdqtw505k3j5e3yx8cvp20",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "Non-strict inequalities (≤, ≥) use a solid boundary line, and the shaded region includes the boundary itself."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$y\\geq-5$: graph the horizontal boundary line $y=-5$ as a **solid** line (non-strict inequality). Test $(0,0)$: $0\\geq-5$, true, so shade the half-plane containing $(0,0)$ (above/on the line).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sectionId": "graphing-linear-inequality-two-variables",
+    "sectionLabel": "Graphing a Linear Inequality in Two Variables",
+    "stem": "$y \\geq-5$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "04-linear-and-quadratic-inequalities",
+    "chapterTitle": "Linear and Quadratic Inequalities",
+    "topicSlug": "4-2-solving-system-of-linear-inequalities",
+    "topicTitle": "4.2 Solving System of Linear Inequalities",
+    "_id": "m17d8z725x62838xs1h4epmb3x8ctyx4",
+    "exerciseId": "xd75d3aae88ttkzv089kym1wmx8dz5jm",
+    "exerciseTitle": "Exercise 4.3",
+    "keyPoints": [
+      "A closed/solid circle marks an included endpoint (≤ or ≥); shade toward the direction the inequality points."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x\\leq6$ graphed on a number line: place a **solid (closed) dot** at 6 (since $\\leq$ includes the boundary) and shade the ray to the **left** of 6, representing all values $x\\leq6$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sectionId": "graphing-linear-inequality-two-variables",
+    "sectionLabel": "Graphing a Linear Inequality in Two Variables",
+    "stem": "$x \\leq 6$",
+    "topicId": "ms78mmb7t2vhpdcaes7g7mpzqx8bvq1f"
+  }
+]

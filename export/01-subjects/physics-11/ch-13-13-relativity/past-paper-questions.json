@@ -1,0 +1,728 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "frame-of-reference",
+    "topicTitle": "13.1 Frame of Reference",
+    "_id": "m170f0rk6fwchenvqpe3mzy3jn8e33ma",
+    "correctKey": "D",
+    "exerciseId": "xd79fy0zvzhg75qrkdf52fbvxd8e2p5s",
+    "exerciseTitle": "Exercise 13: Multiple Choice Questions",
+    "explanation": "A frame of reference is a coordinate system or set of fixed reference points relative to which the position and motion of other objects are measured and described.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "a graph plotted between distance and time."
+      },
+      {
+        "key": "B",
+        "text": "a graph plotted between speed and time."
+      },
+      {
+        "key": "C",
+        "text": "the velocity of an object through empty space without regard to its surroundings."
+      },
+      {
+        "key": "D",
+        "text": "an arbitrarily fixed point with respect to which motion of other points is measured."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A frame of reference is:",
+    "topicId": "ms75ve8rvygsyecnj2fzx7q6gx85qwg7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "frame-of-reference",
+    "topicTitle": "13.1 Frame of Reference",
+    "_id": "m1711ejr56zw1pb2chdztz67qs85ppx1",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Inertial frame: at rest or constant velocity (zero acceleration); Newton's laws apply directly",
+      "Non-inertial frame: accelerating (acceleration ≠ 0); Newton's laws do not apply directly",
+      "Fictitious forces (pseudo-forces) appear in non-inertial frames to account for observed motion",
+      "Examples: steady-moving train (inertial) vs. rotating carousel (non-inertial)",
+      "All motion is relative and depends on the chosen frame of reference"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An **inertial frame of reference** is one that is either at rest or moving with constant velocity (zero acceleration), where Newton's laws of motion hold directly. A **non-inertial frame of reference** is one that is accelerating (speeding up, slowing down, or rotating), where Newton's laws do not hold directly and fictitious forces must be introduced to explain motion. For example, a train moving at steady speed on a straight track is inertial, while a rotating carousel is non-inertial.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "24",
+    "sectionId": "types-of-frames-of-reference",
+    "sectionLabel": "Types of Frames of Reference",
+    "session": "annual",
+    "stem": "What is the difference between **inertial** and **non-inertial** frame of reference?",
+    "topicId": "ms75ve8rvygsyecnj2fzx7q6gx85qwg7",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "frame-of-reference",
+    "topicTitle": "13.1 Frame of Reference",
+    "_id": "m17bfp1g9dqn75tcmfm3hvpgm58e3w2p",
+    "correctKey": "D",
+    "exerciseId": "xd79fy0zvzhg75qrkdf52fbvxd8e2p5s",
+    "exerciseTitle": "Exercise 13: Multiple Choice Questions",
+    "explanation": "An inertial frame of reference is any frame with zero acceleration -- this includes frames at rest and frames moving with constant (uniform) velocity in a straight line, since both have zero net acceleration; hence all three descriptions apply.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "which is at rest."
+      },
+      {
+        "key": "B",
+        "text": "which is moving with a uniform velocity along a straight line."
+      },
+      {
+        "key": "C",
+        "text": "which has zero acceleration."
+      },
+      {
+        "key": "D",
+        "text": "All of these."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "types-of-frames-of-reference",
+    "sectionLabel": "Types of Frames of Reference",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "An inertial frame of reference is the one:",
+    "topicId": "ms75ve8rvygsyecnj2fzx7q6gx85qwg7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "frame-of-reference",
+    "topicTitle": "13.1 Frame of Reference",
+    "_id": "m17c6cttxesm6qstt28268xe9n8e32mc",
+    "exerciseId": "xd72zza41c065jfrcw5p8q56158e3tb3",
+    "exerciseTitle": "Exercise 13: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An inertial frame of reference is one that is either at rest or moving with constant velocity (zero acceleration), in which Newton's laws of motion hold in their simple form without needing fictitious forces. A non-inertial frame is one that is accelerating (including rotating), in which apparent (fictitious) forces such as centrifugal or Coriolis force must be introduced to explain observed motion using Newton's laws.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.1",
+    "sectionId": "types-of-frames-of-reference",
+    "sectionLabel": "Types of Frames of Reference",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the difference between inertial and non-inertial frames of reference?",
+    "topicId": "ms75ve8rvygsyecnj2fzx7q6gx85qwg7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "frame-of-reference",
+    "topicTitle": "13.1 Frame of Reference",
+    "_id": "m172ytnfb1ny7spdpmxeb04xks8e2kvz",
+    "exerciseId": "xd747t3tcam1hycfynqbg4vfzd8e2maj",
+    "exerciseTitle": "Exercise 13: Comprehensive Questions",
+    "keyPoints": [
+      "A frame of reference is a coordinate system (with an origin and set of axes) relative to which the position, velocity, and acceleration of an object are measured and described.",
+      "Example: a passenger sitting in a moving train is at rest relative to a frame attached to the train, but moving relative to a frame attached to the ground outside; the choice of frame changes the description of the passenger's motion.",
+      "There are two main types: inertial frames (at rest or moving with constant velocity, zero acceleration, where Newton's laws hold simply) and non-inertial frames (accelerating or rotating, where fictitious forces must be introduced to apply Newton's laws)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A frame of reference is a coordinate system used to determine the positions and velocities of objects relative to that frame. For example, a ball rolling in a street is moving relative to the street, the roadside, or the Earth. Motion is therefore described relative to a chosen frame, and different frames can move relative to one another. There are two types. An inertial frame is at rest or moves with uniform velocity in a straight line, does not accelerate, and obeys Newton's laws. A stationary house or a car moving at constant velocity is an example. A non-inertial frame accelerates relative to an inertial frame, so objects can appear accelerated even without an applied force and Newton's laws do not hold in their ordinary form. An accelerating car is an example.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "13.1",
+    "sectionId": "types-of-frames-of-reference",
+    "sectionLabel": "Types of Frames of Reference",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is meant by frames of reference? Explain with the help of examples. Also discuss its types.",
+    "topicId": "ms75ve8rvygsyecnj2fzx7q6gx85qwg7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "special-theory-of-relativity",
+    "topicTitle": "13.2 Postulates of the Special Theory of Relativity",
+    "_id": "m1795x1tszhxvmb828rzyy0f1x8e2zx1",
+    "exerciseId": "xd747t3tcam1hycfynqbg4vfzd8e2maj",
+    "exerciseTitle": "Exercise 13: Comprehensive Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Special relativity rests on two postulates. First, the principle of relativity: the laws of physics take the same form in all inertial reference frames, so no inertial observer can be considered to be in a privileged or absolutely 'at rest' frame -- no experiment performed entirely within an inertial frame can detect its own uniform motion. Second, the constancy of the speed of light: light travels through vacuum at the same speed c (~3x10^8 m/s) for all observers, regardless of the motion of the light source or the observer measuring it. These two postulates together lead to the counterintuitive but experimentally verified consequences of special relativity, including time dilation, length contraction, and the relativity of simultaneity.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "13.2",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Discuss the postulate of the special theory of relativity.",
+    "topicId": "ms79ce4pa04xvr67dvfa01tn3985pgkj"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "special-theory-of-relativity",
+    "topicTitle": "13.2 Postulates of the Special Theory of Relativity",
+    "_id": "m17bwt27z6ydnxmxkenkvys6b98e3b1x",
+    "correctKey": "C",
+    "exerciseId": "xd79fy0zvzhg75qrkdf52fbvxd8e2p5s",
+    "exerciseTitle": "Exercise 13: Multiple Choice Questions",
+    "explanation": "By Einstein's second postulate of special relativity, the speed of light in vacuum is the same (c) for all observers regardless of the motion of the light source, so the emitted light travels at exactly c, not c plus or minus the plane's velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "It travels at a speed of c+200 m/s."
+      },
+      {
+        "key": "B",
+        "text": "It travels at a speed of c-200 m/s."
+      },
+      {
+        "key": "C",
+        "text": "It travels at a speed c, like all light."
+      },
+      {
+        "key": "D",
+        "text": "It travels at a speed slightly less than c."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "2-the-second-postulate-the-principle-of-the-constancy-of-the-speed-of-light",
+    "sectionLabel": "2. The Second Postulate: The Principle of the Constancy of the Speed of Light",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "An airliner traveling at 200 m/s emits light from the front of the plane. Which statement describes the speed of the light?",
+    "topicId": "ms79ce4pa04xvr67dvfa01tn3985pgkj"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "special-theory-of-relativity",
+    "topicTitle": "13.2 Postulates of the Special Theory of Relativity",
+    "_id": "m176bbx8m804bh4wcxz45bhb9d8e2v9e",
+    "exerciseId": "xd72zza41c065jfrcw5p8q56158e3tb3",
+    "exerciseTitle": "Exercise 13: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "According to special relativity, a particle's relativistic mass (and the energy required to accelerate it) increases as $m = m_0/\\sqrt{1-v^2/c^2}$, which approaches infinity as v approaches c. Since accelerating a massive particle to the speed of light would require an infinite amount of energy, it is physically impossible for any particle with rest mass to reach or exceed the speed of light.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.3",
+    "sectionId": "2-the-second-postulate-the-principle-of-the-constancy-of-the-speed-of-light",
+    "sectionLabel": "2. The Second Postulate: The Principle of the Constancy of the Speed of Light",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain why is it impossible for a particle with mass to move faster than the speed of light.",
+    "topicId": "ms79ce4pa04xvr67dvfa01tn3985pgkj"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "special-theory-of-relativity",
+    "topicTitle": "13.2 Postulates of the Special Theory of Relativity",
+    "_id": "m17dxk5n32kckr053snwhpbq4h8e3btb",
+    "correctKey": "C",
+    "exerciseId": "xd79fy0zvzhg75qrkdf52fbvxd8e2p5s",
+    "exerciseTitle": "Exercise 13: Multiple Choice Questions",
+    "explanation": "The Theory of Relativity (both special and general) was formulated by Albert Einstein, in 1905 and 1915 respectively.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Isaac Newton"
+      },
+      {
+        "key": "B",
+        "text": "Stephen William Hawking"
+      },
+      {
+        "key": "C",
+        "text": "Albert Einstein"
+      },
+      {
+        "key": "D",
+        "text": "Ernest Rutherford"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "the-two-postulates-of-special-relativity",
+    "sectionLabel": "The Two Postulates of Special Relativity",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Theory of Relativity was formulated by:",
+    "topicId": "ms79ce4pa04xvr67dvfa01tn3985pgkj"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "special-theory-of-relativity",
+    "topicTitle": "13.2 Postulates of the Special Theory of Relativity",
+    "_id": "m17520qdztjvj11vv6pkmnwvss8e2yjb",
+    "exerciseId": "xd72zza41c065jfrcw5p8q56158e3tb3",
+    "exerciseTitle": "Exercise 13: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The two postulates of special relativity are: (1) the laws of physics are the same (invariant) in all inertial frames of reference, and (2) the speed of light in vacuum has the same constant value (c) for all observers, regardless of the motion of the light source or the observer.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.2",
+    "sectionId": "the-two-postulates-of-special-relativity",
+    "sectionLabel": "The Two Postulates of Special Relativity",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "State the postulates of special theory of relativity?",
+    "topicId": "ms79ce4pa04xvr67dvfa01tn3985pgkj"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m17fmw9braysnh852gaxd9qzzh8e2e10",
+    "exerciseId": "xd73f9ap4fe99ajyeqgyz2yrks8e2ze3",
+    "exerciseTitle": "Exercise 13: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $E = m_0c^2$: $E = (9.11\\times10^{-31})(3\\times10^8)^2 = 9.11\\times10^{-31} \\times 9\\times10^{16} \\approx 8.2\\times10^{-14}$ J. Converting to MeV: $8.2\\times10^{-14} / 1.6\\times10^{-13} \\approx 0.512$ MeV, matching the textbook. (Ans. 0.512 MeV, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.1",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Calculate the equivalent energy of an electron with rest mass 9.11x10^-31 kg.",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m17a2ecvmtrfx1dvv6x81zh6z58e2p44",
+    "exerciseId": "xd73f9ap4fe99ajyeqgyz2yrks8e2ze3",
+    "exerciseTitle": "Exercise 13: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By time dilation, $T = T_0/\\sqrt{1-v^2/c^2}$. With $v/c = 2.70/3.00 = 0.90$: $\\sqrt{1-0.90^2} = \\sqrt{1-0.81} = \\sqrt{0.19} \\approx 0.436$. $T = 2.60\\times10^{-8}/0.436 \\approx 5.96\\times10^{-8}$ s, matching the textbook. (Ans. $5.96\\times10^{-8}$ s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.3",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Particles called pi-mesons are produced by accelerator beams. If these particles travel at 2.70x10^8 m/s and live 2.60x10^-8 s when at rest relative to an observer. How long do they live as viewed in the laboratory?",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m17228wj7ms9hp80yrmtgk4fgd8e3ykv",
+    "exerciseId": "xd73f9ap4fe99ajyeqgyz2yrks8e2ze3",
+    "exerciseTitle": "Exercise 13: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By time dilation, $T/T_0 = 1/\\sqrt{1-v^2/c^2}$. $T/T_0 = 1.40/0.840 \\approx 1.667$, so $\\sqrt{1-v^2/c^2} = 1/1.667 = 0.6$, giving $1-v^2/c^2 = 0.36$, $v^2/c^2 = 0.64$, $v = 0.8c$, matching the textbook. (Ans. 0.800c, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.4",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A neutral pi-meson lives 1.40x10^-16 s as measured in the laboratory, and 0.840x10^-16 s when at rest relative to an observer. What is its velocity relative to the laboratory?",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m177h01k1fhz3kmykn7ga30v1d85pcjk",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When an object moves with a very high speed, its length **contracts** (or **decreases**) in the direction of its motion. This phenomenon is called length contraction or Lorentz contraction, a direct consequence of Einstein's Special Theory of Relativity. The contraction becomes significant only at velocities approaching the speed of light.",
+    "keyPoints": [
+      "Correct term: contracts/decreases/shortens",
+      "Occurs in the direction of motion only",
+      "This is length contraction or Lorentz contraction",
+      "Effect of Special Theory of Relativity",
+      "Significant at speeds approaching speed of light"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When an object moves with a very high speed, its length **contracts** (or **decreases**) in the direction of its motion. This phenomenon is called length contraction or Lorentz contraction, a direct consequence of Einstein's Special Theory of Relativity. The contraction becomes significant only at velocities approaching the speed of light.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decreases"
+      },
+      {
+        "key": "B",
+        "text": "Expands"
+      },
+      {
+        "key": "C",
+        "text": "Remains same"
+      },
+      {
+        "key": "D",
+        "text": "Becomes zero"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionId": "length-contraction",
+    "sectionLabel": "Length Contraction",
+    "session": "annual",
+    "stem": "When an object moves with a very high speed relative to an observer, what happens to its length in the direction of motion, according to Special Relativity?",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m17c4kz04sjtp8ge8mjctan0xx8e2sep",
+    "exerciseId": "xd73f9ap4fe99ajyeqgyz2yrks8e2ze3",
+    "exerciseTitle": "Exercise 13: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By length contraction: $L = L_0\\sqrt{1-v^2/c^2} = 100\\sqrt{1-0.99^2} = 100\\sqrt{1-0.9801} = 100\\sqrt{0.0199} \\approx 100 \\times 0.141 \\approx 14.1$ m, matching the textbook. (Ans. 14 m, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.2",
+    "sectionId": "length-contraction",
+    "sectionLabel": "Length Contraction",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The length of a spaceship is 100 m. What will be its length if the spaceship moves at a speed of 0.99c?",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m1767jmm7n4tt19gjh90d5ay2d85qd7s",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Relativistic mass increases according to $m = \\frac{m_0}{\\sqrt{1-v^2/c^2}}$ as velocity approaches speed of light",
+      "Volume contracts in direction of motion due to length contraction effect",
+      "Density $\\rho = \\frac{m}{V}$ increases due to combined effect of increased mass and decreased volume",
+      "This is a consequence of Special Theory of Relativity postulates",
+      "Effect becomes significant only at speeds comparable to speed of light"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "As an object moves at very high speeds approaching the speed of light, its density increases. This occurs because the object undergoes relativistic mass increase according to the relation $m = \\frac{m_0}{\\sqrt{1-v^2/c^2}}$, where $m_0$ is rest mass and $v$ is velocity. Since density is defined as $\\rho = \\frac{m}{V}$, and the relativistic mass increases while volume contracts in the direction of motion (length contraction), the overall effect is a significant increase in density. This is a direct consequence of Einstein's Special Theory of Relativity, demonstrating how mass and space are interrelated at relativistic speeds.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "sectionId": "relativistic-mass-variation",
+    "sectionLabel": "Relativistic Mass Variation",
+    "session": "annual",
+    "stem": "What happens to the density of an object as it moves in a direction with very high speed relative to the speed of light? Justify.",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m172y29vhm1bzhmq7x3yz49edx85ppqr",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies relativistic mass formula $m = \\frac{m_0}{\\sqrt{1-v^2/c^2}}$",
+      "Sets up equation with condition $m = 2m_0$",
+      "Solves algebraically to find $v^2/c^2 = 0.75$",
+      "Calculates final velocity as $v = 0.866c$ or $2.60 \\times 10^8 \\text{ m/s}$",
+      "Expresses answer as fraction of speed of light"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The relativistic mass of a particle is given by $m = \\frac{m_0}{\\sqrt{1-v^2/c^2}}$, where $m_0$ is rest mass. For the mass to double, $m = 2m_0$. Solving: $2m_0 = \\frac{m_0}{\\sqrt{1-v^2/c^2}}$ gives $\\sqrt{1-v^2/c^2} = 0.5$, so $v^2/c^2 = 0.75$, yielding $v = 0.866c = 2.60 \\times 10^8 \\text{ m/s}$. This speed is approximately 86.6% of the speed of light.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "16",
+    "sectionId": "relativistic-mass-variation",
+    "sectionLabel": "Relativistic Mass Variation",
+    "session": "annual",
+    "stem": "At what speed would the mass of proton be doubled? The rest mass of proton is $1.673 \\times 10^{-27} \\text{ kg}$.",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m174wh0h33xmhf5k6bjy770trd8e3ztj",
+    "exerciseId": "xd72zza41c065jfrcw5p8q56158e3tb3",
+    "exerciseTitle": "Exercise 13: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "As an object's speed increases toward the speed of light, relativistic length contraction reduces its length (and hence its volume) along the direction of motion, while its relativistic mass increases; the combined effect is that the object's density (mass/volume) increases as its speed increases.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.5",
+    "sectionId": "relativistic-mass-variation",
+    "sectionLabel": "Relativistic Mass Variation",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What happens to the density of an object as its speed increases?",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m17419rxnnkctkzfhnx1b81zws8e28hn",
+    "exerciseId": "xd72zza41c065jfrcw5p8q56158e3tb3",
+    "exerciseTitle": "Exercise 13: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This scenario is not physically realizable since no massive object (including a train and its passenger) can actually reach the speed of light; but conceptually, within the train's own reference frame, light still travels at speed c relative to the passenger (Einstein's second postulate holds in every inertial frame), so light from the person's face would still reach the mirror and reflect back, and the person would still see their reflection normally, just as if the train were at rest.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.4",
+    "sectionId": "relativity-of-simultaneity",
+    "sectionLabel": "Relativity of Simultaneity",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Imagine a train travelling at the speed of light. A person on this train looks into the mirror placed in front of him. Will this person see a reflection of himself in the mirror?",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m17ef1b6mysdcxayeyp0kz5q618e20mx",
+    "exerciseId": "xd72zza41c065jfrcw5p8q56158e3tb3",
+    "exerciseTitle": "Exercise 13: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The relativity of simultaneity is the special-relativistic result that two events which are simultaneous (occur at the same time) as observed in one inertial reference frame are generally NOT simultaneous as observed from a different inertial frame moving relative to the first; simultaneity is therefore not absolute but depends on the observer's frame of reference.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "13.6",
+    "sectionId": "relativity-of-simultaneity",
+    "sectionLabel": "Relativity of Simultaneity",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is meant by the relativity of simultaneity?",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m1787s3m1krzg33wbbyw7g1qv18e2r58",
+    "exerciseId": "xd747t3tcam1hycfynqbg4vfzd8e2maj",
+    "exerciseTitle": "Exercise 13: Comprehensive Questions",
+    "keyPoints": [
+      "(a) Relativity of simultaneity: events simultaneous in one inertial frame are not necessarily simultaneous in another frame moving relative to the first, since the finite speed of light means different observers can disagree on the order/timing of spatially separated events.",
+      "(b) Length contraction: an object's length measured along its direction of motion appears contracted (shorter) to an observer relative to whom it is moving, per $L = L_0\\sqrt{1-v^2/c^2}$, where $L_0$ is the rest length.",
+      "(c) Time dilation: a moving clock appears to run slower (time is dilated/stretched out) as observed from a frame relative to which it is moving, per $T = T_0/\\sqrt{1-v^2/c^2}$, where $T_0$ is the proper time measured in the clock's own rest frame.",
+      "(d) Mass variation: an object's relativistic mass, as measured by an observer relative to whom the object is moving, increases with speed per $m = m_0/\\sqrt{1-v^2/c^2}$, approaching infinity as v approaches c.",
+      "(e) Mass-energy equivalence: mass and energy are interconvertible and related by Einstein's famous relation $E = mc^2$, meaning a small amount of mass corresponds to an enormous amount of energy, a principle central to nuclear reactions and the energetics powering stars."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The special theory of relativity has five important consequences. (a) Relativity of simultaneity means that events simultaneous for one observer may occur at different times for another observer in relative motion, as in the train and lightning example. (b) Length contraction means that an object is measured shorter in the direction of motion by an observer who sees it moving: $L = L_0 \\sqrt{1 - v^2/c^2}$. (c) Time dilation means a moving clock is observed to run more slowly, and the elapsed time is $t = t_0 / \\sqrt{1 - v^2/c^2}$. (d) Mass variation means relativistic mass increases with speed according to $m = m_0 / \\sqrt{1 - v^2/c^2}$, so increasingly more energy is needed as the speed approaches $c$. (e) Mass-energy equivalence states that mass and energy are transmutable and related by $E = mc^2$. Because $c^2$ is very large, a small mass can correspond to a large amount of energy, and the relation explains the energy associated with mass defect in nuclei.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "13.3",
+    "sectionId": "the-consequences-of-special-relativity",
+    "sectionLabel": "The Consequences of Special Relativity",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain the following consequences of the special theory of relativity: a) Relativity of simultaneity b) Length Contraction c) Time Dilation d) Mass Variation e) Mass-Energy Equivalence.",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "consequences-of-special-theory-of-relativity",
+    "topicTitle": "13.3 Consequences of Special Theory of Relativity",
+    "_id": "m176w7tb28arkvgp6xyzndb35s8e37sk",
+    "correctKey": "C",
+    "exerciseId": "xd79fy0zvzhg75qrkdf52fbvxd8e2p5s",
+    "exerciseTitle": "Exercise 13: Multiple Choice Questions",
+    "explanation": "By time dilation, $T = T_0/\\sqrt{1-v^2/c^2}$. Here $T/T_0 = 10/5 = 2$, so $\\sqrt{1-v^2/c^2} = 1/2$, giving $1-v^2/c^2 = 1/4$, $v^2/c^2 = 3/4$, $v = \\frac{\\sqrt{3}}{2}c \\approx 0.866c$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "0.606c"
+      },
+      {
+        "key": "B",
+        "text": "0.779c"
+      },
+      {
+        "key": "C",
+        "text": "0.866c"
+      },
+      {
+        "key": "D",
+        "text": "0.693c"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionId": "time-dilation",
+    "sectionLabel": "Time Dilation",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A pendulum has a time period of 5.0 s relative to the pendulum's frame of reference. What is the speed of an observer relative to the pendulum's frame of reference if the period measured by the observer is 10.0 s? (here, c is the speed of light).",
+    "topicId": "ms7f9cmj3tm3gethxhf3fkvmr585qspe"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "13-relativity",
+    "chapterTitle": "Relativity",
+    "topicSlug": "time-as-a-fourth-dimension",
+    "topicTitle": "13.4 Time as the Fourth Dimension",
+    "_id": "m17a7vgk9hkpe37xsgvre5b44x8e240e",
+    "exerciseId": "xd747t3tcam1hycfynqbg4vfzd8e2maj",
+    "exerciseTitle": "Exercise 13: Comprehensive Questions",
+    "keyPoints": [
+      "Classical (Newtonian) physics treats the three spatial dimensions (length, width, height) and time as entirely separate and independent quantities, with time flowing identically for all observers.",
+      "Special relativity showed that space and time are interlinked into a single four-dimensional structure called spacetime, where an event is located not just by its three spatial coordinates but also by a fourth coordinate, time; motion through space and the passage of time trade off against each other (fast-moving observers experience time dilation).",
+      "Because measurements of both spatial distances and time intervals depend on the observer's relative motion (length contraction and time dilation), space and time can no longer be treated as separate absolute quantities -- they must be unified into spacetime, with time functioning as a fourth dimension alongside the three familiar spatial dimensions."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In ordinary experience, an event is located using three spatial coordinates: length, width, and height. Relativity adds the time at which the event occurs as a fourth coordinate. Thus, to specify where an object is, we must also specify when it is there. A complete event is described by its position in three-dimensional space and its time, and the object's history through time traces a line or curve on a spacetime diagram. Space and time together form spacetime, a four-dimensional model used to describe relativistic events.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "13.4",
+    "sectionId": "why-time-is-called-the-fourth-dimension",
+    "sectionLabel": "Why Time Is Called the Fourth Dimension",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 13,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "State and explain how time is considered the fourth dimension alongside the traditional three dimensions of space.",
+    "topicId": "ms74zsjpetdy94y8m5g1reh56n85pavc"
+  }
+]

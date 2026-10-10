@@ -1,0 +1,222 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-1",
+    "topicTitle": "2.1 Evaluating Limits Graphically and Algebraically",
+    "_creationTime": 1777384366653.218,
+    "_id": "kx74b10f9dwg40z8j6g5njht5985qpk8",
+    "createdAt": 1777384366653,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- **Graphical Interpretation of Limits:**\n    - Observing the behavior of $f(x)$ as $x$ approaches a value $c$ from both the left ($c^-$) and the right ($c^+$).\n\n- **One-Sided Limits and Existence:**\n    - A limit $\\lim_{x \\rightarrow c} f(x)$ exists if and only if $\\lim_{x \\rightarrow c^-} f(x) = \\lim_{x \\rightarrow c^+} f(x)$.\n\n- **Algebraic Limit Techniques:**\n    - **Direct Substitution:** The first step for continuous functions.\n\n    - **Factoring:** Used to eliminate indeterminate forms like $0/0$ (e.g., $x^2-a^2$ or $x^3 \\pm a^3$).\n\n    - **Rationalization:** Multiplying by the conjugate to simplify expressions with radicals.\n\n- **Special Trigonometric Limits:**\n    - Understanding the fundamental theorem $\\lim_{x \\rightarrow 0} \\frac{\\sin x}{x} = 1$.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Description | Formula |\n| :--- | :--- |\n| **Sum of Cubes** | $a^3 + b^3 = (a + b)(a^2 - ab + b^2)$ |\n| **Difference of Cubes** | $a^3 - b^3 = (a - b)(a^2 + ab + b^2)$ |\n\n| **Difference of Squares** | $a^2 - b^2 = (a - b)(a + b)$ |\n| **Trigonometric Identity** | $\\lim_{x \\rightarrow 0} \\frac{\\sin x}{x} = 1$ |\n\n| **Tangent Identity** | $\\lim_{x \\rightarrow 0} \\frac{\\tan x}{x} = 1$ |\n\n| **Limit of Sine (General)** | $\\lim_{x \\rightarrow 0} \\frac{\\sin ax}{ax} = 1$ |\n\n---\n\n# **Summary**\n\nThis exercise covers the foundational methods for evaluating limits. It begins with **graphical analysis**, highlighting that for a limit to exist, the function must approach the same value from both directions—crucial for piecewise and absolute value functions ($|x|/x$).\n\n**Key Learnings:**\n- If direct substitution leads to $0/0$, use **algebraic manipulation** (factoring or rationalizing) to find the \"hidden\" value.\n- Trigonometric limits often require rewriting $\\tan x$ as $\\frac{\\sin x}{\\cos x}$ or adjusting the argument to match the fundamental limit $\\frac{\\sin \\theta}{\\theta}$.\n- A denominator approaching zero while the numerator is non-zero results in a limit that **does not exist** ($\\infty$).",
+    "publishedAt": 1777384366653,
+    "slug": "exercise-2-1",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.1 Exercise 2.1",
+    "topicId": "ms790m7z6r7g2hvbet2d2hq5j985qzjq",
+    "updatedAt": 1787554291163
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-2",
+    "topicTitle": "2.2 Continuity and Types of Discontinuities",
+    "_creationTime": 1777384368410.8562,
+    "_id": "kx76w7evjdssrtsa1yxdm29tnn85qj71",
+    "createdAt": 1777384368410,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Continuity at a point: $\\lim_{x \\to c} f(x) = f(c)$\n\n- Types of discontinuities: removable, jump, infinite, and oscillating\n\n- Continuity of polynomials and rational functions\n\n- Domain restrictions and vertical asymptotes\n\n- Continuity of trigonometric functions and special limits\n\n- Piecewise functions and continuity at boundary points\n\n- Intermediate Value Theorem (IVT) and existence of roots\n\n- Solving for unknown parameters to ensure continuity\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Continuity Condition:**\n$$\\lim_{x \\to c} f(x) = f(c)$$\n\n**Piecewise Continuity at Boundary $c$:**\n$$\\lim_{x \\to c^-} f(x) = \\lim_{x \\to c^+} f(x) = f(c)$$\n\n**Special Trigonometric Limit:**\n$$\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$$\n\n**Intermediate Value Theorem:**\nIf $f$ is continuous on $[a,b]$ and $k$ is between $f(a)$ and $f(b)$, then $\\exists c \\in (a,b)$ such that $f(c) = k$.\n\n---\n\n# **Summary**\n\nThis exercise develops proficiency in analyzing function continuity across algebraic, transcendental, and piecewise functions. Problems 1-14 emphasize identifying discontinuities by examining domain restrictions, singularities (where denominators vanish), and behavior at critical points—particularly distinguishing between removable discontinuities (holes) and infinite discontinuities (asymptotes).\n\nProblems 15-18 require solving for unknown parameters ($m$, $n$) to enforce continuity, demanding careful calculation of one-sided limits and function values at boundary points. Problem 19 applies the Intermediate Value Theorem to prove existence of solutions within intervals, while Problem 20 examines the theoretical construct of a function discontinuous everywhere. Key strategies include algebraic factorization to simplify rational expressions, evaluating limits of indeterminate forms, and systematic verification of the three continuity conditions.",
+    "publishedAt": 1777384368410,
+    "slug": "exercise-2-2",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.2 Exercise 2.2",
+    "topicId": "ms72esb9ay8yqkytejgfmc63k185qacy",
+    "updatedAt": 1787577372752
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-3",
+    "topicTitle": "2.3 Derivatives by First Principles",
+    "_creationTime": 1777384369239.49,
+    "_id": "kx733p5v8nzkxxc2dqjp41dwvx85pa99",
+    "createdAt": 1777384369239,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on finding derivatives **by first principles** (the limit definition). Key topics include:\n\n- Slope of the tangent line to a curve at a point\n\n- Derivative as the instantaneous rate of change\n\n- Power Rule for differentiation\n- Differentiation of trigonometric functions (cosine)\n- Chain Rule and Quotient Rule for composite and rational functions\n\n- Mean Value Theorem for functions on closed intervals\n- Applications of derivatives to physics: position, velocity, and acceleration\n\n- Projectile motion and free-fall problems\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Derivative by First Principle (Definition):**\n$$f'(x) = \\lim_{\\Delta x \\to 0} \\frac{f(x + \\Delta x) - f(x)}{\\Delta x}$$\n\n**Slope of Tangent Line:**\n$$m_{\\text{tangent}} = f'(x)$$\n\n**Power Rule:**\n$$\\frac{d}{dx}\\left[x^n\\right] = nx^{n-1}$$\n\n**Derivative of Cosine:**\n$$\\frac{d}{dx}\\left[\\cos x\\right] = -\\sin x$$\n\n**Chain Rule:**\n$$\\frac{d}{dx}\\left[f(g(x))\\right] = f'(g(x)) \\cdot g'(x)$$\n\n**Quotient Rule:**\n$$\\frac{d}{dx}\\left[\\frac{u(x)}{v(x)}\\right] = \\frac{u'(x)v(x) - u(x)v'(x)}{[v(x)]^2}$$\n\n**Velocity from Position Function:**\n$$v(t) = s'(t) = \\frac{d}{dt}[s(t)]$$\n\n**Mean Value Theorem:**\n$$f'(c) = \\frac{f(b) - f(a)}{b - a}, \\quad c \\in (a, b)$$\n\n---\n\n# **Worked Example: Derivative by First Principle**\n\nFind $f'(x)$ for $f(x) = x^2$ using the first principle.\n\n**Step 1:** Write the difference quotient:\n$$\\frac{f(x+\\Delta x) - f(x)}{\\Delta x} = \\frac{(x+\\Delta x)^2 - x^2}{\\Delta x}$$\n\n**Step 2:** Expand the numerator:\n$$= \\frac{x^2 + 2x\\Delta x + (\\Delta x)^2 - x^2}{\\Delta x} = \\frac{2x\\Delta x + (\\Delta x)^2}{\\Delta x}$$\n\n**Step 3:** Cancel $\\Delta x$:\n$$= 2x + \\Delta x$$\n\n**Step 4:** Take the limit:\n$$f'(x) = \\lim_{\\Delta x \\to 0}(2x + \\Delta x) = 2x$$\n\n---\n\n# **Summary**\n\nThis exercise develops the fundamental concept of the derivative as the slope of the tangent line, progressing from basic linear and polynomial functions to rational, trigonometric, and composite functions. Problems 1–6 establish the geometric interpretation of the derivative using the first principle, while Problems 7–8 introduce the Mean Value Theorem for analyzing average and instantaneous rates of change over intervals.\n\nProblems 9–12 apply these techniques to physical contexts, connecting mathematical derivatives to the concepts of velocity and acceleration in motion problems. Mastery of the first principle, Power Rule, Chain Rule, and basic trigonometric derivatives is essential for success.",
+    "publishedAt": 1777384369239,
+    "slug": "exercise-2-3",
+    "sourceRef": {
+      "blockIndex": 20,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.3 Exercise 2.3",
+    "topicId": "ms76sgnnw3hdzwrbqzh26w1d3h85q7kq",
+    "updatedAt": 1787577370975
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-4",
+    "topicTitle": "2.4 Basic Differentiation Rules",
+    "_creationTime": 1777384370145.661,
+    "_id": "kx75cafdcetrevdtzr1z7qfb6185qdkm",
+    "createdAt": 1777384370145,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Differentiation using the power rule\n\n- Derivative notation ($f'(x)$ and $\\frac{dy}{dx}$)\n- Basic differentiation rules (constant, constant multiple, sum)\n\n- Finding slopes of tangent lines\n\n- Evaluating derivatives at specific points\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Rule | Formula |\n| :--- | :--- |\n| Power Rule | $\\frac{d}{dx}(x^n) = nx^{n-1}$ |\n\n| Constant Rule | $\\frac{d}{dx}(c) = 0$ |\n\n| Constant Multiple Rule | $\\frac{d}{dx}[cf(x)] = cf'(x)$ |\n\n| Sum/Difference Rule | $\\frac{d}{dx}[f(x) \\pm g(x)] = f'(x) \\pm g'(x)$ |\n| Tangent Slope at $x=a$ | $m = f'(a) = \\left.\\frac{dy}{dx}\\right\\|_{x=a}$ |\n\n---\n\n# **Summary**\n\nThis exercise covers fundamental differentiation techniques for computing derivatives of algebraic functions. Key learnings include applying the power rule to determine $f'(x)$ and $\\frac{dy}{dx}$, combining basic differentiation rules for polynomial expressions, and evaluating derivatives at specific points to calculate the slope of tangent lines. Common strategies involve simplifying expressions before applying differentiation rules and carefully handling negative and fractional exponents.",
+    "publishedAt": 1777384370145,
+    "slug": "exercise-2-4",
+    "sourceRef": {
+      "blockIndex": 23,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.4 Exercise 2.4",
+    "topicId": "ms7046a5x8p50jgn5ey94vvjrn85qrtz",
+    "updatedAt": 1787577368740
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-5",
+    "topicTitle": "2.5 Differentiation Rules for Algebraic Functions",
+    "_creationTime": 1777384370993.8333,
+    "_id": "kx72wjd7fmmvmbdnsgsbxtqfa985qqvr",
+    "createdAt": 1777384370993,
+    "mdxBody": "# **Exercise 2.5 — Differentiation Rules for Algebraic Functions**\n\n---\n\n# **Key Concepts**\n\nThis exercise focuses on applying the following differentiation rules to algebraic (polynomial and rational) functions:\n\n- **Power Rule** — differentiating $x^n$ and terms with negative exponents\n- **Product Rule** — differentiating products of two functions\n\n- **Quotient Rule** — differentiating rational functions\n\n- **Chain Rule** — differentiating composite functions\n\n- **Evaluating derivatives at specific points**\n\n- **Simplification strategies** — expanding or splitting fractions before differentiating\n\n---\n\n# **Important Formulas**\n\n## Power Rule\n$$\\frac{d}{dx}(x^n) = nx^{n-1}$$\n\nAlso applies to negative exponents: $\\frac{d}{dx}(x^{-n}) = -nx^{-n-1}$\n\n## Product Rule\n$$\\frac{d}{dx}[u(x)\\,v(x)] = u'(x)\\,v(x) + u(x)\\,v'(x)$$\n\n## Quotient Rule\n$$\\frac{d}{dx}\\left[\\frac{u(x)}{v(x)}\\right] = \\frac{u'(x)\\,v(x) - u(x)\\,v'(x)}{[v(x)]^2}$$\n\n## Chain Rule\n$$\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)$$\n\nFor the special case $y = \\frac{k}{g(x)} = k[g(x)]^{-1}$:\n$$\\frac{dy}{dx} = -k[g(x)]^{-2} \\cdot g'(x) = -\\frac{k\\,g'(x)}{[g(x)]^2}$$\n\n---\n\n# **Key Strategies**\n\n### Strategy 1: Simplify Before Differentiating\nWhen the denominator is a monomial (e.g., $x^2$), split the fraction first:\n$$y = \\frac{x^4 + 2x^3 - 1}{x^2} = x^2 + 2x - x^{-2}$$\nThen apply the Power Rule term-by-term. This is often simpler than the Quotient Rule.\n\n### Strategy 2: Expand Products Before Differentiating\nFor products of polynomials, expanding first and using the Power Rule can be faster than the Product Rule:\n$$y = (x+3)(x-3) = x^2 - 9 \\implies \\frac{dy}{dx} = 2x$$\n\n### Strategy 3: Evaluating at a Point\nTo find $f'(a)$: first find the general derivative $f'(x)$, then substitute $x = a$.\n\n**Example:** If $y = x^3 - 5x + 2$, find $\\frac{dy}{dx}$ at $x = 2$.\n$$\\frac{dy}{dx} = 3x^2 - 5 \\implies \\left.\\frac{dy}{dx}\\right|_{x=2} = 3(4) - 5 = 7$$\n\n---\n\n# **Summary**\n\nThis exercise covers fundamental differentiation techniques for algebraic functions:\n\n- **Questions 1–10**: Apply the Power, Product, and Quotient Rules to polynomials and rational functions.\n- **Questions 11–13**: Use the Chain Rule for composite functions in denominators and squared terms.\n- **Questions 14–17**: Combine differentiation with evaluation at specific points.\n\nKey strategies: simplify expressions before differentiating when possible (e.g., Q10, Q14), and carefully track signs and exponents when applying the Quotient Rule. Watch for opportunities to expand products before differentiating as an alternative to the Product Rule.",
+    "publishedAt": 1777384370993,
+    "slug": "exercise-2-5",
+    "sourceRef": {
+      "blockIndex": 29,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.5 Exercise 2.5 — Differentiation Rules for Algebraic Functions",
+    "topicId": "ms7a028rd5m7qnfnkwp05r43x985q43v",
+    "updatedAt": 1787577366670
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-6",
+    "topicTitle": "2.6 Derivatives of Trigonometric and Inverse Trigonometric Functions",
+    "_creationTime": 1777384371786.8584,
+    "_id": "kx7bsgs3s2a5zx8gqwk3dc6nah85qvp3",
+    "createdAt": 1777384371786,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Derivatives of basic trigonometric functions ($\\sin x$, $\\cos x$, $\\tan x$, $\\cot x$, $\\sec x$)\n- Derivatives of inverse trigonometric functions ($\\sin^{-1}x$, $\\cos^{-1}x$, $\\tan^{-1}x$, $\\cot^{-1}x$, $\\sec^{-1}x$)\n- Product rule for differentiation\n\n- Quotient rule for differentiation\n\n- Chain rule for composite functions\n\n- Algebraic manipulation and simplification of trigonometric expressions\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Basic Trigonometric Derivatives:**\n$$\\frac{d}{dx}(\\sin x) = \\cos x, \\quad \\frac{d}{dx}(\\cos x) = -\\sin x$$\n$$\\frac{d}{dx}(\\tan x) = \\sec^2 x, \\quad \\frac{d}{dx}(\\cot x) = -\\csc^2 x$$\n\n$$\\frac{d}{dx}(\\sec x) = \\sec x \\tan x$$\n\n**Inverse Trigonometric Derivatives:**\n$$\\frac{d}{dx}(\\sin^{-1}x) = \\frac{1}{\\sqrt{1-x^2}}, \\quad \\frac{d}{dx}(\\cos^{-1}x) = -\\frac{1}{\\sqrt{1-x^2}}$$\n\n$$\\frac{d}{dx}(\\tan^{-1}x) = \\frac{1}{1+x^2}, \\quad \\frac{d}{dx}(\\cot^{-1}x) = -\\frac{1}{1+x^2}$$\n$$\\frac{d}{dx}(\\sec^{-1}x) = \\frac{1}{|x|\\sqrt{x^2-1}}$$\n\n**Differentiation Rules:**\n$$\\text{Product Rule: } \\frac{d}{dx}(uv) = u\\frac{dv}{dx} + v\\frac{du}{dx}$$\n\n$$\\text{Quotient Rule: } \\frac{d}{dx}\\left(\\frac{u}{v}\\right) = \\frac{v\\frac{du}{dx} - u\\frac{dv}{dx}}{v^2}$$\n\n$$\\text{Chain Rule: } \\frac{d}{dx}f(g(x)) = f'(g(x)) \\cdot g'(x)$$\n\n---\n\n# **Summary**\n\nThis exercise covers the differentiation of trigonometric and inverse trigonometric functions in various combinations. It progresses from basic polynomial-trig combinations to products and quotients requiring the product and quotient rules, then advances to inverse trigonometric functions requiring the chain rule. Key strategies include recognizing the appropriate differentiation rule based on function structure (sums, products, quotients, compositions), applying the chain rule carefully for composite inverse trig functions, and simplifying results using identities where applicable (notably $\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}$ in Q15).",
+    "publishedAt": 1777384371786,
+    "slug": "exercise-2-6",
+    "sourceRef": {
+      "blockIndex": 32,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.6 Exercise 2.6",
+    "topicId": "ms7cf55v2hzk6tmr52a3kmt22d85q6pj",
+    "updatedAt": 1787577364695
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-7",
+    "topicTitle": "2.7 Implicit and Parametric Differentiation",
+    "_creationTime": 1777384372560.5369,
+    "_id": "kx73pz6aars26bjxbqfhh0ccws85q5mq",
+    "createdAt": 1777384372560,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- **Advanced Differentiation Rules:** Application of the Product Rule, Quotient Rule, and Chain Rule to complex functions.\n\n- **Implicit Differentiation:** Finding the derivative $\\frac{dy}{dx}$ when $y$ is not explicitly isolated.\n\n- **Parametric Differentiation:** Calculating $\\frac{dy}{dx}$ for curves defined by parametric equations $x=f(t)$ and $y=g(t)$.\n- **Differentials:** Understanding the differential $dy = f'(x)dx$ as an approximation of the change in $y$.\n\n- **Linear Approximation:** Using differentials to estimate numerical values of roots, powers, and trigonometric functions.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Rule/Concept | Formula |\n| :--- | :--- |\n| **Product Rule** | $\\frac{d}{dx}[uv] = u\\frac{dv}{dx} + v\\frac{du}{dx}$ |\n\n| **Quotient Rule** | $\\frac{d}{dx}[\\frac{u}{v}] = \\frac{v\\frac{du}{dx} - u\\frac{dv}{dx}}{v^2}$ |\n\n| **Chain Rule** | $\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx}$ |\n\n| **Implicit Derivative** | $\\frac{d}{dx}[f(y)] = f'(y)\\frac{dy}{dx}$ |\n\n| **Parametric Derivative** | $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}$ |\n| **Differential** | $dy = f'(x)dx$ |\n| **Linear Approximation** | $f(x + \\Delta x) \\approx f(x) + f'(x)\\Delta x$ |\n\n---\n\n# **Summary**\n\nThis exercise provides a comprehensive review of differentiation techniques beyond basic power rules. It transitions from **explicit differentiation** (where $y$ is a function of $x$) to **implicit differentiation** (where $x$ and $y$ are intertwined) and **parametric differentiation** (where both depend on a third variable $t$).\n\nA significant portion of the exercise is dedicated to the practical application of **differentials**, teaching how to use the derivative at a known point to approximate values of functions at nearby points.\n\nThe core strategy across all problems is to correctly identify the outer and inner functions to apply the Chain Rule effectively.",
+    "publishedAt": 1777384372560,
+    "slug": "exercise-2-7",
+    "sourceRef": {
+      "blockIndex": 39,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.7 Exercise 2.7",
+    "topicId": "ms78ez5snj0q6qz58b2wdm5a3s85q92c",
+    "updatedAt": 1787554291444
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-8",
+    "topicTitle": "2.8 Higher-Order Derivatives and the Leibniz Rule",
+    "_creationTime": 1777384373342.3252,
+    "_id": "kx70b0m3j4vk0d2wx8rvq19sf185pdn2",
+    "createdAt": 1777384373342,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n- Second derivatives and higher-order derivatives ($\\frac{d^n y}{dx^n}$)\n\n- Power Rule for differentiation: $\\frac{d}{dx}(x^n) = nx^{n-1}$\n\n- Chain Rule for composite functions\n\n- Product Rule for differentiation of products\n\n- Derivatives of trigonometric functions ($\\sin$, $\\cos$, $\\tan$)\n\n- Derivatives of exponential functions ($e^{ax}$)\n\n- Derivatives of logarithmic functions ($\\ln$)\n\n- Leibniz Rule (generalized product rule for second derivatives)\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n**Basic Differentiation Rules:**\n$$\\frac{d}{dx}(x^n) = nx^{n-1}$$\n\n**Higher-Order Derivative Notation:**\n$$f''(x) = \\frac{d^2y}{dx^2}, \\quad f^{(n)}(x) = \\frac{d^n y}{dx^n}$$\n\n**Chain Rule:**\n$$\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)$$\n\n**Product Rule:**\n$$\\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$$\n\n**Leibniz Rule (Second Derivative of Product):**\n$$\\frac{d^{2}}{dx^{2}}(fg) = f''g + 2f'g' + fg''$$\n\n**Trigonometric Derivatives:**\n$$\\frac{d}{dx}(\\sin x) = \\cos x, \\quad \\frac{d}{dx}(\\cos x) = -\\sin x, \\quad \\frac{d}{dx}(\\tan x) = \\sec^2 x$$\n\n**Exponential and Logarithmic Derivatives:**\n$$\\frac{d}{dx}(e^{ax}) = ae^{ax}, \\quad \\frac{d}{dx}(\\ln x) = \\frac{1}{x}$$\n\n---\n\n# **Summary**\n\nThis exercise covers the computation of second and higher-order derivatives for a variety of function types including polynomials, rational functions, trigonometric, exponential, and logarithmic functions. The key strategy involves sequential application of differentiation rules—particularly the chain rule and product rule—to find successive derivatives.\n\nQuestions 15–18 extend to third, fourth, and fifth derivatives, requiring careful pattern recognition in repeated differentiation. Question 20 establishes the Leibniz rule, a generalization of the product rule for second derivatives that resembles the binomial expansion pattern.",
+    "publishedAt": 1777384373342,
+    "slug": "exercise-2-8",
+    "sourceRef": {
+      "blockIndex": 46,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.8 Exercise 2.8",
+    "topicId": "ms7a3dwd4cnp805q6bz3yz6nps85prxr",
+    "updatedAt": 1787554291779
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-9",
+    "topicTitle": "2.9 Critical Points, Concavity and Inflection",
+    "_creationTime": 1777384374115.4094,
+    "_id": "kx76ba42b5sm0kw820wat83jch85qxec",
+    "createdAt": 1777384374115,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n* **Critical Values:** Identifying points where the first derivative is zero or undefined.\n\n* **Absolute Extrema:** Finding the highest and lowest values of a function on a closed interval.\n\n* **Concavity:** Using the second derivative to determine if a graph is concave upward or downward.\n\n* **Points of Inflection:** Identifying points where the concavity of a function changes.\n\n* **Second Derivative Test:** A method for classifying relative extrema using the sign of the second derivative at critical points.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Concept | Condition |\n| :--- | :--- |\n| **Critical Value** | $f'(c) = 0$ or $f'(c)$ is undefined |\n| **Concave Upward** | $f''(x) > 0$ |\n| **Concave Downward** | $f''(x) < 0$ |\n| **Inflection Point** | $f''(x) = 0$ or undefined (and concavity changes) |\n| **Relative Minimum** | $f'(c) = 0$ and $f''(c) > 0$ |\n| **Relative Maximum** | $f'(c) = 0$ and $f''(c) < 0$ |\n\n---\n\n# **Summary**\n\nThis exercise covers the fundamental applications of the first and second derivatives in curve sketching and optimization. Key learnings include the systematic identification of critical points and the use of the second derivative to determine the shape of a graph (concavity) and the nature of its extrema. Strategies involve evaluating functions at endpoints for absolute extrema and applying the Second Derivative Test as an efficient alternative to the First Derivative Test for classifying relative maxima and minima.",
+    "publishedAt": 1777384374115,
+    "slug": "exercise-2-9",
+    "sourceRef": {
+      "blockIndex": 49,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.9 Exercise 2.9",
+    "topicId": "ms7c3assxkm1kb9atppxzz1xg985p91p",
+    "updatedAt": 1787554292069
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "02-limit-continuity-and-derivative",
+    "chapterTitle": "Limit, Continuity And Derivative",
+    "topicSlug": "exercise-2-10",
+    "topicTitle": "2.10 Applications of Differentiation",
+    "_creationTime": 1777384367486.0132,
+    "_id": "kx7azjxqkf6wawx060qy4jtydh85pqw6",
+    "createdAt": 1777384367486,
+    "mdxBody": "# **Key Concepts**\n\nThis exercise focuses on the following concepts:\n\n* **Continuity:** Determining parameters to ensure a function is continuous at a point.\n\n* **Related Rates:** Calculating the rate of change of one quantity based on the rates of change of related variables.\n\n* **Differentials:** Using $dy \\approx f'(x)dx$ to estimate changes and propagate errors in measurements.\n\n* **Optimization:** Finding maximum or minimum values of functions (area, volume, product) under given constraints.\n\n* **Applications in Physics:** Kinematics (velocity/acceleration) and Einstein's theory of relativity.\n\n* **Applications in Economics:** Revenue, cost functions, and continuous compounding of inflation.\n\n---\n\n# **Important Formulas**\n\nBelow are the key formulas used in this exercise:\n\n| Application | Formula |\n| :--- | :--- |\n| **Differentials** | $dy = f'(x) dx$ |\n| **Sphere Geometry** | $V = \\frac{4}{3}\\pi r^3$, $S = 4\\pi r^2$ |\n\n| **Pythagorean Theorem** | $x^2 + y^2 = z^2 \\implies 2x\\frac{dx}{dt} + 2y\\frac{dy}{dt} = 2z\\frac{dz}{dt}$ |\n\n| **Equilateral Triangle Area** | $A = \\frac{\\sqrt{3}}{4}s^2$ |\n\n| **Cube Diagonal** | $D = \\sqrt{3}s$ |\n\n| **Continuous Compounding** | $A = Pe^{rt}$ |\n| **Optimization** | Set $f'(x) = 0$ and check boundaries or second derivative |\n\n---\n\n# **Summary**\n\nThis exercise provides a comprehensive review of the practical applications of derivatives. Key learnings include the use of **Related Rates** to solve geometric problems involving moving objects, the application of **Optimization** to find efficient dimensions in construction and mathematics, and the use of **Differentials** for error analysis.\n\nStrategies involve identifying the primary equation relating variables, differentiating with respect to time or a specific variable, and substituting known values to find the desired rate or extremum.",
+    "publishedAt": 1777384367486,
+    "slug": "exercise-2-10",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-12"
+    },
+    "status": "published",
+    "title": "2.10 Exercise 2.10",
+    "topicId": "ms7dfdrn50kj7eh5wn9gx4x48185pm02",
+    "updatedAt": 1787572320840
+  }
+]

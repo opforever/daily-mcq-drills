@@ -1,0 +1,455 @@
+<!-- note kx78csy1h97jgyvjqbr7p0q3zh85pejr | topic ms7cm991mnmd7w3g31w0zv29gh85phxy | status published -->
+# 1. Introduction to pH
+
+## 1. Introduction to pH
+
+The concept of pH was first introduced in **1909** by the Danish biochemist *S.P.L. Sorenson*. He published a paper in *Biochem Z* discussing the effect of $H^+$ ions on enzyme activity.
+
+**Etymology of pH:**
+
+- The letter 'p' is derived from the German word **"potenz"**, meaning *power* or *exponent of*, specifically referring to base 10.
+- Sorenson originally defined pH as $-\log [H^+]$. A proposed, though not universally accepted, Latin meaning for pH is "pondus hydrogenii".
+
+**Evolution of the Definition:**
+
+- Initially, pH was defined in terms of the *concentration* of $H^+$ ions.
+- In **1924**, Sorenson refined his definition, recognizing that pH is a function of the **"activity"** ($a\{H^+\}$) of the $H^+$ ion, not just its concentration. Activity represents the *effective concentration* of an ion.
+
+**Activity vs. Concentration:**
+
+- **Concentration:** Abbreviated using square brackets, e.g., $[\mathrm{H}_{3}\mathrm{O}^{+}]$ for the concentration of hydronium ion.
+- **Activity:** Abbreviated using 'a' with curly brackets, e.g., $a\{H^+\}$ for the activity of $H^+$ ions. The activity of an ion depends on various factors, including its concentration.
+
+## 2. The pH Scale and Formula
+
+The pH scale provides a convenient way to express the concentration of hydrogen ions (or hydronium ions, $\mathrm{H}_{3}\mathrm{O}^{+}$) in aqueous solutions. It is defined as the logarithm to base 10 of the reciprocal of the numerical value of the hydrogen ion concentration or, more precisely, its activity.
+
+**Mathematical Definition of pH:**
+$ \mathrm{pH} = -\log a\{H^+\} $
+
+For practical purposes in many introductory contexts, especially for dilute solutions, activity is often approximated by concentration:
+$ \mathrm{pH} = -\log [H^+] $
+
+Or, equivalently, using the hydronium ion concentration:
+$ \mathrm{pH} = -\log [\mathrm{H}_{3}\mathrm{O}^{+}] $
+
+This can also be expressed as:
+$ \mathrm{pH} = \log \frac{1}{[\mathrm{H}_{3}\mathrm{O}^{+}]} $
+
+## 3. The pOH Scale
+
+Similar to pH, the concentration of hydroxide ions ($\mathrm{OH}^{-}$) in a solution can be expressed using the pOH scale.
+
+**Mathematical Definition of pOH:**
+$ \mathrm{pOH} = -\log [\mathrm{OH}^{-}] $
+
+## 4. Relationship Between pH and pOH
+
+In any aqueous solution, there is an equilibrium between hydrogen ions (or hydronium ions) and hydroxide ions due to the autoionization of water. This equilibrium is governed by the ion-product constant for water, $K_w$.
+
+The relationship between pH and pOH is given by:
+$ \mathrm{pK}_{w} = \mathrm{pH} + \mathrm{pOH} $
+
+Where $\mathrm{pK}_{w} = -\log K_w$.
+
+**At $25^{\circ}\mathrm{C}$:** The value of $K_w$ is approximately $1.0 \times 10^{-14}$. Therefore, $\mathrm{pK}_{w} = -\log (1.0 \times 10^{-14}) = 14$.
+$ \mathrm{pH} + \mathrm{pOH} = 14 $
+
+This equation is crucial for converting between pH and pOH values at standard temperature.
+
+## Worked Examples
+
+*No specific numerical examples were provided in the source text. However, a typical example would involve calculating pH from a given $H^+$ concentration or calculating pOH from $OH^-$ concentration and then finding the pH.*
+
+## Possible Questions/Answers
+
+**Q:** Who introduced the pH scale, and what does the 'p' in pH signify?
+
+**A:** The pH scale was introduced by *S.P.L. Sorenson* in 1909. The 'p' signifies "potenz" (German for power or exponent of 10).
+
+**Q:** What is the primary difference between the activity of an ion and its concentration in the context of pH?
+
+**A:** **Concentration** refers to the number of moles of solute per unit volume. **Activity** is the *effective concentration* of an ion, which accounts for non-ideal behavior in solutions (due to interionic attractions) and is the more accurate measure for defining pH. Activity is denoted by $a\{H^+\}$, while concentration by $[H^+]$.
+
+**Q:** If the pOH of a solution at $25^{\circ}\mathrm{C}$ is 3.5, what is its pH?
+
+**A:** At $25^{\circ}\mathrm{C}$, $\mathrm{pH} + \mathrm{pOH} = 14$.
+Therefore, $\mathrm{pH} = 14 - \mathrm{pOH} = 14 - 3.5 = 10.5$.
+
+**Q:** Write the mathematical formula for pH in terms of hydronium ion concentration.
+
+**A:**
+$ \mathrm{pH} = -\log [\mathrm{H}_{3}\mathrm{O}^{+}] $
+
+
+---
+
+<!-- note kx7bv3svynbcpcdgrqg5b2vs8n85ppdy | topic ms72kpb9tp4kd4eywjdb6m3mhh85q3kd | status published -->
+# 4.2 The pH Scale
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923182904.webp" alt="The pH scale" caption="Figure 4.2: The pH scale showing the range from 0 to 14 with examples of acidic, neutral, and alkaline substances." />
+
+The pH scale is a fundamental concept in chemistry used to express the acidity or alkalinity of an aqueous solution. It provides a numerical measure that indicates the concentration of hydrogen ions ($\mathrm{H}^+$) in a solution.
+
+## Understanding the pH Scale
+
+The pH scale typically ranges from 0 to 14. Substances with pH values less than 7 are considered **acidic**: the lower the pH value (closer to 0), the stronger the acid and the more acidic the solution, and extremely acidic substances have pH values below 1. Substances with pH values greater than 7 are considered **alkaline** (or basic): the higher the pH value (closer to 14), the stronger the base and the more alkaline the solution. A pH value of exactly 7 indicates a **neutral** solution, such as pure water at $25^\circ\mathrm{C}$.
+
+## pH and Hydrogen Ion Concentration
+
+The pH value is an inverse logarithmic indication of the concentration of hydrogen ions (or hydronium ions, $\mathrm{H}_3\mathrm{O}^+$) in a solution.
+
+*   **Relationship:**
+    *   At pH 0, the hydronium ion concentration is $1\,M$ ($10^0\,M$).
+    *   At pH 14, the hydroxide ion concentration ($\mathrm{OH}^-$) is $1\,M$, which implies a very low $\mathrm{H}^+$ concentration ($10^{-14}\,M$) in water.
+*   **Formula:** The pH is calculated using the formula:
+    $ \mathrm{pH} = -\log[\mathrm{H}^+] $
+    where $[\mathrm{H}^+]$ is the molar concentration of hydrogen ions in moles per liter ($M$).
+*   **Inverse Relationship:**
+    *   A change of one pH unit represents a tenfold change in the $[\mathrm{H}^+]$ concentration. For example, a solution with pH 3 has ten times the $[\mathrm{H}^+]$ concentration of a solution with pH 4.
+
+## Worked Examples
+
+### Example 4.1: Finding pH from $\mathrm{H}^+$ concentration
+
+Find the pH of a solution of $0.002\,M$ of $\mathrm{HCl}$.
+
+1.  **Given values:**
+    *   Concentration of $\mathrm{HCl} = 0.002\,M$
+    *   Since $\mathrm{HCl}$ is a strong acid, it dissociates completely, so $[\mathrm{H}^+] = [\mathrm{HCl}]$.
+    *   Therefore, $[\mathrm{H}^+] = 2.0 \times 10^{-3}\,M$.
+2.  **Apply the formula:**
+    $ \mathrm{pH} = -\log[\mathrm{H}^+] $
+3.  **Show calculation:**
+    $ \mathrm{pH} = -\log[2.0 \times 10^{-3}] = 2.70 $
+
+### Example 4.2: Finding $\mathrm{H}^+$ concentration from pH
+
+If moist soil has a pH of 7.84, what is the $\mathrm{H}^+$ concentration of the soil solution?
+
+1.  **Given values:**
+    *   $\mathrm{pH} = 7.84$
+2.  **Apply the formula (rearranged):**
+    From $\mathrm{pH} = -\log[\mathrm{H}^+]$, we can derive $[\mathrm{H}^+] = 10^{-\mathrm{pH}}$.
+3.  **Show calculation:**
+    $ [\mathrm{H}^+] = 10^{-7.84} $
+    $ [\mathrm{H}^+] = 1.45 \times 10^{-8}\,M $
+    *   **Hint:** To calculate this, place -7.84 in your calculator and take the antilog (often inverse $\log$ or $10^x$).
+
+## Possible Questions/Answers
+
+Here are some practice questions based on the concepts discussed:
+
+*   **Q1:** What is the pH of a solution of $2\,g$ pure $\mathrm{H}_3\mathrm{PO}_4$ per $\mathrm{dm}^3$ of solution?
+    **A1:**
+    1.  **Molar mass of $\mathrm{H}_3\mathrm{PO}_4$**:
+        $3(1.008) + 30.97 + 4(16.00) = 97.994\,g\,mol^{-1}$
+    2.  **Molarity of $\mathrm{H}_3\mathrm{PO}_4$ solution**:
+        Molarity = $\frac{\text{mass}}{\text{molar mass} \times \text{volume (L)}} = \frac{2\,g}{97.994\,g\,mol^{-1} \times 1\,dm^3} = 0.02041\,M$
+    3.  **Calculate $\mathrm{pH}$**:
+        *   *Note:* Phosphoric acid ($\mathrm{H}_3\mathrm{PO}_4$) is a **weak acid**. For a precise pH calculation, its acid dissociation constants ($K_a$ values) would be needed. However, in many introductory contexts without explicit $K_a$ values, a simplified approach might be expected. If we assume it behaves as a strong *monoprotic* acid for estimation purposes (i.e., only the first proton dissociates completely), then $[\mathrm{H}^+] \approx [\mathrm{H}_3\mathrm{PO}_4]$.
+        *   $[\mathrm{H}^+] \approx 0.02041\,M$
+        *   $\mathrm{pH} = -\log[\mathrm{H}^+] = -\log(0.02041) = 1.69$
+        *(This is an approximation. A more rigorous calculation for a weak polyprotic acid is more complex.)*
+
+*   **Q2:** Calculate the concentration of hydrogen ion ($\mathrm{H}^+$) in a solution of sulphuric acid having pH of 1.5.
+    **A2:**
+    1.  **Given $\mathrm{pH}$**: $\mathrm{pH} = 1.5$
+    2.  **Apply formula**: $[\mathrm{H}^+] = 10^{-\mathrm{pH}}$
+    3.  **Calculate $[\mathrm{H}^+]$**:
+        $[\mathrm{H}^+] = 10^{-1.5} = 0.0316\,M$
+
+
+---
+
+<!-- note kx7b9bynaw7x740tkb6g40w5xs85q4mw | topic ms70fx0jf90yefk5wxpz04seqd85pcec | status published -->
+# Ionic Product of Water and Calculation of pH and pOH
+
+This section explores the fundamental concept of the ionic product of water ($K_w$) and its vital role in calculating pH and pOH values, which are measures of acidity and basicity in aqueous solutions.
+
+## The Ionic Product of Water ($K_w$)
+
+Pure water undergoes a slight self-ionization, producing hydronium ions ($\mathrm{H_3O^+}$) and hydroxide ions ($\mathrm{OH^-}$). The equilibrium for this process is:
+
+$
+\mathrm{H_2O (l) + H_2O (l) \rightleftharpoons H_3O^+ (aq) + OH^- (aq)}
+$
+
+The ionic product of water, denoted as $K_w$, is the product of the molar concentrations of $\mathrm{H_3O^+}$ (often simplified as $\mathrm{H^+}$) and $\mathrm{OH^-}$ ions in an aqueous solution.
+
+$
+K_w = [\mathrm{H_3O^+}][\mathrm{OH^-}]
+$
+
+- The unit of $K_w$ is $\mathrm{mol^2\,dm^{-6}}$.
+- At room temperature ($298\ \mathrm{K}$ or $25^\circ\mathrm{C}$), in pure water, the concentrations of $\mathrm{H_3O^+}$ and $\mathrm{OH^-}$ ions are equal: $[\mathrm{H_3O^+}] = [\mathrm{OH^-}] = 1.0 \times 10^{-7}\ \mathrm{M}$.
+- Therefore, the value of $K_w$ at $298\ \mathrm{K}$ is:
+  $ K_w = (1.0 \times 10^{-7})(1.0 \times 10^{-7}) = 1.0 \times 10^{-14} $
+
+## Introduction to $\mathbf{pK_w}$
+
+Similar to how pH is defined from $[\mathrm{H_3O^+}]$, $\mathrm{pK_w}$ is defined from $K_w$:
+
+$
+\mathrm{pK_w} = -\log K_w
+$
+
+Using the value of $K_w$ at $298\ \mathrm{K}$:
+
+$
+\mathrm{pK_w} = -\log (1.0 \times 10^{-14}) = 14
+$
+
+## Relationships involving $\mathbf{pK_w}$, $\mathbf{pH}$, $\mathbf{pOH}$, $\mathbf{pK_a}$, and $\mathbf{pK_b}$
+
+The ionic product of water provides crucial relationships between acid-base properties.
+
+### Relationship between $\mathbf{pK_a}$ and $\mathbf{pK_b}$
+
+The dissociation constant of an acid ($\mathrm{pK_a}$) and its conjugate base ($\mathrm{pK_b}$) are related through $\mathrm{pK_w}$.
+
+$
+\mathrm{pK_a} + \mathrm{pK_b} = \mathrm{pK_w} = 14 \quad (\text{at } 298\ \mathrm{K})
+$
+
+This relationship allows us to determine the strength of a conjugate base if the strength of its corresponding acid is known, and vice versa.
+
+### Relationship between $\mathbf{pH}$ and $\mathbf{pOH}$
+
+The pH of a solution (a measure of its acidity) and pOH (a measure of its basicity) are also linked by $\mathrm{pK_w}$.
+
+$
+\mathrm{pH} + \mathrm{pOH} = \mathrm{pK_w} = 14 \quad (\text{at } 298\ \mathrm{K})
+$
+
+This equation is fundamental for calculating one value if the other is known, which is often necessary when dealing with strong bases (where $[\mathrm{OH^-}]$ is directly available) or strong acids (where $[\mathrm{H_3O^+}]$ is directly available).
+
+## Worked Examples
+
+Here are step-by-step solutions to common problems involving the ionic product of water and pH calculations.
+
+### Example 4.3: Calculating $[\mathrm{H_3O^+}]$ from $[\mathrm{OH^-}]$
+
+If the concentration of $\mathrm{NaOH}$ in a solution is $2.5 \times 10^{-4}\ \mathrm{M}$, what is the concentration of $\mathrm{H_3O^+}$ ion at $25^\circ\mathrm{C}$?
+
+1. **Given values:**
+   - $[\mathrm{OH^-}] = 2.5 \times 10^{-4}\ \mathrm{M}$
+   - Temperature = $25^\circ\mathrm{C}$ (which means $K_w = 1.0 \times 10^{-14}$)
+
+2. **Apply the formula:** The ionic product of water relates $[\mathrm{H_3O^+}]$ and $[\mathrm{OH^-}]$.
+   $ K_w = [\mathrm{H_3O^+}][\mathrm{OH^-}] $
+
+3. **Show calculation:**
+   Substitute the known values into the equation and solve for $[\mathrm{H_3O^+}]$.
+   $ 1.0 \times 10^{-14} = [\mathrm{H_3O^+}][2.5 \times 10^{-4}] $
+   $ [\mathrm{H_3O^+}] = \frac{1.0 \times 10^{-14}}{2.5 \times 10^{-4}} $
+   $ [\mathrm{H_3O^+}] = 4.0 \times 10^{-11}\ \mathrm{M} $
+
+### Example 4.4: Calculating $\mathbf{pH}$ from $[\mathrm{OH^-}]$ (Method 1)
+
+Calculate the pH value of a $0.001\ \mathrm{mol\,dm^{-3}}$ solution of $\mathrm{NaOH}$ at $25^\circ\mathrm{C}$.
+
+1. **Given values:**
+   - $[\mathrm{OH^-}] = 0.001\ \mathrm{mol\,dm^{-3}} = 1.0 \times 10^{-3}\ \mathrm{M}$
+   - Temperature = $25^\circ\mathrm{C}$ (so $K_w = 1.0 \times 10^{-14}$)
+
+2. **Apply the formulas:**
+   - First, use $K_w = [\mathrm{H_3O^+}][\mathrm{OH^-}]$ to find $[\mathrm{H_3O^+}]$.
+   - Then, use $\mathrm{pH} = -\log[\mathrm{H_3O^+}]$ to find the pH.
+
+3. **Show calculation:**
+   - Calculate $[\mathrm{H_3O^+}]$:
+     $ 1.0 \times 10^{-14} = [\mathrm{H_3O^+}][1.0 \times 10^{-3}] $
+     $ [\mathrm{H_3O^+}] = \frac{1.0 \times 10^{-14}}{1.0 \times 10^{-3}} $
+     $ [\mathrm{H_3O^+}] = 1.0 \times 10^{-11}\ \mathrm{mol\,dm^{-3}} $
+   - Calculate pH:
+     $ \mathrm{pH} = -\log[\mathrm{H_3O^+}] $
+     $ \mathrm{pH} = -\log[1.0 \times 10^{-11}] $
+     $ \mathrm{pH} = 11 $
+
+### Example 4.5: Calculating $\mathbf{pH}$ from $[\mathrm{OH^-}]$ (Method 2)
+
+Calculate the pH of a $5.0 \times 10^{-5}\ \mathrm{M}$ solution of sodium hydroxide.
+
+1. **Given values:**
+   - $[\mathrm{OH^-}] = 5.0 \times 10^{-5}\ \mathrm{M}$
+
+2. **Apply the formulas:**
+   - First, use $\mathrm{pOH} = -\log[\mathrm{OH^-}]$ to find pOH.
+   - Then, use $\mathrm{pH} + \mathrm{pOH} = 14$ to find the pH.
+
+3. **Show calculation:**
+   - Calculate pOH:
+     $ \mathrm{pOH} = -\log[\mathrm{OH^-}] $
+     $ \mathrm{pOH} = -\log[5.0 \times 10^{-5}] $
+     $ \mathrm{pOH} = 4.30 $
+   - Calculate pH:
+     $ \mathrm{pH} = 14 - \mathrm{pOH} $
+     $ \mathrm{pH} = 14 - 4.30 $
+     $ \mathrm{pH} = 9.70 $
+
+## Possible Questions/Answers
+
+These questions test your understanding of pH, pOH, and the ionic product of water.
+
+**Q1:** The concentration of hydroxide ion in a given solution of slaked lime ($\mathrm{Ca(OH)_2}$) is $0.001\ \mathrm{M}$. Calculate the concentration of hydrogen ion in it.
+
+**A:** For $\mathrm{Ca(OH)_2}$, since it is a strong base, if the solution's hydroxide ion concentration is given as $0.001\ \mathrm{M}$, then:
+
+- $[\mathrm{OH^-}] = 0.001\ \mathrm{M} = 1.0 \times 10^{-3}\ \mathrm{M}$
+- Using $K_w = [\mathrm{H_3O^+}][\mathrm{OH^-}]$:
+  $ [\mathrm{H_3O^+}] = \frac{K_w}{[\mathrm{OH^-}]} = \frac{1.0 \times 10^{-14}}{1.0 \times 10^{-3}} = 1.0 \times 10^{-11}\ \mathrm{M} $
+
+**Q2:** An aqueous solution contains $2 \times 10^{-3}\ \mathrm{M}$ of hydrogen ions ($\mathrm{H^+}$). Calculate pOH of this solution.
+
+**A:**
+
+- Given $[\mathrm{H^+}] = 2 \times 10^{-3}\ \mathrm{M}$.
+- First, calculate pH:
+  $ \mathrm{pH} = -\log[\mathrm{H^+}] = -\log(2 \times 10^{-3}) = 2.70 $
+- Then, use the relationship $\mathrm{pH} + \mathrm{pOH} = 14$:
+  $ \mathrm{pOH} = 14 - \mathrm{pH} = 14 - 2.70 = 11.30 $
+
+(Alternative method: Calculate $[\mathrm{OH^-}]$ first)
+$ [\mathrm{OH^-}] = \frac{K_w}{[\mathrm{H^+}]} = \frac{1.0 \times 10^{-14}}{2 \times 10^{-3}} = 5.0 \times 10^{-12}\ \mathrm{M} $
+$ \mathrm{pOH} = -\log[\mathrm{OH^-}] = -\log(5.0 \times 10^{-12}) = 11.30 $
+
+
+---
+
+<!-- note kx74g5tv5xavpygzwfk2dm12rs85qmcx | topic ms731e1kcbxsgq00j7vyfmjy6985qq10 | status published -->
+# 4.4 pH Titration Curves
+
+This section explores pH titration curves, which are graphical representations of pH change during an acid-base titration. These curves are essential for understanding acid and base properties and determining unknown solution concentrations.
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923183502.webp" alt="pH titration curve setup" caption="Figure 4.1: pH titration curve setup and general shape." />
+
+## Introduction to Titration
+
+Titration is a quantitative analytical technique used in neutralization reactions to determine the unknown concentration of an analyte using a titrant of known concentration.
+
+- **Titrant:** The solution of known concentration added from a burette.
+- **Analyte:** The solution of unknown concentration in the conical flask.
+- **Indicator:** A substance added to the analyte that changes color at the endpoint of the titration.
+- **Endpoint:** The point in a titration where the indicator changes color, signaling the completion of the reaction as observed visually.
+- **Equivalence Point:** The theoretical point where the number of moles of titrant added exactly equals the number of moles of analyte, resulting in complete neutralization. This is the midpoint of the vertical region of a titration curve.
+
+Mathematically, at the equivalence point:
+
+$\text{moles of alkali} = \text{moles of acid}$
+
+The pH at the equivalence point varies depending on the strengths of the acid and alkali involved.
+
+## Types of pH Titration Curves
+
+The shape of a pH titration curve depends on the strengths of the acid and base being titrated. The four main types are analyzed below.
+
+### a. Strong Acid and Strong Alkali pH Titration Curve
+
+This type involves a strong acid (e.g., HCl) and a strong alkali (e.g., NaOH).
+
+- **Scenario: Strong Acid (analyte) in flask, Strong Alkali (titrant) in burette**
+  - **Initial pH:** Starts very low (pH $\approx$ 1-2) due to the presence of a strong acid ($H^+$ ions).
+  - **pH Change:** As the strong alkali (NaOH) is added, the pH increases gradually as $H^+$ ions react with $OH^-$ ions to form water. The pH remains relatively low until close to the equivalence point.
+  - **Vertical Region:** A very steep rise in pH occurs around the equivalence point.
+  - **Equivalence Point:** The pH is **7** (neutral) because all $H^+$ ions from the strong acid have been neutralized by $OH^-$ ions from the strong base, forming a neutral salt (e.g., NaCl) and water.
+
+  $ \mathrm{HCl(aq) + NaOH(aq) \rightarrow NaCl(aq) + H_2O(l)} $
+
+  - **Final pH:** Increases sharply to a high pH (pH $\approx$ 13-14) as excess strong alkali is added.
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923183229.webp" alt="Strong acid strong base curve" caption="Figure 4.2: pH titration curve of 1.0 mol dm⁻³ HCl (25 cm³) with NaOH." />
+
+- **Scenario: Strong Alkali (analyte) in flask, Strong Acid (titrant) in burette**
+  - The curve has a similar shape but is inverted. It starts at a high pH ($\approx$ 13-14) and decreases.
+  - The equivalence point is still at **pH = 7**.
+  - The final pH is very low ($\approx$ 1-2).
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923183308.webp" alt="Strong base strong acid curve" caption="Figure 4.3: pH titration curve of 1.0 mol dm⁻³ NaOH (25 cm³) with HCl." />
+
+### b. Strong Acid and Weak Alkali pH Titration Curve
+
+This titration involves a strong acid (e.g., HCl) and a weak alkali (e.g., $NH_3$).
+
+- **Scenario: Strong Acid (analyte) in flask, Weak Alkali (titrant) in burette**
+  - **Initial pH:** Very low (pH $\approx$ 1-2) due to the strong acid.
+  - **pH Change:** The pH increases gradually as the weak alkali is added, reacting with $H^+$ ions. There is a buffering region where the solution contains both the weak base ($NH_3$) and its conjugate acid ($NH_4^+$).
+  - **Vertical Region:** A less steep rise in pH compared to strong acid-strong alkali titrations.
+  - **Equivalence Point:** The pH is **acidic** (pH $\approx$ 5.5). This is because the salt formed ($NH_4Cl$) contains the ammonium ion ($NH_4^+$), which is the conjugate acid of the weak base. $NH_4^+$ hydrolyzes water to produce $H_3O^+$ ions.
+
+  $ \mathrm{HCl(aq) + NH_3(aq) \rightarrow NH_4Cl(aq)} $
+  $ \mathrm{NH_4^+(aq) + H_2O(l) \rightleftharpoons NH_3(aq) + H_3O^+(aq)} $
+
+  - **Final pH:** Increases, but typically remains below that of a strong alkali (e.g., pH 9-11) as excess weak alkali is added.
+
+### c. Weak Acid and Strong Alkali pH Titration Curve
+
+This titration involves a weak acid (e.g., $CH_3COOH$) and a strong alkali (e.g., NaOH).
+
+- **Scenario: Weak Acid (analyte) in flask, Strong Alkali (titrant) in burette**
+  - **Initial pH:** Moderately low (pH $\approx$ 2-3) due to the presence of a weak acid.
+  - **pH Change:** Initially, there is a relatively flat region known as the **buffer region**. Here, the solution contains a significant amount of the weak acid and its conjugate base ($CH_3COO^-$), resisting changes in pH.
+  - **Vertical Region:** A steep rise in pH occurs around the equivalence point.
+  - **Equivalence Point:** The pH is **basic** (pH $\approx$ 9). This is because the salt formed ($CH_3COONa$) contains the ethanoate ion ($CH_3COO^-$), which is the conjugate base of the weak acid. $CH_3COO^-$ hydrolyzes water to produce $OH^-$ ions.
+
+  $ \mathrm{CH_3COOH(aq) + NaOH(aq) \rightarrow CH_3COONa(aq) + H_2O(l)} $
+  $ \mathrm{CH_3COO^-(aq) + H_2O(l) \rightleftharpoons CH_3COOH(aq) + OH^-(aq)} $
+
+<CaptionedImage src="/content/assets/class-12/chemistry/Pasted image 20250923183402.webp" alt="Weak acid strong base curve" caption="Figure 4.5: pH titration curve of a weak acid with a strong base." />
+
+### d. Weak Acid and Weak Alkali pH Titration Curve
+
+This titration involves a weak acid (e.g., $CH_3COOH$) and a weak alkali (e.g., $NH_3$).
+
+- **Scenario: Weak Acid (analyte) in flask, Weak Alkali (titrant) in burette**
+  - **Initial pH:** Moderately low (pH $\approx$ 2-3) due to the weak acid.
+  - **pH Change:** The pH changes very gradually throughout the titration. There is no sharp vertical region.
+  - **Equivalence Point:** There is a "point of inflexion" rather than a steep rise. The pH at the equivalence point is difficult to determine precisely and is usually close to 7, but depends on the relative strengths ($K_a$ and $K_b$) of the weak acid and weak base.
+  - **Challenge:** Due to the lack of a sharp pH change, indicators are generally not effective for this type of titration.
+
+## Worked Examples
+
+### Concept Assessment Exercise 4.3 (Problem 1)
+
+**Problem:** In a titration, it is found that 25 cm³ of 0.1 M solution of NaOH is neutralised with 19 cm³ of HCl of unknown concentration. Calculate the concentration of the given HCl solution.
+
+**Reaction:**
+$ \mathrm{HCl(aq) + NaOH(aq) \rightarrow NaCl(aq) + H_2O(l)} $
+
+**Solution:**
+
+1. **Write the given values:**
+   - Volume of NaOH ($V_{NaOH}$) = 25 cm³
+   - Concentration of NaOH ($M_{NaOH}$) = 0.1 M
+   - Volume of HCl ($V_{HCl}$) = 19 cm³
+   - Concentration of HCl ($M_{HCl}$) = unknown
+
+2. **Determine the stoichiometry:**
+   From the balanced chemical equation, the mole ratio of HCl to NaOH is 1:1.
+
+3. **Apply the formula:**
+   $ M_{acid}V_{acid} = M_{base}V_{base} $
+
+4. **Calculation:**
+   $ M_{HCl} \times 19 = 0.1 \times 25 $
+   $ M_{HCl} = \frac{2.5}{19} \approx 0.132\,\text{mol}\,\text{dm}^{-3} $
+
+## Possible Questions/Answers
+
+- **Q:** What is the main difference between the *endpoint* and the *equivalence point* in a titration?
+  **A:** The *endpoint* is the observed point where the indicator changes color, while the *equivalence point* is the theoretical point where the moles of acid and base are chemically equivalent.
+
+- **Q:** Why is the equivalence point for a titration of a weak acid with a strong base found at a pH greater than 7?
+  **A:** At the equivalence point, the salt formed contains a conjugate base (e.g., $CH_3COO^-$) which undergoes hydrolysis to produce $OH^-$ ions, making the solution basic.
+
+- **Q:** Describe the shape of a pH titration curve when 20 cm³ of HCl (strong acid) is added to 20 cm³ of aqueous ammonia (weak alkali).
+  **A:** The curve starts at a moderately high pH ($\approx$ 11), decreases gradually through a buffer region, shows a vertical drop around an **acidic equivalence point** (pH $\approx$ 5.5), and levels off at a very low pH ($\approx$ 1-2).
+
+## Summary
+
+| Titration Type | Initial pH (Analyte) | Equivalence Point pH | Vertical Region | Example |
+| :--- | :--- | :--- | :--- | :--- |
+| **Strong Acid - Strong Base** | Very low (1-2) | **7 (Neutral)** | Very steep | HCl + NaOH |
+| **Strong Acid - Weak Base** | Very low (1-2) | **< 7 (Acidic)** | Less steep | HCl + $NH_3$ |
+| **Weak Acid - Strong Base** | Moderately low (2-3) | **> 7 (Basic)** | Steep | $CH_3COOH$ + NaOH |
+| **Weak Acid - Weak Base** | Moderately low (2-3) | $\approx$ 7 (varies) | No sharp region | $CH_3COOH$ + $NH_3$ |

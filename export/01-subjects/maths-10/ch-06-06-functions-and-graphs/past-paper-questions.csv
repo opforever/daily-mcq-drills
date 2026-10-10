@@ -1,0 +1,441 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,exerciseId,exerciseTitle,keyPoints,lastAttempt,locked,modelAnswer,origin,questionKind,questionNumber,sectionId,sectionLabel,stem,topicId
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m17c7ggvnyx1b6p6hmj3dwn05s8ctc6b","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""A relation is a function from A to B only if its domain is exactly A and no element of A repeats as a first component."",""R1 and R4 satisfy both conditions; R2 has a repeated first element (6) and R3 has domain missing 4.""]",,"false","A relation from A to B is a function only if its domain equals A and no element of A repeats as a first component (each maps to exactly one image in B).
+
+i. $R_1=\{(2,3),(6,5),(8,3),(4,1)\}$: domain $=\{2,6,8,4\}=A$, no first-element repeats, all images in B. **Function.**
+
+ii. $R_2=\{(2,3),(6,1),(8,3),(6,5)\}$: 6 appears twice, mapped to both 1 and 5. **Not a function.**
+
+iii. $R_3=\{(2,3),(6,5),(8,3)\}$: domain $=\{2,6,8\}\neq A$ (4 is missing). **Not a function.**
+
+iv. $R_4=\{(2,3),(6,3),(8,3),(4,1)\}$: domain $=\{2,6,8,4\}=A$, no repeats. **Function.**
+
+So $R_1$ and $R_4$ are functions from A to B.","exercise","unclassified","1","function-definition","Function Definition","If $A=\{2,4,6,8\}$ and $B=\{1,3,5\}$, which of the following relations are functions from $A$ to B ?
+(i) $\quad \mathrm{R}_{1}=\{(2,3),(6,5),(8,3),(4,1)\}$
+(ii) $\quad \mathrm{R}_{2}=\{(2,3),(6,1),(8,3),(6,5)\}$
+(iii) $\quad \mathrm{R}_{3}=\{(2,3),(6,5),(8,3)\}$
+(iv) $\quad \mathrm{R}_{4}=\{(2,3),(6,3),(8,3),(4,1)\}$","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m173s4y0ny33hx062bxpvpym398cth79","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""A word problem's cost rule is a linear function C(x) = base fee + rate x distance, evaluated by substitution.""]",,"false","Cost function: $C(x)=50+0.5x$, where x is miles travelled.
+
+$C(250)=50+0.5(250)=50+125=175$.
+
+The total cost for a 250-mile shipment is **175 dollars**.","exercise","unclassified","10","function-evaluation","Evaluation of a Function","A logistics company charges a base fee of 50 dollars and additional charges of 0.5 dollars per mile for transporting goods. If a shipment travels 250 miles, what is the total cost?","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m173szyrxjwfsryq501rr0hawh8ctfsm","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""To find an inverse, set y = f(x), solve for x in terms of y, then swap the roles/labels."",""The inverse of a rational function is undefined exactly where its own denominator vanishes.""]",,"false","$f(x)=\dfrac{3x}{2x-1}$. Let $y=\dfrac{3x}{2x-1}$.
+
+$y(2x-1)=3x\Rightarrow 2xy-y=3x\Rightarrow 2xy-3x=y\Rightarrow x(2y-3)=y\Rightarrow x=\dfrac{y}{2y-3}$.
+
+So $f^{-1}(x)=\dfrac{x}{2x-3}$.
+
+$f^{-1}(x)$ is undefined when $2x-3=0\Rightarrow x=\dfrac{3}{2}$.","exercise","unclassified","2","inverse-of-function","Inverse of a Function","Find inverse of $\mathrm{f}(x)=\frac{3 x}{2 x-1}$. At what value of the variable, $f^{-1}(x)$ will be undefined?","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m177fwmfwxgkfjy4w25rxpka4n8ctwsv","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Function evaluation substitutes the given input (a number or an expression like t+1) for x throughout the rule.""]",,"false","$f(x)=x^{2}-\tfrac12 x+3$.
+
+i. $f(2)=4-1+3=6$
+
+ii. $f(-1)=1+\tfrac12+3=\tfrac{9}{2}=4.5$
+
+iii. $f\left(\tfrac23\right)=\tfrac49-\tfrac13+3=\tfrac{4}{9}-\tfrac{3}{9}+\tfrac{27}{9}=\tfrac{28}{9}$
+
+iv. $f(t+1)=(t+1)^{2}-\tfrac12(t+1)+3=t^{2}+2t+1-\tfrac12 t-\tfrac12+3=t^{2}+\tfrac32 t+\tfrac72$","exercise","numerical","3","function-evaluation","Evaluation of a Function","If $\mathrm{f}(x)=x^{2}-\frac{1}{2} x+3$, evaluate the following.
+(i) $\mathrm{f}(2)$
+(ii) $\mathrm{f}(-1)$
+(iii) $\mathrm{f}\left(\frac{2}{3}\right)$
+(iv) $\mathrm{f}(t+1)$","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m172r9rkf892zc5knkttrpvg7x8cvsm7","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Substitute the given input/output pairs into the function rule to get simultaneous equations, then solve for the unknown parameters.""]",,"false","$f(x)=t-ax$. Given $f(1)=0$ and $f(-1)=2$.
+
+$t-a(1)=0\Rightarrow t=a$
+
+$t-a(-1)=2\Rightarrow t+a=2$
+
+Substituting $t=a$: $a+a=2\Rightarrow a=1$, so $t=1$.","exercise","unclassified","5","function-evaluation","Evaluation of a Function","A function f is defined by $\mathrm{f}(x)=t-a x$, find the values of $a$ and $t$ if 0 and 2 are the images of 1 and -1 respectively.","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m171069cqnpk4wnseye0aej1f58cvwsn","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""To invert, set y=f(x), solve algebraically for x in terms of y, and restrict the domain to match the original function's range.""]",,"false","i. $f(x)=2x-1$: $y=2x-1\Rightarrow x=\dfrac{y+1}{2}$. $f^{-1}(x)=\dfrac{x+1}{2}$
+
+ii. $g(x)=\dfrac{2}{x-3}$, $x\neq3$: $y=\dfrac{2}{x-3}\Rightarrow x-3=\dfrac{2}{y}\Rightarrow x=3+\dfrac{2}{y}$. $g^{-1}(x)=3+\dfrac{2}{x}$
+
+iii. $f(x)=\sqrt{x+5}$, $x\geq-5$: $y=\sqrt{x+5}\Rightarrow y^{2}=x+5\Rightarrow x=y^{2}-5$. $f^{-1}(x)=x^{2}-5$, $x\geq0$
+
+iv. $g(x)=(x-3)^{2}$, $x\geq3$: $y=(x-3)^{2}\Rightarrow x-3=\sqrt{y}$ (positive root since $x\geq3$) $\Rightarrow x=3+\sqrt{y}$. $g^{-1}(x)=3+\sqrt{x}$, $x\geq0$","exercise","unclassified","5","inverse-of-function","Inverse of a Function","Find the inverse of the following functions.
+(i) $f(x)=2 x-1$
+(ii) $\quad g(x)=\frac{2}{x-3} \quad$, where $x \neq 3$
+(iii) $f(x)=\sqrt{x+5}$, where $x \geq-5$
+(iv) $\quad \mathrm{g}(x)=(x-3)^{2}$, where $x \geq 3$","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m179kvmat9d0hnzar85djyprnx8cvdzy","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""f(x) = f(3) means solving f(x) = the numeric value of f at 3; both roots (including x=3 itself) satisfy the equation.""]",,"false","$f(x)=x^{2}-x-6$. $f(3)=9-3-6=0$.
+
+Solve $f(x)=0$: $x^{2}-x-6=0\Rightarrow(x-3)(x+2)=0\Rightarrow x=3$ or $x=-2$.","exercise","numerical","5","function-evaluation","Evaluation of a Function","For the function f defined by $\mathrm{f}(x)=x^{2}-x-6$, find the value of $x$ if $\mathrm{f}(x)=\mathrm{f}(3)$.","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m176y5p6zayf32wgdh4evxbhf98cv695","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Find the inverse rule algebraically first, then evaluate it at the requested input, same as evaluating any function.""]",,"false","$f(x)=\dfrac{3}{x-5}$: $y=\dfrac{3}{x-5}\Rightarrow x-5=\dfrac{3}{y}\Rightarrow x=5+\dfrac{3}{y}$, so $f^{-1}(x)=5+\dfrac{3}{x}$. $f^{-1}(1)=5+3=8$.
+
+$g(x)=x+\dfrac32$: $y=x+\dfrac32\Rightarrow x=y-\dfrac32$, so $g^{-1}(x)=x-\dfrac32$. $g^{-1}\left(\dfrac12\right)=\dfrac12-\dfrac32=-1$.","exercise","numerical","6","inverse-of-function","Inverse of a Function","If $f(x)=\frac{3}{x-5}$ and $g(x)=x+\frac{3}{2}$, find the value of $f^{-1}(1)$ and $g^{-1}\left(\frac{1}{2}\right)$.","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m170r54aa8vwmt4tbfypzgnjk58cvqqk","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Inverting C = (5/9)(F-32) gives F = (9/5)C + 32, the standard Celsius-to-Fahrenheit conversion.""]",,"false","$C=\dfrac{5}{9}(F-32)\Rightarrow \dfrac{9}{5}C=F-32\Rightarrow F=\dfrac{9}{5}C+32$. This is the inverse function converting Celsius to Fahrenheit.
+
+Using it for $C=25$: $F=\dfrac{9}{5}(25)+32=45+32=77$.
+
+So $25^{\circ}C$ corresponds to $77^{\circ}F$. (Note: the stem's closing phrase 'convert 25 C to Celsius' appears to be a wording slip in the source since C is already given in Celsius; the substantive computation the section asks for -- inverting C(F) to get F(C) and evaluating it -- gives 77 degrees Fahrenheit.)","exercise","unclassified","6","inverse-of-function","Inverse of a Function","Find the inverse function to convert Celsius to Fahrenheit, if $\mathrm{C}=\frac{5}{9}(\mathrm{~F}-32)$ and use it to convert $25^{\circ} \mathrm{C}$ to Celsius graphically.","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m177fr4qgwv951fv8perzbapz98ctdpf","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Evaluating a function defined with |.| and trig requires substituting the value first, then taking cos in radians and applying the absolute value.""]",,"false","$A(t)=|2\cos(t)|$, with t in seconds (radians as the argument of cosine).
+
+At $t=5$: $\cos(5)\approx0.2837$, so $A(5)=|2(0.2837)|\approx0.567$.
+
+The amplitude of the sound wave at $t=5$ seconds is approximately **0.567** (same units as the amplitude scale).","exercise","unclassified","9","function-evaluation","Evaluation of a Function","A sound wave's amplitude (A) is given by the function, $A(t)=|2 \cos (t)|$, where $t$ is time in seconds. If $\mathrm{t}=5$ seconds, what is the amplitude?","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m17670a8akc0ktp62vvwf6ct298ctd91","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Function test: each domain element has exactly one image"",""Into when range is proper subset of B, onto when range equals B"",""One-one needs distinct images, bijective needs both one-one and onto""]",,"false","A relation from $A$ to $B$ is a function exactly when every element of $A$ appears as the first component of one and only one ordered pair. Use that test on each diagram. Diagram (i) shows each element of $A$ with a single arrow and two elements of $A$ share an image, so it is a function but not one-one. Since the range has fewer elements than $B$, it is into; because it is not one-one and not onto, it is neither injective nor bijective, it is a many-one into function. Diagram (ii) shows each element of $A$ with a distinct image and one element of $B$ has no preimage, so it is a one-one into function, which is injective. Diagram (iii) shows each element of $A$ with a distinct image and every element of $B$ is an image, so it is one-one and onto, hence bijective. Any diagram where an element of $A$ has two images or no image is not a function. This covers all parts.","exercise","unclassified","2",,,"Identify the functions from the following diagrams. Also write their type.","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m176dt0zxvcn5dqbp83a8zq4yx8cvss9","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Sum/difference/product of functions are formed by applying +, -, x to f(x) and g(x) directly."",""Division requires g(x) != 0, so (x-1) cancels leaving 4/(x-1) with the restriction x != 1.""]",,"false","$f(x)=4(x-1)=4x-4$ and $g(x)=x^{2}-2x+1=(x-1)^{2}$.
+
+i. $(f+g)(x)=4x-4+x^{2}-2x+1=x^{2}+2x-3$
+
+ii. $(f-g)(x)=4x-4-(x^{2}-2x+1)=-x^{2}+6x-5$
+
+iii. $(f\times g)(x)=4(x-1)\times(x-1)^{2}=4(x-1)^{3}$
+
+iv. $(f\div g)(x)=\dfrac{4(x-1)}{(x-1)^{2}}=\dfrac{4}{x-1}$, $x\neq 1$","exercise","unclassified","1","operations-on-functions","Operations on Functions","If $f(x)=4(x-1)$ and $g(x)=x^{2}-2 x+1$, find
+(i) $(\mathrm{f}+\mathrm{g})(x)$
+(ii) $(\mathrm{f}-\mathrm{g})(x)$
+(iii) $(\mathrm{f} \times \mathrm{g})(x)$
+(iv) $(\mathrm{f} \div \mathrm{g})(x)$","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m17941h5xcy0qqdfmgz7emwdjd8ctmm4","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""(fog)(x) = f(g(x)): substitute g(x) into f."",""Composing a function with itself twice, e.g. (fof)(x), applies the same rule twice in sequence.""]",,"false","$f(x)=4x$, $g(x)=x+1$.
+
+i. $(fog)(x)=f(g(x))=4(x+1)=4x+4$
+
+ii. $(gof)(x)=g(f(x))=4x+1$
+
+iii. $(fof)(x)=f(f(x))=4(4x)=16x$
+
+iv. $(gog)(x)=g(g(x))=(x+1)+1=x+2$","exercise","unclassified","2","composition-of-functions","Composition of Functions","If $f(x)=4 x$ and $g(x)=x+1$, find,
+(i) $(\mathrm{fog})(x)$
+(ii) $(\mathrm{gof})((x)$
+(iii) $(\mathrm{fof})(x)$
+(iv) $(\operatorname{gog})((x)$","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m179e02qmeqrppg77jv4ygsxw18cvp6v","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""(fog)(x) substitutes g(x) into f; (gof)(x) substitutes f(x) into g -- the two are generally different."",""Domain restrictions from square roots and denominators must be respected when simplifying a composition.""]",,"false","i. $f(x)=3-2x$, $g(x)=x+1$: $(fog)(x)=3-2(x+1)=1-2x$; $(gof)(x)=(3-2x)+1=4-2x$
+
+ii. $f(x)=\tfrac{2}{x}$, $g(x)=\tfrac{2x}{x-1}$: $(fog)(x)=\dfrac{2}{\;2x/(x-1)\;}=\dfrac{x-1}{x}$; $(gof)(x)=\dfrac{2(2/x)}{(2/x)-1}=\dfrac{4/x}{(2-x)/x}=\dfrac{4}{2-x}$
+
+iii. $f(x)=3x$, $g(x)=\dfrac{2}{\sqrt{x-1}}$: $(fog)(x)=3\cdot\dfrac{2}{\sqrt{x-1}}=\dfrac{6}{\sqrt{x-1}}$; $(gof)(x)=\dfrac{2}{\sqrt{3x-1}}$
+
+iv. $f(x)=x^{2}-1$, $g(x)=\sqrt{x-1}$: $(fog)(x)=(\sqrt{x-1})^{2}-1=x-2$ (for $x\geq1$); $(gof)(x)=\sqrt{(x^{2}-1)-1}=\sqrt{x^{2}-2}$","exercise","unclassified","3","composition-of-functions","Composition of Functions","Find (fog)(x) and (gof)((x), if
+(i) $\mathrm{f}(x)=3-2 x$ and $g(x)=x+1$
+(ii) $\mathrm{f}(x)=\frac{2}{x}$ and $g(x)=\frac{2 x}{x-1}$
+(iii) $\mathrm{f}(x)=3 x$ and $g(x)=\frac{2}{\sqrt{x-1}}$
+(iv) $\mathrm{f}(x)=x^{2}-1$ and $g(x)=\sqrt{x-1}$","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m1714dwpqp6yjmzy07h2jvhvvd8cvzmv","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Form the composition explicitly (fog vs gof), then solve the resulting equation for x using the quadratic formula or factoring as needed.""]",,"false","$f(x)=x^{2}$, $g(x)=2x+1$.
+
+$(fog)(x)=f(2x+1)=(2x+1)^{2}=4x^{2}+4x+1$
+
+$(gof)(x)=g(x^{2})=2x^{2}+1$
+
+i. $(fog)(x)=(gof)(x)$: $4x^{2}+4x+1=2x^{2}+1\Rightarrow 2x^{2}+4x=0\Rightarrow 2x(x+2)=0\Rightarrow x=0$ or $x=-2$
+
+ii. $f(x)=g(x)$: $x^{2}=2x+1\Rightarrow x^{2}-2x-1=0\Rightarrow x=\dfrac{2\pm\sqrt{4+4}}{2}=1\pm\sqrt{2}$
+
+iii. $(gof)(x)=9$: $2x^{2}+1=9\Rightarrow x^{2}=4\Rightarrow x=\pm2$","exercise","numerical","4","composition-of-functions","Composition of Functions","If $f(x)=x^{2}$ and $g(x)=2 x+1$, find the value of $x$ if:
+(i) $(\mathrm{fog})(x)=(\mathrm{gof})((x)$
+(ii) $\mathrm{f}(x)=\mathrm{g}(x)$
+(iii) $(\mathrm{gof})(x)=9$","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m17be78ehejc7rzcth8v2pkb2n8ctqnp","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Onto (surjective): every element of the codomain is an image; 1-1 (injective): no two domain elements share an image."",""Number of relations from a set of size p to a set of size q is 2^(pq); domain of a relation is the set of first coordinates."",""A function is undefined wherever its denominator is zero; a^x, e^x, 2^x are all standard exponential-function forms.""]",,"false","i. $f=\{(-2,2),(0,0),(2,0)\}$: range $=\{2,0\}=B$, so onto; but 0 and 2 both map to 0, so not 1-1. **(b) onto**
+
+ii. $|Y|=3,|X|=2$ (wait, using given: relations from Y (2 elements) to X (3 elements) $=2^{n(Y\times X)}=2^{2\times3}=2^{6}$. **(c) $2^{6}$**
+
+iii. Domain of $g=\{(1,0),(2,2),(3,4)\}$ is the set of first elements. **(c) $\{1,2,3\}$**
+
+iv. Every point on the y-axis has x-coordinate 0. **(a) 0**
+
+v. $y=2x^{2}-1$ at $x=0$: $y=-1$, so it cuts the y-axis at $(0,-1)$. **(c) $(0,-1)$**
+
+vi. $y=2x-1\Rightarrow x=\dfrac{y+1}{2}$, so $f^{-1}(x)=\dfrac{1+x}{2}$. **(c) $\frac{1+x}{2}$**
+
+vii. $f(x)=\tfrac12 x$, $f^{2}(x)=f(f(x))=\tfrac12\left(\tfrac12 x\right)=\tfrac14 x$. **(b) $\frac14 x$**
+
+viii. $y=\dfrac{x}{x-2}$ is undefined when $x-2=0\Rightarrow x=2$. **(c) 2**
+
+ix. $\left(\tfrac13\right)^{x}$, $e^{x}$, and $2^{x}$ are all exponential functions. **(d) All of these**
+
+x. $f(x)=\tfrac23 x^{2}-5$, $f(-3)=\tfrac23(9)-5=6-5=1$. **(b) 1**","exercise","unclassified","1","types-of-functions","Types of Functions","Encircle the correct option in each of the following.
+i. If $A=\{-2,0,2\}$ and $B=\{0,2\}$ and $f: A \rightarrow B$ is defined as $f=\{(-2,2),(0,0),(2,0)\}$ what type of function is $f$ ?
+(a) into
+(b) onto
+(c) injective
+(d) bijective
+ii. If number of elements in set X is 3 and number of elements in set Y is 2, how many binary relations are possible from Y to X ?
+(a) 4
+(b) 6
+(c) $\quad 2^{6}$
+(d) $\quad 2^{9}$
+iii. What is the domain of the relation $g=\{(1,0),(2,2),(3,4)\}$ ?
+(a) $\{0,1,2,3\}$
+(b) $\{0,2,4\}$
+(c) $\quad\{1,2,3\}$
+(d) $\{0,1,2,3,4\}$
+iv. What is the $x$-intercept of every point on $y$-axis?
+(a) 0
+(b) 1
+(c) -1
+(d) undefined
+v. At what point will the graph of $y=2 x^{2}-1$ cuts $y$-axis?
+(a) $\left( \pm \frac{1}{\sqrt{2}}, 0\right)$
+(b) -1
+(c) $(0,-1)$
+(d) $(-1,0)$
+vi. If $\mathrm{y}=2 x-1$, what is $f^{-1}(x)$ ?
+(a) $\frac{1+y}{2}$
+(b) $2 \mathrm{y}-1$
+(c) $\frac{1+x}{2}$
+(d) $y+1$
+vii. If $f(x)=\frac{1}{2} x$, what is $f^{2}(x)$ ?
+(a) $\frac{1}{4 x}$
+(b) $\frac{1}{4} x$
+(c) $2 x$
+(d) $\frac{1}{4} x^{2}$
+viii. If $\mathrm{y}=\frac{x}{x-2}$, for what value of $x$ will the function become undefined?
+(a) 0
+(b) -2
+(c) 2
+(d) $\pm 2$
+ix. Which of the following is an exponential function?
+(a) $\left(\frac{1}{3}\right)^{x}$
+(b) $e^{x}$
+(c) $2^{x}$
+(d) All of these
+x. If $\mathrm{f}(x)=\frac{2}{3} x^{2}-5$, what is the value of $\mathrm{f}(-3)$ ?
+(a) 0
+(b) 1
+(c) -3
+(d) -1","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m17acn05k09q1vdgkc51csg4hd8ctwmw","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""A function is injective if distinct inputs give distinct outputs; it is bijective only if it is both injective and onto (every codomain element hit)."",""Here f is 1-1 but not onto since 0 in Y has no preimage in X, so f is injective but not bijective.""]",,"false","$X=$ prime factors of 6 $=\{2,3\}$; $Y=$ first three non-negative integers $=\{0,1,2\}$.
+
+$f:X\rightarrow Y$ defined by $x-y=1\Rightarrow y=x-1$.
+
+For $x=2$: $y=1$. For $x=3$: $y=2$. So $f=\{(2,1),(3,2)\}$.
+
+Domain $=\{2,3\}=X$, no repeated first elements, so it's a well-defined function; images $1\neq2$ so it is **1-1 (injective)**. Range $=\{1,2\}\neq Y=\{0,1,2\}$ (0 has no preimage), so it is **not onto**, and therefore **not bijective**.","exercise","unclassified","4","types-of-functions","Types of Functions","If $\mathrm{X}=$ Set of prime factors of 6 and $\mathrm{Y}=$ Set of first three non-negative integers, check whether the function defined by $\mathrm{f}: X \rightarrow Y=\{(x, y) \mid x-y=1\}$ is injective or bijective.","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-1-function","6.1 Function","m173z22j2my59d5anwe14mx8gx8cv1ht","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""A function is bijective iff it is both injective (1-1) and surjective (onto)."",""A non-zero-slope linear function mx+c is always bijective on R -> R; a zero slope makes it constant and not bijective.""]",,"false","$f(x)=mx+c$ (a linear function, $m\neq0$).
+
+Injective (1-1): if $f(x_1)=f(x_2)$ then $mx_1+c=mx_2+c\Rightarrow x_1=x_2$ (since $m\neq0$), so f is 1-1.
+
+Onto: for any $y\in\mathbb{R}$, $x=\dfrac{y-c}{m}$ exists in the domain, so every real y is an image, so f is onto.
+
+Since f is both 1-1 and onto, **f is bijective** (for $m\neq0$; if $m=0$, f is a constant function and is neither 1-1 nor onto).","exercise","unclassified","6","types-of-functions","Types of Functions","A function f is defined by $\mathrm{f}(x)=m x+c$, is $f$ bijective? Justify your answer.","ms775fstx6k284hvvmgnaty02d8bvze1"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-2-operations-on-functions","6.2 Operations on Functions","m17941h5xcy0qqdfmgz7emwdjd8ctmm4","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""(fog)(x) = f(g(x)): substitute g(x) into f."",""Composing a function with itself twice, e.g. (fof)(x), applies the same rule twice in sequence.""]",,"false","$f(x)=4x$, $g(x)=x+1$.
+
+i. $(fog)(x)=f(g(x))=4(x+1)=4x+4$
+
+ii. $(gof)(x)=g(f(x))=4x+1$
+
+iii. $(fof)(x)=f(f(x))=4(4x)=16x$
+
+iv. $(gog)(x)=g(g(x))=(x+1)+1=x+2$","exercise","unclassified","2","composition-of-functions","Composition of Functions","If $f(x)=4 x$ and $g(x)=x+1$, find,
+(i) $(\mathrm{fog})(x)$
+(ii) $(\mathrm{gof})((x)$
+(iii) $(\mathrm{fof})(x)$
+(iv) $(\operatorname{gog})((x)$","ms76b0vzqcqd1bqztp9e0tp0ss8bt3f2"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-2-operations-on-functions","6.2 Operations on Functions","m179e02qmeqrppg77jv4ygsxw18cvp6v","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""(fog)(x) substitutes g(x) into f; (gof)(x) substitutes f(x) into g -- the two are generally different."",""Domain restrictions from square roots and denominators must be respected when simplifying a composition.""]",,"false","i. $f(x)=3-2x$, $g(x)=x+1$: $(fog)(x)=3-2(x+1)=1-2x$; $(gof)(x)=(3-2x)+1=4-2x$
+
+ii. $f(x)=\tfrac{2}{x}$, $g(x)=\tfrac{2x}{x-1}$: $(fog)(x)=\dfrac{2}{\;2x/(x-1)\;}=\dfrac{x-1}{x}$; $(gof)(x)=\dfrac{2(2/x)}{(2/x)-1}=\dfrac{4/x}{(2-x)/x}=\dfrac{4}{2-x}$
+
+iii. $f(x)=3x$, $g(x)=\dfrac{2}{\sqrt{x-1}}$: $(fog)(x)=3\cdot\dfrac{2}{\sqrt{x-1}}=\dfrac{6}{\sqrt{x-1}}$; $(gof)(x)=\dfrac{2}{\sqrt{3x-1}}$
+
+iv. $f(x)=x^{2}-1$, $g(x)=\sqrt{x-1}$: $(fog)(x)=(\sqrt{x-1})^{2}-1=x-2$ (for $x\geq1$); $(gof)(x)=\sqrt{(x^{2}-1)-1}=\sqrt{x^{2}-2}$","exercise","unclassified","3","composition-of-functions","Composition of Functions","Find (fog)(x) and (gof)((x), if
+(i) $\mathrm{f}(x)=3-2 x$ and $g(x)=x+1$
+(ii) $\mathrm{f}(x)=\frac{2}{x}$ and $g(x)=\frac{2 x}{x-1}$
+(iii) $\mathrm{f}(x)=3 x$ and $g(x)=\frac{2}{\sqrt{x-1}}$
+(iv) $\mathrm{f}(x)=x^{2}-1$ and $g(x)=\sqrt{x-1}$","ms76b0vzqcqd1bqztp9e0tp0ss8bt3f2"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-2-operations-on-functions","6.2 Operations on Functions","m1714dwpqp6yjmzy07h2jvhvvd8cvzmv","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Form the composition explicitly (fog vs gof), then solve the resulting equation for x using the quadratic formula or factoring as needed.""]",,"false","$f(x)=x^{2}$, $g(x)=2x+1$.
+
+$(fog)(x)=f(2x+1)=(2x+1)^{2}=4x^{2}+4x+1$
+
+$(gof)(x)=g(x^{2})=2x^{2}+1$
+
+i. $(fog)(x)=(gof)(x)$: $4x^{2}+4x+1=2x^{2}+1\Rightarrow 2x^{2}+4x=0\Rightarrow 2x(x+2)=0\Rightarrow x=0$ or $x=-2$
+
+ii. $f(x)=g(x)$: $x^{2}=2x+1\Rightarrow x^{2}-2x-1=0\Rightarrow x=\dfrac{2\pm\sqrt{4+4}}{2}=1\pm\sqrt{2}$
+
+iii. $(gof)(x)=9$: $2x^{2}+1=9\Rightarrow x^{2}=4\Rightarrow x=\pm2$","exercise","numerical","4","composition-of-functions","Composition of Functions","If $f(x)=x^{2}$ and $g(x)=2 x+1$, find the value of $x$ if:
+(i) $(\mathrm{fog})(x)=(\mathrm{gof})((x)$
+(ii) $\mathrm{f}(x)=\mathrm{g}(x)$
+(iii) $(\mathrm{gof})(x)=9$","ms76b0vzqcqd1bqztp9e0tp0ss8bt3f2"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-2-operations-on-functions","6.2 Operations on Functions","m176dt0zxvcn5dqbp83a8zq4yx8cvss9","xd7d5e4zk6yh9a97c8vvfsqx758dydsv","Exercise 6.1","[""Sum/difference/product of functions are formed by applying +, -, x to f(x) and g(x) directly."",""Division requires g(x) != 0, so (x-1) cancels leaving 4/(x-1) with the restriction x != 1.""]",,"false","$f(x)=4(x-1)=4x-4$ and $g(x)=x^{2}-2x+1=(x-1)^{2}$.
+
+i. $(f+g)(x)=4x-4+x^{2}-2x+1=x^{2}+2x-3$
+
+ii. $(f-g)(x)=4x-4-(x^{2}-2x+1)=-x^{2}+6x-5$
+
+iii. $(f\times g)(x)=4(x-1)\times(x-1)^{2}=4(x-1)^{3}$
+
+iv. $(f\div g)(x)=\dfrac{4(x-1)}{(x-1)^{2}}=\dfrac{4}{x-1}$, $x\neq 1$","exercise","unclassified","1","operations-on-functions","Operations on Functions","If $f(x)=4(x-1)$ and $g(x)=x^{2}-2 x+1$, find
+(i) $(\mathrm{f}+\mathrm{g})(x)$
+(ii) $(\mathrm{f}-\mathrm{g})(x)$
+(iii) $(\mathrm{f} \times \mathrm{g})(x)$
+(iv) $(\mathrm{f} \div \mathrm{g})(x)$","ms76b0vzqcqd1bqztp9e0tp0ss8bt3f2"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m17fjarb8cqf1ytdjvew1pymsn8cv4h5","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""The sign of a in y = ax^2+bx+c determines whether the parabola opens upward (a>0) or downward (a<0)."",""Vertex coordinates: h = -b/(2a), k = f(h).""]",,"false","$y=-x^{2}-4x$, so $a=-1, b=-4, c=0$.
+
+Vertex: $h=\dfrac{-b}{2a}=\dfrac{-(-4)}{2(-1)}=\dfrac{4}{-2}=-2$; $k=f(-2)=-(-2)^{2}-4(-2)=-4+8=4$. Vertex $(-2,4)$.
+
+Since $a=-1<0$, the parabola **opens downward**. It crosses the x-axis where $-x^{2}-4x=0\Rightarrow -x(x+4)=0\Rightarrow x=0$ or $x=-4$, i.e. at $(0,0)$ and $(-4,0)$.","exercise","unclassified","3","quadratic-function-graphs","Graphs of Quadratic Functions","Sketch the graph of the quadratic function $\mathrm{y}=-x^{2}-4 x$. Will it open upward or downward?","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m1737msdm6g6hzqrgj24yhjbxn8cvcme","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""The sign of a decides opening direction; vertex is at h=-b/(2a), k=f(h)."",""x-intercepts come from solving f(x)=0; the y-intercept is always f(0)=c.""]",,"false","i. $f(x)=(x-1)^{2}$: $a=1>0$, opens upward. Vertex $(1,0)$. x-intercept: $(1,0)$. y-intercept: $f(0)=1$, so $(0,1)$.
+
+ii. $f(x)=-x^{2}+2$: $a=-1<0$, opens downward. Vertex $(0,2)$. x-intercepts: $-x^{2}+2=0\Rightarrow x=\pm\sqrt2$, so $(\sqrt2,0)$ and $(-\sqrt2,0)$. y-intercept $(0,2)$.
+
+iii. $f(x)=3-(x+2)^{2}$: $a=-1<0$, opens downward. Vertex $(-2,3)$. x-intercepts: $(x+2)^{2}=3\Rightarrow x=-2\pm\sqrt3$. y-intercept: $f(0)=3-4=-1$, so $(0,-1)$.
+
+iv. $f(x)=-x^{2}+2x+3$: $a=-1<0$, opens downward. Vertex: $h=\dfrac{-2}{2(-1)}=1$, $k=f(1)=-1+2+3=4$, vertex $(1,4)$. x-intercepts: $-x^{2}+2x+3=0\Rightarrow x^{2}-2x-3=0\Rightarrow(x-3)(x+1)=0\Rightarrow x=3,-1$. y-intercept $(0,3)$.","exercise","unclassified","4","quadratic-function-graphs","Graphs of Quadratic Functions","Check whether the curve (parabola) drawn for the following functions will open upwards or downwards. Also find $x$-intercept, $y$-intercept and sketch the graph of the given functions.
+(i) $f(x)=(x-1)^{2}$
+(ii) $f(x)=-x^{2}+2$
+(iii) $\quad f(x)=3-(x+2)^{2}$
+(iv) $f(x)=-x^{2}+2 x+3$","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m1721vn70v3deze7tgwv0fg2j98ctdq6","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""A parabola with x-intercepts p and q can be written as y = a(x-p)(x-q); the y-intercept condition then fixes a.""]",,"false","Roots at $x=-1,1$, so $y=a(x+1)(x-1)=a(x^{2}-1)$.
+
+At $x=0$, $y=10$: $a(0-1)=10\Rightarrow -a=10\Rightarrow a=-10$.
+
+So $y=-10(x^{2}-1)=-10x^{2}+10$, i.e. $y=-10x^{2}+0x+10$ (a = -10, b = 0, c = 10).","exercise","unclassified","4","quadratic-function-graphs","Graphs of Quadratic Functions","Find the equation in the form of $\mathrm{y}=a x^{2}+b x+c$ which cuts x -axis at $(-1,0)$ and $(1,0)$ and y -axis at $(0,10)$.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m170zw5dznfbxgkf28pn4de3gd8ct3cc","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Substituting a known x-intercept and the y-intercept into y = hx^2+2x+k gives two equations to solve for h and k.""]",,"false","$y=hx^{2}+2x+k$.
+
+y-axis at $(0,2)$: substituting $x=0$: $y=k=2$, so $k=2$.
+
+x-axis at $(-3,0)$: substituting $x=-3,y=0$: $0=h(9)+2(-3)+k=9h-6+2\Rightarrow 9h=4\Rightarrow h=\dfrac{4}{9}$.","exercise","unclassified","5","quadratic-function-graphs","Graphs of Quadratic Functions","Find the values of h and k if $\mathrm{y}=\mathrm{h} x^{2}+2 x+k$ cuts x -axis and y -axis at $(-3,0)$ and $(0,2)$ respectively.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m178gn119fykzqr5txc9g4f4xh8ct6xh","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Solving a system 'graphically' corresponds algebraically to setting f(x)=g(x) and solving; the solutions are the x-coordinates of the intersection points.""]",,"false","i. $f(x)=x+2$, $g(x)=x^{2}-3x+2$: setting equal, $x+2=x^{2}-3x+2\Rightarrow x^{2}-4x=0\Rightarrow x(x-4)=0\Rightarrow x=0$ or $x=4$. At $x=0,y=2$; at $x=4,y=6$. The lines/curves meet at $(0,2)$ and $(4,6)$.
+
+ii. $f(x)=2x+5$, $g(x)=2x^{2}+1$: $2x+5=2x^{2}+1\Rightarrow 2x^{2}-2x-4=0\Rightarrow x^{2}-x-2=0\Rightarrow(x-2)(x+1)=0\Rightarrow x=2$ or $x=-1$. At $x=2,y=9$; at $x=-1,y=3$. Intersection points $(2,9)$ and $(-1,3)$.","exercise","unclassified","6","quadratic-function-graphs","Graphs of Quadratic Functions","Solve the following equations graphically.
+(i) $\mathrm{f}(x)=x+2, \mathrm{~g}(x)=x^{2}-3 x+2$
+(ii) $\quad \mathrm{f}(x)=2 x+5, \mathrm{~g}(x)=2 x^{2}+1$","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m17a8cc1h8h11tkhymznmwbyes8cttvv","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Intersection points of two graphs come from solving f(x) = g(x), then substituting each root back into either rule for the y-coordinate.""]",,"false","$f(x)=x-2$, $g(x)=x^{2}-4x+2$.
+
+Setting equal: $x-2=x^{2}-4x+2\Rightarrow x^{2}-5x+4=0\Rightarrow(x-1)(x-4)=0\Rightarrow x=1$ or $x=4$.
+
+At $x=1$: $y=1-2=-1$. At $x=4$: $y=4-2=2$.
+
+The graphs of $f$ and $g$ intersect at $(1,-1)$ and $(4,2)$.","exercise","unclassified","7","quadratic-function-graphs","Graphs of Quadratic Functions","Find the point of intersection of the graphs of $\mathrm{f}(x)=x-2$ and $\mathrm{g}(x)=x^{2}-4 x+2$.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m178245435ngx8jrsmgzh41snd8ct9qp","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""An exponential growth function P(t)=P0(1+r)^t is evaluated by direct substitution; growth over a period is P(later)-P(earlier).""]",,"false","$P(t)=50000(1.05)^{t}$.
+
+$P(5)=50000(1.05)^{5}\approx50000\times1.27628\approx63814$.
+
+Growth over 5 years $=P(5)-P(0)=63814-50000\approx13814$ people (about a 27.6% increase over 5 years, consistent with the compounding exponential growth curve).","exercise","unclassified","8","exponential-function-graphs","Graphs of Exponential Functions","The growth of the population of a town is given by the function, $P(t)=50,000(1.05)^{t}$, where $t$ is the time in years. Draw the graph of this function and find the population growth over 5 years.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m17d5frqzpasvw7hxxmdmetmen8cvy0x","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""An exponential decay function f(n)=A0(r)^n is solved for n by taking logarithms of both sides once isolated.""]",,"false","$f(n)=120(0.9)^{n}$ mg. Setting $f(n)=20$:
+
+$120(0.9)^{n}=20\Rightarrow(0.9)^{n}=\dfrac{1}{6}$
+
+Taking logs: $n=\dfrac{\ln(1/6)}{\ln(0.9)}=\dfrac{-1.7918}{-0.1054}\approx17.0$.
+
+There will be 20 mg of medicine left in the body after approximately **17 hours**.","exercise","unclassified","8","exponential-function-graphs","Graphs of Exponential Functions","When medication is taken by a patient, it is slowly used by the body. After $n$ hours, the amount of medicine remaining in the body is given by $\mathrm{f}(\mathrm{n})=120 \times(0.9)^{n} \mathrm{mg}$. Draw the graph of $f(n)$ against $n$ and use the graph to find when there is 20 mg of the medicine left in the body.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m17epmkqnnadaqmmm0phvqtnfs8ct8xd","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""The gradient of a curve at a point equals the slope of its tangent line there; for y = (1/2)x^2 this slope is x itself, giving 2 at x=2.""]",,"false","$y=\tfrac12 x^{2}$. At $x=2$, $y=\tfrac12(4)=2$, so the point of tangency is $(2,2)$.
+
+The gradient (slope) of the curve at $x=2$ is the derivative $\dfrac{dy}{dx}=x$ evaluated at $x=2$, giving slope $=2$.
+
+Equation of the tangent line at $(2,2)$ with slope 2: $y-2=2(x-2)\Rightarrow y=2x-2$.","exercise","unclassified","9","quadratic-function-graphs","Graphs of Quadratic Functions","Draw gradient of the curve $\mathrm{y}=\frac{1}{2} x^{2}$ by drawing tangent line at $x=2$.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m176w84k421cfdch4sv0h0z7rd8cvb13","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Linear means straight line $y = a x + b$, non-linear is curved"",""Vertical line test: at most one intersection means function"",""Classify each of the six graphs accordingly""]",,"false","A linear function has the form $y = a x + b$ and its graph is a straight line. Its intercept form is seen in the textbook where $x$-intercept is found by putting $y = 0$ and $y$-intercept by putting $x = 0$. Graphs (i), (ii) and (v) that are straight lines through the plane are linear; graphs (iii), (iv) and (vi) that are curves, parabolas or cubic shapes are non-linear. For the function test, use the vertical line test: a graph represents a function exactly when every vertical line meets it in at most one point. Graphs that pass this test are functions, and those where a vertical line cuts in two points are not functions. By that test the straight line and the parabola that is a function pass, while the circle-like or sideways parabola fails. This answers both identification tasks.","exercise","unclassified","1",,,"Identify the graphs of linear and non-linear functions from the following? Also indicate the graphs which are graphs of functions by applying vertical line test.
+![](./images/841b8744-c0fe-4939-bfaf-937e2be63b06-137_331_472_338_897.jpg)","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m173s4y0ny33hx062bxpvpym398cth79","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""A word problem's cost rule is a linear function C(x) = base fee + rate x distance, evaluated by substitution.""]",,"false","Cost function: $C(x)=50+0.5x$, where x is miles travelled.
+
+$C(250)=50+0.5(250)=50+125=175$.
+
+The total cost for a 250-mile shipment is **175 dollars**.","exercise","unclassified","10","function-evaluation","Evaluation of a Function","A logistics company charges a base fee of 50 dollars and additional charges of 0.5 dollars per mile for transporting goods. If a shipment travels 250 miles, what is the total cost?","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m17be78ehejc7rzcth8v2pkb2n8ctqnp","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Onto (surjective): every element of the codomain is an image; 1-1 (injective): no two domain elements share an image."",""Number of relations from a set of size p to a set of size q is 2^(pq); domain of a relation is the set of first coordinates."",""A function is undefined wherever its denominator is zero; a^x, e^x, 2^x are all standard exponential-function forms.""]",,"false","i. $f=\{(-2,2),(0,0),(2,0)\}$: range $=\{2,0\}=B$, so onto; but 0 and 2 both map to 0, so not 1-1. **(b) onto**
+
+ii. $|Y|=3,|X|=2$ (wait, using given: relations from Y (2 elements) to X (3 elements) $=2^{n(Y\times X)}=2^{2\times3}=2^{6}$. **(c) $2^{6}$**
+
+iii. Domain of $g=\{(1,0),(2,2),(3,4)\}$ is the set of first elements. **(c) $\{1,2,3\}$**
+
+iv. Every point on the y-axis has x-coordinate 0. **(a) 0**
+
+v. $y=2x^{2}-1$ at $x=0$: $y=-1$, so it cuts the y-axis at $(0,-1)$. **(c) $(0,-1)$**
+
+vi. $y=2x-1\Rightarrow x=\dfrac{y+1}{2}$, so $f^{-1}(x)=\dfrac{1+x}{2}$. **(c) $\frac{1+x}{2}$**
+
+vii. $f(x)=\tfrac12 x$, $f^{2}(x)=f(f(x))=\tfrac12\left(\tfrac12 x\right)=\tfrac14 x$. **(b) $\frac14 x$**
+
+viii. $y=\dfrac{x}{x-2}$ is undefined when $x-2=0\Rightarrow x=2$. **(c) 2**
+
+ix. $\left(\tfrac13\right)^{x}$, $e^{x}$, and $2^{x}$ are all exponential functions. **(d) All of these**
+
+x. $f(x)=\tfrac23 x^{2}-5$, $f(-3)=\tfrac23(9)-5=6-5=1$. **(b) 1**","exercise","unclassified","1","types-of-functions","Types of Functions","Encircle the correct option in each of the following.
+i. If $A=\{-2,0,2\}$ and $B=\{0,2\}$ and $f: A \rightarrow B$ is defined as $f=\{(-2,2),(0,0),(2,0)\}$ what type of function is $f$ ?
+(a) into
+(b) onto
+(c) injective
+(d) bijective
+ii. If number of elements in set X is 3 and number of elements in set Y is 2, how many binary relations are possible from Y to X ?
+(a) 4
+(b) 6
+(c) $\quad 2^{6}$
+(d) $\quad 2^{9}$
+iii. What is the domain of the relation $g=\{(1,0),(2,2),(3,4)\}$ ?
+(a) $\{0,1,2,3\}$
+(b) $\{0,2,4\}$
+(c) $\quad\{1,2,3\}$
+(d) $\{0,1,2,3,4\}$
+iv. What is the $x$-intercept of every point on $y$-axis?
+(a) 0
+(b) 1
+(c) -1
+(d) undefined
+v. At what point will the graph of $y=2 x^{2}-1$ cuts $y$-axis?
+(a) $\left( \pm \frac{1}{\sqrt{2}}, 0\right)$
+(b) -1
+(c) $(0,-1)$
+(d) $(-1,0)$
+vi. If $\mathrm{y}=2 x-1$, what is $f^{-1}(x)$ ?
+(a) $\frac{1+y}{2}$
+(b) $2 \mathrm{y}-1$
+(c) $\frac{1+x}{2}$
+(d) $y+1$
+vii. If $f(x)=\frac{1}{2} x$, what is $f^{2}(x)$ ?
+(a) $\frac{1}{4 x}$
+(b) $\frac{1}{4} x$
+(c) $2 x$
+(d) $\frac{1}{4} x^{2}$
+viii. If $\mathrm{y}=\frac{x}{x-2}$, for what value of $x$ will the function become undefined?
+(a) 0
+(b) -2
+(c) 2
+(d) $\pm 2$
+ix. Which of the following is an exponential function?
+(a) $\left(\frac{1}{3}\right)^{x}$
+(b) $e^{x}$
+(c) $2^{x}$
+(d) All of these
+x. If $\mathrm{f}(x)=\frac{2}{3} x^{2}-5$, what is the value of $\mathrm{f}(-3)$ ?
+(a) 0
+(b) 1
+(c) -3
+(d) -1","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m173szyrxjwfsryq501rr0hawh8ctfsm","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""To find an inverse, set y = f(x), solve for x in terms of y, then swap the roles/labels."",""The inverse of a rational function is undefined exactly where its own denominator vanishes.""]",,"false","$f(x)=\dfrac{3x}{2x-1}$. Let $y=\dfrac{3x}{2x-1}$.
+
+$y(2x-1)=3x\Rightarrow 2xy-y=3x\Rightarrow 2xy-3x=y\Rightarrow x(2y-3)=y\Rightarrow x=\dfrac{y}{2y-3}$.
+
+So $f^{-1}(x)=\dfrac{x}{2x-3}$.
+
+$f^{-1}(x)$ is undefined when $2x-3=0\Rightarrow x=\dfrac{3}{2}$.","exercise","unclassified","2","inverse-of-function","Inverse of a Function","Find inverse of $\mathrm{f}(x)=\frac{3 x}{2 x-1}$. At what value of the variable, $f^{-1}(x)$ will be undefined?","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m179kvmat9d0hnzar85djyprnx8cvdzy","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""f(x) = f(3) means solving f(x) = the numeric value of f at 3; both roots (including x=3 itself) satisfy the equation.""]",,"false","$f(x)=x^{2}-x-6$. $f(3)=9-3-6=0$.
+
+Solve $f(x)=0$: $x^{2}-x-6=0\Rightarrow(x-3)(x+2)=0\Rightarrow x=3$ or $x=-2$.","exercise","numerical","5","function-evaluation","Evaluation of a Function","For the function f defined by $\mathrm{f}(x)=x^{2}-x-6$, find the value of $x$ if $\mathrm{f}(x)=\mathrm{f}(3)$.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m170r54aa8vwmt4tbfypzgnjk58cvqqk","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Inverting C = (5/9)(F-32) gives F = (9/5)C + 32, the standard Celsius-to-Fahrenheit conversion.""]",,"false","$C=\dfrac{5}{9}(F-32)\Rightarrow \dfrac{9}{5}C=F-32\Rightarrow F=\dfrac{9}{5}C+32$. This is the inverse function converting Celsius to Fahrenheit.
+
+Using it for $C=25$: $F=\dfrac{9}{5}(25)+32=45+32=77$.
+
+So $25^{\circ}C$ corresponds to $77^{\circ}F$. (Note: the stem's closing phrase 'convert 25 C to Celsius' appears to be a wording slip in the source since C is already given in Celsius; the substantive computation the section asks for -- inverting C(F) to get F(C) and evaluating it -- gives 77 degrees Fahrenheit.)","exercise","unclassified","6","inverse-of-function","Inverse of a Function","Find the inverse function to convert Celsius to Fahrenheit, if $\mathrm{C}=\frac{5}{9}(\mathrm{~F}-32)$ and use it to convert $25^{\circ} \mathrm{C}$ to Celsius graphically.","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m177fr4qgwv951fv8perzbapz98ctdpf","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Evaluating a function defined with |.| and trig requires substituting the value first, then taking cos in radians and applying the absolute value.""]",,"false","$A(t)=|2\cos(t)|$, with t in seconds (radians as the argument of cosine).
+
+At $t=5$: $\cos(5)\approx0.2837$, so $A(5)=|2(0.2837)|\approx0.567$.
+
+The amplitude of the sound wave at $t=5$ seconds is approximately **0.567** (same units as the amplitude scale).","exercise","unclassified","9","function-evaluation","Evaluation of a Function","A sound wave's amplitude (A) is given by the function, $A(t)=|2 \cos (t)|$, where $t$ is time in seconds. If $\mathrm{t}=5$ seconds, what is the amplitude?","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m171r5cpy6g27acspjwes66y618cvhkk","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""A function is linear if its graph is a straight line (degree-1 in x); y = 3x+2 and y = x qualify, y = x^2 does not."",""The vertical line test confirms a graph represents a function regardless of whether it is linear.""]",,"false","i. $y=3x+2$: a straight line of slope 3, y-intercept 2. **Linear.**
+
+ii. $y=x$: a straight line through the origin, slope 1. **Linear.**
+
+iii. $y=x^{2}$: a parabola opening upward with vertex at the origin, not a straight line. **Not linear.**
+
+So (i) and (ii) are linear functions; (iii) is a non-linear (quadratic) function, verified by the vertical line test on each graph (every vertical line meets each graph exactly once, so all three are valid functions, but only the straight lines are linear).","exercise","unclassified","2","graphs-of-some-algebraic-functions","Graphs of Some Algebraic Functions","Sketch the graph of the following functions and identify the graphs which are linear.
+(i) $\mathrm{y}=3 x+2$
+(ii) $\mathrm{y}=x$
+(iii) $\mathrm{y}=x^{2}$","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m170bbsxwxqtf4s6vyr0n7a0m58cvjfa","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Each standard function family has a recognizable graph shape and key features (intercepts, asymptotes, domain) that can be sketched from the rule directly.""]",,"false","i. $y=3^{x}$: exponential curve, passes through $(0,1)$, always positive, increasing, horizontal asymptote $y=0$.
+
+ii. $y=|x|$: V-shaped graph with vertex at the origin, symmetric about the y-axis.
+
+iii. $y=x^{3}$: cubic curve, passes through the origin, increasing everywhere, point symmetry about the origin.
+
+iv. $y=\sqrt{x+2}$: square-root curve starting at $(-2,0)$ (domain $x\geq-2$), increasing, concave down.
+
+v. $y=\dfrac{1}{x-1}$: reciprocal curve with a vertical asymptote at $x=1$ and horizontal asymptote $y=0$, two branches.","exercise","unclassified","3","graphs-of-some-algebraic-functions","Graphs of Some Algebraic Functions","Sketch the graph of the following functions.
+(i) $\mathrm{y}=3^{x}$
+(ii) $\mathrm{y}=|x|$
+(iii) $\mathrm{y}=x^{3}$
+(iv) $\mathrm{y}=\sqrt{x+2}$
+(v) $y=\frac{1}{x-1}$","ms7cj2144hr9pe51ee49hvz48s8bvant"
+"maths-10","06-functions-and-graphs","Functions and Graphs","6-3-graphs-of-some-algebraic-functions","6.3 Graphs of Some Algebraic Functions","m1768h4s5ybt20d88tb3x72smh8ct3z3","xd70pn2g72h1c18avste59qcms8dz0k5","Exercise 6.3","[""Setting the two linear rules equal and solving for x gives the x-coordinate where their graphs intersect, i.e. where supply equals demand.""]",,"false","$D(x)=100-5x$, $S(x)=x-200$.
+
+Setting supply equal to demand: $x-200=100-5x\Rightarrow 6x=300\Rightarrow x=50$.
+
+At $x=50$: $D(50)=100-250=-150$; the two lines intersect where $x=50$ (the algebraic solution of $D(x)=S(x)$, the point the two graphs would cross).","exercise","numerical","7","graphs-of-some-algebraic-functions","Graphs of Some Algebraic Functions","If demand function of a product is $\mathrm{D}(x)=100-5 x$ and supply function is $\mathrm{S}(x)=x-200$. Draw graphs of both functions on same graph by using same scale and find the value of $x$ for which the supply will become equal to demand?","ms7cj2144hr9pe51ee49hvz48s8bvant"

@@ -1,0 +1,46 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_creationTime": 1777383923624.0403,
+    "_id": "kx733s3hj1fv8bbcn9ywhnhcks85qt92",
+    "createdAt": 1777383923624,
+    "mdxBody": "## What is a Computational Artifact?\n\nA **computational artifact** is anything created by a human using a computer. It is a product of computational thinking and problem-solving. Computational artifacts can be:\n\n- **Programs / Software**, desktop apps, mobile apps, games\n- **Digital Media**, images, audio files, videos, animations\n- **Documents & Presentations**, spreadsheets, slide decks, web pages\n- **Databases**, structured collections of data\n- **Algorithms**, step-by-step procedures encoded in software (e.g., AI models)\n\n> A computational artifact is distinct from the computer hardware itself, it is the *output* of human creativity enabled by computing tools.\n\n---\n\n## Why Create Computational Artifacts?\n\nCreating artifacts allows individuals to:\n\n1. **Solve real-world problems**, e.g., a budgeting app that automates calculations.\n2. **Express creativity**, e.g., digital art, music production software.\n3. **Communicate ideas**, e.g., a website or social media platform.\n4. **Collaborate**, e.g., shared documents, version-controlled codebases.\n\n---\n\n## The Development Process\n\nCreating a quality computational artifact is rarely a one-step process. It follows a structured cycle:\n\n### 1. Analysis\nIdentify the problem or need. Define requirements: *What should the artifact do? Who will use it?*\n\n### 2. Design\nPlan the solution using tools such as:\n- **Pseudocode**, plain-language description of the algorithm\n- **Flowcharts**, visual representation of logic and flow\n- **Wireframes**, layout sketches for user interfaces\n\n### 3. Development (Coding)\nTranslate the design into a working artifact using a programming language or digital tool.\n\n### 4. Testing\nVerify that the artifact works correctly. Types of testing include:\n- **Unit testing**, testing individual components\n- **Integration testing**, testing how components work together\n- **User testing**, real users interact with the artifact\n\n### 5. Iteration\n**Iteration** is the process of repeatedly refining and improving the artifact based on testing results and user feedback. Each cycle produces a better version until the artifact meets its goals.\n\n```\nAnalyse → Design → Develop → Test → Refine → (repeat)\n```\n\n---\n\n## Complexity of Artifacts\n\n| Simple Artifacts | Complex Artifacts |\n|---|---|\n| A text document | A mobile banking application |\n| A static web page | A large-scale relational database |\n| A basic image | A 3D animated film |\n| A short script | An AI recommendation algorithm |\n\nComplex artifacts are typically built by **teams**, use **modular design** (breaking the problem into sub-problems), and go through many iterations.\n\n---\n\n## Computational Thinking Connection\n\nCreating artifacts requires the four pillars of computational thinking:\n\n- **Decomposition**, break the artifact into smaller, manageable parts\n- **Pattern Recognition**, identify reusable solutions\n- **Abstraction**, focus on essential features, hide unnecessary detail\n- **Algorithm Design**, define the step-by-step logic the artifact will follow",
+    "publishedAt": 1777383923624,
+    "slug": "2-1-computational-artifacts",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-11"
+    },
+    "status": "published",
+    "title": "2.1 Computational Artifacts",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "updatedAt": 1787554366685
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_creationTime": 1777383924686.6794,
+    "_id": "kx78d65f9a8mxzrst3hyhnfg2585p5sh",
+    "createdAt": 1777383924686,
+    "mdxBody": "An **algorithm** is a step-by-step procedure for solving a problem. Two fundamental categories of algorithms studied in computing are **searching algorithms** and **sorting algorithms**.\n\n---\n\n## Searching Algorithms\n\nSearching algorithms locate a specific element (the **target**) within a data structure.\n\n### Linear Search\n\nLinear Search (also called Sequential Search) examines each element one by one from the beginning until the target is found or the list ends.\n\n**How it works:**\n1. Start at the first element.\n2. Compare the current element with the target.\n3. If they match, return the position.\n4. If not, move to the next element.\n5. If the end of the list is reached without a match, report \"not found\".\n\n**Key properties:**\n- Works on **unsorted** and sorted lists.\n- Simple to implement.\n- Worst-case time: $O(n)$, must check every element.\n\n**Example:** Finding the number 7 in the list `[3, 9, 1, 7, 5]`:\n- Check 3 → no\n- Check 9 → no\n- Check 1 → no\n- Check 7 → **found at index 3**\n\n---\n\n### Binary Search\n\nBinary Search uses a **divide-and-conquer** strategy. It repeatedly halves the search interval.\n\n**Prerequisite:** The list **must be sorted**.\n\n**How it works:**\n1. Set `low = 0`, `high = n - 1`.\n2. Calculate `mid = (low + high) / 2`.\n3. If `list[mid] == target` → found.\n4. If `target < list[mid]` → search the **lower half**: set `high = mid - 1`.\n5. If `target > list[mid]` → search the **upper half**: set `low = mid + 1`.\n6. Repeat until found or `low > high` (not found).\n\n**Key properties:**\n- Requires a **sorted** list.\n- Much faster than Linear Search for large datasets.\n- Worst-case time: $O(\\log n)$.\n\n**Example:** Finding 7 in the sorted list `[1, 3, 5, 7, 9]`:\n- `low=0`, `high=4`, `mid=2` → `list[2]=5` → 7 > 5, so `low=3`\n- `low=3`, `high=4`, `mid=3` → `list[3]=7` → **found at index 3**\n\n---\n\n## Sorting Algorithms\n\nSorting algorithms arrange elements of a list in a specific order (usually ascending or descending).\n\n### Bubble Sort\n\nBubble Sort repeatedly compares **adjacent** elements and swaps them if they are in the wrong order.\n\n**How it works:**\n1. Start at the beginning of the list.\n2. Compare element at position $i$ with element at position $i+1$.\n3. If they are in the wrong order, swap them.\n4. Move to the next pair.\n5. After one full pass, the **largest element** is at the end.\n6. Repeat for the remaining unsorted portion.\n\n**Key property:** After each pass, the next largest element is placed in its correct final position.\n\n**Example:** Sorting `[5, 3, 8, 1]`:\n- Pass 1: `[3, 5, 1, 8]` → 8 is in place\n- Pass 2: `[3, 1, 5, 8]` → 5 is in place\n- Pass 3: `[1, 3, 5, 8]` → sorted!\n\n---\n\n### Selection Sort\n\nSelection Sort divides the list into a **sorted** and an **unsorted** part. It repeatedly selects the minimum element from the unsorted part and moves it to the end of the sorted part.\n\n**How it works:**\n1. Find the minimum element in the unsorted portion.\n2. Swap it with the first element of the unsorted portion.\n3. The sorted portion grows by one element.\n4. Repeat until the entire list is sorted.\n\n**Example:** Sorting `[64, 25, 12, 22]`:\n- Pass 1: min=12 → swap with 64 → `[12, 25, 64, 22]`\n- Pass 2: min=22 → swap with 25 → `[12, 22, 64, 25]`\n- Pass 3: min=25 → swap with 64 → `[12, 22, 25, 64]` → sorted!\n\n---\n\n### Insertion Sort\n\nInsertion Sort builds the sorted array **one element at a time**, similar to how you sort playing cards in your hand.\n\n**How it works:**\n1. Start with the second element (the first element is trivially sorted).\n2. Pick the current element (the **key**).\n3. Compare the key with elements in the sorted portion (to its left).\n4. Shift all elements greater than the key one position to the right.\n5. Insert the key into its correct position.\n6. Repeat for all remaining elements.\n\n**Example:** Sorting `[4, 2, 7, 1]`:\n- Step 1: key=2 → shift 4 right → `[2, 4, 7, 1]`\n- Step 2: key=7 → 7 > 4, no shift → `[2, 4, 7, 1]`\n- Step 3: key=1 → shift 7, 4, 2 right → `[1, 2, 4, 7]` → sorted!\n\n---\n\n## Comparison Summary\n\n| Algorithm | Type | Requires Sorted? | Best For |\n|---|---|---|---|\n| Linear Search | Searching | No | Small or unsorted lists |\n| Binary Search | Searching | **Yes** | Large sorted lists |\n| Bubble Sort | Sorting |, | Simple/educational use |\n| Selection Sort | Sorting |, | Small lists |\n| Insertion Sort | Sorting |, | Nearly sorted lists |",
+    "publishedAt": 1777383924686,
+    "slug": "2-2-common-computing-algorithms",
+    "sourceRef": {
+      "blockIndex": 67,
+      "chapterNumber": 2,
+      "subjectSlug": "computer-11"
+    },
+    "status": "published",
+    "title": "2.2 Common Computing Algorithms",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd",
+    "updatedAt": 1787554366992
+  }
+]

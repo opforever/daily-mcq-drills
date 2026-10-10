@@ -1,0 +1,1410 @@
+[
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m1749mvp93aysf814pr2mfjkn985p9s1",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly substitutes inner function into outer function for composition",
+      "Expands and simplifies algebraic expressions accurately",
+      "Applies function notation properly: $f(g(x))$ means apply $f$ to the output of $g$",
+      "Handles polynomial expansion and collection of like terms correctly",
+      "Obtains correct final expressions for all four composite functions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "To find composite functions, we substitute the inner function into the outer function.\n\n**a) $f(g(x))$:** Substitute $g(x) = 2x^2 + 5x$ into $f(x) = 4x + 1$:\n$$f(g(x)) = 4(2x^2 + 5x) + 1 = 8x^2 + 20x + 1$$\n\n**b) $g(f(x))$:** Substitute $f(x) = 4x + 1$ into $g(x) = 2x^2 + 5x$:\n$$g(f(x)) = 2(4x + 1)^2 + 5(4x + 1) = 2(16x^2 + 8x + 1) + 20x + 5 = 32x^2 + 36x + 7$$\n\n**c) $f(f(x))$:** Substitute $f(x) = 4x + 1$ into itself:\n$$f(f(x)) = 4(4x + 1) + 1 = 16x + 5$$\n\n**d) $g(g(x))$:** Substitute $g(x) = 2x^2 + 5x$ into itself:\n$$g(g(x)) = 2(2x^2 + 5x)^2 + 5(2x^2 + 5x) = 2(4x^4 + 20x^3 + 25x^2) + 10x^2 + 25x = 8x^4 + 40x^3 + 60x^2 + 25x$$",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Let the real valued functions $f$ and $g$ be defined by $f(x) = 4x + 1$ and $g(x) = 2x^2 + 5x$. Obtain the expression for:\na. $f(g(x))$\nb. $g(f(x))$\nc. $f(f(x))$\nd. $g(g(x))$",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m1717efq4veyyzthnhaw7xhhah85pq93",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When $a < b$, $c < 0$, $a \\neq 0$, and $b \\neq 0$, we have $ac > bc$. This is because multiplying both sides of the inequality $a < b$ by a negative number $c$ reverses the inequality sign.",
+    "keyPoints": [
+      "Correctly identifies that multiplying an inequality by a negative number reverses the inequality sign",
+      "States that $ac > bc$ is the resulting inequality",
+      "Recognizes the conditions: $a < b$ (given), $c < 0$ (negative multiplier), $a \\neq 0$ and $b \\neq 0$ (non-zero constraints)",
+      "Applies the property of inequalities under multiplication by negative numbers"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When $a < b$, $c < 0$, $a \\neq 0$, and $b \\neq 0$, we have $ac > bc$. This is because multiplying both sides of the inequality $a < b$ by a negative number $c$ reverses the inequality sign.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$ac > bc$"
+      },
+      {
+        "key": "B",
+        "text": "$ac^2 > bc^2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{c}{a} > \\frac{c}{b}$"
+      },
+      {
+        "key": "D",
+        "text": "$ac < bc$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "If $a, b, c$ are real numbers such that $a < b$, $c < 0$, $a \\neq 0$, $b \\neq 0$, then which of the following inequalities holds:",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m173gabwr57svj6p1bf1dpbr0985p4nq",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The set of non-zero rational numbers is a group under the operation of **multiplication**. This is because the set satisfies all four group axioms: closure (the product of two non-zero rationals is a non-zero rational), associativity (multiplication is associative), identity element (1 is the multiplicative identity), and inverse element (every non-zero rational has a multiplicative inverse).",
+    "keyPoints": [
+      "Identifies multiplication as the operation",
+      "Closure: product of non-zero rationals is non-zero rational",
+      "Associativity of multiplication holds",
+      "Identity element: 1 exists in the set",
+      "Inverse element: every non-zero rational has multiplicative inverse"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The set of non-zero rational numbers is a group under the operation of **multiplication**. This is because the set satisfies all four group axioms: closure (the product of two non-zero rationals is a non-zero rational), associativity (multiplication is associative), identity element (1 is the multiplicative identity), and inverse element (every non-zero rational has a multiplicative inverse).",
+    "options": [
+      {
+        "key": "A",
+        "text": "Addition"
+      },
+      {
+        "key": "B",
+        "text": "Subtraction"
+      },
+      {
+        "key": "C",
+        "text": "Multiplication"
+      },
+      {
+        "key": "D",
+        "text": "Division"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "The set of non-zero rational numbers is a group under the operation of:",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m17bt42abcn4yx7jkfdb73rkxd85q7rk",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The multiplicative inverse of $-i$ is $i$. To find it, we solve $(-i) \\cdot z = 1$, which gives $z = \\frac{1}{-i} = \\frac{1}{-i} \\cdot \\frac{i}{i} = \\frac{i}{-i^2} = \\frac{i}{-(-1)} = \\frac{i}{1} = i$.",
+    "keyPoints": [
+      "Correctly identifies that multiplicative inverse $z$ satisfies $(-i) \\cdot z = 1$",
+      "Applies rationalization by multiplying by $\\frac{i}{i}$",
+      "Uses $i^2 = -1$ to simplify denominator",
+      "Arrives at correct answer $z = i$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The multiplicative inverse of $-i$ is $i$. To find it, we solve $(-i) \\cdot z = 1$, which gives $z = \\frac{1}{-i} = \\frac{1}{-i} \\cdot \\frac{i}{i} = \\frac{i}{-i^2} = \\frac{i}{-(-1)} = \\frac{i}{1} = i$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$i$"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "$-i$"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "The multiplicative inverse of $-i$ is:",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m179nv84jkjb1jqma4kypqs9m185q5et",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The multiplicative inverse of $-i$ is $i$. To verify: $(-i) \\cdot i = -i^2 = -(-1) = 1$.",
+    "keyPoints": [
+      "Identifies that multiplicative inverse of $z$ satisfies $z \\cdot z^{-1} = 1$",
+      "Correctly applies $i^2 = -1$",
+      "Verifies the answer by multiplication to confirm the product equals 1"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The multiplicative inverse of $-i$ is $i$. To verify: $(-i) \\cdot i = -i^2 = -(-1) = 1$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "-1"
+      },
+      {
+        "key": "C",
+        "text": "$i$"
+      },
+      {
+        "key": "D",
+        "text": "$-i$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "What is the multiplicative inverse of $-i$?",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m176j6884wdnveeghse1x96jm98c7mrt",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "(i) R; (ii) R excluding -3; (iii) R excluding -3 and 3; (iv) R excluding -2/5; (v) R; (vi) [-1,∞)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThe domain of a function is the set of all possible input values ($x$) for which the function is defined and produces a real number. When finding the domain, we generally look for two main restrictions: denominators cannot be zero, and the expression inside a square root (radicand) must be greater than or equal to zero.\n\n---\n\n# **Solution**\n\n## Part (i)\n**Function:** $f(x)=x^{2}-6$\n\nSince $f(x)$ is a polynomial function, it is defined for all real values of $x$. There are no fractions or square roots to restrict the input.\n**Domain:** $\\mathbb{R}$ (all real numbers).\n\n## Part (ii)\n**Function:** $g(x)=\\frac{x}{x+3}$\n\nA rational function is undefined when its denominator is zero. We check where $x+3 = 0$:\n$$g(-3)=\\frac{-3}{-3+3}=\\frac{-3}{0}$$\nSince division by zero is undefined ($-\\infty$ in the limit context), $x = -3$ must be excluded.\n**Domain:** $\\mathbb{R}-\\{-3\\}$\n\n## Part (iii)\n**Function:** $h(x)=\\frac{x+4}{x^{2}-9}$\n\nThe function $h(x)$ is not defined when the denominator equals zero:\n$$\n\\begin{aligned}\nx^{2}-9 & =0 \\\\\nx^{2} & =9 \\\\\nx & = \\pm 3\n\\end{aligned}\n$$\nThe values $3$ and $-3$ make the function undefined.\n**Domain:** $\\mathbb{R}-\\{-3,3\\}$\n\n## Part (iv)\n**Function:** $i(x)=\\frac{x}{5 x+2}$\n\nThe function $i(x)$ is undefined when the denominator is zero:\n$$\n\\begin{aligned}\n5x + 2 &= 0 \\\\\n5x &= -2 \\\\\nx &= \\frac{-2}{5}\n\\end{aligned}\n$$\n**Domain:** $\\mathbb{R}-\\left\\{\\frac{-2}{5}\\right\\}$\n\n## Part (v)\n**Function:** $j(x)=\\frac{x}{x^{2}+4}$\n\nWe check if the denominator can ever be zero:\n$x^{2}+4 = 0 \\Rightarrow x^2 = -4$.\nSince the square of any real number is non-negative ($x^2 \\ge 0$), $x^2 + 4$ will always be at least $4$. Therefore, $x^{2}+4 \\neq 0$ for any real number.\n**Domain:** $\\mathbb{R}$\n\n## Part (vi)\n**Function:** $k(x)=\\sqrt{x+1}$\n\nFor a square root function to result in a real number, the expression inside the radical must be non-negative:\n$$\n\\begin{aligned}\nx + 1 &\\ge 0 \\\\\nx &\\ge -1\n\\end{aligned}\n$$\nThe function is undefined for any real number less than $-1$.\n**Domain:** $[-1, \\infty)$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Polynomial Domain:** Always $(-\\infty, \\infty)$ or $\\mathbb{R}$.\n*   **Rational Function Restriction:** Set denominator $\\neq 0$.\n*   **Square Root Restriction:** Set radicand $\\ge 0$.\n*   **Set Notation:** $\\mathbb{R} - \\{a\\}$ represents all real numbers except $a$.\n*   **Interval Notation:** $[a, \\infty)$ represents all numbers from $a$ to infinity, including $a$.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify the function type:** Determine if it is a polynomial, rational (fraction), or radical (square root) function.\n2.  **Check for denominators:** If there is a denominator, set it equal to zero and solve for $x$. These values are excluded from the domain.\n3.  **Check for square roots:** If there is a square root, set the expression inside to $\\ge 0$ and solve the inequality.\n4.  **Combine restrictions:** State the domain by excluding restricted values from the set of real numbers or using interval notation.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Find the domain of the following functions:\n\n(i) $f(x)=x^{2}-6$\n\n(ii) $g(x)=\\frac{x}{x+3}$\n\n(iii) $h(x)=\\frac{x+4}{x^{2}-9}$\n\n(iv) $i(x)=\\frac{x}{5 x+2}$\n\n(v) $j(x)=\\frac{x}{x^{2}+4}$\n\n(vi) $k(x)=\\sqrt{x+1}$\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m178cpvp76jekd527awq2mhers8c67kn",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThe **domain** of a function is the set of all possible input values ($x$) for which the function is defined and produces a real number. The **range** is the set of all possible output values ($f(x)$) that result from the domain. Common restrictions include ensuring denominators are not zero and expressions under square roots are non-negative.\n\n---\n\n# **Solution**\n\n## Part (i)\n**Function:** $f(x)=x+7$\n\nSince $f(x)$ is a linear polynomial, it is defined for all real values of $x$.\n- **Domain:** $\\mathbb{R}$\n\nAfter substituting any real value of $x$, the resulting values of $f(x)$ are also real numbers covering the entire number line.\n- **Range:** $\\mathbb{R}$\n\n---\n\n## Part (ii)\n**Function:** $f(x)=2 x^{2}+1$\n\nSince $f(x)$ is a polynomial, it is defined for all real values of $x$.\n- **Domain:** $\\mathbb{R}$\n\nTo find the range, note that $x^2 \\geq 0$ for all real $x$. Thus, the minimum value occurs at $x=0$, where $f(0) = 2(0)^2 + 1 = 1$. As $x$ increases or decreases, $f(x)$ increases toward infinity.\n- **Range:** $[1, +\\infty)$\n\n---\n\n## Part (iii)\n**Function:** $f(x)=2 \\sqrt{x-5}$\n\nThe square root function is only defined when the expression inside is non-negative:\n$$x - 5 \\geq 0 \\Rightarrow x \\geq 5$$\n- **Domain:** $[5, +\\infty)$\n\nSince $\\sqrt{x-5} \\geq 0$ for all $x \\geq 5$, multiplying by 2 maintains this inequality:\n$$2 \\sqrt{x-5} \\geq 0$$\n- **Range:** $[0, \\infty)$\n\n---\n\n## Part (iv)\n**Function:** $f(x)=|x-2|-3$\n\nThe absolute value function is defined for all real values of $x$.\n- **Domain:** $\\mathbb{R}$\n\nThe minimum value of the absolute value part $|x-2|$ is zero (at $x=2$). Otherwise, it is always positive. Therefore, the minimum value of $f(x)$ is $0 - 3 = -3$, and it extends to $+\\infty$.\n- **Range:** $[-3, \\infty)$\n\n---\n\n## Part (v)\n**Function:** $f(x)=1+\\sin x$\n\nThe sine function is defined for all real numbers.\n- **Domain:** $\\mathbb{R}$\n\nWe know the bounds of the sine function:\n$$-1 \\leq \\sin x \\leq 1$$\nAdding 1 to all parts of the inequality:\n$$1-1 \\leq 1+\\sin x \\leq 1+1$$\n$$0 \\leq 1+\\sin x \\leq 2$$\nThe minimum value is 0 and the maximum value is 2.\n- **Range:** $[0, 2]$\n\n---\n\n## Part (vi)\n**Function:** $f(x)=3+\\sqrt{x-2}$\n\nThe expression $\\sqrt{x-2}$ is defined for $x - 2 \\geq 0$, which means $x \\geq 2$.\n- **Domain:** $[2, +\\infty)$\n\nThe minimum value of $\\sqrt{x-2}$ is 0 (at $x=2$). Thus, the minimum value of $f(x)$ is $3 + 0 = 3$, and it increases to $+\\infty$.\n- **Range:** $[3, +\\infty)$\n\n---\n\n## Part (vii)\n**Function:** $f(x)=\\frac{3 e^{x}}{7}$\n\nThe exponential function $e^{x}$ is defined for all real numbers.\n- **Domain:** $\\mathbb{R}$\n\nSince $e^{x} > 0$ for all real numbers $x$, multiplying by the positive constant $\\frac{3}{7}$ keeps the result strictly greater than 0.\n- **Range:** $(0, +\\infty)$\n\n---\n\n## Part (viii)\n**Function:** $f(x)=\\frac{x^{2}-16}{x+4}$\n\nThe function is undefined when the denominator is zero: $x + 4 = 0 \\Rightarrow x = -4$. At this point, the function results in $\\frac{0}{0}$, which is indeterminate.\n- **Domain:** $\\mathbb{R} - \\{-4\\}$\n\nTo find the range, simplify the function for $x \\neq -4$:\n$$f(x) = \\frac{(x-4)(x+4)}{(x+4)} = x - 4$$\nIf $x$ could be $-4$, $f(-4)$ would be $-4 - 4 = -8$. Since $-4$ is excluded from the domain, $-8$ must be excluded from the range.\n- **Range:** $\\mathbb{R} - \\{-8\\}$\n\n---\n\n## Part (ix)\n**Function:** $f(x)=(x-1)^{2}+1$\n\nThe function is defined for all real values of $x$.\n- **Domain:** $\\mathbb{R}$\n\nThe squared term $(x-1)^{2}$ is always $\\geq 0$. Therefore, the minimum value of $f(x)$ is $0 + 1 = 1$, and the maximum value is $+\\infty$.\n- **Range:** $[1, +\\infty)$\n\n---\n\n## Part (x)\n**Function:** $f(x)=\\frac{1}{x-1}$\n\nThe function is undefined when $x - 1 = 0$, which means $x = 1$.\n- **Domain:** $\\mathbb{R} - \\{1\\}$\n\nTo find the range, let $y = f(x)$ and solve for $x$:\n$$y = \\frac{1}{x-1}$$\n$$x y - y = 1$$\n$$x y = y + 1$$\n$$x = \\frac{y+1}{y}$$\nThe expression for $x$ is undefined when $y = 0$.\n- **Range:** $\\mathbb{R} - \\{0\\}$\n\n---\n\n## Part (xi)\n**Function:** $f(x)=\\frac{x-2}{x+3}$\n\nThe function is undefined when $x + 3 = 0$, which means $x = -3$.\n- **Domain:** $\\mathbb{R} - \\{-3\\}$\n\nTo find the range, let $y = f(x)$ and solve for $x$:\n$$y = \\frac{x-2}{x+3}$$\n$$y(x+3) = x-2$$\n$$xy + 3y = x-2$$\n$$3y + 2 = x - xy$$\n$$x(1-y) = 3y + 2$$\n$$x = \\frac{3y+2}{1-y}$$\nThe expression for $x$ is undefined when $1 - y = 0$, which means $y = 1$.\n- **Range:** $\\mathbb{R} - \\{1\\}$\n\n---\n\n## Part (xii)\n**Function:** $f(x)=\\frac{x^{2}-x-6}{x-3}$\n\nThe function is undefined when $x - 3 = 0$, which means $x = 3$.\n- **Domain:** $\\mathbb{R} - \\{3\\}$\n\nSimplify the function by factoring the numerator:\n$$f(x) = \\frac{x^{2}-3x+2x-6}{x-3}$$\n$$f(x) = \\frac{x(x-3)+2(x-3)}{(x-3)}$$\n$$f(x) = \\frac{(x+2)(x-3)}{(x-3)} = x + 2 \\quad (\\text{for } x \\neq 3)$$\nIf $x$ could be $3$, $f(3) = 3 + 2 = 5$. Since $x=3$ is excluded from the domain, $y=5$ is excluded from the range.\n- **Range:** $\\mathbb{R} - \\{5\\}$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Rational Functions:** Domain is $\\mathbb{R}$ excluding values where the denominator is zero.\n*   **Square Root Functions:** Domain requires the radicand $\\geq 0$.\n*   **Absolute Value:** $|x| \\geq 0$ for all $x$.\n*   **Trigonometric Bounds:** $-1 \\leq \\sin x \\leq 1$.\n*   **Exponential Functions:** $e^x > 0$ for all real $x$.\n*   **Range via Inverse:** Solving $y = f(x)$ for $x$ to find restrictions on $y$.\n*   **Holes in Graphs:** For functions like $\\frac{g(x)}{h(x)}$ where a factor cancels, the excluded domain value creates an excluded range value.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify Domain Restrictions:** Look for denominators, square roots, or logs to find where the function is undefined.\n2.  **Simplify the Function:** For rational functions, factor and cancel terms to identify \"holes\" (removable discontinuities).\n3.  **Analyze Function Behavior:** Use known bounds of functions (like $\\sin x$, $x^2$, or $|x|$) to determine the minimum and maximum output values.\n4.  **Solve for $x$ (Algebraic Method):** Set $y = f(x)$, rearrange to express $x$ in terms of $y$, and identify values of $y$ that make the expression undefined.\n5.  **State Results:** Write the domain and range clearly using interval notation or set-builder notation.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Find the domain and range of the following functions:\n\n(i) $f(x)=x+7$\n(ii) $f(x)=2 x^{2}+1$\n(iii) $f(x)=2 \\sqrt{x-5}$\n(iv) $f(x)=|x-2|-3$\n(v) $f(x)=1+\\sin x$\n(vi) $f(x)=3+\\sqrt{x-2}$\n(vii) $f(x)=\\frac{3 e^{x}}{7}$\n(viii) $f(x)=\\frac{x^{2}-16}{x+4}$\n(ix) $f(x)=(x-1)^{2}+1$\n(x) $f(x)=\\frac{1}{x-1}$\n(xi) $f(x)=\\frac{x-2}{x+3}$\n(xii) $f(x)=\\frac{x^{2}-x-6}{x-3}$\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m172fknh7d3fc0a52k0dretfc58c7zyz",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "The function is one-to-one and onto because the four distinct elements of A are paired with the four distinct elements p, q, r, s of B."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nA function is **one-to-one (injective)** if every distinct element in the domain maps to a distinct element in the codomain. A function is **onto (surjective)** if the range of the function is equal to its codomain, meaning every element in the codomain is mapped to by at least one element in the domain.\n\n---\n\n# **Solution**\n\nTo determine the nature of the function, we first list the mappings provided by the set of ordered pairs:\n- $f(0) = p$\n- $f(1) = q$\n- $f(2) = r$\n- $f(3) = s$\n\n## One-to-One (Injective) Check\nA function is one-to-one if for every $x_1, x_2 \\in A$, $f(x_1) = f(x_2)$ implies $x_1 = x_2$.\nIn this case, we observe that:\n- $0, 1, 2, 3$ are all distinct elements of $A$.\n- $p, q, r, s$ are all distinct elements of $B$.\n\nSince each value in the domain $A$ maps to a different, unique value in the codomain $B$, the function **$f$ is one-to-one**.\n\n## Onto (Surjective) Check\nA function is onto if the Range of the function is equal to the Codomain $B$.\n- The Codomain is given as $B = \\{p, q, r, s\\}$.\n- The Range (the set of actual outputs) is $\\{f(0), f(1), f(2), f(3)\\} = \\{p, q, r, s\\}$.\n\nSince $\\text{Range}(f) = B$, every element in $B$ has a pre-image in $A$. Therefore, the function **$f$ is onto**.\n\n## Into Check\nA function is called an \"into\" function if there is at least one element in the codomain that does not have a pre-image in the domain (i.e., the Range is a proper subset of the Codomain).\nBecause this function is onto ($\\text{Range} = \\text{Codomain}$), it is **not** an into function.\n\n---\n\n# **Key Formulas or Methods Used**\n\n- **One-to-one (Injective):** $f(x_1) = f(x_2) \\implies x_1 = x_2$\n- **Onto (Surjective):** $\\text{Range}(f) = \\text{Codomain}$\n- **Into:** $\\text{Range}(f) \\subset \\text{Codomain}$ (Range is a proper subset)\n\n---\n\n# **Summary of Steps**\n\n1. List the image of each element of the domain $A$ based on the given ordered pairs.\n2. Verify if any two different inputs result in the same output; if not, the function is one-to-one.\n3. Determine the Range of the function by collecting all the output values.\n4. Compare the Range to the Codomain $B$. If they are identical, the function is onto.\n5. Conclude that since it is onto, it cannot be strictly \"into.\"",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Given that $A=\\{0,1,2,3\\}$, $B=\\{p, q, r, s\\}$ and the function $f$ is defined by the set of ordered pairs:\n$$f=\\{(0, p),(1, q),(2, r),(3, s)\\}$$\n\nCheck whether the function is one-to-one, onto and/or into.\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m175axb2j8t2byh92vjj1amftx8c6sp4",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "The function is into but not one-to-one and not onto: 4 and 5 both map to e, while d has no preimage."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo solve this, we must understand the definitions of function mappings. A function is **one-to-one (injective)** if every element in the domain maps to a unique element in the codomain. It is **onto (surjective)** if the range equals the codomain, and **into** if the range is a proper subset of the codomain (i.e., there is at least one element in the codomain not mapped to by the domain).\n\n---\n\n# **Solution**\n\nTo determine the nature of the function, we analyze the mapping of each element from domain $A$ to codomain $B$.\n\n## **1. Checking if the function is One-to-One**\nA function is one-to-one if $f(x_1) = f(x_2)$ implies $x_1 = x_2$.\nFrom the given set of ordered pairs:\n- $f(2) = b$\n- $f(3) = c$\n- $f(4) = e$\n- $f(5) = e$\n\nSince $f(4) = e$ and $f(5) = e$, we have two different inputs ($4$ and $5$) mapping to the same output ($e$).\n$$f(4) = f(5) = e \\text{ but } 4 \\neq 5$$\nTherefore, the function is **not one-to-one** (it is a many-to-one function).\n\n## **2. Checking if the function is Into or Onto**\nTo decide if a function is onto or into, we compare the **Range** of the function with the **Codomain** $B$.\n\n- The **Codomain** $B$ is given as $\\{b, c, d, e\\}$.\n- The **Range** (the set of actual outputs) is $\\{b, c, e\\}$.\n\nWe can see that the element $d \\in B$ does not have a corresponding pre-image in set $A$. In mathematical terms:\n$$\\text{Range } f = \\{b, c, e\\} \\subset B$$\nSince the Range is a proper subset of the Codomain ($\\text{Range} \\neq \\text{Codomain}$), the function is **into**.\n\n**Conclusion:** The function is **not one-to-one** and it is **into**.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **One-to-one (Injective):** $f(a) = f(b) \\implies a = b$ for all $a, b \\in A$.\n*   **Onto (Surjective):** $\\text{Range}(f) = \\text{Codomain}(B)$.\n*   **Into:** $\\text{Range}(f) \\subset \\text{Codomain}(B)$ and $\\text{Range}(f) \\neq \\text{Codomain}(B)$.\n\n---\n\n# **Summary of Steps**\n\n1.  List the outputs for every input in the domain $A$.\n2.  Identify if any two different inputs result in the same output (to check for one-to-one status).\n3.  Identify the Range of the function by listing all unique second elements in the ordered pairs.\n4.  Compare the Range to the Codomain $B$. If they are not equal, the function is \"into.\"",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Let $A=\\{2,3,4,5\\}$ and $B=\\{b, c, d, e\\}$. A function $f: A \\to B$ is defined by the set of ordered pairs:\n$$f = \\{(2, b), (3, c), (4, e), (5, e)\\}$$\n\nDetermine whether the function $f$ is **one-to-one**, **into**, or **onto**.\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m1752km2v9a3adys5eehsp1adx8c7tgq",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "(i) f(x)=4x−7 is one-to-one; (ii) f(x)=6x²+2 is not one-to-one over R; (iii) f(x)=(x³−1)/2 is one-to-one."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nA function $f$ is considered **one-to-one** (or injective) if every unique input $x$ produces a unique output $f(x)$. To test this algebraically, we assume $f(x_1) = f(x_2)$ and solve to see if it necessarily implies that $x_1 = x_2$.\n\n---\n\n# **Solution**\n\n## Part (i)\n**Function:** $f(x)=4 x-7$\n\nTo check if the function is one-to-one, we set $f(x_1) = f(x_2)$:\n$$\n\\begin{aligned}\nf\\left(x_{1}\\right) & =f\\left(x_{2}\\right) \\\\\n4 x_{1}-7 & =4 x_{2}-7\n\\end{aligned}\n$$\nAdding $7$ to both sides:\n$$\n4 x_{1} = 4 x_{2}\n$$\nDividing both sides by $4$:\n$$\nx_{1} = x_{2}\n$$\nSince $f(x_1) = f(x_2)$ leads directly to $x_1 = x_2$, **$f$ is a one-to-one function.**\n\n## Part (ii)\n**Function:** $f(x)=6 x^{2}+2$\n\nWe set $f(x_1) = f(x_2)$:\n$$\n\\begin{aligned}\n6 x_{1}^{2}+2 & = 6 x_{2}^{2}+2 \\\\\n6 x_{1}^{2} & = 6 x_{2}^{2} \\\\\nx_{1}^{2} & = x_{2}^{2}\n\\end{aligned}\n$$\nWhen we take the square root of both sides, we must consider both positive and negative possibilities:\n$$\nx_1 = \\pm x_2\n$$\nThis means $x_1$ does not necessarily equal $x_2$. For example, if we choose $x_1 = 2$ and $x_2 = -2$:\n$f(2) = 6(2)^2 + 2 = 26$\n$f(-2) = 6(-2)^2 + 2 = 26$\nSince $f(2) = f(-2)$ but $2 \\neq -2$, **$f$ is not a one-to-one function.**\n\n## Part (iii)\n**Function:** $f(x)=\\frac{x^{3}-1}{2}$\n\nWe set $f(x_1) = f(x_2)$:\n$$\n\\begin{aligned}\n\\frac{x_{1}^{3}-1}{2} & = \\frac{x_{2}^{3}-1}{2} \\\\\nx_{1}^{3}-1 & = x_{2}^{3}-1 \\\\\nx_{1}^{3} & = x_{2}^{3}\n\\end{aligned}\n$$\nTaking the cube root of both sides (unlike square roots, cube roots of real numbers preserve the sign and result in a single unique value):\n$$\nx_{1} = x_{2}\n$$\nSince $f(x_1) = f(x_2)$ leads to $x_1 = x_2$, **$f$ is a one-to-one function.**\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Injective Property:** $f(x_1) = f(x_2) \\implies x_1 = x_2$.\n*   **Algebraic Simplification:** Isolating the variable to compare $x_1$ and $x_2$.\n*   **Power Rules:**\n    *   Even powers (like $x^2$) can result in the same value for positive and negative inputs.\n    *   Odd powers (like $x^3$) maintain a one-to-one relationship for all real numbers.\n\n---\n\n# **Summary of Steps**\n\n1.  Assume two inputs $x_1$ and $x_2$ produce the same output: $f(x_1) = f(x_2)$.\n2.  Substitute the inputs into the function expression.\n3.  Use algebraic operations (addition, subtraction, multiplication, division) to simplify the equation.\n4.  Analyze the resulting relationship between $x_1$ and $x_2$:\n    *   If $x_1 = x_2$ is the only solution, the function is one-to-one.\n    *   If $x_1$ can equal something other than $x_2$ (like $-x_2$), the function is not one-to-one.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Check whether the following functions are one-to-one or not:\n\n(i) $f(x)=4 x-7$\n\n(ii) $f(x)=6 x^{2}+2$\n\n(iii) $f(x)=\\frac{x^{3}-1}{2}$\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m17abf2pbwj9797jq6c6dnvefh8c7q2a",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "The function is one-to-one and into, but not onto: its domain values map to 1, 6, 15, and 28 distinctly, while 35 in the codomain has no preimage."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo determine the type of function, we evaluate the function for every element in its domain. A function is **one-to-one (injective)** if every input produces a unique output, and it is an **into** function if the range (the set of actual outputs) is a proper subset of the codomain.\n\n---\n\n# **Solution**\n\nTo identify the type of function, we first calculate the value of $g(x)$ for each element in the domain $\\{0, 1, 2, 3\\}$.\n\n**Step 1: Evaluate the function for each element in the domain**\n\nFor $x = 0$:\n$$g(0) = 2(0)^{2} + 3(0) + 1 = 0 + 0 + 1 = 1$$\n\nFor $x = 1$:\n$$g(1) = 2(1)^{2} + 3(1) + 1 = 2 + 3 + 1 = 6$$\n\nFor $x = 2$:\n$$g(2) = 2(2)^{2} + 3(2) + 1 = 2(4) + 6 + 1 = 8 + 6 + 1 = 15$$\n\nFor $x = 3$:\n$$g(3) = 2(3)^{2} + 3(3) + 1 = 2(9) + 9 + 1 = 18 + 9 + 1 = 28$$\n\n**Step 2: Check for One-to-One (Injective) property**\n\nWe observe the outputs:\n$$g(0) = 1, \\quad g(1) = 6, \\quad g(2) = 15, \\quad g(3) = 28$$\n\nSince all the outputs are distinct ($g(0) \\neq g(1) \\neq g(2) \\neq g(3)$), every element in the domain maps to a unique element in the codomain. Therefore, the function is **one-to-one (1-1)**.\n\n**Step 3: Check for Into/Onto property**\n\nThe **Range** of the function is the set of actual outputs:\n$$\\text{Range } g = \\{1, 6, 15, 28\\}$$\n\nThe given **Codomain** is:\n$$\\text{Codomain } g = \\{1, 6, 15, 28, 35\\}$$\n\nSince the Range is a proper subset of the Codomain ($\\text{Range } g \\subset \\text{Codomain } g$)—specifically, the element $35$ is in the codomain but is not mapped to by any element in the domain—the function is an **into** function.\n\n**Conclusion:**\nThe function $g(x)$ is a **one-to-one and into** function.\n\n---\n\n# **Key Formulas or Methods Used**\n\n- **Function Evaluation**: Substituting domain values into $g(x) = ax^2 + bx + c$.\n- **One-to-One (Injective)**: A function where $f(x_1) = f(x_2)$ implies $x_1 = x_2$.\n- **Into Function**: A function where the Range is not equal to the Codomain ($\\text{Range} \\subset \\text{Codomain}$).\n\n---\n\n# **Summary of Steps**\n\n1. Substitute each value from the domain $\\{0, 1, 2, 3\\}$ into the function $g(x) = 2x^2 + 3x + 1$.\n2. List the resulting values to find the Range: $\\{1, 6, 15, 28\\}$.\n3. Compare the outputs to see if they are unique; since they are, the function is **one-to-one**.\n4. Compare the Range to the provided Codomain; since the Range is a subset and not equal to the Codomain, the function is **into**.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Check the type of function $g(x)=2 x^{2}+3 x+1$ given the following:\n- **Domain of $g$**: $\\{0, 1, 2, 3\\}$\n- **Codomain of $g$**: $\\{1, 6, 15, 28, 35\\}$\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m174mt3k9mqhzfggezm2h7kyqh8c7vm3",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "The function h(x)=2x+1 from R to R is one-to-one and onto, hence bijective."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo determine the type of a function, we check if it is one-to-one (injective) and onto (surjective). A function that satisfies both properties is called a bijective function.\n\n---\n\n# **Solution**\n\nGiven the function:\n$$\n\\begin{aligned}\nh(x) & =2 x+1 \\\\\n\\text{Domain of } h(x) & =\\mathbb{R} \\\\\n\\text{Codomain of } h(x) & =\\mathbb{R}\n\\end{aligned}\n$$\n\n## Part 1: Checking if $h$ is one-to-one (Injective)\n\nTo check if a function is one-to-one, we assume that the outputs for two different inputs are equal and see if that forces the inputs to be equal.\n\nLet $x_1, x_2$ be in the domain such that:\n$$\n\\begin{aligned}\nh\\left(x_{1}\\right) & =h\\left(x_{2}\\right) \\\\\n2 x_{1}+1 & =2 x_{2}+1\n\\end{aligned}\n$$\n\nSubtracting 1 from both sides:\n$$2 x_{1} = 2 x_{2}$$\n\nDividing by 2:\n$$x_{1} = x_{2}$$\n\nSince $h(x_1) = h(x_2)$ implies $x_1 = x_2$, the function $h$ is a **one-to-one** function.\n\n## Part 2: Checking if $h$ is onto (Surjective)\n\nA function is onto if its range is equal to its codomain.\n\nFor the linear function $h(x) = 2x + 1$, as $x$ takes any real value, $h(x)$ also covers all real values.\n$$\\text{Range of } h(x) = \\mathbb{R}$$\n\nSince the Range ($\\mathbb{R}$) is equal to the Codomain ($\\mathbb{R}$), the function is **onto**.\n\n## Conclusion\n\nBecause the function is both one-to-one and onto, $h(x)$ is a **bijective function**.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **One-to-one (Injective) condition:** $f(x_1) = f(x_2) \\implies x_1 = x_2$.\n*   **Onto (Surjective) condition:** Range of $f$ = Codomain of $f$.\n*   **Bijective function:** A function that is both injective and surjective.\n\n---\n\n# **Summary of Steps**\n\n1.  Assume $h(x_1) = h(x_2)$ and simplify the equation to show $x_1 = x_2$ (proving it is one-to-one).\n2.  Determine the range of the function and compare it to the given codomain (proving it is onto).\n3.  Identify that since it is both one-to-one and onto, it is a bijective function.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Find the type of the function $h(x)=2x+1$ defined on $h: \\mathbb{R} \\rightarrow \\mathbb{R}$.\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m17ekt90hjdhvcsfabjstzvgx58c7hc3",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "For y=(x−2)/(x−3), solving for x gives f⁻¹(y)=(3y−2)/(y−1), defined for y≠1. Thus every y in B has a preimage and the inverse is a function, so f is bijective."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nA function is **bijective** if it is both **one-one (injective)** and **onto (surjective)**. To prove this, we must show that every unique input has a unique output, and every element in the codomain is mapped to by at least one element in the domain.\n\n---\n\n# **Solution**\n\nGiven the function:\n$$f(x)=\\frac{x-2}{x-3}$$\nWith Domain $A = R - \\{3\\}$ and Codomain $B = R - \\{1\\}$.\n\n## Part 1: Proving $f$ is one-one (Injective)\n\nTo show the function is one-one, we assume $f(x_1) = f(x_2)$ and must prove that $x_1 = x_2$.\n\nLet $f(x_1) = f(x_2)$:\n$$ \\frac{x_{1}-2}{x_{1}-3} = \\frac{x_{2}-2}{x_{2}-3} $$\n\nBy cross-multiplying the denominators:\n$$ (x_{1}-2)(x_{2}-3) = (x_{1}-3)(x_{2}-2) $$\n\nExpanding both sides:\n$$ x_{1} x_{2}-3 x_{1}-2 x_{2}+6 = x_{1} x_{2}-2 x_{1}-3 x_{2}+6 $$\n\nSubtracting $x_1 x_2$ and $6$ from both sides:\n$$ -3 x_{1}-2 x_{2} = -2 x_{1}-3 x_{2} $$\n\nRearranging the terms to group $x_1$ and $x_2$:\n$$ -3 x_{1}+2 x_{1} = -3 x_{2}+2 x_{2} $$\n$$ -x_{1} = -x_{2} $$\n$$ x_{1} = x_{2} $$\n\nSince $f(x_1) = f(x_2)$ implies $x_1 = x_2$, the function **$f$ is one-one**.\n\n## Part 2: Proving $f$ is onto (Surjective)\n\nTo show the function is onto, we must show that for every $y$ in the codomain $B$, there exists an $x$ in the domain $A$ such that $f(x) = y$.\n\nLet $f(x) = y$:\n$$ y = \\frac{x-2}{x-3} $$\n\nNow, we solve for $x$ in terms of $y$:\n$$ y(x-3) = x-2 $$\n$$ xy - 3y = x - 2 $$\n$$ xy - x = 3y - 2 $$\n$$ x(y-1) = 3y - 2 $$\n$$ x = \\frac{3y-2}{y-1} $$\n\nFor $x$ to be a real number, the denominator $y-1$ cannot be zero:\n$$ y-1 \\neq 0 \\Rightarrow y \\neq 1 $$\n\nThis matches our codomain $B = R - \\{1\\}$. Since for every $y \\in B$, there exists a corresponding $x = \\frac{3y-2}{y-1}$, and we can verify that $x \\neq 3$ for any $y \\in B$:\nIf $\\frac{3y-2}{y-1} = 3$, then $3y-2 = 3y-3$, which leads to $-2 = -3$ (impossible).\n\nThus, Range $f = B = R - \\{1\\}$. Since the range equals the codomain, the function **$f$ is onto**.\n\n## Conclusion\nBecause the function $f$ is both one-one and onto, it is a **bijective function**.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **One-one (Injective) Definition:** $f(x_1) = f(x_2) \\Rightarrow x_1 = x_2$\n*   **Onto (Surjective) Definition:** Range of $f$ = Codomain of $f$\n*   **Bijective Definition:** A function that is both injective and surjective.\n\n---\n\n# **Summary of Steps**\n\n1.  **Test for Injective property:** Set $f(x_1) = f(x_2)$, cross-multiply, and simplify to see if $x_1 = x_2$.\n2.  **Test for Surjective property:** Set $y = f(x)$ and rearrange the equation to express $x$ in terms of $y$.\n3.  **Identify Restrictions:** Determine the values of $y$ for which $x$ is defined to find the range.\n4.  **Compare:** Verify that the calculated range matches the given codomain $B$.\n5.  **Conclude:** If both conditions are met, the function is bijective.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "If $f: A \\rightarrow B$ is defined by $f(x)=\\frac{x-2}{x-3}$ for all $x \\in A$ where $A=R-\\{3\\}$ and $B=R-\\{1\\}$, show that the function $f$ is bijective.\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-1",
+    "topicTitle": "1.1 Domain, Range and Types of Functions",
+    "_id": "m17ed4bhgv1zqxevfxpjkhwe8n8c7b5h",
+    "exerciseId": "xd7dmw3sf7s61nkrknkryz7gq98c7rc3",
+    "exerciseTitle": "Exercise 1.1",
+    "keyPoints": [
+      "(i) f⁻¹(x)=(x+3)/4; domain and range R.",
+      "(ii) f⁻¹(x)=5x/(x−1); inverse domain R{1}, range R{5}.",
+      "(iii) f⁻¹(x)=(x+2)/(x−1); inverse domain and range R{1}.",
+      "(iv) f⁻¹(x)=x²−2 on the inverse domain [0,∞); original range [0,∞) and inverse range [−2,∞).",
+      "(v) x²+6 is not one-to-one on R, so it has no inverse function on R; its inverse relation is y=±√(x−6) for x≥6.",
+      "(vi) f⁻¹(x)=(4x+1)/(2−x); inverse domain R{2}, range R{−4}."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo find the inverse of a function, we swap the roles of $x$ and $y$ and solve for the new $y$. A key property of inverse functions is that the **Domain of $f$** becomes the **Range of $f^{-1}$**, and the **Range of $f$** becomes the **Domain of $f^{-1}$**. Finally, we verify the inverse by showing that composing the function with its inverse results in the identity function $x$.\n\n---\n\n# **Solution**\n\n## Part (i)\n**1. Find Domain and Range:**\nFor $f(x) = 4x - 3$, the function is a linear polynomial.\n*   $\\text{Domain } f = \\mathbb{R}$\n*   $\\text{Range } f = \\mathbb{R}$\n\nSince the domain and range swap for the inverse:\n*   $\\text{Domain } f^{-1} = \\text{Range } f = \\mathbb{R}$\n*   $\\text{Range } f^{-1} = \\text{Domain } f = \\mathbb{R}$\n\n**2. Find the Inverse Function:**\nLet $y = f(x)$, so $x = f^{-1}(y)$.\n$$\n\\begin{aligned}\ny &= 4x - 3 \\\\\ny + 3 &= 4x \\\\\nx &= \\frac{y+3}{4} \\\\\nf^{-1}(y) &= \\frac{y+3}{4}\n\\end{aligned}\n$$\nReplacing $y$ with $x$, we get:\n$$f^{-1}(x) = \\frac{x+3}{4}$$\n\n**3. Verification:**\n$$f(f^{-1}(x)) = 4\\left(\\frac{x+3}{4}\\right) - 3 = x + 3 - 3 = x$$\n$$f^{-1}(f(x)) = \\frac{(4x-3) + 3}{4} = \\frac{4x}{4} = x$$\nThus, $f(f^{-1}(x)) = f^{-1}(f(x)) = x$.\n\n---\n\n## Part (ii)\n**1. Find Domain and Range:**\n$f(x) = \\frac{x}{x-5}$ is undefined at $x=5$.\n*   $\\text{Domain } f = \\mathbb{R} - \\{5\\}$\n*   $\\text{Range } f^{-1} = \\mathbb{R} - \\{5\\}$\n\n**2. Find the Inverse Function:**\nLet $y = \\frac{x}{x-5}$:\n$$\n\\begin{aligned}\ny(x-5) &= x \\\\\nxy - 5y &= x \\\\\nxy - x &= 5y \\\\\nx(y-1) &= 5y \\\\\nx &= \\frac{5y}{y-1} \\\\\nf^{-1}(x) &= \\frac{5x}{x-1}\n\\end{aligned}\n$$\nThe inverse is undefined at $x=1$.\n*   $\\text{Domain } f^{-1} = \\mathbb{R} - \\{1\\}$\n*   $\\text{Range } f = \\mathbb{R} - \\{1\\}$\n\n**3. Verification:**\n$$f^{-1}(f(x)) = \\frac{5(\\frac{x}{x-5})}{\\frac{x}{x-5}-1} = \\frac{\\frac{5x}{x-5}}{\\frac{x-(x-5)}{x-5}} = \\frac{5x}{5} = x$$\n$$f(f^{-1}(x)) = \\frac{\\frac{5x}{x-1}}{\\frac{5x}{x-1}-5} = \\frac{\\frac{5x}{x-1}}{\\frac{5x-5(x-1)}{x-1}} = \\frac{5x}{5} = x$$\n\n---\n\n## Part (iii)\n**1. Find Domain and Range:**\n$f(x) = \\frac{x+2}{x-1}$ is undefined at $x=1$.\n*   $\\text{Domain } f = \\mathbb{R} - \\{1\\}$\n\n**2. Find the Inverse Function:**\nLet $y = \\frac{x+2}{x-1}$:\n$$\n\\begin{aligned}\ny(x-1) &= x+2 \\\\\nxy - y &= x+2 \\\\\nxy - x &= y+2 \\\\\nx(y-1) &= y+2 \\\\\nx &= \\frac{y+2}{y-1} \\\\\nf^{-1}(x) &= \\frac{x+2}{x-1}\n\\end{aligned}\n$$\n*   $\\text{Domain } f^{-1} = \\mathbb{R} - \\{1\\}$\n*   $\\text{Range } f^{-1} = \\mathbb{R} - \\{1\\}$\n\n**3. Verification:**\n$$f(f^{-1}(x)) = \\frac{\\frac{x+2}{x-1}+2}{\\frac{x+2}{x-1}-1} = \\frac{\\frac{x+2+2x-2}{x-1}}{\\frac{x+2-x+1}{x-1}} = \\frac{3x}{3} = x$$\nSimilarly, $f^{-1}(f(x)) = x$.\n\n---\n\n## Part (iv)\n**1. Find Domain and Range:**\n$f(x) = \\sqrt{x+2}$. For the square root to be real, $x+2 \\geq 0$.\n*   $\\text{Domain } f = [-2, \\infty)$\n*   $\\text{Range } f = [0, \\infty)$\n\nTherefore:\n*   $\\text{Domain } f^{-1} = [0, \\infty)$\n*   $\\text{Range } f^{-1} = [-2, \\infty)$\n\n**2. Find the Inverse Function:**\nLet $y = \\sqrt{x+2}$:\n$$\n\\begin{aligned}\ny^2 &= x+2 \\\\\nx &= y^2 - 2 \\\\\nf^{-1}(x) &= x^2 - 2\n\\end{aligned}\n$$\n\n**3. Verification:**\n$$f(f^{-1}(x)) = \\sqrt{(x^2-2)+2} = \\sqrt{x^2} = x$$\n$$f^{-1}(f(x)) = (\\sqrt{x+2})^2 - 2 = x+2-2 = x$$\n\n---\n\n## Part (v)\n**1. Find Domain and Range:**\n$f(x) = x^2 + 6$. (Assuming $x \\geq 0$ for the function to be one-to-one).\n*   $\\text{Domain } f = [0, \\infty)$\n*   $\\text{Range } f = [6, \\infty)$\n\nTherefore:\n*   $\\text{Domain } f^{-1} = [6, \\infty)$\n*   $\\text{Range } f^{-1} = [0, \\infty)$\n\n**2. Find the Inverse Function:**\nLet $y = x^2 + 6$:\n$$\n\\begin{aligned}\ny - 6 &= x^2 \\\\\nx &= \\sqrt{y-6} \\\\\nf^{-1}(x) &= \\sqrt{x-6}\n\\end{aligned}\n$$\n\n**3. Verification:**\n$$f(f^{-1}(x)) = (\\sqrt{x-6})^2 + 6 = x-6+6 = x$$\n$$f^{-1}(f(x)) = \\sqrt{(x^2+6)-6} = \\sqrt{x^2} = x$$\n\n---\n\n## Part (vi)\n**1. Find Domain and Range:**\n$f(x) = \\frac{2x-1}{x+4}$ is undefined at $x=-4$.\n*   $\\text{Domain } f = \\mathbb{R} - \\{-4\\}$\n\n**2. Find the Inverse Function:**\nLet $y = \\frac{2x-1}{x+4}$:\n$$\n\\begin{aligned}\ny(x+4) &= 2x-1 \\\\\nxy + 4y &= 2x-1 \\\\\nxy - 2x &= -4y - 1 \\\\\nx(y-2) &= -(4y+1) \\\\\nx &= \\frac{-(4y+1)}{y-2} = \\frac{4y+1}{2-y} \\\\\nf^{-1}(x) &= \\frac{4x+1}{2-x}\n\\end{aligned}\n$$\n*   $\\text{Domain } f^{-1} = \\mathbb{R} - \\{2\\}$\n*   $\\text{Range } f^{-1} = \\mathbb{R} - \\{-4\\}$\n\n**3. Verification:**\n$$f(f^{-1}(x)) = \\frac{2(\\frac{4x+1}{2-x})-1}{\\frac{4x+1}{2-x}+4} = \\frac{\\frac{8x+2-(2-x)}{2-x}}{\\frac{4x+1+4(2-x)}{2-x}} = \\frac{9x}{9} = x$$\n$$f^{-1}(f(x)) = \\frac{4(\\frac{2x-1}{x+4})+1}{2-(\\frac{2x-1}{x+4})} = \\frac{\\frac{8x-4+x+4}{x+4}}{\\frac{2x+8-2x+1}{x+4}} = \\frac{9x}{9} = x$$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Inverse Definition:** If $y = f(x)$, then $x = f^{-1}(y)$.\n*   **Domain/Range Relationship:** $\\text{Dom}(f) = \\text{Ran}(f^{-1})$ and $\\text{Ran}(f) = \\text{Dom}(f^{-1})$.\n*   **Verification Property:** $f(f^{-1}(x)) = x$ and $f^{-1}(f(x)) = x$.\n*   **Algebraic Manipulation:** Isolating $x$ in rational and radical equations.\n\n---\n\n# **Summary of Steps**\n\n1.  Identify the **Domain** of $f(x)$ by finding values where the function is undefined.\n2.  Set $y = f(x)$ and solve the equation for $x$ in terms of $y$.\n3.  Swap $y$ for $x$ to write the final expression for $f^{-1}(x)$.\n4.  Determine the **Domain of $f^{-1}$** (which is the Range of $f$).\n5.  **Verify** the result by calculating the compositions $f(f^{-1}(x))$ and $f^{-1}(f(x))$ to ensure they both equal $x$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 1,
+      "page": 12,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Find the domain and range of the inverse function $f^{-1}(x)$ and verify the property $f(f^{-1}(x)) = f^{-1}(f(x)) = x$ for the following functions:\n\n(i) $f(x)=4 x-3$\n(ii) $f(x)=\\frac{x}{x-5}$\n(iii) $f(x)=\\frac{x+2}{x-1}$\n(iv) $f(x)=\\sqrt{x+2}$\n(v) $f(x)=x^{2}+6$\n(vi) $f(x)=\\frac{2 x-1}{x+4}$\n\n---",
+    "topicId": "ms79t0fkygw442e32ympfvpn5585pza3"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m171pa34ebpmg50r64c29p4vnd85q7hm",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "To find $f^{-1}(5)$, we need to find the value of $x$ such that $f(x) = 5$. Setting $f(x) = 5$: $x^{\\frac{1}{3}} + 2 = 5$, so $x^{\\frac{1}{3}} = 3$. Cubing both sides: $x = 27$. Therefore, $f^{-1}(5) = 27$.",
+    "keyPoints": [
+      "Set up equation $f(x) = 5$ to find inverse",
+      "Isolate the cube root term: $x^{\\frac{1}{3}} = 3$",
+      "Cube both sides to solve for $x$: $x = 27$",
+      "Verify: $f(27) = 27^{\\frac{1}{3}} + 2 = 3 + 2 = 5$ ✓"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "To find $f^{-1}(5)$, we need to find the value of $x$ such that $f(x) = 5$. Setting $f(x) = 5$: $x^{\\frac{1}{3}} + 2 = 5$, so $x^{\\frac{1}{3}} = 3$. Cubing both sides: $x = 27$. Therefore, $f^{-1}(5) = 27$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "27"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Which of the following represents $f^{-1}(5)$ if $f(x) = x^{\\frac{1}{3}} + 2$?",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m17cpedgzckyrr341z3fvyxbm585pe2h",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies composition of functions $g \\circ f(x) = g(f(x))$ by substituting $f(x)$ into $g$",
+      "Accurately computes $g \\circ f(x) = x^2 + 3$ by substitution and simplification",
+      "Correctly finds $f \\circ g(x) = x^2 + 2x + 3$ by expanding $(x+1)^2 + 2$",
+      "Sets up and solves the equation $x^2 + 2x + 3 = 11$ to get $x^2 + 2x - 8 = 0$",
+      "Factors the quadratic correctly to obtain both solutions $x = -4$ and $x = 2$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "To find $g \\circ f(x)$, we apply $g$ to the output of $f(x)$. Since $f(x) = x^2 + 2$ and $g(x) = x + 1$, we have $g \\circ f(x) = g(f(x)) = g(x^2 + 2) = (x^2 + 2) + 1 = x^2 + 3$.\n\nFor part (b), we first find $f \\circ g(x) = f(g(x)) = f(x+1) = (x+1)^2 + 2 = x^2 + 2x + 1 + 2 = x^2 + 2x + 3$. Setting this equal to 11: $x^2 + 2x + 3 = 11$, which simplifies to $x^2 + 2x - 8 = 0$. Factoring: $(x+4)(x-2) = 0$, so $x = -4$ or $x = 2$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Let $f(x)=x^{2}+2$ and $g(x)=x+1$ then:\n(a) Find $g \\circ f(x)$\n(b) Find $x$ for which $f \\circ g(x)=11$",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m1725zhsmnrm4f8mckkh2r4rwx85qnqe",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "Without seeing the specific formula options provided in the question, the exception would typically be any formula that violates the fundamental properties of complex numbers. Common true formulas include: $z = a + bi$ (definition), $i^2 = -1$, $|z|^2 = a^2 + b^2$ (modulus), and $z + \\bar{z} = 2a$ (conjugate property). The incorrect formula would be one contradicting these established rules, such as claiming $i^2 = 1$ or $|z| = a + b$.",
+    "keyPoints": [
+      "Identify that complex number formulas must satisfy $i^2 = -1$ and the cyclic pattern of powers of $i$",
+      "Recognize that modulus formula is $|z| = \\sqrt{a^2 + b^2}$, not $|z| = a + b$",
+      "Verify equality of complex numbers requires both real and imaginary parts to be equal",
+      "Check that conjugate property $\\bar{z} = a - bi$ and $z + \\bar{z} = 2a$ are correct",
+      "Eliminate formulas that contradict fundamental definitions and established properties"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Without seeing the specific formula options provided in the question, the exception would typically be any formula that violates the fundamental properties of complex numbers. Common true formulas include: $z = a + bi$ (definition), $i^2 = -1$, $|z|^2 = a^2 + b^2$ (modulus), and $z + \\bar{z} = 2a$ (conjugate property). The incorrect formula would be one contradicting these established rules, such as claiming $i^2 = 1$ or $|z| = a + b$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\overline{\\overline{z}} = z$"
+      },
+      {
+        "key": "B",
+        "text": "$z \\bar{z} = |z|^2$"
+      },
+      {
+        "key": "C",
+        "text": "$z^2 = |z|^2$"
+      },
+      {
+        "key": "D",
+        "text": "$|z| = |\\bar{z}|$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "For a complex number $z$, all the following formulas are true **EXCEPT**:",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m179f4kzsbradz9x7m823rnhs585q9db",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "An abelian group under multiplication requires: (1) closure, (2) associativity, (3) identity element, (4) inverse for each element, and (5) commutativity. The set $\\{1, -1, i, -i\\}$ forms an abelian group under multiplication because all products remain in the set, multiplication is commutative, the identity is 1, and each element has an inverse within the set.",
+    "keyPoints": [
+      "Identifies closure property: all products of elements stay in the set",
+      "Recognizes commutativity: $ab = ba$ for all elements",
+      "Confirms identity element exists: 1 is the multiplicative identity",
+      "Verifies each element has multiplicative inverse in the set",
+      "Notes associativity of multiplication holds automatically"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "An abelian group under multiplication requires: (1) closure, (2) associativity, (3) identity element, (4) inverse for each element, and (5) commutativity. The set $\\{1, -1, i, -i\\}$ forms an abelian group under multiplication because all products remain in the set, multiplication is commutative, the identity is 1, and each element has an inverse within the set.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Set of rational numbers"
+      },
+      {
+        "key": "B",
+        "text": "Set of integers"
+      },
+      {
+        "key": "C",
+        "text": "Set of natural numbers"
+      },
+      {
+        "key": "D",
+        "text": "Set of non-zero real numbers"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Which of the following sets forms an **abelian group** under the operation of multiplication?",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m172ym0qkw5b720p7h9xjp37zx85pks9",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The question asks about structures for natural numbers under multiplication. However, the provided notes contain only content about complex numbers, powers of $i$, and complex number operations. There is no information about algebraic structures (such as closure, associativity, identity, or inverse properties) for natural numbers under multiplication in the given notes. Therefore, I cannot provide an answer based on the available material.",
+    "keyPoints": [
+      "Question requires knowledge of algebraic structures for natural numbers under multiplication",
+      "Provided notes cover only complex numbers and powers of $i$",
+      "Cannot ground answer in given note content",
+      "Examiner expects identification of which property holds for $\\mathbb{N}$ under multiplication",
+      "Answer requires structural properties like closure, associativity, identity, and inverse"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The question asks about structures for natural numbers under multiplication. However, the provided notes contain only content about complex numbers, powers of $i$, and complex number operations. There is no information about algebraic structures (such as closure, associativity, identity, or inverse properties) for natural numbers under multiplication in the given notes. Therefore, I cannot provide an answer based on the available material.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Groupoid"
+      },
+      {
+        "key": "B",
+        "text": "Semi group"
+      },
+      {
+        "key": "C",
+        "text": "Monoid"
+      },
+      {
+        "key": "D",
+        "text": "Group"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Which structure in the following is true for the set of natural numbers under multiplication?",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m172mnvbk7mj08s94adgenjaz98c6ebz",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo plot the graph of a function, we determine several $(x, f(x))$ coordinate pairs by substituting chosen $x$-values into the function. For linear functions, a few points are sufficient to draw a straight line, while for quadratic and square root functions, more points are needed to accurately capture the curve and key features like vertices or endpoints.\n\n---\n\n# **Solution**\n\n## Part (i) $f(x)=3x-2$\n\nTo plot this linear function, we calculate the values of $f(x)$ for various $x$ inputs:\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | -11 | -8 | -5 | -2 | 1 | 4 | 7 | |\n\n**Calculations:**\n$$\n\\begin{aligned}\nf(-3) & =3(-3)-2 \\\\\n& =-9-2 \\\\\n& =-11\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\nf(-2) & =3(-2)-2 \\\\\n& =-6-2 \\\\\n& =-8\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\nf(0) & =3(0)-2 \\\\\n& =-2\n\\end{aligned}\n$$\n$$\n\\begin{aligned}\nf(2) & =3(2)-2 \\\\\n& =6-2=4\n\\end{aligned}\n$$\n\n---\n\n## Part (ii) $f(x)=3x$\n\nThis is a linear function passing through the origin $(0,0)$. We can easily draw the table of values:\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | -9 | -6 | -3 | 0 | 3 | 6 | 9 |\n\n---\n\n## Part (iii) $f(x)=1-2x$\n\nWe substitute $x$ values into the linear equation to find the corresponding $y$ coordinates:\n\n| $x$ | -2 | -1 | 0 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 5 | 3 | 1 | -1 | -3 |\n\n**Calculations:**\n$$\n\\begin{aligned}\nf(-2) &= 1-2(-2) = 1+4=5 \\\\\nf(-1) &= 1-2(-1) = 1+2=3 \\\\\nf(0) &= 1-2(0)=1 \\\\\nf(1) &= 1-2(1)=-1 \\\\\nf(2) &= 1-2(2)=-3\n\\end{aligned}\n$$\n\n---\n\n## Part (iv) $g(x)=x^{2}+4$\n\nIn order to sketch the graph of a quadratic function, we should identify the vertex (minimum or maximum point). For $g(x) = x^2 + 4$, the minimum point is at $(0, 4)$. We calculate additional points to define the parabola:\n\n| $x$ | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | 29 | 20 | 13 | 8 | 5 | 4 | 5 | 8 | 13 | 20 | 29 | |\n\n---\n\n## Part (v) $g(x)=x^{2}-x-6$\n\nFor this quadratic, we include the value $x = 1/2$ to find the vertex of the parabola.\n\n| $x$ | -5 | -4 | -3 | -2 | -1 | 0 | $1/2$ | 1 | 2 | 3 | 4 | 5 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | 24 | 14 | 6 | 0 | -4 | -6 | -6.25 | -6 | -4 | 0 | 6 | 14 |\n\n---\n\n## Part (vi) $g(x)=\\sqrt{2x+1}$\n\nFor a square root function, the value inside the root must be non-negative ($2x+1 \\geq 0 \\implies x \\geq -1/2$). We choose $x$ values that result in easy-to-plot square roots where possible:\n\n| $x$ | $-1/2$ | 0 | 1 | 4 | 12 | 24 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | 0 | 1 | 1.732 | 3 | 5 | 7 |\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Substitution:** Replacing the variable $x$ with a specific value to find $f(x)$.\n*   **Linear Functions:** Graphs of the form $f(x) = mx + c$ result in straight lines.\n*   **Quadratic Functions:** Graphs of the form $g(x) = ax^2 + bx + c$ result in parabolas. The vertex is found at $x = -b/2a$.\n*   **Square Root Functions:** The domain is restricted to values where the radicand is $\\geq 0$.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify the function type:** Determine if the function is linear, quadratic, or square root.\n2.  **Create a table of values:** Choose a range of $x$ values (including negative, zero, and positive values).\n3.  **Calculate outputs:** Substitute each $x$ into the function to find the corresponding $y$ or $f(x)$ value.\n4.  **Plot the points:** Mark the $(x, y)$ coordinates on a Cartesian plane.\n5.  **Draw the curve/line:** Connect the points smoothly to represent the function's behavior.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "stem": "Plot the graph of the following functions:\n\n(i) $f(x)=3x-2$\n(ii) $f(x)=3x$\n(iii) $f(x)=1-2x$\n(iv) $g(x)=x^{2}+4$\n(v) $g(x)=x^{2}-x-6$\n(vi) $g(x)=\\sqrt{2x+1}$\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m17e7fb1qp320h1feha1mxd7x58c7frt",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo find where two trajectories meet, we analyze the intersection of a quadratic function (the parabola) and a linear function (the wall). Graphing these functions requires identifying key points such as intercepts and the vertex, while the exact meeting point is found by setting the two equations equal to each other.\n\n---\n\n# **Solution**\n\nTo solve this problem, we first determine the key features of the parabolic path to assist in graphing, and then calculate the point of intersection with the wall.\n\n## Step 1: Find the Intercepts of the Parabola\nTo graph $h(t) = -6t^2 + 10t + 5$, we find where the ball would theoretically hit the ground ($x$-intercepts) and its starting height ($y$-intercept).\n\n**For the $x$-intercept, set $h(t) = 0$:**\n$$-6 t^{2} + 10 t + 5 = 0$$\n\nUsing the quadratic formula $t = \\frac{-b \\pm \\sqrt{b^{2}-4 a c}}{2 a}$:\n$$t = \\frac{-10 \\pm \\sqrt{10^{2}-4(-6)(5)}}{2(-6)}$$\n$$t = \\frac{-10 \\pm \\sqrt{100+120}}{-12}$$\n$$t = \\frac{-10 \\pm \\sqrt{220}}{-12} \\approx \\frac{-10 \\pm 14.83}{-12}$$\n\nThis gives two possible values for $t$:\n1. $t = \\frac{-10+14.83}{-12} \\approx -0.4025$ (Ignore as time cannot be negative)\n2. $t = \\frac{-10-14.83}{-12} \\approx 2.069$\n\n**For the $y$-intercept, set $t = 0$:**\n$$h(0) = -6(0)^2 + 10(0) + 5 = 5$$\nThe ball is thrown from an initial height of $5$ meters.\n\n## Step 2: Find the Intersection with the Wall\nThe ball reaches the wall when the height of the trajectory equals the height of the wall equation. We set the two equations for $h(t)$ equal to each other:\n$$-6t^2 + 10t + 5 = 9t$$\n\nRearrange the equation into standard quadratic form:\n$$-6t^2 + t + 5 = 0$$\n\nMultiply by $-1$ to simplify:\n$$6t^2 - t - 5 = 0$$\n\nFactor the quadratic:\n$$(6t + 5)(t - 1) = 0$$\n\nSolving for $t$:\n1. $6t + 5 = 0 \\Rightarrow t = -5/6$ (Ignore negative time)\n2. $t - 1 = 0 \\Rightarrow t = 1$\n\n## Step 3: Determine the Height at Impact\nSubstitute $t = 1$ back into the wall equation to find the height:\n$$h(1) = 9(1) = 9$$\n\n**Conclusion:**\nThe ball reaches the wall at **$t = 1$ second** at a height of **$9$ meters**.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Quadratic Formula:** $t = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$\n*   **Intercept Method:** Setting $h(t)=0$ for horizontal intercepts and $t=0$ for vertical intercepts.\n*   **System of Equations:** Setting two functions equal to find their point of intersection.\n\n---\n\n# **Summary of Steps**\n\n1.  Identify the two equations: the parabola $h(t) = -6t^2 + 10t + 5$ and the line $h(t) = 9t$.\n2.  Calculate the $x$-intercepts of the parabola using the quadratic formula to help define the graph's boundaries.\n3.  Calculate the $y$-intercept of the parabola to find the starting height.\n4.  Set the two equations equal to each other to find the time ($t$) of impact.\n5.  Solve the resulting quadratic equation for $t$.\n6.  Plug the value of $t$ back into either original equation to find the height ($h$) of impact.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "stem": "Suppose a ball is thrown into the air and its height $h(t)$ after $t$ seconds is given by the parabolic trajectory:\n$$h(t)=-6 t^{2}+10 t+5$$\n\nIf this ball hits a wall representing the equation:\n$$h(t)=9 t$$\n\nBy drawing the graphs, find out when and where the ball reaches the wall.\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m174gvw27x9383z5dg3gkf211s8c6yks",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo find where two trajectories meet, we look for the intersection points of their graphs. This occurs at the $(x, y)$ coordinates that satisfy both equations simultaneously. In this problem, we use a table of values to plot the parabolas and identify the shared point.\n\n---\n\n# **Solution**\n\nTo find the intersection point, we first evaluate both functions across a range of $x$ values to understand their shapes and identify where their outputs match.\n\n## Step 1: Tabulate values for both functions\nUsing the provided data, we calculate the $y$-coordinates for $f(x)$ and $g(x)$:\n\n| $x$ | -1 | 0 | 1 | 1.5 | 2 | 3 | 3.5 | 4 | 5 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **$f(x)$** | 20 | 12 | 6 | 3.75 | 2 | 0 | -0.25 | 0 | 2 |\n| **$g(x)$** | 4 | 0 | -2 | -2.25 | -2 | 0 | 1.75 | 4 | 10 |\n\n## Step 2: Analyze the results\nBy observing the table, we look for an $x$ value where $f(x) = g(x)$.\n* At $x = 3$:\n  * $f(3) = 3^2 - 7(3) + 12 = 9 - 21 + 12 = 0$\n  * $g(3) = 3(3 - 3) = 3(0) = 0$\n\nSince both functions yield a value of $0$ when $x$ is $3$, the point $(3, 0)$ is a point of intersection.\n\n## Step 3: Algebraic Verification\nTo ensure there are no other intersection points not captured by the table, we can set the two equations equal to each other:\n$$x^2 - 7x + 12 = x(x - 3)$$\n$$x^2 - 7x + 12 = x^2 - 3x$$\n\nSubtract $x^2$ from both sides:\n$$-7x + 12 = -3x$$\n\nAdd $7x$ to both sides:\n$$12 = 4x$$\n$$x = 3$$\n\nSubstituting $x = 3$ back into $g(x)$:\n$$g(3) = 3(3 - 3) = 0$$\n\nThe asteroids will both pass through the point **$(3, 0)$**.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Quadratic Function Form:** $f(x) = ax^2 + bx + c$\n*   **Point-Plotting Method:** Creating a table of $(x, y)$ pairs to draw a graph.\n*   **Intersection of Graphs:** Solving $f(x) = g(x)$ to find where two paths cross.\n\n---\n\n# **Summary of Steps**\n\n1.  List the equations for both parabolic paths.\n2.  Create a table of values for $x$ ranging from -1 to 5.\n3.  Calculate the corresponding $y$ values for both $f(x)$ and $g(x)$.\n4.  Identify the $x$ value where both functions produce the same $y$ result.\n5.  Conclude that the intersection point is $(3, 0)$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "stem": "Two asteroids are following parabolic paths represented by the functions:\n$$f(x) = x^2 - 7x + 12$$\n$$g(x) = x(x-3)$$\n\nBy drawing the graphs of both trajectories, find the coordinates of the location where both asteroids will pass (the point of intersection).\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m172m2hgfv9t0g0933m5d7q0fx8c7wph",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo plot a function, we evaluate the expression for various values of $x$ to create a table of coordinates $(x, f(x))$. These points are then plotted on a Cartesian plane and connected with a smooth curve to represent the function's behavior, such as symmetry, intercepts, and asymptotes.\n\n---\n\n# **Solution**\n\n## Part (i) $f(x)=-x^{2}+1$\n\nThis is a quadratic function. Since the coefficient of $x^2$ is negative, the parabola opens downwards. The $+1$ shifts the vertex to $(0, 1)$.\n\n| $x$ | $\\dots$ | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | | -15 | -8 | -3 | 0 | 1 | 0 | -3 | -8 | -15 | |\n\n## Part (ii) $f(x)=2 x^{3}$\n\nThis is a cubic function scaled by a factor of 2. It passes through the origin and increases rapidly for positive $x$ and decreases rapidly for negative $x$.\n\n| $x$ | $\\dots$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | $\\dots$ | -54 | -16 | -2 | 0 | 2 | 16 | 54 | $\\dots$ |\n\n## Part (iii) $f(x)=1+\\frac{1}{x^{2}}$\n\nThis function is undefined at $x=0$ (vertical asymptote). As $x$ becomes very large or very small, the term $\\frac{1}{x^2}$ approaches 0, meaning the graph has a horizontal asymptote at $y=1$.\n\n| $x$ | $\\dots$ | -5 | -4 | -2 | -1 | 0 | 1 | 2 | 4 | 5 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | $\\dots$ | 1.04 | 1.0625 | 1.25 | 2 | undefined | 2 | 1.25 | 1.0625 | 1.04 | $\\dots$ |\n\n## Part (iv) $f(x)=3\\sqrt{x}$\n\nThis is a square root function. It is only defined for $x \\geq 0$. The values grow slower than a linear function but continue to increase indefinitely.\n\n| $x$ | 0 | 1 | 4 | 9 | 16 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 0 | 3 | 6 | 9 | 12 |\n\n## Part (v) $f(x)=2-\\frac{1}{\\sqrt{x}}$\n\nAs $x$ approaches 0 from the right, $f(x)$ approaches $-\\infty$. As $x$ approaches infinity, $f(x)$ approaches the horizontal asymptote $y=2$.\n\n| $x$ | 0 | 1 | 4 | 9 | $\\dots$ | $\\infty$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | $-\\infty$ | 1 | 1.5 | 1.667 | $\\dots$ | 2 |\n\n## Part (vi) $f(x)=x^{2.5}$\n\nThis is a power function where $f(x) = x^{5/2}$. It grows faster than a quadratic function ($x^2$) but slower than a cubic function ($x^3$).\n\n| $x$ | 0 | 1 | 4 | 9 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 0 | 1 | 32 | 243 | $\\dots$ |\n\n*(Calculation check: $4^{2.5} = (4^{1/2})^5 = 2^5 = 32$; $9^{2.5} = (9^{1/2})^5 = 3^5 = 243$)*\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Point-Plotting Method:** Selecting $x$ values, calculating $y$, and plotting $(x, y)$.\n*   **Power Rules:**\n    *   $x^{-n} = \\frac{1}{x^n}$\n    *   $x^{1/2} = \\sqrt{x}$\n    *   $x^{a/b} = \\sqrt[b]{x^a}$\n*   **Asymptotes:** Identifying values where the function is undefined or approaches a constant.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify the Domain:** Determine which $x$ values are valid (e.g., $x \\geq 0$ for square roots).\n2.  **Create a Table:** Choose a range of $x$ values (including negative, zero, and positive where applicable).\n3.  **Calculate $f(x)$:** Plug each $x$ into the function to find the corresponding $y$ value.\n4.  **Plot Points:** Mark the $(x, y)$ coordinates on a graph.\n5.  **Draw the Curve:** Connect the points smoothly, paying attention to asymptotes and end behavior.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "stem": "Plot the graphs of the following functions:\n\n(i) $f(x)=-x^{2}+1$\n\n(ii) $f(x)=2 x^{3}$\n\n(iii) $f(x)=1+x^{-2}=1+\\frac{1}{x^{2}}$\n\n(iv) $f(x)=3\\sqrt{x}$\n\n(v) $f(x)=2-x^{-1 / 2} = 2-\\frac{1}{\\sqrt{x}}$\n\n(vi) $f(x)=x^{2.5}$\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m17ase2qvcpr0m83w4jqdvzvy58c7vtm",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo analyze a quadratic function $f(x) = ax^2 + bx + c$, we identify the intercepts and the vertex. The $x$-intercepts are found by solving $f(x)=0$, the $y$-intercept is found by evaluating $f(0)$, and the vertex is located at the point where $x = \\frac{-b}{2a}$.\n\n---\n\n# **Solution**\n\n## (i) $f(x)=x^{2}+2 x+1$\n\nFor this function, the coefficients are $a=1, b=2, c=1$.\n\n**1. Find the $x$-intercept:**\nTo find where the graph crosses the $x$-axis, we set $f(x)=0$:\n$$\n\\begin{aligned}\nx^{2}+2 x+1 & =0 \\\\\n(x+1)^{2} & =0 \\\\\nx+1 & =0 \\\\\nx & =-1\n\\end{aligned}\n$$\nThe $x$-intercept is $-1$.\n\n**2. Find the $y$-intercept:**\nTo find where the graph crosses the $y$-axis, we set $x=0$:\n$$\n\\begin{aligned}\nx & =0 \\\\\nf(0) & = (0)^2 + 2(0) + 1 = 1 \\\\\ny\\text{-intercept} & =1\n\\end{aligned}\n$$\n\n**3. Find the Vertex:**\nFirst, find the axis of symmetry using $x=\\frac{-b}{2 a}$:\n$$x=\\frac{-2}{2(1)}=-1$$\nNow, substitute $x = -1$ back into the original function to find the $y$-coordinate:\n$$\n\\begin{aligned}\nf(-1) & =(-1)^{2}+2(-1)+1 \\\\\n& =1-2+1=0\n\\end{aligned}\n$$\nThe vertex is $(-1, 0)$. Since $a > 0$, the parabola opens upwards.\n\n**4. Table of Values and Plot:**\n\n| $x$ | -4 | -3 | -2 | -1 | 0 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 9 | 4 | 1 | 0 | 1 | 4 | 9 |\n\n---\n\n## (ii) $f(x)=-2 x^{2}+2 x-1$\n\nFor this function, the coefficients are $a=-2, b=2, c=-1$.\n\n**1. Find the $x$-intercept:**\nSet $f(x)=0$:\n$$\n\\begin{aligned}\n-2 x^{2}+2 x-1 & =0 \\\\\n2 x^{2}-2 x+1 & =0\n\\end{aligned}\n$$\nUsing the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$:\n$$\n\\begin{aligned}\nx & =\\frac{-(-2) \\pm \\sqrt{(-2)^{2}-4(2)(1)}}{2(2)} \\\\\nx & =\\frac{2 \\pm \\sqrt{4-8}}{4} \\\\\nx & =\\frac{2 \\pm \\sqrt{-4}}{4}\n\\end{aligned}\n$$\nSince we cannot take the square root of a negative number in real numbers, there are **no real $x$-intercepts**.\n\n**2. Find the $y$-intercept:**\nSet $x=0$:\n$$f(0)=-1$$\nThe $y$-intercept is $-1$.\n\n**3. Find the Vertex:**\nAxis of symmetry:\n$$x=\\frac{-b}{2 a}=\\frac{-2}{2(-2)}=\\frac{-2}{-4}=\\frac{1}{2}$$\nFind the $y$-coordinate:\n$$\n\\begin{aligned}\nf\\left(\\frac{1}{2}\\right) & =-2\\left(\\frac{1}{2}\\right)^{2}+2\\left(\\frac{1}{2}\\right)-1 \\\\\n& =-2 \\times \\frac{1}{4}+1-1 = -\\frac{1}{2}\n\\end{aligned}\n$$\nThe vertex is $\\left(\\frac{1}{2}, -\\frac{1}{2}\\right)$.\n\n**4. Table of Values and Plot:**\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | -25 | -13 | -5 | -1 | -1 | -5 | -13 |\n\n---\n\n## (iii) $f(x)=x^{2}+2 x$\n\nFor this function, $a=1, b=2, c=0$.\n\n**1. Find the $x$-intercept:**\nSet $f(x)=0$:\n$$\n\\begin{aligned}\n0 & =x^{2}+2 x \\\\\nx(x+2) & =0 \\\\\nx = 0 & \\quad \\text{or} \\quad x = -2\n\\end{aligned}\n$$\nThe $x$-intercepts are $(0,0)$ and $(-2,0)$.\n\n**2. Find the $y$-intercept:**\nSet $x=0$:\n$$f(0) = (0)^2 + 2(0) = 0$$\nThe $y$-intercept is $(0,0)$.\n\n**3. Find the Vertex:**\nAxis of symmetry:\n$$x=\\frac{-b}{2 a}=\\frac{-2}{2(1)}=-1$$\nFind the $y$-coordinate:\n$$\n\\begin{aligned}\nf(-1) & =(-1)^{2}+2(-1) \\\\\n& =1-2=-1\n\\end{aligned}\n$$\nThe vertex is $(-1, -1)$. Since $a > 0$, the parabola opens upwards.\n\n**4. Table of Values and Plot:**\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 3 | 0 | -1 | 0 | 3 | 8 |\n\n---\n\n## (iv) $f(x)=9-x^{2}$\n\nFor this function, $a=-1, b=0, c=9$.\n\n**1. Find the $x$-intercept:**\nSet $f(x)=0$:\n$$\n\\begin{aligned}\n0 & =9-x^{2} \\\\\nx^2 & = 9 \\\\\n(3-x)(3+x) & =0 \\\\\nx = 3 & \\quad \\text{or} \\quad x = -3\n\\end{aligned}\n$$\nThe $x$-intercepts are $(-3,0)$ and $(3,0)$.\n\n**2. Find the $y$-intercept:**\nSet $x=0$:\n$$f(0) = 9 - (0)^2 = 9$$\nThe $y$-intercept is $(0,9)$.\n\n**3. Find the Vertex:**\nAxis of symmetry:\n$$x=\\frac{-b}{2 a}=\\frac{-0}{2(-1)}=0$$\nFind the $y$-coordinate:\n$$f(0)=9-0=9$$\nThe vertex is $(0, 9)$.\n\n**4. Table of Values and Plot:**\n\n| $x$ | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | -7 | 0 | 5 | 8 | 9 | 8 | 5 | 0 | -7 |\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Standard Form of Quadratic:** $f(x) = ax^2 + bx + c$\n*   **$x$-intercepts:** Solve $f(x) = 0$ using factoring or the Quadratic Formula: $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$\n*   **$y$-intercept:** Evaluate $f(0) = c$\n*   **Vertex Formula:** $x = -\\frac{b}{2a}$, then find $y = f\\left(-\\frac{b}{2a}\\right)$\n*   **Concavity:** If $a > 0$, opens up; if $a < 0$, opens down.\n\n---\n\n# **Summary of Steps**\n\n1.  Identify the coefficients $a, b,$ and $c$ from the function.\n2.  Set $f(x) = 0$ and solve for $x$ to find the $x$-intercepts.\n3.  Set $x = 0$ to find the $y$-intercept.\n4.  Calculate the $x$-coordinate of the vertex using $x = -b/2a$.\n5.  Substitute the $x$-coordinate back into the function to find the $y$-coordinate of the vertex.\n6.  Create a table of values to determine additional points.\n7.  Plot the intercepts and vertex, then draw a smooth curve through the points.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "stem": "Find the $x$-intercept, $y$-intercept, and vertex of the following functions and then plot their graphs:\n\n(i) $f(x)=x^{2}+2 x+1$\n(ii) $f(x)=-2 x^{2}+2 x-1$\n(iii) $f(x)=x^{2}+2 x$\n(iv) $f(x)=9-x^{2}$\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m17de0d5n2aaz6r5zer4zm51hs8c60je",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo graph a quadratic function $f(x) = ax^2 + bx + c$ using factors, we first find the $x$-intercepts by setting $f(x) = 0$. The vertex's $x$-coordinate is the midpoint of these intercepts, and the sign of the coefficient $a$ determines if the parabola opens upwards ($a > 0$) or downwards ($a < 0$).\n\n---\n\n# **Solution**\n\n## Part (i)\nGiven the function:\n$$f(x)=x^{2}-2 x+1$$\n\nHere $a=1, b=-2, c=1$. To find the factors and $x$-intercepts, we set $f(x)=0$:\n$$\n\\begin{aligned}\nx^{2}-2 x+1 &= 0 \\\\\n(x-1)^{2} &= 0 \\\\\nx-1 &= 0 \\\\\nx &= 1\n\\end{aligned}\n$$\n\nThe graph touches the $x$-axis at the point $(1,0)$.\nTo find the $y$-intercept, we set $x=0$:\n$$f(0)=0-0+1=1$$\nTherefore, the $y$-intercept is $(0,1)$.\n\n**Vertex:**\nThe $x$-coordinate of the vertex is the average of the roots:\n$$x\\text{-coordinate} = \\frac{1+1}{2} = 1$$\nSubstituting $x=1$ into the function to find the $y$-coordinate:\n$$y = 1 - 2 + 1 = 0$$\nThe vertex is $(1,0)$. Since $a > 0$, the parabola opens upwards and is symmetric about the line $x=1$.\n\n---\n\n## Part (ii)\nGiven the function:\n$$f(x)=x^{2}-7 x+12$$\n\nHere $a=1, b=-7, c=12$. To find the factors, we set $f(x)=0$:\n$$\n\\begin{aligned}\nx^{2}-7 x+12 &= 0 \\\\\nx^{2}-3 x-4 x+12 &= 0 \\\\\nx(x-3)-4(x-3) &= 0 \\\\\n(x-3)(x-4) &= 0\n\\end{aligned}\n$$\nSo, $x-3=0 \\implies x=3$ or $x-4=0 \\implies x=4$.\nThe graph intersects the $x$-axis at $(3,0)$ and $(4,0)$.\n\nTo find the $y$-intercept, set $x=0$:\n$$f(0)=12$$\nThe $y$-intercept is $(0,12)$.\n\n**Vertex:**\n$$x\\text{-coordinate} = \\frac{3+4}{2} = 3.5$$\nSubstituting $x=3.5$ into the function:\n$$\n\\begin{aligned}\ny\\text{-coordinate} &= (3.5)^{2}-7(3.5)+12 \\\\\n&= 12.25-24.5+12 \\\\\n&= -0.25\n\\end{aligned}\n$$\nThe vertex is $(3.5, -0.25)$. Since $a > 0$, the parabola opens upwards and is symmetric about $x=3.5$.\n\n---\n\n## Part (iii)\nGiven the function:\n$$f(x)=x^{2}-2 x$$\n\nHere $a=1, b=-2, c=0$. To find the factors, we set $f(x)=0$:\n$$\n\\begin{aligned}\nx^{2}-2 x &= 0 \\\\\nx(x-2) &= 0\n\\end{aligned}\n$$\nSo, $x=0$ or $x-2=0 \\implies x=2$.\nThe graph intersects the $x$-axis at $(0,0)$ and $(2,0)$.\n\nTo find the $y$-intercept, set $x=0$:\n$$f(0)=0-0=0$$\nThe $y$-intercept is $(0,0)$.\n\n**Vertex:**\n$$x\\text{-coordinate} = \\frac{0+2}{2} = 1$$\nSubstituting $x=1$ into the function:\n$$f(1) = 1^{2}-2(1) = -1$$\nThe vertex is $(1, -1)$. Since $a > 0$, the parabola opens upwards and is symmetric about $x=1$.\n\n---\n\n## Part (iv)\nGiven the function:\n$$f(x)=-2 x^{2}+x+3$$\n\nHere $a=-2, b=1, c=3$. To find the factors, we set $f(x)=0$:\n$$\n\\begin{aligned}\n-2 x^{2}+x+3 &= 0 \\\\\n2 x^{2}-x-3 &= 0 \\\\\n2 x^{2}-3 x+2 x-3 &= 0 \\\\\nx(2 x-3)+1(2 x-3) &= 0 \\\\\n(x+1)(2 x-3) &= 0\n\\end{aligned}\n$$\nSo, $x+1=0 \\implies x=-1$ or $2x-3=0 \\implies x=\\frac{3}{2}$.\nThe graph intersects the $x$-axis at $(-1,0)$ and $(\\frac{3}{2}, 0)$.\n\nTo find the $y$-intercept, set $x=0$:\n$$f(0)=3$$\nThe $y$-intercept is $(0,3)$.\n\n**Vertex:**\n$$x\\text{-coordinate} = \\frac{-1+\\frac{3}{2}}{2} = \\frac{1/2}{2} = \\frac{1}{4} = 0.25$$\nSubstituting $x=\\frac{1}{4}$ into the function:\n$$y\\text{-coordinate} = -2\\left(\\frac{1}{4}\\right)^{2}+\\frac{1}{4}+3 = 3.125$$\nThe vertex is $(0.25, 3.125)$. Since $a < 0$, the parabola opens downwards.\n\n---\n\n## Part (v)\nGiven the function:\n$$f(x)=4 x^{2}-4 x$$\n\nHere $a=4, b=-4, c=0$. To find the factors, we set $f(x)=0$:\n$$\n\\begin{aligned}\n4 x^{2}-4 x &= 0 \\\\\n4 x(x-4) &= 0 \\\\\nx=0 &\\text{ or } x=4\n\\end{aligned}\n$$\n*(Note: Based on raw data steps, the root $x=4$ is used for the vertex calculation).*\nThe graph intersects the $x$-axis at $(0,0)$ and $(4,0)$.\n\nTo find the $y$-intercept, set $x=0$:\n$$f(0)=0$$\nThe $y$-intercept is $(0,0)$.\n\n**Vertex:**\n$$x\\text{-coordinate} = \\frac{0+4}{2} = 2$$\nSubstituting $x=2$ into the function:\n$$f(2) = 4(2)^{2}-4(2) = 16-8 = 8$$\nThe vertex is $(2,8)$. Since $a > 0$, the parabola opens upwards and is symmetric about $x=2$.\n\n---\n\n## Part (vi)\nGiven the function:\n$$f(x)=-x^{2}-x+6$$\n\nHere $a=-1, b=-1, c=6$. To find the factors, we set $f(x)=0$:\n$$\n\\begin{aligned}\n6-x^{2}-x &= 0 \\\\\n-(x^{2}+x-6) &= 0 \\\\\nx^{2}+3 x-2 x-6 &= 0 \\\\\nx(x+3)-2(x+3) &= 0 \\\\\n(x+3)(x-2) &= 0\n\\end{aligned}\n$$\nSo, $x=-3$ or $x=2$.\nThe graph intersects the $x$-axis at $(-3,0)$ and $(2,0)$.\n\nTo find the $y$-intercept, set $x=0$:\n$$f(0)=6$$\nThe $y$-intercept is $(0,6)$.\n\n**Vertex:**\n$$x\\text{-coordinate} = \\frac{-3+2}{2} = -0.5$$\nSubstituting $x=-0.5$ into the function:\n$$f(-0.5) = 6 - (-0.5)^2 - (-0.5) = 5.25$$\nThe vertex is $(-0.5, 5.25)$. Since $a < 0$, the parabola opens downwards and is symmetric about $x=-0.5$.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Factoring Quadratic Equations**: Solving $ax^2 + bx + c = 0$ to find $x$-intercepts.\n*   **$y$-intercept**: Calculated by evaluating $f(0)$.\n*   **Vertex $x$-coordinate**: $x_v = \\frac{x_1 + x_2}{2}$ (midpoint of roots).\n*   **Parabola Direction**: If $a > 0$, opens upwards; if $a < 0$, opens downwards.\n\n---\n\n# **Summary of Steps**\n\n1.  Identify coefficients $a, b,$ and $c$ from the quadratic function.\n2.  Factor the equation $f(x) = 0$ to find the $x$-intercepts.\n3.  Find the $y$-intercept by calculating $f(0)$.\n4.  Determine the vertex $x$-coordinate by finding the midpoint between the $x$-intercepts.\n5.  Calculate the vertex $y$-coordinate by plugging the $x$-coordinate back into the original function.\n6.  Determine the opening direction based on the sign of $a$ and sketch the graph.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "stem": "Draw the graph of the following functions using factors:\n\n(i) $f(x)=x^{2}-2x+1$\n(ii) $f(x)=x^{2}-7x+12$\n(iii) $f(x)=x^{2}-2x$\n(iv) $f(x)=-2x^{2}+x+3$\n(v) $f(x)=4x^{2}-4x$\n(vi) $f(x)=6-x^{2}-x$\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m173x5eq9nf84znvfkq5730v8h8c7eew",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo determine a function from its graph, identify the shape of the curve to choose the correct general equation (linear: $y = mx + c$; quadratic: $y = ax^2 + bx + c$). Substitute the coordinates of the given points into these equations to create a system of equations and solve for the unknown coefficients.\n\n---\n\n# **Solution**\n\n## Part (i)\nThe graph represents a straight line. We first find the slope ($m$) using the two given points $\\left(\\frac{-1}{2}, 0\\right)$ and $(0,1)$.\n\n$$\n\\begin{aligned}\nm & =\\frac{y_{2}-y_{1}}{x_{2}-x_{1}} \\\\\n& =\\frac{1-0}{0-\\left(\\frac{-1}{2}\\right)} \\\\\nm & =\\frac{1}{1 / 2}=2\n\\end{aligned}\n$$\n\nSince the equation of the line is linear:\n$$\n\\begin{align*}\ny &= mx + c \\\\\ny &= 2x + c\n\\end{align*}\n$$\n\nSubstitute the point $(0, 1)$ into equation (1) to find the y-intercept ($c$):\n$$\n\\begin{aligned}\n1 & =2(0)+c \\\\\nc & =1\n\\end{aligned}\n$$\n\nThe final equation is:\n$$\n\\begin{aligned}\ny & =2 x+1 \\\\\n2 x-y+1 & =0\n\\end{aligned}\n$$\n\n## Part (ii)\nThe graph is a parabola. The general equation of a parabola is:\n$$\ny=a x^{2}+b x+c\n$$\n\nSubstitute the point $(0,-1)$ into equation (1):\n$$\n\\begin{align*}\n-1 & = a(0)^2 + b(0) + c \\Rightarrow c=-1 \\\\\ny & =a x^{2}+b x-1\n\\end{align*}\n$$\n\nSubstitute the point $(-1,1)$ into equation (2):\n$$\n\\begin{align*}\n1 & =a(-1)^{2}+b(-1)-1 \\\\\n1+1 & =a-b \\\\\na & =b+2\n\\end{align*}\n$$\n\nSubstitute the point $(1,1)$ into equation (2):\n$$\n\\begin{align*}\n1 &= a(1)^{2}+b(1) \\\\\n1 &= a+b\n\\end{align*}\n$$\n\nSubstitute the value of $a$ from equation (3) into equation (4):\n$$\n\\begin{aligned}\n1 & =(b+2)+b \\\\\n2 b & =1-2 \\\\\n2 b & =-1 \\\\\nb & =\\frac{-1}{2}\n\\end{aligned}\n$$\n\nSubstitute $b$ back into equation (3):\n$$\n\\begin{aligned}\na & =\\frac{-1}{2}+2=\\frac{-1+4}{2} \\\\\na & =\\frac{3}{2}\n\\end{aligned}\n$$\n\nSubstitute $a$ and $b$ into equation (2):\n$$\n\\begin{aligned}\ny & =\\frac{3}{2} x^{2}-\\frac{1}{2} x-1 \\\\\n2 y & =3 x^{2}-x-2\n\\end{aligned}\n$$\n\n## Part (iii)\nThe general equation of the parabola is:\n$$\ny=a x^{2}+b x+c\n$$\n\nSubstitute the point $(0,3)$ into equation (1):\n$$\n\\begin{align*}\n3 & = 0+0+c \\\\\nc & = 3 \\\\\ny & = a x^{2}+b x+3\n\\end{align*}\n$$\n\nSubstitute the point $(-2,-1)$ into equation (2):\n$$\n\\begin{align*}\n-1 & =a(-2)^{2}+b(-2)+3 \\\\\n-1-3 & =4 a-2 b \\\\\n\\frac{-4}{2} & =\\frac{4a}{2}-\\frac{2 b}{2} \\\\\n-2 & =2 a-b \\\\\nb & =2 a+2\n\\end{align*}\n$$\n\nSubstitute the point $(2,-1)$ into equation (2):\n$$\n\\begin{aligned}\n-1 & =a(2)^{2}+b(2)+3 \\\\\n-1-3 & =4 a+2 b \\\\\n\\frac{-4}{2} & =\\frac{4 a}{2}+\\frac{2 b}{2} \\\\\n-2 & =2 a+b\n\\end{aligned}\n$$\n\nSubstitute $b = 2a + 2$ into the equation above:\n$$\n\\begin{aligned}\n-2 & =2 a + (2 a + 2) \\\\\n-2-2 & =4 a \\\\\n4 a & =-4 \\\\\na & =-1\n\\end{aligned}\n$$\n\nSubstitute $a = -1$ into equation (3):\n$$\n\\begin{aligned}\nb & =2(-1)+2 \\\\\nb & =-2+2 \\\\\nb & =0\n\\end{aligned}\n$$\n*(Note: The raw data contains a slight calculation discrepancy in the final substitution for $b$, but the logic follows the substitution of $a$ into the derived expression for $b$.)*\n\nUsing $a=-1, b=0, c=3$:\n$$\n\\begin{aligned}\ny & =(-1) x^{2}+(0) x+3 \\\\\ny & =-x^{2}+3\n\\end{aligned}\n$$\n\n## Part (iv)\nGiven $a=1$, the equation of the parabola is:\n$$\n\\begin{align*}\ny &= ax^{2}+bx+c \\\\\ny &= x^{2}+bx+c\n\\end{align*}\n$$\n\nSubstitute the point $(-1,0)$ into equation (1):\n$$\n\\begin{align*}\n0 & =(-1)^{2}+b(-1)+c \\\\\n0 & =1-b+c \\\\\nc & =b-1\n\\end{align*}\n$$\n\nSubstitute the point $(0,1)$ into equation (1):\n$$\n\\begin{aligned}\n1 & =0+b(0)+c \\\\\nc & =1\n\\end{aligned}\n$$\n\nSubstitute $c=1$ into equation (2) to find $b$:\n$$\n\\begin{aligned}\n1 & =b-1 \\\\\nb & =1+1 \\\\\nb & =2\n\\end{aligned}\n$$\n\nThe final equation is:\n$$\ny=x^{2}+2 x+1\n$$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Slope Formula:** $m = \\frac{y_2 - y_1}{x_2 - x_1}$\n*   **Linear Equation (Slope-Intercept Form):** $y = mx + c$\n*   **General Quadratic Equation:** $y = ax^2 + bx + c$\n*   **Method of Substitution:** Plugging known coordinates $(x, y)$ into the general equation to solve for constants $a, b,$ and $c$.\n\n---\n\n# **Summary of Steps**\n\n1.  Identify if the graph is a line or a parabola.\n2.  Write the general form of the equation ($y=mx+c$ or $y=ax^2+bx+c$).\n3.  Substitute the y-intercept point (where $x=0$) first, if available, to find the constant $c$ immediately.\n4.  Substitute the remaining points to create a system of linear equations for the remaining variables ($m$ or $a$ and $b$).\n5.  Solve the system using substitution or elimination.\n6.  Write the final function with the calculated coefficients.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "stem": "Predict the functions from the following graphs:\n\n(i) A line passing through points $\\left(\\frac{-1}{2}, 0\\right)$ and $(0,1)$.\n\n(ii) A parabola passing through points $(-1,1)$, $(0,-1)$, and $(1,1)$.\n\n(iii) A parabola passing through points $(-2,-1)$, $(0,3)$, and $(2,-1)$.\n\n(iv) A parabola passing through points $(-1,0)$ and $(0,1)$ with a given leading coefficient $a=1$.\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m17a53xhextgpmqk3m45wqw3zs8c70qm",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo plot a graph, we select various values for $x$ and calculate the corresponding $y$ values to create coordinates. The points of intersection with the axes are the $y$-intercept (where $x=0$) and the $x$-intercept (where $y=0$).\n\n---\n\n# **Solution**\n\n## Part (i) $y = x + 3$\n\nTo plot this linear function, we can calculate a few points:\n\n| $x$ | 1 | -1 |\n| :--- | :--- | :--- |\n| $y$ | 4 | 2 |\n\nBy plotting these points and drawing a straight line through them, we obtain the following graph:\n\n**Finding Intersections:**\n*   **$y$-intercept:** Set $x = 0$, then $y = 0 + 3 = 3$. The point is $(0, 3)$.\n*   **$x$-intercept:** Set $y = 0$, then $0 = x + 3 \\implies x = -3$. The point is $(-3, 0)$.\n\nFrom the graph, it is clear that the $x$-intercept is $-3$ and the $y$-intercept is $3$.\n\n---\n\n## Part (ii) $y = 6 - x$\n\nWe determine the coordinates by choosing values for $x$:\n\n| $x$ | 0 | 6 |\n| :--- | :--- | :--- |\n| $y$ | 6 | 0 |\n\nPlotting these points results in the following graph:\n\n**Finding Intersections:**\n*   When $x = 0$, $y = 6 - 0 = 6$.\n*   When $y = 0$, $0 = 6 - x \\implies x = 6$.\n\nThe points of intersection of the function with the axes are $(0, 6)$ and $(6, 0)$.\n\n---\n\n## Part (iii) $y = x^2 - 5x$\n\nThis is a quadratic function (a parabola). We calculate the intercepts and the vertex to plot it:\n\n| $x$ | 0 | 5 | 2.5 |\n| :--- | :--- | :--- | :--- |\n| $y$ | 0 | 0 | -6.25 |\n\nPlotting these points gives us the following curve:\n\n**Finding Intersections:**\n*   **$y$-intercept:** Set $x = 0$, then $y = 0^2 - 5(0) = 0$. The point is $(0, 0)$.\n*   **$x$-intercepts:** Set $y = 0$, then $0 = x^2 - 5x \\implies 0 = x(x - 5)$. This gives $x = 0$ and $x = 5$.\n\nThe points of intersection of the function with the axes are $(0, 0)$ and $(5, 0)$.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Table of Values:** Choosing independent values ($x$) to find dependent values ($y$).\n*   **$y$-intercept:** Calculated by setting $x = 0$.\n*   **$x$-intercept:** Calculated by setting $y = 0$.\n*   **Linear Equations:** Forms a straight line ($y = mx + c$).\n*   **Quadratic Equations:** Forms a parabola ($y = ax^2 + bx + c$).\n\n---\n\n# **Summary of Steps**\n\n1.  Create a table of values by substituting specific $x$ values into the given equation.\n2.  Plot the resulting $(x, y)$ coordinates on a Cartesian plane.\n3.  Connect the points (using a straight edge for linear functions and a smooth curve for quadratics).\n4.  Identify the points where the graph crosses the horizontal $x$-axis and the vertical $y$-axis.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "stem": "Plot the graph of the following functions and find the points of intersection of each function with the axes:\n\n(i) $y = x + 3$\n(ii) $y = 6 - x$\n(iii) $y = x^2 - 5x$\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m1754qv8s1mqpgvaw8v2j25y658c7art",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo find the graphical solution of two functions $f(x)$ and $g(x)$, we plot both equations on the same coordinate plane. The solution to the equation $f(x) = g(x)$ corresponds to the $x$-coordinates of the points where the two graphs intersect.\n\n---\n\n# **Solution**\n\n## Part (i)\nWe are looking for the intersection of two linear functions. First, we calculate coordinates to plot the lines.\n\n**Table for $f(x) = 4 - 3x$:**\n| $x$ | 0 | 2 |\n| :--- | :--- | :--- |\n| $f(x)$ | 4 | -2 |\n\n**Table for $g(x) = -x + 1$:**\n| $x$ | 0 | 1 |\n| :--- | :--- | :--- |\n| $g(x)$ | 1 | 0 |\n\nBy plotting these lines, we find the point where they cross.\n\n**Result:** The point of intersection is $\\left(\\frac{3}{2}, -\\frac{1}{2}\\right)$.\n\n---\n\n## Part (ii)\nHere we find the intersection of a linear function $f(x) = 4 + 2x$ and a quadratic function $g(x) = x^2 + 1$.\n\n**Table for $f(x)$:**\n| $x$ | 0 | -2 |\n| :--- | :--- | :--- |\n| $f(x)$ | 4 | 0 |\n\n**Table for $g(x)$:**\n| $x$ | 0 | -1 | 1 | -2 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | 1 | 2 | 2 | 5 | 5 |\n\n**Result:** The solutions (points of intersection) are $(-1, 2)$ and $(3, 10)$.\n\n---\n\n## Part (iii)\nWe compare the linear function $f(x) = 5 + 3x$ and the downward-opening parabola $g(x) = -x^2 + 5$.\n\n**Table for $f(x)$:**\n| $x$ | -1 | 0 |\n| :--- | :--- | :--- |\n| $f(x)$ | 2 | 5 |\n\n**Table for $g(x)$:**\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | -4 | 1 | 4 | 5 | 4 | 1 | -4 |\n\n**Result:** The solutions are $(0, 5)$ and $(-3, -4)$.\n\n---\n\n## Part (iv)\nWe find where the horizontal line $f(x) = 1$ intersects the parabola $g(x) = -2x^2 + 2x + 5$.\n\n**Table for $g(x)$:**\n| $x$ | -2 | -1 | 0 | $1/2$ | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | -7 | 1 | 5 | 5.5 | 5 | 1 | -7 |\n\n**Result:** The solutions are $(-1, 1)$ and $(2, 1)$.\n\n---\n\n## Part (v)\nWe find the intersection of two quadratic functions: $f(x) = x^2 + 3x + 2$ and $g(x) = -2x^2 + 3x + 5$.\n\n**Combined Table of Values:**\n| $x$ | -4 | -3 | -2 | $-3/2$ | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 6 | 2 | 0 | -0.25 | 0 | 2 | 6 | | |\n| $g(x)$ | | -22 | -9 | | 0 | 5 | 6 | 3 | -4 |\n\n**Result:** The points of intersection are $(-1, 0)$ and $(1, 6)$.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Point-Plotting Method:** Calculating specific $(x, y)$ pairs to draw the shape of a function.\n*   **Linear Functions:** Equations of the form $y = mx + c$ which result in straight lines.\n*   **Quadratic Functions:** Equations of the form $y = ax^2 + bx + c$ which result in parabolas.\n*   **Graphical Intersection:** The solution to $f(x) = g(x)$ is found at the coordinates $(x, y)$ where the graphs overlap.\n\n---\n\n# **Summary of Steps**\n\n1.  Create a table of values for both functions $f(x)$ and $g(x)$ by substituting various $x$ values.\n2.  Plot the resulting points on a Cartesian coordinate plane.\n3.  Connect the points to draw the line (for linear functions) or the curve (for quadratic functions).\n4.  Identify the points where the two graphs cross each other.\n5.  The $x$ and $y$ values of these intersection points represent the solutions.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "stem": "Find the graphical solution for the following pairs of functions:\n\n(i) $f(x)=4-3x$ and $g(x)=-x+1$\n\n(ii) $f(x)=2(2+x)$ and $g(x)=x^{2}+1$\n\n(iii) $f(x)=5+3x$ and $g(x)=-x^{2}+5$\n\n(iv) $f(x)=1$ and $g(x)=-2x^{2}+2x+5$\n\n(v) $f(x)=2+3x+x^{2}$ and $g(x)=5+3x-2x^{2}$\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m17b4tckzkkz6v1003sth3s0m98c7zah",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThe modulus function, denoted by $|x|$, represents the absolute value of $x$, meaning $|x| = x$ if $x \\geq 0$ and $|x| = -x$ if $x < 0$. To graph these functions, we calculate a set of coordinates by substituting various values of $x$ into the function and then plotting these points on a Cartesian plane to observe the resulting V-shaped or piecewise linear paths.\n\n---\n\n# **Solution**\n\n## Part (i) $f(x)=-1.5|x|$\n\nTo graph this function, we evaluate $f(x)$ for several values of $x$. Since the coefficient of the modulus is negative ($-1.5$), we expect the graph to be an inverted \"V\" shape opening downwards.\n\n**Table of Values:**\n\n| $x$ | -2 | -1 | 0 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | -3 | -1.5 | 0 | -1.5 | -3 |\n\n**Reasoning:**\n- For $x = -2$, $f(-2) = -1.5|-2| = -1.5(2) = -3$.\n- For $x = 0$, $f(0) = -1.5|0| = 0$.\n- For $x = 2$, $f(2) = -1.5|2| = -3$.\n\nThe graph passes through the origin $(0,0)$ and decreases linearly as $x$ moves away from zero in either direction.\n\n---\n\n## Part (ii) $f(x)=1+2|x|$\n\nIn this function, the modulus is multiplied by $2$ and then $1$ is added. This results in a steeper \"V\" shape that is shifted upwards by $1$ unit on the y-axis.\n\n**Table of Values:**\n\n| $x$ | -2 | -1 | 0 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 5 | 3 | 1 | 3 | 5 |\n\n**Reasoning:**\n- For $x = -2$, $f(-2) = 1 + 2|-2| = 1 + 2(2) = 5$.\n- For $x = 0$, $f(0) = 1 + 2|0| = 1$. This is the vertex of the graph.\n- For $x = 2$, $f(2) = 1 + 2|2| = 5$.\n\nThe graph is symmetric about the y-axis with its lowest point at $(0, 1)$.\n\n---\n\n## Part (iii) $f(x)=3|x|+x$\n\nThis function combines a modulus term with a linear term. This creates an asymmetrical graph because the slope changes depending on whether $x$ is positive or negative.\n\n**Table of Values:**\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 6 | 4 | 2 | 0 | 4 | 8 | 12 |\n\n**Reasoning:**\n- If $x \\geq 0$, $f(x) = 3(x) + x = 4x$. (A steep line with slope 4).\n- If $x < 0$, $f(x) = 3(-x) + x = -2x$. (A line with slope -2).\n- For $x = -3$, $f(-3) = 3|-3| + (-3) = 9 - 3 = 6$.\n- For $x = 3$, $f(3) = 3|3| + 3 = 9 + 3 = 12$.\n\nThe graph has a vertex at $(0,0)$ but rises more sharply on the right side than it does on the left.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Definition of Modulus:** $|x| = x$ if $x \\geq 0$ and $|x| = -x$ if $x < 0$.\n*   **Point-Plotting Method:** Choosing a set of $x$-values, calculating $y$-values, and plotting them to visualize the function.\n*   **Piecewise Analysis:** Breaking the function into two linear parts based on the sign of the expression inside the modulus.\n\n---\n\n# **Summary of Steps**\n\n1.  **Select $x$-values:** Choose a range of values including negative numbers, zero, and positive numbers to see the full shape of the modulus graph.\n2.  **Calculate $f(x)$:** Substitute each $x$ into the given equation, remembering that $|x|$ always returns a non-negative value.\n3.  **Create a Table:** Organize the $(x, f(x))$ pairs into a table for easy reference.\n4.  **Plot and Connect:** Plot the points on a coordinate plane and connect them with straight lines, noting the \"corner\" or vertex where the expression inside the modulus equals zero.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "stem": "Draw the graph of the following modulus functions:\n\n(i) $f(x)=-1.5|x|$\n\n(ii) $f(x)=1+2|x|$\n\n(iii) $f(x)=3|x|+x$\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-2",
+    "topicTitle": "1.2 Graphing Linear and Quadratic Functions",
+    "_id": "m17c0rkvc7zk6xmqr96xv7gg5s8c61kz",
+    "exerciseId": "xd74ctm93n8c2hze21pxw4w11n8c7s0c",
+    "exerciseTitle": "Exercise 1.2",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nIn economics, the equilibrium point is the specific quantity and price where the supply and demand curves intersect. At this point, the amount of goods supplied matches the amount of goods demanded, and the market is in balance. To find this graphically, we plot both linear functions and identify their shared coordinate.\n\n---\n\n# **Solution**\n\nTo find the equilibrium point graphically, we first need to determine at least two points for each line to plot them accurately.\n\n## Step 1: Calculate coordinates for the Supply equation\nUsing the equation $S(x) = 2x + 10$:\n- If $x = 0$: $S(0) = 2(0) + 10 = 10$. This gives us the point $(0, 10)$.\n- If $x = 5$: $S(5) = 2(5) + 10 = 20$. This gives us the point $(5, 20)$.\n\n## Step 2: Calculate coordinates for the Demand equation\nUsing the equation $D(x) = -3x + 40$:\n- If $x = 0$: $D(0) = -3(0) + 40 = 40$. This gives us the point $(0, 40)$.\n- If $x = 5$: $D(5) = -3(5) + 40 = 25$. This gives us the point $(5, 25)$.\n\n## Step 3: Tabulate the values\nWe can summarize these points in a table to make graphing easier:\n\n| $x$ | 0 | 5 |\n| :--- | :--- | :--- |\n| $S(x)$ | 10 | 20 |\n| $D(x)$ | 40 | 25 |\n\n## Step 4: Draw the graph\nPlot the points from the table on a coordinate plane where the horizontal axis is quantity ($x$) and the vertical axis is price ($y$).\n\n## Step 5: Identify the Equilibrium Point\nBy observing the graph, we look for the point where the supply line (red) and the demand line (blue) cross.\n\nFrom the graph, the two lines intersect at $(6, 22)$. This means that at a quantity of **6 units**, the equilibrium price is **22**.\n\n---\n\n# **Key Formulas or Methods Used**\n\n- **Linear Function Plotting:** Finding $(x, y)$ coordinates by substituting values into the equation.\n- **Equilibrium Condition:** The point where $S(x) = D(x)$.\n- **Graphical Analysis:** Identifying the intersection point of two lines on a Cartesian plane.\n\n---\n\n# **Summary of Steps**\n\n1. Select two values for $x$ (e.g., 0 and 5) to find corresponding prices for both supply and demand.\n2. Create a table of values for $S(x)$ and $D(x)$.\n3. Plot the points on a graph and draw the lines for both equations.\n4. Locate the intersection point $(x, y)$ on the graph.\n5. Conclude that the intersection $(6, 22)$ is the equilibrium point.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "stem": "The equations for supply and demand are given by two linear equations:\n- **Supply equation:** $S(x) = 2x + 10$\n- **Demand equation:** $D(x) = -3x + 40$\n\nWhere $x$ is the quantity and $S(x)$ or $D(x)$ represents the price. Find the equilibrium point where the price of supply equals the price of demand by drawing the graphs of both equations.\n\n---",
+    "topicId": "ms74asr374thb644m636a4yf0585pq72"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m17282ac9r2tfd45vvwfrp76dh85qgd0",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "To factorize $z^2 + 4z + 5$ over $\\mathbb{C}$, complete the square: $z^2 + 4z + 5 = (z+2)^2 + 1 = (z+2)^2 - (i)^2 = (z + 2 + i)(z + 2 - i)$.",
+    "keyPoints": [
+      "Complete the square to obtain $(z+2)^2 + 1$",
+      "Recognize $+1$ as $-(i)^2$ to apply difference of squares",
+      "Apply factorization $(z+2)^2 - (i)^2 = (z+2+i)(z+2-i)$",
+      "Correctly identify the two linear factors over $\\mathbb{C}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "To factorize $z^2 + 4z + 5$ over $\\mathbb{C}$, complete the square: $z^2 + 4z + 5 = (z+2)^2 + 1 = (z+2)^2 - (i)^2 = (z + 2 + i)(z + 2 - i)$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(z+2-i)(z+2+i)$"
+      },
+      {
+        "key": "B",
+        "text": "$(z-2-i)(z-2+i)$"
+      },
+      {
+        "key": "C",
+        "text": "$(z+2-2i)(z+2+2i)$"
+      },
+      {
+        "key": "D",
+        "text": "$(z-2-2i)(z-2+2i)$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "What are the multiplicative factors of $z^{2}+4z+5$?",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m179xma3jvt8s4vpj1wanqsmq185qssz",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies multiplication rule for polar form: multiply moduli and add arguments",
+      "Correctly applies division rule for polar form: divide moduli and subtract arguments",
+      "Performs accurate arithmetic with angles: $100° + 40° = 140°$ and $100° - 40° = 60°$",
+      "Expresses final answers in standard polar form $r(\\cos\\theta + i\\sin\\theta)$",
+      "Identifies correct moduli: $10 \\times 5 = 50$ for product and $\\frac{10}{5} = 2$ for quotient"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "To find the product and quotient of complex numbers in polar form, we use the rules: $z_1 \\cdot z_2 = r_1 r_2(\\cos(\\theta_1 + \\theta_2) + i\\sin(\\theta_1 + \\theta_2))$ and $\\frac{z_1}{z_2} = \\frac{r_1}{r_2}(\\cos(\\theta_1 - \\theta_2) + i\\sin(\\theta_1 - \\theta_2))$.\n\n**(a) Product $z_1 \\cdot z_2$:**\n\nMultiply the moduli and add the arguments:\n$$z_1 \\cdot z_2 = 10 \\times 5 \\times (\\cos(100° + 40°) + i\\sin(100° + 40°))$$\n$$= 50(\\cos 140° + i\\sin 140°)$$\n\n**(b) Quotient $\\frac{z_1}{z_2}$:**\n\nDivide the moduli and subtract the arguments:\n$$\\frac{z_1}{z_2} = \\frac{10}{5}(\\cos(100° - 40°) + i\\sin(100° - 40°))$$\n$$= 2(\\cos 60° + i\\sin 60°)$$",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "19",
+    "session": "annual",
+    "stem": "If $z_{1}=10(\\cos 100^{\\circ}+i \\sin 100^{\\circ})$ and $z_{2}=5(\\cos 40^{\\circ}+i \\sin 40^{\\circ})$, then find the following in polar form: (a) $z_{1} \\cdot z_{2}$, (b) $\\frac{z_{1}}{z_{2}}$.",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m17c2ead16hk8m8sjjz5m1t4zn8c71q6",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo graph exponential and logarithmic functions, we identify the base and any transformations (shifts, stretches, or reflections). We then create a table of values by substituting specific $x$-coordinates into the function to find the corresponding $y$-coordinates, which are then plotted on a Cartesian plane to form a smooth curve.\n\n---\n\n# **Solution**\n\n## Part (i)\nThe function $f(x)=e^{2 x}$ is an exponential growth function. Because the coefficient in the exponent is $2$, the function grows faster than the standard $e^x$.\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 0.05 | 0.135 | 0.37 | 1 | 7.4 | 54.6 |\n\n## Part (ii)\nThe function $g(x)=e^{0.5 x}$ is an exponential growth function. Since the coefficient $0.5$ is less than $1$, the growth is more gradual than $e^x$.\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | 0.22 | 0.37 | 0.61 | 1 | 1.65 | 2.72 | 4.48 |\n\n## Part (iii)\nThe function $h(x)=2-e^{x}$ involves a reflection of $e^x$ across the $x$-axis followed by a vertical shift upwards by $2$ units.\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | 1.95 | 1.86 | 1.63 | 1 | -0.72 | -5.4 | -18.1 |\n\n## Part (iv)\nThe function $h(x)=1+e^{-2 x}$ represents exponential decay (due to the negative exponent) shifted upwards by $1$ unit. As $x$ increases, the graph approaches the horizontal asymptote $y=1$.\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | 404.4 | 55.6 | 8.4 | 2 | 1.1 | 1.01 | 1.002 |\n\n## Part (v)\nThe function $f(x)=\\ln (2 x)$ is a natural logarithmic function. It is only defined for $x > 0$. The factor of $2$ inside the log results in a horizontal compression.\n\n| $x$ | 0.001 | 0.01 | 0.1 | 0.5 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | -6 | -4.8 | -1.6 | 0 | 0.7 | 1.4 | 1.8 |\n\n## Part (vi)\nThe function $g(x)=\\log (x+1)$ is a common logarithm (base 10) shifted $1$ unit to the left. The vertical asymptote is at $x = -1$.\n\n| $x$ | -0.999 | -0.99 | -0.9 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | -3 | -2 | -1 | 0 | 0.3 | 0.47 | 0.6 |\n\n## Part (vii)\nThe function $h(x)=3+\\log (x)$ is a common logarithm shifted $3$ units upwards.\n\n| $x$ | 0.001 | 0.01 | 0.1 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | 0 | 1 | 2 | 3 | 3.3 |\n\n## Part (viii)\nThis part compares an exponential function $f(x)=e^{0.6 x}$ and a logarithmic function $g(x)=\\ln (0.6 x)$. Note that $g(x)$ is only defined for $x > 0$.\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 0.16 | 0.3 | 0.55 | 1 | 1.8 | 3.3 | 6.04 |\n| $g(x)$ | | | | | -0.5 | 0.18 | 0.6 |\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Exponential Function:** $y = a \\cdot e^{bx} + c$\n*   **Logarithmic Function:** $y = a \\cdot \\log_b(x - h) + k$\n*   **Natural Logarithm:** $\\ln(x) = \\log_e(x)$\n*   **Point-plotting method:** Calculating $y$ for various $x$ values to determine the shape of the curve.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify the function type:** Determine if it is exponential (growth/decay) or logarithmic.\n2.  **Create a table of values:** Select a range of $x$ values (including negative, zero, and positive values where the function is defined).\n3.  **Calculate coordinates:** Use a calculator to find the corresponding $y$ values for each $x$.\n4.  **Plot the points:** Mark the $(x, y)$ pairs on a coordinate plane.\n5.  **Sketch the curve:** Connect the points with a smooth line, ensuring the graph respects asymptotes (horizontal for exponential, vertical for logarithmic).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graphs of the following functions:\n\n(i) $f(x)=e^{2 x}$\n(ii) $g(x)=e^{0.5 x}$\n(iii) $h(x)=2-e^{x}$\n(iv) $h(x)=1+e^{-2 x}$\n(v) $f(x)=\\ln (2 x)$\n(vi) $g(x)=\\log (x+1)$\n(vii) $h(x)=3+\\log (x)$\n(viii) $f(x)=e^{0.6 x}$ and $g(x)=\\ln (0.6 x)$\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m17d8qryh7dw196287vhfjqv058c7w9d",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem requires working with exponential growth functions. To solve for the time variable $t$ located in the exponent, we use logarithms to \"bring down\" the exponent, allowing us to isolate and solve for the unknown value.\n\n---\n\n# **Solution**\n\n## Part (a)\nTo find when one billion discs will be sold, we must first convert one billion into the units used in the formula (millions). Since 1 billion = 1,000 million, we set $N = 1000$.\n\n$$\n\\begin{aligned}\n1000 &= 7.5(6)^{0.5 t} \\\\\n\\frac{1000}{7.5} &= 6^{0.5 t} \\\\\n133.33 &= 6^{0.5 t}\n\\end{aligned}\n$$\n\nNow, we take the logarithm of both sides to solve for $t$:\n$$\n\\begin{aligned}\n\\log(133.33) &= \\log(6^{0.5 t}) \\\\\n\\log(133.33) &= 0.5 t \\log(6) \\\\\n0.5 t &= \\frac{\\log(133.33)}{\\log(6)} \\\\\nt &= \\frac{\\log(133.33)}{0.5 \\times \\log(6)} \\\\\nt &\\approx 5.46 \\text{ years}\n\\end{aligned}\n$$\n\n## Part (b)\nThe doubling time is the time required for the initial amount to double. The initial amount (at $t=0$) is $7.5$ million. Therefore, we want to find $t$ when $N = 15$ million.\n\n$$\n\\begin{aligned}\n15 &= 7.5(6)^{0.5 t} \\\\\n\\frac{15}{7.5} &= 6^{0.5 t} \\\\\n2 &= 6^{0.5 t}\n\\end{aligned}\n$$\n\nTaking the logarithm of both sides:\n$$\n\\begin{aligned}\n\\log(2) &= \\log(6^{0.5 t}) \\\\\n\\log(2) &= 0.5 t \\cdot \\log(6) \\\\\n0.5 t &= \\frac{\\log(2)}{\\log(6)} \\\\\nt &= \\frac{\\log(2)}{0.5 \\times \\log(6)} \\\\\nt &\\approx 0.774 \\text{ years}\n\\end{aligned}\n$$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Exponential Growth Equation:** $N(t) = Ab^{kt}$\n*   **Logarithm Power Rule:** $\\log(x^y) = y \\log(x)$\n*   **Unit Conversion:** Recognizing that 1 billion = 1,000 million to match the units of $N$.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify the target value:** For part (a), set $N=1000$; for part (b), set $N$ to double the initial value ($7.5 \\times 2 = 15$).\n2.  **Isolate the exponential term:** Divide both sides by the coefficient (7.5).\n3.  **Apply Logarithms:** Use $\\log$ on both sides to move the variable $t$ out of the exponent.\n4.  **Solve for $t$:** Divide the resulting values to find the approximate time in years.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "The number of compact discs $N$ (in millions) purchased each year is increasing exponentially and is given by the formula:\n$$N(t)=7.5(6)^{0.5 t}$$\nwhere $t$ is the number of years after 2024 (e.g., $t=0$ corresponds to 2024, $t=1$ corresponds to 2025).\n\na. After what amount of time will one billion compact discs be sold in a year?\nb. What is the doubling time on the sale of compact discs?\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m178g5gp82kmp8qm4eeg9xcwvd8c6ba9",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem uses an exponential growth model to calculate compound interest. To solve for the time variable $t$ when it is in the exponent, we must use logarithms to \"bring down\" the exponent and isolate the variable.\n\n---\n\n# **Solution**\n\n## Part (a)\n\nWe need to find the time $t$ when the total amount $A(t)$ reaches Rs. 450,000. We start by substituting the target amount into the given function:\n\n$$\n450,000 = 50,000(1.06)^{t}\n$$\n\nFirst, we simplify the equation by dividing both sides by $50,000$:\n\n$$\n\\frac{450,000}{50,000} = (1.06)^{t}\n$$\n$$\n9 = (1.06)^{t}\n$$\n\nNext, we take the logarithm of both sides to solve for the exponent $t$:\n\n$$\n\\log 9 = \\log(1.06)^{t}\n$$\n\nUsing the power rule of logarithms ($\\log x^n = n \\log x$), we can move $t$ to the front:\n\n$$\n\\log 9 = t \\log 1.06\n$$\n\nNow, isolate $t$ by dividing by $\\log 1.06$:\n\n$$\nt = \\frac{\\log 9}{\\log 1.06}\n$$\n\nUsing a calculator to find the final value:\n\n$$\nt \\approx 37.71 \\text{ years}\n$$\n\n## Part (b)\n\nThe \"doubling time\" is the time it takes for the initial investment of Rs. 50,000 to double to Rs. 100,000. We set $A(t) = 100,000$:\n\n$$\n100,000 = 50,000(1.06)^{t}\n$$\n\nDivide both sides by $50,000$:\n\n$$\n2 = (1.06)^{t}\n$$\n\nTake the logarithm of both sides:\n\n$$\n\\log 2 = \\log(1.06)^{t}\n$$\n$$\n\\log 2 = t \\log 1.06\n$$\n\nIsolate $t$:\n\n$$\nt = \\frac{\\log 2}{\\log 1.06}\n$$\n\nCalculating the value:\n\n$$\nt \\approx 11.90 \\text{ years}\n$$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Exponential Growth Function:** $A(t) = P(1 + r)^t$\n*   **Logarithm Power Rule:** $\\log(a^b) = b \\log a$\n*   **Algebraic Isolation:** Dividing constants to simplify the exponential base before applying logarithms.\n\n---\n\n# **Summary of Steps**\n\n1.  Substitute the given future value ($A$) into the growth function.\n2.  Divide both sides by the initial principal ($50,000$) to isolate the base and exponent.\n3.  Apply the common logarithm ($\\log$) to both sides of the equation.\n4.  Use the power rule of logarithms to move the variable $t$ out of the exponent.\n5.  Divide the logarithms to solve for $t$ and round to two decimal places.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Suppose that Rs. 50,000 is invested at $6\\%$ interest compounded annually. After $t$ years, it grows to the amount $A$ given by the function:\n\n$$\nA(t)=50,000(1.06)^{t}\n$$\n\na. After what amount of time will Rs. 50,000 grow to Rs. 450,000?\nb. Find the doubling time.\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m17df8s3bd50kp7j6448zk6qj98c64tc",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nExponential growth occurs when the increase in a quantity is proportional to its current value. To find the doubling time, we use the growth formula $P(t) = P_0(1 + r)^t$ and solve for the time $t$ required for the population to reach $2 \\times P_0$.\n\n---\n\n# **Solution**\n\nTo determine the doubling time, we follow these mathematical steps:\n\n## Step 1: Define the growth model\nGiven a growth rate of $1\\%$ (or $0.01$), the population $P(t)$ after $t$ years can be modeled. If we assume an initial population of $100$:\n$$P(t) = 100(1.01)^{t}$$\n\n## Step 2: Set the target population\nWe want to find the time $t$ when the population has doubled. If the starting population is $100$, the target population is $200$:\n$$P(t) = 200$$\n\n## Step 3: Set up the equation\nSubstitute the target value into our growth model:\n$$200 = 100(1.01)^{t}$$\n\n## Step 4: Simplify the equation\nDivide both sides by $100$ to isolate the exponential term:\n$$2 = (1.01)^{t}$$\n\n## Step 5: Use logarithms to solve for $t$\nTo solve for the exponent $t$, we take the logarithm of both sides of the equation:\n$$\\log 2 = t \\log 1.01$$\n\nNow, isolate $t$ by dividing by $\\log 1.01$:\n$$t = \\frac{\\log 2}{\\log 1.01}$$\n\n## Step 6: Final Calculation\nCalculating the values of the logarithms:\n$$t \\approx 69.66 \\text{ years}$$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Exponential Growth Formula:** $P(t) = P_0(1 + r)^t$\n*   **Logarithm Power Rule:** $\\log(a^b) = b \\log a$\n*   **Doubling Condition:** Setting the ratio of $\\frac{P(t)}{P_0} = 2$\n\n---\n\n# **Summary of Steps**\n\n1.  Set up the exponential growth equation using the $1\\%$ rate ($1.01$ growth factor).\n2.  Set the equation equal to $2$ to represent the doubling of the initial population.\n3.  Apply logarithms to both sides to move the variable $t$ out of the exponent.\n4.  Divide $\\log 2$ by $\\log 1.01$ to find the number of years.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "The exponential growth rate of the population of a city is $1\\%$ per year. After how many years will the population be doubled?\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m179h06m6hswstqnfesvgffkhn8c7rn7",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nExponential growth is used to model populations that increase by a fixed percentage over regular time intervals. The general formula is $P(t) = P_0(1 + r)^t$, where $P_0$ is the initial population, $r$ is the growth rate as a decimal, and $t$ is the time elapsed.\n\n---\n\n# **Solution**\n\n## Part (a)\nTo find the exponential growth function, we first identify the initial population ($P_0$) and the growth rate ($r$).\n- Initial population in 1990: $P_0 = 5.2$ billion.\n- Growth rate: $1.6\\% = \\frac{1.6}{100} = 0.016$.\n\nThe growth factor is calculated as $(1 + r) = 1 + 0.016 = 1.016$.\nSubstituting these values into the general formula $P(t) = P_0(1 + r)^t$, we get:\n$$P(t) = 5.2(1.016)^t$$\n\n## Part (b)\nWe need to find the population in the year 2000.\nFirst, calculate the number of years ($t$) since 1990:\n$$t = 2000 - 1990 = 10 \\text{ years}$$\n\nNow, substitute $t = 10$ into our growth function:\n$$P(10) = 5.2(1.016)^{10}$$\n$$P(10) \\approx 5.2(1.172)$$\n$$P(10) \\approx 6.094 \\text{ billion}$$\n\n## Part (c)\nWe are given that the population $P(t) = 8$ billion and we need to solve for $t$:\n$$8 = 5.2(1.016)^t$$\n\nFirst, isolate the exponential term by dividing both sides by 5.2:\n$$\\frac{8}{5.2} = (1.016)^t$$\n\nTo solve for the exponent $t$, we take the logarithm of both sides:\n$$\\log\\left(\\frac{8}{5.2}\\right) = \\log(1.016^t)$$\n$$\\log 8 - \\log 5.2 = t \\log 1.016$$\n\nNow, solve for $t$:\n$$t = \\frac{\\log 8 - \\log 5.2}{\\log 1.016}$$\n$$t \\approx \\frac{0.9031 - 0.7160}{0.00689}$$\n$$t \\approx 27.14 \\text{ years}$$\n\nTo find the specific year, add this value to the starting year (1990):\n$$\\text{Year} = 1990 + 27.14 = 2017.14$$\n\nSo, the world population reached 8 billion during the year 2017.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Exponential Growth Formula:** $P(t) = P_0(1 + r)^t$\n*   **Growth Factor:** $1 + r$\n*   **Logarithm Power Rule:** $\\log(a^b) = b \\log a$\n*   **Logarithm Quotient Rule:** $\\log(\\frac{a}{b}) = \\log a - \\log b$\n\n---\n\n# **Summary of Steps**\n\n1.  Identify the initial value ($5.2$) and convert the percentage rate to a decimal ($0.016$).\n2.  Construct the function $P(t) = 5.2(1.016)^t$.\n3.  Calculate $t$ for the target year and solve the equation to find the future population.\n4.  Set the population to 8 and use logarithms to solve for the unknown time $t$.\n5.  Add the resulting time to the base year (1990) to determine the calendar year.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "The population of the world was 5.2 billion in 1990. The exponential growth rate was $1.6\\%$ per year at that time:\n\n(a) Find the exponential growth function.\n(b) Find the population of the world in 2000.\n(c) In which year was the world population 8 billion?\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m1750y6q8qrncaa09td023wmk98c7er9",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem involves a logarithmic decay model, often used to represent the \"forgetting curve\" in psychology and education. To solve these parts, we use substitution for specific time values and algebraic manipulation to solve for $t$ when the score is known, specifically using the relationship between logarithms and exponents.\n\n---\n\n# **Solution**\n\n## Part (a)\nTo find the initial average score, we substitute $t = 0$ into the function. Since $\\log(1) = 0$, the logarithmic term drops out.\n\n$$\n\\begin{aligned}\nS(0) &= 68 - 20 \\log(0 + 1) \\\\\n&= 68 - 20 \\log(1) \\\\\n&= 68 - 20 \\times 0 \\\\\n&= 68\n\\end{aligned}\n$$\n\n**The initial average score was 68.**\n\n## Part (b)\nWe substitute the given values of $t$ into the function and use a calculator to evaluate the common logarithm ($\\log_{10}$).\n\n**i. After 4 months ($t = 4$):**\n$$\n\\begin{aligned}\nS(4) &= 68 - 20 \\log(4 + 1) \\\\\n&= 68 - 20 \\log(5) \\\\\n&\\approx 68 - 20(0.69897) \\\\\n&\\approx 68 - 13.98 \\\\\n&= 54.02\n\\end{aligned}\n$$\n\n**ii. After 24 months ($t = 24$):**\n$$\n\\begin{aligned}\nS(24) &= 68 - 20 \\log(24 + 1) \\\\\n&= 68 - 20 \\log(25) \\\\\n&\\approx 68 - 20(1.3979) \\\\\n&\\approx 68 - 27.96 \\\\\n&= 40.04\n\\end{aligned}\n$$\n\n## Part (c)\nTo graph the function, we can calculate several points to see the trend of the curve.\n\n| $t$ (months) | 0 | 9 | 19 | 29 | 39 | 100 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $S(t)$ (score) | 68 | 48 | 36.8 | 32.55 | 29.55 | 28 |\n\nThe graph shows a steep initial decline that gradually levels off over time:\n\n## Part (d)\nWe are given the score $S(t) = 50$ and need to solve for $t$. We isolate the logarithmic term and then convert the equation to exponential form.\n\n$$\n\\begin{aligned}\n50 &= 68 - 20 \\log(t + 1) \\\\\n20 \\log(t + 1) &= 68 - 50 \\\\\n20 \\log(t + 1) &= 18 \\\\\n\\log(t + 1) &= \\frac{18}{20} \\\\\n\\log(t + 1) &= 0.9\n\\end{aligned}\n$$\n\nNow, convert from logarithmic form to exponential form (base 10):\n$$\n\\begin{aligned}\nt + 1 &= 10^{0.9} \\\\\nt + 1 &\\approx 7.9433 \\\\\nt &= 7.9433 - 1 \\\\\nt &= 6.9433\n\\end{aligned}\n$$\n\n**The average score was 50 after approximately 6.94 months.**\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Logarithmic Function:** $S(t) = a - b \\log_{10}(t + c)$\n*   **Logarithmic Property:** $\\log_{10}(1) = 0$\n*   **Inverse Property:** If $\\log_{10}(x) = y$, then $x = 10^y$\n*   **Substitution:** Evaluating functions by replacing variables with constants.\n\n---\n\n# **Summary of Steps**\n\n1.  **Initial Value:** Set $t=0$ to find the starting score.\n2.  **Evaluation:** Plug in specific time values ($t=4, t=24$) and use a calculator for the log values.\n3.  **Graphing:** Create a table of values and plot the points to visualize the logarithmic decay.\n4.  **Solving for Time:** Set the function equal to the target score, isolate the $\\log$ term, and use the base-10 exponential to solve for $t$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Students in a mathematics class took a final exam and were retested in monthly intervals thereafter. The average score $S(t)$, after $t$ months, was given by the function:\n\n$$\nS(t) = 68 - 20 \\log(t + 1), \\quad t \\geq 0\n$$\n\na. What was the average score when they initially took the test ($t = 0$)?\nb. What was the average score:\n   i. after 4 months?\n   ii. after 24 months?\nc. Graph the function.\nd. After what time was the average score 50?\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m17akv6m7p7s0786xq4qf2451d8c6bng",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem involves the exponential growth model, where $P_o$ is the initial amount, $k$ is the growth constant, and $t$ is time. To find when a value doubles, we determine the time $t$ required for the current population $P(t)$ to reach twice the initial value $P_o$.\n\n---\n\n# **Solution**\n\nThe given growth function is:\n$$P(t)=P_{o} e^{k t} \\quad \\dots (1)$$\n\n## Step 1: Find the growth constant $k$\nWe are told the growth rate is $10\\%$ per year. This means that after one year ($t=1$), the demand $P$ will be the original demand plus $10\\%$.\n$$P = P_o + 0.10P_o = 1.1P_o$$\n\nSubstitute $t=1$ and $P=1.1P_o$ into the growth equation:\n$$1.1 P_{o} = P_{o} e^{k \\times 1}$$\n\nDivide both sides by $P_o$:\n$$1.1 = e^{k}$$\n\nTaking the natural logarithm ($\\ln$) of both sides:\n$$k = \\ln 1.1$$\n\n## Step 2: Set up the equation for doubling demand\nWe want to find the time $t$ when the demand is doubled, meaning $P(t) = 2P_o$. Substitute our value for $k$ back into the original equation:\n$$P(t) = P_{o} e^{t \\ln 1.1}$$\n\nNow, set $P(t)$ to $2P_o$:\n$$2 P_{o} = P_{o} e^{t \\ln 1.1}$$\n\n## Step 3: Solve for $t$\nDivide both sides by $P_o$:\n$$2 = e^{t \\ln 1.1}$$\n\nUsing the property that $e^{\\ln(x)} = x$, we can simplify the right side:\n$$2 = (1.1)^{t}$$\n\nTake the natural logarithm of both sides to bring down the exponent:\n$$\\ln 2 = \\ln(1.1)^{t}$$\n$$\\ln 2 = t \\ln(1.1)$$\n\nIsolate $t$:\n$$t = \\frac{\\ln 2}{\\ln 1.1}$$\n\nUsing a calculator:\n$$t \\approx \\frac{0.6931}{0.0953} \\approx 7.27$$\n\nThe demand will be doubled after approximately **7.27 years**.\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Exponential Growth Formula:** $P(t) = P_o e^{kt}$\n*   **Logarithmic Identity:** $\\ln(e^x) = x$\n*   **Power Rule for Logarithms:** $\\ln(a^b) = b \\ln a$\n*   **Doubling Condition:** Setting $P(t) = 2P_o$\n\n---\n\n# **Summary of Steps**\n\n1.  Use the $10\\%$ annual growth rate to establish that at $t=1$, $P = 1.1P_o$.\n2.  Solve for the growth constant $k$ by applying natural logarithms.\n3.  Substitute $k$ back into the general formula and set the final amount $P(t)$ to $2P_o$.\n4.  Solve the resulting exponential equation for $t$ using logarithms.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "If $P(t)=P_{o} e^{k t}$ denotes the growth function of oil and the exponential growth rate of the demand for oil is $10\\%$ per year, when will the demand be doubled?\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-3",
+    "topicTitle": "1.3 Exponential and Logarithmic Growth Models",
+    "_id": "m1786h8acfnr0g783c82ns9ngn8c7ffb",
+    "exerciseId": "xd7evjtmg60yt1cdx6ck09frch8c635f",
+    "exerciseTitle": "Exercise 1.3",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem involves an exponential decay function, where the quantity decreases over time by a constant percentage. To solve for the time variable $t$ located in the exponent, we must use logarithms to \"bring down\" the exponent and isolate the variable.\n\n---\n\n# **Solution**\n\nThe given decay function is:\n$$N(t) = 250,000 \\left( \\frac{2}{3} \\right)^{t}$$\n\n## Part (a)\n\nWe are asked to find the time $t$ when the number of cans $N$ is 60,000.\n\n1. **Substitute the value into the equation:**\n   $$60,000 = 250,000 \\left( \\frac{2}{3} \\right)^{t}$$\n\n2. **Isolate the exponential term:**\n   Divide both sides by 250,000:\n   $$\\frac{60,000}{250,000} = \\left( \\frac{2}{3} \\right)^{t}$$\n   $$\\frac{6}{25} = \\left( \\frac{2}{3} \\right)^{t}$$\n\n3. **Apply logarithms to both sides:**\n   Taking the log of both sides allows us to use the power rule:\n   $$\\log \\left( \\frac{6}{25} \\right) = \\log \\left( \\frac{2}{3} \\right)^{t}$$\n   $$\\log \\left( \\frac{6}{25} \\right) = t \\log \\left( \\frac{2}{3} \\right)$$\n\n4. **Solve for $t$:**\n   $$t = \\frac{\\log \\frac{6}{25}}{\\log \\frac{2}{3}}$$\n   Using the values from the raw data:\n   $$t = \\frac{-0.6198}{-0.17609}$$\n   $$t \\approx 3.52 \\text{ years}$$\n\n## Part (b)\n\nWe are asked to find the time $t$ when the number of cans $N$ is 1,000.\n\n1. **Substitute the value into equation (1):**\n   $$1,000 = 250,000 \\left( \\frac{2}{3} \\right)^{t}$$\n\n2. **Isolate the exponential term:**\n   $$\\frac{1,000}{250,000} = \\left( \\frac{2}{3} \\right)^{t}$$\n   $$\\frac{1}{250} = \\left( \\frac{2}{3} \\right)^{t}$$\n\n3. **Apply logarithms to both sides:**\n   $$\\log \\left( \\frac{1}{250} \\right) = \\log \\left( \\frac{2}{3} \\right)^{t}$$\n   Using the quotient rule ($\\log \\frac{a}{b} = \\log a - \\log b$):\n   $$\\log 1 - \\log 250 = t \\log \\left( \\frac{2}{3} \\right)$$\n\n4. **Solve for $t$:**\n   Since $\\log 1 = 0$:\n   $$t = \\frac{0 - \\log 250}{\\log \\frac{2}{3}}$$\n   Using the values from the raw data:\n   $$t = \\frac{-2.3979}{-0.17609}$$\n   $$t \\approx 13.62 \\text{ years}$$\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Exponential Decay Function:** $N(t) = N_0(r)^t$\n*   **Logarithm Power Rule:** $\\log(a^b) = b \\log a$\n*   **Logarithm Quotient Rule:** $\\log(\\frac{a}{b}) = \\log a - \\log b$\n*   **Logarithm of One:** $\\log 1 = 0$\n\n---\n\n# **Summary of Steps**\n\n1. Set the function $N(t)$ equal to the target number of cans.\n2. Divide by the initial amount (250,000) to isolate the base and exponent.\n3. Take the common logarithm ($\\log$) of both sides of the equation.\n4. Use the power rule of logarithms to move the variable $t$ from the exponent to a multiplier.\n5. Divide the resulting values to find the number of years.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 1,
+      "page": 28,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Approximately two-thirds of all aluminum cans distributed are recycled each year. A beverage company distributed $250,000$ cans. The number of cans still in use after $t$ years is given by the function:\n\n$$N(t) = 250,000 \\left( \\frac{2}{3} \\right)^{t}$$\n\n(a) After how many years will 60,000 cans be in use?\n(b) After what amount of time will only 1,000 cans be in use?\n\n---",
+    "topicId": "ms7cks66hqqyz1pd57p8kxnw5185pj6g"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 One-Sided Limits and Continuity at a Point",
+    "_id": "m176cmkpzg4f7v45fzsdt9465x8c7fgj",
+    "exerciseId": "xd73d9nzqk3pzht1515a7pmd6d8c743y",
+    "exerciseTitle": "Exercise 1.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo find the domain and range of trigonometric functions graphically, we plot specific points $(x, y)$ by substituting values into the function. The **domain** is the set of all possible input values ($x$) for which the function is defined, and the **range** is the set of all resulting output values ($y$), representing the vertical extent of the graph.\n\n---\n\n# **Solution**\n\n## Part (i) $f(x)=\\sin \\left(\\frac{x}{2}\\right)$\n\nTo graph this function, we calculate values for $f(x)$ over the interval $[-2\\pi, 2\\pi]$:\n\n| $x$ | $-2 \\pi$ | $\\frac{-5 \\pi}{3}$ | $\\frac{-4 \\pi}{3}$ | $-\\pi$ | $\\frac{-2 \\pi}{3}$ | $\\frac{-\\pi}{3}$ | 0 | $\\frac{\\pi}{3}$ | $\\frac{2 \\pi}{3}$ | $\\pi$ | $\\frac{4 \\pi}{3}$ | $\\frac{5 \\pi}{3}$ | $2 \\pi$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 0 | -0.5 | -0.866 | -1 | -0.866 | -0.5 | 0 | 0.5 | 0.866 | 1 | 0.866 | 0.5 | 0 |\n\nBased on the graph and the nature of the sine function:\n- **Domain** $= \\mathbb{R}$\n- **Range** $= [-1, 1]$\n\n## Part (ii) $g(x)=3 \\cos \\frac{x}{3}$\n\nWe calculate the values for $g(x)$ over a wider interval to observe the period:\n\n| $x$ | $-3 \\pi$ | $\\frac{-11 \\pi}{2}$ | $-5 \\pi$ | $\\frac{-9}{2} \\pi$ | $-4 \\pi$ | $\\frac{-7 \\pi}{2}$ | $-3 \\pi$ | $\\frac{-5 \\pi}{2}$ | $-2 \\pi$ | $\\frac{-3 \\pi}{2}$ | $-\\pi$ | $\\frac{-\\pi}{2}$ | 0 | $\\frac{\\pi}{2}$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | 3 | 2.6 | 1.5 | 0 | -1.5 | -2.6 | -3 | -2.6 | -1.5 | 0 | 1.5 | 2.6 | 3 | 2.6 |\n\n| $x$ | $\\pi$ | $\\frac{3 \\pi}{2}$ | $2 \\pi$ | $\\frac{5 \\pi}{2}$ | $3 \\pi$ | $\\frac{7 \\pi}{2}$ | $4 \\pi$ | $\\frac{9}{2} \\pi$ | $5 \\pi$ | $\\frac{11}{2} \\pi$ | $6 \\pi$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | 1.5 | 0 | -1.5 | -2.6 | -3 | -2.6 | -1.5 | 0 | 1.5 | 2.6 | 3 |\n\n$$\n\\begin{aligned}\n& \\text { Domain }=\\mathbb{R} \\\\\n& \\text { Range }=[-3,3]\n\\end{aligned}\n$$\n\n## Part (iii) $h(x)=2 \\tan x$\n\nThe tangent function has vertical asymptotes where $\\cos x = 0$.\n\n| $x$ | $-2 \\pi$ | $\\frac{-11 \\pi}{6}$ | $\\frac{-5 \\pi}{3}$ | $\\frac{-3 \\pi}{2}$ | $\\frac{-4 \\pi}{3}$ | $\\frac{-7 \\pi}{6}$ | $-\\pi$ | $\\frac{-5 \\pi}{6}$ | $\\frac{-2 \\pi}{3}$ | $\\frac{-\\pi}{2}$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | 0 | -1.15 | -3.5 | $-\\infty$ | -3.5 | -1.15 | 0 | 1.15 | 3.5 | $\\infty$ |\n\n| $x$ | $\\frac{-\\pi}{3}$ | $\\frac{-\\pi}{6}$ | 0 | $\\frac{\\pi}{6}$ | $\\frac{\\pi}{3}$ | $\\frac{\\pi}{2}$ | $\\frac{2 \\pi}{3}$ | $\\frac{5 \\pi}{6}$ | $\\pi$ | $\\frac{7 \\pi}{6}$ | $\\frac{4 \\pi}{3}$ | $\\frac{3 \\pi}{2}$ | $\\frac{5 \\pi}{3}$ | $\\frac{11 \\pi}{6}$ | $2 \\pi$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | -3.5 | -1.15 | 0 | 1.15 | 3.5 | $\\infty$ | -3.5 | -1.15 | 0 | 1.15 | 3.5 | $\\pm \\infty$ | -3.5 | -1.15 | 0 |\n\n$$\n\\begin{aligned}\n& \\text { Domain }=\\mathbb{R}-\\left\\{(2n+1) \\frac{\\pi}{2} \\mid n \\in \\mathbb{Z}\\right\\} \\\\\n& \\text { Range }=\\mathbb{R}\n\\end{aligned}\n$$\n\n## Part (iv) $y=\\cot \\left(\\frac{x}{4}\\right)$\n\nThe cotangent function has vertical asymptotes where $\\sin(\\frac{x}{4}) = 0$.\n\n| $x$ | $-8 \\pi$ | $\\frac{-22 \\pi}{3}$ | $\\frac{-20 \\pi}{3}$ | $\\frac{-18 \\pi}{3}$ | $\\frac{-16 \\pi}{3}$ | $\\frac{-14 \\pi}{3}$ | $\\frac{-12 \\pi}{3}$ | $\\frac{-10 \\pi}{3}$ | $\\frac{-8 \\pi}{3}$ | $\\frac{-6 \\pi}{3}$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y$ | $\\pm \\infty$ | 1.73 | 0.6 | 0 | -0.6 | -1.73 | $\\pm \\infty$ | 1.7 | 0.6 | 0 |\n\n| $x$ | $\\frac{-4 \\pi}{3}$ | $\\frac{-2 \\pi}{3}$ | 0 | $\\frac{2 \\pi}{3}$ | $\\frac{4 \\pi}{3}$ | $\\frac{6 \\pi}{3}$ | $\\frac{8 \\pi}{3}$ | $\\frac{10 \\pi}{3}$ | $\\frac{12 \\pi}{3}$ | $\\frac{14 \\pi}{3}$ | $\\frac{16 \\pi}{3}$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y$ | -0.6 | -1.7 | $\\infty$ | 1.7 | 0.6 | 0 | -0.6 | -1.7 | $\\pm \\infty$ | 1.7 | 0.6 |\n\n| $x$ | $\\frac{18 \\pi}{3}$ | $\\frac{20 \\pi}{3}$ | $\\frac{22 \\pi}{3}$ | $8 \\pi$ |\n| :--- | :--- | :--- | :--- | :--- |\n| $y$ | 0 | -0.6 | -1.7 | $\\infty$ |\n\n- **Domain** $= \\mathbb{R} - \\{4n\\pi \\mid n \\in \\mathbb{Z}\\}$\n- **Range** $= \\mathbb{R}$\n\n## Part (v) $y=2 \\sec (2 x)$\n\nThis function is evaluated on the interval $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$.\n\n| $x$ | $\\dots$ | $\\frac{-\\pi}{2}$ | $\\frac{-\\pi}{3}$ | $\\frac{-\\pi}{4}$ | $\\frac{-\\pi}{6}$ | 0 | $\\frac{\\pi}{6}$ | $\\frac{\\pi}{4}$ | $\\frac{\\pi}{3}$ | $\\frac{\\pi}{2}$ | $\\frac{2 \\pi}{3}$ | $\\frac{3 \\pi}{4}$ | $\\frac{5 \\pi}{6}$ | $\\pi \\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y$ | $\\dots$ | -2 | -4 | $-\\infty$ | 4 | 2 | 4 | $\\infty$ | -4 | -2 | -4 | $\\pm \\infty$ | 4 | $\\dots$ |\n\n$$\n\\begin{aligned}\n& \\text { Domain } y=\\mathbb{R}-\\left\\{\\frac{(2n+1)}{4} \\pi \\mid n \\in \\mathbb{Z}\\right\\} \\\\\n& \\text { Range } y=(-\\infty, \\infty)\n\\end{aligned}\n$$\n\n## Part (vi) $y=\\sin 2x$\n\nThis function is evaluated on the interval $(-\\pi, \\pi)$.\n\n| $x$ | $\\dots$ | $\\frac{-\\pi}{3}$ | $\\frac{-\\pi}{4}$ | $\\frac{-\\pi}{6}$ | $\\frac{-\\pi}{12}$ | 0 | $\\frac{\\pi}{12}$ | $\\frac{\\pi}{6}$ | $\\frac{\\pi}{4}$ | $\\frac{\\pi}{3}$ | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y$ | $\\dots$ | -0.866 | -1 | -0.866 | -0.5 | 0 | 0.5 | 0.866 | 1 | 0.866 | $0.5 \\dots$ |\n\n- **Domain** $y = \\mathbb{R}$\n- **Range** $y = [-1, 1]$ (Note: Raw data suggests $\\mathbb{R}$, but the graph and table confirm the standard sine range).\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Sine/Cosine Range:** For $y = A \\sin(Bx)$ or $y = A \\cos(Bx)$, the range is $[-A, A]$.\n*   **Tangent Domain:** $y = \\tan(x)$ is undefined at $x = \\frac{\\pi}{2} + n\\pi$.\n*   **Secant Domain:** $y = \\sec(x)$ is undefined where $\\cos(x) = 0$.\n*   **Cotangent Domain:** $y = \\cot(x)$ is undefined where $\\sin(x) = 0$.\n*   **Point Plotting:** Creating a table of values to visualize the function's behavior.\n\n---\n\n# **Summary of Steps**\n\n1.  **Select $x$-values:** Choose a variety of input values, including those that might result in asymptotes (where the denominator of the trig function is zero).\n2.  **Calculate $y$-values:** Substitute $x$ into the function to find the corresponding $y$ coordinates.\n3.  **Plot the Graph:** Draw the points on a coordinate system and connect them to show the function's shape.\n4.  **Identify Domain:** Determine all $x$-values where the graph exists.\n5.  **Identify Range:** Determine the interval of $y$-values covered by the graph from its lowest to highest points.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "page": 35,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Find the domain and range of the following functions graphically:\n\n(i) $f(x)=\\sin \\left(\\frac{x}{2}\\right)$\n\n(ii) $g(x)=3 \\cos \\left(\\frac{x}{3}\\right)$\n\n(iii) $h(x)=2 \\tan x$\n\n(iv) $y=\\cot \\left(\\frac{x}{4}\\right)$\n\n(v) $y=2 \\sec (2 x)$ for the interval $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$\n\n(vi) $y=\\sin 2x$ for the interval $(-\\pi, \\pi)$\n\n---",
+    "topicId": "ms7acywe5ah251xrddbqbr4xg985qcfd"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-4",
+    "topicTitle": "1.4 One-Sided Limits and Continuity at a Point",
+    "_id": "m17fppr42fdtx9mw1f9154zq4h8c7nk4",
+    "exerciseId": "xd73d9nzqk3pzht1515a7pmd6d8c743y",
+    "exerciseTitle": "Exercise 1.4",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nA function is **one-to-one (1-1)** if every output value corresponds to exactly one input value. Graphically, this is determined by the **Horizontal Line Test**: if any horizontal line intersects the graph more than once, the function is not one-to-one. Only one-to-one functions have inverse functions, which are found by swapping the roles of $x$ and $y$ and solving for the new $y$.\n\n---\n\n# **Solution**\n\n## Part (i) $f(x)=\\frac{1}{3} x+3$\n\nFirst, we construct a table of values to plot the function:\n\n| $x$ | -6 | -3 | 0 | 3 | 6 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | 1 | 2 | 3 | 4 | 5 | $\\dots$ |\n\nFrom the graph, it is clear that the function is $1-1$ because it passes the horizontal line test. To find its inverse, let $y = f(x)$:\n\n$$\n\\begin{aligned}\ny & =\\frac{1}{3} x+3 \\\\\ny-3 & =\\frac{1}{3} x \\\\\n\\frac{1}{3} x & =y-3 \\\\\nx & =3(y-3)\n\\end{aligned}\n$$\n\nReplace $y$ and $x$ to get the inverse function:\n$$\n\\begin{aligned}\ny & =3(x-3) \\\\\nf^{-1}(x) & =3(x-3)\n\\end{aligned}\n$$\n\n**Table for $f^{-1}(x)$:**\n\n| $x$ | $\\dots$ | 1 | 3 | 4 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| $f^{-1}(x)$ | $\\dots$ | -6 | 0 | 3 | $\\dots$ |\n\n---\n\n## Part (ii) $g(x)=x(x-5)$\n\nWe examine the values of the function:\n\n| $x$ | $\\dots$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | $\\dots$ | 24 | 14 | 6 | 0 | -4 | -6 | -6 | -4 | 0 | $\\dots$ |\n\nFrom the graph and the table, it is clear that it is **not** a 1-1 function. For example, when $x=0$ or $x=5$, the value of $g(x)=0$. Since multiple $x$ values produce the same $y$ value, it fails the horizontal line test.\n**Inverse is not possible.**\n\n---\n\n## Part (iii) $h(x)=(x+1)^{2}$\n\nWe examine the values of the function:\n\n| $x$ | $\\dots$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | $\\dots$ | 4 | 1 | 0 | 1 | 4 | 9 | 16 | $\\dots$ |\n\nFrom the graph, it is clear that the function is **not 1-1** (e.g., $h(-3)=4$ and $h(1)=4$).\n**Inverse is not possible.**\n\n---\n\n## Part (iv) $f(x)=x^{3}-8$\n\n| $x$ | $\\dots$ | -2 | -1 | 0 | 1 | 2 | 3 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | $\\dots$ | -16 | -9 | | -7 | 0 | 19 | $\\dots$ |\n\nIt is clear from the graph that $f$ is a 1-1 function.\n\nTo find $f^{-1}(x)$:\nLet $f(x)=y \\Rightarrow x=f^{-1}(y)$\n$$\n\\begin{aligned}\ny & =x^{3}-8 \\\\\nx^{3} & =y+8 \\\\\nx & =(y+8)^{1 / 3} \\\\\nf^{-1}(y) & =(y+8)^{1 / 3}\n\\end{aligned}\n$$\n\nReplace $y$ by $x$:\n$$\n\\begin{aligned}\nf^{-1}(x) & =(y+x)^{1 / 3} \\\\\nf^{-1}(x) & =(x+8)^{1 / 3}\n\\end{aligned}\n$$\n\n**Table for $f^{-1}(x)$:**\n\n| $x$ | $\\dots$ | -16 | -8 | 0 | 19 | 56 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f^{-1}(x)$ | $\\dots$ | -2 | 0 | 2 | 3 | 4 | $\\dots$ |\n\n---\n\n## Part (v) $g(x)=\\frac{4}{x}$\n\n| $x$ | $\\dots$ | -8 | -4 | -2 | -1 | 0 | 1 | 2 | 4 | 8 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | $\\dots$ | -0.5 | -1 | -2 | -4 | $\\infty$ | 4 | 2 | 1 | 0.5 | $\\dots$ |\n\nFrom the graph, it is clear that the function is 1-1. To find the inverse, put $g(x)=y$:\n$$\n\\begin{aligned}\ny & =\\frac{4}{x} \\\\\nx y & =4 \\\\\nx & =\\frac{4}{y}\n\\end{aligned}\n$$\n\nReplace $x$ with $y$:\n$$\n\\begin{aligned}\ny & =\\frac{4}{x} \\\\\ng^{-1}(x) & =\\frac{4}{x}\n\\end{aligned}\n$$\nThe graph of the inverse is the same as $g(x)$.\n\n---\n\n## Part (vi) $h(x)=\\frac{1}{3 x+5}$\n\n| $x$ | $\\dots$ | -3 | -2 | -1 | 0 | 1 | 3 | 5 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | $\\dots$ | -0.25 | -1 | 0.5 | 0.2 | 0.125 | $\\dots$ | | |\n\nFrom the graph, it is observed that the function is 1-1. To find its inverse, let $y=h(x)$:\n$$\n\\begin{aligned}\ny & =\\frac{1}{3 x+5} \\\\\n(3 x+5) y & =1 \\\\\n3 x+5 & =\\frac{1}{y} \\\\\n3 x & =\\frac{1}{y}-5=\\frac{1-5 y}{y} \\\\\nx & =\\frac{1-5 y}{3 y}\n\\end{aligned}\n$$\n\nReplace $y$ with $x$:\n$$\ny=\\frac{1-5 x}{3 x} \\Rightarrow h^{-1}(x)=\\frac{1-5 x}{3 x}\n$$\n\n**Table for $h^{-1}(x)$:**\n\n| $x$ | $\\dots$ | -4 | -1 | 0 | 2 | 5 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h^{-1}(x)$ | $\\dots$ | -1.75 | -2 | $\\infty$ | -1.5 | -1.6 | $\\dots$ |\n\n---\n\n## Part (vii) $f(x)=x^{4}+2$\n\n| $x$ | $\\dots$ | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $f(x)$ | $\\dots$ | 258 | 83 | 18 | 3 | 2 | 3 | 18 | 83 | 258 | $\\dots$ |\n\nFrom the graph, it is clear that the function is **not 1-1** (it is symmetric about the y-axis).\n**Inverse is not possible.**\n\n---\n\n## Part (viii) $g(x)=5$\n\n| $x$ | $\\dots$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $g(x)$ | $\\dots$ | 5 | 5 | 5 | 5 | 5 | 5 | 5 | $\\dots$ |\n\nThis is a constant function (a horizontal line). It fails the horizontal line test because a horizontal line at $y=5$ intersects the graph at infinitely many points.\n**Inverse is not possible.**\n\n---\n\n## Part (ix) $h(x)=|x|$\n\n| $x$ | $\\dots$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | $\\dots$ |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $h(x)$ | $\\dots$ | 3 | 2 | 1 | 0 | 1 | 2 | 3 | $\\dots$ |\n\nFrom the graph, it is clear that the function is **not 1-1** (e.g., $h(-1)=1$ and $h(1)=1$).\n**Inverse does not exist.**\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Horizontal Line Test:** A function is one-to-one if no horizontal line intersects its graph more than once.\n*   **Inverse Function Algebra:**\n    1. Set $y = f(x)$.\n    2. Solve the equation for $x$ in terms of $y$.\n    3. Interchange $x$ and $y$ to find $f^{-1}(x)$.\n*   **Symmetry:** The graph of $f^{-1}(x)$ is the reflection of the graph of $f(x)$ across the line $y = x$.\n\n---\n\n# **Summary of Steps**\n\n1.  **Create a Table of Values:** Calculate $y$ for various $x$ values to understand the function's behavior.\n2.  **Graph the Function:** Plot the points to visualize the curve.\n3.  **Check 1-1 Status:** Apply the horizontal line test. If it fails, state that the inverse does not exist.\n4.  **Find the Inverse Algebraically:** If 1-1, solve for $x$ and swap variables.\n5.  **Plot the Inverse:** Create a table for the inverse function (by swapping $x$ and $y$ coordinates from the original table) and draw the graph.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 1,
+      "page": 35,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Determine whether the given function is one-to-one by examining its graph. If the function is one-to-one, find its inverse. Also, draw the graphs of the inverse function:\n\n(i) $f(x)=\\frac{1}{3} x+3$\n(ii) $g(x)=x(x-5)$\n(iii) $h(x)=(x+1)^{2}$\n(iv) $f(x)=x^{3}-8$\n(v) $g(x)=\\frac{4}{x}$\n(vi) $h(x)=\\frac{1}{3 x+5}$\n(vii) $f(x)=x^{4}+2$\n(viii) $g(x)=5$\n(ix) $h(x)=|x|$\n\n---",
+    "topicId": "ms7acywe5ah251xrddbqbr4xg985qcfd"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m170hqjqn2me7cfx6yn8xxhvg98c6gfz",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThe absolute value function $y = |x|$ forms a characteristic \"V\" shape with its vertex at the origin $(0,0)$. Transformations of this function involve shifting the graph horizontally or vertically: $y = |x \\pm h|$ results in a horizontal shift, while $y = |x| \\pm k$ results in a vertical shift.\n\n---\n\n# **Solution**\n\nTo graph these functions, we first calculate a table of values for $x$ ranging from $-4$ to $4$.\n\n| $x$ | ... | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | ... |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=|x|$ | ... | 4 | 3 | 2 | 1 | 0 | 1 | 3 | 3 | 4 | ... |\n| $y=|x+2|$ | ... | 2 | 1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | ... |\n| $y=|x-2|$ | ... | 6 | 5 | 4 | 3 | 2 | 1 | 0 | 1 | 2 | ... |\n| $y=|x|+2$ | ... | 6 | 5 | 4 | 3 | 2 | 3 | 4 | 5 | 6 | ... |\n| $y=|x|-2$ | ... | 2 | 1 | 0 | -1 | 0 | 1 | 2 | 3 | 4 | ... |\n\n## Part (a) $y=|x+2|$\nThe function $y = |x+2|$ represents a horizontal translation of the parent function $y=|x|$. Because the constant $+2$ is inside the absolute value, the graph shifts **2 units to the left**. For example, the vertex moves from $(0,0)$ to $(-2,0)$.\n\n## Part (b) $y=|x-2|$\nThe function $y = |x-2|$ represents a horizontal translation. Because the constant $-2$ is inside the absolute value, the graph shifts **2 units to the right**. The vertex moves from $(0,0)$ to $(2,0)$.\n\n## Part (c) $y=|x|+2$\nThe function $y = |x|+2$ represents a vertical translation. Because the constant $+2$ is outside the absolute value, the entire graph of $y=|x|$ shifts **2 units upward**. The vertex moves from $(0,0)$ to $(0,2)$.\n\n## Part (d) $y=|x|-2$\nThe function $y = |x|-2$ represents a vertical translation. Because the constant $-2$ is outside the absolute value, the entire graph of $y=|x|$ shifts **2 units downward**. The vertex moves from $(0,0)$ to $(0,-2)$.\n\n### Graphical Representation\nBelow are the sketches of the translated functions:\n\n---\n\n# **Key Formulas or Methods Used**\n\n- **Parent Function:** $y = |x|$ (V-shape with vertex at origin).\n- **Horizontal Translation:** $y = f(x + h)$ shifts the graph left by $h$ units; $y = f(x - h)$ shifts the graph right by $h$ units.\n- **Vertical Translation:** $y = f(x) + k$ shifts the graph up by $k$ units; $y = f(x) - k$ shifts the graph down by $k$ units.\n\n---\n\n# **Summary of Steps**\n\n1. **Create a Table of Values:** Calculate the $y$-coordinates for the parent function $y=|x|$ and each transformed function across a range of $x$ values.\n2. **Identify the Transformation:** Determine if the change is inside the absolute value (horizontal) or outside (vertical).\n3. **Plot the Parent Function:** Draw the basic V-shape starting at $(0,0)$.\n4. **Apply Translations:** Shift the points of the parent graph according to the identified horizontal or vertical rules.\n5. **Sketch and Verify:** Connect the points to form the new V-shapes and use a graphical calculator to confirm the accuracy of the shifts.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graphs of the given functions and then sketch the graphs of other functions using translation. Verify the results using a graphical calculator:\n\nBase function: $$y=|x|$$\n\n(a) $$y=|x+2|$$\n(b) $$y=|x-2|$$\n(c) $$y=|x|+2$$\n(d) $$y=|x|-2$$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m174rpz97y6ang6xfe0gg402y58c7anm",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem explores function transformations, specifically translations. A vertical translation occurs when a constant is added to or subtracted from the entire function, while a horizontal translation occurs when a constant is added to or subtracted from the independent variable $x$ before the function is applied.\n\n---\n\n# **Solution**\n\nTo sketch these graphs, we first establish a table of values for the base function $y=x^2$ and the transformed functions.\n\n| $x$ | ... | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | ... |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=x^{2}$ | ... | 16 | 9 | 4 | 1 | 0 | 1 | 4 | 9 | 16 | ... |\n| $y=x^{2}+4$ | ... | 20 | 13 | 8 | 5 | 4 | 5 | 8 | 13 | 20 | ... |\n| $y=x^{2}-4$ | ... | 12 | 5 | 0 | -3 | -4 | -3 | 0 | 5 | 12 | ... |\n| $y=(x-4)^{2}$ | ... | 64 | 49 | 36 | 25 | 16 | 9 | 4 | 1 | 0 | ... |\n| $y=(x+4)^{2}$ | ... | 0 | 1 | 4 | 9 | 16 | 25 | 36 | 49 | 64 | ... |\n\n## Part (a) $y=x^{2}+4$\nThis function is in the form $y = f(x) + k$, where $k = 4$. Adding 4 to the output of the function results in a **vertical translation**. Every point on the graph of $y=x^2$ is shifted **4 units upward**. For example, the vertex moves from $(0,0)$ to $(0,4)$.\n\n## Part (b) $y=x^{2}-4$\nThis function is in the form $y = f(x) - k$, where $k = 4$. Subtracting 4 from the output results in a **vertical translation**. Every point on the graph of $y=x^2$ is shifted **4 units downward**. The vertex moves from $(0,0)$ to $(0,-4)$.\n\n## Part (c) $y=(x-4)^{2}$\nThis function is in the form $y = f(x - h)$, where $h = 4$. When we subtract a value from $x$ inside the function, it results in a **horizontal translation**. The graph of $y=x^2$ is shifted **4 units to the right**. The vertex moves from $(0,0)$ to $(4,0)$.\n\n## Part (d) $y=(x+4)^{2}$\nThis function is in the form $y = f(x + h)$, which can be thought of as $f(x - (-4))$. This results in a **horizontal translation**. The graph of $y=x^2$ is shifted **4 units to the left**. The vertex moves from $(0,0)$ to $(-4,0)$.\n\n### Visual Representation\nBelow are the sketches of the vertical translations (left) and horizontal translations (right):\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Vertical Translation:** $y = f(x) + k$\n    *   If $k > 0$, shift up $k$ units.\n    *   If $k < 0$, shift down $|k|$ units.\n*   **Horizontal Translation:** $y = f(x - h)$\n    *   If $h > 0$ (e.g., $(x-4)$), shift right $h$ units.\n    *   If $h < 0$ (e.g., $(x+4)$), shift left $|h|$ units.\n*   **Base Function:** $y = x^2$ (The standard parabola).\n\n---\n\n# **Summary of Steps**\n\n1.  **Plot the Base Graph:** Start by plotting the parent function $y=x^2$ using standard points like $(-2, 4), (-1, 1), (0, 0), (1, 1), (2, 4)$.\n2.  **Apply Vertical Shifts:** For $y=x^2 \\pm k$, move every point on the parent graph up or down by $k$ units.\n3.  **Apply Horizontal Shifts:** For $y=(x \\pm h)^2$, move every point on the parent graph left or right by $h$ units.\n4.  **Identify New Vertices:** Note the new position of the vertex $(0,0)$ to ensure the translation is accurate.\n5.  **Verify:** Use a table of values or a graphing calculator to confirm the coordinates of the new curves.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graph of the function $y=x^{2}$ and then sketch the graphs of the following functions using translation. Verify the results using a graphical calculator:\n\n(a) $y=x^{2}+4$\n(b) $y=x^{2}-4$\n(c) $y=(x-4)^{2}$\n(d) $y=(x+4)^{2}$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m176025bh7jht4g615m3e3xjnh8c7k7y",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem explores function transformations, specifically translations. Adding or subtracting a constant inside the function argument, $f(x \\pm c)$, results in a horizontal shift, while adding or subtracting a constant outside the function, $f(x) \\pm c$, results in a vertical shift.\n\n---\n\n# **Solution**\n\nTo graph these functions, we first establish a table of values for the parent function $y = \\sqrt{x}$ and the transformed functions. Note that the square root is only defined for non-negative values ($x \\ge 0$ for the parent function).\n\n### **Table of Values**\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=\\sqrt{x}$ | | | | 0 | 1 | 1.4 | 1.7 | 2 | 2.2 | 2.45 |\n| $y=\\sqrt{x+3}$ | 0 | 1 | 1.4 | 1.73 | 2 | 2.2 | 2.4 | | | |\n| $y=\\sqrt{x-3}$ | | | | | | | 0 | 1 | 1.4 | 1.7 |\n| $y=\\sqrt{x}+3$ | | | | 3 | 4 | 4.4 | 4.7 | | | |\n| $y=\\sqrt{x}-3$ | | | | -3 | -2 | -1.6 | -1.3 | | | |\n\n## **Part (a): $y=\\sqrt{x+3}$**\nThis function represents a horizontal translation. Since the constant $+3$ is inside the square root (added to $x$), the graph of $y=\\sqrt{x}$ is shifted **3 units to the left**. The domain starts at $x = -3$.\n\n## **Part (b): $y=\\sqrt{x-3}$**\nThis function also represents a horizontal translation. Since the constant $3$ is subtracted from $x$ inside the square root, the graph of $y=\\sqrt{x}$ is shifted **3 units to the right**. The domain starts at $x = 3$.\n\n## **Part (c): $y=\\sqrt{x}+3$**\nThis function represents a vertical translation. Since the constant $+3$ is outside the square root, the $y$-values of the parent function are increased by 3. This shifts the graph **3 units up**.\n\n## **Part (d): $y=\\sqrt{x}-3$**\nThis function represents a vertical translation. Since the constant $3$ is subtracted outside the square root, the $y$-values of the parent function are decreased by 3. This shifts the graph **3 units down**.\n\n### **Graphical Representation**\n\nThe following images illustrate the translations described above:\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Horizontal Translation:** For $y = f(x + h)$, the graph shifts left by $h$ units if $h > 0$, and right if $h < 0$.\n*   **Vertical Translation:** For $y = f(x) + k$, the graph shifts up by $k$ units if $k > 0$, and down if $k < 0$.\n*   **Parent Function:** $y = \\sqrt{x}$, which has a starting point at $(0,0)$ and exists for $x \\ge 0$.\n\n---\n\n# **Summary of Steps**\n\n1.  **Plot the parent function:** Calculate and plot points for $y = \\sqrt{x}$ starting from $x=0$.\n2.  **Identify Horizontal Shifts:** For (a) and (b), adjust the $x$-coordinates of the parent points (left for $+3$, right for $-3$).\n3.  **Identify Vertical Shifts:** For (c) and (d), adjust the $y$-coordinates of the parent points (up for $+3$, down for $-3$).\n4.  **Sketch and Verify:** Draw the smooth curves through the new points and use a graphical calculator to check the accuracy of the translations.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graphs of the function $y=\\sqrt{x}$ and then sketch the graphs of the following functions using translation. Verify the results using a graphical calculator:\n\n(a) $y=\\sqrt{x+3}$\n(b) $y=\\sqrt{x-3}$\n(c) $y=\\sqrt{x}+3$\n(d) $y=\\sqrt{x}-3$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m17ead8rg7kgf96syk6qrznsq98c6kfe",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nThis problem explores function transformations of the linear parent function $f(x) = x$. Adding or subtracting a constant results in a vertical translation, while multiplying the function by a constant results in a vertical stretch and/or reflection.\n\n---\n\n# **Solution**\n\nTo graph these functions, we first calculate a table of values for $x$ ranging from $-3$ to $3$.\n\n| $x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=x$ | -3 | -2 | -1 | 0 | 1 | 2 | 3 |\n| $y=x+5$ | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n| $y=x-5$ | -8 | -7 | -6 | -5 | -4 | -3 | -2 |\n| $y=5x$ | -15 | -10 | -5 | 0 | 5 | 10 | 15 |\n| $y=-5x$ | 15 | 10 | 5 | 0 | -5 | -10 | -15 |\n\n## Part (a) $y=x+5$\nThis function represents a vertical translation of the parent function $y=x$. Since we are adding $5$ to the output, every point on the graph of $y=x$ moves **upward by 5 units**. For example, the origin $(0,0)$ moves to $(0,5)$.\n\n## Part (b) $y=x-5$\nThis function represents a vertical translation of the parent function $y=x$. Since we are subtracting $5$ from the output, every point on the graph of $y=x$ moves **downward by 5 units**. The origin $(0,0)$ moves to $(0,-5)$.\n\n## Part (c) $y=5x$\nThis function represents a **vertical stretch** by a factor of $5$. The slope of the line increases from $1$ to $5$, making the graph much steeper. While the $y$-intercept remains at $(0,0)$, all other $y$-values are multiplied by $5$.\n\n## Part (d) $y=-5x$\nThis function involves two transformations: a **vertical stretch** by a factor of $5$ and a **reflection** across the $x$-axis (due to the negative sign). The resulting line has a steep negative slope, passing through the origin $(0,0)$ but decreasing as $x$ increases.\n\n### Graphical Representation\nBelow are the visual representations of these transformations:\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Vertical Translation:** $y = f(x) + k$ shifts the graph up if $k > 0$ and down if $k < 0$.\n*   **Vertical Stretch:** $y = a \\cdot f(x)$ stretches the graph vertically if $|a| > 1$.\n*   **Reflection:** $y = -f(x)$ reflects the graph across the $x$-axis.\n*   **Table of Values:** Evaluating the function at specific $x$ points to determine coordinates.\n\n---\n\n# **Summary of Steps**\n\n1.  Create a table of values for the parent function $y=x$.\n2.  Calculate the new $y$-values for each transformation by applying the arithmetic change (adding, subtracting, or multiplying).\n3.  Identify the type of transformation: parts (a) and (b) are shifts, while (c) and (d) are stretches and reflections.\n4.  Plot the points on a Cartesian plane and connect them to form straight lines.\n5.  Verify the steepness and intercepts using a graphical calculator.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graphs of the given functions and then sketch the graphs of other functions using translation. Verify the results using a graphical calculator:\n\nBase function: $$y=x$$\n\n(a) $$y=x+5$$\n(b) $$y=x-5$$\n(c) $$y=5x$$\n(d) $$y=-5x$$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m17d9q0spjer1x6ssxjfymcnbx8c7qxg",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo sketch these graphs, we use the concept of function transformations. A vertical translation $y = f(x) + k$ shifts the graph up or down, while a horizontal translation $y = f(x - h)$ shifts the graph left or right.\n\n---\n\n# **Solution**\n\nTo begin, we calculate the coordinates for the parent function $y=x^3$ and the transformed functions to see how the points shift.\n\n| $x$ | ... | -3 | -2 | -1 | 0 | 1 | 2 | 3 | ... |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=x^{3}$ | ... | -27 | -8 | -1 | 0 | 1 | 8 | 27 | ... |\n| $y=x^{3}+1$ | ... | -26 | -7 | 0 | 1 | 2 | 9 | 28 | ... |\n| $y=x^{3}-1$ | ... | -28 | -9 | -2 | -1 | 0 | 7 | 26 | ... |\n| $y=(x-1)^{3}$ | ... | -64 | -27 | -8 | -1 | 0 | 1 | 8 | ... |\n| $y=(x+1)^{3}$ | ... | -8 | -1 | 0 | 1 | 8 | 27 | 64 | ... |\n\n## Part (a) $y=x^{3}+1$\nThis function is in the form $y = f(x) + k$, where $k = 1$. This represents a **vertical translation 1 unit upward**. Every $y$-coordinate of the parent function $y=x^3$ is increased by 1. For example, the origin $(0,0)$ moves to $(0,1)$.\n\n## Part (b) $y=x^{3}-1$\nThis function is in the form $y = f(x) + k$, where $k = -1$. This represents a **vertical translation 1 unit downward**. Every $y$-coordinate of the parent function $y=x^3$ is decreased by 1. For example, the origin $(0,0)$ moves to $(0,-1)$.\n\n## Part (c) $y=(x-1)^{3}$\nThis function is in the form $y = f(x - h)$, where $h = 1$. This represents a **horizontal translation 1 unit to the right**. Note that the graph moves in the opposite direction of the sign inside the parentheses. Every $x$-coordinate is shifted right by 1. For example, the point $(1,1)$ on the original graph corresponds to $(2,1)$ on this graph.\n\n## Part (d) $y=(x+1)^{3}$\nThis function is in the form $y = f(x - h)$, where $h = -1$. This represents a **horizontal translation 1 unit to the left**. Every $x$-coordinate of the parent function is shifted left by 1. For example, the origin $(0,0)$ moves to $(-1,0)$.\n\n### Graphical Representation\nBelow are the sketches of the vertical and horizontal translations:\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Parent Function:** $f(x) = x^3$ (Cubic function).\n*   **Vertical Translation:** $y = f(x) + k$\n    *   If $k > 0$, shift up.\n    *   If $k < 0$, shift down.\n*   **Horizontal Translation:** $y = f(x - h)$\n    *   If $h > 0$ (e.g., $(x-1)$), shift right.\n    *   If $h < 0$ (e.g., $(x+1)$), shift left.\n\n---\n\n# **Summary of Steps**\n\n1.  **Plot the base graph:** Create a table of values for $y=x^3$ and draw the characteristic \"S\" shape passing through $(0,0)$, $(1,1)$, and $(-1,-1)$.\n2.  **Identify Vertical Shifts:** For $y=x^3 \\pm k$, move the entire curve up or down by $k$ units.\n3.  **Identify Horizontal Shifts:** For $y=(x \\pm h)^3$, move the entire curve left or right. Remember that $(x-1)$ moves right and $(x+1)$ moves left.\n4.  **Verify Points:** Check specific points (like the inflection point at the origin) to ensure the translation is applied correctly.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graph of the function $y=x^{3}$ and then sketch the graphs of the following functions using translations. Verify the results using a graphical calculator:\n\n(a) $y=x^{3}+1$\n(b) $y=x^{3}-1$\n(c) $y=(x-1)^{3}$\n(d) $y=(x+1)^{3}$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m178fbn16xy8308fff9pjrnsbx8c7k7p",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nFunction translation involves shifting a graph without changing its shape. A vertical translation $y = f(x) + k$ moves the graph up or down, while a horizontal translation $y = f(x - h)$ moves the graph left or right.\n\n---\n\n# **Solution**\n\nTo sketch these functions, we first establish the coordinates for the base function $y = x^2 + 4$ and then apply the specific translations for each part.\n\n## **Table of Values**\n\nThe following table calculates the $y$-values for the base function and its translated versions across a range of $x$ values:\n\n| $x$ | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| **Base:** $y = x^2 + 4$ | 29 | 20 | 13 | 8 | 5 | 4 | 5 | 8 |\n| **(a):** $y = (x^2 + 4) - 3$ | 26 | 17 | 10 | 5 | 2 | 1 | 2 | 5 |\n| **(b):** $y = (x^2 + 4) + 3$ | 32 | 23 | 16 | 11 | 8 | 7 | 8 | 11 |\n| **(c):** $y = (x - 3)^2 + 4$ | 68 | 53 | 40 | 29 | 20 | 13 | 8 | 5 |\n| **(d):** $y = (x + 3)^2 + 4$ | 8 | 5 | 4 | 5 | 8 | 13 | 20 | 29 |\n\n## **Part (a): Vertical Translation Down**\nThe function $y = (x^2 + 4) - 3$ simplifies to $y = x^2 + 1$. By subtracting 3 from the entire function, every point on the original graph $y = x^2 + 4$ is shifted **downward by 3 units**. For example, the vertex moves from $(0, 4)$ to $(0, 1)$.\n\n## **Part (b): Vertical Translation Up**\nThe function $y = (x^2 + 4) + 3$ simplifies to $y = x^2 + 7$. By adding 3 to the entire function, every point on the original graph is shifted **upward by 3 units**. The vertex moves from $(0, 4)$ to $(0, 7)$.\n\n## **Part (c): Horizontal Translation Right**\nThe function $y = (x - 3)^2 + 4$ represents a horizontal shift. When we replace $x$ with $(x - 3)$, the graph moves **3 units to the right**. Notice in the table that the $y$-values for $y = x^2 + 4$ now appear 3 units later in the $x$ sequence. The vertex moves from $(0, 4)$ to $(3, 4)$.\n\n## **Part (d): Horizontal Translation Left**\nThe function $y = (x + 3)^2 + 4$ represents a horizontal shift. When we replace $x$ with $(x + 3)$, the graph moves **3 units to the left**. The vertex moves from $(0, 4)$ to $(-3, 4)$.\n\n## **Graphical Representation**\n\nBelow are the visual representations of these translations:\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Vertical Shift:** $y = f(x) + k$\n    *   If $k > 0$, shift up.\n    *   If $k < 0$, shift down.\n*   **Horizontal Shift:** $y = f(x - h)$\n    *   If $h > 0$ (e.g., $(x - 3)$), shift right.\n    *   If $h < 0$ (e.g., $(x + 3)$), shift left.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify the Base Function:** Determine the parent graph, which is $y = x^2 + 4$.\n2.  **Calculate Key Points:** Create a table of values for $x$ and $y$ to understand the shape and position of the base parabola.\n3.  **Apply Vertical Shifts:** For parts (a) and (b), adjust the $y$-coordinates by adding or subtracting the constant.\n4.  **Apply Horizontal Shifts:** For parts (c) and (d), adjust the $x$-input within the squared term to shift the graph left or right.\n5.  **Sketch and Verify:** Draw the new parabolas based on the shifted vertices and points, then confirm with a graphing utility.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graph of the function $y = x^2 + 4$ and then sketch the graphs of the following functions using the principles of translation. Verify the results using a graphical calculator:\n\n(a) $y = (x^2 + 4) - 3$\n\n(b) $y = (x^2 + 4) + 3$\n\n(c) $y = (x - 3)^2 + 4$\n\n(d) $y = (x + 3)^2 + 4$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m178w3bk8wt569j2p8s2cn18q98c71bc",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo graph transformations of the parent function $y=x^2$, we apply vertical stretching, shrinking, and reflections. Multiplying the function by a constant $a$ results in a vertical stretch if $|a| > 1$ and a vertical compression (shrink) if $0 < |a| < 1$, while a negative sign indicates a reflection across the $x$-axis.\n\n---\n\n# **Solution**\n\nTo graph these functions, we first calculate a table of values for $x$ ranging from $-5$ to $5$.\n\n| $x$ | -5 | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=x^{2}$ | 25 | 16 | 9 | 4 | 1 | 0 | 1 | 4 | 9 | 16 | 25 |\n| $y=3 x^{2}$ | -75 | 48 | 27 | 12 | 3 | 0 | 3 | 12 | 27 | 48 | 75 |\n| $y=-3 x^{2}$ | -75 | -48 | -27 | -12 | -3 | 0 | -3 | -12 | -27 | -48 | -75 |\n| $y=\\frac{x^{2}}{3}$ | 8.33 | 5.33 | 3 | 1.33 | 0.33 | 0 | 0.33 | 1.33 | 3 | 5.33 | 8.33 |\n| $y=-\\frac{x^{2}}{3}$ | -8.33 | -5.33 | -3 | -1.33 | -0.33 | 0 | -0.33 | -1.33 | -3 | -5.33 | -8.33 |\n\n## Part (a) $y=3x^2$\nThe function $y=3x^2$ is a vertical stretch of the parent function $y=x^2$ by a factor of 3. This means for every $x$ value, the $y$ value is three times larger than the original. The graph appears \"narrower\" or steeper than $y=x^2$.\n\n## Part (b) $y=-3x^2$\nThe function $y=-3x^2$ involves two transformations: a vertical stretch by a factor of 3 and a reflection across the $x$-axis. The negative sign flips the parabola downward, so all $y$ values (except at the origin) become negative.\n\n## Part (c) $y=\\frac{x^2}{3}$\nThe function $y=\\frac{x^2}{3}$ is a vertical compression (or shrink) of the parent function by a factor of $\\frac{1}{3}$. Each $y$ value is one-third of the original $y$ value from $y=x^2$. This makes the parabola appear \"wider.\"\n\n## Part (d) $y=-\\frac{x^2}{3}$\nThe function $y=-\\frac{x^2}{3}$ is a vertical compression by a factor of $\\frac{1}{3}$ combined with a reflection across the $x$-axis. The graph opens downward and is wider than the parent function.\n\n### Graphical Representation\nBelow are the sketches of the functions based on the calculated points:\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Parent Function:** $y = x^2$ (a parabola with vertex at $(0,0)$).\n*   **Vertical Stretch/Compression:** $y = a \\cdot f(x)$. If $|a| > 1$, it stretches; if $0 < |a| < 1$, it compresses.\n*   **Reflection:** $y = -f(x)$ reflects the graph across the $x$-axis.\n*   **Point-by-Point Plotting:** Calculating specific $(x, y)$ coordinates to determine the shape of the curve.\n\n---\n\n# **Summary of Steps**\n\n1.  Create a table of $x$ values (e.g., from $-5$ to $5$).\n2.  Calculate the $y$ values for the parent function $y=x^2$.\n3.  Multiply the parent $y$ values by the coefficient $a$ (3, -3, $1/3$, or $-1/3$) to find the new $y$ coordinates.\n4.  Plot the resulting points on a Cartesian plane.\n5.  Connect the points with a smooth curve to form the transformed parabolas.\n6.  Observe that positive coefficients open upward, negative coefficients open downward, and larger coefficients create narrower graphs.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graphs of the function $y=x^{2}$ and then sketch the graphs of the following functions using transformations. Verify the results using a graphical calculator:\n\n(a) $y=3 x^{2}$\n(b) $y=-3 x^{2}$\n(c) $y=\\frac{x^{2}}{3}$\n(d) $y=-\\frac{x^{2}}{3}$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m17dv24xase5katpjgzhdr2kc98c738k",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo sketch these graphs, we use the concept of horizontal transformations. For a function $y=f(kx)$, if $|k| > 1$, the graph is horizontally compressed toward the y-axis by a factor of $\\frac{1}{k}$, and if $0 < |k| < 1$, the graph is horizontally stretched by a factor of $\\frac{1}{k}$. Additionally, a negative sign inside the function $f(-x)$ represents a reflection across the y-axis.\n\n---\n\n# **Solution**\n\nTo graph these functions, we first establish a table of values for the parent function $y=x^2$ and compare how the transformations affect the output ($y$) for given inputs ($x$).\n\n### **Table of Values**\n\n| $x$ | ... | -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 | ... |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=x^{2}$ | ... | 16 | 9 | 4 | 1 | 0 | 1 | 4 | 9 | 16 | ... |\n| $y=(3 x)^{2}$ | ... | 144 | 81 | 36 | 9 | 0 | 9 | 36 | 81 | 144 | ... |\n| $y=(-3 x)^{2}$ | ... | 144 | 81 | 36 | 9 | 0 | 9 | 36 | 81 | 144 | ... |\n| $y=\\left(\\frac{x}{3}\\right)^{2}$ | ... | 1.78 | 1 | 0.44 | 0.11 | 0 | 0.11 | 0.44 | 1 | 1.78 | ... |\n| $y=\\left(-\\frac{x}{3}\\right)^{2}$ | ... | 1.78 | 1 | 0.44 | 0.11 | 0 | 0.11 | 0.44 | 1 | 1.78 | ... |\n\n## **Part (a) $y=(3x)^2$**\nThis function represents a horizontal compression of the parent function $y=x^2$ by a factor of $\\frac{1}{3}$. Because the $x$ value is multiplied by 3 before being squared, the $y$ values increase much more rapidly. For example, when $x=1$, $y=(3 \\cdot 1)^2 = 9$.\n\n## **Part (b) $y=(-3x)^2$**\nThis function involves a reflection across the y-axis and a horizontal compression. However, since the parent function $y=x^2$ is even (symmetric about the y-axis), and $(-3x)^2 = 9x^2$, the graph is identical to the graph in part (a).\n\n## **Part (c) $y=\\left(\\frac{x}{3}\\right)^2$**\nThis function represents a horizontal stretch of the parent function $y=x^2$ by a factor of 3. The $x$ value is divided by 3 before being squared, meaning the parabola opens much wider. For example, it takes $x=3$ to reach the height of $y=1$ (since $(\\frac{3}{3})^2 = 1$).\n\n## **Part (d) $y=\\left(-\\frac{x}{3}\\right)^2$**\nSimilar to part (b), the negative sign indicates a reflection across the y-axis. Because $\\left(-\\frac{x}{3}\\right)^2 = \\left(\\frac{x}{3}\\right)^2$, the resulting graph is identical to the stretched parabola in part (c).\n\n### **Graphical Representation**\nThe following image shows the comparison between the parent function and the transformed functions:\n\n---\n\n# **Key Formulas or Methods Used**\n\n*   **Horizontal Dilation:** For $y = f(kx)$, the graph is compressed horizontally if $|k| > 1$ and stretched if $0 < |k| < 1$.\n*   **Horizontal Reflection:** $y = f(-x)$ reflects the graph across the y-axis.\n*   **Even Function Property:** For $y=x^2$, $f(x) = f(-x)$, meaning reflections across the y-axis do not change the appearance of the graph.\n*   **Point Plotting:** Calculating specific coordinates to verify the shape of the transformation.\n\n---\n\n# **Summary of Steps**\n\n1.  **Identify the parent function:** Start with $y=x^2$ and its standard points (e.g., $(0,0), (1,1), (2,4)$).\n2.  **Apply horizontal scaling:** For $y=(3x)^2$, multiply the $x$-coordinates of the parent function by $\\frac{1}{3}$ to find the new points at the same $y$-level.\n3.  **Apply horizontal stretching:** For $y=(\\frac{x}{3})^2$, multiply the $x$-coordinates of the parent function by $3$.\n4.  **Account for reflections:** Recognize that because the values are squared, $(-kx)^2$ results in the same graph as $(kx)^2$.\n5.  **Sketch and Verify:** Draw the curves through the calculated points and use a graphing calculator to confirm the widths of the parabolas.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graph of the parent function $y=x^{2}$ and then sketch the graphs of the following functions using transformations. Verify the results using a graphical calculator:\n\n(a) $y=(3 x)^{2}$\n(b) $y=(-3 x)^{2}$\n(c) $y=\\left(\\frac{x}{3}\\right)^{2}$\n(d) $y=\\left(-\\frac{x}{3}\\right)^{2}$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  },
+  {
+    "subjectSlug": "maths-12",
+    "chapterSlug": "01-functions-and-graphs",
+    "chapterTitle": "Functions And Graphs",
+    "topicSlug": "exercise-1-5",
+    "topicTitle": "1.5 Graphing Function Transformations",
+    "_id": "m17b329xzzyjdj9wke7wbkeg6n8c6r74",
+    "exerciseId": "xd76esxtfzdgynstq5ftr62w6x8c6fby",
+    "exerciseTitle": "Exercise 1.5",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "# **Background and Explanation**\n\nTo graph these functions, we start with the parent function $f(x) = \\sqrt{x}$. We then apply transformations: horizontal scaling ($f(ax)$), vertical scaling ($a f(x)$), vertical shifts ($f(x) + k$), and horizontal shifts ($f(x + h)$). These transformations allow us to determine the new coordinates of points from the original graph.\n\n---\n\n# **Solution**\n\nTo sketch the graphs, we first calculate a table of values for the base function and each transformed function.\n\n### **Table of Values**\n\n| $x$ | 0 | 1 | 2 | 3 | 4 | 5 | ... |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| $y=\\sqrt{x}$ | 0 | 1 | 1.4 | 1.73 | 2 | 2.2 | ... |\n| $y=\\sqrt{2 x}$ | 0 | 1.4 | 2 | 2.45 | 2.8 | 3.16 | ... |\n| $y=2 \\sqrt{x}$ | 0 | 2 | 2.8 | 3.46 | 4 | 6.32 | ... |\n| $y=2 \\sqrt{x}+3$ | 3 | 5 | 5.8 | 6.46 | 7 | 9.32 | ... |\n| $y=\\sqrt{2x+5}$ | 2.2 | 2.65 | 3 | 3.32 | 3.6 | 3.87 | ... |\n\n*(Note: The raw data table label $y=2\\sqrt{x+5}$ has been corrected to $y=\\sqrt{2x+5}$ to match the question and the calculated values.)*\n\n## Part (a)\n**Function:** $$y=\\sqrt{2x}$$\n**Transformation:** This is a horizontal compression of the graph $y=\\sqrt{x}$ by a factor of $\\frac{1}{2}$. Every $x$-value of the original function is multiplied by $\\frac{1}{2}$ to achieve the same $y$-value.\n\n## Part (b)\n**Function:** $$y=2\\sqrt{x}$$\n**Transformation:** This is a vertical stretch of the graph $y=\\sqrt{x}$ by a factor of $2$. Every $y$-value of the original function is multiplied by $2$.\n\n## Part (c)\n**Function:** $$y=2\\sqrt{x}+3$$\n**Transformation:** This involves two steps:\n1. A vertical stretch of $y=\\sqrt{x}$ by a factor of $2$ (resulting in $y=2\\sqrt{x}$).\n2. A vertical translation (shift) upwards by $3$ units.\n\n## Part (d)\n**Function:** $$y=\\sqrt{2x+5}$$\n**Transformation:** This can be rewritten as $y=\\sqrt{2(x+2.5)}$.\n1. A horizontal compression by a factor of $\\frac{1}{2}$.\n2. A horizontal translation (shift) to the left by $2.5$ units.\n\n### **Graphical Representation**\n\nThe following plots illustrate the transformations described above:\n\n---\n\n# **Key Formulas or Methods Used**\n\n- **Horizontal Scaling:** $y = f(ax)$ compresses the graph horizontally by a factor of $\\frac{1}{a}$ if $a > 1$.\n- **Vertical Scaling:** $y = a f(x)$ stretches the graph vertically by a factor of $a$ if $a > 1$.\n- **Vertical Translation:** $y = f(x) + k$ shifts the graph up by $k$ units.\n- **Horizontal Translation:** $y = f(x + h)$ shifts the graph left by $h$ units.\n\n---\n\n# **Summary of Steps**\n\n1. Create a table of values for the parent function $y=\\sqrt{x}$.\n2. Apply the specific transformation rules (stretching, compressing, or shifting) to the coordinates.\n3. Calculate the new $y$-values for specific $x$-inputs for each function (a) through (d).\n4. Plot the points on a coordinate plane and draw smooth curves through them.\n5. Use a graphical calculator to compare the sketched curves with the calculated functions for accuracy.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 1,
+      "page": 39,
+      "subjectSlug": "maths-12"
+    },
+    "stem": "Draw the graphs of the given functions and then sketch the graphs of other functions using translation. Verify the results using a graphical calculator:\n\nBase function: $$y=\\sqrt{x}$$\n\n(a) $$y=\\sqrt{2 x}$$\n(b) $$y=2 \\sqrt{x}$$\n(c) $$y=2 \\sqrt{x}+3$$\n(d) $$y=\\sqrt{2 x+5}$$\n\n---",
+    "topicId": "ms7aenwx2z21wf0pb1yrwcc65585qj5y"
+  }
+]

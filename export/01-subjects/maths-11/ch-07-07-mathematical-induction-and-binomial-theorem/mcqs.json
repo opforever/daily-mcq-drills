@@ -1,0 +1,1822 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k97bj5xdzb7pxfk5zr6epew9hs8ct8x2",
+    "correctKey": "A",
+    "explanation": "The induction hypothesis assumes the k case.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "The statement holds for n=k"
+      },
+      {
+        "key": "B",
+        "text": "The statement is false for k"
+      },
+      {
+        "key": "C",
+        "text": "n=0 only"
+      },
+      {
+        "key": "D",
+        "text": "The final answer"
+      }
+    ],
+    "sectionId": "key-algebraic-technique",
+    "sectionLabel": "Key Algebraic Technique",
+    "stem": "What is commonly assumed in the induction step?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k974e974jy2segxvrmk9pd1j6n85qd6n",
+    "correctKey": "C",
+    "explanation": "Both the Basis Step and the Inductive Step $P(k) \\implies P(k+1)$ are required. If either fails, the induction proof is incomplete and the statement is not established for all $n$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "The statement is true for all $n \\in \\mathbb{N}$."
+      },
+      {
+        "key": "B",
+        "text": "The statement is false for $n=1$."
+      },
+      {
+        "key": "C",
+        "text": "The proof by Mathematical Induction is incomplete and no conclusion can be drawn."
+      },
+      {
+        "key": "D",
+        "text": "The statement is only true for odd numbers."
+      }
+    ],
+    "sectionId": "structure-of-an-induction-proof",
+    "sectionLabel": "Structure of an Induction Proof",
+    "stem": "If a statement $P(n)$ is verified for $n=1$ (Basis Step) but the implication $P(k) \\implies P(k+1)$ cannot be proved, what can be concluded?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k975mxgcg2vdq2vhzrf0aqq94d85p1ya",
+    "correctKey": "C",
+    "explanation": "The Basis Step must test the smallest value in the domain specified by the problem. Since the statement holds for $n \\geq 4$, the Basis Step is verified at $n = 4$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "$n = 1$"
+      },
+      {
+        "key": "B",
+        "text": "$n = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$n = 4$"
+      },
+      {
+        "key": "D",
+        "text": "$n = 5$"
+      }
+    ],
+    "sectionId": "structure-of-an-induction-proof",
+    "sectionLabel": "Structure of an Induction Proof",
+    "stem": "For the statement $n! > 2^n$, which is valid only for $n \\geq 4$, what is the correct starting value for the Basis Step?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k97am5gx2mqgq41d1y7taxpren8cvx1e",
+    "correctKey": "A",
+    "explanation": "The three parts form the standard structure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Base case, induction hypothesis, induction step"
+      },
+      {
+        "key": "B",
+        "text": "Only substitution"
+      },
+      {
+        "key": "C",
+        "text": "Only factoring"
+      },
+      {
+        "key": "D",
+        "text": "Only a diagram"
+      }
+    ],
+    "sectionId": "structure-of-an-induction-proof",
+    "sectionLabel": "Structure of an Induction Proof",
+    "stem": "Which steps belong to an induction proof?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k976ke8b3r34ns05r6xyzz5k1s8cvc92",
+    "correctKey": "A",
+    "explanation": "Induction is suited to indexed families such as divisibility statements.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "A divisibility identity for all n"
+      },
+      {
+        "key": "B",
+        "text": "A single numerical equality only"
+      },
+      {
+        "key": "C",
+        "text": "A geometric angle only"
+      },
+      {
+        "key": "D",
+        "text": "A matrix inverse only"
+      }
+    ],
+    "sectionId": "types-of-statements-proved-by-induction",
+    "sectionLabel": "Types of Statements Proved by Induction",
+    "stem": "Which statement can be proved by induction?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k975sdn7cezpd9kxn8nrqh72js85q4x4",
+    "correctKey": "A",
+    "explanation": "The Inductive Hypothesis is the assumption that the statement holds for an arbitrary natural number $k$. We then use this to prove it for $k+1$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Assume $S_k$ is true for some arbitrary $k \\in \\mathbb{N}$."
+      },
+      {
+        "key": "B",
+        "text": "Assume $S_{k+1}$ is true for all $k$."
+      },
+      {
+        "key": "C",
+        "text": "Assume $S_1$ is false."
+      },
+      {
+        "key": "D",
+        "text": "Assume $n = k$ is the only solution."
+      }
+    ],
+    "sectionId": "what-is-mathematical-induction",
+    "sectionLabel": "What is Mathematical Induction?",
+    "stem": "Which of the following correctly states the Inductive Hypothesis when proving $1^3 + 2^3 + \\cdots + n^3 = S_n$ by Mathematical Induction?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k97fmnem1bct767mzkqrhzse3h85q103",
+    "correctKey": "B",
+    "explanation": "For product series, the Inductive Step multiplies the inductive hypothesis $P_k$ by the next factor. Here $P_{k+1} = \\frac{k+1}{2k} \\cdot \\left(1 - \\frac{1}{(k+1)^2}\\right)$, which simplifies to $\\frac{k+2}{2(k+1)}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "$P_{k+1} = P_k + \\left(1 - \\frac{1}{(k+1)^2}\\right)$"
+      },
+      {
+        "key": "B",
+        "text": "$P_{k+1} = P_k \\cdot \\left(1 - \\frac{1}{(k+1)^2}\\right)$"
+      },
+      {
+        "key": "C",
+        "text": "$P_{k+1} = \\frac{k+2}{2(k+1)}$ directly without using $P_k$"
+      },
+      {
+        "key": "D",
+        "text": "$P_{k+1} = \\frac{k}{k+1}$"
+      }
+    ],
+    "sectionId": "what-is-mathematical-induction",
+    "sectionLabel": "What is Mathematical Induction?",
+    "stem": "When proving a product formula by induction with hypothesis $P_k = \\frac{k+1}{2k}$, how is $P_{k+1}$ obtained in the Inductive Step?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k97a7wak4gsvbyqzmwvsrcszqs8cv6wr",
+    "correctKey": "B",
+    "explanation": "The induction hypothesis assumes P(k), which is then used to prove P(k+1).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "P(0) only"
+      },
+      {
+        "key": "B",
+        "text": "P(k) for an arbitrary positive integer k"
+      },
+      {
+        "key": "C",
+        "text": "P(k+1) without proof"
+      },
+      {
+        "key": "D",
+        "text": "Every statement at once"
+      }
+    ],
+    "sectionId": "what-is-mathematical-induction",
+    "sectionLabel": "What is Mathematical Induction?",
+    "stem": "After proving the base case, what is assumed in induction?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k9752e0cm3ppy95761k3g1yps18cvn14",
+    "correctKey": "B",
+    "explanation": "The induction hypothesis assumes P(k), which is then used to prove P(k+1).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "P(0) only"
+      },
+      {
+        "key": "B",
+        "text": "P(k) for an arbitrary positive integer k"
+      },
+      {
+        "key": "C",
+        "text": "P(k+1) without proof"
+      },
+      {
+        "key": "D",
+        "text": "Every statement at once"
+      }
+    ],
+    "sectionId": "what-is-mathematical-induction",
+    "sectionLabel": "What is Mathematical Induction?",
+    "stem": "After proving the base case, what is assumed in induction?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-1",
+    "topicTitle": "7.1 Principle of Mathematical Induction",
+    "_id": "k972nb1b7e3gh1n9fe9xpht3a18cvgnk",
+    "correctKey": "A",
+    "explanation": "Induction establishes a base case and an implication from k to k+1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7emay91m2kfwaq62kh0t7ta985q8mc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prove a statement for every positive integer"
+      },
+      {
+        "key": "B",
+        "text": "Approximate a real number only"
+      },
+      {
+        "key": "C",
+        "text": "Find a determinant"
+      },
+      {
+        "key": "D",
+        "text": "Define a derivative"
+      }
+    ],
+    "sectionId": "what-is-mathematical-induction",
+    "sectionLabel": "What is Mathematical Induction?",
+    "stem": "What is the purpose of mathematical induction?",
+    "topicId": "ms7agypm85hh418pe6ec8ssmr185q4hs"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k978zcpgsnbsfdg5rq9k7tykgs8cv6r4",
+    "correctKey": "A",
+    "explanation": "Expanding (1+x)^n with small x gives approximations.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "For a small fractional change around 1"
+      },
+      {
+        "key": "B",
+        "text": "Only for integers"
+      },
+      {
+        "key": "C",
+        "text": "Only for zero"
+      },
+      {
+        "key": "D",
+        "text": "Never"
+      }
+    ],
+    "sectionId": "approximate-values-using-the-binomial-theorem",
+    "sectionLabel": "Approximate Values Using the Binomial Theorem",
+    "stem": "When is binomial approximation useful?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k979gx78vqkx3n4ne8sr55f8258cvb5n",
+    "correctKey": "A",
+    "explanation": "Match the desired power in the general term.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Select the term whose x exponent is k"
+      },
+      {
+        "key": "B",
+        "text": "Set x=0 always"
+      },
+      {
+        "key": "C",
+        "text": "Use only n"
+      },
+      {
+        "key": "D",
+        "text": "Differentiate once"
+      }
+    ],
+    "sectionId": "coefficient-of-a-specific-power",
+    "sectionLabel": "Coefficient of a Specific Power",
+    "stem": "How is the coefficient of x^k found?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97ad2fmhkzd2qkq26tww5k0pn8ct5v4",
+    "correctKey": "A",
+    "explanation": "Repeated multiplication or multinomial grouping expands it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Treat it as a repeated binomial/product expansion"
+      },
+      {
+        "key": "B",
+        "text": "Use only two terms"
+      },
+      {
+        "key": "C",
+        "text": "Use a determinant"
+      },
+      {
+        "key": "D",
+        "text": "Take a square root"
+      }
+    ],
+    "sectionId": "expanding-trinomials",
+    "sectionLabel": "Expanding Trinomials",
+    "stem": "How can a trinomial power be expanded?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k973bvpr3cvmctdckyaar1hcsx85p6vh",
+    "correctKey": "C",
+    "explanation": "The general term is $\\binom{n}{r}x^{n-r}(-y)^r = (-1)^r\\binom{n}{r}x^{n-r}y^r$. When $r$ (the power of $y$) is odd, $(-1)^r = -1$, making the term negative.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "All terms"
+      },
+      {
+        "key": "B",
+        "text": "Only the first and last terms"
+      },
+      {
+        "key": "C",
+        "text": "Terms where the power of $y$ is odd"
+      },
+      {
+        "key": "D",
+        "text": "Terms where the power of $x$ is odd"
+      }
+    ],
+    "sectionId": "general-term-the-rth-term",
+    "sectionLabel": "General Term (The $r^{th}$ Term)",
+    "stem": "In the expansion of $(x-y)^n$, which terms are negative?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97at42tx076zyjpqch26h871n85qe6w",
+    "correctKey": "B",
+    "explanation": "The general term is $(x^2)^{n-r}\\cdot(x^{-1})^r = x^{2(n-r)-r} = x^{2n-3r}$. Setting the exponent to zero: $2(n-r)-r=0$, i.e., $2n-3r=0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2(n-r) + r = 0$"
+      },
+      {
+        "key": "B",
+        "text": "$2(n-r) - r = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$n - r = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$2r - (n-r) = 0$"
+      }
+    ],
+    "sectionId": "general-term-the-rth-term",
+    "sectionLabel": "General Term (The $r^{th}$ Term)",
+    "stem": "To find the term independent of $x$ in $\\left(x^2 + \\frac{1}{x}\\right)^n$, which equation must be solved for $r$?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97c6pvxbf7kc5zjzz0s3a5vkn8ctpm7",
+    "correctKey": "A",
+    "explanation": "The rth term depends on its position and coefficient.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its index and binomial coefficient"
+      },
+      {
+        "key": "B",
+        "text": "Only a and b"
+      },
+      {
+        "key": "C",
+        "text": "Only n"
+      },
+      {
+        "key": "D",
+        "text": "Only the first term"
+      }
+    ],
+    "sectionId": "general-term-the-rth-term",
+    "sectionLabel": "General Term (The $r^{th}$ Term)",
+    "stem": "What determines a general binomial term?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k9724qsa8ky3ccwgz9y86zm8d585qqxn",
+    "correctKey": "B",
+    "explanation": "Setting $a=1$ and $b=1$ in $(a+b)^n = \\sum_{r=0}^{n}\\binom{n}{r}a^{n-r}b^r$ gives $(1+1)^n = \\sum_{r=0}^{n}\\binom{n}{r} = 2^n$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "By definition of factorials"
+      },
+      {
+        "key": "B",
+        "text": "By substituting $a=1,\\, b=1$ into the Binomial Theorem $(a+b)^n$"
+      },
+      {
+        "key": "C",
+        "text": "By the symmetry property of Pascal's Triangle"
+      },
+      {
+        "key": "D",
+        "text": "Because there are $n$ terms in the expansion"
+      }
+    ],
+    "sectionId": "important-binomial-coefficient-identities",
+    "sectionLabel": "Important Binomial Coefficient Identities",
+    "stem": "Why is $\\binom{n}{0} + \\binom{n}{1} + \\cdots + \\binom{n}{n} = 2^n$?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97807wg1bdgef68nmj46b8wa58cvmpd",
+    "correctKey": "A",
+    "explanation": "Complementary selections have equal counts.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "nCr=nC(n−r)"
+      },
+      {
+        "key": "B",
+        "text": "nCr=n+r"
+      },
+      {
+        "key": "C",
+        "text": "nCr=nr"
+      },
+      {
+        "key": "D",
+        "text": "nCr=n−r"
+      }
+    ],
+    "sectionId": "important-binomial-coefficient-identities",
+    "sectionLabel": "Important Binomial Coefficient Identities",
+    "stem": "Which identity is true?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97cvkt7yq8fwmbd9sajs9w0k58cvy1n",
+    "correctKey": "A",
+    "explanation": "The last digit is the remainder modulo 10.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "100"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      }
+    ],
+    "sectionId": "last-digit-and-divisibility",
+    "sectionLabel": "Last Digit and Divisibility",
+    "stem": "What modulus gives the last digit?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k973xp69ks9txz8t0ng3gax39985qq8c",
+    "correctKey": "B",
+    "explanation": "The number of terms is $n+1$. If $n+1=12$, then $n=11$. Since $n$ is odd, there are two middle terms at positions $\\frac{n+1}{2}=6$ and $\\frac{n+3}{2}=7$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "One middle term"
+      },
+      {
+        "key": "B",
+        "text": "Two middle terms"
+      },
+      {
+        "key": "C",
+        "text": "Three middle terms"
+      },
+      {
+        "key": "D",
+        "text": "No middle terms"
+      }
+    ],
+    "sectionId": "middle-terms",
+    "sectionLabel": "Middle Terms",
+    "stem": "If a binomial expansion $(x+y)^n$ has exactly 12 terms, how many middle terms does it have?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k9786bgx1b1ez8jjyrz6t5pzk98cvcn4",
+    "correctKey": "A",
+    "explanation": "An even number of terms has two middle positions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Two"
+      },
+      {
+        "key": "B",
+        "text": "One"
+      },
+      {
+        "key": "C",
+        "text": "None"
+      },
+      {
+        "key": "D",
+        "text": "n"
+      }
+    ],
+    "sectionId": "middle-terms",
+    "sectionLabel": "Middle Terms",
+    "stem": "How many middle terms occur in an expansion with an even number of terms?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k975ntn2ej031q74zva1k869r985pwwv",
+    "correctKey": "A",
+    "explanation": "$T_5$ has coefficient $\\binom{n}{4}$ and $T_{15}$ has $\\binom{n}{14}$. Using $\\binom{n}{r}=\\binom{n}{n-r}$, equality requires $4+14=n$, giving $n=18$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "21"
+      }
+    ],
+    "sectionId": "pascals-triangle-and-binomial-coefficients",
+    "sectionLabel": "Pascal's Triangle and Binomial Coefficients",
+    "stem": "If the coefficients of the $5^{th}$ and $15^{th}$ terms in $(a+b)^n$ are equal, what is $n$?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k978kfqexj19hbf54rtdn5crad85p50r",
+    "correctKey": "C",
+    "explanation": "Substituting $x=1$ gives $S_e+S_o=2^n$. Substituting $x=-1$ gives $S_e-S_o=0$, so $S_e=S_o$. Therefore $S_e=S_o=2^{n-1}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "$S_e > S_o$"
+      },
+      {
+        "key": "B",
+        "text": "$S_e < S_o$"
+      },
+      {
+        "key": "C",
+        "text": "$S_e = S_o = 2^{n-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$S_e + S_o = 2^{n-1}$"
+      }
+    ],
+    "sectionId": "pascals-triangle-and-binomial-coefficients",
+    "sectionLabel": "Pascal's Triangle and Binomial Coefficients",
+    "stem": "For $(1+x)^n$, if $S_e$ is the sum of even-indexed coefficients and $S_o$ is the sum of odd-indexed coefficients, which is true?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97crpjwb8xrrcsdz0n9v9j4r18ctwcc",
+    "correctKey": "A",
+    "explanation": "Each row gives coefficients for a binomial expansion.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Binomial coefficients"
+      },
+      {
+        "key": "B",
+        "text": "Only powers"
+      },
+      {
+        "key": "C",
+        "text": "Factorials only"
+      },
+      {
+        "key": "D",
+        "text": "Remainders only"
+      }
+    ],
+    "sectionId": "pascals-triangle-and-binomial-coefficients",
+    "sectionLabel": "Pascal's Triangle and Binomial Coefficients",
+    "stem": "What does Pascal’s triangle provide?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k971rjxb0jwp9mmh24pqnkneq18cv1zc",
+    "correctKey": "A",
+    "explanation": "The theorem supports approximation and modular reasoning.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Approximation or divisibility tests"
+      },
+      {
+        "key": "B",
+        "text": "Only matrix inversion"
+      },
+      {
+        "key": "C",
+        "text": "Only geometry"
+      },
+      {
+        "key": "D",
+        "text": "Only integration"
+      }
+    ],
+    "sectionId": "real-world-applications",
+    "sectionLabel": "Real-World Applications",
+    "stem": "Which is a binomial-theorem application?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97dyshaw6s8c9vne435grqa018cth13",
+    "correctKey": "A",
+    "explanation": "Terms containing m vanish modulo m.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Write the base as a multiple of m plus a small remainder"
+      },
+      {
+        "key": "B",
+        "text": "Ignore m"
+      },
+      {
+        "key": "C",
+        "text": "Use a derivative"
+      },
+      {
+        "key": "D",
+        "text": "Take a square root"
+      }
+    ],
+    "sectionId": "remainder-using-the-binomial-theorem",
+    "sectionLabel": "Remainder Using the Binomial Theorem",
+    "stem": "How can a binomial expansion find a remainder modulo m?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k9753g5wfsf06yn5m1kdvvjeex8ctsp2",
+    "correctKey": "A",
+    "explanation": "The kth term from the end corresponds to the (n−k+1)th from the start.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use the corresponding position from the start"
+      },
+      {
+        "key": "B",
+        "text": "Reverse every sign"
+      },
+      {
+        "key": "C",
+        "text": "Subtract n only"
+      },
+      {
+        "key": "D",
+        "text": "Use a determinant"
+      }
+    ],
+    "sectionId": "term-from-the-end",
+    "sectionLabel": "Term from the End",
+    "stem": "How can a term from the end be located?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k977xh9t6zmeensetze1e7fwa58ctgaw",
+    "correctKey": "A",
+    "explanation": "Set the variable exponent equal to zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its power of x is zero"
+      },
+      {
+        "key": "B",
+        "text": "Its coefficient is zero"
+      },
+      {
+        "key": "C",
+        "text": "Its exponent is one"
+      },
+      {
+        "key": "D",
+        "text": "It is the first term"
+      }
+    ],
+    "sectionId": "term-independent-of-x",
+    "sectionLabel": "Term Independent of $x$",
+    "stem": "What condition identifies a term independent of x?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k9757x50t8zydakm5tvy5sz9g18ct627",
+    "correctKey": "B",
+    "explanation": "The chapter defines a binomial as an algebraic expression consisting of two terms.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "One"
+      },
+      {
+        "key": "B",
+        "text": "Two"
+      },
+      {
+        "key": "C",
+        "text": "Three"
+      },
+      {
+        "key": "D",
+        "text": "Any number"
+      }
+    ],
+    "sectionId": "the-binomial-theorem",
+    "sectionLabel": "The Binomial Theorem",
+    "stem": "How many terms does a binomial expression contain?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k9769c4gcb56p872br7w90m93x8cv78r",
+    "correctKey": "B",
+    "explanation": "The chapter defines a binomial as an algebraic expression consisting of two terms.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "One"
+      },
+      {
+        "key": "B",
+        "text": "Two"
+      },
+      {
+        "key": "C",
+        "text": "Three"
+      },
+      {
+        "key": "D",
+        "text": "Any number"
+      }
+    ],
+    "sectionId": "the-binomial-theorem",
+    "sectionLabel": "The Binomial Theorem",
+    "stem": "How many terms does a binomial expression contain?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-2",
+    "topicTitle": "7.2 Binomial Theorem and Pascal's Triangle",
+    "_id": "k97a1excr3akm84w60pnfm2kqx8ctb90",
+    "correctKey": "A",
+    "explanation": "It expands a binomial raised to a positive integer power.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx79kj3msx0xczg93tr3acqbbs85pp5k",
+    "options": [
+      {
+        "key": "A",
+        "text": "(a+b)^n for natural n"
+      },
+      {
+        "key": "B",
+        "text": "Only a+b"
+      },
+      {
+        "key": "C",
+        "text": "A determinant"
+      },
+      {
+        "key": "D",
+        "text": "A logarithm"
+      }
+    ],
+    "sectionId": "the-binomial-theorem",
+    "sectionLabel": "The Binomial Theorem",
+    "stem": "What does the binomial theorem expand?",
+    "topicId": "ms734qf11n5wbk6vq60wganbq185prna"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k97b68eswwpvbdgssasqx8qxy18cvn0y",
+    "correctKey": "A",
+    "explanation": "Small omitted terms provide a controlled approximation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "A",
+        "text": "To obtain an approximation"
+      },
+      {
+        "key": "B",
+        "text": "To make it divergent"
+      },
+      {
+        "key": "C",
+        "text": "To remove all terms"
+      },
+      {
+        "key": "D",
+        "text": "To change the exponent"
+      }
+    ],
+    "sectionId": "approximations-using-the-binomial-series",
+    "sectionLabel": "Approximations Using the Binomial Series",
+    "stem": "Why truncate a binomial series?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k9723t5b94zdahbp48gfacy3fn8ctyhx",
+    "correctKey": "A",
+    "explanation": "The series converges within its radius.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "B",
+        "text": "|x|>1"
+      },
+      {
+        "key": "D",
+        "text": "No condition"
+      },
+      {
+        "key": "A",
+        "text": "|x|<1"
+      },
+      {
+        "key": "C",
+        "text": "x=2"
+      }
+    ],
+    "sectionId": "convergence-condition",
+    "sectionLabel": "Convergence Condition",
+    "stem": "What condition is typically required for the binomial series?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k978fcvvjqqz5ycc97nn92tta98ctx59",
+    "correctKey": "A",
+    "explanation": "Normalize the expression before applying the series.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "C",
+        "text": "Differentiate"
+      },
+      {
+        "key": "A",
+        "text": "Factor out a^n and rewrite as (1+x/a)^n"
+      },
+      {
+        "key": "B",
+        "text": "Set x=0"
+      },
+      {
+        "key": "D",
+        "text": "Use a determinant"
+      }
+    ],
+    "sectionId": "expanding-a--xn",
+    "sectionLabel": "Expanding $(a + x)^n$",
+    "stem": "What is the first step in expanding (a+x)^n?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k972f4x909562dpx9bdnv1hw498cv3p7",
+    "correctKey": "A",
+    "explanation": "Congruent bases have the same remainder powers.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "D",
+        "text": "Use a derivative"
+      },
+      {
+        "key": "B",
+        "text": "Increase the exponent"
+      },
+      {
+        "key": "C",
+        "text": "Ignore the modulus"
+      },
+      {
+        "key": "A",
+        "text": "Replace the base by a congruent small residue"
+      }
+    ],
+    "sectionId": "finding-remainders-using-the-binomial-theorem",
+    "sectionLabel": "Finding Remainders Using the Binomial Theorem",
+    "stem": "What modular idea simplifies a large power?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k970r1w2gtp71e5be25qc9n0998ct862",
+    "correctKey": "A",
+    "explanation": "Unit digits repeat in cycles modulo 10.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "D",
+        "text": "Take a logarithm"
+      },
+      {
+        "key": "A",
+        "text": "Use powers modulo 10 and their cycle"
+      },
+      {
+        "key": "B",
+        "text": "Compute all digits"
+      },
+      {
+        "key": "C",
+        "text": "Use a matrix inverse"
+      }
+    ],
+    "sectionId": "finding-the-last-digit-of-a-large-power",
+    "sectionLabel": "Finding the Last Digit of a Large Power",
+    "stem": "How are last digits of powers found efficiently?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k97fpsbphegt6s2qpc3x76g5q18ctj8a",
+    "correctKey": "A",
+    "explanation": "It generalizes binomial expansions beyond positive integer exponents.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expanding powers with generalized exponents"
+      },
+      {
+        "key": "D",
+        "text": "Only finite sums"
+      },
+      {
+        "key": "C",
+        "text": "Only determinants"
+      },
+      {
+        "key": "B",
+        "text": "Only positive integers"
+      }
+    ],
+    "sectionId": "overview",
+    "sectionLabel": "Overview",
+    "stem": "What is the binomial series used for?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k977xve0dvmjvxxf38bxhpsxwn8ctr2v",
+    "correctKey": "A",
+    "explanation": "Negative exponents commonly create alternating signs.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "B",
+        "text": "All terms are positive"
+      },
+      {
+        "key": "D",
+        "text": "The series becomes a determinant"
+      },
+      {
+        "key": "C",
+        "text": "Only one term remains"
+      },
+      {
+        "key": "A",
+        "text": "Signs alternate in successive terms"
+      }
+    ],
+    "sectionId": "sign-pattern-in-expansions-with-negative-exponents",
+    "sectionLabel": "Sign Pattern in Expansions with Negative Exponents",
+    "stem": "What often happens with a negative exponent?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k97bqqg3g7r19dbgrd2kxn0mnd8ct96t",
+    "correctKey": "A",
+    "explanation": "The corpus states that the series is convergent when |x| < 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "B",
+        "text": "|x| > 1"
+      },
+      {
+        "key": "D",
+        "text": "x < −1"
+      },
+      {
+        "key": "C",
+        "text": "x = 2"
+      },
+      {
+        "key": "A",
+        "text": "|x| < 1"
+      }
+    ],
+    "sectionId": "the-binomial-series",
+    "sectionLabel": "The Binomial Series",
+    "stem": "Which condition ensures convergence of the binomial series?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k97eb1ps3970x17r2bj66b5vch8cvqzx",
+    "correctKey": "A",
+    "explanation": "The corpus states that the series is convergent when |x| < 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "C",
+        "text": "x = 2"
+      },
+      {
+        "key": "B",
+        "text": "|x| > 1"
+      },
+      {
+        "key": "A",
+        "text": "|x| < 1"
+      },
+      {
+        "key": "D",
+        "text": "x < −1"
+      }
+    ],
+    "sectionId": "the-binomial-series",
+    "sectionLabel": "The Binomial Series",
+    "stem": "Which condition ensures convergence of the binomial series?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-3",
+    "topicTitle": "7.3 Binomial Series and Convergence",
+    "_id": "k979dnsrczz1vfr2vbe2bgms5n8ctm69",
+    "correctKey": "A",
+    "explanation": "Generalized exponents can produce infinite expansions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e8gv83adzq10e2t3nw89tth85q4yq",
+    "options": [
+      {
+        "key": "C",
+        "text": "A matrix"
+      },
+      {
+        "key": "D",
+        "text": "A factorial"
+      },
+      {
+        "key": "B",
+        "text": "Only a+b"
+      },
+      {
+        "key": "A",
+        "text": "(1+x)^n as an infinite series when needed"
+      }
+    ],
+    "sectionId": "the-binomial-series",
+    "sectionLabel": "The Binomial Series",
+    "stem": "What form does a binomial series expand?",
+    "topicId": "ms770sfvgv9e8a4hjj4pwh69an85pmfz"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k970xbfexaz4jtzktn4qxnxb2x8ctcpv",
+    "correctKey": "A",
+    "explanation": "Powers of an integer repeat unit-digit cycles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use the repeating cycle of unit digits"
+      },
+      {
+        "key": "B",
+        "text": "Expand every factor fully"
+      },
+      {
+        "key": "C",
+        "text": "Take a derivative"
+      },
+      {
+        "key": "D",
+        "text": "Use a determinant"
+      }
+    ],
+    "sectionId": "1-cyclicity-of-unit-digits",
+    "sectionLabel": "1. Cyclicity of Unit Digits",
+    "stem": "How can the last digit of a large power be found?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k97cmtmqkhhqk80m39kdqz9ay185qz7h",
+    "correctKey": "C",
+    "explanation": "$5^{103} = 5 \\cdot (5^2)^{51} = 5 \\cdot (2 \\cdot 13 - 1)^{51}$. By the Binomial Theorem, $(2\\cdot13-1)^{51} \\equiv (-1)^{51} = -1 \\pmod{13}$. So $5^{103} \\equiv 5(-1) = -5 \\equiv 8 \\pmod{13}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "sectionId": "2-finding-remainders-using-the-binomial-theorem",
+    "sectionLabel": "2. Finding Remainders Using the Binomial Theorem",
+    "stem": "To find the remainder when $5^{103}$ is divided by 13, a student writes $5^2 = 2(13) - 1$. What is the remainder of $5^{103} \\div 13$?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k97dezxnej87m5axex5s3zqt3585qwgh",
+    "correctKey": "B",
+    "explanation": "Writing $9(1+8)^n$ and expanding gives $9\\left(1 + 8n + \\binom{n}{2}8^2 + \\dots\\right)$. After distributing and cancelling $9 + 72n$ against $-8n - 9$, all remaining terms contain $8^2 = 64$ as a factor.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "Factor out a 9 from the expression"
+      },
+      {
+        "key": "B",
+        "text": "Write $9^{n+1} = 9(1+8)^n$ and expand $(1+8)^n$ using the Binomial Theorem"
+      },
+      {
+        "key": "C",
+        "text": "Divide the entire expression by 8"
+      },
+      {
+        "key": "D",
+        "text": "Set $n=1$ and verify divisibility by 64"
+      }
+    ],
+    "sectionId": "2-finding-remainders-using-the-binomial-theorem",
+    "sectionLabel": "2. Finding Remainders Using the Binomial Theorem",
+    "stem": "When proving $9^{n+1} - 8n - 9$ is divisible by 64, what is the correct first step using the Binomial Theorem?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k97851zw9pvw1cdznd7hkcn4jn85qjgc",
+    "correctKey": "C",
+    "explanation": "$(1.1)^{10000} = 1 + 10000(0.1) + \\dots = 1 + 1000 + \\dots$. Since all terms are positive, the total exceeds $1 + 1000 = 1001 > 1000$. The Binomial Theorem lets us compare without full computation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "The value is exactly 1001"
+      },
+      {
+        "key": "B",
+        "text": "The value is less than 1000"
+      },
+      {
+        "key": "C",
+        "text": "The value is greater than 1000 because all terms are positive"
+      },
+      {
+        "key": "D",
+        "text": "The value cannot be determined without a calculator"
+      }
+    ],
+    "sectionId": "2-finding-remainders-using-the-binomial-theorem",
+    "sectionLabel": "2. Finding Remainders Using the Binomial Theorem",
+    "stem": "In the expansion of $(1.1)^{10000}$, the second term alone equals $1000$. What can be concluded about the value of $(1.1)^{10000}$?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k9735z7q18pxz28ajfker37zq98cvzcc",
+    "correctKey": "A",
+    "explanation": "Terms containing the divisor vanish modulo it.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "The binomial expansion isolates the remainder"
+      },
+      {
+        "key": "B",
+        "text": "It changes the number"
+      },
+      {
+        "key": "C",
+        "text": "It removes all powers"
+      },
+      {
+        "key": "D",
+        "text": "It finds a derivative"
+      }
+    ],
+    "sectionId": "2-finding-remainders-using-the-binomial-theorem",
+    "sectionLabel": "2. Finding Remainders Using the Binomial Theorem",
+    "stem": "Why write a number as a multiple of the divisor plus a remainder?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k976tzvjkt2gjytzzezb92kwhn8ctta1",
+    "correctKey": "A",
+    "explanation": "Last two digits are the remainder modulo 100.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "100"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "1000"
+      }
+    ],
+    "sectionId": "3-finding-last-two-digits",
+    "sectionLabel": "3. Finding Last Two Digits",
+    "stem": "What modulus gives the last two decimal digits?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k976e6svr3gwb87cqkzjd7b0bn85pzfg",
+    "correctKey": "B",
+    "explanation": "Expanding $(20+2)^{25} + (20-2)^{25}$: odd-power terms of $\\pm 2$ cancel, even-power terms double, and all remaining terms contain a factor of 20. Thus the sum is divisible by 20.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "Calculate both powers and add them"
+      },
+      {
+        "key": "B",
+        "text": "Use $22 = (20+2)$ and $18 = (20-2)$ and expand binomially"
+      },
+      {
+        "key": "C",
+        "text": "Divide 22 by 20 and 18 by 20 separately"
+      },
+      {
+        "key": "D",
+        "text": "Use the property that $a^n + b^n$ is always divisible by $a+b$"
+      }
+    ],
+    "sectionId": "4-divisibility-proofs",
+    "sectionLabel": "4. Divisibility Proofs",
+    "stem": "Which approach is most efficient for showing that $22^{25} + 18^{25}$ is divisible by 20?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k978txr81s8v8vs86mhbjkm83n8cvfmd",
+    "correctKey": "A",
+    "explanation": "Complete divisibility means the division leaves a remainder of zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remainder 0"
+      },
+      {
+        "key": "B",
+        "text": "Remainder 1"
+      },
+      {
+        "key": "C",
+        "text": "The quotient is zero"
+      },
+      {
+        "key": "D",
+        "text": "A negative remainder"
+      }
+    ],
+    "sectionId": "4-divisibility-proofs",
+    "sectionLabel": "4. Divisibility Proofs",
+    "stem": "What remainder indicates complete divisibility?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k978k4x297xb61ma5ct91hach58cvmkm",
+    "correctKey": "A",
+    "explanation": "Complete divisibility means the division leaves a remainder of zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remainder 0"
+      },
+      {
+        "key": "B",
+        "text": "Remainder 1"
+      },
+      {
+        "key": "C",
+        "text": "The quotient is zero"
+      },
+      {
+        "key": "D",
+        "text": "A negative remainder"
+      }
+    ],
+    "sectionId": "4-divisibility-proofs",
+    "sectionLabel": "4. Divisibility Proofs",
+    "stem": "What remainder indicates complete divisibility?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k972acfz52493cthkttzc5qabd8ctgyr",
+    "correctKey": "A",
+    "explanation": "Divisibility means zero remainder on division by m.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "The number equals m times an integer"
+      },
+      {
+        "key": "B",
+        "text": "The number is prime"
+      },
+      {
+        "key": "C",
+        "text": "The remainder is m"
+      },
+      {
+        "key": "D",
+        "text": "The number is negative"
+      }
+    ],
+    "sectionId": "4-divisibility-proofs",
+    "sectionLabel": "4. Divisibility Proofs",
+    "stem": "What does divisibility by m mean?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "07-mathematical-induction-and-binomial-theorem",
+    "chapterTitle": "Mathematical Induction And Binomial Theorem",
+    "topicSlug": "exercise-7-4",
+    "topicTitle": "7.4 Applications of Binomial Theorem: Cyclicity, Remainders, and Divisibility",
+    "_id": "k972c3a3ja27d438qt5mmd070h8cvmen",
+    "correctKey": "A",
+    "explanation": "A common expansion makes the difference visible.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aajm5xa4psf7e6d2rcf9sbd85ps5g",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expand around a common dominant term"
+      },
+      {
+        "key": "B",
+        "text": "List every integer"
+      },
+      {
+        "key": "C",
+        "text": "Use only the exponent"
+      },
+      {
+        "key": "D",
+        "text": "Take square roots"
+      }
+    ],
+    "sectionId": "5-comparing-large-numbers-using-the-binomial-theorem",
+    "sectionLabel": "5. Comparing Large Numbers Using the Binomial Theorem",
+    "stem": "How can binomial expansion compare two large powers?",
+    "topicId": "ms76z0d9c6gpr0g43cgbxj5rz585p7p6"
+  }
+]

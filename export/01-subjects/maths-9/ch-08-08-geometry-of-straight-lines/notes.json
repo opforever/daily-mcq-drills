@@ -1,0 +1,71 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "inclination-of-straight-line",
+    "topicTitle": "8.1 Inclination of a Straight Line",
+    "_creationTime": 1786558639567.9673,
+    "_id": "kx72mq1dchvvef9zhxrmaa8jmx8cbtmg",
+    "createdAt": 1786558639568,
+    "mdxBody": "## Measuring Line Inclination\n\nThe inclination of a straight line is the angle $\\theta$ which the line makes with positive x-axis measured in anti-clockwise direction.",
+    "publishedAt": 1787579269405,
+    "slug": "inclination-of-straight-line",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 8,
+      "subjectSlug": "maths-9"
+    },
+    "status": "published",
+    "summary": "This note defines inclination as the anti-clockwise angle a straight line makes with the positive x-axis.",
+    "title": "Inclination of Straight Line",
+    "topicId": "ms70zj60102w8s42ypx5k6py6s8ca3f1",
+    "updatedAt": 1787579269405
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "gradient-of-straight-line",
+    "topicTitle": "8.2 Gradient of a Straight Line",
+    "_creationTime": 1786558639567.9678,
+    "_id": "kx7esjcr1fj2th3a9mj220q0jn8ca8mv",
+    "createdAt": 1786558639568,
+    "mdxBody": "## Horizontal and Vertical Lines\n\n- Any line parallel to x-axis is called horizontal line.\n- Any line parallel to $y$-axis is called vertical line.\n- Line which is neither horizontal nor vertical is called oblique line.\n- Inclination of horizontal line is $0^{\\circ}$.\n\n<CaptionedImage src=\"kg29tseczvrbd7wdpnws1ka2nn8bvh86\" alt=\"\" caption=\"\" />\n\n- Inclination of vertical line is 90°.\n\n## Gradient\n\nWhen a car rides up a hill, its speed reduces. The steeper the hill, the harder it is to climb.\nThe measure of the steepness of hill is called gradient (slope).\nGradient is ratio of the vertical distance to the horizontal distance.\n<ImageGroup>\n<CaptionedImage src=\"kg22bpxpgv74nhpvfrngk91ajs8bve5p\" alt=\"\" caption=\"\" />\n<CaptionedImage src=\"kg22gwbdjbkpyf9xahmredb5rs8bveeg\" alt=\"\" caption=\"\" />\n<CaptionedImage src=\"kg29hhbgabaz93k8vvdcwfcgdx8btk8j\" alt=\"\" caption=\"\" />\n</ImageGroup>\nWhere the angle $\\theta$ is inclination.\n\n## Gradient and Inclination Relationship\n\nThe gradient of a straight line is the tangent of the angle which the line makes with the positive direction of the x-axis.\n\n## Gradient of Straight Line\n\nThe gradient of straight line is defined as:\n\n$$\n\\tan \\theta=\\frac{\\text { rise }}{\\text { run }}\n$$\n\nIn the figure line AB is inclined at an angle $\\theta$ with x-axis.\n\n$$\n\\text { Gradient of line } \\begin{aligned}\nA B & =\\frac{\\text { rise }}{\\text { run }} \\\\\n& =\\frac{\\text { difference in } y-\\text { coordinates of } A B}{\\text { difference in } x-\\text { coordinates of } A B} \\\\\n& =\\frac{9-2}{8-4}=\\frac{7}{4}\n\\end{aligned}\n$$\n\n<CaptionedImage src=\"kg2fxb6ma5nqgzm3hraqx0qdkn8bv381\" alt=\"\" caption=\"\" />\nAlternatively, gradient of $\\mathrm{AB}=\\frac{2-9}{4-8}=\\frac{-7}{-4}=\\frac{7}{4}$\n\nGenerally, gradient of a straight line is denoted by $m$.\nTherefore, $m=\\tan \\theta$\nExample 1:\n\n(i) Find the gradient (slope) of line whose inclination is $45^{\\circ}$.\n(ii) Find inclination of line whose gradient is 1.732.\n\nSolution:\n\n(i) Here $\\theta=45^{\\circ}$\n$$\n\\text { ∴ Gradient }=\\tan 45^{\\circ}=1\n$$\n(ii) Gradient $=\\tan \\theta=1.732$\n$$\n\\text { ∴ Inclination }=\\theta=\\tan ^{-1}(1.732)=60^{\\circ}\n$$",
+    "publishedAt": 1787579269405,
+    "slug": "gradient-of-straight-line",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 8,
+      "subjectSlug": "maths-9"
+    },
+    "status": "published",
+    "summary": "This note explains gradient, its relation to inclination, and how gradients classify straight lines.",
+    "title": "Gradient of Straight Line",
+    "topicId": "ms79jyt2e3g1g1tbp8ymm25a2x8ca6yd",
+    "updatedAt": 1787579269405
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "08-geometry-of-straight-lines",
+    "chapterTitle": "Geometry Of Straight Lines",
+    "topicSlug": "formula-of-gradient",
+    "topicTitle": "8.3 Formula for the Gradient of a Line",
+    "_creationTime": 1786558639567.9683,
+    "_id": "kx75zndeqqen0mv1aneys71bgs8cave1",
+    "createdAt": 1786558639568,
+    "mdxBody": "## Calculating the Gradient\n\nIf $\\mathrm{A}\\left(x_{1}, \\mathrm{y}_{1}\\right)$ and $\\mathrm{B}\\left(x_{2}, \\mathrm{y}_{2}\\right)$ are two points on a line AB, Then gradient of $\\overrightarrow{A B}$ is: ${ }^{-7}$\n\n$$\nm=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}\n$$\n\nGradient of AB can not be $\\frac{y_{1}-y_{2}}{x_{2}-x_{1}}$ or $\\frac{y_{2}-y_{1}}{x_{1}-x_{2}}$\n<CaptionedImage src=\"kg24yz290gb7m7v6kettxd5g198bthjj\" alt=\"\" caption=\"\" />\n\nKey Fact\n\n- If the line is parallel to x -axis, then $\\theta=0^{\\circ}$, and we have $m=\\tan 0^{\\circ}=0$. Thus, gradient of horizontal line is 0 .\n- If the line is perpendicular to $x$-axis, then $\\theta=90^{\\circ}$, and we have $m=\\tan 90^{\\circ}$ which is undefined. Thus, gradient of vertical line is undefined.\n<ImageGroup>\n<CaptionedImage src=\"kg2fkwmpj6xef6rttx9hg5vmt98bvd6b\" alt=\"\" caption=\"\" />\n<CaptionedImage src=\"kg235qgpq1kff4bfk4qa356hkx8btn0j\" alt=\"\" caption=\"\" />\n</ImageGroup>\n\nSign of Gradient\n<ImageGroup>\n<CaptionedImage src=\"kg23d07088y0480s9e6zea0hrh8bvj3f\" alt=\"\" caption=\"\" />\n</ImageGroup>\nFigure 1pm\n\n- In the figure 1, line AB makes an angle $\\alpha\\left(0^{\\circ}<\\alpha<90^{\\circ}\\right)$ with the positive x-axis. As the value of $\\tan \\alpha$ is positive in first quadrant, therefore gradient of line AB is positive for $0^{\\circ}<\\alpha<90^{\\circ}$.\n- In the figure 2, line LM makes an angle $\\beta\\left(90^{\\circ}<\\beta<180^{\\circ}\\right)$ with the positive x-axis. As the value of $\\tan \\beta$ is negative in second quadrant, therefore gradient of line LM is negative for $90^{\\circ}<\\beta<180^{\\circ}$.\n\nKey Fact\nGradients can be positive or negative but are always observed from left to right.\n\nPositive Gradients\n<CaptionedImage src=\"kg26d36fyg4pjr5d6nr4wkqkm58bvdk8\" alt=\"\" caption=\"\" />\n\nNegative Gradients\n<CaptionedImage src=\"kg22cdm16mxcba0v91r9v4px8d8bv259\" alt=\"\" caption=\"\" />\n\nGradient of Parallel and Perpendicular Lines\n●\n<ImageGroup>\n<CaptionedImage src=\"kg2d0y5zqed1rwfb9mq6whn9n98bt0z9\" alt=\"\" caption=\"\" />\n<CaptionedImage src=\"kg292jb0d58k1vn7hp20et5pn58bthcn\" alt=\"\" caption=\"\" />\n</ImageGroup>\nFigure 2\n\nFigure 1 shows two parallel lines $l_{1}$ and $l_{2}$ making angle $\\alpha$ with positive x-axis.\nIf gradients of $l_{1}$ and $l_{2}$ are $m_{1}$ and $m_{2}$ respectively then:\n\n$$\nm_{1}=m_{2}\n$$\n\nFigure 2 shows two perpendicular lines $p_{1}$ and $p_{2}$ making angles $\\alpha$ and $\\beta$ with positive x-axis respectively. If gradients of $p_{1}$ and $p_{2}$ are $m_{1}$ and $m_{2}$ respectively then:\n\n$$\nm_{1}=-\\frac{1}{m_{2}} \\text { or } m_{2}=-\\frac{1}{m_{1}}\n$$\n\nKey Fact\n\n- If two non-vertical lines are parallel, there gradients are equal.\n- If two lines have same gradients, they are parallel.\n- If $m_{1}$ and $m_{2}$ are gradients of two perpendicular lines, then:\n$$\nm_{1} \\times m_{2}=-1\n$$\n- Three points $\\mathrm{A}, \\mathrm{B}$ and C are collinear if gradients of $\\mathrm{AB}, \\mathrm{BC}$ and AC are equal.\n\nExample 2:\nFind gradients of lines joining: (i) $\\mathrm{A}(1,4), \\mathrm{B}(3,6)$ (ii) $\\mathrm{C}(-3,5), \\mathrm{D}(0,3)$\nSolution:\n\n(i) Gradient of $\\mathrm{AB}=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\\frac{6-4}{3-1}=1$\n(ii) Gradient of $\\mathrm{CD}=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\\frac{3-5}{0-(-3)}=\\frac{-2}{3}$\n\nExample 3:\nProve that lines AB and CD are parallel where $\\mathrm{A}(3,5), \\mathrm{B}(4,6), \\mathrm{C}(7,11), \\mathrm{D}(9,13)$.\nSolution:\n\n$$\n\\begin{aligned}\n& \\text { Gradient of } \\mathrm{AB}=m_{1}=\\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\\frac{6-5}{4-3}=1 \\\\\n& \\text { Gradient of } \\mathrm{CD}=m_{2}=\\frac{13-11}{9-7}=\\frac{2}{2}=1 \\\\\n& \\text { As, } m_{1}=m_{2} \\\\\n& \\text { Therefore, } \\mathrm{AB} \\text { and } \\mathrm{CD} \\text { are parallel lines. }\n\\end{aligned}\n$$\n\nSlope of line PQ is 5 . Find the slope of line perpendicular to PQ .\n\nExample 4:\nLines AB and CD with coordinates $\\mathrm{A}(0,3), \\mathrm{B}(2,8), \\mathrm{C}(3,10), \\mathrm{D}(8, \\mathrm{k})$ are perpendicular. Find k .\nSolution:\n\n$$\n\\begin{aligned}\n& \\text { Gradient of } \\mathrm{AB}=m_{1}=\\frac{8-3}{2-0}=\\frac{5}{2} \\\\\n& \\text { Gradient of } \\mathrm{CD}=m_{2}=\\frac{k-10}{8-3}=\\frac{k-10}{5}\n\\end{aligned}\n$$\n\nAs, AB and CD are perpendicular, Therefore,\n\n$$\n\\begin{array}{lc}\n\\Rightarrow & \\frac{5}{2} \\times \\frac{k-10}{5}=-1 \\\\\n\\Rightarrow & \\frac{5 k-50}{10}=-1\n\\end{array}\n$$\n\n$$\n\\begin{array}{lll}\n\\Rightarrow & 5 k-50=-10 & \\Rightarrow \\\\\n\\Rightarrow & 5 k=40 & \\Rightarrow \\\\\n\\Rightarrow & k=8\n\\end{array}\n$$\n\nKey Fact\nLine segments joining mid point of any side of a triangle with opposite vertex is called median of triangle.\n<CaptionedImage src=\"kg2c14anez9xwdqsr1kzfwg5th8bv4zs\" alt=\"\" caption=\"\" />\n",
+    "publishedAt": 1787579269405,
+    "slug": "formula-of-gradient",
+    "sourceRef": {
+      "blockIndex": 26,
+      "chapterNumber": 8,
+      "subjectSlug": "maths-9"
+    },
+    "status": "published",
+    "summary": "This note derives the two-point gradient formula and explains gradient signs, parallel lines, and perpendicular lines.",
+    "title": "Formula of Gradient",
+    "topicId": "ms720xt5x0e0smr3kvw0xqsnad8cbnh7",
+    "updatedAt": 1789054535360
+  }
+]

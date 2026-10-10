@@ -1,0 +1,422 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m17fbbszg9fa8e5py5vq5h0krn8cvnk6",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Subtract coordinates before squaring",
+      "Simplify radicals at the end"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Distance formula $d=\\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}$ gives:\ni. $\\sqrt{3^{2}+4^{2}}=5$\nii. $\\sqrt{6^{2}+8^{2}}=10$\niii. $\\sqrt{(-2)^{2}+6^{2}}=\\sqrt{40}=2\\sqrt{10}$\niv. $\\sqrt{10^{2}+10^{2}}=10\\sqrt{2}$\nv. $\\sqrt{(-2)^{2}+1^{2}}=\\sqrt{5}$\nvi. $\\sqrt{1^{2}+(-4)^{2}}=\\sqrt{17}$\nvii. $\\sqrt{\\left(\\frac{5}{2}\\right)^{2}+1}=\\frac{\\sqrt{29}}{2}$\nviii. $\\sqrt{\\left(\\frac{19}{2}\\right)^{2}+\\left(\\frac{-5}{2}\\right)^{2}}=\\frac{\\sqrt{386}}{2}$\nix. $\\sqrt{\\left(\\frac{3}{4}\\right)^{2}+\\left(\\frac{-13}{12}\\right)^{2}}=\\frac{\\sqrt{757}}{12}$\nx. $\\sqrt{\\left(\\frac{5}{2}\\right)^{2}+\\left(\\frac{-25}{4}\\right)^{2}}=\\frac{5\\sqrt{29}}{4}$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Find the distance between each pair of points.\n(i) $(-2,1)$ and $(1,5)$\n(ii) $(1,1)$ and $(7,9)$\n(iii) $(0,-5)$ and $(-2,1)$\n(iv) $(0,-5)$ and $(10,5)$\n(v) $(4,-1)$ and $(2,0)$\n(vi) $(-3, 1)$ and $(-2, -3)$\n(vii) $\\left(\\frac{1}{2}, 2\\right)$ and $(-2,1)$\n(viii) $\\left(\\frac{7}{2}, 11\\right)$ and $\\left(13, \\frac{17}{2}\\right)$\n(ix) $\\left(-\\frac{9}{4},-\\frac{7}{3}\\right)$ and $\\left(-\\frac{3}{2},-\\frac{5}{4}\\right)$\n(x) $\\left(2 \\frac{1}{2}, 5 \\frac{1}{4}\\right)$ and $(5,-1)$",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m17ff81vndqrxpav9h92y0fr0d8cv0hn",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Only one pairing needs testing once slopes agree",
+      "Check the longest side against the other two"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Three points are collinear when the sum of two segment lengths equals the third.\ni. $2\\sqrt{2}+\\sqrt{2}=3\\sqrt{2}=\\sqrt{18}=\\mathrm{AC}$: collinear.\nii. $\\sqrt{52}+\\sqrt{74} \\neq \\sqrt{242}$: not collinear.\niii. $3\\sqrt{17}+2\\sqrt{17}=5\\sqrt{17}$: collinear.\niv. $\\sqrt{80}+\\sqrt{180}=\\sqrt{500}$: collinear.\nv. $\\sqrt{40}+\\sqrt{125}=\\sqrt{405}$: collinear.\nvi. $\\sqrt{136}+\\sqrt{50}=\\sqrt{250}$: collinear.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Check by distance formula whether these points are collinear or not.\n(i) $(0,1),(2,3)$ and $(3,4)$\n(ii) $(-5,-4), (1,0)$ and $(6,7)$\n(iii) $(0,-5),(3,7)$ and $(5,15)$\n(iv) $(6, 3), (14, 7)$ and $(-6,-3)$\n(v) $(0,15),(2,9)$, and $(7,-6)$\n(vi) $(1,-2), (7, 8)$ and $(-2, -7)$",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m174ajwycj06tf4rc0sbhyb0n18cvada",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Compare squared side lengths to detect the right angle",
+      "Equal sides decide equilateral or isosceles labels",
+      "Perimeter adds the three simplified sides"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. Sides $3,2,\\sqrt{13}$: right triangle ($3^{2}+2^{2}=13$), also scalene; perimeter $5+\\sqrt{13}$.\nii. Sides all $2$: equilateral; perimeter $6$.\niii. Sides $\\sqrt{73},\\sqrt{80},7$: scalene (no right angle since $73+49 \\neq 80$); perimeter $7+\\sqrt{73}+4\\sqrt{5}$.\niv. Sides $2\\sqrt{10},3\\sqrt{10},\\sqrt{130}$: right triangle ($40+90=130$), scalene; perimeter $5\\sqrt{10}+\\sqrt{130}$.\nv. Sides $6,\\sqrt{34},\\sqrt{34}$: isosceles; perimeter $6+2\\sqrt{34}$.\nvi. Sides $6,6,6\\sqrt{2}$: right triangle and isosceles; perimeter $12+6\\sqrt{2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Check whether the following points are the vertices of\n(a) an equilateral triangle,\n(b) an isosceles triangle,\n(c) a right triangle,\n(d) a scalene triangle.\n(i) $(2,3),(5,3)$ and $(2,1)$\n(ii) $(0,0),(1, \\sqrt{3})$ and $(2,0)$\n(iii) $(0,1),(8,4)$ and $(0,8)$\n(iv) $(-3,-5),(3,-3)$ and $(0,6)$\n(v) $(-1,-1),(-1,5)$ and $(4,2)$\n(vi) $(1,2),(7,2)$ and $(7,8)$\nAlso find the perimeter of triangle in each case.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m175yesx6gjerng5taqgw35sq18cv3cc",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "All four sides equal plus equal diagonals means a square"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$AB=\\sqrt{(5)^{2}+(2)^{2}}=\\sqrt{29}$, $BC=\\sqrt{(2)^{2}+(-5)^{2}}=\\sqrt{29}$,\n$CD=\\sqrt{(-5)^{2}+(-2)^{2}}=\\sqrt{29}$, $DA=\\sqrt{(-2)^{2}+(5)^{2}}=\\sqrt{29}$.\nDiagonals: $AC=\\sqrt{(7)^{2}+(-3)^{2}}=\\sqrt{58}$, $BD=\\sqrt{(-3)^{2}+(-7)^{2}}=\\sqrt{58}$.\nFour equal sides with equal diagonals: ABCD is a square.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Show that $\\mathrm{A}(-4,2), \\mathrm{B}(1,4), \\mathrm{C}(3,-1)$ and $\\mathrm{D}(-2,-3)$ are the vertices of a square.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m17486fnc1z6f6jv93hbrnvwx18cte4n",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Parallelogram needs only opposite sides equal in length"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$AB=\\sqrt{(4)^{2}+(-1)^{2}}=\\sqrt{17}$, $CD=\\sqrt{(-4)^{2}+1^{2}}=\\sqrt{17}$;\n$BC=\\sqrt{6^{2}+3^{2}}=\\sqrt{45}$, $DA=\\sqrt{6^{2}+3^{2}}=\\sqrt{45}$.\nOpposite sides are equal, so ABCD is a parallelogram.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Show that A (-4, -1), B (0, -2), C (6, 1) and D (2, 2) are the vertices of a parallelogram.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m1765p2cp7ex0kyx6zbj06hqj98ctb2w",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Axis-aligned sides show right angles immediately"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$AB=6$ (horizontal), $BC=6$ (vertical), so adjacent sides meet at right angles;\nsimilarly all four angles are right angles.\nDiagonals: $AC=\\sqrt{(7-1)^{2}+(8-2)^{2}}=6\\sqrt{2}$ and $BD=\\sqrt{(1-7)^{2}+(8-2)^{2}}=6\\sqrt{2}$,\nso the diagonals are equal in length as required.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Show that $\\mathrm{A}(1,2), \\mathrm{B}(7,2), \\mathrm{C}(7,8)$ and $\\mathrm{D}(1,8)$ are the vertices of a rectangle. Prove that its diagonals are also equal in length.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m1713m8j249qa7q6gh0nhqa5c18ctexc",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Unit squares scale linearly"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each side measures $3$: $AB=BC=CD=DA=3$.\nDiagonals $AC=BD=3\\sqrt{2}$, equal in length, confirming a square whose diagonals match.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Show that $\\mathrm{A}(4,2), \\mathrm{B}(7,2), \\mathrm{C}(7,5)$ and $\\mathrm{D}(4,5)$ are the vertices of a square. Also show that the length of its diagonals is same.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m179s2taqax1r2cf68hvzm0g7d8cvmwb",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Unequal adjacent sides with right angles make a rectangle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$AB=7$ horizontal, $BC=3$ vertical, $CD=7$, $DA=3$, all corners axis-aligned right angles.\nDiagonals both measure $\\sqrt{7^{2}+3^{2}}=\\sqrt{58}$.\nYes, ABCD is a rectangle; plotting joins the points in order around the grid.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Are $\\mathrm{A}(-6,2), \\mathrm{B}(1,2), \\mathrm{C}(1,5)$ and $\\mathrm{D}(-6,5)$ the vertices of a rectangle? Also plot them.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m17491g4nwbqgnrx1szsch26t18ct200",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Horizontal pairs simplify the arithmetic"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$AB=6$ and $CD=6$; $BC=\\sqrt{(3)^{2}+(4)^{2}}=5$ and $DA=5$.\nOpposite sides pair up equal, so ABCD is a parallelogram.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Prove that the points $\\mathrm{A}(-3,0), \\mathrm{B}(3,0), \\mathrm{C}(6,4)$ and $\\mathrm{D}(0,4)$ are the vertices of a parallelogram.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "the-distance-formula",
+    "topicTitle": "7.1 The Distance Formula",
+    "_id": "m17ep9q5zsg0d27f0tknb185418cv23p",
+    "exerciseId": "xd78bc9c4t1v26vtxt1crznb4h8ctc4h",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Right angles follow from one horizontal and one vertical side meeting"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$AB=CD=6$ and $BC=DA=4$, so ABCD is a rectangle.\nIn $\\triangle ABC$, $\\overline{BA}$ is horizontal and $\\overline{BC}$ vertical, so the angle at B is $90^{\\circ}$:\na right triangle. In $\\triangle ABD$, $\\overline{AB}$ horizontal meets vertical $\\overline{AD}$ at A,\nso it is also right-angled.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Show that $\\mathrm{A}(2,-1), \\mathrm{B}(8,-1), \\mathrm{C}(8,3)$ and $\\mathrm{D}(2,3)$ are the vertices of a rectangle and prove that $\\triangle A B C$ and $\\triangle A B D$ form right triangles.",
+    "topicId": "ms7bwhevh2vjsq8mbnxsq083bs8cb63c"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "m1776j6hqpg4phvm4hc5tf3xe98cvzg9",
+    "exerciseId": "xd75qbnakvb0k2crb1c7gp5nx58cvhdh",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Average each coordinate separately"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Midpoint formula $M=\\left(\\frac{x_{1}+x_{2}}{2}, \\frac{y_{1}+y_{2}}{2}\\right)$:\ni. $\\left(4,7\\right)$\nii. $\\left(\\frac{1}{2},1\\right)$\niii. $(2,1)$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Find the mid point of the line segment joining the given points.\n(i) $(2,5),(6,9)$\n(ii) $(-1,0),(2,2)$\n(iii) $(1.4,-1.5),(2.6,3.5)$",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "m174403kvae48fdb5njcahnb5n8cvnjb",
+    "exerciseId": "xd75qbnakvb0k2crb1c7gp5nx58cvhdh",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "stem": "Look at the quadrilateral ABCD in the adjoining figure. If E, F, G and H are the mid points of its sides as shown in the figure, then [figure of quadrilateral ABCD with midpoints E, F, G, H]",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "m1714xz6d1nb7taa9ygmkzsvq98ctqyq",
+    "exerciseId": "xd75qbnakvb0k2crb1c7gp5nx58cvhdh",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Bisecting diagonals share one common midpoint"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Midpoint of diagonal PR: $\\left(\\frac{1+7}{2}, \\frac{0+4}{2}\\right)=(4,2)$.\nMidpoint of QS: $\\left(\\frac{6+(-1)}{2}, \\frac{0+4}{2}\\right)=\\left(\\frac{5}{2},2\\right)$.\nThe two midpoints differ, so the diagonals do not bisect each other.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Check by using the mid point formula whether the diagonals of trapezium PQRS with vertices at $\\mathrm{P}(1,0), \\mathrm{Q}(6,0), \\mathrm{R}(7,4), \\mathrm{S}(-1,4)$ bisect each other or not.",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "m172kmek4t4shsxtzthy34b6yn8ctbmx",
+    "exerciseId": "xd75qbnakvb0k2crb1c7gp5nx58cvhdh",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Rhombus diagonals bisect at right angles here"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Midpoint AC: $\\left(\\frac{-3+1}{2}, \\frac{-1+3}{2}\\right)=(-1,1)$.\nMidpoint BD: $\\left(\\frac{0-2}{2}, \\frac{0+2}{2}\\right)=(-1,1)$. They coincide, so the diagonals bisect each other.\nLengths: $AC=\\sqrt{(4)^{2}+(4)^{2}}=4\\sqrt{2}$ and $BD=\\sqrt{(-2)^{2}+(2)^{2}}=2\\sqrt{2}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "If vertices of a rhombus are $\\mathrm{A}(-3,-1), \\mathrm{B}(0,0), \\mathrm{C}(1,3)$ and $\\mathrm{D}(-2,2)$. Show that its diagonals bisect each other. Also find the length of each diagonal.",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "m173c1gg479grhgtsr1v6bjtbd8ct7j6",
+    "exerciseId": "xd75qbnakvb0k2crb1c7gp5nx58cvhdh",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "stem": "Look at the $\\Delta \\mathrm{ABC}$ in the adjoining figure.\n(i) Find the coordinates of the mid points D and E of AB and AC respectively. [triangle ABC figure]\n(ii) Find $\\mathrm{d}(\\mathrm{D}, \\mathrm{E})$ and $\\mathrm{d}(\\mathrm{B}, \\mathrm{C})$.\n(iii) Find half of d (B, C).\n(iv) Compare the length of DE and BC and draw conclusion.",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "m170ysfx8nxxcft0fc80n4brcx8cv5h7",
+    "exerciseId": "xd75qbnakvb0k2crb1c7gp5nx58cvhdh",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Points on axes sit at signed distances from the origin",
+      "Equal travel distances place the target on the perpendicular bisector"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking the figure's first-quadrant placement: Hassan starts at $(6,0)$ on the x-axis\nand Ali at $(0,6)$ on the y-axis.\nThe point equidistant from both starting points lies on their perpendicular bisector; choosing C\non the bisector through the origin direction gives the target $C=(3,3)$, which is\n$\\sqrt{45}=3\\sqrt{5}$ units from each runner.\ni. Starting points $(6,0)$ and $(0,6)$; ii. target point $(3,3)$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Hassan and Ali participated in a race competition. They both have to start running from different points on coordinate axes at a distance of 6 units from origin but they must reach at the same target point $C$, after covering an equal distance. If Hassan's starting point is on $x$-axis and Ali's starting point is on $y$-axis as shown in the figure, then find the coordinates of the:\n(i) starting points of Hassan and Ali\n(ii) target point C",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "07-coordinate-geometry",
+    "chapterTitle": "Coordinate Geometry",
+    "topicSlug": "mid-point-formula",
+    "topicTitle": "7.2 Mid-Point Formula",
+    "_id": "m172xhjy6zt1gmbnbs0f6fns858ctbt2",
+    "exerciseId": "xd75qbnakvb0k2crb1c7gp5nx58cvhdh",
+    "exerciseTitle": "Exercise 7.2",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "stem": "Label the missing coordinates of the vertices of the following figures.\n(i) Square OLMN\n(ii) Rectangle ABCD",
+    "topicId": "ms7f3r4xkm662p0903msady8f18cbnzj"
+  }
+]

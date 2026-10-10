@@ -1,0 +1,62 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-data-structures",
+    "topicTitle": "2.1 Data Structures",
+    "_id": "k5710d6cvwef5pwtqc36cgfns18d37vd",
+    "answer": "The choice affects time and space complexity and the speed of operations; for example, an unsorted-array search takes O(n), while a binary search tree can reduce it to O(log n).",
+    "difficulty": null,
+    "dueAt": null,
+    "isDue": true,
+    "lapseCount": null,
+    "lastRating": null,
+    "lastReviewedAt": null,
+    "locked": false,
+    "nextReviewLabel": null,
+    "prompt": "How does choosing a data structure affect algorithm performance?",
+    "reps": null,
+    "scheduledDays": null,
+    "sectionId": "why-data-structures-matter",
+    "sectionLabel": "Why Data Structures Matter",
+    "sourceRef": {
+      "blockIndex": 10,
+      "chapterNumber": 2,
+      "page": 40,
+      "subjectSlug": "computer-12"
+    },
+    "stability": null,
+    "state": "new"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-evaluating-computational-solutions",
+    "topicTitle": "2.2 Evaluating Computational Solutions",
+    "_id": "k5722c2nwm16aqa4zhg0dba3g98d2vwm",
+    "answer": "Efficiency, clarity, and correctness.",
+    "difficulty": null,
+    "dueAt": null,
+    "isDue": true,
+    "lapseCount": null,
+    "lastRating": null,
+    "lastReviewedAt": null,
+    "locked": false,
+    "nextReviewLabel": null,
+    "prompt": "Which three criteria are explicitly named for evaluating computational solutions?",
+    "reps": null,
+    "scheduledDays": null,
+    "sectionId": "__intro__",
+    "sectionLabel": "Introduction",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 2,
+      "page": 39,
+      "subjectSlug": "computer-12"
+    },
+    "stability": null,
+    "state": "new"
+  }
+]

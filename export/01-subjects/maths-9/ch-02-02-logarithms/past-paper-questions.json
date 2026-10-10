@@ -1,0 +1,318 @@
+[
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "m17dffp23dvp5pd6btpmk0dxys8ctq9y",
+    "exerciseId": "xd7c6ncn4shjxyq5wh87390ftx8cvj5t",
+    "exerciseTitle": "Exercise 2.1",
+    "keyPoints": [
+      "Move the point so exactly one nonzero digit stays left of it",
+      "Point moved right gives negative power of $10$",
+      "Point moved left gives positive power"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Put one nonzero digit before the decimal point and count the power of $10$.\n(i) $0.00053407=5.3407\\times10^{-4}$\n(ii) $53400000=5.34\\times10^{7}$\n(iii) $0.000000000012=1.2\\times10^{-11}$\n(iv) $2.5326=2.5326\\times10^{0}$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Write the following in scientific notation.\n(i) 0.00053407\n(ii) 53400000\n(iii) 0.000000000012\n(iv) 2.5326",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "m17ev0f802p587xwv1bmhy90h18ctn1e",
+    "exerciseId": "xd7c6ncn4shjxyq5wh87390ftx8cvj5t",
+    "exerciseTitle": "Exercise 2.1",
+    "keyPoints": [
+      "Negative power shifts the point left",
+      "Positive power shifts the point right",
+      "$10^{0}$ leaves the number unchanged"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Shift the decimal point by the power of ten.\n(i) $9.067\\times10^{-5}=0.00009067$\n(ii) $5.64\\times10^{0}=5.64$\n(iii) $6.53\\times10^{-6}=0.00000653$\n(iv) $3.1415\\times10^{9}=3141500000$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Write the following in standard notation.\n(i) $9.067 \\times 10^{-5}$\n(ii) $\\quad 5.64 \\times 10^{0}$\n(iii) $6.53 \\times 10^{-6}$\n(iv) $3.1415 \\times 10^{9}$",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "m174emw8h0vg3ze2dbva80cdg98cvg3m",
+    "exerciseId": "xd7c6ncn4shjxyq5wh87390ftx8cvj5t",
+    "exerciseTitle": "Exercise 2.1",
+    "keyPoints": [
+      "Handle digit factors and powers of ten separately",
+      "Add exponents when multiplying, subtract when dividing",
+      "Re-normalise so one nonzero digit sits before the point"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Multiply or divide the factors, then collect powers of ten.\n(i) $563.71\\times2.54=1431.8234$, and $10^{-3}\\times10^{4}=10$: result $14318.234=1.4318234\\times10^{4}$\n(ii) $\\frac{0.023\\times10^{5}}{10^{-3}}=0.023\\times10^{8}=2300000$\n(iii) $2.549\\times5067=12915.783$, and $\\frac{10^{-3}}{10^{3}}=10^{-6}$: result $1.2915783\\times10^{-2}$\n(iv) $0.0009988\\times10^{10}=9988000$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Simplify the following by converting into the form indicated.\n(i) $563.71 \\times 10^{-3} \\times 2.54 \\times 10^{4} \\longrightarrow$ scientific notation\n(ii) $\\frac{0.023 \\times 10^{5}}{10^{-3}} \\longrightarrow$ standard notation\n(iii) $\\frac{2.549 \\times 5067 \\times 10^{-3}}{10^{3}} \\longrightarrow$ scientific notation\n(iv) $0.0009988 \\times 10^{10} \\longrightarrow$ standard notation",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "m176tnt8cmf0x26ha13v4r8nws8cv9g8",
+    "exerciseId": "xd7c6ncn4shjxyq5wh87390ftx8cvj5t",
+    "exerciseTitle": "Exercise 2.1",
+    "keyPoints": [
+      "Convert seconds to hours by dividing by $3600$",
+      "Convert hours to days by dividing by $24$",
+      "Discarding the decimal part means take the whole-number part"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Total time $=5\\times10^{6}$ seconds.\nHours $=\\frac{5\\times10^{6}}{3600}\\approx1388.89$ hours.\nDays $=\\frac{1388.89}{24}\\approx57.87$, discarding the decimal part gives $57$ days.\nIn standard form the day count is $5.7\\times10^{1}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "If it takes 5 seconds to recite 'Kalma Pak' once, how many hours will it take to recite 'Kalma Pak' one million times? Convert hours into days and write the answer in standard form. Round off the answer, discarding the decimal part.",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-1-scientific-notation",
+    "topicTitle": "2.1 Scientific Notation",
+    "_id": "m1741h11h3t0139z46c8e4azc98cv2m7",
+    "exerciseId": "xd7c6ncn4shjxyq5wh87390ftx8cvj5t",
+    "exerciseTitle": "Exercise 2.1",
+    "keyPoints": [
+      "Use Time $=$ Distance divided by Speed",
+      "Divide powers of ten by subtracting exponents",
+      "Seconds become minutes after dividing by $60$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking the speed as $1.86\\times10^{5}$ miles per second,\n$\\text{Time}=\\frac{\\text{Distance}}{\\text{Speed}}=\\frac{9.3225600\\times10^{7}}{1.86\\times10^{5}}\\approx501.2$ seconds.\nIn minutes: $\\frac{501.2}{60}\\approx8.35$ minutes, i.e. $8.35\\times10^{0}$ minutes in standard form.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Distance between Earth and Sun is $9.3225600 \\times 10^{7}$ miles. If speed of light is approximately $1.86,000 \\times 10^{5}$ miles per second, how long does it take for light to reach the Earth. Convert the answer in minutes writing in standard form.",
+    "topicId": "ms777n3zmffqebbhhz6w2cr97x8bvxph"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-2-logarithms",
+    "topicTitle": "2.2 Logarithms",
+    "_id": "m17a074yx82af8f5s6wc7594d58c7q25",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "e"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Logarithm of unity to any base is:",
+    "topicId": "ms79pjpq9nycef5rzyjhpjm08n8bt3vk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-4-laws-of-logarithms",
+    "topicTitle": "2.4 Laws of Logarithms",
+    "_id": "m176v848wqfak7101y89dx1r1h8ctddk",
+    "exerciseId": "xd73kqyxq2s51z5xgzqnjtyb0x8cvjn4",
+    "exerciseTitle": "Exercise 2.4",
+    "keyPoints": [
+      "Antilog $y$ means the number whose common logarithm is $y$",
+      "Mantissa finds the digit string, characteristic places the point",
+      "Characteristic counts places moved from the reference position"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Antilog undoes log: if $\\log x=y$ then $x=$ antilog $y=10^{y}$, with the mantissa read from the table and the characteristic fixing the decimal point. Evaluating $10^{y}$ for each entry:\n1. $270.7$ 2. $38.81$ 3. $1.748$ 4. $3661$ 5. $10000$ 6. $1.0088$ 7. $17.50$ 8. $847.5$\n9. $3325.7$ 10. $1$ 11. $0.001$ 12. $997700$ 13. $309.0$ 14. $3.090$ 15. $218.8$.\n(Four-figure antilog tables may differ in the last digit.)",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Find the antilog of following numbers.\n1. 2.4324\n2. 1.5890\n3. 0.2425\n4. 3.5636\n5. 4\n6. 0.0038\n7. 1.2429\n8. 2.9281\n9. 3.5219\n10. 0.0000\n11. -3\n12. 5.9990\n13. 2.4900\n14. 0.49000\n15. 2.34",
+    "topicId": "ms768qspy2c805pa6be534e7s58btrm8"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-5-applications-of-logarithms",
+    "topicTitle": "2.5 Applications of Logarithms",
+    "_id": "m174pd7yy1afwqac9xkw4nse698cv8n9",
+    "exerciseId": "xd737pmt9a9y5rgh7sghr1qx3x8cv37t",
+    "exerciseTitle": "Exercise 2.6",
+    "keyPoints": [
+      "Digits of a whole number $=$ integral part of its log plus $1$",
+      "Power law brings the exponent outside the log",
+      "$\\log2\\approx0.3010$, $\\log3\\approx0.4771$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Number of digits equals characteristic plus one, where characteristic is the integral part of $\\log N$.\n(i) $\\log3^{30}=30\\log3=30(0.4771)=14.313$, so $15$ digits.\n(ii) $100^{100}=10^{400}$, characteristic $400$, so $401$ digits.\n(iii) $\\log2^{10}=10(0.3010)=3.010$, so $4$ digits.\n(iv) $\\log5^{37}=37(0.6990)=25.863$, so $26$ digits.\n(v) $\\log529^{30}=30(2.7235)=81.705$, so $82$ digits.\n(vi) $\\log23^{15}=15(1.3617)=20.4255$, so $21$ digits.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Find the number of digits in\n(i) $3^{30}$\n(ii) $100^{100}$\n(iii) $2^{10}$\n(iv) $5^{37}$\n(v) $529^{30}$\n(vi) $23^{15}$",
+    "topicId": "ms757x9g6kw3fz0h2hey64w8198bvrme"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-5-applications-of-logarithms",
+    "topicTitle": "2.5 Applications of Logarithms",
+    "_id": "m1783gn83c0nmfs4txmpg5pqwn8ctjfw",
+    "exerciseId": "xd737pmt9a9y5rgh7sghr1qx3x8cv37t",
+    "exerciseTitle": "Exercise 2.6",
+    "keyPoints": [
+      "Products become sums of logs",
+      "Quotients become differences of logs",
+      "Roots become division of the log by the root index",
+      "Antilog at the end returns to ordinary numbers"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Take logs, apply the laws, then take antilog; equivalently evaluate directly:\n(i) $23.57\\times5.967\\approx140.6$\n(ii) $\\frac{65.89}{7.392}\\approx8.914$\n(iii) $\\frac{47.27\\times5.321}{9.712\\times4.171}\\approx\\frac{251.52}{40.51}\\approx6.209$\n(iv) $\\frac{\\sqrt[3]{27.98}}{\\sqrt{28.73}}\\approx\\frac{3.037}{5.360}\\approx0.5665$\n(v) $\\frac{\\sqrt[7]{129.4}}{\\sqrt[3]{27.37}}\\approx\\frac{2.003}{3.014}\\approx0.6646$\n(vi) $\\frac{\\sqrt{39.24}\\times\\sqrt[3]{1.931}}{\\sqrt[4]{64.4}\\times\\sqrt{23.91}}\\approx\\frac{6.264\\times1.245}{2.834\\times4.890}\\approx0.5629$\n(vii) $\\frac{\\sqrt{16\\frac{3}{4}}}{\\sqrt[3]{53}}\\approx\\frac{4.093}{3.756}\\approx1.090$\n(viii) $\\frac{(27.98)^{2}}{(28.73)^{3}}\\approx\\frac{782.9}{23713}\\approx0.0330$",
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "Evaluate applying laws of logarithms.\n(i) $23.57 \\times 5.967$\n(ii) $\\frac{65.89}{7.392}$\n(iii) $\\frac{47.27 \\times 5.321}{9.712 \\times 4.171}$\n(iv) $\\frac{\\sqrt[3]{27.98}}{\\sqrt[2]{28.73}}$\n(v) $\\frac{\\sqrt[7]{129.4}}{\\sqrt[3]{27.37}}$\n(vi) $\\frac{\\sqrt{39.24} \\times \\sqrt[3]{1.931}}{\\sqrt[4]{64.4} \\times \\sqrt{23.91}}$\n(vii) $\\frac{\\sqrt{16 \\frac{3}{4}}}{\\sqrt[3]{53}}$\n(viii) $\\frac{(27.98)^{2}}{(28.73)^{3}}$",
+    "topicId": "ms757x9g6kw3fz0h2hey64w8198bvrme"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-5-applications-of-logarithms",
+    "topicTitle": "2.5 Applications of Logarithms",
+    "_id": "m173brknnbsnavtvedh4we431n8ctfka",
+    "exerciseId": "xd737pmt9a9y5rgh7sghr1qx3x8cv37t",
+    "exerciseTitle": "Exercise 2.6",
+    "keyPoints": [
+      "Richter magnitude is a base ten logarithm of intensity ratio",
+      "Subtract magnitudes to get the log of the intensity ratio",
+      "$10^{0.7}\\approx5$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Magnitude on the Richter scale is $M=\\log\\frac{I}{I_{0}}$, where $I$ is intensity.\nDifference in magnitude $=8.5-7.8=0.7$, so\n$\\log\\frac{I_{1920}}{I_{1923}}=0.7$, giving $\\frac{I_{1920}}{I_{1923}}=10^{0.7}\\approx5.01$.\nThe 1920 earthquake was about $5$ times stronger than the 1923 earthquake.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "The Kansu, China earthquake of 1920 was measured about 8.5 on Richter Scale and the Tokyo, Japan earthquake of 1923 was measured 7.8 on that scale how many times stronger was the 1920 earthquake than 1923 earthquake?",
+    "topicId": "ms757x9g6kw3fz0h2hey64w8198bvrme"
+  },
+  {
+    "subjectSlug": "maths-9",
+    "chapterSlug": "02-logarithms",
+    "chapterTitle": "Logarithms",
+    "topicSlug": "2-5-applications-of-logarithms",
+    "topicTitle": "2.5 Applications of Logarithms",
+    "_id": "m174ec9y2c8gq0r5bmevbmwzqx8e1tzh",
+    "exerciseId": "xd75gmzcdr0tp560qh1vatca7n8e1mpv",
+    "exerciseTitle": "Chapter 2: Miscellaneous Review Exercise",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Review / Encircle the Correct Option",
+    "sourceRef": {
+      "blockIndex": 8,
+      "blockKind": "exercise",
+      "chapterNumber": 2,
+      "subjectSlug": "maths-9"
+    },
+    "stem": "1. Encircle the correct option in the following.\n(i) If $\\mathrm{a}=\\mathrm{b} \\times 10^{\\mathrm{n}}$ is written in scientific notation then ,\n(a) $0 \\leq b \\leq 10$\n(b) $0 \\leq b<10$\n(c) $1 \\leq b \\leq 10$\n(d) $1 \\leq b<10$\n(ii) In 0.537, reference position is\n(a) after 0\n(b) after 7\n(c) after 5\n(d) before 7\n(iii) $\\log , 100$ is\n(a) 2\n(b) -2\n(c) 0\n(d) impossible\n(iv) If $\\log (x+3)=\\log (15 x-4)$ then $x$ is\n(a) 0.5\n(b)\n(c) 14\n(d) 2\n(v) $\\quad \\log _{7} 7^{-3}+\\log _{2} 4^{3}$ is\n(a) 3\n(b) -3\n(c) 0\n(d) $\\pm 3$\n(vi) For the $\\log 0.00327$, characteristic is\n(a) -2\n(h)\n-3\n(c) 3\n(d) 0\n(vii) $\\log _{b}(\\mathrm{M}+\\mathrm{N})$ is\n(a) $\\log _{b} \\mathrm{MN}$\n(b) $\\log _{b} \\mathrm{M}+\\log _{b} \\mathrm{~N}$\n(c) both a and b\n(d) none of these\n(viii) $\\log _{6} \\mathrm{~g}^{\\mathrm{h}}$ is\n(a) $\\mathrm{g} \\log _{b} \\mathrm{~h}$\n(b) $\\log _{b}(\\mathrm{gh})$\n(c) $\\quad(\\log$\n(d) $h \\log _{g} b$\ng) × h\n(ix) $\\log _{b} \\mathrm{M}-\\log _{b} \\mathrm{~N}$ is\n(a) $\\frac{\\log _{b} M}{\\log _{b} N}$\n(b) $\\quad \\log _{b} \\frac{M}{N}$\n(c) $\\quad \\log _{N} \\mathrm{M}$\n(d) $\\frac{\\log _{b} N}{\\log _{b} M}$\n(x) $\\quad \\log _{\\sqrt{10}} 100^{2}$ is\n(a) 2\n(b) 1\n(c) 4\n(d) 8\n(xi) $\\log 18$ is\n(a) $3 \\log 2+\\log 3$\n(b) $\\log 2+2 \\log 3$\n(c) $3 \\log 3+2 \\log 2$\n(d) $2 \\log 3+3 \\log 2$\n(xii) $\\log 5-\\log 8+\\log 3-\\log 2$ is\n(a) $\\quad \\log \\frac{5 \\times 2}{8 \\times 3}$\n(b) $\\quad \\log \\frac{15}{16}$\n(c) $\\log \\frac{30}{8}$\n(d) $\\log -2$\n(xiii) $\\log _{10} 100^{0}$ is\n(a) 2\n(b) 0\n(c) 1\n(d) impossible\n\n(xiv) Scientific notation of 6.25 is\n(a) $6.25 \\times 10^{1}$\n(b) $6.25 \\times 10^{0}$\n(c) $6.25 \\times 10$\n(d) $0.625 \\times 10^{2}$\n(xv) Base of natural logarithm is\n(a) rational number\n(b) integer\n(c) irrational number\n(d) 10\n(xvi) If $\\log _{\\sqrt{x}} 25=4$ then $x$ is\n(a) +5\n(b) -5\n(c) $\\pm 5$\n(d) impossible\n(xvii) $\\quad \\log _{\\sqrt{b}} 10^{4} \\div \\log _{\\sqrt{b}} 10$ is\n(a) $\\log _{\\sqrt{6}} \\frac{10^{4}}{10}$\n(b) $\\log _{\\sqrt{b}} 10^{4}-\\log _{\\sqrt{b}} 10$\n(c) 4\n(d) $\\log _{\\sqrt{b}}\\left(10^{4}-10\\right)$\n(xviii) $5 \\log 2-2 \\log 5$ is\n(a) $\\frac{(\\log 2)^{5}}{(\\log 5)^{2}}$\n(b) $\\frac{\\log 2^{5}}{\\log 5^{2}}$\n(c) $\\log \\frac{2^{5}}{5^{2}}$\n(d) $\\frac{5}{2} \\log \\frac{2}{5}$\n2. Convert the following into scientific notation.\n(i) 53.36\n(ii)\n0.0000000000000102\n(iii) $523.4 \\times 10^{-3}$\n3. Convert the following into standard notation.\n(i) $7.232 \\times 10^{-2}$\n(ii) $10.53 \\times 10^{2} \\times 20.31$\n(iii) $5.6 \\times 10^{0}$\n4. Evaluate the following.\n(i) $\\log _{5} 5^{3}-\\log _{2} 2^{3}$\n(ii) $\\log _{2} 4-\\log _{3}$\n(iii) $\\log _{8}\\left(\\log _{x} x-\\log _{b} \\mathrm{~b}^{-7}\\right)$\n5. Find $x$ if\n(i) $\\log _{3} 9-\\log _{6} 1=x$\n(ii) $\\log _{2} x-\\log _{2} 16^{1 / 4}=3$\n(iii) $\\log _{2}\\left(x^{2}-1\\right)=\\log _{2} 3$\n(iv) $\\log _{7} x=\\log _{7}\\left(8 \\log _{y} \\mathrm{y}\\right)$\n6. If $\\log _{\\mathrm{b}} 2=0.3010, \\log _{\\mathrm{b}} 3=0.4771 \\& \\log _{b} 5=0.6990$, then evaluate the following by applying laws of logarithms.\n(i) $\\quad \\log _{b} 30$\n(ii) $\\quad \\log _{b} 0.24$\n(iii) $\\log _{\\mathrm{b}} 360$\n7. Simplify with the help of laws of logarithm $\\left(\\frac{0.5327 \\times \\sqrt[3]{42.97}}{0.0059}\\right)^{3}$.\n8. Prove that:\n$$\n\\log _{v} U \\times \\log _{w} V \\times \\log _{u} W=1\n$$",
+    "topicId": "ms757x9g6kw3fz0h2hey64w8198bvrme"
+  }
+]

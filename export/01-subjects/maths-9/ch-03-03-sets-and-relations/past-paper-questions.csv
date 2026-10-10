@@ -1,0 +1,324 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,exerciseId,exerciseTitle,keyPoints,lastAttempt,locked,modelAnswer,origin,questionKind,questionNumber,sourceRef,stem,topicId,correctKey,correctKeyVerified,examBoard,options,partType,session,stemImageStorageId,year,sectionLabel
+"maths-9","03-sets-and-relations","Sets And Relations","3-1-sets-and-relations","3.1 Sets and Relations","m17bk20dwphj5v6q9f5hzvpwth8cv6ec","xd71prjbk72pjqdtcrjn4n5fed8ctksh","Exercise 3.1","[""Brackets decide which operation happens first"",""Union shades combined areas, intersection shades common area only"",""The triple-overlap belongs to all three sets""]",,"false","Shade regions as follows on the three-circle diagrams.
+$A \cup(B \cap C)$: shade all of $A$ plus the overlap of $B$ and $C$.
+$A \cap(B \cup C)$: shade only where $A$ meets $B$, or $A$ meets $C$, or all three.
+$(A \cup B) \cup C$: shade every part of all three circles.
+$A \cap(B \cap C)$: shade only the central region common to $A$, $B$ and $C$.","exercise","unclassified","1","{""blockIndex"":1,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Shade $A \cup(B \cap C), A \cap(B \cup C),(A \cup B) \cup C$ and $A \cap(B \cap C)$ using following Venn diagrams.
+(i) [Venn diagram figure]
+(ii) [Venn diagram figure]
+(iii) [Venn diagram figure]
+(iv) [Venn diagram figure]","ms7bgvvvf9sved9ypjnrqfqzz98caryw",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-1-sets-and-relations","3.1 Sets and Relations","m17e844tksvpjb90dx9709ckkh8cvtd5","xd71prjbk72pjqdtcrjn4n5fed8ctksh","Exercise 3.1","[""$Y$ lies wholly inside $X$"",""$Z$ shares no element with $X$ or $Y$"",""Intersections with $Z$ vanish unless $Z$ itself is joined by a union"",""$Z$ unions without disturbance since it stays disjoint""]",,"false","Here $X=\{a,b,c,d,e\}$, $Y=\{a,c,e\}$, $Z=\{g,h,i,j\}$ with $Y \subset X$ and $Z$ disjoint from both.
+(i) $(X \cup Y) \cup Z=\{a,b,c,d,e,g,h,i,j\}$
+(ii) $X \cup(Y \cup Z)=\{a,b,c,d,e,g,h,i,j\}$
+(iii) $(X \cap Y) \cap Z=\varnothing$
+(iv) $X \cap(Y \cap Z)=\varnothing$
+(v) $(X \cup Y) \cap Z=\{g,h,i,j\}$
+(vi) $(X \cap Y) \cup Z=\{a,c,e,g,h,i,j\}$","exercise","unclassified","2","{""blockIndex"":5,""chapterNumber"":3,""subjectSlug"":""maths-9""}","If $\mathrm{X}=\{\mathrm{a}, \mathrm{b}, \mathrm{c}, \mathrm{d}, \mathrm{e}\}, \mathrm{Y}=\{\mathrm{a}, \mathrm{c}, \mathrm{e}\}, \mathrm{Z}=\{\mathrm{g}, \mathrm{h}, \mathrm{i}, \mathrm{j}\}$ then, find the following using Venn diagram.
+(i) $(\mathrm{X} \cup \mathrm{Y}) \cup \mathrm{Z}$
+(ii) $\mathrm{X} \cup(\mathrm{Y} \cup \mathrm{Z})$
+(iii) $(X \cap Y) \cap Z$
+(iv) $\mathrm{X} \cap(\mathrm{Y} \cap \mathrm{Z})$
+(v) $(\mathrm{X} \cup \mathrm{Y}) \cap \mathrm{Z}$
+(vi) $(\mathrm{X} \cap \mathrm{Y}) \cup \mathrm{Z}$","ms7bgvvvf9sved9ypjnrqfqzz98caryw",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-1-sets-and-relations","3.1 Sets and Relations","m170yfd44nyn5khszj5q612gb58cv7b4","xd71prjbk72pjqdtcrjn4n5fed8ctksh","Exercise 3.1","[""Same shaded region proves set equality"",""Grouping does not change a chain of unions or of intersections"",""Check union and intersection laws separately""]",,"false","The shaded diagrams give identical regions on both sides in each case, so
+$(A \cup B) \cup C=A \cup(B \cup C)$ and $(A \cap B) \cap C=A \cap(B \cap C)$.
+Hence the associative laws of union and intersection are verified by diagrams.","exercise","unclassified","3","{""blockIndex"":5,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Verify associative law of union and intersection by using diagrams of question 1.","ms7bgvvvf9sved9ypjnrqfqzz98caryw",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-1-sets-and-relations","3.1 Sets and Relations","m170cx7gqxykt25hsw4tf460gd8cvyer","xd71prjbk72pjqdtcrjn4n5fed8ctksh","Exercise 3.1","[""Union over intersection mirrors expansion of brackets"",""Intersection distributes over union symmetrically"",""Identical shading on both sides completes the proof""]",,"false","(i) Shading $A \cup(B \cap C)$ gives the same picture as shading $(A \cup B) \cap(A \cup C)$.
+(ii) Shading $A \cap(B \cup C)$ gives the same picture as shading $(A \cap B) \cup(A \cap C)$.
+Both distributive properties are therefore verified by the diagrams.","exercise","unclassified","4","{""blockIndex"":5,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Verify:
+(i) distributive property of union over intersection,
+(ii) distributive property of intersection over union, by using diagrams of question 1.","ms7bgvvvf9sved9ypjnrqfqzz98caryw",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-1-sets-and-relations","3.1 Sets and Relations","m176kfzmdaksfn5hea2es4cmkd8cvxpj","xd71prjbk72pjqdtcrjn4n5fed8ctksh","Exercise 3.1","[""Compute inner bracket first"",""Equal results on both sides verify the law"",""Empty intersections make both sides empty""]",,"false","(i) With $P=\{0,1,2,3\}$, $Q=\{2,3,4,5,6\}$, $R=\{5,6,7,8,9\}$:
+(a) $(P \cup Q) \cup R=\{0,1,2,\ldots,9\}=P \cup(Q \cup R)$.
+(b) $(P \cap Q) \cap R=\{2,3\} \cap\{5,6,7,8,9\}=\varnothing=P \cap(Q \cap R)$ since $Q \cap R=\{5,6\}$.
+(ii) With $P=\{m,n,o,p,q\}$, $Q=\{r,s,t,u\}$, $R=\{t,u,v,w\}$:
+(a) both groupings give $\{m,n,o,p,q,r,s,t,u,v,w\}$.
+(b) $(P \cap Q) \cap R=\varnothing$ and $P \cap(Q \cap R)=P \cap\{t,u\}=\varnothing$.
+Both associative laws hold in each case.","exercise","unclassified","5","{""blockIndex"":5,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Prove by using Venn diagram:
+(a) $(\mathrm{P} \cup \mathrm{Q}) \cup \mathrm{R}=\mathrm{P} \cup(\mathrm{Q} \cup \mathrm{R})$
+(b) $(\mathrm{P} \cap \mathrm{Q}) \cap \mathrm{R}=\mathrm{P} \cap(\mathrm{Q} \cap \mathrm{R})$
+when
+(i) $\mathrm{P}=\{0,1,2,3\}$, $\mathrm{Q}=\{2,3,4,5,6\}, \mathrm{R}=\{5,6,7,8,9\}$
+(ii) $\mathrm{P}=\{\mathrm{m}, \mathrm{n}, \mathrm{o}, \mathrm{p}, \mathrm{q}\}, \quad \mathrm{Q}=\{\mathrm{r}, \mathrm{s}, \mathrm{t}, \mathrm{u}\}, \quad \mathrm{R}=\{\mathrm{t}, \mathrm{u}, \mathrm{v}, \mathrm{w}\}$","ms7bgvvvf9sved9ypjnrqfqzz98caryw",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-1-sets-and-relations","3.1 Sets and Relations","m1773b46qtaawt2v00exm5p7q98cvzt5","xd71prjbk72pjqdtcrjn4n5fed8ctksh","Exercise 3.1","[""Check subset relationships before computing"",""$X \\cup(Y \\cap Z)=(X \\cup Y) \\cap(X \\cup Z)$ is the distributive law"",""Subsets simplify unions and intersections at once""]",,"false","$X=\{-1,-2,-3\}$, $Y=\{0,1,2,3\}$, $Z=\{0,\pm1,\pm2,\pm3\}$.
+Since $Y \subset Z$, we get $Y \cap Z=Y$.
+Left side: $X \cup(Y \cap Z)=X \cup Y=\{-3,-2,-1,0,1,2,3\}$.
+Right side: $(X \cup Y) \cap(X \cup Z)=\{-3,-2,-1,0,1,2,3\} \cap Z=X \cup Y$, because $X \subset Z$ makes $X \cup Z=Z$.
+Both sides equal $\{-3,-2,-1,0,1,2,3\}$, verifying the law.","exercise","unclassified","6","{""blockIndex"":6,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Verify $\mathrm{X} \cup(\mathrm{Y} \cap \mathrm{Z})=(\mathrm{X} \cup \mathrm{Y}) \cap(\mathrm{X} \cup \mathrm{Z})$ using Venn diagram for the following sets.
+$$
+X=\{-1,-2,-3\}, \quad Y=\{0,1,2,3\}, \quad Z=\{0, \pm 1, \pm 2, \pm 3\}
+$$","ms7bgvvvf9sved9ypjnrqfqzz98caryw",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-1-sets-and-relations","3.1 Sets and Relations","m175p9pmtpswkj5aaft2evswy18ctb0r","xd71prjbk72pjqdtcrjn4n5fed8ctksh","Exercise 3.1","[""List letters without repetition"",""Verify by computing each side separately"",""Common vowels survive the intersection""]",,"false","$X=\{a,e,i\}$ (first three vowels), $Y=\{e,n,r,g,y\}$, $Z=\{a,l,g,e,b,r\}$.
+$Y \cup Z=\{a,b,e,g,l,n,r,y\}$, so left side $X \cap(Y \cup Z)=\{a,e\}$.
+Right side: $X \cap Y=\{e\}$ and $X \cap Z=\{a,e\}$, whose union is $\{a,e\}$.
+Both sides agree, so $X \cap(Y \cup Z)=(X \cap Y) \cup(X \cap Z)$ is verified.","exercise","unclassified","7","{""blockIndex"":6,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Verify $\mathrm{X} \cap(\mathrm{Y} \cup \mathrm{Z})=(\mathrm{X} \cap \mathrm{Y}) \cup(\mathrm{X} \cap \mathrm{Z})$
+X = Set of first three Vowels, Y = Set of letters of the word ""energy"",
+Z = Set of letters of the word ""algebra""","ms7bgvvvf9sved9ypjnrqfqzz98caryw",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m174cfzjw56kbsb060dganfdjh8ctm1y","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Use $n(A \\cup B)=n(A)+n(B)-n(A \\cap B)$ rearranged"",""Overlap accounts for double counting"",""Substitute the three known counts last""]",,"false","By the counting formula,
+$n(A \cap B)=n(A)+n(B)-n(A \cup B)=24+18-31=11$.","exercise","unclassified","1","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $A$ and $B$ be two finite sets such that $n(A)=24, n(B)=18$ and $n(A \cup B)=31$. Find $n(A \cap B)$.","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m17e94s293zxjs2y253gmpwpfs8ctnr7","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Split the union into the three disjoint regions"",""Substitute known counts before solving"",""$n(B)=n(A \\cap B)+n(B-A)$""]",,"false","Using $n(A \cup B)=n(A-B)+n(A \cap B)+n(B-A)$:
+$44=23+2+n(B-A)$, so $n(B-A)=19$.
+Then $n(B)=n(A \cap B)+n(B-A)=2+19=21$.","exercise","unclassified","2","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","If $n(A-B)=23$, $n(A \cup B)=44$ and $n(A \cap B)=2$, then find $n(B-A)$. Also find $n(B)$. (Hint: $n(B)=n(A \cap B)+n(B-A)$)","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m177305jy36j0zwszahcxhcvkh8ct2en","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Assume the group equals the union unless told otherwise"",""Apply the union formula solved for the missing count"",""Report only-region and both-region counts too""]",,"false","Let $A$ be Algebra likers and $G$ Geometry likers, with $n(A)=20$, $n(A \cap G)=15$ and every one of the $30$ students in $A \cup G$.
+$n(G)=n(A \cup G)+n(A \cap G)-n(A)=30+15-20=25$.
+So $25$ students like Geometry ($10$ only Geometry, $15$ both, $5$ only Algebra).","exercise","unclassified","3","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a group of 30 Mathematics students, 20 like Algebra and 15 like both Geometry and Algebra. Show the data by Venn diagram. Also find how many students like Geometry.","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m1707kxpkf3b6zyhk4drc825xs8cv13e","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Subtract the overlap once when uniting"",""Neither count sits outside both circles"",""State every Venn region when reporting""]",,"false","Houses with lawn or porch $=25+32-15=42$.
+Houses with neither $=50-42=8$.
+The Venn diagram shows $10$ lawn only, $17$ porch only, $15$ in the overlap and $8$ outside.","exercise","unclassified","4","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a street with 50 houses, 25 houses have lawns, 32 houses have car porch and 15 houses have both lawn and car porch. Show the data by Venn diagram. Also find how many houses have neither lawn nor porch.","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m17271jeanfjzr3xnbbfhyyxjx8cta9j","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Add disjoint category counts directly"",""Complement comes from subtracting from the total"",""Disjoint circles never overlap in the diagram""]",,"false","Children accounted for $=400+240+175=815$.
+Out-of-school children $=940-815=125$.
+The diagram shows three separate circles inside a rectangle, since the levels are distinct.","exercise","unclassified","5","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a survey of 940 children, 400 students were found studying at primary level, 240 students at elementary and 175 at secondary level. Create a Venn diagram to illustrate this information. How many children were found out of school?","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m170mp0paxfj4k82kmgn9m3qas8ctpfn","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Remove every overlap from a total to get its only region"",""Vanilla overlaps two other flavours here"",""Only-regions never include shared respondents""]",,"false","Only mango $=100-20=80$.
+Only vanilla $=90-20-14=56$.
+Only chocolate $=40-14=26$.
+(The given overlaps are mango-vanilla $20$ and chocolate-vanilla $14$.)","exercise","unclassified","6","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","ABC Dairy polls its customers on their favorite flavor: chocolate, vanilla or mango? 100 customers said they like mango flavor, 90 customers said they like vanilla, 40 polled for chocolate, 20 customers liked both mango and vanilla while 14 liked both chocolate and vanilla. How many customers said they like:
+(i) only mango? (ii) only vanilla (iii) only chocolate","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m178s3dbmhrxwetsj712v2hhrx8ctp40","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Subtract pairwise counts, add back the triple count"",""Exclusive regions come from trimming shared parts"",""Complement of the union gives the none count""]",,"false","Centre region (all three) $=8$.
+(a) Only cell phone $=80-(23-8)-(14-8)-8=80-15-6-8=51$.
+(c) iPod and laptop but no cellphone $=(10-8)=2$.
+(b) Students with at least one item $=42+80+100-23-10-14+8=183$,
+so none $=200-183=17$.","exercise","unclassified","7","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a survey of university 200 students were interviewed. It was found that: 42 students have laptops, 80 students have cell phones, 100 students have iPods, 23 students have both a laptop and a cell phone, 10 students have both a laptop and iPod, 14 students have both a cell phone and iPod and 8 students have all three items.
+(a) How many students have only cell phone?
+(b) How many students have none of the three items?
+(c) How many students have both iPod and laptop but not cellphone?","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m171brdgn1wnqjzphq1w15p7m98cvzer","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Inclusion exclusion avoids counting players twice"",""Both-game players belong to the intersection region"",""Total equals the union when nobody plays neither""]",,"false","Every student plays at least one game, so
+$n(B \cup T)=n(B)+n(T)-n(B \cap T)=350+280-150=480$.
+The college has $480$ students.","exercise","unclassified","8","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a girl college, every student plays either badminton or table tennis or both. If 350 students play badminton, 280 play table tennis and 150 play both. Find how many students are there in the college?","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m1751q9g2tg0gsj65ypyedpvsd8ctwae","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Solve the union formula for the unknown set"",""Every student sits in at least one circle"",""The overlap reduces the Chinese-only count but raises its total""]",,"false","With all $50$ students learning at least one language,
+$n(C)=n(E \cup C)+n(E \cap C)-n(E)=50+8-26=32$.
+So $32$ students are learning Chinese.","exercise","unclassified","9","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Among 50 students, 8 are learning both English and Chinese languages. A total of 26 students are learning English. If every student is learning at least one language, how many students are learning Chinese?","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m17d5aw4hzaq5xdvaq2fpt7qbx8cts39","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Rearrange the union formula for the intersection"",""The whole sample forms the union here"",""Tea-only and coffee-only shrink as overlap grows""]",,"false","Each person likes at least one drink:
+$70=48+40-n(\text{both})$, giving $n(\text{both})=88-70=18$.","exercise","unclassified","10","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Out of 70 people, 48 like tea and 40 like coffee and each person likes at least one of the two drinks. How many like both tea and coffee?","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m175z68q29rddjsg79fzdajxtd8cvnka","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Disjoint sets unite by simple addition"",""No overlap exists between science and arts groups here"",""The union formula reduces to addition when intersection is empty""]",,"false","The two groups are distinct, so the number in either group is
+$46+50=96$ students.","exercise","unclassified","11","{""blockIndex"":8,""chapterNumber"":3,""subjectSlug"":""maths-9""}","There are 46 students in science group and 50 students in arts group. Find the number of students who are either in science or arts group.","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m17fzd4g3jbkrx06tynfch8c1h8cv2yr","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Trim the overlap from each language count"",""Total is the sum of the three Venn regions"",""Bilingual speakers occupy the overlap once""]",,"false","Arabic only $=52-12=40$.
+French only $=112-12=100$.
+Total in the group $=40+100+12=152$ people.","exercise","unclassified","12","{""blockIndex"":9,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a group of people, 52 people can speak Arabic and 112 can speak French. How many can speak Arabic only? How many can speak French only if 12 of them can speak both languages? How many people were in the group?","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m17cdc14j2p6j85a2r83vqnhsx8cvndn","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Only-regions exclude the intersection"",""Total uses the inclusion exclusion formula"",""Both-likers sit in a single overlap region""]",,"false","(i) Story books only $=360-150=210$.
+(ii) Practical activities only $=170-150=20$.
+(iii) Total students $=360+170-150=380$.","exercise","unclassified","13","{""blockIndex"":9,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a high school, 360 students like reading story books, 170 like practical activities and 150 like both. Find
+(i) The number of students who like reading story books only.
+(ii) The number of students who like only practical activities.
+(iii) The total number of students in the school.","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-2-verification-of-associative-laws-using-venn-diagram","3.2 Verification of Associative Laws Using Venn Diagram","m17faa7thfak237gjrzj9x6f958cvd2s","xd7638f1e4skm0mnc3jdyfv7ex8cvvmg","Exercise 3.2","[""Add singles, subtract pairs, re-add the triple"",""Non-watchers are the complement of the union"",""Watchers of all three channels were counted three times""]",,"false","At least one channel:
+$25+16+13-4-7-8+3=38$ people.
+Do not watch any channel $=60-38=22$ people.","exercise","unclassified","14","{""blockIndex"":9,""chapterNumber"":3,""subjectSlug"":""maths-9""}","In a survey of 60 people, it was found that 25 people watch channel A, 16 watch channel B, 13 watch channel C, 4 watch both A and B, 7 watch both B and C, 8 watch both A and C, 3 watch all three channels. Find the number of people who watch at least one of the channels? Also find number of people who do not watch these channels.","ms7b6cqx2rnb5wj1t3hbabf79s8cbpfz",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m17ftxtew7wkgs12hg30aw39cd8cte18","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Ordered pairs are equal exactly when coordinates match in order"",""Solve the simpler coordinate equation first"",""Substitute to finish the remaining unknown""]",,"false","Equate corresponding coordinates.
+(i) $a=7$, $-b=1$ so $b=-1$.
+(ii) $2a=-10$ gives $a=-5$; $2b+3=-b$ gives $b=-1$.
+(iii) $2a-4=8$ gives $a=6$; $-b+1=6$ gives $b=-5$.
+(iv) $y-3=5$ gives $y=8$; $x+2(8)=2$ gives $x=-14$.
+(v) From $y-3x=2$, $y=2+3x$; then $2x-(2+3x)=4$ gives $x=-6$, $y=-16$.
+(vi) $x=12y-3$; then $4(12y-3)+6y=6$ gives $54y=18$, $y=\frac{1}{3}$, $x=1$.
+(vii) Adding $5x+y=6$ and $-x+y=1$ after eliminating: from the second $y=x+1$; then $6x+1=6$ gives $x=\frac{5}{6}$, $y=\frac{11}{6}$.","exercise","unclassified","1","{""blockIndex"":11,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Find the values of unknowns when:
+(i) $(a,-b)=(7,1)$
+(ii) $(2 a, 2 b+3)=(-10,-b)$
+(iii) $(2 a-4,6)=(8,-b+1)$
+(iv) $(x+2 y, y-3)=(2,5)$
+(v) $(2 x-y, y-3 x)=(4,2)$
+(vi) $(4 x+6 y, x-12 y)=(6,-3)$
+(vii) $(5 x+y,-x+y)=(6,1)$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m17f5wvfvsd9c5krpdgj0cyfj18cv09r","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Pair every element of the first set with every element of the second"",""Counts multiply: $n(A \\times B)=n(A)\\,n(B)$"",""Swapping factors reverses the pair order""]",,"false","(i) $A \times B=\{(1,1),(1,0),(4,1),(4,0),(8,1),(8,0)\}$
+(ii) $B \times A=\{(1,1),(1,4),(1,8),(0,1),(0,4),(0,8)\}$
+(iii) $A \times A=\{(1,1),(1,4),(1,8),(4,1),(4,4),(4,8),(8,1),(8,4),(8,8)\}$
+(iv) $B \times B=\{(1,1),(1,0),(0,1),(0,0)\}$
+Counts: $n(A \times B)=n(B \times A)=6$, $n(A \times A)=9$, $n(B \times B)=4$.","exercise","unclassified","2","{""blockIndex"":11,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $\mathrm{A}=\{1,4,8\}$ and $\mathrm{B}=\{1,0\}$. Find:
+(i) $\mathrm{A} \times \mathrm{B}$
+(ii) $\mathrm{B} \times \mathrm{A}$
+(iii) $\mathrm{A} \times \mathrm{A}$
+(iv) $\mathrm{B} \times \mathrm{B}$
+How many elements are there in $\mathrm{A} \times \mathrm{B}, \mathrm{B} \times \mathrm{A}, \mathrm{A} \times \mathrm{A}$ and $\mathrm{B} \times \mathrm{B}$?","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m1732hvjk3g3yn7n5srft8febh8cvyr1","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""First coordinate runs along the horizontal axis"",""$E \\times F$ and $F \\times E$ reflect across the diagonal"",""Plot one point per ordered pair""]",,"false","$E \times F=\{(1,4),(1,6),(1,8),(3,4),(3,6),(3,8)\}$
+$F \times E=\{(4,1),(4,3),(6,1),(6,3),(8,1),(8,3)\}$
+$E \times E=\{(1,1),(1,3),(3,1),(3,3)\}$
+$F \times F=\{(4,4),(4,6),(4,8),(6,4),(6,6),(6,8),(8,4),(8,6),(8,8)\}$
+Graphically, plot each ordered pair as a lattice point with first coordinate horizontal and second vertical.","exercise","unclassified","3","{""blockIndex"":11,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $\mathrm{E}=\{1,3\}$ and $\mathrm{F}=\{4,6,8\}$. Express $\mathrm{E} \times \mathrm{F}, \mathrm{F} \times \mathrm{E}, \mathrm{E} \times \mathrm{E}, \mathrm{F} \times \mathrm{F}$ graphically.","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m1738wf17zqrpetmchjeep3a498ctv5p","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Collect first coordinates for the left factor set"",""Collect second coordinates for the right factor set"",""Rebuild the reversed product from those sets""]",,"false","First coordinates give $L=\{0,1\}$; second coordinates give $M=\{2,3,4\}$.
+Then $M \times L=\{(2,0),(2,1),(3,0),(3,1),(4,0),(4,1)\}$.","exercise","unclassified","4","{""blockIndex"":11,""chapterNumber"":3,""subjectSlug"":""maths-9""}","If $\mathrm{L} \times \mathrm{M}=\{(0,2),(0,3),(0,4),(1,2),(1,3),(1,4)\}$, then find sets $\mathrm{L}, \mathrm{M}$ and $\mathrm{M} \times \mathrm{L}$.","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m179y6dm1tmdae32xtkqcq4anx8ctf1z","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Distributive law holds for Cartesian products too"",""Match pairs element by element when comparing"",""Equal pair sets close the verification""]",,"false","$B \cup C=\{2,4,6,7\}$.
+(i) $A \times(B \cup C)=\{(1,2),(1,4),(1,6),(1,7),(3,2),(3,4),(3,6),(3,7),(5,2),(5,4),(5,6),(5,7)\}$
+(ii) $A \times B=\{(1,2),(1,4),(3,2),(3,4),(5,2),(5,4)\}$ and
+$A \times C=\{(1,6),(1,7),(3,6),(3,7),(5,6),(5,7)\}$;
+their union is the same twelve pairs.
+(iii) Both sides coincide, verifying $A \times(B \cup C)=(A \times B) \cup(A \times C)$.","exercise","unclassified","5","{""blockIndex"":11,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Given that $\mathrm{A}=\{1,3,5\}, \mathrm{B}=\{2,4\}, \mathrm{C}=\{6,7\}$.
+(i) Find $\mathrm{A} \times(\mathrm{B} \cup \mathrm{C})$
+(ii) Find $(A \times B) \cup(A \times C)$
+(iii) Verify $\mathrm{A} \times(\mathrm{B} \cup \mathrm{C})=(A \times B) \cup (A \times C)$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m178z24k2797p1ec5gj1jf9zp98ctyty","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Intersect the factor sets before forming the product"",""Common pairs survive the intersection of products"",""Single-element intersections keep products small""]",,"false","$E \cap F=\{c\}$.
+(i) $D \times(E \cap F)=\{(a,c),(e,c),(i,c)\}$
+(ii) $D \times E=\{(a,a),(a,c),(e,a),(e,c),(i,a),(i,c)\}$,
+$D \times F=\{(a,b),(a,c),(e,b),(e,c),(i,b),(i,c)\}$,
+so $(D \times E) \cap(D \times F)=\{(a,c),(e,c),(i,c)\}$.
+(iii) The two results are identical, verifying $D \times(E \cap F)=(D \times E) \cap(D \times F)$.","exercise","unclassified","6","{""blockIndex"":11,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Given that $\mathrm{D}=\{\mathrm{a}, \mathrm{e}, \mathrm{i}\}, \mathrm{E}=\{\mathrm{a}, \mathrm{c}\}, \mathrm{F}=\{\mathrm{b}, \mathrm{c}\}$.
+(i) Find $\mathrm{D} \times(\mathrm{E} \cap \mathrm{F})$
+(ii) Find $(\mathrm{D} \times \mathrm{E}) \cap(\mathrm{D} \times \mathrm{F})$
+(iii) Verify $\mathrm{D} \times(\mathrm{E} \cap \mathrm{F})=(\mathrm{D} \times \mathrm{E}) \cap(\mathrm{D} \times \mathrm{F})$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m173t2vtzn1p0jg7kwnzd07pmx8cv6vj","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Difference of sets removes matching elements before pairing"",""Product difference keeps only pairs absent from the removed product"",""Verify each identity side by side""]",,"false","$A=\{1,2\}$, $B=\{0,1\}$, $C=\{0,2,4\}$, so $B-C=\{1\}$ and $A-B=\{2\}$.
+(i) $A \times(B-C)=\{(1,1),(2,1)\}$;
+$(A \times B)-(A \times C)$ removes every pair with second coordinate $0$, $2$ or $4$ from $\{(1,0),(1,1),(2,0),(2,1)\}$, leaving $\{(1,1),(2,1)\}$. Verified.
+(ii) $(A-B) \times C=\{(2,0),(2,2),(2,4)\}$;
+$(A \times C)-(B \times C)$ removes pairs with first coordinate $0$ or $1$ from $A \times C$, leaving $\{(2,0),(2,2),(2,4)\}$. Verified.","exercise","unclassified","7","{""blockIndex"":11,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Given that $\mathrm{A}=\{x / x \in \mathrm{N}, x<3\}, \mathrm{B}=\{y / y \in \mathrm{W}, y<2\}, \mathrm{C}=\{0,2,4\}$.
+(i) Verify $\mathrm{A} \times(\mathrm{B}-\mathrm{C})=(\mathrm{A} \times \mathrm{B})-(\mathrm{A} \times \mathrm{C})$
+(ii) Verify $(\mathrm{A}-\mathrm{B}) \times \mathrm{C}=(\mathrm{A} \times \mathrm{C})-(\mathrm{B} \times \mathrm{C})$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m17fk9bg4sbt3antzjbaxjfxbs8cvztt","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Arrow diagrams start at the first coordinate"",""Reversing the product flips every arrow"",""Nine arrows arise from $3\\times3$ pairs on each side""]",,"false","$X=\{0,1,2\}$, $Y=\{-1,-2,-3\}$.
+$X \times Y$ arrows go from each of $0,1,2$ to each of $-1,-2,-3$ (nine arrows):
+$\{(0,-1),(0,-2),(0,-3),(1,-1),(1,-2),(1,-3),(2,-1),(2,-2),(2,-3)\}$.
+$Y \times X$ arrows reverse direction, from each of $-1,-2,-3$ to each of $0,1,2$:
+$\{(-1,0),(-1,1),(-1,2),(-2,0),(-2,1),(-2,2),(-3,0),(-3,1),(-3,2)\}$.","exercise","unclassified","8","{""blockIndex"":12,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $\mathrm{X}=\{x / x \in \mathrm{W}, x \leq 2\}$ and $\mathrm{Y}=\{-1,-2,-3\}$. Exhibit $\mathrm{X} \times \mathrm{Y}$ and $\mathrm{Y} \times \mathrm{X}$ by arrow diagram.","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m170cc60ex9qyj0apw2b6rg2pd8ct89a","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Relations from $A$ to $B$ are subsets of $A \\times B$"",""A set with $k$ elements has $2^{k}$ subsets"",""Pair count comes from multiplying the sizes""]",,"false","Every subset of $A \times B$ is a binary relation, so the number of relations is $2^{n(A)\,n(B)}$.
+(i) $n(A \times B)=2\times3=6$, giving $2^{6}=64$ relations.
+(ii) For $n(C)=7$, $C \times C$ has $49$ pairs, giving $2^{49}$ relations.
+(iii) $D \times D$ has $9$ pairs, giving $2^{9}=512$ relations.","exercise","unclassified","1","{""blockIndex"":36,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Find the number of binary relations in the following cases.
+(i) $\mathrm{A}=\{1,3\}, \mathrm{B}=\{0,2,4\}$
+(ii) $\mathrm{n}(\mathrm{C})=7$
+(iii) $\mathrm{D}=\{1,3,5\}$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m17acpv0vw4pqrdy0pqnyzyh4x8cvt7z","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Count pairs first, then take two to that power"",""Listing all relations means listing every subset"",""Empty set counts as a relation too""]",,"false","(i) $A \times B=\{(\sqrt{2},\sqrt[3]{5}),(\sqrt{3},\sqrt[3]{5}),(\sqrt{5},\sqrt[3]{5})\}$ has $2^{3}=8$ relations: every subset of these three pairs, from $\varnothing$ up to the full product.
+(ii) $C \times C=\{(\pi,\pi),(\pi,e),(e,\pi),(e,e)\}$ has $2^{4}=16$ relations.
+(iii) $D \times E=\{(5,1),(5,10)\}$ has $2^{2}=4$ relations: $\varnothing$, $\{(5,1)\}$, $\{(5,10)\}$, $\{(5,1),(5,10)\}$.","exercise","unclassified","2","{""blockIndex"":36,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Find all possible binary relations in the following cases mentioning the number of binary relations in each case.
+(i) $\mathrm{A}=\{\sqrt{2}, \sqrt{3}, \sqrt{5}\}, \quad \mathrm{B}=\{\sqrt[3]{5}\}$
+(ii) $\mathrm{C}=\{\pi, \mathrm{e}\}$
+(iii) $\mathrm{D}=\{5\}, \mathrm{E}=\{1,10\}$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m17927y6amsyp6pgkz38qs1g3n8cvzz1","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Domain collects first coordinates"",""Range collects second coordinates"",""Any subset of pairs forms a valid relation""]",,"false","Two examples of relations from $P=\{7,8,9\}$ to $P$:
+$R_{1}=\{(7,8),(8,9)\}$ with domain $\{7,8\}$ and range $\{8,9\}$;
+$R_{2}=\{(9,7),(7,7),(8,8)\}$ with domain $\{7,8,9\}$ and range $\{7,8\}$.","exercise","unclassified","3","{""blockIndex"":36,""chapterNumber"":3,""subjectSlug"":""maths-9""}","If $\mathrm{P}=\{7,8,9\}$ then find 2 binary relations from P to P. Also find domain and range of each relation.","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m1763yqpaph1zvn0dar3snt2nh8ct6zp","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Read each phrase as a condition linking $x$ to $y$"",""Keep only pairs whose members lie in the given sets"",""Tabular form lists pairs row by row""]",,"false","With $H=\{5,6,7,8,9\}$, $G=\{5,7,9,11\}$:
+(i) equal to: $\{(5,5),(7,7),(9,9)\}$
+(ii) less than: $\{(5,7),(5,9),(5,11),(7,9),(7,11),(9,11)\}$
+(iii) greater than: $\{(7,5),(9,5),(9,7)\}$
+(iv) one less than: $\{(6,7),(8,9)\}$
+(v) one greater than: $\{(6,5),(8,7)\}$
+(vi) two less than: $\{(5,7),(7,9),(9,11)\}$","exercise","unclassified","4","{""blockIndex"":36,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $\mathbf{H}=\{5,6,7,8,9\}$ and $\mathrm{G}=\{5,7,9,11\}$. Write the following relations from H to G in tabular form.
+(i) 'is equal to'
+(ii) 'is less than'
+(iii) 'is greater than'
+(iv) 'is one less than'
+(v) 'is one greater than'
+(vi) 'is two less than'","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m1705c1sgahejr8pr3hc8syktn8cvvy2","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Factor means the first coordinate divides the second"",""Inverse relation swaps every pair"",""Domain of $R^{-1}$ equals range of $R$""]",,"false","(i) $R=\{(2,4),(2,6),(2,8),(2,12),(4,4),(4,8),(4,12),(6,6),(6,12)\}$
+(ii) Domain $=\{2,4,6\}$, Range $=\{4,6,8,12\}$
+(iii) $R^{-1}=\{(4,2),(6,2),(8,2),(12,2),(4,4),(8,4),(12,4),(6,6),(12,6)\}$
+(iv) The arrow diagram draws an arc from each $x$ in $\{2,4,6\}$ to each listed multiple in $\{4,6,8,12\}$.","exercise","unclassified","5","{""blockIndex"":36,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $\mathrm{C}=\{2,4,6\}, \mathrm{D}=\{4,6,8,9,12\}$ and $\mathrm{R}=\{(x, y) / x \in \mathrm{C}, y \in \mathrm{D} \wedge x$ is factor of $y\}$.
+(i) Write R in tabular form.
+(ii) Find domain and range of R.
+(iii) Find $\mathrm{R}^{-1}$.
+(iv) Represent R by arrow diagram.","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m17cyeqbjjkt1mdxxwb7z5j3bx8ct91n","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Spot the constant difference between coordinates"",""Set builder form states the rule joining $x$ and $y$"",""Inverting swaps roles of domain and range""]",,"false","(i) Set builder form: $R=\{(x,y) \mid y=x-2,\; x \in\{2,4,6,8,10\}\}$.
+(ii) Domain $=\{2,4,6,8,10\}$, Range $=\{0,2,4,6,8\}$.
+(iii) $R^{-1}=\{(0,2),(2,4),(4,6),(6,8),(8,10)\}$, i.e. $\{(x,y) \mid x=y-2\}$.
+(iv) Arrows run $2\to0$, $4\to2$, $6\to4$, $8\to6$, $10\to8$; reversed for $R^{-1}$.","exercise","unclassified","6","{""blockIndex"":36,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $\mathrm{R}=\{(2,0),(4,2),(6,4),(8,6),(10,8)\}$
+(i) Write R in set builder form.
+(ii) Find domain and range of R.
+(iii) Write $\mathrm{R}^{-1}$ in tabular and set builder form.
+(iv) Represent R and $\mathrm{R}^{-1}$ by arrow diagram.","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m170fmgtqm8g4rfkj7ap6mx44h8ct1gx","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Evaluate the rule at each first-set element"",""Reject outputs outside the second set"",""Inverting swaps the coordinates of every pair""]",,"false","For $x \in\{0,1,3\}$, $y=2x+1$ takes values $1,3,7$, all inside $B=\{1,2,3,5,7\}$.
+$R=\{(0,1),(1,3),(3,7)\}$
+$R^{-1}=\{(1,0),(3,1),(7,3)\}$","exercise","unclassified","7","{""blockIndex"":38,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Let $\mathrm{A}=\{0,1,3\}$ and $\mathrm{B}=\{1,2,3,5,7\}$. Write $\mathrm{R}=\{(x, y) \mid x \in \mathrm{A}, y \in \mathrm{B} \wedge y=2 x+1\}$ in tabular form. Also find $\mathrm{R}^{-1}$.","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m17a405xe44j4aw3kwwh4pwv018cv52z","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Test every allowed pair against the stated condition"",""Parity rules decide the even-sum and odd-product cases"",""Comparison conditions shrink the pair list quickly""]",,"false","Here $T=\{1,3,9\}$.
+(i) $R_{1}=\{(1,1)\}$
+(ii) $R_{2}=\{(2,1),(4,1),(4,3),(8,1),(8,3)\}$
+(iii) $R_{3}=\{(1,1),(1,3),(1,9)\}$ (sum even needs both terms odd)
+(iv) $R_{4}=\{(1,1),(1,3),(1,9)\}$ (product odd needs both factors odd)
+(v) $R_{5}=\{(1,3),(1,9),(2,9),(4,9)\}$","exercise","unclassified","8","{""blockIndex"":38,""chapterNumber"":3,""subjectSlug"":""maths-9""}","If $\mathrm{S}=\{1,2,4,8\}, \mathrm{T}=\left\{3^{0}, 3^{1}, 3^{2}\right\}$, then write the following binary relations in tabular form.
+(i) $\mathrm{R}_{1}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge x=y\}$
+(ii) $\mathrm{R}_{2}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge y<x\}$
+(iii) $\mathrm{R}_{3}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge x+y \in \mathrm{E}\}$
+(iv) $\mathrm{R}_{4}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge x \times y \in \mathrm{O}\}$
+(v) $\mathrm{R}_{5}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge y>2 x\}$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m1777j9tpwdjxcj94y9czz48bh8cvs1w","xd7bzrcp2fxeez6mxvwwf055x98cv38q","Exercise 3.3","[""Domain lists distinct first coordinates"",""Range lists distinct second coordinates"",""Read both straight off the tabulated pairs""]",,"false","(i) $R_{1}$: domain $\{1\}$, range $\{1\}$.
+(ii) $R_{2}$: domain $\{2,4,8\}$, range $\{1,3\}$.
+(iii) $R_{3}$: domain $\{1\}$, range $\{1,3,9\}$.","exercise","unclassified","9","{""blockIndex"":38,""chapterNumber"":3,""subjectSlug"":""maths-9""}","Find the domain and range in each case.
+(i) $\mathrm{R}_{1}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge x=y\}$
+(ii) $\mathrm{R}_{2}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge y<x\}$
+(iii) $\mathrm{R}_{3}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge x+y \in \mathrm{E}\}$
+(iv) $\mathrm{R}_{4}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge x \times y \in \mathrm{O}\}$
+(v) $\mathrm{R}_{5}=\{(x, y) \mid x \in \mathrm{S}, y \in \mathrm{T} \wedge y>2 x\}$","ms7fymt7k96ek9rfx87nj8rrmh8cap1a",,,,,,,,,
+"maths-9","03-sets-and-relations","Sets And Relations","3-3-application-of-venn-diagrams","3.3 Application of Venn Diagrams","m171gxj5cqd5w02n1zqh8adzt18c740k",,,,,"false",,"exam","mcq","4",,"In the Venn diagram, region A∩B∩C represents elements in:","ms7fymt7k96ek9rfx87nj8rrmh8cap1a","B","true","fbise","[{""key"":""A"",""text"":""A and B but not in C""},{""key"":""B"",""text"":""A, B and C""},{""key"":""C"",""text"":""A or B but not C""},{""key"":""D"",""text"":""A only""}]","MCQ","annual","kg2ac5a7tqd4753www7z2pdbj98c6d4g","2025",
+"maths-9","03-sets-and-relations","Sets And Relations","3-4-binary-relations","3.4 Binary Relations","m17f8pgbmg75fzwp79a41qb5198c64m5",,,,,"false",,"exam","mcq","3",,"Given relation R is a subset of ____; if X={2,4,6}, Y={1,3,5}, R={(1,2),(3,4),(5,6)}.","ms79amny45zp3xgcbx7s19jnv98cbh1p","C","true","fbise","[{""key"":""A"",""text"":""X×X""},{""key"":""B"",""text"":""X×Y""},{""key"":""C"",""text"":""Y×X""},{""key"":""D"",""text"":""Y×Y""}]","MCQ","annual",,"2025",
+"maths-9","03-sets-and-relations","Sets And Relations","3-4-binary-relations","3.4 Binary Relations","m17ad4gkhzqrgazecbcwwn4s3x8c702w",,,,,"false",,"exam","mcq","3",,"For A={a,b}, B={1,2}, R={(a,1),(b,2)} is a subset of:","ms79amny45zp3xgcbx7s19jnv98cbh1p","B","true","fbise","[{""key"":""A"",""text"":""A×A""},{""key"":""B"",""text"":""A×B""},{""key"":""C"",""text"":""B×A""},{""key"":""D"",""text"":""B×B""}]","MCQ","annual",,"2025",
+"maths-9","03-sets-and-relations","Sets And Relations","3-4-binary-relations","3.4 Binary Relations","m17eav8p044wxt6zymapx534tx8e0v6q","xd7f7btxrt35g2w8271wnmq8zd8e1wjk","Chapter 3: Miscellaneous Review Exercise",,,"false",,"exercise","short","15","{""blockIndex"":40,""blockKind"":""exercise"",""chapterNumber"":3,""subjectSlug"":""maths-9""}","1. Encircle the correct option.
+i. Set builder form of A - B is:
+(a) $\{x \mid x \in \mathrm{~A}\}$
+(b) $\{x \mid x \in \mathrm{~A} \wedge x \notin \mathrm{~B}\}$
+(c) $\{x \mid x \in \mathrm{~A} \wedge x \in \mathrm{~B}\}$
+(d) $\{x \mid x \in \mathrm{~B}\}$
+ii. If $\mathrm{A} \cup \mathrm{B}=\mathrm{A}$ and $\mathrm{A} \cap \mathrm{B}=\mathrm{B}$, then:
+(a) $\mathrm{A} \subset \mathrm{B}$
+(b) $\mathrm{A} \nsupseteq \mathrm{B}$
+(c) $\mathrm{A} \supseteq \mathrm{B}$
+(d) A $\neq B$
+iii. If $\mathrm{A} \subset \mathrm{B}$ then $\mathrm{A}-\mathrm{B}=$
+(a) A
+(b) B
+(c) $\phi$
+(d) $\mathrm{B}-\mathrm{A}$
+iv. If $\mathrm{A}-\mathrm{B}=\mathrm{B}-\mathrm{A}=\phi$, then:
+(a) $\mathrm{A}=\mathrm{B}$
+(b) $B \subseteq A$
+(c) $\mathrm{A} \subseteq \mathrm{B}$
+(d) all a, b \& c
+v. Set of common elements of A and $\mathrm{A}^{\mathrm{c}}$ is $\_\_\_\_$ set.
+(a) infinite
+(b) null
+(c) universal
+(d) singleton
+vi. Set of real numbers can be written in:
+(a) tabular form.
+(b) descriptive form.
+(c) set builder form.
+(d) both b and c .
+vii. If $\mathrm{R}=\{(2,1),(4,3),(2,2)\}$, then Dom $\mathrm{R}=$
+(a) $\{2,4,2\}$
+(b) $\{2,4\}$
+(c) $\{1,3,2\}$
+(d) none of these
+viii. If $\mathrm{R}=\{(\mathrm{a}, \mathrm{b}) / \mathrm{a}, \mathrm{b} \in \mathrm{Z} \wedge \mathrm{a}+\mathrm{b}=0\}$, then:
+(a) Dom $\mathrm{R} \subset$ Range R
+(b) Range $\mathrm{R} \subset \operatorname{Dom} \mathrm{R}$
+(c) Dom $\mathrm{R}=$ Range R
+(d) none of these.
+ix. If $\mathrm{R}=\{(\mathrm{a}, \mathrm{b}) / \mathrm{a}, \mathrm{b} \in \mathrm{N} \wedge \mathrm{a} \times \mathrm{b}=12\}$ then tabular form of R is:
+(a) $\{(1,12),(2,6),(3,4),(4,3),(6,2),(12,1)\}$
+(b) $\{(1,12),(2,6),(3,4)\}$
+(c) $\{(12,1),(6,2),(4,3)\}$
+(d) $\{(1,12),(4,3),(2,6)\}$
+x. If $\mathrm{n}(\mathrm{A})=\mathrm{p}$, then $\mathrm{n}(\mathrm{A} \times \mathrm{A})=$
+(a) p
+(b) 2 p
+(c) $2 \mathrm{p}^{2}$
+(d) $\mathrm{p}^{2}$
+xi. If $\mathrm{n}(\mathrm{B})=\mathrm{t}$, then number of binary relations in $\mathrm{B} \times \mathrm{B}$ is:
+(a) t
+(b) $\mathrm{t}^{2}$
+(c) $2^{\mathrm{t}}$
+(d) $2^{1^{2}}$
+2. If $\mathrm{R}=\{\mathrm{a}, \mathrm{f}, \mathrm{h}, \mathrm{s}\}$ and $\mathrm{S}=\{\mathrm{b}, \mathrm{c}, \mathrm{j}, \mathrm{n}\}$, then
+
+(i) Find the number of binary relations in $\mathrm{R} \times \mathrm{S}$.
+(ii) Write any 3 binary relations from $\mathrm{R} \times \mathrm{S}$.
+(iii) Write a binary relation whose domain is equal to set R .
+(iv) Write a binary relation whose range is equal to set S .
+(v) Write a binary relation whose domain is equal to set R and range is equal to set S .
+
+3. Shade $A \cup(B \cap C), A \cap(B \cup C), A-(B \cap C)$ and $B-(A \cup C)$, in the following Venn diagram.
+![](./images/586322db-47a5-4f90-b0af-149cd93fd880-068_344_496_438_477.jpg)
+4. Verify associative properties of union and intersection through Venn diagram for $\mathrm{X}=\{2 x \mid x \in N \wedge x<20\}, \mathrm{Y}=$ Set of first 6 natural multiples of $3, \mathrm{Z}=\{6 x \mid x \in \mathrm{~W} \wedge x<20\}$
+5. Verify distributive law of union over intersection through Venn diagram for the following sets.
+$$
+\mathrm{A}=\{1,2,3, \ldots\}, \quad \mathrm{B}=\{-1,-2,-3, \ldots\}, \quad \mathrm{C}=\{0, \pm 1, \pm 2, \pm 3, \ldots\}
+$$
+6. Verify distributive law of intersection over union through Venn diagram for the following sets.
+$$
+P=\{a, b, c, d, e\}, \quad Q=\{c, d, e, f\}, \quad R=\{g, h, i, j, k\}
+$$
+7. Create a Venn diagram to illustrate the following information regrading the subsets A and B in the universal set.
+    (i) $n(A)=60, n(B)=48, n(A \cap B)=20, n(U)=90$
+    (ii) $\mathrm{n}(\mathrm{A})=34, \mathrm{n}(\mathrm{B})=52, \mathrm{n}(\mathrm{A} \cup \mathrm{B})=60, \mathrm{n}(\mathrm{U})=85$
+8. 10 boys participated in a Qiraat competition. Among them, Haani, Zubair and Haider recited in Naafi Qiraat style, Abdullah, Umer, Bilal and Ali recited in Al-Kissai Qiraat style while Hassan, Jaffer and Usman recited in Al-Kufi Qiraat style. Represent boys participated in Naafi, Al-Kissai and Al-Kufi styles by sets A, B and C respectively. Find:
+    (i) Find tabular form of A, B and C.
+    (ii) Draw Venn diagram of situation.
+    (iii) Find $A \cap(B \cap C)^{c},(A \cup B) \cap C^{c}, A-(B \cap C)$ and $A-(A \cup B)$.
+9. 100 candidates were appeared in an examination. Out of which 45 candidates passed in Mathematics, 40 in Science and 50 in Health. If 12 were passed in Mathematics and Science, 15 in Science and Health, 20 in Health and Mathematics and 5 were passed in all three subjects.
+    (i) Illustrate the above information by drawing a Venn diagram.
+    (ii) How many candidates were passed at least one subject?
+    (iii) How many candidates did not pass any subject?","ms79amny45zp3xgcbx7s19jnv98cbh1p",,,,,,,,,"Review / Encircle the Correct Option"

@@ -1,0 +1,1063 @@
+[
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-1-preparation-of-esters",
+    "topicTitle": "10.1 Preparation of Esters",
+    "_id": "m174bh0bzd57hz1m88k0wa3sj585pgn7",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Grignard reagent acts as nucleophile attacking carbonyl carbon",
+      "Formaldehyde produces primary alcohol (ethanol) with CH₃MgBr",
+      "Ketone (acetone) produces secondary alcohol (2-propanol) with CH₃MgBr",
+      "Hydrolysis with dilute acid converts alkoxide intermediate to alcohol",
+      "Correct structural formulas and reaction equations shown"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Preparation of Ethanol from Grignard Reagent:**\nFormaldehyde reacts with Grignard reagent (CH₃MgBr) to form a complex, which upon hydrolysis with dilute acid produces ethanol: $\\mathrm{CH_3MgBr} + \\mathrm{HCHO} \\rightarrow \\mathrm{CH_3CH_2OH}$\n\n**Preparation of 2-Propanol from Grignard Reagent:**\nAcetone reacts with Grignard reagent (CH₃MgBr) to form a complex, which upon hydrolysis with dilute acid produces 2-propanol: $\\mathrm{CH_3MgBr} + \\mathrm{CH_3COCH_3} \\rightarrow \\mathrm{(CH_3)_2CHOH}$\n\nIn both cases, the Grignard reagent acts as a strong nucleophile attacking the electrophilic carbonyl carbon. The resulting alkoxide intermediate is then protonated by dilute acid to yield the corresponding alcohol.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Write the preparation of **Ethanol** and **2-Propanol** from **Grignard reagent**.",
+    "topicId": "ms73ac7y0pbwcp14qr80bejs7985p04p",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-1-preparation-of-esters",
+    "topicTitle": "10.1 Preparation of Esters",
+    "_id": "m17cb93wgbkmd08yn1y7aja09d85pean",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Esterification is condensation reaction between carboxylic acid and alcohol forming ester and water",
+      "Step 1: Protonation of carbonyl oxygen by acid catalyst to form electrophilic carbocation",
+      "Step 2: Nucleophilic attack by methanol on electrophilic carbonyl carbon",
+      "Step 3: Dehydration through protonation and elimination of water molecule",
+      "Step 4: Deprotonation to form ester product and regenerate acid catalyst"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Esterification** is the formation of an ester through the condensation reaction between a carboxylic acid (or acyl chloride) and an alcohol, with the elimination of water (or hydrogen chloride). For the acid-catalyzed reaction between methanol and acetic acid:\n\n**Mechanism:**\n\n**Step 1 (Protonation):** The carbonyl oxygen of acetic acid is protonated by the acid catalyst, forming a resonance-stabilized carbocation intermediate:\n$$\\mathrm{CH_3COOH} + \\mathrm{H^+} \\rightarrow \\mathrm{CH_3C(OH)_2^+} \\leftrightarrow \\mathrm{CH_3C^+=OH}$$\n\n**Step 2 (Nucleophilic Attack):** Methanol acts as a nucleophile and attacks the electrophilic carbonyl carbon:\n$$\\mathrm{CH_3C^+=OH} + \\mathrm{CH_3OH} \\rightarrow \\mathrm{CH_3C(OH)(OCH_3)^+}$$\n\n**Step 3 (Dehydration):** The hydroxyl group is protonated and water is eliminated, regenerating the carbocation:\n$$\\mathrm{CH_3C(OH)(OCH_3)^+} \\rightarrow \\mathrm{CH_3C^+=OCH_3} + \\mathrm{H_2O}$$\n\n**Step 4 (Deprotonation):** The carbocation is deprotonated to form the ester product and regenerate the acid catalyst:\n$$\\mathrm{CH_3C^+=OCH_3} + \\mathrm{H_2O} \\rightarrow \\mathrm{CH_3COOCH_3} + \\mathrm{H^+}$$\n\n**Overall reaction:** $\\mathrm{CH_3COOH} + \\mathrm{CH_3OH} \\rightleftharpoons \\mathrm{CH_3COOCH_3} + \\mathrm{H_2O}$ (methyl ethanoate)",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "What is **esterification**? Write mechanism for the acid catalyzed reaction between methanol and acetic acid.",
+    "topicId": "ms73ac7y0pbwcp14qr80bejs7985p04p",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-1-preparation-of-esters",
+    "topicTitle": "10.1 Preparation of Esters",
+    "_id": "m17cv7nt7w1pxhrdasfmjqrb9585qwym",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When an alcohol reacts with a carboxylic acid (or more commonly with an acyl chloride derived from it), an ester is formed. The functional group present in the ester is the ester group, characterized by the structure $-\\mathrm{COO}R$, where the carbonyl carbon is bonded to an oxygen atom that is further bonded to an alkyl group.",
+    "keyPoints": [
+      "Identifies the ester functional group as the product",
+      "Recognizes the $-\\mathrm{COO}R$ structure (carbonyl bonded to oxygen-alkyl)",
+      "Understands this forms from alcohol and carboxylic acid/acyl chloride reaction",
+      "Notes the presence of both C=O and C-O bonds in the ester group"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When an alcohol reacts with a carboxylic acid (or more commonly with an acyl chloride derived from it), an ester is formed. The functional group present in the ester is the ester group, characterized by the structure $-\\mathrm{COO}R$, where the carbonyl carbon is bonded to an oxygen atom that is further bonded to an alkyl group.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$-C(=O)OR$"
+      },
+      {
+        "key": "B",
+        "text": "$-C(=O)-$"
+      },
+      {
+        "key": "C",
+        "text": "$-C(=O)H$"
+      },
+      {
+        "key": "D",
+        "text": "$-C(=O)OC(=O)-$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "Identify the functional group in the compound formed by the reaction of an alcohol with a carboxylic acid:",
+    "topicId": "ms73ac7y0pbwcp14qr80bejs7985p04p",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-1-preparation-of-esters",
+    "topicTitle": "10.1 Preparation of Esters",
+    "_id": "m17am23z4tyx6h6r3kh07ve7v985pazs",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Acid halides have $-COX$ group (X = halogen); amides have $-CONH_2$ or $-CONHR$ group",
+      "Ethers have $R-O-R'$ structure without carbonyl; esters have $-COOR'$ with carbonyl group",
+      "Aldehydes have terminal $-CHO$ group; ketones have internal $-CO-$ group between two carbons",
+      "Functional group differences determine reactivity and chemical properties of each pair",
+      "Correct identification of functional groups is essential for classifying organic compounds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "a. **Acid halides** contain the functional group $-COX$ (where X = halogen, typically Cl), while **acid amides** contain the functional group $-CONH_2$ (or $-CONHR$, $-CONR_2$). The key difference is that acid halides have a halogen atom bonded to the carbonyl carbon, whereas amides have a nitrogen-containing group bonded to the carbonyl carbon.\n\nb. **Ethers** contain the functional group $R-O-R'$ (oxygen bonded to two carbon atoms), while **esters** contain the functional group $-COOR'$ (carbonyl group bonded to oxygen, which is bonded to another carbon). Esters have a carbonyl group; ethers do not.\n\nc. **Aldehydes** contain the functional group $-CHO$ (carbonyl group bonded to hydrogen and one carbon), while **ketones** contain the functional group $-CO-$ (carbonyl group bonded to two carbon atoms). The position of the carbonyl group differs: aldehydes have it at the terminal position, ketones have it within the carbon chain.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is the difference between the functional groups present in the following pairs of compounds?\na. Acid halides and Acid amides\nb. Ethers and Esters\nc. Aldehydes and Ketones",
+    "topicId": "ms73ac7y0pbwcp14qr80bejs7985p04p",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-2-preparation-of-phenol",
+    "topicTitle": "10.2 Preparation of Phenol",
+    "_id": "m17cet30vcqqtfxwwgj6tng8cn85qrmw",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Diazonium salts contain the $-N_2^+$ group; benzene diazonium chloride is formed from aniline",
+      "Preparation requires $NaNO_2 + HCl$ at 0–5°C (below 10°C) to prevent decomposition",
+      "Above 10°C, diazonium salt hydrolyzes to form phenol, $N_2$ gas, and $HCl$",
+      "$-N_2^+$ acts as excellent leaving group, replaced by $-OH$ in hydrolysis reaction",
+      "Temperature control is critical: low temperature for formation, warming for hydrolysis"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Diazonium salts are organic compounds containing the diazonium group ($-N_2^+$), with benzene diazonium chloride ($C_6H_5N_2^+Cl^-$) being a key example. Aniline is converted to benzene diazonium chloride through diazotization: $C_6H_5NH_2 + NaNO_2 + 2HCl \\xrightarrow{0-5°C} C_6H_5N_2^+Cl^- + NaCl + 2H_2O$. The reaction uses sodium nitrite and hydrochloric acid (generating nitrous acid in situ) at temperatures below 10°C to prevent decomposition. When heated above 10°C, the diazonium salt undergoes hydrolysis: $C_6H_5N_2^+Cl^- + H_2O \\xrightarrow{\\text{warm}} C_6H_5OH + N_2 + HCl$, producing phenol, nitrogen gas, and hydrochloric acid. The $-N_2^+$ group acts as an excellent leaving group, departing as stable $N_2$ gas and being replaced by a hydroxyl group.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "What are diazonium salts? How can this salt be prepared from Aniline? What happens when this salt is heated above 10°C?",
+    "topicId": "ms730x1eq07kcnj8e724xvdtm985qp4e",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-2-preparation-of-phenol",
+    "topicTitle": "10.2 Preparation of Phenol",
+    "_id": "m173dv5p9gkhx0qpmxa4x42md185p3zn",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Nitration of phenol takes place at **faster rate** (or **more readily**) than benzene. This is because the hydroxyl group ($-OH$) attached to the benzene ring in phenol is an electron-donating group that activates the benzene ring through resonance, making it more susceptible to electrophilic aromatic substitution compared to benzene.",
+    "keyPoints": [
+      "Phenol undergoes nitration faster than benzene",
+      "The $-OH$ group is an electron-donating activating group",
+      "Electron donation through resonance increases electron density on the benzene ring",
+      "Increased electron density facilitates electrophilic aromatic substitution",
+      "Phenol is more reactive toward electrophilic substitution than benzene"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Nitration of phenol takes place at **faster rate** (or **more readily**) than benzene. This is because the hydroxyl group ($-OH$) attached to the benzene ring in phenol is an electron-donating group that activates the benzene ring through resonance, making it more susceptible to electrophilic aromatic substitution compared to benzene.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Slower rate"
+      },
+      {
+        "key": "B",
+        "text": "Faster rate"
+      },
+      {
+        "key": "C",
+        "text": "Equal rate"
+      },
+      {
+        "key": "D",
+        "text": "Moderate rate"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Nitration of phenol takes place at ___ than benzene.",
+    "topicId": "ms730x1eq07kcnj8e724xvdtm985qp4e",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m175s160t600n304zk025bq53x85qd2f",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The alcohol that yields alkenes more easily is the one with the greatest degree of carbocation stability. Tertiary alcohols yield alkenes most readily because they form stable tertiary carbocations during dehydration. Secondary alcohols form less stable secondary carbocations, while primary alcohols form unstable primary carbocations and rarely undergo this reaction. Therefore, among given options, the tertiary alcohol will yield alkenes most easily.",
+    "keyPoints": [
+      "Tertiary alcohols yield alkenes most easily due to formation of stable tertiary carbocations",
+      "Carbocation stability follows the order: tertiary > secondary > primary",
+      "Dehydration mechanism involves carbocation formation as the rate-determining step",
+      "Primary alcohols do not readily undergo dehydration to form alkenes",
+      "Zaitsev's rule applies: more substituted alkene is the major product"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The alcohol that yields alkenes more easily is the one with the greatest degree of carbocation stability. Tertiary alcohols yield alkenes most readily because they form stable tertiary carbocations during dehydration. Secondary alcohols form less stable secondary carbocations, while primary alcohols form unstable primary carbocations and rarely undergo this reaction. Therefore, among given options, the tertiary alcohol will yield alkenes most easily.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2-Methyl-2-Propanol"
+      },
+      {
+        "key": "B",
+        "text": "2-Butanol"
+      },
+      {
+        "key": "C",
+        "text": "1-Propanol"
+      },
+      {
+        "key": "D",
+        "text": "2-Propanol"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "session": "annual",
+    "stem": "Which alcohol will yield alkenes more easily among the given options?",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m172sd9tnk2mpbyjawexqks9hd85pgte",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The Lucas test is used to distinguish between primary, secondary, and tertiary alcohols based on the rate of formation of alkyl chloride. Tertiary alcohols yield an immediately oily layer (alkyl chloride) because they form stable tertiary carbocations through an SN1 mechanism. Primary alcohols do not react under these conditions, while secondary alcohols react slowly.",
+    "keyPoints": [
+      "Tertiary alcohols produce immediate oily layer in Lucas test",
+      "Oily layer is alkyl chloride formed via SN1 mechanism",
+      "Tertiary carbocation is stable, enabling rapid reaction",
+      "Primary alcohols show no reaction; secondary alcohols react slowly",
+      "Lucas reagent is HCl/ZnCl₂ solution"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The Lucas test is used to distinguish between primary, secondary, and tertiary alcohols based on the rate of formation of alkyl chloride. Tertiary alcohols yield an immediately oily layer (alkyl chloride) because they form stable tertiary carbocations through an SN1 mechanism. Primary alcohols do not react under these conditions, while secondary alcohols react slowly.",
+    "options": [
+      {
+        "key": "A",
+        "text": "3-Pentanol"
+      },
+      {
+        "key": "B",
+        "text": "2-Methyl-2-Propanol"
+      },
+      {
+        "key": "C",
+        "text": "2-Butanol"
+      },
+      {
+        "key": "D",
+        "text": "Ethanol"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Which alcohol will yield an immediately oily layer according to Lucas test?",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m171hak4rhsp46k8qqbrbxf9ed85ph1y",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Reactivity towards O-H cleavage correlates with alcohol acidity",
+      "Primary alcohol (ethanol) least reactive due to unstabilized alkoxide ion",
+      "Secondary alcohol (2-propanol) moderately reactive with intermediate alkoxide stabilization",
+      "Tertiary alcohol (2-methyl-2-propanol) most reactive due to maximum alkyl group stabilization of alkoxide ion",
+      "Increased alkyl substitution on carbon bearing OH group increases acidity and O-H cleavage reactivity"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The order of increasing reactivity towards O-H bond cleavage is: **Ethanol < 2-Propanol < 2-Methyl-2-Propanol**. This order reflects the acidity of the alcohols, which increases with the stability of the corresponding alkoxide ion. Primary alcohols (ethanol) are least acidic because the alkoxide ion lacks stabilization. Secondary alcohols (2-propanol) are more acidic due to greater alkyl group stabilization. Tertiary alcohols (2-methyl-2-propanol) are most acidic because the alkoxide ion is stabilized by three electron-donating alkyl groups, making O-H bond cleavage most facile.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "session": "annual",
+    "stem": "Arrange the following alcohols in order of increasing reactivity towards the cleavage of O-H bond: Ethanol, 2-Methyl-2-Propanol and 2-Propanol.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17ehkzxnm8xhj1c6tcpyc5jyh85qts6",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Carboxylic acids: Carboxylate ion (RCOO⁻) has two equivalent resonance structures with negative charge delocalized between two oxygen atoms, providing maximum stabilization and strongest acidity",
+      "Phenols: Phenoxide ion (C₆H₅O⁻) has resonance structures with negative charge delocalized across the benzene ring through π-electrons, providing moderate stabilization and intermediate acidity",
+      "Alcohols: Alkoxide ion (RO⁻) has no resonance structures; negative charge remains localized on oxygen with no delocalization, providing no stabilization and weakest acidity",
+      "Stability of conjugate base directly determines acid strength: more stable conjugate base = stronger acid",
+      "Resonance delocalization of negative charge is the key factor determining relative acidic strengths"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "The order of acidic strength RCOOH > Phenol > Alcohol is explained by the stability of their conjugate bases through resonance structures. Carboxylic acids are strongest because the carboxylate ion (RCOO⁻) has two equivalent resonance structures where the negative charge is delocalized between two oxygen atoms, providing maximum stabilization. Phenols are moderately acidic because the phenoxide ion (C₆H₅O⁻) has resonance structures where the negative charge is delocalized across the benzene ring through the π-electron system, stabilizing the conjugate base. Alcohols are weakest because the alkoxide ion (RO⁻) has no resonance stabilization, the negative charge remains localized on the single oxygen atom with no delocalization possible. Greater stabilization of the conjugate base corresponds to stronger acidity, making carboxylic acids most acidic and alcohols least acidic.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "By providing resonance structures of their conjugate bases, explain why the order of acidic strength is: $RCOOH > Phenol > Alcohol$",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17f3fg61ttngt5arbyzp7bv6d85p076",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Phenoxide ion is stabilized by resonance delocalization of negative charge into the benzene ring",
+      "Alkoxide ions from alcohols cannot undergo resonance stabilization",
+      "Greater stability of conjugate base (phenoxide) favors ionization, making phenol more acidic",
+      "Phenol has lower pKₐ (~10) than alcohols (pKₐ ~15-16), indicating stronger acidity",
+      "Resonance structures distribute the negative charge over multiple atoms in the aromatic system"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Phenol is more acidic than alcohols because the phenoxide ion (C₆H₅O⁻) formed after ionization is stabilized by resonance delocalization of the negative charge into the aromatic ring. In contrast, the alkoxide ion (RO⁻) from alcohols lacks this resonance stabilization. The delocalized negative charge in the phenoxide ion makes it more stable, favoring ionization and resulting in a lower pKₐ value (~10) compared to alcohols (~15-16).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Why is phenol more acidic than alcohols?",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m176me5t1gx5ry9q61ga40cvs185qq93",
+    "correctKey": "A",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "explanation": "The alcohol most reactive in C-O bond cleavage is a **tertiary alcohol**. Tertiary alcohols are most reactive because the C-O bond cleavage produces a stable tertiary carbocation intermediate. The stability of the carbocation formed during the reaction mechanism determines reactivity, with tertiary > secondary > primary alcohols.",
+    "keyPoints": [
+      "Tertiary alcohols form the most stable carbocation intermediate (tertiary carbocation)",
+      "C-O bond cleavage reactivity follows: tertiary > secondary > primary",
+      "Carbocation stability is the determining factor in SN1 and elimination reactions",
+      "Tertiary alcohols readily undergo substitution and elimination reactions due to carbocation stability"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The alcohol most reactive in C-O bond cleavage is a **tertiary alcohol**. Tertiary alcohols are most reactive because the C-O bond cleavage produces a stable tertiary carbocation intermediate. The stability of the carbocation formed during the reaction mechanism determines reactivity, with tertiary > secondary > primary alcohols.",
+    "options": [
+      {
+        "key": "A",
+        "text": "t-alcohol"
+      },
+      {
+        "key": "B",
+        "text": "Sec-alcohol"
+      },
+      {
+        "key": "C",
+        "text": "Pri-alcohol"
+      },
+      {
+        "key": "D",
+        "text": "$CH_3-OH$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Which of the following alcohols is most reactive in a reaction involving the cleavage of C-O bond?",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m175t7ebxqy8t5jzzb1600nm7d85qnga",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The correct order of acidic strength is: **Carboxylic acids > Phenols > Alcohols**. Carboxylic acids are the strongest (pKa ≈ 5) due to resonance stabilization of the carboxylate ion. Phenols are weakly acidic (pKa ≈ 10) with acidic hydrogen on the benzene ring. Alcohols are the weakest (pKa ≈ 15-16) as they lack significant stabilization of the alkoxide ion.",
+    "keyPoints": [
+      "Carboxylic acids strongest: pKa ~5, carboxylate ion stabilized by resonance",
+      "Phenols intermediate: pKa ~10, phenoxide ion stabilized by aromatic resonance",
+      "Alcohols weakest: pKa ~15-16, alkoxide ion poorly stabilized",
+      "Lower pKa indicates stronger acid (greater ionization)",
+      "Order: RCOOH > ArOH > ROH based on conjugate base stability"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The correct order of acidic strength is: **Carboxylic acids > Phenols > Alcohols**. Carboxylic acids are the strongest (pKa ≈ 5) due to resonance stabilization of the carboxylate ion. Phenols are weakly acidic (pKa ≈ 10) with acidic hydrogen on the benzene ring. Alcohols are the weakest (pKa ≈ 15-16) as they lack significant stabilization of the alkoxide ion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$R-COOH > C_6H_5-OH > R-OH$"
+      },
+      {
+        "key": "B",
+        "text": "$R-OH > R-COOH > C_6H_5-OH$"
+      },
+      {
+        "key": "C",
+        "text": "$C_6H_5-OH > R-OH > R-COOH$"
+      },
+      {
+        "key": "D",
+        "text": "$CH_3-OH > R-OH > C_6H_5-OH$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Identify the correct order of acidic strength of carboxylic acids, phenols and alcohols.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17ap0kaqmz16s3yzee3mfbfw585qznk",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Protonation of ethanol by concentrated H₂SO₄ to form oxonium ion (C₂H₅OH₂⁺)",
+      "Formation of carbocation intermediate (C₂H₅⁺) through loss of water molecule",
+      "Deprotonation of carbocation by ethanol molecule acting as base to form ethene (C₂H₄)",
+      "E1 elimination mechanism with carbocation as intermediate",
+      "Ethene is the major product at 140°C due to elimination pathway"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The dehydration of excess ethanol with concentrated H₂SO₄ at 140°C proceeds via an E1 mechanism. First, the hydroxyl group of ethanol is protonated by H₂SO₄ to form an oxonium ion (C₂H₅OH₂⁺). This is followed by loss of water to generate a carbocation intermediate (C₂H₅⁺). Finally, a neighboring ethanol molecule acts as a base, abstracting a proton from the carbocation to form ethene (C₂H₄) and regenerate the oxonium ion. The overall reaction is: 2C₂H₅OH → C₂H₄ + C₂H₅OC₂H₅ + H₂O, with ethene as the major product at 140°C.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "Write down the mechanism for dehydration of excess of Ethanol with conc. H₂SO₄ at 140°C.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m177qr2aq8n8gjbxdpbw7a36dd85qc02",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Phenol reacts with NaOH to form sodium phenoxide (nucleophile)",
+      "CO₂ acts as electrophile attacking the activated benzene ring",
+      "Reaction occurs at ortho position to form sodium salicylate",
+      "Requires elevated temperature and pressure",
+      "Acidification yields salicylic acid as final product"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Kolbe-Schmitt reaction is the carboxylation of phenol using carbon dioxide and sodium hydroxide. Phenol is first converted to sodium phenoxide by reaction with NaOH. This nucleophilic phenoxide ion then reacts with CO₂ under pressure and heat (around 150°C) to form sodium salicylate (2-hydroxybenzoate). Acidification of the product yields salicylic acid. This reaction demonstrates the enhanced reactivity of the phenoxide ion compared to neutral phenol, as the negative charge on oxygen activates the benzene ring toward electrophilic substitution by CO₂.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Describe the Kolbe-Schmitt reaction of phenol.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m175f7h32er53kfa3519kxay0d85qhk9",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The iodoform test is specific for compounds containing the methyl ketone group ($CH_3CO-$) or methyl carbinol group ($CH_3CHOH-$). Compounds that do NOT contain these structural features will NOT give a positive iodoform test. Examples include ketones without the methyl group adjacent to the carbonyl, aldehydes, carboxylic acids, and esters without the required methyl ketone or methyl carbinol functionality.",
+    "keyPoints": [
+      "Iodoform test requires presence of $CH_3CO-$ (methyl ketone) or $CH_3CHOH-$ (methyl carbinol) group",
+      "Compounds lacking methyl ketone or methyl carbinol structure will NOT give iodoform test",
+      "Test involves reaction with $I_2$ in alkaline medium to produce yellow precipitate of $CHI_3$",
+      "Aldehydes, carboxylic acids, and non-methyl ketones do not give positive iodoform test",
+      "Structural requirement is essential for positive test result"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The iodoform test is specific for compounds containing the methyl ketone group ($CH_3CO-$) or methyl carbinol group ($CH_3CHOH-$). Compounds that do NOT contain these structural features will NOT give a positive iodoform test. Examples include ketones without the methyl group adjacent to the carbonyl, aldehydes, carboxylic acids, and esters without the required methyl ketone or methyl carbinol functionality.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Formaldehyde"
+      },
+      {
+        "key": "B",
+        "text": "Acetaldehyde"
+      },
+      {
+        "key": "C",
+        "text": "Acetone"
+      },
+      {
+        "key": "D",
+        "text": "Ethanol"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Which of the following will **NOT** give iodoform test?",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17694q144ftg5e8jf48hd5c3585q4bq",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Reaction of alcohols with sodium metal produces hydrogen gas and sodium alkoxide. The reaction is: $2R-OH + 2Na \\rightarrow 2R-ONa + H_2\\uparrow$. This demonstrates that alcohols are weakly acidic compounds, as they donate a proton to the more reactive sodium metal.",
+    "keyPoints": [
+      "Produces hydrogen gas ($H_2$) as a product",
+      "Forms sodium alkoxide (salt) as the organic product",
+      "Shows alcohols possess acidic character due to -OH group",
+      "Reaction: $2R-OH + 2Na \\rightarrow 2R-ONa + H_2$",
+      "Demonstrates relative acidity of alcohols compared to water"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Reaction of alcohols with sodium metal produces hydrogen gas and sodium alkoxide. The reaction is: $2R-OH + 2Na \\rightarrow 2R-ONa + H_2\\uparrow$. This demonstrates that alcohols are weakly acidic compounds, as they donate a proton to the more reactive sodium metal.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Helium gas"
+      },
+      {
+        "key": "B",
+        "text": "Hydrogen gas"
+      },
+      {
+        "key": "C",
+        "text": "Carbon dioxide"
+      },
+      {
+        "key": "D",
+        "text": "Carbon monoxide"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Reaction of alcohols with sodium metal gives:",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17e4bqba3kfckzzxqedbpwh9d85prv2",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Ethanol (primary alcohol): No reaction or very slow reaction; no turbidity observed",
+      "2-Propanol (secondary alcohol): Moderate reaction rate; turbidity appears within few minutes",
+      "2-Methyl-2-propanol (tertiary alcohol): Rapid reaction; immediate white precipitate formation",
+      "Reaction rate depends on carbocation stability: tertiary carbocations are most stable, primary are least stable",
+      "Lucas test mechanism involves SN1 reaction where carbocation formation is the rate-determining step"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The Lucas test differentiates alcohols based on the rate of alkyl halide formation when treated with Lucas reagent (HCl + ZnCl₂). Ethanol (primary alcohol) does not react or reacts very slowly, showing no turbidity. 2-Propanol (secondary alcohol) reacts moderately, producing turbidity within a few minutes. 2-Methyl-2-propanol (tertiary alcohol) reacts immediately, forming a white precipitate of alkyl chloride almost instantaneously. This difference reflects the stability of carbocations: tertiary > secondary > primary.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Differentiate between **Ethanol**, **2-Propanol** and **2-Methyl-2-Propanol** on the basis of **Lucas test**.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17be2c80wk6mbkjb1pdv2db4h85p4fp",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "In the Kolbe-Schmitt reaction, phenol is reacted with carbon dioxide (CO₂) under pressure and heat in the presence of a base (typically sodium hydroxide). The phenoxide ion formed acts as a nucleophile, attacking the electrophilic carbon of CO₂ to produce salicylic acid (2-hydroxybenzoic acid) as the major product.",
+    "keyPoints": [
+      "Phenol reacts with CO₂ (carbon dioxide)",
+      "Reaction occurs under pressure and elevated temperature",
+      "Base (NaOH) is required to form phenoxide ion",
+      "Produces salicylic acid (2-hydroxybenzoic acid) as major product",
+      "Demonstrates electrophilic aromatic substitution mechanism"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "In the Kolbe-Schmitt reaction, phenol is reacted with carbon dioxide (CO₂) under pressure and heat in the presence of a base (typically sodium hydroxide). The phenoxide ion formed acts as a nucleophile, attacking the electrophilic carbon of CO₂ to produce salicylic acid (2-hydroxybenzoic acid) as the major product.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$SiO_2 / KOH$"
+      },
+      {
+        "key": "B",
+        "text": "$SO_2 / NaOH$"
+      },
+      {
+        "key": "C",
+        "text": "$CO_2 / NaOH$"
+      },
+      {
+        "key": "D",
+        "text": "$Br_2 / H_2O$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "session": "annual",
+    "stem": "In Kolbe-Schmitt reaction, phenol is reacted with:",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m1719ksgsqkhap4fccj592h2q185q6vk",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Reaction with conc. HNO₃ produces nitrophenols (2-nitrophenol and 4-nitrophenol) through oxidation and nitration",
+      "Reaction with aq. Br₂ produces 2,4,6-tribromophenol as a white precipitate due to electrophilic aromatic substitution",
+      "Reaction with conc. H₂SO₄ produces sulphonic acids (phenol-2-sulphonic acid and phenol-4-sulphonic acid) or diphenyl ether under heating",
+      "Phenol's -OH group is an activating group, directing incoming electrophiles to ortho and para positions",
+      "All three reactions demonstrate phenol's acidic nature and reactivity of the benzene ring"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Phenol undergoes three important reactions: (1) With conc. $HNO_3$: phenol is oxidized and nitrated to form a mixture of 2-nitrophenol and 4-nitrophenol. (2) With aq. $Br_2$: phenol undergoes electrophilic aromatic substitution to form 2,4,6-tribromophenol (white precipitate). (3) With conc. $H_2SO_4$: phenol is dehydrated at elevated temperature to form diphenyl ether or undergoes sulfonation to form phenol-2-sulphonic acid and phenol-4-sulphonic acid.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "session": "annual",
+    "stem": "Write down the reactions of Phenol with conc. $HNO_3$, aq. $Br_2$ and conc. $H_2SO_4$.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m171bgh60y7jdag8k5bav4r1th85p22q",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct order: Carboxylic acid > Phenol > Alcohol with appropriate $pK_a$ values ($\\approx 4.7$, $\\approx 10$, $\\approx 15-16$ respectively)",
+      "Carboxylic acids strongest due to resonance stabilization of carboxylate ion and electron-withdrawing effect of carbonyl group",
+      "Phenols moderately acidic due to resonance delocalization of negative charge into aromatic ring",
+      "Alcohols weakest acids as alkoxide ion lacks resonance stabilization and is highly unstable",
+      "Lower $pK_a$ indicates stronger acid; conjugate base stability inversely related to acid strength"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "The order of acidic strength is: **Carboxylic acid > Phenol > Alcohol**. Carboxylic acids are the strongest with $pK_a \\approx 4.7$, phenols are moderately acidic with $pK_a \\approx 10$, and alcohols are extremely weak acids with $pK_a \\approx 15-16$. This order reflects the stability of their conjugate bases: the carboxylate ion ($RCOO^-$) is highly stabilized by resonance and inductive effects; the phenoxide ion ($C_6H_5O^-$) is stabilized by resonance delocalization into the aromatic ring; and the alkoxide ion ($RO^-$) lacks such stabilization, making it highly unstable and basic.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "session": "annual",
+    "stem": "What is the order of acidic strength of phenol, alcohol and carboxylic acid? Justify your answer by giving $pK_a$ values, and stability of their conjugate bases.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m1711r43q2a5qbhxwxh4rzfjrd8dztc9",
+    "exerciseId": "xd7aqdd534nxq0jthptq6ej02x8dzbq8",
+    "exerciseTitle": "2. Short Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "ix",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Explain the resonance stabilization of the phenoxide ion and how it contributes to the acidity of phenol.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17e7edwxv44tdd1p4m3r42p9d8dy52d",
+    "exerciseId": "xd7aqdd534nxq0jthptq6ej02x8dzbq8",
+    "exerciseTitle": "2. Short Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "x",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Compare the acidities of phenol, ethanol, and water. Provide a brief explanation for the differences in their acid strengths.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m1705fxjhyg698yn9k6rqes4w58dzzzv",
+    "exerciseId": "xd7aqdd534nxq0jthptq6ej02x8dzbq8",
+    "exerciseTitle": "2. Short Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "xi",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Predict the products of the reaction of 1-naphthol with NaOH and bromine water. Provide the balanced chemical equations and indicate the positions of the substituents.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m1749nqfdrwrpnzavd2znwedfx8dzw51",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Compare and contrast the reactivity of phenol, benzene, and ethanol in electrophilic aromatic substitution reactions. Explain the role of the hydroxyl group in phenol and its influence on these reactions.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17bwaw7w4gxbjzv1ym51hw34n8dz873",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Describe the acidity of phenol in terms of its ability to donate protons. Compare its acidity to that of water and ethanol and explain the molecular basis for the differences observed.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m173m1axppz3k6jjf8cphyj9f58dy260",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Describe how 2-naphthol will undergo a reaction with bromine water and nitric acid.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m177jf8z1ajez5w5k5aab8gpp58dz9jk",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Predict the products if methanol is used instead of ethanol in the reaction with ethanoyl chloride. Provide the balanced chemical equation.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m177qg3y2pbwfgv39v35p93f2d8dz11h",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Write the balanced chemical equations for the reactions of phenol with NaOH and sodium metal. Describe the products formed in each reaction.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m177txhe76ej7j0k18fzvzkfys8dz6rk",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sourceRef": {
+      "blockIndex": 0,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Explain the reaction of phenol with bromine water",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m17a167rycw8a4fvr9cba4qmrs8dz962",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Describe the reaction of phenol with dilute nitric acid at room temperature. What are the products, and why do they form in the observed positions on the aromatic ring?",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m177d1b2tc5hfnk26dmwf4fxf98dy4pj",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Discuss the similarities and differences in the directing effects of the hydroxyl group in phenol and 1-naphthol.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m171bpf20bkbsp431yr833r7tn8dz5r5",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "9",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Phenol is more acidic than ethanol. Analyze the structure of phenol to explain this difference in acidity.",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "10-hydroxy-compounds",
+    "chapterTitle": "Hydroxy Compounds",
+    "topicSlug": "10-3-acidity-of-water-phenol-and-ethanol",
+    "topicTitle": "10.3 Acidity of Water, Phenol, and Ethanol",
+    "_id": "m179wthgaphw864a2dg9bcghf18dzxna",
+    "exerciseId": "xd7bz2aevk52d01ajhtkm16nbd8dztyp",
+    "exerciseTitle": "3. Long Answer Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "10",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 10,
+      "page": 188,
+      "subjectSlug": "chemistry-12"
+    },
+    "stem": "Phenol reacts with bromine water to form a white precipitate without needing a catalyst. What does this suggest about the electron density of the aromatic ring in phenol?",
+    "topicId": "ms7bq7ny1qtwx7g64mj8at79vs85p9rm"
+  }
+]

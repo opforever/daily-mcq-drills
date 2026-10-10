@@ -1,0 +1,2671 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "k9770c7wsxjycnngj5t2bcpwxh8ccqqd",
+    "correctKey": "A",
+    "explanation": "The corpus defines theta as the angle between force and displacement.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b3t4cb5mfa5ms552k67pa0185qazb",
+    "options": [
+      {
+        "key": "A",
+        "text": "the angle between force and displacement"
+      },
+      {
+        "key": "B",
+        "text": "the angle between mass and acceleration"
+      },
+      {
+        "key": "C",
+        "text": "the angle of the object from the ground always"
+      },
+      {
+        "key": "D",
+        "text": "the time taken for the displacement"
+      }
+    ],
+    "sectionId": "work",
+    "sectionLabel": "work",
+    "sourceRef": {
+      "blockIndex": 10,
+      "chapterNumber": 5,
+      "page": 72,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "In the expression $W=Fd\\cos\\theta$, what does $\\theta$ represent?",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "k976qy0ecw3rq7f7vnh65dhs2s8bd0nk",
+    "correctKey": "B",
+    "explanation": "The derivation starts from Newton's Second Law ($F_{net} = ma$), defines net work over displacement $d$ as $W_{net} = F_{net} \\cdot d = (ma)d$, then substitutes the third equation of motion to reach $K.E. = \\frac{1}{2}mv^2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b3t4cb5mfa5ms552k67pa0185qazb",
+    "options": [
+      {
+        "key": "A",
+        "text": "Apply the conservation of momentum"
+      },
+      {
+        "key": "B",
+        "text": "Start with $F_{net} = ma$ and define net work as $W_{net} = F_{net} \\cdot d$"
+      },
+      {
+        "key": "C",
+        "text": "Assume the object is in circular motion"
+      },
+      {
+        "key": "D",
+        "text": "Set potential energy equal to zero"
+      }
+    ],
+    "sectionId": "derivation-of-the-work-energy-theorem",
+    "sectionLabel": "Derivation of the Work-Energy Theorem",
+    "stem": "In deriving $K.E. = \\frac{1}{2}mv^2$ from Newton's Second Law, what is the first step?",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "k976p8fqmph6hb79t1v58w30n985pvpr",
+    "correctKey": "A",
+    "explanation": "Using the Work-Energy Theorem with no resistive forces, all K.E. converts to P.E. at maximum height: $h = v^2/(2g) = (25)^2/(2 \\times 9.8) \\approx 31.9\\text{ m}$. This confirms that without friction, $mgh = \\frac{1}{2}mv^2$ holds exactly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b3t4cb5mfa5ms552k67pa0185qazb",
+    "options": [
+      {
+        "key": "A",
+        "text": "$31.9\\text{ m}$"
+      },
+      {
+        "key": "B",
+        "text": "$62.5\\text{ m}$"
+      },
+      {
+        "key": "C",
+        "text": "$25.0\\text{ m}$"
+      },
+      {
+        "key": "D",
+        "text": "$12.5\\text{ m}$"
+      }
+    ],
+    "sectionId": "example-application",
+    "sectionLabel": "Example Application",
+    "stem": "A ball of mass $100\\text{ g}$ is thrown vertically upward at $25\\text{ ms}^{-1}$. Assuming no air resistance, what is the maximum height reached?",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-principle",
+    "topicTitle": "5.1 Work-Energy Principle",
+    "_id": "k97b7pk49hmrxqzx88wraehyys8bcv7w",
+    "correctKey": "B",
+    "explanation": "The Work-Energy Principle states that net work done on an object transfers energy to or from it, appearing as a change in its kinetic energy (speed).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b3t4cb5mfa5ms552k67pa0185qazb",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its mass"
+      },
+      {
+        "key": "B",
+        "text": "Its kinetic energy"
+      },
+      {
+        "key": "C",
+        "text": "Its momentum direction"
+      },
+      {
+        "key": "D",
+        "text": "Its potential energy only"
+      }
+    ],
+    "sectionId": "linking-work-and-motion",
+    "sectionLabel": "Linking Work and Motion",
+    "stem": "According to the Work-Energy Principle, doing net work on an object changes which quantity?",
+    "topicId": "ms75tvypwrc9td6s9h0xmxk9s985qyd3"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "k97c3t8ngh01wcq5gx9w6066nd8cdh3c",
+    "correctKey": "A",
+    "explanation": "The corpus states that the area under the force-displacement graph gives work.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b2z358pawe4wxm0zsn6tqm185q1gp",
+    "options": [
+      {
+        "key": "A",
+        "text": "area under its force-displacement graph"
+      },
+      {
+        "key": "B",
+        "text": "slope of its time graph"
+      },
+      {
+        "key": "C",
+        "text": "mass of the object only"
+      },
+      {
+        "key": "D",
+        "text": "angle of the displacement only"
+      }
+    ],
+    "sectionId": "work-done-by-a-constant-and-variable-force",
+    "sectionLabel": "work-done-by-a-constant-and-variable-force",
+    "sourceRef": {
+      "blockIndex": 18,
+      "chapterNumber": 5,
+      "page": 78,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The work done by a force is represented by the:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "k975cnb6zksnpvp6c0dnkam1c185q0cg",
+    "correctKey": "C",
+    "explanation": "When moving horizontally, the force of gravity (downward) is perpendicular ($90^\\circ$) to the displacement. Since $\\cos(90^\\circ) = 0$, the work done is zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b2z358pawe4wxm0zsn6tqm185q1gp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vertically upwards"
+      },
+      {
+        "key": "B",
+        "text": "Vertically downwards"
+      },
+      {
+        "key": "C",
+        "text": "Horizontally on a level surface"
+      },
+      {
+        "key": "D",
+        "text": "Along a frictionless inclined plane"
+      }
+    ],
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "stem": "Gravity performs zero work when a body moves:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "k97cq50726507rzhkar5vaa40s85p1e5",
+    "correctKey": "C",
+    "explanation": "$W = mgh = 2 \\times 9.8 \\times 3 = 58.8\\text{ J}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b2z358pawe4wxm0zsn6tqm185q1gp",
+    "options": [
+      {
+        "key": "A",
+        "text": "6 J"
+      },
+      {
+        "key": "B",
+        "text": "19.6 J"
+      },
+      {
+        "key": "C",
+        "text": "58.8 J"
+      },
+      {
+        "key": "D",
+        "text": "39.2 J"
+      }
+    ],
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "stem": "If a body of mass $2\\text{ kg}$ is raised vertically through $3\\text{ m}$, then the work done will be (take $g = 9.8\\text{ ms}^{-2}$):",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "k97e8ahts18b3msknkyqc9xn8185qseh",
+    "correctKey": "B",
+    "explanation": "Work = Force × Distance. Dimensions of force are $[MLT^{-2}]$ and distance is $[L]$, so work has dimensions $[MLT^{-2}][L] = [ML^2T^{-2}]$, the same as energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b2z358pawe4wxm0zsn6tqm185q1gp",
+    "options": [
+      {
+        "key": "A",
+        "text": "$[MLT^{-2}]$"
+      },
+      {
+        "key": "B",
+        "text": "$[ML^2T^{-2}]$"
+      },
+      {
+        "key": "C",
+        "text": "$[ML^2T^{-3}]$"
+      },
+      {
+        "key": "D",
+        "text": "$[ML^{-1}T^{-2}]$"
+      }
+    ],
+    "sectionId": "1-work-done-by-a-constant-force",
+    "sectionLabel": "1. Work Done by a Constant Force",
+    "stem": "Which of the following represents the correct dimensions for work done?",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "k977w0x8vgfdwxdn2fww05abas85pg65",
+    "correctKey": "C",
+    "explanation": "In a plot of $F \\cos(\\theta)$ vs $d$, the product of the axes (area) yields the work done.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b2z358pawe4wxm0zsn6tqm185q1gp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Power"
+      },
+      {
+        "key": "B",
+        "text": "Impulse"
+      },
+      {
+        "key": "C",
+        "text": "Work Done"
+      },
+      {
+        "key": "D",
+        "text": "Acceleration"
+      }
+    ],
+    "sectionId": "2-work-done-by-a-variable-force",
+    "sectionLabel": "2. Work Done by a Variable Force",
+    "stem": "The area under a Force-displacement graph represents:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "k97366w9y3rbvnrch8hrvzkr4585qevd",
+    "correctKey": "B",
+    "explanation": "Work done by a variable force equals $\\int F \\, dx$, which geometrically is the area under the Force-Extension graph. The slope gives the spring constant, not the work done.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b2z358pawe4wxm0zsn6tqm185q1gp",
+    "options": [
+      {
+        "key": "A",
+        "text": "The slope of the graph"
+      },
+      {
+        "key": "B",
+        "text": "The area under the graph"
+      },
+      {
+        "key": "C",
+        "text": "The y-intercept of the graph"
+      },
+      {
+        "key": "D",
+        "text": "The gradient at the final extension"
+      }
+    ],
+    "sectionId": "2-work-done-by-a-variable-force",
+    "sectionLabel": "2. Work Done by a Variable Force",
+    "stem": "A spring is stretched by a variable force. The work done on the spring can be found from the Force-Extension graph by calculating:",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work",
+    "topicTitle": "5.2 Work Done by a Constant and Variable Force",
+    "_id": "k97ck3qmq3ttyvdv58e28vyc498bd13d",
+    "correctKey": "B",
+    "explanation": "W = Fd*cos(theta) only applies for a constant force. When the force varies with position (like a spring), work must be found as the area under the Force-Displacement graph or via integration.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b2z358pawe4wxm0zsn6tqm185q1gp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Whether the object is moving in a straight line or curved path"
+      },
+      {
+        "key": "B",
+        "text": "Whether the applied force is constant or changes as the object moves"
+      },
+      {
+        "key": "C",
+        "text": "Whether the object's mass is large or small"
+      },
+      {
+        "key": "D",
+        "text": "Whether the motion is horizontal or vertical"
+      }
+    ],
+    "sectionId": "work-as-a-measure-of-energy-transfer",
+    "sectionLabel": "Work as a Measure of Energy Transfer",
+    "stem": "What determines whether work can be calculated with the simple formula W = Fd*cos(theta) or requires the area under a Force-Displacement graph?",
+    "topicId": "ms7bvvrk2jdceqn9qamggfcm5s85ph60"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "k979fa54xn8rnntw6sffm39px18cd5fw",
+    "correctKey": "A",
+    "explanation": "The derived formula for kinetic energy is one half times mass times speed squared.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7402004yyrqa6bpqzzjyvv6d85q65n",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{2}mv^2$"
+      },
+      {
+        "key": "B",
+        "text": "$mv$"
+      },
+      {
+        "key": "C",
+        "text": "$ma$"
+      },
+      {
+        "key": "D",
+        "text": "$mgh$"
+      }
+    ],
+    "sectionId": "kinetic-energy",
+    "sectionLabel": "kinetic-energy",
+    "sourceRef": {
+      "blockIndex": 64,
+      "chapterNumber": 5,
+      "page": 79,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The kinetic energy of a body is:",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "k972q5wynwrfqe1wfgk8fa492s85pc94",
+    "correctKey": "B",
+    "explanation": "Using $K.E. = \\frac{p^2}{2m}$, with $p$ constant, $K.E. \\propto \\frac{1}{m}$. So $\\frac{K.E._1}{K.E._2} = \\frac{m_2}{m_1} = \\frac{4m}{m} = 4$. Therefore the ratio is $4:1$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7402004yyrqa6bpqzzjyvv6d85q65n",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 : 4"
+      },
+      {
+        "key": "B",
+        "text": "4 : 1"
+      },
+      {
+        "key": "C",
+        "text": "1 : 2"
+      },
+      {
+        "key": "D",
+        "text": "1 : 16"
+      }
+    ],
+    "sectionId": "derivation-of-kinetic-energy-formula",
+    "sectionLabel": "Derivation of Kinetic Energy Formula",
+    "stem": "Two bodies with masses $m$ and $4m$ have the same linear momentum $p$. The ratio of their kinetic energies $K.E._1 : K.E._2$ is:",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "k97ee85hk5dezs011p0xhcp7c18bdb1y",
+    "correctKey": "B",
+    "explanation": "Energy is defined as the capacity to do work; it can take many forms (mechanical, thermal, chemical, electrical, nuclear) and can be transformed between them.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7402004yyrqa6bpqzzjyvv6d85q65n",
+    "options": [
+      {
+        "key": "A",
+        "text": "The rate of doing work"
+      },
+      {
+        "key": "B",
+        "text": "The capacity to do work"
+      },
+      {
+        "key": "C",
+        "text": "The force required to move an object"
+      },
+      {
+        "key": "D",
+        "text": "The speed of an object"
+      }
+    ],
+    "sectionId": "energy-as-the-capacity-to-do-work",
+    "sectionLabel": "Energy as the Capacity to Do Work",
+    "stem": "In physics, energy is formally defined as:",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "k972esznfjkqd4j1sazsde32qx85pykn",
+    "correctKey": "C",
+    "explanation": "Using $K.E. = \\frac{1}{2}mv^2 = \\frac{1}{2}(2)(10)^2 = \\frac{1}{2}(2)(100) = 100\\text{ J}$. Mass is 2 kg and speed is 10 ms⁻¹, so kinetic energy equals 100 joules.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7402004yyrqa6bpqzzjyvv6d85q65n",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 J"
+      },
+      {
+        "key": "B",
+        "text": "20 J"
+      },
+      {
+        "key": "C",
+        "text": "100 J"
+      },
+      {
+        "key": "D",
+        "text": "200 J"
+      }
+    ],
+    "sectionId": "work-energy-theorem",
+    "sectionLabel": "Work-Energy Theorem",
+    "stem": "A 2 kg object moves with a velocity of $10\\text{ ms}^{-1}$. What is its kinetic energy?",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "kinetic-energy",
+    "topicTitle": "5.3 Kinetic Energy",
+    "_id": "k97bzr0g8gpzqy9b83chb0ck7d8bdapd",
+    "correctKey": "B",
+    "explanation": "Some of the gravitational potential energy ($mgh$) is converted to kinetic energy ($\\frac{1}{2}mv^2$), and the rest is lost to the resistive medium as heat/sound ($fh$), so $mgh=\\frac{1}{2}mv^2+fh$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7402004yyrqa6bpqzzjyvv6d85q65n",
+    "options": [
+      {
+        "key": "A",
+        "text": "$mgh=\\frac{1}{2}mv^2$"
+      },
+      {
+        "key": "B",
+        "text": "$mgh=\\frac{1}{2}mv^2+fh$"
+      },
+      {
+        "key": "C",
+        "text": "$mgh=\\frac{1}{2}mv^2-fh$"
+      },
+      {
+        "key": "D",
+        "text": "$fh=mgh+\\frac{1}{2}mv^2"
+      }
+    ],
+    "sectionId": "work-energy-theorem",
+    "sectionLabel": "Work-Energy Theorem",
+    "stem": "A body of mass m falls a height h through a resistive medium with resistive force f, reaching speed v at the bottom. Which equation correctly relates these quantities?",
+    "topicId": "ms78qt4jav7tdy17dyt65vfc6985p7qk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "potential-energy",
+    "topicTitle": "5.4 Potential Energy",
+    "_id": "k973e569pws0rzhgeaf47byaq58bcaq7",
+    "correctKey": "C",
+    "explanation": "P.E. = mgh = 3 * 9.8 * 4 = 117.6 J.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70z4gj4wbzrrakzsq9cvad9h85pg8r",
+    "options": [
+      {
+        "key": "A",
+        "text": "12 J"
+      },
+      {
+        "key": "B",
+        "text": "29.4 J"
+      },
+      {
+        "key": "C",
+        "text": "117.6 J"
+      },
+      {
+        "key": "D",
+        "text": "39.2 J"
+      }
+    ],
+    "sectionId": "gravitational-potential-energy",
+    "sectionLabel": "Gravitational Potential Energy",
+    "stem": "A $3\\,\\mathrm{kg}$ object is held $4\\,\\mathrm{m}$ above the ground. What is its gravitational potential energy ($g=9.8\\,\\mathrm{m/s^2}$)?",
+    "topicId": "ms707p1c8h8g05r3zt9cfq2kax85pcmb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "potential-energy",
+    "topicTitle": "5.4 Potential Energy",
+    "_id": "k975p4fz6p9t5mfhpfg9qha0y58bda9d",
+    "correctKey": "A",
+    "explanation": "$P.E._{\\mathrm{elastic}}=\\frac12kx^2=\\frac12(500)(0.2)^2=\\frac12(500)(0.04)=10\\,\\mathrm{J}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70z4gj4wbzrrakzsq9cvad9h85pg8r",
+    "options": [
+      {
+        "key": "A",
+        "text": "10 J"
+      },
+      {
+        "key": "B",
+        "text": "20 J"
+      },
+      {
+        "key": "C",
+        "text": "50 J"
+      },
+      {
+        "key": "D",
+        "text": "100 J"
+      }
+    ],
+    "sectionId": "elastic-potential-energy",
+    "sectionLabel": "Elastic Potential Energy",
+    "stem": "A spring with spring constant k = 500 N/m is compressed by 0.2 m. How much elastic potential energy is stored?",
+    "topicId": "ms707p1c8h8g05r3zt9cfq2kax85pcmb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "potential-energy",
+    "topicTitle": "5.4 Potential Energy",
+    "_id": "k977g98q10zvshsq4dtsaw4zf58cct2t",
+    "correctKey": "A",
+    "explanation": "The work-energy theorem equates net work with the change in kinetic energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70z4gj4wbzrrakzsq9cvad9h85pg8r",
+    "options": [
+      {
+        "key": "A",
+        "text": "kinetic energy"
+      },
+      {
+        "key": "B",
+        "text": "mass"
+      },
+      {
+        "key": "C",
+        "text": "moment of inertia only"
+      },
+      {
+        "key": "D",
+        "text": "time period"
+      }
+    ],
+    "sectionId": "work-energy-principle",
+    "sectionLabel": "work-energy-principle",
+    "sourceRef": {
+      "blockIndex": 69,
+      "chapterNumber": 5,
+      "page": 79,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The net work done on an object equals its change in:",
+    "topicId": "ms707p1c8h8g05r3zt9cfq2kax85pcmb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "potential-energy",
+    "topicTitle": "5.4 Potential Energy",
+    "_id": "k976rrvek4byfqzqm7f05c5jj18bc2s2",
+    "correctKey": "B",
+    "explanation": "Friction's work depends on the path (a longer path means more energy lost to friction), and the lost energy becomes heat that cannot be recovered, so no potential energy can be defined for it, the definition of a non-conservative force.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx70z4gj4wbzrrakzsq9cvad9h85pg8r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because it always acts vertically"
+      },
+      {
+        "key": "B",
+        "text": "Because the work it does depends on the path taken and energy is dissipated as heat"
+      },
+      {
+        "key": "C",
+        "text": "Because it can be described by a potential energy formula"
+      },
+      {
+        "key": "D",
+        "text": "Because it does zero work over any closed path"
+      }
+    ],
+    "sectionId": "conservative-and-non-conservative-forces",
+    "sectionLabel": "Conservative and Non-Conservative Forces",
+    "stem": "Why is friction classified as a non-conservative force?",
+    "topicId": "ms707p1c8h8g05r3zt9cfq2kax85pcmb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "absolute-potential-energy",
+    "topicTitle": "5.5 Absolute Gravitational Potential Energy",
+    "_id": "k97cpa1m9ry9k2v9hbryfazg4s8ccqwt",
+    "correctKey": "A",
+    "explanation": "The corpus uses the relation $mgh=E_T$ for the rocket at height, identifying gravitational potential energy as $mgh$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77jwq3v824spt8es95s5hd2185qam3",
+    "options": [
+      {
+        "key": "A",
+        "text": "$mgh$"
+      },
+      {
+        "key": "B",
+        "text": "$mv^2$"
+      },
+      {
+        "key": "C",
+        "text": "$ma$"
+      },
+      {
+        "key": "D",
+        "text": "$F/d$"
+      }
+    ],
+    "sectionId": "absolute-gravitational-potential-energy",
+    "sectionLabel": "absolute-gravitational-potential-energy",
+    "sourceRef": {
+      "blockIndex": 108,
+      "chapterNumber": 5,
+      "page": 83,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The gravitational potential energy near Earth for a mass $m$ at height $h$ is:",
+    "topicId": "ms740az2azmkcc6drqe0e046t985pqtr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "absolute-potential-energy",
+    "topicTitle": "5.5 Absolute Gravitational Potential Energy",
+    "_id": "k97dmb9xt6hvvh05m94wtbryfh8bdbet",
+    "correctKey": "B",
+    "explanation": "$P.E.=mgh$ assumes $g$ is constant, true only near Earth's surface. At large distances, $g$ varies with $r$, so the more general formula $U_g=-\\frac{GMm}{r}$ is needed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77jwq3v824spt8es95s5hd2185qam3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because mgh only applies to objects underwater"
+      },
+      {
+        "key": "B",
+        "text": "Because g is only approximately constant near Earth's surface, not at large distances"
+      },
+      {
+        "key": "C",
+        "text": "Because satellites have no mass"
+      },
+      {
+        "key": "D",
+        "text": "Because mgh only works for horizontal motion"
+      }
+    ],
+    "sectionId": "beyond-the-mgh-approximation",
+    "sectionLabel": "Beyond the mgh Approximation",
+    "stem": "Why is P.E. = mgh not suitable for calculating the potential energy of a satellite far from Earth?",
+    "topicId": "ms740az2azmkcc6drqe0e046t985pqtr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "absolute-potential-energy",
+    "topicTitle": "5.5 Absolute Gravitational Potential Energy",
+    "_id": "k979yz7b998dqyymx4nxadsyk185qmvy",
+    "correctKey": "C",
+    "explanation": "By convention, the zero reference point for absolute gravitational potential energy is chosen at infinity ($r = \\infty$), where the gravitational force becomes negligible. At any finite distance, $U_g = -GMm/r$ is negative.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77jwq3v824spt8es95s5hd2185qam3",
+    "options": [
+      {
+        "key": "A",
+        "text": "At the surface of the Earth"
+      },
+      {
+        "key": "B",
+        "text": "At the center of the Earth"
+      },
+      {
+        "key": "C",
+        "text": "At an infinite distance from the Earth"
+      },
+      {
+        "key": "D",
+        "text": "At the edge of the atmosphere"
+      }
+    ],
+    "sectionId": "definition",
+    "sectionLabel": "Definition",
+    "stem": "At what point is the Absolute Gravitational Potential Energy of an object conventionally defined to be zero?",
+    "topicId": "ms740az2azmkcc6drqe0e046t985pqtr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "absolute-potential-energy",
+    "topicTitle": "5.5 Absolute Gravitational Potential Energy",
+    "_id": "k9748cwmmcwmrrnayvjbp98j7h85qpjt",
+    "correctKey": "B",
+    "explanation": "The zero of gravitational PE is defined at infinity. Since gravity is attractive, a mass at finite $r$ is in a lower energy state than at infinity. Moving it to infinity requires external work, so $U_g$ at finite $r$ must be negative: $U_g = -GMm/r < 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77jwq3v824spt8es95s5hd2185qam3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because $G$, $M$, and $m$ are all negative quantities"
+      },
+      {
+        "key": "B",
+        "text": "Because the zero reference is at infinity and gravity is attractive, so finite-distance states have lower energy"
+      },
+      {
+        "key": "C",
+        "text": "Because the formula uses an inverse relationship which always yields negative results"
+      },
+      {
+        "key": "D",
+        "text": "Because kinetic energy at finite $r$ is always greater than potential energy"
+      }
+    ],
+    "sectionId": "key-conceptual-points",
+    "sectionLabel": "Key Conceptual Points",
+    "stem": "Why is the formula $U_g = -\\frac{GMm}{r}$ always negative for any finite distance $r$ from Earth's center?",
+    "topicId": "ms740az2azmkcc6drqe0e046t985pqtr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "absolute-potential-energy",
+    "topicTitle": "5.5 Absolute Gravitational Potential Energy",
+    "_id": "k97e2xsmqkngewkaybqxc8eyh985qte1",
+    "correctKey": "C",
+    "explanation": "Since $U_g = -GMm/r$, potential energy is inversely proportional to $r$. Doubling $r$ gives $U_g' = -GMm/(2r)$, which is half the original magnitude, the value becomes less negative, meaning the object is less tightly bound to Earth.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77jwq3v824spt8es95s5hd2185qam3",
+    "options": [
+      {
+        "key": "A",
+        "text": "Twice as negative (doubles in magnitude)"
+      },
+      {
+        "key": "B",
+        "text": "Four times as negative"
+      },
+      {
+        "key": "C",
+        "text": "Half as negative (magnitude halves, value closer to zero)"
+      },
+      {
+        "key": "D",
+        "text": "One-quarter as negative"
+      }
+    ],
+    "sectionId": "mathematical-derivation",
+    "sectionLabel": "Mathematical Derivation",
+    "stem": "If the distance of an object from the center of the Earth doubles, the Absolute Gravitational Potential Energy $U_g = -\\frac{GMm}{r}$ becomes:",
+    "topicId": "ms740az2azmkcc6drqe0e046t985pqtr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "k97ar5q92mpkvysjfb19kfnde58cc1qx",
+    "correctKey": "A",
+    "explanation": "A conservative field has zero work around a closed path.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75r2b8h31rj3v86qpznak4dx85pjd9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Work around a closed path is zero"
+      },
+      {
+        "key": "B",
+        "text": "Work always depends on path length"
+      },
+      {
+        "key": "C",
+        "text": "It exists only during collisions"
+      },
+      {
+        "key": "D",
+        "text": "It has no associated force"
+      }
+    ],
+    "sectionId": "work-done-in-a-gravitational-field",
+    "sectionLabel": "work-done-in-a-gravitational-field",
+    "sourceRef": {
+      "blockIndex": 51,
+      "chapterNumber": 5,
+      "page": 79,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which statement describes a conservative gravitational field?",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "k9768gg9qjh2tataanp0synnt185q3qy",
+    "correctKey": "B",
+    "explanation": "By definition, a non-conservative force (e.g., friction) does work that depends on the path taken between two points. Conservative forces like gravity and electrostatic force are path-independent.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75r2b8h31rj3v86qpznak4dx85pjd9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conservative"
+      },
+      {
+        "key": "B",
+        "text": "Non-conservative"
+      },
+      {
+        "key": "C",
+        "text": "Gravitational"
+      },
+      {
+        "key": "D",
+        "text": "Electrostatic"
+      }
+    ],
+    "sectionId": "conservative-fields-and-conservative-forces",
+    "sectionLabel": "Conservative Fields and Conservative Forces",
+    "stem": "If the work done in moving a body from point A to B depends on the trajectory followed, the force acting on the body is:",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "k97d4y9d7p726stva8exmecajd85ppmt",
+    "correctKey": "C",
+    "explanation": "Friction is a non-conservative force. Work done against friction is irreversibly dissipated as thermal energy and cannot be recovered as potential energy, unlike gravitational, spring, or electric forces.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75r2b8h31rj3v86qpznak4dx85pjd9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gravitational force"
+      },
+      {
+        "key": "B",
+        "text": "Elastic spring force"
+      },
+      {
+        "key": "C",
+        "text": "Frictional force"
+      },
+      {
+        "key": "D",
+        "text": "Electric force"
+      }
+    ],
+    "sectionId": "conservative-fields-and-conservative-forces",
+    "sectionLabel": "Conservative Fields and Conservative Forces",
+    "stem": "Which of the following forces does NOT store energy as potential energy?",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "k97cemgk2ah0cnpqwxh2wsrj0h85q6j5",
+    "correctKey": "C",
+    "explanation": "The gravitational field is conservative: work done depends only on the initial and final positions ($W = -mg\\Delta h$), not on the path. Work along a closed path is zero and no energy is dissipated.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75r2b8h31rj3v86qpznak4dx85pjd9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Work done along a closed path is non-zero"
+      },
+      {
+        "key": "B",
+        "text": "It is a non-conservative field"
+      },
+      {
+        "key": "C",
+        "text": "Work done is independent of the path followed"
+      },
+      {
+        "key": "D",
+        "text": "Energy is dissipated as heat during displacement"
+      }
+    ],
+    "sectionId": "gravitational-field-and-field-strength",
+    "sectionLabel": "Gravitational Field and Field Strength",
+    "stem": "Which of the following is a property of the Earth's gravitational field?",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "k9769zdxzk7v5craydgaq9xfb98bdx46",
+    "correctKey": "B",
+    "explanation": "Gravity acts purely vertically. For horizontal displacement, the angle between force and displacement is 90 degrees, so W = Fd*cos(90) = 0. Only the vertical steps contribute work, which sum to the total height change regardless of path shape.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75r2b8h31rj3v86qpznak4dx85pjd9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because gravity has zero magnitude horizontally"
+      },
+      {
+        "key": "B",
+        "text": "Because gravity is purely vertical, and cos(90 deg) = 0 for horizontal displacement"
+      },
+      {
+        "key": "C",
+        "text": "Because horizontal motion has no displacement"
+      },
+      {
+        "key": "D",
+        "text": "Because friction cancels the horizontal work"
+      }
+    ],
+    "sectionId": "proofs-of-the-conservative-nature-of-gravity",
+    "sectionLabel": "Proofs of the Conservative Nature of Gravity",
+    "stem": "In the proof that gravity's work is path-independent, why does moving horizontally along a curved path contribute zero work?",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-done-in-a-gravitational-field",
+    "topicTitle": "5.6 Work Done in a Gravitational Field",
+    "_id": "k97bkcentjq9as8vxrgw5p3bk185p5as",
+    "correctKey": "C",
+    "explanation": "For a conservative force, work depends only on initial and final positions. In a closed loop the start and end positions are identical, so the net change in potential energy is zero and hence the total work done is zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75r2b8h31rj3v86qpznak4dx85pjd9",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximum"
+      },
+      {
+        "key": "B",
+        "text": "Minimum"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "two-key-properties-of-a-conservative-field",
+    "sectionLabel": "Two Key Properties of a Conservative Field",
+    "stem": "The work done by a conservative force along a closed loop is:",
+    "topicId": "ms74030rga9vn2ys1dkfgwrg9x85pwe2"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "topicTitle": "5.7 Interconversion of Kinetic and Potential Energy",
+    "_id": "k97ah73jjvgqmvdesm170b4z698cdz0m",
+    "correctKey": "A",
+    "explanation": "The corpus states that kinetic energy is converted into potential energy as the object rises.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dfdx9hr04n4taqydzds8wpn85q2kv",
+    "options": [
+      {
+        "key": "A",
+        "text": "potential energy"
+      },
+      {
+        "key": "B",
+        "text": "mass"
+      },
+      {
+        "key": "C",
+        "text": "electric charge"
+      },
+      {
+        "key": "D",
+        "text": "time period"
+      }
+    ],
+    "sectionId": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "sectionLabel": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "sourceRef": {
+      "blockIndex": 103,
+      "chapterNumber": 5,
+      "page": 83,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "As an object rises after launch, its kinetic energy is mainly converted into:",
+    "topicId": "ms7f207hsq5qrt5wc6zqm530xs85qdeb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "topicTitle": "5.7 Interconversion of Kinetic and Potential Energy",
+    "_id": "k97am6bj2x0v6pgvbdrgsvhbbs8bdwnd",
+    "correctKey": "C",
+    "explanation": "Energy isnt lost, it converts between kinetic and potential forms. Under only conservative forces, the sum K.E. + P.E. remains constant even as each individually changes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dfdx9hr04n4taqydzds8wpn85q2kv",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kinetic energy alone stays constant"
+      },
+      {
+        "key": "B",
+        "text": "Potential energy alone stays constant"
+      },
+      {
+        "key": "C",
+        "text": "The total of kinetic and potential energy stays constant, though each can change"
+      },
+      {
+        "key": "D",
+        "text": "Both kinetic and potential energy individually stay fixed"
+      }
+    ],
+    "sectionId": "energy-that-changes-form-but-not-total",
+    "sectionLabel": "Energy That Changes Form but Not Total",
+    "stem": "What does the Principle of Conservation of Mechanical Energy state about a system with only conservative forces acting?",
+    "topicId": "ms7f207hsq5qrt5wc6zqm530xs85qdeb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "topicTitle": "5.7 Interconversion of Kinetic and Potential Energy",
+    "_id": "k979maynftk4s23z22pktcxzms8bd4fj",
+    "correctKey": "C",
+    "explanation": "With resistance: $mgh=\\frac12mv^2+fh$, so some of the potential energy goes to friction ($fh$) instead of kinetic energy, making the final speed less than the vacuum value $\\sqrt{2gh}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dfdx9hr04n4taqydzds8wpn85q2kv",
+    "options": [
+      {
+        "key": "A",
+        "text": "Exactly sqrt(2gh), air resistance does not affect speed"
+      },
+      {
+        "key": "B",
+        "text": "Greater than sqrt(2gh)"
+      },
+      {
+        "key": "C",
+        "text": "Less than sqrt(2gh), since some energy is lost to friction as heat"
+      },
+      {
+        "key": "D",
+        "text": "Zero, since air resistance always stops the object"
+      }
+    ],
+    "sectionId": "example-a-freely-falling-object",
+    "sectionLabel": "Example: A Freely Falling Object",
+    "stem": "A ball is dropped from height h through air with resistive force f. Compared to falling in a vacuum, its final speed just before hitting the ground is:",
+    "topicId": "ms7f207hsq5qrt5wc6zqm530xs85qdeb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "topicTitle": "5.7 Interconversion of Kinetic and Potential Energy",
+    "_id": "k974bh61rqf3cm2ngr45ghw6ys85q104",
+    "correctKey": "C",
+    "explanation": "In a resistive medium, energy is dissipated as heat by friction. By the work-energy theorem: Loss in P.E. = Gain in K.E. + Work done against friction ($fh$). Option (0) ignores friction; options (1) and (3) are incorrect formulations.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dfdx9hr04n4taqydzds8wpn85q2kv",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gain in K.E. only"
+      },
+      {
+        "key": "B",
+        "text": "Work done against friction only"
+      },
+      {
+        "key": "C",
+        "text": "Gain in K.E. plus work done against friction"
+      },
+      {
+        "key": "D",
+        "text": "Gain in K.E. minus work done against friction"
+      }
+    ],
+    "sectionId": "the-principle-of-conservation-of-mechanical-energy",
+    "sectionLabel": "The Principle of Conservation of Mechanical Energy",
+    "stem": "When a body falls through the air, the loss in potential energy is equal to:",
+    "topicId": "ms7f207hsq5qrt5wc6zqm530xs85qdeb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "inter-conversion-of-kinetic-energy-and-potential-energy",
+    "topicTitle": "5.7 Interconversion of Kinetic and Potential Energy",
+    "_id": "k97214m0h4epgpjmfa6c60gcqx85p5vs",
+    "correctKey": "B",
+    "explanation": "Energy lost equals the difference in gravitational potential energy: $mgh_1 - mgh_2 = mg(h_1 - h_2)$. Option (0) adds the heights incorrectly; option (2) sums rather than differences kinetic energies; option (3) ignores the energy recovered in the bounce.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dfdx9hr04n4taqydzds8wpn85q2kv",
+    "options": [
+      {
+        "key": "A",
+        "text": "$mg(h_1 + h_2)$"
+      },
+      {
+        "key": "B",
+        "text": "$mg(h_1 - h_2)$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{2}m(v_1^2 + v_2^2)$"
+      },
+      {
+        "key": "D",
+        "text": "$mgh_1$"
+      }
+    ],
+    "sectionId": "the-principle-of-conservation-of-mechanical-energy",
+    "sectionLabel": "The Principle of Conservation of Mechanical Energy",
+    "stem": "A body of mass $m$ is dropped from height $h_1$ and bounces back to height $h_2$. The energy lost during impact is:",
+    "topicId": "ms7f207hsq5qrt5wc6zqm530xs85qdeb"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "k9795d7j9tg63seesgk2nh8wc18cd5fg",
+    "correctKey": "A",
+    "explanation": "The corpus states that work against resistance takes energy away from the object.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cbvaj4dtf4srtfmh7bfq40x85prw2",
+    "options": [
+      {
+        "key": "A",
+        "text": "It takes energy away and decreases kinetic energy"
+      },
+      {
+        "key": "B",
+        "text": "It always increases kinetic energy"
+      },
+      {
+        "key": "C",
+        "text": "It creates mass"
+      },
+      {
+        "key": "D",
+        "text": "It makes resistance zero"
+      }
+    ],
+    "sectionId": "work-energy-principle-in-a-resistive-medium",
+    "sectionLabel": "work-energy-principle-in-a-resistive-medium",
+    "sourceRef": {
+      "blockIndex": 78,
+      "chapterNumber": 5,
+      "page": 79,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What effect does work against a resistive force have on an object?",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "k9750s8gnwm0skzxszy3ygz49x85q1xc",
+    "correctKey": "B",
+    "explanation": "The kinetic energy of the rocket is converted into heat energy due to the work done against the resistive force of the air.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cbvaj4dtf4srtfmh7bfq40x85prw2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nuclear reactions in the engine"
+      },
+      {
+        "key": "B",
+        "text": "Work done against atmospheric friction"
+      },
+      {
+        "key": "C",
+        "text": "Solar radiation"
+      },
+      {
+        "key": "D",
+        "text": "The vacuum of space"
+      }
+    ],
+    "sectionId": "connection-to-conservation-of-energy",
+    "sectionLabel": "Connection to Conservation of Energy",
+    "stem": "When a rocket re-enters the atmosphere, its nose cone becomes very hot. This is primarily due to:",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "k9746b0bax6vym2nmx6vj8tmmx8bcexc",
+    "correctKey": "B",
+    "explanation": "Resistive forces act opposite to displacement and do negative work, removing mechanical energy as heat, so the basic relation must include this resistive term.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cbvaj4dtf4srtfmh7bfq40x85prw2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because kinetic energy no longer has a formula"
+      },
+      {
+        "key": "B",
+        "text": "Because resistive forces like friction do negative work, dissipating mechanical energy as heat"
+      },
+      {
+        "key": "C",
+        "text": "Because mass changes during motion"
+      },
+      {
+        "key": "D",
+        "text": "Because gravity stops acting in a resistive medium"
+      }
+    ],
+    "sectionId": "extending-the-principle-to-real-world-motion",
+    "sectionLabel": "Extending the Principle to Real-World Motion",
+    "stem": "Why must the Work-Energy Principle be extended for motion through a resistive medium?",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "k97bm19qqkenrt714m2yk7syfh85pcr7",
+    "correctKey": "B",
+    "explanation": "When friction force $f = 0$, the term $fh$ in $mgh = \\frac{1}{2}mv^2 + fh$ vanishes, meaning no energy is dissipated. All gravitational potential energy converts entirely to kinetic energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cbvaj4dtf4srtfmh7bfq40x85prw2",
+    "options": [
+      {
+        "key": "A",
+        "text": "Total mechanical energy is not conserved"
+      },
+      {
+        "key": "B",
+        "text": "Work done against friction is zero, so all P.E. converts to K.E."
+      },
+      {
+        "key": "C",
+        "text": "The body moves at terminal velocity"
+      },
+      {
+        "key": "D",
+        "text": "Potential energy is always zero"
+      }
+    ],
+    "sectionId": "the-extended-work-energy-equation",
+    "sectionLabel": "The Extended Work-Energy Equation",
+    "stem": "If air resistance on a falling body is negligible, the equation $mgh = \\frac{1}{2}mv^2$ implies:",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "k971yebf0ayn72vhnjjd5fsqhs8bctd8",
+    "correctKey": "C",
+    "explanation": "$mgh=2\\cdot10\\cdot5=100\\,\\mathrm{J}$. K.E. at impact $=\\frac12(2)(8^2)=64\\,\\mathrm{J}$. Energy lost to resistance $=mgh-\\mathrm{K.E.}=100-64=36\\,\\mathrm{J}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cbvaj4dtf4srtfmh7bfq40x85prw2",
+    "options": [
+      {
+        "key": "A",
+        "text": "0 J"
+      },
+      {
+        "key": "B",
+        "text": "16 J"
+      },
+      {
+        "key": "C",
+        "text": "36 J"
+      },
+      {
+        "key": "D",
+        "text": "100 J"
+      }
+    ],
+    "sectionId": "the-extended-work-energy-equation",
+    "sectionLabel": "The Extended Work-Energy Equation",
+    "stem": "A $2\\,\\mathrm{kg}$ ball falls $5\\,\\mathrm{m}$ through air ($g=10\\,\\mathrm{m/s^2}$) and hits the ground at $8\\,\\mathrm{m/s}$. How much energy was lost to air resistance?",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "work-energy-theorem-in-resistivity-medium",
+    "topicTitle": "5.8 Work-Energy Principle in a Resistive Medium",
+    "_id": "k971py6rqye022jkfzxabdg1h585p5dv",
+    "correctKey": "B",
+    "explanation": "From energy conservation in a resistive medium: $mgh = \\frac{1}{2}mv^2 + fh$. Rearranging, work done against friction $fh = mgh - \\frac{1}{2}mv^2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cbvaj4dtf4srtfmh7bfq40x85prw2",
+    "options": [
+      {
+        "key": "A",
+        "text": "$mgh + \\frac{1}{2}mv^2$"
+      },
+      {
+        "key": "B",
+        "text": "$mgh - \\frac{1}{2}mv^2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{2}mv^2 - mgh$"
+      },
+      {
+        "key": "D",
+        "text": "$mgh$"
+      }
+    ],
+    "sectionId": "work-done-by-resistive-forces",
+    "sectionLabel": "Work Done by Resistive Forces",
+    "stem": "A body of mass $m$ falls through height $h$ in a resistive medium with final velocity $v$. The work done against friction is:",
+    "topicId": "ms72at82tqq5drvjgsscxf623h85qz8x"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "power",
+    "topicTitle": "5.9 Power",
+    "_id": "k97epcwx7hzdge6p44bgb32j098ccxke",
+    "correctKey": "A",
+    "explanation": "Power is the rate of doing work, equal to work divided by time.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74hx1ty3m0dp06yq0vc4zavd85p3gj",
+    "options": [
+      {
+        "key": "A",
+        "text": "$P=W/t$"
+      },
+      {
+        "key": "B",
+        "text": "$P=Wt$"
+      },
+      {
+        "key": "C",
+        "text": "$P=t/W$"
+      },
+      {
+        "key": "D",
+        "text": "$P=W+t$"
+      }
+    ],
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "definition-and-formula",
+    "sourceRef": {
+      "chapterNumber": 5,
+      "page": 83,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Power is calculated as:",
+    "topicId": "ms76y3knad1a4exz0h30c09ecd85q92v"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "power",
+    "topicTitle": "5.9 Power",
+    "_id": "k97fnpkqpyvgynymt4j9cdaan18bd4yf",
+    "correctKey": "B",
+    "explanation": "Instantaneous power is the power at a specific moment, the limit of average power as the time interval shrinks to zero, exactly what's needed to describe power at one instant during changing conditions.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74hx1ty3m0dp06yq0vc4zavd85p3gj",
+    "options": [
+      {
+        "key": "A",
+        "text": "Average power"
+      },
+      {
+        "key": "B",
+        "text": "Instantaneous power"
+      },
+      {
+        "key": "C",
+        "text": "Total work"
+      },
+      {
+        "key": "D",
+        "text": "Kinetic energy"
+      }
+    ],
+    "sectionId": "3-average-power-vs-instantaneous-power",
+    "sectionLabel": "3. Average Power vs. Instantaneous Power",
+    "stem": "A car accelerates from rest, so the force its engine delivers changes moment to moment. Which quantity best describes the power delivered at one exact instant during this acceleration?",
+    "topicId": "ms76y3knad1a4exz0h30c09ecd85q92v"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "power",
+    "topicTitle": "5.9 Power",
+    "_id": "k97507egdh1sr9qc3nd4we7wgx8bc22p",
+    "correctKey": "C",
+    "explanation": "P = F*v = 2000 * 25 = 50000 W (using P = F.v with force and velocity in the same direction).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74hx1ty3m0dp06yq0vc4zavd85p3gj",
+    "options": [
+      {
+        "key": "A",
+        "text": "80 W"
+      },
+      {
+        "key": "B",
+        "text": "2025 W"
+      },
+      {
+        "key": "C",
+        "text": "50000 W"
+      },
+      {
+        "key": "D",
+        "text": "80000 W"
+      }
+    ],
+    "sectionId": "4-power-in-terms-of-force-and-velocity",
+    "sectionLabel": "4. Power in Terms of Force and Velocity",
+    "stem": "A car engine exerts a constant force of 2000 N to maintain a constant velocity of 25 m/s. What power is the engine delivering?",
+    "topicId": "ms76y3knad1a4exz0h30c09ecd85q92v"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "power",
+    "topicTitle": "5.9 Power",
+    "_id": "k970b840prk08d1rxdcd47ax7d85qkj1",
+    "correctKey": "B",
+    "explanation": "Energy = Power × Time. So $1\\,\\text{kWh} = 1000\\,\\text{W} \\times 3600\\,\\text{s} = 3{,}600{,}000\\,\\text{J} = 3.6 \\times 10^6\\,\\text{J}$. The kWh is a unit of energy, not power, commonly used for electricity billing.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74hx1ty3m0dp06yq0vc4zavd85p3gj",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.6 × 10³ J"
+      },
+      {
+        "key": "B",
+        "text": "3.6 × 10⁶ J"
+      },
+      {
+        "key": "C",
+        "text": "1000 J"
+      },
+      {
+        "key": "D",
+        "text": "3600 J"
+      }
+    ],
+    "sectionId": "the-kilowatt-hour-kwh-a-unit-of-energy-not-power",
+    "sectionLabel": "The Kilowatt-Hour (kWh): A Unit of Energy, Not Power",
+    "stem": "The commercial unit of electrical energy is the kilowatt-hour (kWh). 1 kWh is equal to how many Joules?",
+    "topicId": "ms76y3knad1a4exz0h30c09ecd85q92v"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "k97668regm7kc855n88x73yx2h85qh06",
+    "correctKey": "B",
+    "explanation": "Converting to Kelvin: $T_{\\text{source}} = 373\\text{ K}$, $T_{\\text{sink}} = 273\\text{ K}$. Applying $\\eta = 1 - T_{\\text{sink}}/T_{\\text{source}} = 1 - 273/373 \\approx 0.268$, i.e., 26.8%. This demonstrates the Carnot limit, even between boiling and freezing water, maximum efficiency is only ~27%.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74eh89gjvpy5h1r2qrk1e56x85q1xk",
+    "options": [
+      {
+        "key": "A",
+        "text": "100%"
+      },
+      {
+        "key": "B",
+        "text": "26.8%"
+      },
+      {
+        "key": "C",
+        "text": "37.3%"
+      },
+      {
+        "key": "D",
+        "text": "0%"
+      }
+    ],
+    "sectionId": "carnot-engine-efficiency",
+    "sectionLabel": "Carnot Engine Efficiency",
+    "stem": "A Carnot engine operates between the ice point (0°C) and the steam point (100°C). Its efficiency is approximately:",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "k975fwrwv164bqk5yhsngnr9ah85p64j",
+    "correctKey": "C",
+    "explanation": "From $\\eta = 1 - T_L/T_H$, efficiency increases when the ratio $T_L/T_H$ decreases. This occurs by raising $T_H$ (source) and/or lowering $T_L$ (sink), maximising the temperature difference. Increasing both by the same amount actually decreases the ratio slightly but not as effectively.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74eh89gjvpy5h1r2qrk1e56x85q1xk",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increasing the sink temperature while keeping source temperature constant."
+      },
+      {
+        "key": "B",
+        "text": "Decreasing the source temperature while keeping sink temperature constant."
+      },
+      {
+        "key": "C",
+        "text": "Increasing the source temperature and decreasing the sink temperature."
+      },
+      {
+        "key": "D",
+        "text": "Increasing both temperatures by the same absolute amount."
+      }
+    ],
+    "sectionId": "carnot-engine-efficiency",
+    "sectionLabel": "Carnot Engine Efficiency",
+    "stem": "According to the Carnot efficiency formula $\\eta = 1 - T_L/T_H$, which change would increase a heat engine's theoretical maximum efficiency?",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "k97fg5zydy60y6qfp2ez3j9aws85qjnn",
+    "correctKey": "A",
+    "explanation": "Efficiency equals useful energy output divided by total energy input. Both numerator and denominator have units of Joules, which cancel, making efficiency a dimensionless ratio. It can be expressed as a decimal or percentage.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74eh89gjvpy5h1r2qrk1e56x85q1xk",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is a ratio of two quantities with the same units (energy/energy or work/work)."
+      },
+      {
+        "key": "B",
+        "text": "It is always less than one."
+      },
+      {
+        "key": "C",
+        "text": "It depends on the temperature of the surroundings."
+      },
+      {
+        "key": "D",
+        "text": "It is calculated using the Kelvin scale."
+      }
+    ],
+    "sectionId": "efficiency",
+    "sectionLabel": "Efficiency",
+    "stem": "Efficiency is a dimensionless quantity because:",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "k97bb6p6y33pk726cr6s078ynd8cdzgw",
+    "correctKey": "A",
+    "explanation": "The corpus states that efficiency cannot exceed 1, or 100 percent.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74eh89gjvpy5h1r2qrk1e56x85q1xk",
+    "options": [
+      {
+        "key": "A",
+        "text": "cannot be greater than 100%"
+      },
+      {
+        "key": "B",
+        "text": "must always be 100%"
+      },
+      {
+        "key": "C",
+        "text": "has units of joules"
+      },
+      {
+        "key": "D",
+        "text": "is greater than 200%"
+      }
+    ],
+    "sectionId": "efficiency",
+    "sectionLabel": "Efficiency",
+    "sourceRef": {
+      "blockIndex": 88,
+      "chapterNumber": 5,
+      "page": 79,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The efficiency of a real machine:",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "k979694etbj56n6sngas02bg2n85qvb0",
+    "correctKey": "C",
+    "explanation": "The law of conservation of energy states energy cannot be destroyed. The 25% not converted to useful work is dissipated as waste heat, sound, or vibration due to friction and internal resistance. This energy degradation is consistent with the Second Law of Thermodynamics.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74eh89gjvpy5h1r2qrk1e56x85q1xk",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is destroyed according to the law of conservation of energy."
+      },
+      {
+        "key": "B",
+        "text": "It is converted into useful potential energy."
+      },
+      {
+        "key": "C",
+        "text": "It is dissipated as non-useful energy, such as heat and sound."
+      },
+      {
+        "key": "D",
+        "text": "It is stored as chemical energy within the motor."
+      }
+    ],
+    "sectionId": "efficiency-in-terms-of-power",
+    "sectionLabel": "Efficiency in Terms of Power",
+    "stem": "If a motor has an efficiency of 75%, what happens to the remaining 25% of the input energy?",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "efficiency",
+    "topicTitle": "5.10 Efficiency",
+    "_id": "k97e6mpdvs05ksx85nyzvyrg3x8bdhyr",
+    "correctKey": "B",
+    "explanation": "No real heat engine can exceed the efficiency of an ideal Carnot engine operating between the same two temperatures; this is a direct consequence of the Second Law of Thermodynamics.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx74eh89gjvpy5h1r2qrk1e56x85q1xk",
+    "options": [
+      {
+        "key": "A",
+        "text": "The engine's size"
+      },
+      {
+        "key": "B",
+        "text": "The Carnot cycle efficiency for its operating temperatures"
+      },
+      {
+        "key": "C",
+        "text": "The type of fuel used"
+      },
+      {
+        "key": "D",
+        "text": "The engine's age"
+      }
+    ],
+    "sectionId": "why-no-machine-is-perfectly-efficient",
+    "sectionLabel": "Why No Machine Is Perfectly Efficient",
+    "stem": "What sets the fundamental upper limit on how efficient any real heat engine can be?",
+    "topicId": "ms7bcxmmfrcqghggvjsm8vxaxd85q6se"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "k979xm6qk1xtyzpwczmpdrd0ed85q7nh",
+    "correctKey": "C",
+    "explanation": "Since $v_{esc} = \\sqrt{2gR}$, escape velocity is proportional to $\\sqrt{R}$. Doubling $R$ gives $v_{esc}' = \\sqrt{2g(2R)} = \\sqrt{2} \\cdot \\sqrt{2gR} = \\sqrt{2}\\, v_{esc}$. The factor is $\\sqrt{2}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e845ej0g0gfkeg9wpntxfnh85pjdf",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{2}$"
+      }
+    ],
+    "sectionId": "alternative-formula-using-surface-gravity-g",
+    "sectionLabel": "Alternative Formula using Surface Gravity (g)",
+    "stem": "If the radius of a planet is doubled while keeping surface gravity $g$ constant, the escape velocity changes by a factor of:",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "k97cz6fsfrh1q5tpwgx5k858rn85p83g",
+    "correctKey": "C",
+    "explanation": "Escape velocity $v_{esc} = \\sqrt{\\frac{2GM}{R}}$ depends only on the planet's mass $M$ and radius $R$, not on the mass of the escaping object. Both the ball and rocket have the same escape velocity, giving a ratio of 1 : 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e845ej0g0gfkeg9wpntxfnh85pjdf",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 : 10"
+      },
+      {
+        "key": "B",
+        "text": "10 : 1"
+      },
+      {
+        "key": "C",
+        "text": "1 : 1"
+      },
+      {
+        "key": "D",
+        "text": "1 : 100"
+      }
+    ],
+    "sectionId": "derivation-of-the-escape-velocity-formula",
+    "sectionLabel": "Derivation of the Escape Velocity Formula",
+    "stem": "A 10 kg ball and a 100 kg rocket are launched from Earth's surface. The ratio of their escape velocities (ball : rocket) is:",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "k97agtn514b3060xyv8e6wja2185pgvz",
+    "correctKey": "B",
+    "explanation": "Using $v_{esc} = \\sqrt{2gR}$ with $g = 9.8 \\text{ m/s}^2$ and $R = 6.4 \\times 10^6 \\text{ m}$: $v_{esc} = \\sqrt{2 \\times 9.8 \\times 6.4 \\times 10^6} \\approx 11{,}200 \\text{ m/s} = 11.2 \\text{ km/s}$. Note: 7.9 km/s is orbital velocity, not escape velocity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e845ej0g0gfkeg9wpntxfnh85pjdf",
+    "options": [
+      {
+        "key": "A",
+        "text": "7.9 km/s"
+      },
+      {
+        "key": "B",
+        "text": "11.2 km/s"
+      },
+      {
+        "key": "C",
+        "text": "9.8 km/s"
+      },
+      {
+        "key": "D",
+        "text": "4.2 km/s"
+      }
+    ],
+    "sectionId": "numerical-value-for-earth",
+    "sectionLabel": "Numerical Value for Earth",
+    "stem": "The escape velocity from the surface of the Earth is approximately:",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "k975447v6yvwka8k0qstxjevyn85q8h7",
+    "correctKey": "B",
+    "explanation": "Escape requires the object to reach infinity with zero speed. At infinity both K.E. and G.P.E. are zero, so total energy = 0. By conservation of energy, total energy at the surface must also equal zero: $\\frac{1}{2}mv_{esc}^2 - \\frac{GMm}{R} = 0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e845ej0g0gfkeg9wpntxfnh85pjdf",
+    "options": [
+      {
+        "key": "A",
+        "text": "Greater than zero"
+      },
+      {
+        "key": "B",
+        "text": "Equal to zero"
+      },
+      {
+        "key": "C",
+        "text": "Less than zero"
+      },
+      {
+        "key": "D",
+        "text": "Equal to the gravitational potential energy alone"
+      }
+    ],
+    "sectionId": "the-energy-balance",
+    "sectionLabel": "The Energy Balance",
+    "stem": "For an object to just escape a planet's gravitational field, its total mechanical energy at the surface must be:",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "escape-velocity",
+    "topicTitle": "5.11 Escape Velocity",
+    "_id": "k971ex27v4dssgae7xsx2en6vd8cdb8s",
+    "correctKey": "A",
+    "explanation": "Escape velocity is the minimum launch speed that allows an object to escape the planet gravitational influence.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e845ej0g0gfkeg9wpntxfnh85pjdf",
+    "options": [
+      {
+        "key": "A",
+        "text": "leave a planet without returning"
+      },
+      {
+        "key": "B",
+        "text": "move in a circle at any speed"
+      },
+      {
+        "key": "C",
+        "text": "double an objects mass"
+      },
+      {
+        "key": "D",
+        "text": "make gravity zero at the surface"
+      }
+    ],
+    "sectionId": "the-energy-balance",
+    "sectionLabel": "The Energy Balance",
+    "sourceRef": {
+      "chapterNumber": 5,
+      "page": 83,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Escape velocity is the minimum initial speed needed to:",
+    "topicId": "ms7adq1a06a42nnkwj3yjzmz7h85qny1"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "non-conventional-energy-sources",
+    "topicTitle": "5.12 Non-Conventional Energy Sources",
+    "_id": "k970j1g1sgrkhp36d6z2ecvza18cdme5",
+    "correctKey": "A",
+    "explanation": "Tidal energy converts the rise and fall of ocean tides into electricity.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76173wpqw7raqr6kacb3v8bs85pzak",
+    "options": [
+      {
+        "key": "A",
+        "text": "the rise and fall of ocean tides"
+      },
+      {
+        "key": "B",
+        "text": "burning coal"
+      },
+      {
+        "key": "C",
+        "text": "the motion of tectonic plates only"
+      },
+      {
+        "key": "D",
+        "text": "nuclear fission only"
+      }
+    ],
+    "sectionId": "1-energy-from-tides",
+    "sectionLabel": "1. Energy From Tides",
+    "sourceRef": {
+      "chapterNumber": 5,
+      "page": 83,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Tidal energy is obtained from:",
+    "topicId": "ms7b7zk3zaens9zs3rfmm7eph185pj50"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "non-conventional-energy-sources",
+    "topicTitle": "5.12 Non-Conventional Energy Sources",
+    "_id": "k97ct4qrq8zdpy0zpgt3320vjn85p9ft",
+    "correctKey": "C",
+    "explanation": "The Solar Constant is measured as $1.4\\, \\text{kJ}\\cdot\\text{s}^{-1}\\cdot\\text{m}^{-2}$, which equals $1.4\\, \\text{kW/m}^2$. Options A and D have wrong magnitudes; option B (megawatts) is far too large.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76173wpqw7raqr6kacb3v8bs85pzak",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1.4\\, \\text{W/m}^2$"
+      },
+      {
+        "key": "B",
+        "text": "$1.4\\, \\text{MW/m}^2$"
+      },
+      {
+        "key": "C",
+        "text": "$1.4\\, \\text{kW/m}^2$"
+      },
+      {
+        "key": "D",
+        "text": "$14\\, \\text{kW/m}^2$"
+      }
+    ],
+    "sectionId": "3-solar-energy",
+    "sectionLabel": "3. Solar Energy",
+    "stem": "What is the approximate value of the Solar Constant, the solar energy received per unit area per second outside Earth's atmosphere?",
+    "topicId": "ms7b7zk3zaens9zs3rfmm7eph185pj50"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "non-conventional-energy-sources",
+    "topicTitle": "5.12 Non-Conventional Energy Sources",
+    "_id": "k972fa4hrb5pq5tek07tfh9pnx85qj4z",
+    "correctKey": "B",
+    "explanation": "Geothermal energy utilizes the internal heat of the Earth, including heat stored in magma and hot dry rocks near the surface. Water pumped into these rocks returns as steam to drive turbines.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76173wpqw7raqr6kacb3v8bs85pzak",
+    "options": [
+      {
+        "key": "A",
+        "text": "Biomass"
+      },
+      {
+        "key": "B",
+        "text": "Geothermal Energy"
+      },
+      {
+        "key": "C",
+        "text": "Tidal Power"
+      },
+      {
+        "key": "D",
+        "text": "Solar Thermal"
+      }
+    ],
+    "sectionId": "4-geothermal-energy",
+    "sectionLabel": "4. Geothermal Energy",
+    "stem": "Which non-conventional energy source relies on heat from 'Hot Rocks' found in the Earth's crust?",
+    "topicId": "ms7b7zk3zaens9zs3rfmm7eph185pj50"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "non-conventional-energy-sources",
+    "topicTitle": "5.12 Non-Conventional Energy Sources",
+    "_id": "k97cm1r22pjsgmfneetqrqnh9d8bcnw7",
+    "correctKey": "B",
+    "explanation": "Non-conventional energy sources (tidal, wave, solar, geothermal, biomass) are renewable/alternative forms of energy, less widely used historically than fossil fuels like coal, oil, and natural gas.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76173wpqw7raqr6kacb3v8bs85pzak",
+    "options": [
+      {
+        "key": "A",
+        "text": "It cannot be used to generate electricity"
+      },
+      {
+        "key": "B",
+        "text": "It is a renewable or alternative source not as widely used as fossil fuels"
+      },
+      {
+        "key": "C",
+        "text": "It only exists in space"
+      },
+      {
+        "key": "D",
+        "text": "It always produces more energy than fossil fuels"
+      }
+    ],
+    "sectionId": "renewable-alternatives-to-fossil-fuels",
+    "sectionLabel": "Renewable Alternatives to Fossil Fuels",
+    "stem": "What best characterizes a 'non-conventional' energy source, as opposed to a conventional one?",
+    "topicId": "ms7b7zk3zaens9zs3rfmm7eph185pj50"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "energy-from-biomass",
+    "topicTitle": "5.13 Biomass Energy",
+    "_id": "k971majyevwxzm6tj63hbdtrdd85qn1b",
+    "correctKey": "A",
+    "explanation": "Direct combustion of biomass releases carbon dioxide ($CO_2$) and particulate matter (smoke), which contribute to air pollution and the greenhouse effect, making it a concern despite being renewable.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73xpewp6jejqw3ccvw8crx8s85q7vd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Release of $CO_2$ and smoke"
+      },
+      {
+        "key": "B",
+        "text": "Depletion of the ozone layer by Argon"
+      },
+      {
+        "key": "C",
+        "text": "Radioactive fallout"
+      },
+      {
+        "key": "D",
+        "text": "Creation of magnetic storms"
+      }
+    ],
+    "sectionId": "methods-of-energy-conversion",
+    "sectionLabel": "Methods of Energy Conversion",
+    "stem": "What is the primary environmental concern regarding the large-scale combustion of biomass?",
+    "topicId": "ms77b905qg8t0vmw3akrm2h2sd85pxnz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "energy-from-biomass",
+    "topicTitle": "5.13 Biomass Energy",
+    "_id": "k97b6kaaky40f2fpqz48gzac3h85pzgh",
+    "correctKey": "B",
+    "explanation": "Fermentation of sugars by yeast and bacteria under anaerobic conditions produces ethanol, a liquid biofuel that can be blended with gasoline and used as a renewable transportation fuel.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73xpewp6jejqw3ccvw8crx8s85q7vd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Diesel"
+      },
+      {
+        "key": "B",
+        "text": "Ethanol"
+      },
+      {
+        "key": "C",
+        "text": "Kerosene"
+      },
+      {
+        "key": "D",
+        "text": "Propane"
+      }
+    ],
+    "sectionId": "methods-of-energy-conversion",
+    "sectionLabel": "Methods of Energy Conversion",
+    "stem": "Which fuel is produced by the fermentation of sugar-rich biomass such as sugarcane or corn?",
+    "topicId": "ms77b905qg8t0vmw3akrm2h2sd85pxnz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "energy-from-biomass",
+    "topicTitle": "5.13 Biomass Energy",
+    "_id": "k97f4q0gvze37zc0n5tzxkgqd185qhd0",
+    "correctKey": "C",
+    "explanation": "Anaerobic digestion involves bacteria breaking down organic material in an oxygen-free environment inside a digester, producing methane-rich biogas and nutrient-rich slurry as by-products.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73xpewp6jejqw3ccvw8crx8s85q7vd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Direct Combustion"
+      },
+      {
+        "key": "B",
+        "text": "Nuclear Fission"
+      },
+      {
+        "key": "C",
+        "text": "Anaerobic Digestion"
+      },
+      {
+        "key": "D",
+        "text": "Oxidation"
+      }
+    ],
+    "sectionId": "methods-of-energy-conversion",
+    "sectionLabel": "Methods of Energy Conversion",
+    "stem": "The process of breaking down biomass in the absence of oxygen to produce biogas is called:",
+    "topicId": "ms77b905qg8t0vmw3akrm2h2sd85pxnz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "energy-from-biomass",
+    "topicTitle": "5.13 Biomass Energy",
+    "_id": "k97bym92e654rgkbcrz636ek9h85pxnd",
+    "correctKey": "C",
+    "explanation": "Uranium-235 is a radioactive nuclear fuel found in uranium ore and is not derived from organic biomass. Ethanol is produced by fermentation, methane by anaerobic digestion, and charcoal by incomplete combustion of wood.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73xpewp6jejqw3ccvw8crx8s85q7vd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ethanol"
+      },
+      {
+        "key": "B",
+        "text": "Methane"
+      },
+      {
+        "key": "C",
+        "text": "Uranium-235"
+      },
+      {
+        "key": "D",
+        "text": "Charcoal"
+      }
+    ],
+    "sectionId": "methods-of-energy-conversion",
+    "sectionLabel": "Methods of Energy Conversion",
+    "stem": "Which of the following is NOT a direct product of biomass conversion?",
+    "topicId": "ms77b905qg8t0vmw3akrm2h2sd85pxnz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "energy-from-biomass",
+    "topicTitle": "5.13 Biomass Energy",
+    "_id": "k97fwj580e27taxkwyx3f1jpgh8bdxk9",
+    "correctKey": "C",
+    "explanation": "Direct combustion burns organic matter to produce heat, which boils water into steam that turns a turbine connected to a generator.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73xpewp6jejqw3ccvw8crx8s85q7vd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fermentation"
+      },
+      {
+        "key": "B",
+        "text": "Biogas production"
+      },
+      {
+        "key": "C",
+        "text": "Direct combustion"
+      },
+      {
+        "key": "D",
+        "text": "Photosynthesis"
+      }
+    ],
+    "sectionId": "methods-of-energy-conversion",
+    "sectionLabel": "Methods of Energy Conversion",
+    "stem": "Which biomass conversion method directly burns organic waste to produce steam for electricity generation?",
+    "topicId": "ms77b905qg8t0vmw3akrm2h2sd85pxnz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "energy-from-biomass",
+    "topicTitle": "5.13 Biomass Energy",
+    "_id": "k971zy21zcc5asp6tkx0my7wth8cc2jw",
+    "correctKey": "A",
+    "explanation": "The note identifies ethanol as the primary liquid biofuel product of biomass fermentation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73xpewp6jejqw3ccvw8crx8s85q7vd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ethanol"
+      },
+      {
+        "key": "B",
+        "text": "Steam only"
+      },
+      {
+        "key": "C",
+        "text": "Slurry only"
+      },
+      {
+        "key": "D",
+        "text": "Uranium fuel"
+      }
+    ],
+    "sectionId": "methods-of-energy-conversion",
+    "sectionLabel": "Methods of Energy Conversion",
+    "sourceRef": {
+      "chapterNumber": 5,
+      "page": 84,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which product is most directly associated with biomass fermentation?",
+    "topicId": "ms77b905qg8t0vmw3akrm2h2sd85pxnz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "energy-from-biomass",
+    "topicTitle": "5.13 Biomass Energy",
+    "_id": "k9738ejmg06msnqrmqma30g6xh85q7jv",
+    "correctKey": "B",
+    "explanation": "Plants capture solar energy through photosynthesis and store it as chemical potential energy in organic matter (biomass). When biomass is burned or converted, this stored solar energy is released.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73xpewp6jejqw3ccvw8crx8s85q7vd",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nuclear"
+      },
+      {
+        "key": "B",
+        "text": "Solar"
+      },
+      {
+        "key": "C",
+        "text": "Geothermal"
+      },
+      {
+        "key": "D",
+        "text": "Tidal"
+      }
+    ],
+    "sectionId": "stored-solar-energy-in-organic-matter",
+    "sectionLabel": "Stored Solar Energy in Organic Matter",
+    "stem": "Energy from biomass is essentially stored ________ energy.",
+    "topicId": "ms77b905qg8t0vmw3akrm2h2sd85pxnz"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "geothermal-energy",
+    "topicTitle": "5.14 Geothermal Energy",
+    "_id": "k975vm8vbj52gvpgd0631at76s85qx67",
+    "correctKey": "B",
+    "explanation": "A geothermal power plant (heat engine) absorbs thermal energy $Q_H$ from the Earth's hot interior. This thermal energy drives steam to spin a turbine (mechanical energy), which then drives a generator to produce electrical energy. The full chain is: Thermal → Mechanical → Electrical.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx744dmhdym308s9bg3wqfvhn985pf21",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thermal energy → Chemical energy → Electrical energy"
+      },
+      {
+        "key": "B",
+        "text": "Thermal energy → Mechanical energy → Electrical energy"
+      },
+      {
+        "key": "C",
+        "text": "Nuclear energy → Thermal energy → Chemical energy"
+      },
+      {
+        "key": "D",
+        "text": "Electrical energy → Kinetic energy → Thermal energy"
+      }
+    ],
+    "sectionId": "energy-degradation-in-geothermal-processes",
+    "sectionLabel": "Energy Degradation in Geothermal Processes",
+    "stem": "In a geothermal power plant operating as a heat engine, which sequence of energy transformations occurs?",
+    "topicId": "ms75nthvf5w9tcvmhx7wmqkb9185p35j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "geothermal-energy",
+    "topicTitle": "5.14 Geothermal Energy",
+    "_id": "k975kg03cj52hcedayhwkf16g185pt01",
+    "correctKey": "C",
+    "explanation": "Geysers require three conditions: a water supply, a geothermal heat source, and a narrow pressure-tight underground 'plumbing' system in the rock that allows pressure to build until a violent eruption occurs. None of the other options describe this mechanism.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx744dmhdym308s9bg3wqfvhn985pf21",
+    "options": [
+      {
+        "key": "A",
+        "text": "A vacuum in the underground chamber"
+      },
+      {
+        "key": "B",
+        "text": "A constant supply of cold air"
+      },
+      {
+        "key": "C",
+        "text": "A pressure-tight underground plumbing system with a heat source and water supply"
+      },
+      {
+        "key": "D",
+        "text": "The presence of oil shale"
+      }
+    ],
+    "sectionId": "harnessing-geothermal-energy",
+    "sectionLabel": "Harnessing Geothermal Energy",
+    "stem": "What physical condition is necessary for the formation of a geyser?",
+    "topicId": "ms75nthvf5w9tcvmhx7wmqkb9185p35j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "geothermal-energy",
+    "topicTitle": "5.14 Geothermal Energy",
+    "_id": "k97ctz9n4ndczd1kwfhmb79sys85p7ms",
+    "correctKey": "C",
+    "explanation": "Since Hot Dry Rocks lack natural water, water is pumped down from the surface under pressure to absorb heat from the rock and return as steam or hot water, which can then drive turbines or provide direct heating.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx744dmhdym308s9bg3wqfvhn985pf21",
+    "options": [
+      {
+        "key": "A",
+        "text": "Liquid magma"
+      },
+      {
+        "key": "B",
+        "text": "Molten salt"
+      },
+      {
+        "key": "C",
+        "text": "Pressurized water injected from the surface"
+      },
+      {
+        "key": "D",
+        "text": "Natural gas deposits"
+      }
+    ],
+    "sectionId": "harnessing-geothermal-energy",
+    "sectionLabel": "Harnessing Geothermal Energy",
+    "stem": "In a 'Hot Dry Rock' (HDR) geothermal system, what is the primary medium used to transport heat to the surface?",
+    "topicId": "ms75nthvf5w9tcvmhx7wmqkb9185p35j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "geothermal-energy",
+    "topicTitle": "5.14 Geothermal Energy",
+    "_id": "k97de2nw8c8q6185xzt9eyjze18ccbrn",
+    "correctKey": "A",
+    "explanation": "The live note lists geysers among the natural manifestations of geothermal energy at the surface.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx744dmhdym308s9bg3wqfvhn985pf21",
+    "options": [
+      {
+        "key": "A",
+        "text": "A geyser"
+      },
+      {
+        "key": "B",
+        "text": "A coal seam"
+      },
+      {
+        "key": "C",
+        "text": "A wind turbine"
+      },
+      {
+        "key": "D",
+        "text": "A nuclear reactor"
+      }
+    ],
+    "sectionId": "harnessing-geothermal-energy",
+    "sectionLabel": "Harnessing Geothermal Energy",
+    "sourceRef": {
+      "chapterNumber": 5,
+      "page": 85,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which is a natural manifestation of geothermal energy?",
+    "topicId": "ms75nthvf5w9tcvmhx7wmqkb9185p35j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "geothermal-energy",
+    "topicTitle": "5.14 Geothermal Energy",
+    "_id": "k977ffxh44krjqbh1awj6kkq7x8bcqqp",
+    "correctKey": "B",
+    "explanation": "'Geothermal' comes from geo (Earth) and therme (heat), reflecting that this energy is the natural heat stored within the Earth's crust.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx744dmhdym308s9bg3wqfvhn985pf21",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sun and fire"
+      },
+      {
+        "key": "B",
+        "text": "Earth and heat"
+      },
+      {
+        "key": "C",
+        "text": "Water and pressure"
+      },
+      {
+        "key": "D",
+        "text": "Rock and steam"
+      }
+    ],
+    "sectionId": "heat-from-within-the-earth",
+    "sectionLabel": "Heat from Within the Earth",
+    "stem": "The word 'geothermal' comes from Greek roots meaning:",
+    "topicId": "ms75nthvf5w9tcvmhx7wmqkb9185p35j"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "05-work-and-kinetic-energy",
+    "chapterTitle": "Work And Kinetic Energy",
+    "topicSlug": "geothermal-energy",
+    "topicTitle": "5.14 Geothermal Energy",
+    "_id": "k972ynh0fkjppyhkxm0hz9ebz585p9v0",
+    "correctKey": "B",
+    "explanation": "The Earth's internal heat comes mainly from radioactive decay of elements like uranium, thorium, and potassium, combined with residual primordial heat from planetary formation, not from combustion, tidal forces, or solar absorption.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx744dmhdym308s9bg3wqfvhn985pf21",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chemical combustion of fossil fuels"
+      },
+      {
+        "key": "B",
+        "text": "Radioactive decay of unstable isotopes and residual planetary heat"
+      },
+      {
+        "key": "C",
+        "text": "Gravitational tidal forces from the Moon"
+      },
+      {
+        "key": "D",
+        "text": "Solar radiation absorbed by the crust"
+      }
+    ],
+    "sectionId": "sources-of-geothermal-heat",
+    "sectionLabel": "Sources of Geothermal Heat",
+    "stem": "Geothermal energy is primarily derived from which of the following processes within the Earth?",
+    "topicId": "ms75nthvf5w9tcvmhx7wmqkb9185p35j"
+  }
+]

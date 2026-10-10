@@ -1,0 +1,207 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "07-deformation-of-solids",
+    "chapterTitle": "Deformation Of Solids",
+    "topicSlug": "classification-of-solids",
+    "topicTitle": "7.1 Classification of Solids",
+    "_id": "m170rbvrw36b2r0xy2rgbm7y4n85qfxp",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Crystalline solids have ordered crystal lattice structure; amorphous solids have random atomic arrangement",
+      "Crystalline solids have sharp melting point; amorphous solids have broad melting range",
+      "Crystalline solids are anisotropic (properties vary with direction); amorphous solids are isotropic (uniform properties)",
+      "Crystalline solids have definite geometric shape with flat faces; amorphous solids have irregular shapes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Crystalline solids have a highly ordered, three-dimensional arrangement of atoms in a regular repeating pattern (crystal lattice), while amorphous solids lack this long-range order and have a random atomic arrangement. Crystalline solids possess a sharp, well-defined melting point and exhibit anisotropic properties (varying with direction), whereas amorphous solids have a broad melting range and display isotropic properties (uniform in all directions). Additionally, crystalline solids have a definite geometric shape with flat faces and sharp edges, while amorphous solids have irregular shapes with no defined geometry.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionId": "comparing-solid-structures",
+    "sectionLabel": "Comparing Solid Structures",
+    "session": "annual",
+    "stem": "Differentiate between **crystalline solids** and **amorphous solids**. (Give at least three differences.)",
+    "topicId": "ms7adezddm23k07y7n404yabkx85qzwc",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "07-deformation-of-solids",
+    "chapterTitle": "Deformation Of Solids",
+    "topicSlug": "deformation-in-solids",
+    "topicTitle": "7.2 Deformation in Solids",
+    "_id": "m1752x065k0deeejtprxzdzsj185qnwe",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A dimensionless quantity is one that has no dimensions, meaning it cannot be expressed in terms of the base quantities [M], [L], [T], [A], [K], [cd], or [mol]. Examples include ratios, angles (in radians), refractive index, and relative density, which are formed by dividing quantities of the same dimension.",
+    "keyPoints": [
+      "Dimensionless quantities have no base dimension symbols",
+      "They result from ratios of quantities with identical dimensions",
+      "Common examples: angles (radians), refractive index, strain, relative density",
+      "Dimensionless quantities are pure numbers without units",
+      "They are useful in physics for comparing similar physical quantities"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A dimensionless quantity is one that has no dimensions, meaning it cannot be expressed in terms of the base quantities [M], [L], [T], [A], [K], [cd], or [mol]. Examples include ratios, angles (in radians), refractive index, and relative density, which are formed by dividing quantities of the same dimension.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Strain"
+      },
+      {
+        "key": "B",
+        "text": "Spring constant 'K'"
+      },
+      {
+        "key": "C",
+        "text": "Young's constant 'Y'"
+      },
+      {
+        "key": "D",
+        "text": "Stress"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "types-of-physical-quantities",
+    "sectionLabel": "Types of Physical Quantities",
+    "session": "annual",
+    "stem": "Which one of the following is a **dimensionless quantity**?",
+    "topicId": "ms7fcfdbgxktp8x65vjw4z5e7585p5vc",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "07-deformation-of-solids",
+    "chapterTitle": "Deformation Of Solids",
+    "topicSlug": "deformation-in-solids",
+    "topicTitle": "7.2 Deformation in Solids",
+    "_id": "m170c0acmpq2fr2spg5jzgb6sx85q0z8",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Young's Modulus is defined as $Y = \\frac{\\text{Tensile Stress}}{\\text{Tensile Strain}} = \\frac{F/A}{\\Delta L/L}$, where $F$ is the applied force, $A$ is the cross-sectional area, $\\Delta L$ is the change in length, and $L$ is the original length. It measures a material's stiffness and resistance to tensile deformation.",
+    "keyPoints": [
+      "Young's Modulus is the ratio of tensile stress to tensile strain",
+      "Formula: $Y = \\frac{F/A}{\\Delta L/L}$ or $Y = \\frac{FL}{A\\Delta L}$",
+      "It quantifies material stiffness and elastic resistance to elongation",
+      "Higher Young's Modulus indicates a stiffer material with greater resistance to deformation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Young's Modulus is defined as $Y = \\frac{\\text{Tensile Stress}}{\\text{Tensile Strain}} = \\frac{F/A}{\\Delta L/L}$, where $F$ is the applied force, $A$ is the cross-sectional area, $\\Delta L$ is the change in length, and $L$ is the original length. It measures a material's stiffness and resistance to tensile deformation.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\Delta L / L}{F / A}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{FA}{\\Delta L \\cdot L}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\Delta L \\cdot L}{FA}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{F / A}{\\Delta L / L}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "4-modulus-of-elasticity",
+    "sectionLabel": "4. Modulus of Elasticity",
+    "session": "annual",
+    "stem": "Young's Modulus, $Y =$",
+    "topicId": "ms7fcfdbgxktp8x65vjw4z5e7585p5vc",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "07-deformation-of-solids",
+    "chapterTitle": "Deformation Of Solids",
+    "topicSlug": "elastic-potential-energy",
+    "topicTitle": "7.3 Elastic Potential Energy",
+    "_id": "m176gb21t21bm1vkmxcz0dcf0585qach",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Elastic potential energy is energy stored in deformed elastic material equal to work done by applied force",
+      "Derived from Hooke's Law: $F = kx$ and work integral $W = \\int_0^x kx \\, dx$",
+      "Final relation: $E_p = \\frac{1}{2}kx^2$ or $E_p = \\frac{1}{2}Y(\\text{Strain})^2 \\times \\text{Volume}$",
+      "Energy is released when external force is removed (within elastic limit)",
+      "Graphically represented by area under force-extension curve"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Elastic Potential Energy** is the energy stored in an elastic material when it is temporarily deformed by an external force such as stretching, compressing, or twisting. This stored energy equals the work done to deform the object and is released when the external force is removed, allowing the object to return to its original shape (provided deformation is within the elastic limit).\n\n**Derivation of Elastic Potential Energy:**\n\nConsider a metallic wire stretched by an applied force $F$. According to Hooke's Law:\n$$F = kx$$\nwhere $k$ is the spring constant and $x$ is the extension.\n\nThe work done in stretching the wire by a small distance $dx$ is:\n$$dW = F \\cdot dx = kx \\cdot dx$$\n\nTo find total work done in extending the wire from 0 to extension $x$:\n$$W = \\int_0^x kx \\, dx = k \\left[\\frac{x^2}{2}\\right]_0^x = \\frac{1}{2}kx^2$$\n\nThis work is stored as elastic potential energy:\n$$\\boxed{E_p = \\frac{1}{2}kx^2}$$\n\nAlternatively, using stress and strain:\n$$E_p = \\frac{1}{2} \\times \\text{Stress} \\times \\text{Strain} \\times \\text{Volume}$$\n\nOr in terms of Young's modulus:\n$$E_p = \\frac{1}{2}Y \\times (\\text{Strain})^2 \\times \\text{Volume}$$\n\nThis energy is represented by the area under the force-extension graph for elastic deformation.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionId": "formulas-for-elastic-potential-energy",
+    "sectionLabel": "Formulas for Elastic Potential Energy",
+    "session": "annual",
+    "stem": "What is meant by **elastic potential energy**? Find a relation for the elastic potential energy of a material.",
+    "topicId": "ms72nvrckam6drbyqyz155sad185q0yk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "07-deformation-of-solids",
+    "chapterTitle": "Deformation Of Solids",
+    "topicSlug": "elastic-potential-energy",
+    "topicTitle": "7.3 Elastic Potential Energy",
+    "_id": "m17a1bwn0kepnp5symkg7n0jts85pd4r",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When a mass-spring system is pulled slowly from the mean position to displacement $x_o$, the work done equals the elastic potential energy stored in the spring. Using Hooke's Law, the work done is $W = \\frac{1}{2}kx_o^2$, where $k$ is the spring constant. This work is stored as elastic potential energy in the deformed spring.",
+    "keyPoints": [
+      "Work done equals elastic potential energy stored: $W = \\frac{1}{2}kx_o^2$",
+      "Force varies linearly with displacement according to Hooke's Law ($F = kx$)",
+      "Work calculated from area under force-extension graph (triangular area)",
+      "Slow pulling ensures quasi-static process with negligible kinetic energy",
+      "All work done is converted to elastic potential energy in the spring"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When a mass-spring system is pulled slowly from the mean position to displacement $x_o$, the work done equals the elastic potential energy stored in the spring. Using Hooke's Law, the work done is $W = \\frac{1}{2}kx_o^2$, where $k$ is the spring constant. This work is stored as elastic potential energy in the deformed spring.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$Kx_o$"
+      },
+      {
+        "key": "B",
+        "text": "$Kx_o^2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{2} Kx_o$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{2} Kx_o^2$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "formulas-for-elastic-potential-energy",
+    "sectionLabel": "Formulas for Elastic Potential Energy",
+    "session": "annual",
+    "stem": "A mass spring system is pulled slowly from mean position to ($x_o$) then the amount of work done will be:",
+    "topicId": "ms72nvrckam6drbyqyz155sad185q0yk",
+    "year": 2024
+  }
+]

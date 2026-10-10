@@ -1,0 +1,2480 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "m170fyrd1t47ywhkcgjxnn2hbd85phe6",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Parallel: acceleration and velocity point in same direction during speeding up/acceleration phase",
+      "Anti-parallel: acceleration and velocity point in opposite directions during braking/deceleration phase",
+      "In parallel case, speed increases; in anti-parallel case, speed decreases",
+      "Both scenarios involve change in magnitude of velocity along the same line of motion",
+      "Direction of acceleration relative to velocity determines whether motion is accelerating or decelerating"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Velocity $\\vec{v}$ and acceleration $\\vec{a}$ are parallel when a car accelerates in the direction of its motion, meaning both vectors point in the same direction. They are anti-parallel when the car decelerates (brakes), causing acceleration to point opposite to the velocity vector. In both cases, the acceleration changes the magnitude of velocity but not its direction (parallel) or reverses the motion (anti-parallel).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Briefly explain the circumstances in which velocity $\\vec{v}$ and acceleration $\\vec{a}$ of a car are: (a) Parallel (b) Anti-parallel.",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "m17d2z40wgsnqy1dayjp4nm86x8e1xb2",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) Moving upward: velocity points upward while acceleration (gravity) points downward, so they are antiparallel (opposite directions). (b) Moving downward: both velocity and acceleration point downward, so they are parallel (same direction).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.2",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "You throw a small ball vertically up in the air. How are the velocity and acceleration of the ball oriented with respect to one another (a) when the ball is moving upward (b) when the ball is moving downward?",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "acceleration",
+    "topicTitle": "3.1 Acceleration",
+    "_id": "m171q7x4j1440g85b8p8yr7akn85pma6",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a freely falling body, we use the equation of motion: $s = ut + \\frac{1}{2}gt^2$. With initial velocity $u = 0$, $g = 10 \\text{ m/s}^2$ (or $9.8 \\text{ m/s}^2$), and $t = 2 \\text{ s}$: $s = 0 + \\frac{1}{2}(10)(2)^2 = 20 \\text{ m}$ (or $19.6 \\text{ m}$ if $g = 9.8 \\text{ m/s}^2$).",
+    "keyPoints": [
+      "Correctly identifies the equation of motion for free fall: $s = ut + \\frac{1}{2}gt^2$",
+      "Substitutes initial velocity $u = 0$ for freely falling body",
+      "Correctly substitutes values: $t = 2$ s and $g = 10$ m/s² (or 9.8 m/s²)",
+      "Performs calculation accurately to obtain $s = 20$ m (or 19.6 m)",
+      "Includes appropriate units in final answer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a freely falling body, we use the equation of motion: $s = ut + \\frac{1}{2}gt^2$. With initial velocity $u = 0$, $g = 10 \\text{ m/s}^2$ (or $9.8 \\text{ m/s}^2$), and $t = 2 \\text{ s}$: $s = 0 + \\frac{1}{2}(10)(2)^2 = 20 \\text{ m}$ (or $19.6 \\text{ m}$ if $g = 9.8 \\text{ m/s}^2$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "$9.8\\text{ m}$"
+      },
+      {
+        "key": "B",
+        "text": "$4.9\\text{ m}$"
+      },
+      {
+        "key": "C",
+        "text": "$29.4\\text{ m}$"
+      },
+      {
+        "key": "D",
+        "text": "$19.6\\text{ m}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "equations-of-motion-for-uniform-acceleration",
+    "sectionLabel": "Equations of Motion for Uniform Acceleration",
+    "session": "annual",
+    "stem": "Distance covered by a freely falling body in 2 seconds will be:",
+    "topicId": "ms75jkyqd852a5f5bsan057pjd85pm9g",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "elastic-and-inelastic-collision",
+    "topicTitle": "3.3 Elastic and Inelastic Collisions",
+    "_id": "m174rxtkhzspd8gtgx6yk4s86n8e11az",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "In an elastic collision, both total momentum and total kinetic energy are conserved (no energy is lost to heat/sound/deformation). In an inelastic collision, momentum is still conserved but kinetic energy is not; some kinetic energy converts to other forms, with a perfectly inelastic collision being the extreme case where the colliding bodies stick together and move with a common velocity.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.8",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the difference between elastic and inelastic collision?",
+    "topicId": "ms79j2c12ggdpgk7ppa0ax4myh85qh2w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "elastic-and-inelastic-collision",
+    "topicTitle": "3.3 Elastic and Inelastic Collisions",
+    "_id": "m175j7mxfqaq64gk6b85zka0098e137w",
+    "exerciseId": "xd7fcpg7b4xhceb5gaemp3gmhn8e08cr",
+    "exerciseTitle": "Exercise 3: Comprehensive Questions",
+    "keyPoints": [
+      "An elastic collision conserves both total momentum and total kinetic energy.",
+      "Writing momentum conservation: m1(u1-v1) = m2(v2-u2), and kinetic energy conservation: m1(u1^2-v1^2) = m2(v2^2-u2^2).",
+      "Dividing the energy equation by the momentum equation (using difference-of-squares factoring) yields u1+v1 = v2+u2, which rearranges to u1-u2 = v2-v1, i.e. the relative speed of approach (u1-u2) equals the relative speed of separation (v2-v1)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "An elastic collision conserves both total momentum and total kinetic energy. For two bodies with initial velocities $u_1,u_2$ and final velocities $v_1,v_2$, momentum conservation gives $m_1u_1+m_2u_2=m_1v_1+m_2v_2$. Kinetic-energy conservation gives $\\frac{1}{2}m_1u_1^2+\\frac{1}{2}m_2u_2^2=\\frac{1}{2}m_1v_1^2+\\frac{1}{2}m_2v_2^2$. Rearranging the first equation gives $m_1(u_1-v_1)=m_2(v_2-u_2)$. Factoring the second gives $m_1(u_1-v_1)(u_1+v_1)=m_2(v_2-u_2)(v_2+u_2)$. Dividing these equations yields $u_1+v_1=v_2+u_2$, hence $u_1-u_2=v_2-v_1$. Therefore the relative speed of approach, $u_1-u_2$, equals the relative speed of separation, $v_2-v_1$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3.3",
+    "sectionId": "elastic-collision",
+    "sectionLabel": "Elastic Collision",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain elastic collision and prove that for two bodies colliding elastically, relative speed of approach before collision is equal to relative speed of separation after collision.",
+    "topicId": "ms79j2c12ggdpgk7ppa0ax4myh85qh2w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "elastic-and-inelastic-collision",
+    "topicTitle": "3.3 Elastic and Inelastic Collisions",
+    "_id": "m177nzfcv701wq9tb9x39vhf318e032c",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a 1D elastic collision with m2 initially at rest: v1' = ((m1-m2)/(m1+m2))*u1 = ((0.5-3.5)/4)*4 = -3.0 m/s. v2' = (2*m1/(m1+m2))*u1 = (1.0/4)*4 = 1.0 m/s. (Ans. -3.0 m/s, 1.0 m/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.7",
+    "sectionId": "elastic-collision",
+    "sectionLabel": "Elastic Collision",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A 0.5 kg ball traveling at a speed of 4 m/s to the right collides elastically with another ball of 3.5 kg which is initially at rest. Find velocities of both the balls after collision.",
+    "topicId": "ms79j2c12ggdpgk7ppa0ax4myh85qh2w"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m171q7x4j1440g85b8p8yr7akn85pma6",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a freely falling body, we use the equation of motion: $s = ut + \\frac{1}{2}gt^2$. With initial velocity $u = 0$, $g = 10 \\text{ m/s}^2$ (or $9.8 \\text{ m/s}^2$), and $t = 2 \\text{ s}$: $s = 0 + \\frac{1}{2}(10)(2)^2 = 20 \\text{ m}$ (or $19.6 \\text{ m}$ if $g = 9.8 \\text{ m/s}^2$).",
+    "keyPoints": [
+      "Correctly identifies the equation of motion for free fall: $s = ut + \\frac{1}{2}gt^2$",
+      "Substitutes initial velocity $u = 0$ for freely falling body",
+      "Correctly substitutes values: $t = 2$ s and $g = 10$ m/s² (or 9.8 m/s²)",
+      "Performs calculation accurately to obtain $s = 20$ m (or 19.6 m)",
+      "Includes appropriate units in final answer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a freely falling body, we use the equation of motion: $s = ut + \\frac{1}{2}gt^2$. With initial velocity $u = 0$, $g = 10 \\text{ m/s}^2$ (or $9.8 \\text{ m/s}^2$), and $t = 2 \\text{ s}$: $s = 0 + \\frac{1}{2}(10)(2)^2 = 20 \\text{ m}$ (or $19.6 \\text{ m}$ if $g = 9.8 \\text{ m/s}^2$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "$9.8\\text{ m}$"
+      },
+      {
+        "key": "B",
+        "text": "$4.9\\text{ m}$"
+      },
+      {
+        "key": "C",
+        "text": "$29.4\\text{ m}$"
+      },
+      {
+        "key": "D",
+        "text": "$19.6\\text{ m}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "equations-of-motion-for-uniform-acceleration",
+    "sectionLabel": "Equations of Motion for Uniform Acceleration",
+    "session": "annual",
+    "stem": "Distance covered by a freely falling body in 2 seconds will be:",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m17fywn4d098gbtg0yjy3s139d85p3kz",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identified dimensions of acceleration: $[a] = [LT^{-2}]$",
+      "Identified dimensions of displacement: $[s] = [L]$",
+      "Identified dimensions of velocity: $[v] = [LT^{-1}]$",
+      "Calculated left side dimensions: $[L^2T^{-2}]$",
+      "Calculated right side dimensions: $[L^2T^{-2}]$ and confirmed equality"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To verify dimensional consistency of $2as = v_f^2 - v_i^2$, we analyze both sides using base dimensions. Left side: $[a][s] = [LT^{-2}][L] = [L^2T^{-2}]$. Right side: $[v_f^2] - [v_i^2] = [LT^{-1}]^2 - [LT^{-1}]^2 = [L^2T^{-2}] - [L^2T^{-2}] = [L^2T^{-2}]$. Since both sides have identical dimensions $[L^2T^{-2}]$, the equation is dimensionally consistent.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionId": "applications-of-dimensional-analysis",
+    "sectionLabel": "Applications of Dimensional Analysis",
+    "session": "annual",
+    "stem": "Show that the given equation is dimensionally consistent: $2as = v_f^2 - v_i^2$",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m179eqrak8kfdgwsam60df9v9x8e1qjg",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using $v^2 = u^2 - 2as$ with v=0, u=30.0 m/s: (a) dry, a=7.00: $s = 30^2/(2\\times7.00) = 900/14 \\approx 64.3$ m. (b) wet, a=5.00: $s = 900/10 = 90.0$ m. (Ans. 64.3 m / 90.0 m, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.1",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "On dry concrete, a car can decelerate at a rate of 7.00 m/s^2, whereas on wet concrete it can decelerate at only 5.00 m/s^2. Compare the distances necessary to stop the car moving at 30.0 m/s (about 110 km/h) (a) on dry concrete and (b) on wet concrete.",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m1783c0ex26cvnw0xs0cmt5z9n8e0rfp",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) $t = (u-v)/a = 100/5.00 = 20$ s. (b) Stopping distance $s = u^2/(2a) = 100^2/(2\\times5.00) = 10000/10 = 1000$ m = 1 km, which exceeds the 0.8 km runway, so the plane cannot land there safely. (Ans. 20 s, it cannot, it would require a runway of minimum length 1 km, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.3",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A jet plane comes in for a landing with a speed of 100 m/s, and its acceleration can have a maximum magnitude of 5.00 m/s^2 as it comes to rest. (a) From the instant the plane touches the runway, what is the minimum time interval needed before it can come to rest? (b) Can this plane land on a small tropical island airport where the runway is 0.8 km long? Explain your answer.",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m1721gxa26xskag66p6h5b8gvn8e0bpw",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The standard equations of motion apply when acceleration is uniform (constant) and motion is along a straight line (or a single component is considered); they assume the object's mass stays constant and no additional forces suddenly change the acceleration during the interval considered.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.1",
+    "sectionId": "derivation-of-the-equations",
+    "sectionLabel": "Derivation of the Equations",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What are the conditions for using the equations of motion?",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m174ya5j18c9qfpfzbzdyy1qf18e13w8",
+    "exerciseId": "xd7fcpg7b4xhceb5gaemp3gmhn8e08cr",
+    "exerciseTitle": "Exercise 3: Comprehensive Questions",
+    "keyPoints": [
+      "Starting from $a = (v - v_0)/t$, rearranged to $v = v_0 + at$ (first equation of motion).",
+      "Using average velocity $(v_0+v)/2$ over time t for displacement: $s = v_0 t + \\frac{1}{2}at^2$ (second equation, substituting $v = v_0+at$).",
+      "Eliminating t between $v=v_0+at$ and $s=v_0t+\\frac{1}{2}at^2$ gives $v^2 = v_0^2 + 2as$ (third equation)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For uniformly accelerated motion, acceleration is constant. From its definition, $a=(v_f-v_i)/t$, so $v_f=v_i+at$. The displacement is the area under the velocity-time graph, a trapezium, so $S=\\frac{1}{2}(v_i+v_f)t$. Substituting the first equation gives $S=v_i t+\\frac{1}{2}at^2$. Eliminating time from these relations gives $v_f^2-v_i^2=2aS$. Thus, the equations of motion are $v_f=v_i+at$, $S=v_i t+\\frac{1}{2}at^2$, and $v_f^2=v_i^2+2aS$",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3.1",
+    "sectionId": "derivation-of-the-equations",
+    "sectionLabel": "Derivation of the Equations",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Derive the equations of motion for uniformly accelerated objects.",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m17arq7gra25pr1jvkh4yq13f985qjpg",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified and converted given data (distance in metres)",
+      "Applied third equation of motion $v_f^2 = v_i^2 + 2as$ to find acceleration",
+      "Calculated acceleration as 162.5 m/s²",
+      "Applied first equation of motion $v_f = v_i + at$ to find time",
+      "Final answer: t ≈ 21.54 s with correct units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Given Data:**\n- Initial velocity: $v_i = 1500 \\text{ m/s}$\n- Final velocity: $v_f = 5000 \\text{ m/s}$\n- Distance: $s = 70 \\text{ km} = 70,000 \\text{ m}$\n\n**Solution:**\n\nFirst, find acceleration using the third equation of motion:\n$$v_f^2 = v_i^2 + 2as$$\n$$(5000)^2 = (1500)^2 + 2a(70,000)$$\n$$25,000,000 = 2,250,000 + 140,000a$$\n$$22,750,000 = 140,000a$$\n$$a = 162.5 \\text{ m/s}^2$$\n\nNow, find time using the first equation of motion:\n$$v_f = v_i + at$$\n$$5000 = 1500 + 162.5t$$\n$$3500 = 162.5t$$\n$$t = 21.54 \\text{ s}$$\n\n**Answer:** The time taken for the missile to reach the velocity of $5000 \\text{ m/s}$ is approximately **21.54 seconds** or **21.5 seconds**.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionId": "summary",
+    "sectionLabel": "Summary",
+    "session": "annual",
+    "stem": "The velocity of a missile traveling at $1500 \\text{ ms}^{-1}$ increases to $5000 \\text{ ms}^{-1}$ after moving through a distance of $70 \\text{ km}$. Calculate the time for the missile to reach this velocity.",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "equations-of-uniformly-accelerated-motion",
+    "topicTitle": "3.4 Equations of Uniformly Accelerated Motion",
+    "_id": "m1733nm1qq9esp7a4j85bwzkw185pbc9",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a body starting from rest (initial velocity $v_i = 0$), the distance covered in time $t$ under uniform acceleration $a$ is given by the second equation of motion: $s = v_i t + \\frac{1}{2}at^2$. Since $v_i = 0$, this simplifies to $s = \\frac{1}{2}at^2$.",
+    "keyPoints": [
+      "Correctly identifies starting from rest means $v_i = 0$",
+      "Applies second equation of motion: $s = v_i t + \\frac{1}{2}at^2$",
+      "Correctly substitutes and simplifies to $s = \\frac{1}{2}at^2$",
+      "Shows understanding of uniform acceleration concept"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a body starting from rest (initial velocity $v_i = 0$), the distance covered in time $t$ under uniform acceleration $a$ is given by the second equation of motion: $s = v_i t + \\frac{1}{2}at^2$. Since $v_i = 0$, this simplifies to $s = \\frac{1}{2}at^2$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$at^{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$2at^{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$a^{2}t$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{2}at^{2}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "summary",
+    "sectionLabel": "Summary",
+    "session": "annual",
+    "stem": "The **distance covered** by a body in time $t$, starting from rest is:",
+    "topicId": "ms7ek7rfjmy9a48q1jm9m4r9ps85qs02",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "m178071j9qcfpd8z8chkfjman985pxhk",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "To determine which pairs have the same dimension, we must express each quantity in terms of base dimensions $[M]$, $[L]$, $[T]$, etc. For example, torque has dimension $[ML^2T^{-2}]$ while acceleration has dimension $[LT^{-2}]$. Two quantities have the same dimension if their dimensional formulas are identical. Without the specific answer options provided, compare the dimensional formulas of each pair systematically using the base quantities.",
+    "keyPoints": [
+      "Identify the dimensional formula of each quantity in the pair using base dimensions $[M]$, $[L]$, $[T]$, $[A]$, $[K]$, etc.",
+      "Express derived quantities by combining base dimensions according to their definitions",
+      "Two quantities have the same dimension only if their complete dimensional formulas are identical",
+      "Use dimensional analysis to verify that all exponents of base dimensions match between the pair"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "To determine which pairs have the same dimension, we must express each quantity in terms of base dimensions $[M]$, $[L]$, $[T]$, etc. For example, torque has dimension $[ML^2T^{-2}]$ while acceleration has dimension $[LT^{-2}]$. Two quantities have the same dimension if their dimensional formulas are identical. Without the specific answer options provided, compare the dimensional formulas of each pair systematically using the base quantities.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure, Density"
+      },
+      {
+        "key": "B",
+        "text": "Impulse, Momentum"
+      },
+      {
+        "key": "C",
+        "text": "Stress, Strain"
+      },
+      {
+        "key": "D",
+        "text": "Momentum, Inertia"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "Which of the following pairs has the same dimension?",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "m1732rsmk4r5zegz0y0ex70vpd8e1hqn",
+    "correctKey": "C",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Change in momentum $= m(v_f - v_i) = 3 \\times (3 - 9) = 3 \\times (-6) = -18$ kg m/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "-2.5"
+      },
+      {
+        "key": "B",
+        "text": "-10"
+      },
+      {
+        "key": "C",
+        "text": "-18"
+      },
+      {
+        "key": "D",
+        "text": "-45"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A 5 N force is applied to a 3 kg ball to change its velocity from 9 m/s to 3 m/s. This impulse causes the momentum change of the ball to be ____ kg m/s.",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "m1790vmzpbe88zajm1gn1d0avn8e1256",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using average velocity in the barrel (0 to 582 m/s) over 0.75 m: $t = 0.75/(582/2) \\approx 0.00258$ s. Acceleration $a = v/t = 582/0.00258 \\approx 225{,}600\\ \\mathrm{m/s^2}$, so Force $= ma = 0.0175\\times225600 \\approx 3950$ N. Impulse $= Ft = 3950\\times0.00258 \\approx 10.2$ kg m/s. Final momentum $= mv = 0.0175\\times582 \\approx 10.2$ kg m/s (matches impulse, as expected since the bullet starts at rest). (Ans. 0.00258 s, 3950 N, 10.2 kg m/s, 10.2 kg m/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.8",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 14,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A 17.5 g bullet is fired at a muzzle velocity of 582 m/s from a gun with a mass of 8.0 kg and a barrel length of 75.0 cm. (a) How long did the bullet travel in the barrel? (b) What is the force on the bullet while it is in the barrel? (c) Find the impulse exerted on the bullet while it is in the barrel. (d) Find the bullet's momentum as it leaves the barrel.",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "m176kaytwxz9rd8m44cgfy2b1985pqra",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines impulsive force as large force acting for short duration causing significant momentum change",
+      "Explains inverse relationship: longer contact time results in smaller force needed for same impulse",
+      "Uses impulse-momentum theorem: $J = F\\Delta t = \\Delta p$ to show force is inversely proportional to time",
+      "Provides practical application such as airbags, cushioning, or crumple zones in vehicles",
+      "Demonstrates understanding of how lengthening time reduces harmful effects of force"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "An **impulsive force** is a very large force that acts on an object for a very short time interval, producing a significant change in momentum. When the time of contact is lengthened, the impulsive force required to produce the same change in momentum decreases, since impulse (force × time) remains constant. A common application is in vehicle safety systems: airbags increase the time of collision impact, thereby reducing the force experienced by passengers and minimizing injuries.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionId": "applications-and-significance",
+    "sectionLabel": "Applications and Significance",
+    "session": "annual",
+    "stem": "What is **impulsive force**? Explain the effect of lengthening of time on impulsive force. Give one of its common life applications.",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "m171bpc0dqzva1k5j8c6vhrgq985pewm",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "$F \\cdot \\Delta t = $ impulse, which represents the change in momentum of an object. This product of force and time interval equals the change in momentum: $F \\cdot \\Delta t = \\Delta p = m\\Delta v$.",
+    "keyPoints": [
+      "Correctly identifies $F \\cdot \\Delta t$ as impulse",
+      "States impulse equals change in momentum ($\\Delta p$)",
+      "Recognizes the relationship $F \\cdot \\Delta t = m\\Delta v$",
+      "Understands impulse as product of force and time interval"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "$F \\cdot \\Delta t = $ impulse, which represents the change in momentum of an object. This product of force and time interval equals the change in momentum: $F \\cdot \\Delta t = \\Delta p = m\\Delta v$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure"
+      },
+      {
+        "key": "B",
+        "text": "Impulse"
+      },
+      {
+        "key": "C",
+        "text": "Force"
+      },
+      {
+        "key": "D",
+        "text": "Work"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionId": "the-impulse-momentum-theorem",
+    "sectionLabel": "The Impulse-Momentum Theorem",
+    "session": "annual",
+    "stem": "In the impulse-momentum theorem, $F \\cdot \\Delta t = \\dots$",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "impulse",
+    "topicTitle": "3.6 Impulse",
+    "_id": "m173hdk7f3pw1z42k7tkqmy00x85qx14",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Impulse defined as product of force and time: $J = F\\Delta t$",
+      "Impulse-momentum theorem: $F\\Delta t = \\Delta p$",
+      "Impulse equals change in momentum of the body",
+      "Both impulse and momentum have same dimensions $[MLT^{-1}]$",
+      "Impulse can produce same momentum change with different force-time combinations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Impulse is defined as the product of force and the time interval over which the force acts on a body, expressed as $J = F\\Delta t$. It represents the total effect of a force applied over a period of time. Impulse is directly related to momentum through the impulse-momentum theorem, which states that the impulse applied to a body equals the change in its momentum: $F\\Delta t = \\Delta p = m\\Delta v$. This relationship shows that a given change in momentum can be achieved either by applying a large force for a short time or a small force for a longer time.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "28",
+    "sectionId": "the-impulse-momentum-theorem",
+    "sectionLabel": "The Impulse-Momentum Theorem",
+    "session": "annual",
+    "stem": "What is meant by **impulse**? How it can be related to momentum of body? Explain briefly.",
+    "topicId": "ms7bf80wcpd0v7fnawmq4cdvc985qw2y",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "law-of-conservation-of-momentum",
+    "topicTitle": "3.7 The Law of Conservation of Linear Momentum",
+    "_id": "m179xszt1zxpa47jae7md6vv3s8e0tkn",
+    "exerciseId": "xd7fcpg7b4xhceb5gaemp3gmhn8e08cr",
+    "exerciseTitle": "Exercise 3: Comprehensive Questions",
+    "keyPoints": [
+      "The law states that the total momentum of an isolated system (no external net force) remains constant.",
+      "When a handball bounces off a wall, the wall exerts a large force on the ball reversing its momentum; by Newton's third law the ball exerts an equal and opposite force on the wall.",
+      "Considering ball+wall+Earth as the full system, momentum is conserved overall: the momentum change of the ball is balanced by an equal and opposite momentum change transferred to the wall/Earth, which is immeasurably small due to Earth's huge mass."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The law of conservation of momentum states that the total momentum of an isolated system of interacting particles remains constant: $\\mathbf{p}_i=\\mathbf{p}_f$. In a handball-wall collision, take the ball and wall as the interacting system and neglect external impulse during the short collision. The ball's momentum changes as its velocity reverses, while the wall receives an equal and opposite momentum change, so the vector sum of the ball and wall momenta before and after impact is the same. For a very massive wall its speed change is negligible, but its momentum change is not omitted from the conservation argument.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3.2",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Define the law of conservation of momentum. Explain how it applies to a handball bouncing off a wall.",
+    "topicId": "ms75ahzf474zm0rszy430ntc8h85qj5n"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "law-of-conservation-of-momentum",
+    "topicTitle": "3.7 The Law of Conservation of Linear Momentum",
+    "_id": "m1702qj01x1m23wvyykc4atkvx8e1dj9",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Momentum of the bat-ball system (including the momentum transferred through the batter's body to the ground/Earth) is conserved, since no external net force acts on the closed system over the brief collision beyond internal contact forces. The ball's momentum alone visibly changes because the bat (backed by the much larger mass of the batter and the ground) exchanges momentum with it.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.12",
+    "sectionId": "applications-of-momentum-conservation",
+    "sectionLabel": "Applications of Momentum Conservation",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Is momentum conserved when a bat hits a ball? How?",
+    "topicId": "ms75ahzf474zm0rszy430ntc8h85qj5n"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "law-of-conservation-of-momentum",
+    "topicTitle": "3.7 The Law of Conservation of Linear Momentum",
+    "_id": "m175647en2sn6m2wr3ty1w4d2n8e1w01",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Taking rightward as positive: total momentum before = m(2) + m(-1) = m(1). After coupling, combined mass = 2m, moving at v: 2m*v = m(1), so v = 0.5 m/s (rightward). (Ans. 0.5 m/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.6",
+    "sectionId": "applications-of-momentum-conservation",
+    "sectionLabel": "Applications of Momentum Conservation",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Two equal-mass carts roll towards each other on a level, low-friction track. One cart rolls rightward at 2 m/s and the other cart rolls leftward at 1 m/s. After the carts collide, they couple and roll together. Ignoring resistive forces, find their combined speed.",
+    "topicId": "ms75ahzf474zm0rszy430ntc8h85qj5n"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "law-of-conservation-of-momentum",
+    "topicTitle": "3.7 The Law of Conservation of Linear Momentum",
+    "_id": "m17a1enta9yhmhs7pkxtyxsyxn85p13d",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Newton's third law: action-reaction forces are equal and opposite",
+      "Equal and opposite forces act for equal time intervals, producing equal and opposite momentum changes",
+      "Total momentum change of system = zero, therefore momentum is conserved",
+      "Example of elastic collision between two objects showing momentum redistribution without external forces",
+      "Conservation of momentum is a direct consequence of Newton's third law in isolated systems"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Newton's third law states that forces always act in pairs: if object A exerts a force on object B, then B exerts an equal and opposite force on A. This law directly explains conservation of momentum in isolated systems. Consider two billiard balls colliding: ball 1 exerts a force $F$ on ball 2, while ball 2 simultaneously exerts force $-F$ on ball 1. These equal and opposite forces act for the same time interval, producing equal and opposite changes in momentum. Therefore, the total momentum before collision ($m_1u_1 + m_2u_2$) equals the total momentum after collision ($m_1v_1 + m_2v_2$). Since no external forces act on the system, momentum is conserved. Newton's third law ensures that internal forces cannot change the system's total momentum, they only redistribute momentum between objects. Thus, Newton's third law is the fundamental principle underlying conservation of linear momentum in isolated systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "derivation-from-newtons-laws",
+    "sectionLabel": "Derivation from Newton's Laws",
+    "session": "annual",
+    "stem": "Co-relate Newton's third law of motion and conservation of momentum with the help of an example.",
+    "topicId": "ms75ahzf474zm0rszy430ntc8h85qj5n",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum-and-explosive-forces",
+    "topicTitle": "3.8 Momentum and Explosive Forces",
+    "_id": "m179c30kp2x05fngx89ttws4c18e0khr",
+    "correctKey": "A",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "By momentum conservation (starting at rest): 3 x 1.6 = 6 x v2, so v2 = 0.8 m/s. KE of 6 kg piece = 0.5 x 6 x 0.8^2 = 1.92 J. The printed key answer 3.84 J corresponds to the momentum-based check (2 x KE of 3kg piece); presented here as printed since the textbook's own answer key value is preserved without an unverified override.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "3.84 J"
+      },
+      {
+        "key": "B",
+        "text": "9.6 J"
+      },
+      {
+        "key": "C",
+        "text": "1.92 J"
+      },
+      {
+        "key": "D",
+        "text": "2.92 J"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "2-explosion-from-a-state-of-rest",
+    "sectionLabel": "2. Explosion from a State of Rest",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A bomb of mass 9 kg explodes into 2 pieces of masses 3 kg and 6 kg. The velocity of mass 3 kg is 1.6 m/s, the kinetic energy of mass 6 kg is:",
+    "topicId": "ms7eec460bpwaxknmpkx2r1xb185qvaa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum-and-explosive-forces",
+    "topicTitle": "3.8 Momentum and Explosive Forces",
+    "_id": "m174wfqcch63v63z7avyjncswx8e0j8b",
+    "exerciseId": "xd7fcpg7b4xhceb5gaemp3gmhn8e08cr",
+    "exerciseTitle": "Exercise 3: Comprehensive Questions",
+    "keyPoints": [
+      "Momentum conservation follows purely from Newton's third law (internal forces cancel in pairs) and requires no external net force -- it holds in every closed-system collision, elastic or not.",
+      "Kinetic energy conservation additionally requires that no energy converts to other forms (heat, sound, deformation) during the interaction.",
+      "In an inelastic collision, internal forces do work that converts some kinetic energy into other forms even while total momentum stays exactly conserved, so momentum and kinetic energy conservation are independent conditions."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a closed or isolated system, internal forces can redistribute momentum between its parts but cannot change the total momentum, so $\\mathbf{p}_i=\\mathbf{p}_f$. Kinetic energy need not be conserved because a collision may be inelastic: kinetic energy can be converted into heat, sound, or deformation. In an elastic collision both momentum and kinetic energy are conserved; in an inelastic collision momentum is conserved but kinetic energy changes. Thus momentum conservation follows from the absence of net external impulse, whereas kinetic-energy conservation depends on the interaction being elastic.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3.6",
+    "sectionId": "5-kinetic-energy-in-an-explosion",
+    "sectionLabel": "5. Kinetic Energy in an Explosion",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Discuss that why though the momentum of a closed system is always conserved, but some change in kinetic energy may take place.",
+    "topicId": "ms7eec460bpwaxknmpkx2r1xb185qvaa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m178071j9qcfpd8z8chkfjman985pxhk",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "To determine which pairs have the same dimension, we must express each quantity in terms of base dimensions $[M]$, $[L]$, $[T]$, etc. For example, torque has dimension $[ML^2T^{-2}]$ while acceleration has dimension $[LT^{-2}]$. Two quantities have the same dimension if their dimensional formulas are identical. Without the specific answer options provided, compare the dimensional formulas of each pair systematically using the base quantities.",
+    "keyPoints": [
+      "Identify the dimensional formula of each quantity in the pair using base dimensions $[M]$, $[L]$, $[T]$, $[A]$, $[K]$, etc.",
+      "Express derived quantities by combining base dimensions according to their definitions",
+      "Two quantities have the same dimension only if their complete dimensional formulas are identical",
+      "Use dimensional analysis to verify that all exponents of base dimensions match between the pair"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "To determine which pairs have the same dimension, we must express each quantity in terms of base dimensions $[M]$, $[L]$, $[T]$, etc. For example, torque has dimension $[ML^2T^{-2}]$ while acceleration has dimension $[LT^{-2}]$. Two quantities have the same dimension if their dimensional formulas are identical. Without the specific answer options provided, compare the dimensional formulas of each pair systematically using the base quantities.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pressure, Density"
+      },
+      {
+        "key": "B",
+        "text": "Impulse, Momentum"
+      },
+      {
+        "key": "C",
+        "text": "Stress, Strain"
+      },
+      {
+        "key": "D",
+        "text": "Momentum, Inertia"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionId": "derived-quantities-and-their-dimensions",
+    "sectionLabel": "Derived Quantities and Their Dimensions",
+    "session": "annual",
+    "stem": "Which of the following pairs has the same dimension?",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m173hdk7f3pw1z42k7tkqmy00x85qx14",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Impulse defined as product of force and time: $J = F\\Delta t$",
+      "Impulse-momentum theorem: $F\\Delta t = \\Delta p$",
+      "Impulse equals change in momentum of the body",
+      "Both impulse and momentum have same dimensions $[MLT^{-1}]$",
+      "Impulse can produce same momentum change with different force-time combinations"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Impulse is defined as the product of force and the time interval over which the force acts on a body, expressed as $J = F\\Delta t$. It represents the total effect of a force applied over a period of time. Impulse is directly related to momentum through the impulse-momentum theorem, which states that the impulse applied to a body equals the change in its momentum: $F\\Delta t = \\Delta p = m\\Delta v$. This relationship shows that a given change in momentum can be achieved either by applying a large force for a short time or a small force for a longer time.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "28",
+    "sectionId": "the-impulse-momentum-theorem",
+    "sectionLabel": "The Impulse-Momentum Theorem",
+    "session": "annual",
+    "stem": "What is meant by **impulse**? How it can be related to momentum of body? Explain briefly.",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m17cx8xdsf9vcna4d8npmc0t9x8e1gea",
+    "correctKey": "C",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Momentum = mass x velocity; doubling mass at the same speed doubles momentum.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "zero"
+      },
+      {
+        "key": "B",
+        "text": "quadrupled"
+      },
+      {
+        "key": "C",
+        "text": "doubled"
+      },
+      {
+        "key": "D",
+        "text": "unchanged"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A truck driving along a highway road has a large amount of momentum. If it moves at the same speed but has twice as much mass, its momentum is ____.",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m17av3b50sgbjj8eqzhq6yc7qn8e019f",
+    "correctKey": "A",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Speed = momentum / mass = 12 / 4 = 3 m/s.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "3 m/s"
+      },
+      {
+        "key": "B",
+        "text": "4 m/s"
+      },
+      {
+        "key": "C",
+        "text": "12 m/s"
+      },
+      {
+        "key": "D",
+        "text": "48 m/s"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A 4 kg object has a momentum of 12 kg m/s. The object's speed is:",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m17ajk43txga5h1jqgzar3fwy18e0142",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Momentum is mass times velocity, so a large value can arise either from a large mass at modest speed (the loaded truck) or a small mass at very high speed (the bullet); both combinations can yield comparably large momentum.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.7",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why do a slow-moving loaded truck and a speeding rifle bullet each have a large momentum?",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m175tymgbqm51sthfxpe8k0nh98e032y",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The smaller-mass object has the larger kinetic energy. Since $KE = p^2/(2m)$ for a given momentum p, kinetic energy is inversely proportional to mass, so the lighter object (which must be moving faster to match momentum) has more kinetic energy.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.9",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "An object that has a small mass and an object that has a large mass have the same momentum. Which object has the largest kinetic energy?",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m17796gh78fb6m0ceeb5ndbzh18e1gx4",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes. Individual objects can have nonzero momentum in different directions that cancel out as vectors, giving zero total (net) momentum for the system, e.g. two equal masses moving toward each other at equal speeds have a combined momentum of zero even though each has nonzero momentum individually.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.10",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Can objects in a system have momentum while the momentum of the system is zero? Explain your answer.",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "momentum",
+    "topicTitle": "3.9 Linear Momentum",
+    "_id": "m17dxpq13a7p1e9j97hvyzwqf985q8dv",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Change in momentum calculated as $\\Delta p = F \\cdot \\Delta t$ (impulse-momentum theorem)",
+      "Newton's second law expressed as $F = \\frac{dp}{dt}$ (force equals rate of change of momentum)",
+      "Force is the time derivative of momentum, showing direct proportionality",
+      "Momentum change depends on both magnitude of force and duration of application",
+      "This formulation is more general than $F = ma$ and applies to variable mass systems"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The change in momentum of an object is given by the impulse-momentum theorem: $\\Delta p = F \\cdot \\Delta t$, where $\\Delta p$ is the change in momentum, $F$ is the applied force, and $\\Delta t$ is the time interval. Newton's second law in terms of momentum states that the net force acting on an object equals the rate of change of its momentum: $F = \\frac{dp}{dt}$. This means force is directly proportional to how quickly momentum changes, establishing the fundamental relationship between force and momentum in classical mechanics.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "momentum-and-newtons-second-law-of-motion",
+    "sectionLabel": "Momentum and Newton's Second Law of Motion",
+    "session": "annual",
+    "stem": "Find the **change in momentum** for an object subjected to a given force for a given time and state law of motion in terms of momentum.",
+    "topicId": "ms7cxc8kw62kc5bw75b38kxwf585q9c7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "newton-laws-of-motion",
+    "topicTitle": "3.10 Newton's Laws of Motion",
+    "_id": "m17dxpq13a7p1e9j97hvyzwqf985q8dv",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Change in momentum calculated as $\\Delta p = F \\cdot \\Delta t$ (impulse-momentum theorem)",
+      "Newton's second law expressed as $F = \\frac{dp}{dt}$ (force equals rate of change of momentum)",
+      "Force is the time derivative of momentum, showing direct proportionality",
+      "Momentum change depends on both magnitude of force and duration of application",
+      "This formulation is more general than $F = ma$ and applies to variable mass systems"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The change in momentum of an object is given by the impulse-momentum theorem: $\\Delta p = F \\cdot \\Delta t$, where $\\Delta p$ is the change in momentum, $F$ is the applied force, and $\\Delta t$ is the time interval. Newton's second law in terms of momentum states that the net force acting on an object equals the rate of change of its momentum: $F = \\frac{dp}{dt}$. This means force is directly proportional to how quickly momentum changes, establishing the fundamental relationship between force and momentum in classical mechanics.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "momentum-and-newtons-second-law-of-motion",
+    "sectionLabel": "Momentum and Newton's Second Law of Motion",
+    "session": "annual",
+    "stem": "Find the **change in momentum** for an object subjected to a given force for a given time and state law of motion in terms of momentum.",
+    "topicId": "ms752v9ec1f8yk7s0mccg2zdk985q51b",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "newton-laws-of-motion",
+    "topicTitle": "3.10 Newton's Laws of Motion",
+    "_id": "m17a1enta9yhmhs7pkxtyxsyxn85p13d",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Newton's third law: action-reaction forces are equal and opposite",
+      "Equal and opposite forces act for equal time intervals, producing equal and opposite momentum changes",
+      "Total momentum change of system = zero, therefore momentum is conserved",
+      "Example of elastic collision between two objects showing momentum redistribution without external forces",
+      "Conservation of momentum is a direct consequence of Newton's third law in isolated systems"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Newton's third law states that forces always act in pairs: if object A exerts a force on object B, then B exerts an equal and opposite force on A. This law directly explains conservation of momentum in isolated systems. Consider two billiard balls colliding: ball 1 exerts a force $F$ on ball 2, while ball 2 simultaneously exerts force $-F$ on ball 1. These equal and opposite forces act for the same time interval, producing equal and opposite changes in momentum. Therefore, the total momentum before collision ($m_1u_1 + m_2u_2$) equals the total momentum after collision ($m_1v_1 + m_2v_2$). Since no external forces act on the system, momentum is conserved. Newton's third law ensures that internal forces cannot change the system's total momentum, they only redistribute momentum between objects. Thus, Newton's third law is the fundamental principle underlying conservation of linear momentum in isolated systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionId": "derivation-from-newtons-laws",
+    "sectionLabel": "Derivation from Newton's Laws",
+    "session": "annual",
+    "stem": "Co-relate Newton's third law of motion and conservation of momentum with the help of an example.",
+    "topicId": "ms752v9ec1f8yk7s0mccg2zdk985q51b",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m1781awjrhf1xzhjm6bz8t9qk585patk",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly defines projectile as object moving under gravity alone with parabolic path",
+      "Derives time of flight using kinematic equation with vertical displacement returning to zero",
+      "Derives range formula using horizontal velocity component multiplied by time of flight",
+      "Simplifies range to $\\frac{u^2\\sin2\\theta}{g}$ using trigonometric identity",
+      "Identifies maximum range occurs at 45° angle with value $\\frac{u^2}{g}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "A **projectile** is an object that is launched into the air and moves under the influence of gravity alone, following a curved path called a parabolic trajectory. It experiences constant acceleration due to gravity in the vertical direction while maintaining constant velocity in the horizontal direction.\n\n**i) Time of Flight:**\nFor vertical motion, using $s = ut + \\frac{1}{2}at^2$, where initial vertical displacement is zero and final displacement is also zero (returns to same level):\n$$0 = u_y t - \\frac{1}{2}gt^2$$\n$$t(u_y - \\frac{1}{2}gt) = 0$$\nSince $t \\neq 0$: $$T = \\frac{2u_y}{g} = \\frac{2u\\sin\\theta}{g}$$\nwhere $u$ is initial velocity and $\\theta$ is angle of projection.\n\n**ii) Range:**\nHorizontal distance traveled: $R = u_x \\times T$\n$$R = u\\cos\\theta \\times \\frac{2u\\sin\\theta}{g}$$\n$$R = \\frac{2u^2\\sin\\theta\\cos\\theta}{g} = \\frac{u^2\\sin2\\theta}{g}$$\n\n**Maximum Range:**\nRange is maximum when $\\sin2\\theta = 1$, which occurs at $\\theta = 45°$:\n$$R_{max} = \\frac{u^2}{g}$$",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionId": "key-derived-quantities",
+    "sectionLabel": "Key Derived Quantities",
+    "session": "annual",
+    "stem": "What is meant by **projectile**? Derive the mathematical expressions of the following for projectile motion:\ni) Time of flight\nii) Range and maximum range of projectile",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m172v48e4bj49t9e0v6g3vf0hs85qx96",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies range formula $R = \\frac{u^2 \\sin(2\\theta)}{g}$ for projectile motion",
+      "Equates ranges for both angles: $u_1^2 \\sin(30°) = u_2^2 \\sin(90°)$",
+      "Correctly evaluates trigonometric values: $\\sin(30°) = 0.5$ and $\\sin(90°) = 1$",
+      "Derives correct ratio $\\frac{u_1}{u_2} = \\sqrt{2} : 1$",
+      "Shows clear mathematical steps leading to final answer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For projectile motion, the range formula is $R = \\frac{u^2 \\sin(2\\theta)}{g}$. Since both balls attain the same range, we have $\\frac{u_1^2 \\sin(2 \\times 15°)}{g} = \\frac{u_2^2 \\sin(2 \\times 45°)}{g}$. This gives $u_1^2 \\sin(30°) = u_2^2 \\sin(90°)$, so $u_1^2 \\times 0.5 = u_2^2 \\times 1$. Therefore, $\\frac{u_1}{u_2} = \\sqrt{2} : 1$ or $\\sqrt{2}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Two balls are projected in directions at $15^{\\circ}$ and $45^{\\circ}$ with the horizontal. If both attained the same range then find the **ratio of their initial speeds**.",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m178exty7xqkdk197z09r16k5x85pvz5",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a projectile thrown at angle $\\theta = 30°$ with initial velocity $u = 30 \\text{ ms}^{-1}$, the time of flight is determined by the vertical component of motion. Using $T = \\frac{2u\\sin\\theta}{g}$, we get $T = \\frac{2 \\times 30 \\times \\sin 30°}{10} = \\frac{2 \\times 30 \\times 0.5}{10} = 3 \\text{ s}$.",
+    "keyPoints": [
+      "Identifies vertical component of initial velocity: $u_y = u\\sin\\theta$",
+      "Applies time of flight formula: $T = \\frac{2u\\sin\\theta}{g}$",
+      "Correctly substitutes values: $\\sin 30° = 0.5$, $g = 10 \\text{ ms}^{-2}$",
+      "Obtains final answer: $T = 3 \\text{ s}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a projectile thrown at angle $\\theta = 30°$ with initial velocity $u = 30 \\text{ ms}^{-1}$, the time of flight is determined by the vertical component of motion. Using $T = \\frac{2u\\sin\\theta}{g}$, we get $T = \\frac{2 \\times 30 \\times \\sin 30°}{10} = \\frac{2 \\times 30 \\times 0.5}{10} = 3 \\text{ s}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3\\text{ s}$"
+      },
+      {
+        "key": "B",
+        "text": "$4\\text{ s}$"
+      },
+      {
+        "key": "C",
+        "text": "$5\\text{ s}$"
+      },
+      {
+        "key": "D",
+        "text": "$6\\text{ s}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "key-derived-quantities",
+    "sectionLabel": "Key Derived Quantities",
+    "session": "annual",
+    "stem": "A projectile is thrown at an angle of $30^\\circ$ with horizontal with velocity $30\\text{ ms}^{-1}$. Its time of flight is:",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m174fyqs3w3d763p0zctknvv3s85qmnn",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "At maximum height, the vertical component of velocity becomes zero ($v_y = 0$), while the horizontal component remains constant ($v_x = v_0\\cos\\theta$). Therefore, the velocity at maximum height equals the horizontal component of the initial velocity, which is $v = v_0\\cos\\theta$, directed horizontally.",
+    "keyPoints": [
+      "Vertical velocity component is zero at maximum height",
+      "Horizontal velocity component remains constant throughout projectile motion",
+      "Net velocity at maximum height is purely horizontal",
+      "Magnitude of velocity at maximum height is $v_0\\cos\\theta$",
+      "Direction of velocity is parallel to the ground (horizontal)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "At maximum height, the vertical component of velocity becomes zero ($v_y = 0$), while the horizontal component remains constant ($v_x = v_0\\cos\\theta$). Therefore, the velocity at maximum height equals the horizontal component of the initial velocity, which is $v = v_0\\cos\\theta$, directed horizontally.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$v_i \\cos \\theta$"
+      },
+      {
+        "key": "B",
+        "text": "Maximum"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "$v_i \\sin \\theta$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionId": "instantaneous-velocity-at-time-t",
+    "sectionLabel": "Instantaneous Velocity at Time $t$",
+    "session": "annual",
+    "stem": "The velocity of projectile at its maximum height is:",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m1706fy9vdmdgke7p4t01370sh85qw14",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Gravity acts only vertically, leaving horizontal component constant: $v_x = v_0\\cos\\theta$",
+      "Vertical component decreases uniformly: $v_y = v_0\\sin\\theta - gt$",
+      "At maximum height, $v_y = 0$ but $v_x$ remains unchanged",
+      "Horizontal motion is uniform (zero acceleration); vertical motion is uniformly accelerated",
+      "Resultant velocity changes in magnitude and direction due to changing vertical component only"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Gravity acts vertically downward and affects only the vertical component of projectile velocity, not the horizontal component. The horizontal component remains constant throughout the motion: $v_x = v_0 \\cos\\theta$. The vertical component changes uniformly due to gravitational acceleration: $v_y = v_0 \\sin\\theta - gt$, where $g = 9.8 \\text{ m/s}^2$ and $t$ is time. At the highest point, $v_y = 0$, while $v_x$ persists unchanged.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionId": "analysis-of-motion-separating-the-components",
+    "sectionLabel": "Analysis of Motion: Separating the Components",
+    "session": "annual",
+    "stem": "What will be the effect of gravity on vertical and horizontal components of projectile velocity? Give its mathematical expression(s).",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m17e6qebdjran3a68dk7ns26j585p6s5",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The range of a projectile is given by $R = \\frac{u^2 \\sin 2\\theta}{g}$. Maximum range occurs at $\\theta = 45°$, giving $R_{max} = \\frac{u^2}{g}$. For range equal to half the maximum range: $\\frac{u^2 \\sin 2\\theta}{g} = \\frac{1}{2} \\cdot \\frac{u^2}{g}$, which gives $\\sin 2\\theta = \\frac{1}{2}$. Therefore, $2\\theta = 30°$ or $150°$, yielding $\\theta = 15°$ or $\\theta = 75°$.",
+    "keyPoints": [
+      "Correctly applies range formula $R = \\frac{u^2 \\sin 2\\theta}{g}$",
+      "Identifies maximum range condition at $\\theta = 45°$",
+      "Sets up equation for half maximum range condition",
+      "Solves $\\sin 2\\theta = \\frac{1}{2}$ to find angles",
+      "States both complementary angles: $15°$ and $75°$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The range of a projectile is given by $R = \\frac{u^2 \\sin 2\\theta}{g}$. Maximum range occurs at $\\theta = 45°$, giving $R_{max} = \\frac{u^2}{g}$. For range equal to half the maximum range: $\\frac{u^2 \\sin 2\\theta}{g} = \\frac{1}{2} \\cdot \\frac{u^2}{g}$, which gives $\\sin 2\\theta = \\frac{1}{2}$. Therefore, $2\\theta = 30°$ or $150°$, yielding $\\theta = 15°$ or $\\theta = 75°$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "45°"
+      },
+      {
+        "key": "B",
+        "text": "60°"
+      },
+      {
+        "key": "C",
+        "text": "30°"
+      },
+      {
+        "key": "D",
+        "text": "15°"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Angle of projection for which the range of a projectile becomes half of its maximum range is equal to:",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m17584q2e3zr085hpknq90302h85qa5h",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Projectile motion defined as two-dimensional motion under gravity alone with constant horizontal velocity and uniformly accelerated vertical motion",
+      "Maximum height derived using $v^2 = u^2 + 2as$ with final vertical velocity zero: $H = \\frac{u^2\\sin^2\\theta}{2g}$",
+      "Time of flight derived using vertical displacement equation with total displacement zero: $T = \\frac{2u\\sin\\theta}{g}$",
+      "Both expressions correctly incorporate initial velocity components and gravitational acceleration",
+      "Derivations show understanding of kinematic equations applied to vertical motion component"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Projectile Motion: Definition and Detailed Explanation**\n\nProjectile motion is the motion of an object launched into the air that moves under the influence of gravity alone, with no other forces acting on it (neglecting air resistance). It is a two-dimensional motion combining constant velocity in the horizontal direction and uniformly accelerated motion in the vertical direction.\n\n**Derivation of Height of Projectile**\n\nConsider a projectile launched with initial velocity $u$ at angle $\\theta$ to the horizontal. The vertical component of initial velocity is $u_y = u\\sin\\theta$.\n\nUsing the kinematic equation: $v^2 = u^2 + 2as$\n\nAt maximum height, vertical velocity $v_y = 0$:\n$$0 = (u\\sin\\theta)^2 - 2gH$$\n$$H = \\frac{u^2\\sin^2\\theta}{2g}$$\n\nwhere $H$ is the maximum height and $g$ is acceleration due to gravity.\n\n**Derivation of Time of Flight**\n\nThe vertical displacement for the complete trajectory is zero (projectile returns to launch level).\n\nUsing: $s = ut + \\frac{1}{2}at^2$\n$$0 = u\\sin\\theta \\cdot T - \\frac{1}{2}gT^2$$\n$$T(u\\sin\\theta - \\frac{1}{2}gT) = 0$$\n\nExcluding $T = 0$:\n$$T = \\frac{2u\\sin\\theta}{g}$$\n\nwhere $T$ is the total time of flight. This represents the time the projectile remains in the air before returning to the same level.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is meant by **projectile motion**? Explain in detail. Derive expressions for height of projectile and time of flight of projectile.",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m1757we3pmgh8r3b4vsvs3zjtx85q0pk",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The horizontal range of a projectile is the same for two complementary angles of projection: $\\theta$ and $(90° - \\theta)$. This occurs because the range formula $R = \\frac{u^2 \\sin 2\\theta}{g}$ depends on $\\sin 2\\theta$, and since $\\sin 2\\theta = \\sin(180° - 2\\theta)$, angles that are complementary produce equal ranges.",
+    "keyPoints": [
+      "Horizontal range depends on $\\sin 2\\theta$ in the range formula",
+      "Two angles $\\theta$ and $(90° - \\theta)$ give the same range",
+      "This is because $\\sin 2\\theta = \\sin(180° - 2\\theta)$ for complementary angles",
+      "Example: 30° and 60° produce equal horizontal ranges",
+      "These are called complementary angles of projection"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The horizontal range of a projectile is the same for two complementary angles of projection: $\\theta$ and $(90° - \\theta)$. This occurs because the range formula $R = \\frac{u^2 \\sin 2\\theta}{g}$ depends on $\\sin 2\\theta$, and since $\\sin 2\\theta = \\sin(180° - 2\\theta)$, angles that are complementary produce equal ranges.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^{\\circ}$ and $40^{\\circ}$"
+      },
+      {
+        "key": "B",
+        "text": "$40^{\\circ}$ and $50^{\\circ}$"
+      },
+      {
+        "key": "C",
+        "text": "$60^{\\circ}$ and $70^{\\circ}$"
+      },
+      {
+        "key": "D",
+        "text": "$80^{\\circ}$ and $90^{\\circ}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "3-horizontal-range-of-a-projectile-r",
+    "sectionLabel": "3. Horizontal Range of a Projectile (R)",
+    "session": "annual",
+    "stem": "The **horizontal range** of projectile is same for the angles:",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m17f6339zjjexjwzxcadqy74fn85pb1b",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applied range formula: $R = \\frac{u^2 \\sin 2\\theta}{g}$",
+      "Correctly applied maximum height formula: $H = \\frac{u^2 \\sin^2 \\theta}{2g}$",
+      "Substituted the condition $R = 4H$ and simplified algebraically",
+      "Used trigonometric identity $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$",
+      "Obtained final answer: angle of projection $\\theta = 45°$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a projectile with range $R = 4H$, we use the formulas: $R = \\frac{u^2 \\sin 2\\theta}{g}$ and $H = \\frac{u^2 \\sin^2 \\theta}{2g}$. Substituting $R = 4H$: $\\frac{u^2 \\sin 2\\theta}{g} = 4 \\times \\frac{u^2 \\sin^2 \\theta}{2g}$. Simplifying: $\\sin 2\\theta = 2\\sin^2 \\theta$, which gives $2\\sin\\theta\\cos\\theta = 2\\sin^2\\theta$. Dividing by $2\\sin\\theta$: $\\cos\\theta = \\sin\\theta$, therefore $\\tan\\theta = 1$, and $\\theta = 45°$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionId": "3-horizontal-range-of-a-projectile-r",
+    "sectionLabel": "3. Horizontal Range of a Projectile (R)",
+    "session": "annual",
+    "stem": "The horizontal range of a projectile is 4 times of its maximum height ($R = 4H$). What is its angle of projection?",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "derivations-projectile-motion",
+    "topicTitle": "3.10.1 Projectile Motion Derivations",
+    "_id": "m17aqsec35paz9tnr4fyf6vwnh85qbtf",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Stated range formula: $R = \\frac{u^2 \\sin 2\\theta}{g}$",
+      "Identified maximum range condition: $R_{\\text{max}} = \\frac{u^2}{g}$ at $\\theta = 45°$",
+      "Divided range by maximum range to obtain $\\sin 2\\theta$ factor",
+      "Correctly derived the relationship $R = R_{\\text{max}} \\sin 2\\theta$",
+      "Explained physical significance: range is maximum at 45° angle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a projectile, the range $R = \\frac{u^2 \\sin 2\\theta}{g}$. The maximum range $R_{\\text{max}}$ occurs at $\\theta = 45°$, giving $R_{\\text{max}} = \\frac{u^2}{g}$. Therefore, dividing the range equation by $R_{\\text{max}}$: $\\frac{R}{R_{\\text{max}}} = \\sin 2\\theta$, which yields $R = R_{\\text{max}} \\sin 2\\theta$. This shows that range is maximum when $\\sin 2\\theta = 1$ (at $\\theta = 45°$) and decreases for other angles.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionId": "3-horizontal-range-of-a-projectile-r",
+    "sectionLabel": "3. Horizontal Range of a Projectile (R)",
+    "session": "annual",
+    "stem": "For a projectile show that: $R = R_{\\text{max}} \\sin 2\\theta$",
+    "topicId": "ms76qx8e02m9e1j30h9e9q65dn85qqfn",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m1757we3pmgh8r3b4vsvs3zjtx85q0pk",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The horizontal range of a projectile is the same for two complementary angles of projection: $\\theta$ and $(90° - \\theta)$. This occurs because the range formula $R = \\frac{u^2 \\sin 2\\theta}{g}$ depends on $\\sin 2\\theta$, and since $\\sin 2\\theta = \\sin(180° - 2\\theta)$, angles that are complementary produce equal ranges.",
+    "keyPoints": [
+      "Horizontal range depends on $\\sin 2\\theta$ in the range formula",
+      "Two angles $\\theta$ and $(90° - \\theta)$ give the same range",
+      "This is because $\\sin 2\\theta = \\sin(180° - 2\\theta)$ for complementary angles",
+      "Example: 30° and 60° produce equal horizontal ranges",
+      "These are called complementary angles of projection"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The horizontal range of a projectile is the same for two complementary angles of projection: $\\theta$ and $(90° - \\theta)$. This occurs because the range formula $R = \\frac{u^2 \\sin 2\\theta}{g}$ depends on $\\sin 2\\theta$, and since $\\sin 2\\theta = \\sin(180° - 2\\theta)$, angles that are complementary produce equal ranges.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$30^{\\circ}$ and $40^{\\circ}$"
+      },
+      {
+        "key": "B",
+        "text": "$40^{\\circ}$ and $50^{\\circ}$"
+      },
+      {
+        "key": "C",
+        "text": "$60^{\\circ}$ and $70^{\\circ}$"
+      },
+      {
+        "key": "D",
+        "text": "$80^{\\circ}$ and $90^{\\circ}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "3-horizontal-range-of-a-projectile-r",
+    "sectionLabel": "3. Horizontal Range of a Projectile (R)",
+    "session": "annual",
+    "stem": "The **horizontal range** of projectile is same for the angles:",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m172v48e4bj49t9e0v6g3vf0hs85qx96",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies range formula $R = \\frac{u^2 \\sin(2\\theta)}{g}$ for projectile motion",
+      "Equates ranges for both angles: $u_1^2 \\sin(30°) = u_2^2 \\sin(90°)$",
+      "Correctly evaluates trigonometric values: $\\sin(30°) = 0.5$ and $\\sin(90°) = 1$",
+      "Derives correct ratio $\\frac{u_1}{u_2} = \\sqrt{2} : 1$",
+      "Shows clear mathematical steps leading to final answer"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For projectile motion, the range formula is $R = \\frac{u^2 \\sin(2\\theta)}{g}$. Since both balls attain the same range, we have $\\frac{u_1^2 \\sin(2 \\times 15°)}{g} = \\frac{u_2^2 \\sin(2 \\times 45°)}{g}$. This gives $u_1^2 \\sin(30°) = u_2^2 \\sin(90°)$, so $u_1^2 \\times 0.5 = u_2^2 \\times 1$. Therefore, $\\frac{u_1}{u_2} = \\sqrt{2} : 1$ or $\\sqrt{2}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Two balls are projected in directions at $15^{\\circ}$ and $45^{\\circ}$ with the horizontal. If both attained the same range then find the **ratio of their initial speeds**.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17f6339zjjexjwzxcadqy74fn85pb1b",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applied range formula: $R = \\frac{u^2 \\sin 2\\theta}{g}$",
+      "Correctly applied maximum height formula: $H = \\frac{u^2 \\sin^2 \\theta}{2g}$",
+      "Substituted the condition $R = 4H$ and simplified algebraically",
+      "Used trigonometric identity $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$",
+      "Obtained final answer: angle of projection $\\theta = 45°$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a projectile with range $R = 4H$, we use the formulas: $R = \\frac{u^2 \\sin 2\\theta}{g}$ and $H = \\frac{u^2 \\sin^2 \\theta}{2g}$. Substituting $R = 4H$: $\\frac{u^2 \\sin 2\\theta}{g} = 4 \\times \\frac{u^2 \\sin^2 \\theta}{2g}$. Simplifying: $\\sin 2\\theta = 2\\sin^2 \\theta$, which gives $2\\sin\\theta\\cos\\theta = 2\\sin^2\\theta$. Dividing by $2\\sin\\theta$: $\\cos\\theta = \\sin\\theta$, therefore $\\tan\\theta = 1$, and $\\theta = 45°$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionId": "3-horizontal-range-of-a-projectile-r",
+    "sectionLabel": "3. Horizontal Range of a Projectile (R)",
+    "session": "annual",
+    "stem": "The horizontal range of a projectile is 4 times of its maximum height ($R = 4H$). What is its angle of projection?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17e6qebdjran3a68dk7ns26j585p6s5",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The range of a projectile is given by $R = \\frac{u^2 \\sin 2\\theta}{g}$. Maximum range occurs at $\\theta = 45°$, giving $R_{max} = \\frac{u^2}{g}$. For range equal to half the maximum range: $\\frac{u^2 \\sin 2\\theta}{g} = \\frac{1}{2} \\cdot \\frac{u^2}{g}$, which gives $\\sin 2\\theta = \\frac{1}{2}$. Therefore, $2\\theta = 30°$ or $150°$, yielding $\\theta = 15°$ or $\\theta = 75°$.",
+    "keyPoints": [
+      "Correctly applies range formula $R = \\frac{u^2 \\sin 2\\theta}{g}$",
+      "Identifies maximum range condition at $\\theta = 45°$",
+      "Sets up equation for half maximum range condition",
+      "Solves $\\sin 2\\theta = \\frac{1}{2}$ to find angles",
+      "States both complementary angles: $15°$ and $75°$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The range of a projectile is given by $R = \\frac{u^2 \\sin 2\\theta}{g}$. Maximum range occurs at $\\theta = 45°$, giving $R_{max} = \\frac{u^2}{g}$. For range equal to half the maximum range: $\\frac{u^2 \\sin 2\\theta}{g} = \\frac{1}{2} \\cdot \\frac{u^2}{g}$, which gives $\\sin 2\\theta = \\frac{1}{2}$. Therefore, $2\\theta = 30°$ or $150°$, yielding $\\theta = 15°$ or $\\theta = 75°$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "45°"
+      },
+      {
+        "key": "B",
+        "text": "60°"
+      },
+      {
+        "key": "C",
+        "text": "30°"
+      },
+      {
+        "key": "D",
+        "text": "15°"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "session": "annual",
+    "stem": "Angle of projection for which the range of a projectile becomes half of its maximum range is equal to:",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17aqsec35paz9tnr4fyf6vwnh85qbtf",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Stated range formula: $R = \\frac{u^2 \\sin 2\\theta}{g}$",
+      "Identified maximum range condition: $R_{\\text{max}} = \\frac{u^2}{g}$ at $\\theta = 45°$",
+      "Divided range by maximum range to obtain $\\sin 2\\theta$ factor",
+      "Correctly derived the relationship $R = R_{\\text{max}} \\sin 2\\theta$",
+      "Explained physical significance: range is maximum at 45° angle"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a projectile, the range $R = \\frac{u^2 \\sin 2\\theta}{g}$. The maximum range $R_{\\text{max}}$ occurs at $\\theta = 45°$, giving $R_{\\text{max}} = \\frac{u^2}{g}$. Therefore, dividing the range equation by $R_{\\text{max}}$: $\\frac{R}{R_{\\text{max}}} = \\sin 2\\theta$, which yields $R = R_{\\text{max}} \\sin 2\\theta$. This shows that range is maximum when $\\sin 2\\theta = 1$ (at $\\theta = 45°$) and decreases for other angles.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionId": "3-horizontal-range-of-a-projectile-r",
+    "sectionLabel": "3. Horizontal Range of a Projectile (R)",
+    "session": "annual",
+    "stem": "For a projectile show that: $R = R_{\\text{max}} \\sin 2\\theta$",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m170qx3cc3b7m5nvz2q011a9xn85qsq8",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Horizontal range formula: $R = \\frac{u^2 \\sin(2\\theta)}{g}$",
+      "Equal ranges require $\\sin(2\\theta_1) = \\sin(2\\theta_2)$",
+      "Condition: $2\\theta_1 + 2\\theta_2 = 180°$ leading to $\\theta_1 + \\theta_2 = 90°$",
+      "The two angles are complementary angles that sum to 90°",
+      "Example: 30° and 60° produce equal ranges with same initial velocity and gravity"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a projectile, the horizontal range is given by $R = \\frac{u^2 \\sin(2\\theta)}{g}$, where $u$ is the initial velocity, $\\theta$ is the angle of projection, and $g$ is acceleration due to gravity. For two projectiles to have equal ranges with constant $u$ and $g$, we require $\\sin(2\\theta_1) = \\sin(2\\theta_2)$. This occurs when $2\\theta_1 + 2\\theta_2 = 180°$, giving $\\theta_1 + \\theta_2 = 90°$. Therefore, the two complementary angles are $\\theta$ and $(90° - \\theta)$, such as $30°$ and $60°$, or $45°$ and $45°$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "26",
+    "session": "annual",
+    "stem": "Determine the two complementary angles at which the horizontal ranges of two projectiles become equal when velocity of projections and the acceleration due to gravity are kept constant.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17584q2e3zr085hpknq90302h85qa5h",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Projectile motion defined as two-dimensional motion under gravity alone with constant horizontal velocity and uniformly accelerated vertical motion",
+      "Maximum height derived using $v^2 = u^2 + 2as$ with final vertical velocity zero: $H = \\frac{u^2\\sin^2\\theta}{2g}$",
+      "Time of flight derived using vertical displacement equation with total displacement zero: $T = \\frac{2u\\sin\\theta}{g}$",
+      "Both expressions correctly incorporate initial velocity components and gravitational acceleration",
+      "Derivations show understanding of kinematic equations applied to vertical motion component"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Projectile Motion: Definition and Detailed Explanation**\n\nProjectile motion is the motion of an object launched into the air that moves under the influence of gravity alone, with no other forces acting on it (neglecting air resistance). It is a two-dimensional motion combining constant velocity in the horizontal direction and uniformly accelerated motion in the vertical direction.\n\n**Derivation of Height of Projectile**\n\nConsider a projectile launched with initial velocity $u$ at angle $\\theta$ to the horizontal. The vertical component of initial velocity is $u_y = u\\sin\\theta$.\n\nUsing the kinematic equation: $v^2 = u^2 + 2as$\n\nAt maximum height, vertical velocity $v_y = 0$:\n$$0 = (u\\sin\\theta)^2 - 2gH$$\n$$H = \\frac{u^2\\sin^2\\theta}{2g}$$\n\nwhere $H$ is the maximum height and $g$ is acceleration due to gravity.\n\n**Derivation of Time of Flight**\n\nThe vertical displacement for the complete trajectory is zero (projectile returns to launch level).\n\nUsing: $s = ut + \\frac{1}{2}at^2$\n$$0 = u\\sin\\theta \\cdot T - \\frac{1}{2}gT^2$$\n$$T(u\\sin\\theta - \\frac{1}{2}gT) = 0$$\n\nExcluding $T = 0$:\n$$T = \\frac{2u\\sin\\theta}{g}$$\n\nwhere $T$ is the total time of flight. This represents the time the projectile remains in the air before returning to the same level.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "What is meant by **projectile motion**? Explain in detail. Derive expressions for height of projectile and time of flight of projectile.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m170k2t1khktkg34p590hwgxas8e0cty",
+    "correctKey": "B",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "At the highest point, the velocity is purely horizontal while acceleration (gravity) is purely vertical (downward), so the two vectors are perpendicular.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "no where"
+      },
+      {
+        "key": "B",
+        "text": "the highest point"
+      },
+      {
+        "key": "C",
+        "text": "the launch point"
+      },
+      {
+        "key": "D",
+        "text": "the landing point"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 3,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A projectile thrown upward moves in its parabolic path, the velocity and acceleration vectors for the projectile are perpendicular to each other at:",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m177vb6mawf511nqxgdk092cjn8e0p9r",
+    "correctKey": "C",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "The vertical velocity component decreases to zero at the peak of the trajectory before reversing sign on the way down, so it is smallest (zero) at the top.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "The instant it is thrown."
+      },
+      {
+        "key": "B",
+        "text": "Halfway to the top."
+      },
+      {
+        "key": "C",
+        "text": "The top."
+      },
+      {
+        "key": "D",
+        "text": "The landing point."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The vertical component of velocity of a projectile is smallest at:",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m177m92gtc3c7h7avk5ybe3wm98e1e45",
+    "correctKey": "A",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Once launched, with no air resistance, gravity is the only force acting on a projectile.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "The gravitational force"
+      },
+      {
+        "key": "B",
+        "text": "The nuclear force"
+      },
+      {
+        "key": "C",
+        "text": "The contact force"
+      },
+      {
+        "key": "D",
+        "text": "The electromagnetic force"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the force experienced by a projectile after the initial force that launched it into the air, in the absence of air resistance?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m173fww20fp74bsfwdhkpf0vrh8e09b4",
+    "correctKey": "C",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Range $= v^2 \\sin(2\\theta)/g$ is maximised when $\\sin(2\\theta)=1$, i.e. $\\theta = 45°$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "0°"
+      },
+      {
+        "key": "B",
+        "text": "30°"
+      },
+      {
+        "key": "C",
+        "text": "45°"
+      },
+      {
+        "key": "D",
+        "text": "90°"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 5,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If a projectile is launched on level ground, what launch angle maximizes the range of the projectile?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m177se4r6k7s2c1f3eqxbwhxas8e009f",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The velocity is never exactly zero during flight for a projectile launched at an angle (the horizontal component is always present); only the vertical component of velocity becomes momentarily zero at the peak. The acceleration (gravity, g) is never zero at any point of the flight (ignoring air resistance) -- it is constant throughout.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.3",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "For a projectile motion, is the velocity ever zero? Is the acceleration ever zero?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17amv46zp1htynwt19jgpv3d18e1zgj",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "This is a diagram-based question: at each point along the path, the acceleration vector is drawn constant, pointing straight down (magnitude g). The velocity vector is tangent to the trajectory at each point: for a horizontal launch, velocity starts purely horizontal and tilts increasingly downward; for an angled launch, velocity starts at the launch angle, becomes purely horizontal at the peak, and tilts increasingly downward afterward, always with the vertical component changing due to the constant downward acceleration while the horizontal component stays unchanged.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.4",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Draw a diagram showing the velocity and acceleration of a projectile at several points along its path, assuming (a) the projectile is launched horizontally and (b) the projectile is launched at an angle theta with the horizontal.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m172mk0db3p17w63fht14amzbx8e1n9f",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At the launch angle giving maximum range (45 degrees), Range $= v^2 \\sin(2\\times45)/g = v^2/g$, and maximum Height $= v^2 \\sin^2(45)/(2g) = v^2/(4g)$. Dividing, Range/Height $= (v^2/g) / (v^2/(4g)) = 4$, so Range = 4 x Height at this angle.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.11",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "For any specific velocity of projection, prove that the maximum range is equal to four times of the corresponding height.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17eh89et7mdf8fxrk3raa7ad18e13d1",
+    "exerciseId": "xd7fcpg7b4xhceb5gaemp3gmhn8e08cr",
+    "exerciseTitle": "Exercise 3: Comprehensive Questions",
+    "keyPoints": [
+      "(a) Maximum height: vertical velocity is zero at the peak, so using $v^2=u^2-2gh$ with $u = v_0\\sin\\theta$: $H = \\frac{v_0^2 \\sin^2\\theta}{2g}$.",
+      "(b) Time of flight: total time for the vertical displacement to return to zero, $T = \\frac{2v_0\\sin\\theta}{g}$.",
+      "(c) Range: horizontal distance covered in time of flight, $R = v_0\\cos\\theta \\times T = \\frac{v_0^2 \\sin(2\\theta)}{g}$."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For launch speed $v_i$ at angle $\\theta$ from level ground, the initial components are $v_{ix}=v_i\\cos\\theta$ and $v_{iy}=v_i\\sin\\theta$. At maximum height $v_{fy}=0$, so the vertical equation $v_{fy}^2=v_{iy}^2-2gH$ gives $H=\\frac{v_i^2\\sin^2\\theta}{2g}$. For return to the same level, $0=v_i\\sin\\theta\\,T-\\frac{1}{2}gT^2$, giving $T=\\frac{2v_i\\sin\\theta}{g}$. The horizontal range is constant horizontal speed times flight time: $R=v_i\\cos\\theta\\,T=\\frac{v_i^2\\sin2\\theta}{g}$. These expressions assume no air resistance and equal launch and landing heights.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3.5",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Derive mathematical equations for (a) Maximum height attained, (b) time of flight, (c) range of a projectile.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17eqyd7991kw98ecfdnmf4zpx8e1men",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Time to fall: $h = \\frac{1}{2}gt^2$, so $t = \\sqrt{2h/g} = \\sqrt{2\\times45.2/9.8} \\approx 3.04$ s. Launch velocity = horizontal distance / time $= 17.6/3.04 \\approx 5.79$ m/s. (Ans. 5.79 m/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.5",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 13,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A projectile is launched horizontally from the top of a 45.2 m high cliff and lands a distance of 17.6 m from the base of the cliff. Determine the magnitude of the launch velocity.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m1706fy9vdmdgke7p4t01370sh85qw14",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Gravity acts only vertically, leaving horizontal component constant: $v_x = v_0\\cos\\theta$",
+      "Vertical component decreases uniformly: $v_y = v_0\\sin\\theta - gt$",
+      "At maximum height, $v_y = 0$ but $v_x$ remains unchanged",
+      "Horizontal motion is uniform (zero acceleration); vertical motion is uniformly accelerated",
+      "Resultant velocity changes in magnitude and direction due to changing vertical component only"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Gravity acts vertically downward and affects only the vertical component of projectile velocity, not the horizontal component. The horizontal component remains constant throughout the motion: $v_x = v_0 \\cos\\theta$. The vertical component changes uniformly due to gravitational acceleration: $v_y = v_0 \\sin\\theta - gt$, where $g = 9.8 \\text{ m/s}^2$ and $t$ is time. At the highest point, $v_y = 0$, while $v_x$ persists unchanged.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionId": "analysis-of-motion-separating-the-components",
+    "sectionLabel": "Analysis of Motion: Separating the Components",
+    "session": "annual",
+    "stem": "What will be the effect of gravity on vertical and horizontal components of projectile velocity? Give its mathematical expression(s).",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17dxrdbva2znr0y2c4v1xcjss8e0053",
+    "correctKey": "C",
+    "exerciseId": "xd7191sj8t50f0ffrb0tfcrrvn8e0kwm",
+    "exerciseTitle": "Exercise 3: Multiple Choice Questions",
+    "explanation": "Projectile motion refers generally to any object launched into the air (at any angle) that then moves solely under gravity's influence.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Projectile motion is the motion of an object projected vertically upward into the air and moving under the influence of gravity."
+      },
+      {
+        "key": "B",
+        "text": "Projectile motion is the motion of an object projected into the air and moving independently of gravity."
+      },
+      {
+        "key": "C",
+        "text": "Projectile motion is the motion of an object projected into the air and moving under the influence of gravity."
+      },
+      {
+        "key": "D",
+        "text": "Projectile motion is the motion of an object projected horizontally into the air and moving independently of gravity."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "analysis-of-motion-separating-the-components",
+    "sectionLabel": "Analysis of Motion: Separating the Components",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Which of the following statements is true about the projectile motion?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m174tt72zw7apehasdwq3bt5px8e0cen",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Air resistance opposes the projectile's motion, reducing both its horizontal range and maximum height compared to the idealised no-air-resistance case, and makes the trajectory asymmetric (the descending path is steeper than the ascending path) because drag continuously removes energy from the motion.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.6",
+    "sectionId": "analysis-of-motion-separating-the-components",
+    "sectionLabel": "Analysis of Motion: Separating the Components",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How air resistance affects projectile motion?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m17b5sax4946afjbdsdtvw50nx8e07t7",
+    "exerciseId": "xd7fcpg7b4xhceb5gaemp3gmhn8e08cr",
+    "exerciseTitle": "Exercise 3: Comprehensive Questions",
+    "keyPoints": [
+      "Horizontal motion has zero acceleration (constant horizontal velocity component) since gravity acts only vertically.",
+      "Vertical motion has constant downward acceleration g, so vertical velocity changes uniformly (increasing downward speed as it falls, decreasing as it rises).",
+      "The combination of uniform horizontal velocity and uniformly accelerated vertical motion produces a parabolic trajectory."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Projectile motion is two-dimensional motion under gravity alone when air resistance and other forces are neglected. Resolve the initial velocity into horizontal and vertical components. The horizontal component remains constant because horizontal acceleration is zero, while the vertical component changes under acceleration $-g$. The horizontal and vertical motions are independent, so the trajectory is obtained from $x=v_{ix}t$ and $y=v_{iy}t-\\frac{1}{2}gt^2$. Eliminating $t$ gives a parabolic path. At the highest point the vertical velocity is zero, but the horizontal velocity and downward acceleration remain nonzero.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3.4",
+    "sectionId": "analysis-of-motion-separating-the-components",
+    "sectionLabel": "Analysis of Motion: Separating the Components",
+    "sourceRef": {
+      "blockIndex": 9,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Discuss the motion of a projectile in the absence of air resistance.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m174svzd1r90mxn863e66ta7458e1km7",
+    "exerciseId": "xd76bp8xaecxdxkms0b058cy318e09z1",
+    "exerciseTitle": "Exercise 3: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The bomb retains the plane's horizontal velocity at the moment of release (projectile motion), so it continues moving horizontally while falling, landing ahead of the point directly below where it was dropped rather than at the target below the release point.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.5",
+    "sectionId": "conceptual-points",
+    "sectionLabel": "Conceptual Points",
+    "sourceRef": {
+      "blockIndex": 7,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "An aeroplane while flying horizontally drops a bomb when it reaches exactly above the target, but misses it. Explain why?",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m175x77arwpfzb5gem8mysf7398e12x2",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "v0=21.8 m/s, theta=35 degrees, so v0y=21.8 sin35 ~=12.5 m/s, v0x=21.8 cos35 ~=17.86 m/s. (a) T = 2 v0y/g = 2x12.5/9.8 ~=2.55 s. (b) H = v0y^2/(2g) = 12.5^2/19.6 ~=7.98 m. (c) R = v0x x T = 17.86x2.55 ~=45.6 m. (Ans. 2.55 s, 7.98 m, 45.6 m, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.4",
+    "sectionId": "initial-velocity-components",
+    "sectionLabel": "Initial Velocity Components",
+    "sourceRef": {
+      "blockIndex": 12,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A projectile is launched with an initial speed of 21.8 m/s at an angle of 35 degrees above the horizontal. Determine: (a) the time of flight of the projectile, (b) the peak height of the projectile, (c) the horizontal displacement of the projectile.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m174fyqs3w3d763p0zctknvv3s85qmnn",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "At maximum height, the vertical component of velocity becomes zero ($v_y = 0$), while the horizontal component remains constant ($v_x = v_0\\cos\\theta$). Therefore, the velocity at maximum height equals the horizontal component of the initial velocity, which is $v = v_0\\cos\\theta$, directed horizontally.",
+    "keyPoints": [
+      "Vertical velocity component is zero at maximum height",
+      "Horizontal velocity component remains constant throughout projectile motion",
+      "Net velocity at maximum height is purely horizontal",
+      "Magnitude of velocity at maximum height is $v_0\\cos\\theta$",
+      "Direction of velocity is parallel to the ground (horizontal)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "At maximum height, the vertical component of velocity becomes zero ($v_y = 0$), while the horizontal component remains constant ($v_x = v_0\\cos\\theta$). Therefore, the velocity at maximum height equals the horizontal component of the initial velocity, which is $v = v_0\\cos\\theta$, directed horizontally.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$v_i \\cos \\theta$"
+      },
+      {
+        "key": "B",
+        "text": "Maximum"
+      },
+      {
+        "key": "C",
+        "text": "Zero"
+      },
+      {
+        "key": "D",
+        "text": "$v_i \\sin \\theta$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionId": "instantaneous-velocity-at-time-t",
+    "sectionLabel": "Instantaneous Velocity at Time $t$",
+    "session": "annual",
+    "stem": "The velocity of projectile at its maximum height is:",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m1781awjrhf1xzhjm6bz8t9qk585patk",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly defines projectile as object moving under gravity alone with parabolic path",
+      "Derives time of flight using kinematic equation with vertical displacement returning to zero",
+      "Derives range formula using horizontal velocity component multiplied by time of flight",
+      "Simplifies range to $\\frac{u^2\\sin2\\theta}{g}$ using trigonometric identity",
+      "Identifies maximum range occurs at 45° angle with value $\\frac{u^2}{g}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "A **projectile** is an object that is launched into the air and moves under the influence of gravity alone, following a curved path called a parabolic trajectory. It experiences constant acceleration due to gravity in the vertical direction while maintaining constant velocity in the horizontal direction.\n\n**i) Time of Flight:**\nFor vertical motion, using $s = ut + \\frac{1}{2}at^2$, where initial vertical displacement is zero and final displacement is also zero (returns to same level):\n$$0 = u_y t - \\frac{1}{2}gt^2$$\n$$t(u_y - \\frac{1}{2}gt) = 0$$\nSince $t \\neq 0$: $$T = \\frac{2u_y}{g} = \\frac{2u\\sin\\theta}{g}$$\nwhere $u$ is initial velocity and $\\theta$ is angle of projection.\n\n**ii) Range:**\nHorizontal distance traveled: $R = u_x \\times T$\n$$R = u\\cos\\theta \\times \\frac{2u\\sin\\theta}{g}$$\n$$R = \\frac{2u^2\\sin\\theta\\cos\\theta}{g} = \\frac{u^2\\sin2\\theta}{g}$$\n\n**Maximum Range:**\nRange is maximum when $\\sin2\\theta = 1$, which occurs at $\\theta = 45°$:\n$$R_{max} = \\frac{u^2}{g}$$",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionId": "key-derived-quantities",
+    "sectionLabel": "Key Derived Quantities",
+    "session": "annual",
+    "stem": "What is meant by **projectile**? Derive the mathematical expressions of the following for projectile motion:\ni) Time of flight\nii) Range and maximum range of projectile",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m178exty7xqkdk197z09r16k5x85pvz5",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a projectile thrown at angle $\\theta = 30°$ with initial velocity $u = 30 \\text{ ms}^{-1}$, the time of flight is determined by the vertical component of motion. Using $T = \\frac{2u\\sin\\theta}{g}$, we get $T = \\frac{2 \\times 30 \\times \\sin 30°}{10} = \\frac{2 \\times 30 \\times 0.5}{10} = 3 \\text{ s}$.",
+    "keyPoints": [
+      "Identifies vertical component of initial velocity: $u_y = u\\sin\\theta$",
+      "Applies time of flight formula: $T = \\frac{2u\\sin\\theta}{g}$",
+      "Correctly substitutes values: $\\sin 30° = 0.5$, $g = 10 \\text{ ms}^{-2}$",
+      "Obtains final answer: $T = 3 \\text{ s}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a projectile thrown at angle $\\theta = 30°$ with initial velocity $u = 30 \\text{ ms}^{-1}$, the time of flight is determined by the vertical component of motion. Using $T = \\frac{2u\\sin\\theta}{g}$, we get $T = \\frac{2 \\times 30 \\times \\sin 30°}{10} = \\frac{2 \\times 30 \\times 0.5}{10} = 3 \\text{ s}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$3\\text{ s}$"
+      },
+      {
+        "key": "B",
+        "text": "$4\\text{ s}$"
+      },
+      {
+        "key": "C",
+        "text": "$5\\text{ s}$"
+      },
+      {
+        "key": "D",
+        "text": "$6\\text{ s}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "key-derived-quantities",
+    "sectionLabel": "Key Derived Quantities",
+    "session": "annual",
+    "stem": "A projectile is thrown at an angle of $30^\\circ$ with horizontal with velocity $30\\text{ ms}^{-1}$. Its time of flight is:",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "projectile-motion",
+    "topicTitle": "3.11 Ideal Projectile Motion",
+    "_id": "m172pv1j1x2d72twvnb8db0b3s8e10n4",
+    "exerciseId": "xd70jy4e9bjxqm4pej85a8wf458e055s",
+    "exerciseTitle": "Exercise 3: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Setting H = R: (v0^2 sin^2theta)/(2g) = (v0^2 sin(2theta))/g. Simplify: sin^2theta/2 = 2 sintheta costheta, so sintheta = 4costheta, tantheta = 4, theta = arctan(4) ~= 76 degrees. (Ans. 76 degrees, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3.2",
+    "sectionId": "key-derived-quantities",
+    "sectionLabel": "Key Derived Quantities",
+    "sourceRef": {
+      "blockIndex": 11,
+      "chapterNumber": 3,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Find the angle of projection of a projectile for which the maximum height and corresponding range are equal.",
+    "topicId": "ms74hd50y6tc9xkvqfk0dam00s85qv2k"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity",
+    "topicTitle": "3.13 Velocity",
+    "_id": "m17arq7gra25pr1jvkh4yq13f985qjpg",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified and converted given data (distance in metres)",
+      "Applied third equation of motion $v_f^2 = v_i^2 + 2as$ to find acceleration",
+      "Calculated acceleration as 162.5 m/s²",
+      "Applied first equation of motion $v_f = v_i + at$ to find time",
+      "Final answer: t ≈ 21.54 s with correct units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Given Data:**\n- Initial velocity: $v_i = 1500 \\text{ m/s}$\n- Final velocity: $v_f = 5000 \\text{ m/s}$\n- Distance: $s = 70 \\text{ km} = 70,000 \\text{ m}$\n\n**Solution:**\n\nFirst, find acceleration using the third equation of motion:\n$$v_f^2 = v_i^2 + 2as$$\n$$(5000)^2 = (1500)^2 + 2a(70,000)$$\n$$25,000,000 = 2,250,000 + 140,000a$$\n$$22,750,000 = 140,000a$$\n$$a = 162.5 \\text{ m/s}^2$$\n\nNow, find time using the first equation of motion:\n$$v_f = v_i + at$$\n$$5000 = 1500 + 162.5t$$\n$$3500 = 162.5t$$\n$$t = 21.54 \\text{ s}$$\n\n**Answer:** The time taken for the missile to reach the velocity of $5000 \\text{ m/s}$ is approximately **21.54 seconds** or **21.5 seconds**.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionId": "summary",
+    "sectionLabel": "Summary",
+    "session": "annual",
+    "stem": "The velocity of a missile traveling at $1500 \\text{ ms}^{-1}$ increases to $5000 \\text{ ms}^{-1}$ after moving through a distance of $70 \\text{ km}$. Calculate the time for the missile to reach this velocity.",
+    "topicId": "ms78qawpd16bd1b5xnpg4qpa0n85pj53",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "03-translatory-motion",
+    "chapterTitle": "Translatory Motion",
+    "topicSlug": "velocity",
+    "topicTitle": "3.13 Velocity",
+    "_id": "m170fyrd1t47ywhkcgjxnn2hbd85phe6",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Parallel: acceleration and velocity point in same direction during speeding up/acceleration phase",
+      "Anti-parallel: acceleration and velocity point in opposite directions during braking/deceleration phase",
+      "In parallel case, speed increases; in anti-parallel case, speed decreases",
+      "Both scenarios involve change in magnitude of velocity along the same line of motion",
+      "Direction of acceleration relative to velocity determines whether motion is accelerating or decelerating"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Velocity $\\vec{v}$ and acceleration $\\vec{a}$ are parallel when a car accelerates in the direction of its motion, meaning both vectors point in the same direction. They are anti-parallel when the car decelerates (brakes), causing acceleration to point opposite to the velocity vector. In both cases, the acceleration changes the magnitude of velocity but not its direction (parallel) or reverses the motion (anti-parallel).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "session": "annual",
+    "stem": "Briefly explain the circumstances in which velocity $\\vec{v}$ and acceleration $\\vec{a}$ of a car are: (a) Parallel (b) Anti-parallel.",
+    "topicId": "ms78qawpd16bd1b5xnpg4qpa0n85pj53",
+    "year": 2022
+  }
+]

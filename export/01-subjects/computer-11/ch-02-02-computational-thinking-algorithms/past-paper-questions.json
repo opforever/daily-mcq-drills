@@ -1,0 +1,372 @@
+[
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m17bz59v8sgcwjz60xkgmdshv585q1q1",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Decomposition in computational thinking means breaking down a complex problem into smaller, manageable sub-problems or components. This process involves dividing a large task into simpler parts that are easier to understand, solve, and manage individually. Each sub-problem can then be solved separately, and the solutions can be combined to solve the original problem. Decomposition helps reduce complexity, makes problem-solving more efficient, and allows different parts of a problem to be worked on independently or by different people.",
+    "keyPoints": [
+      "Breaking down complex problems into smaller, manageable parts",
+      "Each sub-problem is simpler and easier to solve",
+      "Reduces overall complexity of the problem",
+      "Allows independent solving of different components",
+      "Solutions of sub-problems combine to solve the main problem",
+      "Improves efficiency and clarity in problem-solving",
+      "Enables division of work among team members"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Decomposition in computational thinking means breaking down a complex problem into smaller, manageable sub-problems or components. This process involves dividing a large task into simpler parts that are easier to understand, solve, and manage individually. Each sub-problem can then be solved separately, and the solutions can be combined to solve the original problem. Decomposition helps reduce complexity, makes problem-solving more efficient, and allows different parts of a problem to be worked on independently or by different people.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Combining smaller problems into a larger solution"
+      },
+      {
+        "key": "B",
+        "text": "Ignoring the problem until it resolves itself"
+      },
+      {
+        "key": "C",
+        "text": "Writing code without any structure"
+      },
+      {
+        "key": "D",
+        "text": "Breaking a problem into smaller, more manageable parts"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "session": "annual",
+    "stem": "What does **decomposition** mean in computational thinking?",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m1744bagbq4je5wrt16mkee0m985qnbg",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Hardware is physical/tangible; software is intangible/non-physical",
+      "Hardware examples: CPU, RAM, motherboard, hard drive, monitor",
+      "Software examples: operating systems, applications, programs, games",
+      "Hardware is permanent and requires physical replacement; software is easily modifiable and updatable",
+      "Software depends on hardware to run but hardware cannot function without software"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "**Difference 1:** Hardware is the physical, tangible components of a computer system, while software is the intangible set of instructions and programs. Example: A CPU or RAM is hardware; Microsoft Word or an operating system is software. **Difference 2:** Hardware is permanent and does not change unless physically replaced, while software can be easily modified, updated, or replaced without changing physical components. Example: A motherboard remains the same, but applications like Google Chrome can be updated or uninstalled instantly.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Write down any two differences between **hardware** and **software** with examples.",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m17f4xzm9r2zs6qr565c7mfr0s85p723",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Printer is an output device that produces hard copies",
+      "Laser printer uses a laser beam to form images on a photosensitive drum",
+      "Electrostatic image attracts toner particles",
+      "Toner is transferred to paper and fused using heat and pressure",
+      "Laser printers produce high-quality, sharp prints at high speed",
+      "Suitable for high-volume printing with low cost per page"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A printer is an output device that produces hard copies of digital documents and images on paper or other media. A Laser Printer is a high-speed, high-quality printer that uses a laser beam to form images. It works by directing a laser beam onto a rotating drum coated with photosensitive material. The laser creates an electrostatic image on the drum, which attracts toner particles. The toner is then transferred to paper and fused using heat and pressure, producing sharp, clear prints. Laser printers are known for their speed, precision, and cost-effectiveness for high-volume printing.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "What is a printer? Briefly explain **Laser Printer**.",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m177apx6va69z3hg6zf7z80gc585pxrw",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Tables store actual data in rows and columns format",
+      "Queries retrieve and filter data based on specified criteria",
+      "Reports format and present data in professional printable format",
+      "Tables are the foundation of database structure",
+      "Queries can combine data from multiple tables",
+      "Reports include formatting elements like headers and footers"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "a) Table: Tables are the fundamental database objects used to store data in organized rows and columns. They hold actual data records with fields (columns) and records (rows). Tables form the basis of all database operations and store information about entities like students, employees, or products.\n\nb) Query: Queries are used to retrieve, filter, and manipulate data from one or more tables. They allow users to ask questions about the database, sort data, apply conditions, and extract specific information. Queries can perform calculations and combine data from multiple tables.\n\nc) Report: Reports are used to present data in a formatted, professional manner for printing or viewing. They organize and summarize information from tables or queries in a structured layout with headers, footers, grouping, and calculations. Reports are designed for better readability and presentation of database information.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Write down the uses of the following database objects provided by **MS-Access**: a) Table b) Query c) Report",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m170m4py5t35kkrwfercqr25zs85q94p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "BIOS definition: firmware for hardware initialization and runtime services",
+      "Memory Slot: socket for RAM installation providing temporary data storage",
+      "Disk Controller: manages data transfer between motherboard and storage devices",
+      "Expansion Slot: connector for adding peripheral cards to extend motherboard functionality",
+      "All components work together to enable complete computer system operation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 8,
+    "modelAnswer": "The motherboard contains several critical components that enable computer functionality. (a) **BIOS** (Basic Input/Output System) is firmware that initializes hardware during startup and provides runtime services for operating systems and programs. (b) **Memory Slot** is a socket on the motherboard where RAM modules are inserted to provide temporary storage for active programs and data. (c) **Disk Controller** is a circuit that manages data transfer between the motherboard and storage devices like hard drives or SSDs. (d) **Expansion Slot** is a connector that allows additional peripheral cards (graphics cards, sound cards, network cards) to be installed, extending the motherboard's capabilities and functionality.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Describe the following **Motherboard** components: (a) **BIOS** (b) **Memory Slot** (c) **Disk controller** (d) **Expansion slot**",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m17eq154sswfch36474dnw9e4n85q69b",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "The provided notes do not contain information about output devices",
+      "Notes focus on Python programming (lists, functions, and language overview)",
+      "Cannot ground answer in provided note content as instructed",
+      "Question requires hardware/output device content not present in materials",
+      "Unable to generate valid model answer without relevant source material"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 8,
+    "modelAnswer": "I cannot provide an answer to this question based on the provided notes. The question asks about output devices (LCD monitor, Dot Matrix Printer, Inkjet Printer, and Plotter), but the provided notes contain only information about Python programming concepts including lists, functions, and Python overview. There is no content about computer hardware or output devices in the supplied material. To answer this question accurately according to FBISE standards, notes covering output devices and their characteristics would be required.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "session": "annual",
+    "stem": "Describe the following **output devices**: a) **LCD monitor** b) **Dot Matrix Printer** c) **Inkjet Printer** d) **Plotter**",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m17cxjfm5se7e577dd6jv6w65h85pmhp",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A memory card is an example of secondary storage (or external storage/removable storage). It is a non-volatile storage device used to store data permanently outside the computer system. Memory cards are portable, rewritable storage media commonly used in digital cameras, mobile phones, and other portable devices.",
+    "keyPoints": [
+      "Memory cards are secondary/external storage devices",
+      "They provide non-volatile storage (data persists without power)",
+      "They are removable and portable",
+      "Commonly used in cameras, phones, and portable devices",
+      "Examples include SD cards, microSD cards, and CompactFlash cards",
+      "They store data permanently until deliberately erased"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A memory card is an example of secondary storage (or external storage/removable storage). It is a non-volatile storage device used to store data permanently outside the computer system. Memory cards are portable, rewritable storage media commonly used in digital cameras, mobile phones, and other portable devices.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cache memory"
+      },
+      {
+        "key": "B",
+        "text": "Chip memory"
+      },
+      {
+        "key": "C",
+        "text": "Magnetic memory"
+      },
+      {
+        "key": "D",
+        "text": "Optical memory"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "A memory card is an example of:",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-1-computational-artifacts",
+    "topicTitle": "2.1 Computational Artifacts",
+    "_id": "m176jepqf6x31xmh59ez2ns1t185qffb",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A **Foreign Key** is used in the relationship between tables whose value matches with the primary key in another table. It establishes a link between two tables by referencing the primary key of one table in another table, ensuring referential integrity and maintaining relationships in a relational database.",
+    "keyPoints": [
+      "Foreign Key is a field that references the Primary Key of another table",
+      "It establishes relationships between tables in a relational database",
+      "Foreign Key values must match existing Primary Key values in the referenced table",
+      "It ensures referential integrity and data consistency",
+      "Foreign Key allows data to be linked across multiple tables"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A **Foreign Key** is used in the relationship between tables whose value matches with the primary key in another table. It establishes a link between two tables by referencing the primary key of one table in another table, ensuring referential integrity and maintaining relationships in a relational database.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Secondary key"
+      },
+      {
+        "key": "B",
+        "text": "Candidate key"
+      },
+      {
+        "key": "C",
+        "text": "Foreign key"
+      },
+      {
+        "key": "D",
+        "text": "Alternate key"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Which of the following is used in relationship between tables whose value matches with the primary key in another table?",
+    "topicId": "ms716bn2bdd1zrge1d73xyw2yd85pke7",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "m17br26tw5wte488fnjpvhgds585pf3b",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies insertion sort as more efficient",
+      "Reason 1: Insertion sort performs fewer actual comparisons and swaps in practice despite similar worst-case complexity",
+      "Reason 2: Insertion sort is adaptive with $O(n)$ best-case on sorted/nearly-sorted data; bubble sort always $O(n^2)$",
+      "Justification based on practical performance and data characteristics",
+      "Clear comparison of algorithmic efficiency between the two sorting methods"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Insertion sort is more efficient than bubble sort. First, insertion sort has a better average-case time complexity of $O(n^2)$ compared to bubble sort's $O(n^2)$, but insertion sort performs fewer comparisons and swaps in practice, especially on partially sorted data. Second, insertion sort is adaptive, it performs significantly better on nearly sorted lists with a best-case complexity of $O(n)$, whereas bubble sort always requires $O(n^2)$ operations regardless of initial data order. Therefore, insertion sort is the more practical choice for most real-world applications.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "Which algorithm is more efficient: **insertion sort** or **bubble sort**? Justify your choice with two reasons.",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "m17b3sc0pxj8bcft163erxrpxn85qvsp",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies starting position and compares each element sequentially with target 53",
+      "Shows all comparison steps from position 1 through position 6 where match is found",
+      "Correctly states the position/index where 53 is located (position 6)",
+      "Explains that algorithm terminates upon finding the target element",
+      "Identifies time complexity as O(n) and notes suitability for unsorted data"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "**Linear Search Algorithm to Find 53**\n\n**Step-by-step process:**\n\n1. **Position 1:** Compare 89 with 53 → No match, move to next\n2. **Position 2:** Compare 50 with 53 → No match, move to next\n3. **Position 3:** Compare 36 with 53 → No match, move to next\n4. **Position 4:** Compare 42 with 53 → No match, move to next\n5. **Position 5:** Compare 11 with 53 → No match, move to next\n6. **Position 6:** Compare 53 with 53 → **Match found!**\n\n**Result:** The number 53 is found at **position 6** (or index 5 if zero-indexed).\n\n**Algorithm Analysis:**\n- **Comparisons made:** 6 comparisons\n- **Time complexity:** $O(n)$ in worst case\n- **Why Linear Search works here:** The algorithm examines each element sequentially from the beginning until the target is located. Since 53 is the 6th element, it requires 6 iterations to find it.\n- **Advantage:** Linear Search works on both sorted and unsorted lists, making it suitable for this unordered dataset.\n- **Conclusion:** Linear Search successfully located 53 at position 6 by checking each element one by one until a match was found.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "Use the **Linear Search** algorithm to find the number 53 from the given set of numbers: 89, 50, 36, 42, 11, 53, 65, 72, 24",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "computer-11",
+    "chapterSlug": "02-computational-thinking-algorithms",
+    "chapterTitle": "Computational Thinking & Algorithms",
+    "topicSlug": "2-2-common-computing-algorithms",
+    "topicTitle": "2.2 Common Computing Algorithms",
+    "_id": "m175y3ekk3g5qzkv00ktew9kwx85pzdq",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Defines query as a request to retrieve or manipulate database data",
+      "Explains queries filter data based on criteria",
+      "Identifies Select Query for data retrieval",
+      "Identifies Action Query for data modification",
+      "Identifies Parameter Query and Aggregate Query with brief descriptions"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A **query** is a request or question posed to a database to retrieve, filter, or manipulate specific data based on defined criteria. Queries allow users to extract meaningful information from large datasets efficiently. Four common types of queries are: (1) **Select Query**, retrieves specific records matching given conditions; (2) **Action Query**, modifies database records (insert, update, delete); (3) **Parameter Query**, accepts user input to filter results dynamically; (4) **Aggregate Query**, performs calculations like sum, count, average on grouped data.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "What is **query**? Enlist names of four queries.",
+    "topicId": "ms75jjwbx749f7dchz89xnhbp585p3gd",
+    "year": 2024
+  }
+]

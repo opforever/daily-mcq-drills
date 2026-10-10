@@ -1,0 +1,779 @@
+[
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m17erjyfjgfvajpab36y0pjj5x8e102m",
+    "correctKey": "D",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Combining math/statistics with computer science lets data science turn raw data into insight that leads to better decision making, the overall goal.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Improved data visualization"
+      },
+      {
+        "key": "B",
+        "text": "Better forecasting"
+      },
+      {
+        "key": "C",
+        "text": "Increased accuracy"
+      },
+      {
+        "key": "D",
+        "text": "Better decision making"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which of the following is the primary benefit of integrating Mathematics and Statistics with Computer Science in Data Science?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m176nb9k6rywkecwt0gaedre518e1zbv",
+    "correctKey": "B",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Data scientists use AI/machine learning techniques as tools within the data science process.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Data Science is a subset of Artificial Intelligence"
+      },
+      {
+        "key": "B",
+        "text": "Artificial Intelligence is a tool used in Data Science"
+      },
+      {
+        "key": "C",
+        "text": "Data Science and Artificial Intelligence are unrelated"
+      },
+      {
+        "key": "D",
+        "text": "Data Science enables Artificial Intelligence"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which of the following best describes the relationship between Data Science and Artificial Intelligence?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m176dcgvb2mr53nnxjbj4d534x8e1ekb",
+    "correctKey": "D",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "The test's premise is that if a machine's responses in conversation are indistinguishable from a human's, i.e. it convincingly imitates ('copies') human responses, it can be considered to exhibit intelligent behavior.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Humans are better"
+      },
+      {
+        "key": "B",
+        "text": "Machines are equal"
+      },
+      {
+        "key": "C",
+        "text": "Intelligence levels vary"
+      },
+      {
+        "key": "D",
+        "text": "Machines copy humans"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "The Turing Test, proposed by Alan Turing in 1950, measures a machine's ability to exhibit intelligent behavior. Which of the following is the fundamental assumption that underlies this test?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m1789k39f5ran37xkds00pc1zs8e1p51",
+    "correctKey": "B",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Chatbots handle personal user data and conversations, so data security is a critical development concern.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "User experience"
+      },
+      {
+        "key": "B",
+        "text": "Data security"
+      },
+      {
+        "key": "C",
+        "text": "Contextual awareness"
+      },
+      {
+        "key": "D",
+        "text": "Emotional intelligence"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which of the following should be considered critically while developing AI-powered chatbots and virtual assistants?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m175zceza1e06bmtjvgxv8hs7d8e1vqa",
+    "correctKey": "A",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "A widely-cited ethical concern with everyday AI adoption is job displacement as automation replaces human tasks.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Job displacement due to automation."
+      },
+      {
+        "key": "B",
+        "text": "Increased energy consumption."
+      },
+      {
+        "key": "C",
+        "text": "Improved customer service."
+      },
+      {
+        "key": "D",
+        "text": "Enhanced data security."
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What ethical consideration arises from the integration of Artificial Intelligence (AI) into daily life devices?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m177aff0kqvmhmzfqqbvyrztr98e1g5v",
+    "correctKey": "B",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Computer vision is the AI field concerned with interpreting images, including facial recognition for device unlocking.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "NLP"
+      },
+      {
+        "key": "B",
+        "text": "Computer vision"
+      },
+      {
+        "key": "C",
+        "text": "Deep learning"
+      },
+      {
+        "key": "D",
+        "text": "Neural networks"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which of the following fields of Artificial Intelligence (AI) enables smartphones to recognize faces and unlock devices?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m177xca9rygp2v4b58pq9exsr18e0n96",
+    "correctKey": "A",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Classifying feedback into known labeled categories (positive/negative/neutral) using labeled training examples is a supervised learning task.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Supervised learning"
+      },
+      {
+        "key": "B",
+        "text": "Unsupervised learning"
+      },
+      {
+        "key": "C",
+        "text": "Reinforcement learning"
+      },
+      {
+        "key": "D",
+        "text": "Deep learning"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "A company wants to develop a system that categorizes customer feedback into positive, negative, or neutral. Which learning model would be most suitable?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m1741dvm4161agss9wg43h6q1n8e1qqa",
+    "correctKey": "C",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Rewards and penalties guide the agent to improve its future action choices toward maximizing reward.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Labeling data"
+      },
+      {
+        "key": "B",
+        "text": "Evaluating performance"
+      },
+      {
+        "key": "C",
+        "text": "Improving action choices"
+      },
+      {
+        "key": "D",
+        "text": "Classifying outcomes"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "In a Reinforcement Learning model, what is the primary function of rewards and penalties provided as feedback to the agent?",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m173ttxxm2hb205ktgq24p9qpd8e142q",
+    "exerciseId": "xd7bj8y3a70fefhp6nggcp6ezn8e0gz1",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Data science analyzes large volumes of data to reveal patterns and trends that guide business strategy rather than relying on guesswork. Examples: retail companies use purchase data to personalize recommendations and manage inventory, and banks use transaction data to detect fraud and assess credit risk.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "1",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe how data science helps businesses make informed decisions and provide two industry examples.",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m17bjp9azkdqa0rqa7m1v16zqh8e0deq",
+    "exerciseId": "xd7bj8y3a70fefhp6nggcp6ezn8e0gz1",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(1) It supplies the cleaned, structured datasets that ML models are trained on. (2) Its statistical methods help select and validate which model/features work best. (3) Its data analysis techniques help interpret and monitor a deployed AI model's ongoing performance.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Identify three ways data science contributes to machine learning and artificial intelligence.",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m17afznbxk8jyefrp7h1xsdvn18e1110",
+    "exerciseId": "xd7bj8y3a70fefhp6nggcp6ezn8e0gz1",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Supervised learning trains a model on labeled data (inputs paired with known correct outputs) to predict labels for new data, e.g. classifying emails as spam or not. Unsupervised learning works on unlabeled data and finds hidden structure or groupings on its own, e.g. clustering customers by purchasing behavior.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Differentiate between supervised learning and unsupervised learning.",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m175jgf1dbxmydnyz9b07t0s918e1qfg",
+    "exerciseId": "xd7bj8y3a70fefhp6nggcp6ezn8e0gz1",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Training a pet with treats is a reinforcement-learning-like process: the pet tries an action, gets a reward (treat) for good behavior or no reward for bad behavior, and over repeated trials learns which actions maximize reward. A software example is a game-playing agent that improves its strategy through trial-and-error reward feedback.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe an everyday example that illustrates reinforcement learning.",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m170xr8wgycz5mtbpmqtnb8sv98e11rk",
+    "exerciseId": "xd7bj8y3a70fefhp6nggcp6ezn8e0gz1",
+    "exerciseTitle": "Exercise 4: Short Response Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(1) Supervised learning (sorting into known fruit labels). (2) Reinforcement learning (learning a skill through trial, feedback and practice). (3) Unsupervised learning (grouping by an unlabeled shared feature, colour). (4) Supervised learning (recognizing labeled pictures). (5) Reinforcement learning (trial-and-error navigation toward a goal). (6) Reinforcement learning (an action rewarded by being allowed to attend the party). (7) Supervised learning (recognizing labeled shapes). (8) Unsupervised learning (grouping without predefined categories). (9) Unsupervised learning (finding similarity/clusters without labels). (10) Reinforcement learning (actions rewarded by unlocking in-game rewards).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Short Response Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Write the appropriate machine learning model for each of the following scenarios: (1) sorting a basket of mixed fruits (apple/banana) by a robot; (2) learning to ride a bicycle for a sports event; (3) grouping Lego blocks by colour regardless of shape; (4) teaching a sibling to recognize pictures in a book; (5) training a toy robot to find its way out of a maze; (6) cleaning your room to be allowed to attend a birthday party; (7) teaching a computer to recognize shapes (square/triangle/circle); (8) arranging an uncategorized book collection by size/choice/ease of access; (9) finding similarity among ice cream flavors; (10) unlocking rewards in a video game.",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-1-data-science",
+    "topicTitle": "4.1 Data Science",
+    "_id": "m17b2f7d447c81kp7zggh4ty198e12jz",
+    "exerciseId": "xd739p9f6kfv9jrsa40dcdwbcs8e17tx",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Artificial Intelligence is the broad goal of building machines that exhibit intelligent behavior.",
+      "Machine Learning is a subset of AI: a set of techniques that let systems learn patterns from data rather than being explicitly programmed.",
+      "Data Science is the broader discipline that supplies, cleans and analyzes the data ML algorithms are trained on, and applies statistical/ML techniques (including AI methods) to draw insights and support decisions.",
+      "In practice the three overlap heavily: data science provides the data pipeline, machine learning provides the modelling technique, and AI is the umbrella goal both work toward."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Artificial Intelligence is the broad field of creating intelligent systems. Machine Learning is a subset of AI that uses algorithms and statistical modelling to learn patterns from data. Data Science is an interdisciplinary field of mathematics, statistics and computer science that extracts meaningful insights and supports informed decisions. The fields overlap because they all use data, algorithms and models: Data Science supplies and analyses data, Machine Learning learns patterns and produces predictions or classifications, and AI applies such methods to create systems that show intelligent behaviour and automate tasks.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "1",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Analyze the interrelationship between Data Science, Machine Learning, and Artificial Intelligence.",
+    "topicId": "ms77sjgdm1bbd51vxvtxqfybt18bvszm"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-data-visualization",
+    "topicTitle": "4.2 Data Visualization",
+    "_id": "m17ejnm7msjxfwpssncd4be9pn8ca61b",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "fbise",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "It displays the frequency distribution of numerical data"
+      },
+      {
+        "key": "B",
+        "text": "It compares categorical data"
+      },
+      {
+        "key": "C",
+        "text": "It shows relationships between two variables"
+      },
+      {
+        "key": "D",
+        "text": "It visualizes a database table"
+      }
+    ],
+    "origin": "exam",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "session": "model",
+    "stem": "Which of the following best explains the purpose of a histogram?",
+    "topicId": "ms7bseaw9s7a2trthjknzw61dd8btgmq",
+    "year": 2026
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-data-visualization",
+    "topicTitle": "4.2 Data Visualization",
+    "_id": "m1784d4kdmbq4xbps66jx6efcs8e16g1",
+    "exerciseId": "xd739p9f6kfv9jrsa40dcdwbcs8e17tx",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Bar chart: compares quantities across categories, e.g. sales by region.",
+      "Line chart: shows a trend over time, e.g. monthly website traffic.",
+      "Pie chart: shows proportions of a whole, e.g. market share by company.",
+      "(A fourth common type, scatter plot, shows the relationship between two numeric variables, e.g. study hours vs exam score, and may be offered as an alternative.)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A bar chart compares quantities across categories, such as students' marks in different subjects or sales of different products. A line chart shows how values change over time, such as monthly sales or website traffic. A pie chart shows parts of a whole, such as the market share of different companies.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "2",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Identify any three types of data visualization, give their applications as well.",
+    "topicId": "ms7bseaw9s7a2trthjknzw61dd8btgmq"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-data-visualization",
+    "topicTitle": "4.2 Data Visualization",
+    "_id": "m17b6sz5emfxsw0qvgk6zcvkys8e08b6",
+    "exerciseId": "xd739p9f6kfv9jrsa40dcdwbcs8e17tx",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Visualizations can show a range rather than a single value to convey uncertainty, e.g. error bars on a bar/line chart showing the margin of error around a measured value.",
+      "A shaded confidence-interval band around a forecast line (e.g. a weather forecast's temperature range for the coming days) visually communicates how confident the prediction is.",
+      "Both techniques let a viewer judge how much to trust a given data point, rather than presenting it as an exact certainty."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "3",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Discuss the way data visualization can be used to communicate data uncertainty, provide two specific examples.",
+    "topicId": "ms7bseaw9s7a2trthjknzw61dd8btgmq"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-data-visualization",
+    "topicTitle": "4.2 Data Visualization",
+    "_id": "m177trsrv3xnrctrtag00j19gx8e0pqj",
+    "exerciseId": "xd739p9f6kfv9jrsa40dcdwbcs8e17tx",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Consider the data type: categorical data suits bar/pie charts, continuous/time-series data suits line charts, and relationships between two numeric variables suit scatter plots.",
+      "Consider the message: comparison, trend, distribution, or composition each has a chart type that communicates it most clearly.",
+      "Consider the audience: a simpler chart (bar/pie) suits a general audience, while a technical audience may benefit from a more detailed chart (box plot, scatter with regression line).",
+      "Avoid distortion (e.g. truncated axes, 3D effects) that could visually mislead the viewer about the data."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Choose a visualization according to the data and the message it must communicate. Numerical data can use quantitative charts, categorical data can use bar or pie charts, and data changing over time can use a line graph. Relationships among several numerical variables can use scatter plots or heatmaps. The chart should make the intended comparison, trend, distribution or composition clear to its audience without distorting the data.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Describe the key considerations in selecting appropriate visualizations for different types of data and analyses?",
+    "topicId": "ms7bseaw9s7a2trthjknzw61dd8btgmq"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-2-data-visualization",
+    "topicTitle": "4.2 Data Visualization",
+    "_id": "m176tgmwprdnba0e4qcct42qb98e1m7k",
+    "exerciseId": "xd739p9f6kfv9jrsa40dcdwbcs8e17tx",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Data visualization makes large or complex datasets easier to understand at a glance by turning numbers into visual patterns.",
+      "It helps identify trends, outliers and correlations that would be hard to spot in a raw table.",
+      "It supports communication and decision-making, letting non-technical stakeholders quickly grasp findings and act on them.",
+      "It is used across fields: business dashboards for KPIs, scientific research for presenting results, journalism for data storytelling, and public health for tracking disease spread."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Data visualization turns data into charts, graphs and maps so complex information is easier to understand and can support meaningful decisions. It helps people identify trends, patterns and useful information, and it communicates findings to non-technical stakeholders. In business intelligence it reveals market trends and tracks performance; in education it supports data literacy, concept building and critical thinking; and in science and daily life it helps people interpret and use data.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Explain the uses of data visualization in detail.",
+    "topicId": "ms7bseaw9s7a2trthjknzw61dd8btgmq"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-stages-of-the-data-science-life-cycle",
+    "topicTitle": "4.3 Stages of the Data Science Life Cycle",
+    "_id": "m1786gddmtvfqvtws1nc6c49j18e0vsg",
+    "correctKey": "D",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Ongoing Maintenance and Monitoring after deployment is what continually checks accuracy, reliability and compliance over time.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Model Deployment"
+      },
+      {
+        "key": "B",
+        "text": "Model Evaluation"
+      },
+      {
+        "key": "C",
+        "text": "Data Analysis"
+      },
+      {
+        "key": "D",
+        "text": "Maintenance and Monitoring"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which stage of the data science life cycle ensures the model's accuracy, reliability, and compliance with privacy rules?",
+    "topicId": "ms71p929daegbdy8t29jhkvk658bt4g3"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-stages-of-the-data-science-life-cycle",
+    "topicTitle": "4.3 Stages of the Data Science Life Cycle",
+    "_id": "m177hsqex2rjhkd708dzkfrbh58e025y",
+    "correctKey": "B",
+    "exerciseId": "xd7cn0h47pphhnmx709ay9hs998e1w30",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Data cleaning is about removing errors and organizing raw data before analysis.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "Data collection"
+      },
+      {
+        "key": "B",
+        "text": "Error removal and data organization"
+      },
+      {
+        "key": "C",
+        "text": "Pattern identification"
+      },
+      {
+        "key": "D",
+        "text": "Model deployment"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 1,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "Which of the following is the key characteristic of the \"Data Cleaning\" stage in the data science life cycle?",
+    "topicId": "ms71p929daegbdy8t29jhkvk658bt4g3"
+  },
+  {
+    "subjectSlug": "computer-10",
+    "chapterSlug": "04-data-and-analysis",
+    "chapterTitle": "Data And Analysis",
+    "topicSlug": "4-3-stages-of-the-data-science-life-cycle",
+    "topicTitle": "4.3 Stages of the Data Science Life Cycle",
+    "_id": "m17cvc5g5xfg5jngkxhrdbyv018e0stq",
+    "exerciseId": "xd739p9f6kfv9jrsa40dcdwbcs8e17tx",
+    "exerciseTitle": "Exercise 4: Extended Response Questions",
+    "keyPoints": [
+      "Poor-quality data (missing values, errors, duplicates, bias) leads a model to learn incorrect or misleading patterns.",
+      "This results in inaccurate predictions and lower model accuracy/reliability.",
+      "It can introduce or amplify bias, causing the model to perform unfairly for some groups.",
+      "It can also cause the model to fail unexpectedly in production, requiring costly retraining or redesign, and undermines trust in the model's outputs."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Poor data quality, such as missing values, errors or duplicate records, can cause a model to learn incorrect patterns. Its predictions then become inaccurate and less reliable. Poor-quality or biased data can also make results unfair for some groups, and failures after deployment may require retraining or redesign. Because the quality of collected data directly affects later results, it also reduces confidence in the model's outputs.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionLabel": "Extended Response Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "computer-10"
+    },
+    "stem": "What are the potential consequences of poor data quality on model performance?",
+    "topicId": "ms71p929daegbdy8t29jhkvk658bt4g3"
+  }
+]

@@ -1,0 +1,877 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-1-electromagnetic-wave",
+    "topicTitle": "21.1 Electromagnetic Waves",
+    "_id": "k974zcsmtghq4kevt37525wpt18bj976",
+    "correctKey": "C",
+    "explanation": "All EM waves, regardless of frequency, travel at the same speed c = 3*10^8 m/s in vacuum.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx727df4cj75s9m5czfaaa08s585qc6y",
+    "options": [
+      {
+        "key": "A",
+        "text": "Higher frequency waves travel faster"
+      },
+      {
+        "key": "B",
+        "text": "Lower frequency waves travel faster"
+      },
+      {
+        "key": "C",
+        "text": "Speed is independent of frequency (always c)"
+      },
+      {
+        "key": "D",
+        "text": "Speed depends on both frequency and wavelength independently"
+      }
+    ],
+    "sectionId": "classical-picture-of-electromagnetic-waves",
+    "sectionLabel": "Classical Picture of Electromagnetic Waves",
+    "stem": "In vacuum, how does the speed of an electromagnetic wave depend on its frequency?",
+    "topicId": "ms7aq50c0qh1wpj5r82svz8t0185p297"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-1-electromagnetic-wave",
+    "topicTitle": "21.1 Electromagnetic Waves",
+    "_id": "k973mrb2vaqm3b7t31bkek6nc18bk1fm",
+    "correctKey": "B",
+    "explanation": "Electromagnetic radiation has a particulate (quantum) nature: it is emitted, absorbed, and travels in discrete packets of energy called photons.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx727df4cj75s9m5czfaaa08s585qc6y",
+    "options": [
+      {
+        "key": "A",
+        "text": "Electrons"
+      },
+      {
+        "key": "B",
+        "text": "Photons"
+      },
+      {
+        "key": "C",
+        "text": "Phonons"
+      },
+      {
+        "key": "D",
+        "text": "Quasiparticles"
+      }
+    ],
+    "sectionId": "particulate-nature-of-electromagnetic-radiation",
+    "sectionLabel": "Particulate Nature of Electromagnetic Radiation",
+    "stem": "The discrete packets of energy in which electromagnetic radiation is emitted and absorbed are called:",
+    "topicId": "ms7aq50c0qh1wpj5r82svz8t0185p297"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-1-electromagnetic-wave",
+    "topicTitle": "21.1 Electromagnetic Waves",
+    "_id": "k973623skycpgtfh4rkzd933jd8bjz39",
+    "correctKey": "B",
+    "explanation": "E = $\\frac{1240}{620}$ = 2.0 eV.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx727df4cj75s9m5czfaaa08s585qc6y",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 eV"
+      },
+      {
+        "key": "B",
+        "text": "2.0 eV"
+      },
+      {
+        "key": "C",
+        "text": "4.0 eV"
+      },
+      {
+        "key": "D",
+        "text": "620 eV"
+      }
+    ],
+    "sectionId": "the-electronvolt-ev",
+    "sectionLabel": "The Electronvolt (eV)",
+    "stem": "Using E = 1240 eV*nm / lambda, what is the approximate energy of a photon of wavelength 620 nm?",
+    "topicId": "ms7aq50c0qh1wpj5r82svz8t0185p297"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-1-electromagnetic-wave",
+    "topicTitle": "21.1 Electromagnetic Waves",
+    "_id": "k979zhs907dkheg02z2cannvwd8bkrh4",
+    "correctKey": "C",
+    "explanation": "Photon energy E = hf is directly proportional to frequency f, so higher frequency means higher photon energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx727df4cj75s9m5czfaaa08s585qc6y",
+    "options": [
+      {
+        "key": "A",
+        "text": "Decreases"
+      },
+      {
+        "key": "B",
+        "text": "Stays the same"
+      },
+      {
+        "key": "C",
+        "text": "Increases"
+      },
+      {
+        "key": "D",
+        "text": "Increases then decreases"
+      }
+    ],
+    "sectionId": "the-photonic-model-of-light-planckeinstein-relation",
+    "sectionLabel": "The Photonic Model of Light (Planck–Einstein Relation)",
+    "stem": "According to E = hf, how does photon energy change as the frequency of radiation increases?",
+    "topicId": "ms7aq50c0qh1wpj5r82svz8t0185p297"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-2-photoelectric-effect",
+    "topicTitle": "21.2 Photoelectric Effect",
+    "_id": "k977ghdwv3fnkzvxqvgfwjtq8x8bjyvm",
+    "correctKey": "B",
+    "explanation": "By conservation of energy, the photon's energy hf equals the work function Phi plus the maximum kinetic energy of the emitted electron: hf = Phi + K.$E_{max}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7153br06ph1sqp8epfxq2gx585pjyc",
+    "options": [
+      {
+        "key": "A",
+        "text": "hf = Phi - K.$E_{max}$"
+      },
+      {
+        "key": "B",
+        "text": "hf = Phi + K.$E_{max}$"
+      },
+      {
+        "key": "C",
+        "text": "hf = Phi * K.$E_{max}$"
+      },
+      {
+        "key": "D",
+        "text": "K.$E_{max}$ = Phi - hf"
+      }
+    ],
+    "sectionId": "einsteins-photoelectric-equation",
+    "sectionLabel": "Einstein's Photoelectric Equation",
+    "stem": "Einstein's photoelectric equation is:",
+    "topicId": "ms7e6sxd0awcsednr0z54n03ax85q27c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-2-photoelectric-effect",
+    "topicTitle": "21.2 Photoelectric Effect",
+    "_id": "k978e6g5t81wds4b9fqj7nrv7h8bpbnt",
+    "correctKey": "B",
+    "explanation": "Greater intensity supplies more photons per second, so more electrons are emitted and photocurrent rises. Each photon’s energy remains $hf$, so the maximum kinetic energy does not change.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7153br06ph1sqp8epfxq2gx585pjyc",
+    "options": [
+      {
+        "key": "A",
+        "text": "The maximum kinetic energy increases, but photocurrent is unchanged"
+      },
+      {
+        "key": "B",
+        "text": "The photocurrent increases, but the maximum kinetic energy is unchanged"
+      },
+      {
+        "key": "C",
+        "text": "Both photocurrent and maximum kinetic energy decrease"
+      },
+      {
+        "key": "D",
+        "text": "Emission stops because the threshold frequency increases"
+      }
+    ],
+    "sectionId": "experimental-observations",
+    "sectionLabel": "Experimental Observations",
+    "stem": "Light above the threshold frequency strikes a metal. If only the light intensity is increased, what changes?",
+    "topicId": "ms7e6sxd0awcsednr0z54n03ax85q27c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-2-photoelectric-effect",
+    "topicTitle": "21.2 Photoelectric Effect",
+    "_id": "k97b505zkr967xpaykfgm1eyc98bknze",
+    "correctKey": "B",
+    "explanation": "Below the threshold frequency, no photoelectrons are emitted no matter how intense the light is, since each photon individually lacks enough energy to overcome the work function.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7153br06ph1sqp8epfxq2gx585pjyc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Photoelectrons are emitted slowly"
+      },
+      {
+        "key": "B",
+        "text": "No photoelectrons are emitted, regardless of intensity"
+      },
+      {
+        "key": "C",
+        "text": "Photoelectrons are emitted only if intensity is very high"
+      },
+      {
+        "key": "D",
+        "text": "Photoelectrons are emitted with reduced kinetic energy"
+      }
+    ],
+    "sectionId": "threshold-frequency-and-threshold-wavelength",
+    "sectionLabel": "Threshold Frequency and Threshold Wavelength",
+    "stem": "If light with frequency below the threshold frequency $f_{0}$ is shone on a metal surface, what happens?",
+    "topicId": "ms7e6sxd0awcsednr0z54n03ax85q27c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-2-photoelectric-effect",
+    "topicTitle": "21.2 Photoelectric Effect",
+    "_id": "k979wex2axr81rymypeet8yhgx8bjrrb",
+    "correctKey": "B",
+    "explanation": "Einstein explained the photoelectric effect in 1905 using the photon concept: light delivers energy in discrete packets (photons) of energy hf.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7153br06ph1sqp8epfxq2gx585pjyc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Wave interference"
+      },
+      {
+        "key": "B",
+        "text": "Photons (quantised light energy)"
+      },
+      {
+        "key": "C",
+        "text": "Electron spin"
+      },
+      {
+        "key": "D",
+        "text": "Magnetic flux"
+      }
+    ],
+    "sectionId": "what-is-the-photoelectric-effect",
+    "sectionLabel": "What is the Photoelectric Effect?",
+    "stem": "The photoelectric effect was theoretically explained by Einstein using which concept?",
+    "topicId": "ms7e6sxd0awcsednr0z54n03ax85q27c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-2-photoelectric-effect",
+    "topicTitle": "21.2 Photoelectric Effect",
+    "_id": "k979yy1ss7z3h7q9edjk1htjsd89b3sp",
+    "correctKey": "C",
+    "explanation": "The work function Phi is the minimum energy (in J or eV) needed to free an electron from the metal, and the threshold frequency f_0 = Phi/h is the corresponding minimum frequency (in Hz) of incident light needed to cause emission. Option C states both correctly.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7153br06ph1sqp8epfxq2gx585pjyc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Work function is the minimum number of photons required to eject an electron, while threshold frequency is the rate at which they arrive."
+      },
+      {
+        "key": "B",
+        "text": "Work function depends entirely on the intensity of the incident light, whereas threshold frequency depends only on the metal's surface properties."
+      },
+      {
+        "key": "C",
+        "text": "Work function is the minimum energy required to liberate an electron (measured in Joules or eV), while threshold frequency is the minimum frequency of incident light required to cause emission (measured in Hz)."
+      },
+      {
+        "key": "D",
+        "text": "Work function is a variable quantity that changes with the kinetic energy of emitted electrons, while threshold frequency is always a universal constant ($6.63 \\times 10^{-34}\\text{ Hz}$)."
+      }
+    ],
+    "sectionId": "work-function-phi",
+    "sectionLabel": "Work Function ($\\Phi$)",
+    "stem": "Which of the following statements correctly distinguishes between the **work function ($\\Phi$)** and the **threshold frequency ($f_0$)** of a photosensitive metal surface?",
+    "topicId": "ms7e6sxd0awcsednr0z54n03ax85q27c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-2-photoelectric-effect",
+    "topicTitle": "21.2 Photoelectric Effect",
+    "_id": "k97ebwsp4cd7zkvtxbtcgs461h8bk84c",
+    "correctKey": "B",
+    "explanation": "The work function Phi is the minimum energy needed to free an electron from a metal's surface, Phi = $hf_0$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7153br06ph1sqp8epfxq2gx585pjyc",
+    "options": [
+      {
+        "key": "A",
+        "text": "The total energy of an incident photon"
+      },
+      {
+        "key": "B",
+        "text": "The minimum energy required to liberate an electron from the metal surface"
+      },
+      {
+        "key": "C",
+        "text": "The kinetic energy of an emitted photoelectron"
+      },
+      {
+        "key": "D",
+        "text": "The stopping potential of the metal"
+      }
+    ],
+    "sectionId": "work-function-phi",
+    "sectionLabel": "Work Function ($\\Phi$)",
+    "stem": "The work function of a metal is best described as:",
+    "topicId": "ms7e6sxd0awcsednr0z54n03ax85q27c"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-3-compton-s-effect",
+    "topicTitle": "21.3 Compton's Effect",
+    "_id": "k976naw8qpxgjmgjggm52ymjsd8bjhsf",
+    "correctKey": "A",
+    "explanation": "h/(m0*c) = 2.43*10^-12 m = 0.00243 nm.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7csvakg89cbk1h59bgf68fad85pz9b",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.00243 nm"
+      },
+      {
+        "key": "B",
+        "text": "2.43 nm"
+      },
+      {
+        "key": "C",
+        "text": "0.511 nm"
+      },
+      {
+        "key": "D",
+        "text": "1240 nm"
+      }
+    ],
+    "sectionId": "compton-wavelength",
+    "sectionLabel": "Compton Wavelength",
+    "stem": "The Compton wavelength of the electron, h/(m0*c), is approximately:",
+    "topicId": "ms781n15mq1ev917vvzn6088ax85qhxv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-3-compton-s-effect",
+    "topicTitle": "21.3 Compton's Effect",
+    "_id": "k97b57vvmtsatcdnvf8dap0j698bkh0y",
+    "correctKey": "B",
+    "explanation": "Compton treated the X-ray photon as a particle undergoing an elastic collision with a free electron, similar to a billiard-ball collision, transferring energy and momentum to the recoiling electron.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7csvakg89cbk1h59bgf68fad85pz9b",
+    "options": [
+      {
+        "key": "A",
+        "text": "A wave interference pattern"
+      },
+      {
+        "key": "B",
+        "text": "An elastic, billiard-ball-like collision between particles"
+      },
+      {
+        "key": "C",
+        "text": "A resonance absorption process"
+      },
+      {
+        "key": "D",
+        "text": "A diffraction event"
+      }
+    ],
+    "sectionId": "explanation",
+    "sectionLabel": "Explanation",
+    "stem": "Compton explained the Compton effect by modelling the X-ray photon's interaction with an electron as:",
+    "topicId": "ms781n15mq1ev917vvzn6088ax85qhxv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-3-compton-s-effect",
+    "topicTitle": "21.3 Compton's Effect",
+    "_id": "k9747fp3vet1dd5t5wmv6y461h8bkqe7",
+    "correctKey": "B",
+    "explanation": "Each photon carries energy equal to the rest-mass energy of one particle, $E_{gamma}$ = m0*$c^{2}$ = 0.511 MeV, so the two photons together carry the total 1.02 MeV.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7csvakg89cbk1h59bgf68fad85pz9b",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.255 MeV"
+      },
+      {
+        "key": "B",
+        "text": "0.511 MeV"
+      },
+      {
+        "key": "C",
+        "text": "1.02 MeV"
+      },
+      {
+        "key": "D",
+        "text": "2.04 MeV"
+      }
+    ],
+    "sectionId": "pair-production-and-annihilation",
+    "sectionLabel": "Pair Production and Annihilation",
+    "stem": "In pair annihilation (e- + e+ -> 2 gamma), the energy of each gamma-ray photon produced is approximately:",
+    "topicId": "ms781n15mq1ev917vvzn6088ax85qhxv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-3-compton-s-effect",
+    "topicTitle": "21.3 Compton's Effect",
+    "_id": "k97eqn09489nm3hm6048ack4298bkvv7",
+    "correctKey": "B",
+    "explanation": "p = h/lambda, so momentum is inversely proportional to wavelength: shorter wavelength means larger photon momentum.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7csvakg89cbk1h59bgf68fad85pz9b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Directly proportional to wavelength"
+      },
+      {
+        "key": "B",
+        "text": "Inversely proportional to wavelength"
+      },
+      {
+        "key": "C",
+        "text": "Independent of wavelength"
+      },
+      {
+        "key": "D",
+        "text": "Proportional to the square of wavelength"
+      }
+    ],
+    "sectionId": "photon-momentum",
+    "sectionLabel": "Photon Momentum",
+    "stem": "A photon's momentum p = h/lambda is:",
+    "topicId": "ms781n15mq1ev917vvzn6088ax85qhxv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-3-compton-s-effect",
+    "topicTitle": "21.3 Compton's Effect",
+    "_id": "k97e0rh4y9wx53yxd370btbtfd8bj6ae",
+    "correctKey": "B",
+    "explanation": "The Compton shift is a fixed ~0.00243 nm regardless of incident wavelength. For X-rays (~0.1 nm) this is a large fractional change (~2%), but for visible light (~500 nm) it is negligibly small (~5*10^-6), hence undetectable.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7csvakg89cbk1h59bgf68fad85pz9b",
+    "options": [
+      {
+        "key": "A",
+        "text": "X-rays have zero momentum"
+      },
+      {
+        "key": "B",
+        "text": "The Compton shift is fixed at ~0.00243 nm, which is a tiny fraction of an X-ray wavelength but negligible compared to visible light's much longer wavelength"
+      },
+      {
+        "key": "C",
+        "text": "Visible light photons have no momentum"
+      },
+      {
+        "key": "D",
+        "text": "The Compton shift only occurs for gamma rays"
+      }
+    ],
+    "sectionId": "why-compton-effect-is-not-observed-with-visible-light",
+    "sectionLabel": "Why Compton Effect is Not Observed with Visible Light",
+    "stem": "Why is the Compton effect readily observable for X-rays but not for visible light?",
+    "topicId": "ms781n15mq1ev917vvzn6088ax85qhxv"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-5-pair-annihilation",
+    "topicTitle": "21.5 Pair Annihilation",
+    "_id": "k9758sb6kxgz8n204s95nzjb0n8bke3r",
+    "correctKey": "B",
+    "explanation": "E = $Delta_m$ * $c^{2}$ relates a change in rest mass to the energy released or absorbed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aj5d8v7xv8xe8x24eczehqx85p9nz",
+    "options": [
+      {
+        "key": "A",
+        "text": "E = mc"
+      },
+      {
+        "key": "B",
+        "text": "E = $Delta_m$ * $c^{2}$"
+      },
+      {
+        "key": "C",
+        "text": "E = $Delta_m$ / $c^{2}$"
+      },
+      {
+        "key": "D",
+        "text": "E = $mc^{3}$"
+      }
+    ],
+    "sectionId": "mass-energy-equivalence",
+    "sectionLabel": "Mass-Energy Equivalence",
+    "stem": "Einstein's mass-energy equivalence relation, used to find the energy released in pair annihilation, is:",
+    "topicId": "ms78vygcvkm8fzajqy1hfmpd6d85qxwe"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-5-pair-annihilation",
+    "topicTitle": "21.5 Pair Annihilation",
+    "_id": "k979wyrfeb2k6zk8a7p75wwvds8bj51a",
+    "correctKey": "B",
+    "explanation": "A single photon always carries nonzero momentum p = h/lambda, so it cannot represent the near-zero net momentum of the at-rest electron-positron pair. Two photons travelling in opposite directions have equal and opposite momenta, summing to zero.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7aj5d8v7xv8xe8x24eczehqx85p9nz",
+    "options": [
+      {
+        "key": "A",
+        "text": "To conserve electric charge"
+      },
+      {
+        "key": "B",
+        "text": "To conserve linear momentum, since a single photon cannot have zero momentum"
+      },
+      {
+        "key": "C",
+        "text": "Because each particle can only convert into one photon"
+      },
+      {
+        "key": "D",
+        "text": "To conserve angular momentum only"
+      }
+    ],
+    "sectionId": "why-two-photons-are-produced",
+    "sectionLabel": "Why Two Photons Are Produced",
+    "stem": "Why are exactly two photons (not one) produced in electron-positron annihilation at rest?",
+    "topicId": "ms78vygcvkm8fzajqy1hfmpd6d85qxwe"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-6-the-wave-particle-duality",
+    "topicTitle": "21.6 Wave-Particle Duality",
+    "_id": "k9793vyq7armvz6cg3sy449p0h8bkt79",
+    "correctKey": "B",
+    "explanation": "Higher accelerating voltage increases electron speed v, which decreases the de Broglie wavelength lambda = h/(mv), giving finer resolution.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dpvn5vzf9gsx4z511y4hkxx85px6f",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increases the de Broglie wavelength and worsens resolution"
+      },
+      {
+        "key": "B",
+        "text": "Decreases the de Broglie wavelength and improves resolution"
+      },
+      {
+        "key": "C",
+        "text": "Has no effect on resolution"
+      },
+      {
+        "key": "D",
+        "text": "Only affects the electron's charge"
+      }
+    ],
+    "sectionId": "electron-microscope",
+    "sectionLabel": "Electron Microscope",
+    "stem": "In an electron microscope, increasing the accelerating voltage:",
+    "topicId": "ms7d0wrqf8fnhbf3w8r6tffrg185qbky"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-6-the-wave-particle-duality",
+    "topicTitle": "21.6 Wave-Particle Duality",
+    "_id": "k97dza60prkm852kjk307qn1f18bj55j",
+    "correctKey": "B",
+    "explanation": "Light exhibiting both wave behaviour (interference, diffraction) and particle behaviour (photoelectric effect, Compton effect, pair production) is called wave-particle duality.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dpvn5vzf9gsx4z511y4hkxx85px6f",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quantum tunnelling"
+      },
+      {
+        "key": "B",
+        "text": "Wave-particle duality"
+      },
+      {
+        "key": "C",
+        "text": "The uncertainty principle"
+      },
+      {
+        "key": "D",
+        "text": "Pair annihilation"
+      }
+    ],
+    "sectionId": "particle-nature-of-light",
+    "sectionLabel": "Particle Nature of Light",
+    "stem": "Light showing interference and diffraction demonstrates its wave nature, while the photoelectric effect, Compton effect, and pair production demonstrate its particle nature. This combined behaviour is called:",
+    "topicId": "ms7d0wrqf8fnhbf3w8r6tffrg185qbky"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-8-heisenberg-s-uncertainty-principle",
+    "topicTitle": "21.8 Heisenberg's Uncertainty Principle",
+    "_id": "k976c2g6b8623z90jq6qwjkjqh8bjrys",
+    "correctKey": "C",
+    "explanation": "Since $Delta_x$ * $Delta_p$ >= hbar (a fixed lower bound), decreasing $Delta_x$ forces $Delta_p$ to increase.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76yq83msjakx5yfsfbd59eh985qaw0",
+    "options": [
+      {
+        "key": "A",
+        "text": "It also decreases"
+      },
+      {
+        "key": "B",
+        "text": "It stays the same"
+      },
+      {
+        "key": "C",
+        "text": "It increases"
+      },
+      {
+        "key": "D",
+        "text": "It becomes exactly zero"
+      }
+    ],
+    "sectionId": "2181-positionmomentum-uncertainty",
+    "sectionLabel": "21.8.1 Position–Momentum Uncertainty",
+    "stem": "According to Heisenberg's uncertainty principle, if the position of a particle is measured more precisely (smaller $Delta_x$), what happens to the uncertainty in its momentum?",
+    "topicId": "ms7d0acsw55qmrqe23q5rz9v5185prft"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-8-heisenberg-s-uncertainty-principle",
+    "topicTitle": "21.8 Heisenberg's Uncertainty Principle",
+    "_id": "k9748tmb6yck09b6aq3rvakmzh8bjy7q",
+    "correctKey": "B",
+    "explanation": "hbar ~= 1.054*10^-34 J.s is extremely small, so for macroscopic momenta the corresponding position uncertainty (of order 10^-34 m) is far too small to ever be measured, unlike for atomic and subatomic particles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76yq83msjakx5yfsfbd59eh985qaw0",
+    "options": [
+      {
+        "key": "A",
+        "text": "The principle only applies to charged particles"
+      },
+      {
+        "key": "B",
+        "text": "hbar is so small that the resulting position/momentum uncertainties are far below any measurable scale for macroscopic masses and speeds"
+      },
+      {
+        "key": "C",
+        "text": "Macroscopic objects do not have wave properties at all"
+      },
+      {
+        "key": "D",
+        "text": "The uncertainty principle only applies to photons"
+      }
+    ],
+    "sectionId": "2184-why-the-principle-is-not-noticeable-in-everyday-life",
+    "sectionLabel": "21.8.4 Why the Principle is Not Noticeable in Everyday Life",
+    "stem": "Why is Heisenberg's uncertainty principle not noticeable for everyday macroscopic objects like a thrown ball?",
+    "topicId": "ms7d0acsw55qmrqe23q5rz9v5185prft"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-8-heisenberg-s-uncertainty-principle",
+    "topicTitle": "21.8 Heisenberg's Uncertainty Principle",
+    "_id": "k97chw2g6gqr39378f30cn42nn8bjyge",
+    "correctKey": "B",
+    "explanation": "Since $Delta_x$ * $Delta_p$ >= hbar, if $Delta_x$ -> 0 then $Delta_p$ -> infinity: the momentum becomes completely undefined. This is an inherent property of quantum systems, not a measurement limitation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76yq83msjakx5yfsfbd59eh985qaw0",
+    "options": [
+      {
+        "key": "A",
+        "text": "The momentum would also become perfectly precise"
+      },
+      {
+        "key": "B",
+        "text": "The momentum's uncertainty would become infinite (completely undefined)"
+      },
+      {
+        "key": "C",
+        "text": "The momentum would become exactly zero"
+      },
+      {
+        "key": "D",
+        "text": "There would be no effect on momentum"
+      }
+    ],
+    "sectionId": "2185-using-the-uncertainty-principle-to-explain-measurement-uncertainty",
+    "sectionLabel": "21.8.5 Using the Uncertainty Principle to Explain Measurement Uncertainty",
+    "stem": "If a particle's position could be measured with perfect precision ($Delta_x$ -> 0), what does the uncertainty principle say about its momentum?",
+    "topicId": "ms7d0acsw55qmrqe23q5rz9v5185prft"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-9-discrete-energy-levels-in-an-atom-and-its-spectra",
+    "topicTitle": "21.9 Discrete Energy Levels and Atomic Spectra",
+    "_id": "k970xqwqnpspat81ms6eh982mn8bkjgs",
+    "correctKey": "C",
+    "explanation": "The ground state energy is $E_{1}$ = -13.6 eV, so 13.6 eV is needed to raise the electron's energy to zero (n -> infinity), completely removing it from the atom.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76gdzakbnd3abpsxrvqxtk7585p4rw",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.4 eV"
+      },
+      {
+        "key": "B",
+        "text": "6.8 eV"
+      },
+      {
+        "key": "C",
+        "text": "13.6 eV"
+      },
+      {
+        "key": "D",
+        "text": "1.51 eV"
+      }
+    ],
+    "sectionId": "discrete-electron-energy-levels",
+    "sectionLabel": "Discrete Electron Energy Levels",
+    "stem": "The ionisation energy of a hydrogen atom from its ground state is:",
+    "topicId": "ms7145psmeghmgyn8y6w92e5k185q52x"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-9-discrete-energy-levels-in-an-atom-and-its-spectra",
+    "topicTitle": "21.9 Discrete Energy Levels and Atomic Spectra",
+    "_id": "k972jqn0k4wt62jecd9ph155xn8bj6bx",
+    "correctKey": "B",
+    "explanation": "A gas sample contains a huge number of hydrogen atoms. Different electrons transition between different pairs of energy levels at any given time, and each distinct transition produces a photon of a distinct frequency, giving many spectral lines overall.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76gdzakbnd3abpsxrvqxtk7585p4rw",
+    "options": [
+      {
+        "key": "A",
+        "text": "Each hydrogen atom emits all lines simultaneously"
+      },
+      {
+        "key": "B",
+        "text": "The sample contains many atoms, and different electrons undergo different transitions between energy-level pairs, each producing a different photon frequency"
+      },
+      {
+        "key": "C",
+        "text": "Hydrogen atoms have multiple electrons in excited states"
+      },
+      {
+        "key": "D",
+        "text": "The lines come from collisions between atoms, not electron transitions"
+      }
+    ],
+    "sectionId": "emission-and-absorption-line-spectra",
+    "sectionLabel": "Emission and Absorption Line Spectra",
+    "stem": "Why does a sample of hydrogen gas produce many spectral lines, even though each hydrogen atom has only one electron?",
+    "topicId": "ms7145psmeghmgyn8y6w92e5k185q52x"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "21-quantum-physics",
+    "chapterTitle": "Quantum Physics",
+    "topicSlug": "21-9-discrete-energy-levels-in-an-atom-and-its-spectra",
+    "topicTitle": "21.9 Discrete Energy Levels and Atomic Spectra",
+    "_id": "k97ccgttbzd0mh5xqd97d8md618bjyh2",
+    "correctKey": "A",
+    "explanation": "$Delta_E$ = $E_{3}$ - $E_{2}$ = (-1.51) - (-3.4) = 1.89 eV, so the photon carries 1.89 eV, corresponding to a visible red line of the Balmer series.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76gdzakbnd3abpsxrvqxtk7585p4rw",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.89 eV"
+      },
+      {
+        "key": "B",
+        "text": "3.4 eV"
+      },
+      {
+        "key": "C",
+        "text": "4.91 eV"
+      },
+      {
+        "key": "D",
+        "text": "13.6 eV"
+      }
+    ],
+    "sectionId": "the-photon-energy-equation-hf--delta-e",
+    "sectionLabel": "The Photon Energy Equation: $hf = \\Delta E$",
+    "stem": "When an electron in hydrogen falls from n=3 (E=-1.51 eV) to n=2 (E=-3.4 eV), the energy of the emitted photon is approximately:",
+    "topicId": "ms7145psmeghmgyn8y6w92e5k185q52x"
+  }
+]

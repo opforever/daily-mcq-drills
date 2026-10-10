@@ -1,0 +1,1809 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "superposition-of-waves",
+    "topicTitle": "9.1 Superposition of Waves",
+    "_id": "m177zjedq6y219cb4129z0d51n85qa8p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Path difference is the difference in distances traveled by two waves from their sources to the observation point",
+      "When path difference = $m\\lambda$ (integer multiple of wavelength), constructive interference occurs with maximum intensity",
+      "When path difference = $(2m+1)\\frac{\\lambda}{2}$ (odd multiple of half wavelength), destructive interference occurs with minimum intensity",
+      "Path difference determines the phase relationship between interfering waves and their resultant amplitude",
+      "Measured in terms of wavelengths to predict interference patterns at any point in the medium"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Path difference refers to the difference in the distances traveled by two waves from their respective sources to a point of observation. It is denoted as $\\Delta d$ and is measured in terms of wavelengths ($\\lambda$). When the path difference equals an integer multiple of the wavelength ($\\Delta d = m\\lambda$, where $m = 0, 1, 2, 3, ...$), constructive interference occurs, producing maximum intensity. When the path difference equals an odd multiple of half wavelengths ($\\Delta d = (2m+1)\\frac{\\lambda}{2}$), destructive interference occurs, producing minimum intensity. Path difference is the key factor determining whether two interfering waves will reinforce or cancel each other at any given point.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "sectionId": "path-difference",
+    "sectionLabel": "Path Difference",
+    "session": "annual",
+    "stem": "What is meant by the **path difference** with reference to the interference of two waves?",
+    "topicId": "ms71ffyxjfbbcp9weq7jg9haks85pr7m",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "superposition-of-waves",
+    "topicTitle": "9.1 Superposition of Waves",
+    "_id": "m17a3g72am6xf1cvxqs9g20gvd85q7vk",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Principle of superposition explains how wavefronts from moving source combine at observer's location",
+      "Compression of wavefronts when source approaches observer leads to increased frequency ($f' = f \\left( \\frac{v + v_o}{v - v_s} \\right)$)",
+      "Stretching of wavefronts when source recedes leads to decreased frequency",
+      "Relative motion changes wavelength spacing and arrival time intervals of successive wavefronts",
+      "Constructive and destructive interference of superimposed wavefronts produces perceived frequency change"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "The Doppler effect can be explained using the principle of superposition by considering how the wavefronts from a moving source superimpose at the observer's location. When a source moves towards an observer, the wavefronts are compressed, reducing the wavelength and increasing the observed frequency according to $f' = f \\left( \\frac{v + v_o}{v - v_s} \\right)$. Conversely, when the source moves away, wavefronts are stretched, increasing wavelength and decreasing observed frequency. The superposition of successive wavefronts arriving at different intervals creates this apparent frequency shift, demonstrating how relative motion between source and observer alters the spatial and temporal distribution of wave crests and troughs at the observer's position.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionId": "what-is-the-doppler-effect",
+    "sectionLabel": "What Is the Doppler Effect?",
+    "session": "annual",
+    "stem": "Explain **Doppler effect** on the basis of principle of superposition.",
+    "topicId": "ms71ffyxjfbbcp9weq7jg9haks85pr7m",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "interference-of-waves",
+    "topicTitle": "9.2 Interference of Waves",
+    "_id": "m17fjyjv3geyd9fdfmxfkek78985paz2",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For constructive interference, the path difference is $d = m\\lambda$, where $m = 0, 1, 2, 3, \\ldots$ (integer multiples of wavelength). This occurs when the crests and troughs of two waves align, causing their amplitudes to add together and produce maximum intensity.",
+    "keyPoints": [
+      "Path difference formula: $d = m\\lambda$ where $m$ is an integer",
+      "Condition for constructive interference: crests and troughs of waves must be in phase/aligned",
+      "Result: amplitudes add together producing maximum intensity",
+      "Integer values of $m$ (0, 1, 2, 3, ...) represent successive points of constructive interference"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For constructive interference, the path difference is $d = m\\lambda$, where $m = 0, 1, 2, 3, \\ldots$ (integer multiples of wavelength). This occurs when the crests and troughs of two waves align, causing their amplitudes to add together and produce maximum intensity.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$(m + \\frac{1}{2}) \\lambda$"
+      },
+      {
+        "key": "B",
+        "text": "$(m - \\frac{1}{2}) \\lambda$"
+      },
+      {
+        "key": "C",
+        "text": "$m \\lambda^2$"
+      },
+      {
+        "key": "D",
+        "text": "$m \\lambda$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "constructive-interference",
+    "sectionLabel": "Constructive Interference",
+    "session": "annual",
+    "stem": "For constructive interference, path difference, $d = $",
+    "topicId": "ms79s80y85m49teckbgswjb9qd85p8f5",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "interference-of-waves",
+    "topicTitle": "9.2 Interference of Waves",
+    "_id": "m17aw0txv07cewqtyp1321q8ch85qehx",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\lambda/4$"
+      },
+      {
+        "key": "B",
+        "text": "$3\\lambda/2$"
+      },
+      {
+        "key": "C",
+        "text": "$\\lambda$"
+      },
+      {
+        "key": "D",
+        "text": "$\\lambda/2$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "17",
+    "sectionId": "destructive-interference",
+    "sectionLabel": "Destructive Interference",
+    "session": "annual",
+    "stem": "The path difference for destructive interference is:",
+    "topicId": "ms79s80y85m49teckbgswjb9qd85p8f5",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "interference-of-waves",
+    "topicTitle": "9.2 Interference of Waves",
+    "_id": "m177zjedq6y219cb4129z0d51n85qa8p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Path difference is the difference in distances traveled by two waves from their sources to the observation point",
+      "When path difference = $m\\lambda$ (integer multiple of wavelength), constructive interference occurs with maximum intensity",
+      "When path difference = $(2m+1)\\frac{\\lambda}{2}$ (odd multiple of half wavelength), destructive interference occurs with minimum intensity",
+      "Path difference determines the phase relationship between interfering waves and their resultant amplitude",
+      "Measured in terms of wavelengths to predict interference patterns at any point in the medium"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Path difference refers to the difference in the distances traveled by two waves from their respective sources to a point of observation. It is denoted as $\\Delta d$ and is measured in terms of wavelengths ($\\lambda$). When the path difference equals an integer multiple of the wavelength ($\\Delta d = m\\lambda$, where $m = 0, 1, 2, 3, ...$), constructive interference occurs, producing maximum intensity. When the path difference equals an odd multiple of half wavelengths ($\\Delta d = (2m+1)\\frac{\\lambda}{2}$), destructive interference occurs, producing minimum intensity. Path difference is the key factor determining whether two interfering waves will reinforce or cancel each other at any given point.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "sectionId": "path-difference",
+    "sectionLabel": "Path Difference",
+    "session": "annual",
+    "stem": "What is meant by the **path difference** with reference to the interference of two waves?",
+    "topicId": "ms79s80y85m49teckbgswjb9qd85p8f5",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "interference-of-waves",
+    "topicTitle": "9.2 Interference of Waves",
+    "_id": "m172566s6jxjvw3y9kf2k564vx85pg3d",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Interference occurs when two or more waves of same type and frequency overlap in the same medium",
+      "Principle of superposition applies: net displacement is vector sum of individual displacements",
+      "Constructive interference when path difference = $m\\lambda$ (maximum intensity)",
+      "Destructive interference when path difference = $(m + \\frac{1}{2})\\lambda$ (minimum intensity)",
+      "Waves must be coherent with constant phase relationship for stable interference pattern"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Interference is a phenomenon that occurs when two or more waves of the same type and frequency overlap while traveling through the same medium. The resulting wave is determined by the principle of superposition, where the net displacement at any point is the vector sum of individual wave displacements. This can lead to constructive interference (waves reinforce) or destructive interference (waves cancel).\n\n**Conditions for Interference:**\n1. **Same frequency:** The two waves must have identical frequencies to maintain a stable interference pattern.\n2. **Same type of waves:** Both waves must be of the same nature (e.g., both sound or both light waves).\n3. **Coherent sources:** The sources must be coherent, meaning they maintain a constant phase relationship.\n4. **Path difference conditions:** For constructive interference: $\\Delta d = m\\lambda$ (where $m = 0, 1, 2, ...$); for destructive interference: $\\Delta d = (m + \\frac{1}{2})\\lambda$ (where $m = 0, 1, 2, ...$).\n5. **Overlapping waves:** The waves must overlap in the same region of space.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "28",
+    "sectionId": "what-is-interference",
+    "sectionLabel": "What Is Interference?",
+    "session": "annual",
+    "stem": "What is meant by **interference**? Give conditions for interference.",
+    "topicId": "ms79s80y85m49teckbgswjb9qd85p8f5",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "stationary-waves",
+    "topicTitle": "9.4 Stationary Waves",
+    "_id": "m17dgk5q1z5e40hf4g9ezxnpeh85q9a5",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Given: frequency $f = 30$ waves/s, speed $v = 30$ m/s. Using the wave equation $v = f\\lambda$, we get $\\lambda = \\frac{v}{f} = \\frac{30}{30} = 1$ m. Therefore, the wavelength is **1 meter**.",
+    "keyPoints": [
+      "Correctly identifies frequency from given data (30 waves per second)",
+      "Applies wave equation $v = f\\lambda$ appropriately",
+      "Substitutes values correctly: $\\lambda = \\frac{30}{30}$",
+      "Arrives at correct answer: wavelength = 1 m",
+      "Shows proper use of SI units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Given: frequency $f = 30$ waves/s, speed $v = 30$ m/s. Using the wave equation $v = f\\lambda$, we get $\\lambda = \\frac{v}{f} = \\frac{30}{30} = 1$ m. Therefore, the wavelength is **1 meter**.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 m"
+      },
+      {
+        "key": "B",
+        "text": "2 m"
+      },
+      {
+        "key": "C",
+        "text": "400 m"
+      },
+      {
+        "key": "D",
+        "text": "20 m"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "If 30 waves pass through a medium in 1 second with speed 30 m/s, then wavelength is:",
+    "topicId": "ms74ksk5rsyc66fw2w6tpge4s585qthz",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "stationary-waves",
+    "topicTitle": "9.4 Stationary Waves",
+    "_id": "m178znmmhw7gxmngpf50v0cyj185qy89",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The velocity of waves in a stretched string is given by $v = \\sqrt{\\frac{T}{\\mu}}$, where $T$ is tension and $\\mu$ is linear mass density. If tension is made four times, then $v' = \\sqrt{\\frac{4T}{\\mu}} = 2\\sqrt{\\frac{T}{\\mu}} = 2v$. Therefore, the velocity of waves becomes **twice** the original velocity.",
+    "keyPoints": [
+      "Correctly identifies the wave velocity formula $v = \\sqrt{\\frac{T}{\\mu}}$",
+      "Shows that velocity is proportional to square root of tension",
+      "Calculates that $v' = 2v$ when tension becomes $4T$",
+      "States final answer: velocity becomes twice or increases by factor of 2"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The velocity of waves in a stretched string is given by $v = \\sqrt{\\frac{T}{\\mu}}$, where $T$ is tension and $\\mu$ is linear mass density. If tension is made four times, then $v' = \\sqrt{\\frac{4T}{\\mu}} = 2\\sqrt{\\frac{T}{\\mu}} = 2v$. Therefore, the velocity of waves becomes **twice** the original velocity.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Becomes twice"
+      },
+      {
+        "key": "B",
+        "text": "Becomes half"
+      },
+      {
+        "key": "C",
+        "text": "Remains same"
+      },
+      {
+        "key": "D",
+        "text": "Becomes four times"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "If tension in a stretched string is made four times then velocity of waves:",
+    "topicId": "ms74ksk5rsyc66fw2w6tpge4s585qthz",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "stationary-waves",
+    "topicTitle": "9.4 Stationary Waves",
+    "_id": "m17aazz1a2kwcfnef6h2tqczf585p134",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Using the wave equation $v = f\\lambda$, where $v$ is wave speed, $f$ is frequency, and $\\lambda$ is wavelength. Given: $f = 332$ waves/second (Hz) and $v = 332$ m/s. Therefore, $\\lambda = \\frac{v}{f} = \\frac{332}{332} = 1$ m.",
+    "keyPoints": [
+      "Correctly identifies frequency from number of waves per second (332 Hz)",
+      "Applies wave equation $v = f\\lambda$ appropriately",
+      "Substitutes values correctly: $\\lambda = \\frac{332}{332}$",
+      "Obtains correct wavelength of 1 meter with proper units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Using the wave equation $v = f\\lambda$, where $v$ is wave speed, $f$ is frequency, and $\\lambda$ is wavelength. Given: $f = 332$ waves/second (Hz) and $v = 332$ m/s. Therefore, $\\lambda = \\frac{v}{f} = \\frac{332}{332} = 1$ m.",
+    "options": [
+      {
+        "key": "A",
+        "text": "664 m"
+      },
+      {
+        "key": "B",
+        "text": "1 m"
+      },
+      {
+        "key": "C",
+        "text": "7 m"
+      },
+      {
+        "key": "D",
+        "text": "332 m"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "If 332 waves pass through a medium in one second with speed of 332 m/s, then wavelength will be:",
+    "topicId": "ms74ksk5rsyc66fw2w6tpge4s585qthz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "stationary-waves",
+    "topicTitle": "9.4 Stationary Waves",
+    "_id": "m17b4ab0jn5ga7fv67kf6x9s7s85qhyw",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies frequency from the number of waves passing per unit time: $f = 20\\text{ Hz}$",
+      "Converts wavelength to SI units: $\\lambda = 4\\text{ cm} = 0.04\\text{ m}$",
+      "Applies the wave equation $v = f\\lambda$ correctly",
+      "Calculates final answer: $v = 0.8\\text{ m/s}$",
+      "Shows proper use of units throughout the calculation"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To find the speed of the wave, we use the wave equation: $v = f\\lambda$, where $f$ is the frequency and $\\lambda$ is the wavelength. Given that 20 waves pass through a point in one second, the frequency is $f = 20\\text{ Hz}$. With wavelength $\\lambda = 4\\text{ cm} = 0.04\\text{ m}$, the wave speed is $v = 20 \\times 0.04 = 0.8\\text{ m/s}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "session": "annual",
+    "stem": "In a ripple tank, 20 waves pass through a certain point in one second. If the wavelength of the wave is $4\\text{ cm}$, then find the **speed of the wave**.",
+    "topicId": "ms74ksk5rsyc66fw2w6tpge4s585qthz",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "stationary-waves",
+    "topicTitle": "9.4 Stationary Waves",
+    "_id": "m17ahz3sf66w4nkym9jvbqq35s85qzd9",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Progressive waves transfer energy and travel through medium; stationary waves result from superposition of two opposite-traveling waves with no net energy transfer",
+      "In progressive waves all particles vibrate in phase with same amplitude; in stationary waves particles have different amplitudes with nodes (zero amplitude) and antinodes (maximum amplitude)",
+      "Progressive waves show continuous phase variation along direction of propagation; stationary waves show fixed nodes and antinodes at specific positions",
+      "Examples of progressive waves: sound from speaker, water waves; examples of stationary waves: vibrating string, closed pipe resonance"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Progressive waves and stationary waves differ fundamentally in their propagation and characteristics. Progressive waves travel through a medium, transferring energy from one point to another, with all particles vibrating in phase and having the same amplitude. In contrast, stationary waves result from the superposition of two progressive waves of equal frequency traveling in opposite directions, causing particles to vibrate with different amplitudes at different positions, with no net energy transfer. Examples: Progressive waves include sound waves from a speaker traveling through air and water waves on a pond surface. Stationary waves include vibrations on a stretched string fixed at both ends and sound waves in a closed pipe.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "sectionId": "key-differences-progressive-vs-stationary-waves",
+    "sectionLabel": "Key Differences: Progressive vs Stationary Waves",
+    "session": "annual",
+    "stem": "How progressive waves differ from stationary waves? Give examples also.",
+    "topicId": "ms74ksk5rsyc66fw2w6tpge4s585qthz",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "stationary-waves-in-air-column",
+    "topicTitle": "9.5 Stationary Waves in Air Column",
+    "_id": "m17fxwz7g9m074xrpfcfkhwhxh85pw9t",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies closed organ pipe produces odd harmonics only",
+      "Applies fundamental mode condition: $\\lambda = 4L$ for closed pipe",
+      "Converts length to meters: 32.4 cm = 0.324 m",
+      "Calculates wavelength: $\\lambda = 4 \\times 0.324 = 1.296$ m",
+      "Expresses final answer with appropriate significant figures (~1.30 m)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a closed organ pipe, only odd harmonics are produced. The fundamental frequency (first harmonic) has a wavelength given by $\\lambda = 4L$, where $L$ is the length of the pipe. With $L = 32.4$ cm $= 0.324$ m, the wavelength is $\\lambda = 4 \\times 0.324 = 1.296$ m $\\approx 1.30$ m.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "sectionId": "closed-end-organ-pipe",
+    "sectionLabel": "Closed-End Organ Pipe",
+    "session": "annual",
+    "stem": "What will be the wavelength of the note emitted by a closed organ pipe $32.4\\text{ cm}$ long at $0^\\circ\\text{C}$?",
+    "topicId": "ms75bkj2tnan9g1wywn06fqszx85qp6z",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "stationary-waves-in-air-column",
+    "topicTitle": "9.5 Stationary Waves in Air Column",
+    "_id": "m17dhr2vcrjfefd7qzdanvpm6585phsj",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a pipe closed at one end, standing waves form with a node at the closed end and an antinode at the open end. The maximum wavelength corresponds to the fundamental frequency (first harmonic), where the pipe length equals one-quarter of the wavelength: $L = \\frac{\\lambda}{4}$. Therefore, $\\lambda_{max} = 4L = 4 \\times 10 \\text{ cm} = 40 \\text{ cm}$.",
+    "keyPoints": [
+      "Identifies pipe as closed at one end with node at closed end and antinode at open end",
+      "Applies fundamental frequency condition: $L = \\frac{\\lambda}{4}$",
+      "Correctly calculates maximum wavelength: $\\lambda_{max} = 4L = 40 \\text{ cm}$",
+      "Understands maximum wavelength corresponds to lowest frequency (fundamental mode)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a pipe closed at one end, standing waves form with a node at the closed end and an antinode at the open end. The maximum wavelength corresponds to the fundamental frequency (first harmonic), where the pipe length equals one-quarter of the wavelength: $L = \\frac{\\lambda}{4}$. Therefore, $\\lambda_{max} = 4L = 4 \\times 10 \\text{ cm} = 40 \\text{ cm}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 cm"
+      },
+      {
+        "key": "B",
+        "text": "40 cm"
+      },
+      {
+        "key": "C",
+        "text": "5 cm"
+      },
+      {
+        "key": "D",
+        "text": "10 cm"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionId": "closed-end-organ-pipe",
+    "sectionLabel": "Closed-End Organ Pipe",
+    "session": "annual",
+    "stem": "Length of pipe is $10\\text{ cm}$ (closed at one end). The maximum wavelength will be:",
+    "topicId": "ms75bkj2tnan9g1wywn06fqszx85qp6z",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "resonance-of-air-column",
+    "topicTitle": "9.7 Resonance of an Air Column",
+    "_id": "m17fxwz7g9m074xrpfcfkhwhxh85pw9t",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies closed organ pipe produces odd harmonics only",
+      "Applies fundamental mode condition: $\\lambda = 4L$ for closed pipe",
+      "Converts length to meters: 32.4 cm = 0.324 m",
+      "Calculates wavelength: $\\lambda = 4 \\times 0.324 = 1.296$ m",
+      "Expresses final answer with appropriate significant figures (~1.30 m)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For a closed organ pipe, only odd harmonics are produced. The fundamental frequency (first harmonic) has a wavelength given by $\\lambda = 4L$, where $L$ is the length of the pipe. With $L = 32.4$ cm $= 0.324$ m, the wavelength is $\\lambda = 4 \\times 0.324 = 1.296$ m $\\approx 1.30$ m.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "15",
+    "sectionId": "closed-end-organ-pipe",
+    "sectionLabel": "Closed-End Organ Pipe",
+    "session": "annual",
+    "stem": "What will be the wavelength of the note emitted by a closed organ pipe $32.4\\text{ cm}$ long at $0^\\circ\\text{C}$?",
+    "topicId": "ms78ycwym0vssh4k31mmv3kx6h85qnk4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "resonance-of-air-column",
+    "topicTitle": "9.7 Resonance of an Air Column",
+    "_id": "m17dhr2vcrjfefd7qzdanvpm6585phsj",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a pipe closed at one end, standing waves form with a node at the closed end and an antinode at the open end. The maximum wavelength corresponds to the fundamental frequency (first harmonic), where the pipe length equals one-quarter of the wavelength: $L = \\frac{\\lambda}{4}$. Therefore, $\\lambda_{max} = 4L = 4 \\times 10 \\text{ cm} = 40 \\text{ cm}$.",
+    "keyPoints": [
+      "Identifies pipe as closed at one end with node at closed end and antinode at open end",
+      "Applies fundamental frequency condition: $L = \\frac{\\lambda}{4}$",
+      "Correctly calculates maximum wavelength: $\\lambda_{max} = 4L = 40 \\text{ cm}$",
+      "Understands maximum wavelength corresponds to lowest frequency (fundamental mode)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a pipe closed at one end, standing waves form with a node at the closed end and an antinode at the open end. The maximum wavelength corresponds to the fundamental frequency (first harmonic), where the pipe length equals one-quarter of the wavelength: $L = \\frac{\\lambda}{4}$. Therefore, $\\lambda_{max} = 4L = 4 \\times 10 \\text{ cm} = 40 \\text{ cm}$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 cm"
+      },
+      {
+        "key": "B",
+        "text": "40 cm"
+      },
+      {
+        "key": "C",
+        "text": "5 cm"
+      },
+      {
+        "key": "D",
+        "text": "10 cm"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "16",
+    "sectionId": "closed-end-organ-pipe",
+    "sectionLabel": "Closed-End Organ Pipe",
+    "session": "annual",
+    "stem": "Length of pipe is $10\\text{ cm}$ (closed at one end). The maximum wavelength will be:",
+    "topicId": "ms78ycwym0vssh4k31mmv3kx6h85qnk4",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "diffraction",
+    "topicTitle": "9.8 Diffraction of Waves",
+    "_id": "m17b5hdvd9stn5h3mvrkyvtq4s85qkdk",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The distance between two consecutive crests or troughs is equal to the wavelength (λ) of the wave. Wavelength is defined as the distance occupied by one complete wave cycle. It can also be defined as the distance between any two consecutive points that are in the same phase of oscillation, such as crest to crest or trough to trough.",
+    "keyPoints": [
+      "Distance between consecutive crests = wavelength (λ)",
+      "Distance between consecutive troughs = wavelength (λ)",
+      "Wavelength represents one complete wave cycle",
+      "Both crests and troughs are separated by the same wavelength distance",
+      "Wavelength is measured in meters (m) in SI units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The distance between two consecutive crests or troughs is equal to the wavelength (lambda) of the wave: the distance occupied by one complete wave cycle, or equivalently the distance between any two consecutive points in the same phase of oscillation. This wavelength is the key length scale that determines whether diffraction around an obstacle or through an aperture will be significant.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\lambda$"
+      },
+      {
+        "key": "B",
+        "text": "$2\\lambda$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\lambda}{2}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\lambda}{4}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "The distance between two consecutive crests or troughs is equal to:",
+    "topicId": "ms7d7g6fjkjwnjnvzsjbg55a2185qc9m",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "diffraction",
+    "topicTitle": "9.8 Diffraction of Waves",
+    "_id": "m17a0v9h26qrag47cd88b1hy6185p3rd",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Fringe spacing (β) is the distance between two consecutive bright fringes or two consecutive dark fringes in an interference pattern. It is given by the formula: β = λD/d, where λ is the wavelength of light, D is the distance between the slits and the screen, and d is the separation between the two coherent sources (slits).",
+    "keyPoints": [
+      "Fringe spacing is the perpendicular distance between adjacent bright or dark fringes",
+      "Formula: β = λD/d",
+      "λ = wavelength of light used",
+      "D = distance from slits to screen",
+      "d = separation between the two slits",
+      "Fringe spacing is directly proportional to wavelength and screen distance",
+      "Fringe spacing is inversely proportional to slit separation",
+      "Measured in meters or millimeters"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Fringe spacing (beta) is the distance between two consecutive bright fringes or two consecutive dark fringes in an interference/diffraction pattern. It is given by beta = (lambda*D)/d, where lambda is the wavelength of light, D is the distance between the slits and the screen, and d is the separation between the two slits.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$D \\frac{\\lambda}{L}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\lambda}{DL}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{L}{\\lambda D}$"
+      },
+      {
+        "key": "D",
+        "text": "$L \\frac{\\lambda}{D}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionId": "diffraction-of-light-waves",
+    "sectionLabel": "Diffraction of Light Waves",
+    "session": "annual",
+    "stem": "Fringe spacing =",
+    "topicId": "ms7d7g6fjkjwnjnvzsjbg55a2185qc9m",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "polarization",
+    "topicTitle": "9.9 Polarization",
+    "_id": "m17ekmtk3094zbq73rar5px9tx85qhhz",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Optically active crystals rotate the plane of polarization of linearly polarized light passing through them. This phenomenon is called optical rotation or circular birefringence. The rotation occurs due to the asymmetric crystal structure that interacts differently with right and left circularly polarized components of light, causing them to travel at different speeds (different refractive indices). The net result is a rotation of the plane of polarization by an angle proportional to the thickness of the crystal and the wavelength of light used.",
+    "keyPoints": [
+      "Optically active crystals rotate the plane of polarization of linearly polarized light",
+      "This is due to asymmetric crystal structure",
+      "Different refractive indices for right and left circularly polarized light",
+      "Rotation angle depends on crystal thickness and light wavelength",
+      "Also called optical rotation or circular birefringence",
+      "Examples include quartz crystals"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Optically active crystals rotate the plane of polarization of linearly polarized light passing through them. This phenomenon is called optical rotation. It occurs because the asymmetric crystal structure interacts differently with the left- and right-circularly polarized components that make up linearly polarized light, causing their relative phase to shift and the net polarization plane to rotate.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Diffraction plane"
+      },
+      {
+        "key": "B",
+        "text": "Interference plane"
+      },
+      {
+        "key": "C",
+        "text": "Vibrating plane"
+      },
+      {
+        "key": "D",
+        "text": "Polarization plane"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "session": "annual",
+    "stem": "Optically active crystal rotates the:",
+    "topicId": "ms78854k469ct7wktmmbxetdvn85q756",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "polarization",
+    "topicTitle": "9.9 Polarization",
+    "_id": "m17cazcp501baxyf7b6xc7e68s85q77y",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "At polarizing angle ip, reflected and refracted rays are perpendicular",
+      "Reflected light becomes completely polarized perpendicular to plane of incidence",
+      "Apply Snell's law: n₁ sin ip = n₂ sin rt",
+      "Use perpendicularity condition: ip + rt = 90°",
+      "Substitute rt = 90° - ip into Snell's law",
+      "Simplify to get n₁ tan ip = n₂",
+      "Final result: n₂/n₁ = tan ip (Brewster's law)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "When light is incident at the polarizing angle (Brewster's angle) ip on a surface separating two media with refractive indices n1 and n2, the reflected and refracted rays are perpendicular to each other. Applying Snell's law n1*sin(ip) = n2*sin(r), and using r = 90 degrees - ip (since the reflected and refracted rays are perpendicular and the reflected ray makes angle ip with the normal), we get sin(r) = cos(ip). Substituting: n1*sin(ip) = n2*cos(ip), which rearranges to n2/n1 = sin(ip)/cos(ip) = tan(ip).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "18",
+    "sectionId": "polarization-by-reflection",
+    "sectionLabel": "Polarization by Reflection",
+    "session": "annual",
+    "stem": "Show that $\\frac{n_{2}}{n_{1}}=\\tan i_{p}$ (polarization of transverse waves).",
+    "topicId": "ms78854k469ct7wktmmbxetdvn85q756",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "polarization",
+    "topicTitle": "9.9 Polarization",
+    "_id": "m17chgk0qmsge2cw6664696chd85q6gt",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Brewster's angle is the angle of incidence at which reflected light becomes completely polarized",
+      "The reflected light is polarized perpendicular to the plane of incidence",
+      "At Brewster's angle, reflected and refracted rays are perpendicular to each other",
+      "Mathematical expression: tan(θB) = n₂/n₁",
+      "The reflected ray contains only the component perpendicular to the plane of incidence",
+      "This phenomenon is used in polarizing filters and optical instruments"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Brewster's law states that when unpolarized light is incident on a transparent surface at a specific angle called the polarizing angle (Brewster's angle, ip), the reflected light becomes completely plane polarized, with its electric field vibrating parallel to the surface. At this angle, the reflected and refracted rays are perpendicular to each other, and the polarizing angle is related to the refractive index n of the medium by n = tan(ip).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "21",
+    "sectionId": "polarization-by-reflection",
+    "sectionLabel": "Polarization by Reflection",
+    "session": "annual",
+    "stem": "Briefly explain **Brewster's law** of polarization.",
+    "topicId": "ms78854k469ct7wktmmbxetdvn85q756",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "polarization",
+    "topicTitle": "9.9 Polarization",
+    "_id": "m174xatkte8n2a5va7669b3zyh85p7d1",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "It is possible to distinguish between transverse and longitudinal waves from the property of polarization. Transverse waves can be polarized because their oscillations are perpendicular to the direction of propagation, allowing the vibration direction to be restricted to specific planes. Longitudinal waves cannot be polarized because their oscillations occur parallel to the direction of propagation. When polarizing filters are applied, transverse waves (like light) can be blocked by adjusting the polarization angle, while longitudinal waves (like sound) pass through unaffected. Therefore, polarization is the key property that distinguishes between these two types of waves.",
+    "keyPoints": [
+      "Transverse waves can be polarized; longitudinal waves cannot",
+      "Polarization restricts oscillations to specific planes perpendicular to propagation",
+      "Transverse wave vibrations are perpendicular to direction of propagation",
+      "Longitudinal wave vibrations are parallel to direction of propagation",
+      "Polarizing filters demonstrate this distinction practically",
+      "Light (transverse) can be polarized; sound (longitudinal) cannot"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "It is possible to distinguish between transverse and longitudinal waves from the property of polarization. Transverse waves can be polarized because their oscillations are perpendicular to the direction of propagation, allowing the vibration direction to be restricted to a single plane. Longitudinal waves, like sound, oscillate along their direction of travel and have no perpendicular orientation to restrict, so they cannot be polarized.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\text{Refraction}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\text{Reflection}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\text{Polarization}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\text{Diffraction}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "15",
+    "sectionId": "why-sound-cant-be-polarized-and-polarizer-vs-analyzer",
+    "sectionLabel": "Why Sound Can't Be Polarized, and Polarizer vs. Analyzer",
+    "session": "annual",
+    "stem": "It is possible to distinguish between transverse and longitudinal waves from the property of:",
+    "topicId": "ms78854k469ct7wktmmbxetdvn85q756",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "intensity-of-waves",
+    "topicTitle": "9.10 Intensity of Waves",
+    "_id": "m17d1xz9wr7k8fwhggzd5dfjbd85qp7d",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identified that intensity is proportional to square of amplitude ($I \\propto A^2$)",
+      "Set up the relationship: $I_2/I_1 = (A_2/A_1)^2 = 10$",
+      "Solved for amplitude ratio: $A_2/A_1 = \\sqrt{10}$",
+      "Calculated numerical value: $\\sqrt{10} \\approx 3.16$",
+      "Stated final answer clearly with proper units/factors"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To find the required increase in amplitude, we use the relationship between intensity and amplitude. Since intensity is proportional to the square of amplitude: $I \\propto A^2$. If intensity increases by a factor of 10, then $I_2 = 10I_1$. This means $A_2^2 = 10A_1^2$, so $A_2 = \\sqrt{10}A_1 \\approx 3.16A_1$. Therefore, the amplitude must be increased by a factor of approximately **3.16** or $\\sqrt{10}$ times.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "22",
+    "sectionId": "factors-affecting-intensity",
+    "sectionLabel": "Factors Affecting Intensity",
+    "session": "annual",
+    "stem": "To increase the intensity of wave by a factor of 10, calculate the required increase in amplitude of wave.",
+    "topicId": "ms710fpt1m4ydb6q29rx5xxsy985pfe1",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "intensity-of-waves",
+    "topicTitle": "9.10 Intensity of Waves",
+    "_id": "m17essgr03dzfv3zmzfczdwftn85pbzn",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When the amplitude of a wave becomes double, its energy becomes four times (quadruples). This is because the energy of a wave is directly proportional to the square of its amplitude: $E \\propto A^2$. Therefore, if amplitude is doubled ($A' = 2A$), the energy becomes $E' = (2A)^2 = 4A^2$, which is four times the original energy.",
+    "keyPoints": [
+      "Energy is proportional to the square of amplitude: $E \\propto A^2$",
+      "When amplitude doubles: $A' = 2A$",
+      "New energy: $E' = (2A)^2 = 4A^2 = 4E$",
+      "Energy becomes four times (quadruples) the original value",
+      "This relationship applies to all types of waves"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When the amplitude of a wave becomes double, its energy becomes four times (quadruples). This is because the energy of a wave is directly proportional to the square of its amplitude: $E \\propto A^2$. Therefore, if amplitude is doubled ($A' = 2A$), the energy becomes $E' = (2A)^2 = 4A^2$, which is four times the original energy.",
+    "options": [
+      {
+        "key": "A",
+        "text": "2 times"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{2}$ times"
+      },
+      {
+        "key": "C",
+        "text": "4 times"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{4}$ times"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "factors-affecting-intensity",
+    "sectionLabel": "Factors Affecting Intensity",
+    "session": "annual",
+    "stem": "When **amplitude** of a wave becomes double, its energy becomes:",
+    "topicId": "ms710fpt1m4ydb6q29rx5xxsy985pfe1",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m17cs6avmmwszvayk2fre8fd8n85pcqq",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Speed of sound increases with temperature at approximately 0.6 m/s per °C",
+      "Formula: v = v₀ + 0.6t",
+      "At 0°C, v₀ = 332 m/s (given)",
+      "At 25°C, v = 332 + (0.6 × 25) = 347 m/s",
+      "This linear approximation is valid for small temperature ranges near room temperature"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Using V = sqrt(gamma*P/rho), the speed of sound depends on the absolute temperature since P/rho is proportional to T for an ideal gas (from PV=nRT). Specifically, V is proportional to sqrt(T). If the speed is 332 m/s at 0 degrees C (273 K), then at a different Kelvin temperature T2 the new speed is V2 = 332 * sqrt(T2/273).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "5-temperature",
+    "sectionLabel": "5. Temperature",
+    "session": "annual",
+    "stem": "The speed of sound in air at $0^{\\circ}\\text{C}$ is $332\\text{ ms}^{-1}$. What will be its speed at $25^{\\circ}\\text{C}$?",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m17dgk5q1z5e40hf4g9ezxnpeh85q9a5",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Given: frequency $f = 30$ waves/s, speed $v = 30$ m/s. Using the wave equation $v = f\\lambda$, we get $\\lambda = \\frac{v}{f} = \\frac{30}{30} = 1$ m. Therefore, the wavelength is **1 meter**.",
+    "keyPoints": [
+      "Correctly identifies frequency from given data (30 waves per second)",
+      "Applies wave equation $v = f\\lambda$ appropriately",
+      "Substitutes values correctly: $\\lambda = \\frac{30}{30}$",
+      "Arrives at correct answer: wavelength = 1 m",
+      "Shows proper use of SI units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Given: frequency $f = 30$ waves/s, speed $v = 30$ m/s. Using the wave equation $v = f\\lambda$, we get $\\lambda = \\frac{v}{f} = \\frac{30}{30} = 1$ m. Therefore, the wavelength is **1 meter**.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1 m"
+      },
+      {
+        "key": "B",
+        "text": "2 m"
+      },
+      {
+        "key": "C",
+        "text": "400 m"
+      },
+      {
+        "key": "D",
+        "text": "20 m"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "If 30 waves pass through a medium in 1 second with speed 30 m/s, then wavelength is:",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m17aazz1a2kwcfnef6h2tqczf585p134",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Using the wave equation $v = f\\lambda$, where $v$ is wave speed, $f$ is frequency, and $\\lambda$ is wavelength. Given: $f = 332$ waves/second (Hz) and $v = 332$ m/s. Therefore, $\\lambda = \\frac{v}{f} = \\frac{332}{332} = 1$ m.",
+    "keyPoints": [
+      "Correctly identifies frequency from number of waves per second (332 Hz)",
+      "Applies wave equation $v = f\\lambda$ appropriately",
+      "Substitutes values correctly: $\\lambda = \\frac{332}{332}$",
+      "Obtains correct wavelength of 1 meter with proper units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Using the wave equation $v = f\\lambda$, where $v$ is wave speed, $f$ is frequency, and $\\lambda$ is wavelength. Given: $f = 332$ waves/second (Hz) and $v = 332$ m/s. Therefore, $\\lambda = \\frac{v}{f} = \\frac{332}{332} = 1$ m.",
+    "options": [
+      {
+        "key": "A",
+        "text": "664 m"
+      },
+      {
+        "key": "B",
+        "text": "1 m"
+      },
+      {
+        "key": "C",
+        "text": "7 m"
+      },
+      {
+        "key": "D",
+        "text": "332 m"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "session": "annual",
+    "stem": "If 332 waves pass through a medium in one second with speed of 332 m/s, then wavelength will be:",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m171zmcn6g4be3n94m73xsvwg185p70d",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The speed of sound in air will remain unchanged (approximately the same). Speed of sound in air depends on temperature, not on pressure. According to the relationship v = √(γRT/M), where γ is the adiabatic index, R is the gas constant, T is absolute temperature, and M is molar mass, pressure does not appear in the equation. Therefore, doubling the pressure of air will not affect the speed of sound.",
+    "keyPoints": [
+      "Speed of sound depends on temperature, not pressure",
+      "Speed of sound formula: v = √(γRT/M) does not include pressure",
+      "Doubling pressure has no effect on sound speed",
+      "Speed of sound in air at constant temperature remains constant regardless of pressure changes",
+      "This is an important distinction from the speed of light which is independent of medium properties"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "If the pressure of air is doubled at constant temperature, the speed of sound stays essentially unchanged. Using V = sqrt(gamma*P/rho): doubling pressure at constant temperature also doubles the density rho (since rho is proportional to P for an ideal gas at fixed T), so the ratio P/rho remains constant and V does not change.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain constant"
+      },
+      {
+        "key": "B",
+        "text": "Be 04 times"
+      },
+      {
+        "key": "C",
+        "text": "Be 16 times"
+      },
+      {
+        "key": "D",
+        "text": "Become double"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sectionId": "2-pressure",
+    "sectionLabel": "2. Pressure",
+    "session": "annual",
+    "stem": "If pressure of air is increased two times then speed of sound in air will:",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m173zaag1v3ryh4drc6by35wed85qkyq",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Light travels much faster than sound (3 × 10⁸ m/s vs 340 m/s)",
+      "Both light and sound are produced simultaneously during lightning",
+      "Light reaches observer nearly instantaneously while sound takes time",
+      "Time delay between flash and thunder indicates distance to lightning strike"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The flash of lightning is seen before the thunder is heard because light travels at approximately 3*10^8 m/s, while sound travels at only about 332 m/s in air. Both the light and sound are produced at essentially the same moment, but light reaches an observer almost instantaneously while sound takes a noticeable amount of time to arrive, so the flash is perceived first.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "session": "annual",
+    "stem": "Why is the flash of lightning seen earlier than the thunder? Explain briefly.",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m17f8c27d0q4dvx31s78hwp2h585q4zx",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Speed of sound depends on temperature, not pressure",
+      "At constant temperature, pressure changes do not affect sound speed",
+      "Density and elasticity change proportionally with pressure, canceling out their individual effects",
+      "The relationship v = √(γRT/M) shows pressure is not a factor",
+      "This is why sound travels at the same speed in air at different altitudes (if temperature is constant)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "According to V = sqrt(gamma*P/rho), an increase in pressure alone would tend to increase the speed of sound. However, for an ideal gas at constant temperature, an increase in pressure is accompanied by a proportional increase in density (since rho is proportional to P at fixed T), so the ratio P/rho, and therefore the speed of sound, remains essentially unchanged by pressure variations at constant temperature.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "sectionId": "2-pressure",
+    "sectionLabel": "2. Pressure",
+    "session": "annual",
+    "stem": "How does the variation of pressure affect the speed of sound in air? Explain briefly.",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m1715a4v82dfy2r400y1sptxpd85p6ft",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Particles in solids are closely packed with strong intermolecular forces",
+      "Solids have fixed particle positions enabling efficient vibration transfer",
+      "Greater elastic restoring force in solids compared to gases",
+      "Gases have weak intermolecular forces and large particle separation",
+      "Sound velocity depends on elasticity and density of the medium",
+      "Typical sound speeds: solids ~5000 m/s, liquids ~1500 m/s, gases ~340 m/s"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Sound travels faster in solids than in gases because V = sqrt(E/rho), and the elastic (bulk/Young's) modulus E of a solid is vastly larger than that of a gas, far outweighing the solid's higher density. The much greater stiffness of solids lets disturbances propagate more quickly between particles.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "how-elasticity-and-density-set-the-speed-of-sound",
+    "sectionLabel": "How Elasticity and Density Set the Speed of Sound",
+    "session": "annual",
+    "stem": "Why does sound travel faster in solids than in gases?",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "speed-of-sound-by-newton-and-laplace-s-correction",
+    "topicTitle": "9.11 Speed of Sound: Newton's Formula and Laplace's Correction",
+    "_id": "m17cy4xmqjc9fx5krqed3k1t3x85pp4x",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "According to Laplace correction, sound travels in air under **isothermal conditions**. Laplace corrected Newton's formula by recognizing that when sound propagates through air, the compressions and rarefactions occur so rapidly that there is insufficient time for heat exchange between compressed and rarefied regions. Therefore, the process is **adiabatic** rather than isothermal, leading to the corrected equation: $v = \\sqrt{\\frac{\\gamma P}{\\rho}}$, where $\\gamma$ is the adiabatic index.",
+    "keyPoints": [
+      "Laplace correction accounts for adiabatic conditions during sound propagation",
+      "Rapid compressions and rarefactions prevent thermal equilibrium between regions",
+      "The correction introduces the adiabatic index $\\gamma$ into the velocity formula",
+      "Distinguishes between isothermal (Newton's assumption) and adiabatic (actual) processes"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "According to Laplace's correction, sound travels through air under adiabatic conditions. Newton originally assumed sound propagation was isothermal, but this predicted a speed noticeably lower than the measured value. Laplace corrected this by recognizing that compressions and rarefactions in a sound wave happen too rapidly for heat to be exchanged between adjacent regions of air, making the process adiabatic rather than isothermal. Using the adiabatic relation instead of the isothermal one gives a speed of sound that matches experimental measurements.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Isothermal process"
+      },
+      {
+        "key": "B",
+        "text": "Adiabatic process"
+      },
+      {
+        "key": "C",
+        "text": "Isochoric process"
+      },
+      {
+        "key": "D",
+        "text": "Isobaric process"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionId": "laplaces-correction-adiabatic-assumption",
+    "sectionLabel": "Laplace's Correction (Adiabatic Assumption)",
+    "session": "annual",
+    "stem": "According to **Laplace correction**, sound travels in air under the condition of:",
+    "topicId": "ms7bk97d7gfqg2pgpswe41kfz185p4ts",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m176zq522k7kx29qpy1nkxn64985qe7k",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Seismic waves travel through Earth's crust at 5-7 km/s",
+      "Sound travels through air at approximately 340 m/s",
+      "Seismic waves reach the observer first, causing ground tremor",
+      "Sound waves arrive later, producing the audible explosion",
+      "The time difference depends on the distance from the explosion source",
+      "Different media (solid Earth vs. air) have different wave propagation speeds"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The ground tremor is caused by seismic waves traveling through the solid Earth, which travel much faster than sound in air because a solid medium has a far higher elastic (bulk) modulus than air, and V = sqrt(E/rho). The explosion sound travels through air at only about 332 m/s. Because the seismic waves arrive first and sound arrives later, the observer feels the tremor before hearing the explosion, with the time difference depending on the distance to the explosion and the difference between the two wave speeds.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "session": "annual",
+    "stem": "As a result of distant explosion, an observer senses a ground tremor and then hears the explosion. Explain the time difference in it.",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m1715a4v82dfy2r400y1sptxpd85p6ft",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Particles in solids are closely packed with strong intermolecular forces",
+      "Solids have fixed particle positions enabling efficient vibration transfer",
+      "Greater elastic restoring force in solids compared to gases",
+      "Gases have weak intermolecular forces and large particle separation",
+      "Sound velocity depends on elasticity and density of the medium",
+      "Typical sound speeds: solids ~5000 m/s, liquids ~1500 m/s, gases ~340 m/s"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Sound travels faster in solids than in gases because V = sqrt(E/rho), and the elastic (bulk/Young's) modulus E of a solid is vastly larger than that of a gas, far outweighing the solid's higher density. The much greater stiffness of solids lets disturbances propagate more quickly between particles.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "how-elasticity-and-density-set-the-speed-of-sound",
+    "sectionLabel": "How Elasticity and Density Set the Speed of Sound",
+    "session": "annual",
+    "stem": "Why does sound travel faster in solids than in gases?",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m1717ze8vpghtmyq4kexw2cte985pakq",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Speed of sound formula: v = √(γP/ρ) or v = √(γRT/M)",
+      "At constant temperature and pressure, speed is inversely proportional to √ρ",
+      "Molar mass of H₂ = 2 g/mol, O₂ = 32 g/mol",
+      "Ratio v_H/v_O = √(M_O/M_H) = √(32/2) = 4",
+      "Density ratio ρ_H : ρ_O = 1:16 confirms the inverse relationship",
+      "Speed of sound depends on molecular mass and density of the medium"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The speed of sound in a gas is V = sqrt(gamma*P/rho). At the same temperature and pressure, V_H/V_O = sqrt(rho_O/rho_H). Given rho_H : rho_O = 1 : 16, so rho_O/rho_H = 16, giving V_H/V_O = sqrt(16) = 4. Therefore the speed of sound in hydrogen is 4 times the speed of sound in oxygen.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "16",
+    "sectionId": "1-density",
+    "sectionLabel": "1. Density",
+    "session": "annual",
+    "stem": "Prove that speed of sound through Hydrogen is 4 times as compared to its speed in Oxygen. Whereas $\\rho_{\\text{Hydrogen}} : \\rho_{\\text{Oxygen}} = 1 : 16$.",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m171zmcn6g4be3n94m73xsvwg185p70d",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The speed of sound in air will remain unchanged (approximately the same). Speed of sound in air depends on temperature, not on pressure. According to the relationship v = √(γRT/M), where γ is the adiabatic index, R is the gas constant, T is absolute temperature, and M is molar mass, pressure does not appear in the equation. Therefore, doubling the pressure of air will not affect the speed of sound.",
+    "keyPoints": [
+      "Speed of sound depends on temperature, not pressure",
+      "Speed of sound formula: v = √(γRT/M) does not include pressure",
+      "Doubling pressure has no effect on sound speed",
+      "Speed of sound in air at constant temperature remains constant regardless of pressure changes",
+      "This is an important distinction from the speed of light which is independent of medium properties"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "If the pressure of air is doubled at constant temperature, the speed of sound stays essentially unchanged. Using V = sqrt(gamma*P/rho): doubling pressure at constant temperature also doubles the density rho (since rho is proportional to P for an ideal gas at fixed T), so the ratio P/rho remains constant and V does not change.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain constant"
+      },
+      {
+        "key": "B",
+        "text": "Be 04 times"
+      },
+      {
+        "key": "C",
+        "text": "Be 16 times"
+      },
+      {
+        "key": "D",
+        "text": "Become double"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sectionId": "2-pressure",
+    "sectionLabel": "2. Pressure",
+    "session": "annual",
+    "stem": "If pressure of air is increased two times then speed of sound in air will:",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m17f8c27d0q4dvx31s78hwp2h585q4zx",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Speed of sound depends on temperature, not pressure",
+      "At constant temperature, pressure changes do not affect sound speed",
+      "Density and elasticity change proportionally with pressure, canceling out their individual effects",
+      "The relationship v = √(γRT/M) shows pressure is not a factor",
+      "This is why sound travels at the same speed in air at different altitudes (if temperature is constant)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "According to V = sqrt(gamma*P/rho), an increase in pressure alone would tend to increase the speed of sound. However, for an ideal gas at constant temperature, an increase in pressure is accompanied by a proportional increase in density (since rho is proportional to P at fixed T), so the ratio P/rho, and therefore the speed of sound, remains essentially unchanged by pressure variations at constant temperature.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "sectionId": "2-pressure",
+    "sectionLabel": "2. Pressure",
+    "session": "annual",
+    "stem": "How does the variation of pressure affect the speed of sound in air? Explain briefly.",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m1728h3yaevh0gasgv1s6mx45s85pd2z",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The velocity of sound in air is directly proportional to the square root of absolute temperature: v ∝ √T. At 0°C (273 K), let the velocity be v₀. For velocity to become 2v₀, we need: 2v₀ ∝ √T_new. Dividing: 2 = √(T_new/273). Squaring both sides: 4 = T_new/273. Therefore: T_new = 4 × 273 = 1092 K, which equals 819°C.",
+    "keyPoints": [
+      "Velocity of sound depends on temperature: v ∝ √T",
+      "At 0°C (273 K), velocity is v₀",
+      "For doubled velocity: 2v₀ ∝ √T_new",
+      "Setting up ratio: 2 = √(T_new/273)",
+      "Solving: T_new = 1092 K or 819°C"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The velocity of sound in air is directly proportional to the square root of absolute temperature: V is proportional to sqrt(T). At 0 degrees C (273 K), let the velocity be V0. For the velocity to double to 2*V0, we need 2 = sqrt(T_new/273). Squaring both sides gives 4 = T_new/273, so T_new = 4*273 = 1092 K, which is 1092 - 273 = 819 degrees C.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$313^{\\circ}\\text{C}$"
+      },
+      {
+        "key": "B",
+        "text": "$586^{\\circ}\\text{C}$"
+      },
+      {
+        "key": "C",
+        "text": "$819^{\\circ}\\text{C}$"
+      },
+      {
+        "key": "D",
+        "text": "$1172^{\\circ}\\text{C}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "14",
+    "sectionId": "5-temperature",
+    "sectionLabel": "5. Temperature",
+    "session": "annual",
+    "stem": "The velocity of sound in air would become double to its velocity at 0°C at temperature:",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m17cs6avmmwszvayk2fre8fd8n85pcqq",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Speed of sound increases with temperature at approximately 0.6 m/s per °C",
+      "Formula: v = v₀ + 0.6t",
+      "At 0°C, v₀ = 332 m/s (given)",
+      "At 25°C, v = 332 + (0.6 × 25) = 347 m/s",
+      "This linear approximation is valid for small temperature ranges near room temperature"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Using V = sqrt(gamma*P/rho), the speed of sound depends on the absolute temperature since P/rho is proportional to T for an ideal gas (from PV=nRT). Specifically, V is proportional to sqrt(T). If the speed is 332 m/s at 0 degrees C (273 K), then at a different Kelvin temperature T2 the new speed is V2 = 332 * sqrt(T2/273).",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "14",
+    "sectionId": "5-temperature",
+    "sectionLabel": "5. Temperature",
+    "session": "annual",
+    "stem": "The speed of sound in air at $0^{\\circ}\\text{C}$ is $332\\text{ ms}^{-1}$. What will be its speed at $25^{\\circ}\\text{C}$?",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m1784t4sn3ngsk1fgx77r3m7f585p5dx",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The velocity of sound in air increases by approximately 0.61 m/s for every 1°C rise in temperature. This can be derived from the relationship: v = v₀ + 0.61t, where v is the velocity at temperature t°C and v₀ is the velocity at 0°C (approximately 331 m/s). Alternatively, the increase can be expressed as: Δv/Δt ≈ 0.61 m/s per °C. This linear relationship holds for small temperature changes in the range typically encountered in physics problems.",
+    "keyPoints": [
+      "Velocity of sound increases by approximately 0.61 m/s per 1°C temperature rise",
+      "The relationship is approximately linear: v = v₀ + 0.61t",
+      "At 0°C, velocity of sound in air is about 331 m/s",
+      "This increase occurs because higher temperature increases molecular motion and speed of sound propagation",
+      "The coefficient 0.61 m/s per °C is a standard value used in FBISE physics curriculum"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The velocity of sound in air increases by approximately 0.61 m/s for every 1 degree Celsius rise in temperature. This follows from V = V0 + 0.61t, where V0 is approximately 331.3 m/s at 0 degrees C, derived from V being proportional to sqrt(T) and applying the binomial approximation for small temperature changes around 273 K.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$1.61\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "B",
+        "text": "$61.0\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "C",
+        "text": "$0.61\\text{ ms}^{-1}$"
+      },
+      {
+        "key": "D",
+        "text": "$0.16\\text{ ms}^{-1}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "13",
+    "sectionId": "5-temperature",
+    "sectionLabel": "5. Temperature",
+    "session": "annual",
+    "stem": "Increase in velocity of sound in air for $1^\\circ\\text{C}$ rise in temperature is:",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "factors-affecting-the-speed-of-sound",
+    "topicTitle": "9.12 Factors Affecting the Speed of Sound",
+    "_id": "m1741ctka6k1t5mprk5nzzwbfh85q4sr",
+    "examBoard": "Federal Board",
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "The speed of sound is V = sqrt(gamma*R*T/M), so V is proportional to sqrt(T) (T in Kelvin). Let V0 be the speed at T1 = 273 K (0 C) and Vt be the speed at T2 = (273+t) K. Then Vt/V0 = sqrt(T2/T1) = sqrt(1 + t/273) is approximately equal to 1 + t/546 for small t, using the binomial approximation. So Vt is approximately V0 + (V0*t)/546. With V0 = 331.3 m/s, V0/546 is approximately 0.61, giving Vt = V0 + 0.61t, meaning the speed of sound increases by about 0.61 m/s for every 1 degree Celsius rise in temperature.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "8",
+    "sectionId": "5-temperature",
+    "sectionLabel": "5. Temperature",
+    "session": "annual",
+    "stem": "If the speed of sound in air at 0 degrees Celsius is $v_0$, prove that the speed of sound $v_t$ at a temperature of $t$ degrees Celsius is given by $v_t = v_0 + 0.61t$.",
+    "topicId": "ms71v7r9m15ytkvhrgxhd97azd85q6k4",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "doppler-effect",
+    "topicTitle": "9.13 The Doppler Effect",
+    "_id": "m175e88sy4c5qnn81tah44bpmn85qvdv",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Stars moving away from the Earth show a redshift, which is a decrease in observed frequency and an increase in wavelength of light. This is an application of the Doppler Effect, where the motion of the source (star) away from the observer (Earth) causes the observed frequency to decrease according to the formula $f' = f \\left( \\frac{v}{v + v_s} \\right)$.",
+    "keyPoints": [
+      "Identifies redshift as the phenomenon observed",
+      "Explains that frequency decreases when source moves away",
+      "Mentions wavelength increases (or frequency decreases)",
+      "References Doppler Effect principle",
+      "Correctly applies sign convention for receding source"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Stars moving away from the Earth show a redshift, which is a decrease in observed frequency and an increase in wavelength of light. This is an application of the Doppler Effect, where the motion of the source (star) away from the observer (Earth) causes the observed frequency to decrease according to the formula $f' = f \\left( \\frac{v}{v + v_s} \\right)$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Blue shift"
+      },
+      {
+        "key": "B",
+        "text": "Red shift"
+      },
+      {
+        "key": "C",
+        "text": "Violet shift"
+      },
+      {
+        "key": "D",
+        "text": "Black shift"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionId": "key-applications",
+    "sectionLabel": "Key Applications",
+    "session": "annual",
+    "stem": "Stars moving away from the earth show:",
+    "topicId": "ms7ep7wke8qzjbxry1rz77psq585pgad",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "doppler-effect",
+    "topicTitle": "9.13 The Doppler Effect",
+    "_id": "m17ewg59xqtpgkp7fzqj3b7qs985qjsc",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Apparent pitch increases when source and observer move toward each other due to compression of sound waves and increased frequency",
+      "Apparent pitch decreases when source and observer move away from each other due to stretching of sound waves and decreased frequency",
+      "Doppler formula correctly shows $f' = f \\left( \\frac{v + v_o}{v - v_s} \\right)$ for approach and $f' = f \\left( \\frac{v - v_o}{v + v_s} \\right)$ for separation",
+      "Sign convention: use + for motion toward source, - for motion away from source",
+      "Physical basis: relative motion changes wavelength perceived by observer, affecting observed frequency"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "When a source of sound and observer move toward each other, the apparent pitch heard by the observer increases (frequency increases). Conversely, when both move away from each other, the apparent pitch decreases (frequency decreases). This phenomenon is explained by the Doppler Effect, which describes the apparent change in frequency due to relative motion between source and observer.\n\n**Case 1: Source and Observer Moving Toward Each Other**\n\nWhen the source and observer approach each other, the sound waves are compressed. The observer encounters wave crests more frequently per unit time, resulting in an increase in observed frequency. Using the Doppler formula:\n\n$$f' = f \\left( \\frac{v + v_o}{v - v_s} \\right)$$\n\nHere, the numerator increases (observer moving toward source, +$v_o$) and the denominator decreases (source moving toward observer, -$v_s$), both causing $f'$ to be greater than $f$. Therefore, the pitch increases.\n\n**Case 2: Source and Observer Moving Away From Each Other**\n\nWhen both move away from each other, the sound waves are stretched. The observer encounters wave crests less frequently per unit time, resulting in a decrease in observed frequency. Using the Doppler formula:\n\n$$f' = f \\left( \\frac{v - v_o}{v + v_s} \\right)$$\n\nHere, the numerator decreases (observer moving away, -$v_o$) and the denominator increases (source moving away, +$v_s$), both causing $f'$ to be less than $f$. Therefore, the pitch decreases.\n\n**Physical Explanation:** The relative motion changes the wavelength of sound waves as perceived by the observer, directly affecting the frequency and thus the pitch heard.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "4",
+    "sectionId": "case-5-source-and-observer-both-move-towards-each-other",
+    "sectionLabel": "Case 5: Source and Observer Both Move Towards Each Other",
+    "session": "annual",
+    "stem": "A source of sound and observer are moving toward each other. What happens to the apparent pitch heard by the observer? What will happen if both are moving away from each other? Explain and prove.",
+    "topicId": "ms7ep7wke8qzjbxry1rz77psq585pgad",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "doppler-effect",
+    "topicTitle": "9.13 The Doppler Effect",
+    "_id": "m170cqtzfb526m5fzfqz4smhps85pk3f",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies general Doppler formula $f' = f \\left( \\frac{v \\pm v_o}{v \\mp v_s} \\right)$ with proper sign convention",
+      "Explains at least three special cases: observer/source approaching or receding from stationary counterpart",
+      "Identifies physical consequences: frequency increase when approaching, decrease when receding",
+      "Discusses practical applications such as ambulance siren, astronomy, or radar speed detection",
+      "Demonstrates understanding of wavelength changes accompanying frequency changes in Doppler Effect"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 5,
+    "modelAnswer": "The Doppler Effect is the apparent change in frequency of a wave due to relative motion between the source and observer. The observed frequency is given by fprime = f*(v+-v_o)/(v-+v_s), where the numerator uses a plus sign when the observer moves toward the source, and the denominator uses a minus sign when the source moves toward the observer. The six special cases are: (1) observer moves toward a stationary source, giving a higher frequency; (2) observer moves away from a stationary source, giving a lower frequency; (3) source moves toward a stationary observer, giving a higher frequency; (4) source moves away from a stationary observer, giving a lower frequency; (5) source and observer move toward each other, giving the largest frequency increase; (6) source and observer move away from each other, giving the largest frequency decrease.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionId": "summary-of-cases",
+    "sectionLabel": "Summary of Cases",
+    "session": "annual",
+    "stem": "Explain **Doppler's effect** in detail with its special cases.",
+    "topicId": "ms7ep7wke8qzjbxry1rz77psq585pgad",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "doppler-effect",
+    "topicTitle": "9.13 The Doppler Effect",
+    "_id": "m17a3g72am6xf1cvxqs9g20gvd85q7vk",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Principle of superposition explains how wavefronts from moving source combine at observer's location",
+      "Compression of wavefronts when source approaches observer leads to increased frequency ($f' = f \\left( \\frac{v + v_o}{v - v_s} \\right)$)",
+      "Stretching of wavefronts when source recedes leads to decreased frequency",
+      "Relative motion changes wavelength spacing and arrival time intervals of successive wavefronts",
+      "Constructive and destructive interference of superimposed wavefronts produces perceived frequency change"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "The Doppler effect can be explained using the principle of superposition by considering how the wavefronts from a moving source superimpose at the observer's location. When a source moves towards an observer, the wavefronts are compressed, reducing the wavelength and increasing the observed frequency according to $f' = f \\left( \\frac{v + v_o}{v - v_s} \\right)$. Conversely, when the source moves away, wavefronts are stretched, increasing wavelength and decreasing observed frequency. The superposition of successive wavefronts arriving at different intervals creates this apparent frequency shift, demonstrating how relative motion between source and observer alters the spatial and temporal distribution of wave crests and troughs at the observer's position.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionId": "what-is-the-doppler-effect",
+    "sectionLabel": "What Is the Doppler Effect?",
+    "session": "annual",
+    "stem": "Explain **Doppler effect** on the basis of principle of superposition.",
+    "topicId": "ms7ep7wke8qzjbxry1rz77psq585pgad",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "applications-of-doppler-effect",
+    "topicTitle": "9.14 Applications of the Doppler Effect",
+    "_id": "m175e88sy4c5qnn81tah44bpmn85qvdv",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Stars moving away from the Earth show a redshift, which is a decrease in observed frequency and an increase in wavelength of light. This is an application of the Doppler Effect, where the motion of the source (star) away from the observer (Earth) causes the observed frequency to decrease according to the formula $f' = f \\left( \\frac{v}{v + v_s} \\right)$.",
+    "keyPoints": [
+      "Identifies redshift as the phenomenon observed",
+      "Explains that frequency decreases when source moves away",
+      "Mentions wavelength increases (or frequency decreases)",
+      "References Doppler Effect principle",
+      "Correctly applies sign convention for receding source"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Stars moving away from the Earth show a redshift, which is a decrease in observed frequency and an increase in wavelength of light. This is an application of the Doppler Effect, where the motion of the source (star) away from the observer (Earth) causes the observed frequency to decrease according to the formula $f' = f \\left( \\frac{v}{v + v_s} \\right)$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Blue shift"
+      },
+      {
+        "key": "B",
+        "text": "Red shift"
+      },
+      {
+        "key": "C",
+        "text": "Violet shift"
+      },
+      {
+        "key": "D",
+        "text": "Black shift"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "11",
+    "sectionId": "key-applications",
+    "sectionLabel": "Key Applications",
+    "session": "annual",
+    "stem": "Stars moving away from the earth show:",
+    "topicId": "ms795nnmvnrzs1hyprc7th09d985qjrp",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "applications-of-doppler-effect",
+    "topicTitle": "9.14 Applications of the Doppler Effect",
+    "_id": "m1794g2rr1rzjt67c8q7fw0gg185q8vk",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "A submarine in deep sea can be detected using SONAR (Sound Navigation and Ranging), which employs the Doppler effect. SONAR transmits sound waves that reflect off the submarine; the frequency shift of reflected waves indicates whether the submarine is moving towards or away from the detector, allowing its location and velocity to be determined.",
+    "keyPoints": [
+      "SONAR uses sound waves for detection in water",
+      "Doppler effect causes frequency shift of reflected waves",
+      "Increase in frequency indicates motion towards detector",
+      "Decrease in frequency indicates motion away from detector",
+      "Frequency shift allows determination of submarine location and velocity"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "A submarine in deep sea can be detected using SONAR (Sound Navigation and Ranging), which employs the Doppler effect. SONAR transmits sound waves that reflect off the submarine; the frequency shift of reflected waves indicates whether the submarine is moving towards or away from the detector, allowing its location and velocity to be determined.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Doppler effect"
+      },
+      {
+        "key": "B",
+        "text": "Compton's effect"
+      },
+      {
+        "key": "C",
+        "text": "Faraday's Law"
+      },
+      {
+        "key": "D",
+        "text": "Bernoulli principle"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "10",
+    "sectionId": "radar-vs-sonar-and-a-field-by-field-summary",
+    "sectionLabel": "Radar vs. SONAR, and a Field-by-Field Summary",
+    "session": "annual",
+    "stem": "Location of a submarine in deep sea can be detected by:",
+    "topicId": "ms795nnmvnrzs1hyprc7th09d985qjrp",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "09-waves",
+    "chapterTitle": "Waves",
+    "topicSlug": "applications-of-doppler-effect",
+    "topicTitle": "9.14 Applications of the Doppler Effect",
+    "_id": "m1724p5hjaa072gzca47ahj60n85q1k0",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Radar transmits radio waves that reflect from moving objects",
+      "Doppler effect causes frequency shift in reflected waves: increase means object approaching, decrease means object receding",
+      "Frequency shift is measured to determine velocity of the moving object",
+      "Applications include air traffic control, military surveillance, and speed detection",
+      "The change in frequency is directly related to the relative motion between radar and target object"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A radar system works by transmitting radio waves that reflect off moving objects. When the reflected waves return to the radar receiver, the Doppler effect causes a frequency shift: the frequency increases if the object moves towards the radar and decreases if it moves away. By measuring this frequency change, the radar determines the object's velocity. This principle is applied in air traffic control, military surveillance, and police speed enforcement.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionId": "radar-vs-sonar-and-a-field-by-field-summary",
+    "sectionLabel": "Radar vs. SONAR, and a Field-by-Field Summary",
+    "session": "annual",
+    "stem": "The Doppler effect is used in radar systems. Briefly explain the working of a radar system.",
+    "topicId": "ms795nnmvnrzs1hyprc7th09d985qjrp",
+    "year": 2025
+  }
+]

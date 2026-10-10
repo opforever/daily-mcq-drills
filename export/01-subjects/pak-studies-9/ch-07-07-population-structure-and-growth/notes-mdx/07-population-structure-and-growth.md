@@ -1,0 +1,189 @@
+<!-- note kx724ezr5a1e56k2pn4gzkpqf58bt10j | topic ms75v08xa8p67bc2qmbvm09rth8bv9t1 | status published -->
+# 7.1 Density of Population
+
+
+Density of population is the number of people living per square kilometer unit of an area. The formula used to calculate density of population is total population of the country divided by total area of the country. Pakistan is the 5th largest country in the world according to its population, after China, India, the USA, and Indonesia respectively. In 1947 the population of West Pakistan was 32.7 million, which increased to 207.68 million in the 2017 census with a density of 260.88 per sq. km (Pakistan Bureau of Statistics). In the 2023 census, population had risen to 241.49 million with a density of population of 302.08 per sq. km.
+
+| | 2017 | 2023 |
+| :--- | :--- | :--- |
+| Population in millions | 207.68 | 241.49 |
+| % of Rural Population | 64 | 61.18 |
+| % of Urban Population | 36 | 38.82 |
+| % of Male Population | 51.2 | 50.4 |
+| % of Female Population | 48.8 | 49.6 |
+| Population Density / sq.km | 260.88 | 302.08 |
+| % of growth rate | 2.40 | 2.55 |
+| Life Expectancy | 66.82 years | 67.79 years |
+
+Source: Pakistan Bureau of Statistics (pbs.gov.pk)
+
+## Reasons for High Density of Population
+
+The increase in density is not only because of high birth rate or low death rate but also because of increasing life expectancy of the people. This increasing trend is due to better hygiene, better healthcare, and awareness of a better lifestyle. Life expectancy means the expected average age of a person of a country for a particular period of time. The life expectancy of Pakistan in 2017 was 66.82 years, which has increased to 67.79 years in 2023.
+
+Density of a country is directly related to population growth. Natural factors play an important role in this issue. For example, lofty mountains in the north, lack of water and rugged terrain of Balochistan, and desert areas of Sindh have low density of population due to lack of basic resources. People who practice subsistence agriculture or nomadic herding prefer to have large families, increasing the density of population of these areas. Pakistan is an agricultural country; people mostly ignore the benefits of small families. They follow their traditional way of life, increasing the population as well as the density of population of the country.
+
+
+---
+
+<!-- note kx7cx7skxpttjmj1g898y288c18bt32e | topic ms7cy5txw7v26jba3w61xjzys98bvkfd | status published -->
+# 7.2 Classification of Population Growth
+
+
+Growth rate of population is determined by birth rate, death rate, and migration of the people of a country for a specific period of time.
+
+## 1. Demographic Transition Model
+
+<CaptionedImage src="kg2bt66wqv3rfqxxcgnc8dyrm98bt29j" alt="Demographic transition model diagram" caption="Demographic Transition Model" />
+
+| | Stage 1 | Stage 2 | Stage 3 | Stage 4 | Stage 5 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Birth rate | High | High | Falling | Low | Very low |
+| Death rate | High | Falls rapidly | Falls more slowly | Low | Low |
+| Natural increase | Stable or slow increase | Very rapid increase | Increase slows down | Stable or slow increase | Stable or slow decrease |
+
+Demographic transition theory suggests that population grows along a predictable 5-stage model.
+
+**Stage 1, Pre-industrial society:** Both birth rate and death rate are high and roughly in balance, and population growth remains slow. Farming is the main occupation. High birth rate is due to many children being needed in agriculture. High death rate is a consequence of poor medical facilities, sanitation, and food.
+
+**Stage 2:** Birth rate is still high but death rate decreases due to better medical facilities, sanitation, and food.
+
+**Stage 3:** Death rate is low due to improved economic conditions, food, healthcare, and sanitation. The birth rate is decreasing due to awareness of family planning, female education, ambitious government and NGO plans to encourage people to have small families, better education, late marriages, and desire for a high standard of living.
+
+**Stage 4:** Both death and birth rates are gradually low, an ideal placement for a country. Examples are Argentina, Australia, China, Brazil, most of Europe, and the USA.
+
+**Stage 5:** Both rates remain relatively low, and death rate is now higher than birth rate, but total population is still high and not showing a decline due to higher life expectancy.
+
+## 2. Population Pyramid
+
+Population structure is the percentage of male and female and different age groups shown by a population pyramid. It represents birth rate, death rate, different age groups of male and female population, and migration. It also represents the dependent population from early years to 10 years, the active group from 14 years to 60 years (also known as the labour force), and above 60 years, known as the old age and dependent group.
+
+<CaptionedImage src="kg27yagnzr4jkefcr2nrps1etx8bv7z0" alt="Population pyramid of Pakistan" caption="Population Pyramid" />
+
+### Population Trends Shown by the Population Pyramid
+
+**Below 14 years:** The birth rate of Pakistan's population has declined from 2.6% in 1998 to 2.4% in 2017, indicating less dependency ratio in the early group.
+
+**14-60 years:** A large group of active labour force; the government can easily plan its positive work plan for development of the country. Better technical education can be designed to improve the ratio between primary, secondary, and tertiary activities. According to 2017-18 data, 44% of people were in the primary sector, employed in agriculture, fishing, and mining; 25% in the secondary sector, employed in industry and manufacturing of machine-made quality products for domestic and foreign markets, such as textiles, cement, and sugar; and 37% in the tertiary sector, including services like banking, insurance, healthcare, and teaching.
+
+**Above 60 years:** This group has been increasing, demanding more healthcare, better food, and a healthy lifestyle. Government and NGOs can plan for qualified older people to volunteer and counsel the younger generation.
+
+Political stability is the dire need of the country. Without peace and stability, there can be no development of various projects, decreasing job opportunities in the country and leading to unemployment and migration.
+
+
+---
+
+<!-- note kx70jend4y3t9q7v1qhtajwea18bvm85 | topic ms70bfwd3nvehm6b2082qvc8zs8bt9jq | status published -->
+# 7.3 Causes and Effects of Population Growth
+
+
+## Causes of Population Growth
+
+Pakistan is an agricultural country following mostly subsistence farming methods. People like to have large families to work in the fields rather than to focus on hired labour. They are not aware of the problems of large families. They believe in early marriages due to primitive lifestyles.
+
+Some people believe that God promises to meet all human needs and also believe that two hands can easily feed one mouth. They do not believe in the need for a family planning system. People wish to have more sons, as they perceive them to be an economic support. Many people do not send their children to school due to poverty.
+
+Family planning programs have not been convincing enough to encourage people to have small families. These welfare programs have also suffered because of frequent changes in government policies.
+
+Due to better medical facilities and better hygiene, the death rate is decreasing, leading to an increase in the growth of population in the country.
+
+## The Effects of Population Growth on the Economy and Development of Pakistan
+
+The effects of high population growth are shortage of food, water, and basic needs of the people. The country is unable to provide skill-based quality education and health facilities according to the requirements of the people. The country has to increase its imports to fulfill the needs of the people. Many important development projects are delayed, leading to slow economic progress. Population growth is also causing increasing unemployment and child labour. The growing population also influences inflation in the country, as increasing demands of a large population put pressure on available resources, thereby driving prices higher.
+
+
+---
+
+<!-- note kx70m8066bd3y06pw70vp0ymzx8btzmq | topic ms7d6p223vsz9j0ypr8cndvyth8bvwjj | status published -->
+# 7.4 Migration and Urbanisation
+
+
+Migration is the frequent movement of people from one area to another on a large scale. In Pakistan, rural-urban migration is on the increase; people usually move from villages to cities. This migration has been increasing since independence because of differences in resources and lifestyle. Cities have better infrastructure, education, health, sanitation, housing, recreation, and better paid jobs. These facilities are known as PULL factors, which work like a magnet to draw people to the cities.
+
+On the other hand, the limited resources of rural areas force or PUSH people to leave their homes. People in rural areas have large families to the point that the land is unable to meet their needs. Overgrazing and drought make the land they depend on for food unproductive, which forces them to move to urban areas to fulfill their needs. Furthermore, they do not have access to the latest technology and are dependent on primitive tools and methods, which contributes to low crop yield per acre.
+
+| Year | Population (millions) | Urban (% share) |
+| :--- | :--- | :--- |
+| 1981 | 84.25 | 28.30 |
+| 1998 | 132.35 | 32.52 |
+| 2017 | 207.69 | 36.44 |
+| 2023 | 241.49 | 38.82 |
+
+Source: Government of Pakistan Finance Division.
+
+## Seasonal Migration
+
+**1. Transhumance:** Pakistan has lofty mountains in the north, where living conditions during winter become too difficult for people to remain. They move from these cold areas to surrounding low-lying areas with their cattle. This type of seasonal migration is known as transhumance.
+
+**2. Nomadism:** Nomadic people move with their cattle from one area to another in search of food and water. This type of movement is known as nomadism, or subsistence livestock farming, and is common in dry areas of Punjab, Balochistan, and Sindh, such as Thal, Kharan, and Cholistan deserts. They mostly keep sheep, goats, camels, and donkeys, which are their source of food and income. They sell meat and milk, and donkeys and camels are used for transport.
+
+**3. Migration for Harvesting Season:** People who have moved from rural areas to urban areas for small and low-paid jobs move back to their villages to help out with harvesting, transporting, and storing crops. This way they can also take a share of the crops for their needs and make supplementary income. For example, people help in cotton picking and transporting sugarcane to factories.
+
+## Urbanisation
+
+Urbanisation means town or city life. These are areas with large population and high density of population. The system is mostly based on non-agricultural or non-primary activities. The main occupation of the people is in a variety of secondary industries and various types of tertiary industries, including services, trade, and commerce. The services provide high-paid jobs, which result in agglomeration of population and a high standard of living.
+
+## Problems Caused by Urbanisation
+
+Urbanisation attracts more people to cities as they provide a better quality of life, but this is leading to various serious economic, social, and political problems.
+
+**1. Lack of Accommodation:** Migrating people are unable to get standard houses. There is a great decline in living conditions. They live in slums or kachi abadis, which have poor standards of living and shortages of safe drinking water, electricity, and natural gas, leading to many hazards.
+
+**2. Environmental Issues:** Sanitation facilities are not enough to meet the unprecedented growing urban population. This leads to untreated domestic and industrial waste, which causes water and land pollution, resulting in health hazards such as malaria, dengue, and typhoid. A large number of vehicles cause air pollution since they release smoke and increase carbon emissions, leading to traffic jams and frequent accidents. Industrial estates around major cities contribute to very dense air pollution, for example the heavy smog in Lahore.
+
+**3. Degradation of Resources:** People migrating from rural areas mostly settle in unplanned houses on the outskirts of cities where there is a great shortage of basic facilities of education, health, transport, and electricity, which affects the main city life as well and leads to unemployment.
+
+**4. Increase in Crime Rate:** Crime rate increases due to unemployment as well as intermixing of people from different areas based on their lifestyle and culture. The great economic difference between the people of the planned city and rural people settled on the outskirts of these cities creates disparity leading to crime.
+
+## Solutions to the Problems of Urbanisation
+
+The transport system needs to be improved by developing better roads, overhead bridges, and underpasses to reduce the distances between places. Metro service, the Orange and Green lines, and rapid bus transport systems for urban centres are present to provide public transport. However, these facilities need to be further expanded to meet the needs of a growing population, making the transport system cheaper and more affordable and reducing the chances of traffic jams.
+
+Awareness should be given to realise the conservation of electricity, gas, and water, to maintain the sustainability and importance of these resources. Rural-urban migration should be controlled by providing quality education, electricity, and safe drinking water, and by encouraging people to develop more small-scale industries in rural areas. More housing schemes may be planned by the private and public sectors with better facilities for people of different income groups. The government should also introduce more housing schemes at subsidised rates to accommodate more people according to their needs.
+
+<SideActivity title="Expand Your Horizon">
+Class presentations: Class may be divided into two groups to discuss (i) one group on Rural-Urban migration and the other on Seasonal Migration, with a convincing debate between the two for better understanding. (ii) Class may be divided into two groups to compare the presentation of population by population pyramid and demographic transition model for the study and analysis of population of a country for its future plans of development, followed by a debate for better understanding and involvement of the whole class.
+</SideActivity>
+
+
+---
+
+<!-- note kx7aqkbg7znje1nt1mwz9mrzfx8bv7qx | topic ms7f3tjz4m6fmrqqww8arn27f18btxds | status published -->
+# 7.5 Population Distribution and Sustainable Growth
+
+
+## Population Distribution According to Climate, Topography and Agriculture
+
+<CaptionedImage src="kg23npvmfjgxc4dpwf90dxqg3s8bvbv2" alt="Population density map of Pakistan" caption="Population Density Map" />
+
+<CaptionedImage src="kg2agkh241zc31vz4tj6q0s2wh8bvt08" alt="Relief map of Pakistan" caption="Relief map" />
+
+Pakistan has lofty mountains in the north. In these areas the temperature remains below freezing. Most of the year there are heavy snowfalls and frequent landslides, which lead to low population. Examples of such areas are the Karakoram, Himalayas, and Hindu Kush mountains, along with most of their valleys. People move to warmer areas due to lack of development and job opportunities. Kohat, Bannu, and Waziristan in KPK, and Balochistan, also have low population density due to rugged terrain, low rainfall, poor transport links, and lack of industrial development.
+
+In contrast, Punjab and Sindh provinces have higher densities of population due to flat and fertile land, moderate rainfall, and reliable water from the river Indus and its tributaries, lakes, and canals. Human resources have contributed to urbanisation and expansion of cities. Karachi (Sindh) is the biggest city, with a population density of 1500 persons/sq.km, followed by Lahore and Faisalabad with 1000-1500 persons/sq.km (Punjab). These cities have better transport, power resources, housing schemes, education, health, and recreational facilities. All these natural and human factors have attracted a large number of people to these big cities in search of better paid jobs.
+
+## Population Distribution and Physical, Economic, Social and Political Factors
+
+### Physical and Economic Factors
+
+Relief features of the country have a great influence on population distribution. According to the natural resources of specific areas, the government and NGOs set up various projects which help improve people's standard of living through provision of different jobs. For example, in the Northern Mountains, the tourism industry is mostly developed to encourage foreign and domestic tourists to visit these areas for their scenic beauty and weather attractions. Infrastructure facilities are developed with good quality roads, accommodation facilities, and transport by the government and private sector. Local people also get jobs as tourist guides and in other services. The Tourism Department of the government is responsible for organising the needful requirements of tourists. Handicrafts and small-scale industries provide a variety of locally made crafts, which are in great demand and a great source of income for the people. The increase in basic facilities in these areas is reducing migration from them.
+
+Gwadar port in Balochistan has become the third largest international port of Pakistan and is attracting a large number of people to the area for a variety of jobs. The Balochistan plateau is also rich in gold, copper, coal, and a variety of other minerals. The Saindak gold and copper project is also attracting a large number of people to the northwest of Balochistan. There is a great possibility that the population of Balochistan may increase with greater speed in the future with better economic standards.
+
+The Thar Coal power project in Sindh has been developed to increase thermal power in the country. It is a great source of a variety of jobs to the local people, contributing better facilities of infrastructure and accommodation to the area. Similarly, physical facilities may be used for the development of various projects in the country according to the needs of the people. This will improve economic progress, automatically solving the distribution and density problems of the country, making resources more sustainable for the future.
+
+### Social Factors
+
+Due to economic progress, the social needs of the people will also increase. They will get better education, healthcare, safe drinking water, better housing, and recreational opportunities, increasing economic progress and better living standards for the people.
+
+### Political Factors
+
+A stable government plays a very important role in the welfare of the people. It implements planning and security to provide for the future progress of the country. Various development projects will be completed on time, improving the problems of the people.
+
+## Sustainable Population Growth
+
+Sustainable population means the size of population of a country that can be easily supported by its economic resources at all times. It is achieved when development in resources is proportionate to population growth. Pakistan's population is increasing at a greater rate than its economic growth, and many development plans are not meeting the demand of its population. There is an extra burden on food resources, land, energy resources, transport systems, education, and healthcare facilities.
+
+Pakistan is an agricultural country with most of its population living in rural areas practicing subsistence farming, which is not meeting the needs of the growing population. In order to combat this issue, the government should encourage farmers towards mechanization of agriculture or cash crop farming to increase crop yield per acre. The irrigation system should be improved to provide a reliable source of water for cultivation of more areas under agriculture.
+
+The government should also increase the literacy ratio by introducing compulsory and free primary education. More technical and skill-based institutions according to international standards may be set up to provide quality education. The country needs a more skillful labour force to increase the ratio of secondary and tertiary activities. The government should encourage people to increase exports by finding more international markets. Population is increasing all over the world, and in order to meet the demand of this growing population, many developed countries have started mass production of goods. Pakistan should follow the same approach to improve its economy and become self-sufficient. Increasing population growth of the country is becoming a serious issue for its progress and development. The government should encourage NGOs to contribute more to the economic and social progress of the country. Pakistan is blessed with a variety of natural and human resources; if the economic and social issues are planned properly, the nation can easily overcome its difficulties and problems.

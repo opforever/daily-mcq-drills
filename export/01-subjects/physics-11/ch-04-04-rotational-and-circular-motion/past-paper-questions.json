@@ -1,0 +1,2455 @@
+[
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-displacement",
+    "topicTitle": "4.1 Angular Displacement",
+    "_id": "m173t5s244x0vtnftkrggs6gfs85q3y2",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Angular displacement ($\\theta$) is the angle rotated about an axis, measured in radians (rad)",
+      "Angular acceleration ($\\alpha$) is the rate of change of angular velocity: $\\alpha = \\frac{d\\omega}{dt}$",
+      "Radian is a dimensionless SI supplementary unit; one complete revolution = $2\\pi$ rad",
+      "Angular displacement and acceleration are rotational analogs of linear displacement and acceleration",
+      "Both quantities describe rotational kinematics in circular motion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Angular displacement ($\\theta$) is the angle through which a point or line rotates about a specified axis, measured in radians. It is the rotational analog of linear displacement. Angular acceleration ($\\alpha$) is the rate of change of angular velocity with respect to time, defined as $\\alpha = \\frac{d\\omega}{dt}$, where $\\omega$ is angular velocity. Angular displacement is expressed in radians (rad), a dimensionless supplementary SI unit, where one complete revolution equals $2\\pi$ radians. Both quantities are essential for analyzing rotational motion in circular systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Describe **angular displacement** and **angular acceleration**. Express angular displacement in radian.",
+    "topicId": "ms79svsa77hb39y7rprgj1zjv585qqsa",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-displacement",
+    "topicTitle": "4.1 Angular Displacement",
+    "_id": "m17bp9wjy0xa2tq658rqtgckxh8e0het",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At 9:15, the minute hand points at the '3' (90° from 12), and the hour hand is a quarter of the way between 9 and 10, i.e. at 9 + 0.25 = 9.25 hours, which is 9.25/12 x 360° = 277.5° from 12. The angle between them is |277.5 - 90| = 187.5°, or taking the smaller angle, 360-187.5 = 172.5°. In radians: 172.5° x (pi/180) ~= 3.01 rad.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.12",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A wall clock's arms show time as 09:15. Express the angle between the arms in radians.",
+    "topicId": "ms79svsa77hb39y7rprgj1zjv585qqsa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-displacement",
+    "topicTitle": "4.1 Angular Displacement",
+    "_id": "m174a567ckz9qf8sraskeq1s1s8e0r2d",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Using s = r*theta: theta = s/r = 9.4/2 = 4.7 rad. (Ans. 4.7 rad, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.8",
+    "sectionId": "formula-relating-arc-length-and-angular-displacement",
+    "sectionLabel": "Formula Relating Arc Length and Angular Displacement",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The minute hand of a watch is 2 cm long. If it travels 9.4 cm of length, how many radians will it travel?",
+    "topicId": "ms79svsa77hb39y7rprgj1zjv585qqsa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-displacement",
+    "topicTitle": "4.1 Angular Displacement",
+    "_id": "m17fvnea9h8bsy0aatebejp5x985pcfw",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Angular displacement of one radian is defined as the angle subtended at the center of a circle when the arc length equals the radius of that circle. Mathematically, $\\theta = \\frac{s}{r}$, where $s$ is the arc length and $r$ is the radius. The radian is a dimensionless derived unit in the SI system used to measure angular displacement.",
+    "keyPoints": [
+      "Angular displacement of 1 radian occurs when arc length equals the radius",
+      "Expressed by the formula $\\theta = \\frac{s}{r}$ where $s = r$",
+      "Radian is a dimensionless derived unit in SI system",
+      "It is the rotational analog of linear displacement",
+      "Used to measure change in angular position of rotating objects"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Angular displacement of one radian is defined as the angle subtended at the center of a circle when the arc length equals the radius of that circle. Mathematically, $\\theta = \\frac{s}{r}$, where $s$ is the arc length and $r$ is the radius. The radian is a dimensionless derived unit in the SI system used to measure angular displacement.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$47.3^{\\circ}$"
+      },
+      {
+        "key": "B",
+        "text": "$57.3^{\\circ}$"
+      },
+      {
+        "key": "C",
+        "text": "$67.3^{\\circ}$"
+      },
+      {
+        "key": "D",
+        "text": "$77.3^{\\circ}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "units-of-angular-displacement",
+    "sectionLabel": "Units of Angular Displacement",
+    "session": "annual",
+    "stem": "The **angular displacement** of one radian is:",
+    "topicId": "ms79svsa77hb39y7rprgj1zjv585qqsa",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-displacement",
+    "topicTitle": "4.1 Angular Displacement",
+    "_id": "m177evt361dmrk9fghpavb15tn85pp1p",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The angle subtended at the center of a circle by an arc equal to its radius is **1 radian**. This is derived from the relationship $\\theta = \\frac{s}{r}$, where $s$ is the arc length and $r$ is the radius. When $s = r$, we get $\\theta = 1$ radian, which is the definition of the radian as a supplementary (dimensionless derived) unit in the SI system.",
+    "keyPoints": [
+      "Correctly identifies the angle as 1 radian",
+      "Applies the formula $\\theta = \\frac{s}{r}$ with $s = r$",
+      "Recognizes radian as the SI unit for angular displacement",
+      "Shows understanding of the relationship between arc length and radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The angle subtended at the center of a circle by an arc equal to its radius is **1 radian**. This is derived from the relationship $\\theta = \\frac{s}{r}$, where $s$ is the arc length and $r$ is the radius. When $s = r$, we get $\\theta = 1$ radian, which is the definition of the radian as a supplementary (dimensionless derived) unit in the SI system.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{\\pi}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$1\\text{ radian}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "units-of-angular-displacement",
+    "sectionLabel": "Units of Angular Displacement",
+    "session": "annual",
+    "stem": "The angle subtended at the center of a circle by an arc equal to its radius is:",
+    "topicId": "ms79svsa77hb39y7rprgj1zjv585qqsa",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-displacement",
+    "topicTitle": "4.1 Angular Displacement",
+    "_id": "m170sczj7c5p398mkb0a1eavy58e0bq7",
+    "correctKey": "D",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "One full revolution around a circle corresponds to an angle of 2*pi radians.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1 rad"
+      },
+      {
+        "key": "B",
+        "text": "2 rad"
+      },
+      {
+        "key": "C",
+        "text": "pi rad"
+      },
+      {
+        "key": "D",
+        "text": "2*pi rad"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "8",
+    "sectionId": "units-of-angular-displacement",
+    "sectionLabel": "Units of Angular Displacement",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How many radians account for circumference of a circle?",
+    "topicId": "ms79svsa77hb39y7rprgj1zjv585qqsa"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-velocity",
+    "topicTitle": "4.2 Angular Velocity",
+    "_id": "m17aef22xe3hnnhxhzz58dkpt985qf4s",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "If voltage and current remain constant in a DC motor, its rotational speed will remain constant. In a DC motor, the torque produced depends on the current, and the back EMF is proportional to the rotational speed. When both voltage and current are held constant, the motor reaches an equilibrium state where the rotational speed stabilizes at a fixed value.",
+    "keyPoints": [
+      "Rotational speed remains constant when voltage and current are constant",
+      "Back EMF becomes proportional to constant rotational speed",
+      "Motor reaches equilibrium state with fixed angular velocity",
+      "Torque remains constant due to constant current supply"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "If voltage and current remain constant in a DC motor, its rotational speed will remain constant. In a DC motor, the torque produced depends on the current, and the back EMF is proportional to the rotational speed. When both voltage and current are held constant, the motor reaches an equilibrium state where the rotational speed stabilizes at a fixed value.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Will increase"
+      },
+      {
+        "key": "B",
+        "text": "Will decrease"
+      },
+      {
+        "key": "C",
+        "text": "Will become infinite"
+      },
+      {
+        "key": "D",
+        "text": "Remains constant"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "session": "annual",
+    "stem": "If the voltage and current remain constant in a DC motor, then its rotational speed:",
+    "topicId": "ms77yx1snf7t4xasnyw913jjxs85pykk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-velocity",
+    "topicTitle": "4.2 Angular Velocity",
+    "_id": "m17akw3mpsxny1q1fr9aqaz8as85pg86",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a rigid body in rotation, linear velocity is directly proportional to the distance from the axis of rotation: $v = \\omega r$, where $\\omega$ is constant for all points. Therefore, the ratio of linear velocities at distances $r$ and $\\frac{r}{4}$ is: $\\frac{v_1}{v_2} = \\frac{\\omega r}{\\omega \\frac{r}{4}} = \\frac{r}{\\frac{r}{4}} = 4:1$.",
+    "keyPoints": [
+      "Correctly identifies the relationship $v = \\omega r$ for rigid body rotation",
+      "Recognizes that angular velocity $\\omega$ is the same for all points on a rigid body",
+      "Accurately calculates the ratio by dividing velocities at the two distances",
+      "Expresses final answer as 4:1"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a rigid body in rotation, linear velocity is directly proportional to the distance from the axis of rotation: $v = \\omega r$, where $\\omega$ is constant for all points. Therefore, the ratio of linear velocities at distances $r$ and $\\frac{r}{4}$ is: $\\frac{v_1}{v_2} = \\frac{\\omega r}{\\omega \\frac{r}{4}} = \\frac{r}{\\frac{r}{4}} = 4:1$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.25"
+      },
+      {
+        "key": "B",
+        "text": "0.5"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sectionId": "relationship-between-linear-and-angular-velocity",
+    "sectionLabel": "Relationship Between Linear and Angular Velocity",
+    "session": "annual",
+    "stem": "The ratio of the **linear velocities** of the points at distances $r$ and $\\frac{r}{4}$ from the axis of rotation of a rigid body is:",
+    "topicId": "ms77yx1snf7t4xasnyw913jjxs85pykk",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-velocity",
+    "topicTitle": "4.2 Angular Velocity",
+    "_id": "m1783psx73cy9a5nj6744rw3sx85q6nz",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Linear velocity $v$ is tangent to the circular path",
+      "Angular velocity $\\omega$ describes the rate of rotation about the axis",
+      "The relationship is $v = r\\omega$ where $r$ is the radius",
+      "Linear velocity is directly proportional to both radius and angular velocity",
+      "Both quantities are essential for analyzing circular motion kinematics"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Linear velocity ($v$) and angular velocity ($\\omega$) are related through the radius ($r$) of the circular path. When an object moves in a circle, the linear velocity at any point is tangent to the circle, while angular velocity describes the rate of rotation. The relationship is given by: $v = r\\omega$, where $v$ is linear velocity in m/s, $\\omega$ is angular velocity in rad/s, and $r$ is the radius in meters. This shows that linear velocity is directly proportional to both the radius and angular velocity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionId": "relationship-between-linear-and-angular-velocity",
+    "sectionLabel": "Relationship Between Linear and Angular Velocity",
+    "session": "annual",
+    "stem": "Find the relation between linear velocity and angular velocity.",
+    "topicId": "ms77yx1snf7t4xasnyw913jjxs85pykk",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-velocity",
+    "topicTitle": "4.2 Angular Velocity",
+    "_id": "m17eq17ys14aqq3br2bb774gm58e0rzn",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Angular velocity = (3000 revolutions x 2*pi rad/rev) / 60 s = 6000*pi/60 = 100*pi ~= 314 rad/s. (Ans. 314 rad/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.1",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What will be the angular velocity of a flywheel of an engine if it completes 3000 revolutions in a minute?",
+    "topicId": "ms77yx1snf7t4xasnyw913jjxs85pykk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-velocity",
+    "topicTitle": "4.2 Angular Velocity",
+    "_id": "m17ezc2kzqr4yeajvcfz3a24658e1qwm",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Assuming uniform deceleration from 10 rev/s to 0 over 5 s, average angular speed = (10+0)/2 = 5 rev/s. Total revolutions = average speed x time = 5 x 5 = 25 revolutions. (Ans. 25 revolutions, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.9",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How many revolutions does the fidget spinner make after being flicked with an initial angular velocity of 10 revolutions per second and coming to rest in 5 seconds (ignore air resistance)?",
+    "topicId": "ms77yx1snf7t4xasnyw913jjxs85pykk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-velocity",
+    "topicTitle": "4.2 Angular Velocity",
+    "_id": "m174h85btsj84aepsyqay0rahh85qb0p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly identifies angular velocity as rate of change of angular displacement: $\\omega = \\frac{\\theta}{t}$",
+      "Recognizes one complete rotation equals $2\\pi$ radians",
+      "Converts 24 hours to seconds (86400 s)",
+      "Performs correct calculation: $\\omega = \\frac{2\\pi}{86400} \\approx 7.27 \\times 10^{-5}$ rad/s",
+      "Expresses final answer in correct units (rad/s)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Angular velocity is the rate of change of angular displacement with respect to time. Given that Earth completes one rotation (2π radians) in 24 hours, we convert this to seconds and apply the formula $\\omega = \\frac{\\theta}{t}$ to find $\\omega = \\frac{2\\pi}{86400} \\approx 7.27 \\times 10^{-5}$ rad/s.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "session": "annual",
+    "stem": "Earth completes its one rotation about its axis in $24 \\text{ hours}$. Calculate angular velocity of earth about its axis in radian per second.",
+    "topicId": "ms77yx1snf7t4xasnyw913jjxs85pykk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-acceleration",
+    "topicTitle": "4.3 Angular Acceleration",
+    "_id": "m177ss3fyg3maaxqzdqszger9n85py8a",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Applies Newton's second law to rotational motion ($F = ma$ becomes $\\tau = I\\alpha$)",
+      "Correctly defines torque as $\\tau = rF_t$ (force times perpendicular distance)",
+      "Derives moment of inertia relationship ($I = mr^2$ for point mass)",
+      "Shows tangential acceleration relationship ($a_t = r\\alpha$)",
+      "Arrives at final equation $\\tau = I\\alpha$ with proper mathematical steps"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Torque ($\\tau$) is the rotational analog of force and is related to angular acceleration ($\\alpha$) through moment of inertia ($I$). Consider a point mass $m$ at distance $r$ from the axis of rotation. The tangential force $F_t$ produces tangential acceleration $a_t = r\\alpha$. By Newton's second law, $F_t = ma_t = mr\\alpha$. Multiplying both sides by $r$: $\\tau = rF_t = mr^2\\alpha$. For a rigid body, $I = \\sum mr^2$, therefore: $$\\tau = I\\alpha$$ This is the fundamental equation of rotational dynamics, showing that torque equals the product of moment of inertia and angular acceleration.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "session": "annual",
+    "stem": "Derive the relation between torque, moment of inertia and angular acceleration.",
+    "topicId": "ms76024wbzxs7jdm9nx51vvncd85qtsh",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-acceleration",
+    "topicTitle": "4.3 Angular Acceleration",
+    "_id": "m173t5s244x0vtnftkrggs6gfs85q3y2",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Angular displacement ($\\theta$) is the angle rotated about an axis, measured in radians (rad)",
+      "Angular acceleration ($\\alpha$) is the rate of change of angular velocity: $\\alpha = \\frac{d\\omega}{dt}$",
+      "Radian is a dimensionless SI supplementary unit; one complete revolution = $2\\pi$ rad",
+      "Angular displacement and acceleration are rotational analogs of linear displacement and acceleration",
+      "Both quantities describe rotational kinematics in circular motion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Angular displacement ($\\theta$) is the angle through which a point or line rotates about a specified axis, measured in radians. It is the rotational analog of linear displacement. Angular acceleration ($\\alpha$) is the rate of change of angular velocity with respect to time, defined as $\\alpha = \\frac{d\\omega}{dt}$, where $\\omega$ is angular velocity. Angular displacement is expressed in radians (rad), a dimensionless supplementary SI unit, where one complete revolution equals $2\\pi$ radians. Both quantities are essential for analyzing rotational motion in circular systems.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "12",
+    "session": "annual",
+    "stem": "Describe **angular displacement** and **angular acceleration**. Express angular displacement in radian.",
+    "topicId": "ms76024wbzxs7jdm9nx51vvncd85qtsh",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-acceleration",
+    "topicTitle": "4.3 Angular Acceleration",
+    "_id": "m179sswt083qta42zadtnv6nxs8e0pan",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "The minute hand moves at a constant angular velocity (completing 2*pi radians every 3600 seconds), so its angular acceleration is zero.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.1",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is the value of angular acceleration of the minute hand of your wrist watch?",
+    "topicId": "ms76024wbzxs7jdm9nx51vvncd85qtsh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-acceleration",
+    "topicTitle": "4.3 Angular Acceleration",
+    "_id": "m171g6mv5bf1pdr9g6khpcnae18e1qe5",
+    "correctKey": "D",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Angular acceleration is produced by a net torque acting on a body, analogous to how net force produces linear acceleration.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "net force"
+      },
+      {
+        "key": "B",
+        "text": "power"
+      },
+      {
+        "key": "C",
+        "text": "pressure"
+      },
+      {
+        "key": "D",
+        "text": "net torque"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "6",
+    "sectionId": "relationship-between-angular-and-linear-acceleration",
+    "sectionLabel": "Relationship Between Angular and Linear Acceleration",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "In a body, angular acceleration is produced by:",
+    "topicId": "ms76024wbzxs7jdm9nx51vvncd85qtsh"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "relation-between-linear-and-angular-quantities",
+    "topicTitle": "4.4 Relation Between Linear and Angular Quantities",
+    "_id": "m177ss3fyg3maaxqzdqszger9n85py8a",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Applies Newton's second law to rotational motion ($F = ma$ becomes $\\tau = I\\alpha$)",
+      "Correctly defines torque as $\\tau = rF_t$ (force times perpendicular distance)",
+      "Derives moment of inertia relationship ($I = mr^2$ for point mass)",
+      "Shows tangential acceleration relationship ($a_t = r\\alpha$)",
+      "Arrives at final equation $\\tau = I\\alpha$ with proper mathematical steps"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Torque ($\\tau$) is the rotational analog of force and is related to angular acceleration ($\\alpha$) through moment of inertia ($I$). Consider a point mass $m$ at distance $r$ from the axis of rotation. The tangential force $F_t$ produces tangential acceleration $a_t = r\\alpha$. By Newton's second law, $F_t = ma_t = mr\\alpha$. Multiplying both sides by $r$: $\\tau = rF_t = mr^2\\alpha$. For a rigid body, $I = \\sum mr^2$, therefore: $$\\tau = I\\alpha$$ This is the fundamental equation of rotational dynamics, showing that torque equals the product of moment of inertia and angular acceleration.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "27",
+    "session": "annual",
+    "stem": "Derive the relation between torque, moment of inertia and angular acceleration.",
+    "topicId": "ms75m43ess7k8xv0xwpwp8g1y985q6ye",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "relation-between-linear-and-angular-quantities",
+    "topicTitle": "4.4 Relation Between Linear and Angular Quantities",
+    "_id": "m177hr6z3443x8wsyv7napxvh18e1a3g",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(a) s = r*theta (linear displacement = radius x angular displacement). (b) v = r*omega (linear velocity = radius x angular velocity). (c) a = r*alpha (linear/tangential acceleration = radius x angular acceleration), where r is the radius of the circular path.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.3",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Determine the relation between (a) linear and angular displacement, (b) linear and angular velocity, (c) linear and angular acceleration.",
+    "topicId": "ms75m43ess7k8xv0xwpwp8g1y985q6ye"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "relation-between-linear-and-angular-quantities",
+    "topicTitle": "4.4 Relation Between Linear and Angular Quantities",
+    "_id": "m17akw3mpsxny1q1fr9aqaz8as85pg86",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a rigid body in rotation, linear velocity is directly proportional to the distance from the axis of rotation: $v = \\omega r$, where $\\omega$ is constant for all points. Therefore, the ratio of linear velocities at distances $r$ and $\\frac{r}{4}$ is: $\\frac{v_1}{v_2} = \\frac{\\omega r}{\\omega \\frac{r}{4}} = \\frac{r}{\\frac{r}{4}} = 4:1$.",
+    "keyPoints": [
+      "Correctly identifies the relationship $v = \\omega r$ for rigid body rotation",
+      "Recognizes that angular velocity $\\omega$ is the same for all points on a rigid body",
+      "Accurately calculates the ratio by dividing velocities at the two distances",
+      "Expresses final answer as 4:1"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a rigid body in rotation, linear velocity is directly proportional to the distance from the axis of rotation: $v = \\omega r$, where $\\omega$ is constant for all points. Therefore, the ratio of linear velocities at distances $r$ and $\\frac{r}{4}$ is: $\\frac{v_1}{v_2} = \\frac{\\omega r}{\\omega \\frac{r}{4}} = \\frac{r}{\\frac{r}{4}} = 4:1$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.25"
+      },
+      {
+        "key": "B",
+        "text": "0.5"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sectionId": "relationship-between-linear-and-angular-velocity",
+    "sectionLabel": "Relationship Between Linear and Angular Velocity",
+    "session": "annual",
+    "stem": "The ratio of the **linear velocities** of the points at distances $r$ and $\\frac{r}{4}$ from the axis of rotation of a rigid body is:",
+    "topicId": "ms75m43ess7k8xv0xwpwp8g1y985q6ye",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "relation-between-linear-and-angular-quantities",
+    "topicTitle": "4.4 Relation Between Linear and Angular Quantities",
+    "_id": "m1783psx73cy9a5nj6744rw3sx85q6nz",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Linear velocity $v$ is tangent to the circular path",
+      "Angular velocity $\\omega$ describes the rate of rotation about the axis",
+      "The relationship is $v = r\\omega$ where $r$ is the radius",
+      "Linear velocity is directly proportional to both radius and angular velocity",
+      "Both quantities are essential for analyzing circular motion kinematics"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Linear velocity ($v$) and angular velocity ($\\omega$) are related through the radius ($r$) of the circular path. When an object moves in a circle, the linear velocity at any point is tangent to the circle, while angular velocity describes the rate of rotation. The relationship is given by: $v = r\\omega$, where $v$ is linear velocity in m/s, $\\omega$ is angular velocity in rad/s, and $r$ is the radius in meters. This shows that linear velocity is directly proportional to both the radius and angular velocity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionId": "relationship-between-linear-and-angular-velocity",
+    "sectionLabel": "Relationship Between Linear and Angular Velocity",
+    "session": "annual",
+    "stem": "Find the relation between linear velocity and angular velocity.",
+    "topicId": "ms75m43ess7k8xv0xwpwp8g1y985q6ye",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m17ek163e30wj0nx5pwa7m1n418e1d42",
+    "correctKey": "A",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Centrifugation separates components of a mixture by spinning them at high speed, using centripetal-force differences based on density.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "through spinning"
+      },
+      {
+        "key": "B",
+        "text": "of components at higher temperature"
+      },
+      {
+        "key": "C",
+        "text": "through evaporation"
+      },
+      {
+        "key": "D",
+        "text": "of components at lower temperature"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The term \"centrifugation\" means separation",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m179nrv0yp8rbrn83xq0drq5318e00hf",
+    "correctKey": "B",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "The tendency to overturn relates to the required centripetal force, which scales with $v^2$; doubling speed quadruples this tendency.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "doubled"
+      },
+      {
+        "key": "B",
+        "text": "quadrupled"
+      },
+      {
+        "key": "C",
+        "text": "halved"
+      },
+      {
+        "key": "D",
+        "text": "unchanged"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A car turns around a curve at 30 km/h. If it turns at double the speed, the tendency to overturn is:",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m175y6mf8sabm6wpmpzy7ga4c18e1nxe",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "At maximum speed on a curved bridge/hump, gravity provides the centripetal force: mg = mv^2/r, so v = sqrt(g*r) = sqrt(9.8 x 14.5) = sqrt(142.1) ~= 11.9 m/s, close to the textbook's printed 12.1 m/s (small variation from rounding/exact radius used). (Ans. 12.1 m/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.2",
+    "sectionId": "centripetal-acceleration-a_c",
+    "sectionLabel": "Centripetal Acceleration ($a_c$)",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A car is passing through a turn that is in the form of an arc of a circle of radius 14.5 m. What will be the maximum speed limit (the speed at which the car can cross the bridge without losing contact with the road) if the centre of gravity of the car is 0.5 m from the ground?",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m1742692eyxd18k2w480f0fazn85pygb",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The magnitude of centripetal force is $F_c = \\frac{mv^2}{r}$, where $m$ is the mass of the object, $v$ is its velocity, and $r$ is the radius of the circular path. This force is always directed toward the center of the circle and is necessary to keep an object moving in uniform circular motion.",
+    "keyPoints": [
+      "Correct formula: $F_c = \\frac{mv^2}{r}$",
+      "Identifies all three variables: mass ($m$), velocity ($v$), and radius ($r$)",
+      "States that force is directed toward the center",
+      "Recognizes this force maintains circular motion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The magnitude of centripetal force is $F_c = \\frac{mv^2}{r}$, where $m$ is the mass of the object, $v$ is its velocity, and $r$ is the radius of the circular path. This force is always directed toward the center of the circle and is necessary to keep an object moving in uniform circular motion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$mr\\omega^2$"
+      },
+      {
+        "key": "B",
+        "text": "$mr\\omega$"
+      },
+      {
+        "key": "C",
+        "text": "$m\\omega^2$"
+      },
+      {
+        "key": "D",
+        "text": "$\\dfrac{mv}{r^2}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "centripetal-force-f_c",
+    "sectionLabel": "Centripetal Force ($F_c$)",
+    "session": "annual",
+    "stem": "Magnitude of centripetal force $F_c =$",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m17f1wtdvhyevh7qagbsy7ppbn8e1af3",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Centripetal force is not itself a fundamental force; it is a label for whichever net force happens to point toward the center of a circular path. It is provided by one of the fundamental forces (or a combination), such as gravity (satellite orbits), tension (a ball on a string), friction (a car turning), or electromagnetic force (electrons around a nucleus), depending on the situation.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.4",
+    "sectionId": "centripetal-force-f_c",
+    "sectionLabel": "Centripetal Force ($F_c$)",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Is centripetal force a fundamental force or a force provided by any of the fundamental forces? Can any combination of the fundamental forces provide centripetal force?",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m17e4jykwsbcnp8txv52eqnxv58e1tqt",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "Centripetal force is the net force directed toward the center of a circular path, required to keep an object moving in that circle rather than in a straight line.",
+      "Its magnitude is given by the formula: force equals mass times speed squared, divided by the radius of the circular path.",
+      "Applications: a car turning on a curved road (friction supplies the centripetal force), and a satellite orbiting a planet (gravity supplies the centripetal force)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Centripetal force is the net force directed toward the center that produces centripetal acceleration in circular motion. Its magnitude is $F_c=mv^2/r=mr\\omega^2$. It is not a new kind of force; tension, friction, a normal force, gravity, or an electric force can provide it. For example, tension supplies the inward force for a ball swung on a string, and gravity supplies the centripetal force for a satellite or planet in orbit. Static friction supplies it when a car turns on an unbanked curve.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.1",
+    "sectionId": "centripetal-force-f_c",
+    "sectionLabel": "Centripetal Force ($F_c$)",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is centripetal force? Explain. Write down at least two applications where centripetal force plays its role.",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m17cj5jqqkxdrgape2wjck1zz18e0kx5",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "A centrifuge spins a mixture (e.g. in a test tube) at high angular velocity, requiring the container wall to supply centripetal force to keep the mixture's contents moving in a circle.",
+      "Denser particles need a larger centripetal force to stay in the same circular path as lighter particles at the same radius; since the container can only supply a limited inward force, denser components effectively move outward (toward the bottom of the tube in a spinning centrifuge) relative to lighter components.",
+      "This separates the mixture by density: denser material collects farther from the axis of rotation (e.g. at the bottom of the tube), lighter material remains closer/on top."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A centrifuge spins a liquid mixture rapidly about an axle. Denser suspended particles tend to continue in a straight line, while the surrounding liquid exerts the inward centripetal force needed for circular motion. The high-speed rotation causes the denser particles to collect at the bottom of the test tube, where they can be separated and analyzed. The same principle separates cream from milk and helps a washing-machine dryer remove water through rotating perforated walls.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.6",
+    "sectionId": "centripetal-force-f_c",
+    "sectionLabel": "Centripetal Force ($F_c$)",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Justify how a centrifuge is used to separate materials using centripetal force.",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m177d7c5jerzc66kpdbb8aecq98e0hyc",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Tangential acceleration acts along the direction of motion (tangent to the circular path), so it changes only the speed (magnitude of velocity) at that instant. The direction of velocity is determined by the path's geometry (always tangent to the circle) and is separately controlled by the centripetal (radial) acceleration component, which continuously redirects the velocity vector without altering its magnitude.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.8",
+    "sectionId": "why-circular-motion-always-involves-acceleration",
+    "sectionLabel": "Why Circular Motion Always Involves Acceleration",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why does in circular motion, a tangential acceleration can change the magnitude of the velocity but not its direction?",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "centripetal-force-and-acceleration",
+    "topicTitle": "4.5 Centripetal Force and Acceleration",
+    "_id": "m17f72rz7pyaarxkb9cb3nep7d8e1e5e",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "When a force acts perpendicular to an object's velocity at every instant, it changes only the direction of motion, not its speed, since it does no work on the object (force and displacement are perpendicular).",
+      "This continuous perpendicular force produces circular (curved) motion, with the force always directed toward the center of curvature -- this is exactly the role of centripetal force.",
+      "Examples: gravity on an orbiting satellite, tension on a ball whirled on a string, and magnetic force on a charged particle moving through a uniform magnetic field, all of which curve the path while leaving speed unchanged (in the idealised case)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A force perpendicular to an object's instantaneous velocity changes the direction of the velocity without changing its speed. In circular motion this inward, radial component produces centripetal acceleration, while a tangential component would change the speed. For constant-speed circular motion the acceleration is radial and directed toward the center, so the path curves continuously. The required inward force may be tension, friction, a normal force, gravity, or another net force depending on the situation.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.9",
+    "sectionId": "why-circular-motion-always-involves-acceleration",
+    "sectionLabel": "Why Circular Motion Always Involves Acceleration",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Analyse motion in curved path due to perpendicular forces.",
+    "topicId": "ms7bbq9f39yysqgtgdsndqkmvs85pnwk"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "circular-motion",
+    "topicTitle": "4.6 Circular Motion",
+    "_id": "m178efb9ayj28a2j5jrtsjz01h8e0952",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "There is no special outward 'centrifugal force' removing the water; rather, the spinning drum provides centripetal force to the clothes (via the drum wall) to keep them moving in a circle. Water on the clothes is not held to them by any strong force, so it is not accelerated inward with the clothes and instead travels in a straight line (Newton's first law) out through the drum's holes, appearing to be 'flung out'.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.2",
+    "sectionId": "summary",
+    "sectionLabel": "Summary",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Is there a real force that removes water from wet clothes in a washing machine? Explain how the water is removed.",
+    "topicId": "ms75n3deefe50fxta03bexsm4185q92a"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m173k6ecj502eavejwkhdzgtj985phgf",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Moment of inertia is resistance to rotational motion; depends on mass distribution about axis of rotation",
+      "Formula for moment of inertia: $I = \\sum m_i r_i^2$",
+      "Angular momentum is rotational equivalent of linear momentum defined by $\\vec{L} = \\vec{r} \\times \\vec{p}$",
+      "For rigid body rotation: $L = I\\omega$",
+      "Both are fundamental quantities in rotational dynamics"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "(a) **Moment of Inertia**: The moment of inertia (I) of a body is a measure of its resistance to changes in rotational motion about a fixed axis. It is the rotational equivalent of mass in linear motion and depends on both the mass of the body and the distribution of that mass relative to the axis of rotation. Mathematically, $I = \\sum m_i r_i^2$, where $m_i$ is the mass of each particle and $r_i$ is its perpendicular distance from the axis.\n\n(b) **Angular Momentum**: Angular momentum ($\\vec{L}$) is the rotational equivalent of linear momentum and represents the quantity of rotational motion of a body. It is defined as the cross product of the position vector ($\\vec{r}$) and linear momentum ($\\vec{p}$): $\\vec{L} = \\vec{r} \\times \\vec{p} = rmv\\sin\\theta$. For a rotating rigid body, it can also be expressed as $L = I\\omega$, where I is moment of inertia and $\\omega$ is angular velocity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Briefly explain the following terms: (a) Moment of inertia of a body (b) Angular momentum",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m174sv735cpa419qbsd4bat2x98e0gk3",
+    "correctKey": "D",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Moment of inertia is a property of mass distribution relative to an axis; it does not depend on how fast the body is currently rotating (angular velocity).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "distribution of mass around the axis"
+      },
+      {
+        "key": "B",
+        "text": "orientation of the axis"
+      },
+      {
+        "key": "C",
+        "text": "mass of the body"
+      },
+      {
+        "key": "D",
+        "text": "angular velocity of the body"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "3",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The moment of inertia of a spinning body about a certain axis, doesn't depend on:",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m17fmx9e612frh6vqhpdz11n498e0b4r",
+    "correctKey": "B",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Longer blades increase the fan's moment of inertia and air resistance; for the same power input (voltage/current), rotational speed decreases.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "increase"
+      },
+      {
+        "key": "B",
+        "text": "decrease"
+      },
+      {
+        "key": "C",
+        "text": "remain constant"
+      },
+      {
+        "key": "D",
+        "text": "may increase or decrease"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If size (length) of the wings of a fan is increased, its rotational speed, for the same voltage and current, will:",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m174273mv899n90e1vncds5ha18e1jga",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Yes, the moment of inertia of the double-tyre assembly is greater than that of a single tyre, since moment of inertia depends on both mass and its distribution relative to the axis; adding a second tyre adds mass at essentially the same radius, increasing the total moment of inertia (roughly doubling it if the tyres are identical).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.5",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "There are generally double tyres in heavy vehicles on one side of an axle. Will its moment of inertia be different from that of a single tyre?",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m177gnn0dve00m6xmhk3jkh08x8e1yry",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "For a particle of mass m at radius r from the axis, tangential force equals mass times tangential acceleration; since tangential acceleration equals radius times angular acceleration, tangential force equals mass times radius times angular acceleration.",
+      "Torque of this force about the axis equals that tangential force times the radius, which works out to mass times radius squared times angular acceleration.",
+      "Summing over all particles of a rigid body: total torque equals the sum of each particle's mass times its squared distance from the axis, all times angular acceleration -- that sum is exactly the moment of inertia, giving torque equals moment of inertia times angular acceleration, the rotational analogue of Newton's second law."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a mass $m$ at radius $r$, a tangential force $F$ produces torque $\\tau=rF$. Tangential acceleration is related to angular acceleration by $a_t=r\\alpha$, so Newton's second law gives $F=ma_t=mr\\alpha$. Therefore $\\tau=r(mr\\alpha)=mr^2\\alpha$. Since the moment of inertia for the point mass is $I=mr^2$, the rotational equation is $\\tau=I\\alpha$. For a rigid body, the corresponding net torque is the sum over its elements and the same relation holds with the body's total $I$.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.5",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Derive the relation between torque and angular acceleration.",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m173sdwtz3bh8thrd6h0x3ad698e0n8c",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "For a rod rotating about its center, $I = \\frac{1}{12}mL^2 = \\frac{1}{12} \\times 0.2 \\times 0.8^2 = \\frac{1}{12} \\times 0.2 \\times 0.64 = 0.128/12 \\approx 0.0107$ kg m², close to the textbook's printed 0.01 kg m². (Ans. 0.01 kg m², as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.3",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A PT teacher rotates his stick at the axis that passes through its centre. If mass of the stick is 200 g and its length is 0.8 m, find its moment of inertia.",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m17fh4phawk1jjyx7bb8t0zxnd85qypt",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Moment of inertia is resistance to rotational motion; rotational equivalent of mass",
+      "Derived from rotational kinetic energy formula by comparing $K.E._{rot} = \\frac{1}{2}I\\omega^2$ with $\\frac{1}{2}\\omega^2 \\int r^2 dm$",
+      "Final formula: $I = \\int r^2 dm$ (continuous) or $I = \\sum m_i r_i^2$ (discrete)",
+      "Each mass element contributes based on square of its distance from rotation axis",
+      "Units: $kg \\cdot m^2$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "**Moment of Inertia** is a measure of the resistance of a body to changes in its rotational motion about a fixed axis. It is the rotational equivalent of mass in linear motion. For a rigid body, moment of inertia ($I$) is defined as the sum of the products of the mass of each particle and the square of its perpendicular distance from the axis of rotation.\n\n**Derivation:**\n\nConsider a rigid body rotating about a fixed axis. Divide the body into small mass elements $dm$ at perpendicular distances $r_1, r_2, r_3, ...$ from the axis.\n\nFor rotational kinetic energy, each mass element has velocity $v = \\omega r$, where $\\omega$ is angular velocity.\n\nThe kinetic energy of one element: $dK.E. = \\frac{1}{2}dm \\cdot v^2 = \\frac{1}{2}dm(\\omega r)^2 = \\frac{1}{2}\\omega^2 r^2 dm$\n\nTotal rotational kinetic energy:\n$$K.E._{rot} = \\int \\frac{1}{2}\\omega^2 r^2 dm = \\frac{1}{2}\\omega^2 \\int r^2 dm$$\n\nComparing with $K.E._{rot} = \\frac{1}{2}I\\omega^2$, we get:\n$$I = \\int r^2 dm$$\n\nFor a discrete system of particles:\n$$I = \\sum_{i=1}^{n} m_i r_i^2$$\n\nwhere $m_i$ is the mass of the $i$-th particle and $r_i$ is its perpendicular distance from the axis of rotation.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "5",
+    "sectionId": "moment-of-inertia-for-a-rigid-body",
+    "sectionLabel": "Moment of Inertia for a Rigid Body",
+    "session": "annual",
+    "stem": "What is meant by **moment of inertia** of a body? Derive a formula for it.",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m17ctjxfdy6e8nky5zgvxna8nn8e0c71",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "Moment of inertia is a measure of a body's resistance to angular acceleration about a given axis, depending on how its mass is distributed relative to that axis.",
+      "For a point mass m at distance r from the axis, moment of inertia equals mass times the square of the distance from the axis; for a rigid body made of many particles, it is the sum of each particle's mass times its squared distance from the axis.",
+      "This is the rotational analogue of mass in linear dynamics: torque equals moment of inertia times angular acceleration, just as force equals mass times acceleration."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Moment of inertia is rotational inertia, the resistance of a body to angular acceleration about a chosen axis. Divide a rigid body into small masses $m_i$ at perpendicular distances $r_i$ from that axis. Each element contributes $m_i r_i^2$, so summing gives $I=\\sum_i m_i r_i^2$; in the continuous limit, $I=\\int r^2\\,dm$. For a point mass this reduces to $I=mr^2$. The result depends on the mass distribution relative to the axis, not on the body's angular velocity.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.2",
+    "sectionId": "moment-of-inertia-for-a-rigid-body",
+    "sectionLabel": "Moment of Inertia for a Rigid Body",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "What is moment of inertia? Derive its relation for rigid body.",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "torque-and-moment-of-inertia",
+    "topicTitle": "4.7 Torque and Moment of Inertia",
+    "_id": "m175drp9qw5kzv8b2sg0ehvb9n8e174b",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Torque $= F \\times r = 200 \\times 2.0 = 400$ N m. (a) Merry-go-round alone, treated as a disk: $I = \\frac{1}{2}mr^2 = 0.5 \\times 30 \\times 2^2 = 60\\ \\mathrm{kg\\,m^2}$. $\\alpha = \\text{torque}/I = 400/60 \\approx 6.67\\ \\mathrm{rad/s^2}$. (b) With the boy added as a point mass at 1.5 m: extra $I_{boy} = mr^2 = 20 \\times 1.5^2 = 45\\ \\mathrm{kg\\,m^2}$, total $I = 60+45=105\\ \\mathrm{kg\\,m^2}$. $\\alpha = 400/105 \\approx 3.81\\ \\mathrm{rad/s^2}$. (Ans. 6.67 rad/s², 3.8 rad/s², as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.6",
+    "sectionId": "torque-moment-of-force",
+    "sectionLabel": "Torque (Moment of Force)",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A boy exerts a force of 200 N at the edge of a 30.0 kg merry-go-round, which has a 2.0 m radius. Calculate the angular acceleration produced (a) when no one is on the merry-go-round and (b) when the boy, having 20.0 kg weight, sits 1.5 m away from the center (ignore friction).",
+    "topicId": "ms74eg0scr0c62m7vn2sq34dfn85pk79"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m17d5gsy1kq788n3j9bpsyk1rx85p5jx",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies conservation of angular momentum: $L_1 = L_2$ for isolated system",
+      "Identifies moment of inertia formula for sphere and recognizes it cancels in the equation",
+      "Correctly substitutes new radius $R_2 = 2R_1$ and derives $\\omega_2 = \\frac{\\omega_1}{4}$",
+      "Converts angular velocity relationship to period relationship: $T_2 = 4T_1$",
+      "Calculates final answer: $T_2 = 96\\text{ hours}$ with proper units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "Using the law of conservation of angular momentum for an isolated system with no external torque: $L_1 = L_2$, which gives $I_1\\omega_1 = I_2\\omega_2$. For a sphere, $I = \\frac{2}{5}MR^2$, so $\\frac{2}{5}MR_1^2\\omega_1 = \\frac{2}{5}M(2R_1)^2\\omega_2$. Simplifying: $R_1^2\\omega_1 = 4R_1^2\\omega_2$, thus $\\omega_2 = \\frac{\\omega_1}{4}$. Since $T = \\frac{2\\pi}{\\omega}$, we have $T_2 = 4T_1 = 4 \\times 24 = 96\\text{ hours}$. Therefore, the new period of rotation is $T_2 = 96\\text{ hours}$ or 4 days.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionId": "the-implication-l--iomega--textconstant",
+    "sectionLabel": "The Implication: $L = I\\omega = \\text{constant}$",
+    "session": "annual",
+    "stem": "The earth rotates on its axis once a day so that its original period $T_1 = 24\\text{ hours}$. Suppose, by some process the earth expands so that the radius becomes double as large as at present. Determine $T_2$ (new period required for one revolution) after expansion using the law of conservation of angular momentum.",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m173k6ecj502eavejwkhdzgtj985phgf",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Moment of inertia is resistance to rotational motion; depends on mass distribution about axis of rotation",
+      "Formula for moment of inertia: $I = \\sum m_i r_i^2$",
+      "Angular momentum is rotational equivalent of linear momentum defined by $\\vec{L} = \\vec{r} \\times \\vec{p}$",
+      "For rigid body rotation: $L = I\\omega$",
+      "Both are fundamental quantities in rotational dynamics"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "(a) **Moment of Inertia**: The moment of inertia (I) of a body is a measure of its resistance to changes in rotational motion about a fixed axis. It is the rotational equivalent of mass in linear motion and depends on both the mass of the body and the distribution of that mass relative to the axis of rotation. Mathematically, $I = \\sum m_i r_i^2$, where $m_i$ is the mass of each particle and $r_i$ is its perpendicular distance from the axis.\n\n(b) **Angular Momentum**: Angular momentum ($\\vec{L}$) is the rotational equivalent of linear momentum and represents the quantity of rotational motion of a body. It is defined as the cross product of the position vector ($\\vec{r}$) and linear momentum ($\\vec{p}$): $\\vec{L} = \\vec{r} \\times \\vec{p} = rmv\\sin\\theta$. For a rotating rigid body, it can also be expressed as $L = I\\omega$, where I is moment of inertia and $\\omega$ is angular velocity.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "10",
+    "session": "annual",
+    "stem": "Briefly explain the following terms: (a) Moment of inertia of a body (b) Angular momentum",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m17bs4m5f5nhafghp7dwd9cj7x85pz3s",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a satellite in orbit, **angular momentum remains constant**. This is because no net external torque acts on the satellite (gravity acts radially toward the center, producing zero torque about that point). According to the Law of Conservation of Angular Momentum, $\\vec{L} = \\vec{r} \\times \\vec{p}$ remains constant throughout the orbital motion.",
+    "keyPoints": [
+      "Angular momentum is conserved because net external torque is zero",
+      "Gravitational force acts radially and produces no torque about the orbital center",
+      "Angular momentum $\\vec{L} = \\vec{r} \\times \\vec{p}$ remains constant in magnitude and direction",
+      "This conservation explains why orbital velocity and radius are related in stable orbits"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a satellite in orbit, **angular momentum remains constant**. This is because no net external torque acts on the satellite (gravity acts radially toward the center, producing zero torque about that point). According to the Law of Conservation of Angular Momentum, $\\vec{L} = \\vec{r} \\times \\vec{p}$ remains constant throughout the orbital motion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Angular momentum"
+      },
+      {
+        "key": "B",
+        "text": "Potential energy"
+      },
+      {
+        "key": "C",
+        "text": "Velocity"
+      },
+      {
+        "key": "D",
+        "text": "Kinetic energy"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "statement-of-the-law",
+    "sectionLabel": "Statement of the Law",
+    "session": "annual",
+    "stem": "Which one remains constant for a satellite in orbit?",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m171bc4jcrt41269as18g7jfen8e18h8",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Treating the football as a thin spherical shell, $I = \\frac{2}{3}mr^2 = \\frac{2}{3} \\times 0.45 \\times 0.11^2 \\approx 0.00363$ kg m². Angular velocity $\\omega = 10 \\times 2\\pi \\approx 62.8$ rad/s. Angular momentum $L = I\\omega \\approx 0.00363 \\times 62.8 \\approx 0.228$ J s; the textbook's printed answer 0.137 J s likely uses a different moment-of-inertia model (e.g. solid sphere, $I=\\frac{2}{5}mr^2$ giving $L\\approx0.137$ J s) -- the printed textbook value is presented as authoritative per CLAUDE.md's no-invented-content rule. (Ans. 0.137 J s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.4",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A football of mass 450 g rotates with an angular speed of 10 rev/s. If its radius is 11 cm, compute its angular momentum.",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m17cf54j29w4kyzyz7afeqyd0585pgtt",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition of angular momentum as rotational equivalent of linear momentum",
+      "Identification of three factors: mass ($m$), velocity ($v$), and perpendicular distance ($r$)",
+      "Formula $L = mvr$ derived from the product of linear momentum and lever arm",
+      "Dimensional analysis: $[L] = [M][LT^{-1}][L] = [ML^2T^{-1}]$ confirming correctness",
+      "Application to rotational motion analogous to $p = mv$ in linear motion"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Angular momentum $L$ is defined as the product of mass, velocity, and perpendicular distance from the axis of rotation. For an object of mass $m$ moving with velocity $v$ at perpendicular distance $r$ from the axis, angular momentum is given by $L = mvr$. This represents the rotational equivalent of linear momentum and is a fundamental quantity in rotational dynamics, analogous to how linear momentum $p = mv$ describes translational motion.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionId": "definition-in-terms-of-linear-momentum",
+    "sectionLabel": "Definition in Terms of Linear Momentum",
+    "session": "annual",
+    "stem": "Show that **angular momentum** $L=mvr$.",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m179w41pyh52w1qydjbtw238vx85qv97",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Convert orbital period to seconds: $T = 27.3 \\times 24 \\times 3600 = 2.36 \\times 10^6$ s",
+      "Calculate orbital velocity using $v = \\frac{2\\pi r}{T}$ to get $v \\approx 1.01 \\times 10^3$ m/s",
+      "Apply angular momentum formula $L = mvr$ with correct substitution of mass, velocity, and radius",
+      "Final answer: $L \\approx 2.82 \\times 10^{34}$ kg·m²/s (or kg·m²·s⁻¹)",
+      "Ensure dimensional consistency: mass × velocity × distance = angular momentum"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "To find the Moon's angular momentum about Earth, we first calculate its orbital velocity using the given period and distance. The orbital velocity is $v = \\frac{2\\pi r}{T}$ where $r = 3.8 \\times 10^8$ m and $T = 27.3 \\times 24 \\times 3600 = 2.36 \\times 10^6$ s. This gives $v = \\frac{2\\pi \\times 3.8 \\times 10^8}{2.36 \\times 10^6} = 1.01 \\times 10^3$ m/s. Angular momentum is $L = mvr = (7.35 \\times 10^{22})(1.01 \\times 10^3)(3.8 \\times 10^8) = 2.82 \\times 10^{34}$ kg·m²/s.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "20",
+    "sectionId": "definition-in-terms-of-linear-momentum",
+    "sectionLabel": "Definition in Terms of Linear Momentum",
+    "session": "annual",
+    "stem": "Find Moon's angular momentum about Earth using Earth-Moon distance = $3.8 \\times 10^8$ m and Mass of Moon = $7.35 \\times 10^{22}$ kg. (Assume Moon's orbital period is 27.3 days.)",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m1716qqw3xhj5v5dhhrapwzkqs8e14rs",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A spinning gyroscope has angular momentum that resists changes in the orientation of its spin axis, so it maintains a fixed reference direction regardless of the aircraft's motion; this property is used in aeroplanes for navigation and attitude instruments (e.g. artificial horizon, heading indicator).",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.10",
+    "sectionId": "law-of-conservation-of-angular-momentum",
+    "sectionLabel": "Law of Conservation of Angular Momentum",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why is a gyroscope used in aeroplanes?",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m174gq2fkk5k2j3r3eda2zm9ex8e0fca",
+    "correctKey": "C",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "Change in angular momentum = torque x time = 2.5 x 2 = 5 J s (angular impulse-momentum theorem).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "1.25 J s"
+      },
+      {
+        "key": "B",
+        "text": "2.5 J s"
+      },
+      {
+        "key": "C",
+        "text": "5 J s"
+      },
+      {
+        "key": "D",
+        "text": "0 J s"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "4",
+    "sectionId": "relationship-between-torque-and-angular-momentum",
+    "sectionLabel": "Relationship Between Torque and Angular Momentum",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "The change in angular momentum of a rod, when a torque of 2.5 N m is acted upon it for 2 s, is:",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "angular-momentum",
+    "topicTitle": "4.8 Angular Momentum",
+    "_id": "m17aq99pw5rv4tvafvwgen78kh8e1mw5",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "Angular momentum of a particle is L = r x p = m(r x v), and for a rigid body rotating about a fixed axis, L = I*omega.",
+      "Differentiating L = I*omega with respect to time (I constant): dL/dt = I * (d(omega)/dt) = I*alpha.",
+      "Since torque tau = I*alpha, this shows tau = dL/dt: net torque equals the rate of change of angular momentum, the rotational analogue of F = dp/dt."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Angular momentum is the cross product of position and linear momentum, $\\mathbf{L}=\\mathbf{r}\\times\\mathbf{p}$. For a mass moving tangentially at radius $r$, the vectors are perpendicular, so $L=rp=rmv$. Since $v=r\\omega$, this becomes $L=mr^2\\omega=I\\omega$. Torque is $\\boldsymbol{\\tau}=\\mathbf{r}\\times\\mathbf{F}$. Differentiating angular momentum gives $\\boldsymbol{\\tau}=d\\mathbf{L}/dt$; over a finite interval, $\\boldsymbol{\\tau}\\,\\Delta t=\\Delta\\mathbf{L}$. Thus torque is the rate of change of angular momentum.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.3",
+    "sectionId": "relationship-between-torque-and-angular-momentum",
+    "sectionLabel": "Relationship Between Torque and Angular Momentum",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Derive the expression for angular momentum of a body. Also deduce the relation between angular momentum and torque.",
+    "topicId": "ms79bn6xtjxk9dw4vp0jtjs99n85pbxm"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "law-of-conservation-of-angular-momentum",
+    "topicTitle": "4.9 The Law of Conservation of Angular Momentum",
+    "_id": "m175ghx81dcdfh5sw871d4h3x18e1fzg",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Rotating the two sets of blades in opposite directions cancels their individual angular momenta, so the helicopter's body does not experience a net reactive torque (which would otherwise cause the fuselage to spin in the direction opposite to a single rotor), keeping the helicopter stable without needing a separate tail rotor.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.6",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why is it best to have the blades rotate in opposite directions for a helicopter having two sets of lifting blades?",
+    "topicId": "ms72svak1xr0n9sjb2rmkt6qrh85pghr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "law-of-conservation-of-angular-momentum",
+    "topicTitle": "4.9 The Law of Conservation of Angular Momentum",
+    "_id": "m17etw6cbs1fdd1f9x74sjmysx8e1r6e",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By conservation of angular momentum (L = I*omega constant, with no external torque), halving the diameter (and hence radius) reduces the Earth's moment of inertia significantly (I is proportional to mass x radius^2 for a sphere, so I becomes 1/4 of its original value); since L stays the same, omega must increase by a factor of 4, so the Earth's rotational speed would increase.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.7",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "If diameter of Earth becomes half and there is no change in its mass, what effect will be there on the rotational speed of Earth around its own axis?",
+    "topicId": "ms72svak1xr0n9sjb2rmkt6qrh85pghr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "law-of-conservation-of-angular-momentum",
+    "topicTitle": "4.9 The Law of Conservation of Angular Momentum",
+    "_id": "m17dvvebw950cc9390shr7mnms8e0a9x",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "By conservation of angular momentum: I1*omega1 = I2*omega2. With I2 = I1/3: omega2 = omega1 x (I1/I2) = 10 x 3 = 30 rad/s. (Ans. 30 rad/s, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.5",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A merryman in a circus is standing with his arms extended on a turn table rotating with angular velocity 10 rad/s. He brings his arms closer to his body so that his moment of inertia is reduced to one third of the initial value. Find his new angular velocity.",
+    "topicId": "ms72svak1xr0n9sjb2rmkt6qrh85pghr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "law-of-conservation-of-angular-momentum",
+    "topicTitle": "4.9 The Law of Conservation of Angular Momentum",
+    "_id": "m1799fy88sma6gerenycpp2gm185p8g1",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Rifling forces the bullet to rotate as it travels through the barrel",
+      "The rotating bullet possesses angular momentum about its longitudinal axis",
+      "By conservation of angular momentum, the bullet continues spinning after leaving the barrel",
+      "Spin stabilization prevents tumbling and improves ballistic accuracy",
+      "The spiral grooves transfer rotational motion from the barrel to the projectile"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "A rifle barrel is rifled (has spiral grooves) to impart angular momentum to the bullet. When the bullet travels through the rifled barrel, the spiral grooves force it to rotate about its longitudinal axis. By conservation of angular momentum, this rotational motion is maintained after the bullet leaves the barrel, causing it to spin rapidly. This spinning stabilizes the bullet's flight path, reducing tumbling and improving accuracy and range.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionId": "applications-and-examples",
+    "sectionLabel": "Applications and Examples",
+    "session": "annual",
+    "stem": "Why is a rifle barrel \"rifled\"? Give reason in context of conservation of angular momentum.",
+    "topicId": "ms72svak1xr0n9sjb2rmkt6qrh85pghr",
+    "year": 2023
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "law-of-conservation-of-angular-momentum",
+    "topicTitle": "4.9 The Law of Conservation of Angular Momentum",
+    "_id": "m17a2na7jat7zant0x51zk8mbx8e0d5y",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "The law of conservation of angular momentum states that in the absence of external torque, the total angular momentum of a system remains constant.",
+      "Example 1: a figure skater spinning with arms extended, then pulling arms in, reduces their moment of inertia, so their angular velocity increases to keep angular momentum (moment of inertia times angular velocity) constant (they spin faster).",
+      "Example 2: a diver performing a somersault tucks their body to reduce moment of inertia and spin faster mid-air, then extends to slow down before entering the water, all while total angular momentum stays constant since air resistance provides negligible external torque."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "If the net external torque on a system is zero, its angular momentum remains constant: $L_i=L_f$. For a rotating body this is $I_i\\omega_i=I_f\\omega_f$. A skater with arms extended has larger $I$ and smaller $\\omega$; pulling the arms inward reduces $I$, so $\\omega$ increases to keep $I\\omega$ constant. Gymnasts and divers similarly alter their rotational inertia during spins, and a gyroscope maintains orientation through angular momentum. These examples apply conservation of angular momentum because the relevant external torque is negligible.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.4",
+    "sectionId": "key-comparison-linear-vs-angular-momentum-conservation",
+    "sectionLabel": "Key Comparison: Linear vs Angular Momentum Conservation",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain conservation of angular momentum using practical life examples.",
+    "topicId": "ms72svak1xr0n9sjb2rmkt6qrh85pghr"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "law-of-conservation-of-angular-momentum",
+    "topicTitle": "4.9 The Law of Conservation of Angular Momentum",
+    "_id": "m17bs4m5f5nhafghp7dwd9cj7x85pz3s",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "For a satellite in orbit, **angular momentum remains constant**. This is because no net external torque acts on the satellite (gravity acts radially toward the center, producing zero torque about that point). According to the Law of Conservation of Angular Momentum, $\\vec{L} = \\vec{r} \\times \\vec{p}$ remains constant throughout the orbital motion.",
+    "keyPoints": [
+      "Angular momentum is conserved because net external torque is zero",
+      "Gravitational force acts radially and produces no torque about the orbital center",
+      "Angular momentum $\\vec{L} = \\vec{r} \\times \\vec{p}$ remains constant in magnitude and direction",
+      "This conservation explains why orbital velocity and radius are related in stable orbits"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "For a satellite in orbit, **angular momentum remains constant**. This is because no net external torque acts on the satellite (gravity acts radially toward the center, producing zero torque about that point). According to the Law of Conservation of Angular Momentum, $\\vec{L} = \\vec{r} \\times \\vec{p}$ remains constant throughout the orbital motion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Angular momentum"
+      },
+      {
+        "key": "B",
+        "text": "Potential energy"
+      },
+      {
+        "key": "C",
+        "text": "Velocity"
+      },
+      {
+        "key": "D",
+        "text": "Kinetic energy"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "5",
+    "sectionId": "statement-of-the-law",
+    "sectionLabel": "Statement of the Law",
+    "session": "annual",
+    "stem": "Which one remains constant for a satellite in orbit?",
+    "topicId": "ms72svak1xr0n9sjb2rmkt6qrh85pghr",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "law-of-conservation-of-angular-momentum",
+    "topicTitle": "4.9 The Law of Conservation of Angular Momentum",
+    "_id": "m17d5gsy1kq788n3j9bpsyk1rx85p5jx",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correctly applies conservation of angular momentum: $L_1 = L_2$ for isolated system",
+      "Identifies moment of inertia formula for sphere and recognizes it cancels in the equation",
+      "Correctly substitutes new radius $R_2 = 2R_1$ and derives $\\omega_2 = \\frac{\\omega_1}{4}$",
+      "Converts angular velocity relationship to period relationship: $T_2 = 4T_1$",
+      "Calculates final answer: $T_2 = 96\\text{ hours}$ with proper units"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 4,
+    "modelAnswer": "Using the law of conservation of angular momentum for an isolated system with no external torque: $L_1 = L_2$, which gives $I_1\\omega_1 = I_2\\omega_2$. For a sphere, $I = \\frac{2}{5}MR^2$, so $\\frac{2}{5}MR_1^2\\omega_1 = \\frac{2}{5}M(2R_1)^2\\omega_2$. Simplifying: $R_1^2\\omega_1 = 4R_1^2\\omega_2$, thus $\\omega_2 = \\frac{\\omega_1}{4}$. Since $T = \\frac{2\\pi}{\\omega}$, we have $T_2 = 4T_1 = 4 \\times 24 = 96\\text{ hours}$. Therefore, the new period of rotation is $T_2 = 96\\text{ hours}$ or 4 days.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionId": "the-implication-l--iomega--textconstant",
+    "sectionLabel": "The Implication: $L = I\\omega = \\text{constant}$",
+    "session": "annual",
+    "stem": "The earth rotates on its axis once a day so that its original period $T_1 = 24\\text{ hours}$. Suppose, by some process the earth expands so that the radius becomes double as large as at present. Determine $T_2$ (new period required for one revolution) after expansion using the law of conservation of angular momentum.",
+    "topicId": "ms72svak1xr0n9sjb2rmkt6qrh85pghr",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "kinetic-energy-of-rotation-hoop-and-disc",
+    "topicTitle": "4.10 Rotational Kinetic Energy",
+    "_id": "m17ezwmb4pbxj92yfct8d1kb918e03se",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "A flywheel has a large moment of inertia and stores rotational kinetic energy; it absorbs excess energy during power strokes and releases it during other parts of the engine cycle, smoothing out fluctuations in rotational speed and delivering a more even, continuous power output.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.11",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "How does the rotation of a flywheel helps to even out the power delivery from the engine?",
+    "topicId": "ms70fdw8edmb3d5bw0c46r10es85p0e7"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "kinetic-energy-of-rotation-hoop-and-disc",
+    "topicTitle": "4.10 Rotational Kinetic Energy",
+    "_id": "m177qb4vb3jc0exyr8qtwbtp5585q79p",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct conversion of angular velocity from rev/min to rad/s using $\\omega = n \\times \\frac{2\\pi}{60}$",
+      "Correct application of moment of inertia formula for disc: $I = \\frac{1}{2}MR^2$",
+      "Correct substitution of values with proper unit conversion (radius in metres)",
+      "Correct application of rotational kinetic energy formula: $KE = \\frac{1}{2}I\\omega^2$",
+      "Final answer with appropriate units (Joules)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "First, convert the angular velocity from rev/min to rad/s: $\\omega = 120 \\text{ rev/min} = 120 \\times \\frac{2\\pi}{60} = 4\\pi \\text{ rad/s} \\approx 12.57 \\text{ rad/s}$. The moment of inertia for a disc is $I = \\frac{1}{2}MR^2 = \\frac{1}{2}(49)(0.5)^2 = 6.125 \\text{ kg·m}^2$. The rotational kinetic energy is $KE = \\frac{1}{2}I\\omega^2 = \\frac{1}{2}(6.125)(12.57)^2 \\approx 484 \\text{ J}$.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "9",
+    "sectionId": "definition-and-formula",
+    "sectionLabel": "Definition and Formula",
+    "session": "annual",
+    "stem": "A circular disc of 49 kg and radius 50 cm is rotating at a speed of 120 rev/min. Calculate its K.E?",
+    "topicId": "ms70fdw8edmb3d5bw0c46r10es85p0e7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "banking-of-roads",
+    "topicTitle": "4.11 Banking of Roads",
+    "_id": "m174p3p73xjtbj1jgbfq18pdwh85p04r",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Definition: Banking is the tilting of road surface at angle θ to horizontal for safe circular motion",
+      "Force analysis: Identifies weight (mg) and normal force (N) components correctly",
+      "Vertical equilibrium: $N \\cos \\theta = mg$",
+      "Centripetal force condition: $N \\sin \\theta = \\frac{mv^2}{r}$",
+      "Mathematical derivation: Correctly divides equations and simplifies to obtain $v = \\sqrt{gr \\tan \\theta}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Banking of roads refers to the tilting or inclination of a road surface at an angle θ to the horizontal, designed to help vehicles navigate curves safely at higher speeds without skidding. The banking angle is constructed such that the normal force provides both the support against gravity and the centripetal force needed for circular motion.\n\n**Derivation of $v = \\sqrt{gr \\tan \\theta}$:**\n\nConsider a vehicle of mass m moving on a banked road at angle θ. The forces acting are: weight (mg) acting downward and normal force (N) perpendicular to the road surface.\n\nResolving forces:\n- Vertical component: $N \\cos \\theta = mg$ ... (1)\n- Horizontal component (centripetal): $N \\sin \\theta = \\frac{mv^2}{r}$ ... (2)\n\nDividing equation (2) by equation (1):\n$$\\frac{N \\sin \\theta}{N \\cos \\theta} = \\frac{mv^2/r}{mg}$$\n\n$$\\tan \\theta = \\frac{v^2}{gr}$$\n\nTherefore: $$v = \\sqrt{gr \\tan \\theta}$$\n\nThis is the safe speed at which a vehicle can travel on a banked road without friction.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "11",
+    "sectionId": "deriving-the-ideal-banking-angle",
+    "sectionLabel": "Deriving the Ideal Banking Angle",
+    "session": "annual",
+    "stem": "What is meant by banking of roads? Also show that $v = \\sqrt{gr \\tan \\theta}$.",
+    "topicId": "ms71nvvvmmwktfv21ab3q8dsf985q3g7",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "banking-of-roads",
+    "topicTitle": "4.11 Banking of Roads",
+    "_id": "m17a1ffm2gtbj3vp5y5vbkz3zh85q385",
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Identifies banking angle $\\theta$ as the inclination of the curved surface from horizontal",
+      "Explains that normal force components provide both weight support and centripetal force",
+      "Derives or applies force resolution: horizontal component $N\\sin\\theta = \\frac{mv^2}{r}$ and vertical component $N\\cos\\theta = mg$",
+      "Shows division of equations yields $\\tan\\theta = \\frac{v^2}{rg}$",
+      "Recognizes this represents the ideal speed-radius relationship for frictionless circular motion on a banked surface"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "The equation $\\tan \\theta = \\frac{v^2}{rg}$ describes the banking angle required for a vehicle to safely navigate a curved path. When a road or track is banked at angle $\\theta$, the normal force from the surface provides both vertical support (against weight) and horizontal centripetal force (toward the center of curvature). By resolving forces and applying Newton's second law, the tangent of the banking angle equals the ratio of centripetal acceleration ($\\frac{v^2}{r}$) to gravitational acceleration ($g$), ensuring optimal speed $v$ for radius $r$ without requiring friction.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "13",
+    "sectionId": "deriving-the-ideal-banking-angle",
+    "sectionLabel": "Deriving the Ideal Banking Angle",
+    "session": "annual",
+    "stem": "Briefly explain the equation $\\tan \\theta = \\frac{v^2}{rg}$, relating **banking angle** '$\\theta$' to speed '$v$' and radius of curvature '$r$'.",
+    "topicId": "ms71nvvvmmwktfv21ab3q8dsf985q3g7",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "artificial-satellites",
+    "topicTitle": "4.12 Artificial Satellites",
+    "_id": "m17bsnn1c9s9f2a3yjferc9gex85ppcs",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Explained weightlessness as free fall with equal acceleration of astronaut and spacecraft",
+      "Described artificial gravity production using centripetal acceleration in rotating satellite: $a_g = \\omega^2 r$",
+      "Derived angular velocity: $\\omega = \\sqrt{\\frac{GM}{r^3}}$ from gravitational force equals centripetal force",
+      "Derived time period: $T = 2\\pi\\sqrt{\\frac{r^3}{GM}}$ (Kepler's Third Law)",
+      "Derived frequency: $f = \\frac{1}{2\\pi}\\sqrt{\\frac{GM}{r^3}}$ and showed inverse relationship with orbital radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Why Astronauts Feel Weightless in Space:**\nAstronauts feel weightless in space because they are in free fall. Although gravity still acts on them, both the astronaut and spacecraft are accelerating towards Earth at the same rate, so there is no normal force between the astronaut and the spacecraft floor. This absence of normal force creates the sensation of weightlessness.\n\n**Artificial Gravity Production:**\nArtificial gravity can be produced by rotating a satellite. As the satellite spins, the centripetal acceleration required for circular motion acts radially inward. From the astronaut's reference frame (rotating frame), they experience a centrifugal force pushing them outward against the floor, simulating gravitational force: $a_g = \\omega^2 r$, where $\\omega$ is angular velocity and $r$ is the orbital radius.\n\n**Derivation of Satellite Expressions:**\n\nFor a satellite in circular orbit, gravitational force provides centripetal force:\n$$\\frac{GMm}{r^2} = m\\omega^2 r$$\n\n**Angular Velocity ($\\omega$):**\n$$\\omega = \\sqrt{\\frac{GM}{r^3}}$$\n\n**Time Period ($T$):**\nSince $\\omega = \\frac{2\\pi}{T}$:\n$$T = 2\\pi\\sqrt{\\frac{r^3}{GM}}$$\n\nThis is **Kepler's Third Law**: $T^2 \\propto r^3$\n\n**Frequency ($f$):**\n$$f = \\frac{1}{T} = \\frac{1}{2\\pi}\\sqrt{\\frac{GM}{r^3}}$$\n\nThese expressions show that satellites closer to Earth (smaller $r$) have higher angular velocities, shorter periods, and higher frequencies.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionId": "orbital-velocity-critical-velocity",
+    "sectionLabel": "Orbital Velocity (Critical Velocity)",
+    "session": "annual",
+    "stem": "Why does an astronaut feel weightless in space? How can artificial gravity be produced in a satellite? For a satellite derive expression for angular velocity, time period and frequency of satellite.",
+    "topicId": "ms713ed968amncpc4e6h8w78xd85pa6a",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "artificial-satellites",
+    "topicTitle": "4.12 Artificial Satellites",
+    "_id": "m177madr6q202sfsx2drttc47985q0xn",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Satellite is in continuous free fall towards Earth's center",
+      "Gravitational force provides the centripetal force for orbital motion",
+      "Astronauts and satellite have the same acceleration, so no normal force acts on astronauts",
+      "Apparent weightlessness results from absence of normal force, not absence of gravity",
+      "Weight is the normal force experienced, which is zero in orbit"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Weightlessness in an artificial satellite occurs because the satellite and everything inside it are in continuous free fall towards Earth. The gravitational force provides the centripetal force needed for circular orbital motion, so both the satellite and astronauts inside experience the same acceleration towards Earth's center. Since there is no normal force acting on the astronauts (the floor does not push on them), they experience apparent weightlessness, even though gravitational force is still acting on them.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "sectionId": "weightlessness-in-an-orbiting-spacecraft",
+    "sectionLabel": "Weightlessness in an Orbiting Spacecraft",
+    "session": "annual",
+    "stem": "Why is there **weightlessness** in artificial satellite? Explain briefly.",
+    "topicId": "ms713ed968amncpc4e6h8w78xd85pa6a",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "orbital-velocity",
+    "topicTitle": "4.14 Orbital Velocity",
+    "_id": "m175h5xhhft5dbf29qcqbx84k185qj8b",
+    "correctKey": "B",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Orbital velocity is the minimum velocity required for an object to orbit at a specific altitude without falling to the surface. It is independent of the object's mass and depends only on the gravitational field strength and orbital radius. For a circular orbit, orbital velocity is given by $v_o = \\sqrt{\\frac{GM}{r}}$, where it remains constant for a given orbital radius.",
+    "keyPoints": [
+      "Orbital velocity is independent of the orbiting object's mass",
+      "It depends on the central body's mass (M) and orbital radius (r)",
+      "Orbital velocity is given by $v_o = \\sqrt{\\frac{GM}{r}}$",
+      "It is the minimum velocity needed to maintain a stable circular orbit",
+      "Orbital velocity is constant for a given orbital radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Orbital velocity is the minimum velocity required for an object to orbit at a specific altitude without falling to the surface. It is independent of the object's mass and depends only on the gravitational field strength and orbital radius. For a circular orbit, orbital velocity is given by $v_o = \\sqrt{\\frac{GM}{r}}$, where it remains constant for a given orbital radius.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$v \\propto r$"
+      },
+      {
+        "key": "B",
+        "text": "$v \\propto \\frac{1}{\\sqrt{r}}$"
+      },
+      {
+        "key": "C",
+        "text": "$v \\propto \\frac{1}{r}$"
+      },
+      {
+        "key": "D",
+        "text": "$v \\propto \\sqrt{r}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "9",
+    "sectionId": "orbital-velocity-and-the-balance-of-forces",
+    "sectionLabel": "Orbital Velocity and the Balance of Forces",
+    "session": "annual",
+    "stem": "Which of the following is **TRUE** for orbital velocity?",
+    "topicId": "ms73tb9m2c4de89wbr9s6z3y6985qf7v",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "orbital-velocity",
+    "topicTitle": "4.14 Orbital Velocity",
+    "_id": "m17645qjn28gc1grv6t129pe1s85p07k",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Gravitational force equals centripetal force: $\\frac{GMm}{r^2} = \\frac{mv_o^2}{r}$",
+      "Simplification yields orbital velocity formula: $v_o = \\sqrt{\\frac{GM}{r}}$",
+      "Demonstrates inverse square root relationship: $v_o \\propto r^{-1/2}$ or $v_o \\propto \\frac{1}{\\sqrt{r}}$",
+      "Constant $GM$ confirms proportionality constant is independent of orbital radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "For orbital velocity, the gravitational force provides the centripetal force needed for circular motion. Setting $\\frac{GMm}{r^2} = \\frac{mv_o^2}{r}$, where $M$ is the central mass and $r$ is orbital radius, we get $v_o = \\sqrt{\\frac{GM}{r}}$. This shows $v_o \\propto \\frac{1}{\\sqrt{r}}$ since $GM$ is constant.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionId": "orbital-velocity-and-the-balance-of-forces",
+    "sectionLabel": "Orbital Velocity and the Balance of Forces",
+    "session": "annual",
+    "stem": "Derive a mathematical relation for orbital velocity and prove that $v_o \\propto \\frac{1}{\\sqrt{r}}$.",
+    "topicId": "ms73tb9m2c4de89wbr9s6z3y6985qf7v",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "orbital-velocity",
+    "topicTitle": "4.14 Orbital Velocity",
+    "_id": "m176wb01t3pd1c879avd7p8ry985pbjk",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Correct definition of orbital velocity as minimum velocity for stable circular orbit",
+      "Proper identification of gravitational force as centripetal force",
+      "Correct mathematical derivation equating gravitational and centripetal forces",
+      "Final relationship: $v_o = \\sqrt{\\frac{GM}{r}}$ with correct variables identified",
+      "Physical interpretation: velocity independent of satellite mass and inversely related to orbital radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 7,
+    "modelAnswer": "**Orbital Velocity** is the minimum velocity required for an object to maintain a stable circular orbit around a celestial body at a given distance from its center.\n\n**Derivation:**\n\nFor a satellite in circular orbit, the gravitational force provides the centripetal force needed for circular motion.\n\nGravitational force: $F_g = \\frac{GMm}{r^2}$\n\nCentripetal force: $F_c = \\frac{mv_o^2}{r}$\n\nEquating these forces:\n$$\\frac{GMm}{r^2} = \\frac{mv_o^2}{r}$$\n\nCanceling $m$ and multiplying both sides by $r$:\n$$\\frac{GM}{r} = v_o^2$$\n\nTherefore, the orbital velocity is:\n$$v_o = \\sqrt{\\frac{GM}{r}}$$\n\nWhere:\n- $G$ is the gravitational constant\n- $M$ is the mass of the central body\n- $r$ is the orbital radius (distance from center)\n\nThis relationship shows that orbital velocity is independent of the satellite's mass and decreases with increasing orbital radius. Satellites closer to Earth orbit faster than those farther away.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "6",
+    "sectionId": "orbital-velocity-and-the-balance-of-forces",
+    "sectionLabel": "Orbital Velocity and the Balance of Forces",
+    "session": "annual",
+    "stem": "What is meant by **orbital velocity**? Derive relationship between orbital velocity, the gravitational constant, mass and radius of orbit.",
+    "topicId": "ms73tb9m2c4de89wbr9s6z3y6985qf7v",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "concept-of-weightlessness-free-fall-in-spaceship",
+    "topicTitle": "4.16 Weightlessness in Orbit",
+    "_id": "m1738yvzx8gmqv3h533zg2b6s18e07eb",
+    "correctKey": "B",
+    "exerciseId": "xd75mr0vxcat10fsz79mvngwqh8e07xh",
+    "exerciseTitle": "Exercise 4: Multiple Choice Questions",
+    "explanation": "The ISS is in continuous free fall around Earth (orbital motion under gravity alone), so astronauts and the station fall together, producing the sensation of weightlessness.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "outside the gravitational field of Earth"
+      },
+      {
+        "key": "B",
+        "text": "freely falling"
+      },
+      {
+        "key": "C",
+        "text": "at rest"
+      },
+      {
+        "key": "D",
+        "text": "in motion"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionLabel": "Multiple Choice Questions",
+    "sourceRef": {
+      "blockIndex": 2,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "An astronaut feels weightless inside the International Space Station. It is because the International Space Station is:",
+    "topicId": "ms76gaa9mfnty38t8vrry5y5kx85p7kv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "concept-of-weightlessness-free-fall-in-spaceship",
+    "topicTitle": "4.16 Weightlessness in Orbit",
+    "_id": "m172qgx2pdk7jhdzb10grws5kx85q6tw",
+    "correctKey": "D",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "When the lift falls freely, the effective acceleration experienced is zero (g_eff = 0). Since the time period of a simple pendulum is $T = 2\\pi\\sqrt{\\frac{l}{g}}$, and g becomes zero during free fall, the time period becomes infinite. Therefore, the pendulum does not oscillate.",
+    "keyPoints": [
+      "Recognizes that free fall produces zero effective gravity (g_eff = 0)",
+      "Applies time period formula $T = 2\\pi\\sqrt{\\frac{l}{g}}$ correctly",
+      "Concludes that T becomes infinite or the pendulum does not oscillate",
+      "Understands the concept of artificial gravity and weightlessness in accelerating frames"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "When the lift falls freely, the effective acceleration experienced is zero (g_eff = 0). Since the time period of a simple pendulum is $T = 2\\pi\\sqrt{\\frac{l}{g}}$, and g becomes zero during free fall, the time period becomes infinite. Therefore, the pendulum does not oscillate.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$0$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{T}{g}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{g}{T}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\text{Infinite}$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "12",
+    "sectionId": "apparent-weight-and-free-fall",
+    "sectionLabel": "Apparent Weight and Free Fall",
+    "session": "annual",
+    "stem": "A simple pendulum suspended from the ceiling of a lift has time period $T$, when the lift is at rest. When the lift falls freely, the time period is:",
+    "topicId": "ms76gaa9mfnty38t8vrry5y5kx85p7kv",
+    "year": 2022
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "concept-of-weightlessness-free-fall-in-spaceship",
+    "topicTitle": "4.16 Weightlessness in Orbit",
+    "_id": "m17bsnn1c9s9f2a3yjferc9gex85ppcs",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Explained weightlessness as free fall with equal acceleration of astronaut and spacecraft",
+      "Described artificial gravity production using centripetal acceleration in rotating satellite: $a_g = \\omega^2 r$",
+      "Derived angular velocity: $\\omega = \\sqrt{\\frac{GM}{r^3}}$ from gravitational force equals centripetal force",
+      "Derived time period: $T = 2\\pi\\sqrt{\\frac{r^3}{GM}}$ (Kepler's Third Law)",
+      "Derived frequency: $f = \\frac{1}{2\\pi}\\sqrt{\\frac{GM}{r^3}}$ and showed inverse relationship with orbital radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Why Astronauts Feel Weightless in Space:**\nAstronauts feel weightless in space because they are in free fall. Although gravity still acts on them, both the astronaut and spacecraft are accelerating towards Earth at the same rate, so there is no normal force between the astronaut and the spacecraft floor. This absence of normal force creates the sensation of weightlessness.\n\n**Artificial Gravity Production:**\nArtificial gravity can be produced by rotating a satellite. As the satellite spins, the centripetal acceleration required for circular motion acts radially inward. From the astronaut's reference frame (rotating frame), they experience a centrifugal force pushing them outward against the floor, simulating gravitational force: $a_g = \\omega^2 r$, where $\\omega$ is angular velocity and $r$ is the orbital radius.\n\n**Derivation of Satellite Expressions:**\n\nFor a satellite in circular orbit, gravitational force provides centripetal force:\n$$\\frac{GMm}{r^2} = m\\omega^2 r$$\n\n**Angular Velocity ($\\omega$):**\n$$\\omega = \\sqrt{\\frac{GM}{r^3}}$$\n\n**Time Period ($T$):**\nSince $\\omega = \\frac{2\\pi}{T}$:\n$$T = 2\\pi\\sqrt{\\frac{r^3}{GM}}$$\n\nThis is **Kepler's Third Law**: $T^2 \\propto r^3$\n\n**Frequency ($f$):**\n$$f = \\frac{1}{T} = \\frac{1}{2\\pi}\\sqrt{\\frac{GM}{r^3}}$$\n\nThese expressions show that satellites closer to Earth (smaller $r$) have higher angular velocities, shorter periods, and higher frequencies.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionId": "orbital-velocity-critical-velocity",
+    "sectionLabel": "Orbital Velocity (Critical Velocity)",
+    "session": "annual",
+    "stem": "Why does an astronaut feel weightless in space? How can artificial gravity be produced in a satellite? For a satellite derive expression for angular velocity, time period and frequency of satellite.",
+    "topicId": "ms76gaa9mfnty38t8vrry5y5kx85p7kv",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "concept-of-weightlessness-free-fall-in-spaceship",
+    "topicTitle": "4.16 Weightlessness in Orbit",
+    "_id": "m177madr6q202sfsx2drttc47985q0xn",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Satellite is in continuous free fall towards Earth's center",
+      "Gravitational force provides the centripetal force for orbital motion",
+      "Astronauts and satellite have the same acceleration, so no normal force acts on astronauts",
+      "Apparent weightlessness results from absence of normal force, not absence of gravity",
+      "Weight is the normal force experienced, which is zero in orbit"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 3,
+    "modelAnswer": "Weightlessness in an artificial satellite occurs because the satellite and everything inside it are in continuous free fall towards Earth. The gravitational force provides the centripetal force needed for circular orbital motion, so both the satellite and astronauts inside experience the same acceleration towards Earth's center. Since there is no normal force acting on the astronauts (the floor does not push on them), they experience apparent weightlessness, even though gravitational force is still acting on them.",
+    "partType": "B",
+    "questionKind": "short",
+    "questionNumber": "17",
+    "sectionId": "weightlessness-in-an-orbiting-spacecraft",
+    "sectionLabel": "Weightlessness in an Orbiting Spacecraft",
+    "session": "annual",
+    "stem": "Why is there **weightlessness** in artificial satellite? Explain briefly.",
+    "topicId": "ms76gaa9mfnty38t8vrry5y5kx85p7kv",
+    "year": 2024
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "concept-of-weightlessness-free-fall-in-spaceship",
+    "topicTitle": "4.16 Weightlessness in Orbit",
+    "_id": "m17d0s6xp1cyfc46qw9dt001q98e1fjn",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "A satellite in orbit is in continuous free fall toward Earth, but its tangential velocity means it perpetually 'falls around' the Earth rather than falling straight down, maintaining its orbit.",
+      "Both the satellite and everything inside it (including astronauts) fall at exactly the same rate under gravity, so there is no relative force between an astronaut and their surroundings (e.g. no normal force from a floor).",
+      "This absence of a supporting/contact force, not an absence of gravity, is what is experienced as weightlessness."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Astronauts in an orbiting satellite appear weightless because the station and its occupants are in continuous free fall around Earth. Earth's gravitational field is still substantial at orbital altitude; gravity supplies the inward force for the orbit. Since the astronaut and spacecraft accelerate together, the spacecraft floor exerts almost no supporting normal force on the astronaut, so apparent weight is nearly zero. This is weightlessness, not the absence of gravity.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.7",
+    "sectionId": "weightlessness-in-an-orbiting-spacecraft",
+    "sectionLabel": "Weightlessness in an Orbiting Spacecraft",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Explain why the objects in orbiting satellites appear to be weightless.",
+    "topicId": "ms76gaa9mfnty38t8vrry5y5kx85p7kv"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "artificial-gravity",
+    "topicTitle": "4.17 Artificial Gravity",
+    "_id": "m17bsnn1c9s9f2a3yjferc9gex85ppcs",
+    "correctKeyVerified": false,
+    "examBoard": "Federal Board",
+    "keyPoints": [
+      "Explained weightlessness as free fall with equal acceleration of astronaut and spacecraft",
+      "Described artificial gravity production using centripetal acceleration in rotating satellite: $a_g = \\omega^2 r$",
+      "Derived angular velocity: $\\omega = \\sqrt{\\frac{GM}{r^3}}$ from gravitational force equals centripetal force",
+      "Derived time period: $T = 2\\pi\\sqrt{\\frac{r^3}{GM}}$ (Kepler's Third Law)",
+      "Derived frequency: $f = \\frac{1}{2\\pi}\\sqrt{\\frac{GM}{r^3}}$ and showed inverse relationship with orbital radius"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 6,
+    "modelAnswer": "**Why Astronauts Feel Weightless in Space:**\nAstronauts feel weightless in space because they are in free fall. Although gravity still acts on them, both the astronaut and spacecraft are accelerating towards Earth at the same rate, so there is no normal force between the astronaut and the spacecraft floor. This absence of normal force creates the sensation of weightlessness.\n\n**Artificial Gravity Production:**\nArtificial gravity can be produced by rotating a satellite. As the satellite spins, the centripetal acceleration required for circular motion acts radially inward. From the astronaut's reference frame (rotating frame), they experience a centrifugal force pushing them outward against the floor, simulating gravitational force: $a_g = \\omega^2 r$, where $\\omega$ is angular velocity and $r$ is the orbital radius.\n\n**Derivation of Satellite Expressions:**\n\nFor a satellite in circular orbit, gravitational force provides centripetal force:\n$$\\frac{GMm}{r^2} = m\\omega^2 r$$\n\n**Angular Velocity ($\\omega$):**\n$$\\omega = \\sqrt{\\frac{GM}{r^3}}$$\n\n**Time Period ($T$):**\nSince $\\omega = \\frac{2\\pi}{T}$:\n$$T = 2\\pi\\sqrt{\\frac{r^3}{GM}}$$\n\nThis is **Kepler's Third Law**: $T^2 \\propto r^3$\n\n**Frequency ($f$):**\n$$f = \\frac{1}{T} = \\frac{1}{2\\pi}\\sqrt{\\frac{GM}{r^3}}$$\n\nThese expressions show that satellites closer to Earth (smaller $r$) have higher angular velocities, shorter periods, and higher frequencies.",
+    "partType": "C",
+    "questionKind": "long",
+    "questionNumber": "7",
+    "sectionId": "orbital-velocity-critical-velocity",
+    "sectionLabel": "Orbital Velocity (Critical Velocity)",
+    "session": "annual",
+    "stem": "Why does an astronaut feel weightless in space? How can artificial gravity be produced in a satellite? For a satellite derive expression for angular velocity, time period and frequency of satellite.",
+    "topicId": "ms784mf72rezjcxjx8h1vnk1jd85pq8t",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "artificial-gravity",
+    "topicTitle": "4.17 Artificial Gravity",
+    "_id": "m170xvgm0w63ssxjaexqxcmvr98e1cbm",
+    "exerciseId": "xd79wfb2kfe46w5be5v4q8c1fx8e0kn0",
+    "exerciseTitle": "Exercise 4: Short Questions",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Artificial gravity created by rotating a space station is limited by practical constraints on rotation rate (too fast causes disorientation/motion sickness) and station radius (limited by engineering/cost), so the resulting centripetal acceleration $(a = \\omega^2 r)$ achievable in practice is usually smaller than Earth's $9.8\\ \\mathrm{m/s^2}$.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.9",
+    "sectionLabel": "Short Questions",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Why does the value of artificial gravity usually turn out smaller than $9.8\\ \\mathrm{m/s^2}$?",
+    "topicId": "ms784mf72rezjcxjx8h1vnk1jd85pq8t"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "artificial-gravity",
+    "topicTitle": "4.17 Artificial Gravity",
+    "_id": "m17dv122zxdrpgnhm2610pb5m98e0dby",
+    "exerciseId": "xd75waev8h9b24awrvc568h91x8e1jp7",
+    "exerciseTitle": "Exercise 4: Comprehensive Questions",
+    "keyPoints": [
+      "Artificial gravity can be produced by rotating the satellite (or a section of it, e.g. a ring-shaped station) about its central axis.",
+      "The rotation requires the outer wall/floor to supply a centripetal force to occupants standing on it, which occupants perceive as a normal force pushing them 'down' (outward), mimicking the sensation of gravity.",
+      "The effective artificial gravity is a = omega^2*r, so it can be tuned by adjusting the station's radius and rotation rate."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Artificial gravity can be produced by rotating a satellite or space station about its own axis. The rotating surface pushes on occupants and supplies the centripetal force that keeps them moving in a circle. The resulting apparent weight can imitate gravity; for a desired Earth-like effect the centripetal acceleration is chosen so that $a_c=v^2/r=r\\omega^2\\approx g$. Increasing the rotation radius or angular speed changes the artificial-gravity level.",
+    "origin": "exercise",
+    "questionKind": "long",
+    "questionNumber": "4.8",
+    "sectionLabel": "Comprehensive Questions",
+    "sourceRef": {
+      "blockIndex": 6,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "Describe how artificial gravity be produced in a satellite to counter weightlessness.",
+    "topicId": "ms784mf72rezjcxjx8h1vnk1jd85pq8t"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "artificial-gravity",
+    "topicTitle": "4.17 Artificial Gravity",
+    "_id": "m176406hfdd57pvc8chc96n4818e0sye",
+    "exerciseId": "xd72ctjcy3j1gj9be806tvkjws8e0jqn",
+    "exerciseTitle": "Exercise 4: Numerical Problems",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$a = \\omega^2 r$, with r = 50 m: $\\omega = \\sqrt{a/r} = \\sqrt{5.00/50} = \\sqrt{0.1} \\approx 0.316$ rad/s. Converting to rpm: $0.316 \\times \\frac{60}{2\\pi} \\approx 3.02$ rpm. (Ans. 3 rpm, as printed in the textbook.)",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4.7",
+    "sectionLabel": "Numerical Problems",
+    "sourceRef": {
+      "blockIndex": 8,
+      "chapterNumber": 4,
+      "subjectSlug": "physics-11"
+    },
+    "stem": "A wheel-shape space station provides an artificial gravity of 5.00 m/s^2 to its inhabitants. If it has a diameter of 100 m, find its angular speed in rpm.",
+    "topicId": "ms784mf72rezjcxjx8h1vnk1jd85pq8t"
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "real-and-apparent-weight",
+    "topicTitle": "4.18 Apparent Weight in an Elevator",
+    "_id": "m170amss6e3tk9pawyjpm5xt9n85p4fh",
+    "correctKey": "A",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "The weight of a 100 g mass is the gravitational force acting on it, calculated using $W = mg$. Converting to SI units: $m = 0.1 \\text{ kg}$. Therefore, $W = 0.1 \\times 10 = 1 \\text{ N}$ (or $0.1 \\times 9.8 = 0.98 \\text{ N}$ for $g = 9.8 \\text{ m/s}^2$).",
+    "keyPoints": [
+      "Correctly identifies weight as gravitational force ($W = mg$)",
+      "Converts mass from grams to kilograms (0.1 kg)",
+      "Applies correct value of $g$ (10 or 9.8 m/s²)",
+      "Calculates final answer in Newtons (1 N or 0.98 N)",
+      "Distinguishes between mass (intrinsic property) and weight (gravitational force)"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "The weight of a 100 g mass is the gravitational force acting on it, calculated using $W = mg$. Converting to SI units: $m = 0.1 \\text{ kg}$. Therefore, $W = 0.1 \\times 10 = 1 \\text{ N}$ (or $0.1 \\times 9.8 = 0.98 \\text{ N}$ for $g = 9.8 \\text{ m/s}^2$).",
+    "options": [
+      {
+        "key": "A",
+        "text": "9.8 N"
+      },
+      {
+        "key": "B",
+        "text": "1 N"
+      },
+      {
+        "key": "C",
+        "text": "98 N"
+      },
+      {
+        "key": "D",
+        "text": "4.9 N"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "7",
+    "sectionId": "real-weight-vs-what-a-scale-actually-measures",
+    "sectionLabel": "Real Weight vs. What a Scale Actually Measures",
+    "session": "annual",
+    "stem": "What is the weight of a $100 \\text{ g}$ mass?",
+    "topicId": "ms78qvxsv55r6cxkd89q3d8ajh85q87z",
+    "year": 2025
+  },
+  {
+    "subjectSlug": "physics-11",
+    "chapterSlug": "04-rotational-and-circular-motion",
+    "chapterTitle": "Rotational And Circular Motion",
+    "topicSlug": "real-and-apparent-weight",
+    "topicTitle": "4.18 Apparent Weight in an Elevator",
+    "_id": "m17djnxbnk8dqf2rdxwp07epkh85qdm5",
+    "correctKey": "C",
+    "correctKeyVerified": true,
+    "examBoard": "Federal Board",
+    "explanation": "Real and apparent weights of a body are equal when the body moves with zero acceleration. This occurs when the body is either at rest or moving with constant velocity. In these cases, the normal force (apparent weight) equals the gravitational force (real weight), so $W_{apparent} = W_{real} = mg$.",
+    "keyPoints": [
+      "Real weight is gravitational force ($W = mg$), always present",
+      "Apparent weight is the normal force from supporting surface",
+      "Real and apparent weights are equal only when acceleration = 0 (at rest or constant velocity)",
+      "When $a = 0$, normal force $N = mg$, making $W_{apparent} = W_{real}$",
+      "In free fall or orbital motion ($a \\neq 0$), apparent weight differs from real weight"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "marks": 1,
+    "modelAnswer": "Real and apparent weights of a body are equal when the body moves with zero acceleration. This occurs when the body is either at rest or moving with constant velocity. In these cases, the normal force (apparent weight) equals the gravitational force (real weight), so $W_{apparent} = W_{real} = mg$.",
+    "options": [
+      {
+        "key": "A",
+        "text": "$a > g$"
+      },
+      {
+        "key": "B",
+        "text": "$a = g$"
+      },
+      {
+        "key": "C",
+        "text": "$a = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$a < g$"
+      }
+    ],
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "2",
+    "sectionId": "summary-of-cases",
+    "sectionLabel": "Summary of Cases",
+    "session": "annual",
+    "stem": "Real and apparent weights of a body seem to be equal when body moves with acceleration:",
+    "topicId": "ms78qvxsv55r6cxkd89q3d8ajh85q87z",
+    "year": 2023
+  }
+]

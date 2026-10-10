@@ -1,0 +1,860 @@
+[
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-2-index-of-hydrogen-deficiency-or-unsaturation",
+    "topicTitle": "18.2 Index of Hydrogen Deficiency or Unsaturation",
+    "_id": "k97a8setzwbtc757hmzs1cfz5d85pb57",
+    "correctKey": "A",
+    "explanation": "An IHD of 2 means 2 degrees of unsaturation. One double bond (IHD=1) plus one ring (IHD=1) gives a total of 2. Two triple bonds would give IHD=4. A benzene ring gives IHD=4. Two single bonds contribute IHD=0.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bhw6zc5p44ft64wajekktw985qg51",
+    "options": [
+      {
+        "key": "A",
+        "text": "One double bond and one ring"
+      },
+      {
+        "key": "B",
+        "text": "Two triple bonds"
+      },
+      {
+        "key": "C",
+        "text": "One benzene ring"
+      },
+      {
+        "key": "D",
+        "text": "Two single bonds and one ring"
+      }
+    ],
+    "stem": "A compound has an IHD of 2. Which of the following structural features could it possess?",
+    "topicId": "ms71ybm5d3sphc0nezkd2wva0585p1ag"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-2-index-of-hydrogen-deficiency-or-unsaturation",
+    "topicTitle": "18.2 Index of Hydrogen Deficiency or Unsaturation",
+    "_id": "k9735r9dc0k6qp5myc51eg27b985phcs",
+    "correctKey": "C",
+    "explanation": "Using the formula: $IHD = \\frac{2(4) + 2 - 5 + 1}{2} = \\frac{6}{2} = 3$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bhw6zc5p44ft64wajekktw985qg51",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "stem": "What is the Index of Hydrogen Deficiency for the molecule $C_4H_5N$?",
+    "topicId": "ms71ybm5d3sphc0nezkd2wva0585p1ag"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-2-index-of-hydrogen-deficiency-or-unsaturation",
+    "topicTitle": "18.2 Index of Hydrogen Deficiency or Unsaturation",
+    "_id": "k97brjhdzbhznhwa9q8wq25p6h85pj9t",
+    "correctKey": "B",
+    "explanation": "For $C_8H_{10}$: $IHD = \\frac{2(8) + 2 - 10}{2} = \\frac{8}{2} = 4$. This is typical for alkyl-substituted benzenes (e.g., Ethylbenzene).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7bhw6zc5p44ft64wajekktw985qg51",
+    "options": [
+      {
+        "key": "A",
+        "text": "$C_6H_{12}$"
+      },
+      {
+        "key": "B",
+        "text": "$C_8H_{10}$"
+      },
+      {
+        "key": "C",
+        "text": "$C_4H_4O$"
+      },
+      {
+        "key": "D",
+        "text": "$C_5H_8$"
+      }
+    ],
+    "stem": "Which of the following molecular formulas corresponds to an IHD of 4?",
+    "topicId": "ms71ybm5d3sphc0nezkd2wva0585p1ag"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-3-ir-spectroscopy",
+    "topicTitle": "18.3 IR Spectroscopy",
+    "_id": "k972xrkfq5cn92f9c7x9xpeted85p2bn",
+    "correctKey": "C",
+    "explanation": "Symmetrical diatomic molecules like $N_2$ have no change in dipole moment during stretching, making them IR inactive. All other options involve bonds with a dipole moment change during vibration.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx718n5zwe86mczcnmd9jt03ts85pq2y",
+    "options": [
+      {
+        "key": "A",
+        "text": "$H-Cl$"
+      },
+      {
+        "key": "B",
+        "text": "$O=C=O$ (asymmetric stretch)"
+      },
+      {
+        "key": "C",
+        "text": "$N \\equiv N$"
+      },
+      {
+        "key": "D",
+        "text": "$CH_3-Cl$"
+      }
+    ],
+    "stem": "Which of the following molecules will NOT show an IR absorption for its bond stretching vibration?",
+    "topicId": "ms7a8jx4tt0z2n2nsfshapyzn185qp5j"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-3-ir-spectroscopy",
+    "topicTitle": "18.3 IR Spectroscopy",
+    "_id": "k97dmd6h8dsdk34xrdmxnqwyy985q7q2",
+    "correctKey": "B",
+    "explanation": "The $1670$–$1780 \\text{ cm}^{-1}$ region is characteristic of carbonyl ($C=O$) stretching vibrations. A peak at $1720 \\text{ cm}^{-1}$ is diagnostic for a carbonyl group such as in ketones or aldehydes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx718n5zwe86mczcnmd9jt03ts85pq2y",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hydroxyl group ($-OH$)"
+      },
+      {
+        "key": "B",
+        "text": "Carbonyl group ($C=O$)"
+      },
+      {
+        "key": "C",
+        "text": "Carbon-carbon triple bond ($C \\equiv C$)"
+      },
+      {
+        "key": "D",
+        "text": "Amino group ($-NH_2$)"
+      }
+    ],
+    "stem": "In an IR spectrum, a strong sharp peak at $1720 \\text{ cm}^{-1}$ indicates the presence of which functional group?",
+    "topicId": "ms7a8jx4tt0z2n2nsfshapyzn185qp5j"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-4-uv-visible-spectroscopy",
+    "topicTitle": "18.4 UV-Visible Spectroscopy",
+    "_id": "k97a6sgvygeesc47pdv93xz4zs85pzdd",
+    "correctKey": "B",
+    "explanation": "In an octahedral complex, ligands approach along the x, y, and z axes. The $e_g$ orbitals ($d_{x^2-y^2}$ and $d_{z^2}$) point directly at the ligands and experience greater repulsion, giving them higher energy than the $t_{2g}$ set.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77xxedk0gkvp4j29tt7bqwen85q0c7",
+    "options": [
+      {
+        "key": "A",
+        "text": "$t_{2g}$ orbitals ($d_{xy}$, $d_{xz}$, $d_{yz}$)"
+      },
+      {
+        "key": "B",
+        "text": "$e_g$ orbitals ($d_{x^2-y^2}$, $d_{z^2}$)"
+      },
+      {
+        "key": "C",
+        "text": "All five d orbitals remain degenerate"
+      },
+      {
+        "key": "D",
+        "text": "The splitting depends only on the metal's atomic number"
+      }
+    ],
+    "stem": "In a transition metal complex, d orbitals split into two sets. Which set has HIGHER energy in an octahedral complex?",
+    "topicId": "ms75dbw6vn1943qrmh6spfffys85q3th"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-4-uv-visible-spectroscopy",
+    "topicTitle": "18.4 UV-Visible Spectroscopy",
+    "_id": "k9711hbj9x989t126s44py03dh85qecz",
+    "correctKey": "B",
+    "explanation": "Ligands split the d orbitals into two non-degenerate sets. Visible light of a specific frequency is absorbed to promote an electron from the lower to the higher energy d orbital set. The complementary colour is observed, giving the compound its colour.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77xxedk0gkvp4j29tt7bqwen85q0c7",
+    "options": [
+      {
+        "key": "A",
+        "text": "They contain delocalized electrons that absorb UV radiation"
+      },
+      {
+        "key": "B",
+        "text": "Electrons are promoted between non-degenerate d orbitals by absorbing visible light frequencies"
+      },
+      {
+        "key": "C",
+        "text": "They have high atomic masses that reflect visible light"
+      },
+      {
+        "key": "D",
+        "text": "Their large ionic radii cause refraction of white light"
+      }
+    ],
+    "stem": "Which of the following best explains why transition metal compounds are coloured?",
+    "topicId": "ms75dbw6vn1943qrmh6spfffys85q3th"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-4-uv-visible-spectroscopy",
+    "topicTitle": "18.4 UV-Visible Spectroscopy",
+    "_id": "k97a5kwmfyj26w3br0x19yx4wh85pjje",
+    "correctKey": "C",
+    "explanation": "The observed colour is the complementary colour to the absorbed colour. Green light (~530 nm) is complementary to red-purple (magenta). The complex transmits/reflects all other wavelengths, so it appears magenta/red-purple.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77xxedk0gkvp4j29tt7bqwen85q0c7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Green"
+      },
+      {
+        "key": "B",
+        "text": "Yellow"
+      },
+      {
+        "key": "C",
+        "text": "Red-purple (magenta)"
+      },
+      {
+        "key": "D",
+        "text": "Blue"
+      }
+    ],
+    "stem": "A transition metal complex absorbs green light (wavelength ~530 nm). What colour will the complex appear?",
+    "topicId": "ms75dbw6vn1943qrmh6spfffys85q3th"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-4-uv-visible-spectroscopy",
+    "topicTitle": "18.4 UV-Visible Spectroscopy",
+    "_id": "k9718s6sn2gvg67z68q3d0w9q185pnpb",
+    "correctKey": "C",
+    "explanation": "$Sc^{3+}$ has the electron configuration [Ar]$3d^0$, an empty d subshell. With no d electrons to promote, no d-d electronic transitions are possible, so no visible light is absorbed and the compounds appear colourless.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77xxedk0gkvp4j29tt7bqwen85q0c7",
+    "options": [
+      {
+        "key": "A",
+        "text": "$Fe^{3+}$ ([Ar]$3d^5$)"
+      },
+      {
+        "key": "B",
+        "text": "$Cu^{2+}$ ([Ar]$3d^9$)"
+      },
+      {
+        "key": "C",
+        "text": "$Sc^{3+}$ ([Ar]$3d^0$)"
+      },
+      {
+        "key": "D",
+        "text": "$Mn^{2+}$ ([Ar]$3d^5$)"
+      }
+    ],
+    "stem": "Which of the following transition metal ions would be expected to form COLOURLESS compounds?",
+    "topicId": "ms75dbw6vn1943qrmh6spfffys85q3th"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-4-uv-visible-spectroscopy",
+    "topicTitle": "18.4 UV-Visible Spectroscopy",
+    "_id": "k976j4t9s2pd5nd26j6hmt3x8585p5p0",
+    "correctKey": "B",
+    "explanation": "Different ligands exert different crystal field strengths, causing different magnitudes of d-orbital splitting ($\\Delta E$). A larger $\\Delta E$ means higher frequency (shorter wavelength) light is absorbed, shifting the observed colour. This is why $[Cu(H_2O)_6]^{2+}$ is pale blue while $[Cu(NH_3)_4]^{2+}$ is deep blue.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx77xxedk0gkvp4j29tt7bqwen85q0c7",
+    "options": [
+      {
+        "key": "A",
+        "text": "Changing the ligand has no effect on colour"
+      },
+      {
+        "key": "B",
+        "text": "Different ligands cause different degrees of d-orbital splitting ($\\Delta E$), changing the frequency of light absorbed and hence the colour"
+      },
+      {
+        "key": "C",
+        "text": "Ligands only affect the oxidation state of the metal, not the colour"
+      },
+      {
+        "key": "D",
+        "text": "Stronger field ligands always make the compound appear colourless"
+      }
+    ],
+    "stem": "How does changing the ligand in a transition metal complex affect the colour of the compound?",
+    "topicId": "ms75dbw6vn1943qrmh6spfffys85q3th"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-6-atomic-absorption-spectrum",
+    "topicTitle": "18.6 Atomic Absorption Spectrum",
+    "_id": "k979w9xdv58hy43cwvbnbe0rdh85p63s",
+    "correctKey": "C",
+    "explanation": "Absorption spectra show dark lines where specific frequencies have been removed from the continuous source of light by the ground-state sample atoms, which absorb those wavelengths.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7frnb5fzw3384rr8rpxvaybs85pe4c",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bright colored lines on a black background"
+      },
+      {
+        "key": "B",
+        "text": "A continuous rainbow without any gaps"
+      },
+      {
+        "key": "C",
+        "text": "Dark lines at specific wavelengths on a continuous spectrum"
+      },
+      {
+        "key": "D",
+        "text": "A single broad peak covering the UV-Visible range"
+      }
+    ],
+    "stem": "Which of the following best describes the appearance of an atomic absorption spectrum?",
+    "topicId": "ms7fm943y6e36k52pc5xc0en6585q2fr"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-6-atomic-absorption-spectrum",
+    "topicTitle": "18.6 Atomic Absorption Spectrum",
+    "_id": "k975w43ren4cpghd25c8msnwbx85qs67",
+    "correctKey": "B",
+    "explanation": "Atoms absorb photons whose energy ($E = h\\nu$) exactly matches the difference between the ground state and an excited electronic energy level. This is the basis of AAS.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7frnb5fzw3384rr8rpxvaybs85pe4c",
+    "options": [
+      {
+        "key": "A",
+        "text": "The energy required to ionize the atom"
+      },
+      {
+        "key": "B",
+        "text": "The energy difference between two specific electronic energy levels"
+      },
+      {
+        "key": "C",
+        "text": "The vibrational energy of the nucleus"
+      },
+      {
+        "key": "D",
+        "text": "The kinetic energy of the gaseous atoms"
+      }
+    ],
+    "stem": "In Atomic Absorption Spectroscopy, the radiation absorbed by the atoms corresponds to:",
+    "topicId": "ms7fm943y6e36k52pc5xc0en6585q2fr"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-6-atomic-absorption-spectrum",
+    "topicTitle": "18.6 Atomic Absorption Spectrum",
+    "_id": "k971hekyngyrq111vy9tm0cytn85q30y",
+    "correctKey": "B",
+    "explanation": "Because electronic energy levels are quantized and unique to each element, only the specific analyte will absorb the light from the corresponding hollow cathode lamp, making AAS highly selective.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7frnb5fzw3384rr8rpxvaybs85pe4c",
+    "options": [
+      {
+        "key": "A",
+        "text": "It can detect all elements simultaneously"
+      },
+      {
+        "key": "B",
+        "text": "Each element has a unique set of energy levels and absorbs specific wavelengths"
+      },
+      {
+        "key": "C",
+        "text": "It uses a universal lamp for all metals"
+      },
+      {
+        "key": "D",
+        "text": "The flame temperature is the same for all elements"
+      }
+    ],
+    "stem": "Why is AAS considered a highly specific analytical technique?",
+    "topicId": "ms7fm943y6e36k52pc5xc0en6585q2fr"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-6-atomic-absorption-spectrum",
+    "topicTitle": "18.6 Atomic Absorption Spectrum",
+    "_id": "k977yjhvqzvatqxr1thkcwwzss85qnx3",
+    "correctKey": "C",
+    "explanation": "Absorbance is directly proportional to concentration ($A \\propto c$) as stated by the Beer-Lambert Law ($A = \\epsilon lc$). Doubling the concentration therefore doubles the absorbance.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7frnb5fzw3384rr8rpxvaybs85pe4c",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain the same"
+      },
+      {
+        "key": "B",
+        "text": "Decrease by half"
+      },
+      {
+        "key": "C",
+        "text": "Double"
+      },
+      {
+        "key": "D",
+        "text": "Increase exponentially"
+      }
+    ],
+    "stem": "According to the Beer-Lambert Law used in AAS, if the concentration of a metal ion in a sample is doubled, the absorbance will:",
+    "topicId": "ms7fm943y6e36k52pc5xc0en6585q2fr"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-7-nuclear-magnetic-resonance-spectroscopy-nmr",
+    "topicTitle": "18.7 Nuclear Magnetic Resonance Spectroscopy (NMR)",
+    "_id": "k97ey7m2rmeppcc03x914mt7nh85qtcc",
+    "correctKey": "C",
+    "explanation": "A nucleus is NMR active if it has a non-zero nuclear spin, which requires an odd mass number or odd atomic number. $^1H$ (mass number 1, odd) has spin = 1/2 and is NMR active. $^{12}C$, $^{16}O$, and $^{4}He$ all have even mass numbers and even atomic numbers, giving spin = 0.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e7wrsey8a033mwy609mesnd85pyqq",
+    "options": [
+      {
+        "key": "A",
+        "text": "$^{12}C$"
+      },
+      {
+        "key": "D",
+        "text": "$^{4}He$"
+      },
+      {
+        "key": "C",
+        "text": "$^{1}H$"
+      },
+      {
+        "key": "B",
+        "text": "$^{16}O$"
+      }
+    ],
+    "stem": "Which of the following nuclei will be magnetically active (NMR active)?",
+    "topicId": "ms737hn8qj9qb3qwexp02a8k2x85qhdy"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-7-nuclear-magnetic-resonance-spectroscopy-nmr",
+    "topicTitle": "18.7 Nuclear Magnetic Resonance Spectroscopy (NMR)",
+    "_id": "k976y2hy2jf6h4zhwne03h3xsn85pe73",
+    "correctKey": "C",
+    "explanation": "Aldehydic protons (R-CHO) typically appear at $\\delta$ 9–10 ppm due to strong deshielding by the electron-withdrawing carbonyl group combined with anisotropic effects. This is the most downfield of the options listed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e7wrsey8a033mwy609mesnd85pyqq",
+    "options": [
+      {
+        "key": "C",
+        "text": "$\\text{R-CHO}$ (aldehydic proton)"
+      },
+      {
+        "key": "D",
+        "text": "$\\text{R-CH}_2\\text{-R}$ (alkyl)"
+      },
+      {
+        "key": "B",
+        "text": "$\\text{R-CH}_2\\text{-Cl}$ (next to chlorine)"
+      },
+      {
+        "key": "A",
+        "text": "$\\text{R-CH}_3$ (alkyl)"
+      }
+    ],
+    "stem": "Which proton environment would show the highest chemical shift (most downfield) in $^1H$ NMR?",
+    "topicId": "ms737hn8qj9qb3qwexp02a8k2x85qhdy"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-7-nuclear-magnetic-resonance-spectroscopy-nmr",
+    "topicTitle": "18.7 Nuclear Magnetic Resonance Spectroscopy (NMR)",
+    "_id": "k978vvy2wwfe38fv9t5fskx71h85qa9y",
+    "correctKey": "C",
+    "explanation": "Integration (area under a peak) in ¹H NMR is directly proportional to the number of protons responsible for that signal. It gives the ratio of protons in each distinct environment, not the absolute number.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e7wrsey8a033mwy609mesnd85pyqq",
+    "options": [
+      {
+        "key": "B",
+        "text": "The number of neighboring protons"
+      },
+      {
+        "key": "C",
+        "text": "The relative number of protons in that chemical environment"
+      },
+      {
+        "key": "D",
+        "text": "The applied magnetic field strength"
+      },
+      {
+        "key": "A",
+        "text": "The electronegativity of the attached atom"
+      }
+    ],
+    "stem": "In a $^1H$ NMR spectrum, the area under a signal (integration) is proportional to:",
+    "topicId": "ms737hn8qj9qb3qwexp02a8k2x85qhdy"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-8-1h-nmr-proton-nmr",
+    "topicTitle": "18.8 ¹H NMR (Proton NMR)",
+    "_id": "k978vvy2wwfe38fv9t5fskx71h85qa9y",
+    "correctKey": "C",
+    "explanation": "Integration (area under a peak) in ¹H NMR is directly proportional to the number of protons responsible for that signal. It gives the ratio of protons in each distinct environment, not the absolute number.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78vrfvje7pzdaja7nk5bc1bd85q44b",
+    "options": [
+      {
+        "key": "B",
+        "text": "The number of neighboring protons"
+      },
+      {
+        "key": "C",
+        "text": "The relative number of protons in that chemical environment"
+      },
+      {
+        "key": "D",
+        "text": "The applied magnetic field strength"
+      },
+      {
+        "key": "A",
+        "text": "The electronegativity of the attached atom"
+      }
+    ],
+    "stem": "In a $^1H$ NMR spectrum, the area under a signal (integration) is proportional to:",
+    "topicId": "ms726f18mces8p3by6c4hee1dh85qx1g"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-8-1h-nmr-proton-nmr",
+    "topicTitle": "18.8 ¹H NMR (Proton NMR)",
+    "_id": "k9730m41s1g7pgfgtbh234zwdn85pea0",
+    "correctKey": "B",
+    "explanation": "Propan-2-ol has three distinct proton environments: the six equivalent $-CH_3$ protons, the one $-CH-$ proton, and the one $-OH$ proton, giving 3 signals.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78vrfvje7pzdaja7nk5bc1bd85q44b",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "stem": "How many signals would you expect in the $^1H$ NMR spectrum of propan-2-ol ($CH_3CH(OH)CH_3$)?",
+    "topicId": "ms726f18mces8p3by6c4hee1dh85qx1g"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-8-1h-nmr-proton-nmr",
+    "topicTitle": "18.8 ¹H NMR (Proton NMR)",
+    "_id": "k975ybzqmmmx22nxg3tb30x6as85p8kw",
+    "correctKey": "B",
+    "explanation": "Electron-withdrawing groups reduce electron density around the proton (deshielding), so it experiences a stronger effective magnetic field and resonates at a higher chemical shift (downfield).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78vrfvje7pzdaja7nk5bc1bd85q44b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increased electron density around the nucleus (shielding)"
+      },
+      {
+        "key": "B",
+        "text": "Presence of an electron-withdrawing group (deshielding)"
+      },
+      {
+        "key": "C",
+        "text": "Presence of an electron-donating group (shielding)"
+      },
+      {
+        "key": "D",
+        "text": "Decreasing the external magnetic field strength"
+      }
+    ],
+    "stem": "Which factor causes a proton signal to appear 'downfield' (higher $\\delta$ value) in $^1H$ NMR?",
+    "topicId": "ms726f18mces8p3by6c4hee1dh85qx1g"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-8-1h-nmr-proton-nmr",
+    "topicTitle": "18.8 ¹H NMR (Proton NMR)",
+    "_id": "k978539cwqghx8wv94r0cch5rn85q2x9",
+    "correctKey": "A",
+    "explanation": "All six protons in ethane are chemically equivalent and each methyl group's protons are adjacent to another equivalent set. Equivalent protons do not split each other, so a single singlet is observed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78vrfvje7pzdaja7nk5bc1bd85q44b",
+    "options": [
+      {
+        "key": "A",
+        "text": "Singlet"
+      },
+      {
+        "key": "B",
+        "text": "Doublet"
+      },
+      {
+        "key": "C",
+        "text": "Triplet"
+      },
+      {
+        "key": "D",
+        "text": "Quartet"
+      }
+    ],
+    "stem": "In the $^1H$ NMR spectrum of ethane ($CH_3CH_3$), the signal appears as a:",
+    "topicId": "ms726f18mces8p3by6c4hee1dh85qx1g"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-8-1h-nmr-proton-nmr",
+    "topicTitle": "18.8 ¹H NMR (Proton NMR)",
+    "_id": "k97ds96stftt820ktzjgyrbwen85q47t",
+    "correctKey": "B",
+    "explanation": "By the $(n+1)$ rule, a triplet means $n+1 = 3$, so $n = 2$ neighbouring equivalent protons on the adjacent carbon.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx78vrfvje7pzdaja7nk5bc1bd85q44b",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "stem": "A triplet signal in $^1H$ NMR indicates that the proton has how many equivalent neighbouring protons on the adjacent carbon?",
+    "topicId": "ms726f18mces8p3by6c4hee1dh85qx1g"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-9-carbon-13-nmr",
+    "topicTitle": "18.9 Carbon-13 NMR Spectroscopy",
+    "_id": "k976tej7cmy0ck4ghn38y6kc6185p75y",
+    "correctKey": "C",
+    "explanation": "Carbons bonded to electronegative atoms like oxygen (in alcohols or ethers) are deshielded and resonate in the 50–90 ppm region. Alkyl carbons appear at 0–50 ppm, aromatic at 110–160 ppm, and carbonyl at 160–220 ppm.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx737qsaj8gmz1y5ctygz9vqms85p61r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alkyl carbons ($R$–$CH_3$)"
+      },
+      {
+        "key": "B",
+        "text": "Aromatic carbons"
+      },
+      {
+        "key": "C",
+        "text": "Carbons bonded to electronegative atoms such as oxygen ($C$–$O$)"
+      },
+      {
+        "key": "D",
+        "text": "Carbonyl carbons ($C=O$)"
+      }
+    ],
+    "stem": "Which carbon environment typically resonates in the range 50–90 ppm in a $^{13}C$ NMR spectrum?",
+    "topicId": "ms70a3phhqnyz570ndf6zcqz8n85qk28"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-9-carbon-13-nmr",
+    "topicTitle": "18.9 Carbon-13 NMR Spectroscopy",
+    "_id": "k976n5918svgatf693007tq7h185pa07",
+    "correctKey": "B",
+    "explanation": "Propan-2-ol has a plane of symmetry making both methyl carbons equivalent (1 signal) and the central C–OH carbon unique (1 signal), giving 2 signals total.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx737qsaj8gmz1y5ctygz9vqms85p61r",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "stem": "How many signals would you expect in the $^{13}C$ NMR spectrum of propan-2-ol ($CH_3CH(OH)CH_3$)?",
+    "topicId": "ms70a3phhqnyz570ndf6zcqz8n85qk28"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-9-carbon-13-nmr",
+    "topicTitle": "18.9 Carbon-13 NMR Spectroscopy",
+    "_id": "k97f8fv9wvzebhh248mf294arn85q3g0",
+    "correctKey": "D",
+    "explanation": "The carbonyl carbon is double-bonded to oxygen and single-bonded to another oxygen, making it the most electron-deficient (most deshielded) carbon, appearing at the highest chemical shift (~170 ppm).",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx737qsaj8gmz1y5ctygz9vqms85p61r",
+    "options": [
+      {
+        "key": "A",
+        "text": "The methyl carbon of the ethyl group ($CH_3$–)"
+      },
+      {
+        "key": "B",
+        "text": "The methyl carbon of the acetyl group ($CH_3CO$–)"
+      },
+      {
+        "key": "C",
+        "text": "The methylene carbon ($–CH_2$–)"
+      },
+      {
+        "key": "D",
+        "text": "The carbonyl carbon ($C=O$)"
+      }
+    ],
+    "stem": "In the $^{13}C$ NMR spectrum of ethyl ethanoate ($CH_3COOCH_2CH_3$), which carbon atom will be the most deshielded?",
+    "topicId": "ms70a3phhqnyz570ndf6zcqz8n85qk28"
+  },
+  {
+    "subjectSlug": "chemistry-12",
+    "chapterSlug": "18-spectroscopy",
+    "chapterTitle": "Spectroscopy",
+    "topicSlug": "18-9-carbon-13-nmr",
+    "topicTitle": "18.9 Carbon-13 NMR Spectroscopy",
+    "_id": "k9790h552fc8k0mnkhap5ec63x85pj6v",
+    "correctKey": "B",
+    "explanation": "Only ~1.1% of all carbon atoms are the $^{13}C$ isotope; the remaining ~98.9% is $^{12}C$, which is NMR inactive. This very low natural abundance results in a much weaker signal compared to $^1H$ NMR.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx737qsaj8gmz1y5ctygz9vqms85p61r",
+    "options": [
+      {
+        "key": "A",
+        "text": "Carbon atoms are larger than hydrogen atoms"
+      },
+      {
+        "key": "B",
+        "text": "The natural abundance of $^{13}C$ is only about 1.1%"
+      },
+      {
+        "key": "C",
+        "text": "$^{13}C$ nuclei do not have nuclear spin"
+      },
+      {
+        "key": "D",
+        "text": "The chemical shift range of $^{13}C$ NMR is too narrow"
+      }
+    ],
+    "stem": "Why is $^{13}C$ NMR spectroscopy less sensitive than $^1H$ NMR spectroscopy?",
+    "topicId": "ms70a3phhqnyz570ndf6zcqz8n85qk28"
+  }
+]

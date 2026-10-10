@@ -1,0 +1,211 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,correctKey,correctKeyVerified,examBoard,lastAttempt,locked,options,origin,partType,questionKind,questionNumber,session,stem,topicId,year,exerciseId,exerciseTitle,keyPoints,modelAnswer,sourceRef,sectionLabel
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-1-factorization-of-an-algebraic-expression","4.1 Factorization of an Algebraic Expression","m172xh3e72nwwnnwrfyjq3nfxh8c6e1a","C","true","fbise",,"false","[{""key"":""A"",""text"":""(7a+2b)²""},{""key"":""B"",""text"":""(49a−4b)²""},{""key"":""C"",""text"":""(7a−2b)²""},{""key"":""D"",""text"":""(7a−28b)²""}]","exam","MCQ","mcq","5","annual","Factorization of 49a²−28ab+4b²:","ms74q4k749m39gdkgb148bdd2s8bvvwf","2025",,,,,,
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-1-factorization-of-an-algebraic-expression","4.1 Factorization of an Algebraic Expression","m17332re8p7dhwn713ep874fax8c6pqy","A","true","fbise",,"false","[{""key"":""A"",""text"":""(2a−3b)²""},{""key"":""B"",""text"":""(2a+3b)²""},{""key"":""C"",""text"":""(4a+3b)²""},{""key"":""D"",""text"":""(4a−3b)²""}]","exam","MCQ","mcq","5","annual","Factorization of 4a²−12ab+9b²:","ms74q4k749m39gdkgb148bdd2s8bvvwf","2025",,,,,,
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m17d0x9fcpq4ev6ym7te021b4h8cvvyr",,,,,"false",,"exercise",,"unclassified","1",,"(a) Find the HCF of the following monomials by completing the table.
+| Monomials | HCF of numerical coefficients | HCF of variables (each) | Required HCF |
+| :--- | :--- | :--- | :--- |
+| $16 \mathrm{p}^{3} \mathrm{q}, 9 \mathrm{pq}^{2} \mathrm{r}$ |  |  |  |
+| $10 p^{3} q^{2} r, 5 p^{2} q r, 15 p^{2} q r^{2}$ |  |  |  |
+| $14 p^{4} q r^{4}, 28 p^{3} q r^{2}, 7 p^{2} q r^{2}, 21 p^{2} q^{2} r^{4}$ |  |  |  |
+(b) If all common factors with least power of three unknown polynomials are $2^{2}, 3, \mathrm{pq}$ and $(p+q)^{2}$ then what would be their HCF?
+(c) Write any two polynomials of your choice having HCF as 1.
+(d) The only common factor of two polynomials is m-n and the only uncommon factor is $\mathrm{m}^{2}+\mathrm{n}^{2}$. Can you guess the unknown polynomials?
+(e) Can you guess HCF of two polynomials $x^{3}+5 x+1$ and $1+5 x+x^{3}$ without any procedure?","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""HCF takes the lowest power of every common factor"",""Identical polynomials have themselves as HCF"",""Coprime polynomials have HCF equal to $1$""]","(a) Row 1: numerical HCF of $16$ and $9$ is $1$; variables give $pq$; required HCF $=pq$.
+Row 2: numerical HCF of $10,5,15$ is $5$; least powers give $p^{2}qr$; HCF $=5p^{2}qr$.
+Row 3: numerical HCF of $14,28,7,21$ is $7$; least powers give $p^{2}qr^{2}$; HCF $=7p^{2}qr^{2}$.
+(b) HCF $=2^{2}\\cdot3\\cdot pq\\cdot(p+q)^{2}=12pq(p+q)^{2}$.
+(c) For example $x$ and $x+1$, which share no factor.
+(d) The polynomials could be $(m-n)$ and $(m-n)(m^{2}+n^{2})$, since the common factor is $m-n$.
+(e) The two polynomials are identical, so their HCF is $x^{3}+5x+1$ itself.","{""blockIndex"":23,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m17dcg7w48g9araj966vj3v7wx8cv4s5",,,,,"false",,"exercise",,"unclassified","2",,"Find the HCF of the following by factorization.
+$(x+y)^{2}, x^{2}-y^{2}$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Factor each expression completely"",""Keep only factors common to all""]","$x^{2}-y^{2}=(x-y)(x+y)$, and $(x+y)^{2}$ is already factored.
+HCF $=x+y$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m17cbkd7tcdavd63dds5pe1ka18ctj7x",,,,,"false",,"exercise",,"unclassified","3",,"Find the HCF of the following by factorization.
+$(a-b)^{3}, a^{2}-2 a b+b^{2}$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Lowest power of the common factor wins""]","$a^{2}-2ab+b^{2}=(a-b)^{2}$, so the expressions are $(a-b)^{3}$ and $(a-b)^{2}$.
+HCF $=(a-b)^{2}$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m17b8x0k77jh676shmedwsyxf98cvcb1",,,,,"false",,"exercise",,"unclassified","4",,"Find the HCF of the following by factorization.
+$a^{3} b-a b^{3}, a^{5} b^{2}-a^{2} b^{5}$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Extract monomial factors before looking for patterns""]","$a^{3}b-ab^{3}=ab(a-b)(a+b)$;
+$a^{5}b^{2}-a^{2}b^{5}=a^{2}b^{2}(a^{3}-b^{3})=a^{2}b^{2}(a-b)(a^{2}+ab+b^{2})$.
+HCF $=ab(a-b)$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m175j2sga6av3gwy48e4q8zf798cvv5z",,,,,"false",,"exercise",,"unclassified","5",,"Find the HCF of the following by factorization.
+$x^{2}-49, x^{2}-4 x-21$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Middle-term method factors both quadratics""]","$x^{2}-49=(x-7)(x+7)$; $x^{2}-4x-21=(x-7)(x+3)$.
+HCF $=x-7$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m174fcvvjdv7nbsgmr55w7yfnx8cv3ek",,,,,"false",,"exercise",,"unclassified","6",,"Find the HCF of the following by factorization.
+$12 x^{2}+x-1,15 x^{2}+8 x+1$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Test factor pairs whose products match the extreme coefficients""]","$12x^{2}+x-1=(4x-1)(3x+1)$; $15x^{2}+8x+1=(5x+1)(3x+1)$.
+HCF $=3x+1$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m17drrqqr6fmmxm7805hakxpq58ct1fy",,,,,"false",,"exercise",,"unclassified","7",,"Find the HCF of the following by factorization.
+$c^{2} x^{2}-d^{2}, a c x^{2}-b c x+a d x-b d$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Grouping by pairs reveals the shared linear factor""]","$c^{2}x^{2}-d^{2}=(cx-d)(cx+d)$;
+$acx^{2}-bcx+adx-bd=cx(ax-b)+d(ax-b)=(ax-b)(cx+d)$.
+HCF $=cx+d$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m17f92hytxa7xa1ghvfgkhwwms8cvhry",,,,,"false",,"exercise",,"unclassified","8",,"Find the HCF of the following by factorization.
+$m^{2}-n^{2}, m^{4}-n^{4}, m^{6}-n^{6}$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Chain differences down through even powers""]","$m^{2}-n^{2}=(m-n)(m+n)$
+$m^{4}-n^{4}=(m-n)(m+n)(m^{2}+n^{2})$
+$m^{6}-n^{6}=(m-n)(m+n)(m^{4}+m^{2}n^{2}+n^{4})$
+HCF $=m^{2}-n^{2}$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-3-least-common-multiple-of-algebraic-expressions","4.3 Least Common Multiple of Algebraic Expressions","m175hh96y24r5fsr0d49dp6ke98ctfg8",,,,,"false",,"exercise",,"unclassified","9",,"Find the HCF of the following by factorization.
+$a x^{2}+2 a^{2} x+a^{3}, 2 a x^{2}-4 a^{2} x-6 a^{3}, 3\left(a x+a^{2}\right)^{2}$","ms73j56x5s3n68dems60r4dxms8btd3k",,"xd70tr9x8z260bp6qx564jc35s8cvhfg","Exercise 4.3","[""Complete factorization exposes the common part""]","$ax^{2}+2a^{2}x+a^{3}=a(x+a)^{2}$
+$2ax^{2}-4a^{2}x-6a^{3}=2a(x-3a)(x+a)$
+$3(ax+a^{2})^{2}=3a^{2}(x+a)^{2}$
+HCF $=a(x+a)$.","{""blockIndex"":26,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-5-square-root-of-algebraic-expressions","4.5 Square Root of Algebraic Expressions","m171n3y1112jbfjsx405rqjq4n8ct7a3",,,,,"false",,"exercise",,"unclassified","1",,"Find the HCF and LCM of the following.
+i. $16-4 x^{2}, x^{2}+x-6$
+ii. $a^{4}-a^{3}-a+1, a^{4}+a^{2}+1$
+iii. $x^{3}+2 x^{2}-3 x, 2 x^{3}+5 x^{2}-3 x$","ms71q15n925w6n2xzqtp590w518bvp56",,"xd71cx9zetaxf5a6d7k99jwjmd8cvg3z","Exercise 4.5","[""Factor everything before reading off shared factors"",""LCM keeps every factor at its highest power"",""Constant multiples do not affect the HCF""]","i. $16-4x^{2}=4(2-x)(2+x)$ and $x^{2}+x-6=(x+3)(x-2)$:
+HCF $=x-2$ (up to a constant sign); LCM $=4(x+2)(x+3)(x-2)$.
+ii. $a^{4}-a^{3}-a+1=(a-1)^{2}(a^{2}+a+1)$ and $a^{4}+a^{2}+1=(a^{2}+a+1)(a^{2}-a+1)$:
+HCF $=a^{2}+a+1$; LCM $=(a-1)^{2}(a^{2}+a+1)(a^{2}-a+1)$.
+iii. $x^{3}+2x^{2}-3x=x(x+3)(x-1)$ and $2x^{3}+5x^{2}-3x=x(2x-1)(x+3)$:
+HCF $=x(x+3)$; LCM $=x(2x-1)(x+3)(x-1)$.","{""blockIndex"":56,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-5-square-root-of-algebraic-expressions","4.5 Square Root of Algebraic Expressions","m175h2e2cbew5ta26am7122rfn8cv0ax",,,,,"false",,"exercise",,"unclassified","2",,"If HCF and LCM of two polynomials are $x-7$ and $x^{3}-10 x^{2}+11 x+70$ respectively. Then find product of two polynomials.","ms71q15n925w6n2xzqtp590w518bvp56",,"xd71cx9zetaxf5a6d7k99jwjmd8cvg3z","Exercise 4.5","[""The identity works in both directions""]","Product of the two polynomials $=$ HCF $\times$ LCM
+$=(x-7)(x^{3}-10x^{2}+11x+70)$.","{""blockIndex"":56,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-5-square-root-of-algebraic-expressions","4.5 Square Root of Algebraic Expressions","m173gpv7pxvzzfh33wjmya7q958ct3h1",,,,,"false",,"exercise",,"unclassified","3",,"Product of two polynomials is $x^{4}+3 x^{3}-12 x^{2}-20 x+48$ and their HCF is $x-2$. Find their LCM.","ms71q15n925w6n2xzqtp590w518bvp56",,"xd71cx9zetaxf5a6d7k99jwjmd8cvg3z","Exercise 4.5","[""Divide the product by the known factor""]","LCM $=\frac{\text{product}}{\text{HCF}}=\frac{x^{4}+3x^{3}-12x^{2}-20x+48}{x-2}$.
+Synthetic division by $2$ gives quotient $x^{3}+5x^{2}-2x-24$ with zero remainder.
+LCM $=x^{3}+5x^{2}-2x-24$.","{""blockIndex"":56,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-5-square-root-of-algebraic-expressions","4.5 Square Root of Algebraic Expressions","m1701rw378b68ywh99kmy23rf18ctafa",,,,,"false",,"exercise",,"unclassified","4",,"The product of two polynomials is $y^{4}+6 y^{3}-3 y^{2}-56 y-48$ and their LCM is $y^{3}+2 y^{2}-11 y-12$. Find their HCF.","ms71q15n925w6n2xzqtp590w518bvp56",,"xd71cx9zetaxf5a6d7k99jwjmd8cvg3z","Exercise 4.5","[""Product divided by LCM gives the HCF""]","HCF $=\frac{y^{4}+6y^{3}-3y^{2}-56y-48}{y^{3}+2y^{2}-11y-12}=y+4$
+(the division leaves no remainder).","{""blockIndex"":56,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-5-square-root-of-algebraic-expressions","4.5 Square Root of Algebraic Expressions","m172586qwvgqdgnc3sx1sywf0h8cv496",,,,,"false",,"exercise",,"unclassified","5",,"Find the second polynomial when, First polynomial $=x^{4}+x^{3}+x+1, \mathrm{HCF}=x+1$ and $\mathrm{LCM}=\left(x^{3}+1\right)\left(x^{4}+x^{3}-x-1\right)$","ms71q15n925w6n2xzqtp590w518bvp56",,"xd71cx9zetaxf5a6d7k99jwjmd8cvg3z","Exercise 4.5","[""Recognise $(x+1)(x^{3}+1)=x^{4}+x^{3}+x+1$ before dividing""]","Second polynomial $=\frac{(x+1)\left(x^{3}+1\right)\left(x^{4}+x^{3}-x-1\right)}{x^{4}+x^{3}+x+1}$.
+Since $x^{4}+x^{3}+x+1=(x+1)(x^{3}+1)$, everything cancels except one factor:
+second polynomial $=x^{4}+x^{3}-x-1$.","{""blockIndex"":56,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-5-square-root-of-algebraic-expressions","4.5 Square Root of Algebraic Expressions","m177k7w9vgbg1xtdj4g88kkxad8ctdp8",,,,,"false",,"exercise",,"unclassified","6",,"Find the LCM of polynomials $4 x^{3}-10 x^{2}+4 x+2$ and $3 x^{4}-2 x^{3}-3 x+2$ if their HCF is $x-1$.","ms71q15n925w6n2xzqtp590w518bvp56",,"xd71cx9zetaxf5a6d7k99jwjmd8cvg3z","Exercise 4.5","[""Check that the given HCF actually divides both polynomials""]","$4x^{3}-10x^{2}+4x+2=2(x-1)(2x^{2}-3x-1)$ and $3x^{4}-2x^{3}-3x+2=(x-1)(3x^{3}+x^{2}-x-2)$.
+Each contains exactly one factor $(x-1)$, matching the given HCF.
+LCM $=\frac{\text{product}}{x-1}=2(x-1)(2x^{2}-3x-1)(3x^{3}+x^{2}-x-2)$.","{""blockIndex"":56,""chapterNumber"":4,""subjectSlug"":""maths-9""}",
+"maths-9","04-factorization-and-algebraic-manipulation","Factorization And Algebraic Manipulation","4-5-square-root-of-algebraic-expressions","4.5 Square Root of Algebraic Expressions","m173t3zc0481bkf3kht3d7nf8s8e019c",,,,,"false",,"exercise",,"short","23",,"1. Encircle the correct option in the following.
+(i) Factors of -2-a+a are
+(a) $(a-2)(a-1)$
+(b) $(a+1)(a+2)$
+(c) $(a+2)(a-1)$
+(d) $(a+1)(a-2)$
+(ii) Factorization of $x^{2}-x+\frac{1}{4}$ is
+(a) $\left(x+\frac{1}{2}\right)\left(x-\frac{1}{2}\right)$
+(b) $\left(x+\frac{1}{2}\right)(x-1)$
+(c) $\left(x-\frac{1}{2}\right)(x+1)$
+(d) $\left(x-\frac{1}{2}\right)\left(x-\frac{1}{2}\right)$
+(iii) . $\left(x^{2}+m^{2}\right)(x+m)\left(x^{4}+m^{4}\right)(x-m)$ is the factored form of
+(a) $x^{4}-m^{4}$
+(b) $x^{8}+m^{8}$
+(c) $x^{8}-m^{8}$
+(d) $x^{4}+m^{4}$
+(iv) . $\mathrm{a}^{4}+64 \mathrm{~b}^{4}$ is the product of
+(a) $\quad a^{2}-4 a b+8 b^{2}$ and $a^{2}+4 a b+8 b^{2}$
+(b) $\mathrm{a}^{2}+8 \mathrm{~b}^{2}+4 \mathrm{ab}$ and $\mathrm{a}^{2}-8 \mathrm{~b}^{2}+4 \mathrm{ab}$
+(c) $\left(\mathrm{a}^{2}+8 \mathrm{~b}^{2}\right)^{2}$
+(d) none of these
+(v) . $\quad x(2 \mathrm{a}+3 \mathrm{~b}+7)+x(2 \mathrm{a}+3 \mathrm{~b}+5)$ equals
+(a) $2 x(2 \mathrm{a}+3 \mathrm{~b}+6)$
+(b) $4 x(2 a+3 b+6)$
+(c) $\quad x(2 \mathrm{a}+3 \mathrm{~b}+7)(2 \mathrm{a}+3 \mathrm{~b}+5)$
+(d) $(x+x)(2 \mathrm{a}+3 \mathrm{~b}+12)$
+(vi) Which is the highest common factor of $-12 x^{2} y^{2}, 6 x y^{3}, 24 x^{2} y^{2}$ ?
+(a) $-6 x y$
+(b) $6 x^{2} y^{3}$
+(c) $6 x y^{2}$
+(d) $-24 x^{2} y^{3}$
+(vii) What is the least common multiple of $12 x^{2} y^{2}, 6 x y^{3}, 24 x^{2} y^{2}$ ?
+(a) $6 x y$
+(b) $6 x^{2} y^{3}$
+(c) $6 x y^{2}$
+(d) $24 y^{3} x^{2}$
+(viii) What is the highest common factor of $7 x-6 x y$ and $5 x y^{3}-3 x^{2}$ ?
+(a) $(7-6 y)\left(5 y^{3}-3 x\right)$
+(b) $(7 x-6 x y)\left(5 y^{3} x-3 x^{2}\right)$
+(c) $x$
+(d) $x(7-6 y)\left(5 y^{3}-3 x\right)$
+(ix) Least common multiple of $7 x-6 x y$ and $5 y^{3} x-3 x^{2}$ is:
+(a) $(7-6 y)\left(5 y^{3}-3 x^{2}\right)$
+(b) $(7 x-6 x y)\left(5 y^{3}-3 x^{2}\right)$
+(c) $x$
+(d) $x(7-6 y)\left(5 y^{3}-3 x\right)$
+(x) HCF of $7 x^{3}-8 y^{3}$ and $3 x^{3}-5 y^{3}$ is:
+(a) 1
+(b) $\left(7 x^{3}-8 y^{3}\right)\left(3 x^{3}-5 y^{3}\right)$
+(c) $7 x^{3}-8 y^{3}$
+(d) $3 x^{3}-5 y^{3}$
+
+(xi) LCM of $7 x^{3}-8 y^{3}$ and $3 x^{3}-5 y^{3}$ is:
+(a) 1
+(b) $\left(7 x^{3}-8 y^{3}\right)\left(3 x^{3}-5 y^{3}\right)$
+(c) $7 x^{3}-8 y^{3}$
+(d) $3 x^{3}-5 y^{3}$
+(xii) What is the product of $\frac{u v^{2}}{3 w^{3}}$ and $\frac{6 w^{4}}{u^{2} v^{3}}$ ?
+(a) $\frac{u v^{2}}{3 w^{2}} \times \frac{u^{2} v^{3}}{6 w^{4}}$
+(b) $\frac{2 w}{u v}$
+(c) $\frac{u v}{2 w}$
+(d) both a \& c
+(xiii) What is the quotient of $\frac{3 y^{2}}{10} \div \frac{y^{3}}{2}$ ?
+(a) $\frac{3 y^{5}}{20}$
+(b) $\frac{3}{5 y}$
+(c) $\frac{3 y^{2}}{10} \div \frac{2}{y^{3}}$
+(d) $\frac{5 y}{3}$
+(xiv) What is the sum of $\frac{2 a}{a^{2}-1}$ and $\frac{-a}{a^{2}-1}$ ?
+(a) $\frac{3 a}{a^{2}-1}$
+(b) $\frac{a}{a^{2}-1}$
+(c) $\frac{2 a-a}{\left(a^{2}-1\right)+\left(a^{2}-1\right)}$
+(d) $\frac{-2 a}{a^{2}-1}$
+(xv) What is the difference of $\frac{-3 x}{x+y}$ and $\frac{x}{x+y}$ ?
+(a) $\frac{-2 x}{x+y}$
+(b) $\frac{-3 x-x}{2 x+2 y}$
+(c) $\frac{3 x^{2}}{x+y}$
+(d) $\frac{-4 x}{x+y}$
+(xvi) If product of two polynomials is $(a-b)^{2}\left(a^{2}+a b+b^{2}\right)$ and their HCF is $a-b$, what is their LCM?
+(a) $\mathrm{a}^{3}-\mathrm{b}^{3}$
+(b)
+$(a-b)^{3}\left(a^{2}+a b+b^{2}\right)$
+(c) $\quad(\mathrm{a}-\mathrm{b})^{2}\left(\mathrm{a}^{2}+\mathrm{ab}+\mathrm{b}^{2}\right)$
+(d) $a^{2}+a b+b^{2}$
+(xvii) If product of HCF and LCM of two polynomials is $\left(x^{3}-y^{3}\right)(x+y)$ then what will be the product of these polynomials?
+(a) $x^{4}-y^{4}$
+(b) $(x-y)\left(x^{2}+y^{2}\right)$
+(c) $\left(x^{2}-y^{2}\right)\left(x^{2}+x y+y^{2}\right)$
+(d) $\left(x^{2}-y^{2}\right)\left(x^{2}-x y+y^{2}\right)$
+(xviii) What is the square root of $36 x^{6} y^{16}$ ?
+(a) $6 x^{6} y^{16}$
+(b) $6 x y$
+(c) $6 x^{3} y^{8}$
+(d) $16 x^{3} y^{8}$
+(xix) What is the square root of $\left(15 x^{2}-7 y^{2}\right)^{4}$ ?
+
+(a) $\pm\left(15 x^{2}-7 y^{2}\right)^{2}$
+(b) $\pm\left(15 x^{2}-7 y^{2}\right)$
+(c) $\pm(15 x-7 y)^{2}$
+(d) $\pm(15 x-7 y)$
+
+(xx) What is the square root of $\left[-\left(2 x+\frac{1}{x}+1\right)\right]^{2}$ ?
+(a) $\pm\left(2 x+\frac{1}{x}+1\right)^{2}$
+(b) $\left(2 x+\frac{1}{x}+1\right)^{2}$
+(c) $2 x+\frac{1}{x}+1$
+(d) $\sqrt{2 x+\frac{1}{x}+1}$
+
+Factorize the following.
+2. $\left(a^{2}-5\right)^{2}-13\left(a^{2}-5\right)+36$
+3. $6 x^{2}+19 x+15$
+4. $(x+1)(x-3)(x-5)(x-9)+44$
+5. $x^{4}-12 x^{2}+16$
+6. $\left(3 x^{2}+4 x-5\right)\left(3 x^{2}-2+4 x\right)-4$
+7. $2 m^{4}+m^{2} n^{2}-3 n^{4}$
+8. $x^{4}+10 x^{2} y^{2}-56 y^{4}$
+9. $x^{2}+2 a x-b x-2 a b$
+10. $a^{12}-b^{12}$
+11. $28 x^{4} y+64 x^{3} y-60 x^{2} y$
+12. $4(x-y)^{3}-(x-y)$
+13. $x^{3} p^{2}-8 y^{3} p^{2}-4 x^{3} q^{2}+32 y^{3} q^{2}$
+
+14. $x^{4}+y^{4}-7 x^{2} y^{2}$
+15. Find the highest common factor of the following.
+    (i) $x^{3}+3 x^{2}-8 x-24, x^{3}+3 x^{2}-3 x-9$
+    (ii) $3 x^{4}-3 x^{3}-2 x^{2}-x-1,9 x^{4}-3 x^{3}-x-1$
+16. Find the LCM of the following.
+    (i) $2 x^{2}+3 x+1,2 x^{2}+5 x+2, x^{2}+3 x+2$
+    (ii) $3 x^{2}+11 x+6,3 x^{2}+8 x+4, x^{2}+5 x+6$
+17. Find the HCF and LCM of the following expressions.
+$$
+a(a+c)-b(b+c), b(b+a)-c(c+a), c(c+b)-a(a+b)
+$$
+18. Find the square root of $\frac{9 a^{2}}{x^{2}}-\frac{6 a}{5 x}+\frac{101}{25}-\frac{4 x}{15 a}+\frac{4 x^{2}}{9 a^{2}}$
+19. Simplify the following (all the expressions in the denominator are non-zero).
+
+(i) $\frac{x^{2}+x-2}{x^{2}-x-20} \times \frac{x^{2}+5 x+4}{x^{2}-x} \div\left(\frac{x^{2}+3 x+2}{x^{2}-2 x-15} \times \frac{x+3}{x^{2}}\right)$
+(ii) $\frac{1}{x+1}-\frac{1}{(x+1)(x+2)}+\frac{1}{(x+1)(x+2)(x+3)}$
+20. Find the values of $a$ and $b$ if
+$$
+x^{4}+a x^{3}+b x^{2}-4 x+4 \text { is a perfect square. }
+$$","ms71q15n925w6n2xzqtp590w518bvp56",,"xd72g5gess1w23y4nsq9rq4sxx8e1xhr","Chapter 4: Miscellaneous Review Exercise",,,"{""blockIndex"":65,""blockKind"":""exercise"",""chapterNumber"":4,""subjectSlug"":""maths-9""}","Review / Encircle the Correct Option"

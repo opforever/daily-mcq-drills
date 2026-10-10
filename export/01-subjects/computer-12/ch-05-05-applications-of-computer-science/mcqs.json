@@ -1,0 +1,530 @@
+[
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-internet-of-things-iot",
+    "topicTitle": "5.1 Internet of Things (IoT)",
+    "_id": "k97c0evm5yg9t3jnjvyq4qffr985qs0f",
+    "correctKey": "B",
+    "explanation": "IoT refers to the network of physical objects (things), such as appliances, vehicles, and industrial machines, that use embedded sensors and software to connect and exchange data over the internet.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b84hc8mfh5eqc233avrc11x85q6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only personal computers and smartphones"
+      },
+      {
+        "key": "B",
+        "text": "Physical objects embedded with sensors and processing power"
+      },
+      {
+        "key": "C",
+        "text": "Websites hosted on the World Wide Web"
+      },
+      {
+        "key": "D",
+        "text": "Human users interacting on social media"
+      }
+    ],
+    "stem": "Which of the following best describes the 'Things' in the Internet of Things?",
+    "topicId": "ms7bk94vwvm998qfs84jd5g6q985qpe7"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-internet-of-things-iot",
+    "topicTitle": "5.1 Internet of Things (IoT)",
+    "_id": "k973yx9h0fbyb4b4mskgqw67b985pnek",
+    "correctKey": "C",
+    "explanation": "Sensors are the hardware components that detect changes in the physical environment (e.g., temperature, humidity, motion) and convert them into digital data for processing and transmission.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b84hc8mfh5eqc233avrc11x85q6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "Actuators"
+      },
+      {
+        "key": "B",
+        "text": "Cloud Storage"
+      },
+      {
+        "key": "C",
+        "text": "Sensors"
+      },
+      {
+        "key": "D",
+        "text": "User Interface"
+      }
+    ],
+    "stem": "In an IoT ecosystem, which component is responsible for converting physical parameters like temperature into digital signals?",
+    "topicId": "ms7bk94vwvm998qfs84jd5g6q985qpe7"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-internet-of-things-iot",
+    "topicTitle": "5.1 Internet of Things (IoT)",
+    "_id": "k978276vma7reany4aszxp90kh85p4sj",
+    "correctKey": "B",
+    "explanation": "Low latency (minimal delay in data transmission) is essential in IIoT for real-time decision-making, for example, stopping a machine instantly to prevent accidents or maintaining precision in automated assembly lines.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b84hc8mfh5eqc233avrc11x85q6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "To increase the cost of hardware"
+      },
+      {
+        "key": "B",
+        "text": "To ensure real-time response and safety"
+      },
+      {
+        "key": "C",
+        "text": "To reduce the number of connected devices"
+      },
+      {
+        "key": "D",
+        "text": "To simplify the user interface"
+      }
+    ],
+    "stem": "Why is low latency critical for Industrial IoT (IIoT) applications like autonomous manufacturing?",
+    "topicId": "ms7bk94vwvm998qfs84jd5g6q985qpe7"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-1-internet-of-things-iot",
+    "topicTitle": "5.1 Internet of Things (IoT)",
+    "_id": "k970ev9y61fp026r1btmrbqphh85p3td",
+    "correctKey": "C",
+    "explanation": "Many IoT devices have limited processing power, so manufacturers often use weak security protocols or hardcoded default credentials. This makes them easy targets for botnets and unauthorized access, representing a major usability-security tradeoff.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7b84hc8mfh5eqc233avrc11x85q6q6",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lack of physical storage"
+      },
+      {
+        "key": "B",
+        "text": "High power consumption"
+      },
+      {
+        "key": "C",
+        "text": "Weak authentication and hardcoded passwords"
+      },
+      {
+        "key": "D",
+        "text": "Excessive use of multi-factor authentication"
+      }
+    ],
+    "stem": "Which security challenge is most prevalent in IoT due to the massive number of low-power devices?",
+    "topicId": "ms7bk94vwvm998qfs84jd5g6q985qpe7"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-6-cloud-computing",
+    "topicTitle": "5.6 Cloud Computing",
+    "_id": "k971djj5ng8vq4wqwrm2xaa5ax85qpts",
+    "correctKey": "B",
+    "explanation": "On-demand self-service allows users to provision resources like server time and network storage automatically.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75vy2zec45fsdqnmxw7hyx3185p8bc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Broad network access"
+      },
+      {
+        "key": "B",
+        "text": "On-demand self-service"
+      },
+      {
+        "key": "C",
+        "text": "Resource pooling"
+      },
+      {
+        "key": "D",
+        "text": "Measured service"
+      }
+    ],
+    "stem": "Which characteristic of cloud computing allows users to increase or decrease computing resources as needed without human intervention from the provider?",
+    "topicId": "ms7981ywa4zb9pmpg6357hkcp185p1ak"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-6-cloud-computing",
+    "topicTitle": "5.6 Cloud Computing",
+    "_id": "k973s7k4h9zpmthbwx7m549ht585qs4v",
+    "correctKey": "C",
+    "explanation": "SaaS provides end-user applications delivered over the web, requiring no installation on local machines.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75vy2zec45fsdqnmxw7hyx3185p8bc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "key": "B",
+        "text": "Platform as a Service (PaaS)"
+      },
+      {
+        "key": "C",
+        "text": "Software as a Service (SaaS)"
+      },
+      {
+        "key": "D",
+        "text": "Database as a Service (DBaaS)"
+      }
+    ],
+    "stem": "Google Docs and Microsoft Office 365 are examples of which cloud service model?",
+    "topicId": "ms7981ywa4zb9pmpg6357hkcp185p1ak"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-6-cloud-computing",
+    "topicTitle": "5.6 Cloud Computing",
+    "_id": "k974331vpv2tkaqdxht9q9rzxx85p1qb",
+    "correctKey": "C",
+    "explanation": "A Hybrid cloud combines private and public clouds, allowing data and applications to be shared between them.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75vy2zec45fsdqnmxw7hyx3185p8bc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public Cloud"
+      },
+      {
+        "key": "B",
+        "text": "Private Cloud"
+      },
+      {
+        "key": "C",
+        "text": "Hybrid Cloud"
+      },
+      {
+        "key": "D",
+        "text": "Community Cloud"
+      }
+    ],
+    "stem": "A bank uses a cloud environment where sensitive financial data is kept on-premise while web servers are hosted on a public provider. This is a:",
+    "topicId": "ms7981ywa4zb9pmpg6357hkcp185p1ak"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-6-cloud-computing",
+    "topicTitle": "5.6 Cloud Computing",
+    "_id": "k97700efw3q7ndgkdqv19cfbgd85pyhf",
+    "correctKey": "B",
+    "explanation": "Cloud computing converts CapEx (buying physical servers) into OpEx (paying for what you use), reducing upfront costs.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75vy2zec45fsdqnmxw7hyx3185p8bc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Elimination of Operational Expenses (OpEx)"
+      },
+      {
+        "key": "B",
+        "text": "Reduction of Capital Expenditure (CapEx)"
+      },
+      {
+        "key": "C",
+        "text": "Increased hardware maintenance costs"
+      },
+      {
+        "key": "D",
+        "text": "Fixed monthly billing regardless of usage"
+      }
+    ],
+    "stem": "What is the primary economic benefit of the 'Pay-as-you-go' model in cloud computing?",
+    "topicId": "ms7981ywa4zb9pmpg6357hkcp185p1ak"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-6-cloud-computing",
+    "topicTitle": "5.6 Cloud Computing",
+    "_id": "k970xq031d7cjd4pacy8g7ym3h85q4ny",
+    "correctKey": "C",
+    "explanation": "DDoS attacks aim to overwhelm resources, making the service unavailable to legitimate users.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75vy2zec45fsdqnmxw7hyx3185p8bc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confidentiality"
+      },
+      {
+        "key": "B",
+        "text": "Integrity"
+      },
+      {
+        "key": "C",
+        "text": "Availability"
+      },
+      {
+        "key": "D",
+        "text": "Authenticity"
+      }
+    ],
+    "stem": "In the context of the CIA Triad, which aspect is most challenged by a Distributed Denial of Service (DDoS) attack on a cloud provider?",
+    "topicId": "ms7981ywa4zb9pmpg6357hkcp185p1ak"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-7-neural-networks-and-deep-learning",
+    "topicTitle": "5.7 Neural Networks and Deep Learning",
+    "_id": "k97fkdznjrazcvb58wj60kp3v185pqsn",
+    "correctKey": "B",
+    "explanation": "The term 'Deep' in Deep Learning refers to the depth of the network, specifically having multiple hidden layers between the input and output.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72gntj4rmkxfrys1nbsr1g5185qyct",
+    "options": [
+      {
+        "key": "A",
+        "text": "More than one input node"
+      },
+      {
+        "key": "B",
+        "text": "Multiple hidden layers"
+      },
+      {
+        "key": "C",
+        "text": "High-speed processors"
+      },
+      {
+        "key": "D",
+        "text": "A large output layer"
+      }
+    ],
+    "stem": "A neural network is considered 'Deep' if it contains:",
+    "topicId": "ms7cf863vhbjwh6k7adth71w6x85qk9t"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-7-neural-networks-and-deep-learning",
+    "topicTitle": "5.7 Neural Networks and Deep Learning",
+    "_id": "k97aezpn3p9dp8282wnhj3ggxh85qs5w",
+    "correctKey": "C",
+    "explanation": "The goal of training (using backpropagation and gradient descent) is to minimize the loss function, thereby decreasing the error rate.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx72gntj4rmkxfrys1nbsr1g5185qyct",
+    "options": [
+      {
+        "key": "A",
+        "text": "It increases exponentially"
+      },
+      {
+        "key": "B",
+        "text": "It remains constant"
+      },
+      {
+        "key": "C",
+        "text": "It decreases as weights are optimized"
+      },
+      {
+        "key": "D",
+        "text": "It fluctuates randomly"
+      }
+    ],
+    "stem": "What happens to the error rate during a successful training session of a Deep Learning model?",
+    "topicId": "ms7cf863vhbjwh6k7adth71w6x85qk9t"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-data-sharing-and-privacy",
+    "topicTitle": "5.8 Data Sharing and Privacy",
+    "_id": "k976eq9ffc6e1y5rk76fjqfxa985q9zp",
+    "correctKey": "B",
+    "explanation": "Purpose Limitation is a core privacy principle stating that data should not be processed in a manner incompatible with the original purpose for which it was collected.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cp3pwg8mysg09qc6qv3h9x985q4x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "Data Integrity"
+      },
+      {
+        "key": "B",
+        "text": "Purpose Limitation"
+      },
+      {
+        "key": "C",
+        "text": "Data Availability"
+      },
+      {
+        "key": "D",
+        "text": "System Usability"
+      }
+    ],
+    "stem": "Which principle ensures that personal data is only collected for specified, explicit, and legitimate purposes?",
+    "topicId": "ms78stjg47rypcnv649b4xxms185pdzh"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-data-sharing-and-privacy",
+    "topicTitle": "5.8 Data Sharing and Privacy",
+    "_id": "k97fphvtaysrqtke1q5mbhm8e985p69k",
+    "correctKey": "C",
+    "explanation": "Pseudonymization replaces private identifiers with fake identifiers (pseudonyms) to reduce linkability while maintaining data utility.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cp3pwg8mysg09qc6qv3h9x985q4x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "Data Encryption"
+      },
+      {
+        "key": "B",
+        "text": "Data Redundancy"
+      },
+      {
+        "key": "C",
+        "text": "Pseudonymization"
+      },
+      {
+        "key": "D",
+        "text": "Data Auditing"
+      }
+    ],
+    "stem": "A company shares a dataset for research but replaces names with unique IDs. This is an example of:",
+    "topicId": "ms78stjg47rypcnv649b4xxms185pdzh"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-data-sharing-and-privacy",
+    "topicTitle": "5.8 Data Sharing and Privacy",
+    "_id": "k9789v3ad935zy2wman78cw6d185qca5",
+    "correctKey": "A",
+    "explanation": "Data scraping involves using automated tools to extract personal information from public profiles, often without the user's explicit consent.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cp3pwg8mysg09qc6qv3h9x985q4x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "Data Scraping"
+      },
+      {
+        "key": "B",
+        "text": "Hardware Failure"
+      },
+      {
+        "key": "C",
+        "text": "Increased Bandwidth"
+      },
+      {
+        "key": "D",
+        "text": "Improved Latency"
+      }
+    ],
+    "stem": "Which of the following is a common threat to privacy when sharing data on social media platforms?",
+    "topicId": "ms78stjg47rypcnv649b4xxms185pdzh"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-data-sharing-and-privacy",
+    "topicTitle": "5.8 Data Sharing and Privacy",
+    "_id": "k97aaymdtqmad6rj01q619kbcd85q481",
+    "correctKey": "C",
+    "explanation": "Third-party cookies are used by advertisers to track a user's browsing habits across multiple sites to create a detailed profile for targeted ads.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cp3pwg8mysg09qc6qv3h9x985q4x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "They slow down the CPU"
+      },
+      {
+        "key": "B",
+        "text": "They delete the user's hard drive"
+      },
+      {
+        "key": "C",
+        "text": "They track user behavior across different websites"
+      },
+      {
+        "key": "D",
+        "text": "They prevent the website from loading"
+      }
+    ],
+    "stem": "What is the main privacy risk associated with 'Third-party Cookies'?",
+    "topicId": "ms78stjg47rypcnv649b4xxms185pdzh"
+  },
+  {
+    "subjectSlug": "computer-12",
+    "chapterSlug": "05-applications-of-computer-science",
+    "chapterTitle": "Applications Of Computer Science",
+    "topicSlug": "5-8-data-sharing-and-privacy",
+    "topicTitle": "5.8 Data Sharing and Privacy",
+    "_id": "k970k4kstjc1s6tyzkm5aw3bvn85p6ep",
+    "correctKey": "B",
+    "explanation": "GDPR is a comprehensive legal framework that governs how the personal data of individuals in the EU is collected, processed, and shared.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7cp3pwg8mysg09qc6qv3h9x985q4x5",
+    "options": [
+      {
+        "key": "A",
+        "text": "TCP/IP"
+      },
+      {
+        "key": "B",
+        "text": "GDPR (General Data Protection Regulation)"
+      },
+      {
+        "key": "C",
+        "text": "ASCII"
+      },
+      {
+        "key": "D",
+        "text": "IEEE 802.11"
+      }
+    ],
+    "stem": "Which regulatory framework is widely known for setting strict standards on data sharing and privacy in the digital age?",
+    "topicId": "ms78stjg47rypcnv649b4xxms185pdzh"
+  }
+]

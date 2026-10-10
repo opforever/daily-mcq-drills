@@ -1,0 +1,202 @@
+<!-- note kx7cgj76wqg7xpvdp1nky6zzsd8bveny | topic ms78979tfjpja578wfj3e4p87d8bvece | status published -->
+# 6.1 Role of Hormones in Male and Female Sexual Development
+
+
+Reproduction is a biological process by which new individuals of a species are produced from existing one. Although reproduction is not required for the survival of a single living being, it is essential for the survival and continuation of a species. There are two main types of reproduction: asexual and sexual. Each type has different mechanisms and occurs in both plants and animals. In grade 9, you have learned about plant reproduction. In the current chapter, you will be able to understand fundamental concepts of animal reproduction.
+
+Unlike other organ systems, the reproductive system is unique because it becomes functional at a certain age after birth, called puberty. Sexual development that leads to the puberty in both males and females is controlled by some substances, called hormones. The hormones are chemical messengers that are produced and released by endocrine glands in blood. The hormones interact with their target cells due to the presence of specific receptors on the target cells.
+
+## Male Sexual Development
+
+In males, the hormones responsible for sexual development and maintenance of reproductive functions are testosterone and follicle stimulating hormone (FSH).
+
+## 1) Testosterone
+
+Testosterone is mainly produced by the specific cells of testes under the influence of pituitary gland hormone. In female body, ICSH is also called luteinizing hormone (LH). Testosterone is very important for the development of male reproductive organs during puberty. It controls maturation of sperm and the maintenance of the male reproductive system. It stimulates the development of spermatocytes into spermatids and eventually into mature sperm. Testosterone also promotes the development of secondary sexual characteristics, such as the growth of facial hair, deepening of the voice, and increased muscle mass.
+
+## ii) Follicle Stimulating Hormone (FSH) in Male Development
+
+<CaptionedImage src="kg2egsj7cvkqdk9rjhxz2ab0wx8e57yd" alt="Fig. 6.1: Role of hormones in female sexual development and maintenance" caption="Fig. 6.1: Role of hormones in female sexual development and maintenance" />
+
+Follicle stimulating hormone (FSH) is produced by the anterior pituitary gland. It stimulates these cells to support the development of sperm cells and regulate the early stages of spermatogenesis.
+Both testosterone and FSH are necessary for normal spermatogenesis, but they act at different points in the process. Testosterone promotes the final maturation of sperm and maintenance of the reproductive environment, while FSH initiates and regulates the early stages of sperm production.
+## Female Sexual Development
+
+In females, the hormones responsible for sexual development and maintenance of reproductive functions are oestrogen (also written as estrogen), follicle stimulating hormone (FSH), luteinizing hormone (LH), and progesterone.
+
+## i) Estrogen
+
+Estrogen is produced by the developing follicle in the ovaries under the influence of FSH. Estrogen is responsible for the development of female reproductive organs, such as the uterus, fallopian tubes, and secondary sexual characteristics during puberty.
+
+## ii) Follicle Stimulating Hormone (FSH) in Female Development
+
+FSH (produced by anterior pituitary gland) is essential for the development of ovarian follicles, one of these follicles undergoes oogenesis and produce ovum or egg (female gamete). It also stimulates the estrogen production and prepare the body for ovulation.
+
+## iii) Luteinizing hormone (LH)
+
+High concentration of estrogen inhibits the FSH secretion. This condition leads to the production of LH from anterior pituitary gland. LH causes the rupturing of matured follicle in which a developing ovum is present which ultimately released in the oviduct. This rupturing of matured follicle and the release of developing ovum is called ovulation. After ovulation, the LH transforms the ruptured follicle into a yellow-colored glandular mass, the corpus luteum to produce progesterone.
+
+## iv) Progesterone
+
+## For your information
+
+FSH and LH are collectively called gonadotropins. Anterior lobe of pituitary gland releases FSH and LH under the stimulation of gonadotropin releasing hormone (GnRH) from hypothalamus.
+
+<CaptionedImage src="kg2ctzgq4hmyw8rj6q47bv0ee18bv6r9" alt="" caption="Role of hormones in female sexual development and maintenance" />
+
+Progesterone is produced by corpus luteum in the ovary. It plays an important role in preparing the body for pregnancy by thickening the uterine lining, which is essential for embryo implantation. High concentration of progesterone also inhibits the release of FSH.
+
+
+---
+
+<!-- note kx7677ps35tyx9qf9ekpxjggms8bvhc8 | topic ms76ffx3mve3pggj0j922w6trh8bv807 | status published -->
+# 6.2 Gametogenesis and Fertilization
+
+
+Sexual reproduction involves the steps: gametogenesis, fertilization and development of zygote. The process of gametogenesis and fertilization are closely related and form the foundation of sexual reproduction. Together, they ensure the combination of genetic material from two parents, resulting in offspring with genetic diversity.
+
+## Gametogenesis
+
+Gametogenesis is the first step in the sexual reproduction in which the specialized sex cells, called gametes, are produced in the reproductive organs. This process involves meiosis, a type of cell division that reduces the chromosome number by half.
+In males, this process is called spermatogenesis, where sperm cells are produced in the testes.
+
+In females, it is called oogenesis, where egg cells (ova) are produced in the ovaries. Each gamete (sperm or egg) contains half the number of chromosomes (haploid) compared to somatic (body) cells. Gametogenesis ensures genetic variation through the processes of independent assortment and crossing over during meiosis.
+
+## i) Spermatogenesis
+
+Spermatogenesis is a continuous event that starts from puberty and remains continue throughout the life simultaneously in both testes. During spermatogenesis, some cells in the walls of the seminiferous tubules in the testes keep dividing through mitosis to create many diploid cells called spermatogonia. Some of these spermatogonia develop into primary spermatocytes. Each primary spermatocyte undergoes the first division of meiosis (meiosis 1) to produce two haploid cells known as secondary spermatocytes. These secondary spermatocytes then go through the second division of meiosis (meiosis II), resulting in four haploid cells called spermatids. Spermatids are non-motile, and they go through changes to become motile. Their nuclei shrink, and structures such as the acrosome, a tail, and a mitochondrial ring are formed. After these changes, the spermatids become sperms.
+
+## ii) Oogenesis
+
+Oogenesis is a cyclic event that generally occurs only once in the period of one reproductive cycle. It starts before birth of an individual but arrests in prophase I. At puberty, it restarts and remain continue alternatively in both ovaries till specific age in the life. During oogenesis, some cells in the ovary form vesicular structures called follicles, each contains one diploid cell called oogonium (plural oogonia). Some of these oogonia develop into diploid primary oocytes which acts as egg mother cell. One primary oocyte undergoes the first stage of meiosis (meiosis I), producing two haploid cells. The smaller cell is called the first polar body, while the larger one is the secondary oocyte. The secondary oocyte then completes the second stage of meiosis (meiosis II), producing two haploid cells: the second polar body and an egg cell. In oogenesis, the meiosis II generally occurs after ovulation if the sperms are available in female reproductive tract.
+
+<CaptionedImage src="kg2a81mxkhdg8wypcxvhdjy07n8e46fs" alt="" caption="Fig. 6.3: Process of spermatogenesis" />
+
+<CaptionedImage src="kg2aw2h5r1c84hwyf7k58wm76s8e6487" alt="Fig. 6.4: Process of Oogenesis" caption="Fig. 6.4: Process of Oogenesis" />
+## Fertilization
+
+Fertilization is the union of a male gamete (sperm) and a female gamete (egg) to form a zygote. It restores the diploid number of chromosomes ( 46 in humans), with each parent contributing half of the genetic material ( 23 chromosomes each).
+
+## Types of fertilization
+
+In human the fertilization occurs inside the body of female within oviduct. Such fertilization is called internal fertilization. However, in most animals living in aquatic environment such as fish, amphibians etc., the female animal lays its eggs in water at suitable place. The male animal, then releases its sperms over the eggs. This fertilization is called external ferttlization.
+
+## For your information
+
+Development is the process that involves a series of progressive changes, transforming an organism from a simpler stage (zygote) to a more complex one (newborn). In aquatic organisms that perform external fertilization, development occurs entirely outside the body. In land organisms that perform internal fertilization, development can occur either completely inside the body, completely outside, or partially inside and partially outside. Organisms where internal fertilization leads to complete internal development, and they give birth to live young, are called viviparous (e.g., human, cats, dogs, whale). Organisms where, after internal fertilization, the zygote is released as a shelled egg outside the body, where development is completed, are called oviparous (e.g., birds, reptiles, amphibians). In organisms where the partially developed embryo is released in a shelled egg outside the body to complete development, they are known as ovoviviparous (e.g., sharks, rays).
+
+| Table: 6.1 Difference between internal fertilization external fertilization. |  |  |
+| :--- | :--- | :--- |
+| Characteristic | Internal Fertilization | External Fertilization |
+| Fertilization Location | Inside the female body | Outside the female body |
+| Gamete Release | Directed into female reproductive tract | Released into the environment |
+| Offspring Number | Fewer, with higher survival rate | Many, with lower survival rate |
+| Parental Care | Common | Rare. |
+| Animal types | Occurs mostly in land animals | Occurs mostly in aquatic animals |
+| Examples | Mammals, birds, reptiles | Fish, amphibians, marine invertebrates |
+
+
+---
+
+<!-- note kx76k24g609tz5rwk2m6k175dd8bv78k | topic ms7cdw29gw41wqcebk8r1e3tz18btvy9 | status published -->
+# 6.3 Mechanism of Reproduction in Animals
+
+
+There are two types of reproduction; asexual reproduction and sexual reproduction.
+
+## Mechanism of Asexual Reproduction in Animals
+
+Asexual reproduction is a type of reproduction in which a single parent produces offspring without the involvement of gametes (sperm or egg cells). This process results in offspring that are genetically identical to the parent, known as clones. Asexual reproduction is common in simpler organisms like invertebrates and unicellular animals, but some multicellular animals can also reproduce asexually under certain conditions.
+
+Asexual reproduction allows organisms to rapidly increase their population as there is No need for a mate, making it easier in environments where finding a partner may be difficult. However, the offspring produced by asexual reproduction lack of genetic diversity means that all offspring are clones of the parent, which may make them more
+
+## Asexual Reproduction Note
+
+Compare sexual and asexual reproduction and analyze which one is advantageous for the animal? susceptible to diseases or environmental changes. In animals, there are several mechanisms of asexual reproduction, which can be understood easily:
+
+## i) Binary fission
+
+In binary fission, the parent organism splits into two equal parts, each of which develops into a new organism. This process is usually found in protozoan (animal-like protists) like Amoeba and Paramecium, in which the nucleus of the parent cell divides (mitosis), followed by the division of the cytoplasm. This results in two daughter cells that are identical to the parent.
+
+<CaptionedImage src="kg2b22v011kr17cf5x32250y918e46bm" alt="" caption="Fig. 6.5: Binary fission in Amoeba" />
+## ii) Budding
+
+In budding, a small bud or outgrowth forms on the parent organism. This bud eventually grows and detaches to become a new individual. In this process, a group of cells divides by mitosis, forming a bud. This bud may stay attached to the parent for a while before detaching and living independently. Its best example is Hydra.
+
+<CaptionedImage src="kg2fr3135f40pszsrawdgp4pss8djr44" alt="" caption="Fig. 6.6: Budding in Hydra" />
+## iii) Fragmentation and regeneration
+
+In fragmentation, an organism breaks into two or more pieces, and each piece regenerates into a complete individual. In this process, the parent organism is split either naturally or due to
+external forces. Each fragment has the ability to grow into a new organism. As it happens in planaria (a type of flatworm) and starfish that can regenerate from fragments.
+
+<CaptionedImage src="kg2b5zd54k8662zjmfyqk63qhs8dj9ya" alt="" caption="Fig. 6.7: Fragmentation and regeneration in Planaria (A) and Star fish (B)" />
+## iv) Parthenogenesis
+
+Parthenogenesis is a form of reproduction in which an unfertilized egg develops into a new individual. In some animals, females can produce offspring from unfertilized eggs. Common examples are some species of insects (like bees).
+
+<CaptionedImage src="kg249wenrtexmp222ahp600xc98djg9n" alt="" caption="Fig. 6.8: Parthenogenesis in Honeybees" />
+## Mechanism of Sexual Reproduction in Animals
+
+Sexual reproduction is the common way of reproduction in animals. Most animals are dioecious i.e., male and female reproductive organs are found in separate individuals. The mechanism of sexual reproduction in animals following three key steps: gametogenesis, fertilization and development. For the understanding of this mechanism, we will describe the reproductive systems of rabbit (a model animal used in biological research)
+
+## 1. Male Reproductive System of Rabbit
+
+The male reproductive system of a rabbit includes a pair of testes that produce sperm, ducts that transport the sperm, and glands that add fluids to the sperm. The testes are located in a pouch of skin called the scrotum, which hangs below the body. Each testis contains coiled tubes called seminiferous tubules, where sperm is formed. Once the sperm matures, it collects in the ducts of the testes and moves to the epididymis.
+From the epididymis, the sperm travels through a sperm duct called the vas deferens. Both vas deferens join the urethra just below the urinary bladder. The urethra serves as a passage for both sperm and urine. Semen is the fluid that contains sperm, with about $10 \%$ sperm and $90 \%$ fluid.
+
+<CaptionedImage src="kg25aqw6t3xyjsgj14n95kf7as8dkzjr" alt="" caption="Fig. 6.9: Male reproductive system of a rabbit" />
+
+As sperm moves from the testes to the urethra, different glands add fluids. Seminal vesicles provide nutrients for the sperm, the prostate gland adds a fluid that neutralizes acidity, and Cowper's glands produce a lubricant for the ducts.
+## 2. Female Reproductive System of Rabbit
+
+The female reproductive system of a rabbit includes the ovaries and associated ducts. The ovaries are small, oval-shaped organs located in the abdominal cavity, just below the kidneys. Like most animals, female rabbits have two ovaries. The outer part of each ovary produces egg cells. Each egg cell is surrounded and nourished by a cluster of specialized cells called a follicle.
+When an egg cell is released from the ovary, it enters the fallopian tube, which is located close to the ovary. Fertilization happens in the fallopian tubes, and if the egg is fertilized, the resulting zygote is
+
+<CaptionedImage src="kg22ah96xtvp8b9gxvj9an2aps8djyn4" alt="" caption="Fig. 6.10: Female reproductive system of a rabbit" />
+
+carried to the uterus. In rabbits, the uterus is divided into two sections, known as uterine horns, which eventually join and lead to the vagina (also known as the birth canal). The cervix is the part of the uterus that separates it from the birth canal, where sperm is deposited during mating.
+## 3. Fertilization and Development in Rabbit
+
+Rabbits can breed all year round, but high heat can cause a temporary reduction in sperm count and motility, leading to sterility in male rabbits during the summer. Fertilization in rabbits occurs internally after mating. During mating, the male rabbit deposits sperm into the female rabbit's vagina. The sperm swim from the vagina, through the cervix, and into the uterus. From the uterus, they move into the fallopian tubes. Female rabbits are induced ovulators, meaning that ovulation (the release of eggs from the ovaries) happens after mating due to stimulation. The eggs are released from the ovaries into the fallopian tubes. In the fallopian tubes, sperm meet
+the egg (or eggs) that have been released from the ovaries. One sperm penetrates and fertilizes an egg, combining genetic material from both parents to form a zygote.
+The zygote begins to divide and form an embryo as it travels down
+
+## Rabbit Reproduction Note
+
+Why male rabbits become sterile in summer season? the fallopian tube towards the uterus. Once in the uterus, the embryo implants itself into the uterine wall, where it continues to develop until birth. This process takes place relatively quickly, with pregnancy period of about 30-32 days in rabbits. Since the internal fertilization leads to the complete internal development, therefore, the rabbit is a viviparous animal.
+
+
+---
+
+<!-- note kx70bk4zaz0th222ewp3gsr7rd8bt054 | topic ms7cy1b5rbfrf34kc68edd6vh58btw4x | status published -->
+# 6.4 Sex Determination in Human
+
+
+Sex determination means that a newborn would be a male baby like father or female baby like the mother. The mechanism of sex determination in humans is controlled by genetic factors, specifically the sex chromosomes. Humans have two types of sex chromosomes: $X$ and $Y$.
+The combination of these chromosomes inherited from the parents determines the biological sex of the individual.
+
+## Chromosomal Basis of Sex Determination
+
+Humans have 46 chromosomes in total, arranged in 23 homologous pairs. Each homologous pair consists of two structurally similar but functionally different chromosomes. One of which is maternal that comes from the mother and the other is paternal that comes from father. Out of these 23 pairs, 22 pairs are autosomes, which are the same in both males and females, and 1 pair is sex chromosome pair, which is different in male and female individuals. As show in the human karyotype in figure 6.10. In females, the sex chromosome pair consists of two completely homologous chromosomes called XX. In males, the sex chromosome pair consists of two partially homologous chromosomes called X and Y .
+
+## Role of Sperm and Egg
+
+During reproduction, each parent contributes one sex chromosome to the offspring. The mother can only contribute an X chromosome, as she is XX , therefore, during oogenesis every time the egg would take either of the $X$ chromosome. Since mother can produce only same type of gametes, therefore, the human female is called homogametic sex.
+
+<CaptionedImage src="kg24raskcdehktx11xd79v9j598e6258" alt="Fig. 6.11: Sex determination in Human" caption="Fig. 6.11: Sex determination in Human" />
+
+The father can contribute either an $X$ or a Y chromosome as he is XY , therefore, during spermatogenesis every time the sperm would take either X chromosome or Y chromosomes. Since father can produce two different types of gametes, therefore, the human male is called heterogametic sex.
+When male and female gametes are fused, the combination of these chromosomes determines the sex of the baby. If the baby inherits an X chromosome from the father, the combination will be XX and the baby will be female. If the baby inherits a Y chromosome from the father, the combination will be XY and the baby will be male.
+## The probability of a son or a daughter to be born
+
+The probability (chance) for a couple to have a son or a daughter during each pregnancy is $50 \%$ means there is equal chance of a son or a daughter to be born. Since, the mechanism of sex determination in human completely depends upon the father instead of mother, therefore, the male individual is called Sex determinator.
+
+## SUMMARY
+
+1. Reproduction is a biological process that allows species to produce new individuals, ensuring the survival and continuation of a species. It can occur through asexual or sexual methods. Asexual reproduction results in genetically identical offspring, while sexual reproduction involves the fusion of male and female gametes, leading to genetically diverse offspring. In sexual reproduction, hormones play a crucial role in sexual development, especially during puberty.
+2. For males, testosterone and follicle-stimulating hormone (FSH) are key hormones that regulate sperm production and the development of male reproductive organs. Testosterone promotes the maturation of sperm and the development of secondary sexual characteristics, while FSH supports the early stages of sperm production.
+3. In females, several hormones regulate sexual development and reproductive functions, including estrogen, FSH, luteinizing hormone (LH), and progesterone. Estrogen is crucial for the development of female reproductive organs and secondary sexual characteristics. FSH stimulates ovarian follicle development and estrogen production. LH triggers ovulation, and progesterone prepares the body for pregnancy by thickening the uterine lining.
+4. Gametogenesis is the process of producing gametes (sperm in males and eggs in females) through meiosis, ensuring genetic diversity. Fertilization, the union of sperm and egg, restores the diploid number of chromosomes and results in the formation of a zygote, which develops into a new organism.
+5. In animals, reproduction can be either sexual or asexual. Sexual reproduction involves gametogenesis, fertilization, and development, while asexual reproduction occurs through mechanisms like binary fission, budding, fragmentation, and parthenogenesis.
+6. The reproductive systems of animals like rabbits involve specialized organs and processes to facilitate fertilization and development.
+7. Sex determination in humans is based on the combination of sex chromosomes ( $X X$ for females and $X Y$ for males) inherited from the parents. The $Y$ chromosome, specifically the SRY gene, triggers the development of male reproductive organs. The probability of having a son or daughter is equal $(50 \%)$.

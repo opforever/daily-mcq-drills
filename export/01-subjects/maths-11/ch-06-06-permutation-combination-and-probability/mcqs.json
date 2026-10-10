@@ -1,0 +1,702 @@
+[
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Factorial Notation and Properties",
+    "_id": "k977fbjw7r01s96g3nkwtcns3h8cvb74",
+    "correctKey": "A",
+    "explanation": "There are n! orders of n distinct objects.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecqadmqtp7w749q74vcwtt985q00q",
+    "options": [
+      {
+        "key": "A",
+        "text": "It counts arrangements of n distinct objects"
+      },
+      {
+        "key": "B",
+        "text": "It counts only combinations"
+      },
+      {
+        "key": "C",
+        "text": "It gives a probability directly"
+      },
+      {
+        "key": "D",
+        "text": "It removes repetitions automatically"
+      }
+    ],
+    "sectionId": "connection-to-permutations",
+    "sectionLabel": "Connection to Permutations",
+    "stem": "Why does factorial appear in permutations?",
+    "topicId": "ms76a0bqf3kkrccjwtw2rdvdy185pe0s"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Factorial Notation and Properties",
+    "_id": "k97a21d27f9dj53e1a6mp20kss8cv021",
+    "correctKey": "B",
+    "explanation": "By definition, 5! is the product 5 × 4 × 3 × 2 × 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecqadmqtp7w749q74vcwtt985q00q",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 + 4 + 3 + 2 + 1"
+      },
+      {
+        "key": "B",
+        "text": "5 × 4 × 3 × 2 × 1"
+      },
+      {
+        "key": "C",
+        "text": "5 × 5"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "sectionId": "definition-of-factorial",
+    "sectionLabel": "Definition of Factorial",
+    "stem": "Which expression equals 5!?",
+    "topicId": "ms76a0bqf3kkrccjwtw2rdvdy185pe0s"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Factorial Notation and Properties",
+    "_id": "k977g0c25mcggs9xvs5m8a4ehs8cv89x",
+    "correctKey": "B",
+    "explanation": "By definition, 5! is the product 5 × 4 × 3 × 2 × 1.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecqadmqtp7w749q74vcwtt985q00q",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 + 4 + 3 + 2 + 1"
+      },
+      {
+        "key": "B",
+        "text": "5 × 4 × 3 × 2 × 1"
+      },
+      {
+        "key": "C",
+        "text": "5 × 5"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "sectionId": "definition-of-factorial",
+    "sectionLabel": "Definition of Factorial",
+    "stem": "Which expression equals 5!?",
+    "topicId": "ms76a0bqf3kkrccjwtw2rdvdy185pe0s"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Factorial Notation and Properties",
+    "_id": "k9723w0x4ngk8bwh43q190s5xn8cts51",
+    "correctKey": "A",
+    "explanation": "Factorial multiplies all positive integers up to n.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecqadmqtp7w749q74vcwtt985q00q",
+    "options": [
+      {
+        "key": "A",
+        "text": "The product 1·2·…·n"
+      },
+      {
+        "key": "B",
+        "text": "n+n"
+      },
+      {
+        "key": "C",
+        "text": "n²"
+      },
+      {
+        "key": "D",
+        "text": "n−1"
+      }
+    ],
+    "sectionId": "definition-of-factorial",
+    "sectionLabel": "Definition of Factorial",
+    "stem": "What is n! for a positive integer n?",
+    "topicId": "ms76a0bqf3kkrccjwtw2rdvdy185pe0s"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Factorial Notation and Properties",
+    "_id": "k97410r5fhxm1vwbjav6558tvh8cvcs6",
+    "correctKey": "A",
+    "explanation": "The recursive factorial identity is n!=n(n−1)!.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecqadmqtp7w749q74vcwtt985q00q",
+    "options": [
+      {
+        "key": "A",
+        "text": "n!=n(n−1)!"
+      },
+      {
+        "key": "B",
+        "text": "n!=n+(n−1)!"
+      },
+      {
+        "key": "C",
+        "text": "n!=n/(n−1)!"
+      },
+      {
+        "key": "D",
+        "text": "n!=(n−1)!−n"
+      }
+    ],
+    "sectionId": "key-properties-of-factorials",
+    "sectionLabel": "Key Properties of Factorials",
+    "stem": "What identity relates n! and (n−1)!?",
+    "topicId": "ms76a0bqf3kkrccjwtw2rdvdy185pe0s"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-1",
+    "topicTitle": "6.1 Factorial Notation and Properties",
+    "_id": "k9716mgje9zmmd3ycg1t749qf18cvczb",
+    "correctKey": "A",
+    "explanation": "Odd products can be extracted from factorial products.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ecqadmqtp7w749q74vcwtt985q00q",
+    "options": [
+      {
+        "key": "A",
+        "text": "By separating odd factors from a factorial"
+      },
+      {
+        "key": "B",
+        "text": "By using a determinant"
+      },
+      {
+        "key": "C",
+        "text": "By summing all integers"
+      },
+      {
+        "key": "D",
+        "text": "By taking a square root"
+      }
+    ],
+    "sectionId": "product-of-odd-integers",
+    "sectionLabel": "Product of Odd Integers",
+    "stem": "How can a product of successive odd integers be represented?",
+    "topicId": "ms76a0bqf3kkrccjwtw2rdvdy185pe0s"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_id": "k97bav11wn047rat60n42wj1sx8ct1se",
+    "correctKey": "A",
+    "explanation": "Restrictions require excluding or grouping invalid arrangements.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Count valid cases using inclusion or block methods"
+      },
+      {
+        "key": "D",
+        "text": "Use combinations only"
+      },
+      {
+        "key": "B",
+        "text": "Ignore the restriction"
+      },
+      {
+        "key": "C",
+        "text": "Always use n!"
+      }
+    ],
+    "sectionId": "arrangements-with-restrictions",
+    "sectionLabel": "Arrangements with Restrictions",
+    "stem": "How are restricted arrangements usually counted?",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_id": "k97egsn9xh4d3604e6rp29kpgd8ctftp",
+    "correctKey": "A",
+    "explanation": "Fixing one object removes rotational duplicates.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "options": [
+      {
+        "key": "D",
+        "text": "n−1"
+      },
+      {
+        "key": "A",
+        "text": "(n−1)!"
+      },
+      {
+        "key": "C",
+        "text": "n²"
+      },
+      {
+        "key": "B",
+        "text": "n!"
+      }
+    ],
+    "sectionId": "circular-permutations",
+    "sectionLabel": "Circular Permutations",
+    "stem": "How many circular arrangements of n distinct objects are there up to rotation?",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_id": "k97b270satdpsprc8ccda0ysc58cv70n",
+    "correctKey": "A",
+    "explanation": "The corpus defines a permutation as an arrangement in a definite order, so order matters.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "options": [
+      {
+        "key": "C",
+        "text": "Only if n is prime"
+      },
+      {
+        "key": "A",
+        "text": "Yes, the objects are arranged in a definite order"
+      },
+      {
+        "key": "B",
+        "text": "No, order is ignored"
+      },
+      {
+        "key": "D",
+        "text": "Only for circular arrangements"
+      }
+    ],
+    "sectionId": "key-formulas",
+    "sectionLabel": "Key Formulas",
+    "stem": "In a permutation, is the order of selected objects important?",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_id": "k974z3460ws7my677bzcpfbeqn8cvgsb",
+    "correctKey": "A",
+    "explanation": "The corpus defines a permutation as an arrangement in a definite order, so order matters.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yes, the objects are arranged in a definite order"
+      },
+      {
+        "key": "C",
+        "text": "Only if n is prime"
+      },
+      {
+        "key": "D",
+        "text": "Only for circular arrangements"
+      },
+      {
+        "key": "B",
+        "text": "No, order is ignored"
+      }
+    ],
+    "sectionId": "key-formulas",
+    "sectionLabel": "Key Formulas",
+    "stem": "In a permutation, is the order of selected objects important?",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_id": "k970ajjfykq5cxjhregg3agbs58cv1br",
+    "correctKey": "A",
+    "explanation": "Choose and order r objects from n.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "options": [
+      {
+        "key": "A",
+        "text": "n!/(n−r)!"
+      },
+      {
+        "key": "B",
+        "text": "n!/r!"
+      },
+      {
+        "key": "C",
+        "text": "n+r"
+      },
+      {
+        "key": "D",
+        "text": "nr"
+      }
+    ],
+    "sectionId": "key-formulas",
+    "sectionLabel": "Key Formulas",
+    "stem": "What is the number of permutations of n distinct objects taken r at a time?",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_id": "k976ese9q8hb9wp2evqwpqtadd8ct8gk",
+    "correctKey": "A",
+    "explanation": "Permutation models ordered arrangements such as keys.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "options": [
+      {
+        "key": "D",
+        "text": "Measuring an angle"
+      },
+      {
+        "key": "B",
+        "text": "Selecting an unordered committee only"
+      },
+      {
+        "key": "C",
+        "text": "Finding a determinant"
+      },
+      {
+        "key": "A",
+        "text": "Ordering a cryptographic key"
+      }
+    ],
+    "sectionId": "real-world-applications-slo-m-11-c-04",
+    "sectionLabel": "Real-World Applications (SLO M-11-C-04)",
+    "stem": "Which is a permutation application?",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-2",
+    "topicTitle": "6.2 Permutations of Distinct Objects",
+    "_id": "k9760mfzsmdmg8fhtfqapjr4ss8cv05n",
+    "correctKey": "A",
+    "explanation": "Using $^nP_r=n!/(n-r)!$, both $^nP_n$ and $^nP_{n-1}$ simplify to $n!$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75yp1c9wweqefc8v0jg1kg2n85pk4x",
+    "options": [
+      {
+        "key": "B",
+        "text": "$^nP_n=n$"
+      },
+      {
+        "key": "D",
+        "text": "$^nP_n=0$"
+      },
+      {
+        "key": "C",
+        "text": "$^nP_{n-1}=(n-1)!$"
+      },
+      {
+        "key": "A",
+        "text": "$^nP_n=^nP_{n-1}=n!$"
+      }
+    ],
+    "sectionId": "useful-identity",
+    "sectionLabel": "Useful Identity",
+    "stem": "Which identity holds for permutations of $n$ distinct objects?",
+    "topicId": "ms74bwk7vfca700b3yen1ht7b585q4e5"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_id": "k97dqzfcz40vy03gsrmc62pn9d8cvn9h",
+    "correctKey": "A",
+    "explanation": "Conditions change the allowable selections.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "options": [
+      {
+        "key": "C",
+        "text": "Only the order"
+      },
+      {
+        "key": "B",
+        "text": "Only the total n"
+      },
+      {
+        "key": "A",
+        "text": "The stated inclusion or exclusion conditions"
+      },
+      {
+        "key": "D",
+        "text": "No restrictions"
+      }
+    ],
+    "sectionId": "conditional-selection-problems",
+    "sectionLabel": "Conditional Selection Problems",
+    "stem": "What must be accounted for in conditional selection?",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_id": "k97axwxcfk68d20fwysfrs1a318cvwjb",
+    "correctKey": "A",
+    "explanation": "Choosing r objects is equivalent to excluding n−r.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "options": [
+      {
+        "key": "C",
+        "text": "They differ by one"
+      },
+      {
+        "key": "A",
+        "text": "They are equal"
+      },
+      {
+        "key": "B",
+        "text": "They sum to n"
+      },
+      {
+        "key": "D",
+        "text": "Their product is one"
+      }
+    ],
+    "sectionId": "key-properties-of-combinations",
+    "sectionLabel": "Key Properties of Combinations",
+    "stem": "What is the relation between nCr and nC(n−r)?",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_id": "k97fht3vdvz3jag5mwch8ydyth8ct4sk",
+    "correctKey": "A",
+    "explanation": "Choose two vertices and subtract the n sides.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "options": [
+      {
+        "key": "B",
+        "text": "n(n−1)"
+      },
+      {
+        "key": "A",
+        "text": "n(n−3)/2"
+      },
+      {
+        "key": "D",
+        "text": "n+3"
+      },
+      {
+        "key": "C",
+        "text": "n/2"
+      }
+    ],
+    "sectionId": "real-world-application-diagonals-of-a-polygon",
+    "sectionLabel": "Real-World Application: Diagonals of a Polygon",
+    "stem": "How many diagonals does an n-gon have?",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_id": "k9736ma3xqfc4hvcqxa7c9f1wx8cv0jv",
+    "correctKey": "A",
+    "explanation": "Unordered selection is modeled by combinations.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Choosing a set of songs without order"
+      },
+      {
+        "key": "D",
+        "text": "Permuting seats"
+      },
+      {
+        "key": "C",
+        "text": "Ordering a key"
+      },
+      {
+        "key": "B",
+        "text": "Arranging songs in a playlist order"
+      }
+    ],
+    "sectionId": "real-world-applications",
+    "sectionLabel": "Real-World Applications",
+    "stem": "Which is a combination application?",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_id": "k970em8qprqceftw7edzgqhk958ctrq7",
+    "correctKey": "A",
+    "explanation": "The chapter distinguishes combinations from permutations because order is not important in a combination.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "options": [
+      {
+        "key": "A",
+        "text": "When order is not important"
+      },
+      {
+        "key": "B",
+        "text": "When every object is repeated"
+      },
+      {
+        "key": "C",
+        "text": "When objects are arranged in a circle"
+      },
+      {
+        "key": "D",
+        "text": "When r is greater than n"
+      }
+    ],
+    "sectionId": "what-is-a-combination",
+    "sectionLabel": "What is a Combination?",
+    "stem": "When is an arrangement called a combination?",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_id": "k973akzjeq283phgym2yxb1akn8cv6np",
+    "correctKey": "A",
+    "explanation": "The chapter distinguishes combinations from permutations because order is not important in a combination.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "options": [
+      {
+        "key": "B",
+        "text": "When every object is repeated"
+      },
+      {
+        "key": "D",
+        "text": "When r is greater than n"
+      },
+      {
+        "key": "C",
+        "text": "When objects are arranged in a circle"
+      },
+      {
+        "key": "A",
+        "text": "When order is not important"
+      }
+    ],
+    "sectionId": "what-is-a-combination",
+    "sectionLabel": "What is a Combination?",
+    "stem": "When is an arrangement called a combination?",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7"
+  },
+  {
+    "subjectSlug": "maths-11",
+    "chapterSlug": "06-permutation-combination-and-probability",
+    "chapterTitle": "Permutation, Combination And Probability",
+    "topicSlug": "exercise-6-3",
+    "topicTitle": "6.3 Combinations and Their Properties",
+    "_id": "k974xd4mrs8nwczfwny0rz7fyx8ct08x",
+    "correctKey": "A",
+    "explanation": "Order does not matter in a combination.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76zvhwfkxnwmvmqyrc4s2zn585ptnc",
+    "options": [
+      {
+        "key": "D",
+        "text": "A sequence with repetition always"
+      },
+      {
+        "key": "C",
+        "text": "A factorial only"
+      },
+      {
+        "key": "B",
+        "text": "An ordered arrangement"
+      },
+      {
+        "key": "A",
+        "text": "An unordered selection"
+      }
+    ],
+    "sectionId": "what-is-a-combination",
+    "sectionLabel": "What is a Combination?",
+    "stem": "What is a combination?",
+    "topicId": "ms7besad4j9dch3c8zrbcrdv4s85pwr7"
+  }
+]

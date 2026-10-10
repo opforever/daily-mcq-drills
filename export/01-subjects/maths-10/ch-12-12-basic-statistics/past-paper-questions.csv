@@ -1,0 +1,267 @@
+subjectSlug,chapterSlug,chapterTitle,topicSlug,topicTitle,_id,exerciseId,exerciseTitle,lastAttempt,locked,origin,questionKind,questionNumber,stem,topicId,keyPoints,modelAnswer,sectionId,sectionLabel,sourceRef
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m176dyrsc3xfttz0yvtbchfagd8ctyfx","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","6","Study the adjoining curve showing heights (m) of 100 buildings in a megacity carefully and find:
+a) Number of buildings with heights less than 50 m.
+b) % age of buildings higher than 40 m.
+c) Ratio of the number of buildings less than 50 m and more than 50 m
+d) No. of Buildings falling in first quartile
+e) Maximum height of buildings falling under $8^{\text{th}}$ decile.
+f) Maximum height of buildings not falling under $30^{\text{th}}$ percentile.","ms7dz05ycg5r09efpwmatwvdvd8btj1y",,,,,
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m17b58pk7mzxm9dptabdg12b4h8ct5nc","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","10","The adjoining cumulative frequency curve shows the number of faulty items in a shipment of 100 items produced by Khani's Collection. Estimate
+i. The median
+ii. Lower quartile
+iii. Upper quartile
+iv. IQR
+v. 7th decile
+vi. 30th percentile","ms7dz05ycg5r09efpwmatwvdvd8btj1y",,,,,
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m17btsgyvnthx30ptdnxg97rxn8ctzbp","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","1","Construct cumulative frequency column for following frequency table and give answers.
+| Class interval | $1-10$ | $11-20$ | $21-30$ | $31-40$ | $41-50$ | $51-60$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Frequency | 3 | 4 | 7 | 9 | 5 | 2 |
+(i) What is the total number of items in the data?
+(ii) In which class interval $8^{\text{th}}$ item of the data lies?
+(iii) What is number of items having worth less than 21?
+(iv) Which group contains highest number of items?
+(v) What is the lower boundary of the last class?","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Add frequencies down the column for cumulative values""]","Cumulative frequencies: $3,7,14,23,28,30$.
+i. Total items $=30$.
+ii. The eighth item falls in class $21-30$ (cumulative reaches $7$ by $11-20$).
+iii. Items below twenty-one: $3+4=7$.
+iv. Class $31-40$ holds the most items ($9$).
+v. Lower boundary of the last class is $50.5$.","cumulative-frequency-distribution","Cumulative Frequency Distribution","{""blockIndex"":1,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m17263d8ewb55es6aps43tzxe58cth15","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","2","The mass gained by a newly born baby is given below:
+| Age in months | 1 | 2 | 3 | 4 | 5 | 6 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| No. of kg gained | 4 | 3 | 2 | 3 | 2 | 1 |
+Draw a cumulative frequency polygon (not ogive) to represent the data. Also find from the graph, how much he/she weighed at the age of 4 and half months?","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Plot upper boundary of each age against its running total"",""Start the polygon at zero frequency""]","Running totals against age give the cumulative polygon points:
+$(1,4),(2,7),(3,9),(4,12),(5,14),(6,15)$, joined to $(0,0)$ at the start.
+The polygon rises fastest over months one and four, flattening toward fifteen kilograms total.","cumulative-frequency-distribution","Cumulative Frequency Distribution","{""blockIndex"":3,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m17053303b3y1zwgwebxx5wcbx8ct8v8","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","2","The energy consumption for a month is given below for Rabee's home.
+| Units consumed | $101-200$ | $201-300$ | $301-400$ | $401-500$ | $501-600$ | $601-700$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| No. of months | 2 | 1 | 3 | 1 | 3 | 2 |
+Find Range and variance of the energy consumption.","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Class marks stand in for grouped values"",""Cross-check the positional class against the cumulative column""]","Class marks: $150.5,250.5,350.5,450.5,550.5,650.5$ with frequencies $2,1,3,1,3,2$ ($n=12$).
+Mean $=\frac{5006}{12}\approx417.17$ units.
+Range $=700-101=599$ units.
+Variance $\approx\frac{346666}{12}\approx28889$; standard deviation $\approx170.0$ units.","frequency-distribution","Frequency Distribution","{""blockIndex"":23,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m175sp5yjgx4nzv5311e72s3w58cthat","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","3","The ages of refugees in Ghaza camp were recorded as below:
+| Ages in years | $20-24$ | $25-29$ | $30-34$ | $35-39$ | $40-44$ | $45-49$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| No. of refugees | 5 | 16 | 12 | 10 | 8 | 4 |
+Draw an ogive (not polygon) to represent the data and Find
+a) First quartile.
+b) $7^{\text{th}}$ decile.
+c) $60^{\text{th}}$ percentile.","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Locate the positional class from cumulative frequency first"",""Cross-check the positional class against the cumulative column""]","Boundaries run $19.5$ to $49.5$ with cumulative counts $5,21,33,43,51,55$; $n=55$.
+a. Q1 position $\frac{55}{4}=13.75$ lies in $24.5-29.5$:
+$Q_{1}=24.5+\frac{5}{16}(13.75-5)\approx27.23$ years.
+b. D7 position $0.7\times55=38.5$ lies in $34.5-39.5$:
+$D_{7}=34.5+\frac{5}{10}(38.5-33)=37.25$ years.
+c. P60 position $0.6\times55=33$ lies in $29.5-34.5$:
+$P_{60}=29.5+\frac{5}{12}(33-21)=34.5$ years.","frequency-distribution","Frequency Distribution","{""blockIndex"":5,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m17865agh4ejf6f7k9kx8dn0k18cv0xc","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","3","Maria wants to analyze the water supply in her area, given in the data as shown:
+| Water supply (gallons) | $501-700$ | $701-900$ | $901-1100$ | $1101-1300$ |
+| :---: | :---: | :---: | :---: | :---: |
+| No. of hours | 4 | 5 | 2 | 1 |
+Find
+i. mean supply of water in the area.
+ii. Variance of the supply of water.
+iii. SD of the supply of water.
+iv. CV of the supply of water.","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""CV expresses spread relative to the mean"",""Cross-check the positional class against the cumulative column""]","Midpoints $600.5,800.5,1000.5,1200.5$, frequencies $4,5,2,1$, $n=12$.
+i. Mean $=\frac{9606}{12}=800.5$ gallons.
+ii. Variance $=\frac{400000}{12}\approx33333.3$.
+iii. SD $\approx182.57$ gallons.
+iv. CV $=\frac{182.57}{800.5}\times100\approx22.81\%$.","frequency-distribution","Frequency Distribution","{""blockIndex"":25,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m170wbj3wx6dr29pzyn8xjzqx98cvews","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","4","Scores of a Hifz e Quran test were grouped into the following frequency distribution.
+| scores | $41-50$ | $51-60$ | $61-70$ | $71-80$ | $81-90$ | $91-100$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $f$ | 3 | 17 | 20 | 30 | 18 | 2 |
+Draw a cumulative frequency table and cumulative frequency curve (ogive) and tell:
+a) How many boys appeared in the test?
+b) What is median score?
+c) How many boys scored under median?
+d) How many boys fell in first decile?
+e) How many boys fell in $30^{\text{th}}$ percentile?
+f) If excellence award is to be given to boys falling in $100^{\text{th}}$ percentile, how many boys got excellence award?","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Median splits ninety observations at forty-five"",""Cross-check the positional class against the cumulative column""]","Cumulative counts: $3,20,40,70,88,90$.
+a. Ninety boys appeared.
+b. Median position $45$ lies in $70.5-80.5$: median $=70.5+\frac{5}{30}(45-40)\approx71.33$.
+c. Forty-five boys scored under the median by definition.
+d. First-decile band runs up to $D_{1}=50.5+\frac{5}{17}(9-3)\approx52.26$, containing about nine boys.
+e. Thirtieth percentile: $30$ boys lie below it ($P_{30}\approx62.25$).
+f. The hundredth percentile equals the single highest score; grouped data cannot isolate how
+many boys share that exact mark, so the award count stays undetermined rather than guessed.","frequency-distribution","Frequency Distribution","{""blockIndex"":7,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m175qedgsq3qvfeqnz1x7tp0rh8ct9xc","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","5","The masses measured to the nearest kg of 50 cubs are shown below:
+| Mass (kg) | $60-64$ | $65-69$ | $70-74$ | $75-79$ | $80-84$ | $85-89$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| $f$ | 2 | 6 | 12 | 14 | 10 | 6 |
+(i) Construct a cumulative frequency table
+(ii) Construct a cumulative frequency polygon and estimate number of cubs above 77 kg.
+(iii) Construct a cumulative frequency curve and estimate number of cubs above 77 kg.
+(iv) Compare the results of (ii) & (iii)","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Interpolate inside the class holding the target value"",""Cross-check the positional class against the cumulative column""]","i. Cumulative counts: $2,8,20,34,44,50$.
+ii. Polygon estimate: interpolating inside $74.5-79.5$ gives
+$20+14\times\frac{77-74.5}{5}=27$, so about $50-27=23$ cubs exceed seventy-seven kg.
+iii. The smooth ogive crosses the same class interval and yields essentially the same reading,
+about twenty-three cubs above seventy-seven kg.
+iv. Both constructions agree because both interpolate linearly within the same class;
+the curve merely smooths the polygon's corners.","frequency-distribution","Frequency Distribution","{""blockIndex"":9,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m173vc9zk1340eq0v9dvd4fgf58ctnfh","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","6","Mutahhir wants to analyze the purchases made by customers, grouped by age as shown:
+| Age Group | Purchase worth (in Rs.) | Number of Customers |
+| :---: | :---: | :---: |
+| kids | $0-500$ | 20 |
+| juniors | $500-1000$ | 30 |
+| seniors | $1000-2000$ | 25 |
+Find the range, variance and standard deviation of the purchases across all age groups.","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Open-ended-looking classes still contribute their midpoints"",""Cross-check the positional class against the cumulative column""]","Midpoints $250,750,1500$ with customers $20,30,25$ ($n=75$); mean $\approx866.67$ rupees.
+Range $=2000-0=2000$ rupees.
+Variance $\approx\frac{380278(20)+13611(30)+401111(25)}{75}\approx240556$;
+standard deviation $\approx490.46$.","frequency-distribution","Frequency Distribution","{""blockIndex"":31,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m17abzya3539z1anfq1fb00y2d8ctdpy","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","7","Mr. Rashid wants to analyze the salaries of his employees. The first quartile (Q1) is of Rs.50,000, a second quartile (Q2) of Rs.70,000, a third quartile (Q3) of Rs.90,000 and maximum and minimum salaries are of Rs. 25,000 & Rs. 150,000 respectively. Find range and inter quartile range of the data.","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""IQR ignores the outer quarters"",""Cross-check the positional class against the cumulative column""]","Range $=$ maximum $-$ minimum $=150000-25000=125000$ rupees.
+Inter-quartile range $=Q_{3}-Q_{1}=90000-50000=40000$ rupees.","i-quartiles","i. Quartiles","{""blockIndex"":11,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m1795eavf4tmdm28rtsg4s7krh8ctmt4","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","8","Khadeeja scored 85 on a test, and the teacher reported that her score was in the 75th percentile. What does this information indicate about status of Khadeeja in her class?","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Percentile rank compares standing against the group"",""Cross-check the positional class against the cumulative column""]","A seventy-fifth percentile score means Khadeeja performed better than roughly
+seventy-five percent of her class, placing her in the top quarter on that test.","iii-percentiles","iii. Percentiles","{""blockIndex"":11,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-1-frequency-distribution","12.1 Frequency Distribution","m17fv8g277jhy59xk3qye23qbn8cv180","xd709bnt5pk91nvjv6bq9mntr18dzc2x","Exercise 12.1",,"false","exercise","unclassified","9","Uzair wants to price his house based on the prices of similar houses in the area. The prices have a Q1 of Rs. 20,000,000, Q2 of Rs. 25,000,000, Q3 of Rs. 30,000,000, and a maximum price of Rs. 35,000,000. What is the possible price of the house if it is in the third quartile? Also find IQR of the data.","ms7dz05ycg5r09efpwmatwvdvd8btj1y","[""Quartiles bracket the typical price band"",""Cross-check the positional class against the cumulative column""]","With $Q_{1}=20{,}000{,}000$, $Q_{2}=25{,}000{,}000$ and $Q_{3}=30{,}000{,}000$,
+the middle half of comparable houses sells between twenty and thirty million rupees,
+so pricing near twenty-five million sits squarely in the market's central range.","iv-inter-quartile-range","Iv. Inter Quartile Range","{""blockIndex"":11,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-2-the-box-and-whisker-plot-correlation","12.2 The Box and Whisker Plot Correlation","m178r4xcw6jwv039cxwn9850ts8cvq3a","xd75r2wm1j1v2j3s518nxvdsys8dznse","Exercise 12.2",,"false","exercise","unclassified","2","Adjoining box & whisker plot shows wages for part time and full-time employees: [box and whisker plot, hourly rate for full and part-time employees]
+a) What is the amount of median wages paid to full time employees?
+b) What are minimum and maximum wages paid to part time employees?
+c) What is IQR for the dataset of fulltime employees?
+d) What is IQR for the dataset of part time employees?
+e) What type of correlation is observed in both datasets?","ms71tqvnpsj2sv9ft5brhtqx158bvx3k",,,,,
+"maths-10","12-basic-statistics","Basic Statistics","12-2-the-box-and-whisker-plot-correlation","12.2 The Box and Whisker Plot Correlation","m177pqgrd7n9c6qgm2t5qh0ev98ctjhr","xd75r2wm1j1v2j3s518nxvdsys8dznse","Exercise 12.2",,"false","exercise","unclassified","4","Given scatter diagram is showing relation between practice time and marks obtained in math's test.
+a. Find type of correlation.
+b. Draw line of best fit.","ms71tqvnpsj2sv9ft5brhtqx158bvx3k",,,,,
+"maths-10","12-basic-statistics","Basic Statistics","12-2-the-box-and-whisker-plot-correlation","12.2 The Box and Whisker Plot Correlation","m174ba6vp754d7yg5kycq1rqjs8ctap1","xd75r2wm1j1v2j3s518nxvdsys8dznse","Exercise 12.2",,"false","exercise","unclassified","1","A mechanical engineer wants to analyze the relationship between the mass of a car and its fuel efficiency. Show the data by box and whisker plots.
+| variables | Min/Max | Q1 | median | Q3 | Min/Max |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Mass (kg) | 1100 | 1200 | 1500 | 1700 | 2000 |
+| Fuel efficiency (Km/l) | 24 | 20 | 14 | 12 | 10 |
+a. Find IQR
+b. What is type of correlation?
+c. What conclusion can be drawn from this?","ms71tqvnpsj2sv9ft5brhtqx158bvx3k","[""Five-number summaries fix every box-plot hinge"",""Cross-check the positional class against the cumulative column""]","Box plots place five hinges each on a common scale.
+Mass: min $1100$, $Q_{1}1200$, median $1500$, $Q_{3}1700$, max $2000$, so IQR $=500$ kg.
+Fuel efficiency: min $10$, $Q_{1}12$, median $14$, $Q_{3}20$, max $24$, so IQR $=8$ km/l.
+b. Heavier cars pair with lower efficiency: negative correlation.
+c. Conclusion: fuel economy falls as vehicle mass rises.","box-and-whisker-plot-or-simply-box-plot","Box-and-Whisker Plot (or simply box plot)","{""blockIndex"":13,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-2-the-box-and-whisker-plot-correlation","12.2 The Box and Whisker Plot Correlation","m174g6632hm7fxv6dwexchatns8ctbdw","xd75r2wm1j1v2j3s518nxvdsys8dznse","Exercise 12.2",,"false","exercise","unclassified","6","A teacher wants to analyze the test scores of her students. Draw box and whisker plot to show a median score of 75, a first quartile of 60, and a third quartile of 85. Find:
+a. What percentage of students scored above 85?
+b. IQR","ms71tqvnpsj2sv9ft5brhtqx158bvx3k","[""Quarter of data lives between any neighbouring quartile fence"",""Cross-check the positional class against the cumulative column""]","With median $75$, $Q_{1}60$ and $Q_{3}85$, half the class scores between sixty and eighty-five.
+a. Above $85$ sits the top quarter: twenty-five percent of students.
+(The box plot draws whiskers out to the extremes beyond those quartiles.)","box-and-whisker-plot-or-simply-box-plot","Box-and-Whisker Plot (or simply box plot)","{""blockIndex"":21,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-2-the-box-and-whisker-plot-correlation","12.2 The Box and Whisker Plot Correlation","m17ff1yvxm1mp0c0p1vah26t1n8ctqfz","xd75r2wm1j1v2j3s518nxvdsys8dznse","Exercise 12.2",,"false","exercise","unclassified","3","Maryam wants to investigate the relationship between the amount of rainfall and the number of flowers blooming in her garden. Draw the scatter diagram.
+| Rain (inch) | 2 | 4 | 6 | 8 | 10 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| No. of flowers | 10 | 22 | 55 | 70 | 80 |
+a. Draw a line of best fit.
+b. Comment on type of correlation","ms71tqvnpsj2sv9ft5brhtqx158bvx3k","[""Axis choice follows cause then effect"",""Cross-check the positional class against the cumulative column""]","Plot rain along the horizontal axis and flowers along the vertical axis, marking the five
+paired points. The upward drift of the points shows more rain accompanying more blooms:
+a positive relationship.","construction-of-scatter-diagram-lines-of-best-fit-and-interpretation-of-data","Construction of Scatter Diagram, Lines of Best Fit and Interpretation of Data","{""blockIndex"":17,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-2-the-box-and-whisker-plot-correlation","12.2 The Box and Whisker Plot Correlation","m175rpbqtsa4rqczj033vbgthn8cvm9c","xd75r2wm1j1v2j3s518nxvdsys8dznse","Exercise 12.2",,"false","exercise","unclassified","5","Draw the scatter diagram for the data showing the relationship between amount of pollution (measured in Air Quality Index (AQI)) and number of sick days reported by a locality:
+| AQI (Pollution Level) | 20 | 40 | 60 | 80 | 100 | 120 | 10 | 30 | 50 | 70 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| No. of Sick Days | 5 | 18 | 25 | 40 | 60 | 80 | 3 | 15 | 20 | 27 |
+Find correlation and what does this suggest?","ms71tqvnpsj2sv9ft5brhtqx158bvx3k","[""Describe the trend the plotted pattern shows"",""Cross-check the positional class against the cumulative column""]","Pair AQI with sick days and plot the five points. Rising AQI tracking rising sick days
+produces an upward-sloping pattern: pollution level and reported sickness move together positively.","construction-of-scatter-diagram-lines-of-best-fit-and-interpretation-of-data","Construction of Scatter Diagram, Lines of Best Fit and Interpretation of Data","{""blockIndex"":19,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m17053303b3y1zwgwebxx5wcbx8ct8v8","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","2","The energy consumption for a month is given below for Rabee's home.
+| Units consumed | $101-200$ | $201-300$ | $301-400$ | $401-500$ | $501-600$ | $601-700$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| No. of months | 2 | 1 | 3 | 1 | 3 | 2 |
+Find Range and variance of the energy consumption.","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""Class marks stand in for grouped values"",""Cross-check the positional class against the cumulative column""]","Class marks: $150.5,250.5,350.5,450.5,550.5,650.5$ with frequencies $2,1,3,1,3,2$ ($n=12$).
+Mean $=\frac{5006}{12}\approx417.17$ units.
+Range $=700-101=599$ units.
+Variance $\approx\frac{346666}{12}\approx28889$; standard deviation $\approx170.0$ units.","frequency-distribution","Frequency Distribution","{""blockIndex"":23,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m17865agh4ejf6f7k9kx8dn0k18cv0xc","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","3","Maria wants to analyze the water supply in her area, given in the data as shown:
+| Water supply (gallons) | $501-700$ | $701-900$ | $901-1100$ | $1101-1300$ |
+| :---: | :---: | :---: | :---: | :---: |
+| No. of hours | 4 | 5 | 2 | 1 |
+Find
+i. mean supply of water in the area.
+ii. Variance of the supply of water.
+iii. SD of the supply of water.
+iv. CV of the supply of water.","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""CV expresses spread relative to the mean"",""Cross-check the positional class against the cumulative column""]","Midpoints $600.5,800.5,1000.5,1200.5$, frequencies $4,5,2,1$, $n=12$.
+i. Mean $=\frac{9606}{12}=800.5$ gallons.
+ii. Variance $=\frac{400000}{12}\approx33333.3$.
+iii. SD $\approx182.57$ gallons.
+iv. CV $=\frac{182.57}{800.5}\times100\approx22.81\%$.","frequency-distribution","Frequency Distribution","{""blockIndex"":25,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m173vc9zk1340eq0v9dvd4fgf58ctnfh","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","6","Mutahhir wants to analyze the purchases made by customers, grouped by age as shown:
+| Age Group | Purchase worth (in Rs.) | Number of Customers |
+| :---: | :---: | :---: |
+| kids | $0-500$ | 20 |
+| juniors | $500-1000$ | 30 |
+| seniors | $1000-2000$ | 25 |
+Find the range, variance and standard deviation of the purchases across all age groups.","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""Open-ended-looking classes still contribute their midpoints"",""Cross-check the positional class against the cumulative column""]","Midpoints $250,750,1500$ with customers $20,30,25$ ($n=75$); mean $\approx866.67$ rupees.
+Range $=2000-0=2000$ rupees.
+Variance $\approx\frac{380278(20)+13611(30)+401111(25)}{75}\approx240556$;
+standard deviation $\approx490.46$.","frequency-distribution","Frequency Distribution","{""blockIndex"":31,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m17c4dpte7exechah9zvhtde098cve1s","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","numerical","4","An organization wants to analyze salaries, grouped by department as shown below:
+| Department | Salary Range | Number of Employees |
+| :--- | :--- | :--- |
+| Elementary | $40,000-60,000$ | 10 |
+| Secondary | $60,000-80,000$ | 12 |
+| Higher secondary | $80,000-100,000$ | 8 |
+Find the range, variance and standard deviation of the salaries across all departments. Also calculate CV of the data.","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""Weighted deviations use department head-counts"",""Cross-check the positional class against the cumulative column""]","Midpoints $50000,70000,90000$ with staff $10,12,8$ ($n=30$); mean $\approx68666.67$.
+Range $=100000-40000=60000$.
+Variance $\approx\frac{(18666.67^{2})(10)+(1333.33^{2})(12)+(21333.33^{2})(8)}{30}
+\approx238222222$; SD $\approx15434$.
+CV $\approx\frac{15434}{68666.67}\times100\approx22.48\%$.","comparison-of-2-data-sets-using-mean-and-standard-deviation","Comparison of 2 Data Sets using Mean and Standard Deviation","{""blockIndex"":27,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m17atpgaz7vjz9as0dw5k06d458ctyyv","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","5","A teacher wants to analyze the scores of students in different sections of class 10 as shown:
+| Class | Scores Range | Number of Students |
+| :---: | :---: | :---: |
+| 10 Mauve | $70-80$ | 15 |
+| 10 teal | $60-70$ | 12 |
+| 10 hazel | $50-60$ | 10 |
+Find the variance and standard deviation of the grades of all sections.","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""Keep unrounded means until the variance step"",""Cross-check the positional class against the cumulative column""]","Midpoints $75,65,55$ with students $15,12,10$ ($n=37$); mean $=\frac{2455}{37}\approx66.35$.
+Variance $=\frac{74.82\times15+1.82\times12+128.82\times10}{37}\approx65.73$;
+standard deviation $\approx8.11$.","comparison-of-2-data-sets-using-mean-and-standard-deviation","Comparison of 2 Data Sets using Mean and Standard Deviation","{""blockIndex"":29,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m17ctzxar6ftj38cvs7fxzcav98cvbm7","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","7","Namra wants to analyze blood pressure of patients in OT & OPD grouped by age as shown:
+Patients in OT:
+| BP | $100-110$ | $110-120$ | $120-130$ | $130-140$ | $140-150$ | $150-160$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| No. of patients | 3 | 8 | 6 | 7 | 4 | 2 |
+Patients in OPD:
+| BP | $100-110$ | $110-120$ | $120-130$ | $130-140$ | $140-150$ | $150-160$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| No. of patients | 9 | 1 | 5 | 7 | 6 | 2 |
+Find the Range, Mean, variance and standard deviation of the blood pressure of both datasets. Also find CV and comment on results.","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""CV compares variability across different-mean datasets"",""Cross-check the positional class against the cumulative column""]","OT midpoints $105..155$, $f=3,8,6,7,4,2$ ($n=30$): mean $=\frac{3820}{30}\approx127.33$;
+variance $\approx197.9$; SD $\approx14.07$; CV $\approx11.05\%$.
+OPD midpoints same, $f=9,1,5,7,6,2$: mean $=\frac{3810}{30}=127$;
+variance $\approx282.67$; SD $\approx16.81$; CV $\approx13.24\%$.
+Comment: average blood pressure matches across the two settings, but OPD readings vary more
+relative to their mean, so OT pressures are steadier.","comparison-of-2-data-sets-using-mean-and-standard-deviation","Comparison of 2 Data Sets using Mean and Standard Deviation","{""blockIndex"":33,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m173xbys3t7qw0x089pdf22kxn8cvv05","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","8","Khola wants to forecast the temperature for the next week for Jhelum and Indiana. She has the history of a week for both of the cities as given:
+Jhelum:
+| Temperature(F°) | 96-100 | 101-105 | 106-110 | 111-115 |
+| :---: | :---: | :---: | :---: | :---: |
+| No. of days | 2 | 3 | 1 | 1 |
+Indiana:
+| Temperature(F°) | 51-60 | 61-70 | 71-80 | 81-90 |
+| :---: | :---: | :---: | :---: | :---: |
+| No. of days | 3 | 1 | 2 | 1 |
+Help her to find:
+i. Mean of both data sets.
+ii. Variance of both datasets
+Also comment on the possible predictions for next week temperature for both cities. (Hint: In weather forecasting, variance is used to measure the spread or uncertainty in temperature predictions. A higher variance indicates a wider range of possible temperatures, making it more challenging to predict the exact temperature.)","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""Smaller variance supports bolder forecasts"",""Cross-check the positional class against the cumulative column""]","Jhelum midpoints $98,103,108,113$, days $2,3,1,1$: mean $\approx103.71^{\circ}$F;
+variance $\approx24.5$. Indiana midpoints $55.5,65.5,75.5,85.5$, days $3,1,2,1$:
+mean $\approx66.93^{\circ}$F; variance $\approx126.5$.
+Prediction: Jhelum should stay near one hundred four degrees with little swing, while Indiana
+sits cooler but with a much wider spread, so its weekly forecast carries more uncertainty.","comparison-of-2-data-sets-using-mean-and-standard-deviation","Comparison of 2 Data Sets using Mean and Standard Deviation","{""blockIndex"":36,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-3-measures-of-dispersion","12.3 Measures of Dispersion","m1791nmm0pjep0kvsa8k54xjhh8ctx5c","xd71cgw22fhmmz4vw6nn1bvgcd8dzy4s","Exercise 12.3",,"false","exercise","unclassified","1","What is dispersion? Write names and formulae of 3 measures of dispersion.","ms78v2g3rnhmgcdrqevvzv268x8bt7j2","[""Dispersion complements averages"",""Cross-check the positional class against the cumulative column""]","Dispersion measures how spread out data values are around a centre.
+Three measures with formulae:
+range $=$ largest value minus smallest value;
+variance $\sigma^{2}=\frac{\sum f(x-\bar{x})^{2}}{\sum f}$;
+standard deviation $\sigma=\sqrt{\sigma^{2}}$.","measures-of-dispersion","Measures of Dispersion","{""blockIndex"":23,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m17092w81cv4ek70qj937bbt1d8cv296","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","3","A survey of 100 students shows that 40 like pizza, 45 like burgers. Draw venn diagram and find probability of students like either pizza or burgers, assuming none like both?","ms72r7az532356xy78qd696e8d8bv45f","[""Mutually exclusive sets union without subtraction"",""Cross-check the positional class against the cumulative column""]","No student likes both, so the union adds directly:
+$P(\text{pizza or burger})=\frac{40+45}{100}=0.85$.","probability-of-combined-events-using-venn-diagram","Probability of Combined Events using Venn Diagram","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m17ddxxrmjfm4cxac62zs7n6tx8cvvs0","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","4","What is the probability of a patient testing positive for a disease with either Test A or Test B, given that the probability of testing positive with Test A is 0.3 and the probability of testing positive with Test B is 0.4, and the tests are independent?","ms72r7az532356xy78qd696e8d8bv45f","[""Independence multiplies the joint probability"",""Cross-check the positional class against the cumulative column""]","Independent tests overlap, so subtract the product:
+$P(A \cup B)=0.3+0.4-(0.3)(0.4)=0.58$.","addition-rule","Addition Rule","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m171qk9b28h21zmt6ybgheyhms8ct4g6","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","5","What is the probability of getting either Job A or Job B, given that the probability of getting Job A is 0.5 and the probability of getting Job B is 0.4 and the offers are independent?","ms72r7az532356xy78qd696e8d8bv45f","[""Either-or questions use the addition law"",""Cross-check the positional class against the cumulative column""]","$P(A \cup B)=0.5+0.4-(0.5)(0.4)=0.9-0.2=0.7$.","addition-rule","Addition Rule","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m178f5p90vqbsnat8ncfk6902x8ctdj1","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","6","What is the probability of taking either Volvo bus or Bedford bus to work, given that the probability of taking Volvo bus is 1/2 and the probability of taking Bedford bus is 1/3, and the buses are to be chosen independently?","ms72r7az532356xy78qd696e8d8bv45f","[""Common fractions combine cleanly over sixths here"",""Cross-check the positional class against the cumulative column""]","$P(V \cup B)=\frac{1}{2}+\frac{1}{3}-\frac{1}{2}\cdot\frac{1}{3}
+=\frac{3+2-1}{6}=\frac{2}{3}$.","addition-rule","Addition Rule","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m170w3j5ae8n0dz2xyccwt0d0h8cv1wt","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","7","What is the probability of either Team Sudaisee or Team Huzaifee winning the championship, given that the probability of Team Sudaisee winning is 12/27 and the probability of Huzaifee team winning is 13/27, and the teams play independently?","ms72r7az532356xy78qd696e8d8bv45f","[""Exclusive events skip the overlap term"",""Cross-check the positional class against the cumulative column""]","Championship can have only one winner, so the events are mutually exclusive:
+$P=\frac{12}{27}+\frac{13}{27}=\frac{25}{27}$.","addition-rule","Addition Rule","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m17a21jsn431z5qxws7yzschm58cv9x9","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","8","HJ produces party abayaas. In the products, probability of colour damage is 0.1 and the probability of bad stitching is 0.2. Find the probability of a product having either colour damage or bad stitching.","ms72r7az532356xy78qd696e8d8bv45f","[""Small joint probabilities barely dent the sum"",""Cross-check the positional class against the cumulative column""]","Assuming independent defects:
+$P(\text{colour damage or bad stitching})=0.1+0.2-(0.1)(0.2)=0.28$.","addition-rule","Addition Rule","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m17at9cxjt8kfeq3r8ghw2zh5x8cv8d5","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","10","Cocobakes produces festive cakes. The quality control department performs 2 quality checks A and B on an item. Find the probability of a product passing both Quality Control Test A and Quality Control Test B, given that the probability of passing Test A is 0.9 and the probability of passing Test B is 0.8, and the tests are independent?","ms72r7az532356xy78qd696e8d8bv45f","[""Sequential independent screens multiply through"",""Cross-check the positional class against the cumulative column""]","Passing both independent checks: $P(A \cap B)=0.9\times0.8=0.72$.","multiplication-rule","Multiplication Rule","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m17dz8sbvasktmc47w4rd8zhn18ctrev","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","9","Fakeha is tested for a disease with Test A and Test B and the probability of testing positive with A is 0.9 and the probability of testing positive with B is 0.7. Find the probability of Fakeha testing positive with both Test A and Test B, when the tests are independent?","ms72r7az532356xy78qd696e8d8bv45f","[""And questions multiply independent probabilities"",""Cross-check the positional class against the cumulative column""]","Independent tests: $P(\text{both positive})=0.9\times0.7=0.63$.","multiplication-rule","Multiplication Rule","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m175by8zx45ce3tzkhe9a3hk9n8cverp","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","2","Ashas flipped a coin thrice. Draw tree diagram to find the probability of getting three Tails?","ms72r7az532356xy78qd696e8d8bv45f","[""Multiply branch probabilities along one path"",""Cross-check the positional class against the cumulative column""]","The tree has three levels of two branches, eight endpoints in all, only TTT among them:
+$P(\text{three tails})=\left(\frac{1}{2}\right)^{3}=\frac{1}{8}$.","probability-of-combined-events-using-diagram","Probability of Combined Events using Diagram","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"
+"maths-10","12-basic-statistics","Basic Statistics","12-4-probability","12.4 Probability","m1798qxjby3ktrpx7rnrf6a3458cvzvt","xd7776vfm2zv9e6my1hdze4y958dyn2h","Exercise 12.4",,"false","exercise","unclassified","1","Musaab picked a card randomly from a box containing cards bearing numbers 1, 2 and 3. He then replaced and picked another after well shuffling. He found product of two numbers he got in 2 trials. Draw the possibility diagram of this experiment and find probability of getting an even product.","ms72r7az532356xy78qd696e8d8bv45f","[""Replacement keeps all nine outcomes equally likely"",""Cross-check the positional class against the cumulative column""]","Possibility diagram: rows for first pick $1,2,3$ and columns for second pick $1,2,3$
+give nine ordered outcomes whose products are
+$1,2,3;\ 2,4,6;\ 3,6,9$.
+Even products occur five times out of nine: $P(\text{even})=\frac{5}{9}$.","probability-of-combined-events-using-sample-space-diagrams","Probability of Combined Events using Sample Space Diagrams","{""blockIndex"":42,""chapterNumber"":12,""subjectSlug"":""maths-10""}"

@@ -1,0 +1,294 @@
+<!-- note kx7ddq34jj9z1kjpa91wm1jcy18bvv3y | topic ms77r6bddvjamvn6nzracgc3yd8bt3sg | status published -->
+# 5.1 Artificial Intelligence and Machine Learning
+
+
+## UNIT INTRODUCTION
+
+This unit is dedicated to learning about popular fields in Computer Science which include Artificial Intelligence, Machine Learning and Cloud Computing. It also describes the importance of data and social implications of using it to make decisions and provide services.
+
+## Artificial Intelligence
+
+Artificial Intelligence (AI) is a branch of computer science to make computer-controlled machines that can intelligently perform human-like tasks. Using AI- based machines is like fixing an intelligent brain in the machines that has decision-making capabilities to solve complex problems.
+Using AI technology, computer can be trained to perform various tasks by imitating actions of human beings. It is the technology related with making intelligent machines and developing intelligent software. In other words, it is the intelligence shown by machines to help human beings in solving various problems efficiently and with high precision. Al is changing the world.by helping us in complex problems what was not possible before.
+
+## Machine Learning
+
+Machine learning is a field within Artificial Intelligence that teaches computers to learn from data inputs and experience like humans without direct programming. Al algorithms are based on ML to predict output. Machine learning algorithms facilitate computers to train on data inputs and analyze it to produce accurate output values. It is the technology that recognizes patterns in large databases to build models to automate decision-making. Machine learning algorithms improve their decision-making capabilities over time as more sample data is input in the computers.
+Machine learning has become very useful technique for solving problems related to many areas. These include recognizing images and speech, detecting fraud in banking transactions, identifying spam, email phishing, image and video recognition, translation, virtual personal assistant, Google search engine, self-driving cars, manufacturing, medical devices, etc.
+
+## Types of Machine Learning
+
+There are two types of machine learning, that is, supervised and unsupervised machine learning.
+
+## Supervised Machine Learning
+
+Supervised learning algorithms take a set of known input data and known output responses to build a model to make predictions. In supervised learning the goal is to learn how to do the mapping to match the input to the output. Once the model is built, it is used to make new predictions on unseen data as well. Machine learning is used to solve complex problems that involves large amount of data but there is no formula to predict the output.
+For example, assume that we want to predict price of a car. In this case we need to create a dataset of cars having the input like:
+
+- Engine type and power
+- Transmission type (manual/automatic)
+- Number of seats
+- Front-wheel/rear-wheel drive
+- Keyless entry
+- Push button start
+- Safety features
+- Country of manufacturing
+
+We have to label the cars with their prices. After entering the data for a large number of cars, we can train the algorithm and create a model. The price of a new car can be predicted based on the input fed in the supervised learning algorithm.
+
+## Unsupervised Machine Learning
+
+In unsupervised learning, the training data is unseen and it is un-labelled. The meaning of un-labelled is that the data is not assigned a category or group. The unseen data is fed into machine learning algorithm to train the model. The trained model tries to search for a pattern and gives the desired result. The unsupervised leaning algorithm looks for hidden patterns in the input data. It uses learning technique known as clustering (grouping). The unsupervised learning algorithm finds hidden patterns or groupings in the input data to make them suitable for clustering and data analysis.
+For example, a bank wants to predict how capable an applicant is of repaying the loan. A machine learning system is to be set up to ensure that the loan is given to the applicant who can repay it. In this case, the applicant will provide the data about his monthly income, debt, credit history, etc. along with his personal data such as age, mobile number, gender, etc. Information about age, mobile number and gender are not important for determining the loan risk. Therefore, age, mobile number and gender can be eliminated for setting up the machine learning system for predicting the loan risk.
+The machine learning process consists of 5 stages as shown in Fig. 5.1.
+
+a) Collection of training data
+b) Creating algorithm
+c) Learning process
+d) Creating training model
+
+<CaptionedImage src="kg2166e3r5ybvx3a3ehh3nk44s8bt8yb" alt="" caption="Machine learning process" />
+
+e) Predicting results
+
+Al machine learning algorithms shown in Fig. 5.2 can make errors and produce wrong results as they do not apply formulas like traditional algorithms. It is difficult to find out
+<CaptionedImage src="kg2bt9bkyttasct6vrnj5zgpjd8bt8wm" alt="" caption="" />
+what went wrong in the Al algorithms as there is no proper breakdown on how the Al algorithm is making decisions. Therefore, sometimes AI algorithms can make wrong decisions. Al algorithms with lack of transparency can create dangerous AI systems which can make wrong decisions and harm people or destroy humanity. Behavior of Al algorithms may even be unpredictable to the developers or experts. Inaccuracy in AI algorithms work in the background when AI systems are used. Inaccuracy in algorithms can put people in jail, cause business to collapse or even death of a patient.
+
+The following are some harms or disadvantages of AI algorithms
+
+- Al algorithms are developed by humans who can intentionally or unintentionally introduce bias in them. These algorithms can produce bias results that can lead to discriminatory consequences on the grounds such as ethnicity, gender or age.
+- Driverless self-driving car can have an accident. This shows how AI algorithms can cause death.
+- Errors in AI algorithms in healthcare systems can output inaccurate information. For example, the Al system can recommend a wrong medicine for a patient which can be very harmful and can even cause death.
+- Hackers can develop powerful AI algorithms to bypass cybersecurity and cause malicious cyberattacks.
+- Al based automation can lead to job losses in many areas such as automobile manufacturing, business, education, healthcare, agriculture, etc.
+- Dependence on AI systems can cause loss of creativity and critical thinking skills in humans.
+- Unexpected behavior of AI systems can result in having negative impact on individuals and society as a whole. Al systems that do not observe human values can lead to big disasters.
+
+## Usage of AI for Benefiting People
+
+Designers of AI algorithm must instill moral and ethical values in AI systems and focus on benefiting people.
+There are many benefits of AI systems. Utilizations of AI based systems is transforming our day-to-day activities and improving our life style. It helps is solving many complex problems that depended on human intelligence in the past.
+The following are some important benefits of using AI systems.
+
+- AI-based systems make correct decisions and help us in solving complex problems efficiently and increase productivity.
+- Al systems used in hospitals provide better diagnosis and treatment of diseases at early stage such as cancer.
+- Help in design and production of high quality products and increase production in safe environment.
+- Help in travel and transportation by suggesting shortest routes for the drivers and inform about traffic conditions in real time.
+
+- Correct decision making helps in improving marketing, sales and enhance customer satisfaction.
+- Help in developing better learning software and introduce new teaching techniques.
+- Usage of AI-based assistants such as Siri and Alexa, suggest products by monitoring our browsing habits.
+- Provide better security against cyberattacks.
+- Enable new innovations in developing intelligent computer software.
+
+5.1.4 Ethical Issues in Using Popular AI Tools
+
+Al tool is an intelligent application software used to solve problems. It analyzes vast amount of training data and makes predictions to solve problems efficiently and improve productivity.
+Brief Description of Some Popular Al Tools and their Ethical Issues
+
+- ChatGPT
+ChatGPT stands for Chat Generative Pre-trained Transformer developed by OpenAl. OpenAl is an American Artificial Intelligence Research Laboratory. ChatGPT helps in performing tasks such as creating essays, emails and coding. It is an easy to use virtual assistant that provides text-based responses to users' questions. It is a very useful AI tool but it raises some ethical issues as well. Ethical issues include harm due to misinformation, cheating and plagiarism in schools and universities that can have negative impact on teaching/learning process and assessment of students' work. It also has issues such as bias, discrimination, data privacy and security. Fig. 5.3 shows the use of ChatGPT.
+- Grammarly
+It is an AI tool for correcting spelling and grammar mistakes in documents. It provides a safe platform for improving writing skills. To check a document or piece of writing, you copy and paste it into a form and then Grammarly automatically checks it. It protects users' data that is checked for correction and prevents unauthorized access to their account. It is not a perfect tool as it has some inaccuracy issues. It does not catch every mistake and some suggestions it gives may not be correct. Since it is not 100\% accurate, it is not a replacement of manual proofreading.
+- Lovo ai
+Lovo ai is a tool based on AI algorithm that converts text to speech. It is the award winning most realistic online text to speech generator. It uses AI techniques to find out the most suitable voice for your text. It supports 500 high quality voices and more than 100 languages. It is an easy to use tool for creating audios and videos for advertising, marketing, education, training, etc.
+
+There are some ethical issues that must be considered when developing text to voice software.
+The developers should take measures to ensure that personal data collected for processing is not mishandled or misused and there is no violation of privacy.
+The training data used for developing the voice AI system should be unbiased.
+Developers should also be open and honest about the working of their Al-based algorithm to implement transparency.
+Al tools that create new contents such as audio, video, music, text and images can raise the issue of copyright infringements and harmful contents.
+It is the responsibility of developers to ensure that the voice AI systems are designed for the benefits of people and do not harm anyone.
+
+## Virtual Assistants
+
+Virtual assistant is an interactive AI based application program that can understand natural language. Popular virtual assistants are Apple's Siri, Amazon Alexa, Google Assistant, ChatGPT and Microsoft Cortana. You can ask a question to it and it will give you the answer. Virtual assistants have become part of our daily life. It can perform various tasks such as sending text messages, making phone calls, playing music, making purchases, making search queries, and creating emails. Fig.5.4 shows Google Assistant on computer screen.
+<CaptionedImage src="kg2bwt233hmxvx8353g0vxtzts8bvc9y" alt="" caption="" />
+
+Developer of virtual assistants face many ethical challenges. Virtual assistants store information of people who use it. The user does not know where the information is stored and how it is protected against security and privacy risks. The developers of virtual assistant should be honest, trustworthy and abide by the code of ethics. They should ensure that the information about people is not misused or cause any type of harm to individuals or people.
+
+
+---
+
+<!-- note kx7db9vwfe69nn8kbq96zv3tn18bt9y0 | topic ms70qmwemm0r2agx0qhwp7f5qn8btk94 | status published -->
+# 5.2 . Different Areas of Ai
+
+
+Al has become very useful technology for solving problems related to many areas. These include healthcare, education, transportation, research and development, customer support, biometrics, fake account verification, advertising and marketing, helping wildlife, cybersecurity, agriculture, business, defense, etc. Fig.5.5 shows application of AI in various areas.
+
+## Speech Recognition
+
+It is used for various purposes. These include dictating text into a computer instead of typing it to save time. It is used by virtual assistants like Siri and Alexa. A virtual assistant is a program that takes verbal commands and performs various tasks on devices such as mobile phone, tablet, smartwatch, etc. It is also very helpful for people who have physical disabilities in typing on the keyboard.
+There are some disadvantages of using speech recognition. People have different pronunciation and this may make it difficult for the speech recognition system to understand all the words. Due to lack of accuracy in communication some users may hesitate to use it. The efficiency and accuracy of speech recognition is increasing as the technology develops.
+## Computer Vision
+
+Computer vision is a field of AI that enables computer systems to obtain meaningful information from digital images and videos. To achieve this, it uses camera, data and algorithms.
+A large amount of data (images/videos) is fed into the computer. Computer vision applications repeatedly performs data analysis until it recognizes and distinguishes images. After gaining deep understanding of data, computer system carries out automated actions. Al computer vision gives ability to computer to see just like it gives ability to think.
+Computer vision applications are used in various fields. These include healthcare, security and surveillance, facial recognition, self-driving car, parking occupation detection, traffic flow analysis, manufacturing, construction, etc. Fig.5.6 and Fig.5.7 are application of computer vision at crossroad and in traffic flow analysis.
+<CaptionedImage src="kg29pbyc7s862ke4zbkdb6fg7h8dsq6h" alt="" caption="Fig 5.6: Application of computer vision at road crossing" />
+
+<CaptionedImage src="kg2f7qatxzqwddxnrdrcpf7k118drerx" alt="" caption="Fig. 5.7: Application of computer vision for traffic flow analysis" />
+## Natural Language Processing
+
+Natural Language Processing (NLP) is based on AI. It is about giving computers the ability to understand spoken and written words just like we do. The purpose of NLP is to provide easy communication between computers and humans by using natural language. In other words, NLP is concerned with training the computer to process spoken and written words and take actions accordingly. It helps us to automate our workflow. NLP is a difficult task to achieve. Very complex algorithms are used to analyze, understand and translate the natural language in both spoken and written forms instead of using computer languages.
+
+The following are some areas of application of NLP in our daily life.
+
+- Language translation (Google Translation)
+- Email filtering and spam detection
+- Voice recognition
+- Web search
+- Chatbots
+- Personal assistants (Siri, Alexa, Google Assistant)
+- Spell and grammar check
+- Sentiment analysis
+- Bias and fake news detection.
+- Advertisement to targeted audience
+
+## Expert Systems
+
+Expert system is an interactive AI based computer program designed to solve complex problems. It has decision-making ability like human experts. It uses knowledge and reasoning to find solutions of problems related to a specific area.
+Application of Expert Systems
+The following are some application areas of expert systems.
+
+- Diagnosis in hospitals such as cancer detection
+- Loan analysis and fraud detection in finance industry
+- Cyber security
+- ' Designing and manufacturing of products such as automobile
+- Planning and scheduling projects
+- Monitoring operation of a plant
+
+## Development of Expert System
+
+Development of expert system includes the following steps
+
+- Sufficient amount of knowledge about a specific area is obtained from many experts and fed in the expert system. A knowledge database is created.
+- When an end user makes a query, the expert system asks the user to enter required information about it by filling a questionnaire.
+- The expert system applies rules and reasoning to extract knowledge from the knowledge database and interprets it to find the solution.
+- Finally, the expert system will provide the solution to the end user.
+
+## Astronomy
+
+Al has played an important role in astronomy over the years. Astronomy is about scientific study of celestial objects such as moon, sun and planets, which are located outside of the earth's atmosphere. Al-based applications help astronomers in analyzing vast amount of data generated from telescopes and satellites to identify celestial objects and study complex phenomena such as galaxy formation and evolution of universe. Al is used to predict
+
+<CaptionedImage src="kg203h6kjeta6cn6325pxt56cd8dra7a" alt="" caption="Fig. 5.8: Astronomy is the study of universe" />
+
+motions of asteroids and behavior of stars as well.
+## Cybersecurity
+
+Many reports estimate that cyber threats will become more complex and dangerous in the coming days. Al provides solutions to it. Al-based cybersecurity systems continuously monitor digital systems to detect malicious activities and respond to it in real-time. Incorporations of AI in cybersecurity systems allows to analyze
+
+vast amount of data, identify patterns and anomalies, predict cyber threats and take actions against it. Al utilizes machine learning and other AI technique to detect and manage cyber threats more effectively.
+## GPS Navigation
+
+GPS (Global Positioning System) is used for various purposes. These include getting from one location to another, determining a location, tracking of objects and persons and creating maps of the world.
+Traditional GPS used static satellite generated maps. Today, AI-based GPS navigation systems are reshaping the navigation technology. Al-based GPS are
+
+<CaptionedImage src="kg29bnw7zg7qc8229bgfyf6tad8drd0y" alt="" caption="Fig. 5.10: GPS Navigation" />
+
+advanced navigation tools that integrate AI to improve the way users interact with it and navigate. It has many advantages over the traditional GPS. Al-driven GPS adapt dynamically to changing environments such as current traffic conditions, road closures and weather updates by providing smarter route planning. They improve travel efficiency and user experience with the integration of voice recognition and natural language processing.
+<CaptionedImage src="kg220yf8f4ewp43r3aspkqw2fh8btakm" alt="" caption="" />
+
+The following are applications of AI shown in Fig.5.11.
+## Robotics
+
+Robotics is concerned with computer controlled machines that can perform specific tasks with little or no human intervention. A robot is a machine that contains censors, cameras, microphone, control systems, etc. Designing of robot combines mechanical, electrical and structural engineering, mathematics, physics, etc. Fig.5.12 show application of robotics in automotive industry.
+<CaptionedImage src="kg2672ggjswbzyqzqx3srvya518ds4k8" alt="" caption="Fig 5.12 Application of robotics in automotive industry" />
+
+Some areas where robots are used include manufacturing industry, transporting goods in warehouses, packaging medicine, working in extreme temperature and handling hazardous material in high-risk environment.
+## Healthcare
+
+Al-based software is fed in various machines used in hospitals to help in diagnosis of certain diseases such as cancer. Al-based microscope can scan harmful substances and
+<CaptionedImage src="kg2ackmtz02b5q9yzdn1g8gve98drkre" alt="" caption="Fig 5.13: Applications of AI in Healthcare" />
+bacteria in samples of blood. Al-based patient monitoring systems in ICU help in measuring real-time data such as heart-beat, blood pressure, temperature, etc. that helps doctors in analyzing patient's health conditions. Al software provides personalized interaction between the patient and the hospital in managing health by reducing visits to the hospital. Fig.5.13 shows application of AI in healthcare.
+## Education
+
+Al-based systems in education have many benefits for students, teachers and school/university administration. It enhances students' learning and helps teachers to carry out their tasks efficiently to provide quality education. Al based systems adapt to meet each student's individual learning needs. It helps teachers in grading students' assignments, examinations and essays. It helps educational administrators to schedule courses, create class timetables and analyze students' data to make better decisions. It can help university administration in reviewing each student's enrollment application for admission. Fig.5.14 shows various applications of AI in education.
+## Gaming
+
+Al in gaming refers to the use of computer technology in developing games that give the impression of intelligence and makes the game more challenging, appealing and fun. Al is applied a lot in modern games to make the opponent player seem intelligent to present a challenge to the player. It creates exciting playing experience to keeps the player interested in game.
+
+Most of the video games such as car racing, shooting, role playing, adventure are developed using AI. AI based high quality 3D graphics technology and virtual reality in games provide a realistic gaming experience to the user and increases player's interest in playing the game. Fig. 5.15 shows application of AI in gaming.
+## Agriculture
+
+AI in agriculture refers to using AI based modern techniques to help farmers produce high quality crops and increase production by using land more efficiently.
+To solve the issue of food shortage and livestock in the future, it is important to use AI techniques and innovative farming ideas to increase production on existing farmland.
+
+The following are some benefits of application of AI in agriculture
+
+- AI is used for scanning images of insects that attack crops and livestock to detect and prevent spread of disease.
+- Al can help in monitoring and detecting health problems in livestock using drones, cameras and computer vision to avoid spread of disease.
+- Al based drone technology is used for efficient spray of pesticide.
+- Al-based farming machinery such as drones, driverless tractors, smart spraying and fertilization systems are very helpful in increasing crop production.
+- Al surveillance systems can help in providing security by not allowing unauthorized people and animals that can harm the crops, to enter the fields.
+
+Fig.5.16 shows use of AI drone in agriculture.
+
+<CaptionedImage src="kg2d56bg6df48vc69dk2pk1qbh8dg9jy" alt="Fig.5.16 shows use of AI drone in agriculture." caption="Fig.5.16 shows use of AI drone in agriculture." />
+## AI in our Daily Life
+
+Al filters our spam emails by sending them to spam or trash folders and allow us to see only filtered email. Mobile phones and laptops use AI technology for facial recognition for identification purpose to provide secure access. Search engines such as Google and Yahoo use AI to organize information on the Web and make it accessible to us. It provides personalized recommendations based on our online shopping. The ads that search engines display on our screen while using Internet are based on our search history using AI
+technology. Al is deployed in banking system to detect fraud and provide us secure transactions.
+
+## Self-driving Cars
+
+AI is used to build self-driving cars. Self-driving car uses AI software connected with devices such as sensors, cameras and radars to travel without a driver. The Al software gathers information from these devices and takes real-time actions accordingly. Many automobile companies including Audi, BMW, Volkswagen, Tesla, General Motors and Volvo are developing self-driving cars. Fig.5.17shows application of AI in self-driving car.
+
+<CaptionedImage src="kg23pczr39a7hjkray4y7s3y198ds2ee" alt="" caption="Fig. 5.17: Application of AI in self-driving car" />
+## Business
+
+Al is used in business in the areas of e commerce, marketing and business management. Al software is used to run the day-to-day business activities. It has many benefits in business. It helps people become efficient, improves productivity, and makes accurate decisions. Use of AI in business provides better services to customers, helps in business growth and generates more revenue. It helps in cybersecurity, smart pricing and automated recruitment as well.
+
+## Defense
+
+AI is used in defense security systems to detect threats from hackers to steal confidential information. It helps in finding suspicious activities in computer systems and prevents unauthorized access. It is used in defense to improve surveillance and develop advance arms and ammunitions. It helps in training soldiers in computer simulated wars as well. Fig.5.19 shows application of AI in armed military drone.
+<CaptionedImage src="kg25etdddkk9nnzzjww281dx7s8dsvq3" alt="" caption="Fig 5.19: Application of AI in armed military drone" />
+## Chatbot
+
+A chatbot is a computer program that combines AI with natural language to provide instant answers to website visitor's questions through text or voice interaction. It mimics human conversation as a virtual assistant and automates responses to customers questions. Chatbots are very beneficial in business. Using a chatbot is much cheaper than hiring employees to provide service to customers. Chatbot can help in selling products and hiring employees. Chatbots are available 24/7 to provide online customer service and improve business.
+
+
+---
+
+<!-- note kx71fnszwaysy7k43xrbnr1gps8bvxnn | topic ms73dg8ye4y70cr07vg7e7fcgs8bv2mj | status published -->
+# 5.4 Cloud Computing
+
+
+## What is Cloud Computing?
+
+Cloud Computing refers to delivery of computing services over the Internet by cloud computing vendors. These services include servers, storage , databases, networking, software etc. Cloud computing enables businesses and organizations to access databases and cloud applications over the Internet from remote physical servers. It is an alternative to in-house data processing. The Internet becomes the cloud and users can access and process the data with any device that can connect to the Internet anywhere in the world.
+
+## Types of Cloud Computing
+
+There are three types of cloud computing, that is, public cloud, private cloud and hybrid cloud. Fig.5.20 shows application of AI in cloud computing.
+
+<CaptionedImage src="kg29njg1fyyh9fyjctd3pnec758bv23c" alt="Application of AI in cloud computing" caption="Application of AI in cloud computing" />
+
+## Public Cloud
+
+In this cloud computing model, resources are owned and operated by a cloud service provider instead of being installed in-house on local devices. The resources that are delivered to businesses and organizations over the Internet include servers, software and storage. These resources are managed and maintained by the cloud service provider. Public cloud provides high speed connectivity to ensure rapid access to application and data.
+
+## Private Cloud
+
+In this cloud computing model, resources are owned by and used inside a single organization. In other words, cloud computing is dedicated to a single organization. The user organization is responsible for the operation and maintenance of infrastructure (hardware, software, network, etc.). Private cloud solution provides more control over servers and computer network.
+
+## Hybrid Cloud
+
+Hybrid cloud is a combination of public and private cloud. This cloud computing model uses technology that allows data and applications to be shared between them.
+
+## Summary
+
+Artificial Intelligence (AI) is a branch of computer science to make computercontrolled machines that can intelligently perform human-like tasks. Machine learning is a field within Artificial Intelligence that teaches computers to learn from data inputs and experience like humans without direct programming. Machine learning algorithms facilitate computers to train on data inputs and analyze it to produce accurate output values. Supervised learning algorithms take a set of known input data and known output responses to build a model to make predictions. In unsupervised learning, the training data is unseen and it is un-labelled. The unseen data is fed into machine learning algorithm to train the model. The trained model tries to search for a pattern and gives the desired result.
+
+Speech recognition is an AI technology that converts words into written text. Speech recognition software recognizes or understands the words spoken by a person and translates it into text. Computer vision is a field of AI that enables computer systems to obtain meaningful information from digital images and videos. To achieve this, it uses camera, data and algorithms. Natural Language Processing (NLP) is based on AI. It is about giving computers the ability to understand spoken and written words just like we do. The purpose of NLP is to provide easy communication between computers and humans by using natural language. Expert system is an interactive AI based computer program designed to solve complex problems. It has decision-making ability like human experts. It uses knowledge and reasoning to find solutions of problems related to a specific area.
+
+Robotics is concerned with computer controlled machines that can perform specific tasks with little or no human intervention. A robot is a machine that contains censors, cameras, microphone, control systems, etc. Al-based software is fed in various machines used in hospitals to help in diagnosis of certain diseases such as cancer. Al-based systems in education have many benefits for students, teachers and school/university administration. It enhances students' learning and helps teachers to carry out their tasks efficiently to provide quality education. Al in gaming refers to the use of computer technology in developing games that give the impression of intelligence and makes the game more challenging, appealing and fun.
+
+Al in agriculture refers to using AI based modern techniques to help farmers produce high quality crops and increase production by using land more efficiently. AI is used to build self-driving cars. Self-driving car uses AI software connected with devices such as sensors, cameras and radars to travel without a driver. Al is used in business in the areas of e-commerce, marketing and business management. Al software is used to run the day-to-day business activities. Chatbot is a computer program that combines AI with natural language to provide instant answers to website visitor's questions through text or voice interaction.
+
+Cloud Computing refers to delivery of computing services over the Internet by cloud computing vendors. These services include servers, storage , databases, networking, software etc. In public cloud computing model, resources are owned and operated by a cloud service provider instead of being installed in-house on local devices. The cloud computing resources that are owned and used inside a single organization is known as private cloud. In other words, cloud computing is dedicated to a single organization. Hybrid cloud is a combination of public and private cloud. This cloud computing model uses technology that allows data and applications to be shared between them.
+
+Algorithm means method, procedure or plan. It is a step-by-step problem solving method that clearly defines a sequence of operations to solve a problem. ChatGPT stands for Chat Generative Pre-trained Transformer developed by OpenAl. ChatGPT helps in performing tasks such as creating essays, emails and coding. It is an easy to use virtual assistant that provides text-based responses to users' questions. Grammarly is an Al tool for correcting spelling and grammar mistakes in documents. It provides a safe platform for improving writing skills. Lovo ai is a tool based on Al algorithm that converts text to speech.
+
+Virtual assistant is an interactive AI based application program that can understand natural language. Popular virtual assistants are Apple's Siri, Amazon Alexa, Google Assistant, ChatGPT and Microsoft Cortana. You can ask a question to it and it will give you the answer.

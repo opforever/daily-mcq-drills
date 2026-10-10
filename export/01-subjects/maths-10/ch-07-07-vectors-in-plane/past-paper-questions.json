@@ -1,0 +1,1663 @@
+[
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17b47tn6d190d9e6s94gprtnx8cv3ev",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Vec a is $[4, 3]$ with magnitude $5$ and unit vector $[0.8, 0.6]$",
+      "Scalar multiples $k \\vec{a}$ are parallel, sign of $k$ gives direction",
+      "Orthogonal vector is $[-3, 4]$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Take $\\vec{a} = 4 \\hat{\\imath} + 3 \\hat{\\jmath}$, so $\\vec{a} = [4, 3]$ and $|\\vec{a}| = \\sqrt{16 + 9} = 5$. Any vector that is a scalar multiple of $\\vec{a}$ is parallel to $\\vec{a}$: $2 \\vec{a} = [8, 6]$ is twice as long in the same direction, $-\\vec{a} = [-4, -3]$ is opposite, $0.5 \\vec{a} = [2, 1.5]$ is half length. The unit vector in the direction of $\\vec{a}$ is $\\vec{a}/|\\vec{a}| = (4/5) \\hat{\\imath} + (3/5) \\hat{\\jmath} = [0.8, 0.6]$. A vector perpendicular to $\\vec{a}$ can be obtained by swapping and negating one component, for example $[-3, 4]$ is orthogonal to $[4, 3]$. The other vectors in the figure are each of the form $k \\vec{a}$ for some scalar $k$, and their lengths are $|k|$ times $5$ and their directions are the same as $\\vec{a}$ when $k$ is positive and opposite when $k$ is negative. This covers all subparts that ask to express vectors in terms of $\\vec{a}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "stem": "In the figure, direction of $\\vec{a}$ is 4 square units to the right and 3 square units up. Find the relation of other vectors with $\\vec{a}$.\n![](./images/841b8744-c0fe-4939-bfaf-937e2be63b06-153_510_1218_1860_450.jpg)",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1744xwr8yr3w98sw40g1619wd8ctnbg",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "$\\overrightarrow{AB} = \\vec{a}$ and $\\overrightarrow{AD} = \\vec{b}$ gives $\\overrightarrow{DC} = \\vec{a}$ and $\\overrightarrow{BC} = \\vec{b}$",
+      "$\\overrightarrow{AC} = \\vec{a} + \\vec{b}$ and $\\overrightarrow{BD} = -\\vec{a} + \\vec{b}$ by triangle law",
+      "$\\overrightarrow{AO} = (\\vec{a}+\\vec{b})/2$ and $\\overrightarrow{BO} = (-\\vec{a}+\\vec{b})/2$, $\\overrightarrow{AB}+\\overrightarrow{AC} = 2\\vec{a}+\\vec{b}$"
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let $\\overrightarrow{AB} = \\vec{a}$ and $\\overrightarrow{AD} = \\vec{b}$, with $A$ at the origin. Then vertices are $A=0$, $B=\\vec{a}$, $D=\\vec{b}$, $C=\\vec{a}+\\vec{b}$. Opposite sides are equal and parallel, so $\\overrightarrow{DC} = \\overrightarrow{AB} = \\vec{a}$ and $\\overrightarrow{BC} = \\overrightarrow{AD} = \\vec{b}$, while $\\overrightarrow{DA} = -\\vec{b}$ and $\\overrightarrow{CD} = -\\vec{a}$ by direction. Diagonal $\\overrightarrow{AC} = \\overrightarrow{AB} + \\overrightarrow{AD} = \\vec{a} + \\vec{b}$ by triangle law. Diagonal $\\overrightarrow{DB} = \\overrightarrow{AB} - \\overrightarrow{AD} = \\vec{a} - \\vec{b}$, and $\\overrightarrow{BD} = -\\overrightarrow{DB} = -\\vec{a} + \\vec{b}$. Let $O$ be the intersection of the diagonals, so $\\overrightarrow{AO} = (\\vec{a}+\\vec{b})/2$. Then $\\overrightarrow{BO} = \\overrightarrow{AO} - \\overrightarrow{AB} = (-\\vec{a} + \\vec{b})/2$, and similarly $\\overrightarrow{CO} = -(\\vec{a}+\\vec{b})/2$ and $\\overrightarrow{DO} = (\\vec{a} - \\vec{b})/2$ but magnitudes are the same. Adding vectors: $\\overrightarrow{AB} + \\overrightarrow{AC} = \\vec{a} + (\\vec{a}+\\vec{b}) = 2\\vec{a} + \\vec{b}$. These give all seven requested expressions in terms of $\\vec{a}$ and $\\vec{b}$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "stem": "ABCD is a rectangle as shown in the adjoining figure. Represent the following vectors in terms of $\\vec{a}$ and $\\vec{b}$.\n(i) $\\overrightarrow{D C}$\n(ii) $\\overrightarrow{D A}$\n(iii) $\\overrightarrow{A C}$\n(iv) $\\overrightarrow{B D}$\n(v) $\\overrightarrow{A O}$\n(vi) $\\overrightarrow{B O}$\n(vii) $\\overrightarrow{A B}+\\overrightarrow{A C}$\n![](./images/841b8744-c0fe-4939-bfaf-937e2be63b06-154_298_428_436_1302.jpg)",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17c6f4ryjsfq8rkn7x0qhas958ct3q5",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "The midpoint's position vector is the average of the two endpoints' position vectors: OM = (OP+OQ)/2.",
+      "PQ = OQ - OP, and since M bisects PQ, PM = (1/2)PQ and QM = -PM."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\overrightarrow{OP}=\\vec p+\\vec q$, $\\overrightarrow{OQ}=\\vec p-\\vec q$, M is the midpoint of PQ so $\\overrightarrow{OM}=\\dfrac{\\overrightarrow{OP}+\\overrightarrow{OQ}}{2}$.\n\ni. $\\overrightarrow{PQ}=\\overrightarrow{OQ}-\\overrightarrow{OP}=(\\vec p-\\vec q)-(\\vec p+\\vec q)=-2\\vec q$\n\nii. $\\overrightarrow{PM}=\\tfrac12\\overrightarrow{PQ}=-\\vec q$\n\niii. $\\overrightarrow{QM}=-\\overrightarrow{PM}=\\vec q$ (since M is the midpoint, QM = -PM)\n\niv. $\\overrightarrow{OM}=\\dfrac{(\\vec p+\\vec q)+(\\vec p-\\vec q)}{2}=\\vec p$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sectionId": "ratio-formula-position-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "Given that $\\overrightarrow{O P}=\\vec{p}+\\vec{q}, \\overrightarrow{O Q}=\\vec{p}-\\vec{q}$ and $M$ is mid-point of $\\overrightarrow{P Q}$. Find in terms of $\\vec{p}$ and $\\vec{q}$.\n(i) $\\overrightarrow{P Q}$\n(ii) $\\overrightarrow{P M}$\n(iii) $\\overrightarrow{Q M}$\n(iv) $\\overrightarrow{O M}$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m171v8eqze3q2k1q5kraw56zq18e37yh",
+    "correctKey": "B",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "Speed has magnitude only, no direction, so it is a scalar; the other three are vectors.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "velocity"
+      },
+      {
+        "key": "B",
+        "text": "speed"
+      },
+      {
+        "key": "C",
+        "text": "torque"
+      },
+      {
+        "key": "D",
+        "text": "force"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.i",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Which of the following is a scalar quantity?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17en3qmmbfhjyfw4m8tehn45x8e344m",
+    "correctKey": "A",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "Velocity has both magnitude and direction, so it is a vector; the other three are scalars.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "velocity"
+      },
+      {
+        "key": "B",
+        "text": "speed"
+      },
+      {
+        "key": "C",
+        "text": "distance"
+      },
+      {
+        "key": "D",
+        "text": "work"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.ii",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Which of the following is a vector quantity?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m178n8vsdy923f661yftwn9wax8e3bbh",
+    "correctKey": "C",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "$\\overrightarrow{AB}=\\vec{b}-\\vec{a}$ (position vector of endpoint minus position vector of start point).",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\vec{b}+\\vec{a}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\vec{a}-\\vec{b}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\vec{b}-\\vec{a}$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\vec{b}-\\vec{a}$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.iii",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\vec{a}$ and $\\vec{b}$ are position vectors of points A and B respectively, then $\\overrightarrow{AB}$ is:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17cng6hk80y2bsznyfrg38jbn8e3dkm",
+    "correctKey": "D",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "$|\\vec{a}|$ denotes the magnitude (a scalar), not the vector itself.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\vec{a}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\underline{a}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\boldsymbol{a}$"
+      },
+      {
+        "key": "D",
+        "text": "$|\\vec{a}|$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.iv",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Which of the following is not a symbol of vector $a$?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m173t0xr706cqke5nw42sp92wx8e2z9y",
+    "correctKey": "C",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "Negating a vector negates both components: $-[-6,7]=[6,-7]$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$[-6,7]$"
+      },
+      {
+        "key": "B",
+        "text": "$[6,7]$"
+      },
+      {
+        "key": "C",
+        "text": "$[6,-7]$"
+      },
+      {
+        "key": "D",
+        "text": "$[-6,-7]$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.v",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\overrightarrow{OP}=[-6,7]$, then $-\\overrightarrow{OP}$ is equal to:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1753zkxkftn8kyva9h7d10mt98e33ek",
+    "correctKey": "D",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "$|\\vec{u}|=\\sqrt{(-5)^2+12^2}=\\sqrt{25+144}=\\sqrt{169}=13$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "17"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "169"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.vi",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\vec{u}=-5\\hat{\\imath}+12\\hat{\\jmath}$, then $|\\vec{u}|$ is equal to:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1760n7btnv8darhfg4w490b4h8e3s8e",
+    "correctKey": "A",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "Magnitude is unaffected by direction, so $|-\\vec{u}|=|\\vec{u}|$ for any vector.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$|-\\vec{u}|=|\\vec{u}|$"
+      },
+      {
+        "key": "B",
+        "text": "$-|\\vec{u}|=|\\vec{u}|$"
+      },
+      {
+        "key": "C",
+        "text": "$|\\vec{u}|+|-\\vec{u}|=0$"
+      },
+      {
+        "key": "D",
+        "text": "$|\\vec{u}|=0$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.vii",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Given that $\\vec{u}$ is any vector. Which of the following is true?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m171d3w70cchkbarsrr5sw6s7x8e3srb",
+    "correctKey": "B",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "Simplifying $\\vec{u}=6\\hat{\\imath}+8\\hat{\\jmath}$ (combining the $\\hat{\\jmath}$ terms), $|\\vec{u}|=10$, giving unit vector $\\frac{3}{5}\\hat{\\imath}+\\frac{4}{5}\\hat{\\jmath}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\frac{3\\hat{\\imath}}{5}-\\frac{4\\hat{\\jmath}}{5}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3i}{5}+\\frac{4j}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$-\\frac{3i}{5}-\\frac{4j}{5}$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\frac{3\\hat{\\imath}}{5}+\\frac{4\\hat{\\jmath}}{5}$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.viii",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "The unit vector of the vector $\\vec{u}=6\\hat{\\imath}+10\\hat{\\jmath}-2\\hat{\\jmath}$ is:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17c3f8ypwm9c6x481tqzw8xq98e3tx9",
+    "correctKey": "D",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "$12/(-2)=-6$ and $-18/3=-6$, so $\\lambda=-6$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "-3"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "-6"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.ix",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\vec{a}=\\lambda\\vec{b}$, $\\vec{a}=12\\hat{\\imath}-18\\hat{\\jmath}$ and $\\vec{b}=-2\\hat{\\imath}+3\\hat{\\jmath}$, then $\\lambda$ is equal to:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17dtvy11yafmjpnt2fstk5e198e3y3s",
+    "correctKey": "C",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "Equal vectors need matching components: $-5x=10 \\Rightarrow x=-2$, and $4y=8 \\Rightarrow y=2$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$x=2, y=2$"
+      },
+      {
+        "key": "B",
+        "text": "$x=-2, y=-2$"
+      },
+      {
+        "key": "C",
+        "text": "$x=-2, y=2$"
+      },
+      {
+        "key": "D",
+        "text": "$x=2, y=-2$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.x",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\vec{u}=[-5x,8]$ and $\\vec{v}=[10,4y]$ are equal vectors, then:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17b6yn7hrqkbqxtny7meg6tp18e3k8v",
+    "correctKey": "A",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "$\\vec{p}-2\\vec{q}=[5-4,-6-12]=[1,-18]$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$[1,-18]$"
+      },
+      {
+        "key": "B",
+        "text": "$[9,18]$"
+      },
+      {
+        "key": "C",
+        "text": "$[1,18]$"
+      },
+      {
+        "key": "D",
+        "text": "$[-9,-18]$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.xi",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\vec{p}=[5,-6]$ and $\\vec{q}=[2,6]$, then $\\vec{p}-2\\vec{q}$ is:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m170htfywr42jqa49ggxs5cwsd8e22zt",
+    "correctKey": "B",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "$\\vec{u}-\\vec{v}=5\\hat{\\imath}+6\\hat{\\jmath}$, so $|\\vec{u}-\\vec{v}|=\\sqrt{25+36}=\\sqrt{61}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\sqrt{123}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\sqrt{61}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\sqrt{11}$"
+      },
+      {
+        "key": "D",
+        "text": "$-\\sqrt{61}$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.xii",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\vec{u}=5\\hat{\\imath}+10\\hat{\\jmath}$ and $\\vec{v}=4\\hat{\\jmath}$, then $|\\vec{u}-\\vec{v}|$ is:",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17dfzceqeq008z7frfm9qm4rs8e3z9k",
+    "correctKey": "A",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "A position vector is measured from the origin O to a point, i.e. $\\overrightarrow{OP}$.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "$\\overrightarrow{OP}$"
+      },
+      {
+        "key": "B",
+        "text": "$-\\overrightarrow{OP}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\overrightarrow{PO}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\overrightarrow{PQ}$"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.xiii",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Which of the following vectors represents a position vector?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17a1d09a01s9t62wn5t6cra8d8e2r32",
+    "correctKey": "C",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "explanation": "AB is parallel to DC but not equal in length (scaled by 2/3), which is the defining property of a trapezium.",
+    "lastAttempt": null,
+    "locked": false,
+    "options": [
+      {
+        "key": "A",
+        "text": "kite"
+      },
+      {
+        "key": "B",
+        "text": "rectangle"
+      },
+      {
+        "key": "C",
+        "text": "trapezium"
+      },
+      {
+        "key": "D",
+        "text": "rhombus"
+      }
+    ],
+    "origin": "exercise",
+    "partType": "MCQ",
+    "questionKind": "mcq",
+    "questionNumber": "1.xiv",
+    "sectionLabel": "Miscellaneous Exercise-7: Choose the correct option",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "What type of a quadrilateral ABCD is, if $\\overrightarrow{AB}=\\frac{2}{3}\\overrightarrow{DC}$?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17arcxe31kdkgds4b0t7sfbqs8e348p",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$|\\vec{p}|=\\sqrt{9+16}=5$ and $|\\vec{q}|=\\sqrt{9+16}=5$, so $|\\vec{p}|=|\\vec{q}|$. However $\\vec{p}\\neq\\vec{q}$, since equal magnitude does not mean equal vectors; their components differ.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "2",
+    "sectionLabel": "Miscellaneous Exercise-7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Given that $\\vec{p}=3\\hat{\\imath}-4\\hat{\\jmath}$ and $\\vec{q}=-3\\hat{\\imath}-4\\hat{\\jmath}$. Prove that $|\\vec{p}|=|\\vec{q}|$. Is $\\vec{p}=\\vec{q}$?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17c52q0s7hggn1xrsrz0ggsz58e22w3",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$x=2$.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "3",
+    "sectionLabel": "Miscellaneous Exercise-7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "If $\\vec{a}=2\\hat{\\imath}-4\\hat{\\jmath}$ and $\\vec{b}=-2\\hat{\\imath}+x\\hat{\\jmath}$, then find the value of $x$ if $|\\vec{a}+2\\vec{b}|=6$.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m174wmt79wx1jvem4s74g7398n8e2w0k",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Per the printed answer key: (i) $\\overrightarrow{OM}=\\frac{1}{2}\\vec{a}$. (ii) $\\overrightarrow{AM}=-\\frac{1}{2}\\vec{a}$. (iii) $\\overrightarrow{BM}=\\vec{b}-\\frac{1}{2}\\vec{a}$. (iv) $\\overrightarrow{OB}+\\overrightarrow{BA}=\\vec{a}$.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "4",
+    "sectionLabel": "Miscellaneous Exercise-7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "In triangle OAB, $\\overrightarrow{OA}=\\vec{a}$, $\\overrightarrow{OB}=\\vec{b}$ and M is the mid-point of $\\overrightarrow{OA}$. Write the following vectors in terms of $\\vec{a}$ and $\\vec{b}$: (i) $\\overrightarrow{OM}$ (ii) $\\overrightarrow{AM}$ (iii) $\\overrightarrow{BM}$ (iv) $\\overrightarrow{OB}+\\overrightarrow{BA}$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m172w1k76dk42r74m7knfzw7x98e29zh",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Resultant force = 533.82 N, direction = 44.05 degrees with the horizontal.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "5",
+    "sectionLabel": "Miscellaneous Exercise-7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Two tractors are pulling a truck stuck in the mud. The first tractor is pulling with a force of 250 N at an angle of 50 degrees with the horizontal while the second tractor is pulling with a force of 300 N at an angle of 40 degrees with the horizontal. What is the magnitude and direction of the resultant force?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17et8fj7ab1pmdsyzqp4qfgys8e37xr",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) The first ball travelled 25.73 m farther than the second ball. (ii) The distance between the two balls = 43.68 m.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "6",
+    "sectionLabel": "Miscellaneous Exercise-7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Ammar and Javed are playing with a ball. Ammar throws two balls for Javed to catch. The path of the two balls is described by the vectors $V_1=120\\hat{\\imath}+12\\hat{\\jmath}$ and $V_2=90\\hat{\\imath}-30\\hat{\\jmath}$, where the distances are expressed in meters. (i) How much farther did the first ball travel as compared with the second ball? (ii) What is the distance between the two balls thrown?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m178asj42rffcrtzk8kh3ypqm58e2zn6",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) 7.5 m/s west. (ii) 4.5 m/s east. (iii) 6.18 m/s at an angle of 14.04 degrees north of east.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "7",
+    "sectionLabel": "Miscellaneous Exercise-7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "Ahmad can swim in still water with a speed of 6 m/s. He goes swimming in the river Chenab, which has a current flowing towards the west with a speed of 1.5 m/s. Assuming his own speed is the same, what is his resultant velocity if: (i) he tries to swim due west along the current? (ii) he tries to swim due east against the current? (iii) he tries to swim north across the river?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17771b7xvkryycfq5j6ek2e1h8e2512",
+    "exerciseId": "xd7dxnhw5sv4f2sf6hscd662758e3zqm",
+    "exerciseTitle": "Miscellaneous Exercise-7",
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "(i) 158.11 km/h. (ii) 1,581.1 km.",
+    "origin": "exercise",
+    "questionKind": "short",
+    "questionNumber": "8",
+    "sectionLabel": "Miscellaneous Exercise-7",
+    "sourceRef": {
+      "blockIndex": 4,
+      "chapterNumber": 7,
+      "subjectSlug": "maths-10"
+    },
+    "stem": "A plane is travelling north with a speed of 150 km/h. A steady wind is blowing due east with a speed of 50 km/h. (i) What is the resultant speed of the plane? (ii) How far is the plane from its starting point after 10 hours?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m177aa8gassre3wqpp6vn2gy518ctyv7",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Each named vector is B-minus-A of its labeled endpoints; combining them is then plain componentwise vector arithmetic."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$D(3,-2), E(-3,-5), F(0,5), G(3,6)$.\n\ni. $\\overrightarrow{DE}=E-D=[-6,-3]$\n\nii. $\\overrightarrow{DE}+\\overrightarrow{FG}$: $\\overrightarrow{FG}=G-F=[3,1]$. Sum $=[-6+3,-3+1]=[-3,-2]$\n\niii. $3\\overrightarrow{EF}-2\\overrightarrow{EG}$: $\\overrightarrow{EF}=F-E=[3,10]$, $\\overrightarrow{EG}=G-E=[6,11]$. $3\\overrightarrow{EF}=[9,30]$, $2\\overrightarrow{EG}=[12,22]$. Result $=[9-12,30-22]=[-3,8]$\n\niv. $\\tfrac32\\overrightarrow{DF}+\\tfrac12\\overrightarrow{EG}$: $\\overrightarrow{DF}=F-D=[-3,7]$. $\\tfrac32\\overrightarrow{DF}=[-4.5,10.5]$, $\\tfrac12\\overrightarrow{EG}=[3,5.5]$. Result $=[-1.5,16]$\n\nv. $\\overrightarrow{DF}-\\overrightarrow{EF}+2\\overrightarrow{FG}$: $[-3,7]-[3,10]+2[3,1]=[-6,-3]+[6,2]=[0,-1]$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "14",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "Given that $D=(3,-2), E=(-3,-5), F=(0,5)$ and $G=(3,6)$. Find the following vectors.\n(i) $\\overrightarrow{D E}$\n(ii) $\\overrightarrow{D E}+\\overrightarrow{F G}$\n(iii) $3 \\overrightarrow{E F}-2 \\overrightarrow{E G}$\n(iv) $\\frac{3}{2} \\overrightarrow{D F}+\\frac{1}{2} \\overrightarrow{E G}$\n(v) $\\overrightarrow{D F}-\\overrightarrow{E F}+2 \\overrightarrow{F G}$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1793q1rpmd65z582a1d3eqs058cv7pb",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Resolving each vector into (east, north) components using bearing angle, then adding the components, gives the resultant velocity/speed and bearing for a wind-drift problem."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Bearing is measured clockwise from north, so a bearing $\\theta$ speed $v$ gives components $[v\\sin\\theta, v\\cos\\theta]$ (east, north).\n\nPlane: $380[\\sin45^{\\circ},\\cos45^{\\circ}]=380[0.7071,0.7071]\\approx[268.7,268.7]$\n\nWind: $50[\\sin135^{\\circ},\\cos135^{\\circ}]=50[0.7071,-0.7071]\\approx[35.4,-35.4]$\n\nResultant (actual velocity) $\\approx[268.7+35.4,\\;268.7-35.4]=[304.1,233.3]$\n\nSpeed $=\\sqrt{304.1^{2}+233.3^{2}}=\\sqrt{92478+54448}\\approx\\sqrt{146926}\\approx383.3$ mph\n\nBearing $=\\arctan\\!\\left(\\dfrac{304.1}{233.3}\\right)\\approx52.5^{\\circ}$\n\nSo the airplane's actual velocity is about **383.3 mph at a bearing of approximately $52.5^{\\circ}$**.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "19",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "An airplane leaves the airport on the bearing of $45^{\\circ}$ traveling at 380 mph . The wind is blowing at a bearing of $135^{\\circ}$ at a speed of 50 mph . What is the actual velocity of the airplane?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17896xnvm0thys3mh94tvwxzn8cvkty",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "For a parallelogram with adjacent side vectors u and v, its two diagonals are u+v and u-v; their lengths are the magnitudes of those sums/differences."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Adjacent sides of the parallelogram: $\\vec u=2\\hat\\imath+\\hat\\jmath$ and $\\vec v=\\hat\\imath-3\\hat\\jmath$.\n\nOne diagonal $=\\vec u+\\vec v=[3,-2]$, length $=\\sqrt{9+4}=\\sqrt{13}$\n\nOther diagonal $=\\vec u-\\vec v=[1,4]$, length $=\\sqrt{1+16}=\\sqrt{17}$\n\nThe diagonals of the parallelogram have lengths $\\sqrt{13}$ and $\\sqrt{17}$ units.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "Use vectors to find the length of diagonals of a parallelogram having adjacent sides $2 \\hat{\\imath}+\\hat{\\jmath}$ and $\\hat{\\imath}-3 \\hat{\\jmath}$.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17dbqgen3qpjs35xdqm5qt1mx8cvy76",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Successive displacement legs at given bearings are resolved into (east, north) components and added; the resultant's magnitude and arctan give the final distance and bearing."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "First leg: 15 km at bearing $30^{\\circ}$: components $=15[\\sin30^{\\circ},\\cos30^{\\circ}]=15[0.5,0.866]=[7.5,12.99]$\n\nSecond leg: 8 km due west: components $=[-8,0]$\n\nTotal displacement $=[7.5-8,\\;12.99+0]=[-0.5,12.99]$\n\nDistance from dry port $=\\sqrt{0.25+168.7}=\\sqrt{168.99}\\approx13.0$ km\n\nBearing: since the x-component is slightly negative (west of north) and y is positive, bearing $=360^{\\circ}-\\arctan\\!\\left(\\dfrac{0.5}{12.99}\\right)\\approx360^{\\circ}-2.2^{\\circ}=357.8^{\\circ}$\n\nSo the truck is about **13.0 km from the dry port, at a bearing of approximately $357.8^{\\circ}$** (nearly due north).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "20",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "A truck leaves dry port on a bearing of $30^{\\circ}$ and travels 15 km . It then turns due west and travels 8 km . How far is the truck from the dry port and what is its bearing?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m179f5kthjpprtb8hjjsfcmsg18cvesa",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "With a and b fixed as [-3,0] and [0,3], every combination is plain scalar multiplication and componentwise addition/subtraction."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\vec a=3$ units west $=[-3,0]$, $\\vec b=3$ units north $=[0,3]$.\n\ni. $2\\vec a+\\vec b=[-6,0]+[0,3]=[-6,3]$\n\nii. $\\vec a-2\\vec b=[-3,0]-[0,6]=[-3,-6]$\n\niii. $3\\vec a+1.5\\vec b=[-9,0]+[0,4.5]=[-9,4.5]$\n\niv. $(2\\vec a+\\vec b)+(\\vec a-2\\vec b)=[-6,3]+[-3,-6]=[-9,-3]$\n\nv. $0.5(\\vec a+\\vec b)=0.5[-3,3]=[-1.5,1.5]$\n\nvi. $3\\vec a-2\\vec b=[-9,0]-[0,6]=[-9,-6]$\n\nvii. $2\\vec a-2.5\\vec b=[-6,0]-[0,7.5]=[-6,-7.5]$\n\nviii. $(2\\vec a+\\vec b)-(\\vec a-2\\vec b)=[-6,3]-[-3,-6]=[-3,9]$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "Draw vectors $\\vec{a}=3$ units west and $\\vec{b}=3$ units north on graph paper. Draw the following vectors on the graph paper.\n(i) $2 \\vec{a}+\\vec{b}$\n(ii) $\\vec{a}-2 \\vec{b}$\n(iii) $3 \\vec{a}+1.5 \\vec{b}$\n(iv) $(2 \\vec{a}+\\vec{b})+(\\vec{a}-2 \\vec{b})$\n(v) $0.5(\\vec{a}+\\vec{b})$\n(vi) $3 \\vec{a}-2 \\vec{b}$\n(vii) $2 \\vec{a}-2.5 \\vec{b}$\n(viii) $(2 \\vec{a}+\\vec{b})-(\\vec{a}-2 \\vec{b})$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17aqc0czp86dve317y8b7wy5h8ct27w",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "If two vectors AB and CD are equal, B can be recovered as A plus the known vector CD."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\overrightarrow{AB}=\\overrightarrow{CD}$, $A(0,2), C(-2,4), D(-1,5)$.\n\n$\\overrightarrow{CD}=D-C=(-1-(-2),\\,5-4)=[1,1]$\n\nSince $\\overrightarrow{AB}=\\overrightarrow{CD}$: $B=A+\\overrightarrow{CD}=(0+1,\\,2+1)=(1,3)$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "If $\\overrightarrow{A B}=\\overrightarrow{C D}$ and $A(0,2), C(-2,4), D(-1,5)$, then find vertex $B$.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17bzggy4gdgn6t2srask14b258ctv1z",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "A vector's arrow is fixed by its magnitude (length) and direction (angle from the x-axis); components are magnitude times (cos, sin) of that angle."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Each vector is specified by its magnitude and direction (bearing/angle from the x-axis), which is enough to plot it on graph paper as an arrow of the given length pointing the given way.\n\ni. 10 N force along the x-axis: components $[10,0]$, i.e. an arrow of length 10 units drawn along the positive x-axis.\n\nii. 50 m/s velocity at $150^{\\circ}$ with the x-axis: components $=50(\\cos150^{\\circ},\\sin150^{\\circ})=50(-0.866,0.5)=[-43.3,25]$, an arrow of length 50 units drawn at $150^{\\circ}$ (measured counter-clockwise from the positive x-axis, pointing up and to the left).\n\niii. 220 m displacement towards north: components $[0,220]$, an arrow of length 220 units along the positive y-axis.\n\niv. $24\\,\\mathrm{m/s^2}$ acceleration at $45^{\\circ}$ with the x-axis: components $=24(\\cos45^{\\circ},\\sin45^{\\circ})\\approx[17,17]$, an arrow of length 24 units drawn at $45^{\\circ}$ above the positive x-axis.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "magnitude-norm-of-a-vector",
+    "sectionLabel": "Magnitude (Norm) of a Vector",
+    "stem": "Draw the following vectors.\n(i) 10 N force along $x$-axis\n(ii) $50 \\mathrm{~m} / \\mathrm{s}$ velocity at $150^{\\circ}$ with x -axis\n(iii) 220 m displacement towards north\n(iv) $24 \\mathrm{~m} / \\mathrm{s}^{2}$ acceleration at $45^{\\circ}$ with x -axis",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17bg6897z2m392c46pn44ve998ct1a2",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Scalar multiples and sums of vectors are computed componentwise; |v| = sqrt(x^2+y^2) is applied only after the vector arithmetic is finished, since |a|+|b| != |a+b| in general."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\vec a=3\\hat\\imath+5\\hat\\jmath$, $\\vec b=2\\hat\\imath-4\\hat\\jmath$.\n\ni. $\\vec a+2\\vec b=(3+4)\\hat\\imath+(5-8)\\hat\\jmath=7\\hat\\imath-3\\hat\\jmath$\n\nii. $2\\vec a-3\\vec b=(6-6)\\hat\\imath+(10+12)\\hat\\jmath=22\\hat\\jmath$\n\niii. $5(2\\vec a+\\vec b)=5[(6+2)\\hat\\imath+(10-4)\\hat\\jmath]=5(8\\hat\\imath+6\\hat\\jmath)=40\\hat\\imath+30\\hat\\jmath$\n\niv. $0.5(\\vec a-\\vec b)=0.5[(3-2)\\hat\\imath+(5+4)\\hat\\jmath]=0.5\\hat\\imath+4.5\\hat\\jmath$\n\nv. $|\\vec a+\\vec b|$: $\\vec a+\\vec b=[5,1]$, $|\\cdot|=\\sqrt{26}$\n\nvi. $|\\vec a-\\vec b|$: $\\vec a-\\vec b=[1,9]$, $|\\cdot|=\\sqrt{82}$\n\nvii. $|\\vec a|+2|\\vec b|$: $|\\vec a|=\\sqrt{9+25}=\\sqrt{34}$, $|\\vec b|=\\sqrt{4+16}=2\\sqrt5$. Sum $=\\sqrt{34}+4\\sqrt5$\n\nviii. $|\\vec a|-|\\vec b|=\\sqrt{34}-2\\sqrt5$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "15",
+    "sectionId": "magnitude-norm-of-a-vector",
+    "sectionLabel": "Magnitude (Norm) of a Vector",
+    "stem": "If $\\vec{a}=3 \\hat{\\imath}+5 \\hat{\\jmath}$ and $\\vec{b}=2 \\hat{\\imath}-4 \\hat{\\jmath}$, then find:\n(i) $\\vec{a}+2 \\vec{b}$\n(ii) $2 \\vec{a}-3 \\vec{b}$\n(iii) $5(2 \\vec{a}+\\vec{b})$\n(iv) $0.5(\\vec{a}-\\vec{b})$\n(v) $|\\vec{a}+\\vec{b}|$\n(vi) $|\\vec{a}-\\vec{b}|$\n(vii) $|\\vec{a}|+2|\\vec{b}|$\n(viii) $|\\vec{a}|-|\\vec{b}|$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m174d5w5hjrebd3fk8q2d0afrh8ctcvz",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Computing side vectors and their squared magnitudes lets you test the Pythagorean relation (right angle) or equal side lengths (isosceles) without any drawing."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $A(0,2), B(\\sqrt3,-1), C(0,-2)$: $\\overrightarrow{AB}=[\\sqrt3,-3]$, $|\\overrightarrow{AB}|^2=3+9=12$. $\\overrightarrow{BC}=[-\\sqrt3,-1]$, $|\\overrightarrow{BC}|^2=3+1=4$. $\\overrightarrow{CA}=[0,4]$, $|\\overrightarrow{CA}|^2=16$. Since $12+4=16=|CA|^2$, the triangle satisfies the Pythagorean relation with the right angle at B, so **ABC is a right-angled triangle**.\n\nii. $A(3,1), B(-2,-3), C(2,2)$: $\\overrightarrow{AB}=[-5,-4]$, $|\\overrightarrow{AB}|^2=25+16=41$. $\\overrightarrow{BC}=[4,5]$, $|\\overrightarrow{BC}|^2=16+25=41$. Since $|AB|=|BC|=\\sqrt{41}$, two sides are equal, so **ABC is an isosceles triangle**.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "magnitude-norm-of-a-vector",
+    "sectionLabel": "Magnitude (Norm) of a Vector",
+    "stem": "(i) Show that $A(0,2), B(\\sqrt{3},-1), C(0,-2)$ are the vertices of a right-angled triangle.\n(ii) Show that $A(3,1), B(-2,-3), C(2,2)$ are the vertices of an isosceles triangle.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17fwvb05pyntebh74hwg8z9ws8cvq97",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Two vectors [x1,y1] and [x2,y2] are parallel exactly when x1/x2 = y1/y2 (the same scalar ratio in both components)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\vec u=3\\hat\\imath+6\\hat\\jmath$ parallel to $\\vec v=\\hat\\imath+p\\hat\\jmath$ means $\\vec u=\\lambda\\vec v$ for some scalar $\\lambda$.\n\nMatching i-hat: $3=\\lambda(1)\\Rightarrow\\lambda=3$.\n\nMatching j-hat: $6=\\lambda p=3p\\Rightarrow p=2$.",
+    "origin": "exercise",
+    "questionKind": "numerical",
+    "questionNumber": "16",
+    "sectionId": "parallel-vectors",
+    "sectionLabel": "Parallel Vectors",
+    "stem": "Find the value of $p$ for which the vector $\\vec{u}=3 \\hat{\\imath}+6 \\hat{\\jmath}$ is parallel to $\\vec{v}=\\hat{\\imath}+p \\hat{\\jmath}$.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1770vd39y8ty32daaazhh1z498ctxtj",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Three points are collinear exactly when the vector between any two pairs of them are parallel (scalar multiples of each other)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$P(-1,x), Q(3,2), R(7,3)$ collinear means $\\overrightarrow{PQ}$ and $\\overrightarrow{QR}$ are parallel.\n\n$\\overrightarrow{PQ}=[4,\\,2-x]$, $\\overrightarrow{QR}=[4,1]$.\n\nSince the x-components already match (both 4), the scalar ratio is $\\lambda=1$, so the y-components must also match: $2-x=1\\Rightarrow x=1$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sectionId": "parallel-vectors",
+    "sectionLabel": "Parallel Vectors",
+    "stem": "Find $x$, such that the points $P(-1, x), Q(3,2)$ and $R(7,3)$ are collinear.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1768mdn17rgcqv4mp2x7hqbqd8cv8bn",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "A vector from A to B is found as B minus A componentwise; the same vector can be written as [x,y] or as x-i-hat plus y-j-hat."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\overrightarrow{AB}=B-A$ in both notations.\n\ni. $A(1,3), B(4,6)$: $\\overrightarrow{AB}=[3,3]=3\\hat\\imath+3\\hat\\jmath$\n\nii. $A(-2,5), B(2,-5)$: $\\overrightarrow{AB}=[4,-10]=4\\hat\\imath-10\\hat\\jmath$\n\niii. $A(4,-7), B(-1,-9)$: $\\overrightarrow{AB}=[-5,-2]=-5\\hat\\imath-2\\hat\\jmath$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sectionId": "position-vector",
+    "sectionLabel": "Position Vector",
+    "stem": "Express $\\overrightarrow{A B}$ in the form of $[x, y]$ and $x \\hat{\\imath}+y \\hat{\\jmath}$, when:\n(i) $\\mathrm{A}(1,3), \\mathrm{B}(4,6)$\n(ii) $\\mathrm{A}(-2,5), \\mathrm{B}(2,-5)$\n(iii) $\\mathrm{A}(4,-7), \\mathrm{B}(-1,-9)$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1762201eahd9q0hazcgppsyvn8cvytz",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Matching i-hat and j-hat coefficients on both sides of a vector equation gives a pair of simultaneous linear equations in the unknown scalars, solved by substitution or elimination."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\vec a=3\\hat\\imath-2\\hat\\jmath$, $\\vec b=\\hat\\imath+4\\hat\\jmath$. $x\\vec a+y\\vec b=(3x+y)\\hat\\imath+(-2x+4y)\\hat\\jmath=4\\hat\\imath-12\\hat\\jmath$.\n\nSo $3x+y=4$ and $-2x+4y=-12$.\n\nFrom the first equation, $y=4-3x$. Substituting: $-2x+4(4-3x)=-12\\Rightarrow-2x+16-12x=-12\\Rightarrow-14x=-28\\Rightarrow x=2$.\n\nThen $y=4-3(2)=-2$.\n\nSo $x=2, y=-2$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sectionId": "scalar-multiplication",
+    "sectionLabel": "Scalar Multiplication",
+    "stem": "If $\\vec{a}=3 \\hat{\\imath}-2 \\hat{\\jmath}$ and $\\vec{b}=\\hat{\\imath}+4 \\hat{\\jmath}$, then find $x$ and $y$ such that $x \\vec{a}+y \\vec{b}=4 \\hat{\\imath}-12 \\hat{\\jmath}$.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m177sxx1x44fwy0zp99ey4rjeh8ctc9k",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Scaling a vector by a positive number keeps its direction and scales its length; multiplying by a negative number reverses direction (adds 180 degrees) and scales the length by the absolute value of the scalar."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\vec p$ is 4 cm long at $45^{\\circ}$ with the x-axis.\n\ni. $2\\vec p$: 8 cm long at $45^{\\circ}$, same direction as $\\vec p$ (double length).\n\nii. $-\\vec r$: the stem does not define a vector $\\vec r$ anywhere in this exercise (only $\\vec p$ is given); this part cannot be resolved without fabricating a length/direction for $\\vec r$, so it is left unanswered here rather than guessed.\n\niii. $0.5\\vec p$: 2 cm long at $45^{\\circ}$, same direction (half length).\n\niv. $-1.5\\vec p$: 6 cm long at $225^{\\circ}$ (i.e. $45^{\\circ}+180^{\\circ}$, opposite direction), 1.5 times the length.\n\nv. $-0.5\\vec p$: 2 cm long at $225^{\\circ}$, opposite direction, half the length.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "scalar-multiplication",
+    "sectionLabel": "Scalar Multiplication",
+    "stem": "Draw the vectors on the graph paper when $\\vec{p}$ is 4 cm long making an angle of $45^{\\circ}$ with x -axis.\n(i) $2 \\vec{p}$\n(ii) $-\\overrightarrow{\\boldsymbol{r}}$\n(iii) $0.5 \\vec{p}$\n(iv) $-1.5 \\vec{p}$\n(v) $-0.5 \\vec{p}$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17a825asrdheqzv2rng3vmc7s8cvdcj",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Translating a point by vector [a,b] adds a to the x-coordinate and b to the y-coordinate."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Point $(5,-7)$ translated by $[0,-3]$: new position $=(5+0,\\,-7-3)=(5,-10)$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sectionId": "translation-by-vector",
+    "sectionLabel": "Translation by Vector",
+    "stem": "A point with coordinates $(5,-7)$ have been translated by the vector $[0,-3]$. Find new position of the point.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17cqxs16zve7gqe25jb32jd6x8cvrpd",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Translating a vector by another vector adds the two componentwise, the same rule as translating a point."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Vector $[-5,4]$ translated by $[4,-3]$: new vector $=[-5+4,\\,4-3]=[-1,1]$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sectionId": "translation-by-vector",
+    "sectionLabel": "Translation by Vector",
+    "stem": "A vector $[-5,4]$ have been translated by another vector $[4,-3]$. Find new location of the given vector.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1774r4ggwj6gkkgm5yerknt118ctnzm",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Translating every vertex of a triangle by the same vector adds that vector's components to each vertex's coordinates."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$A(-4,6), B(-1,4), C(-6,1)$.\n\ni. Translation by $[5,0]$: $A'=(1,6)$, $B'=(4,4)$, $C'=(-1,1)$\n\nii. Translation by $[-3,-4]$: $A''=(-7,2)$, $B''=(-4,0)$, $C''=(-9,-3)$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sectionId": "translation-by-vector",
+    "sectionLabel": "Translation by Vector",
+    "stem": "Triangle ABC is a pre-image with its vertices at $\\mathrm{A}=(-4,6), \\mathrm{B}=(-1,4)$ and $\\mathrm{C}=(-6,1)$. Find the coordinates of the image if:\n(i) the triangle is translated by $[5,0]$\n(ii) the triangle is translated by $[-3,-4]$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m176np5nftekp8ey54w7c8bj318cvpdn",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "The translation vector taking point A to point B is B minus A; here B is the origin."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "To bring $E(-6,5)$ to the origin $(0,0)$, the translation vector is $\\text{origin}-E=(0-(-6),\\,0-5)=[6,-5]$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sectionId": "translation-by-vector",
+    "sectionLabel": "Translation by Vector",
+    "stem": "What translation by vector would be needed to bring the point $\\mathrm{E}(-6,5)$ to the origin?",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m170j539p5rynmsypbkcvj8qkn8cv470",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "A unit vector is obtained by dividing a vector by its own magnitude: u-hat = u / |u|."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $\\overrightarrow{PQ}$, $P(1,4), Q(4,8)$: $\\overrightarrow{PQ}=[3,4]$, $|\\overrightarrow{PQ}|=\\sqrt{9+16}=5$. Unit vector $=\\left[\\tfrac35,\\tfrac45\\right]$\n\nii. $\\vec u=5\\hat\\imath-12\\hat\\jmath$: $|\\vec u|=\\sqrt{25+144}=13$. Unit vector $=\\tfrac{5}{13}\\hat\\imath-\\tfrac{12}{13}\\hat\\jmath$\n\niii. $\\vec b=-6\\hat\\imath-8\\hat\\jmath$: $|\\vec b|=\\sqrt{36+64}=10$. Unit vector $=-\\tfrac{6}{10}\\hat\\imath-\\tfrac{8}{10}\\hat\\jmath=-\\tfrac35\\hat\\imath-\\tfrac45\\hat\\jmath$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sectionId": "unit-vector",
+    "sectionLabel": "Unit Vector",
+    "stem": "Find the unit vectors of the following vectors.\n(i) $\\overrightarrow{P Q}$ when $\\mathrm{P}(1,4), \\mathrm{Q}(4,8)$\n(ii) $\\vec{u}=5 \\hat{\\imath}-12 \\hat{\\jmath}$\n(iii) $\\vec{b}=-6 \\hat{\\imath}-8 \\hat{\\jmath}$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m1793gc6nbnxjdehrnhajawnvx8cvhm6",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "Each part first combines the given vectors componentwise, then normalizes the result by dividing by its own magnitude."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\vec a=2\\hat\\imath-4\\hat\\jmath$, $\\vec b=\\hat\\imath-2\\hat\\jmath$, $\\vec c=[1,3]$.\n\ni. $\\vec a+\\vec b=[3,-6]$, $|\\cdot|=\\sqrt{9+36}=3\\sqrt5$. Unit vector $=\\tfrac{1}{\\sqrt5}\\hat\\imath-\\tfrac{2}{\\sqrt5}\\hat\\jmath$\n\nii. $2\\vec a-\\vec c=[4,-8]-[1,3]=[3,-11]$, $|\\cdot|=\\sqrt{9+121}=\\sqrt{130}$. Unit vector $=\\tfrac{3}{\\sqrt{130}}\\hat\\imath-\\tfrac{11}{\\sqrt{130}}\\hat\\jmath$\n\niii. $2\\vec a-\\vec b=[4,-8]-[1,-2]=[3,-6]$, $|\\cdot|=3\\sqrt5$. Unit vector $=\\tfrac{1}{\\sqrt5}\\hat\\imath-\\tfrac{2}{\\sqrt5}\\hat\\jmath$ (same direction as part i)\n\niv. $3(\\vec a+\\vec c)$: $\\vec a+\\vec c=[3,-1]$, times 3 $=[9,-3]$, $|\\cdot|=\\sqrt{81+9}=3\\sqrt{10}$. Unit vector $=\\tfrac{3}{\\sqrt{10}}\\hat\\imath-\\tfrac{1}{\\sqrt{10}}\\hat\\jmath$\n\nv. $\\vec a+\\vec b+2\\vec c=[3,-6]+[2,6]=[5,0]$, $|\\cdot|=5$. Unit vector $=\\hat\\imath$\n\nvi. $4\\vec a-2\\vec b+\\vec c=[8,-16]-[2,-4]+[1,3]=[7,-9]$, $|\\cdot|=\\sqrt{49+81}=\\sqrt{130}$. Unit vector $=\\tfrac{7}{\\sqrt{130}}\\hat\\imath-\\tfrac{9}{\\sqrt{130}}\\hat\\jmath$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "17",
+    "sectionId": "unit-vector",
+    "sectionLabel": "Unit Vector",
+    "stem": "If $\\vec{a}=2 \\hat{\\imath}-4 \\hat{\\jmath}, \\vec{b}=\\hat{\\imath}-2 \\hat{\\jmath}$ and $\\vec{c}=[1,3]$, then find a unit vector in the direction of:\n(i) $\\vec{a}+\\vec{b}$\n(ii) $2 \\vec{a}-\\vec{c}$\n(iii) $2 \\vec{a}-\\vec{b}$\n(iv) $3(\\vec{a}+\\vec{c})$\n(v) $\\vec{a}+\\vec{b}+2 \\vec{c}$\n(vi) $4 \\vec{a}-2 \\vec{b}+\\vec{c}$",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-1-introduction-of-vectors",
+    "topicTitle": "7.1 Introduction of Vectors",
+    "_id": "m17bxxbevrjmdycgtmx91b36v58cv205",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "A vector of a target magnitude m in a given direction is m times the unit vector of that direction (or its negative, for the opposite direction)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\vec a=\\hat\\imath-3\\hat\\jmath$, $\\vec b=2\\hat\\imath+4\\hat\\jmath$.\n\ni. $2\\vec a-\\vec b=[2,-6]-[2,4]=[0,-10]$, magnitude 10, unit vector $[0,-1]$. Vector of magnitude 4 in this direction $=4[0,-1]=[0,-4]=-4\\hat\\jmath$\n\nii. $\\vec a+2\\vec b=[1,-3]+[4,8]=[5,5]$, magnitude $5\\sqrt2$, unit vector $\\left[\\tfrac{1}{\\sqrt2},\\tfrac{1}{\\sqrt2}\\right]$. Opposite-direction unit vector $=\\left[-\\tfrac{1}{\\sqrt2},-\\tfrac{1}{\\sqrt2}\\right]$. Vector of magnitude 6 in this opposite direction $=6\\left[-\\tfrac{1}{\\sqrt2},-\\tfrac{1}{\\sqrt2}\\right]=[-3\\sqrt2,-3\\sqrt2]$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "18",
+    "sectionId": "unit-vector",
+    "sectionLabel": "Unit Vector",
+    "stem": "If $\\vec{a}=\\hat{\\imath}-3 \\hat{\\jmath}$ and $\\vec{b}=2 \\hat{\\imath}+4 \\hat{\\jmath}$ then find:\n(i) A vector of magnitude 4 in the direction $2 \\vec{a}-\\vec{b}$.\n(ii) A vector of magnitude 6 in the opposite direction of $\\vec{a}+2 \\vec{b}$.",
+    "topicId": "ms7fk0r9x4p44j9zp5gxw136y18bvbwx"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17896xnvm0thys3mh94tvwxzn8cvkty",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "For a parallelogram with adjacent side vectors u and v, its two diagonals are u+v and u-v; their lengths are the magnitudes of those sums/differences."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Adjacent sides of the parallelogram: $\\vec u=2\\hat\\imath+\\hat\\jmath$ and $\\vec v=\\hat\\imath-3\\hat\\jmath$.\n\nOne diagonal $=\\vec u+\\vec v=[3,-2]$, length $=\\sqrt{9+4}=\\sqrt{13}$\n\nOther diagonal $=\\vec u-\\vec v=[1,4]$, length $=\\sqrt{1+16}=\\sqrt{17}$\n\nThe diagonals of the parallelogram have lengths $\\sqrt{13}$ and $\\sqrt{17}$ units.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "2",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "Use vectors to find the length of diagonals of a parallelogram having adjacent sides $2 \\hat{\\imath}+\\hat{\\jmath}$ and $\\hat{\\imath}-3 \\hat{\\jmath}$.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m174d5w5hjrebd3fk8q2d0afrh8ctcvz",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Computing side vectors and their squared magnitudes lets you test the Pythagorean relation (right angle) or equal side lengths (isosceles) without any drawing."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "i. $A(0,2), B(\\sqrt3,-1), C(0,-2)$: $\\overrightarrow{AB}=[\\sqrt3,-3]$, $|\\overrightarrow{AB}|^2=3+9=12$. $\\overrightarrow{BC}=[-\\sqrt3,-1]$, $|\\overrightarrow{BC}|^2=3+1=4$. $\\overrightarrow{CA}=[0,4]$, $|\\overrightarrow{CA}|^2=16$. Since $12+4=16=|CA|^2$, the triangle satisfies the Pythagorean relation with the right angle at B, so **ABC is a right-angled triangle**.\n\nii. $A(3,1), B(-2,-3), C(2,2)$: $\\overrightarrow{AB}=[-5,-4]$, $|\\overrightarrow{AB}|^2=25+16=41$. $\\overrightarrow{BC}=[4,5]$, $|\\overrightarrow{BC}|^2=16+25=41$. Since $|AB|=|BC|=\\sqrt{41}$, two sides are equal, so **ABC is an isosceles triangle**.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "3",
+    "sectionId": "magnitude-norm-of-a-vector",
+    "sectionLabel": "Magnitude (Norm) of a Vector",
+    "stem": "(i) Show that $A(0,2), B(\\sqrt{3},-1), C(0,-2)$ are the vertices of a right-angled triangle.\n(ii) Show that $A(3,1), B(-2,-3), C(2,2)$ are the vertices of an isosceles triangle.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m1770vd39y8ty32daaazhh1z498ctxtj",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Three points are collinear exactly when the vector between any two pairs of them are parallel (scalar multiples of each other)."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$P(-1,x), Q(3,2), R(7,3)$ collinear means $\\overrightarrow{PQ}$ and $\\overrightarrow{QR}$ are parallel.\n\n$\\overrightarrow{PQ}=[4,\\,2-x]$, $\\overrightarrow{QR}=[4,1]$.\n\nSince the x-components already match (both 4), the scalar ratio is $\\lambda=1$, so the y-components must also match: $2-x=1\\Rightarrow x=1$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "7",
+    "sectionId": "parallel-vectors",
+    "sectionLabel": "Parallel Vectors",
+    "stem": "Find $x$, such that the points $P(-1, x), Q(3,2)$ and $R(7,3)$ are collinear.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17aqc0czp86dve317y8b7wy5h8ct27w",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "If two vectors AB and CD are equal, B can be recovered as A plus the known vector CD."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\overrightarrow{AB}=\\overrightarrow{CD}$, $A(0,2), C(-2,4), D(-1,5)$.\n\n$\\overrightarrow{CD}=D-C=(-1-(-2),\\,5-4)=[1,1]$\n\nSince $\\overrightarrow{AB}=\\overrightarrow{CD}$: $B=A+\\overrightarrow{CD}=(0+1,\\,2+1)=(1,3)$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "9",
+    "sectionId": "addition-of-vectors",
+    "sectionLabel": "Addition of Vectors",
+    "stem": "If $\\overrightarrow{A B}=\\overrightarrow{C D}$ and $A(0,2), C(-2,4), D(-1,5)$, then find vertex $B$.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m179v74z3xc002zbdvta45r4n58ct62b",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "If both pairs of opposite sides of a quadrilateral are equal (as vectors, i.e. equal in magnitude AND direction), the quadrilateral is a parallelogram."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\overrightarrow{EF}=\\overrightarrow{HG}$ means side EF is equal in length and parallel to side HG (opposite sides of the quadrilateral EFGH). $\\overrightarrow{EH}=\\overrightarrow{FG}$ means side EH is equal in length and parallel to side FG (the other pair of opposite sides).\n\nSince both pairs of opposite sides of EFGH are equal and parallel, **EFGH is a parallelogram**.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "1",
+    "sectionId": "application-to-geometry",
+    "sectionLabel": "Application to Geometry",
+    "stem": "What type of a quadrilateral $E F G H$ is if $\\overrightarrow{E F}=\\overrightarrow{H G}$ and $\\overrightarrow{E H}=\\overrightarrow{F G}$ ?",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m173enfgmcej40g47cg1s0cdvh8cvm34",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "The quadrilateral formed by joining consecutive midpoints of any quadrilateral's sides is always a parallelogram (Varignon's theorem), provable by showing one pair of its sides are equal as vectors."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$U(9,4), V(-7,7), W(-4,-7), X(5,-5)$.\n\nMidpoints of the sides: $P=\\text{mid}(UV)=(1,5.5)$, $Q=\\text{mid}(VW)=(-5.5,0)$, $R=\\text{mid}(WX)=(0.5,-6)$, $S=\\text{mid}(XU)=(7,-0.5)$.\n\n$\\overrightarrow{PQ}=Q-P=(-6.5,-5.5)$ and $\\overrightarrow{SR}=R-S=(-6.5,-5.5)$, so $\\overrightarrow{PQ}=\\overrightarrow{SR}$: one pair of opposite sides of PQRS is equal and parallel, which is sufficient to prove **PQRS is a parallelogram** (this is Varignon's midpoint theorem).",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sectionId": "application-to-geometry",
+    "sectionLabel": "Application to Geometry",
+    "stem": "Vertices of a quadrilateral are $U(9,4), V(-7,7), W(-4,-7)$ and $X(5,-5)$. Find mid points of its sides and prove that the figure obtained by joining mid points consecutively is a parallelogram.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17c6f4ryjsfq8rkn7x0qhas958ct3q5",
+    "exerciseId": "xd73t83bfkkdr3p779cs2abdb98dynr4",
+    "exerciseTitle": "Exercise 7.1",
+    "keyPoints": [
+      "The midpoint's position vector is the average of the two endpoints' position vectors: OM = (OP+OQ)/2.",
+      "PQ = OQ - OP, and since M bisects PQ, PM = (1/2)PQ and QM = -PM."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\overrightarrow{OP}=\\vec p+\\vec q$, $\\overrightarrow{OQ}=\\vec p-\\vec q$, M is the midpoint of PQ so $\\overrightarrow{OM}=\\dfrac{\\overrightarrow{OP}+\\overrightarrow{OQ}}{2}$.\n\ni. $\\overrightarrow{PQ}=\\overrightarrow{OQ}-\\overrightarrow{OP}=(\\vec p-\\vec q)-(\\vec p+\\vec q)=-2\\vec q$\n\nii. $\\overrightarrow{PM}=\\tfrac12\\overrightarrow{PQ}=-\\vec q$\n\niii. $\\overrightarrow{QM}=-\\overrightarrow{PM}=\\vec q$ (since M is the midpoint, QM = -PM)\n\niv. $\\overrightarrow{OM}=\\dfrac{(\\vec p+\\vec q)+(\\vec p-\\vec q)}{2}=\\vec p$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "10",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "Given that $\\overrightarrow{O P}=\\vec{p}+\\vec{q}, \\overrightarrow{O Q}=\\vec{p}-\\vec{q}$ and $M$ is mid-point of $\\overrightarrow{P Q}$. Find in terms of $\\vec{p}$ and $\\vec{q}$.\n(i) $\\overrightarrow{P Q}$\n(ii) $\\overrightarrow{P M}$\n(iii) $\\overrightarrow{Q M}$\n(iv) $\\overrightarrow{O M}$",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17dmczzdn2zb5nacyb93xtcfs8ctke1",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "The midpoint of a segment with endpoints having position vectors a and b is (a+b)/2.",
+      "DE = (1/2) BC follows directly from substituting the midpoint formulas for D and E, proving both the length-half and parallel properties at once."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let triangle ABC have position vectors $\\vec a,\\vec b,\\vec c$, and let D, E be the midpoints of AB and AC respectively.\n\n$D=\\dfrac{\\vec a+\\vec b}{2}$, $E=\\dfrac{\\vec a+\\vec c}{2}$ (midpoint position-vector formula).\n\n$\\overrightarrow{DE}=E-D=\\dfrac{\\vec a+\\vec c}{2}-\\dfrac{\\vec a+\\vec b}{2}=\\dfrac{\\vec c-\\vec b}{2}=\\tfrac12\\overrightarrow{BC}$\n\nSo $\\overrightarrow{DE}=\\tfrac12\\overrightarrow{BC}$, hence $|DE|=\\tfrac12|BC|$ (and DE is parallel to BC). This proves the segment joining the midpoints of two sides of a triangle is half the length of the third side.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "11",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "Prove that the line segments joining the midpoints of two sides of a triangle are half in length of third side.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17e6dhmtmd0vq2xvzv1brpd498ctj5p",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Two vectors are parallel exactly when one is a scalar multiple of the other; showing MN = k*AB for some scalar k proves the parallelism directly."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let trapezium ABCD have $\\overrightarrow{AB}\\parallel\\overrightarrow{DC}$, with position vectors $\\vec a,\\vec b,\\vec c,\\vec d$, and M, N the midpoints of the two non-parallel sides AD and BC.\n\n$M=\\dfrac{\\vec a+\\vec d}{2}$, $N=\\dfrac{\\vec b+\\vec c}{2}$.\n\nSince $AB\\parallel DC$, $\\vec c-\\vec d=\\lambda(\\vec b-\\vec a)$ for some scalar $\\lambda$.\n\n$\\overrightarrow{MN}=N-M=\\dfrac{(\\vec b-\\vec a)+(\\vec c-\\vec d)}{2}=\\dfrac{(\\vec b-\\vec a)+\\lambda(\\vec b-\\vec a)}{2}=\\dfrac{1+\\lambda}{2}(\\vec b-\\vec a)$\n\nSo $\\overrightarrow{MN}$ is a scalar multiple of $\\overrightarrow{AB}$, hence **MN is parallel to both AB and DC**, the two parallel sides of the trapezium.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "12",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "Prove that the joining the midpoints of the two non-parallel sides of a trapezium is parallel to its parallel sides.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17etnjy44yx40r30cxrd0mtf98ctf6t",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "The intersection of the segment joining midpoints of two adjacent sides of a parallelogram with the corresponding diagonal always divides that diagonal in the ratio 1:3, provable via position vectors or verified by a concrete coordinate example."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Let a parallelogram ABCD have position vectors $\\vec a,\\vec b,\\vec c,\\vec d$ (so $\\vec d=\\vec a+\\vec c-\\vec b$, since diagonals bisect each other). Let M, N be the midpoints of adjacent sides AB and BC: $M=\\dfrac{\\vec a+\\vec b}{2}$, $N=\\dfrac{\\vec b+\\vec c}{2}$.\n\nParametrize line MN as $M+t(N-M)$ and diagonal BD as $\\vec b+s(\\vec d-\\vec b)$, then match the (affinely independent) coefficients of $\\vec a,\\vec b,\\vec c$ on both sides. Solving gives $t=\\tfrac12$ and $s=\\tfrac14$.\n\nSo the intersection point divides diagonal BD in the ratio $s:(1-s)=\\tfrac14:\\tfrac34=1:3$ from B.\n\nCheck with a concrete square $A(0,0),B(2,0),C(2,2),D(0,2)$: midpoint of AB is $(1,0)$, midpoint of BC is $(2,1)$; the line through them meets diagonal BD (from $(2,0)$ to $(0,2)$) at $(1.5,0.5)$, which is exactly $1/4$ of the way from B to D, confirming the $1:3$ ratio. Since a square and rectangle are both parallelograms, the same proof covers all three.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "13",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "Prove that the line segment joining mid points of adjacent sides of a square or rectangle or parallelogram divides the corresponding diagonal in the ratio $1: 3$.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17bgb2v1shwwt9eqb0wvqp7qx8cvk39",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "The internal-division ratio formula r = (m*b + n*a)/(m+n) gives the position vector of the dividing point directly from the two endpoints' position vectors."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Position vectors $\\vec c=3\\hat\\imath+2\\hat\\jmath$, $\\vec d=\\hat\\imath-4\\hat\\jmath$. O divides CD in ratio $2:3$ internally, so using the ratio formula $\\vec r=\\dfrac{m\\vec d+n\\vec c}{m+n}$ with $m:n=2:3$:\n\n$\\vec r=\\dfrac{2(\\hat\\imath-4\\hat\\jmath)+3(3\\hat\\imath+2\\hat\\jmath)}{5}=\\dfrac{2\\hat\\imath-8\\hat\\jmath+9\\hat\\imath+6\\hat\\jmath}{5}=\\dfrac{11\\hat\\imath-2\\hat\\jmath}{5}=\\dfrac{11}{5}\\hat\\imath-\\dfrac25\\hat\\jmath$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "4",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "The position vectors of points C and D are $3 \\hat{\\imath}+2 \\hat{\\jmath}$ and $\\hat{\\imath}-4 \\hat{\\jmath}$ respectively. Find the position vector of point O dividing the line segment joining C and D in the ratio $2: 3$ internally.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17enzdd88rgegdda1cpax4wtn8cvypp",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "Rearranging the midpoint formula M = (X+Y)/2 to Y = 2M - X recovers the unknown endpoint directly."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "M(2,4) is the midpoint of XY, $X(-1,3)$, $Y(x,y)$. Since $M=\\dfrac{X+Y}{2}$:\n\n$Y=2M-X=(2(2)-(-1),\\,2(4)-3)=(4+1,\\,8-3)=(5,5)$",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "5",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "If $M(2,4)$ is mid-point of $\\overrightarrow{X Y}$ such that $X(-1,3)$ and $Y(x, y)$. Find the point $Y$.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m17dnxqrngx4d5d21sa8vat0hd8cv6vh",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "The two points that trisect a segment AB are A + (1/3)(B-A) and A + (2/3)(B-A), a direct extension of the ratio/section formula."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "$\\overrightarrow{OA}=-\\hat\\imath+3\\hat\\jmath$, i.e. $A(-1,3)$; $\\overrightarrow{OB}=6\\hat\\imath+2\\hat\\jmath$, i.e. $B(6,2)$.\n\nThe two points trisecting AB are at $A+\\tfrac13(B-A)$ and $A+\\tfrac23(B-A)$, where $B-A=[7,-1]$.\n\n$T_1=(-1+\\tfrac73,\\,3-\\tfrac13)=\\left(\\tfrac43,\\tfrac83\\right)$\n\n$T_2=(-1+\\tfrac{14}3,\\,3-\\tfrac23)=\\left(\\tfrac{11}3,\\tfrac73\\right)$\n\nSo the points trisecting AB are $\\left(\\tfrac43,\\tfrac83\\right)$ and $\\left(\\tfrac{11}3,\\tfrac73\\right)$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "6",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "If $\\overrightarrow{O A}=-\\hat{\\imath}+3 \\hat{\\jmath}, \\overrightarrow{O B}=6 \\hat{\\imath}+2 \\hat{\\jmath}$, find the point trisecting the join of $\\overrightarrow{A B}$.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  },
+  {
+    "subjectSlug": "maths-10",
+    "chapterSlug": "07-vectors-in-plane",
+    "chapterTitle": "Vectors in Plane",
+    "topicSlug": "7-2-ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "topicTitle": "7.2 Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "_id": "m170kf2spjpb8rvv7fyp2bdcfh8ct2bw",
+    "exerciseId": "xd7a7ta5vrwnya25s3rjgpfyts8dyapj",
+    "exerciseTitle": "Exercise 7.2",
+    "keyPoints": [
+      "In any parallelogram, the diagonals bisect each other, so the midpoints of both diagonals must coincide -- this fixes the fourth vertex given the other three."
+    ],
+    "lastAttempt": null,
+    "locked": false,
+    "modelAnswer": "Parallelogram $ABCD$: $A(-3,0), B(1,-2), C(5,0)$. The diagonals AC and BD bisect each other, so $\\text{midpoint}(AC)=\\text{midpoint}(BD)$.\n\nMidpoint of AC $=\\left(\\dfrac{-3+5}{2},\\dfrac{0+0}{2}\\right)=(1,0)$\n\nSetting this equal to the midpoint of BD: $\\left(\\dfrac{1+D_x}{2},\\dfrac{-2+D_y}{2}\\right)=(1,0)\\Rightarrow D_x=1, D_y=2$\n\nSo $D=(1,2)$.",
+    "origin": "exercise",
+    "questionKind": "unclassified",
+    "questionNumber": "8",
+    "sectionId": "ratio-formula-for-finding-position-vector-of-a-point-on-a-vector",
+    "sectionLabel": "Ratio Formula for Finding Position Vector of a Point on a Vector",
+    "stem": "Find the coordinates of vertex $D$ of a parallelogram $A B C D$ if $A(-3,0), B(1,-2)$ and $C(5,0)$ are its three vertices.",
+    "topicId": "ms74h5s64q1m783q33sn9bf3gs8bvfen"
+  }
+]

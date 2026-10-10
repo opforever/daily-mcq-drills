@@ -1,0 +1,982 @@
+[
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-1-pressure-exerted-by-gas-molecules",
+    "topicTitle": "16.1 Pressure Exerted by Gas Molecules",
+    "_id": "k97994zdgbnz5krer78584f9t185q4m1",
+    "correctKey": "C",
+    "explanation": "From $P = \\frac{1}{3} \\rho \\langle v^2 \\rangle$, pressure $P$ is directly proportional to density $\\rho$ when $\\langle v^2 \\rangle$ is constant. Doubling $\\rho$ therefore doubles $P$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh2vzbb9wtn9yt5kcd4dq7985q9g8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Remain the same"
+      },
+      {
+        "key": "B",
+        "text": "Be halved"
+      },
+      {
+        "key": "C",
+        "text": "Double"
+      },
+      {
+        "key": "D",
+        "text": "Increase four times"
+      }
+    ],
+    "sectionId": "alternative-forms",
+    "sectionLabel": "Alternative Forms",
+    "stem": "If the density of an ideal gas is doubled while keeping the mean square speed constant, the pressure will:",
+    "topicId": "ms760sj2qv6bqjm7emr8ajdxzx85pv61"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-1-pressure-exerted-by-gas-molecules",
+    "topicTitle": "16.1 Pressure Exerted by Gas Molecules",
+    "_id": "k978p9mg3fx355tne2zdg5h2q185qze7",
+    "correctKey": "B",
+    "explanation": "The bracketed term $\\frac{1}{2} m \\langle v^2 \\rangle$ is the average translational kinetic energy per molecule. Since $P = \\frac{2}{3} N_0 \\langle KE \\rangle$ and $N_0$ is constant at fixed volume and number, pressure is directly proportional to average translational kinetic energy.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh2vzbb9wtn9yt5kcd4dq7985q9g8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inversely proportional to average translational kinetic energy"
+      },
+      {
+        "key": "B",
+        "text": "Directly proportional to average translational kinetic energy"
+      },
+      {
+        "key": "C",
+        "text": "Independent of the mass of molecules"
+      },
+      {
+        "key": "D",
+        "text": "Equal to the total energy of the system"
+      }
+    ],
+    "sectionId": "alternative-forms",
+    "sectionLabel": "Alternative Forms",
+    "stem": "The expression $P = \\frac{2}{3} N_0 \\left(\\frac{1}{2} m \\langle v^2 \\rangle\\right)$ shows that the pressure of an ideal gas is:",
+    "topicId": "ms760sj2qv6bqjm7emr8ajdxzx85pv61"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-1-pressure-exerted-by-gas-molecules",
+    "topicTitle": "16.1 Pressure Exerted by Gas Molecules",
+    "_id": "k979ab4jw430qd2dg6ng89k86585qj46",
+    "correctKey": "B",
+    "explanation": "For a large number of randomly moving molecules with no preferred direction (isotropic motion), the mean square velocity components along x, y, and z must be equal by symmetry. This isotropy is a key step in the kinetic theory derivation and leads to the factor of 1/3 in $P = \\frac{1}{3}\\frac{Nm}{V}\\langle v^2 \\rangle$.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh2vzbb9wtn9yt5kcd4dq7985q9g8",
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecules moving only in straight lines parallel to the axes"
+      },
+      {
+        "key": "B",
+        "text": "The isotropic (random, no preferred direction) nature of molecular motion"
+      },
+      {
+        "key": "C",
+        "text": "Gravity pulling molecules preferentially downward"
+      },
+      {
+        "key": "D",
+        "text": "Collisions between molecules being perfectly inelastic"
+      }
+    ],
+    "sectionId": "derivation-of-pv--frac13nmlangle-v2-rangle",
+    "sectionLabel": "Derivation of $pV = \\frac{1}{3}Nm\\langle v^2 \\rangle$",
+    "stem": "In the kinetic theory derivation of gas pressure, the assumption $\\langle v_x^2 \\rangle = \\langle v_y^2 \\rangle = \\langle v_z^2 \\rangle$ is justified by:",
+    "topicId": "ms760sj2qv6bqjm7emr8ajdxzx85pv61"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-1-pressure-exerted-by-gas-molecules",
+    "topicTitle": "16.1 Pressure Exerted by Gas Molecules",
+    "_id": "k973eb19738649zphh4a1e64bs85qx0k",
+    "correctKey": "A",
+    "explanation": "Pressure is force per unit area. By Newton's second law, force equals rate of change of momentum ($F = \\Delta p / \\Delta t$). Each molecular collision transfers momentum to the wall, so pressure is directly proportional to the rate of momentum transfer per unit area.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7fh2vzbb9wtn9yt5kcd4dq7985q9g8",
+    "options": [
+      {
+        "key": "A",
+        "text": "The rate of change of momentum during collisions with the walls"
+      },
+      {
+        "key": "B",
+        "text": "The total volume of the gas molecules"
+      },
+      {
+        "key": "C",
+        "text": "The intermolecular attractive forces"
+      },
+      {
+        "key": "D",
+        "text": "The potential energy of the molecules"
+      }
+    ],
+    "sectionId": "how-molecular-motion-causes-pressure",
+    "sectionLabel": "How Molecular Motion Causes Pressure",
+    "stem": "According to the Kinetic Molecular Theory, the pressure exerted by a gas on container walls is proportional to:",
+    "topicId": "ms760sj2qv6bqjm7emr8ajdxzx85pv61"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-2-root-mean-square-speed-of-an-ideal-gas",
+    "topicTitle": "16.2 Root Mean Square Speed of an Ideal Gas",
+    "_id": "k9718rqyk1hgwkm0v9sk2s1t6s85pc7t",
+    "correctKey": "B",
+    "explanation": "From $v_{rms} = \\sqrt{3P/\\rho}$, rms speed is inversely proportional to $\\sqrt{\\rho}$. If $\\rho$ increases 4 times, $v_{rms}$ becomes $\\sqrt{1/4} = 1/2$ of the original, i.e., decreases by a factor of 2.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dcasaeh538pkcj752bn5s8s85qkhp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increase by a factor of 2"
+      },
+      {
+        "key": "B",
+        "text": "Decrease by a factor of 2"
+      },
+      {
+        "key": "C",
+        "text": "Increase by a factor of 4"
+      },
+      {
+        "key": "D",
+        "text": "Decrease by a factor of 4"
+      }
+    ],
+    "sectionId": "derivation-of-rms-speed-formulas",
+    "sectionLabel": "Derivation of RMS Speed Formulas",
+    "stem": "If the density of a gas is quadrupled while its pressure remains constant, the $v_{rms}$ will:",
+    "topicId": "ms77jjrssvavk8g3vdara3j98185qjbf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-2-root-mean-square-speed-of-an-ideal-gas",
+    "topicTitle": "16.2 Root Mean Square Speed of an Ideal Gas",
+    "_id": "k978mbctrbqrezqrgc2w9dfcgn85p166",
+    "correctKey": "B",
+    "explanation": "Since $v_{rms} \\propto \\sqrt{T}$, if temperature becomes $4T$, then $v_{rms}$ becomes $\\sqrt{4T}/\\sqrt{T} = 2$ times the original speed. The rms speed doubles.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dcasaeh538pkcj752bn5s8s85qkhp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Half the original"
+      },
+      {
+        "key": "B",
+        "text": "Double the original"
+      },
+      {
+        "key": "C",
+        "text": "Four times the original"
+      },
+      {
+        "key": "D",
+        "text": "Unchanged"
+      }
+    ],
+    "sectionId": "derivation-of-rms-speed-formulas",
+    "sectionLabel": "Derivation of RMS Speed Formulas",
+    "stem": "If the absolute temperature of an ideal gas is quadrupled (becomes $4T$), the root mean square speed of its molecules becomes:",
+    "topicId": "ms77jjrssvavk8g3vdara3j98185qjbf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-2-root-mean-square-speed-of-an-ideal-gas",
+    "topicTitle": "16.2 Root Mean Square Speed of an Ideal Gas",
+    "_id": "k974z3m7wk8brm35a5vf68zmb985phxq",
+    "correctKey": "C",
+    "explanation": "Since $v_{rms} = \\sqrt{3RT/M}$, at constant temperature the gas with the smallest molar mass has the highest rms speed. Hydrogen ($M = 2$ g/mol) has the lowest molar mass among the options, so it has the highest rms speed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7dcasaeh538pkcj752bn5s8s85qkhp",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oxygen ($M = 32\\ \\text{g/mol}$)"
+      },
+      {
+        "key": "B",
+        "text": "Nitrogen ($M = 28\\ \\text{g/mol}$)"
+      },
+      {
+        "key": "C",
+        "text": "Hydrogen ($M = 2\\ \\text{g/mol}$)"
+      },
+      {
+        "key": "D",
+        "text": "Helium ($M = 4\\ \\text{g/mol}$)"
+      }
+    ],
+    "sectionId": "derivation-of-rms-speed-formulas",
+    "sectionLabel": "Derivation of RMS Speed Formulas",
+    "stem": "At the same temperature, which of the following gases will have the highest RMS speed?",
+    "topicId": "ms77jjrssvavk8g3vdara3j98185qjbf"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-3-modification-of-the-ideal-gas-model-to-discuss-behaviour-of-non-ideal-gases",
+    "topicTitle": "16.3 Non-Ideal Gas Behaviour: Modification of the Ideal Gas Model",
+    "_id": "k977xvzvj1s7eq5e6yr8gbdjws8be3m2",
+    "correctKey": "A",
+    "explanation": "Intermolecular attractions pull wall-bound molecules inward, so the observed pressure is lower than the ideal pressure.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73sfdty01dczjsg8kqsaebnd85pbk0",
+    "options": [
+      {
+        "key": "A",
+        "text": "Attractions reduce the observed wall pressure"
+      },
+      {
+        "key": "B",
+        "text": "Molecules occupy no volume"
+      },
+      {
+        "key": "C",
+        "text": "Collisions are inelastic"
+      },
+      {
+        "key": "D",
+        "text": "The gas constant changes"
+      }
+    ],
+    "sectionId": "understanding-the-two-corrections",
+    "sectionLabel": "Understanding the Two Corrections",
+    "stem": "In $(P+an^2/V^2)(V-nb)=nRT$, why is $an^2/V^2$ added to the measured pressure?",
+    "topicId": "ms76p8m7hfm0aqx09v4hbjq4h185q378"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-3-modification-of-the-ideal-gas-model-to-discuss-behaviour-of-non-ideal-gases",
+    "topicTitle": "16.3 Non-Ideal Gas Behaviour: Modification of the Ideal Gas Model",
+    "_id": "k9705xckdcj9132xvx2gbqk8vs8bhkvm",
+    "correctKey": "D",
+    "explanation": "CO2 has the largest listed a value (0.364 Pa $m^{6}$ $mol^{-2}$), reflecting its stronger intermolecular attractive forces compared to He, H2, and N2.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73sfdty01dczjsg8kqsaebnd85pbk0",
+    "options": [
+      {
+        "key": "A",
+        "text": "He"
+      },
+      {
+        "key": "B",
+        "text": "H2"
+      },
+      {
+        "key": "C",
+        "text": "N2"
+      },
+      {
+        "key": "D",
+        "text": "CO2"
+      }
+    ],
+    "sectionId": "van-der-waals-constants-for-common-gases",
+    "sectionLabel": "Van der Waals Constants for Common Gases",
+    "stem": "Among He, H2, N2, and CO2, which gas has the largest van der Waals constant a, indicating the strongest intermolecular attraction?",
+    "topicId": "ms76p8m7hfm0aqx09v4hbjq4h185q378"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-3-modification-of-the-ideal-gas-model-to-discuss-behaviour-of-non-ideal-gases",
+    "topicTitle": "16.3 Non-Ideal Gas Behaviour: Modification of the Ideal Gas Model",
+    "_id": "k973tev363f10ns29ep77xjz8s8besg2",
+    "correctKey": "A",
+    "explanation": "High temperature reduces the relative effect of attractions, and low pressure keeps molecules far apart so their volume is negligible.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73sfdty01dczjsg8kqsaebnd85pbk0",
+    "options": [
+      {
+        "key": "A",
+        "text": "High temperature and low pressure"
+      },
+      {
+        "key": "B",
+        "text": "Low temperature and high pressure"
+      },
+      {
+        "key": "C",
+        "text": "Low temperature and low pressure"
+      },
+      {
+        "key": "D",
+        "text": "High pressure at any temperature"
+      }
+    ],
+    "sectionId": "when-do-real-gases-behave-ideally",
+    "sectionLabel": "When Do Real Gases Behave Ideally?",
+    "stem": "Under which conditions does a real gas most closely approach ideal behaviour?",
+    "topicId": "ms76p8m7hfm0aqx09v4hbjq4h185q378"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-4-gravitational-effects-on-ideal-gas-model",
+    "topicTitle": "16.4 Gravitational Effects on the Ideal Gas Model",
+    "_id": "k970eejmp6z7xztwk6wyzaq39s85q315",
+    "correctKey": "C",
+    "explanation": "Gravity pulls molecules downward. Over large vertical scales (like the atmosphere), this results in higher molecular density and pressure at the bottom compared to the top, as described by the Barometric Formula.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75etfcj5vmh1wjc65n8m3ye185pazc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Uniformly distributed throughout the column"
+      },
+      {
+        "key": "B",
+        "text": "Concentrated at the top of the column"
+      },
+      {
+        "key": "C",
+        "text": "Concentrated at the bottom of the column"
+      },
+      {
+        "key": "D",
+        "text": "Moving in orbits around the center of the column"
+      }
+    ],
+    "sectionId": "gravitational-effects-at-large-scale-the-atmosphere",
+    "sectionLabel": "Gravitational Effects at Large Scale: The Atmosphere",
+    "stem": "If gravity were the dominant force acting on an ideal gas in a very tall column, what would be the distribution of molecules?",
+    "topicId": "ms76nrm77bhgcxm4c32akkqbsn85qrmr"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-4-gravitational-effects-on-ideal-gas-model",
+    "topicTitle": "16.4 Gravitational Effects on the Ideal Gas Model",
+    "_id": "k973ytwzgngbar5wwje6nhjh5585qf65",
+    "correctKey": "B",
+    "explanation": "Hydrostatic equilibrium occurs when the net outward pressure (thermal, radiation, and degeneracy pressure) from the star's core precisely counterbalances the inward gravitational force, maintaining the star's stability.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75etfcj5vmh1wjc65n8m3ye185pazc",
+    "options": [
+      {
+        "key": "A",
+        "text": "The star's rotation balances its gravitational collapse"
+      },
+      {
+        "key": "B",
+        "text": "The inward gravitational force is exactly balanced by the outward pressure from fusion and radiation"
+      },
+      {
+        "key": "C",
+        "text": "The star's magnetic field prevents gravitational collapse"
+      },
+      {
+        "key": "D",
+        "text": "The kinetic energy of surface molecules equals the gravitational potential energy"
+      }
+    ],
+    "sectionId": "gravitational-effects-in-stellar-interiors",
+    "sectionLabel": "Gravitational Effects in Stellar Interiors",
+    "stem": "Which of the following best describes hydrostatic equilibrium in a star?",
+    "topicId": "ms76nrm77bhgcxm4c32akkqbsn85qrmr"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-4-gravitational-effects-on-ideal-gas-model",
+    "topicTitle": "16.4 Gravitational Effects on the Ideal Gas Model",
+    "_id": "k97dfhz5h2wkeaabwqfxdnfv2s85q0k6",
+    "correctKey": "C",
+    "explanation": "For a typical laboratory-scale container, the change in gravitational potential energy $mgh$ is negligible compared to the average kinetic energy $\\frac{1}{2}mv^2$ because molecular speeds are hundreds of meters per second and molecular masses are extremely small.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx75etfcj5vmh1wjc65n8m3ye185pazc",
+    "options": [
+      {
+        "key": "A",
+        "text": "Molecules have no mass"
+      },
+      {
+        "key": "B",
+        "text": "Gravitational force is only attractive"
+      },
+      {
+        "key": "C",
+        "text": "Average kinetic energy is much greater than gravitational potential energy change between collisions"
+      },
+      {
+        "key": "D",
+        "text": "Gas molecules move in circular paths due to gravity"
+      }
+    ],
+    "sectionId": "why-gravity-is-neglected-at-laboratory-scale",
+    "sectionLabel": "Why Gravity is Neglected at Laboratory Scale",
+    "stem": "In the kinetic theory of gases, why is the gravitational potential energy of molecules typically ignored at laboratory scale?",
+    "topicId": "ms76nrm77bhgcxm4c32akkqbsn85qrmr"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-behaviour-of-matter-under-extreme-physical-conditions",
+    "topicTitle": "16.5 Behaviour of Matter Under Extreme Physical Conditions",
+    "_id": "k97et93fp45z8tq9z1bchgk5b18be1ys",
+    "correctKey": "A",
+    "explanation": "Electrons are fermions, and the Pauli exclusion principle produces electron degeneracy pressure when they are compressed.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76e3fbysr8jg8pf865qfrwh585q0k1",
+    "options": [
+      {
+        "key": "A",
+        "text": "Electron degeneracy pressure"
+      },
+      {
+        "key": "B",
+        "text": "Neutron degeneracy pressure"
+      },
+      {
+        "key": "C",
+        "text": "Radiation pressure only"
+      },
+      {
+        "key": "D",
+        "text": "Atmospheric pressure"
+      }
+    ],
+    "sectionId": "degenerate-matter",
+    "sectionLabel": "Degenerate Matter",
+    "stem": "Which pressure supports a white dwarf against gravity?",
+    "topicId": "ms77570vv2swf7hrm0j2hd01yd85q17d"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-behaviour-of-matter-under-extreme-physical-conditions",
+    "topicTitle": "16.5 Behaviour of Matter Under Extreme Physical Conditions",
+    "_id": "k972x187cdmfmnn64cxc2c448s8bf0j3",
+    "correctKey": "A",
+    "explanation": "Above the TOV limit, neutron degeneracy pressure cannot balance gravity, so continued collapse can form a black hole.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx76e3fbysr8jg8pf865qfrwh585q0k1",
+    "options": [
+      {
+        "key": "A",
+        "text": "It can collapse into a black hole"
+      },
+      {
+        "key": "B",
+        "text": "It becomes a white dwarf"
+      },
+      {
+        "key": "C",
+        "text": "Its density becomes zero"
+      },
+      {
+        "key": "D",
+        "text": "Electron pressure increases without limit"
+      }
+    ],
+    "sectionId": "neutron-stars",
+    "sectionLabel": "Neutron Stars",
+    "stem": "What happens if a neutron star exceeds the TOV limit?",
+    "topicId": "ms77570vv2swf7hrm0j2hd01yd85q17d"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-1-degenerate-matter",
+    "topicTitle": "16.5.1 Degenerate Matter",
+    "_id": "k978atg9jgatyv50ceyk9e897s8bf7sg",
+    "correctKey": "A",
+    "explanation": "Greater mass increases gravitational compression, so degenerate white-dwarf matter occupies a smaller radius.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7akwf8m269nra44s1gxtzspx85p5sb",
+    "options": [
+      {
+        "key": "A",
+        "text": "It decreases"
+      },
+      {
+        "key": "B",
+        "text": "It increases"
+      },
+      {
+        "key": "C",
+        "text": "It stays constant"
+      },
+      {
+        "key": "D",
+        "text": "It becomes infinite"
+      }
+    ],
+    "sectionId": "electron-degeneracy-pressure-and-white-dwarfs",
+    "sectionLabel": "Electron Degeneracy Pressure and White Dwarfs",
+    "stem": "How does a white dwarf's radius generally change as its mass increases?",
+    "topicId": "ms711rcmx02csxh1r1sszrzkms85pgd9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-1-degenerate-matter",
+    "topicTitle": "16.5.1 Degenerate Matter",
+    "_id": "k970tcta5jsfd3w5gmq35vgxbn8bfbk2",
+    "correctKey": "A",
+    "explanation": "The Pauli exclusion principle forbids identical fermions from sharing a quantum state, so additional particles occupy higher-energy states.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7akwf8m269nra44s1gxtzspx85p5sb",
+    "options": [
+      {
+        "key": "A",
+        "text": "Occupy higher-energy states"
+      },
+      {
+        "key": "B",
+        "text": "Share the same state"
+      },
+      {
+        "key": "C",
+        "text": "Lose all momentum"
+      },
+      {
+        "key": "D",
+        "text": "Become bosons"
+      }
+    ],
+    "sectionId": "the-pauli-exclusion-principle-and-degeneracy-pressure",
+    "sectionLabel": "The Pauli Exclusion Principle and Degeneracy Pressure",
+    "stem": "When fermions are compressed and low-energy states are filled, what must additional particles do?",
+    "topicId": "ms711rcmx02csxh1r1sszrzkms85pgd9"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-2-neutron-stars",
+    "topicTitle": "16.5.2 Neutron Stars",
+    "_id": "k971rtqkmnc644hvye7y9dy4cs85qzv9",
+    "correctKey": "B",
+    "explanation": "A teaspoon-scale sample can have a mass of billions of tons because neutron-star matter is compressed to an exceptionally high density.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73k64z6p9a6hhekm7r8t27bh85p886",
+    "options": [
+      {
+        "key": "B",
+        "text": "Extreme density"
+      },
+      {
+        "key": "A",
+        "text": "High temperature"
+      },
+      {
+        "key": "C",
+        "text": "Strong magnetic field"
+      },
+      {
+        "key": "D",
+        "text": "Rapid rotation"
+      }
+    ],
+    "sectionId": "extreme-density",
+    "sectionLabel": "Extreme Density",
+    "stem": "If a teaspoon of neutron star material has a mass of about 5 billion tons, this highlights its:",
+    "topicId": "ms7b19xgybn81s9431djn27ag185q6hz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-2-neutron-stars",
+    "topicTitle": "16.5.2 Neutron Stars",
+    "_id": "k973134t078qg9r8vc17h0jerd85pjhd",
+    "correctKey": "B",
+    "explanation": "Stars with initial masses between 10-25 $M_{\\odot}$ end their lives in Type II supernovae, leaving behind neutron stars. Smaller stars become white dwarfs, and much larger ones become black holes.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73k64z6p9a6hhekm7r8t27bh85p886",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.5 to 1.4 Solar Masses"
+      },
+      {
+        "key": "C",
+        "text": "Over 50 Solar Masses"
+      },
+      {
+        "key": "B",
+        "text": "10 to 25 Solar Masses"
+      },
+      {
+        "key": "D",
+        "text": "Less than 0.08 Solar Masses"
+      }
+    ],
+    "sectionId": "formation",
+    "sectionLabel": "Formation",
+    "stem": "A neutron star is typically formed from the collapse of a star with a mass in the range of:",
+    "topicId": "ms7b19xgybn81s9431djn27ag185q6hz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-2-neutron-stars",
+    "topicTitle": "16.5.2 Neutron Stars",
+    "_id": "k972rqzs8ebzpt7zcjyt8btqf585p5rc",
+    "correctKey": "B",
+    "explanation": "This is known as the 'lighthouse effect,' where the magnetic axis is misaligned with the rotation axis, causing the beam to sweep across space.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx73k64z6p9a6hhekm7r8t27bh85p886",
+    "options": [
+      {
+        "key": "C",
+        "text": "Periodic nuclear explosions on the surface"
+      },
+      {
+        "key": "B",
+        "text": "The star's rotation bringing its radiation beam across our line of sight"
+      },
+      {
+        "key": "D",
+        "text": "Fluctuations in the star's gravitational field"
+      },
+      {
+        "key": "A",
+        "text": "The star physically expanding and contracting"
+      }
+    ],
+    "sectionId": "pulsars",
+    "sectionLabel": "Pulsars",
+    "stem": "The 'pulsing' effect of pulsars observed from Earth is primarily due to:",
+    "topicId": "ms7b19xgybn81s9431djn27ag185q6hz"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-3-bose-einstein-condensation",
+    "topicTitle": "16.5.3 Bose-Einstein Condensation",
+    "_id": "k9708qn6dj5cwm517wc5sxjjts85p8ea",
+    "correctKey": "C",
+    "explanation": "When the de Broglie wavelength is comparable to the inter-atomic spacing, the wave packets overlap, leading to condensation into the ground state.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e3z33pfkewmshv6c3zf1r6d85qehm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Zero"
+      },
+      {
+        "key": "B",
+        "text": "Smaller than the atomic radius"
+      },
+      {
+        "key": "C",
+        "text": "Comparable to the distance between atoms"
+      },
+      {
+        "key": "D",
+        "text": "Infinite"
+      }
+    ],
+    "sectionId": "role-of-the-de-broglie-wavelength",
+    "sectionLabel": "Role of the de Broglie Wavelength",
+    "stem": "Bose-Einstein Condensation occurs when the temperature is so low that the de Broglie wavelength becomes:",
+    "topicId": "ms7b94b99wqfxmbeytjgnc9vnd85pgt0"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-3-bose-einstein-condensation",
+    "topicTitle": "16.5.3 Bose-Einstein Condensation",
+    "_id": "k97fn89x9gcwkec8nyq1x90zzn85p5d4",
+    "correctKey": "B",
+    "explanation": "At ultra-low temperatures, the wave functions of bosons overlap, causing them to lose their individual identity and behave as a single quantum state.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e3z33pfkewmshv6c3zf1r6d85qehm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Independent classical particles"
+      },
+      {
+        "key": "B",
+        "text": "A single super-atom or coherent wave"
+      },
+      {
+        "key": "C",
+        "text": "A high-energy plasma"
+      },
+      {
+        "key": "D",
+        "text": "A rigid crystalline solid"
+      }
+    ],
+    "sectionId": "what-is-a-bose-einstein-condensate",
+    "sectionLabel": "What is a Bose-Einstein Condensate?",
+    "stem": "In a Bose-Einstein Condensate, the atoms behave as:",
+    "topicId": "ms7b94b99wqfxmbeytjgnc9vnd85pgt0"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-3-bose-einstein-condensation",
+    "topicTitle": "16.5.3 Bose-Einstein Condensation",
+    "_id": "k97dxbn0sjn6w18xnyxxzd5qa185qj9k",
+    "correctKey": "B",
+    "explanation": "Eric Cornell and Carl Wieman produced the first BEC using Rubidium-87 atoms at the University of Colorado.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e3z33pfkewmshv6c3zf1r6d85qehm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hydrogen"
+      },
+      {
+        "key": "B",
+        "text": "Rubidium"
+      },
+      {
+        "key": "C",
+        "text": "Iron"
+      },
+      {
+        "key": "D",
+        "text": "Oxygen"
+      }
+    ],
+    "sectionId": "what-is-a-bose-einstein-condensate",
+    "sectionLabel": "What is a Bose-Einstein Condensate?",
+    "stem": "The first experimental observation of BEC in dilute gases was achieved in 1995 using which element?",
+    "topicId": "ms7b94b99wqfxmbeytjgnc9vnd85pgt0"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-3-bose-einstein-condensation",
+    "topicTitle": "16.5.3 Bose-Einstein Condensation",
+    "_id": "k972bqhzd0vnvxybt09e9wdvk985q7sa",
+    "correctKey": "C",
+    "explanation": "Electrons, protons, and neutrons are fermions with half-integer spin and obey the Pauli Exclusion Principle, preventing them from sharing a quantum state. Helium-4 atoms have integer total spin and are bosons, allowing BEC formation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7e3z33pfkewmshv6c3zf1r6d85qehm",
+    "options": [
+      {
+        "key": "A",
+        "text": "Electrons"
+      },
+      {
+        "key": "B",
+        "text": "Protons"
+      },
+      {
+        "key": "C",
+        "text": "Helium-4 atoms"
+      },
+      {
+        "key": "D",
+        "text": "Neutrons"
+      }
+    ],
+    "sectionId": "which-particles-can-form-a-bec",
+    "sectionLabel": "Which Particles Can Form a BEC?",
+    "stem": "Which of the following particles can form a Bose-Einstein Condensate?",
+    "topicId": "ms7b94b99wqfxmbeytjgnc9vnd85pgt0"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-4-superfluidity",
+    "topicTitle": "16.5.4 Superfluidity",
+    "_id": "k974cjv5dfppc4czp46rktz3gn8bfvcx",
+    "correctKey": "A",
+    "explanation": "Helium-4 atoms are bosons, so a macroscopic fraction can occupy a coherent low-energy state related to Bose-Einstein condensation.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx776ctdfyjqrsrv8tfrkza3w985pfcr",
+    "options": [
+      {
+        "key": "A",
+        "text": "Its atoms are bosons that can form a coherent ground state"
+      },
+      {
+        "key": "B",
+        "text": "Its atoms obey only classical mechanics"
+      },
+      {
+        "key": "C",
+        "text": "It becomes a plasma"
+      },
+      {
+        "key": "D",
+        "text": "Its viscosity increases without limit"
+      }
+    ],
+    "sectionId": "connection-to-bose-einstein-condensation",
+    "sectionLabel": "Connection to Bose-Einstein Condensation",
+    "stem": "Why can helium-4 exhibit superfluidity?",
+    "topicId": "ms71satnxysc9hwgrjef0gmndh85p2q3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-4-superfluidity",
+    "topicTitle": "16.5.4 Superfluidity",
+    "_id": "k977k82yea36pxsyzynn7s2h018bfc1v",
+    "correctKey": "A",
+    "explanation": "The lambda transition of helium-4 occurs at approximately 2.17 K.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx776ctdfyjqrsrv8tfrkza3w985pfcr",
+    "options": [
+      {
+        "key": "A",
+        "text": "$2.17\\,\\mathrm{K}$"
+      },
+      {
+        "key": "B",
+        "text": "$77\\,\\mathrm{K}$"
+      },
+      {
+        "key": "C",
+        "text": "$273\\,\\mathrm{K}$"
+      },
+      {
+        "key": "D",
+        "text": "$4.2\\,\\mathrm{K}$"
+      }
+    ],
+    "sectionId": "liquid-helium-and-the-lambda-point",
+    "sectionLabel": "Liquid Helium and the Lambda Point",
+    "stem": "Below what temperature does helium-4 enter the helium II superfluid phase?",
+    "topicId": "ms71satnxysc9hwgrjef0gmndh85p2q3"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-5-superconductivity",
+    "topicTitle": "16.5.5 Superconductivity",
+    "_id": "k972v95w15651gyazf63nt38ph8bhd27",
+    "correctKey": "B",
+    "explanation": "Maglev trains use magnetic levitation, made possible by the Meissner effect, in which a superconductor expels magnetic flux from its interior.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ctd29m7kkqzmcanhb8vnyfh85pgnk",
+    "options": [
+      {
+        "key": "A",
+        "text": "MRI machines"
+      },
+      {
+        "key": "B",
+        "text": "Maglev trains"
+      },
+      {
+        "key": "C",
+        "text": "Lossless power transmission"
+      },
+      {
+        "key": "D",
+        "text": "Particle accelerator beam focusing"
+      }
+    ],
+    "sectionId": "applications-of-superconductors",
+    "sectionLabel": "Applications of Superconductors",
+    "stem": "Which application of superconductivity relies on the Meissner effect (expulsion of magnetic flux)?",
+    "topicId": "ms73fhgycpc1ycv562rx657ych85q63n"
+  },
+  {
+    "subjectSlug": "physics-12",
+    "chapterSlug": "16-statistical-mechanics-and-thermodynamics",
+    "chapterTitle": "Statistical Mechanics And Thermodynamics",
+    "topicSlug": "16-5-5-superconductivity",
+    "topicTitle": "16.5.5 Superconductivity",
+    "_id": "k9773htssxekkxvpfepbjt3s9n85p137",
+    "correctKey": "C",
+    "explanation": "YBCO is a ceramic material that becomes superconducting at $92\\ \\mathrm{K}$, which is above the liquid nitrogen threshold.",
+    "lastAttempt": null,
+    "locked": false,
+    "noteId": "kx7ctd29m7kkqzmcanhb8vnyfh85pgnk",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aluminum"
+      },
+      {
+        "key": "B",
+        "text": "Mercury"
+      },
+      {
+        "key": "C",
+        "text": "Yttrium Barium Copper Oxide (YBCO)"
+      },
+      {
+        "key": "D",
+        "text": "Lead"
+      }
+    ],
+    "sectionId": "high-temperature-superconductors-hts",
+    "sectionLabel": "High-Temperature Superconductors (HTS)",
+    "stem": "Which of the following materials is known as a High-Temperature Superconductor?",
+    "topicId": "ms73fhgycpc1ycv562rx657ych85q63n"
+  }
+]
